@@ -79,7 +79,7 @@ function fmt(b) {
   return (b / 1024 / 1024).toFixed(2) + ' MB';
 }
 
-let derived = [], manifest = [];
+let derived = [], manifest = [], captionsBySha = new Map();
 
 async function init() {
   try {
@@ -91,6 +91,11 @@ async function init() {
     document.getElementById('grid').innerHTML = `<div class="empty-grid">load failed: ${e.message}<br>are you running via the static server (npm run dashboard) and not file://?</div>`;
     return;
   }
+  // Captions are optional — load if present
+  try {
+    const caps = await loadJsonl('../extract/captions.jsonl');
+    for (const c of caps) if (c.sha256 && c.parsed) captionsBySha.set(c.sha256, c.parsed);
+  } catch {}
   document.getElementById('stat-items').textContent = derived.length;
   const totalBytes = derived.reduce((a, r) => a + (r.bytes || 0), 0);
   document.getElementById('stat-bytes').textContent = fmt(totalBytes);
@@ -141,6 +146,7 @@ function render() {
           ${d.agency ? `<span class="tag agency-${d.agency}">${d.agency}</span>` : ''}
           ${d.kind ? `<span class="tag">${d.kind}</span>` : ''}
           ${d.doc_type && d.doc_type !== 'Photo' ? `<span class="tag">${d.doc_type}</span>` : ''}
+          ${(() => { const c = captionsBySha.get(d.sha256); if (!c) return ''; const r = c.redaction_blocks; if (r == null) return ''; const cls = r >= 8 ? 'tag" style="color:var(--bad);border-color:#5f1f1f;' : r >= 4 ? 'tag" style="color:var(--warn);border-color:#6b4d10;' : 'tag'; return `<span class="${cls}">${r} redactions</span>`; })()}
         </div>
       </div>
     </div>
@@ -150,23 +156,53 @@ function render() {
   }
 }
 
+function escapeHtml(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
 function showDetail(d) {
   for (const c of document.querySelectorAll('.card.active')) c.classList.remove('active');
   for (const c of document.querySelectorAll('.card')) {
     if (parseInt(c.dataset.i) === derived.indexOf(d)) c.classList.add('active');
   }
   const m = manifest.find(r => r.url === d.url) || {};
+  const cap = captionsBySha.get(d.sha256);
   const detail = document.getElementById('detail');
-  detail.innerHTML = `
-    <h2>${d.doc_id || d.name}</h2>
-    <div class="preview"><img src="../${d.blob_path}" alt="${d.name}"></div>
+  const list = (arr) => arr && arr.length ? arr.map(escapeHtml).join(' · ') : '—';
+  const capBlock = cap ? `
+    <h3 style="font-size:0.85rem;margin:1rem 0 0.5rem;color:var(--accent);">vision analysis</h3>
+    <p style="margin:0 0 0.75rem;font-size:0.85rem;line-height:1.55;">${escapeHtml(cap.headline)}</p>
     <dl>
-      <dt>filename</dt><dd>${d.name}</dd>
+      <dt>kind</dt><dd>${escapeHtml(cap.what_is_it)}</dd>
+      <dt>redactions</dt><dd>${cap.redaction_blocks ?? '—'} ${cap.redaction_blocks >= 8 ? '<span style="color:var(--bad);">heavy</span>' : cap.redaction_blocks >= 4 ? '<span style="color:var(--warn);">moderate</span>' : ''}</dd>
+      <dt>specificity</dt><dd>${cap.specificity_score ?? '—'} / 10</dd>
+      <dt>objects</dt><dd>${list(cap.objects_described)}</dd>
+      <dt>places</dt><dd>${list(cap.places)}</dd>
+      <dt>dates seen</dt><dd>${list(cap.dates_seen)}</dd>
+      <dt>agency marks</dt><dd>${list(cap.agency_markings)}</dd>
+      <dt>OCR text</dt><dd style="font-family:ui-monospace,monospace;font-size:0.75rem;white-space:pre-wrap;">${escapeHtml(cap.ocr_text) || '—'}</dd>
+    </dl>
+    ${cap.novelty_signals && cap.novelty_signals.length ? `
+      <h3 style="font-size:0.85rem;margin:1rem 0 0.4rem;color:var(--warn);">novelty signals</h3>
+      <ul style="margin:0;padding-left:1.2rem;font-size:0.8rem;line-height:1.45;">
+        ${cap.novelty_signals.map(n => `<li>${escapeHtml(n)}</li>`).join('')}
+      </ul>` : ''}
+    ${cap.notes ? `<p style="font-size:0.78rem;color:var(--dim);margin:0.75rem 0 0;line-height:1.45;">${escapeHtml(cap.notes)}</p>` : ''}
+  ` : `<p style="color:var(--dim);font-size:0.8rem;margin:1rem 0 0;">no vision caption yet — run <code>node extract/describe-images.mjs</code></p>`;
+
+  detail.innerHTML = `
+    <h2>${escapeHtml(d.doc_id || d.name)}</h2>
+    <div class="preview"><img src="../${d.blob_path}" alt="${escapeHtml(d.name)}"></div>
+    <h3 style="font-size:0.85rem;margin:1rem 0 0.5rem;color:var(--accent);">filename metadata</h3>
+    <dl>
+      <dt>filename</dt><dd>${escapeHtml(d.name)}</dd>
       <dt>agency</dt><dd>${d.agency || '—'}</dd>
       <dt>doc type</dt><dd>${d.doc_type || '—'}</dd>
       <dt>doc id</dt><dd>${d.doc_id || '—'}</dd>
       <dt>region</dt><dd>${d.region || '—'}</dd>
       <dt>date</dt><dd>${d.date_str || '—'}${d.date_iso ? ` <span class="hash">(${d.date_iso})</span>` : ''}</dd>
+    </dl>
+    ${capBlock}
+    <h3 style="font-size:0.85rem;margin:1rem 0 0.5rem;color:var(--accent);">provenance</h3>
+    <dl>
       <dt>bytes</dt><dd>${fmt(d.bytes)}</dd>
       <dt>content-type</dt><dd>${d.content_type || '—'}</dd>
       <dt>sha256</dt><dd class="hash">${d.sha256} <button class="copy" onclick="navigator.clipboard.writeText('${d.sha256}')">copy</button></dd>
@@ -176,7 +212,7 @@ function showDetail(d) {
       <dt>etag</dt><dd>${m.etag || '—'}</dd>
       <dt>cache-control</dt><dd>${m.cache_control || '—'}</dd>
       <dt>server</dt><dd>${m.server || '—'}</dd>
-      <dt>source url</dt><dd><a href="${d.url}" target="_blank">${d.url}</a></dd>
+      <dt>source url</dt><dd><a href="${d.url}" target="_blank">${escapeHtml(d.url)}</a></dd>
     </dl>
   `;
 }
