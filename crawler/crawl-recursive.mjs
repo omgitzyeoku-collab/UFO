@@ -9,6 +9,8 @@ import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+import os from 'node:os';
 
 chromium.use(StealthPlugin());
 
@@ -53,9 +55,30 @@ const SCOPES = [
   },
   {
     domain: 'www.cia.gov',
-    include: [/^https:\/\/www\.cia\.gov\/readingroom\/(historical-collections\/ufos|search\/site\/ufo|document\/.*ufo|collection\/ufo)/i],
+    include: [/^https:\/\/www\.cia\.gov\/readingroom\/(historical-collections|search|document|collection|node|browse)/i, /^https:\/\/www\.cia\.gov\/static\/.*\.pdf/i],
+    exclude: [/#/i, /\/login/i, /\/user/i],
+    max_pages: 500,
+    follow_links: true,
+  },
+  {
+    domain: 'science.nasa.gov',
+    include: [/^https:\/\/science\.nasa\.gov\/(uap|wp-content\/uploads\/.*\.(pdf|jpg|jpeg|png))/i],
     exclude: [/#/i],
-    max_pages: 300,
+    max_pages: 100,
+    follow_links: true,
+  },
+  {
+    domain: 'www.nasa.gov',
+    include: [/^https:\/\/www\.nasa\.gov\/.*(uap|unidentified)/i, /^https:\/\/www\.nasa\.gov\/wp-content\/uploads\/.*\.pdf/i],
+    exclude: [/#/i],
+    max_pages: 80,
+    follow_links: true,
+  },
+  {
+    domain: 'catalog.archives.gov',
+    include: [/^https:\/\/catalog\.archives\.gov\/(id|search\?q=(?:unidentified|UAP|UFO))/i],
+    exclude: [/#/i, /\/login/i],
+    max_pages: 200,
     follow_links: true,
   },
 ];
@@ -75,6 +98,21 @@ const seeds = [
   'https://vault.fbi.gov/UFO',
   'https://www.cia.gov/readingroom/historical-collections/ufos-fact-fiction-or-classified',
   'https://www.cia.gov/readingroom/collection/ufos-fact-fiction-or-classified',
+  'https://www.cia.gov/readingroom/search/site/UFO',
+  'https://www.cia.gov/readingroom/search/site/unidentified%20flying%20object',
+  'https://www.cia.gov/readingroom/search/site/UAP',
+  // NASA UAP
+  'https://science.nasa.gov/uap/',
+  'https://science.nasa.gov/wp-content/uploads/2023/09/uap-independent-study-team-final-report.pdf',
+  'https://science.nasa.gov/wp-content/uploads/2024/01/public-meeting-agenda-tagged.pdf',
+  'https://science.nasa.gov/wp-content/uploads/2024/01/frn-uapist-public-meeting-tagged.pdf',
+  'https://science.nasa.gov/wp-content/uploads/2023/04/UAPISTTermsofReference_Signed.pdf',
+  // NARA catalog UAP records
+  'https://catalog.archives.gov/search?q=unidentified%20aerial%20phenomena',
+  'https://catalog.archives.gov/search?q=UFO',
+  'https://catalog.archives.gov/id/493495781',
+  'https://catalog.archives.gov/id/580705285',
+  'https://catalog.archives.gov/id/6277769',
 ];
 
 function ruleFor(url) {
@@ -153,9 +191,6 @@ page.on('response', async (resp) => {
     });
   } catch {}
 });
-
-import { spawnSync } from 'node:child_process';
-import os from 'node:os';
 
 function fetchViaCurl(url, referer) {
   const args = [
