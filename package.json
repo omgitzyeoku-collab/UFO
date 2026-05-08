@@ -1,0 +1,17 @@
+{
+  "name": "ufo-archive",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Archival mirror, manifest, and analysis layer for war.gov/ufo/",
+  "scripts": {
+    "scout": "node crawler/scout.mjs",
+    "crawl": "node crawler/crawl.mjs",
+    "manifest:sign": "node manifest/sign.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "p-limit": "^6.1.0",
+    "robots-parser": "^3.0.1"
+  }
+}

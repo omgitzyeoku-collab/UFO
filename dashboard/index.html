@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>UFO Archive — war.gov/UFO/ mirror</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    --bg: #0a0a0c; --panel: #15161a; --line: #2a2c33; --text: #e6e7ea; --dim: #8a8d96;
+    --accent: #6ee7b7; --warn: #fbbf24; --bad: #f87171;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; background: var(--bg); color: var(--text); }
+  header { display: flex; align-items: baseline; gap: 1.5rem; padding: 1rem 1.5rem; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  header h1 { font-size: 1rem; margin: 0; font-weight: 600; }
+  header .stat { color: var(--dim); }
+  header .stat strong { color: var(--text); }
+  .filters { display: flex; gap: 0.5rem; padding: 0.75rem 1.5rem; border-bottom: 1px solid var(--line); flex-wrap: wrap; align-items: center; }
+  .filters input, .filters select { background: var(--panel); border: 1px solid var(--line); color: var(--text); padding: 0.4rem 0.6rem; border-radius: 4px; font: inherit; }
+  .filters input:focus, .filters select:focus { outline: 1px solid var(--accent); }
+  main { display: grid; grid-template-columns: 1fr 480px; min-height: calc(100vh - 110px); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.75rem; padding: 1rem 1.5rem; overflow: auto; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 0.5rem; cursor: pointer; transition: border-color 0.1s; }
+  .card:hover, .card.active { border-color: var(--accent); }
+  .card img { width: 100%; height: 180px; object-fit: cover; border-radius: 4px; background: #000; display: block; }
+  .card .meta { padding: 0.5rem 0.25rem 0.25rem; }
+  .card .id { font-weight: 600; color: var(--text); font-size: 0.85rem; }
+  .card .sub { color: var(--dim); font-size: 0.75rem; margin-top: 0.25rem; }
+  .card .tags { display: flex; gap: 0.25rem; margin-top: 0.4rem; flex-wrap: wrap; }
+  .tag { font-size: 0.7rem; background: #1f2128; border: 1px solid var(--line); padding: 0.1rem 0.4rem; border-radius: 3px; color: var(--dim); }
+  .tag.agency-DOW { color: #fbbf24; border-color: #6b4d10; }
+  .tag.agency-FBI { color: #60a5fa; border-color: #1e3a5f; }
+  .tag.agency-NASA { color: #f87171; border-color: #5f1f1f; }
+  aside { border-left: 1px solid var(--line); padding: 1rem 1.25rem; overflow: auto; }
+  aside h2 { font-size: 0.95rem; margin: 0 0 0.5rem; }
+  aside .preview img { max-width: 100%; border: 1px solid var(--line); border-radius: 4px; background: #000; }
+  aside dl { display: grid; grid-template-columns: 130px 1fr; gap: 0.3rem 1rem; margin: 0.75rem 0; font-size: 0.8rem; }
+  aside dt { color: var(--dim); }
+  aside dd { margin: 0; word-break: break-all; }
+  aside .empty { color: var(--dim); padding: 2rem 0; text-align: center; }
+  aside a { color: var(--accent); text-decoration: none; }
+  aside a:hover { text-decoration: underline; }
+  aside .hash { font-size: 0.7rem; color: var(--dim); }
+  aside .copy { background: transparent; border: 1px solid var(--line); color: var(--dim); cursor: pointer; padding: 2px 6px; font: inherit; font-size: 0.7rem; border-radius: 3px; margin-left: 4px; }
+  aside .copy:hover { color: var(--text); border-color: var(--accent); }
+  .empty-grid { color: var(--dim); padding: 2rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>UFO Archive — war.gov/UFO/ mirror</h1>
+  <span class="stat">Crawl: <strong id="stat-crawl">…</strong></span>
+  <span class="stat">Items: <strong id="stat-items">…</strong></span>
+  <span class="stat">Total: <strong id="stat-bytes">…</strong></span>
+  <span class="stat">Source: <a href="https://www.war.gov/UFO/" target="_blank" style="color:var(--accent);">war.gov/UFO/</a></span>
+</header>
+<div class="filters">
+  <input id="q" placeholder="search filename, region, doc id…" style="flex: 1; min-width: 240px;">
+  <select id="f-agency"><option value="">all agencies</option></select>
+  <select id="f-kind"><option value="">all types</option></select>
+  <select id="f-region"><option value="">all regions</option></select>
+</div>
+<main>
+  <section id="grid" class="grid"><div class="empty-grid">loading…</div></section>
+  <aside id="detail"><div class="empty">click a card to view details</div></aside>
+</main>
+<script>
+async function loadJsonl(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
+  const t = await r.text();
+  return t.trim().split('\n').filter(Boolean).map(l => JSON.parse(l));
+}
+
+function fmt(b) {
+  if (!b && b !== 0) return '—';
+  if (b < 1024) return b + ' B';
+  if (b < 1024 * 1024) return (b / 1024).toFixed(1) + ' KB';
+  return (b / 1024 / 1024).toFixed(2) + ' MB';
+}
+
+let derived = [], manifest = [];
+
+async function init() {
+  try {
+    [derived, manifest] = await Promise.all([
+      loadJsonl('../extract/derived.jsonl'),
+      loadJsonl('../manifest/latest.jsonl'),
+    ]);
+  } catch (e) {
+    document.getElementById('grid').innerHTML = `<div class="empty-grid">load failed: ${e.message}<br>are you running via the static server (npm run dashboard) and not file://?</div>`;
+    return;
+  }
+  document.getElementById('stat-items').textContent = derived.length;
+  const totalBytes = derived.reduce((a, r) => a + (r.bytes || 0), 0);
+  document.getElementById('stat-bytes').textContent = fmt(totalBytes);
+  const crawlId = manifest[0]?.crawl_id || '—';
+  document.getElementById('stat-crawl').textContent = crawlId;
+
+  populateSelect('f-agency', uniq(derived.map(d => d.agency).filter(Boolean)));
+  populateSelect('f-kind', uniq(derived.map(d => d.kind).filter(Boolean)));
+  populateSelect('f-region', uniq(derived.map(d => d.region).filter(Boolean)));
+  ['q', 'f-agency', 'f-kind', 'f-region'].forEach(id => document.getElementById(id).addEventListener('input', render));
+  render();
+}
+
+function uniq(a) { return [...new Set(a)].sort(); }
+function populateSelect(id, vals) {
+  const el = document.getElementById(id);
+  for (const v of vals) {
+    const o = document.createElement('option');
+    o.value = v; o.textContent = v;
+    el.appendChild(o);
+  }
+}
+
+function render() {
+  const q = document.getElementById('q').value.toLowerCase().trim();
+  const fa = document.getElementById('f-agency').value;
+  const fk = document.getElementById('f-kind').value;
+  const fr = document.getElementById('f-region').value;
+  const items = derived.filter(d => {
+    if (fa && d.agency !== fa) return false;
+    if (fk && d.kind !== fk) return false;
+    if (fr && d.region !== fr) return false;
+    if (q) {
+      const hay = [d.name, d.region, d.agency, d.doc_id, d.doc_type, d.date_str].filter(Boolean).join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  const grid = document.getElementById('grid');
+  if (!items.length) { grid.innerHTML = `<div class="empty-grid">no matches</div>`; return; }
+  grid.innerHTML = items.map((d, i) => `
+    <div class="card" data-i="${derived.indexOf(d)}">
+      <img loading="lazy" src="../${d.blob_path}" alt="${d.name}">
+      <div class="meta">
+        <div class="id">${d.doc_id || d.name}</div>
+        <div class="sub">${d.region || ''}${d.region && d.date_str ? ' · ' : ''}${d.date_str || ''}</div>
+        <div class="tags">
+          ${d.agency ? `<span class="tag agency-${d.agency}">${d.agency}</span>` : ''}
+          ${d.kind ? `<span class="tag">${d.kind}</span>` : ''}
+          ${d.doc_type && d.doc_type !== 'Photo' ? `<span class="tag">${d.doc_type}</span>` : ''}
+        </div>
+      </div>
+    </div>
+  `).join('');
+  for (const card of grid.querySelectorAll('.card')) {
+    card.addEventListener('click', () => showDetail(derived[card.dataset.i]));
+  }
+}
+
+function showDetail(d) {
+  for (const c of document.querySelectorAll('.card.active')) c.classList.remove('active');
+  for (const c of document.querySelectorAll('.card')) {
+    if (parseInt(c.dataset.i) === derived.indexOf(d)) c.classList.add('active');
+  }
+  const m = manifest.find(r => r.url === d.url) || {};
+  const detail = document.getElementById('detail');
+  detail.innerHTML = `
+    <h2>${d.doc_id || d.name}</h2>
+    <div class="preview"><img src="../${d.blob_path}" alt="${d.name}"></div>
+    <dl>
+      <dt>filename</dt><dd>${d.name}</dd>
+      <dt>agency</dt><dd>${d.agency || '—'}</dd>
+      <dt>doc type</dt><dd>${d.doc_type || '—'}</dd>
+      <dt>doc id</dt><dd>${d.doc_id || '—'}</dd>
+      <dt>region</dt><dd>${d.region || '—'}</dd>
+      <dt>date</dt><dd>${d.date_str || '—'}${d.date_iso ? ` <span class="hash">(${d.date_iso})</span>` : ''}</dd>
+      <dt>bytes</dt><dd>${fmt(d.bytes)}</dd>
+      <dt>content-type</dt><dd>${d.content_type || '—'}</dd>
+      <dt>sha256</dt><dd class="hash">${d.sha256} <button class="copy" onclick="navigator.clipboard.writeText('${d.sha256}')">copy</button></dd>
+      <dt>blob</dt><dd class="hash">${d.blob_path}</dd>
+      <dt>retrieved</dt><dd>${m.retrieved_at || '—'}</dd>
+      <dt>last-modified</dt><dd>${m.last_modified || '—'}</dd>
+      <dt>etag</dt><dd>${m.etag || '—'}</dd>
+      <dt>cache-control</dt><dd>${m.cache_control || '—'}</dd>
+      <dt>server</dt><dd>${m.server || '—'}</dd>
+      <dt>source url</dt><dd><a href="${d.url}" target="_blank">${d.url}</a></dd>
+    </dl>
+  `;
+}
+
+init();
+</script>
+</body>
+</html>
