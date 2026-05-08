@@ -46,6 +46,11 @@ if (changesDetected && !SKIP_DESCRIBE) {
   run('node', ['extract/describe-images.mjs']);
 }
 
+// 5b. Rebuild entity graph + report (cheap, idempotent — run every tick to stay current)
+console.log('\n=== REBUILDING ENTITY GRAPH + REPORT ===');
+run('node', ['extract/build-graph.mjs']);
+run('node', ['extract/report.mjs']);
+
 // 6. Commit + push every tick (NOT just on change). Reasons:
 //    - Per-crawl manifest snapshots are written every run and worth committing for audit trail
 //    - Signed sidecar updates every run too

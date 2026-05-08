@@ -10,6 +10,7 @@
     "manifest:sign": "node manifest/sign.mjs"
   },
   "dependencies": {
+    "@duckdb/node-api": "^1.5.2-r.1",
     "p-limit": "^6.1.0",
     "playwright": "^1.49.0",
     "playwright-extra": "^4.3.6",
