@@ -1,109 +1,128 @@
-# UFO Archive — war.gov/UFO/ mirror
+# UFO Archive — war.gov/UFO/ Release 01 mirror
 
-An archival mirror, manifest, and analysis layer for the US Department of War's
-[PURSUE](https://www.war.gov/UFO/) (Presidential Unsealing and Reporting System
-for UAP Encounters) public release, launched 2026-05-08. Files are released on
-a rolling basis; this project detects each tranche and preserves a signed,
-hash-anchored snapshot.
+Full mirror of the US Department of War's [PURSUE](https://www.war.gov/UFO/)
+(Presidential Unsealing and Reporting System for UAP Encounters) public
+release, captured 2026-05-08.
 
-Repo: <https://github.com/omgitzyeoku-collab/UFO> (private)
-Daily tick: Windows scheduled task `UFO-Archive-Tick`, 09:00 local
-Telegram alerts via Vega when changes are detected
+## Where the data lives
 
-## Why this exists
+**Canonical: GitHub Release →**
+<https://github.com/omgitzyeoku-collab/UFO/releases/tag/v1.0-release-01-mirror>
 
-The Department of War can edit, redact further, or quietly remove what's
-posted. Every artefact captured here is content-addressed by SHA-256 and
-recorded in a per-crawl manifest, so changes are detectable rather than silent.
-Provenance is the product.
+- 116 PDFs, each individually downloadable with its original filename
+- `thumbnails.tar.gz` — 130 thumbnail images
+- 117 assets total, 2.4 GB
 
-## Layout
+**Authoritative manifest:** [`extract/release-manifest.jsonl`](extract/release-manifest.jsonl)
+— one row per artefact with sha256, release URL, original URL, CSV-derived metadata
+(title, agency, incident date, location, description). Anyone with the manifest can
+independently verify any asset by SHA-256 against the Release download.
+
+**CSV index from war.gov/UFO/:** [`docs/uap-csv.csv`](docs/uap-csv.csv) (raw),
+[`docs/uap-csv-parsed.json`](docs/uap-csv-parsed.json) (parsed) — the document
+index that lives at `war.gov/Portals/1/Interactive/2026/UFO/uap-csv.csv` and
+drives the SPA.
+
+## Inventory
+
+161 records in the CSV map to 116 unique PDFs (some records share assets) plus
+130 unique thumbnails. By agency:
+
+- **Department of War** — UAP mission reports by location (Strait of Hormuz,
+  Iran, Persian Gulf, Syria, Gulf of Aden, Djibouti, Arabian Gulf), Unresolved
+  UAP Report series (PR-19, 26, 34, 35, 38, 43, 45, 46, 49), composite sketch
+- **NASA** — Apollo 11 / 12 / 17 transcripts and crew debriefings, Skylab
+  technical crew debriefing (1969–1973)
+- **Department of State** — UAP cables (Papua New Guinea 1985, Kazakhstan 1994,
+  Georgia 2001, etc.) — `dos-uap-d*` and `059uap*` series
+- **FBI** — `62-HQ-83894` case file in 10+ sections (full case file with newly
+  declassified pages vs. the partial copy on vault.fbi.gov), `FBI-Photo-B1` to
+  `B24` series, redacted serials 3/4/5, US person statement
+- **NARA-style historical** — flying-discs records 1949 (box 186), German
+  armament documents 1944–45, intel collection records 1948–55 (Top Secret
+  controlled), various numerical files
+
+## Pipeline
 
 ```
 crawler/
-  scout.mjs           # one-shot site recon
-  enumerate.mjs       # deep render + lazy-load triggers
-  crawl.mjs           # production crawler, response-listener auto-capture
+  scout-source.mjs              # one-shot recon of any URL
+  probe-stealth.mjs             # validate Akamai bypass before a real crawl
+  war-gov-spa-enumerate.mjs     # discover the SPA's hidden CSV index
+  war-gov-medialink-corpus.mjs  # download every PDF + thumbnail in CSV
+  retry-failed.mjs              # retry any failed URL idempotently
 manifest/
-  manifest-<crawl_id>.jsonl   # per-crawl snapshot (never overwritten)
-  latest.jsonl                # convenience copy of most recent crawl
-  latest.jsonl.asc            # GPG detached signature (if key configured)
-  latest.jsonl.sha256.json    # SHA-256 sidecar (fallback when no GPG key)
-  diff.mjs                    # compare two manifests
-  sign.mjs                    # GPG-sign or sha256-attest the latest manifest
-  last-diff.json              # most recent diff result (consumed by alerts)
-blobs/
-  <ab>/<cd>/<sha256>          # content-addressable blob store
+  manifest-medialink-*.jsonl    # per-crawl snapshot of medialink fetches
+  manifest-medialink-retry-*.jsonl  # retry results
 extract/
-  parse-filenames.mjs # structured fields from DOW/FBI/NASA filenames
-  derived.jsonl       # parsed metadata per asset
-dashboard/
-  index.html          # vanilla JS dashboard
-  serve.mjs           # tiny static server (no Next.js required)
+  release-manifest.jsonl        # AUTHORITATIVE manifest (sha256 + release URL + CSV metadata)
+  text/<sha256>.txt             # pdftotext extraction per PDF
+  extract-pdf-text.mjs          # runs pdftotext over every PDF
+  text-index.jsonl              # index of extracted text snippets
+docs/
+  uap-csv.csv                   # the war.gov document index
+  uap-csv-parsed.json           # same, parsed to JSON
 scripts/
-  tick.mjs            # crawl + parse + sign + diff + alert
-docs/                 # screenshots, raw HTML, scout output
+  publish-release.mjs           # uploads PDFs to GitHub Release as named assets
+blobs/                          # local content-addressable cache (gitignored)
+  <ab>/<cd>/<sha256>            # canonical artefacts also live in the Release
 ```
 
-## Running
+## Running from scratch
 
 ```bash
 npm install
-npx playwright install chrome      # one-time
+npx playwright install chromium
 
-# manual
-node crawler/crawl.mjs              # capture current state
-node extract/parse-filenames.mjs    # derive structured records
-node manifest/sign.mjs              # sign or attest manifest
-node manifest/diff.mjs              # diff vs previous crawl
+# 1. Acquire (downloads everything from war.gov/UFO/ via the CSV index)
+node crawler/war-gov-medialink-corpus.mjs
 
-# dashboard
-cd dashboard && node serve.mjs      # http://localhost:4173/
+# 2. (optional) Retry any failures
+node crawler/retry-failed.mjs
 
-# scheduled tick (crawl → parse → sign → diff → alert if changed)
-node scripts/tick.mjs
+# 3. Extract PDF text
+node extract/extract-pdf-text.mjs
+
+# 4. Publish to GitHub Release (idempotent — skips already-uploaded assets)
+node scripts/publish-release.mjs
 ```
 
-## Bot manager note
+## Bot manager / acquisition notes
 
-`www.war.gov` sits behind Akamai Bot Manager. Headless-shell is blocked.
-The crawler runs system Chrome via Playwright's `channel: 'chrome'` with
-the `webdriver` flag suppressed. For unattended scheduled runs, see
-[crawler/STEALTH.md](crawler/STEALTH.md) for the playwright-extra-stealth
-fallback (planned).
+`www.war.gov` sits behind Akamai Bot Manager. Three things had to be true for
+the corpus to be acquirable end-to-end:
+
+1. **Headless-shell + playwright-extra-stealth** for the page renders. Plain
+   headless Chromium is blocked at TLS-fingerprint level.
+2. **In-page warmup** — visit `war.gov/UFO/` first so Akamai cookies land in
+   the browser context. The CSV fetch and subsequent downloads then inherit
+   that context.
+3. **Native browser download** for the PDFs — using `<a download>` injection
+   plus `page.waitForEvent('download')`. Direct `context.request.get` returns
+   403 (different TLS fingerprint than the rendered page); in-page `fetch` +
+   `arrayBuffer` blew Node's heap on the larger PDFs (Apollo crew debriefing
+   is 28 MB, NARA box-186 flying-discs is 120 MB). Native download streams
+   straight to disk.
 
 ## Verification
 
-Each crawl writes a manifest row per artefact with `sha256`, `retrieved_at`,
-HTTP status, and response headers (Last-Modified, ETag, Cache-Control,
-Server). Anyone with the manifest and the blob store can independently
-verify what was on war.gov/UFO/ at the time of the crawl by recomputing
-the hash.
+Every PDF was verified byte-complete via `%%EOF` end-marker check after
+download (116 / 116 ✓). To verify against the Release:
 
-## Filename convention (parsed automatically)
-
-```
-DOW-UAP-PR{N}-Unresolved-UAP-Report-{Region}-{Date}.jpg
-FBI-Photo-{Series}{N}.jpg
-NASA-UAP-{Mission ID}-Apollo-{N}-{Year}.jpg
-{YYYY-MM-DD}-{Description}.jpg
+```bash
+# pick any record from extract/release-manifest.jsonl
+sha256sum < (curl -sSL <release_url>)
+# compare to .sha256 field in the manifest
 ```
 
-The Pentagon's filename convention encodes agency, document ID, region, and
-date — the parser extracts these into queryable fields without OCR.
+## Storage rationale
 
-## Release 01 inventory (2026-05-08)
+GitHub Releases was chosen over LFS / R2 / Internet Archive because:
+- 2 GB / asset is plenty for the largest PDFs in this release
+- No aggregate cap on free-tier Releases
+- Each asset has a stable `browser_download_url` that's directly citable
+- Native browseable UI in the GitHub release page
+- Zero new accounts / credentials beyond the existing repo
 
-Captured 17 unique image artefacts from the initial public release:
-
-- 9 × `DOW-UAP-PR*` Unresolved UAP Reports — sparse PR numbering (PR19, 26,
-  34, 35, 38, 43, 45, 46, 49) implies an internal series of ≥49 records of
-  which only unresolved entries are public. Regions cover Middle East (×3),
-  Greece (×2), UAE, Africa, INDOPACOM, Department of the Army.
-- 6 × FBI archival photos (FBI-Photo-1, A5, B2, B7, B18, B20).
-- 1 × NASA Apollo 17 visual material (1972).
-- 1 × composite sketch dated 2024-04-30.
-
-The press release confirms further tranches will include "videos, photos,
-and original source documents" — the diff loop catches each new tranche
-without manual re-checking.
+If/when the corpus grows past Release-friendly size, manifest still works —
+add R2 or Internet Archive URLs as additional fields per record.
