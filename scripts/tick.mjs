@@ -3,10 +3,22 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const ROOT = path.resolve('.');
+const SKIP_DESCRIBE = process.env.SKIP_DESCRIBE === '1';
+const SKIP_PUSH     = process.env.SKIP_PUSH === '1';
+const SKIP_ALERT    = process.env.SKIP_ALERT === '1';
+
 function run(cmd, args, opts = {}) {
   console.log(`\n$ ${cmd} ${args.join(' ')}`);
   const r = spawnSync(cmd, args, { stdio: 'inherit', cwd: ROOT, shell: process.platform === 'win32', ...opts });
   return r.status ?? -1;
+}
+
+function runCapture(cmd, args, opts = {}) {
+  console.log(`\n$ ${cmd} ${args.join(' ')}`);
+  const r = spawnSync(cmd, args, { encoding: 'utf8', cwd: ROOT, shell: process.platform === 'win32', ...opts });
+  if (r.stdout) process.stdout.write(r.stdout);
+  if (r.stderr) process.stderr.write(r.stderr);
+  return { exit: r.status ?? -1, stdout: r.stdout || '', stderr: r.stderr || '' };
 }
 
 const startedAt = new Date().toISOString();
@@ -24,11 +36,59 @@ run('node', ['extract/parse-filenames.mjs']);
 // 3. Sign manifest
 run('node', ['manifest/sign.mjs']);
 
-// 4. Diff
+// 4. Diff (exit code 2 = changes detected; exit code 0 = no changes)
 const diffExit = run('node', ['manifest/diff.mjs']);
+const changesDetected = diffExit === 2;
 
-// 5. Alert if changes (diff exit code 2 = changes detected)
-if (diffExit === 2) {
+// 5. If new assets appeared, describe them too (idempotent — describe-images skips already-captioned sha256s)
+if (changesDetected && !SKIP_DESCRIBE) {
+  console.log('\n=== DESCRIBING NEW ASSETS ===');
+  run('node', ['extract/describe-images.mjs']);
+}
+
+// 6. Commit + push every tick (NOT just on change). Reasons:
+//    - Per-crawl manifest snapshots are written every run and worth committing for audit trail
+//    - Signed sidecar updates every run too
+//    - last-diff.json captures even no-op runs
+//    - Push lag costs nothing; push staleness costs everything
+if (!SKIP_PUSH) {
+  console.log('\n=== COMMIT + PUSH ===');
+  // Stage everything tracked-or-new under manifest/, extract/, docs/
+  run('git', ['add', '-A', 'manifest/', 'extract/', 'docs/']);
+  const status = runCapture('git', ['status', '--porcelain']);
+  const hasChanges = status.stdout.trim().length > 0;
+  if (!hasChanges) {
+    console.log('  (working tree clean — nothing to commit)');
+  } else {
+    let title;
+    if (changesDetected) {
+      const diff = JSON.parse(await fs.readFile(path.join(ROOT, 'manifest', 'last-diff.json'), 'utf8'));
+      title = `tick: war.gov/UFO/ change detected (+${diff.summary.added} -${diff.summary.removed} ~${diff.summary.changed})`;
+    } else {
+      title = `tick: routine snapshot ${startedAt.slice(0, 16)}`;
+    }
+    const body = `Automated daily snapshot. Crawl started ${startedAt}.\n\nCo-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>`;
+    const msg = `${title}\n\n${body}\n`;
+    // Write message to a temp file (multiline -m args break under shell: true on Windows)
+    const msgFile = path.join(ROOT, '.git', 'TICK_COMMIT_MSG');
+    await fs.writeFile(msgFile, msg);
+    const commit = run('git', ['commit', '-F', msgFile]);
+    await fs.unlink(msgFile).catch(() => {});
+    if (commit !== 0) {
+      console.error(`git commit exited ${commit}`);
+    } else {
+      const push = run('git', ['push', 'origin', 'HEAD']);
+      if (push !== 0) {
+        console.error(`git push exited ${push} — left committed locally; will retry next tick`);
+      } else {
+        console.log('  pushed to origin');
+      }
+    }
+  }
+}
+
+// 7. Alert if changes (diff exit code 2 = changes detected)
+if (changesDetected && !SKIP_ALERT) {
   console.log('\n=== CHANGES DETECTED — ALERTING ===');
   const diffPath = path.join(ROOT, 'manifest', 'last-diff.json');
   const diff = JSON.parse(await fs.readFile(diffPath, 'utf8'));
