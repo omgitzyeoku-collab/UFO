@@ -1,0 +1,228 @@
+/**************/
+/*Dashboard*/
+/************/
+span.Bold
+{
+    font-weight: bold;
+}
+div.PhotoDashboard
+{
+    margin-left: 11px;
+}
+span.spanError
+{
+    color: red;
+}
+div.PromoDiv
+{
+    width: 45%;
+    float: left;
+    margin: 0 5% 0 1%;
+}
+span.PromoDate
+{
+    font-size: .828em;
+}
+img.PromoImg
+{
+    float: right;
+    margin-left: 5%;
+}
+span.PromoSpan
+{
+    font-weight: bold;
+}
+div.OtherPhotosDiv
+{
+    width: 48%;
+    float: right;
+    margin-right: 1%;
+}
+div.ListPhoto
+{
+
+}
+span.OtherPhotoDate
+{
+    float: left;
+    font-weight: bold;
+    font-size: .828em;
+    min-width: 58px;
+    width: 20%;
+    line-height: 20px;
+}
+a.OtherPhotoTitle
+{
+    float: right;
+    width: 80%
+}
+div.ShowMorePhotos
+{
+    float: right;
+    margin-top: 10px;
+}
+a.MorePhotosLink
+{
+    font-size: 1em;
+    padding-right: 10px;
+}
+
+a.MorePhotosLink *::before
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a.NoPhotosLink
+{
+    font-weight: bold;
+}
+
+
+/**************/
+/*Stand Alone*/
+/**************/
+.PhotoDashboardSA
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.StandAloneTop
+{
+    margin-bottom: 15px;
+}
+
+.StandAloneTitles
+{
+    float: left;
+}
+
+.StandAloneShareLarge
+{
+    float: right;
+    margin-top: 25px;
+}
+
+.StandAloneTitle
+{
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #1C3B62;
+}
+
+.StandAloneSubTitle
+{
+    font-style: italic;
+}
+
+.StandAloneImg
+{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.StandAloneDetailsDiv
+{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.StandAloneDetails
+{
+    color: #9F110D !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.StandAloneDetailsSpacing
+{
+    display: none;
+}
+
+.StandAloneBottom
+{
+    padding-bottom: 15px;
+}
+
+.StandAloneShareSmall
+{
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.StandAloneShareSmall .a2a_kit
+{
+    display: inline-block;
+}
+
+/*Stand Alone Small*/
+
+.PhotoDashboardSAContainerSmall
+{
+    margin: 0 !important;
+}
+
+.PhotoDashboardSAContainerSmall .StandAloneTop
+{
+    display: none !important;
+}
+
+.PhotoDashboardSAContainerSmall .StandAloneDetailsDiv
+{
+    float: none !important;
+    margin-left: 5px;
+}
+
+.PhotoDashboardSAContainerSmall .StandAloneDetailsSep
+{
+    display: none;
+}
+
+.PhotoDashboardSAContainerSmall .StandAloneDetailsSpacing
+{
+    display: block;
+    margin-top: 5px;
+}
+
+.PhotoDashboardSAContainerSmall .StandAloneBottom
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.PhotoDashboardSAContainerSmall .StandAloneShareSmall
+{
+    display: block !important;
+}
+
+/*background image styles*/
+.pdbg-container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
+.pdbg-vignette {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #000), color-stop(70%, transparent)), rgba(0, 0, 0, 0.25);
+    background: -o-linear-gradient(bottom, #000 20%, transparent 70%), rgba(0, 0, 0, 0.25);
+    background: linear-gradient(to top, #000 20%, transparent 70%), rgba(0, 0, 0, 0.25);
+}

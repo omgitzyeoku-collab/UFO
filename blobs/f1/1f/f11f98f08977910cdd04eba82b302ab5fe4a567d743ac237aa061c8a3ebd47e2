@@ -1,0 +1,243 @@
+var _menuOpened = false;
+var _menuClosed = true;
+var _isMenuOpened = false;
+var _sdata;
+var _orig_height;
+
+var openMenu = function() {
+
+    if (!$(this).hasClass("is-active")) {
+        $(this).addClass("is-active");
+        $("#MenuOverlay").show();
+
+        setTimeout(() => {
+            $(".nav-menu-overlay").css("opacity", "1");
+            $(".main-menu-list-item").css("opacity", "1");
+        }, 5);
+
+        //$("body").css("overflow", "hidden");
+        $(".main-navbar-menu-icons .icon-ti-search").hide();
+
+        _isMenuOpened = false;
+    } else {
+        $(this).removeClass("is-active");
+        $("#MenuOverlay").css("opacity", "0").hide();
+        $(".main-menu-list-item").css("opacity", "0");
+        $("body").css("overflow", "auto");
+        $(".main-navbar-menu-icons .icon-ti-search").show();
+
+        _isMenuOpened = true;
+    }
+};
+
+function GoTo(where) {
+    //Do a check on the page var coming in
+    where = where ? where.toLowerCase() : "";
+
+    //Set a prefix home page for all redirects
+    let prefix = "//www.cia.gov/";
+    ////let prefix = "//" + window.location.host + "/";
+
+
+    //Check if we clicked on the home
+    let url = (where == "home") ? "" : where;
+
+    //Finalize the url to be redirected
+    window.location.href = prefix + url;
+
+}
+
+function GoToSocial(where) {
+    var url = where ? where : "";
+
+    switch (url) {
+        case "twitter":
+            url = "https://twitter.com/cia";
+            break;
+        case "facebook":
+            url = "https://www.facebook.com/Central.Intelligence.Agency";
+            break;
+        case "youtube":
+            url = "https://www.youtube.com/user/ciagov";
+            break;
+        case "instagram":
+            url = "https://www.instagram.com/cia";
+            break;
+        case "flickr":
+            url = "https://www.flickr.com/photos/ciagov";
+            break;
+        case "linkedin":
+            url = "https://www.linkedin.com/company/central-intelligence-agency";
+            break;
+    }
+
+    window.location.href = url;
+}
+
+$(document).ready(function() {
+
+    $("#MainMenuOpen").click(openMenu);
+
+    $(".main-menu-list-item").click(function(e) {
+        $(".main-menu-list-item").removeClass("active");
+        $(this).addClass("active");
+
+        var types = $(this).attr("class").split(" ");
+        if (types.indexOf('active')) {
+
+        }
+    }).hover(function(e) {
+        var types = $(this).attr("class").split(" ");
+        if (types.indexOf('top') != -1) {
+            $(this).addClass("current");
+        }
+    }, function() {
+        $(".main-menu-list-item").removeClass("current");
+    });
+
+    $(".main-menu-careers-active").hover(function() {
+        $(".main-menu-careers").css("color", "#e21a41");
+    }, function() {
+        $(".main-menu-careers").css("color", "#ffffff");
+    });
+
+    $(".navbar-report-information-active").hover(function() {
+        $(".navbar-report-information").css("color", "#e21a41");
+    }, function() {
+        $(".navbar-report-information").css("color", "#ffffff");
+    });
+
+    $(".nav-link").hover(function() {
+        let currentWidth = $(this).css("width");
+        $(this).append("")
+    }, function() {
+        $(".underline").remove();
+    });
+
+    $(".accordion-header").click(function() {
+        if ($(this).attr("aria-expanded") == "false") {
+            $(this).attr("aria-expanded", "true");
+        } else {
+            $(this).attr("aria-expanded", "false");
+        }
+    });
+    
+    //Let's put some fancy transitions!
+    $(".contact-report").on("show.bs.modal", function() {
+        setTimeout(() => {
+            $(".fade-in-section").addClass("is-visible");
+        }, 5)
+    });
+    $(".contact-report").on("hide.bs.modal", function() {
+        $(".fade-in-section").removeClass("is-visible");
+    });
+
+    $("#ReportInformation .contact-us-modal__tab").click(function() {
+        let cssclass = $(this).attr("class");
+        $("#ReportInformation .contact-us-modal__tab").removeClass("contact-us-modal__tab--active");
+        $(this).addClass("contact-us-modal__tab--active");
+
+        if ($(this).html() == "Instructions") {
+            $("#ReportInformation .contact-us-modal__info-body").show();
+            $("#ReportInformation .contact-us-modal__form").hide();
+        } else if ($(this).html() == "Online Form") {
+            $("#ReportInformation .contact-us-modal__info-body").hide();
+            $("#ReportInformation .contact-us-modal__form").show();
+        } else {
+
+        }
+
+        $("#ReportInformation .contact-us-modal__tab").each(function() {
+            if ($(this).attr("class").indexOf("--active") == -1) {
+                $(this).attr("role", "button").attr("tabindex", "0");
+            } else {
+                $(this).removeAttr("role").removeAttr("tabindex");
+            }
+        });
+    });
+    $("#ContactUs .contact-us-modal__tab").click(function() {
+        let cssclass = $(this).attr("class");
+        $("#ContactUs .contact-us-modal__tab").removeClass("contact-us-modal__tab--active");
+        $(this).addClass("contact-us-modal__tab--active");
+
+        if ($(this).html() == "Instructions") {
+            $("#ContactUs .contact-us-modal__info-body").show();
+            $("#ContactUs .contact-us-modal__form").hide();
+        } else if ($(this).html() == "Online Form") {
+            $("#ContactUs .contact-us-modal__info-body").hide();
+            $("#ContactUs .contact-us-modal__form").show();
+        } else {
+
+        }
+
+        $("#ContactUs .contact-us-modal__tab").each(function() {
+            if ($(this).attr("class").indexOf("--active") == -1) {
+                $(this).attr("role", "button").attr("tabindex", "0");
+            } else {
+                $(this).removeAttr("role").removeAttr("tabindex");
+            }
+        });
+    });
+});
+
+var delta = 5;
+var lastScrollTop = 0;
+$(window).scroll(function(e) {
+    let currentScrollTop = $(this).scrollTop();
+    if (Math.abs(lastScrollTop - currentScrollTop) >= delta) {
+        if (currentScrollTop > lastScrollTop) {
+            // ACTION ON
+            // SCROLLING DOWN 
+            //$(".main-navbar-wrapper").css("opacity", "0");
+            //$(".main-navbar-wrapper-top").css("opacity","0");
+            if ($(this).scrollTop() >= 140) {
+                $(".main-navbar-wrapper").css("transform", "translateY(-140px)");
+            }
+        } else {
+            // ACTION ON
+            // SCROLLING UP 
+            //$(".main-navbar-wrapper").css("opacity", "1");
+            //$(".main-navbar-wrapper-top").css("opacity","1");
+            $(".main-navbar-wrapper").css("transform", "translateY(0px)");
+            if (this.window.innerWidth > 991) {
+                if (currentScrollTop > delta) {
+                    $(".main-navbar-wrapper-bottom").css("height", "63px");
+                    $(".main-navbar-menu li").css("height", "63px");
+                    $(".main-navbar .nav-link").css("height", "63px").css("padding-top", "17px");
+                    $(".navbar-underline").css("height", "63px").css("width", "53px");
+                    $(".nav-search").css("height", "83px");
+                    $(".nav-main-seal").hide();
+                } else if (currentScrollTop <= delta) {
+                    $(".main-navbar-wrapper-bottom").css("height", "100px");
+                    $(".main-navbar-menu li").css("height", "99px");
+                    $(".main-navbar .nav-link").css("height", "99px").css("padding-top", "36px");
+                    $(".navbar-underline").css("height", "100px").css("width", "133px");
+                    $(".nav-search").css("height", "102px");
+                    $(".nav-main-seal").show();
+                }
+            }
+        }
+        lastScrollTop = currentScrollTop;
+    }
+});
+
+function DisableScroll(toggle) {
+    if (toggle) {
+        // lock scroll position, but retain settings for later
+        var scrollPosition = [
+            self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+            self.pageYOffset || (document.documentElement.scrollTop) || (document.body.scrollTop)
+        ];
+        var html = jQuery('html'); // it would make more sense to apply this to body, but IE7 won't have that
+        html.data('scroll-position', scrollPosition);
+        html.data('previous-overflow', html.css('overflow'));
+        html.css('overflow', 'hidden');
+        window.scrollTo(scrollPosition[0], scrollPosition[1]);
+    } else {
+        // un-lock scroll position
+        var html = jQuery('html');
+        var scrollPosition = html.data('scroll-position');
+        html.css('overflow', html.data('previous-overflow'));
+        window.scrollTo(scrollPosition[0], scrollPosition[1])
+    }
+}

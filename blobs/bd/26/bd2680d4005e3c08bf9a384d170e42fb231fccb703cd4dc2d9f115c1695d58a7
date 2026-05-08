@@ -1,0 +1,536 @@
+window.DLEApi = (function () {
+    function formatVideoDate(d, offset) {
+        //Nov. 10, 2017 - 9:45 AM EST
+        var dateToUse = new Date(d);
+        var monthNum = dateToUse.getMonth();
+        var formatToUse = 'MMM. D, YYYY, h:mmA ';
+        if (monthNum > 1 && monthNum < 7) {
+            formatToUse = 'MMMM D, YYYY, h:mmA ';
+        }
+        else if (monthNum === 8) {
+            formatToUse = '[Sept]. D, YYYY, h:mmA ';
+        }
+
+        if (isToday(d, offset)) {
+            formatToUse = 'h:mmA ';
+        }
+
+        return moment(d).format(formatToUse) + tzAbbr(dateToUse).replace('US', '');
+    }
+
+    function tzAbbr(dateInput) {
+        var dateObject = dateInput || new Date(),
+            dateString = dateObject + "",
+            tzAbbr = (
+                // Works for the majority of modern browsers
+                dateString.match(/\(([^\)]+)\)$/) ||
+                // IE outputs date strings in a different format:
+                dateString.match(/([A-Z]+) [\d]{4}$/)
+            );
+        if (tzAbbr) {
+            // Old Firefox uses the long timezone name (e.g., "Central
+            // Daylight Time" instead of "CDT")
+            tzAbbr = tzAbbr[1].match(/[A-Z]/g).join("");
+        }
+        return tzAbbr;
+    };
+
+    function createDvidsParams(config) {
+        const eventListToDays = parseInt(config.eventListToDays);
+        const toDate = eventListToDays ? new Date(Date.now() + parseInt(config.eventListToDays) * 24 * 60 * 60 * 1000) : new Date();
+        const fromDate = new Date();
+        const params = {
+            include_snippets: config.includeExternals ? 1 : 0,
+            max_results: config.toggleEventListMaxResults ? config.eventListMaxResults : 50
+        };
+        // Conditionally set these parameters because passing null or blank parameters to DVIDS returns bad results
+        config.apiKey && (params.api_key = config.apiKey);
+        config.toggleEventHashtags && (params.hashtag = config.eventHashtags);
+        config.toggleEventSort && (params.sortdir = config.eventSort);
+        config.toggleEventListToDateRange && (params.from_date = fromDate.toISOString());
+        config.toggleEventListToDateRange && (params.to_date = toDate.toISOString());
+
+        return params;
+    }
+
+    async function getVideoList(params) {
+        const response = await fetch('https://api.dvidshub.net/live/list?' + toQueryString(params));
+        const respJson = await response.json();
+        return {
+            serverTime: new Date(respJson.current_time),
+            videos: respJson.results.filter(v => v.type === "live_webcasts" || v.type === "snippets")
+        };
+    }
+
+    function parseVideoList({ videos, serverTime }, config) {
+        const timeOffset = serverTime.getTime() - Date.now();
+        const parsedVideos = videos.map(v => (
+            {
+                ...v,
+                formattedStartDate: formatVideoDate(v.begin, timeOffset),
+                url: config.dle.dvidsLiveEventsUrl + v.id
+            }));
+        return {
+            all: parsedVideos,
+            liveNow: parsedVideos.filter(v => isLiveNow(v.begin, v.end, timeOffset)),
+            liveToday: parsedVideos.filter(v => isToday(v.begin, timeOffset) && !isLiveNow(v.begin, v.end, timeOffset)),
+            liveLater: parsedVideos.filter(v => isAfterToday(v.begin, timeOffset))
+        };
+    }
+
+    function isToday(start, offset) {
+        return new Date(start).toDateString() === new Date(Date.now() - offset).toDateString();
+    }
+
+    function isLiveNow(start, end, offset) {
+        const adjustedNow = new Date(Date.now() - offset);
+        return adjustedNow > new Date(start) && adjustedNow < new Date(end);
+    }
+
+    function isAfterToday(start, offset) {
+        return new Date(new Date(start).toDateString()) > new Date(new Date(Date.now() - offset).toDateString());
+    }
+
+    function toQueryString(obj) {
+        var str = [];
+        for (var p in obj)
+            if (obj.hasOwnProperty(p)) {
+                str.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
+            }
+        return str.join("&");
+    }
+
+    function getFakeResult(type, index, start, end) {
+        var id = Math.random() * (30000 - 20000) + 20000;
+        return {
+            "type": "live_webcasts",
+            "id": id,
+            "title": "This is " + type + " event #" + (index + 1),
+            "description": "This is only a test.",
+            "hashtag": "dgovtest",
+            "begin": start.toISOString(),
+            "end": end ? end : new Date(start.getTime() + 2 * 60 * 60 * 1000).toISOString(),
+            "url": "https:\/\/www.dvidshub.net\/webcast\/27769",
+            "hls_url": "https:\/\/live-cdn.dvidshub.net\/webcast\/" + id + "\/master.m3u8",
+            "unit_id": "127",
+            "liveui": true
+        };
+    }
+
+    async function getFakeVideoList(liveNowCount, liveTodayCount, upcomingCount, testEventsJson, apiKey) {
+        let results = [];
+        let testEvents;
+
+        try {
+            testEvents = JSON.parse(testEventsJson);
+            if (testEvents.length > 0) {
+                const proxyVideos = await getVideoList({
+                    include_snippets: 0,
+                    max_results: testEvents.length,
+                    api_key: apiKey,
+                    //from_date: new Date(2024, 9, 8, 6, 0, 0, 0).toISOString(),
+                    //hashtag: 'DGOVLIVE'
+            });
+                const etOffset = moment().isDST() ? -4:-5;
+                proxyVideos.videos.forEach((v, i) => {
+                    v.title = testEvents[i].title;
+                    v.description = testEvents[i].description;
+                    v.begin = moment(new Date(testEvents[i].begin)).utcOffset(etOffset, true).format();
+                    v.end = moment(new Date(testEvents[i].end)).utcOffset(etOffset, true).format();
+                    results.push(v);
+                });
+            }
+        } catch (err) {
+            console.error(err);
+        }
+
+        liveNowCount = parseInt(liveNowCount);
+        liveTodayCount = parseInt(liveTodayCount);
+        upcomingCount = parseInt(upcomingCount);
+
+        for (var i = 0; i < liveNowCount; i++) {
+            results.push(getFakeResult("LIVE NOW", i, new Date(Date.now() - 30 * 60 * 1000)));
+        }
+
+        for (var i = 0; i < liveTodayCount; i++) {
+            results.push(getFakeResult("LIVE TODAY", i, new Date(Date.now() + (3 + i) * 60 * 60 * 1000)));
+        }
+
+        for (var i = 0; i < upcomingCount; i++) {
+            results.push(getFakeResult("UPCOMING", i, new Date(Date.now() + (24 * (i + 1)) * 60 * 60 * 1000)));
+        }
+
+        return {
+            serverTime: new Date(),
+            videos: results.filter(v => v.type === "live_webcasts" || v.type === "snippets")
+        };
+    }
+
+    return {
+        getVideoList,
+        parseVideoList,
+        createDvidsParams,
+        getFakeVideoList
+    };
+})();
+
+// Example API Call
+//{
+//    "results": [
+//        {
+//            "type": "live_webcasts",
+//            "id": "18949",
+//            "title": "Secretary Pompeo meets with Jordanian King Abdullah II, in Washington, DC",
+//            "description": "Secretary Pompeo meets with Jordanian King Abdullah II, in Washington, DC.",
+//            "hashtag": "",
+//            "begin": "2019-03-11T15:55:00+00:00",
+//            "end": "2019-03-11T17:22:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/664708/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18949",
+//            "hls_url": null,
+//            "unit_id": "2041",
+//            "video_id": 664708
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18941",
+//            "title": "Deputy Secretary Sullivan and USAID Administrator Green Briefing on President's FY 2020 Budget Request for Department of State and USAID",
+//            "description": "Deputy Secretary Sullivan and USAID Administrator Green Briefing on President's FY 2020 Budget Request for Department of State and USAID.",
+//            "hashtag": "",
+//            "begin": "2019-03-11T17:55:00+00:00",
+//            "end": "2019-03-11T19:30:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/664736/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18941",
+//            "hls_url": null,
+//            "unit_id": "2041",
+//            "video_id": 664736
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18950",
+//            "title": "Defense Officials Roll Out Fiscal Year 2020 Budget Request",
+//            "description": "Defense Department officials are joined by service officials and Missile Defense Agency representatives to announce the fiscal year 2020 defense budget request during a news briefing at the Pentagon, March 12, 2019. ",
+//            "hashtag": "DGOVLIVE",
+//            "begin": "2019-03-12T15:55:00+00:00",
+//            "end": "2019-03-12T20:03:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/664882/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18950",
+//            "hls_url": null,
+//            "unit_id": "66",
+//            "video_id": 664882
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18988",
+//            "title": "State Department Press Briefing - March 12, 2019",
+//            "description": "State Department Press Briefing - March 12, 2019.",
+//            "hashtag": "",
+//            "begin": "2019-03-12T18:25:00+00:00",
+//            "end": "2019-03-12T19:45:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/webcast/dod_default/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18988",
+//            "hls_url": null,
+//            "unit_id": "2041"
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18955",
+//            "title": "Officials Discuss DOD’s Artificial Intelligence Initiatives",
+//            "description": "Peter T. Highnam, deputy director of the Defense Advanced Research Projects Agency; Michael A. Brown, director of the Defense Innovation Unit; and Air Force Lt. Gen John N.T. Shanahan, director of the Defense Department’s Joint Artificial Intelligence Center, testify on the Defense Department’s artificial intelligence initiatives during a hearing of the Senate Armed Services Committee’s subcommittee on emerging threats and capabilities in Washington, March 12, 2019. ",
+//            "hashtag": "DGOVLIVE",
+//            "begin": "2019-03-12T18:30:00+00:00",
+//            "end": "2019-03-12T20:00:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/664978/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18955",
+//            "hls_url": null,
+//            "unit_id": "66",
+//            "video_id": 664978
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18987",
+//            "title": "Secretary Pompeo Delivers Remarks at CERA Energy Week’s “Reshaping the Energy Future” Conference",
+//            "description": "Secretary Pompeo Delivers Remarks at CERA Energy Week’s “Reshaping the Energy Future” Conference.",
+//            "hashtag": "",
+//            "begin": "2019-03-12T22:55:00+00:00",
+//            "end": "2019-03-12T23:34:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/webcast/dod_default/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18987",
+//            "hls_url": null,
+//            "unit_id": "2041"
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18998",
+//            "title": "Air Force Testifies on 2020 Budget",
+//            "description": "Air Force Secretary Heather Wilson and Air Force Chief of Staff Gen. David L. Goldfein provide testimony at a Senate Appropriations Defense Subcommittee hearing on the fiscal 2020 Air Force budget, March 13, 2019. ",
+//            "hashtag": "DGOVLIVE",
+//            "begin": "2019-03-13T13:56:00+00:00",
+//            "end": "2019-03-13T16:02:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/665125/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18998",
+//            "hls_url": null,
+//            "unit_id": "66",
+//            "video_id": 665125
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18960",
+//            "title": "DOD Official, Eucom Commander Testify at Congressional Hearing",
+//            "description": "Kathryn Wheelbarger, acting assistant secretary of defense for international security affairs, and Army Gen. Curtis M. Scaparrotti, commander of U.S. European Command and NATO's supreme allied commander for Europe, testify before the House Armed Services Committee during a hearing on national security challenges and U.S. military activities in Europe, March 13, 2019. ",
+//            "hashtag": "DGOVLIVE",
+//            "begin": "2019-03-13T14:00:00+00:00",
+//            "end": "2019-03-13T16:11:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/webcast/dod_default/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18960",
+//            "hls_url": null,
+//            "unit_id": "66"
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18996",
+//            "title": "Secretary Pompeo Releases the 2018 Human Rights Reports",
+//            "description": "Secretary Pompeo Releases the 2018 Human Rights Reports.",
+//            "hashtag": "",
+//            "begin": "2019-03-13T14:55:00+00:00",
+//            "end": "2019-03-13T15:48:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/665111/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18996",
+//            "hls_url": null,
+//            "unit_id": "2041",
+//            "video_id": 665111
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "19002",
+//            "title": "President Trump Receives a Briefing on Drug Trafficking on the Southern Border",
+//            "description": "President Trump Receives a Briefing on Drug Trafficking on the Southern Border.",
+//            "hashtag": "",
+//            "begin": "2019-03-13T17:40:00+00:00",
+//            "end": "2019-03-13T19:00:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/665195/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/19002",
+//            "hls_url": null,
+//            "unit_id": "2508",
+//            "video_id": 665195
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "19012",
+//            "title": "Secretary Pompeo Meets with UN Secretary-General António Guterres, at the Department of State",
+//            "description": "Secretary Pompeo Meets with UN Secretary-General António Guterres, at the Department of State.",
+//            "hashtag": "",
+//            "begin": "2019-03-13T17:55:00+00:00",
+//            "end": "2019-03-13T18:11:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/665171/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/19012",
+//            "hls_url": null,
+//            "unit_id": "2041",
+//            "video_id": 665171
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "19016",
+//            "title": "Washington Foreign Press Center Briefing on 2018 Country Reports on Human Rights Practices with Ambassador Michael G. Kozak, Bureau of Democracy, Human Rights and Labor, Department of State",
+//            "description": "Washington Foreign Press Center Briefing on 2018 Country Reports on Human Rights Practices with Ambassador Michael G. Kozak, Bureau of Democracy, Human Rights and Labor, Department of State.",
+//            "hashtag": "",
+//            "begin": "2019-03-13T17:55:00+00:00",
+//            "end": "2019-03-13T18:49:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/665191/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/19016",
+//            "hls_url": null,
+//            "unit_id": "2041",
+//            "video_id": 665191
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18965",
+//            "title": "DOD Official, Cybercom Commander Testify on Cyberspace Operations",
+//            "description": "Kenneth P. Rapuano, assistant secretary of defense for homeland defense and global security; and Army Gen. Paul M. Nakasone, commander of U.S. Cyber Command, director of the National Security Agency and chief of the Central Security Service, testify on Cybercom and operations in cyberspace during a hearing of the House Armed Services subcommittee on intelligence and emerging threats and capabilities, in Washington, March 13, 2019. ",
+//            "hashtag": "DGOVLIVE",
+//            "begin": "2019-03-13T17:58:00+00:00",
+//            "end": "2019-03-13T19:49:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/665204/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18965",
+//            "hls_url": null,
+//            "unit_id": "66",
+//            "video_id": 665204
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18968",
+//            "title": "DOD Leaders Testify on Budget Posture for Fiscal Year 2020",
+//            "description": "Acting Defense Secretary Patrick M. Shanahan; Marine Corps Gen. Joe Dunford, the chairman of the Joint Chiefs of Staff; and David L. Norquist, DOD’s comptroller, testify on the fiscal year 2020 defense budget during a Senate Armed Services committee hearing in Washington, March 14, 2019.",
+//            "hashtag": "DGOVLIVE",
+//            "begin": "2019-03-14T13:27:00+00:00",
+//            "end": "2019-03-14T16:00:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/665409/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18968",
+//            "hls_url": null,
+//            "unit_id": "66",
+//            "video_id": 665409
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18871",
+//            "title": "U.S. Army Small Arms Championships, Match 6T – Team Pistol Match",
+//            "description": "This match will consist of four stages, with three strings each stage. Competitors will start from the “Ready Position” for all stages and strings. At the conclusion of each string of fire, competitors will safely de-cock, holster, and return to the “Ready Position.” Firing will be done from the various 10-35 yard lines. All firing at the 10-15 yard line will be done two handed from the standing unsupported. All firing at the 25-35 yard lines, the competitors have the choice between, standing, kneeling, and prone positions. Event will consist of 48 rounds for a total of 240-48X points. Each stage will require 1 magazine loaded with 12 rounds each. ",
+//            "hashtag": "U.S. Army Small Arms Championships",
+//            "begin": "2019-03-14T16:25:00+00:00",
+//            "end": "2019-03-14T17:30:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/webcast/dod_default/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18871",
+//            "hls_url": null,
+//            "unit_id": "1750"
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18973",
+//            "title": "Defense Innovation Board Public Listening Session on Artificial Intelligence Ethics",
+//            "description": "The Defense Innovation Board -- an independent federal committee advising the secretary of defense on various issues that focus on people and culture, technology and capabilities, and practices and operations -- holds a public listening session on artificial intelligence ethics at Carnegie Mellon University in Pittsburgh, March 14, 2019. ",
+//            "hashtag": "DGOVLIVE",
+//            "begin": "2019-03-14T17:30:00+00:00",
+//            "end": "2019-03-14T18:55:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/webcast/dod_default/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18973",
+//            "hls_url": null,
+//            "unit_id": "66"
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18872",
+//            "title": "U.S. Army Small Arms Championships, Match 221 - Pistol Excellence in Competition",
+//            "description": "Combat pistol EIC consists of four stages. All firing will be done from various yard lines. All firers will start from the standing position. It will consist of 40 rounds for a total of 200-40X points. Each stage will require 2 magazines loaded with 5 rounds each. All firing will begin with the pistol holstered. The course of fire will start with four modified M9 targets. ",
+//            "hashtag": "U.S. Army Small Arms Championships",
+//            "begin": "2019-03-14T17:55:00+00:00",
+//            "end": "2019-03-14T19:12:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/665462/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18872",
+//            "hls_url": null,
+//            "unit_id": "1750",
+//            "video_id": 665462
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "19035",
+//            "title": "State Department Press Briefing - March 14, 2019",
+//            "description": "State Department Press Briefing - March 14, 2019.",
+//            "hashtag": "",
+//            "begin": "2019-03-14T18:25:00+00:00",
+//            "end": "2019-03-14T19:43:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/665460/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/19035",
+//            "hls_url": null,
+//            "unit_id": "2041",
+//            "video_id": 665460
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "19028",
+//            "title": "2019 Battle Color Ceremony",
+//            "description": "2019 Battle Color Ceremony at Camp Pendleton, Calif. The event begins at 6 p.m. EDT.",
+//            "hashtag": "USMC",
+//            "begin": "2019-03-14T21:55:00+00:00",
+//            "end": "2019-03-14T22:49:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/webcast/dod_default/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/19028",
+//            "hls_url": null,
+//            "unit_id": "1632"
+//        },
+//        {
+//            "type": "live_webcasts",
+//            "id": "18875",
+//            "title": "U.S. Army Small Arms Championships, National Match Course Excellence in Competition/Director’s Match",
+//            "description": "This event is fired without combat equipment. This match consists of three stages. All firing will be done from the 50 and 25 yard lines. All competitors will fire from the standing unsupported, one-handed position. Consisting of 30 rounds, for a total of 300-30X points. Each stage will require: 2 magazines loaded with 5 rounds each. Competitors are authorized to fire the first shots of each magazine in single action. Competitors must declare at check-in on Day One if they are shooting Match 27 as 1) a non-Distinguished Pistol competitor shooting an EIC event, or 2) as a Distinguished Pistol competitor shooting a Director’s Match, or 3) as a non-Distinguished Pistol competitor, but it will not be counted for the competitor as an EIC match for the year (competitor in scenarios 2 & 3 should have a Director’s Match scorecard). National Match EIC is conducted in accordance with the NRA/CMP Conventional Pistol Rule Book and Army Regulation 350-66. \r\n",
+//            "hashtag": "U.S. Army Small Arms Championships",
+//            "begin": "2019-03-15T12:55:00+00:00",
+//            "end": "2019-03-15T14:00:00+00:00",
+//            "thumbnail": {
+//                "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/frames/video/1903/665654/122x92_q95.jpg",
+//                "width": 122,
+//                "height": 92
+//            },
+//            "url": "https://www.dvidshub.net/webcast/18875",
+//            "hls_url": null,
+//            "unit_id": "1750",
+//            "video_id": 665654
+//        }
+//    ],
+//        "current_time": "2024-10-08T19:50:49+00:00"
+//}

@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/readingroom/home" />
+<link rel="shortlink" href="/readingroom/node/21" />
+<link rel="shortcut icon" href="https://www.cia.gov/readingroom/sites/all/themes/foia_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+  <meta http-equiv="onion-location" content="http://ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion" /><title>Freedom of Information Act Electronic Reading Room | CIA FOIA (foia.cia.gov)</title>
+  <style type="text/css" media="all">
+@import url("https://www.cia.gov/readingroom/modules/system/system.base.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/modules/system/system.menus.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/modules/system/system.messages.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/modules/system/system.theme.css?tb2w2i");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.cia.gov/readingroom/sites/all/modules/contrib/advanced_search_block/advanced_search_block.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/modules/field/theme/field.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/modules/node/node.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/modules/search/search.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/modules/user/user.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/modules/contrib/views/css/views.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/modules/contrib/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?tb2w2i");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.cia.gov/readingroom/sites/all/modules/contrib/request_status/css/reqsta.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/modules/contrib/ctools/css/ctools.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/modules/contrib/wysiwyg_linebreaks/wysiwyg_linebreaks.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/modules/contrib/custom_search/custom_search.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/modules/contrib/text_resize/text_resize.css?tb2w2i");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.cia.gov/readingroom/sites/all/themes/foia_theme/css/foia_wrapper/bootstrap.min.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/themes/foia_theme/css/foia_wrapper/bootstrap-grid-4.5.0.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/themes/foia_theme/css/foia_wrapper/wrapper.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/themes/foia_theme/css/foia_wrapper/wrapper-footer.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/themes/foia_theme/css/foia_wrapper/hamburger.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/themes/foia_theme/css/new_css_b.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/themes/foia_theme/css/new_custom.css?tb2w2i");
+@import url("https://www.cia.gov/readingroom/sites/all/themes/foia_theme/css/foia_err.css?tb2w2i");
+</style>
+<style type="text/css" media="print">
+@import url("https://www.cia.gov/readingroom/sites/all/themes/foia_theme/css/print.css?tb2w2i");
+</style>
+  <script type="text/javascript" src="https://www.cia.gov/readingroom/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/misc/jquery-extend-3.4.0.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/misc/drupal.js?tb2w2i"></script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/sites/all/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/sites/all/modules/contrib/apachesolr_sort/apachesolr_sort.js?tb2w2i"></script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/sites/all/modules/contrib/custom_search/js/custom_search.js?tb2w2i"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var text_resize_scope = "main";
+          var text_resize_minimum = "12";
+          var text_resize_maximum = "25";
+          var text_resize_line_height_allow = 1;
+          var text_resize_line_height_min = "16";
+          var text_resize_line_height_max = "36";
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/sites/all/modules/contrib/text_resize/text_resize.js?tb2w2i"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.CKEDITOR_BASEPATH = '/readingroom/sites/all/libraries/ckeditor/'
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/sites/all/themes/foia_theme/js/jquery-3.4.1.min.js?tb2w2i"></script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/sites/all/themes/foia_theme/js/bootstrap-4.0.0.min.js?tb2w2i"></script>
+<script type="text/javascript" src="https://www.cia.gov/readingroom/sites/all/themes/foia_theme/js/wrapper.js?tb2w2i"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/readingroom\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"foia_theme","theme_token":"P-xZ7oZeXBtzR6lFpjhRAcm2JJ242Ld1GFugGrlxhqA","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/apachesolr_sort\/apachesolr_sort.js":1,"sites\/all\/modules\/contrib\/custom_search\/js\/custom_search.js":1,"0":1,"sites\/all\/modules\/contrib\/text_resize\/text_resize.js":1,"1":1,"sites\/all\/themes\/foia_theme\/js\/jquery-3.4.1.min.js":1,"sites\/all\/themes\/foia_theme\/js\/bootstrap-4.0.0.min.js":1,"sites\/all\/themes\/foia_theme\/js\/wrapper.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/advanced_search_block\/advanced_search_block.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/contrib\/request_status\/css\/reqsta.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/modules\/contrib\/custom_search\/custom_search.css":1,"sites\/all\/modules\/contrib\/text_resize\/text_resize.css":1,"sites\/all\/themes\/foia_theme\/css\/foia_wrapper\/bootstrap.min.css":1,"sites\/all\/themes\/foia_theme\/css\/foia_wrapper\/bootstrap-grid-4.5.0.css":1,"sites\/all\/themes\/foia_theme\/css\/foia_wrapper\/wrapper.css":1,"sites\/all\/themes\/foia_theme\/css\/foia_wrapper\/wrapper-footer.css":1,"sites\/all\/themes\/foia_theme\/css\/foia_wrapper\/hamburger.css":1,"sites\/all\/themes\/foia_theme\/css\/new_css_b.css":1,"sites\/all\/themes\/foia_theme\/css\/new_custom.css":1,"sites\/all\/themes\/foia_theme\/css\/foia_err.css":1,"sites\/all\/themes\/foia_theme\/css\/print.css":1}},"custom_search":{"form_target":"_self","solr":1},"profile":"foia","profile_version":"7.x","urlIsAjaxTrusted":{"\/readingroom\/":true}});
+//--><!]]>
+</script>
+  
+  <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-21 node-type-site-page section-library" >
+    <div id="wrapper">
+  <noscript>Javascript must be enabled for the correct page display</noscript>
+  <header id="header">
+    <div class="header-holder">
+
+      <div class="container-flex">
+        <div class="row main-navbar-wrapper my-auto">
+            <div class="col-12">
+                <div class="row main-navbar-wrapper-top">
+                    <div class="col-12 goto-wrapper my-auto text-center">
+                        <div class="goto my-auto main-navbar-utlity-link align-middle" onclick="location.href = 'https://www.cia.gov'">HOME</div>
+                    </div>
+                </div>
+                <div class="row flex-nowrap main-navbar-wrapper-bottom">
+                    <div class="col-3 my-auto float-left">
+                        <span class="navbar-underline nav-title" onclick="GoTo('readingroom/')"> <img src="/readingroom/sites/all/themes/foia_theme/images/bt/Glyph-FOIA.svg" class="nav-main-seal" />FOIA</span>
+                    </div>
+                    <div class="col-9 main-navbar-sub-wrapper my-auto">
+                        <div class="main-navbar my-auto">
+                            <ul class="main-navbar-menu">
+                                <li>
+                                    <a class="nav-link" href="/readingroom/foia_request">Submit Request</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="/readingroom/fees-and-waivers-foia">Fee Schedule</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="/readingroom/frequently-asked-questions">FAQs</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="/readingroom/search/site">Reading Room</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="/readingroom/what-electronic-reading-room">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="my-auto navbar-vertical-line">
+                            <div class="main-navbar text-center my-auto">
+                                <center>
+                                   <a class="nav-link" href="/readingroom/advanced-search-view">Search <img class='icon-ti-search' src='/readingroom/sites/all/themes/foia_theme/images/bt/ic_search.svg' /> </a>
+                                </center>
+                            </div>
+                            <div class="main-navbar-menu-icons">
+                                <img class='icon-ti-search hover-underline' onclick="GoTo('readingroom/advanced-search-view')" src='/readingroom/sites/all/themes/foia_theme/images/bt/ic_search.svg' />
+                                <button id="MainMenuOpen" class="hamburger hamburger--emphatic main-menu-icon" type="button" aria-label="Menu" aria-controls="navigation"> <span class="hamburger-box"> <span class="hamburger-inner"></span> </span> </button>
+                                <img id="MainMenuClose" src="/readingroom/sites/all/themes/foia_theme/images/bt/Menu-Close-NoBorder.svg" style="display:none" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="MenuOverlay" class="row nav-menu-overlay">
+                    <div class="col-12 my-auto" style="height:100%">
+
+                        <div class="menu-overlay-content-wrapper text-left">
+
+                            <div class="main-menu-list-wrapper">
+                                <ul class="main-menu-list">
+                                    <li class="main-menu-list-item foia-request top" onclick="GoTo('readingroom/foia_request')">
+                                        <span class="main-menu-list-item-text">Submit Request</span>
+                                    </li>
+                                    <li class="main-menu-list-item fee-schedule top" onclick="GoTo('readingroom/fees-and-waivers-foia')">
+                                        <span class="main-menu-list-item-text">Fee Schedule</span>
+                                    </li>
+                                    <li class="main-menu-list-item faqs top" onclick="GoTo('readingroom/frequently-asked-questions')">
+                                        <span class="main-menu-list-item-text">FAQs</span>
+                                    </li>
+                                    <li class="main-menu-list-item reading-room top" onclick="GoTo('readingroom/search/site')">
+                                        <span class="main-menu-list-item-text">Reading Room</span>
+                                    </li>
+                                    <li class="main-menu-list-item about top" onclick="GoTo('readingroom/what-electronic-reading-room')">
+                                        <span class="main-menu-list-item-text">About</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="row body-line-divider">
+                                <div class="col-lg-12"></div>
+                            </div>
+
+                            <div class="main-menu-list-wrapper">
+                                <ul class="main-menu-list">
+                                    <li class="main-menu-list-item nav-search" onclick="GoTo('readingroom/advanced-search-view')">
+                                        <span class="main-menu-list-item-text bottom">Search</span>
+                                        <span class="main-menu-list-item-icon my-auto"> <img class='icon-ti-search' src='/readingroom/sites/all/themes/foia_theme/images/bt/ic_search.svg' /> </span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+    </div>
+  </header>
+  <div class="main-block">
+    <section id="main">
+<!--      <div class="heading-panel">
+        <h1>Library</h1>
+      </div>  -->
+      <div class="main-holder">
+        <div id="sidebar">
+          <nav class="sidebar-nav">
+            <h2 class="visuallyhidden">Secondary Navigation</h2>
+            <ul>
+                <div class="region region-sidebar-first">
+    <div id="block-menu-menu-library" class="block block-menu clearfix">
+
+    <h2 class="title">Library</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first last expanded"><a href="/readingroom/" title="" class="active">Freedom of Information Act Electronic Reading Room</a><ul class="menu"><li class="first collapsed"><a href="/readingroom/what-electronic-reading-room">Requestor Portal</a></li>
+<li class="last collapsed"><a href="/readingroom/historical-collections">Historical Collections</a></li>
+</ul></li>
+</ul>  </div>
+</div>
+  </div>
+            </ul>
+          </nav>
+        </div>
+        <div id="content">
+                    <div class="portal-breadcrumbs">
+<!--            <ul class="breadcrumbs" dir="ltr">
+              <li><a href="https://www.cia.gov/">CIA Home</a></li>
+              <li><a href="https://www.cia.gov/library">Library</a></li>
+              <li><a href="/readingroom/">Electronic Reading Room</a></li>  -->
+              <!-- -comment out breadcrumb Beacause titles are to long on documents- -->
+<!--                                                   
+            </ul>                                                                     -->
+              <div class="region region-search-bar">
+    <div id="block-block-2" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <p><a href="/readingroom/search/node">Browse the Collections</a> | <a href="/readingroom/advanced-search-view">Advanced Search</a> | <a href="/readingroom/search-help">Search Help </a></p>
+  </div>
+</div>
+<div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form class="search-form" role="search" action="/readingroom/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label for="edit-search-block-form--2">Search Query for FOIA ERR: </label>
+ <input title="Enter the term you wish to search for" class="custom-search-box form-text" placeholder="" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="100" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-EiZlgclLTBu4AZxZo0doa3aOwebBVFQKS5NxAjCT0b0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-text-resize-0" class="block block-text-resize clearfix">
+
+    
+  <div class="content">
+    <a href="javascript:;" class="changer" id="text_resize_decrease"><sup>-</sup>A</a> <a href="javascript:;" class="changer" id="text_resize_reset">A</a> <a href="javascript:;" class="changer" id="text_resize_increase"><sup>+</sup>A</a><div id="text_resize_clear"></div>  </div>
+</div>
+  </div>
+          </div>                                                                     
+          <article class="description-box">
+<!--            <a id="main-content" tabindex="-1">&nbsp;</a>                        -->
+            <div class="text-holder-full">
+              <div class="documentContent" id="region-content">
+<!--                <a name="documentContent"></a>                                    -->
+                <h1 class="documentFirstHeading">Freedom of Information Act Electronic Reading Room</h1>
+                                  <div class="region region-content">
+    <div id="block-boxes-homepage-combined-content" class="block block-boxes block-boxes-simple clearfix">
+
+    
+  <div class="content">
+    <div id='boxes-box-homepage_combined_content' class='boxes-box'><div class="boxes-box-content"><p>Welcome to the Central Intelligence Agency's Freedom of Information Act Electronic Reading Room.</p>
+<h1><a href="what-electronic-reading-room">What is the Electronic Reading Room?</a></h1>
+<p><br /></p>
+</div></div>  </div>
+</div>
+<div id="block-boxes-homepage-whats-new" class="block block-boxes block-boxes-simple clearfix">
+
+    
+  <div class="content">
+    <div id='boxes-box-homepage_whats_new' class='boxes-box'><div class="boxes-box-content"><h1>What's New on the Electronic Reading Room?</h1>
+<blockquote><p style="text-align: left; font-size: 1.25em; font-weight: bold;"><a href="/readingroom/collection/nixon-collection">The Nixon Collection </a></p>
+<p><a href="/readingroom/images/NC4.jpg" style="text-decoration-line: underline; font-size: 13.008px;" target="_blank"><img alt="Aquiline" src="/readingroom/images/NC4.jpg" style="margin-left: 1px; width: 400px; height: 215px;" /></a>           <a href="/readingroom/images/NC2.jpg" style="font-size: 13.008px; text-decoration-line: underline;" target="_blank"><img alt="Aquiline" src="/readingroom/images/NC2.jpg" style="margin-top: 4px; margin-right: 3px; margin-left: 1px; width: 165px; height: 230px;" /></a></p>
+<p>Nixon and the People’s Republic of China: CIA’s Support of the Historic 1972 Presidential Trip</p>
+<div>
+<p>This collection marks the 50th anniversary of <span style="font-size: 13.008px;">President Richard M. Nixon’s February 1972 trip to the People’s Republic of China (PRC) – a landmark event that preceded the establishment of diplomatic relations between the two countries. This small collection, consisting of three city guides, an atlas, and four leadership profiles, i</span><span style="font-size: 13.008px;">s a subset of the materials CIA </span><span style="font-size: 13.008px;">produced for President Nixon and National Security Adv</span><span style="font-size: 13.008px;">isor Henry Kissinger in preparation for the seven-day visit.</span></p>
+<p><span style="font-size: 13.008px;">City guides were produced on Peking (Beijing), Shanghai, and Hang-Chou (Hangzhou)</span><sup>1</sup><span style="font-size: 13.008px;">, as these cities were part of President Nixon’s tour of the PRC. Each guide included a brief history of the city, contemporary maps and photographs, and descriptions of geography, climates, and points of interest.</span></p>
+<p>CIA also produced an 82-page atlas of the PRC for President Nixon’s trip. The US government distributed more than 4,000 copies to government customers and non-government institutions and libraries, and sold 30,000 copies to the public for a short period after the trip for $5.25, or $35.19 in today’s dollars. This is the first time in fifty years CIA has made the atlas available to the public.</p>
+<p>This collection also includes leadership profiles—assessments that CIA provides US Presidents and other policymakers to assist them in understanding their foreign counterparts. The profiles in this collection include Chinese Communist Party (CCP) Chairman Mao Tse-tung (<em>Mao Zedong</em>) and Premier Chou En-lai (<em>Zhou Enlai</em>). A profile of Lin Piao (<em>Lin Biao</em>), Vice Chair of the CCP, prepared for this trip is also included in this collection; however, Lin died in a plane crash five months before President Nixon’s visit.</p>
+<p> </p>
+<div>
+<p><strong style="font-size: 13.008px;">_____________________</strong></p>
+</div>
+<p><span style="font-size:9px;">1 CIA did not begin using the non-Romanization spelling of <i>Beijing</i> and <i>Hangzhou</i> until 1979. This article provides updated spellings elsewhere in parentheses.</span></p>
+<p>See <a href="/readingroom/collection/nixon-collection">The Nixon Collection</a> (8 documents/331 pages).</p>
+</div>
+<p> </p>
+<p style="text-align: left; font-size: 1.25em; font-weight: bold;"><a href="/readingroom/collection/currentcentral-intelligence-bulletin">Current/Central Intelligence Bulletin Collection </a></p>
+<p style="text-align: left;"><a href="/readingroom/collection/currentcentral-intelligence-bulletin"><img alt="CIB" src="/readingroom/images/CIB_13.jpg" style="width: 420px; height: 387px; margin-right: 3px; margin-left: 1px;" /></a></p>
+<p><strong><u>Central Intelligence Bulletin</u></strong></p>
+<p>Harry Truman was the first U.S. president to receive a daily intelligence digest. At his direction, the Daily Summary began production in February 1946, and continued until February 1951. President Truman was pleased with the product, but a survey group commissioned by the National Security Council in 1949 was critical of the Daily Summary and issued several recommendations to improve it. The new version, called the Current Intelligence Bulletin, began production on 28 February 1951, and this remained the format of the president's daily digest through Dwight Eisenhower's two terms, although it was retitled the Central Intelligence Bulletin in 1958. The Current/Central Intelligence Bulletin grew longer than its predecessor over time with the addition of more items and more analysis, and would eventually contain more graphics as printing technology improved.</p>
+<p><strong><u><a href="/readingroom/collection/currentcentral-intelligence-bulletin?page=150">2 January-30 June 1961</a></u></strong></p>
+<p>The new Kennedy Administration confronted a full array of international issues in 1961. In April, a group of CIA-trained Cuban exiles landed at the Bay of Pigs on the southern coast of Cuba with the goal of overthrowing the Fidel Castro regime and establishing an anti-Communist government. The outnumbered invading force was quickly repelled by Castro's troops. The year's reports were dominated by the worsening Congo crisis, with the fragmentation of the country widening despite the efforts of the United Nations, and US concern over the high tempo of Soviet testing of space vehicles and intercontinental ballistic missiles. The situation in Laos deteriorated, as the Communist Pathet Lao insurgency gained strength against the US-backed Royal Lao government.</p>
+<p>The changes at the CIA following the Bay of Pigs included a format update for the president's daily intelligence report. The new version, called the President's Intelligence Checklist (PICL), was first delivered on 17 June 1961. The Central Intelligence Bulletin continued to be produced as a separate publication until 10 Jan 1974, when it was replaced by the National Intelligence Daily. The PICL, however, was the president's primary written intelligence source through the remainder of the Kennedy Administration. The Kennedy PICL reports are available <a href="/readingroom/collection/presidents-daily-brief-1961-1969">here</a></p>
+<p>This historical release includes: the Central Intelligence Bulletin reports from 2 January-30 June 1961 (2752 pages).</p>
+<p>This release is the <b>thirteenth</b> and final release in the Current/Central Intelligence Bulletin series.</p>
+<p>See <a href="/readingroom/collection/currentcentral-intelligence-bulletin">the Current/Central Intelligence Bulletin Collection</a></p>
+</blockquote>
+<hr style="border: currentColor; border-image: none; width: 100%; height: 1px; color: rgb(51, 51, 51); background-color: rgb(51, 51, 51);" /><blockquote><p style="text-align: left; font-size: 1.25em; font-weight: bold;"><a href="/readingroom/collection/aquiline">Aquiline</a></p>
+<p style="text-align: left;"><a href="/readingroom/collection/aquiline"><img alt="Aquiline" src="/readingroom/images/Aquiline_1a.jpg" style="width: 300px; height: 237px; margin-right: 3px; margin-left: 1px;" /></a><a href="/readingroom/collection/aquiline"><img alt="Aquiline" src="/readingroom/images/Aquiline_2a.jpg" style="width: 350px; height: 234px; margin-right: 3px; margin-left: 1px;" /></a></p>
+<p><strong>aquiline</strong><i> adj.</i> of or like the eagle.</p>
+<p>Aerial intelligence collection platforms have played a critical role in US national security from the earliest beginnings of aviation. CIA's 1960s OXCART Program and its use of U-2s are examples of collection innovations that have kept US leaders informed about adversaries' capabilities and intentions. Despite their success, however, use of these platforms carried significant risks and repercussions, including detection and even pilot loss, such as the downing of the U-2 flown by Francis Gary Powers in 1960. Ever-evolving research by the CIA led to the development concept of <i>unmanned</i> aerial vehicles (UAVs) as collection platforms. An innovative Agency program in the 1960s codenamed Aquiline was the very first to test this concept. Based initially on the study of flight characteristics of birds, Aquiline was envisioned as a long-range vehicle that could safely and stealthily provide a window into denied areas such as the Soviet Union through photography and other capabilities, and would even support in-place agent operations. While it never became operational, the concept proved invaluable as a forerunner to today's multi-capability UAVs.</p>
+<p>Learn more about <a href="/readingroom/collection/aquiline">CIA's early eagle</a> (40 documents/289 pages).</p>
+</blockquote>
+<hr style="border: currentColor; border-image: none; width: 100%; height: 1px; color: rgb(51, 51, 51); background-color: rgb(51, 51, 51);" /><blockquote><p style="text-align: left; font-size: 1.25em; font-weight: bold;"><a href="/readingroom/collection/collapse-communism-eastern-europe-30-year-legacy">The Collapse of Communism in Eastern Europe: A 30-Year Legacy</a></p>
+<p style="text-align: left;"><a href="/readingroom/collection/collapse-communism-eastern-europe-30-year-legacy"><img alt="President Bush" src="/readingroom/images/Bush_meeting.jpg" style="width: 483px; height: 380px; margin-right: 3px; margin-left: 1px;" /></a></p>
+<p><strong><u>The Collapse of Communism in Eastern Europe: A 30-Year Legacy</u></strong></p>
+<p>This collection includes a broad sampling of articles from the National Intelligence Daily—the CIA's principal form of current intelligence analysis at the time—from February 1989 to March 1990. These articles represent much of the Agency's short-term analysis of events unfolding in Central and Eastern Europe as popular opposition to Soviet misrule erupted and quickly surpassed anything the Communist regimes were prepared to understand or to which they could respond. The material also represents a major source of information and insight for US policymakers into what was happening in these countries, where the situation was heading, and how a collapse of Communist rule in Europe and the beginnings of the breakup of the Soviet Union would impact Europe and the United States.</p>
+<p style="text-align: left; font-size: 0.9em; font-weight: 500;">Please note: Some of the material is marked "NR" or "not relevant." This means that material is unrelated to events in Central and Eastern Europe, and was therefore not reviewed for declassification as part of this collection.</p>
+<p>Learn more about <a href="/readingroom/collection/collapse-communism-eastern-europe-30-year-legacy">the collapse of Communist rule in Europe</a> (105 documents/151 pages)</p>
+</blockquote>
+</div></div>  </div>
+</div>
+  </div>
+                                  <div class="region region-header clearfix">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-21" class="node node-site-page" about="/readingroom/home" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="Freedom of Information Act Electronic Reading Room" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+      </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+                                  <div class="clear"></div>
+                  <div id="home_left">
+                                      </div>
+                  <div id="home_middle">
+                                      </div>
+                  <div id="home_right">
+                                      </div>
+                  <div class="clear"></div>
+                                            </div>
+            </div>
+          </article>
+        </div>
+      </div><!--close main holder-->
+    </section>
+    <footer id="footer">
+
+
+
+
+
+
+<!--       <div class="row body-filler-space">
+            <div class="col-lg-12 text-center align-middle">
+                &nbsp;
+            </div>
+        </div>
+-->
+        <div class="row body-line-divider">
+            <div class="col-lg-12"></div>
+        </div>
+
+        <div class="row navbar-footer">
+            <div class="col-lg-12 navbar-footer-main-wrapper">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-2 navbar-footer-col">
+                                <div class="h-3 navbar-footer-title">Agency</div>
+                                <div class="h-6-reverse" onclick="GoTo('about')"><u>About CIA</u></div>
+                                <div class="h-6-reverse" onclick="GoTo('about')"><u>Organization</u></div>
+                                <div class="h-6-reverse" onclick="GoTo('legacy')"><u>Director of the CIA</u></div>
+                                <div class="h-6-reverse" onclick="GoTo('about')"><u>CIA Museum</u></div>
+                                <div class="h-6-reverse" onclick="GoTo('stories')"><u>News & Stories</u></div>
+                            </div>
+                            <div class="col-2 navbar-footer-col">
+                                <div class="h-3">Careers</div>
+                                <div class="h-6-reverse" onclick="GoTo('careers/working-at-cia')"><u>Working at CIA</u></div>
+                                <div class="h-6-reverse" onclick="GoTo('careers/how-we-hire')"><u>How We Hire</u></div>
+                                <div class="h-6-reverse" onclick="GoTo('careers/student-programs')"><u>Student Programs</u></div>
+                                <div class="h-6-reverse" onclick="GoTo('careers/jobs')"><u>Browse CIA Jobs</u></div>
+                            </div>
+                            <div class="col-2 navbar-footer-col">
+                                <div class="h-3">Resources</div>
+                                <div class="h-6-reverse-extended" onclick="GoTo('readingroom')"><u>Freedom of Information Act (FOIA)</u></div>
+                                <div class="h-6-reverse-extended" onclick="GoTo('resources/csi')"><u>Center for the Study of Intelligence (CSI)</u></div>
+                                <div class="h-6-reverse" onclick="GoTo('spy-kids')"><u>Spy Kids</u></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row navbar-footer-sublink">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-md-3 my-auto navbar-footer-sublink-col-left-side">
+                                <button class="navbar-report-information button-effect"  onclick="GoTo('report-information')">REPORT INFORMATION</button>
+                            </div>
+                            <div class="col-12 col-md-6 my-auto navbar-footer-sublink-col-left-side">
+                                <button class="navbar-contact-us button-effect"  onclick="GoTo('contact-cia')">CONTACT CIA</button> </div>
+                            <div class="col-12 col-lg-3 my-auto navbar-footer-sublink-col-right-side">
+                                <div class="navbar-footer-social">
+                                    <div class="navbar-footer-social-label">Connect with CIA</div>
+                                    <div class="navbar-footer-social-platforms">
+                                        <img class="social-platform ig" src="/readingroom/sites/all/themes/foia_theme/images/bt/IG.svg" onclick="GoToSocial('instagram')" />
+                                        <img class="social-platform fb" src="/readingroom/sites/all/themes/foia_theme/images/bt/Fb.svg" onclick="GoToSocial('facebook')" />
+                                        <img class="social-platform tw" src="/readingroom/sites/all/themes/foia_theme/images/bt/Tw.svg" onclick="GoToSocial('twitter')" />
+                                        <img class="social-platform li" src="/readingroom/sites/all/themes/foia_theme/images/bt/Li.svg" onclick="GoToSocial('linkedin')" />
+                                        <img class="social-platform yt" src="/readingroom/sites/all/themes/foia_theme/images/bt/YT.svg" onclick="GoToSocial('youtube')" />
+                                        <img class="social-platform fl" src="/readingroom/sites/all/themes/foia_theme/images/bt/Fl.svg" onclick="GoToSocial('flickr')" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--div class="bg-image"></div-->
+            </div>
+        </div>
+        <div class="row body-line-divider">
+            <div class="col-lg-12"></div>
+        </div>
+        <div class="row navbar-footer-utility">
+            <div class="col-lg-12 navbar-footer-main-wrapper align-middle mid no-gutter">
+                <div class="navbar-footer-utility-links my-auto">
+                    <span class="utility-item" onclick="GoTo('search')"><u>Search CIA.gov</u></span>
+                    <span class="utility-item" onclick="GoTo('site-policies')"><u>Site Policies</u></span>
+                    <span class="utility-item" onclick="GoTo('privacy')"><u>Privacy</u></span>
+                    <span class="utility-item" onclick="GoTo('about/organization/equal-employment-opportunity/no-fear-act')"><u>No FEAR Act</u></span>
+                    <span class="utility-item" onclick="GoTo('about/organization/inspector-general')"><u>Inspector General</u></span>
+                    <span class="utility-item" onclick="location.href = 'https://www.usa.gov'"><u>USA.gov</u></span>
+                    <span class="utility-item" onclick="GoTo('sitemap')"><u>Site Map</u> </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </footer>
+    <div class="skip"><a href="#wrapper">back to top</a></div>
+      <div class="skip">
+        <a accesskey="b" href="#wrapper">back to top</a>
+      </div>
+    </div>
+  </div><!-- close main block-->
+</div><!-- close wrapper-->
+  </body>
+</html>

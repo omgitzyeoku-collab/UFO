@@ -1,0 +1,18 @@
+
+.container-head { width: 100%; float: left; background: url(img/heading-line.jpg) no-repeat left bottom; font-family: Arial, sans-serif; font-weight: bold; font-size: 14px; color: #000000; margin-bottom: 4px; padding: 0 0 6px; }
+
+.container-image { background: url(img/heading-bullet.png) no-repeat left bottom; width: 16px; height: 15px; display: inline-block; padding-right: 2px; float: left; }
+
+.container-title { display: inline-block; padding-left: 5px; float: left; }
+
+.container-body { width: 100%; float: left; background-size: 100% 120px; border-right: 1px solid #eee; border-left: 1px solid #eee; 
+
+}
+
+.container-body-no-back { width: 100%; float: left; border-right: 1px solid #eee; border-left: 1px solid #eee; }
+
+.container-inner { padding: 10px; }
+
+
+.base-container{ margin-bottom:15px;width:100%;display:inline-block;overflow:hidden}
+.empty-container-no-pad{width:100%}

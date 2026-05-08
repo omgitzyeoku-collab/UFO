@@ -1,0 +1,327 @@
+
+[v-cloak] > * {
+    display: none
+}
+
+[v-cloak]::before {
+    content: "loading slideshow…";
+    color: #717171;
+}
+
+.slick-active .dgov2positioned {
+    z-index: 500;
+}
+
+#colorbox {
+    overflow: visible !important;
+}
+/* for centering vert command horizontal */
+.dgov2slideshow-image {
+    position: relative;
+}
+.dgov2slideshow-image img {
+    position: absolute;
+}
+/* end of apove */
+
+.dgov2popup-info .a2a_kit a.at300b, .dgov2popup-info .a2a_kit a.at300m {
+    width: 35px;
+    height: 35px;
+}
+
+.dgov2slideshow .slick-dotted.slick-slider {
+    margin: 0;
+}
+
+.dgov2slideshow {
+    margin-top: 60px; 
+    margin-bottom: 60px;
+}
+
+.dgov2slideshow .dgov2slideshow-gallery {
+    backface-visibility:hidden;
+}
+
+/* gradients for centerMod next/prev slide*/
+.dgov2slideshow-gallery .slick-list:before {
+    background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+    width: 17%;
+    content: " ";
+    position: absolute;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.dgov2slideshow-gallery .slick-list:after {
+    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+    width: 17%;
+    content: " ";
+    position: absolute;
+    height: 100%;
+    display: block;
+    top: 0;
+    right: -1px;
+    z-index: 500;
+}
+
+@media (max-width:767px) {
+    .dgov2slideshow-gallery .slick-list:before, .dgov2slideshow-gallery .slick-list:after {
+        display: none;
+    }
+}
+
+/* ------------------------ */
+/* Slide prev/next "arrows" */
+/* For inline and popup    
+     the arrow-containing buttons
+*/
+.dgov2popup-info .slick-prev.slick-arrow,
+.dgov2popup-info .slick-next.slick-arrow,
+.dgov2slideshow-gallery .slick-prev.slick-arrow,
+.dgov2slideshow-gallery .slick-next.slick-arrow {
+    z-index: 1000;
+    width: auto;
+    height: auto;
+}
+
+.dgov2slideshow-gallery .slick-prev.slick-arrow {
+    left: 17%;
+    margin-left: 30px;
+}
+
+.dgov2slideshow-gallery .slick-next.slick-arrow {
+    right: 17%;
+    margin-right: 30px;
+}
+
+.dgov2popup-info .slick-prev.slick-arrow {
+    margin-left: 50px
+}
+
+.dgov2popup-info .slick-next.slick-arrow {
+    margin-right: 50px;
+}
+
+@media (max-width:767px) {
+    .dgov2slideshow-gallery .slick-prev.slick-arrow {
+        left: 0;
+        margin-left: 20px;
+    }
+    .dgov2slideshow-gallery .slick-next.slick-arrow {
+        right: 0;
+        margin-right: 20px;
+    }
+}
+
+/* arrow settings (button:before) */
+.dgov2popup-info .slick-prev.slick-arrow:before,
+.dgov2popup-info .slick-next.slick-arrow:before,
+.dgov2slideshow-gallery .slick-prev.slick-arrow:before,
+.dgov2slideshow-gallery .slick-next.slick-arrow:before {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    color: white;
+    opacity: .7;
+    vertical-align: top;
+}
+
+/* shared hover for arrows */
+.dgov2popup-info .slick-prev.slick-arrow:hover:before,
+.dgov2popup-info .slick-next.slick-arrow:hover:before,
+.dgov2slideshow-gallery .slick-prev.slick-arrow:hover:before,
+.dgov2slideshow-gallery .slick-next.slick-arrow:hover:before {
+    opacity: 1;
+}
+
+.dgov2popup-info .slick-prev.slick-arrow:before,
+.dgov2slideshow-gallery .slick-prev.slick-arrow:before {
+    content: "\f053";
+}
+
+.dgov2popup-info .slick-next.slick-arrow:before,
+.dgov2slideshow-gallery .slick-next.slick-arrow:before {
+    content: "\f054";
+}
+
+    /*                     */
+    /* dgov2slideshow-item */
+    /*                     */
+.dgov2popup-info .dgov2slideshow-item {
+    padding: 0;
+    backface-visibility: hidden;
+}
+.dgov2slideshow-gallery .dgov2slideshow-item {
+    padding: 0 10px 0;
+    /* this backface-visibility is here to fix a flicker seen on
+       wrapping around infinite scroll (last to first or first back
+       to last). Something to do with how slickslider works.
+       The whole issue has to do with how and when slickslider
+       clones the slides.
+    */
+    backface-visibility: hidden;
+}
+
+/* slideshow img*/
+.dgov2slideshow-gallery .dgov2slide {
+    /*width:1200px;
+    height:800px;*/
+    overflow: hidden;
+}
+
+.dgov2slideshow-gallery .dgov2slideshow-item img {
+    opacity: .4;
+    transition: opacity 600ms linear;
+    border: 1px solid #999;
+}
+
+.dgov2slideshow-gallery .dgov2slideshow-item.active-slide img {
+    opacity: 1;
+    transition: opacity 600ms linear;
+}
+
+/* Navigation Dots */
+.aframe .body .dgov2slideshow-dotnav ul.slick-dots {
+    position: static;
+    margin: 0;
+    vertical-align: middle;
+    line-height: 10px;
+}
+
+.aframe .body .dgov2slideshow-dotnav li {
+    margin: 0 auto;
+}
+
+.aframe .body .dgov2slideshow-dotnav li button:before {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    color: #adadad;
+    opacity: 1;
+}
+
+.aframe .body .dgov2slideshow-dotnav li.slick-active button:before {
+    color: #355e93;
+}
+
+.aframe .body .dgov2slideshow-dotnav li button:hover:before {
+    color: #717171;
+}
+
+/* slide description area (titleon and/or captionon) */
+.dgov2slideshow .slide-description {
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 10px;
+    padding: 0 10px 0;
+    overflow: hidden;
+}
+.slide-caption-print {
+    display:none;
+}
+
+
+@media (max-width:767px) {
+    .dgov2slideshow .slide-description {
+        margin-left: 0;
+        margin-right: 0;
+        
+        /*position: relative;*/
+    }
+}
+
+.aframe .body .dgov2slideshow p.slide-info {
+    font-size: 17px;
+    line-height: 1.5em;
+    /*position:absolute;*/
+    opacity: 1;
+    margin: 0 auto 0;
+}
+
+.dgov2slideshow .slide-title {
+    font-weight: bold;
+}
+
+.dgov2slideshow .dgov2overlay {
+    background-image: none !important;
+    width: 44px !important;
+    height: 44px !important;
+    opacity: 1;
+    background-color: rgba(0,0,0,.3);
+    bottom: 15px;
+    right: 15px;
+    /*left: 15px;*/
+    border: #fff solid 1px;
+    color: #fff;
+    border-radius: 3px;
+    transition: background-color 0.2s ease-in-out;
+    line-height: 44px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.dgov2slideshow .popup:hover .dgov2overlay {
+    background-image: none !important;
+    background-color: #fff;
+    color: rgba(0,0,0,1)
+}
+
+.dgov2slideshow .dgov2overlay:after {
+    font-family: "Font Awesome 5 Free";
+    content: '\f129';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dgov2slideshow .dgov2positioned {
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.dgov2popup-info .dgov2positioned {
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.aframe .body .dgov2slideshow p.slide-info.size-calculation {
+    opacity: 0;
+}
+@media print {
+    .slide-caption-print {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .dgov2slideshow .slide-description {
+        line-height: 1em;
+        margin:0;
+    }
+    .dgov2slideshow .dgov2positioned .dgov2slideshow-image
+    {
+        height: auto !important;   
+    }
+    .dgov2slideshow-gallery .dgov2slideshow-item img {
+        opacity: 0;
+        transform: none !important;
+        left: 0 !important;
+    }
+    .dgov2slideshow-inline .slick-initialized .slick-list .slick-slide.slick-active {
+        display: block !important;
+        width: auto !important;
+    }
+    .slick-list {
+        padding: 0px !important; 
+    }
+}

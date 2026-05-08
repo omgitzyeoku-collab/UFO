@@ -1,0 +1,198 @@
+function BuildSiteLink(section, title, link) {
+  section.append("<li><a target='" + link.Window + "' href='" + link.Url + "' rel='noopener'>" + title + "</a></li>");
+}
+
+function BuildSocialLink(css, title, social) {
+  if (social.Url != "")
+    $(".skin-social").append("<div class='social-item'><a title='" + title + "' rel='" + social.Relationship + "' aria-label='" + title + "' target='" + social.Window + "' href='" + social.Url + "'><span class='social-icon " + css + "'></span><span class='social-title'>" + title + "</span></a></div>");
+}
+
+function BuildSocialLinkFA(css, fa, title, social) {
+  if (social.Url != "") {
+    $(".skin-social").append("<div class='social-item " + css + " '><a title='" + title + "' rel='" + social.Relationship + "' aria-label='" + title + "' target='" + social.Window + "' href='" + social.Url + "'><span class='fa " + fa + " fa-inverse'></span></a></div>");
+  }
+}
+
+function BuildSocialLinkFABrand(css, fa, title, social) {
+  if (social.Url != "") {
+    $(".skin-social").append("<div class='social-item " + css + " '><a title='" + title + "' rel='" + social.Relationship + "' aria-label='" + title + "' target='" + social.Window + "' href='" + social.Url + "'><span class='fa-brands " + fa + " fa-inverse'></span></a></div>");
+  }
+}
+var removeScrollCount = 0;
+$(document).ready(function () {
+  // site links
+  BuildSocialLinkFABrand("social-icon-fb", "fa-facebook-f", "Follow Us on Facebook", skinvars.SocialLinks.Facebook);
+  BuildSocialLinkFABrand("social-icon-twitter-x", "fa-x-twitter", "Follow Us on X (Formerly Twitter)", skinvars.SocialLinks.Twitter);
+  BuildSocialLinkFABrand("social-icon-youtube", "fa-youtube", "YouTube", skinvars.SocialLinks.YouTube);
+  BuildSocialLinkFABrand("social-icon-linkedin", "fa-linkedin-in", "LinkedIn", skinvars.SocialLinks.LinkedIn);
+  BuildSocialLinkFABrand("social-icon-instagram", "fa-instagram", "Instagram", skinvars.SocialLinks.Instagram);
+  BuildSocialLinkFABrand("social-icon-flickr", "fa-flickr", "Flickr", skinvars.SocialLinks.Flickr);
+  BuildSocialLinkFA("social-icon-blog", "fa-comments", "Blog", skinvars.SocialLinks.Blog);
+  BuildSocialLinkFA("social-icon-email", "fa-envelope", "Email", skinvars.SocialLinks.Email);
+  BuildSocialLinkFA("social-icon-rss", "fa-rss", "RSS", skinvars.SocialLinks.RSS);
+  BuildSocialLinkFA("social-icon-widget", "fa-cog", "Widgets", { Url: "", Window: "" });   // fix
+  BuildSocialLinkFABrand("social-icon-snapchat", "fa-snapchat", "Snapchat", skinvars.SocialLinks.Snapchat);
+
+  window.usasearch_config = {
+    siteHandle: skinvars.aid,
+    autoSubmitOnSelect: false,
+  };
+
+  configureSearch();
+
+  /**
+   * --------------------------------------------------------------------------
+   * Menu State Machine
+   * The menu is controlled with a state machine.  This ensures that the menu
+   * can only exist in one state at a time and that the transitions to and
+   * from different states are controlled.  
+   * --------------------------------------------------------------------------
+   */
+  // Menu State
+  const ms = {
+    FULL: "Full",
+    MINI: "Mini",
+  };
+  // Menu Events
+  const me = {
+    SCROLL_DOWN: "Down",
+    SCROLL_UP: "Up",
+    SCROLL_UP_COMPLETE: "Complete",
+    SCROLL_HEADER: "Header",
+  };
+  let menuState = ms.FULL;
+  let lastScrollY = window.scrollY;
+  const $header = $("#main-header");
+  const $dmaContainer = $(".dma-full-width, .dma-full-width-centered");
+
+  /**
+   * A state machine that runs actions depending on the current state and current event
+   * @param {number} menuEvent Menu Event
+   * @param {number} y is the scroll position of the window.  scrollY === pageYOffset === $(window).scrollTop();
+   */
+  function runHeaderStateMachine(menuEvent) {
+    switch (menuState) {
+      case ms.FULL:
+        if (menuEvent === me.SCROLL_DOWN) {
+          actionShrink();
+          menuState = ms.MINI;
+        }
+        break;
+      case ms.MINI:
+        if (menuEvent === me.SCROLL_UP_COMPLETE) {
+          actionExpand();
+          menuState = ms.FULL;
+        }
+        break;
+    }
+  }
+
+  function actionShrink() {
+    $dmaContainer.addClass("scroll");
+  }
+
+  function actionExpand() {
+    $dmaContainer.removeClass("scroll");
+  }
+
+  function initScrollEvents() {
+    const headerHeight = $header.outerHeight(true);
+    let menuEvent = lastScrollY === 0 ?
+      me.SCROLL_UP_COMPLETE :
+      lastScrollY < headerHeight ? me.SCROLL_HEADER : me.SCROLL_DOWN;
+    runHeaderStateMachine(menuEvent);
+
+    window.addEventListener("scroll", function () {
+      const y = window.scrollY;
+      if (y > headerHeight && y > lastScrollY) {
+        menuEvent = me.SCROLL_DOWN;
+        du = y;
+      }
+      if (y < lastScrollY) {
+        menuEvent = me.SCROLL_UP;
+        dd = y;
+      }
+      if (y < headerHeight) {
+        menuEvent = me.SCROLL_HEADER;
+      }
+      if (y < 2) {
+        menuEvent = me.SCROLL_UP_COMPLETE;
+      }
+      runHeaderStateMachine(menuEvent);
+      lastScrollY = y;
+
+    }, { passive: true });
+  }
+
+  // Disable header shrinking when editing and when user has not disabled header shrinking
+  if ($dmaContainer.length > 0 &&
+    !$('body').hasClass('dnnEditState') &&
+    !skinvars.DisableShrink
+  ) {
+    initScrollEvents();
+  }
+
+  // hide the content if the menu is taller than the page so that the user can scroll to the bottom of the menu
+  if ($dmaContainer.length > 0) {
+    $('#main-header .navbar-collapse').on('shown.bs.collapse hide.bs.collapse',
+      function (evt) {
+        if ($("#main-header").height() > $(window).height() && evt.type !== 'hide') {
+          $("#content").hide();
+        } else {
+          $("#content").show();
+        }
+      });
+  }
+
+  // poyfill for objectfit
+  var supportsObjectFit = 'objectFit' in document.documentElement.style,
+    bgPolyString = '<div class="bg-image-fallback"></div>',
+    $pictures = $('.dod2-fixed-aspect'),
+    objectFitPoly = function () {
+      $pictures.each(function () {
+        var $img = $(this).find('img'),
+          src = $img.attr('src'),
+          pos = $img.data('focus-left') + '% ' + $img.data('focus-top') + '%',
+          paddingBottom = $(this).css('padding-bottom'),
+          polyEle = $(bgPolyString, {}).css({
+            'background-image': "url(".concat(src, ")"),
+            'background-position': pos,
+            'padding-bottom': paddingBottom,
+            'background-size': "cover"
+          });
+        $(this).after(polyEle);
+      });
+
+      $pictures.hide();
+    }; //objectfitpoly
+
+  if (!supportsObjectFit) {
+    objectFitPoly();
+  }
+});
+
+function configureSearch() {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = '//search.usa.gov/javascripts/remote.loader.js';
+  document.getElementsByTagName('head')[0].appendChild(script);
+
+  // This prevents the click from submitting the webforms form
+  $('.skin-search-go').on('click', function (e) {
+    e.stopImmediatePropagation();
+    submitSearch($(this));
+  });
+
+  // This is the function that submits the search
+  function submitSearch($this) {
+    var query = $this ? ($this.val() || $this.parent().find('input').val()) : '';
+    var affiliate = skinvars.aid;
+    window.location = '//search.usa.gov/search?query=' + DOMPurify.sanitize(query) + '&affiliate=' + affiliate + '&utf8=%26%23x2713%3B';
+  }
+
+  // This turns hides the autocomplete box if the user scrolls the page
+  $(window).on("scroll",
+    function () {
+      $('#usasearch_sayt ul').hide();
+    });
+}

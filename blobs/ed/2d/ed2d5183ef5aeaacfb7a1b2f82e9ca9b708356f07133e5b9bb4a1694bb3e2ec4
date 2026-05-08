@@ -1,0 +1,978 @@
+/*WFB COLORS*/
+
+@font-face {
+    font-family: "GT America Extended Black";
+    src: url("./fonts/GT-America-Extended-Black.woff") format("woff2"), url("./fonts/GT-America-Extended-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Extended";
+    src: url("./fonts/GT-America-Extended-Light.woff2") format("woff2"), url("./fonts/GT-America-Extended-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Extended Light";
+    src: url("./fonts/GT-America-Extended-Light.woff") format("woff2"), url("./fonts/GT-America-Extended-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Expanded Black";
+    src: url("./fonts/GT-America-Expanded-Black.woff") format("woff2"), url("./fonts/GT-America-Extended-Light.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Expanded";
+    src: url("./fonts/GT-America-Expanded-Black.woff2") format("woff2"), url("./fonts/GT-America-Extended-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Mono Bold";
+    src: url("./fonts/GT-America-Mono-Bold.woff2") format("woff2"), url("./fonts/GT-America-Mono-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Mono";
+    src: url("./fonts/GT-America-Mono-Regular.woff2") format("woff2"), url("./fonts/GT-America-Mono-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sectra";
+    src: url("./fonts/GT-Sectra-Fine-Bold.woff2") format("woff2"), url("./fonts/GT-Sectra-Fine-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --gutter-size: 165px; 
+/*    --gutter-size: 225px; */
+    --body-size: 1140px;
+    --body-color: #1d6192;
+    --main-divider-style: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+.active span {
+    color: #fccd59 !important;
+}
+
+.active span:after {
+    width: 65px;
+    content: '';
+    height: 5px !important;
+    background-color: #fccd59;
+    float: right;
+    margin: 0.5em;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.global-header-logo {
+    padding-left: 0.86em !important;
+    height: 100%;
+}
+
+.global-header-menu {
+    padding-right: 0em !important;
+}
+
+.body-line-divider {
+    border-bottom: var(--main-divider-style);
+}
+
+h1,
+.h1,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p,
+.p {
+    font-family: "GT America Extended", sans-serif;
+}
+
+h2,
+.h2,
+h3,
+.h3 {
+    font-family: "Sectra", sans-serif;
+}
+
+label {
+    font-family: "GT America Mono", sans-serif;
+}
+
+h1,
+.h1 {
+    font-size: 3.125rem;
+    line-height: 2.5625rem;
+    font-weight: bold;
+}
+
+h2,
+.h2 {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    font-weight: bold;
+   /*   */
+    margin-bottom: .25rem;
+    margin-top: .25rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+h4,
+.h4 {
+    font-size: 1.3125rem;
+    line-height: 1.625rem;
+    font-weight: bold;
+}
+
+h5,
+.h5 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+h6,
+.h6 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+label,
+.label {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+}
+
+p {
+    /* font-size: 1rem; */
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+body {
+    background-color: var(--body-color) !important;
+    width: inherit;
+    overflow-x: hidden !important;
+}
+
+.body-filler-space {
+    margin-left: auto;
+    margin-right: auto;
+    width: var(--root-body);
+    color: white;
+    height: 500px;
+    background-image: url(./images/vert_lines_desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-color: var(--body-color) !important;
+}
+
+@media only screen and (max-width: 1350px) {}
+
+@media only screen and (max-width: 1350px) {}
+
+@media only screen and (max-width: 1200px) {
+     :root {
+        --body-size: 960px;
+    }
+    .nav-main-menu-brand-motif,
+    .main-menu-search-input {
+        width: 370px !important;
+    }
+    .nav-main-seal {
+        display: none !important;
+    }
+    .navbar-underline {
+        width: 53px !important;
+    }
+    .main-navbar .nav-link {
+        margin-right: 0 !important;
+    }
+    .main-navbar-menu {
+        min-width: 710px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (min-width: 991px) {
+    #MenuOverlay {
+        display: none !important
+    }
+    .navbar-vertical-line {
+        display: flex !important
+    }
+}
+
+
+/* TRIGGER THESE STYLES IF WIDTH GOES BELOW 991 PIXELS */
+
+@media only screen and (max-width: 991px) {
+     :root {
+        --root-body: 100%;
+        --body-size: 100%;
+    }
+    .four {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        border-bottom: none !important;
+    }
+    .three {
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+    .two {
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+        border-bottom: none !important;
+    }
+    .one {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+    .navbar-toggler {
+        top: -50px;
+        position: absolute;
+        display: flex;
+        right: 0;
+        margin-right: 1em;
+    }
+    .nav-fill .nav-item {
+        text-align: start;
+        margin-left: 4em;
+        padding-top: 2.9em;
+        margin-top: -1.9em;
+    }
+    .main-wrapper-left {
+        display: none;
+    }
+    .main-wrapper-right {
+        border-left: none;
+    }
+    .main-wrapper-mid .middle {
+        border-left: none;
+    }
+    .body-filler-space {
+        width: 100% !important;
+    }
+    .bg-image {
+        height: 50% !important;
+        width: 183px !important;
+        background-position: 0 0% !important;
+        right: 0 !important;
+    }
+    .nav-main-seal {
+        display: none;
+    }
+    .nav-main-menu-brand-motif,
+    .main-menu-search-input {
+        width: 94% !important;
+    }
+    .active span:after {
+        width: 32.5px !important;
+    }
+    .logo-content-only {
+        width: 119px !important;
+        /*padding-bottom: 5px !important;
+    	margin-bottom: -1px !important;*/
+    }
+    .main-navbar-wrapper-bottom {
+        height: 63px !important;
+    }
+    .main-navbar-menu {
+        display: none !important;
+    }
+    .main-navbar-menu-icons {
+        display: flex !important;
+    }
+    #SearchIcon {}
+    .main-navbar-menu-icons .icon-ti-search {
+        width: 33.21px !important;
+        margin-right: 15px !important;
+    }
+    .navbar-vertical-line {
+        border: 0 !important;
+    }
+    .navbar-vertical-line .main-navbar {
+        display: none !important;
+    }
+    .navbar-underline {
+        height: 63px !important;
+        width: 53px !important;
+    }
+}
+
+
+/* end - @media only screen and (max-width: 991px) */
+
+@media only screen and (max-width: 920px) {
+    .bg-vertical-logo {
+        background-position: right 0px bottom 394px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .nav-main-title {
+        display: none !important;
+    }
+    .logo-content-only {
+        width: 95px !important;
+        /*padding-bottom: 9px !important;*/
+    }
+    .nav-main-acro {
+        display: block !important;
+    }
+    .main-navbar-menu-icons .icon-ti-search {
+        width: 16.6px !important;
+    }
+    .bg-vertical-logo {
+        background-position: right 0px bottom 778px !important;
+        background-size: 140px !important;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .main-navbar-menu-left {
+        background: linear-gradient(0deg, var(--body-color) 80%, transparent 20%) !important;
+    }
+    .nav-main-menu-brand-motif,
+    .main-menu-search-input {
+        width: 94% !important;
+    }
+    .main-menu-list {
+        margin: 0px -20px !important;
+    }
+    .nav-main-seal {
+        display: none !important;
+    }
+    .active span:after {
+        width: 32.5px !important;
+    }
+    .main-navbar-menu-logo {
+        display: block !important;
+        padding-left: 1.5em !important;
+        padding-top: 1.5em !important;
+    }
+}
+
+.main-navbar-utlity {
+    height: 50px;
+    display: grid !important;
+    border-left: solid 1px #161618
+}
+
+.main-navbar-utlity a:hover {
+    color: #fccd59;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+.hover-underline {
+    border-bottom: 6px solid transparent;
+    transition: all 0.3s ease-in-out;
+    height: inherit;
+}
+
+.hover-underline:hover {
+    cursor: pointer;
+    border-bottom: 6px solid #fccd59;
+}
+
+.goto {
+    display: grid;
+}
+
+.goto-wrapper {
+    max-width: 185px !important;
+    height: 40px !important;
+    border-right: 1px solid black;
+    margin: auto 0;
+    display: grid;
+    background-color: white;
+}
+
+.goto-wrapper:hover {
+    background-color: #fccd59;
+    color: white !important;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    z-index: 2;
+    position: sticky;
+}
+
+.navbar-underline {
+    height: 100px;
+    vertical-align: middle;
+    width: 133px;
+    border-bottom: 6px solid transparent;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-underline:hover {
+    border-bottom: 6px solid #fccd59;
+    cursor: pointer;
+}
+
+.main-wrapper-left {
+    max-width: var(--gutter-size);
+}
+
+.main-wrapper-right {
+    max-width: var(--gutter-size);
+}
+
+.main-wrapper-middle {
+    max-width: var(--body-size);
+    /*padding: 1em;*/
+}
+
+.extended {
+    width: "88.5%";
+}
+
+.main-navbar-utlity {
+    height: 50px;
+    display: grid !important;
+    border-left: solid 1px #161618
+}
+
+.main-navbar-utlity-link {
+    color: #161618;
+    font-family: "GT America Extended Black", sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 900;
+    -webkit-text-decoration-color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+.main-navbar-utlity a:hover {
+    color: #fccd59;
+}
+
+.navbar-toggler-icon {
+    border: none;
+    color: white;
+}
+
+.main-navbar-menu-min {
+    font-family: "GT America Extended Black", sans-serif;
+    font-size: 2.26rem;
+    list-style-type: none;
+    display: content;
+    margin-left: -1.75em;
+}
+
+.main-navbar-menu-min li {
+    text-decoration: none;
+    color: white;
+    margin: 0.25em 0;
+}
+
+.main-navbar-menu-min li:hover {
+    cursor: pointer;
+    color: #fccd59;
+}
+
+.main-navbar-menu-min .nav-search {
+    float: left;
+    width: 100%;
+}
+
+.main-navbar-menu-min .icon-ti-search {
+    float: right;
+    padding-top: 0.5rem;
+    width: 32px;
+}
+
+.main-navbar-wrapper {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding-top: 0;
+    transition: all 0.2s ease-in-out;
+    background-color: var(--body-color);
+    z-index: 1;
+}
+
+.main-navbar-wrapper-top {
+    background-color: #222f54;
+    transition: all 0.2s ease-in-out;
+}
+
+.main-navbar-wrapper-bottom {
+    height: 100px;
+    background-color: var(--body-color);
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+    padding-left: 1em;
+    border-bottom: var(--main-divider-style);
+}
+
+.main-navbar-menu-icons {
+    display: none;
+    height: inherit;
+    /* padding-top: 6px;  padding 6px at top because of the 6px border bottom on hover effect */
+    position: absolute;
+    top: 0;
+    right: 3%;
+}
+
+.navbar-vertical-line {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    height: inherit;
+    min-width: var(--gutter-size);
+}
+
+.navbar-vertical-line .main-navbar {
+    height: inherit;
+    width: 100%;
+}
+
+.nav-item-icon-r {
+    height: 30px;
+    width: 95px;
+}
+
+.main-navbar-sub-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-navbar {
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "GT America Extended Black", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    z-index: 1;
+    transition: color 0.3s ease-in-out;
+}
+
+.main-navbar-menu {
+    height: inherit;
+    width: max-content;
+    /*var(--body-size);*/
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-navbar-menu li {
+    float: left;
+    margin-right: 2em;
+    height: 99px;
+    margin-top: 0;
+    transition: 0.3s ease-in-out;
+    display: inline-flex;
+}
+
+.main-navbar a:link {
+    color: #ffffff !important;
+}
+
+.icon-ti-search:hover {
+    cursor: pointer;
+}
+
+.main-navbar .nav-link {
+    color: #ffffff;
+    margin: auto 0;
+    padding: 36px 0 0 0;
+    width: fit-content;
+    height: 99px;
+    border-bottom: 6px solid transparent;
+    text-decoration: none;
+}
+
+.main-navbar .nav-link:hover {
+    text-decoration:underline; 
+    text-decoration-thickness: 0.5rem;
+    text-decoration-color: #fccd59;
+}
+
+.main-navbar-right-side {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--body-color);
+    color: #ffffff;
+    font-family: "GT America Extended Black", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    z-index: 1;
+    transition: color 0.3s ease-in-out;
+}
+
+.main-menu-icon {
+    height: 45px;
+    padding: 5px !important;
+    margin: auto 10px !important;
+    width: 50px;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 0 !important;
+}
+
+.hamburger:focus,
+.hamburger:active,
+.hamburger-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.main-menu-careers {
+    padding: 13px;
+    font-family: "GT America Expanded Black", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid #fccd59;
+    transition: 0.3s;
+    position: absolute;
+    right: 7em;
+}
+
+.main-menu-careers-active {
+    width: 118px;
+    height: 42px;
+    position: absolute;
+    top: 2px;
+    right: 98px;
+    transition: 0.3s;
+    z-index: 10;
+}
+
+.main-menu-careers-active:hover {
+    border-bottom: 6px solid #fccd59;
+    cursor: pointer;
+}
+
+.nav-title {
+    font-family: "GT America Expanded", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 0em;
+    padding-left: 0em;
+    /*min-width: var(--gutter-size) !important;*/
+}
+
+.nav-title-main {
+    font-family: "GT America Extended Black", sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+#MainMenuCareers,
+#MainMenuOpen,
+#MainMenuClose:hover {
+    cursor: pointer;
+}
+
+#MainMenuClose:not(:hover) {
+    box-shadow: 0 0 0 1px #fccd59, 0 0 0 2px #fccd5960, 0 0 4px 6px #fccd5960;
+    transition: border .4s cubic-bezier(.5, .15, .5, .85), box-shadow .2s cubic-bezier(.5, .15, .5, .85) .2s;
+}
+
+.nav-menu-overlay {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100rem;
+    position: fixed;
+    background-color: var(--body-color);
+    margin: auto 0;
+    top: 6rem;
+    z-index: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.button-effect:hover {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    transition: border-bottom 0.3s;
+    transition: color 0.5s;
+    border-bottom: 6px solid #161618;
+    color: black;
+    cursor: pointer;
+}
+
+.main-menu-list-item.foia-request {
+    transition: opacity 0.2s ease-in;
+}
+
+.main-menu-list-item.fee-schedule {
+    transition: opacity 0.7s ease-in;
+}
+
+.main-menu-list-item.faqs {
+    transition: opacity 1.2s ease-in;
+}
+
+.main-menu-list-item.reading-room {
+    transition: opacity 1.7s ease-in;
+}
+
+.main-menu-list-item.about {
+    transition: opacity 2.2s ease-in;
+}
+
+.firstrow {
+    height: 120px;
+    background-color: var(--body-color);
+}
+
+.main-navbar-menu-left {
+    border-right: 1px solid rgba(50, 50, 50, 1);
+    background: linear-gradient(0deg, var(--body-color) 90%, transparent 10%);
+}
+
+.main-navbar-menu-right {
+    background-color: var(--body-color);
+}
+
+
+.bg-vertical-logo {
+    /* border: 1px solid white; */
+    background-image: url(./images/CIA-AcroMarque.svg);
+    background-repeat: no-repeat;
+    background-position: right 0px bottom 5.3rem;
+    background-attachment: local;
+    background-size: 180px;
+}
+
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 192px;
+    /*border: 1px solid white;*/
+    background-image: url(./images/CIA-AcroMarque.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    right: -28%;
+}
+
+.nav-main-seal {
+    margin-right: 1rem;
+    width: 6rem;
+}
+
+.main-menu-search-input {
+    width: 445px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 150px;
+    border-radius: 0;
+}
+
+.main-menu-search-input-field {
+    background-color: transparent;
+    border-radius: 0 !important;
+    font-family: "GT America Extended Light", sans-serif;
+    font-size: 16px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-menu-search-input-button {
+    background-color: transparent;
+    border-left: none;
+}
+
+.current span:after {
+    width: 25px;
+    content: '';
+    height: 5px !important;
+    background-color: #fccd59;
+    float: right;
+    margin: 0.75em;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.current span {
+    color: #fccd59;
+}
+
+.main-navbar-menu-close {
+    position: absolute;
+    top: 2%;
+    right: 1%;
+}
+
+.main-menu-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+.main-menu-list-item {
+    opacity: 0;
+    height: 100%;
+    margin: 0 0.75rem 1rem 0;
+    display: flex;
+    width: 100%;
+}
+
+.main-menu-list-item:not(.current) {
+    color: white !important;
+}
+
+.main-menu-list-item-text {
+    font-family: "GT America Extended Black", sans-serif;
+    text-decoration: none;
+    font-size: 2.26rem;
+    width: fit-content;
+    height: max-content;
+    background: linear-gradient(to right, #fccd59 50%, transparent 50%);
+    background-size: 201% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.main-menu-list-item-text:hover {
+    cursor: pointer;
+    background-position: left bottom;
+    color: white !important;
+}
+
+.main-menu-list-item-text {
+    width: max-content;
+    white-space: nowrap;
+}
+
+.main-menu-list-item-icon {
+    width: 100% !important;
+    text-align: right;
+    padding-right: 0.75em;
+}
+
+.main-menu-list-item-icon img {
+    width: 2.125rem;
+    height: 2.125rem;
+}
+
+.main-menu-list-item.nav-search {
+    margin-top: 0.75em;
+}
+
+.nav-title-img {
+    height: 60px;
+    width: 60px;
+}
+
+.nav-border-left {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    display: contents;
+}
+
+.nav-border-right {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    display: contents;
+}
+
+.nav-main-logo {
+    margin-right: 0.5em;
+}
+
+.contents {
+    margin-bottom: 30px;
+}
+
+.menu-overlay-content-wrapper {
+    padding-top: 1em;
+    padding-left: 1em;
+    color: white;
+}
+
+body {
+    background: #fff;
+    padding: none;
+    font-size: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+code,
+pre {
+    margin: 5rem !important;
+    background-color: #ccc;
+    padding: 0 3px;
+    border-radius: 5px;
+}
+
+.logo-content-only {
+    width: 203px;
+    height: 100%;
+    border-bottom: 6px solid transparent;
+    display: inline-flex;
+}
+
+.logo-content-only:hover {
+    border-bottom: 6px solid #fccd59;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.nav-main-acro {
+    display: none;
+}

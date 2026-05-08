@@ -1,0 +1,63 @@
+(function (window) {
+
+    $(document).ready(function () {
+
+        $('.RadCalendar_Default .rcTitlebar .rcFastPrev').html('<i class="cal-chevron cal-left"></i><i class="cal-chevron cal-left second"></i>');
+        $('.RadCalendar_Default .rcTitlebar .rcPrev').html('<i class="cal-chevron cal-left"></i>');
+        $('.RadCalendar_Default .rcTitlebar .rcNext').html('<i class="cal-chevron cal-right"></i>');
+        $('.RadCalendar_Default .rcTitlebar .rcFastNext').html('<i class="cal-chevron cal-right"></i><i class="cal-chevron cal-right second"></i>');
+
+        // For some reason the scroll height is incorrect when opening from close
+        // So we need to pad by 50px the first time it is opened.
+        function setMaxHeight(el, fromClosed) {
+            var pt = 24, pb = 30;
+            if ($("body").hasClass("header-banner-is-open")) {
+                var maxheight = el.scrollHeight + (fromClosed ? 50 : 0);
+                el.style.maxHeight = maxheight + "px";
+                el.style.paddingTop = pt + "px", el.style.paddingBottom = pb + "px";
+                $("body").css("padding-top", maxheight + "px");
+            } else {
+
+                el.style.maxHeight = null;
+                el.style.paddingTop = 0;
+                el.style.paddingBottom = 0;
+                $("body").css("padding-top", 0);
+            }
+
+        }
+
+        let debounceId = 0;
+        var el = document.getElementsByClassName("header_banner_flag");
+        var t = document.getElementsByClassName("header_banner_container");
+        var elm = el[0];
+        elm.addEventListener("click",
+            function () {
+                const accordion = $(this).find('.header_banner_accordion')[0];
+                accordion.classList.toggle("active"),
+                    $("body").toggleClass("header-banner-is-open"),
+                    t[0].classList.toggle("active");
+                var e = accordion.parentElement.nextElementSibling;
+                e.classList.toggle("active");
+                setMaxHeight(e, true);
+                jQuery(window).resize(function () {
+                    clearTimeout(debounceId);
+                    debounceId = setTimeout(function () {
+                        setMaxHeight(e);
+                    },
+                        50);
+                });
+            });
+        elm.addEventListener("keyup",
+            function (event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault();
+                    elm.dispatchEvent(new MouseEvent('click', {
+                        view: window,
+                        bubbles: true,
+                        cancelable: true
+                    }));
+                }
+            });
+    }); //ready
+
+})(window);
