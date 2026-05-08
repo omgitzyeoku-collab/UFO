@@ -24,7 +24,14 @@ $Action = New-ScheduledTaskAction `
 # Run once daily at 09:00 local time
 $Trigger = New-ScheduledTaskTrigger -Daily -At 9:00am
 
-# Run only when the user is logged on (interactive Chrome required for Akamai bypass)
+# Run as the current user when logged on (Interactive). The crawler now uses
+# playwright-extra-stealth in headless-shell mode, so no visible Chrome window
+# appears during the run — it just executes invisibly.
+#
+# To run when the user is logged off too, re-register with -LogonType S4U from
+# an elevated PowerShell:
+#   $p = New-ScheduledTaskPrincipal -UserId $env:USERNAME -LogonType S4U -RunLevel Limited
+#   Set-ScheduledTask -TaskName "UFO-Archive-Tick" -Principal $p
 $Principal = New-ScheduledTaskPrincipal -UserId $env:USERNAME -LogonType Interactive
 
 $Settings = New-ScheduledTaskSettingsSet `

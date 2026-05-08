@@ -10,8 +10,10 @@
     "manifest:sign": "node manifest/sign.mjs"
   },
   "dependencies": {
-    "playwright": "^1.49.0",
     "p-limit": "^6.1.0",
+    "playwright": "^1.49.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "robots-parser": "^3.0.1"
   }
 }

@@ -1,7 +1,10 @@
-import { chromium } from 'playwright';
+import { chromium } from 'playwright-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+
+chromium.use(StealthPlugin());
 
 const ROOT = path.resolve('.');
 const BLOBS = path.join(ROOT, 'blobs');
@@ -41,9 +44,13 @@ const SEEDS = [
   ['page', 'https://www.war.gov/News/Releases/Release/Article/4480582/department-of-war-releases-unidentified-anomalous-phenomena-files-in-historic-t/'],
 ];
 
+// Defaults: headless-shell + stealth (validated against Akamai Bot Manager).
+// Override with HEADED=1 (visible window) or CHANNEL=chrome (system Chrome) when debugging.
+const HEADED  = process.env.HEADED === '1';
+const CHANNEL = process.env.CHANNEL || undefined;
 const browser = await chromium.launch({
-  headless: false,
-  channel: 'chrome',
+  headless: !HEADED,
+  channel: CHANNEL,
   args: ['--disable-blink-features=AutomationControlled'],
 });
 const ctx = await browser.newContext({
