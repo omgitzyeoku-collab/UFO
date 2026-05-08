@@ -6,6 +6,10 @@ for UAP Encounters) public release, launched 2026-05-08. Files are released on
 a rolling basis; this project detects each tranche and preserves a signed,
 hash-anchored snapshot.
 
+Repo: <https://github.com/omgitzyeoku-collab/UFO> (private)
+Daily tick: Windows scheduled task `UFO-Archive-Tick`, 09:00 local
+Telegram alerts via Vega when changes are detected
+
 ## Why this exists
 
 The Department of War can edit, redact further, or quietly remove what's
