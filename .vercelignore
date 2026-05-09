@@ -1,0 +1,36 @@
+# Exclude binary corpus from Vercel uploads (lives in GitHub Releases)
+blobs/
+*.duckdb
+*.duckdb.wal
+node_modules/
+.git/
+.github/
+.claude/
+
+# Exclude misc dev files
+docs/video-frames/
+docs/release.json
+docs/repo*.json
+docs/runs*.json
+docs/pages-enable*.json
+docs/vercel-*.json
+docs/dvids-probe.html
+docs/network-log-*.json
+docs/screenshot-*.png
+docs/war-gov-anchor-test.*
+docs/war-gov-ufo-spa-driven-*.html
+
+# Server-only scripts not needed in deployed bundle
+crawler/
+manifest/manifest-*.jsonl
+extract/derived-all.jsonl
+extract/text-index.jsonl
+extract/needs-ocr.json
+extract/cross-corpus.jsonl
+extract/qa-quarantine.jsonl
+extract/ocr-status.jsonl
+
+# But: KEEP extract/release-manifest.jsonl, extract/captions.jsonl,
+# extract/entities*.jsonl, extract/scores.jsonl, extract/evidence.jsonl,
+# extract/geocoded.jsonl, extract/public/, extract/text/ — the build script
+# copies these into public/extract/ for the static site.
