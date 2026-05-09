@@ -4,11 +4,13 @@
 
 import { DuckDBInstance } from '@duckdb/node-api';
 import fs from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 
 const ROOT = path.resolve('.');
 const DBPATH = path.join(ROOT, 'extract', 'graph.duckdb');
-const ENTITIES = path.join(ROOT, 'extract', 'entities.jsonl');
+const ENT_NORM = path.join(ROOT, 'extract', 'entities-normalised.jsonl');
+const ENTITIES = existsSync(ENT_NORM) ? ENT_NORM : path.join(ROOT, 'extract', 'entities.jsonl');
 const OUT = path.join(ROOT, 'extract', 'scores.jsonl');
 
 const inst = await DuckDBInstance.create(DBPATH, { access_mode: 'READ_ONLY' });

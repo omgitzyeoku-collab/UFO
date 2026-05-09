@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <title>UFO Archive — war.gov/UFO/ Release 01</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 <style>
   :root {
     --bg: #0a0a0c; --panel: #14161b; --line: #2a2c33; --text: #e6e7ea; --dim: #8a8d96;
@@ -11,239 +12,228 @@
     --DOW: #fbbf24; --FBI: #60a5fa; --NASA: #f87171; --DOS: #c084fc;
   }
   * { box-sizing: border-box; }
-  body { margin: 0; font: 14px/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; background: var(--bg); color: var(--text); }
+  html, body { margin: 0; height: 100%; font: 13px/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; background: var(--bg); color: var(--text); }
   a { color: var(--link); text-decoration: none; } a:hover { text-decoration: underline; }
-  header { display: flex; align-items: baseline; gap: 1rem; padding: 0.75rem 1.25rem; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  header { display: flex; align-items: baseline; gap: 1rem; padding: 0.7rem 1.25rem; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
   header h1 { font-size: 0.95rem; margin: 0; font-weight: 600; }
   header nav a { padding: 0.2rem 0.6rem; border-radius: 4px; color: var(--dim); cursor: pointer; }
   header nav a.active { color: var(--text); background: #1f2128; }
   header nav a:hover { color: var(--text); text-decoration: none; }
-  header .stat { color: var(--dim); margin-left: auto; font-size: 0.8rem; }
+  header .stat { color: var(--dim); margin-left: auto; font-size: 0.78rem; }
 
   .filters { display: flex; gap: 0.5rem; padding: 0.75rem 1.25rem; border-bottom: 1px solid var(--line); flex-wrap: wrap; align-items: center; }
-  .filters input, .filters select { background: var(--panel); border: 1px solid var(--line); color: var(--text); padding: 0.45rem 0.6rem; border-radius: 4px; font: inherit; }
+  .filters input, .filters select { background: var(--panel); border: 1px solid var(--line); color: var(--text); padding: 0.4rem 0.6rem; border-radius: 4px; font: inherit; font-size: 0.85rem; }
   .filters input:focus, .filters select:focus { outline: 1px solid var(--accent); }
-  .filters .count { color: var(--dim); font-size: 0.8rem; margin-left: auto; }
+  .filters .count { color: var(--dim); font-size: 0.78rem; margin-left: auto; }
 
-  main { display: grid; grid-template-columns: 1fr 540px; min-height: calc(100vh - 110px); }
-  .grid { padding: 0.5rem 1rem 2rem; overflow: auto; }
-  .row { display: grid; grid-template-columns: 60px 110px 1fr 110px 80px; gap: 0.75rem; padding: 0.6rem 0.75rem; border-bottom: 1px solid #1c1e24; align-items: center; cursor: pointer; transition: background 0.05s; }
+  .grid { padding: 0.5rem 1rem 2rem; overflow: auto; height: calc(100vh - 110px); }
+  .row { display: grid; grid-template-columns: 60px 110px 1fr 110px 90px 60px; gap: 0.75rem; padding: 0.55rem 0.75rem; border-bottom: 1px solid #1c1e24; align-items: center; cursor: pointer; transition: background 0.05s; font-size: 0.82rem; }
   .row:hover { background: #14161b; }
   .row.active { background: #1d2028; border-color: var(--accent); }
-  .row .agency { font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; border: 1px solid var(--line); display: inline-block; }
-  .row .title { color: var(--text); }
-  .row .title small { color: var(--dim); margin-left: 0.4rem; }
-  .row .date, .row .loc { color: var(--dim); font-size: 0.75rem; }
-  .row .quality { font-size: 0.7rem; }
-  .row .quality.good { color: var(--accent); }
-  .row .quality.gibberish { color: var(--warn); }
-  .row .quality.missing { color: var(--bad); }
-  .agency.DOW, [data-agency="Department of War"] { color: var(--DOW); border-color: #6b4d10; }
-  .agency.FBI, [data-agency="FBI"] { color: var(--FBI); border-color: #1e3a5f; }
-  .agency.NASA, [data-agency="NASA"] { color: var(--NASA); border-color: #5f1f1f; }
-  .agency.DOS, [data-agency="Department of State"] { color: var(--DOS); border-color: #4c2670; }
+  .row .agency { font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 3px; border: 1px solid var(--line); display: inline-block; text-align: center; }
+  .row .title small { color: var(--dim); margin-left: 0.4rem; font-size: 0.7rem; }
+  .row .date, .row .loc { color: var(--dim); font-size: 0.74rem; }
+  .row .score { font-size: 0.74rem; color: var(--accent); text-align: right; }
+  [data-agency="Department of War"] { color: var(--DOW); border-color: #6b4d10; }
+  [data-agency="FBI"] { color: var(--FBI); border-color: #1e3a5f; }
+  [data-agency="NASA"] { color: var(--NASA); border-color: #5f1f1f; }
+  [data-agency="Department of State"] { color: var(--DOS); border-color: #4c2670; }
 
-  aside { border-left: 1px solid var(--line); padding: 1rem 1.25rem; overflow: auto; max-height: calc(100vh - 60px); }
+  aside { border-left: 1px solid var(--line); overflow: auto; max-height: calc(100vh - 60px); }
+  aside .pad { padding: 1rem 1.25rem; }
   aside h2 { font-size: 1rem; margin: 0 0 0.5rem; }
-  aside h3 { font-size: 0.85rem; margin: 1.25rem 0 0.4rem; color: var(--dim); text-transform: uppercase; letter-spacing: 0.05em; }
+  aside h3 { font-size: 0.8rem; margin: 1.25rem 0 0.4rem; color: var(--dim); text-transform: uppercase; letter-spacing: 0.05em; }
   aside dl { display: grid; grid-template-columns: 130px 1fr; gap: 0.3rem 0.75rem; margin: 0.5rem 0; font-size: 0.78rem; }
   aside dt { color: var(--dim); }
   aside dd { margin: 0; word-break: break-word; }
-  aside .preview img { max-width: 100%; border: 1px solid var(--line); border-radius: 4px; background: #000; }
-  aside .body { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 0.75rem; max-height: 360px; overflow: auto; font-size: 0.72rem; line-height: 1.45; white-space: pre-wrap; }
+  aside .body { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 0.7rem; max-height: 360px; overflow: auto; font-size: 0.7rem; line-height: 1.45; white-space: pre-wrap; }
   aside .body mark { background: #6ee7b733; color: var(--accent); padding: 0 0.1em; }
-  aside .empty { color: var(--dim); padding: 2rem 0; text-align: center; }
-  aside .download { display: inline-block; margin-top: 0.5rem; padding: 0.4rem 0.8rem; background: var(--accent); color: #000; border-radius: 4px; font-weight: 600; }
+  aside .empty { color: var(--dim); padding: 2rem 1.25rem; text-align: center; }
+  aside .download { display: inline-block; margin-top: 0.5rem; padding: 0.4rem 0.8rem; background: var(--accent); color: #000; border-radius: 4px; font-weight: 600; font-size: 0.78rem; }
   aside .download:hover { text-decoration: none; opacity: 0.85; }
+  aside .pdf-frame { width: 100%; height: 480px; border: 1px solid var(--line); border-radius: 4px; background: #000; }
+
+  /* score fingerprint */
+  .score-grid { display: grid; grid-template-columns: 110px 1fr 36px; gap: 0.3rem 0.5rem; font-size: 0.72rem; align-items: center; margin-top: 0.5rem; }
+  .score-bar { background: var(--panel); height: 14px; border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
+  .score-bar .fill { background: var(--accent); height: 100%; }
 
   .chips { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.4rem; }
   .chip { font-size: 0.7rem; background: #1c1e24; border: 1px solid var(--line); padding: 0.1rem 0.4rem; border-radius: 3px; color: var(--dim); cursor: pointer; }
   .chip:hover { color: var(--text); border-color: var(--accent); }
 
-  /* timeline */
-  .timeline { padding: 1rem 1.25rem; }
   .timeline svg { width: 100%; height: 80px; }
   .tl-bar { fill: #2a2c33; }
   .tl-bar:hover { fill: var(--accent); cursor: pointer; }
-  .tl-axis line, .tl-axis path { stroke: var(--dim); }
-  .tl-axis text { fill: var(--dim); font-size: 10px; }
 
-  /* hypotheses */
-  .hyp-list { padding: 1rem 1.25rem; }
+  .ent-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+  .ent-table th, .ent-table td { padding: 0.3rem 0.5rem; text-align: left; border-bottom: 1px solid var(--line); }
+  .ent-table th { color: var(--dim); font-weight: normal; cursor: pointer; }
+  .ent-table tr:hover { background: #14161b; cursor: pointer; }
+
   .hyp { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 1rem; margin-bottom: 0.75rem; }
-  .hyp h3 { margin: 0 0 0.5rem; font-size: 0.95rem; }
-  .hyp .ev-count { font-size: 0.75rem; color: var(--dim); }
+  .hyp h3 { margin: 0 0 0.4rem; font-size: 0.95rem; color: var(--text); text-transform: none; letter-spacing: 0; }
+  .ev-card { margin-top: 0.5rem; padding: 0.5rem 0.7rem; background: #1c1e24; border-radius: 4px; font-size: 0.78rem; }
+  .ev-card .stance.supporting { color: var(--accent); }
+  .ev-card .stance.contradicting { color: var(--bad); }
+  .ev-card .stance.context { color: var(--warn); }
+  .ev-card .stance.ambiguous { color: var(--dim); }
 
-  /* views */
+  #map { height: calc(100vh - 110px); }
+
   .view { display: none; }
   .view.active { display: block; }
-  #v-corpus.active { display: grid; grid-template-columns: 1fr 540px; }
+  #v-corpus.active { display: grid; grid-template-columns: 1fr 600px; height: calc(100vh - 60px); }
+  #v-cross-corpus pre { background: var(--panel); border: 1px solid var(--line); padding: 1rem; border-radius: 4px; font-size: 0.78rem; white-space: pre-wrap; overflow: auto; max-height: 70vh; }
 </style>
 </head>
 <body>
 <header>
   <h1>UFO Archive</h1>
   <nav>
-    <a id="nav-corpus" class="active" data-view="corpus">corpus</a>
-    <a id="nav-timeline" data-view="timeline">timeline</a>
-    <a id="nav-entities" data-view="entities">entities</a>
-    <a id="nav-hypotheses" data-view="hypotheses">hypotheses</a>
+    <a class="active" data-view="corpus">corpus</a>
+    <a data-view="map">map</a>
+    <a data-view="timeline">timeline</a>
+    <a data-view="entities">entities</a>
+    <a data-view="hypotheses">hypotheses</a>
+    <a data-view="cross-corpus">cross-corpus</a>
     <a href="https://github.com/omgitzyeoku-collab/UFO/releases/tag/v1.0-release-01-mirror" target="_blank">release ↗</a>
-    <a href="https://www.war.gov/UFO/" target="_blank">war.gov/UFO/ ↗</a>
+    <a href="https://www.war.gov/UFO/" target="_blank">war.gov ↗</a>
   </nav>
   <span class="stat" id="stat-summary">…</span>
 </header>
 
-<!-- CORPUS VIEW -->
 <section id="v-corpus" class="view active">
   <div>
     <div class="filters">
-      <input id="q" placeholder="search title, body, location, description…" style="flex: 1; min-width: 240px;">
+      <input id="q" placeholder="search title, body, location…" style="flex: 1; min-width: 200px;">
       <select id="f-agency"><option value="">all agencies</option></select>
-      <select id="f-quality"><option value="">all qualities</option><option value="good">text: good</option><option value="gibberish">text: gibberish (needs OCR)</option></select>
+      <select id="f-sort"><option value="title">sort: title</option><option value="composite">sort: composite score</option><option value="significance">sort: significance</option><option value="novelty">sort: novelty</option><option value="specificity">sort: specificity</option><option value="redaction">sort: redaction density</option><option value="date">sort: incident date</option></select>
       <span class="count" id="count">0 docs</span>
     </div>
-    <div id="grid" class="grid"><div class="empty" style="padding: 2rem; color: var(--dim);">loading…</div></div>
+    <div id="grid" class="grid"><div class="empty">loading…</div></div>
   </div>
-  <aside id="detail"><div class="empty">click a document to view details</div></aside>
+  <aside id="detail"><div class="empty">click a document to view</div></aside>
 </section>
 
-<!-- TIMELINE VIEW -->
+<section id="v-map" class="view">
+  <div id="map"></div>
+</section>
+
 <section id="v-timeline" class="view">
-  <div class="timeline">
+  <div style="padding: 1rem 1.25rem;">
     <h2 style="font-size: 1rem; margin: 0 0 1rem;">Incidents by year</h2>
     <svg id="tl-chart"></svg>
     <div id="tl-list" style="margin-top: 1.5rem;"></div>
   </div>
 </section>
 
-<!-- ENTITIES VIEW -->
 <section id="v-entities" class="view">
-  <div class="hyp-list">
-    <h2 style="font-size: 1rem; margin: 0 0 1rem;">Entities <span style="color: var(--dim); font-weight: normal;">(extracted via claude vision/text — populated as extraction runs)</span></h2>
+  <div style="padding: 1rem 1.25rem;">
+    <h2 style="font-size: 1rem; margin: 0 0 1rem;">Entities <span style="color: var(--dim); font-weight: normal;">(canonical, normalised)</span></h2>
     <div id="ent-content">loading…</div>
   </div>
 </section>
 
-<!-- HYPOTHESES VIEW -->
 <section id="v-hypotheses" class="view">
-  <div class="hyp-list">
+  <div style="padding: 1rem 1.25rem;">
     <h2 style="font-size: 1rem; margin: 0 0 1rem;">Hypothesis register</h2>
-    <p style="color: var(--dim); font-size: 0.85rem;">10 questions written before reading the corpus. Evidence cards populated by <code>extract/aggregate-evidence.mjs</code>.</p>
+    <p style="color: var(--dim); font-size: 0.85rem;">10 questions written before reading the corpus, with evidence cards aggregated by claude.</p>
     <div id="hyp-content">loading…</div>
   </div>
 </section>
 
+<section id="v-cross-corpus" class="view">
+  <div style="padding: 1rem 1.25rem;">
+    <h2 style="font-size: 1rem; margin: 0 0 1rem;">Cross-corpus diff: war.gov/UFO/ vs existing public sources</h2>
+    <p style="color: var(--dim); font-size: 0.85rem;">Comparison against on-disk noise crawl from AARO.mil, vault.fbi.gov, cia.gov, NASA, NARA, media.defense.gov.</p>
+    <pre id="cc-content">loading…</pre>
+  </div>
+</section>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
 async function loadJsonl(url) {
   const r = await fetch(url);
   if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
-  const t = await r.text();
-  return t.trim().split('\n').filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+  return (await r.text()).trim().split('\n').filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
 }
 function fmt(b) { if (!b && b !== 0) return '—'; if (b<1024) return b+' B'; if (b<1024*1024) return (b/1024).toFixed(0)+' KB'; return (b/1024/1024).toFixed(2)+' MB'; }
 function escapeHtml(s) { return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function escapeRe(s) { return (s||'').replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 function agencyShort(a) { if (!a) return '?'; if (a==='Department of War') return 'DOW'; if (a==='Department of State') return 'DOS'; if (a==='FBI') return 'FBI'; if (a==='NASA') return 'NASA'; return a; }
+function dateYear(s) { if (!s || s === 'N/A') return null; let m = s.match(/(\d{4})/); if (m) return parseInt(m[1]); m = s.match(/\/(\d{2})$/); if (m) return 2000 + parseInt(m[1]); return null; }
 
-// Data state
-let docs = [], entities = [], hypotheses = null, evidenceByHyp = {};
+let docs = [], scores = {}, entities = [], geocoded = {}, evidenceByHyp = {}, hypotheses = null, crossCorpus = '';
 const textCache = new Map();
 
 async function loadAll() {
-  // release-manifest.jsonl is the authoritative inventory
   const raw = await loadJsonl('../extract/release-manifest.jsonl');
-  // Dedupe by sha256 (some CSV records share the same PDF blob)
   const map = new Map();
-  for (const r of raw) {
-    if (!r.sha256) continue;
-    if (!map.has(r.sha256)) map.set(r.sha256, r);
-  }
+  for (const r of raw) if (r.sha256 && !map.has(r.sha256)) map.set(r.sha256, r);
   docs = [...map.values()];
 
-  // Captions (image vision)
-  try {
-    const caps = await loadJsonl('../extract/captions.jsonl');
-    const byS = new Map();
-    for (const c of caps) if (c.parsed && c.sha256) byS.set(c.sha256, c.parsed);
-    for (const d of docs) d.caption = byS.get(d.sha256);
-  } catch {}
-
-  // Entities (may not exist yet)
-  try {
-    const ents = await loadJsonl('../extract/entities.jsonl');
-    for (const e of ents) if (e.parsed && e.sha256) {
-      const d = docs.find(x => x.sha256 === e.sha256);
-      if (d) d.entities = e.parsed;
-    }
-  } catch {}
-
-  // Hypotheses (markdown — parse later)
-  try {
-    const r = await fetch('../docs/hypotheses.md');
-    if (r.ok) hypotheses = await r.text();
-  } catch {}
-
-  // Evidence cards
-  try {
-    const ev = await loadJsonl('../extract/evidence.jsonl');
-    for (const e of ev) {
-      if (!evidenceByHyp[e.hypothesis_id]) evidenceByHyp[e.hypothesis_id] = [];
-      evidenceByHyp[e.hypothesis_id].push(e);
-    }
-  } catch {}
+  try { const caps = await loadJsonl('../extract/captions.jsonl'); for (const c of caps) if (c.parsed && c.sha256) { const d = docs.find(x => x.sha256 === c.sha256); if (d) d.caption = c.parsed; } } catch {}
+  try { const ents = await loadJsonl('../extract/entities-normalised.jsonl'); for (const e of ents) if (e.parsed && e.sha256) { const d = docs.find(x => x.sha256 === e.sha256); if (d) d.entities = e.parsed; } } catch {
+    try { const ents = await loadJsonl('../extract/entities.jsonl'); for (const e of ents) if (e.parsed && e.sha256) { const d = docs.find(x => x.sha256 === e.sha256); if (d) d.entities = e.parsed; } } catch {}
+  }
+  try { entities = await loadJsonl('../extract/entity-index.jsonl'); } catch {}
+  try { const sc = await loadJsonl('../extract/scores.jsonl'); for (const s of sc) scores[s.sha256] = s; } catch {}
+  try { const gc = await loadJsonl('../extract/geocoded.jsonl'); for (const g of gc) if (g.lat) geocoded[g.location] = g; } catch {}
+  try { const ev = await loadJsonl('../extract/evidence.jsonl'); for (const e of ev) { if (!evidenceByHyp[e.hypothesis_id]) evidenceByHyp[e.hypothesis_id] = []; evidenceByHyp[e.hypothesis_id].push(e); } } catch {}
+  try { const r = await fetch('../docs/hypotheses.md'); if (r.ok) hypotheses = await r.text(); } catch {}
+  try { const r = await fetch('../docs/cross-corpus-diff.md'); if (r.ok) crossCorpus = await r.text(); } catch {}
 }
 
 async function loadText(sha) {
   if (textCache.has(sha)) return textCache.get(sha);
-  try {
-    const r = await fetch(`../extract/text/${sha}.txt`);
-    if (!r.ok) { textCache.set(sha, ''); return ''; }
-    const t = await r.text();
-    textCache.set(sha, t);
-    return t;
-  } catch { textCache.set(sha, ''); return ''; }
+  try { const r = await fetch(`../extract/text/${sha}.txt`); if (!r.ok) { textCache.set(sha, ''); return ''; } const t = await r.text(); textCache.set(sha, t); return t; }
+  catch { textCache.set(sha, ''); return ''; }
 }
 
 function uniq(arr) { return [...new Set(arr)].sort(); }
 function popSelect(id, vals) { const el = document.getElementById(id); for (const v of vals) { const o = document.createElement('option'); o.value = v; o.textContent = v; el.appendChild(o); } }
 
-let active = null;
+let active = null, currentEntityFilter = null;
+
+function compositeFor(sha) { return scores[sha]?.composite || 0; }
+function axisFor(sha, axis) { return scores[sha]?.[axis] || 0; }
 
 function renderCorpus() {
   const q = document.getElementById('q').value.toLowerCase().trim();
   const fa = document.getElementById('f-agency').value;
-  const fq = document.getElementById('f-quality').value;
-  const items = docs.filter(d => {
+  const sort = document.getElementById('f-sort').value;
+  let items = docs.filter(d => {
     if (fa && d.agency !== fa) return false;
-    if (fq) {
-      const ok = textCache.get(d.sha256);
-      // can't filter by quality without loaded text; defer
-    }
+    if (currentEntityFilter && !(d.entities && JSON.stringify(d.entities).toLowerCase().includes(currentEntityFilter.toLowerCase()))) return false;
     if (q) {
       const hay = [d.title, d.agency, d.incident_location, d.description, d.name].filter(Boolean).join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
   });
-  document.getElementById('count').textContent = `${items.length} docs`;
+  // sort
+  if (sort === 'composite') items.sort((a,b) => compositeFor(b.sha256) - compositeFor(a.sha256));
+  else if (sort === 'date') items.sort((a,b) => (dateYear(b.incident_date) || 0) - (dateYear(a.incident_date) || 0));
+  else if (sort === 'redaction') items.sort((a,b) => axisFor(b.sha256, 'redaction_density') - axisFor(a.sha256, 'redaction_density'));
+  else if (['significance','novelty','specificity'].includes(sort)) items.sort((a,b) => axisFor(b.sha256, sort) - axisFor(a.sha256, sort));
+  else items.sort((a,b) => (a.title||'').localeCompare(b.title||''));
+
+  document.getElementById('count').textContent = `${items.length} docs${currentEntityFilter ? ' · entity: ' + currentEntityFilter : ''}`;
   const grid = document.getElementById('grid');
-  grid.innerHTML = items.map((d, i) => `
-    <div class="row" data-sha="${d.sha256}">
+  grid.innerHTML = items.map(d => {
+    const s = compositeFor(d.sha256);
+    return `<div class="row" data-sha="${d.sha256}">
       <span class="agency" data-agency="${escapeHtml(d.agency)}">${agencyShort(d.agency)}</span>
       <span class="date">${escapeHtml(d.incident_date && d.incident_date !== 'N/A' ? d.incident_date : '—')}</span>
       <span class="title">${escapeHtml(d.title || d.name)}<small>${escapeHtml(fmt(d.bytes))}</small></span>
       <span class="loc">${escapeHtml(d.incident_location && d.incident_location !== 'N/A' ? d.incident_location : '')}</span>
-      <span class="quality">${d.entities ? '<span style="color:var(--accent)">analysed</span>' : ''}</span>
-    </div>
-  `).join('');
-  for (const row of grid.querySelectorAll('.row')) {
-    row.addEventListener('click', () => showDetail(docs.find(x => x.sha256 === row.dataset.sha)));
-  }
-  if (active) {
-    const r = grid.querySelector(`[data-sha="${active}"]`);
-    if (r) r.classList.add('active');
-  }
+      <span class="score">${s ? '★ ' + s.toFixed(1) : ''}</span>
+      <span class="quality">${d.entities ? '<span style="color:var(--accent)">●</span>' : ''}</span>
+    </div>`;
+  }).join('');
+  for (const row of grid.querySelectorAll('.row')) row.addEventListener('click', () => showDetail(docs.find(x => x.sha256 === row.dataset.sha)));
+  if (active) { const r = grid.querySelector(`[data-sha="${active}"]`); if (r) r.classList.add('active'); }
 }
 
 async function showDetail(d) {
@@ -258,46 +248,52 @@ async function showDetail(d) {
   const text = await loadText(d.sha256);
   const q = document.getElementById('q').value.trim();
   let bodyHtml = escapeHtml(text.slice(0, 5000));
-  if (q) {
-    const re = new RegExp('(' + escapeRe(q) + ')', 'gi');
-    bodyHtml = bodyHtml.replace(re, '<mark>$1</mark>');
-  }
+  if (q) { const re = new RegExp('(' + escapeRe(q) + ')', 'gi'); bodyHtml = bodyHtml.replace(re, '<mark>$1</mark>'); }
   const ents = d.entities;
-  det.innerHTML = `
+  const sc = scores[d.sha256];
+  const isPdf = /\.pdf$/i.test(d.name);
+  const pdfUrl = d.release_url;
+
+  det.innerHTML = `<div class="pad">
     <h2>${escapeHtml(d.title || d.name)}</h2>
     <span class="agency" data-agency="${escapeHtml(d.agency)}">${agencyShort(d.agency)}</span>
-    <a class="download" href="${escapeHtml(d.release_url)}" target="_blank">↓ download PDF (${fmt(d.bytes)})</a>
+    <a class="download" href="${escapeHtml(pdfUrl)}" target="_blank">↓ PDF (${fmt(d.bytes)})</a>
+
+    ${isPdf ? `<h3>preview</h3>
+      <iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(pdfUrl)}#page=1" loading="lazy"></iframe>` : ''}
 
     <h3>metadata</h3>
     <dl>
-      <dt>title</dt><dd>${escapeHtml(d.title || '')}</dd>
       <dt>agency</dt><dd>${escapeHtml(d.agency || '—')}</dd>
       <dt>incident date</dt><dd>${escapeHtml(d.incident_date || '—')}</dd>
       <dt>location</dt><dd>${escapeHtml(d.incident_location || '—')}</dd>
       <dt>release date</dt><dd>${escapeHtml(d.release_date || '—')}</dd>
       <dt>type</dt><dd>${escapeHtml(d.type || '—')}</dd>
-      <dt>filename</dt><dd>${escapeHtml(d.name)}</dd>
+      <dt>filename</dt><dd style="font-size:0.7rem;">${escapeHtml(d.name)}</dd>
       <dt>sha256</dt><dd style="font-size:0.7rem; color:var(--dim);">${escapeHtml(d.sha256)}</dd>
     </dl>
 
-    ${d.description ? `<h3>description</h3><div style="font-size:0.78rem; color:var(--dim);">${escapeHtml(d.description.slice(0,1000))}</div>` : ''}
+    ${sc ? `<h3>scoring fingerprint</h3>
+      <div class="score-grid">
+        ${['significance','novelty','specificity','provenance','redaction_density','corroboration'].map(axis => `
+          <span style="color:var(--dim);">${axis.replace('_',' ')}</span>
+          <div class="score-bar"><div class="fill" style="width:${(sc[axis]||0)*10}%"></div></div>
+          <span style="text-align:right;">${(sc[axis]||0).toFixed(1)}</span>`).join('')}
+      </div>
+      <div style="margin-top:0.5rem; color:var(--accent); font-size:0.85rem;">composite: ${sc.composite.toFixed(1)}</div>` : ''}
 
-    ${d.caption ? `<h3>image analysis (vision)</h3>
-      <dl>
-        <dt>type</dt><dd>${escapeHtml(d.caption.what_is_it || '')}</dd>
-        <dt>headline</dt><dd>${escapeHtml(d.caption.headline || '')}</dd>
-        <dt>redactions</dt><dd>${d.caption.redaction_blocks ?? 0}</dd>
-        <dt>specificity</dt><dd>${d.caption.specificity_score ?? 0}/10</dd>
-        ${d.caption.objects_described?.length ? `<dt>objects</dt><dd>${d.caption.objects_described.join(', ')}</dd>` : ''}
-      </dl>` : ''}
+    ${d.description ? `<h3>description</h3><div style="font-size:0.78rem; color:var(--dim);">${escapeHtml(d.description.slice(0,800))}</div>` : ''}
 
-    ${ents ? `<h3>extracted entities</h3>
+    ${ents ? `<h3>entities</h3>
       ${ents.summary ? `<div style="font-size:0.78rem; margin-bottom:0.5rem;">${escapeHtml(ents.summary)}</div>` : ''}
-      ${entityChips(ents)}` : '<h3>entities</h3><div style="color:var(--dim); font-size:0.78rem;">extraction pending</div>'}
+      ${entityChips(ents)}` : ''}
+
+    ${d.caption ? `<h3>image analysis</h3>
+      <dl><dt>type</dt><dd>${escapeHtml(d.caption.what_is_it)}</dd><dt>headline</dt><dd>${escapeHtml(d.caption.headline)}</dd><dt>redactions</dt><dd>${d.caption.redaction_blocks ?? 0}</dd></dl>` : ''}
 
     <h3>extracted text ${text ? `(${text.length} chars)` : '(missing)'}</h3>
-    ${text ? `<div class="body">${bodyHtml}${text.length > 5000 ? `\n\n<span style="color:var(--dim)">… (${text.length-5000} more chars; download PDF for full)</span>` : ''}</div>` : '<div style="color:var(--warn); font-size:0.78rem;">no extracted text — likely scanned PDF awaiting OCR</div>'}
-  `;
+    ${text ? `<div class="body">${bodyHtml}${text.length > 5000 ? `\n\n<span style="color:var(--dim)">… (${text.length-5000} more — open PDF for full)</span>` : ''}</div>` : '<div style="color:var(--warn); font-size:0.78rem;">no extracted text yet — OCR may still be running</div>'}
+  </div>`;
 }
 
 function entityChips(e) {
@@ -305,106 +301,120 @@ function entityChips(e) {
   for (const [type, label] of [['people','people'],['places','places'],['organisations','orgs'],['projects','projects'],['case_numbers','case#'],['sensor_platforms','sensors'],['object_types','objects'],['classifications','class']]) {
     const v = e[type];
     if (!v?.length) continue;
-    parts.push(`<div style="margin-top:0.5rem;"><span style="color:var(--dim); font-size:0.7rem;">${label}: </span>${v.map(x => `<span class="chip">${escapeHtml(x.slice(0,60))}</span>`).join(' ')}</div>`);
+    parts.push(`<div style="margin-top:0.4rem;"><span style="color:var(--dim); font-size:0.7rem;">${label}: </span>${v.map(x => `<span class="chip" onclick="filterByEntity('${escapeHtml((x||'').replace(/'/g,'\\\\\\''))}'); return false;">${escapeHtml(x.slice(0,60))}</span>`).join(' ')}</div>`);
   }
-  if (e.key_claims?.length) parts.push(`<div style="margin-top:0.6rem;"><span style="color:var(--dim); font-size:0.7rem;">key claims:</span><ul style="margin:0.3rem 0 0 1rem; padding:0; font-size:0.78rem;">${e.key_claims.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul></div>`);
-  if (e.novelty_signals?.length) parts.push(`<div style="margin-top:0.6rem;"><span style="color:var(--dim); font-size:0.7rem;">novelty:</span><ul style="margin:0.3rem 0 0 1rem; padding:0; font-size:0.78rem;">${e.novelty_signals.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul></div>`);
+  if (e.key_claims?.length) parts.push(`<div style="margin-top:0.5rem;"><span style="color:var(--dim); font-size:0.7rem;">key claims:</span><ul style="margin:0.3rem 0 0 1rem; padding:0; font-size:0.78rem;">${e.key_claims.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul></div>`);
+  if (e.novelty_signals?.length) parts.push(`<div style="margin-top:0.5rem;"><span style="color:var(--dim); font-size:0.7rem;">novelty:</span><ul style="margin:0.3rem 0 0 1rem; padding:0; font-size:0.78rem;">${e.novelty_signals.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul></div>`);
   return parts.join('');
 }
 
-function renderTimeline() {
-  // Parse incident_date strings into year buckets
-  const years = {};
-  for (const d of docs) {
-    const s = d.incident_date;
-    if (!s || s === 'N/A') continue;
-    let y = null;
-    let m = s.match(/(\d{4})/);
-    if (m) y = parseInt(m[1]);
-    else { m = s.match(/\/(\d{2})$/); if (m) y = 2000 + parseInt(m[1]); }
-    if (!y || y < 1900 || y > 2030) continue;
-    years[y] = (years[y] || 0) + 1;
+function filterByEntity(name) {
+  currentEntityFilter = name;
+  document.getElementById('q').value = '';
+  setView('corpus');
+  renderCorpus();
+}
+
+let mapInst = null;
+function renderMap() {
+  if (!mapInst) {
+    mapInst = L.map('map', { worldCopyJump: true }).setView([20, 30], 3);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '© OpenStreetMap, © CARTO',
+      subdomains: 'abcd', maxZoom: 19,
+    }).addTo(mapInst);
+  } else {
+    mapInst.eachLayer(l => { if (l instanceof L.Marker) mapInst.removeLayer(l); });
   }
+  let count = 0;
+  for (const d of docs) {
+    const g = geocoded[(d.incident_location || '').trim()];
+    if (!g?.lat) continue;
+    const m = L.circleMarker([g.lat, g.lon], {
+      radius: 6, fillColor: '#6ee7b7', color: '#000', weight: 1, opacity: 1, fillOpacity: 0.7,
+    }).addTo(mapInst);
+    m.bindPopup(`<div style="font-family:monospace; font-size:12px;"><strong>${escapeHtml(d.title||'')}</strong><br>${escapeHtml(d.agency||'')} · ${escapeHtml(d.incident_date||'')}<br>${escapeHtml(d.incident_location||'')}<br><a href="${d.release_url}" target="_blank">↓ PDF</a></div>`);
+    count++;
+  }
+  // status banner
+  const banner = `<div style="position:absolute; top:10px; right:10px; background:rgba(20,22,27,0.9); padding:0.5rem 0.8rem; border:1px solid var(--line); border-radius:4px; z-index:1000; font-size:0.78rem; color:var(--text);">${count} of ${docs.length} docs geocoded ${count===0 ? '(geocoding may still be running)' : ''}</div>`;
+  const old = document.getElementById('map-banner'); if (old) old.remove();
+  const div = document.createElement('div'); div.id = 'map-banner'; div.innerHTML = banner; document.getElementById('map').appendChild(div.firstChild || div);
+}
+
+function renderTimeline() {
+  const years = {};
+  for (const d of docs) { const y = dateYear(d.incident_date); if (y && y >= 1900 && y <= 2030) years[y] = (years[y] || 0) + 1; }
   const data = Object.entries(years).map(([y,n]) => ({y: parseInt(y), n})).sort((a,b) => a.y - b.y);
-  const min = data[0]?.y || 1940, max = data[data.length-1]?.y || 2026;
+  if (!data.length) { document.getElementById('tl-list').innerHTML = '<div style="color:var(--dim);">no incident dates parsed</div>'; return; }
+  const min = data[0].y, max = data[data.length-1].y;
   const w = 1200, h = 80, pad = 40;
-  const xRange = max - min;
+  const xRange = max - min || 1;
   const maxN = Math.max(...data.map(d => d.n));
   const svg = document.getElementById('tl-chart');
   svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
-  svg.innerHTML = '';
-  const barW = (w - pad*2) / Math.max(xRange, 1);
+  const barW = (w - pad*2) / xRange;
+  let html = '';
   for (const d of data) {
-    const x = pad + ((d.y - min) / Math.max(xRange,1)) * (w - pad*2);
+    const x = pad + ((d.y - min) / xRange) * (w - pad*2);
     const barH = (d.n / maxN) * (h - 30);
-    svg.innerHTML += `<rect class="tl-bar" x="${x-barW/2}" y="${h-20-barH}" width="${Math.max(barW-2,2)}" height="${barH}"><title>${d.y}: ${d.n} docs</title></rect>`;
-    svg.innerHTML += `<text x="${x}" y="${h-5}" text-anchor="middle" fill="var(--dim)" font-size="9">${d.y}</text>`;
+    html += `<rect class="tl-bar" x="${x-barW/2}" y="${h-20-barH}" width="${Math.max(barW-2,2)}" height="${barH}"><title>${d.y}: ${d.n} docs</title></rect>`;
+    html += `<text x="${x}" y="${h-5}" text-anchor="middle" fill="#8a8d96" font-size="9">${d.y}</text>`;
   }
-  // Per-year list
-  const list = document.getElementById('tl-list');
-  list.innerHTML = data.map(({y, n}) => `<div style="margin-bottom:1rem;"><h3 style="font-size:0.9rem; color:var(--accent); margin:0 0 0.5rem;">${y} (${n} docs)</h3>${docs.filter(d => (d.incident_date||'').includes(String(y).slice(-2)) || (d.incident_date||'').includes(String(y))).map(d => `<div style="font-size:0.78rem; padding:0.2rem 0;"><span class="agency" data-agency="${escapeHtml(d.agency)}">${agencyShort(d.agency)}</span> ${escapeHtml(d.title||d.name)} <a href="${d.release_url}" target="_blank">↗</a></div>`).join('')}</div>`).join('');
+  svg.innerHTML = html;
+  document.getElementById('tl-list').innerHTML = data.map(({y,n}) => `<div style="margin-bottom:1rem;"><h3 style="font-size:0.9rem; color:var(--accent); margin:0 0 0.5rem;">${y} (${n} docs)</h3>${docs.filter(d => dateYear(d.incident_date) === y).map(d => `<div style="font-size:0.78rem; padding:0.2rem 0;"><span class="agency" data-agency="${escapeHtml(d.agency)}">${agencyShort(d.agency)}</span> ${escapeHtml(d.title||d.name)} <a href="${d.release_url}" target="_blank">↗</a></div>`).join('')}</div>`).join('');
 }
 
 function renderEntities() {
   const c = document.getElementById('ent-content');
-  // Aggregate entities across all docs
+  if (!entities.length) { c.innerHTML = '<div style="color:var(--dim);">no entities extracted yet — extraction may still be running</div>'; return; }
+  // Group by type, sort each by doc_count desc
   const byType = {};
-  for (const d of docs) {
-    const e = d.entities;
-    if (!e) continue;
-    for (const t of ['people','organisations','places','projects','case_numbers','sensor_platforms','object_types','classifications']) {
-      if (!e[t]) continue;
-      byType[t] = byType[t] || new Map();
-      for (const v of e[t]) {
-        const key = v.toLowerCase().trim();
-        if (!key) continue;
-        const e0 = byType[t].get(key) || { value: v, docs: new Set() };
-        e0.docs.add(d.sha256);
-        byType[t].set(key, e0);
-      }
-    }
+  for (const e of entities) { (byType[e.type] = byType[e.type] || []).push(e); }
+  let html = '';
+  for (const [t, arr] of Object.entries(byType)) {
+    arr.sort((a,b) => b.doc_count - a.doc_count);
+    html += `<h3 style="margin-top:1rem;">${t} (${arr.length})</h3>
+      <table class="ent-table"><thead><tr><th>name</th><th>docs</th><th>variants</th></tr></thead><tbody>
+      ${arr.slice(0, 50).map(e => `<tr onclick="filterByEntity('${escapeHtml((e.canonical||'').replace(/'/g,'\\\\\\''))}')"><td>${escapeHtml(e.canonical)}</td><td>${e.doc_count}</td><td style="color:var(--dim);">${e.variants.length}</td></tr>`).join('')}
+      </tbody></table>`;
   }
-  if (!Object.keys(byType).length) {
-    c.innerHTML = '<div style="color:var(--dim); font-size:0.85rem;">no entities extracted yet — run <code>node extract/extract-entities.mjs</code> over the corpus.</div>';
-    return;
-  }
-  c.innerHTML = Object.entries(byType).map(([t, m]) => {
-    const items = [...m.values()].sort((a,b) => b.docs.size - a.docs.size).slice(0, 50);
-    return `<h3 style="margin-top:1rem;">${t} (${m.size})</h3>
-      <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.5rem;">
-        ${items.map(it => `<div style="background: var(--panel); border:1px solid var(--line); padding:0.4rem 0.6rem; border-radius:4px; font-size:0.78rem;"><strong>${escapeHtml(it.value)}</strong> <span style="color:var(--dim);">— ${it.docs.size} docs</span></div>`).join('')}
-      </div>`;
-  }).join('');
+  c.innerHTML = html;
 }
 
 function renderHypotheses() {
   const c = document.getElementById('hyp-content');
-  if (!hypotheses) { c.innerHTML = '<div style="color:var(--dim);">docs/hypotheses.md not found</div>'; return; }
-  // Naive parse: look for "## H<n>:" sections
-  const sections = hypotheses.split(/\n(?=## H\d)/);
-  c.innerHTML = sections.filter(s => /^##\s*H\d/.test(s)).map((s, idx) => {
-    const titleMatch = s.match(/^##\s*(H\d+):?\s*(.+?)\n/);
-    if (!titleMatch) return '';
-    const id = titleMatch[1];
-    const title = titleMatch[2];
-    const body = s.split('\n').slice(1).join('\n');
-    const ev = evidenceByHyp[id] || [];
+  if (!hypotheses) { c.innerHTML = '<div style="color:var(--dim);">docs/hypotheses.md not loaded</div>'; return; }
+  const sections = hypotheses.split(/\n(?=## H\d)/).filter(s => /^##\s*H\d/.test(s));
+  c.innerHTML = sections.map(s => {
+    const m = s.match(/^##\s*(H\d+):?\s*(.+?)\n([\s\S]*)/);
+    if (!m) return '';
+    const [_, id, title, body] = m;
+    const summary = (evidenceByHyp[id] || []).find(e => e.stance_summary)?.stance_summary || '';
+    const cards = (evidenceByHyp[id] || []).filter(e => e.sha256);
     return `<div class="hyp">
       <h3>${id}: ${escapeHtml(title)}</h3>
-      <div style="font-size:0.8rem; color:var(--dim); white-space: pre-wrap;">${escapeHtml(body.slice(0,500))}</div>
-      <div class="ev-count" style="margin-top:0.5rem;">${ev.length ? ev.length + ' evidence card(s)' : 'no evidence aggregated yet — run extract/aggregate-evidence.mjs'}</div>
-      ${ev.slice(0,3).map(e => `<div style="margin-top:0.5rem; padding:0.5rem; background:#1c1e24; border-radius:4px; font-size:0.78rem;"><strong>${escapeHtml(e.doc_title || e.sha256?.slice(0,12))}</strong> · ${e.stance || '—'}<br>${escapeHtml(e.passage?.slice(0,300) || '')}</div>`).join('')}
+      <div style="font-size:0.78rem; color:var(--dim); white-space: pre-wrap; max-height: 6em; overflow: auto;">${escapeHtml(body.split('---')[0].slice(0,800))}</div>
+      ${summary ? `<div style="margin-top:0.5rem; padding:0.5rem; border-left: 3px solid var(--accent); font-size:0.85rem;"><strong>verdict:</strong> ${escapeHtml(summary)}</div>` : ''}
+      ${cards.length ? `<div style="margin-top:0.5rem; color:var(--dim); font-size:0.78rem;">${cards.length} evidence card(s):</div>` : ''}
+      ${cards.slice(0, 6).map(e => `<div class="ev-card" onclick="document.querySelector('[data-sha=&quot;${e.sha256}&quot;]')?.click(); setView('corpus');"><span class="stance ${e.stance}">[${e.stance}]</span> <strong>${escapeHtml(e.doc_title || e.sha256.slice(0,12))}</strong> <span style="color:var(--dim);">· ${escapeHtml(e.agency || '')}</span><br>${escapeHtml(e.rationale || '')}</div>`).join('')}
     </div>`;
   }).join('');
+}
+
+function renderCrossCorpus() {
+  document.getElementById('cc-content').textContent = crossCorpus || '(cross-corpus diff not yet generated)';
 }
 
 function setView(name) {
   for (const v of document.querySelectorAll('.view')) v.classList.remove('active');
   for (const a of document.querySelectorAll('header nav a[data-view]')) a.classList.toggle('active', a.dataset.view === name);
   document.getElementById('v-' + name).classList.add('active');
+  if (name === 'map') setTimeout(renderMap, 50);
   if (name === 'timeline') renderTimeline();
   if (name === 'entities') renderEntities();
   if (name === 'hypotheses') renderHypotheses();
+  if (name === 'cross-corpus') renderCrossCorpus();
 }
 
 (async () => {
@@ -413,12 +423,16 @@ function setView(name) {
     document.getElementById('grid').innerHTML = `<div style="padding:2rem; color:var(--bad);">load failed: ${escapeHtml(e.message)}<br>are you running via the static server?</div>`;
     return;
   }
-  document.getElementById('stat-summary').textContent = `${docs.length} docs · ${docs.filter(d => d.entities).length} analysed · ${Object.keys(evidenceByHyp).length} hypotheses with evidence`;
+  document.getElementById('stat-summary').textContent = `${docs.length} docs · ${docs.filter(d => d.entities).length} analysed · ${entities.length} entities · ${Object.keys(geocoded).length} geocoded · ${Object.keys(evidenceByHyp).length} hypotheses w/ evidence`;
   popSelect('f-agency', uniq(docs.map(d => d.agency).filter(Boolean)));
-  for (const id of ['q','f-agency','f-quality']) document.getElementById(id).addEventListener('input', renderCorpus);
+  for (const id of ['q','f-agency','f-sort']) document.getElementById(id).addEventListener('input', renderCorpus);
   for (const a of document.querySelectorAll('header nav a[data-view]')) a.addEventListener('click', () => setView(a.dataset.view));
   renderCorpus();
+  // Clear entity filter button
+  document.getElementById('q').addEventListener('focus', () => { if (currentEntityFilter) { currentEntityFilter = null; renderCorpus(); } });
 })();
+window.filterByEntity = filterByEntity;
+window.setView = setView;
 </script>
 </body>
 </html>

@@ -1,0 +1,77 @@
+name: Deploy dashboard to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'dashboard/**'
+      - 'extract/release-manifest.jsonl'
+      - 'extract/captions.jsonl'
+      - 'extract/entities.jsonl'
+      - 'extract/entities-normalised.jsonl'
+      - 'extract/entity-index.jsonl'
+      - 'extract/scores.jsonl'
+      - 'extract/evidence.jsonl'
+      - 'extract/geocoded.jsonl'
+      - 'extract/text/**'
+      - 'docs/hypotheses.md'
+      - 'docs/cross-corpus-diff.md'
+      - 'docs/improvement-plan.md'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stage site
+        run: |
+          set -e
+          mkdir -p _site/dashboard _site/extract _site/extract/text _site/docs
+          cp dashboard/index.html _site/dashboard/index.html
+          # Adjust relative paths for the deployed site (root → ./, dashboard at /)
+          # The dashboard fetches ../extract/... ; deployment puts dashboard at /dashboard/
+          # so the fetches resolve correctly when site root is project root.
+          cp -r extract/release-manifest.jsonl _site/extract/ || true
+          cp -r extract/captions.jsonl _site/extract/ || true
+          cp -r extract/entities.jsonl _site/extract/ 2>/dev/null || true
+          cp -r extract/entities-normalised.jsonl _site/extract/ 2>/dev/null || true
+          cp -r extract/entity-index.jsonl _site/extract/ 2>/dev/null || true
+          cp -r extract/scores.jsonl _site/extract/ 2>/dev/null || true
+          cp -r extract/evidence.jsonl _site/extract/ 2>/dev/null || true
+          cp -r extract/geocoded.jsonl _site/extract/ 2>/dev/null || true
+          cp -r extract/text/. _site/extract/text/ 2>/dev/null || true
+          cp -r docs/hypotheses.md _site/docs/ 2>/dev/null || true
+          cp -r docs/cross-corpus-diff.md _site/docs/ 2>/dev/null || true
+          cp -r docs/improvement-plan.md _site/docs/ 2>/dev/null || true
+          # Root index redirect to dashboard
+          cat > _site/index.html <<'EOF'
+          <!doctype html><meta http-equiv="refresh" content="0; url=./dashboard/">
+          <a href="./dashboard/">UFO Archive dashboard</a>
+          EOF
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
