@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+<title>UAP Files — declassified UFO documents, translated</title>
+<meta name="description" content="The full US government UAP / UFO disclosure release, translated into plain English with every claim source-cited. Free, public, donation-supported." />
+<meta property="og:title" content="UAP Files" />
+<meta property="og:description" content="Declassified US government UAP documents, translated into plain English with every claim source-cited." />
+<meta property="og:type" content="website" />
+<style>
+  :root {
+    --bg: #0b0c10; --card: #14161c; --line: #262830; --text: #e8e9ec; --dim: #92959e; --soft: #c0c2c8;
+    --accent: #6ee7b7; --warn: #fbbf24; --danger: #f87171; --link: #7dd3fc;
+    --DOW: #fbbf24; --FBI: #60a5fa; --NASA: #f87171; --DOS: #c084fc;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--text); font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif; }
+  a { color: var(--link); text-decoration: none; } a:hover { text-decoration: underline; }
+  header.site { padding: 1.5rem 1.25rem 1rem; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 1rem; align-items: baseline; }
+  header.site h1 { font-size: 1.4rem; margin: 0; font-weight: 700; letter-spacing: -0.01em; }
+  header.site .tag { color: var(--dim); font-size: 0.85rem; }
+  header.site nav { margin-left: auto; display: flex; gap: 1rem; flex-wrap: wrap; }
+  header.site nav a { color: var(--soft); font-size: 0.95rem; }
+
+  .hero { padding: 1.5rem 1.25rem; max-width: 70ch; }
+  .hero h2 { font-size: 1.05rem; margin: 0 0 0.5rem; color: var(--soft); font-weight: 500; }
+  .hero p { color: var(--soft); margin: 0; }
+  .stat-row { display: flex; flex-wrap: wrap; gap: 1.5rem; padding: 0.5rem 1.25rem 1.5rem; color: var(--dim); font-size: 0.85rem; }
+  .stat-row strong { color: var(--text); }
+
+  .filters { padding: 1rem 1.25rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; position: sticky; top: 0; background: var(--bg); z-index: 5; }
+  .filters input, .filters select { background: var(--card); border: 1px solid var(--line); color: var(--text); padding: 0.55rem 0.7rem; border-radius: 6px; font: inherit; font-size: 0.9rem; }
+  .filters input { flex: 1; min-width: 240px; }
+  .filters input:focus, .filters select:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .count { color: var(--dim); font-size: 0.85rem; margin-left: auto; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr)); gap: 1rem; padding: 1.25rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1.1rem 1.2rem 1rem; cursor: pointer; transition: border-color 0.1s, transform 0.05s; display: flex; flex-direction: column; }
+  .card:hover { border-color: var(--accent); }
+  .card:active { transform: scale(0.99); }
+  .card .badges { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.6rem; }
+  .badge { font-size: 0.7rem; padding: 0.15rem 0.55rem; border-radius: 999px; border: 1px solid var(--line); color: var(--dim); font-weight: 500; letter-spacing: 0.02em; }
+  .badge.agency-DOW { color: var(--DOW); border-color: #6b4d10; }
+  .badge.agency-FBI { color: var(--FBI); border-color: #1e3a5f; }
+  .badge.agency-NASA { color: var(--NASA); border-color: #5f1f1f; }
+  .badge.agency-DOS { color: var(--DOS); border-color: #4c2670; }
+  .badge.tier-green { color: var(--accent); border-color: #166534; }
+  .badge.tier-amber { color: var(--warn); border-color: #5a3e0a; }
+  .badge.tier-red { color: var(--danger); border-color: #5f1f1f; }
+  .card h3 { font-size: 1.05rem; margin: 0 0 0.4rem; line-height: 1.35; font-weight: 600; }
+  .card .tldr { color: var(--soft); font-size: 0.92rem; margin: 0 0 0.8rem; flex: 1; }
+  .card .footer { display: flex; gap: 1rem; flex-wrap: wrap; color: var(--dim); font-size: 0.78rem; margin-top: auto; }
+  .card .footer span { display: inline-block; }
+  .card.skeleton { opacity: 0.4; pointer-events: none; }
+
+  .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 100; padding: 1rem; overflow: auto; }
+  .modal.open { display: block; }
+  .modal-inner { max-width: 920px; margin: 1.5rem auto; background: var(--card); border-radius: 12px; border: 1px solid var(--line); overflow: hidden; }
+  .modal-inner .body { padding: 1.5rem 1.75rem 2rem; }
+  .modal-inner h2 { font-size: 1.5rem; margin: 0 0 0.5rem; line-height: 1.3; }
+  .modal-inner .meta { color: var(--dim); font-size: 0.85rem; margin: 0 0 1.2rem; }
+  .modal-inner .tldr { background: #1a1d24; border-left: 3px solid var(--accent); padding: 0.85rem 1rem; margin: 0 0 1.2rem; color: var(--soft); border-radius: 0 4px 4px 0; }
+  .modal-inner .narrative { font-size: 1rem; line-height: 1.7; color: var(--soft); }
+  .modal-inner .narrative p { margin: 0 0 1rem; }
+  .modal-inner .caveats { margin-top: 1.5rem; padding: 1rem 1.2rem; background: #1a1d24; border-radius: 6px; border: 1px solid var(--line); }
+  .modal-inner .caveats h4 { margin: 0 0 0.5rem; font-size: 0.9rem; color: var(--warn); }
+  .modal-inner .caveats ul { margin: 0; padding-left: 1.2rem; color: var(--soft); font-size: 0.9rem; }
+  .modal-inner .source-row { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.2rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
+  .modal-inner .source-row a { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 0.85rem; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; color: var(--text); font-size: 0.85rem; }
+  .modal-inner .source-row a:hover { border-color: var(--accent); text-decoration: none; }
+  .modal-inner .pdf-frame { width: 100%; height: 540px; border: 1px solid var(--line); border-radius: 6px; margin-top: 1rem; background: #000; }
+  .modal-close { position: absolute; top: 1rem; right: 1.25rem; background: var(--bg); border: 1px solid var(--line); color: var(--soft); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 1.2rem; line-height: 1; display: grid; place-items: center; }
+  .modal-close:hover { color: var(--text); border-color: var(--accent); }
+  .modal-inner .key-facts { margin: 1.2rem 0; }
+  .modal-inner .key-facts h4 { font-size: 0.85rem; color: var(--dim); margin: 0 0 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .modal-inner .key-facts dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.4rem 1rem; margin: 0; font-size: 0.9rem; }
+  .modal-inner .key-facts dt { color: var(--dim); }
+  .modal-inner .key-facts dd { margin: 0; color: var(--soft); }
+  .modal-inner .key-facts .conf-amber { opacity: 0.75; }
+  .modal-inner .verify-link { color: var(--dim); font-size: 0.75rem; margin-left: 0.4rem; }
+
+  .empty { padding: 3rem 1.25rem; text-align: center; color: var(--dim); }
+
+  footer.site { padding: 2rem 1.25rem; border-top: 1px solid var(--line); color: var(--dim); font-size: 0.85rem; text-align: center; }
+  footer.site a { color: var(--soft); }
+  footer.site .donate { display: inline-block; margin: 1rem 0; padding: 0.55rem 1.2rem; background: var(--accent); color: #000; border-radius: 6px; font-weight: 600; }
+  footer.site .donate:hover { text-decoration: none; opacity: 0.9; }
+
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; padding: 0.75rem; }
+    .modal-inner { margin: 0; border-radius: 0; }
+    .modal-inner .body { padding: 1.25rem 1.1rem 1.5rem; }
+    .modal-inner h2 { font-size: 1.25rem; }
+    .modal-inner .pdf-frame { height: 70vh; }
+  }
+</style>
+</head>
+<body>
+<header class="site">
+  <h1>UAP Files</h1>
+  <span class="tag">declassified, translated, source-cited</span>
+  <nav>
+    <a href="#corpus">corpus</a>
+    <a href="about.html">about</a>
+    <a href="methodology.html">methodology</a>
+    <a href="donate.html">support</a>
+    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank">source ↗</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>The full US government UAP disclosure, in plain English.</h2>
+  <p>Every document on <a href="https://www.war.gov/UFO/" target="_blank">war.gov/UFO/</a> read, translated, and source-cited. Free, neutral, every claim verifiable against the original PDF. Multi-agent QA pipeline ensures nothing fabricated. <a href="methodology.html">How it works →</a></p>
+</section>
+
+<div class="stat-row" id="stats">loading…</div>
+
+<div class="filters">
+  <input id="q" placeholder="search title, body, location, agency…" autocomplete="off">
+  <select id="f-agency"><option value="">all agencies</option></select>
+  <select id="f-tier"><option value="">all tiers</option><option value="green">green: high confidence</option><option value="amber">amber: partial</option></select>
+  <select id="f-sort"><option value="date">most recent first</option><option value="title">title A–Z</option><option value="agency">agency</option></select>
+  <span class="count" id="count">0 docs</span>
+</div>
+
+<section id="corpus" class="grid"><div class="empty">loading documents…</div></section>
+
+<div class="modal" id="modal">
+  <div class="modal-inner">
+    <button class="modal-close" id="modal-close" aria-label="close">×</button>
+    <div class="body" id="modal-body">loading…</div>
+  </div>
+</div>
+
+<footer class="site">
+  <p>UAP Files is a free public archive translating government UAP documents into plain English. Every claim is source-cited; you can verify any of them against the original PDF.</p>
+  <p><a class="donate" href="donate.html">Support this project</a></p>
+  <p style="margin-top: 1.5rem;">Sources: <a href="https://www.war.gov/UFO/" target="_blank">war.gov/UFO/</a> · <a href="https://www.aaro.mil/" target="_blank">aaro.mil</a> (coming) · <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank">code + manifest</a></p>
+  <p style="font-size: 0.8rem; opacity: 0.7;">UAP Files makes no claims about the nature of the phenomena described. We translate documents; you decide what they mean.</p>
+</footer>
+
+<script>
+async function loadJsonl(url) {
+  const r = await fetch(url);
+  if (!r.ok) return [];
+  return (await r.text()).trim().split('\n').filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+}
+function fmt(b) { if (!b && b!==0) return '—'; if (b<1024) return b+' B'; if (b<1048576) return (b/1024).toFixed(0)+' KB'; return (b/1048576).toFixed(1)+' MB'; }
+function escapeHtml(s) { return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function escapeAttr(s) { return escapeHtml(s).replace(/`/g, '&#96;'); }
+function agencyShort(a) { if (!a) return '?'; if (a==='Department of War') return 'DOW'; if (a==='Department of State') return 'DOS'; if (a==='FBI') return 'FBI'; if (a==='NASA') return 'NASA'; return a; }
+function dateYear(s) { if (!s||s==='N/A') return null; let m=s.match(/(\d{4})/); if (m) return parseInt(m[1]); m=s.match(/\/(\d{2})$/); if (m) return 2000+parseInt(m[1]); return null; }
+
+let corpus = [], qaIndex = new Map();
+
+async function loadAll() {
+  const raw = await loadJsonl('extract/release-manifest.jsonl');
+  const map = new Map();
+  for (const r of raw) if (r.sha256 && !map.has(r.sha256)) map.set(r.sha256, r);
+  corpus = [...map.values()];
+
+  // Try to load QA-verified outputs for each doc
+  await Promise.all(corpus.map(async d => {
+    try {
+      const r = await fetch(`extract/public/${d.sha256}.json`);
+      if (r.ok) qaIndex.set(d.sha256, await r.json());
+    } catch {}
+  }));
+}
+
+function uniq(a) { return [...new Set(a)].sort(); }
+
+function renderStats() {
+  const total = corpus.length;
+  const verified = [...qaIndex.values()].filter(q => q.tier === 'green').length;
+  const partial = [...qaIndex.values()].filter(q => q.tier === 'amber').length;
+  const pdfCount = corpus.filter(d => d.type !== 'VID' && d.type !== 'IMG').length;
+  const vidCount = corpus.filter(d => d.type === 'VID').length;
+  const imgCount = corpus.filter(d => d.type === 'IMG').length;
+  document.getElementById('stats').innerHTML = `
+    <span><strong>${total}</strong> documents</span>
+    <span><strong>${pdfCount}</strong> PDFs · <strong>${vidCount}</strong> videos · <strong>${imgCount}</strong> images</span>
+    <span><strong>${verified}</strong> verified · <strong>${partial}</strong> partial · <strong>${total-verified-partial}</strong> awaiting QA</span>
+    <span>source: <a href="https://www.war.gov/UFO/" target="_blank">war.gov/UFO/</a></span>
+  `;
+}
+
+function renderGrid() {
+  const q = document.getElementById('q').value.toLowerCase().trim();
+  const fa = document.getElementById('f-agency').value;
+  const ft = document.getElementById('f-tier').value;
+  const sort = document.getElementById('f-sort').value;
+
+  let items = corpus.filter(d => {
+    if (fa && d.agency !== fa) return false;
+    const qa = qaIndex.get(d.sha256);
+    if (ft) {
+      if (ft === 'green' && qa?.tier !== 'green') return false;
+      if (ft === 'amber' && qa?.tier !== 'amber') return false;
+    }
+    if (q) {
+      const tldr = qa?.public_tldr || '';
+      const headline = qa?.public_headline || '';
+      const hay = [d.title, d.agency, d.incident_location, d.description, headline, tldr].filter(Boolean).join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  if (sort === 'title') items.sort((a,b) => (a.title||'').localeCompare(b.title||''));
+  else if (sort === 'agency') items.sort((a,b) => (a.agency||'').localeCompare(b.agency||'') || (a.title||'').localeCompare(b.title||''));
+  else items.sort((a,b) => (dateYear(b.incident_date) || 0) - (dateYear(a.incident_date) || 0));
+
+  document.getElementById('count').textContent = `${items.length} docs`;
+  const grid = document.getElementById('corpus');
+  if (!items.length) { grid.innerHTML = `<div class="empty">no documents match.</div>`; return; }
+
+  grid.innerHTML = items.map(d => {
+    const qa = qaIndex.get(d.sha256);
+    const tier = qa?.tier;
+    const headline = qa?.public_headline || d.title || d.name;
+    const tldr = qa?.public_tldr || (d.description || '').slice(0, 200);
+    const tierBadge = tier === 'green' ? '<span class="badge tier-green">verified</span>'
+      : tier === 'amber' ? '<span class="badge tier-amber">partial</span>'
+      : '<span class="badge" style="opacity:0.5;">awaiting QA</span>';
+    const typeBadge = d.type === 'VID' ? '<span class="badge">video</span>'
+      : d.type === 'IMG' ? '<span class="badge">image</span>'
+      : '';
+    return `<article class="card" data-sha="${d.sha256}">
+      <div class="badges">
+        <span class="badge agency-${agencyShort(d.agency)}">${escapeHtml(agencyShort(d.agency))}</span>
+        ${tierBadge}
+        ${typeBadge}
+      </div>
+      <h3>${escapeHtml(headline)}</h3>
+      <p class="tldr">${escapeHtml(tldr.slice(0, 240))}${tldr.length>240?'…':''}</p>
+      <div class="footer">
+        ${d.incident_date && d.incident_date!=='N/A' ? `<span>📅 ${escapeHtml(d.incident_date)}</span>` : ''}
+        ${d.incident_location && d.incident_location!=='N/A' ? `<span>📍 ${escapeHtml(d.incident_location)}</span>` : ''}
+        <span>${fmt(d.bytes)}</span>
+      </div>
+    </article>`;
+  }).join('');
+
+  for (const c of grid.querySelectorAll('.card')) {
+    c.addEventListener('click', () => openDoc(corpus.find(x => x.sha256 === c.dataset.sha)));
+  }
+}
+
+function openDoc(d) {
+  if (!d) return;
+  const qa = qaIndex.get(d.sha256);
+  const isPdf = /\.pdf$/i.test(d.name);
+  const isVid = /\.mp4$/i.test(d.name) || d.type === 'VID';
+  const body = document.getElementById('modal-body');
+
+  const headline = qa?.public_headline || d.title || d.name;
+  const tldr = qa?.public_tldr;
+  const narrative = qa?.public_narrative;
+  const caveats = qa?.public_caveats || [];
+  const keyFacts = qa?.key_facts || [];
+
+  body.innerHTML = `
+    <h2>${escapeHtml(headline)}</h2>
+    <p class="meta">
+      <strong>${escapeHtml(d.agency || '')}</strong>
+      ${d.incident_date && d.incident_date !== 'N/A' ? ' · ' + escapeHtml(d.incident_date) : ''}
+      ${d.incident_location && d.incident_location !== 'N/A' ? ' · ' + escapeHtml(d.incident_location) : ''}
+      ${qa?.tier ? ' · <span class="badge tier-' + qa.tier + '">' + qa.tier + '</span>' : ''}
+    </p>
+    ${tldr ? `<div class="tldr">${escapeHtml(tldr)}</div>` : ''}
+    ${narrative ? `<div class="narrative">${narrative.split('\n\n').map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>`
+      : `<div class="narrative" style="opacity: 0.7;"><p>${escapeHtml(d.description || 'Plain-English summary not yet generated. The QA pipeline is still processing this document.')}</p></div>`}
+
+    ${keyFacts.length ? `<div class="key-facts">
+      <h4>Key facts (verified against source)</h4>
+      <dl>${keyFacts.map(f => `
+        <dt class="conf-${f.confidence}">${escapeHtml(f.field)}</dt>
+        <dd class="conf-${f.confidence}">${escapeHtml(f.value)}${f.confidence==='amber' ? ' <span class="verify-link">(partial citation)</span>' : ''}</dd>
+      `).join('')}</dl>
+    </div>` : ''}
+
+    ${caveats.length ? `<div class="caveats">
+      <h4>What to know</h4>
+      <ul>${caveats.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul>
+    </div>` : ''}
+
+    <div class="source-row">
+      <a href="${escapeAttr(d.release_url)}" target="_blank">↓ original ${isVid ? 'video' : isPdf ? 'PDF' : 'file'} (${fmt(d.bytes)})</a>
+      ${d.url ? `<a href="${escapeAttr(d.url)}" target="_blank">→ source on war.gov</a>` : ''}
+      <a href="https://github.com/omgitzyeoku-collab/UFO/blob/master/extract/text/${d.sha256}.txt" target="_blank" style="color: var(--dim);">extracted text</a>
+    </div>
+
+    ${isPdf ? `<iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(d.release_url)}" loading="lazy" title="${escapeAttr(headline)}"></iframe>` : ''}
+    ${isVid ? `<video class="pdf-frame" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
+  `;
+  document.getElementById('modal').classList.add('open');
+  history.replaceState(null, '', '#doc/' + d.sha256);
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDoc() {
+  document.getElementById('modal').classList.remove('open');
+  history.replaceState(null, '', location.pathname);
+  document.body.style.overflow = '';
+}
+
+document.getElementById('modal-close').addEventListener('click', closeDoc);
+document.getElementById('modal').addEventListener('click', e => { if (e.target.id === 'modal') closeDoc(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDoc(); });
+
+(async () => {
+  try { await loadAll(); }
+  catch (e) {
+    document.getElementById('corpus').innerHTML = `<div class="empty" style="color: var(--danger);">load failed: ${escapeHtml(e.message)}</div>`;
+    return;
+  }
+  renderStats();
+  for (const a of uniq(corpus.map(d => d.agency).filter(Boolean))) {
+    const o = document.createElement('option'); o.value = a; o.textContent = a;
+    document.getElementById('f-agency').appendChild(o);
+  }
+  for (const id of ['q','f-agency','f-tier','f-sort']) document.getElementById(id).addEventListener('input', renderGrid);
+  renderGrid();
+  // Deep link via #doc/<sha>
+  const m = location.hash.match(/^#doc\/([a-f0-9]+)/);
+  if (m) { const d = corpus.find(x => x.sha256.startsWith(m[1])); if (d) openDoc(d); }
+})();
+</script>
+</body>
+</html>

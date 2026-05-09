@@ -1,0 +1,413 @@
+{
+  "sha256": "e196678aefbf9d1239524925838250d452ac3155789d226d6ebe0158b915070e",
+  "title": "65_HS1-834228961_62-HQ-83894_Section_2",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "N/A",
+  "what_is_it": "A collection of FBI internal memoranda, teletypes, and inter-agency communications from the summer of 1947 documenting investigations into reported flying disc sightings across multiple U.S. states.",
+  "core_summary": "This section of FBI case file 62-HQ-83894 contains several 1947 investigations into flying disc reports. Key incidents include a sighting by three witnesses in Hackensack, New Jersey on August 3, 1947; a suspicious fused-sand sample brought to Dow Chemical Company's physics lab in Midland, Michigan by employee Raymond Edward Lane; a brief sighting over Lake Michigan reported by Mrs. Robert Little; and a War Department request to investigate Richard F. Shaver of Lily Lake, Illinois, who was named in an anonymous telegram as having information about flying disc origins, alongside a military report of saucers observed at extreme speeds over southern Wisconsin.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "OCR quality is poor on many pages due to age and scan quality, rendering some pages nearly illegible (especially pages 1, 3, 5, 9, 11, 13, 22-23).",
+    "The Wisconsin speed calculations (3,960-6,000 mph) rely entirely on observer distance estimates from aircraft, which are inherently imprecise and unverified by instruments.",
+    "The Lane/Dow Chemical incident was treated with suspicion by both Dow authorities and the FBI, with noted discrepancies between husband and wife accounts and inability to locate the incident site.",
+    "The anonymous telegram about Richard F. Shaver was unsigned and from an unknown source; Shaver was a known science fiction writer associated with fringe theories.",
+    "Several witness accounts conflict with each other (e.g., McFarland denied saying it looked like a bird, Mrs. Booth denied seeing anything or anyone pointing at the sky).",
+    "Pages 22-23 appear to be aeronautical charts and legends, not directly related to sighting investigations."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "case_file",
+      "value": "62-HQ-83894",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "hackensack_sighting_date",
+      "value": "August 3, 1947",
+      "source_quote": "a 'Flying Disc' had been reported to been seen at Hackensack, New Jersey on August 3",
+      "citation_offset": {
+        "offset": 2790,
+        "len": 39,
+        "exact": false,
+        "matched": " had been reported to been seen at Hack"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "hackensack_witnesses",
+      "value": "Charles Caselia Jr. and William Truex, later joined by Joyce McFarland",
+      "source_quote": "one CHARLES CASELIA, JR. and WILLIAM TRUEX",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "hackensack_object_description",
+      "value": "Round, black object 30-40 inches diameter, moving south to north about 200 yards above hilltop",
+      "source_quote": "about thirty to forty inches in diameter moving north in a horizontal plane about two hundred yards above the top of the hill",
+      "citation_offset": {
+        "offset": 3737,
+        "len": 60,
+        "exact": false,
+        "matched": "about thirty to forty inches in diameter moving north in a h"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "truex_shape_description",
+      "value": "Oval on top, pointed on bottom, like a large flat child's cup",
+      "source_quote": "it looked more like a large, flat child's cup than anything else he could think of, as the object was oval on the top and came to a point on the bottom side",
+      "citation_offset": {
+        "offset": 8044,
+        "len": 156,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mcfarland_color_description",
+      "value": "Round, silver-blue, appeared to be revolving",
+      "source_quote": "it was round and silver-blue in color and appeared to be revolving",
+      "citation_offset": {
+        "offset": 5468,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "dow_chemical_incident_date",
+      "value": "July 9-10, 1947",
+      "source_quote": "ABOUT FIVE PM JULY NINE LAST HE AND WIFE, LAURA LANE, WERE WALKING IN A FIELD",
+      "citation_offset": {
+        "offset": 9595,
+        "len": 67,
+        "exact": false,
+        "matched": " PM JULY NINE LAST HE AND WIFE, LAURA LANE, WERE WALKING IN A FIELD"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "dow_sample_analysis",
+      "value": "Ordinary sand (not radioactive), ammonia gas, small silver nugget, some grayish material with extremely low radioactivity",
+      "source_quote": "ordinary sand, not radio active, but giving off ammonia gas, a small silver nugget almost pure except for sand mixed in it",
+      "citation_offset": {
+        "offset": 13908,
+        "len": 35,
+        "exact": false,
+        "matched": " a small silver nugget almost pure "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "lane_background",
+      "value": "Dow Chemical employee since ~1922, amateur photographer, limited chemistry/physics knowledge, 1924 burglary conviction",
+      "source_quote": "LANE DESCRIBED AS VERY PECULIAR, SURELY, ANTAGONISTIC TO PLANT PROTECTION OFFICERS, INTERESTED IN PHOTOGRAPHY AND ELECTRICITY",
+      "citation_offset": {
+        "offset": 11188,
+        "len": 100,
+        "exact": false,
+        "matched": "DESCRIBED AS VERY PECULIAR, SURELY, ANTAGONISTIC TO PLANT PROTECTION OFFICERS, INTERESTED IN PHOTOGR"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "los_alamos_comparison",
+      "value": "Fused sand had some characteristics of Los Alamos sand but not believed to be the same",
+      "source_quote": "fused sand has some characteristics of Los Alamos sand but not believed to be the same",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "wisconsin_saucer_speed_1",
+      "value": "6,000 mph estimated over 25 miles in 15 seconds near Koshkonong to Elkhorn, Wisconsin",
+      "source_quote": "This flight covered twenty-five (25) miles in fifteen (15) seconds, which is a speed of six thousand (6000) miles per hour",
+      "citation_offset": {
+        "offset": 21588,
+        "len": 60,
+        "exact": false,
+        "matched": ") miles in fifteen (15) seconds, which is a speed of six tho"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "wisconsin_saucer_speed_2",
+      "value": "3,960 mph estimated over 22 miles in 20 seconds from Eagle to Muskego, Wisconsin",
+      "source_quote": "This flight covered twenty-two (22) miles in twenty (20) seconds, which is a speed of three thousand nine hundred sixty (3960) miles per hour",
+      "citation_offset": {
+        "offset": 21999,
+        "len": 45,
+        "exact": false,
+        "matched": "onds, which is a speed of three thousand nine"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "wisconsin_saucer_maneuver",
+      "value": "Descended vertically edgewise through clouds, stopped at 4000 ft, assumed horizontal position",
+      "source_quote": "saucer descended vertically edgewise through altocumulus clouds, stopped at four thousand (4000) feet and assumed horizontal position",
+      "citation_offset": {
+        "offset": 22125,
+        "len": 45,
+        "exact": false,
+        "matched": "r descended vertically edgewise through altoc"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "shaver_telegram",
+      "value": "Anonymous telegram to AAF HQ suggested contacting Richard F. Shaver of Lily Lake, Illinois about flying disc origins",
+      "source_quote": "FOR FURTHER DETAILS CONCERNING FLYING DISKS SUGGEST IMMEDIATE CONTACT OF MR. RICHARD F SHAVER LILY LAKE ILLINOIS",
+      "citation_offset": {
+        "offset": 20789,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "san_francisco_office_report",
+      "value": "SAC San Francisco forwarded Army Air Forces investigation reports of sightings in Oregon and Arizona",
+      "source_quote": "copies of reports of additional reported sightings of flying discs by persons in Oregon and Arizona",
+      "citation_offset": {
+        "offset": 1187,
+        "len": 79,
+        "exact": false,
+        "matched": " additional reported sightings of flying discs by persons in Oregon and Arizona"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "chicago_sighting",
+      "value": "Mrs. Robert Little reported seeing a disc at 3:30 AM over Lake Michigan off Jackson Park Beach",
+      "source_quote": "LITTLE OF SIX THREE TWO SEVEN HARPER AVENUE CHICAGO REPORTED SEEING A DISC THREE THIRTY AM TODAY SAILING ABOVE LAKE MICHIGAN OFF JACKSON PARK BEACH",
+      "citation_offset": {
+        "offset": 15506,
+        "len": 147,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "D. M. Ladd",
+    "B. A. Tamm",
+    "Donald Springer",
+    "William R. Graham",
+    "Arthur F. Williams",
+    "Charles Caselia Jr.",
+    "William A. Truex",
+    "Joyce McFarland",
+    "Gloria Truex",
+    "Grace Fields",
+    "Winfield S. Booth",
+    "James Perone",
+    "T. Howard Waldron",
+    "Raymond Edward Lane",
+    "Laura Lane",
+    "Mrs. Robert Little",
+    "Joseph Reiner",
+    "E. G. Fitch",
+    "Carl Golbranson",
+    "S. W. Reynolds",
+    "Richard F. Shaver",
+    "John D. Schindler Jr.",
+    "R. J. Southey",
+    "J. P. Coyne"
+  ],
+  "named_places": [
+    "Hackensack, New Jersey",
+    "Simons Avenue, Hackensack",
+    "Euclid Avenue, Hackensack",
+    "Summit Avenue, Hackensack",
+    "Bendix, New Jersey",
+    "Westwood, New Jersey",
+    "Fort Dix, New Jersey",
+    "River Edge, Bergen County, New Jersey",
+    "Midland, Michigan",
+    "Freesoil, Michigan",
+    "Selfridge Field, Michigan",
+    "Hamilton Field, California",
+    "San Francisco",
+    "Jackson Park Beach, Lake Michigan, Chicago",
+    "Lily Lake, Illinois",
+    "Koshkonong, Wisconsin",
+    "Elkhorn, Wisconsin",
+    "East Troy, Wisconsin",
+    "Eagle, Wisconsin",
+    "Muskego, Wisconsin",
+    "Bolling Field, Washington, D.C.",
+    "Oregon",
+    "Arizona",
+    "Los Alamos",
+    "New York, New York"
+  ],
+  "dated_events": [
+    "1947-07-05 — Anonymous telegram sent to AAF HQ about Richard F. Shaver",
+    "1947-07-07 — Report on Flying Saucers by John D. Schindler Jr., two saucer observations over southern Wisconsin",
+    "1947-07-09 — Raymond and Laura Lane incident with fused sand near Dow Chemical field, Midland, Michigan",
+    "1947-07-16 — War Department memo requesting FBI investigate Shaver",
+    "1947-07-21 — E. G. Fitch memo to Ladd regarding flying saucers and Shaver",
+    "1947-07-28 — SAC San Francisco letter to Bureau forwarding Army Air Forces flying disc report",
+    "1947-08-03 — Flying disc sighted in Hackensack, New Jersey by Caselia, Truex, and McFarland",
+    "1947-08-04 — Three Army Air Forces letters on flying disc investigations in Oregon and Arizona",
+    "1947-08-05 — Detroit teletype to FBI Director regarding Lane/Dow Chemical incident",
+    "1947-08-08 — Chicago teletype regarding Mrs. Robert Little sighting over Lake Michigan",
+    "1947-08-08 — FBI Director letter to SAC Chicago directing investigation of Shaver",
+    "1947-08-08 — J. P. Coyne memo recommending Lane material be delivered to War Department",
+    "1947-08-13 — SAC Newark memo to Director on Hackensack flying disc investigation",
+    "1947-08-18 — SAC San Francisco memo to Director forwarding additional flying disc reports"
+  ],
+  "objects_described": [
+    "Round black object, 30-40 inches diameter, moving in horizontal plane (Hackensack)",
+    "Oval-topped, pointed-bottom disc resembling a large flat child's cup (Truex description)",
+    "Round, silver-blue revolving object (McFarland description)",
+    "Ball of white light, size of a bushel basket, burning approximately one foot off the ground (Lane/Dow incident)",
+    "Saucer observed descending vertically edgewise through clouds at 4000 ft, achieving 6000 mph and 3960 mph in horizontal flight (Wisconsin military report)",
+    "Disc seen sailing above Lake Michigan at 3:30 AM (Chicago sighting)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The Hackensack sighting was reported to Sergeant James Perone of the Hackensack Police Department, who took no further action",
+      "source_quote": "The 'Flying Disc' was reported by CASELIA to Sergeant JAMES PERONE of the Hackensack Police Department. Sergeant PERONE advised the writer that his Department had taken no further action",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8550,
+        "len": 100,
+        "exact": false,
+        "matched": "s reported by CASELIA to Sergeant JAMES PERONE of the Hackensack Police Department. Sergeant PERONE "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "William Truex was a Private in Company G, 2nd Battalion, 47th Infantry Regiment, 9th Division at Fort Dix, service number RA 12282003",
+      "source_quote": "Private WILLIAM A. TRUEX, RA 12282003, Company G, 2nd Battalion, 47th Infantry Regiment, 9th Division, Fort Dix, New Jersey",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6598,
+        "len": 55,
+        "exact": false,
+        "matched": "Private WILLIAM A. TRUEX, RA 12282003, Company G, 2nd B"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Dow Chemical's physics lab determined the Lane sample material contained ordinary non-radioactive sand, ammonia gas, and a small nearly-pure silver nugget",
+      "source_quote": "ordinary sand, not radio active, but giving off ammonia gas, a small silver nugget almost pure except for sand mixed in it",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 13908,
+        "len": 35,
+        "exact": false,
+        "matched": " a small silver nugget almost pure "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A former Los Alamos employee at Dow stated the fused sand had some characteristics of Los Alamos sand but was not believed to be the same",
+      "source_quote": "fused sand has some characteristics of Los Alamos sand but not believed to be the same",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Neither Raymond Lane nor his wife would admit their story was a prank, but neither could locate the exact site of the incident",
+      "source_quote": "Neither Raymond Lane nor his wife will admit their story is a prank. However, neither are able to point out the exact location of this incident",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 14902,
+        "len": 95,
+        "exact": false,
+        "matched": "their story is a prank. However, neither are able to point out the exact location of this incid"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A military report documented a flying saucer covering 25 miles in 15 seconds (6,000 mph) over southern Wisconsin on July 7, 1947, observed by an instructor and student pilot",
+      "source_quote": "This flight covered twenty-five (25) miles in fifteen (15) seconds, which is a speed of six thousand (6000) miles per hour",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 21588,
+        "len": 60,
+        "exact": false,
+        "matched": ") miles in fifteen (15) seconds, which is a speed of six tho"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The same Wisconsin report documented a second observation of a saucer covering 22 miles in 20 seconds (3,960 mph), witnessed by Capt. R. J. Southey and a passenger",
+      "source_quote": "This flight covered twenty-two (22) miles in twenty (20) seconds, which is a speed of three thousand nine hundred sixty (3960) miles per hour",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 21999,
+        "len": 45,
+        "exact": false,
+        "matched": "onds, which is a speed of three thousand nine"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The flying disc investigations forwarded by San Francisco were conducted by Army Air Forces prior to FBI receiving instructions to conduct its own inquiries",
+      "source_quote": "these investigations were conducted prior to the time Bureau instructions were issued that our own Bureau would conduct inquiries into the reported sightings of flying discs",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1355,
+        "len": 100,
+        "exact": false,
+        "matched": "these investigations were conducted prior to the time Bureau instructions were issued that our own B"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The War Department requested FBI investigate Richard F. Shaver based on an anonymous telegram and the proximity of his address to Wisconsin sighting locations",
+      "source_quote": "considering the proximity of Lily Lake to the points where the objects were observed, it is requested that Mr Shaver be investigated",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20338,
+        "len": 85,
+        "exact": false,
+        "matched": "considering the proximity of Lily Lake to the points where the objects were observed,"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Mrs. Robert Little of Chicago was 18 years old and had first sighted a disc over a month before the August 8 report",
+      "source_quote": "LITTLE SIGHTED DISC OVER A MONTH AGO AND SHE IS EIGHTEEN YEARS OF AGE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 15767,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 1,
+    "amber": 9,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T08:39:48.052Z",
+  "qa_completed_at": "2026-05-09T08:42:11.087Z",
+  "timing": {
+    "A": "81.1s",
+    "B": "61.8s",
+    "E": "35.3s"
+  },
+  "public_headline": "FBI Files Show 1947 Flying Disc Reports From New Jersey to Wisconsin",
+  "public_tldr": "This section of FBI case file 62-HQ-83894 contains internal memos, teletypes, and inter-agency letters from the summer of 1947 documenting FBI and military investigations into flying disc sightings across multiple U.S. states. The reports range from civilian eyewitness accounts to a military observation claiming speeds of up to 6,000 mph, though none reached firm conclusions.",
+  "public_narrative": "This document is a collection of FBI internal communications from the summer of 1947 — memos, teletypes, and letters between field offices and headquarters — all dealing with reported sightings of \"flying discs.\" It falls under FBI case file 62-HQ-83894 and covers incidents in New Jersey, Michigan, Illinois, Wisconsin, and Chicago.\n\nThe most detailed investigation concerns a sighting in Hackensack, New Jersey on August 3, 1947. Three witnesses — Charles Caselia Jr., William Truex (a Private stationed at Fort Dix), and Joyce McFarland — reported seeing a round, black object roughly 30 to 40 inches across, moving horizontally about 200 yards above a hilltop. Truex described it as oval on top and pointed on the bottom, \"like a large flat child's cup.\" McFarland called it round, silver-blue, and apparently revolving. The sighting was reported to local police, who took no further action. Notably, witnesses gave conflicting accounts: McFarland denied saying it looked like a bird, and a Mrs. Booth denied seeing anything at all.\n\nA separate incident in Midland, Michigan involved Raymond Edward Lane, a long-time Dow Chemical employee, who brought a sample of fused sand to the company's physics lab around July 9, 1947. He claimed he and his wife Laura had found it burning in a field. Dow's lab determined the material was ordinary non-radioactive sand giving off ammonia gas, plus a small nearly-pure silver nugget. A former Los Alamos employee at Dow noted the fused sand had some characteristics of Los Alamos sand but was not believed to be the same. The FBI treated the story with suspicion: there were discrepancies between husband and wife accounts, and neither could locate the exact site of the incident. Lane was described by colleagues as \"very peculiar\" and had a 1924 burglary conviction.\n\nThe file also includes a military report from July 7, 1947 describing flying saucers observed over southern Wisconsin. One observation calculated a saucer covering 25 miles in 15 seconds (approximately 6,000 mph); another calculated 22 miles in 20 seconds (approximately 3,960 mph). A saucer was reported to have descended vertically edgewise through clouds, stopped at 4,000 feet, then assumed a horizontal position. Separately, an anonymous telegram directed the Army Air Forces to contact Richard F. Shaver of Lily Lake, Illinois, a known science fiction writer, about flying disc origins. The War Department forwarded this to the FBI for investigation. An 18-year-old Chicago woman, Mrs. Robert Little, also reported seeing a disc over Lake Michigan at 3:30 AM on August 8, 1947.\n\nNone of the investigations in this file reach a definitive conclusion about what the witnesses saw. The FBI documented the reports, noted inconsistencies, and in some cases forwarded materials to the War Department. Many pages are in poor condition, with several nearly illegible due to age and scan quality, and the document shows moderate evidence of redactions.",
+  "public_caveats": [
+    "The Wisconsin speed estimates (3,960–6,000 mph) were calculated from observer distance estimates made from aircraft — inherently imprecise and not verified by any instruments.",
+    "Several witness accounts directly contradict each other. For example, one witness denied a description attributed to her, and another denied seeing anything at all.",
+    "The anonymous telegram about Richard F. Shaver came from an unknown source, and Shaver was already known as a science fiction writer associated with fringe theories — not a scientific or military authority.",
+    "The Lane/Dow Chemical incident was treated with suspicion by both Dow and the FBI: the couple's accounts had discrepancies, and neither could find the site where the event supposedly occurred.",
+    "Many pages are partially or fully illegible due to the age and quality of the scans, and the document shows moderate redaction, meaning some information has been deliberately withheld."
+  ]
+}

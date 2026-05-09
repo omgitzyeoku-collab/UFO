@@ -1,0 +1,27 @@
+:root {
+  --bg: #0b0c10; --card: #14161c; --line: #262830; --text: #e8e9ec;
+  --dim: #92959e; --soft: #c0c2c8;
+  --accent: #6ee7b7; --warn: #fbbf24; --danger: #f87171; --link: #7dd3fc;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--text);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif; }
+a { color: var(--link); text-decoration: none; } a:hover { text-decoration: underline; }
+header.site { padding: 1.5rem 1.25rem 1rem; border-bottom: 1px solid var(--line);
+  display: flex; gap: 1.5rem; align-items: baseline; flex-wrap: wrap; }
+header.site h1 { font-size: 1.4rem; margin: 0; font-weight: 700; }
+header.site nav { margin-left: auto; display: flex; gap: 1rem; flex-wrap: wrap; }
+header.site nav a { color: var(--soft); font-size: 0.95rem; }
+header.site nav a.active { color: var(--accent); }
+main.prose { max-width: 70ch; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: var(--soft); }
+main.prose h1 { color: var(--text); font-size: 2rem; margin: 0 0 1.5rem; line-height: 1.2; }
+main.prose h2 { color: var(--text); font-size: 1.3rem; margin: 2rem 0 0.75rem; }
+main.prose h3 { color: var(--text); font-size: 1.05rem; margin: 1.25rem 0 0.5rem; }
+main.prose p { margin: 0 0 1rem; }
+main.prose ul, main.prose ol { margin: 0 0 1rem; padding-left: 1.5rem; }
+main.prose li { margin-bottom: 0.4rem; }
+main.prose code { background: var(--card); padding: 0.1rem 0.4rem; border-radius: 3px; font-size: 0.85em; color: var(--accent); }
+main.prose strong.tier-green { color: var(--accent); }
+main.prose strong.tier-amber { color: var(--warn); }
+footer.site { padding: 2rem 1.25rem; border-top: 1px solid var(--line); color: var(--dim); font-size: 0.85rem; text-align: center; }
+footer.site a { color: var(--soft); }

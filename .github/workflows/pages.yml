@@ -1,22 +1,21 @@
-name: Deploy dashboard to GitHub Pages
+name: Deploy public site to GitHub Pages
+
+# Deploys /public/ as the public-facing UAP Files site, alongside the small
+# verified-data manifests + extracted text. The PDF/video binaries stay in
+# the GitHub Release; the dashboard fetches from there.
+#
+# Note: Pages requires a public repo on free tier; works automatically on
+# Pro/Team/Enterprise for private repos. If the repo stays private and free,
+# use Cloudflare Pages or Vercel — see docs/deployment.md.
 
 on:
   push:
     branches: [master]
     paths:
-      - 'dashboard/**'
+      - 'public/**'
       - 'extract/release-manifest.jsonl'
-      - 'extract/captions.jsonl'
-      - 'extract/entities.jsonl'
-      - 'extract/entities-normalised.jsonl'
-      - 'extract/entity-index.jsonl'
-      - 'extract/scores.jsonl'
-      - 'extract/evidence.jsonl'
-      - 'extract/geocoded.jsonl'
+      - 'extract/public/**'
       - 'extract/text/**'
-      - 'docs/hypotheses.md'
-      - 'docs/cross-corpus-diff.md'
-      - 'docs/improvement-plan.md'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -38,27 +37,21 @@ jobs:
       - name: Stage site
         run: |
           set -e
-          mkdir -p _site/dashboard _site/extract _site/extract/text _site/docs
-          cp dashboard/index.html _site/dashboard/index.html
-          # Adjust relative paths for the deployed site (root → ./, dashboard at /)
-          # The dashboard fetches ../extract/... ; deployment puts dashboard at /dashboard/
-          # so the fetches resolve correctly when site root is project root.
-          cp -r extract/release-manifest.jsonl _site/extract/ || true
-          cp -r extract/captions.jsonl _site/extract/ || true
-          cp -r extract/entities.jsonl _site/extract/ 2>/dev/null || true
-          cp -r extract/entities-normalised.jsonl _site/extract/ 2>/dev/null || true
-          cp -r extract/entity-index.jsonl _site/extract/ 2>/dev/null || true
-          cp -r extract/scores.jsonl _site/extract/ 2>/dev/null || true
-          cp -r extract/evidence.jsonl _site/extract/ 2>/dev/null || true
-          cp -r extract/geocoded.jsonl _site/extract/ 2>/dev/null || true
+          mkdir -p _site/extract _site/extract/text _site/extract/public
+          # Public site files
+          cp -r public/. _site/
+          # Public-facing data the site reads
+          cp extract/release-manifest.jsonl _site/extract/ 2>/dev/null || true
+          cp -r extract/public/. _site/extract/public/ 2>/dev/null || true
           cp -r extract/text/. _site/extract/text/ 2>/dev/null || true
-          cp -r docs/hypotheses.md _site/docs/ 2>/dev/null || true
-          cp -r docs/cross-corpus-diff.md _site/docs/ 2>/dev/null || true
-          cp -r docs/improvement-plan.md _site/docs/ 2>/dev/null || true
-          # Root index redirect to dashboard
-          cat > _site/index.html <<'EOF'
-          <!doctype html><meta http-equiv="refresh" content="0; url=./dashboard/">
-          <a href="./dashboard/">UFO Archive dashboard</a>
+          # Headers for cleaner CDN behaviour
+          cat > _site/_headers <<'EOF'
+          /extract/*
+            Cache-Control: public, max-age=300, must-revalidate
+          /*.html
+            Cache-Control: public, max-age=60, must-revalidate
+          /*.css
+            Cache-Control: public, max-age=86400
           EOF
 
       - uses: actions/configure-pages@v5
