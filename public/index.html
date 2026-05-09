@@ -1,247 +1,142 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-<title>UAP Files — declassified UFO documents, translated</title>
-<meta name="description" content="The full US government UAP / UFO disclosure release, translated into plain English with every claim source-cited. Free, public, donation-supported." />
-<meta property="og:title" content="UAP Files" />
-<meta property="og:description" content="Declassified US government UAP documents, translated into plain English with every claim source-cited." />
-<meta property="og:type" content="website" />
+<title>UAP Files</title>
+<meta name="description" content="Every US government UAP/UFO disclosure document, translated, source-cited, mapped, and connected. Multi-agent QA pipeline." />
+<meta property="og:title" content="UAP Files — declassified, translated, connected" />
+<meta property="og:description" content="178 declassified US gov UAP documents, plain-English summaries, source-cited, with map and connection graph." />
 <link rel="stylesheet" href="page.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 <style>
-  /* INDEX-PAGE-SPECIFIC styles on top of page.css brand tokens */
-
-  /* HERO */
-  .hero { padding: 3rem 1.75rem 2rem; max-width: 78ch; }
-  .hero h2 {
-    font-family: var(--ff-head); font-weight: 700;
-    font-size: 2.4rem; line-height: 1.15; letter-spacing: -0.02em;
-    margin: 0 0 1rem; color: var(--dark);
-  }
-  .hero p { color: var(--dark); font-size: 1.05rem; margin: 0 0 0.5rem; max-width: 65ch; }
-  .hero p .accent { color: var(--orange); font-weight: 600; font-style: italic; }
-
-  /* STATS */
-  .stat-row {
-    display: flex; flex-wrap: wrap; gap: 1.75rem;
-    padding: 0.5rem 1.75rem 2rem;
-    color: var(--soft); font-size: 0.92rem; font-family: var(--ff-head);
-  }
-  .stat-row strong { color: var(--dark); font-weight: 700; }
-
-  /* FILTER BAR */
-  .filters {
-    padding: 1rem 1.75rem;
-    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
-    display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center;
-    position: sticky; top: 70px; background: var(--light); z-index: 5;
-  }
-  .filters input, .filters select {
-    background: var(--card); border: 1px solid var(--line); color: var(--dark);
-    padding: 0.6rem 0.85rem; border-radius: 6px;
-    font-family: var(--ff-body); font-size: 0.95rem;
-  }
-  .filters input { flex: 1; min-width: 220px; }
-  .filters input:focus, .filters select:focus {
-    outline: 2px solid var(--orange); outline-offset: -1px; border-color: var(--orange);
-  }
-  .count { color: var(--soft); font-size: 0.88rem; margin-left: auto; font-family: var(--ff-head); font-style: italic; }
-
-  /* GRID */
-  .grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
-    gap: 1.25rem; padding: 1.75rem;
-  }
-  .card {
-    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
-    padding: 1.4rem 1.5rem 1.2rem; cursor: pointer; transition: border-color 0.12s, transform 0.05s, box-shadow 0.12s;
-    display: flex; flex-direction: column; box-shadow: 0 1px 0 rgba(20,20,19,0.02);
-  }
-  .card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(217,119,87,0.12); }
-  .card:active { transform: scale(0.99); }
-  .card .badges { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
-  .badge {
-    font-family: var(--ff-head); font-size: 0.72rem; font-weight: 500;
-    padding: 0.18rem 0.6rem; border-radius: 999px;
-    border: 1px solid var(--line); color: var(--soft); letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-  .badge.agency-DOW { color: var(--orange); border-color: rgba(217,119,87,0.4); }
-  .badge.agency-FBI { color: var(--blue); border-color: rgba(106,155,204,0.4); }
-  .badge.agency-NASA { color: var(--green); border-color: rgba(120,140,93,0.4); }
-  .badge.agency-DOS { color: var(--dark); border-color: var(--mid); }
-  .badge.agency-AARO { color: var(--orange); border-color: rgba(217,119,87,0.4); background: rgba(217,119,87,0.05); }
-  .badge.tier-green { color: var(--tier-green); border-color: rgba(120,140,93,0.4); }
-  .badge.tier-amber { color: var(--tier-amber); border-color: rgba(217,119,87,0.4); }
-  .badge.source { font-size: 0.65rem; opacity: 0.85; }
-
-  .card h3 {
-    font-family: var(--ff-head); font-weight: 600; font-size: 1.15rem;
-    margin: 0 0 0.5rem; line-height: 1.3; letter-spacing: -0.01em; color: var(--dark);
-  }
-  .card .tldr {
-    color: var(--dark); font-size: 0.96rem; line-height: 1.55;
-    margin: 0 0 1rem; flex: 1; opacity: 0.85;
-  }
-  .card .footer {
-    display: flex; gap: 1rem; flex-wrap: wrap;
-    color: var(--soft); font-size: 0.82rem; font-family: var(--ff-head);
-    padding-top: 0.75rem; border-top: 1px dashed var(--line);
-  }
-
-  /* MODAL */
-  .modal {
-    display: none; position: fixed; inset: 0;
-    background: rgba(20,20,19,0.65); z-index: 100;
-    padding: 1rem; overflow: auto;
-  }
-  .modal.open { display: block; }
-  .modal-inner {
-    max-width: 920px; margin: 1.5rem auto; background: var(--card);
-    border-radius: 12px; border: 1px solid var(--line); overflow: hidden;
-    box-shadow: 0 12px 48px rgba(20,20,19,0.2);
-  }
-  .modal-inner .body { padding: 2rem 2.25rem 2.5rem; position: relative; }
-  .modal-close {
-    position: absolute; top: 1.25rem; right: 1.5rem;
-    background: var(--light); border: 1px solid var(--line); color: var(--soft);
-    width: 38px; height: 38px; border-radius: 50%; cursor: pointer;
-    font-size: 1.4rem; line-height: 1; display: grid; place-items: center;
-    font-family: var(--ff-head);
-  }
-  .modal-close:hover { color: var(--dark); border-color: var(--orange); background: var(--card); }
-  .modal-inner h2 {
-    font-family: var(--ff-head); font-weight: 700;
-    font-size: 1.85rem; line-height: 1.25; letter-spacing: -0.02em;
-    margin: 0 0 0.6rem; color: var(--dark); padding-right: 3rem;
-  }
-  .modal-inner .meta {
-    color: var(--soft); font-size: 0.9rem; margin: 0 0 1.4rem;
-    font-family: var(--ff-head);
-  }
-  .modal-inner .meta strong { color: var(--dark); font-weight: 600; }
-  .modal-inner .tldr {
-    background: var(--light); border-left: 3px solid var(--orange);
-    padding: 1rem 1.2rem; margin: 0 0 1.4rem; color: var(--dark);
-    border-radius: 0 4px 4px 0; font-size: 1.02rem; line-height: 1.6;
-    font-style: italic;
-  }
-  .modal-inner .narrative {
-    font-family: var(--ff-body); font-size: 1.03rem; line-height: 1.75; color: var(--dark);
-  }
-  .modal-inner .narrative p { margin: 0 0 1.1rem; }
-  .modal-inner h4 {
-    font-family: var(--ff-head); font-weight: 600; font-size: 0.9rem;
-    color: var(--soft); text-transform: uppercase; letter-spacing: 0.06em;
-    margin: 1.6rem 0 0.5rem;
-  }
-  .modal-inner .key-facts dl {
-    display: grid; grid-template-columns: max-content 1fr;
-    gap: 0.5rem 1.2rem; margin: 0; font-size: 0.95rem;
-  }
-  .modal-inner .key-facts dt { color: var(--soft); font-family: var(--ff-head); font-weight: 500; }
-  .modal-inner .key-facts dd { margin: 0; color: var(--dark); }
-  .modal-inner .key-facts .conf-amber { opacity: 0.78; }
-  .modal-inner .key-facts .conf-amber dd::after {
-    content: ' (partial citation)'; color: var(--mid); font-size: 0.85em; font-style: italic;
-  }
-  .modal-inner .caveats {
-    margin-top: 1.5rem; padding: 1.1rem 1.3rem;
-    background: rgba(217,119,87,0.06); border-radius: 6px;
-    border: 1px solid rgba(217,119,87,0.2);
-  }
-  .modal-inner .caveats h4 { margin: 0 0 0.6rem; color: var(--orange); }
-  .modal-inner .caveats ul {
-    margin: 0; padding-left: 1.3rem; color: var(--dark); font-size: 0.95rem;
-  }
-  .modal-inner .caveats li { margin-bottom: 0.4rem; line-height: 1.55; }
-  .modal-inner .source-row {
-    display: flex; gap: 0.75rem; flex-wrap: wrap;
-    margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line);
-  }
-  .modal-inner .source-row a {
-    display: inline-flex; align-items: center; gap: 0.4rem;
-    padding: 0.55rem 1rem; background: var(--light); border: 1px solid var(--line);
-    border-radius: 6px; color: var(--dark); font-size: 0.92rem;
-    font-family: var(--ff-head); text-decoration: none;
-  }
-  .modal-inner .source-row a:hover { border-color: var(--orange); background: var(--card); }
-  .modal-inner .source-row a.primary { background: var(--orange); color: var(--light); border-color: var(--orange); font-weight: 600; }
-  .modal-inner .source-row a.primary:hover { background: var(--dark); border-color: var(--dark); }
-  .modal-inner .pdf-frame {
-    width: 100%; height: 580px; border: 1px solid var(--line);
-    border-radius: 6px; margin-top: 1.2rem; background: #f4f3ec;
-  }
-
-  .empty { padding: 4rem 1.75rem; text-align: center; color: var(--soft); font-style: italic; }
-
-  /* FOOTER */
-  footer.site p { margin: 0 0 0.6rem; }
-  footer.site .small { font-size: 0.82rem; opacity: 0.8; max-width: 60ch; margin: 0.5rem auto 0; }
-
-  @media (max-width: 600px) {
-    .hero { padding: 2rem 1.25rem 1rem; }
-    .hero h2 { font-size: 1.7rem; }
-    .stat-row { padding: 0 1.25rem 1.5rem; gap: 1.1rem; font-size: 0.85rem; }
-    .filters { padding: 0.85rem 1.25rem; top: 60px; }
-    .grid { grid-template-columns: 1fr; padding: 1rem; gap: 0.85rem; }
-    .modal { padding: 0; }
-    .modal-inner { margin: 0; border-radius: 0; }
-    .modal-inner .body { padding: 1.5rem 1.25rem 2rem; }
-    .modal-inner h2 { font-size: 1.35rem; padding-right: 2.5rem; }
-    .modal-inner .pdf-frame { height: 70vh; }
-    header.site { top: 0; position: static; }
-    .filters { top: 0; }
-  }
+  /* Override leaflet cluster colors for dark theme */
+  .marker-cluster-small div { background: rgba(217,119,87,0.7) !important; color: #fff !important; }
+  .marker-cluster-medium div { background: rgba(229,115,115,0.8) !important; color: #fff !important; }
+  .marker-cluster-large div { background: rgba(192,132,252,0.85) !important; color: #fff !important; }
+  .marker-cluster-small { background-color: rgba(217,119,87,0.3) !important; }
+  .marker-cluster-medium { background-color: rgba(229,115,115,0.3) !important; }
+  .marker-cluster-large { background-color: rgba(192,132,252,0.3) !important; }
 </style>
 </head>
 <body>
-<header class="site">
-  <h1><a href="index.html">UAP Files</a></h1>
-  <span class="tag">declassified, translated, source-cited</span>
+<div class="app">
+
+<header class="appbar">
+  <div class="brand">
+    <span class="dot">●</span>
+    <span>UAP Files</span>
+    <span class="tag">declassified · translated · connected</span>
+  </div>
+  <div class="search">
+    <span class="icon">🔍</span>
+    <input id="q" type="text" placeholder="Search title, body, location, agency, project, person…" autocomplete="off" />
+    <kbd>/</kbd>
+  </div>
   <nav>
-    <a href="index.html" class="active">corpus</a>
-    <a href="about.html">about</a>
-    <a href="methodology.html">methodology</a>
-    <a href="corrections.html">corrections</a>
-    <a href="donate.html">support</a>
-    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">source ↗</a>
+    <a href="about.html">About</a>
+    <a href="methodology.html">Methodology</a>
+    <a href="corrections.html">Corrections</a>
+    <a href="donate.html">Support</a>
+    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">↗ GitHub</a>
+    <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">◐</button>
   </nav>
 </header>
 
-<section class="hero">
-  <h2>The full US government UAP disclosure, in plain English.</h2>
-  <p>Every document on <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">war.gov/UFO/</a> read, translated, and source-cited. Free, neutral, and verifiable against the original PDF.</p>
-  <p><span class="accent">Multi-agent QA pipeline</span> ensures nothing fabricated. <a href="methodology.html">How it works →</a></p>
-</section>
-
-<div class="stat-row" id="stats">loading…</div>
-
-<div class="filters">
-  <input id="q" placeholder="search title, body, location, agency…" autocomplete="off" aria-label="Search documents">
-  <select id="f-agency" aria-label="Filter by agency"><option value="">all agencies</option></select>
-  <select id="f-tier" aria-label="Filter by tier"><option value="">all tiers</option><option value="green">verified</option><option value="amber">partial</option></select>
-  <select id="f-sort" aria-label="Sort"><option value="date">most recent first</option><option value="title">title A–Z</option><option value="agency">agency</option></select>
-  <span class="count" id="count">0 docs</span>
-</div>
-
-<section id="corpus" class="grid"><div class="empty">loading documents…</div></section>
-
-<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-  <div class="modal-inner">
-    <div class="body" id="modal-body">loading…</div>
+<aside class="sidebar">
+  <div class="stat-row" style="margin-bottom: 1rem;">
+    <div class="stat-block"><div class="num" id="stat-docs">—</div><div class="lbl">Documents</div></div>
+    <div class="stat-block"><div class="num" id="stat-verified">—</div><div class="lbl">Verified</div></div>
   </div>
+
+  <h3>Sources</h3>
+  <div class="filter-group">
+    <select id="f-source">
+      <option value="">All sources</option>
+      <option value="war.gov">war.gov/UFO/</option>
+      <option value="aaro.mil">aaro.mil</option>
+    </select>
+  </div>
+
+  <h3>Filter</h3>
+  <div class="filter-group">
+    <select id="f-tier">
+      <option value="">All tiers</option>
+      <option value="green">Verified only</option>
+      <option value="amber">Partial</option>
+      <option value="awaiting">Awaiting QA</option>
+    </select>
+  </div>
+
+  <h3>By agency</h3>
+  <div class="facet-list" id="facet-agency"></div>
+
+  <h3>By type</h3>
+  <div class="facet-list" id="facet-type"></div>
+
+  <h3>By region</h3>
+  <div class="facet-list" id="facet-region"></div>
+</aside>
+
+<main class="main">
+  <div class="view-tabs">
+    <button data-view="grid" class="active">▦ Grid</button>
+    <button data-view="map">⊕ Map</button>
+    <button data-view="network">⌬ Network</button>
+    <span class="meta" id="result-count">—</span>
+  </div>
+
+  <div class="view-body" id="vb-grid">
+    <div class="grid-view" id="grid"><div class="empty">loading documents…</div></div>
+  </div>
+
+  <div class="view-body no-scroll" id="vb-map" style="display:none;">
+    <div id="map"></div>
+  </div>
+
+  <div class="view-body no-scroll" id="vb-network" style="display:none;">
+    <div class="net-wrap">
+      <svg id="netsvg"></svg>
+      <div class="info">drag to pan · scroll to zoom · click a node</div>
+      <div class="controls">
+        <button id="net-reheat" title="Re-layout">↻</button>
+        <button id="net-zoom-in" title="Zoom in">+</button>
+        <button id="net-zoom-out" title="Zoom out">−</button>
+      </div>
+      <div class="legend" id="net-legend"></div>
+    </div>
+  </div>
+</main>
+
 </div>
 
-<footer class="site">
-  <p>UAP Files is a free public archive translating government UAP documents into plain English.</p>
-  <p><a class="donate" href="donate.html">Support this project</a></p>
-  <p class="small">Sources: <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">war.gov/UFO/</a> · <a href="https://www.aaro.mil/" target="_blank" rel="noopener">aaro.mil</a> · <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">code + manifest</a></p>
-  <p class="small">UAP Files makes no claims about the nature of the phenomena described. We translate documents; you decide what they mean.</p>
-</footer>
+<div class="detail-overlay" id="detail-overlay"></div>
+<div class="detail-panel" id="detail-panel">
+  <div class="detail-head">
+    <div class="meta-tags" id="detail-tags"></div>
+    <div class="actions">
+      <button id="detail-prev" title="Previous (←)">‹</button>
+      <button id="detail-next" title="Next (→)">›</button>
+      <button id="detail-close" title="Close (Esc)">×</button>
+    </div>
+  </div>
+  <div class="detail-body" id="detail-body"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
 
 <script>
+// ===================================================================== state
+let corpus = [], qaIndex = new Map(), connections = { nodes: [], edges: [] }, geocoded = {};
+let activeFilters = { source: '', tier: '', agency: null, type: null, region: null };
+let currentView = 'grid';
+let currentDetailIdx = -1, filteredDocs = [];
+
+// ===================================================================== utils
 async function loadJsonl(url) {
   const r = await fetch(url);
   if (!r.ok) return [];
@@ -251,179 +146,470 @@ function fmt(b) { if (!b && b!==0) return '—'; if (b<1024) return b+' B'; if (
 function escapeHtml(s) { return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function escapeAttr(s) { return escapeHtml(s).replace(/`/g, '&#96;'); }
 function agencyShort(a) { if (!a) return '?'; if (a==='Department of War') return 'DOW'; if (a==='Department of State') return 'DOS'; if (a==='FBI') return 'FBI'; if (a==='NASA') return 'NASA'; if (a==='AARO') return 'AARO'; return a; }
-function sourceLabel(s) { if (!s) return 'war.gov'; if (s==='aaro.mil') return 'AARO.mil'; return s; }
 function dateYear(s) { if (!s||s==='N/A') return null; let m=s.match(/(\d{4})/); if (m) return parseInt(m[1]); m=s.match(/\/(\d{2})$/); if (m) return 2000+parseInt(m[1]); return null; }
+function uniq(a) { return [...new Set(a)].filter(x=>x).sort(); }
 
-let corpus = [], qaIndex = new Map();
-
+// ===================================================================== loading
 async function loadAll() {
   const raw = await loadJsonl('extract/release-manifest.jsonl');
   const map = new Map();
   for (const r of raw) if (r.sha256 && !map.has(r.sha256)) map.set(r.sha256, r);
   corpus = [...map.values()];
+
   await Promise.all(corpus.map(async d => {
     try { const r = await fetch(`extract/public/${d.sha256}.json`); if (r.ok) qaIndex.set(d.sha256, await r.json()); } catch {}
   }));
+
+  // connections
+  try {
+    const conn = await loadJsonl('extract/connections.jsonl');
+    connections.nodes = conn.filter(r => r.kind === 'node');
+    connections.edges = conn.filter(r => r.kind === 'edge');
+  } catch {}
+
+  // geocoded locations
+  try {
+    const gc = await loadJsonl('extract/geocoded.jsonl');
+    for (const g of gc) if (g.lat && g.lon) geocoded[g.location] = g;
+  } catch {}
 }
 
-function uniq(a) { return [...new Set(a)].sort(); }
-
-function renderStats() {
-  const total = corpus.length;
-  const verified = [...qaIndex.values()].filter(q => q.tier === 'green').length;
-  const partial = [...qaIndex.values()].filter(q => q.tier === 'amber').length;
-  const pdfCount = corpus.filter(d => d.type !== 'VID' && d.type !== 'IMG').length;
-  const vidCount = corpus.filter(d => d.type === 'VID').length;
-  const imgCount = corpus.filter(d => d.type === 'IMG').length;
-  document.getElementById('stats').innerHTML = `
-    <span><strong>${total}</strong> documents</span>
-    <span><strong>${pdfCount}</strong> PDFs · <strong>${vidCount}</strong> videos · <strong>${imgCount}</strong> images</span>
-    <span><strong>${verified}</strong> verified · <strong>${partial}</strong> partial · <strong>${total-verified-partial}</strong> awaiting QA</span>
-    <span>source: <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">war.gov/UFO/</a></span>
-  `;
-}
-
-function renderGrid() {
+// ===================================================================== filtering
+function getFiltered() {
   const q = document.getElementById('q').value.toLowerCase().trim();
-  const fa = document.getElementById('f-agency').value;
-  const ft = document.getElementById('f-tier').value;
-  const sort = document.getElementById('f-sort').value;
-
-  let items = corpus.filter(d => {
-    if (fa && d.agency !== fa) return false;
-    const qa = qaIndex.get(d.sha256);
-    if (ft) {
-      if (ft === 'green' && qa?.tier !== 'green') return false;
-      if (ft === 'amber' && qa?.tier !== 'amber') return false;
+  return corpus.filter(d => {
+    if (activeFilters.source) {
+      const src = d.source || 'war.gov';
+      if (src.indexOf(activeFilters.source) === -1) return false;
     }
+    const qa = qaIndex.get(d.sha256);
+    if (activeFilters.tier === 'green' && qa?.tier !== 'green') return false;
+    if (activeFilters.tier === 'amber' && qa?.tier !== 'amber') return false;
+    if (activeFilters.tier === 'awaiting' && qa) return false;
+    if (activeFilters.agency && d.agency !== activeFilters.agency) return false;
+    if (activeFilters.type && (d.type || 'PDF') !== activeFilters.type) return false;
+    if (activeFilters.region && d.incident_location !== activeFilters.region) return false;
     if (q) {
       const tldr = qa?.public_tldr || '';
       const headline = qa?.public_headline || '';
-      const hay = [d.title, d.agency, d.incident_location, d.description, headline, tldr].filter(Boolean).join(' ').toLowerCase();
+      const hay = [d.title, d.agency, d.incident_location, d.description, headline, tldr, d.name].filter(Boolean).join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
   });
+}
 
-  if (sort === 'title') items.sort((a,b) => (a.title||'').localeCompare(b.title||''));
-  else if (sort === 'agency') items.sort((a,b) => (a.agency||'').localeCompare(b.agency||'') || (a.title||'').localeCompare(b.title||''));
-  else items.sort((a,b) => (dateYear(b.incident_date) || 0) - (dateYear(a.incident_date) || 0));
+// ===================================================================== sidebar render
+function renderSidebar() {
+  const verified = [...qaIndex.values()].filter(q => q.tier === 'green').length;
+  document.getElementById('stat-docs').textContent = corpus.length;
+  document.getElementById('stat-verified').textContent = verified;
 
-  document.getElementById('count').textContent = `${items.length} docs`;
-  const grid = document.getElementById('corpus');
-  if (!items.length) { grid.innerHTML = `<div class="empty">no documents match.</div>`; return; }
+  // facets
+  const byAgency = {}, byType = {}, byRegion = {};
+  for (const d of corpus) {
+    if (d.agency) byAgency[d.agency] = (byAgency[d.agency]||0) + 1;
+    const t = d.type || 'PDF';
+    byType[t] = (byType[t]||0) + 1;
+    const r = d.incident_location && d.incident_location !== 'N/A' ? d.incident_location : null;
+    if (r) byRegion[r] = (byRegion[r]||0) + 1;
+  }
+  function facet(elId, kvs, filterKey, max = 30) {
+    const el = document.getElementById(elId);
+    el.innerHTML = Object.entries(kvs).sort((a,b) => b[1]-a[1]).slice(0, max).map(([k,n]) => `
+      <div class="facet-item ${activeFilters[filterKey] === k ? 'active' : ''}" data-key="${escapeAttr(k)}" data-fk="${filterKey}">
+        <span class="name">${escapeHtml(k)}</span><span class="count">${n}</span>
+      </div>`).join('');
+    for (const it of el.querySelectorAll('.facet-item')) {
+      it.addEventListener('click', () => {
+        const k = it.dataset.key;
+        activeFilters[filterKey] = (activeFilters[filterKey] === k) ? null : k;
+        renderSidebar(); renderCurrentView();
+      });
+    }
+  }
+  facet('facet-agency', byAgency, 'agency');
+  facet('facet-type', byType, 'type', 6);
+  facet('facet-region', byRegion, 'region', 25);
+}
 
-  grid.innerHTML = items.map(d => {
+// ===================================================================== grid view
+function renderGrid() {
+  filteredDocs = getFiltered();
+  document.getElementById('result-count').textContent = `${filteredDocs.length} documents`;
+  const grid = document.getElementById('grid');
+  if (!filteredDocs.length) { grid.innerHTML = `<div class="empty">no documents match your filters</div>`; return; }
+
+  // Sort by year desc, then verified first
+  filteredDocs.sort((a,b) => {
+    const yA = dateYear(a.incident_date) || 0, yB = dateYear(b.incident_date) || 0;
+    if (yB !== yA) return yB - yA;
+    return (qaIndex.get(b.sha256)?.tier === 'green' ? 1 : 0) - (qaIndex.get(a.sha256)?.tier === 'green' ? 1 : 0);
+  });
+
+  grid.innerHTML = filteredDocs.map((d, i) => {
     const qa = qaIndex.get(d.sha256);
     const tier = qa?.tier;
     const headline = qa?.public_headline || d.title || d.name;
     const tldr = qa?.public_tldr || (d.description || '').slice(0, 220);
-    const tierBadge = tier === 'green' ? '<span class="badge tier-green">verified</span>'
-      : tier === 'amber' ? '<span class="badge tier-amber">partial</span>'
-      : '<span class="badge" style="opacity:0.55;">awaiting QA</span>';
-    const typeBadge = d.type === 'VID' ? '<span class="badge">video</span>'
-      : d.type === 'IMG' ? '<span class="badge">image</span>'
-      : '';
-    return `<article class="card" data-sha="${d.sha256}">
-      <div class="badges">
-        <span class="badge agency-${agencyShort(d.agency)}">${escapeHtml(agencyShort(d.agency))}</span>
+    const tierBadge = tier === 'green'
+      ? '<span class="tag-pill tier-green"><span class="swatch"></span>verified</span>'
+      : tier === 'amber'
+      ? '<span class="tag-pill tier-amber"><span class="swatch"></span>partial</span>'
+      : '<span class="tag-pill faded">queued</span>';
+    return `<article class="card" data-i="${i}" data-sha="${d.sha256}">
+      <div class="card-meta">
+        <span class="tag-pill agency-${agencyShort(d.agency)}"><span class="swatch"></span>${escapeHtml(agencyShort(d.agency))}</span>
         ${tierBadge}
-        ${typeBadge}
+        ${d.type === 'VID' ? '<span class="tag-pill">video</span>' : ''}
+        ${d.type === 'IMG' ? '<span class="tag-pill">image</span>' : ''}
       </div>
       <h3>${escapeHtml(headline)}</h3>
-      <p class="tldr">${escapeHtml(tldr.slice(0, 240))}${tldr.length>240?'…':''}</p>
-      <div class="footer">
-        ${d.incident_date && d.incident_date!=='N/A' ? `<span>📅 ${escapeHtml(d.incident_date)}</span>` : ''}
-        ${d.incident_location && d.incident_location!=='N/A' ? `<span>📍 ${escapeHtml(d.incident_location)}</span>` : ''}
+      <p class="tldr">${escapeHtml(tldr.slice(0, 260))}</p>
+      <div class="card-foot">
+        ${d.incident_date && d.incident_date !== 'N/A' ? `<span>${escapeHtml(d.incident_date)}</span>` : '<span>—</span>'}
+        ${d.incident_location && d.incident_location !== 'N/A' ? `<span class="dot">·</span><span>${escapeHtml(d.incident_location)}</span>` : ''}
         <span style="margin-left:auto;">${fmt(d.bytes)}</span>
       </div>
     </article>`;
   }).join('');
-
   for (const c of grid.querySelectorAll('.card')) {
-    c.addEventListener('click', () => openDoc(corpus.find(x => x.sha256 === c.dataset.sha)));
+    c.addEventListener('click', () => openDetail(parseInt(c.dataset.i)));
   }
 }
 
-function openDoc(d) {
-  if (!d) return;
+// ===================================================================== map view
+let mapInst = null, mapCluster = null;
+function renderMap() {
+  filteredDocs = getFiltered();
+  document.getElementById('result-count').textContent = `${filteredDocs.length} documents`;
+  if (!mapInst) {
+    mapInst = L.map('map', { worldCopyJump: true, zoomControl: true });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '© OpenStreetMap, © CARTO', subdomains: 'abcd', maxZoom: 19,
+    }).addTo(mapInst);
+    mapInst.setView([20, 30], 2);
+  }
+  if (mapCluster) mapInst.removeLayer(mapCluster);
+  mapCluster = L.markerClusterGroup({ chunkedLoading: true, showCoverageOnHover: false });
+  let count = 0;
+  for (const d of filteredDocs) {
+    const g = geocoded[(d.incident_location || '').trim()];
+    if (!g) continue;
+    const qa = qaIndex.get(d.sha256);
+    const headline = qa?.public_headline || d.title || d.name;
+    const m = L.circleMarker([g.lat, g.lon], {
+      radius: 7, fillColor: qa?.tier === 'green' ? '#6cc28a' : '#d97757',
+      color: '#000', weight: 1, opacity: 1, fillOpacity: 0.85,
+    });
+    m.bindPopup(`<div><strong>${escapeHtml(headline)}</strong><br><small>${escapeHtml(d.agency||'')} · ${escapeHtml(d.incident_date||'')} · ${escapeHtml(d.incident_location||'')}</small><br><a href="#" onclick="window._openDetail('${d.sha256}'); return false;">→ open detail</a></div>`);
+    mapCluster.addLayer(m);
+    count++;
+  }
+  mapInst.addLayer(mapCluster);
+  if (count > 0) mapInst.invalidateSize();
+}
+window._openDetail = function(sha) {
+  const i = filteredDocs.findIndex(x => x.sha256 === sha);
+  if (i >= 0) openDetail(i);
+};
+
+// ===================================================================== network view
+let netSim = null, netZoom = null, netSvg = null;
+function renderNetwork() {
+  filteredDocs = getFiltered();
+  document.getElementById('result-count').textContent = `${filteredDocs.length} documents`;
+  const filteredShas = new Set(filteredDocs.map(d => d.sha256));
+
+  // Take only nodes in the filtered set
+  const nodes = connections.nodes
+    .filter(n => filteredShas.has(n.sha256))
+    .map(n => ({ ...n }));
+  const nodeIds = new Set(nodes.map(n => n.id));
+  // Edges only between nodes in filtered set, top-N edges per node
+  const edges = connections.edges
+    .filter(e => nodeIds.has(e.a) && nodeIds.has(e.b))
+    .map(e => ({ source: e.a, target: e.b, weight: e.weight, shared: e.shared }))
+    .sort((a,b) => b.weight - a.weight)
+    .slice(0, Math.min(800, connections.edges.length));
+
+  const svg = d3.select('#netsvg');
+  svg.selectAll('*').remove();
+  const w = svg.node().clientWidth, h = svg.node().clientHeight;
+
+  const colorBy = (n) => {
+    const a = n.agency;
+    if (a === 'Department of War') return '#f0a040';
+    if (a === 'FBI') return '#6a9bcc';
+    if (a === 'NASA') return '#e57373';
+    if (a === 'Department of State') return '#c084fc';
+    if (a === 'AARO') return '#6cc28a';
+    return '#a8acb4';
+  };
+
+  // Legend
+  const legend = document.getElementById('net-legend');
+  legend.innerHTML = `
+    <div class="row"><div class="swatch" style="background:#f0a040"></div>Department of War</div>
+    <div class="row"><div class="swatch" style="background:#6a9bcc"></div>FBI</div>
+    <div class="row"><div class="swatch" style="background:#e57373"></div>NASA</div>
+    <div class="row"><div class="swatch" style="background:#c084fc"></div>Dept of State</div>
+    <div class="row"><div class="swatch" style="background:#6cc28a"></div>AARO</div>
+    <div class="row" style="margin-top:0.4rem;color:var(--text-dim);font-size:0.7rem">edges = shared entities (rare entities weighted higher)</div>`;
+
+  // Container group for zoom
+  const g = svg.append('g');
+  netZoom = d3.zoom().scaleExtent([0.15, 6]).on('zoom', (e) => g.attr('transform', e.transform));
+  svg.call(netZoom);
+
+  const linkSel = g.append('g').selectAll('line').data(edges).enter().append('line')
+    .attr('class', 'net-edge').attr('stroke-width', d => Math.max(0.5, Math.min(3, d.weight / 10)));
+
+  const nodeSel = g.append('g').selectAll('circle').data(nodes).enter().append('circle')
+    .attr('class', 'net-node')
+    .attr('r', d => 4 + Math.min(8, Math.sqrt((d.entity_count || 0))))
+    .attr('fill', colorBy)
+    .attr('stroke', d => d.tier === 'green' ? '#6cc28a' : 'rgba(255,255,255,0.2)')
+    .attr('stroke-width', d => d.tier === 'green' ? 2 : 1)
+    .on('mouseover', (e, d) => showTooltip(e, d, edges, nodes))
+    .on('mousemove', moveTooltip)
+    .on('mouseout', hideTooltip)
+    .on('click', (e, d) => {
+      const i = filteredDocs.findIndex(x => x.sha256 === d.sha256);
+      if (i >= 0) openDetail(i);
+    });
+
+  // Light label only on hover or for high-degree nodes
+  const labelSel = g.append('g').selectAll('text').data(nodes).enter().append('text')
+    .attr('class', 'net-label').attr('text-anchor', 'middle').attr('dy', -10)
+    .text(d => '');
+
+  if (netSim) netSim.stop();
+  netSim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(edges).id(d => d.id).distance(d => 80 - Math.min(40, d.weight)).strength(0.4))
+    .force('charge', d3.forceManyBody().strength(-110))
+    .force('center', d3.forceCenter(w/2, h/2))
+    .force('collide', d3.forceCollide().radius(d => 6 + Math.min(8, Math.sqrt((d.entity_count || 0)))))
+    .alphaDecay(0.03)
+    .on('tick', () => {
+      linkSel
+        .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+      nodeSel.attr('cx', d => d.x).attr('cy', d => d.y);
+      labelSel.attr('x', d => d.x).attr('y', d => d.y);
+    });
+  netSvg = svg;
+}
+
+let tooltipEl = null;
+function showTooltip(event, d, edges, nodes) {
+  const connEdges = edges.filter(e => e.source.id === d.id || e.target.id === d.id);
+  const connDocs = connEdges.length;
+  if (!tooltipEl) {
+    tooltipEl = document.createElement('div');
+    tooltipEl.className = 'tooltip-box';
+    document.body.appendChild(tooltipEl);
+  }
+  tooltipEl.innerHTML = `<strong>${escapeHtml(d.label || d.sha256.slice(0,12))}</strong><br>
+    ${escapeHtml(d.agency||'?')} ${d.year ? '· '+d.year : ''} ${d.region ? '· '+escapeHtml(d.region) : ''}
+    <div class="small">${connDocs} connection${connDocs===1?'':'s'} · click to open</div>`;
+  tooltipEl.style.display = 'block';
+  moveTooltip(event);
+  // highlight connected edges
+  d3.selectAll('.net-edge').classed('hi', e => e.source.id === d.id || e.target.id === d.id);
+}
+function moveTooltip(event) {
+  if (!tooltipEl) return;
+  const x = event.pageX + 14, y = event.pageY + 14;
+  tooltipEl.style.left = x + 'px';
+  tooltipEl.style.top = y + 'px';
+}
+function hideTooltip() {
+  if (tooltipEl) tooltipEl.style.display = 'none';
+  d3.selectAll('.net-edge').classed('hi', false);
+}
+
+// network controls
+document.addEventListener('DOMContentLoaded', () => {});
+
+// ===================================================================== view switch
+function switchView(name) {
+  currentView = name;
+  for (const b of document.querySelectorAll('.view-tabs button[data-view]')) b.classList.toggle('active', b.dataset.view === name);
+  for (const id of ['vb-grid','vb-map','vb-network']) document.getElementById(id).style.display = 'none';
+  document.getElementById('vb-' + name).style.display = '';
+  renderCurrentView();
+}
+function renderCurrentView() {
+  if (currentView === 'grid') renderGrid();
+  else if (currentView === 'map') renderMap();
+  else renderNetwork();
+}
+
+// ===================================================================== detail panel
+function openDetail(idx) {
+  if (idx < 0 || idx >= filteredDocs.length) return;
+  currentDetailIdx = idx;
+  const d = filteredDocs[idx];
   const qa = qaIndex.get(d.sha256);
   const isPdf = /\.pdf$/i.test(d.name);
   const isVid = /\.mp4$/i.test(d.name) || d.type === 'VID';
-  const body = document.getElementById('modal-body');
-
   const headline = qa?.public_headline || d.title || d.name;
   const tldr = qa?.public_tldr;
   const narrative = qa?.public_narrative;
   const caveats = qa?.public_caveats || [];
   const keyFacts = qa?.key_facts || [];
 
-  body.innerHTML = `
-    <button class="modal-close" id="modal-close" aria-label="Close">×</button>
-    <h2 id="modal-title">${escapeHtml(headline)}</h2>
-    <p class="meta">
-      <strong>${escapeHtml(d.agency || '')}</strong>
-      ${d.incident_date && d.incident_date !== 'N/A' ? ' · ' + escapeHtml(d.incident_date) : ''}
-      ${d.incident_location && d.incident_location !== 'N/A' ? ' · ' + escapeHtml(d.incident_location) : ''}
-      ${qa?.tier ? ' · <span class="badge tier-' + qa.tier + '">' + qa.tier + '</span>' : ''}
-      ${d.source && d.source !== 'war.gov' ? ' · source: ' + escapeHtml(sourceLabel(d.source)) : ''}
-    </p>
+  // Find related docs by edges
+  const related = connections.edges
+    .filter(e => e.a === d.sha256 || e.b === d.sha256)
+    .sort((a,b) => b.weight - a.weight).slice(0, 8)
+    .map(e => {
+      const otherSha = e.a === d.sha256 ? e.b : e.a;
+      const other = corpus.find(x => x.sha256 === otherSha);
+      if (!other) return null;
+      const oqa = qaIndex.get(otherSha);
+      return { sha: otherSha, title: oqa?.public_headline || other.title || other.name, agency: other.agency, weight: e.weight };
+    }).filter(Boolean);
+
+  document.getElementById('detail-tags').innerHTML = `
+    <span class="tag-pill agency-${agencyShort(d.agency)}"><span class="swatch"></span>${escapeHtml(agencyShort(d.agency))}</span>
+    ${qa?.tier === 'green' ? '<span class="tag-pill tier-green"><span class="swatch"></span>verified</span>' : ''}
+    ${qa?.tier === 'amber' ? '<span class="tag-pill tier-amber"><span class="swatch"></span>partial</span>' : ''}
+    ${!qa ? '<span class="tag-pill faded">awaiting QA</span>' : ''}
+    ${d.type === 'VID' ? '<span class="tag-pill">video</span>' : ''}
+    ${d.source && d.source !== 'war.gov' ? `<span class="tag-pill">${escapeHtml(d.source)}</span>` : ''}
+  `;
+
+  document.getElementById('detail-body').innerHTML = `
+    <h2>${escapeHtml(headline)}</h2>
+    <div class="meta-line">
+      <span><strong>Agency</strong> · ${escapeHtml(d.agency || '—')}</span>
+      ${d.incident_date && d.incident_date !== 'N/A' ? `<span><strong>Date</strong> · ${escapeHtml(d.incident_date)}</span>` : ''}
+      ${d.incident_location && d.incident_location !== 'N/A' ? `<span><strong>Location</strong> · ${escapeHtml(d.incident_location)}</span>` : ''}
+    </div>
     ${tldr ? `<div class="tldr">${escapeHtml(tldr)}</div>` : ''}
     ${narrative ? `<div class="narrative">${narrative.split('\n\n').map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>`
-      : `<div class="narrative" style="opacity: 0.7;"><p>${escapeHtml(d.description || 'Plain-English summary not yet generated. The QA pipeline is still processing this document.')}</p></div>`}
+      : `<div class="narrative" style="opacity:0.7;"><p>${escapeHtml(d.description || 'Plain-English summary not yet generated. The QA pipeline is still processing this document.')}</p></div>`}
 
-    ${keyFacts.length ? `<div class="key-facts">
-      <h4>Key facts (verified against source)</h4>
+    ${keyFacts.length ? `<h4>Verified facts</h4>
       <dl>${keyFacts.map(f => `
         <dt class="conf-${f.confidence}">${escapeHtml(f.field)}</dt>
-        <dd class="conf-${f.confidence}">${escapeHtml(f.value)}</dd>
-      `).join('')}</dl>
-    </div>` : ''}
+        <dd class="conf-${f.confidence}">${escapeHtml(f.value)}</dd>`).join('')}
+      </dl>` : ''}
 
     ${caveats.length ? `<div class="caveats">
       <h4>What to know</h4>
       <ul>${caveats.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul>
     </div>` : ''}
 
-    <div class="source-row">
+    ${related.length ? `<h4>Related documents</h4>
+      <div class="related-list" id="related-list">
+        ${related.map(r => `<div class="related-item" data-sha="${r.sha}">
+          <span class="tag-pill agency-${agencyShort(r.agency)}"><span class="swatch"></span>${escapeHtml(agencyShort(r.agency))}</span>
+          <span class="title">${escapeHtml(r.title)}</span>
+          <span class="weight">w=${r.weight}</span>
+        </div>`).join('')}
+      </div>` : ''}
+
+    <div class="src-row">
       <a class="primary" href="${escapeAttr(d.release_url)}" target="_blank" rel="noopener">↓ Original ${isVid ? 'video' : isPdf ? 'PDF' : 'file'} (${fmt(d.bytes)})</a>
-      ${d.url ? `<a href="${escapeAttr(d.url)}" target="_blank" rel="noopener">→ Source on war.gov</a>` : ''}
+      ${d.url ? `<a href="${escapeAttr(d.url)}" target="_blank" rel="noopener">↗ Source on war.gov</a>` : ''}
       <a href="https://github.com/omgitzyeoku-collab/UFO/issues/new?template=correction.yml&title=%5BCorrection%5D+${encodeURIComponent((d.title||d.name||'').slice(0,80))}&labels=correction" target="_blank" rel="noopener">⚠ Report an error</a>
     </div>
 
     ${isPdf ? `<iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(d.release_url)}" loading="lazy" title="${escapeAttr(headline)}"></iframe>` : ''}
     ${isVid ? `<video class="pdf-frame" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
   `;
-  document.getElementById('modal-close').addEventListener('click', closeDoc);
-  document.getElementById('modal').classList.add('open');
+
+  for (const it of document.querySelectorAll('#related-list .related-item')) {
+    it.addEventListener('click', () => {
+      const i = filteredDocs.findIndex(x => x.sha256 === it.dataset.sha);
+      if (i >= 0) openDetail(i);
+      else { // jump even if not in current filter
+        const orig = filteredDocs;
+        const target = corpus.find(x => x.sha256 === it.dataset.sha);
+        if (target) {
+          filteredDocs = [target];
+          openDetail(0);
+          filteredDocs = orig;
+        }
+      }
+    });
+  }
+
+  document.getElementById('detail-overlay').classList.add('open');
+  document.getElementById('detail-panel').classList.add('open');
   history.replaceState(null, '', '#doc/' + d.sha256);
-  document.body.style.overflow = 'hidden';
 }
-
-function closeDoc() {
-  document.getElementById('modal').classList.remove('open');
+function closeDetail() {
+  document.getElementById('detail-overlay').classList.remove('open');
+  document.getElementById('detail-panel').classList.remove('open');
+  currentDetailIdx = -1;
   history.replaceState(null, '', location.pathname);
-  document.body.style.overflow = '';
+}
+function navDetail(delta) {
+  if (currentDetailIdx < 0) return;
+  const next = currentDetailIdx + delta;
+  if (next >= 0 && next < filteredDocs.length) openDetail(next);
 }
 
-document.getElementById('modal').addEventListener('click', e => { if (e.target.id === 'modal') closeDoc(); });
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDoc(); });
+document.getElementById('detail-overlay').addEventListener('click', closeDetail);
+document.getElementById('detail-close').addEventListener('click', closeDetail);
+document.getElementById('detail-prev').addEventListener('click', () => navDetail(-1));
+document.getElementById('detail-next').addEventListener('click', () => navDetail(1));
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeDetail();
+  else if (e.key === 'ArrowLeft' && currentDetailIdx >= 0) navDetail(-1);
+  else if (e.key === 'ArrowRight' && currentDetailIdx >= 0) navDetail(1);
+  else if (e.key === '/' && document.activeElement?.tagName !== 'INPUT') {
+    e.preventDefault(); document.getElementById('q').focus();
+  }
+});
 
+// ===================================================================== theme
+function applyTheme() {
+  const saved = localStorage.getItem('uap-theme');
+  const t = saved || 'dark';
+  document.documentElement.classList.toggle('dark', t === 'dark');
+  document.documentElement.classList.toggle('light', t === 'light');
+}
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  const isDark = document.documentElement.classList.contains('dark');
+  localStorage.setItem('uap-theme', isDark ? 'light' : 'dark');
+  applyTheme();
+  if (currentView === 'map' && mapInst) { mapInst.invalidateSize(); }
+});
+applyTheme();
+
+// ===================================================================== view tabs
+for (const b of document.querySelectorAll('.view-tabs button[data-view]')) {
+  b.addEventListener('click', () => switchView(b.dataset.view));
+}
+document.getElementById('q').addEventListener('input', () => renderCurrentView());
+document.getElementById('f-source').addEventListener('change', (e) => { activeFilters.source = e.target.value; renderCurrentView(); });
+document.getElementById('f-tier').addEventListener('change', (e) => { activeFilters.tier = e.target.value; renderCurrentView(); });
+
+// network buttons
+document.getElementById('net-reheat').addEventListener('click', () => { if (netSim) netSim.alpha(0.6).restart(); });
+document.getElementById('net-zoom-in').addEventListener('click', () => { if (netSvg && netZoom) netSvg.transition().duration(200).call(netZoom.scaleBy, 1.4); });
+document.getElementById('net-zoom-out').addEventListener('click', () => { if (netSvg && netZoom) netSvg.transition().duration(200).call(netZoom.scaleBy, 0.7); });
+
+// ===================================================================== bootstrap
 (async () => {
   try { await loadAll(); }
   catch (e) {
-    document.getElementById('corpus').innerHTML = `<div class="empty" style="color: var(--orange);">load failed: ${escapeHtml(e.message)}</div>`;
+    document.getElementById('grid').innerHTML = `<div class="empty" style="color: var(--bad);">load failed: ${escapeHtml(e.message)}</div>`;
     return;
   }
-  renderStats();
-  for (const a of uniq(corpus.map(d => d.agency).filter(Boolean))) {
-    const o = document.createElement('option'); o.value = a; o.textContent = a;
-    document.getElementById('f-agency').appendChild(o);
-  }
-  for (const id of ['q','f-agency','f-tier','f-sort']) document.getElementById(id).addEventListener('input', renderGrid);
+  renderSidebar();
   renderGrid();
+  // Deep-link
   const m = location.hash.match(/^#doc\/([a-f0-9]+)/);
-  if (m) { const d = corpus.find(x => x.sha256.startsWith(m[1])); if (d) openDoc(d); }
+  if (m) {
+    const fi = filteredDocs.findIndex(x => x.sha256.startsWith(m[1]));
+    if (fi >= 0) openDetail(fi);
+  }
 })();
 </script>
 </body>

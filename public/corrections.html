@@ -1,51 +1,47 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Corrections — UAP Files</title>
-<meta name="description" content="Append-only public log of corrections to UAP Files. Every fact corrected, every original wrong version preserved." />
 <link rel="stylesheet" href="page.css">
 </head>
 <body>
-<header class="site">
-  <h1><a href="index.html">UAP Files</a></h1>
-  <span class="tag">declassified, translated, source-cited</span>
+<div class="prose-page">
+<header class="appbar">
+  <div class="brand"><span class="dot">●</span><span><a href="index.html" style="color:inherit;">UAP Files</a></span><span class="tag">declassified · translated · connected</span></div>
+  <div style="flex:1"></div>
   <nav>
-    <a href="index.html">corpus</a>
-    <a href="about.html">about</a>
-    <a href="methodology.html">methodology</a>
-    <a href="corrections.html" class="active">corrections</a>
-    <a href="donate.html">support</a>
-    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">source ↗</a>
+    <a href="index.html">← Corpus</a>
+    <a href="about.html">About</a>
+    <a href="methodology.html">Methodology</a>
+    <a href="corrections.html" class="active">Corrections</a>
+    <a href="donate.html">Support</a>
+    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">↗ GitHub</a>
   </nav>
 </header>
+<main>
+<article class="prose">
+<h1>Corrections</h1>
+<p>Append-only public log of every correction we've made since launch. We do not silently rewrite anything — when a fact gets corrected, the original wrong version stays in this log alongside the fix.</p>
+<p>To report an error: <a href="https://github.com/omgitzyeoku-collab/UFO/issues/new?template=correction.yml" target="_blank" rel="noopener">open a correction issue on GitHub →</a></p>
 
-<main class="prose">
-  <h1>Corrections</h1>
+<h2>Log</h2>
+<p style="color: var(--text-dim); font-style: italic;">No corrections yet — the project just launched. Help us find the first one.</p>
 
-  <p>Append-only public log of every correction we've made since launch. We do not silently rewrite anything — when a fact gets corrected, the original wrong version stays in this log alongside the fix.</p>
+<h2>How corrections are processed</h2>
+<ol>
+<li>You open a GitHub issue using the correction template.</li>
+<li>We verify the claim against the source PDF (and external sources where relevant).</li>
+<li>If verified, the public document page gets corrected, the original wrong text is preserved here in the log alongside the fix, and the correction is timestamped.</li>
+<li>If we can't verify the correction, we explain why in the issue thread and close it.</li>
+</ol>
 
-  <p>To report an error: <a href="https://github.com/omgitzyeoku-collab/UFO/issues/new?template=correction.yml" target="_blank" rel="noopener">open a correction issue on GitHub →</a></p>
+<p>This log is also available as machine-readable JSON: <a href="extract/corrections.jsonl"><code>extract/corrections.jsonl</code></a> (empty until first correction).</p>
 
-  <h2>Log</h2>
-  <p style="color: var(--soft); font-style: italic;">No corrections yet — the project just launched. Help us find the first one.</p>
-
-  <h2>How corrections are processed</h2>
-  <ol>
-    <li>You open a GitHub issue using the correction template.</li>
-    <li>We verify the claim against the source PDF (and external sources where relevant).</li>
-    <li>If verified, the public document page gets corrected, the original wrong text is preserved here in the log alongside the fix, and the correction is timestamped.</li>
-    <li>If we can't verify the correction, we explain why in the issue thread and close it.</li>
-  </ol>
-
-  <p>This log is also available as machine-readable JSON: <a href="extract/corrections.jsonl"><code>extract/corrections.jsonl</code></a> (empty until first correction).</p>
-
-  <p style="margin-top: 3rem;"><a href="index.html">← back to corpus</a></p>
+<p style="margin-top:3rem;"><a href="index.html">← Back to corpus</a></p>
+</article>
 </main>
-
-<footer class="site">
-  <p>UAP Files · <a href="https://github.com/omgitzyeoku-collab/UFO/issues" target="_blank" rel="noopener">github issues</a></p>
-</footer>
+</div>
 </body>
 </html>

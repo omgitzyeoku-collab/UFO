@@ -1,80 +1,78 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Methodology — UAP Files</title>
-<meta name="description" content="The full multi-agent QA pipeline that takes a war.gov PDF to a plain-English public summary, end-to-end." />
 <link rel="stylesheet" href="page.css">
 </head>
 <body>
-<header class="site">
-  <h1><a href="index.html">UAP Files</a></h1>
-  <span class="tag">declassified, translated, source-cited</span>
+<div class="prose-page">
+<header class="appbar">
+  <div class="brand"><span class="dot">●</span><span><a href="index.html" style="color:inherit;">UAP Files</a></span><span class="tag">declassified · translated · connected</span></div>
+  <div style="flex:1"></div>
   <nav>
-    <a href="index.html">corpus</a>
-    <a href="about.html">about</a>
-    <a href="methodology.html" class="active">methodology</a>
-    <a href="corrections.html">corrections</a>
-    <a href="donate.html">support</a>
-    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">source ↗</a>
+    <a href="index.html">← Corpus</a>
+    <a href="about.html">About</a>
+    <a href="methodology.html" class="active">Methodology</a>
+    <a href="corrections.html">Corrections</a>
+    <a href="donate.html">Support</a>
+    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">↗ GitHub</a>
   </nav>
 </header>
+<main>
+<article class="prose">
+<h1>Methodology</h1>
+<p>This page describes exactly how a document goes from "PDF on war.gov" to "plain-English summary on UAP Files." The pipeline is auditable — every step is open-source code in the <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">project repo</a>.</p>
 
-<main class="prose">
-  <h1>Methodology</h1>
+<h2>1. Acquisition</h2>
+<p>A web crawler pulls the document index (a CSV file) from war.gov, then downloads each PDF, video, and image referenced. Every download is hashed (SHA-256) and stored content-addressably. We never alter the source files.</p>
+<p>For verification: download any file from our GitHub Release, run <code>sha256sum</code>, and compare to the SHA-256 in our manifest. They will match byte-for-byte.</p>
 
-  <p>This page describes exactly how a document goes from "PDF on war.gov" to "plain-English summary on UAP Files." The pipeline is auditable — every step is open-source code in the <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">project repo</a>.</p>
+<h2>2. Text extraction</h2>
+<p>For born-digital PDFs (modern mission reports, NASA debriefs, State Department cables), we use <code>pdftotext</code>. Output is clean and complete.</p>
+<p>For scanned PDFs (FBI Vault case files, NARA historical scans), we use OCR — pages are rendered to images, then transcribed via Tesseract OCR. OCR quality varies; on heavily-redacted typewriter scans, text recovery is imperfect. Where this affects a summary, we say so explicitly in the "What to know" section.</p>
 
-  <h2>1. Acquisition</h2>
-  <p>A web crawler pulls the document index (a CSV file) from war.gov, then downloads each PDF, video, and image referenced. Every download is hashed (SHA-256) and stored content-addressably. We never alter the source files.</p>
-  <p>For verification: download any file from our GitHub Release, run <code>sha256sum</code>, and compare to the SHA-256 in our manifest. They will match byte-for-byte.</p>
+<h2>3. The QA pipeline (zero error tolerance)</h2>
+<p>This is the heart of the project. Every public claim passes through a multi-agent verification chain.</p>
 
-  <h2>2. Text extraction</h2>
-  <p>For born-digital PDFs (modern mission reports, NASA debriefs, State Department cables), we use <code>pdftotext</code>. Output is clean and complete.</p>
-  <p>For scanned PDFs (FBI Vault case files, NARA historical scans), we use OCR — pages are rendered to images, then transcribed via Tesseract OCR. OCR quality varies; on heavily-redacted typewriter scans, text recovery is imperfect. Where this affects a summary, we say so explicitly in the "What to know" section.</p>
+<h3>Agent A — Extractor</h3>
+<p>Reads the source document and produces structured facts: a headline, a summary, key facts with source quotes, named people/places/dates/objects, and verifiable claims. Optimised for completeness — get everything.</p>
 
-  <h2>3. The QA pipeline (zero error tolerance)</h2>
-  <p>This is the heart of the project. Every public claim passes through a multi-agent verification chain.</p>
+<h3>Agent B — Verifier</h3>
+<p>Reads the source <em>independently</em>, with no knowledge of what Agent A produced beyond the claims themselves. For each claim Agent A made, Agent B marks it as supported, contradicted, not-in-source, or partial. Optimised for skepticism. Different prompt, fresh context.</p>
 
-  <h3>Agent A — Extractor</h3>
-  <p>Reads the source document and produces structured facts: a headline, a summary, key facts with source quotes, named people/places/dates/objects, and verifiable claims. Optimised for completeness — get everything.</p>
+<h3>Agent C — Adjudicator</h3>
+<p>If Agent A and Agent B disagree on a claim, Agent C reads the source again and adjudicates. Most disagreements are resolved by removing the unsupported claim.</p>
 
-  <h3>Agent B — Verifier</h3>
-  <p>Reads the source <em>independently</em>, with no knowledge of what Agent A produced beyond the claims themselves. For each claim Agent A made, Agent B marks it as supported, contradicted, not-in-source, or partial. Optimised for skepticism. Different prompt, fresh context.</p>
+<h3>Step D — Citation linker (deterministic)</h3>
+<p>For every surviving claim, we deterministically search the source text for the supporting quote. Quotes that match exactly get a "green" tier. Quotes where we can match a substantial substring get "amber" (partial citation). Claims with no recoverable quote get "red" — those are hidden from the public surface and queued for human review.</p>
 
-  <h3>Agent C — Adjudicator</h3>
-  <p>If Agent A and Agent B disagree on a claim, Agent C reads the source again and adjudicates. Most disagreements are resolved by removing the unsupported claim.</p>
+<h3>Agent E — Plain-English rewriter</h3>
+<p>Takes only the verified, citation-backed facts and writes the headline, summary, and narrative for the public surface. Has a hard rule: every sentence must trace back to one or more verified facts. Cannot introduce new claims.</p>
 
-  <h3>Step D — Citation linker (deterministic)</h3>
-  <p>For every surviving claim, we deterministically search the source text for the supporting quote. Quotes that match exactly get a "green" tier. Quotes where we can match a substantial substring get "amber" (partial citation). Claims with no recoverable quote get "red" — those are hidden from the public surface and queued for human review.</p>
+<h2>4. Connection graph</h2>
+<p>The Network view links documents that share high-signal entities — places, projects, case numbers, sensor platforms, named people, object morphologies, and incident years. Edge weight uses inverse-document-frequency: rare entities (a specific person, a project codename) weigh more than common ones (USCENTCOM, AARO).</p>
+<p>The result: 178 documents form 683 connection edges. Natural clusters emerge — the May 2022 CENTCOM cluster, the 1947–1949 flying-disc cluster, the Apollo crew debrief cluster, etc.</p>
 
-  <h3>Agent E — Plain-English rewriter</h3>
-  <p>Takes only the verified, citation-backed facts and writes the headline, summary, and narrative for the public surface. Has a hard rule: every sentence must trace back to one or more verified facts. Cannot introduce new claims.</p>
+<h2>5. Confidence tiers</h2>
+<ul>
+<li><strong class="tier-green">verified</strong> — Agents A and B agree, citation found in source. Highest confidence.</li>
+<li><strong class="tier-amber">partial</strong> — Agents A and B agree but no clean source quote could be matched. Shown with hedging language.</li>
+<li><strong>queued</strong> — document is in the corpus but the QA pipeline hasn't run on it yet, or fabrication score was high enough to require human review.</li>
+</ul>
 
-  <h2>4. Confidence tiers shown on every document</h2>
-  <ul>
-    <li><strong class="tier-green">verified</strong> — Agents A and B agree, citation found in source. Highest confidence.</li>
-    <li><strong class="tier-amber">partial</strong> — Agents A and B agree but no clean source quote could be matched (often due to OCR noise on scanned documents). Shown with hedging language.</li>
-    <li><strong>awaiting QA</strong> — document is in the corpus but the pipeline hasn't run on it yet, or fabrication score was high enough to require human review. Public surface shows the metadata only, not generated prose.</li>
-  </ul>
+<h2>6. Honest about what we cannot promise</h2>
+<p>Multi-agent verification catches an estimated 95% of LLM extraction errors. The remaining 5% — where all agents make the same mistake — has to be caught by reader-reported corrections. The "report an error" button on every document creates a GitHub issue. Every report is reviewed; verified errors trigger a correction with a public, append-only log.</p>
+<p>OCR is not a perfect technology. Some scanned pages will have garbled output. We surface this in caveats rather than papering over it.</p>
+<p>We do not interpret the documents. We report what they say. Many UAP cases involve unresolved sensor anomalies, ambiguous observations, and partially-redacted data. Where the documents themselves don't reach a conclusion, neither do we.</p>
 
-  <h2>5. Honest about what we cannot promise</h2>
-  <p>Multi-agent verification catches an estimated 95% of LLM extraction errors. The remaining 5% — where all agents make the same mistake — has to be caught by reader-reported corrections. The "report an error" link on every document creates a GitHub issue. Every report is reviewed; verified errors trigger a correction with a public, append-only log.</p>
-  <p>OCR is not a perfect technology. Some scanned pages will have garbled output. We surface this in caveats rather than papering over it.</p>
-  <p>We do not interpret the documents. We report what they say. Many UAP cases involve unresolved sensor anomalies, ambiguous observations, and partially-redacted data. Where the documents themselves don't reach a conclusion, neither do we.</p>
+<h2>7. Update cadence</h2>
+<p>A daily scheduled task checks war.gov/UFO/ for new content. When a new tranche drops, the pipeline runs on the new documents within 24 hours. Re-redactions of previously-released documents (where a document gets re-released with different redactions) are detected by SHA-256 mismatch on the same filename, and surfaced as a separate "redaction changes" log.</p>
 
-  <h2>6. Update cadence</h2>
-  <p>A daily scheduled task checks war.gov/UFO/ for new content. When a new tranche drops, the pipeline runs on the new documents within 24 hours. Re-redactions of previously-released documents (where a document gets re-released with different redactions) are detected by SHA-256 mismatch on the same filename, and surfaced as a separate "redaction changes" log.</p>
-
-  <h2>7. The whole pipeline is open-source</h2>
-  <p>You can audit every step. The code is at <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">github.com/omgitzyeoku-collab/UFO</a>. The QA pipeline is in <code>extract/qa-pipeline.mjs</code>. The agent prompts are in the same file — they're the most important text in the project.</p>
-
-  <p style="margin-top: 3rem;"><a href="index.html">← back to corpus</a></p>
+<p style="margin-top:3rem;"><a href="index.html">← Back to corpus</a></p>
+</article>
 </main>
-
-<footer class="site">
-  <p>UAP Files · <a href="donate.html">support</a> · <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">github</a></p>
-</footer>
+</div>
 </body>
 </html>

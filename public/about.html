@@ -1,70 +1,64 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>About — UAP Files</title>
-<meta name="description" content="UAP Files is a free public archive translating US government UAP/UFO documents into plain English with every claim source-cited." />
 <link rel="stylesheet" href="page.css">
 </head>
 <body>
-<header class="site">
-  <h1><a href="index.html">UAP Files</a></h1>
-  <span class="tag">declassified, translated, source-cited</span>
+<div class="prose-page">
+<header class="appbar">
+  <div class="brand"><span class="dot">●</span><span><a href="index.html" style="color:inherit;">UAP Files</a></span><span class="tag">declassified · translated · connected</span></div>
+  <div style="flex:1"></div>
   <nav>
-    <a href="index.html">corpus</a>
-    <a href="about.html" class="active">about</a>
-    <a href="methodology.html">methodology</a>
-    <a href="corrections.html">corrections</a>
-    <a href="donate.html">support</a>
-    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">source ↗</a>
+    <a href="index.html">← Corpus</a>
+    <a href="about.html" class="active">About</a>
+    <a href="methodology.html">Methodology</a>
+    <a href="corrections.html">Corrections</a>
+    <a href="donate.html">Support</a>
+    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">↗ GitHub</a>
   </nav>
 </header>
+<main>
+<article class="prose">
+<h1>About UAP Files</h1>
+<p>UAP Files is a free, public archive that translates US government UAP / UFO disclosure documents into plain English. Every claim is source-cited and verifiable against the original document.</p>
 
-<main class="prose">
-  <h1>About UAP Files</h1>
+<h2>What this is</h2>
+<p>On 8 May 2026 the US Department of War launched <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">PURSUE</a> (Presidential Unsealing and Reporting System for UAP Encounters): a public release of declassified UAP documents from across the federal government. The site itself is a static gallery — to actually understand any document, you have to click through, download a PDF, decode government acronyms, parse redactions, and somehow build a coherent picture. For most people that's a non-starter.</p>
+<p>We solve that. Each document gets a plain-English headline, a 2-sentence summary, a short narrative explaining what it is and what it says, key verified facts, and explicit caveats about evidentiary weight. Plus a connection graph showing which documents share entities, locations, projects, witnesses — turning 178 isolated PDFs into a navigable map of the disclosure.</p>
 
-  <p>UAP Files is a free, public archive that translates US government UAP / UFO disclosure documents into plain English. Every claim is source-cited and verifiable against the original document.</p>
+<h2>What we are not</h2>
+<ul>
+<li><strong>Not a UFO advocacy site.</strong> We don't claim documents prove or disprove anything. We translate what they say.</li>
+<li><strong>Not a debunking site.</strong> We don't dismiss claims. Where the documents themselves contain analysis, we report it.</li>
+<li><strong>Not anonymous.</strong> The pipeline, the source code, and every transformation are public. Audit us.</li>
+<li><strong>Not paywalled.</strong> Free for everyone, forever. Donations support compute and hosting.</li>
+</ul>
 
-  <h2>What this is</h2>
-  <p>On 8 May 2026 the US Department of War launched <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">PURSUE</a> (Presidential Unsealing and Reporting System for UAP Encounters): a public release of declassified UAP documents from across the federal government. The site itself is a static gallery — to actually understand any document, you have to click through, download a PDF, decode government acronyms, parse redactions, and somehow build a coherent picture. For most people that's a non-starter.</p>
-  <p>We solve that. Each document gets a plain-English headline, a 2-sentence summary, a short narrative explaining what it is and what it says, key verified facts, and explicit caveats about evidentiary weight. Every claim is source-cited so you can verify it for yourself.</p>
+<h2>Coverage today</h2>
+<p>war.gov/UFO/ Release 01 (8 May 2026): 116 PDFs + 28 videos + 14 images, 158 unique items in 145 release assets. Sources: Department of War, FBI, NASA, Department of State, plus historical NARA-style records.</p>
+<p>Plus 35 documents from <a href="https://www.aaro.mil/" target="_blank" rel="noopener">aaro.mil</a> — the Pentagon's All-domain Anomaly Resolution Office case-resolution archive.</p>
 
-  <h2>What we are not</h2>
-  <ul>
-    <li><strong>Not a UFO advocacy site.</strong> We don't claim documents prove or disprove anything. We translate what they say.</li>
-    <li><strong>Not a debunking site.</strong> We don't dismiss claims. Where the documents themselves contain analysis, we report it.</li>
-    <li><strong>Not anonymous.</strong> The pipeline, the source code, and every transformation are public. Audit us.</li>
-    <li><strong>Not paywalled.</strong> Free for everyone, forever. Donations support compute and hosting.</li>
-  </ul>
+<h2>Coming soon</h2>
+<ul>
+<li>Full FBI Vault UFO files (62-HQ-83894 case file, all FOIA UFO records)</li>
+<li>CIA Reading Room UFO collection</li>
+<li>NARA Project Blue Book + supporting collections</li>
+<li>Foreign government parallels: GEPAN/COMETA (France), MoD UFO Desk (UK), CEFAA (Chile), GAS (Japan)</li>
+</ul>
+<p>All future tranches that war.gov ships are detected within 24 hours and translated automatically.</p>
 
-  <h2>Coverage today</h2>
-  <p>war.gov/UFO/ Release 01 (8 May 2026): 116 PDFs + 28 videos + 14 images, 158 unique items in 145 release assets. Sources: Department of War, FBI, NASA, Department of State, plus historical NARA-style records.</p>
-  <p>Plus 35 documents from <a href="https://www.aaro.mil/" target="_blank" rel="noopener">aaro.mil</a> — the Pentagon's All-domain Anomaly Resolution Office case-resolution archive.</p>
+<h2>Citing UAP Files</h2>
+<p>Every doc has a permanent URL like <code>https://uapfiles.org/#doc/&lt;sha256&gt;</code>. The sha256 is shown on each detail page and is byte-identical to the file in the GitHub Release.</p>
 
-  <h2>Coming soon</h2>
-  <ul>
-    <li>Full FBI Vault UFO files (62-HQ-83894 case file, all FOIA UFO records)</li>
-    <li>CIA Reading Room UFO collection</li>
-    <li>NARA Project Blue Book + supporting collections</li>
-    <li>Foreign government parallels: GEPAN/COMETA (France), MoD UFO Desk (UK), CEFAA (Chile), GAS (Japan)</li>
-  </ul>
-  <p>All future tranches that war.gov ships are detected within 24 hours and translated automatically.</p>
+<h2>Contact + corrections</h2>
+<p>Spot an error? The "report an error" button on every document creates a structured GitHub issue. We treat every report seriously — accuracy is the project's only currency.</p>
 
-  <h2>Who's behind this</h2>
-  <p>Independent, non-academic, non-press, non-commercial. Maintained pseudonymously to keep editorial focus on the documents rather than the editor. Source code, manifest, and verification pipeline are <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">all public on GitHub</a>.</p>
-
-  <h2>Citing UAP Files</h2>
-  <p>To cite a document, link to its detail URL: <code>https://uapfiles.org/#doc/&lt;sha256&gt;</code>. The sha256 is shown on each detail page and is byte-identical to the file in the GitHub Release.</p>
-
-  <h2>Contact + corrections</h2>
-  <p>If you spot an error, the "report an error" link on each document creates a GitHub issue. We treat every report seriously — accuracy is the project's only currency.</p>
-
-  <p style="margin-top: 3rem;"><a href="index.html">← back to corpus</a></p>
+<p style="margin-top:3rem;"><a href="index.html">← Back to corpus</a></p>
+</article>
 </main>
-
-<footer class="site">
-  <p>UAP Files · <a href="donate.html">support</a> · <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">github</a></p>
-</footer>
+</div>
 </body>
 </html>
