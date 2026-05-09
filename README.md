@@ -111,7 +111,7 @@ download (116 / 116 ✓). To verify against the Release:
 
 ```bash
 # pick any record from extract/release-manifest.jsonl
-sha256sum < (curl -sSL <release_url>)
+curl -sSL <release_url> | sha256sum
 # compare to .sha256 field in the manifest
 ```
 
