@@ -82,15 +82,16 @@ function fmt(b) {
 let derived = [], manifest = [], captionsBySha = new Map();
 
 async function init() {
-  try {
-    [derived, manifest] = await Promise.all([
-      loadJsonl('../extract/derived.jsonl'),
-      loadJsonl('../manifest/latest.jsonl'),
-    ]);
-  } catch (e) {
-    document.getElementById('grid').innerHTML = `<div class="empty-grid">load failed: ${e.message}<br>are you running via the static server (npm run dashboard) and not file://?</div>`;
+  // Prefer derived-all.jsonl (full multi-source corpus); fall back to derived.jsonl (war.gov only)
+  const sources = ['../extract/derived-all.jsonl', '../extract/derived.jsonl'];
+  for (const src of sources) {
+    try { derived = await loadJsonl(src); break; } catch {}
+  }
+  if (!derived.length) {
+    document.getElementById('grid').innerHTML = `<div class="empty-grid">load failed: no derived JSONL found<br>are you running via the static server and not file://?</div>`;
     return;
   }
+  try { manifest = await loadJsonl('../manifest/latest.jsonl'); } catch { manifest = []; }
   // Captions are optional — load if present
   try {
     const caps = await loadJsonl('../extract/captions.jsonl');
