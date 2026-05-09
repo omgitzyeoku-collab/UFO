@@ -1,0 +1,707 @@
+{
+  "sha256": "7078d96f334dbf396e0e0a141f943009fe2191cd20842e16ee381bcbc2776c43",
+  "title": "DOW-UAP-PR34, Unresolved UAP Report, Greece, October 2023",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "N/A",
+  "incident_location": "Greece",
+  "what_is_it": "A declassified U.S. military mission report (MISREP) documenting an unidentified anomalous phenomenon (UAP) sighting during an ISR (intelligence, surveillance, reconnaissance) mission over Greece in October 2023.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redaction throughout: callsigns, aircraft type, tail numbers, coordinates, tasking details, and personnel names are all masked under exemptions 1.4a, 1.4g, 3.5c, (b)(3), (b)(6), and 130b.",
+    "The UAP observation lasted only about 3 minutes (0035Z to 0038Z) before the object was lost from the sensor feed — a very brief observation window.",
+    "Single-source report: only one aircraft crew observed the UAP; no third-party observers are listed.",
+    "The report states the UAP was 'too small to make out details' yet describes it as 'seemingly circular' — the shape assessment is tentative.",
+    "The field 'UAP Under Intelligent Control' is marked 'NO' but 'UAP Reaction to Observation' is marked 'UNK' — these assessments may be inconsistent or reflect different evaluation criteria.",
+    "The aircraft type is fully redacted, though the 33 SOS and AN/DAS-4 pod are consistent with a special operations ISR platform.",
+    "OJMS (the landing location) is in Jordan, not Greece, indicating the aircraft transited between countries during this mission.",
+    "The original classification called for declassification in 2048; early release in January 2026 was specifically for AARO (All-domain Anomaly Resolution Office) purposes.",
+    "OCR quality is poor in places — some field values may be garbled or misread from the original document."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "MISREP (Mission Report) 9329374",
+      "source_quote": "Misrep 9329374",
+      "citation_offset": {
+        "offset": 95,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Originating unit",
+      "value": "33rd Special Operations Squadron (33 SOS)",
+      "source_quote": "Originator (Unit or Squadron): 33 SOS",
+      "citation_offset": {
+        "offset": 1180,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Major command",
+      "value": "Air Force Special Operations Command (AFSOC)",
+      "source_quote": "Major Command (MAJCOM): AFSOC",
+      "citation_offset": {
+        "offset": 919,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Combatant command",
+      "value": "U.S. Central Command (USCENTCOM)",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 951,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Wing",
+      "value": "27th Special Operations Wing (27 SOW)",
+      "source_quote": "Wing~ 27 SOW",
+      "citation_offset": {
+        "offset": 1478,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operations center",
+      "value": "609 CAOC / 603 AOC",
+      "source_quote": "Operations Center: 609 CAOC",
+      "citation_offset": {
+        "offset": 1571,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP initial contact time",
+      "value": "0035Z on 27 October 2023",
+      "source_quote": "Initial Contact DTG: 270035:12ZOCT23",
+      "citation_offset": {
+        "offset": 5583,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Seemingly circular, too small to make out details",
+      "source_quote": "SEEMINGLY CIRCULAR, TOO SMALL TO MAKE OUT DETAILS",
+      "citation_offset": {
+        "offset": 7783,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP maneuverability",
+      "value": "Sharp 90-degree turns",
+      "source_quote": "UAP Maneuverability Observations: Sharp 90 degree turns",
+      "citation_offset": {
+        "offset": 5653,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP estimated speed",
+      "value": "80 MPH",
+      "source_quote": "Kinetic Velocity: 80 MPH",
+      "citation_offset": {
+        "offset": 7241,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP location relative to surface",
+      "value": "Flying just above the ocean surface",
+      "source_quote": "SPOTTED A UAP FLYING JUST ABOVE THE SURFACE OF THE OCEAN WATER",
+      "citation_offset": {
+        "offset": 7925,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP physical state",
+      "value": "Solid",
+      "source_quote": "UAP Physical State: Solid",
+      "citation_offset": {
+        "offset": 6188,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP propulsion",
+      "value": "Unknown",
+      "source_quote": "UAP Propulsion Means: UNK",
+      "citation_offset": {
+        "offset": 6241,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP under intelligent control",
+      "value": "No",
+      "source_quote": "UAP Under Intelligent Control (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 6284,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP signatures",
+      "value": "None",
+      "source_quote": "UAP Signatures: NONE",
+      "citation_offset": {
+        "offset": 6347,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer assessment",
+      "value": "Benign",
+      "source_quote": "Observer Assessment of UAP: Benign",
+      "citation_offset": {
+        "offset": 5919,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP response to observer",
+      "value": "None",
+      "source_quote": "UAP Response to Observer Actions: NONE",
+      "citation_offset": {
+        "offset": 5711,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Effects on equipment",
+      "value": "None",
+      "source_quote": "UAP Effects on Equipment: NONE",
+      "citation_offset": {
+        "offset": 6789,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Effects on persons",
+      "value": "No",
+      "source_quote": "UAP Effects on Persons: NO",
+      "citation_offset": {
+        "offset": 6696,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Objects or material recovered",
+      "value": "No",
+      "source_quote": "UAP Objects/Material Recovered (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 6725,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer engagement of UAP",
+      "value": "No",
+      "source_quote": "Observer Engagement of UAP (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 6894,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP lost from feed",
+      "value": "0038Z",
+      "source_quote": "AT 00382, 1.4a LOST THE UAP FROM THEIR FEED",
+      "citation_offset": {
+        "offset": 8051,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Targeting pod",
+      "value": "AN/DAS-4",
+      "source_quote": "TGT Pod Name or Designator: AN/DAS-4",
+      "citation_offset": {
+        "offset": 3204,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Additional avionics",
+      "value": "AWGMESH",
+      "source_quote": "Additional Avionics: AWGMESH",
+      "citation_offset": {
+        "offset": 3243,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Data link",
+      "value": "LINK 16",
+      "source_quote": "Data Link: LINK 16",
+      "citation_offset": {
+        "offset": 3274,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sensors available",
+      "value": "G-MESH",
+      "source_quote": "Sensors Available: G-MESH",
+      "citation_offset": {
+        "offset": 4204,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary sensor",
+      "value": "Full Motion Video (FMV)",
+      "source_quote": "Primary Sensor: FMV",
+      "citation_offset": {
+        "offset": 4007,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission type",
+      "value": "ISR (Intelligence, Surveillance, Reconnaissance)",
+      "source_quote": "Mission Type: ISR",
+      "citation_offset": {
+        "offset": 1269,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Takeoff time",
+      "value": "2339Z on 26 October 2023",
+      "source_quote": "Takeoff Time DTG: 262339:00ZOCT23",
+      "citation_offset": {
+        "offset": 3473,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Landing location",
+      "value": "OJMS",
+      "source_quote": "Last Land Location (ICAO Code): OJMS",
+      "citation_offset": {
+        "offset": 3686,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Landing time",
+      "value": "1309Z on 27 October 2023",
+      "source_quote": "Last Land Time: 271309:00ZOCT23",
+      "citation_offset": {
+        "offset": 3725,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Total mission time",
+      "value": "13 hours 30 minutes",
+      "source_quote": "Total Mission Time: 13 hours 30 minutes",
+      "citation_offset": {
+        "offset": 3804,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Time on station",
+      "value": "6 hours 29 minutes",
+      "source_quote": "Total Time On Station: 6 hours 29 minutes",
+      "citation_offset": {
+        "offset": 5505,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Weather",
+      "value": "Clear",
+      "source_quote": "Weather: (UNCLASSIFIED) CLEARWX",
+      "citation_offset": {
+        "offset": 5017,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Friendly aircraft trajectory",
+      "value": "Southwest",
+      "source_quote": "Friendly Aircrall Trajectory: SW",
+      "citation_offset": {
+        "offset": 5884,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "First seen radius",
+      "value": "5 (estimated)",
+      "source_quote": "First Seen Radius: 5",
+      "citation_offset": {
+        "offset": 6990,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassified by",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Dedasslfied by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 0,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassification date",
+      "value": "22 January 2026",
+      "source_quote": "Dedassified on  22 January 2026",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Original declassification date",
+      "value": "20481026 (26 October 2048)",
+      "source_quote": "Declassification Date (YYYYMMDD): 20481026",
+      "citation_offset": {
+        "offset": 805,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Domain",
+      "value": "Air",
+      "source_quote": "Domain: AIR",
+      "citation_offset": {
+        "offset": 878,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Country tasked",
+      "value": "United States",
+      "source_quote": "Country Tasked: US - UNJTED STATES",
+      "citation_offset": {
+        "offset": 1312,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP event type",
+      "value": "UAP Incident",
+      "source_quote": "UAP Event Type: UAP Incident",
+      "citation_offset": {
+        "offset": 5622,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Global campaign plan",
+      "value": "GCP - VEO (violent extremist group)",
+      "source_quote": "Global Campaign Plan: GCP - VEO (violent extremist group)",
+      "citation_offset": {
+        "offset": 4515,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "MG Richard A. Harrison"
+  ],
+  "named_places": [
+    "OJMS"
+  ],
+  "dated_events": [
+    "262339:00ZOCT23 — Takeoff from LGLR",
+    "270035:12ZOCT23 — Initial UAP contact",
+    "270038Z — UAP lost from feed",
+    "271011:00ZOCT23 — Off station",
+    "271309:00ZOCT23 — Landing at OJMS",
+    "22 January 2026 — Declassification date"
+  ],
+  "objects_described": [
+    "UAP — seemingly circular, solid, too small for details, flying just above ocean surface, estimated 80 MPH with 90-degree turns",
+    "AN/DAS-4 targeting pod",
+    "LINK 16 data link",
+    "G-MESH / AWGMESH avionics"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A UAP was observed at 0035Z on 27 October 2023 flying just above the ocean surface near Greece",
+      "source_quote": "AT 0035Z SPOTTED A UAP FLYING JUST ABOVE THE SURFACE OF THE OCEAN WATER",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 7926,
+        "len": 61,
+        "exact": false,
+        "matched": "POTTED A UAP FLYING JUST ABOVE THE SURFACE OF THE OCEAN WATER"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The UAP made multiple 90-degree turns at an estimated 80 MPH",
+      "source_quote": "THE UAP TOOK MULTIPLE 90 DEGREE TURNS AT AN ESTIMATED 80 MPH",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7989,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was lost from the sensor feed at 0038Z, roughly 3 minutes after initial contact",
+      "source_quote": "AT 00382, 1.4a LOST THE UAP FROM THEIR FEED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8051,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP appeared seemingly circular but was too small to make out details",
+      "source_quote": "SEEMINGLY CIRCULAR, TOO SMALL TO MAKE OUT DETAILS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7783,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was assessed as not under intelligent control",
+      "source_quote": "UAP Under Intelligent Control (yes/no; if yes, describe): NO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6284,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observer assessed the UAP as benign",
+      "source_quote": "Observer Assessment of UAP: Benign",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5919,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No UAP signatures were detected",
+      "source_quote": "UAP Signatures: NONE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6347,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP had no effect on personnel or equipment",
+      "source_quote": "UAP Effects on Equipment: NONE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6789,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP did not respond to the observing aircraft",
+      "source_quote": "UAP Response to Observer Actions: NONE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5711,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was equipped with an AN/DAS-4 targeting pod",
+      "source_quote": "TGT Pod Name or Designator: AN/DAS-4",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3204,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The mission was conducted by the 33rd Special Operations Squadron under AFSOC/USCENTCOM",
+      "source_quote": "Originator (Unit or Squadron): 33 SOS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1180,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Weather conditions were clear during the mission",
+      "source_quote": "Weather: (UNCLASSIFIED) CLEARWX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5017,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was originally classified until 26 October 2048 but was declassified early on 22 January 2026",
+      "source_quote": "Declassification Date (YYYYMMDD): 20481026",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 805,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The total mission duration was 13 hours 30 minutes with 6 hours 29 minutes on station",
+      "source_quote": "Total Mission Time: 13 hours 30 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3804,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft took off from Larissa (LGLR) and landed at OJMS",
+      "source_quote": "Takeoff Location (ICAO Code): LGLR",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 3436,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 14,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:31:13.494Z",
+  "qa_completed_at": "2026-05-09T10:33:01.918Z",
+  "timing": {
+    "A": "58.1s",
+    "B": "50.3s",
+    "E": "27.9s"
+  },
+  "public_headline": "U.S. Military Reports Unidentified Object Over Greece in 2023",
+  "public_tldr": "A heavily redacted U.S. military mission report documents a brief sighting of an unidentified object flying just above the ocean surface near Greece on 27 October 2023. The object, observed for roughly three minutes by a special operations surveillance aircraft, made sharp 90-degree turns at an estimated 80 MPH before disappearing from the sensor feed.",
+  "public_narrative": "This document is a U.S. military mission report (MISREP 9329374) filed by the 33rd Special Operations Squadron, operating under Air Force Special Operations Command and U.S. Central Command. It records an unidentified anomalous phenomenon (UAP) encountered during an intelligence, surveillance, and reconnaissance (ISR) mission over Greece in October 2023. The report was originally classified until 2048 but was released early on 22 January 2026 by MG Richard A. Harrison, USCENTCOM Chief of Staff, for the benefit of the All-domain Anomaly Resolution Office (AARO).\n\nAt 0035Z on 27 October 2023, the crew spotted an object flying just above the ocean surface. They described it as seemingly circular, solid, and too small to make out details. The object was estimated to be travelling at 80 MPH and was observed making multiple sharp 90-degree turns. Its means of propulsion was listed as unknown. By 0038Z — roughly three minutes later — the object was lost from the sensor feed.\n\nThe crew assessed the UAP as benign. The report states the object was not under intelligent control, produced no detectable signatures, did not respond to the observing aircraft, and had no effect on personnel or equipment. No material was recovered, and the crew did not engage the object. Weather conditions were clear.\n\nThe aircraft was equipped with an AN/DAS-4 targeting pod and used full motion video as its primary sensor, with LINK 16 data link capability. The total mission lasted 13 hours and 30 minutes, with 6 hours 29 minutes spent on station. The aircraft took off from Larissa, Greece (ICAO code LGLR) and landed at OJMS in Jordan, indicating it transited between countries during the mission.\n\nThe document is heavily redacted throughout. Callsigns, aircraft type, tail numbers, coordinates, tasking details, and personnel names are all blacked out under multiple classification exemptions. The UAP sighting itself represents a very small portion of what was clearly a longer operational mission.",
+  "public_caveats": [
+    "The UAP was observed for only about three minutes before it was lost from the sensor feed — a very brief observation window from which to draw conclusions.",
+    "This is a single-source report: only one aircraft crew observed the object, and no independent or third-party observers are listed.",
+    "The document is heavily redacted — aircraft type, crew names, coordinates, and tasking details are all masked, limiting independent verification.",
+    "The report marks the UAP as 'not under intelligent control' while also marking its reaction to observation as 'unknown,' which may reflect different evaluation criteria or an internal inconsistency.",
+    "The shape description ('seemingly circular') is explicitly qualified as tentative because the object was 'too small to make out details.'"
+  ]
+}

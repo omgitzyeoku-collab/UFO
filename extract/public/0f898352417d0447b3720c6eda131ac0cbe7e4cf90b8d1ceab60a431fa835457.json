@@ -1,0 +1,149 @@
+{
+  "sha256": "0f898352417d0447b3720c6eda131ac0cbe7e4cf90b8d1ceab60a431fa835457",
+  "title": "DOW-UAP-D6, Mission Report, Arabian Gulf, 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "Pacific Ocean",
+  "what_is_it": "A U.S. military Mission Report (MISREP) documenting an observation of a probable Unidentified Anomalous Phenomena (UAP) in the Arabian Gulf area in 2020.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "extreme",
+  "interpretation_warnings": [
+    "Extreme redaction: six of seven pages are entirely redacted under exemption 1.4(a), and the one partially visible page still has heavy redactions including the observer's identity and unit",
+    "The description reflects the reporter's subjective interpretation at the time, per the document's own caveat",
+    "Single-source observation with no corroborating sensor data visible in the released text",
+    "The MGRS grid coordinate 3SKT4255899519 could help geolocate the sighting but falls in the Arabian Gulf / Middle East region, not the Pacific Ocean listed in the metadata — one of these is likely an error",
+    "Metadata lists incident location as Pacific Ocean while the title says Arabian Gulf — an inconsistency that may reflect a cataloguing error"
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "Number of objects",
+      "value": "1",
+      "source_quote": "OBSERVED 1X PROB UAP",
+      "citation_offset": {
+        "offset": 208,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object classification",
+      "value": "Probable UAP",
+      "source_quote": "1X PROB UAP",
+      "citation_offset": {
+        "offset": 217,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Grid coordinate",
+      "value": "3SKT4255899519",
+      "source_quote": "IVO 3SKT4255899519",
+      "citation_offset": {
+        "offset": 229,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission impact",
+      "value": "None",
+      "source_quote": "NO MISSION IMPACT",
+      "citation_offset": {
+        "offset": 249,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator response",
+      "value": "Continued original tasking",
+      "source_quote": "CONTINUED ORIGINAL TASKING",
+      "citation_offset": {
+        "offset": 274,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report reference",
+      "value": "AT 12467",
+      "source_quote": "AT 12467",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [
+    "Probable UAP (1x)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "One probable UAP was observed near grid coordinate 3SKT4255899519",
+      "source_quote": "OBSERVED 1X PROB UAP IVO 3SKT4255899519",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 208,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting had no impact on the military mission underway",
+      "source_quote": "NO MISSION IMPACT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 249,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The operator continued their original tasking after the observation",
+      "source_quote": "CONTINUED ORIGINAL TASKING",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 274,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:59:31.211Z",
+  "qa_completed_at": "2026-05-09T11:00:06.853Z",
+  "timing": {
+    "A": "19.9s",
+    "B": "15.7s",
+    "E": "26.6s"
+  },
+  "public_headline": "Heavily Redacted 2020 Military Report Documents One Probable UAP in the Arabian Gulf",
+  "public_tldr": "A U.S. Department of War mission report from 2020 records a single probable Unidentified Anomalous Phenomena (UAP) sighting in the Arabian Gulf region. Six of the document's seven pages are entirely blacked out, and the one partially visible page reveals only that one object was observed, it had no effect on the military mission, and the operator carried on with their original task.",
+  "public_narrative": "This document is a U.S. military Mission Report — a standard formatted account filed after an operational observation. It was produced by the Department of War and covers an incident in the Arabian Gulf area in 2020. The report is catalogued under the reference \"DOW-UAP-D6\" with an associated report number AT 12467.\n\nThe substance of the report is sparse because of extreme redaction. Six of the seven pages are completely blacked out under national-security exemptions. The one partially legible page states that a military operator \"observed 1x probable UAP\" near grid coordinate 3SKT4255899519, a location consistent with the Arabian Gulf or Middle East region. The observer's identity and military unit are redacted.\n\nThe report notes that the sighting had \"no mission impact\" and that the operator \"continued original tasking\" — meaning whatever they were doing before the sighting, they kept doing it. No description of the object's shape, size, speed, altitude, or behaviour survives the redactions.\n\nOne notable inconsistency exists in the document's own metadata: the title references the Arabian Gulf, but the cataloguing metadata lists the incident location as the Pacific Ocean. The verified facts flag this as a likely cataloguing error, since the grid coordinate points to the Middle East, not the Pacific.\n\nNo sensor data, corroborating witnesses, or follow-up analysis is visible in the released text. The document amounts to a single operator's report that something unidentified was seen, with almost everything else removed.",
+  "public_caveats": [
+    "Six of seven pages are entirely redacted — the vast majority of this document's content is hidden from public view, making it impossible to assess what was actually observed.",
+    "This is a single-source observation: one operator reported seeing one object. No corroborating sensor data, radar tracks, or additional witness accounts are visible in the released material.",
+    "The document itself notes that the description reflects the reporter's subjective interpretation at the time of the sighting.",
+    "There is a metadata inconsistency — the title says Arabian Gulf while the cataloguing data says Pacific Ocean. The grid coordinate supports the Arabian Gulf location, suggesting the Pacific Ocean entry is a filing error.",
+    "Nothing in the visible text identifies what the object was. 'Probable UAP' means the observer believed it was unidentified — it does not imply any particular explanation."
+  ]
+}

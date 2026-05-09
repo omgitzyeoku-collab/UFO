@@ -1,0 +1,434 @@
+{
+  "sha256": "c2bd370cdadc2f17649830713d55731aa22ceb76940fd64ae7ffc86fc0559261",
+  "title": "DOW-UAP-D58, Range Fouler Debrief, NA, October 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "10/27/20",
+  "incident_location": "N/A",
+  "what_is_it": "A U.S. Navy Range Fouler Debrief form documenting an unauthorized intrusion of unknown contacts into controlled military airspace during operations.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate — reporter's name, squadron, email, contact coordinates, and some bullseye reference data are redacted under (b)(6) exemptions; narrative text is largely intact",
+  "interpretation_warnings": [
+    "Single-source report from one military operator; no corroborating witness statements are included in this document.",
+    "The description 'balloon-shaped' is a checkbox selection on a standardized form and reflects the observer's subjective categorization, not a confirmed identification.",
+    "The claim that contacts disappeared 'in 1/30th of a second' may reflect sensor limitations or display refresh rate rather than actual instantaneous disappearance.",
+    "The noise jamming indication (two chevrons) could have alternative explanations including equipment malfunction or environmental interference.",
+    "Reporter's identity, squadron, and exact geographic coordinates are redacted, limiting independent verification.",
+    "The document was declassified and approved for release to AARO (All-domain Anomaly Resolution Office), indicating it passed through a review process before public release.",
+    "The 16.9 nautical mile minimum distance means the visual observation (tally) of red blinking strobes was at considerable range, potentially limiting identification accuracy."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "Range Fouler Debrief Form",
+      "source_quote": "Range Fouler Debrie Form",
+      "citation_offset": {
+        "offset": 137,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date of incident",
+      "value": "10/27/2020",
+      "source_quote": "10/27/20",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Time of detection",
+      "value": "01:12:21 Zulu",
+      "source_quote": "01:12:21",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Day/Night",
+      "value": "Night",
+      "source_quote": "Night",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Squadron",
+      "value": "Redacted, partially visible as related to EFS",
+      "source_quote": "11_E_F_S_",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Mission type",
+      "value": "DCA (Defensive Counter-Air)",
+      "source_quote": "DCA",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Contact altitude",
+      "value": "26,000 feet",
+      "source_quote": "26000",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude constant",
+      "value": "No",
+      "source_quote": "No",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Contact moving",
+      "value": "Yes",
+      "source_quote": "Yes",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Wind direction/speed at contact altitude",
+      "value": "060 degrees at 20 knots",
+      "source_quote": "060/20",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of contacts in group",
+      "value": "2",
+      "source_quote": "# of Contacts in \"Group\": 2",
+      "citation_offset": {
+        "offset": 1751,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Shape",
+      "value": "Balloon-shaped",
+      "source_quote": "Balloon-shaped:",
+      "citation_offset": {
+        "offset": 1868,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Surface characteristics",
+      "value": "Metallic, reflective, opaque",
+      "source_quote": "Metallic: ... Reflective:",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Radar equipped",
+      "value": "Other",
+      "source_quote": "Radar Equipped: Other",
+      "citation_offset": {
+        "offset": 1605,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Stable trackfile",
+      "value": "Yes",
+      "source_quote": "Stable Trackfile?: Yes",
+      "citation_offset": {
+        "offset": 1675,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Tally achieved",
+      "value": "Yes",
+      "source_quote": "Tally Achieved:",
+      "citation_offset": {
+        "offset": 1783,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Visual description",
+      "value": "2x red blinking strobes",
+      "source_quote": "TALLY ACHIEVED WAS 2X RED BLINKING STROBES",
+      "citation_offset": {
+        "offset": 2527,
+        "len": 37,
+        "exact": false,
+        "matched": " ACHIEVED WAS 2X RED BLINKING STROBES"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Electronic warfare indications",
+      "value": "False trackfiles and noise jamming indicated by two chevrons",
+      "source_quote": "False Trackfiles ... NOISE JAMMING WAS RECIEVED. NOISE JAMMING WAS INDICATED BY TWO CHEVRONS",
+      "citation_offset": {
+        "offset": 2568,
+        "len": 72,
+        "exact": false,
+        "matched": " NOISE JAMMING WAS RECIEVED. NOISE JAMMING WAS INDICATED BY TWO CHEVRONS"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Closest approach distance",
+      "value": "16.9 nautical miles",
+      "source_quote": "UNABLE TO GET CLOSER THAN 16.9NM",
+      "citation_offset": {
+        "offset": 2333,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sensor used",
+      "value": "Radar lock and target pod video",
+      "source_quote": "OBTAINED RADAR LOCK AND TARGET POD VIDEO",
+      "citation_offset": {
+        "offset": 2288,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "IR contacts observed",
+      "value": "2 infrared-significant contacts on targeting pod",
+      "source_quote": "THE TARGET POD SHOWED 2 IR SIGNIFICANT CONTACTS",
+      "citation_offset": {
+        "offset": 2386,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Movement behavior",
+      "value": "One contact was circling around the other",
+      "source_quote": "ONE RANGE FOULER WAS CIRCLING AROUND THE OTHER",
+      "citation_offset": {
+        "offset": 2451,
+        "len": 31,
+        "exact": false,
+        "matched": "R WAS CIRCLING AROUND THE OTHER"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Disappearance",
+      "value": "Both contacts vanished in approximately 1/30th of a second",
+      "source_quote": "IN 1/30TH OF A SECOND, THEY WERE GONE",
+      "citation_offset": {
+        "offset": 2488,
+        "len": 32,
+        "exact": false,
+        "matched": "30TH OF A SECOND, THEY WERE GONE"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Initial detection bearing",
+      "value": "Bullseye ZIM 248/17",
+      "source_quote": "FIRST DETECTION OF THE RANGE FOULERS WERE AT B/E ZIM 248/17",
+      "citation_offset": {
+        "offset": 2642,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Directing authority",
+      "value": "KINGPIN",
+      "source_quote": "KINGPIN DIRECTED ID OF UNKNOWN CONTACT",
+      "citation_offset": {
+        "offset": 2242,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassified by",
+      "value": "MG Richard A. Harrison",
+      "source_quote": "Declassified by MG Richard A. Harrison",
+      "citation_offset": {
+        "offset": 0,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Release authority",
+      "value": "USCENTCOM, approved for release to AARO",
+      "source_quote": "USCENTCOM MOR 26-0038 to MOR 26-0046 Approved for Release to AARO",
+      "citation_offset": {
+        "offset": 3179,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Richard A. Harrison"
+  ],
+  "named_places": [],
+  "dated_events": [
+    "10/27/20",
+    "03/27/26"
+  ],
+  "objects_described": [
+    "Two balloon-shaped, metallic, reflective UAP with red blinking strobes"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The operator obtained radar lock and targeting pod video of the contacts but could not close within 16.9 nautical miles.",
+      "source_quote": "OBTAINED RADAR LOCK AND TARGET POD VIDEO BUT UNABLE TO GET CLOSER THAN 16.9NM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2288,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The targeting pod showed two infrared-significant contacts.",
+      "source_quote": "THE TARGET POD SHOWED 2 IR SIGNIFICANT CONTACTS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2386,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "One of the range foulers was circling around the other.",
+      "source_quote": "ONE RANGE FOULER WAS CIRCLING AROUND THE OTHER",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2451,
+        "len": 31,
+        "exact": false,
+        "matched": "R WAS CIRCLING AROUND THE OTHER"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Both contacts disappeared in approximately 1/30th of a second.",
+      "source_quote": "IN 1/30TH OF A SECOND, THEY WERE GONE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2488,
+        "len": 32,
+        "exact": false,
+        "matched": "30TH OF A SECOND, THEY WERE GONE"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The operator visually observed two red blinking strobes.",
+      "source_quote": "TALLY ACHIEVED WAS 2X RED BLINKING STROBES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2527,
+        "len": 37,
+        "exact": false,
+        "matched": " ACHIEVED WAS 2X RED BLINKING STROBES"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Noise jamming was received, indicated by two chevrons on the display.",
+      "source_quote": "NOISE JAMMING WAS RECIEVED. NOISE JAMMING WAS INDICATED BY TWO CHEVRONS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2569,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "KINGPIN (a command authority) directed the identification of the unknown contact.",
+      "source_quote": "KINGPIN DIRECTED ID OF UNKNOWN CONTACT",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 2242,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The contacts were at approximately 26,000 feet altitude and the altitude was not constant.",
+      "source_quote": "26000 No",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The contacts were moving with a direction/speed noted.",
+      "source_quote": "Was the contact moving? ... Yes",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The radar produced a stable trackfile on the contacts.",
+      "source_quote": "Stable Trackfile?: Yes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1675,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "False trackfiles were generated as part of electronic warfare indications.",
+      "source_quote": "False Trackfiles",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 6,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:57:41.124Z",
+  "qa_completed_at": "2026-05-09T10:59:05.670Z",
+  "timing": {
+    "A": "44.7s",
+    "B": "39.8s",
+    "E": "25.5s"
+  },
+  "public_headline": "Navy Pilot Filed Report on Two Unidentified Objects at 26,000 Feet",
+  "public_tldr": "A declassified U.S. Navy Range Fouler Debrief form documents two unidentified contacts that entered controlled military airspace on October 27, 2020, during a nighttime Defensive Counter-Air mission. The pilot obtained radar lock and targeting pod video showing two infrared-significant, balloon-shaped, metallic objects with red blinking strobes — one circling the other — before both vanished from sensors in roughly 1/30th of a second.",
+  "public_narrative": "This document is a standard U.S. Navy Range Fouler Debrief form — a report filed when an unauthorized object enters controlled military airspace during operations. It was declassified by Major General Richard A. Harrison and approved for release to AARO (the All-domain Anomaly Resolution Office) by U.S. Central Command.\n\nOn the night of October 27, 2020, during a Defensive Counter-Air mission, a military operator detected two unknown contacts at approximately 26,000 feet. A command authority identified as KINGPIN directed the pilot to identify the contacts. The pilot obtained radar lock and captured targeting pod video, but was unable to close within 16.9 nautical miles. The targeting pod showed two infrared-significant contacts. The radar produced a stable trackfile on the objects.\n\nThe operator categorized the contacts as balloon-shaped, metallic, reflective, and opaque. A visual observation confirmed two red blinking strobes. One object was circling the other. The contacts were moving and their altitude was not constant, with winds at their altitude recorded at 060 degrees at 20 knots. The report also notes electronic warfare indications: false trackfiles appeared, and noise jamming was received, shown as two chevrons on the display.\n\nBoth contacts then vanished in what the operator described as approximately 1/30th of a second. The document does not offer an explanation or conclusion about what the objects were.\n\nSignificant portions of the form are redacted under privacy exemptions, including the reporter's name, squadron (partially visible as related to \"EFS\"), email address, contact coordinates, and some reference data.",
+  "public_caveats": [
+    "This is a single-source report from one military operator. No corroborating witness statements are included in the document.",
+    "The description 'balloon-shaped' was selected from a checkbox on a standardized form — it reflects the observer's subjective categorization, not a confirmed identification.",
+    "The claim that the contacts vanished 'in 1/30th of a second' may reflect sensor display refresh rates or other equipment limitations rather than actual instantaneous disappearance.",
+    "The noise jamming indication (two chevrons on the display) could have alternative explanations, including equipment malfunction or environmental interference.",
+    "The pilot's closest approach was 16.9 nautical miles — a considerable distance — meaning the visual observation of red blinking strobes was made at long range, potentially limiting identification accuracy."
+  ]
+}

@@ -18,3 +18,10 @@ docs/video-frames/
 # Generated release-state cache
 docs/release.json
 *.traineddata
+
+# Vercel CLI auth/state
+.vercel/
+
+# Ephemeral deploy artefacts (CLI responses)
+docs/vercel-*.json
+docs/repo-flip-private.json

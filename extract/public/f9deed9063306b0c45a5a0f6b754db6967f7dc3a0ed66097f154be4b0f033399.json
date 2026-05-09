@@ -1,0 +1,597 @@
+{
+  "sha256": "f9deed9063306b0c45a5a0f6b754db6967f7dc3a0ed66097f154be4b0f033399",
+  "title": "DOW-UAP-PR19, Unresolved UAP Report, Middle East, May 2022",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "N/A",
+  "incident_location": "Middle East",
+  "what_is_it": "A declassified military mission report (MISREP) documenting a UAP observation by a U.S. Air Force ISR platform during an Operation Inherent Resolve mission in the Middle East in May 2022.",
+  "core_summary": "On 6 May 2022, a U.S. military aircraft conducting reconnaissance and close air support observed five unidentified anomalous phenomena over a period of roughly four hours. The first UAP, observed at 1514Z, had the visual appearance of a possible missile flying across the sensor's field of view; the remaining four UAPs, observed between 1514Z and 1934Z, more closely matched the profile of possible birds. Dust conditions hindered most full-motion video collection of the ground during the mission.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redactions under FOIA exemptions 1.4a, 1.4g, (b)(3) 10 USC 130b, and (b)(6) obscure the aircraft type, callsign, crew names, exact coordinates, sensor names, weapons loadout, and precise location details.",
+    "The UAP descriptions ('possible missile' and 'possible birds') are the crew's visual assessments, not confirmed identifications — the report itself labels these as unresolved.",
+    "Only five seconds of infrared video accompanied the report, depicting a single area of contrast moving across the frame — the other four UAPs were not captured on the submitted video.",
+    "Dust conditions degraded ground-level FMV collection quality, which may have affected the ability to characterize the observed objects.",
+    "The MGRS grid coordinates are partially redacted, preventing independent geolocation of the observation.",
+    "This is a single-source military mission report — no corroborating sensor data, radar tracks, or independent observer reports are included in this document.",
+    "The accompanying video description explicitly states it should not be interpreted as reflecting any analytical judgment or investigative conclusion."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "MISREP (Mission Report)",
+      "source_quote": "Report Type: MISREP",
+      "citation_offset": {
+        "offset": 1430,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operation",
+      "value": "Operation Inherent Resolve",
+      "source_quote": "Operation: INHERENT RESOLVE",
+      "citation_offset": {
+        "offset": 1236,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "domain",
+      "value": "Air",
+      "source_quote": "Domain: AIR",
+      "citation_offset": {
+        "offset": 1298,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "combatant_command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 1385,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "major_command",
+      "value": "AFCENT (Air Forces Central Command)",
+      "source_quote": "Major Command (MAJCOM): AFCENT",
+      "citation_offset": {
+        "offset": 1352,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operations_center",
+      "value": "609th (609 CAOC)",
+      "source_quote": "Operations Center: 609th",
+      "citation_offset": {
+        "offset": 1312,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "wing_poc",
+      "value": "432 AEW",
+      "source_quote": "Wing: 432 AEW",
+      "citation_offset": {
+        "offset": 1720,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "wing_approver",
+      "value": "379 AEW",
+      "source_quote": "Wing: 379 AEW",
+      "citation_offset": {
+        "offset": 2295,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mission_type",
+      "value": "REC/XCAS (Reconnaissance / Airborne Close Air Support)",
+      "source_quote": "Mission Type: XCAS",
+      "citation_offset": {
+        "offset": 1537,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "country_tasked",
+      "value": "United States",
+      "source_quote": "Country Tasked: US - United States",
+      "citation_offset": {
+        "offset": 1584,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "service_tasked",
+      "value": "Air Force",
+      "source_quote": "Service Tasked: A - AIR FORCE",
+      "citation_offset": {
+        "offset": 1621,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "takeoff_time",
+      "value": "0246Z on 6 May 2022",
+      "source_quote": "Takeoff Time DTG: 060246:00ZMAY22",
+      "citation_offset": {
+        "offset": 3769,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "on_station_time",
+      "value": "0958Z on 6 May 2022",
+      "source_quote": "Time On Station DTG: 060958:00ZMAY22",
+      "citation_offset": {
+        "offset": 3890,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "off_station_time",
+      "value": "2036Z on 6 May 2022",
+      "source_quote": "Time Off Station DTG: 062036:00ZMAY22",
+      "citation_offset": {
+        "offset": 4325,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "landing_time",
+      "value": "0004Z on 7 May 2022",
+      "source_quote": "Last Land Time: 070004:00ZMAY22",
+      "citation_offset": {
+        "offset": 4472,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "last_engine_shutdown",
+      "value": "0014Z on 7 May 2022",
+      "source_quote": "Last Engine Shutdown Time: 070014:00ZMAY22",
+      "citation_offset": {
+        "offset": 4506,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_aircraft",
+      "value": "1",
+      "source_quote": "Number of Aircraft: 1",
+      "citation_offset": {
+        "offset": 3640,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_sensor",
+      "value": "FMV (Full Motion Video) and SIGINT",
+      "source_quote": "Primary Sensor: FMV\\SI",
+      "citation_offset": {
+        "offset": 4740,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_observation_time",
+      "value": "1514Z on 6 May 2022",
+      "source_quote": "Observation DTG: 061514:00ZMAY22",
+      "citation_offset": {
+        "offset": 5953,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_count",
+      "value": "5 total UAPs observed",
+      "source_quote": "OBSERVED 5X UAP FLY ACROSS THE SCREEN",
+      "citation_offset": {
+        "offset": 6431,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "first_uap_description",
+      "value": "Possible missile flying across field of view",
+      "source_quote": "OBSERVED A UAP WITH THE VISRECCE OF A POSSIBLE 1.4a MISSILE FLY ACROSS THE FOV",
+      "citation_offset": {
+        "offset": 6484,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "remaining_uap_description",
+      "value": "4 additional UAPs fitting the profile of possible birds",
+      "source_quote": "ALL 4X REMAINING UAP FIT CLOSER TO THE PROFILE OF POSSIBLE BIRDS",
+      "citation_offset": {
+        "offset": 6648,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_observation_duration",
+      "value": "1514Z to 1934Z (approximately 4 hours 20 minutes)",
+      "source_quote": "FROM 1514Z to 1934Z",
+      "citation_offset": {
+        "offset": 6405,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_method",
+      "value": "Full Motion Video (FMV)",
+      "source_quote": "Method of Observation: FMV",
+      "citation_offset": {
+        "offset": 6285,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_location_grid",
+      "value": "38SMC53xxxx96xxxx (MGRS, partially redacted)",
+      "source_quote": "Observed Activity Location: 38SMC531.4a961.4a",
+      "citation_offset": {
+        "offset": 6197,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "weather_conditions",
+      "value": "Dust hindered most FMV collection of the ground",
+      "source_quote": "DUST HINDERED MOST FMV COLLECTION OF THE GROUND",
+      "citation_offset": {
+        "offset": 5828,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "fmv_exploitation",
+      "value": "Exploited by DGS1 (Distributed Ground Station 1)",
+      "source_quote": "FULL MOTION VIDEO WAS EXPLOITED BY DGS1",
+      "citation_offset": {
+        "offset": 571,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sigint_collection_window",
+      "value": "0958Z to 2036Z",
+      "source_quote": "AT 0958Z, BEGAN SIGINT COLLECTION",
+      "citation_offset": {
+        "offset": 293,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "tasking_type",
+      "value": "Planned",
+      "source_quote": "Tasking Type: PLANNED",
+      "citation_offset": {
+        "offset": 4791,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "intel_gap_filled",
+      "value": "Yes",
+      "source_quote": "Intel Gap Filled?: Yes",
+      "citation_offset": {
+        "offset": 5903,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "precoord_time",
+      "value": "240 minutes",
+      "source_quote": "Precoord Time: 240 MINUTES",
+      "citation_offset": {
+        "offset": 5716,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "precoord_effectiveness",
+      "value": "Satisfactory",
+      "source_quote": "Precoord Effectiveness: SATISFACTORY",
+      "citation_offset": {
+        "offset": 5745,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "supported_unit",
+      "value": "MAG",
+      "source_quote": "Supported Unit: MAG",
+      "citation_offset": {
+        "offset": 5429,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification",
+      "value": "SECRET//REL TO USA, FVEY",
+      "source_quote": "Classification: SECRET",
+      "citation_offset": {
+        "offset": 868,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassification_date",
+      "value": "20470506 (original); declassified 7 October 2025",
+      "source_quote": "Declassification Date (YYYYMMDD): 20470506",
+      "citation_offset": {
+        "offset": 992,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassified_by",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 25,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "activity_description",
+      "value": "Target development — reporting on personnel, vehicles, weapons, footpaths, comms equipment, and occupied buildings",
+      "source_quote": "REPORT ALL PERSONNEL, VEHICLES, WEAPONS, FOOTPATHS, COMMS EQUIPMENT, AND OCCUPIED BDLS",
+      "citation_offset": {
+        "offset": 5189,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "MG Richard A. Harrison"
+  ],
+  "named_places": [],
+  "dated_events": [
+    "060246:00ZMAY22 — aircraft takeoff",
+    "060253:00ZMAY22 — handover with LRE, fully mission capable sensors",
+    "060958:00ZMAY22 — began SIGINT collection and arrived on station",
+    "061514:00ZMAY22 — first UAP observation (possible missile)",
+    "061514Z-061934Z MAY22 — five UAPs observed over this window",
+    "062036:00ZMAY22 — returned to base, stopped SIGINT collection",
+    "062257:00ZMAY22 — handed back to LRE",
+    "070004:00ZMAY22 — landed",
+    "070014:00ZMAY22 — last engine shutdown",
+    "7 October 2025 — declassification date"
+  ],
+  "objects_described": [
+    "U.S. military ISR aircraft (type redacted under 1.4a/1.4g exemptions)",
+    "1x UAP described as possible missile",
+    "4x UAPs described as possible birds",
+    "SIGINT collection equipment"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Five UAPs were observed by the aircraft crew between 1514Z and 1934Z on 6 May 2022.",
+      "source_quote": "FROM 1514Z to 1934Z, OBSERVED 5X UAP FLY ACROSS THE SCREEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6430,
+        "len": 38,
+        "exact": false,
+        "matched": " OBSERVED 5X UAP FLY ACROSS THE SCREEN"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The first UAP had the visual appearance of a possible missile flying across the field of view.",
+      "source_quote": "OBSERVED A UAP WITH THE VISRECCE OF A POSSIBLE 1.4a MISSILE FLY ACROSS THE FOV",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6484,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The remaining four UAPs more closely matched the profile of possible birds.",
+      "source_quote": "ALL 4X REMAINING UAP FIT CLOSER TO THE PROFILE OF POSSIBLE BIRDS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6648,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The mission was conducted under Operation Inherent Resolve.",
+      "source_quote": "Operation: INHERENT RESOLVE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1236,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Dust conditions degraded the quality of full-motion video ground collection.",
+      "source_quote": "DUST HINDERED MOST FMV COLLECTION OF THE GROUND",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5828,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The full-motion video was exploited (analyzed) by Distributed Ground Station 1.",
+      "source_quote": "FULL MOTION VIDEO WAS EXPLOITED BY DGS1",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 571,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was airborne for approximately 21.5 hours (takeoff 0246Z to landing 0004Z next day).",
+      "source_quote": "",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "red"
+    },
+    {
+      "claim": "The document was originally classified SECRET//REL TO USA, FVEY with a declassification date of 6 May 2047.",
+      "source_quote": "Declassification Date (YYYYMMDD): 20470506",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 992,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was declassified early on 7 October 2025 by MG Richard A. Harrison.",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff Declassified on: 7 October 2025",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft sensors were reported as fully mission capable at handover.",
+      "source_quote": "HANDED OVER WITH THE LRE WITH FULLY MISSION CAPABLE SENSORS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 232,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The mission involved both IMINT and SIGINT tasking — 1 IMINT tasking and 1 SIGINT tasking prosecuted, 2 total.",
+      "source_quote": "1 IMINT TASKING PROSECUTED, 1.4a HOURS, 1 SIGINT TASKING PROSECUTED, 2 TOTAL TASKINGS PROSECUTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 691,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 9,
+    "amber": 1,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:00:43.723Z",
+  "qa_completed_at": "2026-05-09T10:02:27.513Z",
+  "timing": {
+    "A": "54.1s",
+    "B": "49.7s",
+    "E": "23.6s"
+  },
+  "public_headline": "U.S. Air Force Crew Spotted Five Unidentified Objects Over Middle East in 2022",
+  "public_tldr": "A formerly secret U.S. military mission report describes a single Air Force aircraft observing five unidentified aerial phenomena during a reconnaissance mission over the Middle East on 6 May 2022. One object resembled a possible missile; the other four looked more like birds. The sightings remain officially unresolved.",
+  "public_narrative": "On 6 May 2022, a U.S. Air Force intelligence, surveillance, and reconnaissance aircraft was flying a planned mission over the Middle East as part of Operation Inherent Resolve. The crew was conducting reconnaissance and close air support, tasked with reporting on personnel, vehicles, weapons, and other ground activity. The aircraft carried full-motion video and signals intelligence sensors, both reported as fully operational.\n\nStarting at 1514Z (mid-afternoon UTC), and continuing until 1934Z — a window of roughly four hours and twenty minutes — the crew observed five unidentified objects fly across their sensor display. The first object had the visual appearance of a possible missile crossing the field of view. The remaining four objects more closely matched the profile of possible birds. Dusty conditions on the ground degraded the quality of the video footage throughout much of the mission.\n\nThe report was filed through the 609th Combined Air Operations Center under U.S. Central Command. Only five seconds of infrared video accompanied the submission, showing a single area of contrast moving across the frame. The other four objects were not captured in the submitted footage. The full-motion video was analysed by Distributed Ground Station 1.\n\nThe document was originally classified SECRET, releasable to the U.S. and Five Eyes allies, with a scheduled declassification date of 6 May 2047. It was declassified early on 7 October 2025 by Major General Richard A. Harrison, USCENTCOM Chief of Staff. Heavy redactions remain throughout the document, obscuring the aircraft type, crew names, exact coordinates, sensor details, and weapons loadout.\n\nThe crew's descriptions — \"possible missile\" and \"possible birds\" — are their visual assessments, not confirmed identifications. The report itself classifies all five sightings as unresolved. No radar data, corroborating sensor information, or independent observer reports are included in this document.",
+  "public_caveats": [
+    "This is a single-source military report — no radar tracks, independent witnesses, or additional sensor data are included to corroborate the crew's observations.",
+    "The crew's descriptions ('possible missile' and 'possible birds') are visual impressions, not confirmed identifications. The military labels all five objects as unresolved.",
+    "Heavy redactions conceal the aircraft type, crew names, exact location coordinates, and sensor specifics, making independent verification impossible.",
+    "Only five seconds of infrared video were submitted with the report, capturing just one of the five objects. The other four were not recorded in the available footage.",
+    "Dust conditions degraded ground-level video quality during the mission, which may have affected the crew's ability to characterise what they saw."
+  ]
+}

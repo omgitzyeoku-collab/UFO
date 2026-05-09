@@ -1,0 +1,295 @@
+{
+  "sha256": "90b353682ba2181149054d0911b7553e58e959438dd4de531a06fc387a332f85",
+  "title": "DOW-UAP-PR36, Unresolved UAP Report, Middle East, May 2020",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "N/A",
+  "incident_location": "Middle East",
+  "what_is_it": "A Range Fouler debrief form documenting a UAP sighting recorded by an infrared sensor aboard a U.S. military platform in the Middle East in May 2020.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "Single-source observation from one crew; no corroborating sensor or witness data is included in this form.",
+    "Crew identifying information is fully redacted per SPEAR policy, preventing independent verification of the observer.",
+    "The form notes the object 'appeared to make erratic moments' — this is the crew's subjective characterization, not an objective measurement of the object's trajectory.",
+    "Radar trackfile was intermittent, meaning the object was not consistently tracked by radar, which limits confidence in position and movement data.",
+    "Latitude and longitude fields appear partially filled or obscured, limiting precise geolocation of the sighting.",
+    "The form contains OCR artifacts and partially obscured text due to document scanning quality.",
+    "The altitude field value of 20,000 may refer to the platform's altitude rather than the object's altitude — context is ambiguous."
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2020-05-14",
+      "source_quote": "05/14/20",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "detection_time",
+      "value": "20:40:00Z",
+      "source_quote": "20:40:00",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "time_of_day",
+      "value": "Night",
+      "source_quote": "Night",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "mission_type",
+      "value": "ISR (Intelligence, Surveillance, Reconnaissance)",
+      "source_quote": "ISR",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "sensor_mode",
+      "value": "ULTN / Black Hot / Linear",
+      "source_quote": "ULTN/Black Hot/Lin",
+      "citation_offset": {
+        "offset": 2231,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_contacts",
+      "value": "1",
+      "source_quote": "# of Contacts in \"Group\": 1",
+      "citation_offset": {
+        "offset": 1717,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_shape",
+      "value": "Round",
+      "source_quote": "Round: [Z]",
+      "citation_offset": {
+        "offset": 1690,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_appearance",
+      "value": "Solid white object",
+      "source_quote": "a solid white object flew through the FOV",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "object_behavior",
+      "value": "Erratic movements above the water",
+      "source_quote": "appeared to make erratic moments above the water",
+      "citation_offset": {
+        "offset": 2421,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_trackfile",
+      "value": "Intermittent",
+      "source_quote": "Stable Trackfile?: Intermittent",
+      "citation_offset": {
+        "offset": 1658,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "zoom_achieved",
+      "value": "4x",
+      "source_quote": "crew was able to obtain 4x zoom on the object",
+      "citation_offset": {
+        "offset": 2490,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reason_for_loss",
+      "value": "Poor track placement",
+      "source_quote": "lost the object due to poor track placement",
+      "citation_offset": {
+        "offset": 2540,
+        "len": 38,
+        "exact": false,
+        "matched": "lost the object due to poor track plac"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "declassified_by",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 25,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "contact_working_area",
+      "value": "28314",
+      "source_quote": "28314",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Richard A. Harrison"
+  ],
+  "named_places": [
+    "Middle East"
+  ],
+  "dated_events": [
+    "05/14/20",
+    "01/26/26"
+  ],
+  "objects_described": [
+    "Solid white round UAP making erratic movements above water",
+    "AIM-9x (referenced in form but not confirmed used)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A single solid white round object was detected flying through the sensor field of view during a nighttime ISR mission on May 14, 2020.",
+      "source_quote": "a solid white object flew through the FOV",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object was temporarily lost but re-acquired shortly thereafter.",
+      "source_quote": "There was a temporarily lose of the object but re-acquired shortly there after",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2296,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object appeared to make erratic movements above the water.",
+      "source_quote": "appeared to make erratic moments above the water",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2421,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew achieved 4x zoom on the object but lost it due to poor track placement.",
+      "source_quote": "crew was able to obtain 4x zoom on the object but lost the object due to poor track placement",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2490,
+        "len": 88,
+        "exact": false,
+        "matched": "crew was able to obtain 4x zoom on the object but lost the object due to poor track plac"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The sensor operator was continuously manipulating the sensor to maintain visual contact, evidenced by the water in the background alternately being visible and not visible.",
+      "source_quote": "the sensor operator was continuously manipulating the sensor to maintain eyes on the object. This is apparent by the waves of the water in the background being visible and not being visible",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2688,
+        "len": 100,
+        "exact": false,
+        "matched": "object. This is apparent by the waves of the water in the background being visible and not being vis"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The radar trackfile on the object was intermittent, not stable.",
+      "source_quote": "Stable Trackfile?: Intermittent",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1658,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "There was only one contact in the group.",
+      "source_quote": "# of Contacts in \"Group\": 1",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1717,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No electronic attack indications were noted.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    },
+    {
+      "claim": "The document was declassified by MG Richard A. Harrison, USCENTCOM Chief of Staff.",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was approved for release to AARO under USCENTCOM MDR 26-0019.",
+      "source_quote": "Approved for Release to AARO USCENTCOM MDR 26-0019",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 4,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:36:11.335Z",
+  "qa_completed_at": "2026-05-09T10:37:17.644Z",
+  "timing": {
+    "A": "32.6s",
+    "B": "33.7s",
+    "E": "25.1s"
+  },
+  "public_headline": "U.S. Military Crew Reported Round White Object Over Middle East Waters",
+  "public_tldr": "A declassified military debrief form records a single round, solid white object detected by infrared sensor during a nighttime surveillance mission over the Middle East on May 14, 2020. The object appeared to move erratically above the water, was only intermittently tracked by radar, and was ultimately lost when the crew could not maintain sensor lock.",
+  "public_narrative": "This document is a Range Fouler debrief form — a standard military reporting template used when an aircrew encounters an unexplained object during a mission. It was declassified by Major General Richard A. Harrison, USCENTCOM (U.S. Central Command) Chief of Staff, and released to AARO, the Pentagon's office responsible for investigating unidentified anomalous phenomena.\n\nOn the night of May 14, 2020, a U.S. military crew conducting an ISR (intelligence, surveillance, and reconnaissance) mission in the Middle East detected a single solid white, round object flying through their infrared sensor's field of view. The sensor was operating in a mode called Black Hot, which displays heat signatures, and the detection occurred at approximately 20:40 UTC. The crew temporarily lost sight of the object but re-acquired it shortly afterward.\n\nAccording to the form, the object appeared to make erratic movements above the water. The sensor operator continuously adjusted the sensor to keep eyes on it — a detail supported by the report's note that ocean waves in the background alternated between being visible and not visible as the sensor was repositioned. The crew managed to achieve 4x zoom on the object but ultimately lost it due to poor track placement. Radar contact with the object was intermittent rather than stable, meaning the system could not consistently hold a lock.\n\nThe document remains partially redacted. All crew identifying information has been removed under SPEAR policy, and latitude and longitude fields are partially obscured, preventing precise geolocation of the sighting. Some text is degraded by scanning artifacts. The report does not reach a conclusion about what the object was — it is categorized as unresolved.",
+  "public_caveats": [
+    "This is a single-source observation from one crew. No corroborating sensor data or independent witness accounts are included in the form.",
+    "The description of 'erratic movements' is the crew's subjective characterization, not an objective measurement of the object's flight path.",
+    "Radar tracking was intermittent, which limits confidence in any position or movement data for the object.",
+    "Crew identities are fully redacted, making independent verification of the observers impossible.",
+    "An altitude value of 20,000 appears in the form, but it is ambiguous whether this refers to the observing platform's altitude or the object's altitude."
+  ]
+}

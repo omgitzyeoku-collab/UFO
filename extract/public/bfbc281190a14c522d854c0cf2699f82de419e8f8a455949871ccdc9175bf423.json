@@ -1,0 +1,726 @@
+{
+  "sha256": "bfbc281190a14c522d854c0cf2699f82de419e8f8a455949871ccdc9175bf423",
+  "title": "DOW-UAP-D65, Mission Report, Arabian Gulf, July 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "7/16/20",
+  "incident_location": "Arabian Gulf",
+  "what_is_it": "A declassified U.S. military Mission Report (MISREP) documenting three unidentified aerial phenomena (UAP) observations during an ISR mission over the Arabian Gulf on July 16, 2020.",
+  "core_summary": "A U.S. Air Force aircraft from the 482nd Attack Squadron took off from OKAS airfield on July 16, 2020, and conducted an armed reconnaissance mission supporting NAVCENT operations in the Arabian Gulf, Strait of Hormuz, and Gulf of Oman. During the approximately 21-hour mission, the crew observed three separate unidentified aerial phenomena at 1830Z, 1920Z, and 2345Z, all detected via full-motion video (FMV). The aircraft also received a guard call at 0615Z and conducted ISR scans of naval vessels before returning to base.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redaction throughout the document — aircraft type, callsigns, operator names, precise grid coordinates, and operational details are extensively redacted (marked as 1.4a, b(3), b(6), etc.)",
+    "No description of UAP characteristics is provided — the report only states that UAP were observed, with no detail on shape, size, movement, color, or behavior",
+    "All three UAP observations rely on a single sensor type (FMV) from a single aircraft with a single crew — no independent corroboration is documented",
+    "The low airspeeds (90-115 KIAS) and long mission duration (21+ hours) are consistent with an unmanned aerial system (drone/RPA), though aircraft type is redacted",
+    "The report is a standardized military form focused on mission accounting rather than detailed UAP analysis — it records that observations occurred but does not investigate them",
+    "The OCR extraction contains numerous artifacts and partial text, making some passages difficult to interpret with certainty",
+    "The operation name is redacted throughout the document"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "MISREP (Mission Report)",
+      "source_quote": "Report Type: MISREP",
+      "citation_offset": {
+        "offset": 1203,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report number",
+      "value": "Misrep 4472514",
+      "source_quote": "Misrep 4472514",
+      "citation_offset": {
+        "offset": 79,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Originator unit",
+      "value": "482nd Attack Squadron (482 ATKS)",
+      "source_quote": "Originator (Unit or Squadron): 482ATKS",
+      "citation_offset": {
+        "offset": 1225,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission type",
+      "value": "Armed Reconnaissance (AREC)",
+      "source_quote": "Mission Type: AREC",
+      "citation_offset": {
+        "offset": 1514,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Combatant command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 1158,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operations center",
+      "value": "609th AOC",
+      "source_quote": "Operations Center: 609th",
+      "citation_offset": {
+        "offset": 1101,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Major command",
+      "value": "ACC (Air Combat Command)",
+      "source_quote": "Major Command (MAJCOM): ACC",
+      "citation_offset": {
+        "offset": 1128,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Domain",
+      "value": "Air",
+      "source_quote": "Domain: AIR",
+      "citation_offset": {
+        "offset": 1087,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Supported unit",
+      "value": "NAVCENT",
+      "source_quote": "Supported Unit: NAVCENT",
+      "citation_offset": {
+        "offset": 5100,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Departure airfield",
+      "value": "OKAS",
+      "source_quote": "TakeolT Location (ICAO Code): OKAS",
+      "citation_offset": {
+        "offset": 7717,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Takeoff time",
+      "value": "160443Z JUL 2020",
+      "source_quote": "Takeoff Time DTG: 160443:00ZJUL20",
+      "citation_offset": {
+        "offset": 7754,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Time on station",
+      "value": "160552Z to 170012Z JUL 2020",
+      "source_quote": "Time-on Station DTG: 160552:00ZJUL20",
+      "citation_offset": {
+        "offset": 3752,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Total time on station",
+      "value": "20 hours 20 minutes",
+      "source_quote": "Total Time On Station: 20 hours 20 minutes",
+      "citation_offset": {
+        "offset": 5424,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Total mission time",
+      "value": "21 hours 17 minutes",
+      "source_quote": "Total Mission Time: 21 hours 17 minutes",
+      "citation_offset": {
+        "offset": 7529,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of aircraft",
+      "value": "1",
+      "source_quote": "Number of Aircraft: 1",
+      "citation_offset": {
+        "offset": 7613,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary sensor",
+      "value": "ANDAS4 (AN/DAS-4 targeting pod)",
+      "source_quote": "Primary Sensor: ANDAS4",
+      "citation_offset": {
+        "offset": 3876,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Additional avionics",
+      "value": "AH, GMESH",
+      "source_quote": "Additional Avionics: AH GMESH",
+      "citation_offset": {
+        "offset": 3279,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 1 time",
+      "value": "161830Z JUL 2020",
+      "source_quote": "Observation DTG: 161830:00ZJUL20",
+      "citation_offset": {
+        "offset": 6125,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 1 method",
+      "value": "Full-motion video (FMV)",
+      "source_quote": "Method of Observation: FMV",
+      "citation_offset": {
+        "offset": 6473,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 1 aircraft altitude",
+      "value": "FL 200 (20,000 ft)",
+      "source_quote": "Aircraft Altitude: FL 200",
+      "citation_offset": {
+        "offset": 6254,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 1 aircraft airspeed",
+      "value": "98 KIAS",
+      "source_quote": "Aircraft Airspeed: 98 KIAS",
+      "citation_offset": {
+        "offset": 6282,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 1 aircraft heading",
+      "value": "152 degrees magnetic",
+      "source_quote": "Aircraft Heading: 152 M",
+      "citation_offset": {
+        "offset": 6228,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 2 time",
+      "value": "161920Z JUL 2020",
+      "source_quote": "Observation DTG: 161920:00ZJUL20",
+      "citation_offset": {
+        "offset": 6669,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 2 method",
+      "value": "Full-motion video (FMV)",
+      "source_quote": "Method of Observation: FMV",
+      "citation_offset": {
+        "offset": 6473,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 2 aircraft altitude",
+      "value": "FL 190 (19,000 ft)",
+      "source_quote": "Aircraft Altitude: FL 190",
+      "citation_offset": {
+        "offset": 6795,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 2 aircraft airspeed",
+      "value": "90 KIAS",
+      "source_quote": "Aircraft Airspeed: 90 KIAS",
+      "citation_offset": {
+        "offset": 6823,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 2 aircraft heading",
+      "value": "34 degrees magnetic",
+      "source_quote": "Aircraft Heading: 34 M",
+      "citation_offset": {
+        "offset": 6770,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 2 location",
+      "value": "Grid 39RUN (partially redacted)",
+      "source_quote": "Observed Activity Location: 39RUN",
+      "citation_offset": {
+        "offset": 6927,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 3 time",
+      "value": "162345Z JUL 2020",
+      "source_quote": "Observation DTG: 162345:00ZJUL20",
+      "citation_offset": {
+        "offset": 7881,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 3 method",
+      "value": "Full-motion video (FMV)",
+      "source_quote": "Method of Observation: FMV",
+      "citation_offset": {
+        "offset": 6473,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 3 aircraft altitude",
+      "value": "FL 191 (19,100 ft)",
+      "source_quote": "Aircraft Altitude: FL 191",
+      "citation_offset": {
+        "offset": 8010,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 3 aircraft airspeed",
+      "value": "115 KIAS",
+      "source_quote": "Aircraft Airspeed: 115 KIAS",
+      "citation_offset": {
+        "offset": 8038,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation 3 aircraft heading",
+      "value": "331 degrees magnetic",
+      "source_quote": "Aircraft Heading: 331 M",
+      "citation_offset": {
+        "offset": 7984,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Guard call time",
+      "value": "160615Z JUL 2020",
+      "source_quote": "GUARDCALL DTG: 160615:00ZJUL20",
+      "citation_offset": {
+        "offset": 5479,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Guard call aircraft altitude",
+      "value": "FL 180 (18,000 ft)",
+      "source_quote": "Aircraft Altitude: FL 180",
+      "citation_offset": {
+        "offset": 5635,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Guard call aircraft heading",
+      "value": "131 degrees magnetic",
+      "source_quote": "Aircraft Heading: 131M",
+      "citation_offset": {
+        "offset": 5610,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Guard call tone",
+      "value": "Professional",
+      "source_quote": "Guardcall Tone: Professional",
+      "citation_offset": {
+        "offset": 5734,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Guard call impact",
+      "value": "No impact to mission",
+      "source_quote": "NO IMPACT TO MISSION",
+      "citation_offset": {
+        "offset": 5925,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FMV exploitation",
+      "value": "DGS-1",
+      "source_quote": "FMV WAS EXPLOITED BY DGS-1",
+      "citation_offset": {
+        "offset": 695,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission hours",
+      "value": "20.3 mission hours, 18.3 IMINT hours",
+      "source_quote": "20.3 MISSION HOURS, 18.3 IMINT HOURS",
+      "citation_offset": {
+        "offset": 723,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Weather during observations",
+      "value": "Not a factor",
+      "source_quote": "Weather: WEATHER WAS NOT A FACTOR",
+      "citation_offset": {
+        "offset": 6621,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Precoordination with NAVCENT",
+      "value": "24 hours prior, rated satisfactory",
+      "source_quote": "Precoord Time: 24 HOURS",
+      "citation_offset": {
+        "offset": 5159,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Landing time",
+      "value": "170200Z JUL 2020 at OKAS",
+      "source_quote": "Last Land Time: 170200:00ZJUL20",
+      "citation_offset": {
+        "offset": 7450,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassification date",
+      "value": "2045-03-01",
+      "source_quote": "Declassification Date (YYYYMMDD): 20450301",
+      "citation_offset": {
+        "offset": 1011,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassified by",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Declassified by MG Richard A. Harrisor USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 15,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Vessel observations during ISR",
+      "value": "1x probable Naser-class warship at 0645Z, 1x probable Safir-class vessel near Kish at 1932Z, 1x possible Houdong and 1x possible Naser docked at Bushehr at 2140Z",
+      "source_quote": "OBSERVED 1X PROB NASER WAP. AT 19322, OBSERVED 1X PROB SAFIR KISH... OBSERVED 1X POSS HOUDONG AND 1X POSS NASER DOCKED AT BUSHEHR",
+      "citation_offset": {
+        "offset": 4602,
+        "len": 65,
+        "exact": false,
+        "matched": "OBSERVED 1X PROB NASER WAP. AT 19322, OBSERVED 1X PROB SAFIR KISH"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Country tasked",
+      "value": "US - United States",
+      "source_quote": "Country Tasked: US - UNITED STATES",
+      "citation_offset": {
+        "offset": 1567,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Service tasked",
+      "value": "Air Force",
+      "source_quote": "Service Tasked: A - AIR FORCE",
+      "citation_offset": {
+        "offset": 1605,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Wing",
+      "value": "432 AEW (Air Expeditionary Wing)",
+      "source_quote": "Wing: 432 AEW",
+      "citation_offset": {
+        "offset": 1711,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "MG Richard A. Harrison"
+  ],
+  "named_places": [
+    "Arabian Gulf",
+    "Strait of Hormuz",
+    "Gulf of Oman",
+    "OKAS (airfield)",
+    "Bushehr",
+    "Kish"
+  ],
+  "dated_events": [
+    "2020-07-16 (mission date, takeoff 0443Z, guard call 0615Z, UAP observations at 1830Z, 1920Z, 2345Z)",
+    "2020-07-17 (RTB cleared 0012Z, landed LRE 0124Z, landed OKAS 0200Z)"
+  ],
+  "objects_described": [
+    "Unidentified Aerial Phenomenon (UAP) — three separate observations, all detected via FMV",
+    "Probable Naser-class warship",
+    "Probable Safir-class vessel",
+    "Possible Houdong-class vessel"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Three separate UAP were observed during a single mission on July 16, 2020, at 1830Z, 1920Z, and 2345Z",
+      "source_quote": "AT 1830) OBSERVED AN UNIDENTIFIED AERIAL PHENOMENON. SEE OBS LINE 1. AT 1920Z| BSERVED AN UNIDENTIFIED AERIAL PHENOMENON. SEE OBS LINE 2. AT 23457 BSERVED AN UNIDENTIFIED AERIAL PHENOMENON. SEE OBS LINE 3",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 389,
+        "len": 204,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "All three UAP were detected via full-motion video (FMV), not radar or other sensors",
+      "source_quote": "Method of Observation: FMV",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6473,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Weather was not a factor during any of the three UAP observations",
+      "source_quote": "Weather: WEATHER WAS NOT A FACTOR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6621,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The mission was an armed reconnaissance flight supporting NAVCENT operations",
+      "source_quote": "FUPPORTED NAVCENT TO OPERATION... ARABIAN GULF, STRAIT OF HORMUZ AND GULF OF OMAN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 271,
+        "len": 46,
+        "exact": false,
+        "matched": "RABIAN GULF, STRAIT OF HORMUZ AND GULF OF OMAN"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft operated from OKAS airfield with a total mission time of 21 hours 17 minutes",
+      "source_quote": "Total Mission Time: 21 hours 17 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7529,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "FMV footage was exploited by Distributed Ground Station 1 (DGS-1)",
+      "source_quote": "FMV WAS EXPLOITED BY DGS-1",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 695,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft received a guard call at 0615Z described as professional in tone with no impact to the mission",
+      "source_quote": "Guardcall Tone: Professional... NO IMPACT TO MISSION",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The mission observed Iranian naval vessels including probable Naser-class and Safir-class warships and a possible Houdong-class vessel at Bushehr",
+      "source_quote": "OBSERVED 1X PROB NASER WAP. AT 19322, OBSERVED 1X PROB SAFIR KISH... 1X POSS HOUDONG AND 1X POSS NASER DOCKED AT BUSHEHR",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 4602,
+        "len": 65,
+        "exact": false,
+        "matched": "OBSERVED 1X PROB NASER WAP. AT 19322, OBSERVED 1X PROB SAFIR KISH"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft was at FL 200 (approximately 20,000 feet) traveling at 98 KIAS during the first UAP observation",
+      "source_quote": "Aircraft Altitude: FL 200... Aircraft Airspeed: 98 KIAS",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document is approved for release to AARO with FOUO/PA restrictions",
+      "source_quote": "Approved for Release to AARO - FOUO-/ PA applies 03/16/26",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4804,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document is classified with a declassification date of March 1, 2045",
+      "source_quote": "Declassification Date (YYYYMMDD): 20450301",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1011,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 7,
+    "amber": 4,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:12:40.068Z",
+  "qa_completed_at": "2026-05-09T11:14:32.908Z",
+  "timing": {
+    "A": "60.7s",
+    "B": "52.1s",
+    "E": "30.9s"
+  },
+  "public_headline": "U.S. Air Force Crew Logged Three Unidentified Aerial Sightings Over the Arabian Gulf in 2020",
+  "public_tldr": "A heavily redacted U.S. military mission report records that a single Air Force aircraft from the 482nd Attack Squadron observed three separate unidentified aerial phenomena (UAP) via onboard video during a 21-hour armed reconnaissance flight over the Arabian Gulf on July 16, 2020. The report logs the times and aircraft positions for each sighting but provides no description of what the objects looked like or how they behaved.",
+  "public_narrative": "This document is a standard military Mission Report (MISREP #4472514) filed by the 482nd Attack Squadron, operating under U.S. Central Command (USCENTCOM) and Air Combat Command. On July 16, 2020, a single aircraft took off from OKAS airfield at 0443Z and flew an armed reconnaissance mission in support of Naval Forces Central Command (NAVCENT), covering the Arabian Gulf, the Strait of Hormuz, and the Gulf of Oman. The total mission lasted 21 hours and 17 minutes.\n\nDuring the flight, the crew recorded three separate UAP observations — at 1830Z, 1920Z, and 2345Z. All three were detected using the aircraft's full-motion video (FMV) sensor, an AN/DAS-4 targeting pod. At the time of the first sighting, the aircraft was at 20,000 feet traveling at 98 knots; during the second, it was at 19,000 feet and 90 knots; during the third, at 19,100 feet and 115 knots. Weather was noted as not a factor during any of the observations. The video footage was sent to Distributed Ground Station 1 (DGS-1) for analysis.\n\nCritically, the report says nothing about what the UAP looked like — no shape, size, color, speed, or movement is described. This is a mission-accounting form, not an investigative analysis. It records that observations occurred and assigns them observation line numbers, but does not attempt to explain or identify them.\n\nThe document is heavily redacted. The aircraft type, crew names, callsigns, precise coordinates, and the name of the operation are all blacked out under national security exemptions. The aircraft's low airspeeds (90–115 knots) and the 21-hour mission duration are consistent with an unmanned aerial system (a drone), though this is not confirmed in the text. The report was originally classified with a scheduled declassification date of March 1, 2045, and was declassified by Major General Richard A. Harrison, USCENTCOM Chief of Staff. Beyond the UAP entries, the mission also documented observations of probable Iranian naval vessels — including Naser-class and Safir-class warships and a possible Houdong-class vessel docked at Bushehr.",
+  "public_caveats": [
+    "The report provides zero detail about the UAP themselves — no shape, size, behavior, speed, or altitude of the objects. It only records that something unidentified was seen on video at three specific times.",
+    "All three sightings come from a single aircraft, a single crew, and a single sensor type (full-motion video). There is no documented independent corroboration from radar, other aircraft, or ground stations.",
+    "The document is heavily redacted: aircraft type, crew identities, exact coordinates, and operational details are all removed. Readers cannot independently verify many aspects of the mission.",
+    "This is a standardized mission-accounting form, not a UAP investigation. It was designed to log what happened on a sortie, not to analyze or explain the sightings.",
+    "The aircraft type is redacted, but the flight profile — very low airspeed and a 21-hour mission — is consistent with a remotely piloted aircraft (drone), which affects how one interprets 'crew observed' versus sensor-detected."
+  ]
+}

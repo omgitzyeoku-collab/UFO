@@ -1,0 +1,278 @@
+{
+  "sha256": "d52431b354af55b1e86cb454e61fd61993af3b023a38f2d9e014a9c9d18d16b4",
+  "title": "DOW-UAP-D42, Range Fouler Debrief, Japan, 2023",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "8/31/20",
+  "incident_location": "Arabian Gulf",
+  "what_is_it": "A U.S. Navy Range Fouler Debrief Form used to report an unauthorized intrusion into controlled airspace during active military operations.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate — observer name, email, squadron contact details, MGRS grid coordinates partially redacted, and contact latitude/longitude fields appear blank or redacted; multiple (b)(1) and (b)(6) exemption markers visible",
+  "interpretation_warnings": [
+    "Single-source observer account — no corroborating sensor data or witness statements included in this form",
+    "OCR quality is poor with numerous character artifacts, some field values may be misread",
+    "Observer name and identifying information intentionally sanitized per SPEAR protocol",
+    "MGRS grid and lat/long partially redacted, limiting precise geolocation",
+    "The form itself notes that all descriptive language reflects the reporter's subjective interpretation at the time",
+    "Objects were observed on a sensor screen, not visually — 'Tally Achieved' field appears unchecked",
+    "482 ATKS is an MQ-9 Reaper drone squadron, suggesting the observation was from a remotely piloted aircraft sensor, not a manned cockpit"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "date",
+      "value": "08/31/20",
+      "source_quote": "08/31/20",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "time_of_day",
+      "value": "Dusk",
+      "source_quote": "Time of detection     Dusk",
+      "citation_offset": {
+        "offset": 764,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "crew_position",
+      "value": "Pilot",
+      "source_quote": "Pilot",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "rank",
+      "value": "O-2 (First Lieutenant/Lieutenant Junior Grade)",
+      "source_quote": "0-2",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "squadron",
+      "value": "482 ATKS",
+      "source_quote": "482ATKS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "mission_type",
+      "value": "ISR (Intelligence, Surveillance, Reconnaissance)",
+      "source_quote": "ISR",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "altitude_constant",
+      "value": "Yes",
+      "source_quote": "Yes",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "wind_speed_direction",
+      "value": "150/230",
+      "source_quote": "150/230",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "radar_type",
+      "value": "Other",
+      "source_quote": "Radar Equipped: Other",
+      "citation_offset": {
+        "offset": 1584,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_objects",
+      "value": "3",
+      "source_quote": "three on the screen at the same time moving amongst each other",
+      "citation_offset": {
+        "offset": 2463,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_shape",
+      "value": "Other Shape (checked)",
+      "source_quote": "Other Shape:[Z]",
+      "citation_offset": {
+        "offset": 1884,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "LFE",
+      "value": "No",
+      "source_quote": "No",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "initial_contact_MGRS",
+      "value": "39RWL (partially redacted)",
+      "source_quote": "MGRS Grid of initial contact: 39RWL",
+      "citation_offset": {
+        "offset": 2194,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_object_speed",
+      "value": "Much higher than first object",
+      "source_quote": "surpassed by another object of same size and shape but much higher speed",
+      "citation_offset": {
+        "offset": 2336,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_behavior",
+      "value": "Moving amongst each other",
+      "source_quote": "three on the screen at the same time moving amongst each other",
+      "citation_offset": {
+        "offset": 2463,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "08/31/20",
+    "03/16/26"
+  ],
+  "objects_described": [
+    "Initial unidentified object on sensor screen",
+    "Second object of same size and shape at much higher speed",
+    "Third object — three total observed moving amongst each other"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A pilot from 482 ATKS observed an object fly through their sensor screen during an ISR mission",
+      "source_quote": "Saw the initial object fly through the screen and started tracking i",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2246,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second object of the same size and shape passed the first at much higher speed",
+      "source_quote": "Initial object was surpassed by another object of same size and shape but much higher speed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2317,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Three objects were visible simultaneously, moving amongst each other",
+      "source_quote": "three on the screen at the same time moving amongst each other",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2463,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The contact was at approximately 18,000 feet altitude and altitude was constant",
+      "source_quote": "118000       Yes",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 901,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The contact was detected at dusk",
+      "source_quote": "Time of detection     Dusk",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 764,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observer's rank was O-2",
+      "source_quote": "0-2",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The MGRS grid reference begins with 39RWL, consistent with the Arabian Gulf region",
+      "source_quote": "MGRS Grid of initial contact: 39RWL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2194,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was approved for release under USCENTCOM MOR 26-0028",
+      "source_quote": "USCENTCOM MOR 26-0028                           Approved for Release to MRO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2982,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 7,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:38:45.006Z",
+  "qa_completed_at": "2026-05-09T10:39:40.686Z",
+  "timing": {
+    "A": "29.5s",
+    "B": "26.2s",
+    "E": "25.2s"
+  },
+  "public_headline": "Navy Drone Crew Reported Three Unidentified Objects Over Arabian Gulf",
+  "public_tldr": "This is a U.S. Navy Range Fouler Debrief form documenting an unauthorized airspace intrusion observed on August 31, 2020, over the Arabian Gulf. A pilot from an MQ-9 Reaper drone squadron reported tracking three unidentified objects on sensor screens that moved amongst each other at varying speeds. The document was approved for public release under USCENTCOM MOR 26-0028.",
+  "public_narrative": "This document is a Range Fouler Debrief Form — a standard U.S. military report used when something enters controlled airspace without authorization during active operations. It was filed by the Department of War and later approved for public release under USCENTCOM MOR 26-0028.\n\nOn August 31, 2020, at dusk, a pilot with the rank of O-2 (First Lieutenant) from the 482nd Attack Squadron (482 ATKS) was conducting an ISR (Intelligence, Surveillance, and Reconnaissance) mission over the Arabian Gulf. The 482 ATKS operates MQ-9 Reaper drones, meaning the pilot was observing remotely through the aircraft's sensor feed, not from a manned cockpit. The pilot first spotted an object moving across the sensor screen and began tracking it. A second object of the same size and shape then overtook the first at a much higher speed. Eventually, three objects were visible simultaneously, moving amongst each other. The objects were at approximately 18,000 feet and their altitude remained constant. Their shape was categorized only as \"Other\" on the form.\n\nThe document is partially redacted. The observer's name, email, and squadron contact details have been removed. The MGRS grid reference for the initial contact begins with 39RWL — consistent with the Arabian Gulf — but the remaining digits are cut off, preventing precise geolocation. Latitude and longitude fields appear blank or redacted. Multiple redaction exemptions under (b)(1) (national security) and (b)(6) (personal privacy) are marked throughout.\n\nThe form does not include any agency conclusion about what the objects were. It records one pilot's account of what appeared on a sensor screen. No corroborating sensor data, radar tracks, or additional witness statements are included in this document.",
+  "public_caveats": [
+    "This is a single-source observer account — one pilot's report with no corroborating sensor data or witness statements included in the form.",
+    "The objects were observed on a sensor screen from a remotely piloted MQ-9 Reaper drone, not seen visually; the 'Tally Achieved' field (visual confirmation) appears unchecked.",
+    "The observer's name and identifying details were intentionally redacted, and precise location coordinates are partially or fully removed.",
+    "The form itself notes that all descriptive language reflects the reporter's subjective interpretation at the time of the event.",
+    "OCR quality on this document is poor with character artifacts, so some field values may contain errors — for example, the altitude reading of '118000' likely represents 18,000 feet but is not fully certain."
+  ]
+}

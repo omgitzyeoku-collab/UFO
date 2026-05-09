@@ -1,0 +1,529 @@
+{
+  "sha256": "ca1684b554c662851028c03a8861028e04f1d813e5621ffbb888b8eac87e9fce",
+  "title": "65_HS1-834228961_62-HQ-83894_Section_9",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "N/A",
+  "what_is_it": "A collection of FBI internal memoranda, correspondence, and policy documents related to unidentified flying object reports and civilian UFO research organizations from 1957-1958.",
+  "core_summary": "This section of FBI case file 62-HQ-83894 contains multiple documents from late 1957 through late 1958 covering FBI handling of UFO sighting reports, correspondence with civilian UFO organizations, and a formal policy summary. Key items include a Cuban flying disc sighting reported via newspaper, an internal memo noting the surge in UFO reports after Sputnik's launch, FBI Director Hoover's formal reply to Donald Keyhoe of the National Investigations Committee on Aerial Phenomena clarifying the FBI does not investigate UFOs, and a policy summary memo confirming the Bureau's stance that UFO investigation is the Air Force's responsibility.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "Multiple pages are heavily degraded or illegible (especially pages 1, 3, 5, 7, 10, 15, 18, 21, 23-25, 27, 29-37), likely handwritten documents that did not OCR well, meaning some content may be missing from this extraction.",
+    "The Cuba sighting is single-source from a newspaper dispatch with no corroboration; the FBI Legal Attache noted 'No other reports corroborating the above were received and no inquiry has been made.'",
+    "The Nebraska landing with six occupants and vehicle interference claims are reported secondhand in an internal summary memo and were assessed by the Air Force as nonauthentic.",
+    "The USSR flying disc experimentation claim from the 1948 SAC letter cites an unidentified 'reliable source' with no further details provided.",
+    "Mrs. Ferguson's claims about spacemen taking her newspapers were internally dismissed as a 'mental case' by the Bureau.",
+    "The policy summary memo (pages 48-50) provides a useful institutional overview but represents the FBI's own characterization of its role, not an independent assessment.",
+    "Some named individuals (e.g., Jose Wyieto, Carmelo Guzman) may have OCR errors in their names due to poor source quality."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "FBI case number",
+      "value": "62-HQ-83894",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Dallas office action on flying discs",
+      "value": "Referred to OSI without investigation per existing instructions",
+      "source_quote": "This matter is being referred to OSI without investigation and no other action is being taken in accordance with existing instructions.",
+      "citation_offset": {
+        "offset": 542,
+        "len": 85,
+        "exact": false,
+        "matched": "tigation and no other action is being taken in accordance with existing instructions."
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Cuba sighting date",
+      "value": "November 11, 1957",
+      "source_quote": "a dispatch datelined November 11, 1957, at Pinar del Rio, Cuba",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Cuba sighting witnesses",
+      "value": "Jose Wyieto and Carmelo Guzman saw a hat-shaped disc over Matahambre mines",
+      "source_quote": "JO WYIETO and CARMELO GUZMAN...claimed that they had seen a flying disc in the shape of a man's hat hovering over the general area of Matahambre",
+      "citation_offset": {
+        "offset": 1825,
+        "len": 100,
+        "exact": false,
+        "matched": "med that they had seen a flying disc in the shape of a man's hat hovering over the general area of M"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Cuba disc description",
+      "value": "Larger than ordinary aircraft, completely silent, disappeared at high speed towards the sea",
+      "source_quote": "this disc was larger than ordinary airplanes normally seen in that area and that it was completely silent in its flight...it disappeared at a very high speed towards the sea",
+      "citation_offset": {
+        "offset": 2018,
+        "len": 65,
+        "exact": false,
+        "matched": "normally seen in that area and that it was completely silent in i"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Post-Sputnik UFO surge",
+      "value": "Great increase in UFO reports after Sputnik launch in October 1957",
+      "source_quote": "Ever since the Russians released \"Sputnik\" there has been a great increase in the number of \"flying saucers\" and other unidentified flying objects",
+      "citation_offset": {
+        "offset": 3029,
+        "len": 55,
+        "exact": false,
+        "matched": "as been a great increase in the number of \"flying sauce"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Nebraska landing claim",
+      "value": "Reported object landed in Nebraska with six people aboard who spoke to a farmer",
+      "source_quote": "An object had landed in Nebraska with six people aboard, the persons had talked to a Nebraska farmer and then sped off into space",
+      "citation_offset": {
+        "offset": 3823,
+        "len": 80,
+        "exact": false,
+        "matched": "ple aboard, the persons had talked to a Nebraska farmer and then sped off into s"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Vehicle interference claims",
+      "value": "UFOs reportedly caused car engines to stop in Southwestern states",
+      "source_quote": "persons in the Southwestern states while driving their cars have allegedly seen UFOs that caused the engines in their automobiles to stop",
+      "citation_offset": {
+        "offset": 4092,
+        "len": 80,
+        "exact": false,
+        "matched": "persons in the Southwestern states while driving their cars have allegedly seen "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Air Force evaluation of 1957 reports",
+      "value": "All cases resolved as nonauthentic or without basis",
+      "source_quote": "all the cases mentioned above have for all practical purposes been resolved as being nonauthentic or there was no basis for the sightings",
+      "citation_offset": {
+        "offset": 4405,
+        "len": 65,
+        "exact": false,
+        "matched": "all the cases mentioned above have for all practical purposes bee"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Air Force analysis center",
+      "value": "Air Technical and Intelligence Center at Wright-Patterson AFB, Ohio",
+      "source_quote": "all reports are submitted to the Air Technical and Intelligence Center, at Wright-Patterson Air Force Base in Ohio where they are evaluated and analyzed",
+      "citation_offset": {
+        "offset": 4791,
+        "len": 152,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ICARF organization",
+      "value": "Inter Continental Aerial Research Foundation soliciting newspaper editors to publish UFO observer post recruitment notices",
+      "source_quote": "We are in the process of setting up UFO observer Posts all over the United States, Canada, Europe, Alaska, Australia, Japan, England, Africa, and South America",
+      "citation_offset": {
+        "offset": 14636,
+        "len": 100,
+        "exact": false,
+        "matched": "ver Posts all over the United States, Canada, Europe, Alaska, Australia, Japan, England, Africa, and"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "ICARF Missouri director",
+      "value": "Robert T. Stone at 10717 E. 27th Terr., Independence, Missouri",
+      "source_quote": "MISSOURI FILTER CENTER, Robert T. Stone, Director, 10717 E. 27th Terr., Independence, Missouri",
+      "citation_offset": {
+        "offset": 6651,
+        "len": 54,
+        "exact": false,
+        "matched": " CENTER, Robert T. Stone, Director, 10717 E. 27th Terr"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "FBI indices check on Stone",
+      "value": "No records found; address listed to Terrell O. Stone, ice cream maker",
+      "source_quote": "The files of the Kansas City Office contain no information identifiable with ROBERT T. STONE...TERRELL O. STONE, wife IVA, an ice cream maker at Velvet Freeze, as residing at 10717 E. 27th Street Terrace",
+      "citation_offset": {
+        "offset": 22114,
+        "len": 65,
+        "exact": false,
+        "matched": " maker at Velvet Freeze, as residing at 10717 E. 27th Street Terr"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Mrs. Ferguson claim",
+      "value": "Woman from Elkhart, Indiana claimed outer spacemen landed near her home and took her newspapers",
+      "source_quote": "Ferguson relates having seen flying saucers and expresses her belief that outer spacemen have been landing in the vicinity of her home and taking newspapers and magazines which she left out for them",
+      "citation_offset": {
+        "offset": 23761,
+        "len": 50,
+        "exact": false,
+        "matched": " newspapers and magazines which she left out for t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "FBI assessment of Ferguson",
+      "value": "Noted indications she is a mental case",
+      "source_quote": "No reply desirable in view indications she is mental case",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Oveson letter",
+      "value": "Delmaine H. Oveson of Electronics Service Unit 4, Roseau, Minnesota requested details of a December 5, 1957 UFO sighting at Torrington, Connecticut",
+      "source_quote": "reported sighting of an Unconventional Aerial Object on or about 5 December 1957 at Torrington, Connecticut, at approximately 8:05 p.m.",
+      "citation_offset": {
+        "offset": 28811,
+        "len": 45,
+        "exact": false,
+        "matched": "bout 5 December 1957 at Torrington, Connectic"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Donald Keyhoe identity",
+      "value": "Director of National Investigations Committee on Aerial Phenomena (NICAP), retired Marine, known free-lance writer",
+      "source_quote": "Subject, Director of National Investigations Committee on Aerial Phenomena...He is a retired Marine",
+      "citation_offset": {
+        "offset": 32504,
+        "len": 74,
+        "exact": false,
+        "matched": "Subject, Director of National Investigations Committee on Aerial Phenomena"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "FBI view of Keyhoe",
+      "value": "Previously described as irresponsible and flamboyant writer",
+      "source_quote": "a flamboyant writer and we have found from previous experience that much of his material is irresponsible",
+      "citation_offset": {
+        "offset": 33085,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FBI reply to Keyhoe on UFO investigation",
+      "value": "FBI does not investigate UFO sightings, does not instruct witnesses not to talk, does not do character checks on witnesses",
+      "source_quote": "The Federal Bureau of Investigation does not investigate sightings of unidentified flying objects",
+      "citation_offset": {
+        "offset": 34954,
+        "len": 42,
+        "exact": false,
+        "matched": "The Federal Bureau of Investigation does n"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "FBI on extraterrestrial contact",
+      "value": "Not a function of the FBI but interested in anything affecting internal security",
+      "source_quote": "Possible communication with extraterrestrial vehicles from another planet...is not a function of the Federal Bureau of Investigation. This Bureau is, of course, interested in any aspect of such development which would affect the internal security",
+      "citation_offset": {
+        "offset": 36227,
+        "len": 100,
+        "exact": false,
+        "matched": "ot a function of the Federal Bureau of Investigation. This Bureau is, of course, interested in any a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Bureau policy origin",
+      "value": "FBI initially agreed to cooperate with Army Air Forces Intelligence on flying disc investigation in 1947",
+      "source_quote": "Reports of \"flying saucers\" became prevalent in 1947 and at request of Army Air Forces Intelligence, Bureau agreed to cooperate in investigation of flying discs",
+      "citation_offset": {
+        "offset": 37324,
+        "len": 160,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Air Force trash can covers comment",
+      "value": "Air Force originally wanted FBI to track down trivial disc reports",
+      "source_quote": "services of the FBI were enlisted in order to relieve the numbered Air Forces of the task of tracking down all the many instances which turned out to be \"trash can covers, toilet seats and what not\"",
+      "citation_offset": {
+        "offset": 38006,
+        "len": 100,
+        "exact": false,
+        "matched": "services of the FBI were enlisted in order to relieve the numbered Air Forces of the task of trackin"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "FBI withdrawal from disc investigation",
+      "value": "September 1947 Bureau advised Air Force its resources could not be dissipated this way",
+      "source_quote": "Letter of 9-27-47 advised Air Force that personnel and time of FBI could not be dissipated in this manner",
+      "citation_offset": {
+        "offset": 38475,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "USSR flying disc experiments",
+      "value": "1948 SAC letter noted USSR had been experimenting for four years on unknown type of flying disc",
+      "source_quote": "from reliable source it had been determined the USSR had been experimenting for four years on unknown type of flying disc",
+      "citation_offset": {
+        "offset": 38639,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "William Albert Rhodes negatives",
+      "value": "Rhodes gave FBI photographic negatives of alleged flying discs in 1947 Phoenix; turned over to Air Force intelligence and never returned",
+      "source_quote": "Rhodes brought negatives of the photographs he allegedly took at that time into the Phoenix Office...the negatives were being accepted by the FBI for Air Force intelligence; that there was a question as to whether he would ever get the negatives back",
+      "citation_offset": {
+        "offset": 42027,
+        "len": 100,
+        "exact": false,
+        "matched": "negatives were being accepted by the FBI for Air Force intelligence; that there was a question as to"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "James Maney inquiry",
+      "value": "Acting Deputy Director of Interplanetary Intelligence of Unidentified Flying Objects in Oklahoma City asked if FBI discouraged saucer investigators including Albert Bender",
+      "source_quote": "Special Agents of the Federal Bureau of Investigation have discouraged certain saucer investigators, particulary Mr. Bender of Bridgeport, Connecticut",
+      "citation_offset": {
+        "offset": 46673,
+        "len": 100,
+        "exact": false,
+        "matched": "Special Agents of the Federal Bureau of Investigation have discouraged certain saucer investigators,"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Aerial Phenomena Research Group inquiry",
+      "value": "Daily Iberian editor M.D. Wolcott asked FBI about legitimacy of Seattle-based group",
+      "source_quote": "Enclosed, you will find \"News Releases\" from a group calling itself Aerial Phenomena Research Group, in Seattle, Washington",
+      "citation_offset": {
+        "offset": 49206,
+        "len": 50,
+        "exact": false,
+        "matched": "Enclosed, you will find \"News Releases\" from a gro"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Carmelo Guzman",
+    "A. H. Belmont",
+    "R. R. Roach",
+    "John Edgar Hoover",
+    "Robert T. Stone",
+    "Terrell O. Stone",
+    "B. B. Watson",
+    "Delmaine H. Oveson",
+    "F. L. Welch",
+    "William E. Zuerner",
+    "Donald E. Keyhoe",
+    "J. Bailey Brower",
+    "George Fugate Jr.",
+    "William Albert Rhodes",
+    "James Maney",
+    "M. D. Wolcott",
+    "S. B. Donahoe",
+    "McMahon",
+    "Pomonic Gerardi"
+  ],
+  "named_places": [
+    "Dallas",
+    "Kansas City",
+    "Havana, Cuba",
+    "Pinar del Rio, Cuba",
+    "Matahambre Mines",
+    "Vernal, Utah",
+    "Nebraska",
+    "Albany, Georgia",
+    "Miami, Florida",
+    "Gulf of Mexico",
+    "Wright-Patterson Air Force Base, Ohio",
+    "Independence, Missouri",
+    "Hannibal, Missouri",
+    "Elkhart, Indiana",
+    "Denver, Colorado",
+    "San Francisco, California",
+    "Lowry Air Force Base",
+    "Travis Air Force Base, California",
+    "Torrington, Connecticut",
+    "Roseau, Minnesota",
+    "Phoenix",
+    "Oklahoma City, Oklahoma",
+    "Bridgeport, Connecticut",
+    "New Iberia, Louisiana",
+    "Seattle, Washington"
+  ],
+  "dated_events": [
+    "November 11, 1957",
+    "November 12, 1957",
+    "November 14, 1957",
+    "November 20, 1957",
+    "October 10, 1957",
+    "December 20, 1957",
+    "January 23, 1958",
+    "January 6, 1958",
+    "January 30, 1958",
+    "March 17, 1958",
+    "September 22, 1958",
+    "September 26, 1958",
+    "October 2, 1958",
+    "October 13, 1958",
+    "November 17, 1958",
+    "November 22, 1958",
+    "December 2, 1958",
+    "December 3, 1958",
+    "December 11, 1958",
+    "December 5, 1957",
+    "April 30, 1947",
+    "August 30, 1947"
+  ],
+  "objects_described": [
+    "Hat-shaped flying disc (Matahambre, Cuba)",
+    "Object described as 'looked like the moon' trailing blue pulsing flame (Vernal, Utah)",
+    "Fiery object across southern skies (Georgia to Florida)",
+    "Huge object over Gulf of Mexico seen by Coast Guard cutter",
+    "UFOs allegedly causing automobile engine stoppage (Southwest US)",
+    "Unconventional Aerial Object (Torrington, Connecticut)",
+    "Photographed flying discs (Phoenix, 1947)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The FBI agreed to cooperate with Army Air Forces Intelligence on flying disc investigation in 1947 but withdrew by September 1947 after objecting that its resources were being wasted on trivial cases.",
+      "source_quote": "services of the FBI were enlisted in order to relieve the numbered Air Forces of the task of tracking down all the many instances which turned out to be \"trash can covers, toilet seats and what not\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 38006,
+        "len": 100,
+        "exact": false,
+        "matched": "services of the FBI were enlisted in order to relieve the numbered Air Forces of the task of trackin"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Air Force stated all major UFO cases reported in October-November 1957 were resolved as nonauthentic or without basis.",
+      "source_quote": "all the cases mentioned above have for all practical purposes been resolved as being nonauthentic or there was no basis for the sightings",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4405,
+        "len": 65,
+        "exact": false,
+        "matched": "all the cases mentioned above have for all practical purposes bee"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A 1948 SAC letter stated a reliable source determined the USSR had been experimenting for four years on an unknown type of flying disc.",
+      "source_quote": "from reliable source it had been determined the USSR had been experimenting for four years on unknown type of flying disc",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 38639,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FBI formally stated it does not investigate UFO sightings, does not instruct witnesses not to discuss sightings, and does not conduct character investigations of UFO witnesses.",
+      "source_quote": "The Federal Bureau of Investigation does not investigate sightings of unidentified flying objects",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 34954,
+        "len": 42,
+        "exact": false,
+        "matched": "The Federal Bureau of Investigation does n"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "William Albert Rhodes surrendered photographic negatives of alleged flying discs to the FBI Phoenix office in 1947 which were transferred to Air Force intelligence and never returned.",
+      "source_quote": "the negatives were being accepted by the FBI for Air Force intelligence; that there was a question as to whether he would ever get the negatives back",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 42023,
+        "len": 149,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Two witnesses in Cuba reported a silent, hat-shaped flying disc larger than ordinary aircraft hovering over the Matahambre Mines area before departing at high speed toward the sea on November 11, 1957.",
+      "source_quote": "they had seen a flying disc in the shape of a man's hat hovering over the general area of Matahambre for several minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1834,
+        "len": 100,
+        "exact": false,
+        "matched": "they had seen a flying disc in the shape of a man's hat hovering over the general area of Matahambre"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Donald Keyhoe was described internally by the FBI as 'a flamboyant writer' whose material was 'irresponsible', and the Director concurred in 1951 that the Bureau should not get involved with him.",
+      "source_quote": "In 1951 the Director concurred with Mr. Nichols' statement that \"We should not get involved with him\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 33233,
+        "len": 60,
+        "exact": false,
+        "matched": "Nichols' statement that \"We should not get involved with him"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Inter Continental Aerial Research Foundation was attempting to set up a global network of UFO observer posts and filter centers, but FBI files contained no information on its director Robert T. Stone.",
+      "source_quote": "The files of this Bureau contain no information identifiable with Robert T. Stone or the Inter Continental Aerial Research Foundation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11520,
+        "len": 65,
+        "exact": false,
+        "matched": "The files of this Bureau contain no information identifiable with"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 2,
+    "amber": 6,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T09:00:45.366Z",
+  "qa_completed_at": "2026-05-09T09:03:14.407Z",
+  "timing": {
+    "A": "91.4s",
+    "B": "57.3s",
+    "E": "32.7s"
+  },
+  "public_headline": "FBI Memos Show Bureau Refused to Investigate UFO Reports in 1957–1958",
+  "public_tldr": "This collection of FBI internal memos and correspondence from 1957–1958 shows the Bureau repeatedly deflecting UFO sighting reports to the Air Force, responding to civilian UFO organizations, and formally establishing that investigating unidentified flying objects was not the FBI's job. The documents also capture a spike in UFO reports after the Soviet Union launched Sputnik.",
+  "public_narrative": "This set of documents comes from FBI case file 62-HQ-83894, Section 9, and spans late 1957 through late 1958. It contains internal memos, letters, and policy summaries that together paint a picture of an agency trying to distance itself from the flying saucer phenomenon while still fielding a steady stream of reports and inquiries from the public, civilian UFO groups, and other government offices.\n\nThe documents cover a range of UFO incidents. In November 1957, two witnesses in Pinar del Río, Cuba — Jose Wyieto and Carmelo Guzman — reported seeing a silent, hat-shaped disc larger than ordinary aircraft hovering over the Matahambre mines before speeding off toward the sea. The FBI's Legal Attaché in Havana noted the report but added that no corroborating reports were received and no inquiry was made. Around the same time, an internal memo noted a surge in UFO sightings following the launch of Sputnik in October 1957, listing claims including an object landing in Nebraska with six occupants who spoke to a farmer, and reports from the American Southwest of UFOs causing car engines to stop. The Air Force evaluated all of these cases and concluded they were nonauthentic or without basis.\n\nSeveral documents deal with civilian UFO organizations reaching out to the FBI. Donald Keyhoe, director of the National Investigations Committee on Aerial Phenomena (NICAP) and a retired Marine, wrote to the Bureau asking about its role. FBI Director J. Edgar Hoover replied formally that the FBI does not investigate UFO sightings, does not instruct witnesses not to talk, and does not conduct character checks on witnesses. Internally, the Bureau described Keyhoe as \"a flamboyant writer\" whose material was \"irresponsible.\" Another organization, the Inter Continental Aerial Research Foundation, was soliciting newspaper editors to help set up UFO observer posts worldwide; the FBI checked its Missouri director, Robert T. Stone, and found no records — only that the address was listed to a Terrell O. Stone, an ice cream maker.\n\nA policy summary memo lays out the Bureau's institutional history with flying discs. In 1947, the FBI initially agreed to help Army Air Forces Intelligence investigate flying disc reports, but withdrew by September of that year after concluding its resources were being wasted tracking down what the Air Force itself described as \"trash can covers, toilet seats and what not.\" A 1948 letter from the Strategic Air Command noted that a reliable source had determined the USSR had been experimenting for four years on an unknown type of flying disc, though no further details were provided. The Bureau's formal position by 1958 was clear: UFO investigation belonged to the Air Force, with all reports going to the Air Technical and Intelligence Center at Wright-Patterson Air Force Base in Ohio.\n\nThe documents also include oddities the Bureau brushed aside, such as a woman from Elkhart, Indiana — Mrs. Ferguson — who claimed outer spacemen had landed near her home and taken her newspapers. The FBI internally noted she appeared to be a \"mental case\" and recommended no reply.",
+  "public_caveats": [
+    "Many pages in this file section are heavily degraded or illegible — especially handwritten documents — meaning some content may be missing entirely from what can be read.",
+    "The Cuba sighting is single-source, drawn from a newspaper dispatch with no corroboration. The FBI noted it made no inquiry into the report.",
+    "Claims like the Nebraska landing and vehicle interference in the Southwest are reported secondhand in an internal summary and were assessed by the Air Force as nonauthentic.",
+    "The 1948 claim about USSR flying disc experiments cites an unidentified 'reliable source' with no further details provided.",
+    "Some names in the documents (e.g., Jose Wyieto, Carmelo Guzman) may contain errors due to poor original document quality and OCR limitations."
+  ]
+}

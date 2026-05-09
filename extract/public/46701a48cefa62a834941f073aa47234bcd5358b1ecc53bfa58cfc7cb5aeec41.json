@@ -1,0 +1,520 @@
+{
+  "sha256": "46701a48cefa62a834941f073aa47234bcd5358b1ecc53bfa58cfc7cb5aeec41",
+  "title": "DOW-UAP-D19, Mission Report, Syria, February 21, 2023",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "2/21/23",
+  "incident_location": "Syria",
+  "what_is_it": "U.S. military Mission Report (MISREP) documenting a Defensive Counter-Air (DCA) sortie by F-15E aircraft over Syria in support of Operation Inherent Resolve, during which the crew observed possible UAPs and a possible balloon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redactions throughout: coordinates, callsigns, specific locations, and personal identifying information are redacted under FOIA exemptions (b)(3), (b)(6), and classification sections 1.4a and 1.4g",
+    "UAP descriptions are the crew's subjective characterization — the report itself notes 'such characterizations should not be interpreted as a conclusive indication of the presence or absence of any intrinsic object features or performance characteristics'",
+    "The objects were described as 'possible' UAP and 'possible' balloon — these are not confirmed identifications",
+    "The UAPs produced no radar returns on the APG-82, which could indicate small size, low radar cross-section, or sensor limitations — but could also reflect environmental conditions or other factors",
+    "The 3 UAP and 1 balloon are logged as separate AIRSIGHT events approximately 70 minutes apart, at different altitudes (FL240 vs FL210)",
+    "Weapon System Video (WSV) was recorded for both sightings but is not included in this document release",
+    "Single-source report from one aircrew; no corroborating sensor data or independent observer reports are included",
+    "OCR artifacts throughout the document make some text ambiguous; redacted classification markings appear garbled",
+    "The radar jamming event occurred minutes before the first UAP sighting — temporal proximity may or may not be relevant"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_id",
+      "value": "Misrep undefined-8353978 (DOW-UAP-D19)",
+      "source_quote": "Misrep undefined-8353978",
+      "citation_offset": {
+        "offset": 119,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification",
+      "value": "SECRET, declassified 8 October 2025",
+      "source_quote": "Classification: SECRET",
+      "citation_offset": {
+        "offset": 1818,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassified_by",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff Declassified on: 8 October 2025",
+      "citation_offset": {
+        "offset": 23,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operation",
+      "value": "Operation Inherent Resolve",
+      "source_quote": "ISO OPERATION INHERENT RESOLVE TO CONDUCT DCA IVO ESSA",
+      "citation_offset": {
+        "offset": 381,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "2-ship of F-15E",
+      "source_quote": "A 2-SHIP OF F-15E, TOOK OFF FROM MUWAFFAQ SALTI AIR BASE",
+      "citation_offset": {
+        "offset": 317,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "unit",
+      "value": "389th Expeditionary Fighter Squadron (389 EFS), 332 AEW",
+      "source_quote": "Originator (Unit or Squadron): 389 EFS",
+      "citation_offset": {
+        "offset": 2171,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "takeoff_base",
+      "value": "Muwaffaq Salti Air Base (OJMS), Jordan",
+      "source_quote": "TOOK OFF FROM MUWAFFAQ SALTI AIR BASE (OJMS)",
+      "citation_offset": {
+        "offset": 336,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "takeoff_time",
+      "value": "2330Z, 20 February 2023",
+      "source_quote": "Takeoff Time DTG: 202330:00ZFEB23",
+      "citation_offset": {
+        "offset": 6052,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "landing_time",
+      "value": "0425Z, 21 February 2023",
+      "source_quote": "Last Land Time: 210425:00ZFEB23",
+      "citation_offset": {
+        "offset": 6805,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_mission_time",
+      "value": "4 hours 55 minutes",
+      "source_quote": "Total Mission Time: 4 hours 55 minutes",
+      "citation_offset": {
+        "offset": 6884,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "time_on_station",
+      "value": "3 hours 37 minutes (0003Z-0340Z)",
+      "source_quote": "Total Time On Station: 3 hours 37 minutes",
+      "citation_offset": {
+        "offset": 7493,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_jamming_event",
+      "value": "MFT radar jamming received near Shaddadi at FL270, 0021Z-0024Z, 3 minutes duration, partial impact to APG-82 radar",
+      "source_quote": "RECEIVED MFT RADAR JAMMING IVO SHADDADI",
+      "citation_offset": {
+        "offset": 791,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_jamming_theory",
+      "value": "Assessed as possible effect from Turkish X-band jammer near Syria/Turkey border",
+      "source_quote": "OUR WORKING THEORY IS THAT IT IS AN ABRA OF EFFECT TURKISH X-BAND JAMMER ON OR ACROSS THE SYR/TUR BORDER",
+      "citation_offset": {
+        "offset": 10893,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "jamming_frequency",
+      "value": "8.8-9.9 GHz",
+      "source_quote": "Frequency Affected: 8.8-9.9GHZ",
+      "citation_offset": {
+        "offset": 10354,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "affected_radar_system",
+      "value": "APG-82",
+      "source_quote": "Affected System: APG-82",
+      "citation_offset": {
+        "offset": 10328,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_sighting_1",
+      "value": "3x possible UAP observed at FL240 near Shaddadi at 0025Z",
+      "source_quote": "0025Z~ OBS 3X POSS UAP IVO SHADDADI",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "uap_description",
+      "value": "No radar returns; 2 white objects with IR significance; aircrew at FL270 in CAP",
+      "source_quote": "NO RADAR RETURNS RECEIVED FROM UAP. NO HEALTH EFFECTS EXPERIENCED BY AIRCREW. 2 WHITE OBJECTS IR SIGNIFICANT",
+      "citation_offset": {
+        "offset": 11399,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_sighting_2",
+      "value": "1x possible balloon observed at FL210 near Shaddadi at 0135Z",
+      "source_quote": "0135Z~ OBS lX POSS BALLOON IVO SHADDADI",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "health_effects",
+      "value": "None reported",
+      "source_quote": "NO HEALTH EFFECTS EXPERIENCED BY AIRCREW",
+      "citation_offset": {
+        "offset": 11435,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "weather",
+      "value": "Cloudy",
+      "source_quote": "Weather: CLOUDY",
+      "citation_offset": {
+        "offset": 11525,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sensor_suite",
+      "value": "APG-82 radar, ALR-56C RWR, SNIPER-SE targeting pod, ALE-45 CMD",
+      "source_quote": "Radar Warning Receiver (RWR) Name or Designator: ALR-56C",
+      "citation_offset": {
+        "offset": 3770,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "armament",
+      "value": "2x AIM-120D, 2x AIM-9X, M61A1 gun with 510 rounds",
+      "source_quote": "Type of Radar-Guided AAM: 2X AIM-120D",
+      "citation_offset": {
+        "offset": 4310,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_tail_numbers",
+      "value": "169, 188",
+      "source_quote": "Aircraft Tail Number(s): 169, 188",
+      "citation_offset": {
+        "offset": 5979,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "c2_agency",
+      "value": "KINGPIN",
+      "source_quote": "FLT C2 CHECK IN W/ KINGPIN",
+      "citation_offset": {
+        "offset": 523,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operations_center",
+      "value": "609th CAOC",
+      "source_quote": "Operations Center: 609th",
+      "citation_offset": {
+        "offset": 2044,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "combatant_command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 2104,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "air_refueling_1",
+      "value": "37K lbs combined on MOM track at 2345Z",
+      "source_quote": "RECEIVING 37K LBS (COMBINED TOTAL) OF FUEL (MOM TRACK)",
+      "citation_offset": {
+        "offset": 8249,
+        "len": 49,
+        "exact": false,
+        "matched": "VING 37K LBS (COMBINED TOTAL) OF FUEL (MOM TRACK)"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "air_refueling_2",
+      "value": "33.5K lbs combined on GANDER track at 0134Z",
+      "source_quote": "RECEIVING 33.5K LBS (COMBINED TOTAL) OF FUEL (GANDER TRACK)",
+      "citation_offset": {
+        "offset": 1025,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "air_refueling_3",
+      "value": "11K lbs on GANDER track at 0226Z",
+      "source_quote": "RECEIVING 1lK LBS FUEL (GANDER TRACK)",
+      "citation_offset": {
+        "offset": 1255,
+        "len": 32,
+        "exact": false,
+        "matched": "VING 1lK LBS FUEL (GANDER TRACK)"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "wsv_produced",
+      "value": "Weapon System Video produced for both UAP and balloon sightings",
+      "source_quote": "WSV PRODUCED. NFTR",
+      "citation_offset": {
+        "offset": 944,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "jsir_report_id",
+      "value": "340377 (for EMI/jamming event)",
+      "source_quote": "JSIR Report ID: 340377",
+      "citation_offset": {
+        "offset": 10636,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "poc_rank",
+      "value": "1st Lt, 389 EFS",
+      "source_quote": "Rank: 1st Lt",
+      "citation_offset": {
+        "offset": 2384,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "approver_unit",
+      "value": "89 ATKS, 432 AEW",
+      "source_quote": "Unit: 89 ATKS",
+      "citation_offset": {
+        "offset": 3137,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "MG Richard A. Harrison"
+  ],
+  "named_places": [
+    "Syria",
+    "Muwaffaq Salti Air Base (OJMS)",
+    "Shaddadi",
+    "Essa",
+    "Syria/Turkey border"
+  ],
+  "dated_events": [
+    "2023-02-20 (takeoff at 2330Z)",
+    "2023-02-21 (UAP sighting at 0025Z, balloon sighting at 0135Z, landing at 0425Z)",
+    "2025-10-08 (declassification date)"
+  ],
+  "objects_described": [
+    "F-15E Strike Eagle",
+    "3x possible UAP (2 white objects, IR significant, no radar return)",
+    "1x possible balloon at FL210",
+    "APG-82 radar",
+    "ALR-56C Radar Warning Receiver",
+    "SNIPER-SE targeting pod",
+    "AIM-120D radar-guided missile",
+    "AIM-9X IR-guided missile",
+    "ALE-45 countermeasure dispenser",
+    "M61A1 gun"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A 2-ship of F-15E aircraft (tail numbers 169 and 188) from the 389 EFS flew a DCA mission from Muwaffaq Salti Air Base on February 20-21, 2023",
+      "source_quote": "A 2-SHIP OF F-15E, TOOK OFF FROM MUWAFFAQ SALTI AIR BASE (OJMS) ISO OPERATION INHERENT RESOLVE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 317,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Three possible UAPs were observed near Shaddadi at FL240 with no radar returns but infrared significance, appearing as two white objects",
+      "source_quote": "NO RADAR RETURNS RECEIVED FROM UAP. NO HEALTH EFFECTS EXPERIENCED BY AIRCREW. 2 WHITE OBJECTS IR SIGNIFICANT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11399,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "One possible balloon was observed near Shaddadi at FL210 (approximately 21,000 feet)",
+      "source_quote": "OBS lX POSS BALLOON IVO SHADDADI AT FL210",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircrew experienced radar jamming for 3 minutes affecting the APG-82 radar on the 8.8-9.9 GHz band, assessed as likely from a Turkish X-band jammer near the Syria/Turkey border",
+      "source_quote": "OUR WORKING THEORY IS THAT IT IS AN ABRA OF EFFECT TURKISH X-BAND JAMMER ON OR ACROSS THE SYR/TUR BORDER INTO TURKEY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10893,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Weapon System Video was produced for both the UAP sighting and the balloon sighting",
+      "source_quote": "WSV PRODUCED. NFTR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 944,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No health effects were experienced by the aircrew during the UAP observation",
+      "source_quote": "NO HEALTH EFFECTS EXPERIENCED BY AIRCREW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11435,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The total mission time was 4 hours 55 minutes with 3 hours 37 minutes on station",
+      "source_quote": "Total Mission Time: 4 hours 55 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6884,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was originally classified SECRET and declassified on 8 October 2025 by MG Richard A. Harrison",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff Declassified on: 8 October 2025",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 23,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 7,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:12:13.677Z",
+  "qa_completed_at": "2026-05-09T10:14:08.149Z",
+  "timing": {
+    "A": "58.9s",
+    "B": "55.6s",
+    "E": "24.3s"
+  },
+  "public_headline": "F-15E Crew Reports Unidentified Objects Over Syria During 2023 Mission",
+  "public_tldr": "A formerly secret U.S. military mission report describes an F-15E fighter crew observing three possible unidentified aerial phenomena and one possible balloon over eastern Syria on February 21, 2023. The objects produced no radar returns but were visible on infrared sensors, and the crew had experienced radar jamming minutes before the first sighting.",
+  "public_narrative": "This document is a U.S. Department of War mission report from the 389th Expeditionary Fighter Squadron, originally classified SECRET and released on 8 October 2025 by Major General Richard A. Harrison, USCENTCOM Chief of Staff. It records a Defensive Counter-Air sortie — an air-defense patrol — flown by two F-15E Strike Eagles (tail numbers 169 and 188) out of Muwaffaq Salti Air Base in Jordan on the night of February 20–21, 2023, in support of Operation Inherent Resolve over Syria.\n\nDuring the nearly five-hour mission, the crew reported two separate sighting events near the town of Shaddadi. At approximately 0025Z, they observed three possible unidentified aerial phenomena at Flight Level 240 (roughly 24,000 feet). The objects appeared as two white shapes that registered on infrared sensors but produced no returns on the aircraft's APG-82 radar. About 70 minutes later, at 0135Z, the crew observed a single possible balloon at Flight Level 210 (roughly 21,000 feet) in the same area. Weapon System Video was recorded for both events but is not included in this release. No health effects were reported by the aircrew.\n\nMinutes before the first sighting, the crew experienced three minutes of radar jamming on the 8.8–9.9 GHz frequency band, which partially degraded their APG-82 radar. The report's working theory attributes this to a Turkish X-band jammer operating near the Syria–Turkey border, not to the observed objects.\n\nThe document is heavily redacted. Coordinates, callsigns, crew names, and specific locations are blacked out under Freedom of Information Act exemptions. The report does not offer a final determination on what the objects were — the crew's descriptions are explicitly noted as preliminary, using the word \"possible\" for both the UAP and the balloon.",
+  "public_caveats": [
+    "This is a single-source report from one aircrew. No corroborating sensor data or independent observer accounts are included in the release.",
+    "The crew described the objects as \"possible\" UAP and a \"possible\" balloon — these are not confirmed identifications, and the report itself cautions against treating crew characterisations as conclusive.",
+    "Heavy redactions remove coordinates, callsigns, and personal details, making independent verification of specifics difficult.",
+    "Weapon System Video was recorded for both sightings but has not been released with this document.",
+    "The radar jamming event occurred minutes before the first UAP sighting. The report attributes the jamming to a Turkish source, not to the objects, but the temporal proximity is noted without explanation."
+  ]
+}

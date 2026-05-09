@@ -1,0 +1,416 @@
+{
+  "sha256": "e635664e329b41f0b56da2d160102b322ea504a0a90eaa1b179aa230a6bc843b",
+  "title": "AARO Puerto Rico UAP Case Resolution",
+  "agency": "AARO",
+  "type": "PDF",
+  "incident_date": "",
+  "incident_location": "",
+  "what_is_it": "A case resolution report by the All-domain Anomaly Resolution Office (AARO) analyzing and explaining a 2013 UAP sighting near Aguadilla, Puerto Rico.",
+  "core_summary": "AARO investigated infrared video footage captured by a U.S. Customs and Border Protection aircraft on April 26, 2013, showing two objects near Rafael Hernandez Airport in Aguadilla, Puerto Rico. AARO concluded with high confidence that the objects did not exhibit anomalous behavior, moved at approximately 8 mph consistent with wind speed, remained over land (never entered water), and were most likely a pair of sky lanterns released by local hotels during celebrations.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "AARO's attribution to sky lanterns is at moderate confidence, not high — the poor video quality prevented categorical identification.",
+    "AARO explicitly states it is not a member of the intelligence community and this report should not be considered finished intelligence.",
+    "The original video was captured by U.S. Customs and Border Protection but reached AARO through publicly available media, not through an official intelligence channel.",
+    "An AARO partner previously assessed object speeds between 35 and 130 mph, significantly higher than AARO's own 8 mph assessment — readers should note the large discrepancy in analyses.",
+    "The STK reconstruction is central to AARO's conclusions but the full reconstruction methodology and data are not provided in this report."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Incident date",
+      "value": "April 26, 2013",
+      "source_quote": "Date: April 26, 2013",
+      "citation_offset": {
+        "offset": 442,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Rafael Hernandez Airport, Aguadilla, Puerto Rico",
+      "source_quote": "flying above Rafael Hernandez Airport near Aguadilla, Puerto Rico",
+      "citation_offset": {
+        "offset": 814,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Recording platform",
+      "value": "U.S. Customs and Border Protection De Havilland Canada 8 aircraft",
+      "source_quote": "U.S. Customs and Border Protection (CBP) De Havilland Canada 8 aircraft",
+      "citation_offset": {
+        "offset": 711,
+        "len": 61,
+        "exact": false,
+        "matched": "U.S. Customs and Border Protection (CBP) De Havilland Canada "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Sensor type",
+      "value": "Infrared (IR)",
+      "source_quote": "an infrared (IR) sensor onboard",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Assessed object speed",
+      "value": "Approximately 3.6 m/s (8 mph)",
+      "source_quote": "the objects drifted at approximately 3.6 meters per second (8 mph) in a straight line over land",
+      "citation_offset": {
+        "offset": 3030,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Wind speed at time",
+      "value": "4.4 m/s (9.8 mph) from east/northeast",
+      "source_quote": "consistent with the recorded wind speed of 4.4 meters per second (9.8 mph) from the east/northeast",
+      "citation_offset": {
+        "offset": 3127,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Assessed altitude",
+      "value": "Approximately 200 meters (656 feet)",
+      "source_quote": "detected the objects near the northeastern side of the airport at an altitude of approximately 200 meters (656 feet)",
+      "citation_offset": {
+        "offset": 4004,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Assessed object size",
+      "value": "Smaller than one meter (three feet)",
+      "source_quote": "AARO employed pixel analysis to estimate the objects' sizes to be smaller than one meter (three feet)",
+      "citation_offset": {
+        "offset": 6267,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of objects",
+      "value": "Two (not one splitting)",
+      "source_quote": "the video depicts two objects traveling near each other rather than a single object splitting into two",
+      "citation_offset": {
+        "offset": 2813,
+        "len": 95,
+        "exact": false,
+        "matched": "ideo depicts two objects traveling near each other rather than a single object splitting into t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Attribution",
+      "value": "Sky lanterns (moderate confidence)",
+      "source_quote": "AARO assesses with moderate confidence that the objects were a pair of sky lanterns",
+      "citation_offset": {
+        "offset": 463,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sky lantern sourcing",
+      "value": "Local hotels and resorts commonly release sky lanterns during celebrations",
+      "source_quote": "AARO confirmed with local hospitality industry vendors that it is common practice for hotels and resorts in the area to release sky lanterns",
+      "citation_offset": {
+        "offset": 6793,
+        "len": 140,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Apparent high speed explanation",
+      "value": "Motion parallax from moving aircraft",
+      "source_quote": "The objects' apparent high speed is attributable to motion parallax",
+      "citation_offset": {
+        "offset": 3228,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Transmedium behavior ruled out",
+      "value": "Objects remained over land; never entered water",
+      "source_quote": "The objects remained over land during the encounter",
+      "citation_offset": {
+        "offset": 4439,
+        "len": 46,
+        "exact": false,
+        "matched": "bjects remained over land during the encounter"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Apparent disappearance explanation",
+      "value": "Loss of thermal contrast between objects and ocean background",
+      "source_quote": "the sensor could not distinguish the objects from their environment due to a lack of thermal contrast between them and the ocean",
+      "citation_offset": {
+        "offset": 7631,
+        "len": 128,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Time of recording",
+      "value": "9:22 PM local time",
+      "source_quote": "The IR sensor recorded the event at 9:22 p.m. local time",
+      "citation_offset": {
+        "offset": 9000,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sunset time",
+      "value": "7:48 PM local time",
+      "source_quote": "sunset occurred at 7:48 p.m. local time",
+      "citation_offset": {
+        "offset": 8959,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Thermal crossover window",
+      "value": "Recording fell within the two-hour post-sunset thermal crossover period",
+      "source_quote": "within the two-hour window when thermal crossover can influence IR sensor return",
+      "citation_offset": {
+        "offset": 9058,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude gain during encounter",
+      "value": "Approximately 1,725 feet, up to 3,600 feet",
+      "source_quote": "gaining approximately 1,725 feet in altitude before losing sensor contact with the objects at 3,600 feet",
+      "citation_offset": {
+        "offset": 1535,
+        "len": 75,
+        "exact": false,
+        "matched": "gaining approximately 1,725 feet in altitude before losing sensor contact w"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Cloud cover",
+      "value": "Scattered clouds at 3,000 feet partially obscured sensor view",
+      "source_quote": "Scattered clouds at 3,000 feet partially obscured the sensor's view",
+      "citation_offset": {
+        "offset": 9368,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Analysis tools used",
+      "value": "Systems Toolkit (STK) reconstruction and Minimum Separation Vectors analysis",
+      "source_quote": "reconstruction of the event using STK and Minimum Separation Vectors analysis",
+      "citation_offset": {
+        "offset": 8081,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case resolution date",
+      "value": "March 20, 2025",
+      "source_quote": "Case Resolution | 20 March 2025",
+      "citation_offset": {
+        "offset": 157,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Puerto Rico",
+    "Rafael Hernandez Airport",
+    "Aguadilla",
+    "Atlantic Ocean"
+  ],
+  "dated_events": [
+    "April 26, 2013",
+    "20 March 2025"
+  ],
+  "objects_described": [
+    "Two unidentified objects assessed as sky lanterns",
+    "De Havilland Canada 8 aircraft (CBP)",
+    "Infrared (IR) sensor"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The objects moved at approximately 8 mph, consistent with the recorded wind speed of 9.8 mph from the east/northeast.",
+      "source_quote": "the objects drifted at approximately 3.6 meters per second (8 mph) in a straight line over land, consistent with the recorded wind speed of 4.4 meters per second (9.8 mph) from the east/northeast",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3030,
+        "len": 195,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects remained over land and never entered the water, contrary to the original transmedium claims.",
+      "source_quote": "The reconstruction demonstrates that the objects remained over land during the encounter",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4397,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The video shows two separate objects rather than one object that split or replicated.",
+      "source_quote": "The objects visibly separate multiple times within the first minute, suggesting that the video depicts two objects the entire time",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4663,
+        "len": 130,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects' apparent high speed was caused by motion parallax from the moving aircraft.",
+      "source_quote": "The objects' apparent high speed is attributable to motion parallax",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3228,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Local hotels and resorts commonly release sky lanterns during celebrations in the area.",
+      "source_quote": "AARO confirmed with local hospitality industry vendors that it is common practice for hotels and resorts in the area to release sky lanterns during celebrations",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6793,
+        "len": 160,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects appeared to vanish because the IR sensor could not distinguish them from the ocean's thermal background.",
+      "source_quote": "the sensor could not distinguish the objects from their environment due to a lack of thermal contrast between them and the ocean",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7631,
+        "len": 128,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The recording occurred within the two-hour post-sunset thermal crossover window, which degrades IR sensor effectiveness.",
+      "source_quote": "sunset occurred at 7:48 p.m. local time. The IR sensor recorded the event at 9:22 p.m. local time, within the two-hour window when thermal crossover can influence IR sensor return",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8959,
+        "len": 179,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO rejected the marine birds hypothesis because the objects moved in a straight line at wind speed and lacked identifiable bird features.",
+      "source_quote": "AARO considered this interpretation unlikely, as the STK reconstruction demonstrates that the objects moved in a straight line at wind speed over land",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10790,
+        "len": 150,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO rejected the mylar balloons hypothesis because an IR sensor is unlikely to detect reflected moonlight.",
+      "source_quote": "AARO does not concur with this assessment, because it is unlikely that an IR sensor could detect reflected moonlight",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11521,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects did not pass behind a utility pole as some frames appeared to suggest.",
+      "source_quote": "AARO employed pixel analysis to investigate this alternative and found that the objects did not pass behind the pole",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9940,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft's distance from the objects nearly tripled during the observation, degrading sensor quality.",
+      "source_quote": "The aircraft's distance from the objects nearly tripled during the observation period",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9160,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 11,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T12:13:07.640Z",
+  "qa_completed_at": "2026-05-09T12:14:19.224Z",
+  "timing": {
+    "A": "44.2s",
+    "B": "27.4s",
+    "E": "30.2s"
+  },
+  "public_headline": "Pentagon Office Attributes 2013 Puerto Rico UAP Sighting to Sky Lanterns",
+  "public_tldr": "A March 2025 report by the All-domain Anomaly Resolution Office (AARO) concludes that a widely discussed 2013 infrared video of unidentified objects near Aguadilla, Puerto Rico, most likely captured a pair of sky lanterns drifting in the wind — not an anomalous craft. AARO found the objects moved at roughly 8 mph (matching wind speed), never entered the water, and appeared to vanish only because the infrared camera lost thermal contrast against the ocean.",
+  "public_narrative": "On April 26, 2013, at 9:22 PM local time, a U.S. Customs and Border Protection aircraft flying near Rafael Hernandez Airport in Aguadilla, Puerto Rico, recorded infrared video of two small objects. The footage circulated publicly for years and became one of the most cited UAP cases, with claims that the objects traveled at high speed and plunged into the Atlantic Ocean — so-called \"transmedium\" behavior.\n\nIn a case resolution dated March 20, 2025, the All-domain Anomaly Resolution Office (AARO) — the Pentagon body responsible for investigating unidentified anomalous phenomena — published its analysis. Using a software reconstruction tool called Systems Toolkit (STK) and pixel-level analysis, AARO determined the two objects were each smaller than one meter (about three feet), drifted in a straight line at approximately 8 mph, and stayed at an altitude of roughly 656 feet. The recorded wind speed that night was 9.8 mph from the east/northeast, closely matching the objects' drift.\n\nAARO concluded the objects never entered the water. Their apparent disappearance was caused by the infrared sensor losing the ability to distinguish them from the ocean's thermal background. The recording fell within a two-hour post-sunset window when thermal crossover — a phenomenon that degrades infrared sensor performance — was in effect. Scattered clouds at 3,000 feet also partially obscured the sensor's view, and the aircraft nearly tripled its distance from the objects during the observation, further degrading image quality.\n\nThe agency assessed with moderate confidence that the objects were sky lanterns. AARO confirmed with local hospitality vendors that hotels and resorts in the Aguadilla area commonly release sky lanterns during celebrations. The objects' apparent high speed in the video was attributed to motion parallax — an optical effect caused by the aircraft's own movement. AARO also ruled out alternative explanations including marine birds (the objects moved in a straight line at wind speed with no bird-like features) and mylar balloons (an infrared sensor is unlikely to detect reflected moonlight).\n\nAARO explicitly states it is not a member of the intelligence community and that this report should not be treated as finished intelligence. The video reached AARO through publicly available media, not through an official intelligence channel.",
+  "public_caveats": [
+    "AARO's sky lantern conclusion is stated at moderate confidence, not high — the poor video quality prevented a categorical identification of the objects.",
+    "An earlier partner analysis assessed the objects' speed between 35 and 130 mph, far higher than AARO's 8 mph finding. The report does not fully reconcile this large discrepancy.",
+    "The STK reconstruction is central to AARO's conclusions, but the full methodology and underlying data are not provided in the report itself.",
+    "AARO states it is not part of the intelligence community, and this document should not be considered finished intelligence — it is an analytical assessment, not a definitive finding.",
+    "The original video was not obtained through classified channels; it reached AARO via publicly available media, which limits the chain-of-custody assurance around the footage."
+  ]
+}

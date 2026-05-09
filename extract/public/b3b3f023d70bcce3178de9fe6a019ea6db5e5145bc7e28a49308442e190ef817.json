@@ -1,0 +1,575 @@
+{
+  "sha256": "b3b3f023d70bcce3178de9fe6a019ea6db5e5145bc7e28a49308442e190ef817",
+  "title": "DOW-UAP-PR22, Unresolved UAP Report, Syria, July 2022",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "N/A",
+  "incident_location": "Syria",
+  "what_is_it": "A declassified U.S. military mission report (MISREP) documenting an armed reconnaissance mission in Syria during which an unidentified aerial phenomenon (UAP) was observed.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redactions throughout: aircraft type, callsign, tail number, most MGRS grid coordinates, and all personnel names are redacted, limiting independent verification.",
+    "The UAP observation is described in only two sentences with no detail on shape, size, color, or sensor characteristics — the description field is redacted.",
+    "No RF signatures were detected, but the UAP signatures field simply says 'No' with no elaboration on what sensors were checked.",
+    "The UAP event lasted less than one minute and appears incidental to the primary armed reconnaissance mission, which focused on ground surveillance.",
+    "The 14-second video referenced in the CSV description is not included in this text extraction; this is the accompanying mission report only.",
+    "Multiple classification markings are garbled in the OCR (e.g., 'Bf!Jltl!l't'if!C'Mfflffli'), suggesting the original document had classification banners that were not cleanly captured.",
+    "The document is a single-source military report with no independent corroboration of the UAP observation mentioned.",
+    "MGRS grid coordinates are partially redacted, preventing precise geolocation of the UAP sighting beyond 'Syria' in a general area.",
+    "The aircraft speed of 116 knots and altitude of 19,359 feet are consistent with a remotely piloted aircraft (drone), likely an MQ-9 Reaper given the 89th Attack Squadron designation, though the aircraft type is redacted."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "operation",
+      "value": "Operation Inherent Resolve",
+      "source_quote": "Operation: INHERENT RESOLVE",
+      "citation_offset": {
+        "offset": 1205,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "domain",
+      "value": "Air",
+      "source_quote": "Domain: AIR",
+      "citation_offset": {
+        "offset": 1235,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "originating_unit",
+      "value": "89th Attack Squadron (89 ATKS)",
+      "source_quote": "Originator (Unit or Squadron): 89 ATKS",
+      "citation_offset": {
+        "offset": 1538,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "wing",
+      "value": "432nd Air Expeditionary Wing",
+      "source_quote": "Wing: 432 AEW",
+      "citation_offset": {
+        "offset": 1928,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "combatant_command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 1309,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mission_type",
+      "value": "Armed Reconnaissance (AREC)",
+      "source_quote": "Mission Type: ARMED RECCE",
+      "citation_offset": {
+        "offset": 1696,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_aircraft",
+      "value": "1",
+      "source_quote": "Number of Aircraft: 1",
+      "citation_offset": {
+        "offset": 3946,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "takeoff_location",
+      "value": "Muwaffaq Salti Air Base, Jordan (ICAO: OJMS)",
+      "source_quote": "DEPARTED MUWAFFAQ SALTI AB (OJMS)",
+      "citation_offset": {
+        "offset": 285,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "takeoff_time",
+      "value": "301822Z JUL 22",
+      "source_quote": "Takeoff Time DTG: 301822:00ZJUL22",
+      "citation_offset": {
+        "offset": 4095,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "time_on_station",
+      "value": "301925Z JUL 22",
+      "source_quote": "Time On Station DTG: 301925:00ZJUL22",
+      "citation_offset": {
+        "offset": 4216,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_time_on_station",
+      "value": "18 hours 44 minutes",
+      "source_quote": "Total Time On Station: 18 hours 44 minutes",
+      "citation_offset": {
+        "offset": 4462,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_mission_time",
+      "value": "20 hours 57 minutes",
+      "source_quote": "Total Mission Time: 20 hours 57 minutes",
+      "citation_offset": {
+        "offset": 4882,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "landing_time",
+      "value": "311519Z JUL 22",
+      "source_quote": "Last Land Time: 311519:00ZJUL22",
+      "citation_offset": {
+        "offset": 4803,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_observation_time",
+      "value": "310239Z JUL 22",
+      "source_quote": "OBSERVED AN UNIDENTIFIED AERIAL PHENOMENON IVO 37SFU271",
+      "citation_offset": {
+        "offset": 537,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_duration",
+      "value": "Less than one minute",
+      "source_quote": "THE UAP OCCURED IN LESS THAN A MINUTE",
+      "citation_offset": {
+        "offset": 10966,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_movement",
+      "value": "North to south",
+      "source_quote": "THE UAP MOVING FROM N TO S",
+      "citation_offset": {
+        "offset": 11010,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_location_grid",
+      "value": "37SFU2xx (MGRS, partially redacted), in KP 9",
+      "source_quote": "OBSERVED AN UAP EVENT IYO 37SFU2~~IN KP 9",
+      "citation_offset": {
+        "offset": 10905,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "friendly_aircraft_altitude",
+      "value": "19,359 feet",
+      "source_quote": "Friendly Aircraft Altitude/Depth: 19,359 FT",
+      "citation_offset": {
+        "offset": 10312,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "friendly_aircraft_speed",
+      "value": "116 knots",
+      "source_quote": "Friendly Aircraft Speed: 116 KTS",
+      "citation_offset": {
+        "offset": 10358,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "supported_unit",
+      "value": "Task Force Chosin",
+      "source_quote": "Supported Unit: TF CHOSIN",
+      "citation_offset": {
+        "offset": 9898,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "precoordination_time",
+      "value": "103 minutes",
+      "source_quote": "Precoord Time: 103 MINUTES",
+      "citation_offset": {
+        "offset": 9964,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "weather_factor",
+      "value": "Weather was not a factor",
+      "source_quote": "WEATHER WAS NOT A FACTOR",
+      "citation_offset": {
+        "offset": 10088,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "fmv_exploitation",
+      "value": "Full motion video exploited by DGS1",
+      "source_quote": "FULL MOTION VIDEO WAS EXPLOITED BY DGSl",
+      "citation_offset": {
+        "offset": 768,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mission_hours_imint",
+      "value": "17.2 hours",
+      "source_quote": "17.2 IMINT HOURS",
+      "citation_offset": {
+        "offset": 829,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mission_hours_sigint",
+      "value": "18.7 hours",
+      "source_quote": "18.7 SIGINT HOURS",
+      "citation_offset": {
+        "offset": 876,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_mission_hours",
+      "value": "20.9 hours",
+      "source_quote": "20.9 MISSION HOURS",
+      "citation_offset": {
+        "offset": 809,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassified_by",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 26,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassification_date",
+      "value": "8 October 2025",
+      "source_quote": "Declassified on: 8 October 2025",
+      "citation_offset": {
+        "offset": 90,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operations_center",
+      "value": "609th CAOC",
+      "source_quote": "Operations Center: 609 CAOC",
+      "citation_offset": {
+        "offset": 2272,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "telars_observed",
+      "value": "2x TELARs with 3 rockets loaded, inactive",
+      "source_quote": "2X TELARS WITH 3 ROCKETS LOADED WERE INACTIVE",
+      "citation_offset": {
+        "offset": 9434,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "armed_individual_observed",
+      "value": "1x adult male with rifle slung over right shoulder at possible shooting range",
+      "source_quote": "lX ADM SLUNG A RILE OVER HIS RIGHT SHOULDER. AREA ASSESSED TO BE A POSS SHOOTING RANGE",
+      "citation_offset": {
+        "offset": 7355,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "possible_artillery_system",
+      "value": "White pickup truck with unidentified object, possibly artillery system, in bed",
+      "source_quote": "lX WHITE PUT WITH UI OBJECT, POSS ARTILLERY SYSTEM, IN THE BED",
+      "citation_offset": {
+        "offset": 8224,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "possible_mounted_aaa",
+      "value": "Second truck with possible mounted anti-aircraft artillery observed",
+      "source_quote": "A SECOND TRUCK WITH POSS MOUNTED AAA WAS OBSERVED",
+      "citation_offset": {
+        "offset": 8506,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Richard A. Harrison"
+  ],
+  "named_places": [
+    "Muwaffaq Salti Air Base (OJMS)",
+    "Dayr az Zar (Deir ez-Zor) parking airfield"
+  ],
+  "dated_events": [
+    "301639Z JUL 2022 — TF Chosin tasked aircraft with IMINT via 7-line",
+    "301822Z JUL 2022 — Aircraft departed Muwaffaq Salti AB",
+    "301829Z JUL 2022 — Handed over from LRE",
+    "301925Z JUL 2022 — SIGINT collect began",
+    "302028Z JUL 2022 — Arrived on station (OP Spectre Dagger)",
+    "310239Z JUL 2022 — UAP observed",
+    "311343Z JUL 2022 — Returned to base",
+    "311409Z JUL 2022 — SIGINT collect terminated",
+    "311458Z JUL 2022 — Handed back to LRE",
+    "311519Z JUL 2022 — Landed at OJMS",
+    "8 October 2025 — Document declassified"
+  ],
+  "objects_described": [
+    "Unidentified Aerial Phenomenon (UAP) moving north to south, duration less than one minute",
+    "U.S. military aircraft (single asset, type redacted, 89th Attack Squadron / 432nd AEW)",
+    "Technicals (armed pickup trucks)",
+    "2x TELARs (Transporter Erector Launcher and Radar) with 3 rockets loaded",
+    "Possible mounted anti-aircraft artillery (AAA)",
+    "Possible artillery system in truck bed"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A single U.S. Air Force aircraft from the 89th Attack Squadron conducted an armed reconnaissance mission in Syria on 30-31 July 2022 under Operation Inherent Resolve.",
+      "source_quote": "Operation: INHERENT RESOLVE",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 1205,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft departed from and returned to Muwaffaq Salti Air Base in Jordan (ICAO: OJMS).",
+      "source_quote": "DEPARTED MUWAFFAQ SALTI AB (OJMS)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 285,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The total mission duration was approximately 20 hours 57 minutes.",
+      "source_quote": "Total Mission Time: 20 hours 57 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4882,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A UAP was observed at 0239Z on 31 July 2022 and lasted less than one minute, moving from north to south.",
+      "source_quote": "THE UAP OCCURED IN LESS THAN A MINUTE, WITH THE UAP MOVING FROM N TO S",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10966,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observing aircraft was at 19,359 feet altitude and traveling at 116 knots when the UAP was observed.",
+      "source_quote": "Friendly Aircraft Altitude/Depth: 19,359 FT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10312,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No RF signatures were detected from the UAP.",
+      "source_quote": "UAP Signatures: No",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 10530,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Weather was not a factor during the observation.",
+      "source_quote": "WEATHER WAS NOT A FACTOR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10088,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Full motion video of the mission was exploited by DGS1 (Distributed Ground Station 1).",
+      "source_quote": "FULL MOTION VIDEO WAS EXPLOITED BY DGSl",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 768,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was declassified by MG Richard A. Harrison, USCENTCOM Chief of Staff, on 8 October 2025.",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff Declassified on: 8 October 2025",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 26,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "During the mission, 2 TELARs with 3 rockets loaded were observed inactive near Deir ez-Zor airfield.",
+      "source_quote": "2X TELARS WITH 3 ROCKETS LOADED WERE INACTIVE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9434,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A convoy of approximately 30 adult males in multiple vehicles was followed, with one individual observed carrying a rifle at a possible shooting range.",
+      "source_quote": "lX ADM SLUNG A RILE OVER HIS RIGHT SHOULDER. AREA ASSESSED TO BE A POSS SHOOTING RANGE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7355,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A truck with a possible mounted anti-aircraft artillery system was observed during the mission.",
+      "source_quote": "A SECOND TRUCK WITH POSS MOUNTED AAA WAS OBSERVED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8506,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 12,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:07:49.390Z",
+  "qa_completed_at": "2026-05-09T10:09:54.471Z",
+  "timing": {
+    "A": "62.6s",
+    "B": "62.4s",
+    "E": "25.5s"
+  },
+  "public_headline": "US Military Drone Spotted Unidentified Object Over Syria in 2022",
+  "public_tldr": "A declassified US military mission report documents a brief sighting of an unidentified aerial phenomenon (UAP) during a nearly 21-hour armed reconnaissance flight over Syria on 30–31 July 2022. The object moved from north to south, was visible for less than a minute, and remains unexplained — though heavy redactions throughout the report obscure most details about the sighting itself.",
+  "public_narrative": "On 30 July 2022, a single US Air Force aircraft from the 89th Attack Squadron, operating under the 432nd Air Expeditionary Wing, took off from Muwaffaq Salti Air Base in Jordan for an armed reconnaissance mission over Syria. The mission was part of Operation Inherent Resolve, the US-led campaign against ISIS, and was coordinated through US Central Command (USCENTCOM). The aircraft spent about 18 hours and 44 minutes on station and logged a total mission time of roughly 20 hours and 57 minutes.\n\nDuring the flight, at 0239Z on 31 July 2022, the crew observed an unidentified aerial phenomenon. The object moved from north to south and was visible for less than one minute. The aircraft was flying at 19,359 feet and 116 knots at the time — speeds and altitude consistent with a remotely piloted drone such as the MQ-9 Reaper, though the aircraft type is redacted. No radio-frequency signatures were detected from the object, and weather was ruled out as a factor. The UAP's shape, size, colour, and sensor profile are not described in the report — those fields are redacted.\n\nThe primary mission was ground surveillance, not UAP hunting. The crew monitored activity including armed pickup trucks, two inactive rocket launchers (TELARs) with three rockets loaded near Deir ez-Zor airfield, a truck carrying a possible artillery system, and another with what appeared to be mounted anti-aircraft artillery. Full-motion video from the mission was processed by Distributed Ground Station 1 (DGS1), and the aircraft collected roughly 17.2 hours of imagery intelligence and 18.7 hours of signals intelligence.\n\nThe document was released on 8 October 2025 by Major General Richard A. Harrison, USCENTCOM Chief of Staff. It carries heavy redactions: the aircraft type, callsign, tail number, crew names, most grid coordinates, and the UAP description field are all blacked out. No conclusion is offered about what the object was. The case remains officially unresolved.",
+  "public_caveats": [
+    "The UAP sighting is described in just two sentences in the full report. The description field — where shape, size, and colour would appear — is redacted, so almost nothing is known about what the object actually looked like.",
+    "No independent corroboration exists for this sighting. It is a single-source military report from one aircraft crew.",
+    "Heavy redactions throughout the document — including aircraft type, crew identities, and precise coordinates — prevent independent verification of the details.",
+    "The UAP event lasted less than one minute and appears incidental to the main mission, which focused on ground surveillance of armed groups in Syria.",
+    "A 14-second video is referenced in associated records but is not included in this document release; only the text-based mission report has been made public."
+  ]
+}

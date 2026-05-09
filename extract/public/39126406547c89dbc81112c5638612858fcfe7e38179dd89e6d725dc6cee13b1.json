@@ -1,0 +1,495 @@
+{
+  "sha256": "39126406547c89dbc81112c5638612858fcfe7e38179dd89e6d725dc6cee13b1",
+  "title": "DOW-UAP-D60, Mission Report, Arabian Gulf, August 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "8/8/20",
+  "incident_location": "Arabian Gulf",
+  "what_is_it": "A U.S. military Mission Report (MISREP) documenting an ISR (Intelligence, Surveillance, and Reconnaissance) mission over the Arabian Gulf region during which one UAP was observed.",
+  "core_summary": "On 8 August 2020, a U.S. Air Force asset from the 482nd Attack Squadron took off from OKAS airfield and conducted a roughly 20-hour ISR mission supporting NAVCENT operations in the Arabian Gulf, Strait of Hormuz, and Gulf of Oman. At 0726Z, the operator observed one UAP described as 'transiting' with no impact to the mission. Dense cloud coverage intermittently impacted the full-motion video (FMV) collection during the mission.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy — aircraft type, callsign, operator names, specific grid coordinates, operation name, email addresses, phone numbers, and tail numbers are all redacted under exemptions (b)(1)(a), (b)(3), and (b)(6)",
+  "interpretation_warnings": [
+    "Heavy redaction obscures the aircraft type, callsign, operator identities, specific operation name, and precise UAP grid coordinates — limiting independent verification.",
+    "The UAP description is minimal: only 'transiting' with no details on shape, size, speed, altitude, or behavior beyond movement.",
+    "Single-source report from one operator with no corroborating sensor data or witness accounts included.",
+    "Dense cloud coverage intermittently impaired the FMV sensor, which was the sole method of UAP observation — potentially affecting observation quality.",
+    "The low airspeed (110 KIAS) and FL 170 altitude suggest this was likely an unmanned aircraft (drone/RPA), consistent with the 482nd Attack Squadron designation, though the aircraft type is redacted.",
+    "The OCR rendering of the document contains artifacts (e.g., '2}' likely meaning '21' for total mission time), so minor textual details may be slightly garbled.",
+    "All descriptive language in the report reflects the reporter's subjective interpretation at the time, per the document's own caveat."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "MISREP (Mission Report) #4592219",
+      "source_quote": "Misrep 4592219",
+      "citation_offset": {
+        "offset": 116,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Unit",
+      "value": "482nd Attack Squadron (482ATKS)",
+      "source_quote": "Originator (Unit or Squadron): 482ATKS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Service",
+      "value": "U.S. Air Force",
+      "source_quote": "Service Tasked: A - AIR FORCE",
+      "citation_offset": {
+        "offset": 1533,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Combatant Command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 1067,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operations Center",
+      "value": "605th / 609 CAOC",
+      "source_quote": "Operations Center: 605th",
+      "citation_offset": {
+        "offset": 1010,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Major Command",
+      "value": "ACC (Air Combat Command)",
+      "source_quote": "Major Command (MAJCOM): ACC",
+      "citation_offset": {
+        "offset": 1037,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission type",
+      "value": "AREC (Airborne Reconnaissance)",
+      "source_quote": "Mission Type: AREC",
+      "citation_offset": {
+        "offset": 1453,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Takeoff location",
+      "value": "OKAS",
+      "source_quote": "TOOK OFF FROM OKAS",
+      "citation_offset": {
+        "offset": 166,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Takeoff time",
+      "value": "0337Z on 8 August 2020",
+      "source_quote": "Takeoff Time DTG: 080337:00ZAUG20",
+      "citation_offset": {
+        "offset": 5023,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Landing time",
+      "value": "0045Z on 9 August 2020",
+      "source_quote": "Last Land Time: 090045:00ZAUG20",
+      "citation_offset": {
+        "offset": 3523,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Total mission time",
+      "value": "21 hours 8 minutes",
+      "source_quote": "Total Mission Time: 2} hours 8 minutes",
+      "citation_offset": {
+        "offset": 3602,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Time on station",
+      "value": "20 hours 18 minutes",
+      "source_quote": "Total Time On Station: 20 hours 18 minutes",
+      "citation_offset": {
+        "offset": 6818,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission hours breakdown",
+      "value": "20.3 mission hours, 17.7 IMINT hours, 18.4 SIGINT hours",
+      "source_quote": "20.3 MISSION HOURS, 17.7 IMINT HOURS, 1 IMINT TASKING PROSECUTED, 18.4 SIGINT HOURS",
+      "citation_offset": {
+        "offset": 616,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation time",
+      "value": "0726Z on 8 August 2020",
+      "source_quote": "Observation DTG: 080726:00ZAUG20",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of UAP observed",
+      "value": "1",
+      "source_quote": "OBSERVED 1X UAP",
+      "citation_offset": {
+        "offset": 4769,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP activity description",
+      "value": "Transiting",
+      "source_quote": "Observed Activity Description: TRANSITTING",
+      "citation_offset": {
+        "offset": 4644,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Method of observation",
+      "value": "FMV (Full Motion Video)",
+      "source_quote": "Method of Observation: FMV",
+      "citation_offset": {
+        "offset": 4689,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Impact to mission",
+      "value": "None",
+      "source_quote": "NO IMPACT TO MISSION",
+      "citation_offset": {
+        "offset": 4806,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary sensor",
+      "value": "ANDAS4",
+      "source_quote": "Primary Sensor: ANDAS4",
+      "citation_offset": {
+        "offset": 5474,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Additional avionics",
+      "value": "AH_GMESH",
+      "source_quote": "Additional Avionics: AH_GMESH",
+      "citation_offset": {
+        "offset": 3235,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Weather conditions",
+      "value": "Dense cloud coverage intermittently impacted FMV collection",
+      "source_quote": "DENSE CLOUD COVERAGE INTERMITTANTLY IMPACTED FMV COLLECTION EFFECTIVENESS",
+      "citation_offset": {
+        "offset": 6643,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Supported unit",
+      "value": "NAVCENT (Naval Forces Central Command)",
+      "source_quote": "Supported Unit: NAVCENT",
+      "citation_offset": {
+        "offset": 6496,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission purpose",
+      "value": "Scanning for identified Iranian vessels to establish pattern of life, UAS activity, and characterize activity outside of ports",
+      "source_quote": "CONDUCT SCANS FOR IDENTIFIED IRINURGCN VESSELS TO ESTABLISH PATTERN OF LIFE, UAS ACTIVITY AND CHARACTERIZE ACTIVITY OUTSIDE OF PORTS",
+      "citation_offset": {
+        "offset": 6116,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Guard call",
+      "value": "Iranian Air Defense hailed the aircraft at 1250Z",
+      "source_quote": "AT 1250Z, WAS HAILED ON GUARD BY IRANIAN AIR DEFENSE",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Guard call tone",
+      "value": "Professional",
+      "source_quote": "Guardcall Tone: PROFESSIONAL",
+      "citation_offset": {
+        "offset": 3972,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude during guard call",
+      "value": "FL 170 (17,000 feet)",
+      "source_quote": "Aircraft Altitude: FL 170",
+      "citation_offset": {
+        "offset": 3866,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft airspeed during guard call",
+      "value": "110 KIAS",
+      "source_quote": "Aircraft Airspeed: 110 KIAS",
+      "citation_offset": {
+        "offset": 3894,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassification authority",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Declassified by MG Richard A. Harriso USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 17,
+        "len": 37,
+        "exact": false,
+        "matched": "Declassified by MG Richard A. Harriso"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of aircraft",
+      "value": "1",
+      "source_quote": "Number of Aircraft: 1",
+      "citation_offset": {
+        "offset": 4898,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Domain",
+      "value": "Air",
+      "source_quote": "Domain: AIR",
+      "citation_offset": {
+        "offset": 994,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Precoordination",
+      "value": "24 hours prior, rated satisfactory",
+      "source_quote": "Precoord Time: 24 HOURS",
+      "citation_offset": {
+        "offset": 6561,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Richard A. Harrison"
+  ],
+  "named_places": [
+    "Arabian Gulf",
+    "Strait of Hormuz",
+    "Gulf of Oman",
+    "OKAS"
+  ],
+  "dated_events": [
+    "2020-08-08 (mission takeoff, UAP observation, guard call)",
+    "2020-08-09 (landing)",
+    "2026-03-20 (declassification date)",
+    "2026-03-27 (approved for release to AARO)"
+  ],
+  "objects_described": [
+    "1x UAP (transiting)",
+    "ANDAS4 (targeting pod / primary sensor)",
+    "AH_GMESH (additional avionics)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "One UAP was observed transiting at 0726Z on 8 August 2020 in the Arabian Gulf region",
+      "source_quote": "AT 0726Z, OBSERVED 1X UAP IVQ 39RWL... NO IMPACT TO MISSION",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The UAP was observed via full-motion video (FMV)",
+      "source_quote": "Method of Observation: FMV",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4689,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP had no impact on the mission",
+      "source_quote": "NO IMPACT TO MISSION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4806,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Dense cloud coverage intermittently degraded FMV collection capability",
+      "source_quote": "DENSE CLOUD COVERAGE INTERMITTANTLY IMPACTED FMV COLLECTION EFFECTIVENESS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6643,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was hailed by Iranian Air Defense on guard frequency at 1250Z",
+      "source_quote": "AT 1250Z, WAS HAILED ON GUARD BY IRANIAN AIR DEFENSE. ORDERS GIVEN: STANDARD CALL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4083,
+        "len": 51,
+        "exact": false,
+        "matched": "BY IRANIAN AIR DEFENSE. ORDERS GIVEN: STANDARD CALL"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The mission was an airborne reconnaissance flight supporting NAVCENT operations to monitor Iranian vessel activity",
+      "source_quote": "SUPPORTED NAVCENT TO OPERATION... CONDUCT SCANS FOR IDENTIFIED IRINURGCN VESSELS TO ESTABLISH PATTERN OF LIFE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6117,
+        "len": 70,
+        "exact": false,
+        "matched": "ONDUCT SCANS FOR IDENTIFIED IRINURGCN VESSELS TO ESTABLISH PATTERN OF "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft flew at FL 170 (17,000 feet) and 110 knots indicated airspeed during the guard call event",
+      "source_quote": "Aircraft Altitude: FL 170... Aircraft Airspeed: 110 KIAS",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The mission lasted approximately 21 hours with over 20 hours on station",
+      "source_quote": "Total Mission Time: 2} hours 8 minutes... Total Time On Station: 20 hours 18 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6821,
+        "len": 39,
+        "exact": false,
+        "matched": "al Time On Station: 20 hours 18 minutes"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was classified SECRET and declassified on 20 March 2026 by MG Richard A. Harrison",
+      "source_quote": "Declassified by MG Richard A. Harriso USCENTCOM Chief of Staff Declassified on: 20 March 2026",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 2208,
+        "len": 43,
+        "exact": false,
+        "matched": "Harriso USCENTCOM Chief of Staff Declassifi"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 6,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:00:33.503Z",
+  "qa_completed_at": "2026-05-09T11:02:06.644Z",
+  "timing": {
+    "A": "49.2s",
+    "B": "43.9s",
+    "E": "26.7s"
+  },
+  "public_headline": "U.S. Air Force Crew Spotted One UAP Over the Arabian Gulf in 2020",
+  "public_tldr": "A formerly classified U.S. Air Force mission report records that during a 21-hour surveillance flight over the Arabian Gulf on 8 August 2020, an operator observed a single unidentified anomalous phenomenon (UAP) moving through the area. The sighting was brief, described only as 'transiting,' and had no reported effect on the mission.",
+  "public_narrative": "On 8 August 2020, a U.S. Air Force aircraft from the 482nd Attack Squadron took off from OKAS airfield and flew a roughly 21-hour surveillance mission over the Arabian Gulf, the Strait of Hormuz, and the Gulf of Oman. The mission supported Naval Forces Central Command (NAVCENT) and involved scanning for Iranian vessels to track their movements and activity near ports.\n\nAt 0726Z (early morning, Zulu time), the operator spotted one UAP using the aircraft's full-motion video (FMV) camera. The report describes the object only as 'transiting' — meaning it was moving through the area — and gives no further detail on its shape, size, speed, or altitude. The report states there was no impact to the mission.\n\nThe flight was conducted under U.S. Central Command (CENTCOM) and Air Combat Command (ACC). During the mission, Iranian Air Defense hailed the aircraft on the international guard radio frequency at 1250Z; the exchange was described as professional. Dense cloud cover intermittently degraded the video feed throughout the flight.\n\nThe document is heavily redacted. The aircraft type, callsign, operator names, specific coordinates of the UAP sighting, the operation name, and various contact details are all blacked out. The aircraft's low airspeed (110 knots) and altitude (17,000 feet) are consistent with a drone or remotely piloted aircraft, which aligns with the 482nd Attack Squadron's known role, though the aircraft type itself is redacted.\n\nThe report was declassified on 20 March 2026 by Major General Richard A. Harrison, CENTCOM Chief of Staff, and released to the All-domain Anomaly Resolution Office (AARO) on 27 March 2026. It is now publicly available as Mission Report number 4592219.",
+  "public_caveats": [
+    "The UAP description is extremely sparse — only the word 'transiting' — with no information on shape, size, speed, altitude, or behaviour beyond movement.",
+    "This is a single-source report from one operator. No corroborating sensor data, radar tracks, or additional witness accounts are included in the document.",
+    "Heavy redactions obscure the aircraft type, operator identities, precise UAP coordinates, and the operation name, making independent verification difficult.",
+    "Dense cloud coverage intermittently impaired the full-motion video sensor, which was the sole reported method of UAP observation, potentially affecting what the operator could see.",
+    "The report contains no analysis or conclusion about what the UAP was. It simply logs the observation as part of a routine mission report."
+  ]
+}

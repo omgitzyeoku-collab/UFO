@@ -1,0 +1,297 @@
+{
+  "sha256": "aacc41814dd16583bbeabe068026bf286cd9b0e464ff097c5c7b97b00d308443",
+  "title": "NASA-UAP-D4, Apollo 11 Technical Crew Debriefing, 1969",
+  "agency": "NASA",
+  "type": "PDF",
+  "incident_date": "1969",
+  "incident_location": "",
+  "what_is_it": "Excerpts from the classified Apollo 11 Technical Crew Debriefing conducted by NASA on July 31, 1969, focusing on unusual visual observations reported by the crew.",
+  "core_summary": "During the Apollo 11 mission, the crew observed three unusual phenomena: an unidentified object seen approximately one day from the Moon that appeared L-shaped or like an open suitcase through optics; repeated flashes of light inside the darkened cabin attributed by Buzz Aldrin to possible particle penetration of the spacecraft; and a bright light source seen from lunar orbit initially thought to be a laser but later reassessed as likely a sun reflection off a body of water such as a lake.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The crew themselves were uncertain about all three observations and offered no definitive conclusions about the unidentified object",
+    "Collins explicitly suspected the object may have originated from their own spacecraft, suggesting a prosaic explanation",
+    "The cabin light flashes are now understood to be cosmic ray visual phenomena (Cherenkov radiation in the eye), a well-documented effect confirmed by later Apollo missions",
+    "The bright light initially attributed to a laser was revised by the crew themselves to likely be sun reflection off a lake",
+    "The document was originally classified Confidential, which may reflect standard classification of crew debriefings rather than sensitivity of the sighting content",
+    "OCR quality of the source PDF is poor in places, with some garbled text on cover pages"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "Apollo 11 Technical Crew Debriefing, Volumes 1 and 2",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Date of debriefing",
+      "value": "July 31, 1969",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Classification",
+      "value": "Confidential, Group 4, downgraded at 3-year intervals, declassified after 12 years",
+      "source_quote": "GROUP 4 Downgraded at 3-year intervals; declassified after 12 years",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Preparing office",
+      "value": "Mission Operations Branch, Flight Crew Support Division",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Object sighting distance",
+      "value": "Approximately 1 day out from the Moon",
+      "source_quote": "The first unusual thing that we saw I guess was 1 day out or something pretty close to the moon",
+      "citation_offset": {
+        "offset": 1814,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object apparent shape (monocular)",
+      "value": "L-shaped",
+      "source_quote": "We looked at it through the monocular and it seemed to have a bit of an L shape to it",
+      "citation_offset": {
+        "offset": 2704,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object apparent shape (Armstrong description)",
+      "value": "Like an open suitcase",
+      "source_quote": "Like an open suitcase.",
+      "citation_offset": {
+        "offset": 2804,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object apparent shape (sextant, off-focus)",
+      "value": "Appeared as a cylinder or two connected rings depending on focus",
+      "source_quote": "with the sextant off focus what we saw appeared to be a cylinder",
+      "citation_offset": {
+        "offset": 3393,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "S-IVB distance at time of sighting",
+      "value": "6000 miles away per ground control",
+      "source_quote": "We called the ground and were told the S-IVB was 6000 miles away",
+      "citation_offset": {
+        "offset": 2176,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Cabin light flashes frequency",
+      "value": "Approximately one per minute on average",
+      "source_quote": "just as a guess it was maybe something like one a minute",
+      "citation_offset": {
+        "offset": 7974,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Cabin flash characteristics",
+      "value": "Single and double flashes, sometimes appearing as a line, observed over multiple nights",
+      "source_quote": "instead of observing just one flash, I could see double flashes, at points separated by maybe a foot",
+      "citation_offset": {
+        "offset": 5799,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aldrin's hypothesis for cabin flashes",
+      "value": "Particle penetration of the spacecraft causing visible emissions",
+      "source_quote": "some penetration of some object into the spacecraft that causes an emission as it enters the cabin itself",
+      "citation_offset": {
+        "offset": 6149,
+        "len": 65,
+        "exact": false,
+        "matched": " spacecraft that causes an emission as it enters the cabin itself"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Armstrong's hypothesis for cabin flashes",
+      "value": "Neutron or atomic particle in the visible spectrum",
+      "source_quote": "a neutron or some kind of an atomic particle that would be in the visible spectrum",
+      "citation_offset": {
+        "offset": 8322,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Bright light in lunar orbit",
+      "value": "Initially attributed to a laser, later reassessed as sun reflection off a lake",
+      "source_quote": "it appeared as though it was the reflection of the Sun from a relatively smooth body of water such as a lake",
+      "citation_offset": {
+        "offset": 10482,
+        "len": 85,
+        "exact": false,
+        "matched": "it appeared as though it was the reflection of the Sun from a relatively smooth body "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Armstrong's observation duration for flashes",
+      "value": "About one hour with approximately 50 significant observations",
+      "source_quote": "I spent probably an hour carefully watching the inside of the spacecraft and I probably made 50 significant observations",
+      "citation_offset": {
+        "offset": 7692,
+        "len": 80,
+        "exact": false,
+        "matched": "ing the inside of the spacecraft and I probably made 50 significant observations"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Collins",
+    "Armstrong",
+    "Aldrin"
+  ],
+  "named_places": [
+    "Moon",
+    "Earth",
+    "Mars"
+  ],
+  "dated_events": [
+    "July 31, 1969"
+  ],
+  "objects_described": [
+    "Unidentified object observed en route to Moon (L-shaped or open-suitcase shape, possibly hollow cylinder through sextant)",
+    "Flashes of light inside spacecraft cabin",
+    "Bright light source observed from lunar orbit (initially suspected laser, later attributed to sun reflection off water)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Ground control reported the S-IVB stage was 6000 miles away when the crew observed the unidentified object",
+      "source_quote": "We called the ground and were told the S-IVB was 6000 miles away",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2176,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew was in Passive Thermal Control (PTC) roll when they observed the object",
+      "source_quote": "We were in PTC at the time so each one of us had a chance to take a look at this",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2834,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was confirmed not to be from a urine dump",
+      "source_quote": "It was something that wasn't part of the urine dump, we're pretty sure of that",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4412,
+        "len": 58,
+        "exact": false,
+        "matched": "t wasn't part of the urine dump, we're pretty sure of that"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Collins suspected the object may have originated from the spacecraft itself",
+      "source_quote": "In the back of my mind, I have some reason to suspect that its origin was from the spacecraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4996,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Aldrin could generate static electricity sparks from the sleep restraint but distinguished these from the cabin flashes",
+      "source_quote": "there was a definite difference between the two as I observed it more and more",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6744,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The bright light source seen from lunar orbit was observed again on the return trip approaching Earth, leading to revised assessment",
+      "source_quote": "approaching the Earth and were able to observe something that gave about the same appearance",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10338,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Aldrin noted an apparent image of Mars coming from a dark portion of the Moon, which was assessed as an optical illusion",
+      "source_quote": "there was one time period where I imagined that the image of Mars was coming from a region where it couldn't come from",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9508,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:45:16.247Z",
+  "qa_completed_at": "2026-05-09T11:46:31.575Z",
+  "timing": {
+    "A": "41.9s",
+    "B": "33.4s",
+    "E": "24.1s"
+  },
+  "public_headline": "Apollo 11 Crew Reported Three Unusual Sightings During Moon Mission",
+  "public_tldr": "A originally-classified NASA debriefing from July 31, 1969 records the Apollo 11 crew describing three unexplained observations during their mission: an L-shaped object seen en route to the Moon, repeated light flashes inside the darkened cabin, and a bright light from lunar orbit later attributed to sunlight reflecting off water. The crew offered no definitive explanations and in some cases suspected mundane origins.",
+  "public_narrative": "On July 31, 1969, NASA conducted a technical debriefing with the Apollo 11 crew — Armstrong, Aldrin, and Collins — that was originally classified Confidential. Excerpts from that debriefing describe three unusual things the astronauts saw during the mission.\n\nThe first was an unidentified object spotted roughly one day out from the Moon. Through a monocular it appeared L-shaped; Armstrong compared it to \"an open suitcase.\" Through the sextant, depending on focus, it looked like a cylinder or two connected rings. Ground control confirmed the spent S-IVB rocket stage was 6,000 miles away, making it an unlikely candidate. The crew ruled out a urine dump as the source, but Collins noted that \"in the back of my mind, I have some reason to suspect that its origin was from the spacecraft\" itself — suggesting a piece of their own hardware may have been responsible.\n\nThe second observation involved repeated flashes of light inside the darkened cabin, seen over multiple nights. Armstrong spent about an hour watching carefully and counted roughly 50 flashes, averaging about one per minute. Aldrin saw single and double flashes, sometimes appearing as a line. Both astronauts hypothesised that subatomic particles were penetrating the spacecraft and producing visible emissions. This phenomenon was later confirmed on subsequent Apollo missions as cosmic ray visual effects — charged particles passing through the astronauts' eyes.\n\nThe third sighting was a bright light observed from lunar orbit, initially suspected to be a laser. On the return trip approaching Earth, the crew saw something similar and revised their assessment: it appeared to be sunlight reflecting off a smooth body of water, such as a lake. Aldrin also reported once seeing what looked like an image of Mars coming from a dark region of the Moon, which he assessed as an optical illusion.",
+  "public_caveats": [
+    "The crew themselves were uncertain about all three observations and offered no definitive conclusions about the unidentified object.",
+    "Collins explicitly suspected the L-shaped object may have come from their own spacecraft, pointing toward a prosaic explanation.",
+    "The cabin light flashes are now well understood as cosmic ray visual phenomena (charged particles interacting with the eye), confirmed by later Apollo missions.",
+    "The document's Confidential classification likely reflected standard practice for crew debriefings rather than extraordinary sensitivity about the sightings.",
+    "The source PDF has poor OCR quality in places, meaning some text may be garbled or incomplete."
+  ]
+}

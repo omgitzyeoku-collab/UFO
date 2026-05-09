@@ -1,0 +1,281 @@
+{
+  "sha256": "58219b8000454aa27424ead9530bf80420365a587b95d4c770a5dce916783b45",
+  "title": "DOW-UAP-D3, Mission Report, Arabian Gulf, 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "N/A",
+  "what_is_it": "A U.S. military Mission Report (MISREP) documenting a UAP sighting during an ISR operation in the Arabian Gulf region in 2020.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "extreme — nearly every operational detail is redacted under (b)(1)1.4a (national security) and (b)(6)/(b)(3) 10 U.S.C. §130b (personal privacy), including aircraft type, location coordinates, altitude, speed, trajectory, UAP physical state, UAP location, sensor data, mission type, callsign, and all personnel identities",
+  "interpretation_warnings": [
+    "Extreme redaction: virtually all operational parameters (aircraft type, location, altitude, speed, sensor used, UAP physical description) are withheld, making independent analysis impossible.",
+    "Single-source report from one aircrew; no corroborating third-party observers are listed.",
+    "Cloud coverage prevented clear visual confirmation — the observation quality is self-reported as limited.",
+    "The reporter explicitly assessed NO advanced capabilities, but the UAP fields for maneuverability, propulsion, signatures, and intelligent control are left blank rather than answered.",
+    "The 'line of dots followed by a trailing dot' description comes from the war.gov CSV metadata, not from the document body itself.",
+    "The weather notation appears to be template boilerplate ('WAS (NOT) A FACTOR') and may not have been filled in with a definitive answer.",
+    "All subjective characterizations reflect the reporter's interpretation at the time, per the document's own caveat."
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "report_number",
+      "value": "Misrep 8799515",
+      "source_quote": "Misrep 8799515",
+      "citation_offset": {
+        "offset": 0,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_type",
+      "value": "MISREP (Mission Report)",
+      "source_quote": "Report Type: MISREP",
+      "citation_offset": {
+        "offset": 430,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification",
+      "value": "SECRET",
+      "source_quote": "Classification: SECRET",
+      "citation_offset": {
+        "offset": 93,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassification_date",
+      "value": "2048-06-03",
+      "source_quote": "Declassification Date (YYYYMMDD): 20480603",
+      "citation_offset": {
+        "offset": 219,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "major_command",
+      "value": "AFCENT (Air Forces Central Command)",
+      "source_quote": "Major Command (MAJCOM): AFCENT",
+      "citation_offset": {
+        "offset": 351,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "country_tasked",
+      "value": "United States",
+      "source_quote": "Country Tasked: US - UNITED STATES",
+      "citation_offset": {
+        "offset": 650,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "service_tasked",
+      "value": "U.S. Air Force",
+      "source_quote": "Service Tasked: A - AIR FORCE",
+      "citation_offset": {
+        "offset": 687,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_uap",
+      "value": "4",
+      "source_quote": "4X UAP OBSERVED FLYING IN (b)(1)1.4a FOV",
+      "citation_offset": {
+        "offset": 5215,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_observation_time",
+      "value": "Approximately 1736Z",
+      "source_quote": "AT APPROX 1736Z 4 UAP WERE OBSERVED",
+      "citation_offset": {
+        "offset": 5385,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_sequence",
+      "value": "1 UAP at 17:36:22, 2 UAP side by side at 17:36:30, 1 UAP at 17:36:49",
+      "source_quote": "1X UAP OBSERVED AT 17:36:22, 2X UAP OBSERVED SIDE BY SIDE AT 17:36:30, AND 1X UAP OBSERVED AT 17:36:49",
+      "citation_offset": {
+        "offset": 5440,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "cloud_obstruction",
+      "value": "Cloud coverage prevented clear visual tracking",
+      "source_quote": "CLOUD COVERAGE OBSTRUCTED (b)(1)1.4a FROM FOLLOWING AND GETTING A CLEAR VISUAL",
+      "citation_offset": {
+        "offset": 5257,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_advanced_capabilities",
+      "value": "NO",
+      "source_quote": "UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 4781,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "activity_description",
+      "value": "ISR (Intelligence, Surveillance, Reconnaissance)",
+      "source_quote": "Activity Description: ISR",
+      "citation_offset": {
+        "offset": 3492,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "email_domain",
+      "value": "mail.smil.mil (SIPRNet)",
+      "source_quote": "@mail.smil.mil",
+      "citation_offset": {
+        "offset": 946,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "2048-06-03 (declassification date)"
+  ],
+  "objects_described": [
+    "4 UAP observed in sequence",
+    "Unidentified ISR aircraft (type redacted)",
+    "Targeting pod (redacted designation)",
+    "Air-to-ground weapons (redacted)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Four UAP were observed beneath the aircraft over a 27-second window starting at approximately 17:36Z",
+      "source_quote": "AT APPROX 1736Z 4 UAP WERE OBSERVED BENEATH (b)(1)1.4a 1X UAP OBSERVED AT 17:36:22, 2X UAP OBSERVED SIDE BY SIDE AT 17:36:30, AND 1X UAP OBSERVED AT 17:36:49",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 5385,
+        "len": 157,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Cloud coverage prevented the crew from following the UAP and obtaining a clear visual",
+      "source_quote": "CLOUD COVERAGE OBSTRUCTED (b)(1)1.4a FROM FOLLOWING AND GETTING A CLEAR VISUAL",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 5257,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reporter assessed the UAP did NOT exhibit advanced capabilities or materials",
+      "source_quote": "UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe): NO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4781,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Two of the four UAP were observed side by side at 17:36:30Z",
+      "source_quote": "2X UAP OBSERVED SIDE BY SIDE AT 17:36:30",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5469,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The mission was conducted under AFCENT (Air Forces Central Command)",
+      "source_quote": "Major Command (MAJCOM): AFCENT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 351,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The mission was tasked to the U.S. Air Force",
+      "source_quote": "Service Tasked: A - AIR FORCE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 687,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:26:57.920Z",
+  "qa_completed_at": "2026-05-09T10:28:00.059Z",
+  "timing": {
+    "A": "34.0s",
+    "B": "28.2s",
+    "E": "24.2s"
+  },
+  "public_headline": "U.S. Air Force Crew Spotted Four UAP Over the Arabian Gulf in 2020",
+  "public_tldr": "A heavily redacted U.S. Air Force mission report documents four unidentified aerial phenomena (UAP) observed during a surveillance flight over the Arabian Gulf in 2020. The crew reported no advanced capabilities, but cloud cover prevented clear visual confirmation, and nearly all operational details are blacked out.",
+  "public_narrative": "This document is a U.S. military Mission Report (MISREP 8799515), originally classified SECRET, produced under Air Forces Central Command (AFCENT). It records a UAP sighting that occurred during an intelligence, surveillance, and reconnaissance (ISR) operation in the Arabian Gulf region in 2020. The report was filed through the military's secure SIPRNet email system and is not scheduled for declassification until 2048.\n\nAt approximately 17:36 Zulu time, the aircrew observed four UAP beneath their aircraft over a 27-second window. The sequence was specific: one object appeared at 17:36:22, two appeared side by side at 17:36:30, and a fourth appeared at 17:36:49. Cloud coverage prevented the crew from tracking the objects or obtaining a clear visual on them.\n\nThe reporting crew assessed that the UAP did not exhibit advanced capabilities or materials. However, several UAP-related fields in the report — covering maneuverability, propulsion, signatures, and signs of intelligent control — were left blank rather than answered, so the assessment is incomplete.\n\nThe redactions in this document are extreme. The aircraft type, exact location coordinates, altitude, speed, trajectory, sensor data, targeting pod designation, mission specifics, crew callsign, and all personnel identities have been withheld under national security and personal privacy exemptions. This means independent analysis of the sighting is effectively impossible based on this document alone.",
+  "public_caveats": [
+    "Nearly every operational detail — aircraft type, location, altitude, speed, sensor used, and UAP physical description — is redacted, making independent evaluation impossible.",
+    "This is a single-source report from one aircrew with no listed corroborating observers.",
+    "Cloud cover limited observation quality; the crew could not get a clear visual on the objects.",
+    "The crew reported no advanced capabilities, but key UAP assessment fields (maneuverability, propulsion, signatures, intelligent control) were left blank rather than filled in with 'no'.",
+    "The document is not fully declassified — it remains classified SECRET until 2048, and what is available is a redacted release."
+  ]
+}

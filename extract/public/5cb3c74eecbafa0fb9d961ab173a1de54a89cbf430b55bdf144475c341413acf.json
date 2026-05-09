@@ -1,0 +1,240 @@
+{
+  "sha256": "5cb3c74eecbafa0fb9d961ab173a1de54a89cbf430b55bdf144475c341413acf",
+  "title": "65_HS1-834228961_62-HQ-83894_Serial_403",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "N/A",
+  "what_is_it": "FBI headquarters file containing the dust jacket text of Gray Barker's 1956 book 'They Knew Too Much About Flying Saucers', apparently collected as part of the FBI's UFO/flying disc case file 62-HQ-83894.",
+  "core_summary": "This document is an FBI central records filing that preserves the front and back dust jacket copy of Gray Barker's book 'They Knew Too Much About Flying Saucers'. The jacket text describes how leading flying saucer researchers were allegedly visited by three men in dark suits and subsequently stopped publishing or speaking about their research. The book is presented as a behind-the-scenes chronicle of civilian saucer research, written by Barker, a Clarksburg, West Virginia businessman and film booking agent.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is not an FBI investigative report — it is the dust jacket promotional text of a commercial book collected into the FBI's UFO case file.",
+    "The claims about 'three men in dark suits' silencing researchers are presented as assertions from a book marketed for commercial sale, not as verified FBI findings.",
+    "The document is promotional copy and uses dramatic, sales-oriented language to market the book.",
+    "No FBI analysis or commentary on the book's claims is visible in this filing.",
+    "The OCR quality of Page 1 is very poor, obscuring most of the FBI filing metadata."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "FBI Central Records Center filing of a book dust jacket",
+      "source_quote": "FBI - CENTRAL RECORDS CENTER",
+      "citation_offset": {
+        "offset": 78,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "book_title",
+      "value": "They Knew Too Much About Flying Saucers",
+      "source_quote": "They Knew Too Much About Flying Saucers",
+      "citation_offset": {
+        "offset": 2813,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "book_author",
+      "value": "Gray Barker",
+      "source_quote": "by GRAY BARKER",
+      "citation_offset": {
+        "offset": 271,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "author_occupation",
+      "value": "Film booking and buying agent in Clarksburg, West Virginia",
+      "source_quote": "prosaic and successful Clarksburg, West Virginia, business man, Gray Barker, whose busy film booking and buying agency in Clarksburg News Building",
+      "citation_offset": {
+        "offset": 1303,
+        "len": 50,
+        "exact": false,
+        "matched": "prosaic and successful Clarksburg, West Virginia, "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "publisher",
+      "value": "University Books, Inc., 404 Fourth Avenue, New York 16, N.Y.",
+      "source_quote": "UNIVERSITY BOOKS, INC 404 Fourth Avenue . New York 16, N. Y",
+      "citation_offset": {
+        "offset": 4622,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "men_in_black_claim",
+      "value": "Three men in dark suits allegedly visited and silenced leading saucer researchers",
+      "source_quote": "Three men in dark suits have visited these saucer researchers. Nobody knows what they said, but it was enough to reduce their hearers to silence.",
+      "citation_offset": {
+        "offset": 715,
+        "len": 50,
+        "exact": false,
+        "matched": "Three men in dark suits have visited these saucer "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "author_interest_began",
+      "value": "1952, after an alleged saucer landing near his home in West Virginia",
+      "source_quote": "never was interested in flying saucers until 1952 when one of the most astonishing ones allegedly landed near his home in West Virginia",
+      "citation_offset": {
+        "offset": 1725,
+        "len": 45,
+        "exact": false,
+        "matched": "ntil 1952 when one of the most astonishing on"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "author_age_at_publication",
+      "value": "Approximately 30 years old",
+      "source_quote": "the rich and varied career he has crammed into his thirty years",
+      "citation_offset": {
+        "offset": 3927,
+        "len": 48,
+        "exact": false,
+        "matched": "nd varied career he has crammed into his thirty "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "endorser",
+      "value": "H. G. Rhawn, publisher and owner of the Clarksburg News",
+      "source_quote": "H. G. Rhawn, publisher and owner of the daily Clarksburg News",
+      "citation_offset": {
+        "offset": 2393,
+        "len": 46,
+        "exact": false,
+        "matched": "H. G. Rhawn, publisher and owner of the daily "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "author_publication",
+      "value": "The Saucerian, a flying saucer periodical",
+      "source_quote": "he publishes The Saucerian, a flying saucer periodical",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Gray Barker",
+    "H. G. Rhawn"
+  ],
+  "named_places": [
+    "Clarksburg, West Virginia",
+    "New York"
+  ],
+  "dated_events": [
+    "1952"
+  ],
+  "objects_described": [
+    "flying saucers"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Leading flying saucer researchers were allegedly visited by three men in dark suits and subsequently stopped publishing or speaking about saucers.",
+      "source_quote": "Three men in dark suits have visited these saucer researchers. Nobody knows what they said, but it was enough to reduce their hearers to silence.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 715,
+        "len": 50,
+        "exact": false,
+        "matched": "Three men in dark suits have visited these saucer "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Gray Barker became interested in flying saucers in 1952 after an alleged saucer landing near his home in West Virginia.",
+      "source_quote": "never was interested in flying saucers until 1952 when one of the most astonishing ones allegedly landed near his home in West Virginia",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1725,
+        "len": 45,
+        "exact": false,
+        "matched": "ntil 1952 when one of the most astonishing on"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Gray Barker operated a film booking and buying agency in the Clarksburg News Building.",
+      "source_quote": "busy film booking and buying agency in Clarksburg News Building",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1435,
+        "len": 43,
+        "exact": false,
+        "matched": "d buying agency in Clarksburg News Building"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "H. G. Rhawn authorized University Books to publish a letter endorsing the seriousness of Barker's work.",
+      "source_quote": "H. G. Rhawn, publisher and owner of the daily Clarksburg News, the author's home town paper, has authorized University Books to publish a letter",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2442,
+        "len": 50,
+        "exact": false,
+        "matched": " Clarksburg News, the author's home town paper, ha"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Gray Barker published a flying saucer periodical called The Saucerian.",
+      "source_quote": "he publishes The Saucerian, a flying saucer periodical",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Barker had previously worked as head of an English department in a Maryland school system.",
+      "source_quote": "He has been head of an English department in a Maryland school system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3988,
+        "len": 44,
+        "exact": false,
+        "matched": "He has been head of an English department in"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 6,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T09:11:49.772Z",
+  "qa_completed_at": "2026-05-09T09:13:02.327Z",
+  "timing": {
+    "A": "42.1s",
+    "B": "30.5s",
+    "E": "25.5s"
+  },
+  "public_headline": "FBI File Preserved a 1956 Book Jacket About UFO Silencing Claims",
+  "public_tldr": "This document is not an FBI investigation — it is the promotional dust jacket text from Gray Barker's 1956 book 'They Knew Too Much About Flying Saucers', filed in the FBI's central UFO case records. The jacket copy claims that three men in dark suits visited and silenced leading flying saucer researchers, but these are commercial marketing claims, not FBI findings.",
+  "public_narrative": "This FBI filing is a straightforward records entry: someone at the Bureau's Central Records Center placed the front and back dust jacket copy of a 1956 book into the FBI's main UFO case file (numbered 62-HQ-83894). The book is 'They Knew Too Much About Flying Saucers' by Gray Barker, published by University Books, Inc. of New York. No FBI analysis or commentary on the book's claims appears in the filing.\n\nThe dust jacket describes Barker as a businessman and film booking agent based in Clarksburg, West Virginia, who became interested in flying saucers in 1952 after an alleged saucer landing near his home. He was about 30 years old at the time of publication and also published a periodical called The Saucerian. H. G. Rhawn, publisher of the Clarksburg News, provided an endorsement of Barker's work.\n\nThe book's central marketing claim is dramatic: three men in dark suits allegedly visited leading saucer researchers, and after those visits the researchers stopped publishing or speaking about their findings. This is an early version of what later became known as the 'Men in Black' legend in UFO culture.\n\nIt is important to understand what this document is not. It is not an FBI investigative report. It contains no FBI conclusions about UFOs or about the book's claims. The text is promotional copy written to sell a commercial book, using sales-oriented language throughout. The FBI's reason for filing it is not stated in the visible portions of the document.\n\nThe first page of the filing, which would normally contain FBI administrative metadata, is largely unreadable due to poor scan quality.",
+  "public_caveats": [
+    "This is not an FBI report or investigation — it is a commercial book's promotional text that was placed into an FBI file. The FBI made no visible comment on its claims.",
+    "The 'three men in dark suits' claim is marketing copy from a book sold for profit, not a verified finding by any government agency.",
+    "The first page of the document is nearly unreadable due to poor scan/OCR quality, so FBI filing metadata is mostly obscured.",
+    "No redactions are evident — the readability issues stem from scan quality, not deliberate withholding.",
+    "The document tells us the FBI collected material about civilian UFO publishing, but it does not tell us why or what they did with it."
+  ]
+}

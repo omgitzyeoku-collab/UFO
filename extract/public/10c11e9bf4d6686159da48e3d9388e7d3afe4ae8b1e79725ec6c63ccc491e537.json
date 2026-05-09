@@ -1,0 +1,330 @@
+{
+  "sha256": "10c11e9bf4d6686159da48e3d9388e7d3afe4ae8b1e79725ec6c63ccc491e537",
+  "title": "DOW-UAP-D50, Email Correspondence, INDOPACOM, April 2025",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "4/10/2025-4/11/2025",
+  "incident_location": "N/A",
+  "what_is_it": "Email correspondence between military and intelligence personnel requesting and confirming that specific UAP mission report tearlines are approved for release at the UNCLASSIFIED level.",
+  "core_summary": "This document contains a chain of emails in which an Information Disclosure Analyst from the Office of the Undersecretary of Defense for Intelligence and Security shares two unclassified tearlines from mission reports describing UAP sightings on 10 and 11 April 2025. A PAROC Intel Data Analysis Technician at 12th Air Force / Detachment 3 confirms, after speaking with the reporting unit, that the tearlines and the use of INDOPACOM as the area of responsibility are both at the UNCLASSIFIED level.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "All named individuals are fully redacted under (b)(6) privacy exemptions — no personnel can be identified.",
+    "The type of US aircraft involved is redacted under 1.4(a) national security classification.",
+    "The exact location within the INDOPACOM area of responsibility is not specified.",
+    "Altitude and speed of both UAPs are listed as unknown, meaning no sensor data on these parameters was released.",
+    "The document uses 'POSS UAP' (possible UAP), indicating the observers themselves were not certain the objects were anomalous.",
+    "Both sightings were extremely brief (12 and 23 seconds), limiting the amount of data that could have been collected.",
+    "This is an administrative email about declassification of tearlines, not an analytical assessment of the sightings themselves."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_classification",
+      "value": "SECRET//NOFORN",
+      "source_quote": "CLASSIFICATION: SECRET//NOFORN",
+      "citation_offset": {
+        "offset": 297,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "area_of_responsibility",
+      "value": "INDOPACOM",
+      "source_quote": "adding in the AOR as INDOPACOM is also at the UNCLASSIFIED level",
+      "citation_offset": {
+        "offset": 146,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "originating_unit_role",
+      "value": "PAROC Intel Data Analysis Technician, Team Lead, 12 AF / DET 3",
+      "source_quote": "PAROC Intel Data Analysis Technician Team Lead 12 AF / DET 3",
+      "citation_offset": {
+        "offset": 220,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "disclosure_analyst_office",
+      "value": "Office of the Undersecretary of Defense for Intelligence and Security",
+      "source_quote": "Informa on Disclosure Analyst Office of the Undersecretary of Defense for Intelligence and Security",
+      "citation_offset": {
+        "offset": 1064,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_date",
+      "value": "10 April 2025",
+      "source_quote": "1.4(a) on 10APR25",
+      "citation_offset": {
+        "offset": 695,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_time",
+      "value": "2353Z",
+      "source_quote": "AT 2353Z",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "event_1_duration",
+      "value": "12 seconds",
+      "source_quote": "OBSERVED 1X POSS UAP FOR 12 SECONDS AT 2353Z",
+      "citation_offset": {
+        "offset": 742,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_observer",
+      "value": "US aircraft",
+      "source_quote": "US AIRCRAFT OBSERVED 1X POSS UAP",
+      "citation_offset": {
+        "offset": 730,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_altitude",
+      "value": "Unknown",
+      "source_quote": "FLYING AT UNK ALTITUDE AND UNK SPEED",
+      "citation_offset": {
+        "offset": 788,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_speed",
+      "value": "Unknown",
+      "source_quote": "FLYING AT UNK ALTITUDE AND UNK SPEED",
+      "citation_offset": {
+        "offset": 788,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_interference",
+      "value": "None noted",
+      "source_quote": "NO INTERFERENCE WAS NOTED",
+      "citation_offset": {
+        "offset": 826,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_date",
+      "value": "11 April 2025",
+      "source_quote": "1.4(a) on 11APR25",
+      "citation_offset": {
+        "offset": 870,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_time",
+      "value": "0007Z",
+      "source_quote": "AT 0007Z",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "event_2_duration",
+      "value": "23 seconds",
+      "source_quote": "OBSERVED 1X POSS UAP FOR 23 SECONDS AT 0007Z",
+      "citation_offset": {
+        "offset": 917,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_observer",
+      "value": "US aircraft",
+      "source_quote": "US AIRCRAFT OBSERVED 1X POSS UAP",
+      "citation_offset": {
+        "offset": 730,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_altitude",
+      "value": "Unknown",
+      "source_quote": "FLYING AT UNK ALTITUDE AND UNK SPEED",
+      "citation_offset": {
+        "offset": 788,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_speed",
+      "value": "Unknown",
+      "source_quote": "FLYING AT UNK ALTITUDE AND UNK SPEED",
+      "citation_offset": {
+        "offset": 788,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_interference",
+      "value": "None noted",
+      "source_quote": "NO INTERFERENCE WAS NOTED",
+      "citation_offset": {
+        "offset": 826,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_objects_per_event",
+      "value": "1 possible UAP each",
+      "source_quote": "1X POSS UAP",
+      "citation_offset": {
+        "offset": 751,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "tearline_classification",
+      "value": "UNCLASSIFIED",
+      "source_quote": "these tearlines are approved at the UNCLASSIFIED level",
+      "citation_offset": {
+        "offset": 639,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "INDOPACOM"
+  ],
+  "dated_events": [
+    "10APR25",
+    "11APR25"
+  ],
+  "objects_described": [
+    "1x possible UAP (event 1, 10 April 2025)",
+    "1x possible UAP (event 2, 11 April 2025)",
+    "US aircraft (observer platform, unspecified type)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A US aircraft observed one possible UAP for 12 seconds at 2353Z on 10 April 2025 at unknown altitude and speed with no interference.",
+      "source_quote": "US AIRCRAFT OBSERVED 1X POSS UAP FOR 12 SECONDS AT 2353Z, FLYING AT UNK ALTITUDE AND UNK SPEED, NO INTERFERENCE WAS NOTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 730,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A US aircraft observed one possible UAP for 23 seconds at 0007Z on 11 April 2025 at unknown altitude and speed with no interference.",
+      "source_quote": "US AIRCRAFT OBSERVED 1X POSS UAP FOR 23 SECONDS AT 0007Z, FLYING AT UNK ALTITUDE AND UNK SPEED, NO INTERFERENCE WAS NOTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 905,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The tearlines describing both events were confirmed as approved at the UNCLASSIFIED level.",
+      "source_quote": "these tearlines are approved at the UNCLASSIFIED level",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 639,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reporting unit confirmed the two tearlines and the INDOPACOM AOR designation are UNCLASSIFIED.",
+      "source_quote": "the two lines listed are on the UNCLASSIFIED level and that adding in the AOR as INDOPACOM is also at the UNCLASSIFIED level",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 86,
+        "len": 124,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The overall email correspondence was classified SECRET//NOFORN.",
+      "source_quote": "CLASSIFICATION: SECRET//NOFORN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 297,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:47:43.603Z",
+  "qa_completed_at": "2026-05-09T10:48:40.867Z",
+  "timing": {
+    "A": "37.2s",
+    "B": "20.1s",
+    "E": "23.3s"
+  },
+  "public_headline": "Military Emails Confirm Two Brief UAP Sightings in Indo-Pacific, April 2025",
+  "public_tldr": "This document is a chain of internal military emails confirming that short summaries of two possible UAP sightings by a US aircraft on 10 and 11 April 2025 in the Indo-Pacific region are approved for public release at the unclassified level. Both sightings lasted under 25 seconds, and no altitude, speed, or location details were provided.",
+  "public_narrative": "This record (designated DOW-UAP-D50) is a set of email exchanges between Department of War personnel working through the process of clearing two UAP sighting summaries for public release. An Information Disclosure Analyst from the Office of the Undersecretary of Defense for Intelligence and Security shared two short excerpts — called \"tearlines\" — from classified mission reports. A PAROC Intel Data Analysis Technician at 12th Air Force / Detachment 3 then confirmed, after checking with the reporting unit, that both tearlines and the identification of the area as INDOPACOM (the US Indo-Pacific Command area of responsibility) could be released at the unclassified level.\n\nThe two sightings themselves are described only briefly. On 10 April 2025 at 2353Z (just before midnight, Zulu time), a US aircraft observed one possible UAP for 12 seconds. The following day, 11 April 2025 at 0007Z, the same or another US aircraft observed one possible UAP for 23 seconds. In both cases, the object's altitude and speed were listed as unknown, and no interference with the aircraft was noted. The document uses the term \"POSS UAP\" — possible unidentified anomalous phenomena — meaning the observers themselves were not certain what they saw.\n\nThe document is heavily redacted. All personnel names are blacked out under privacy exemptions. The type of US aircraft involved is classified under national security provisions. The exact location within the Indo-Pacific region is never specified. The overall email chain was classified SECRET//NOFORN (secret, not releasable to foreign nationals), even though the specific sighting summaries within it were cleared as unclassified.\n\nThis is an administrative record about what information can be made public, not an analytical assessment of what the objects were. No conclusions are drawn about the nature of either sighting.",
+  "public_caveats": [
+    "This document is about the declassification process for two brief sighting summaries — it contains no analysis or conclusions about what the objects were.",
+    "Both sightings were extremely short (12 and 23 seconds), which severely limits how much data could have been collected.",
+    "The observers themselves used \"possible UAP,\" indicating they were not certain the objects were anomalous.",
+    "All identifying details — personnel names, aircraft type, and exact location — are redacted, making independent verification impossible.",
+    "Altitude and speed were listed as unknown for both objects, meaning no sensor measurements of these parameters were released."
+  ]
+}

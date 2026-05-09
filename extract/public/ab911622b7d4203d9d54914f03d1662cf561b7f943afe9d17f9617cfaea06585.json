@@ -1,0 +1,256 @@
+{
+  "sha256": "ab911622b7d4203d9d54914f03d1662cf561b7f943afe9d17f9617cfaea06585",
+  "title": "NASA-UAP-D1, Apollo 12 Transcript, 1969",
+  "agency": "NASA",
+  "type": "PDF",
+  "incident_date": "1969",
+  "incident_location": "Moon",
+  "what_is_it": "Excerpt from the Apollo 12 air-to-ground voice transcription between astronauts and Houston Mission Control, November 1969.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Bean himself offered a mundane explanation (water boiler droplets) for the light particles, though he noted some seemed to be 'escaping the Moon' rather than originating from the spacecraft.",
+    "The AGS display anomaly was explained by Houston as known electromagnetic interference, not an unknown phenomenon.",
+    "The floating 'bits and pieces' on Day 6 are consistent with spacecraft debris or insulation fragments, which are common in spaceflight.",
+    "The transcript is OCR-scanned with some character errors, so exact wording may contain minor artifacts.",
+    "The observations were made by crew members in an operational context, not a formal investigation of unidentified phenomena.",
+    "The CSV description from war.gov characterizes these as 'unidentified phenomenon' but the crew and Houston discussed prosaic explanations during the exchanges."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Mission",
+      "value": "Apollo 12",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Agency",
+      "value": "NASA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident date",
+      "value": "November 1969",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Description of particles",
+      "value": "Lights/particles appearing to come from behind and left, moving rapidly away from the Moon toward the stars",
+      "source_quote": "they're just sailing off in space... it looks like some of those things are escaping the Moon. They really haul out of here and just press off at the stars.",
+      "citation_offset": {
+        "offset": 2548,
+        "len": 100,
+        "exact": false,
+        "matched": "looks like some of those things are escaping the Moon. They really haul out of here and just press o"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Bean's initial hypothesis",
+      "value": "Possibly water droplets from the water boiler",
+      "source_quote": "I was thinking they're dropping from my water boiler",
+      "citation_offset": {
+        "offset": 2487,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AGS display anomaly",
+      "value": "Bean reported pulsing 81s flash on DEDA registers at one-fifth normal brilliance",
+      "source_quote": "I'm getting an all 81 s flash on both the address and the information registers at about one-fifth the brilliance of the normal numbers. And a - It's pulsing every second.",
+      "citation_offset": {
+        "offset": 3212,
+        "len": 90,
+        "exact": false,
+        "matched": "I'm getting an all 81 s flash on both the address and the information registers at about o"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Houston explanation of AGS anomaly",
+      "value": "Electromagnetic interference (EMI), previously seen during spacecraft testing at Bethpage",
+      "source_quote": "He and I have both seen that phenomena on your DEDA during testing of most all the spacecrafts up at Bethpage, and it's probably an EMI.",
+      "citation_offset": {
+        "offset": 3760,
+        "len": 60,
+        "exact": false,
+        "matched": "He and I have both seen that phenomena on your DEDA during t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Day 6 observation",
+      "value": "Conrad reported bits and pieces floating alongside spacecraft; tracking light appeared burned out",
+      "source_quote": "on the first nightside pass we had little bits and pieces floating along vith us and we could tell that the tracking light va.; flashing on them",
+      "citation_offset": {
+        "offset": 4749,
+        "len": 80,
+        "exact": false,
+        "matched": "oating along vith us and we could tell that the tracking light va.; flashing on "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Tracking light status dispute",
+      "value": "Houston telemetry showed tracking light was on; CMP Dick Gordon could not see it in the sextant",
+      "source_quote": "Our electrical watchers say that the current indicates that your tracking light is on.",
+      "citation_offset": {
+        "offset": 5489,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Lift-off time given",
+      "value": "142:03:47 mission elapsed time",
+      "source_quote": "Your lift-off time is 142:03:47",
+      "citation_offset": {
+        "offset": 1244,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Pete",
+    "Dick",
+    "Al",
+    "Jerry",
+    "Fredo"
+  ],
+  "named_places": [
+    "Moon",
+    "Bethpage",
+    "Houston"
+  ],
+  "dated_events": [
+    "Day 05 Hour 19 through Day 05 Hour 20 (light particle observations)",
+    "Day 06 Hour 00 (floating debris and tracking light issue)"
+  ],
+  "objects_described": [
+    "Alignment Optical Telescope (AOT)",
+    "DEDA (Data Entry and Display Assembly / AGS display)",
+    "Sextant",
+    "Tracking light",
+    "Unidentified particles/flashes of light",
+    "Floating bits and pieces near spacecraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Alan Bean observed particles and flashes of light through the AOT in the dark quadrant that appeared to move away from the Moon at high speed",
+      "source_quote": "You can see these lights - particles of light. flash~s of light just seem to come from... they're just sailing off in space... escaping the Moon. They really haul out of here",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2294,
+        "len": 40,
+        "exact": false,
+        "matched": "light. flash~s of light just seem to com"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Bean initially suspected the particles were water droplets from the water boiler system",
+      "source_quote": "I was thinking they're dropping from my water boiler",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2487,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The AGS display anomaly (pulsing 81s) was attributed by Houston to electromagnetic interference previously observed during ground testing at Bethpage",
+      "source_quote": "it's probably an EMI",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3880,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Pete Conrad reported small debris floating alongside the spacecraft during a nightside pass, illuminated by the tracking light's flashing",
+      "source_quote": "we had little bits and pieces floating along vith us and we could tell that the tracking light va.; flashing on them",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4747,
+        "len": 85,
+        "exact": false,
+        "matched": "floating along vith us and we could tell that the tracking light va.; flashing on the"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Conrad believed the tracking light had burned out because the floating debris was no longer being illuminated",
+      "source_quote": "nothing's flashing on them, so I'm pretty sure it burned out",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4971,
+        "len": 40,
+        "exact": false,
+        "matched": "n them, so I'm pretty sure it burned out"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Houston telemetry contradicted Conrad, indicating the tracking light was still drawing current and therefore on",
+      "source_quote": "Our electrical watchers say that the current indicates that your tracking light is on",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5489,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "CMP Dick Gordon could not locate the Lunar Module in his sextant and confirmed the tracking light was not visible to him",
+      "source_quote": "You're flying through the air backwards, then, Pete, because I don't see it",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 5739,
+        "len": 35,
+        "exact": false,
+        "matched": " then, Pete, because I don't see it"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 4,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:41:08.131Z",
+  "qa_completed_at": "2026-05-09T11:42:24.692Z",
+  "timing": {
+    "A": "40.5s",
+    "B": "36.1s",
+    "E": "26.1s"
+  },
+  "public_headline": "Apollo 12 Crew Reported Unexplained Lights and Debris Near the Moon",
+  "public_tldr": "This document is an excerpt from the Apollo 12 air-to-ground voice transcript from November 1969, in which astronauts reported seeing fast-moving particles of light near the Moon and small debris floating alongside their spacecraft. Houston Mission Control offered prosaic explanations for most observations, including water droplets and electromagnetic interference, though some details — like particles that appeared to be 'escaping the Moon' — were not fully resolved in the transcript.",
+  "public_narrative": "This document is a portion of the official voice transcript between the Apollo 12 crew and Houston Mission Control, recorded during the mission in November 1969. It captures several exchanges in which crew members describe unusual observations while orbiting the Moon.\n\nDuring Day 5 of the mission, astronaut Alan Bean reported seeing flashes and particles of light through the Alignment Optical Telescope (AOT) in the dark portion of his view. He described them as appearing to come from behind and to the left, moving rapidly away from the Moon toward the stars. Bean noted that some of the particles looked like they were 'escaping the Moon,' though he initially suspected they might be water droplets from the spacecraft's water boiler system.\n\nSeparately, Bean reported a display anomaly on the DEDA (Data Entry and Display Assembly), a readout for the spacecraft's guidance system. The display was pulsing with repeated '81s' at roughly one-fifth normal brightness. Houston attributed this to electromagnetic interference, a phenomenon they said had been observed during ground testing of spacecraft at Bethpage.\n\nOn Day 6, Commander Pete Conrad reported small bits and pieces of debris floating alongside the spacecraft during a nightside pass. He believed the spacecraft's tracking light had burned out because it was no longer illuminating the debris. However, Houston's telemetry data showed the tracking light was still drawing current and should have been on. Command Module Pilot Dick Gordon, orbiting separately, confirmed he could not see the tracking light through his sextant either, leaving the discrepancy unresolved in the transcript.\n\nThe transcript does not contain a formal investigation or conclusion about these observations. The crew and Mission Control discussed ordinary explanations during the exchanges, and no follow-up assessment appears in this excerpt.",
+  "public_caveats": [
+    "The crew themselves offered mundane explanations for most observations — Bean suggested water boiler droplets for the light particles, and Houston attributed the display anomaly to known electromagnetic interference.",
+    "The transcript is OCR-scanned, meaning some exact wording may contain minor character errors from the scanning process.",
+    "These were operational observations made in real time, not part of a formal investigation into unidentified phenomena. No follow-up analysis appears in this excerpt.",
+    "The document shows low evidence of redaction — what you see is largely the full exchange as transcribed.",
+    "The floating debris on Day 6 is consistent with common spacecraft phenomena such as insulation fragments or other loose material, which are routine in spaceflight."
+  ]
+}

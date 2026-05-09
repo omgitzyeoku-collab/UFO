@@ -1,0 +1,756 @@
+{
+  "sha256": "bd5478d2e420f6ff46fb06014e39027e1caa415f55efdc9bd70a849ff6990356",
+  "title": "DOW-UAP-D25, Mission Report, Greece, January 2024",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "1/25/24",
+  "incident_location": "Mediterranean Sea",
+  "what_is_it": "A declassified U.S. military Mission Report (MISREP) documenting a UAP sighting by a U.S. Air Force ISR aircraft operating out of Cyprus (LGLR) on 25 January 2024.",
+  "core_summary": "A U.S. Air Force special operations ISR aircraft observed a single UAP while in transit over the eastern Mediterranean at 0509Z on 25 January 2024. The UAP was described as diamond-shaped with a non-maneuvering probe at its bottom, traveling at approximately 434 knots, and was only visible on the aircraft's Short-Wave Infrared (SWIR) camera. The encounter lasted approximately two minutes and ended without further incident.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redactions throughout: aircraft type, callsign, tail number, exact coordinates, operation name, and observer identity are all redacted under (b)(1)1.4a and (b)(6) exemptions",
+    "Single-source observation: only one aircraft crew reported the sighting with no third-party corroboration",
+    "All speed, altitude, position, and trajectory values are explicitly marked as 'Estimated' rather than measured",
+    "The UAP was only visible on a single sensor type (SWIR), meaning no multi-sensor confirmation exists",
+    "The observer's rank was Senior Airman (E-4), a relatively junior enlisted grade",
+    "The 434-knot speed estimate over a 2-minute window without radar tracking should be treated as approximate",
+    "The document was declassified 25 years ahead of its original schedule, suggesting it was released as part of a bulk disclosure program rather than individual review",
+    "MGRS grid coordinates are partially redacted, preventing independent geolocation of the sighting"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "Mission Report (MISREP)",
+      "source_quote": "Report Type: MISREP",
+      "citation_offset": {
+        "offset": 1475,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MISREP ID",
+      "value": "undefined-9629373",
+      "source_quote": "Misrep undefined-9629373",
+      "citation_offset": {
+        "offset": 122,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP event serial number",
+      "value": "250509ZJAN2024-CENTCOM 001",
+      "source_quote": "UAP Event Serial Number: 250509ZJAN2024-CENTCOM 001",
+      "citation_offset": {
+        "offset": 7501,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Classification",
+      "value": "SECRET//REL TO USA, FVEY",
+      "source_quote": "Classification: SECRET",
+      "citation_offset": {
+        "offset": 885,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassified by",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 25,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassification date",
+      "value": "24 October 2025",
+      "source_quote": "Declassified on: 24 October 2025",
+      "citation_offset": {
+        "offset": 89,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Originating unit",
+      "value": "33rd Special Operations Squadron (33 SOS)",
+      "source_quote": "Originator (Unit or Squadron): 33 SOS",
+      "citation_offset": {
+        "offset": 1497,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Major Command",
+      "value": "Air Force Special Operations Command (AFSOC)",
+      "source_quote": "Major Command (MAJCOM): AFSOC",
+      "citation_offset": {
+        "offset": 1129,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Combatant Command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 1161,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operations Center",
+      "value": "603rd Air Operations Center",
+      "source_quote": "Operations Center: 603rd",
+      "citation_offset": {
+        "offset": 1102,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission type",
+      "value": "ISR (Intelligence, Surveillance, Reconnaissance)",
+      "source_quote": "Mission Type: ISR",
+      "citation_offset": {
+        "offset": 1601,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Tasking Order",
+      "value": "ATO 24-024, Mission Number 4055",
+      "source_quote": "Tasking Order (ATO): 24-024",
+      "citation_offset": {
+        "offset": 1571,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Takeoff time",
+      "value": "0109Z on 25 January 2024",
+      "source_quote": "Takeoff Time DTG: 250109:00ZJAN24",
+      "citation_offset": {
+        "offset": 4169,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Landing time",
+      "value": "2149Z on 25 January 2024",
+      "source_quote": "Last Land Time: 252149:00ZJAN24",
+      "citation_offset": {
+        "offset": 4329,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Total mission time",
+      "value": "20 hours 40 minutes",
+      "source_quote": "Total Mission Time: 20 hours 40 minutes",
+      "citation_offset": {
+        "offset": 4408,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP initial contact time",
+      "value": "0509Z on 25 January 2024",
+      "source_quote": "Initial Contact DTG: 250509:00ZJAN24",
+      "citation_offset": {
+        "offset": 6533,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP event duration",
+      "value": "Approximately 2 minutes (0509Z–0511Z)",
+      "source_quote": "THE EVENT LASTED APPROX 2 MINUTES ENDING AT 0511Z",
+      "citation_offset": {
+        "offset": 9531,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of UAP sighted",
+      "value": "1",
+      "source_quote": "OBSERVED 1X UAP WHILE IN TRANSIT",
+      "citation_offset": {
+        "offset": 9300,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP shape",
+      "value": "Round diamond shape with straight, non-maneuverable tail / non-maneuvering probe at bottom",
+      "source_quote": "ROUND DIAMOND SHAPE WITH STRAIGHT, NON MANUEVERABLE \"TAIL\"",
+      "citation_offset": {
+        "offset": 9158,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP estimated speed",
+      "value": "Approximately 434 knots",
+      "source_quote": "THE UAP WAS FLYING AT A SPEED OF APPROX 434 KNOTS",
+      "citation_offset": {
+        "offset": 9360,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP detection sensor",
+      "value": "Short-Wave Infrared (SWIR) camera only",
+      "source_quote": "THE UAP ONLY APPEARED ON THE SWIR CAMERA",
+      "citation_offset": {
+        "offset": 9489,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP signature",
+      "value": "SWIR WHT (white hot on SWIR)",
+      "source_quote": "UAP Signatures: SWIR WHT",
+      "citation_offset": {
+        "offset": 7355,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP physical state",
+      "value": "Solid",
+      "source_quote": "UAP Physical State: Solid",
+      "citation_offset": {
+        "offset": 7195,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude",
+      "value": "FL200 (approximately 20,000 feet)",
+      "source_quote": "Kinetic Altitude: FL200",
+      "citation_offset": {
+        "offset": 8399,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP trajectory",
+      "value": "Westbound",
+      "source_quote": "Kinetic Trajectory: W",
+      "citation_offset": {
+        "offset": 8580,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP propulsion",
+      "value": "Unknown",
+      "source_quote": "UAP Propulsion Means: UNK",
+      "citation_offset": {
+        "offset": 7248,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP intelligent control",
+      "value": "Unknown",
+      "source_quote": "UAP Under Intelligent Control (yes/no; if yes, describe): UNK",
+      "citation_offset": {
+        "offset": 7291,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP maneuverability",
+      "value": "None observed; maintained steady flight path with altitude changes",
+      "source_quote": "MAINTAINED STEADY FLIGHT PATH, INCREASED AND DECREASED ALTITUDE PROFILE, DID NOT CHANGE TRAJECTORY",
+      "citation_offset": {
+        "offset": 8781,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP response to observer",
+      "value": "None",
+      "source_quote": "UAP Response to Observer Actions: NONE",
+      "citation_offset": {
+        "offset": 6644,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer assessment",
+      "value": "Benign",
+      "source_quote": "Observer Assessment of UAP: Benign",
+      "citation_offset": {
+        "offset": 6906,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Friendly aircraft altitude",
+      "value": "FL250 (25,000 feet)",
+      "source_quote": "Friendly Aircraft Altitude/Depth: FL250",
+      "citation_offset": {
+        "offset": 6828,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Friendly aircraft speed",
+      "value": "176 knots",
+      "source_quote": "Friendly Aircraft Speed: 176 KTS",
+      "citation_offset": {
+        "offset": 6943,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Friendly aircraft trajectory",
+      "value": "162 degrees",
+      "source_quote": "Friendly Aircraft Trajectory: 162",
+      "citation_offset": {
+        "offset": 6870,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer rank",
+      "value": "Senior Airman / E-4",
+      "source_quote": "Rank/Grade: SENIOR AIRMAN/E-4",
+      "citation_offset": {
+        "offset": 8003,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "IFF interrogation of UAP",
+      "value": "No",
+      "source_quote": "Observation Interrogation of UAP (yes/no; if yes list sensor(s) and returns):: NO",
+      "citation_offset": {
+        "offset": 6978,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Third-party observers",
+      "value": "None",
+      "source_quote": "Third-party Observers and/or Reporters: NONE",
+      "citation_offset": {
+        "offset": 7062,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Effects on equipment",
+      "value": "None",
+      "source_quote": "UAP Effects on Equipment: NONE",
+      "citation_offset": {
+        "offset": 7648,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Effects on persons",
+      "value": "No",
+      "source_quote": "UAP Effects on Persons: NO",
+      "citation_offset": {
+        "offset": 7555,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Materials recovered",
+      "value": "No",
+      "source_quote": "UAP Objects/Material Recovered (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 7584,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Engagement of UAP",
+      "value": "None",
+      "source_quote": "Observer Engagement of UAP (yes/no; if yes, describe): NONE",
+      "citation_offset": {
+        "offset": 8127,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Targeting pod",
+      "value": "AN/DAS-4",
+      "source_quote": "TGT Pod Name or Designator: AN/DAS-4",
+      "citation_offset": {
+        "offset": 3861,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Additional avionics",
+      "value": "AH/GMESH/SANTA FE",
+      "source_quote": "Additional Avionics: AH/GMESH/SANTA FE",
+      "citation_offset": {
+        "offset": 3900,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Data link",
+      "value": "LINK 16",
+      "source_quote": "Data Link: LINK 16",
+      "citation_offset": {
+        "offset": 3941,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POC unit",
+      "value": "56 SOIS, 27 SOW",
+      "source_quote": "Unit: 56 SOIS",
+      "citation_offset": {
+        "offset": 1790,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FMV hours",
+      "value": "8 hours 29 minutes",
+      "source_quote": "08:29 FMV HOURS",
+      "citation_offset": {
+        "offset": 721,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "SIGINT hours",
+      "value": "8 hours 27 minutes",
+      "source_quote": "08:27 SIGINT HOURS",
+      "citation_offset": {
+        "offset": 766,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "First seen radius",
+      "value": "20 (estimated)",
+      "source_quote": "First Seen Radius: 20",
+      "citation_offset": {
+        "offset": 8238,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Last seen radius",
+      "value": "20 (estimated)",
+      "source_quote": "Last Seen Radius: 20",
+      "citation_offset": {
+        "offset": 8337,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ISR ground observation",
+      "value": "Observed transfer of large white box from black SUV to white van at 1400Z",
+      "source_quote": "OBSERVED A LARGE WHITE BOX BEING TRANSFERRED FROM BLACK SUV TO WHITE VAN",
+      "citation_offset": {
+        "offset": 5864,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Weather",
+      "value": "Clear",
+      "source_quote": "CLEAR WX",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Mission effectiveness",
+      "value": "Satisfactory; intel gap filled",
+      "source_quote": "Intel Gap Filled?: Yes",
+      "citation_offset": {
+        "offset": 6450,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "MG Richard A. Harrison"
+  ],
+  "named_places": [],
+  "dated_events": [
+    "250109:00ZJAN24 — takeoff from LGLR",
+    "250509:00ZJAN24 — UAP observed",
+    "250511Z JAN24 — UAP event ended",
+    "250635:00ZJAN24 — arrived on station",
+    "251400Z JAN24 — observed box transfer from SUV to van",
+    "251504:00ZJAN24 — returned to base",
+    "252149:00ZJAN24 — landed at LGLR",
+    "24 October 2025 — declassification date",
+    "20490125 — original declassification date before early release"
+  ],
+  "objects_described": [
+    "1x UAP: diamond-shaped solid object with non-maneuvering probe/tail, ~434 knots, FL200, westbound, visible only on SWIR camera",
+    "AN/DAS-4 targeting pod",
+    "SWIR (Short-Wave Infrared) sensor",
+    "LINK 16 data link",
+    "AH/GMESH/SANTA FE avionics suite"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The UAP was traveling at approximately 434 knots while the observing aircraft was at 176 knots — a speed differential of ~258 knots",
+      "source_quote": "THE UAP WAS FLYING AT A SPEED OF APPROX 434 KNOTS... Friendly Aircraft Speed: 176 KTS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9360,
+        "len": 50,
+        "exact": false,
+        "matched": "THE UAP WAS FLYING AT A SPEED OF APPROX 434 KNOTS."
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The UAP was only detectable on the SWIR camera and not visible on other sensors or to the naked eye",
+      "source_quote": "THE UAP ONLY APPEARED ON THE SWIR CAMERA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 9489,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP maintained a steady flight path heading west and did not change trajectory, though it varied in altitude",
+      "source_quote": "MAINTAINED STEADY FLIGHT PATH, INCREASED AND DECREASED ALTITUDE PROFILE, DID NOT CHANGE TRAJECTORY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8781,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observing aircraft was at FL250 (25,000 ft) while the UAP was at FL200 (20,000 ft) — approximately 5,000 feet below the observer",
+      "source_quote": "Friendly Aircraft Altitude/Depth: FL250... Kinetic Altitude: FL200",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6828,
+        "len": 36,
+        "exact": false,
+        "matched": "Friendly Aircraft Altitude/Depth: FL"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The encounter lasted approximately 2 minutes, from 0509Z to 0511Z",
+      "source_quote": "THE EVENT LASTED APPROX 2 MINUTES ENDING AT 0511Z",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9531,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observer assessed the UAP as benign",
+      "source_quote": "Observer Assessment of UAP: Benign",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6906,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No IFF interrogation was performed on the UAP",
+      "source_quote": "Observation Interrogation of UAP (yes/no; if yes list sensor(s) and returns):: NO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6978,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was operating under AFSOC (Air Force Special Operations Command) and USCENTCOM",
+      "source_quote": "Major Command (MAJCOM): AFSOC... Combatant Command (COCOM): USCENTCOM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1163,
+        "len": 34,
+        "exact": false,
+        "matched": "mbatant Command (COCOM): USCENTCOM"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The mission originated from and returned to LGLR with a total duration of 20 hours 40 minutes",
+      "source_quote": "Total Mission Time: 20 hours 40 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4408,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was originally classified until 2049 but was declassified early on 24 October 2025",
+      "source_quote": "Declassification Date (YYYYMMDD): 20490125... Declassified on: 24 October 2025",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1009,
+        "len": 38,
+        "exact": false,
+        "matched": "Declassification Date (YYYYMMDD): 2049"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The UAP propulsion means and whether it was under intelligent control were both unknown to the observer",
+      "source_quote": "UAP Propulsion Means: UNK... UAP Under Intelligent Control (yes/no; if yes, describe): UNK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7292,
+        "len": 60,
+        "exact": false,
+        "matched": "AP Under Intelligent Control (yes/no; if yes, describe): UNK"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 5,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:19:35.201Z",
+  "qa_completed_at": "2026-05-09T10:21:38.806Z",
+  "timing": {
+    "A": "59.5s",
+    "B": "64.1s",
+    "E": "28.3s"
+  },
+  "public_headline": "U.S. Air Force Crew Spotted Diamond-Shaped Object Over the Mediterranean in 2024",
+  "public_tldr": "A formerly secret U.S. military mission report describes a single diamond-shaped unidentified object observed by a special operations surveillance aircraft over the eastern Mediterranean on 25 January 2024. The object was only visible on an infrared camera, traveled at an estimated 434 knots, and the roughly two-minute encounter ended without incident.",
+  "public_narrative": "This document is a U.S. military Mission Report originally classified SECRET and shared with Five Eyes allies. It was declassified on 24 October 2025 by Major General Richard A. Harrison, chief of staff at U.S. Central Command — notably 25 years ahead of its original 2049 declassification date, suggesting it was released as part of a broader disclosure effort rather than an individual review.\n\nOn 25 January 2024, an intelligence, surveillance, and reconnaissance (ISR) aircraft from the 33rd Special Operations Squadron took off from a base in Cyprus at 0109Z on a mission lasting over 20 hours. At 0509Z, while in transit over the eastern Mediterranean at 25,000 feet, a crew member — a Senior Airman, a relatively junior enlisted rank — spotted a single unidentified object roughly 5,000 feet below the aircraft. The object was described as a solid, round diamond shape with a straight, non-maneuvering probe or tail at its bottom. It was heading west at an estimated 434 knots, more than twice the observing aircraft's speed of 176 knots. The object held a steady flight path and did not change direction, though it varied slightly in altitude.\n\nCritically, the object appeared only on the aircraft's Short-Wave Infrared (SWIR) camera, showing as a white-hot signature. No other sensor detected it, no IFF (identification friend-or-foe) interrogation was attempted, and no other aircraft or ground station independently observed it. The encounter lasted approximately two minutes, ending at 0511Z. The crew assessed the object as benign. It had no effect on the aircraft's equipment or personnel, and no materials were recovered.\n\nThe report is heavily redacted. The aircraft type, callsign, tail number, exact coordinates, operation name, and the observer's identity are all blacked out under national security and privacy exemptions. All speed, altitude, and position figures for the object are explicitly marked as estimates rather than instrument measurements. The report does not offer any conclusion about what the object was — its propulsion and whether it was under intelligent control are both listed as unknown.",
+  "public_caveats": [
+    "This is a single-source report: one crew member on one aircraft observed the object, with no independent corroboration from other aircraft, radar stations, or ground observers.",
+    "The object was detected on only one sensor type (SWIR infrared camera), so there is no multi-sensor confirmation of its presence or characteristics.",
+    "All values for the object's speed, altitude, and position are explicitly labeled as estimates, not instrument-derived measurements. The 434-knot speed figure over a two-minute window without radar tracking is approximate at best.",
+    "The document is heavily redacted — aircraft type, exact location coordinates, crew identity, and operation name are all withheld — making independent verification of the encounter impossible.",
+    "The observer was a Senior Airman (E-4), a relatively junior enlisted grade, and the report itself draws no conclusions about what the object was."
+  ]
+}

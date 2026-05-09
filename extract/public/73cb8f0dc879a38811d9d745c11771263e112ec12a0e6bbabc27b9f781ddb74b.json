@@ -1,0 +1,244 @@
+{
+  "sha256": "73cb8f0dc879a38811d9d745c11771263e112ec12a0e6bbabc27b9f781ddb74b",
+  "title": "NASA-UAP-D3, Gemini 7 Transcript, 1965",
+  "agency": "NASA",
+  "type": "PDF",
+  "incident_date": "12/5/65",
+  "incident_location": "Low Earth Orbit",
+  "what_is_it": "Transcript of air-to-ground communications between the Gemini 7 spacecraft crew and Houston Mission Control, with accompanying handwritten notes annotated 'UFO Sighting by Borman.'",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Pages 2-4 contain handwritten notes that are largely illegible in the OCR extraction, so significant content from those pages may be missing.",
+    "The 'bogey' was never definitively identified in this transcript — Houston did not provide a resolution or explanation.",
+    "Borman's distance estimate of three to four miles for the particle field is a visual estimate from orbit, not an instrumented measurement.",
+    "The PAO commentary frames the bogey as 'unidentified' but does not rule out mundane explanations such as mission-related debris.",
+    "Lovell's description of 'trillions of particles' on the booster may refer to ice crystals or outgassing debris, a known phenomenon in early spaceflight."
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "Mission",
+      "value": "Gemini 7 (GT-7/6)",
+      "source_quote": "P.A.O. RELEASE COMMENTARY OF THE GT-7/6 FLIGHT",
+      "citation_offset": {
+        "offset": 40,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Tape reference",
+      "value": "T-00763(R1b)",
+      "source_quote": "TAPE No. T-00763(Rlb)",
+      "citation_offset": {
+        "offset": 15,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Bogey position",
+      "value": "Ten o'clock high",
+      "source_quote": "A BOGEY AT TEN O'CLOCK HIGH",
+      "citation_offset": {
+        "offset": 482,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Debris description",
+      "value": "Hundreds of small particles, three to four miles away",
+      "source_quote": "VERY, VERY MANY A - IT LOOKS LIKE HUNDREDS OF LITTLE PARTICLES GOING BY TO THE LEFT OUT ABOUT THREE OR FOUR MILES",
+      "citation_offset": {
+        "offset": 985,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Debris trajectory",
+      "value": "Moving into polar orbit",
+      "source_quote": "THEY'VE PASSED NOW. THEY'RE GOING INTO POLAR ORBIT",
+      "citation_offset": {
+        "offset": 1380,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Booster visible separately",
+      "value": "Borman confirmed booster was also in sight, distinct from bogey and particles",
+      "source_quote": "WE ALSO HAVE THE BOOSTER IN SIGHT",
+      "citation_offset": {
+        "offset": 867,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Lovell's booster description",
+      "value": "Brilliant body in the sun against a black background with trillions of particles",
+      "source_quote": "ITS A BRILLIANT BODY IN THE SUN AGAINST A BIACK BACKGROUND WITH TRILLIONS OF PARTICLES ON IT",
+      "citation_offset": {
+        "offset": 1701,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Booster position from Lovell",
+      "value": "Two o'clock, ahead, slowly tumbling",
+      "source_quote": "ITS ABOUT AT MY TWO O'CLOCK POSITION... ITS AHEAD OF US AT TWO O'CLOCK, SLOWLY TUMBLING",
+      "citation_offset": {
+        "offset": 1945,
+        "len": 47,
+        "exact": false,
+        "matched": "ITS AHEAD OF US AT TWO O'CLOCK, SLOWLY TUMBLING"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Three distinct objects confirmed",
+      "value": "Houston confirmed bogey, booster, and particles were separate observations",
+      "source_quote": "WERE THESE PARTICLES IN ADDITION T THE BOOSTER AND THE BOGEY AT TEN O'CLOCK HIGH?",
+      "citation_offset": {
+        "offset": 1569,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Time into flight",
+      "value": "4 hours 24 minutes",
+      "source_quote": "AT 4 Hrs 24 MIN into THE FLIGHT",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Borman",
+    "Lovell"
+  ],
+  "named_places": [
+    "Houston"
+  ],
+  "dated_events": [
+    "4 Hrs 24 MIN into THE FLIGHT"
+  ],
+  "objects_described": [
+    "Bogey at ten o'clock high (unidentified object)",
+    "Gemini 7 booster (identified, slowly tumbling)",
+    "Debris field of hundreds/trillions of small particles"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Borman reported an unidentified 'bogey' at ten o'clock high, distinct from the mission's own booster.",
+      "source_quote": "I SAID WE HAVE A BOGEY AT TEN O'CLOCK HIGH",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 566,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Borman explicitly stated the sighting was not natural, calling it an 'actual sighting.'",
+      "source_quote": "WE HAVE DEBRIS UP HERE - THIS IS AN ACTUAL SIGHTING",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 734,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Hundreds of small particles were observed moving past the spacecraft at an estimated distance of three to four miles.",
+      "source_quote": "IT LOOKS LIKE HUNDREDS OF LITTLE PARTICLES GOING BY TO THE LEFT OUT ABOUT THREE OR FOUR MILES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1005,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The debris particles appeared to be entering a polar orbit.",
+      "source_quote": "THEY'VE PASSED NOW. THEY'RE GOING INTO POLAR ORBIT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1380,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Lovell described the booster as a brilliant body in sunlight with trillions of particles on it, at his two o'clock position, slowly tumbling.",
+      "source_quote": "ITS A BRILLIANT BODY IN THE SUN AGAINST A BIACK BACKGROUND WITH TRILLIONS OF PARTICLES ON IT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1701,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Houston PAO acknowledged three distinct objects were discussed: the bogey, the booster, and the particle field.",
+      "source_quote": "THE THIRD AND UNIDENTIFIED OBJECT OF COURSE WAS OR THE THIRD OBJECT WAS A BOGEY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2141,
+        "len": 74,
+        "exact": false,
+        "matched": "THE THIRD AND UNIDENTIFIED OBJECT OF COURSE WAS OR THE THIRD OBJECT WAS A "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The sighting occurred 4 hours and 24 minutes into the Gemini 7 flight.",
+      "source_quote": "AT 4 Hrs 24 MIN into THE FLIGHT",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T09:29:56.490Z",
+  "qa_completed_at": "2026-05-09T09:31:01.667Z",
+  "timing": {
+    "A": "35.3s",
+    "B": "29.9s",
+    "E": "24.8s"
+  },
+  "public_headline": "Gemini 7 Crew Reported Unidentified Object and Debris Field in Orbit, 1965",
+  "public_tldr": "This 1965 NASA transcript records Gemini 7 astronauts Frank Borman and Jim Lovell reporting an unidentified \"bogey\" and a large field of small particles while in low Earth orbit, distinct from their own mission's booster. Houston Mission Control acknowledged the sighting but never provided an explanation in the transcript.",
+  "public_narrative": "This document is a transcript of air-to-ground radio communications between the Gemini 7 spacecraft crew — astronauts Borman and Lovell — and Houston Mission Control, recorded during the GT-7/6 mission on 5 December 1965. Accompanying the transcript are handwritten notes annotated \"UFO Sighting by Borman.\"\n\nAbout four hours and 24 minutes into the flight, Borman reported a \"bogey at ten o'clock high\" — an unidentified object spotted from the spacecraft. He stated plainly: \"We have debris up here — this is an actual sighting.\" The crew also had their own mission booster in view, and Borman confirmed the bogey was a separate object. In addition, Borman described hundreds of small particles passing the spacecraft to the left at an estimated distance of three to four miles, appearing to move into a polar orbit.\n\nLovell separately described the booster as \"a brilliant body in the sun against a black background with trillions of particles on it,\" positioned at his two o'clock and slowly tumbling. Houston's Public Affairs Office commentary confirmed three distinct objects were discussed during the exchange: the booster, the particle field, and the unidentified bogey.\n\nNotably, the transcript contains no resolution. Houston did not identify the bogey or offer an explanation for it. The Public Affairs commentary described the third object as \"unidentified\" but did not rule out ordinary causes such as mission-related debris.",
+  "public_caveats": [
+    "The \"bogey\" was never identified or explained in this transcript — Houston provided no conclusion, and the document alone cannot tell us what it was.",
+    "Borman's distance estimate of three to four miles for the particle field was a visual guess from orbit, not an instrument reading.",
+    "Pages 2 through 4 of the document contain handwritten notes that are largely illegible, so significant content from those pages may be missing from the extracted text.",
+    "Lovell's description of \"trillions of particles\" on the booster may refer to ice crystals or outgassing debris, a well-known phenomenon in early spaceflight missions.",
+    "This is a single-source document — one crew's real-time radio report with no independent corroboration or follow-up investigation included."
+  ]
+}

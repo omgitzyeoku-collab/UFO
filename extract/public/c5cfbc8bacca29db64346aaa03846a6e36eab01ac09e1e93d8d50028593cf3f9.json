@@ -1,0 +1,342 @@
+{
+  "sha256": "c5cfbc8bacca29db64346aaa03846a6e36eab01ac09e1e93d8d50028593cf3f9",
+  "title": "DOW-UAP-D44, Range Fouler Reporting Form, Gulf of Aden, October 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "10/15/20",
+  "incident_location": "Arabian Sea",
+  "what_is_it": "A U.S. Navy Range Fouler Reporting Form documenting an unauthorized intrusion into controlled airspace by an unidentified object during military operations.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redactions throughout: observer name, email, coordinates (latitude/longitude), side number, bureau number, and contact information are all redacted under (b)(6) exemptions.",
+    "Single-source observation from one crew member; no corroborating sensor data or independent witnesses are referenced in this form.",
+    "The object's 'cold' IR signature (bright white on black-hot) and low speed (20 mph) could be consistent with a balloon or slow-moving conventional object, though the reported abrupt directional changes would be unusual for such objects.",
+    "The CSV description explicitly warns that all descriptive and estimative language reflects the reporter's subjective interpretation at the time of the event.",
+    "OCR quality of the source PDF is poor, introducing possible transcription errors in numerical values.",
+    "The Direction/Speed field value '261130' may represent 261 degrees at 130 knots or a different encoding — its meaning is ambiguous in context."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date of incident",
+      "value": "October 15, 2020",
+      "source_quote": "Contact at 14:18:392 to 14:19:522 on 15OCT2020",
+      "citation_offset": {
+        "offset": 2186,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Time of detection",
+      "value": "14:18:39Z",
+      "source_quote": "14:18:39",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Time of day",
+      "value": "Day",
+      "source_quote": "Day",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Duration",
+      "value": "Approximately 1 minute (14:18:39Z to 14:19:52Z)",
+      "source_quote": "Contact at 14:18:392 to 14:19:522 on 15OCT2020",
+      "citation_offset": {
+        "offset": 2186,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer rank",
+      "value": "O-2 (Lieutenant, junior grade or First Lieutenant)",
+      "source_quote": "0-2",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Squadron",
+      "value": "1172 ATKS",
+      "source_quote": "1172 ATKS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Crew position",
+      "value": "Other",
+      "source_quote": "Other",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Mission type",
+      "value": "ISR (Intelligence, Surveillance, Reconnaissance)",
+      "source_quote": "ISR",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Observer altitude",
+      "value": "19,073 feet HAT (Height Above Terrain)",
+      "source_quote": "While at 19,073 HAT over the Gulf of Aden",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "Gulf of Aden",
+      "source_quote": "over the Gulf of Aden",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Object shape",
+      "value": "Round",
+      "source_quote": "we tracked a round, cold object in IR",
+      "citation_offset": {
+        "offset": 2331,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object thermal signature",
+      "value": "Cold (appeared bright white on black-hot IR setting)",
+      "source_quote": "cold object in IR... The IR sensor was set to black hot and the object in question was a bright white",
+      "citation_offset": {
+        "offset": 2621,
+        "len": 40,
+        "exact": false,
+        "matched": "the object in question was a bright whit"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object speed",
+      "value": "Approximately 20 mph",
+      "source_quote": "traveling 319 degrees at 20 mph",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Object behavior",
+      "value": "Abrupt directional changes",
+      "source_quote": "It made a few abrupt directional changes during the 1 minute contact",
+      "citation_offset": {
+        "offset": 2419,
+        "len": 53,
+        "exact": false,
+        "matched": "brupt directional changes during the 1 minute contact"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of contacts",
+      "value": "1",
+      "source_quote": "# of Contacts in \"Group\": 1",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sensor angle",
+      "value": "Approximately 50 degrees below aircraft altitude",
+      "source_quote": "Our sensor was aimed -50 degrees below our altitude",
+      "citation_offset": {
+        "offset": 2474,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Slant range",
+      "value": "4.06 nautical miles",
+      "source_quote": "a slant range of 4.06NM",
+      "citation_offset": {
+        "offset": 2531,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Ground range",
+      "value": "4.78 km",
+      "source_quote": "ground range of 4.78KM",
+      "citation_offset": {
+        "offset": 2559,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "IR sensor mode",
+      "value": "Black hot",
+      "source_quote": "The IR sensor was set to black hot",
+      "citation_offset": {
+        "offset": 2583,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Contact moving",
+      "value": "Yes",
+      "source_quote": "Was the contact moving? Yes",
+      "citation_offset": {
+        "offset": 1281,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Shape checkbox marked",
+      "value": "Round",
+      "source_quote": "Round: [checked]",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "MGRS grid reference",
+      "value": "400 8D 61 (estimated)",
+      "source_quote": "MGRS location 400 8D 61 (estimated",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Gulf of Aden"
+  ],
+  "dated_events": [
+    "15OCT2020",
+    "10/15/20",
+    "03/27/26"
+  ],
+  "objects_described": [
+    "Round cold UAP detected on infrared sensor",
+    "IR sensor (black-hot mode)",
+    "ISR platform at 19,073 ft HAT"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The object was detected for approximately one minute, from 14:18:39Z to 14:19:52Z on October 15, 2020.",
+      "source_quote": "Contact at 14:18:392 to 14:19:522 on 15OCT2020",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2186,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object appeared round and cold on infrared, traveling northwest at about 20 mph.",
+      "source_quote": "we tracked a round, cold object in IR traveling 319 degrees at 20 mph",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 2331,
+        "len": 49,
+        "exact": false,
+        "matched": "we tracked a round, cold object in IR traveling 3"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object made abrupt directional changes during the observation.",
+      "source_quote": "It made a few abrupt directional changes during the 1 minute contact",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2419,
+        "len": 53,
+        "exact": false,
+        "matched": "brupt directional changes during the 1 minute contact"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft was at 19,073 feet height above terrain over the Gulf of Aden.",
+      "source_quote": "While at 19,073 HAT over the Gulf of Aden",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The sensor was aimed approximately 50 degrees below the aircraft with a slant range of 4.06 NM and ground range of 4.78 km.",
+      "source_quote": "Our sensor was aimed -50 degrees below our altitude with a slant range of 4.06NM and ground range of 4.78KM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2474,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "On IR set to black hot, the object appeared bright white, indicating it was colder than its surroundings.",
+      "source_quote": "The IR sensor was set to black hot and the object in question was a bright white",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2622,
+        "len": 40,
+        "exact": false,
+        "matched": "he object in question was a bright white"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The observer was an O-2 ranked crew member from the 1172 ATKS squadron on an ISR mission.",
+      "source_quote": "0-2 1172 ATKS... ISR",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was approved for release on 03/27/26.",
+      "source_quote": "USCENTCOM MOR 26-0038 to MOR 26-0046 Approved for Release to MR9 03/27/26",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3136,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 5,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:40:05.916Z",
+  "qa_completed_at": "2026-05-09T10:41:13.617Z",
+  "timing": {
+    "A": "33.7s",
+    "B": "34.0s",
+    "E": "27.8s"
+  },
+  "public_headline": "Navy Crew Tracked Round Cold Object Over Gulf of Aden in 2020",
+  "public_tldr": "A U.S. Navy Range Fouler Reporting Form records a one-minute encounter with an unidentified round object detected on infrared sensors over the Gulf of Aden on October 15, 2020. The object was slow-moving at roughly 20 mph but made abrupt directional changes, and the document is heavily redacted throughout.",
+  "public_narrative": "On October 15, 2020, a military crew from the 1172 ATKS squadron was flying an intelligence, surveillance, and reconnaissance (ISR) mission at 19,073 feet above terrain over the Gulf of Aden in the Arabian Sea. At 14:18 Zulu time, their infrared sensor picked up an unauthorized object in controlled airspace. The encounter lasted approximately one minute.\n\nThe crew described the object as round and cold on infrared. Their sensor was set to \"black hot\" mode, meaning warm objects appear dark and cold objects appear bright — and this object showed up bright white, indicating it was colder than the surrounding environment. It was traveling northwest at roughly 20 miles per hour and made several abrupt directional changes during the brief observation. The sensor was pointed about 50 degrees below the aircraft, with the object at a slant range of 4.06 nautical miles and a ground range of 4.78 kilometers.\n\nThe reporting form was filed by a junior officer (O-2 rank) and documents a single crew member's observation. No corroborating sensor data or independent witnesses are referenced anywhere in the form. The document itself notes that all descriptive language reflects the reporter's subjective interpretation at the time.\n\nThe form is heavily redacted under privacy exemptions. The observer's name, email, geographic coordinates, aircraft side number, bureau number, and contact details are all blacked out. The document was approved for public release on March 27, 2026, under USCENTCOM case numbers MOR 26-0038 through 26-0046.",
+  "public_caveats": [
+    "This is a single observer's account recorded on a standard reporting form. No radar data, video, or independent corroboration is referenced in the document.",
+    "Heavy redactions remove the observer's identity, exact coordinates, and aircraft identifiers, making independent verification difficult.",
+    "The object's cold infrared signature and low speed (20 mph) could be consistent with a balloon or other slow-moving conventional object, though the reported abrupt directional changes would be unusual for such objects.",
+    "The source PDF has poor OCR quality, meaning some numerical values may contain transcription errors — for example, one field reading '261130' has an ambiguous meaning.",
+    "The form's own instructions warn that all descriptive and estimative language reflects the reporter's subjective interpretation, not an official agency conclusion about what the object was."
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "sha256": "4ce20fc566edf4a3dcb8a8abd7a5dcd91046069f9e35f83912ad757c8c8be1b9",
+  "title": "DOW-UAP-D61, Mission Report, Arabian Gulf, August 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "8/27/20",
+  "incident_location": "Arabian Gulf",
+  "what_is_it": "A declassified U.S. military Mission Report (MISREP) documenting an ISR surveillance flight over the Arabian Gulf region on August 27, 2020, during which a formation of unknown flying objects was observed.",
+  "core_summary": "A U.S. Air Force ISR aircraft from the 482nd Attack Squadron took off from Al Udeid Air Base (OKAS) on August 26, 2020 and conducted a 21-hour reconnaissance mission supporting NAVCENT operations in the Arabian Gulf, Strait of Hormuz, and Gulf of Oman. At 1527Z on August 27, the aircrew observed a formation of unknown flying objects traveling northeast to northwest along the coast for approximately two minutes before losing tracking due to light cloud coverage. The crew was unable to reacquire positive identification of the formation.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redaction throughout: aircraft type, callsign, exact grid coordinates, personnel names, operation name, and ATO details are all redacted under various exemptions (1.4a, 1.4g, 3.5c, b(3), b(6))",
+    "The aircraft type is fully redacted, though sensor suite (ANDAS4, AH/GMESH) and mission profile suggest an unmanned ISR platform",
+    "The UAP observation lasted only approximately 2 minutes before being lost in cloud cover — very brief window for characterization",
+    "The method of observation was sensor-based, not visual, but the specific sensor used for the UAP observation is not stated",
+    "The description 'formation of unknown flying objects' is the reporter's subjective characterization at the time; no sensor data, imagery, or technical analysis is included in this report",
+    "The weather section explicitly notes clouds prevented continuous tracking, meaning the observation data is incomplete",
+    "This is a single-source report from one aircrew/platform with no corroborating observations mentioned",
+    "The document was declassified 19 years ahead of its original 2045 declassification date, as part of a broader USCENTCOM UAP disclosure effort",
+    "The report notes the intelligence gap was not filled, suggesting the UAP formation was not identified or resolved"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report number",
+      "value": "Misrep 4685903",
+      "source_quote": "Misrep 4685903",
+      "citation_offset": {
+        "offset": 94,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Originating unit",
+      "value": "482nd Attack Squadron (482ATKS), 432nd Air Expeditionary Wing",
+      "source_quote": "Originator (Unit or Squadron): 482ATKS",
+      "citation_offset": {
+        "offset": 1157,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission type",
+      "value": "AREC (Aerial Reconnaissance)",
+      "source_quote": "Mission Type: AREC",
+      "citation_offset": {
+        "offset": 1404,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Takeoff time",
+      "value": "2307Z on 26 August 2020",
+      "source_quote": "AT 2307Z, TOOK OFF FROM OKAS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Landing time",
+      "value": "2012Z on 27 August 2020",
+      "source_quote": "Last Land Time: 272012:00ZAUG20",
+      "citation_offset": {
+        "offset": 3699,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Total mission time",
+      "value": "21 hours 5 minutes",
+      "source_quote": "Total Mission Time: 21 hours 5 minutes",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "SIGINT collection hours",
+      "value": "19.2 hours",
+      "source_quote": "19.2 SIGINT HOURS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Supported unit",
+      "value": "NAVCENT (Naval Forces Central Command)",
+      "source_quote": "Supported Unit: NAVCENT",
+      "citation_offset": {
+        "offset": 5862,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Area of operations",
+      "value": "Arabian Gulf, Strait of Hormuz, Gulf of Oman",
+      "source_quote": "IVO ARABIAN GULF, STRAIT OF HORMUZ AND GULF OF OMAN",
+      "citation_offset": {
+        "offset": 327,
+        "len": 41,
+        "exact": false,
+        "matched": "N GULF, STRAIT OF HORMUZ AND GULF OF OMAN"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP observation time",
+      "value": "1527Z to 1529Z on 27 August 2020",
+      "source_quote": "FROM 1527Z TO 1529Z, OBSERVED A FORMATION OF FLYING OBJECTS",
+      "citation_offset": {
+        "offset": 7337,
+        "len": 34,
+        "exact": false,
+        "matched": "RVED A FORMATION OF FLYING OBJECTS"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP observation duration",
+      "value": "Approximately 2 minutes",
+      "source_quote": "TRACKING THIS FORMATION FOR APPROXIMATELY 2 MINUTES BEFORE PID WAS LOST",
+      "citation_offset": {
+        "offset": 7428,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Formation of unknown flying objects",
+      "source_quote": "FORMATION OF UNK FLYING OBJECTS",
+      "citation_offset": {
+        "offset": 7208,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP direction of travel",
+      "value": "Northeast to northwest along the coast",
+      "source_quote": "TRAVELING NE-NW ALONG THE COAST",
+      "citation_offset": {
+        "offset": 7372,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation location (MGRS)",
+      "value": "39RVM8 (partial, remainder redacted)",
+      "source_quote": "IYO 39RVM8",
+      "citation_offset": {
+        "offset": 7404,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reason tracking lost",
+      "value": "Cloud cover obscured the formation",
+      "source_quote": "PID WAS LOST IN CLOUD COVER",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Weather conditions",
+      "value": "Light cloud coverage",
+      "source_quote": "LIGHT CLOUD COVERAGE PREVENTED THE CONTINUOUS TRACKING OF THE FORMATION",
+      "citation_offset": {
+        "offset": 7765,
+        "len": 36,
+        "exact": false,
+        "matched": "LIGHT CLOUD COVERAGE PREVENTED THE C"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Targeting pod",
+      "value": "ANDAS4",
+      "source_quote": "TGT Pod Name or Designator: ANDAS4",
+      "citation_offset": {
+        "offset": 3375,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Method of UAP observation",
+      "value": "Aircraft sensor",
+      "source_quote": "Method of Observation: SENSOR",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Guard call incident",
+      "value": "Iranian Air Defense hailed the aircraft at 0532Z",
+      "source_quote": "AT 0532Z, WAS HAILED ON GUARD FREQ BY IRANIAN AIR DEFENSE",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Guard call tone",
+      "value": "Professional",
+      "source_quote": "Guardcall Tone: PROFESSIONAL",
+      "citation_offset": {
+        "offset": 6674,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude at guard call",
+      "value": "Flight Level 150",
+      "source_quote": "Aircraft Altitude: FL150",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Aircraft heading at guard call",
+      "value": "018 degrees magnetic",
+      "source_quote": "Aircraft Heading: 018 M",
+      "citation_offset": {
+        "offset": 6549,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Combatant Command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 1090,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operations Center",
+      "value": "609th CAOC",
+      "source_quote": "Operations Center: 609 CAOC",
+      "citation_offset": {
+        "offset": 1745,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Major Command",
+      "value": "ACC (Air Combat Command)",
+      "source_quote": "Major Command (MAJCOM): ACC",
+      "citation_offset": {
+        "offset": 1060,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POC rank",
+      "value": "1st Lieutenant",
+      "source_quote": "Rank: 1st Lt",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Declassification date",
+      "value": "22 January 2026",
+      "source_quote": "Declassified on 22 January 2026",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Original declassification date",
+      "value": "20450301 (March 1, 2045)",
+      "source_quote": "Declassification Date (YYYYMMDD): 20450301",
+      "citation_offset": {
+        "offset": 917,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Small vessel observation",
+      "value": "One small vessel docked at Greater Tunb naval port at 0611Z",
+      "source_quote": "OBSERVED ONE SMALL VESSEL DOCKED AT GREATER TUNB NAVAL PORT",
+      "citation_offset": {
+        "offset": 5336,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Probable Naser WAP observation",
+      "value": "One probable Naser WAP beside an M/T vessel, both dead in water, with 2 adult males on rear deck",
+      "source_quote": "OBSERVED IX PROB NASER WAP BESIDES AN M/T VESSEL... BOTH VESSELS WERE DEAD IN WATER",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Intel gap filled",
+      "value": "No",
+      "source_quote": "Intel Gap Filled?: No",
+      "citation_offset": {
+        "offset": 6098,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "MG Richard A. Hamson"
+  ],
+  "named_places": [
+    "Arabian Gulf",
+    "Strait of Hormuz",
+    "Gulf of Oman",
+    "Greater Tunb",
+    "Abu Musa Island"
+  ],
+  "dated_events": [
+    "2020-08-26 2307Z — Takeoff from OKAS",
+    "2020-08-27 0041Z — Arrived on station supporting NAVCENT",
+    "2020-08-27 0532Z — Guard call received from Iranian Air Defense",
+    "2020-08-27 0611Z — Observed small vessel at Greater Tunb naval port",
+    "2020-08-27 0700Z — Observed possible IL-76 Candid at Abu Musa Island airfield",
+    "2020-08-27 1527Z-1529Z — Observed formation of unknown flying objects for approximately 2 minutes",
+    "2020-08-27 1742Z — Observed probable Naser WAP beside M/T vessel",
+    "2020-08-27 1840Z — Cleared off tasking, returned to base",
+    "2020-08-27 2012Z — Landed at OKAS",
+    "2026-01-22 — Document declassified"
+  ],
+  "objects_described": [
+    "Formation of unknown flying objects (UAP)",
+    "ANDAS4 targeting pod",
+    "AH/GMESH sensor suite",
+    "Probable Naser WAP (Iranian naval vessel)",
+    "Small vessel at Greater Tunb naval port",
+    "M/T vessel (motor tanker)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A U.S. Air Force aircraft from the 482nd Attack Squadron observed a formation of unknown flying objects for approximately 2 minutes on August 27, 2020",
+      "source_quote": "FROM 1527Z TO 1529Z, OBSERVED A FORMATION OF FLYING OBJECTS TRAVELING NE-NW ALONG THE COAST",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7337,
+        "len": 66,
+        "exact": false,
+        "matched": "RVED A FORMATION OF FLYING OBJECTS TRAVELING NE-NW ALONG THE COAST"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Light cloud coverage caused loss of tracking on the UAP formation and prevented reacquisition",
+      "source_quote": "LIGHT CLOUD COVERAGE PREVENTED THE CONTINUOUS TRACKING OF THE FORMATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7765,
+        "len": 36,
+        "exact": false,
+        "matched": "LIGHT CLOUD COVERAGE PREVENTED THE C"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircrew was unable to regain positive identification of the formation after losing it in cloud cover",
+      "source_quote": "AIRCREW WAS UNABLE TO GAIN PID AGAIN ON THIS FORMATION",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The UAP formation was traveling northeast to northwest along the coast",
+      "source_quote": "TRAVELING NE-NW ALONG THE COAST",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7372,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Iranian Air Defense made a professional-toned guard call to the aircraft at 0532Z",
+      "source_quote": "HAILED ON GUARD FREQ BY IRANIAN AIR DEFENSE... Guardcall Tone: PROFESSIONAL",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The mission lasted 21 hours and 5 minutes total",
+      "source_quote": "Total Mission Time: 21 hours 5 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The observation was made using the aircraft's onboard sensor, not visually",
+      "source_quote": "Method of Observation: SENSOR",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was originally classified with a declassification date of March 1, 2045, but was declassified early on January 22, 2026",
+      "source_quote": "Declassification Date (YYYYMMDD): 20450301",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 917,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The mission did not fill any intelligence gaps",
+      "source_quote": "Intel Gap Filled?: No",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6098,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A possible IL-76 Candid aircraft was observed at Abu Musa Island airfield",
+      "source_quote": "OBSERVED 1X POSS IL-76 CANDID AT ABU MUSA ISLAND AFLD",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5724,
+        "len": 33,
+        "exact": false,
+        "matched": "76 CANDID AT ABU MUSA ISLAND AFLD"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 7,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:02:33.368Z",
+  "qa_completed_at": "2026-05-09T11:04:17.959Z",
+  "timing": {
+    "A": "55.4s",
+    "B": "49.2s",
+    "E": "26.9s"
+  },
+  "public_headline": "U.S. Military Crew Tracked Unknown Flying Objects Over Arabian Gulf in 2020",
+  "public_tldr": "A declassified U.S. Air Force mission report documents a 21-hour surveillance flight over the Arabian Gulf on August 27, 2020, during which the aircrew's sensors detected a formation of unknown flying objects traveling along the coast. The crew tracked the formation for roughly two minutes before losing it in cloud cover and could not reacquire it.",
+  "public_narrative": "On August 27, 2020, a U.S. Air Force aircraft assigned to the 482nd Attack Squadron was conducting an aerial reconnaissance mission over the Arabian Gulf, the Strait of Hormuz, and the Gulf of Oman in support of Naval Forces Central Command (NAVCENT). The aircraft had launched from Al Udeid Air Base the previous evening and would fly for just over 21 hours total.\n\nAt 1527Z (approximately 3:27 PM UTC), the aircrew's onboard sensors picked up a formation of unknown flying objects moving northeast to northwest along the coastline. The crew tracked the formation for about two minutes before light cloud coverage obscured it. They were unable to regain positive identification afterward. The report notes the method of observation was sensor-based, not visual, though the specific sensor used is not stated.\n\nThe mission report, designated Misrep 4685903, was originally classified with a scheduled declassification date of March 1, 2045. It was released early on January 22, 2026, as part of a broader U.S. Central Command disclosure effort — 19 years ahead of schedule. The report is heavily redacted: the aircraft type, crew names, exact coordinates, operation name, and other operational details are all blacked out.\n\nBeyond the unknown objects, the mission documented routine regional surveillance activity, including a professional-toned radio hail from Iranian Air Defense, a small vessel docked at Greater Tunb naval port, and a possible IL-76 transport aircraft at Abu Musa Island airfield. The report explicitly states that the intelligence gap the mission aimed to fill was not resolved.",
+  "public_caveats": [
+    "This is a single-source report from one aircrew on one platform. No corroborating observations from other aircraft, ships, or ground stations are mentioned in the document.",
+    "The UAP observation lasted only about two minutes before cloud cover ended tracking — a very short window that limits what could be determined about the objects.",
+    "The report is heavily redacted. The aircraft type, crew identities, exact location coordinates, and operational details are all withheld, making independent verification difficult.",
+    "The phrase 'formation of unknown flying objects' is the reporting crew's characterization at the time. No sensor imagery, technical analysis, or follow-up assessment is included in this document.",
+    "The report confirms the intelligence gap was not filled, meaning the objects were never identified or explained within this mission's scope."
+  ]
+}
