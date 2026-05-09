@@ -9,9 +9,10 @@ release, captured 2026-05-08.
 **Canonical: GitHub Release →**
 <https://github.com/omgitzyeoku-collab/UFO/releases/tag/v1.0-release-01-mirror>
 
-- 116 PDFs, each individually downloadable with its original filename
-- `thumbnails.tar.gz` — 130 thumbnail images
-- 117 assets total, 2.4 GB
+- **116 PDFs** — each individually downloadable with its original filename
+- **28 MP4 videos** from DVIDS — DoW UAP mission reports, range-fouler debriefs, unresolved UAP video, NASA-UAP-D3A Gemini 7 1965 audio
+- **`thumbnails.tar.gz`** — 130 thumbnail images
+- **145 assets total, 3.57 GB**
 
 **Authoritative manifest:** [`extract/release-manifest.jsonl`](extract/release-manifest.jsonl)
 — one row per artefact with sha256, release URL, original URL, CSV-derived metadata
@@ -25,8 +26,11 @@ drives the SPA.
 
 ## Inventory
 
-161 records in the CSV map to 116 unique PDFs (some records share assets) plus
-130 unique thumbnails. By agency:
+161 records in the CSV map to **158 unique items**: 116 PDFs + 28 videos +
+14 image-only items. By Type column: 119 PDF records, 28 VID records, 14 IMG
+records (some records share underlying assets, hence 158 unique not 161).
+
+By agency:
 
 - **Department of War** — UAP mission reports by location (Strait of Hormuz,
   Iran, Persian Gulf, Syria, Gulf of Aden, Djibouti, Arabian Gulf), Unresolved
