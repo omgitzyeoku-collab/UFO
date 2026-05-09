@@ -12,7 +12,7 @@
   :root {
     --bg: #0b0c10; --card: #14161c; --line: #262830; --text: #e8e9ec; --dim: #92959e; --soft: #c0c2c8;
     --accent: #6ee7b7; --warn: #fbbf24; --danger: #f87171; --link: #7dd3fc;
-    --DOW: #fbbf24; --FBI: #60a5fa; --NASA: #f87171; --DOS: #c084fc;
+    --DOW: #fbbf24; --FBI: #60a5fa; --NASA: #f87171; --DOS: #c084fc; --AARO: #34d399;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--text); font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif; }
@@ -45,6 +45,8 @@
   .badge.agency-FBI { color: var(--FBI); border-color: #1e3a5f; }
   .badge.agency-NASA { color: var(--NASA); border-color: #5f1f1f; }
   .badge.agency-DOS { color: var(--DOS); border-color: #4c2670; }
+  .badge.agency-AARO { color: var(--AARO); border-color: #115e3e; }
+  .badge.source { font-size: 0.65rem; opacity: 0.75; }
   .badge.tier-green { color: var(--accent); border-color: #166534; }
   .badge.tier-amber { color: var(--warn); border-color: #5a3e0a; }
   .badge.tier-red { color: var(--danger); border-color: #5f1f1f; }
@@ -149,7 +151,8 @@ async function loadJsonl(url) {
 function fmt(b) { if (!b && b!==0) return '—'; if (b<1024) return b+' B'; if (b<1048576) return (b/1024).toFixed(0)+' KB'; return (b/1048576).toFixed(1)+' MB'; }
 function escapeHtml(s) { return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function escapeAttr(s) { return escapeHtml(s).replace(/`/g, '&#96;'); }
-function agencyShort(a) { if (!a) return '?'; if (a==='Department of War') return 'DOW'; if (a==='Department of State') return 'DOS'; if (a==='FBI') return 'FBI'; if (a==='NASA') return 'NASA'; return a; }
+function agencyShort(a) { if (!a) return '?'; if (a==='Department of War') return 'DOW'; if (a==='Department of State') return 'DOS'; if (a==='FBI') return 'FBI'; if (a==='NASA') return 'NASA'; if (a==='AARO') return 'AARO'; return a; }
+function sourceLabel(s) { if (!s) return 'war.gov'; if (s==='aaro.mil') return 'AARO.mil'; return s; }
 function dateYear(s) { if (!s||s==='N/A') return null; let m=s.match(/(\d{4})/); if (m) return parseInt(m[1]); m=s.match(/\/(\d{2})$/); if (m) return 2000+parseInt(m[1]); return null; }
 
 let corpus = [], qaIndex = new Map();
@@ -232,6 +235,7 @@ function renderGrid() {
         <span class="badge agency-${agencyShort(d.agency)}">${escapeHtml(agencyShort(d.agency))}</span>
         ${tierBadge}
         ${typeBadge}
+        ${d.source && d.source !== 'war.gov' ? `<span class="badge source">${escapeHtml(sourceLabel(d.source))}</span>` : ''}
       </div>
       <h3>${escapeHtml(headline)}</h3>
       <p class="tldr">${escapeHtml(tldr.slice(0, 240))}${tldr.length>240?'…':''}</p>
@@ -268,6 +272,10 @@ function openDoc(d) {
       ${d.incident_date && d.incident_date !== 'N/A' ? ' · ' + escapeHtml(d.incident_date) : ''}
       ${d.incident_location && d.incident_location !== 'N/A' ? ' · ' + escapeHtml(d.incident_location) : ''}
       ${qa?.tier ? ' · <span class="badge tier-' + qa.tier + '">' + qa.tier + '</span>' : ''}
+      ${d.source && d.source !== 'war.gov' ? ' · source: ' + escapeHtml(sourceLabel(d.source)) : ''}
+    </p>
+    <p class="meta" style="font-size: 0.78rem;">
+      <a href="https://github.com/omgitzyeoku-collab/UFO/issues/new?template=correction.yml&title=%5BCorrection%5D+${encodeURIComponent((d.title||d.name||'').slice(0,80))}&labels=correction" target="_blank" style="color: var(--dim);">⚠ report an error in this summary</a>
     </p>
     ${tldr ? `<div class="tldr">${escapeHtml(tldr)}</div>` : ''}
     ${narrative ? `<div class="narrative">${narrative.split('\n\n').map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>`

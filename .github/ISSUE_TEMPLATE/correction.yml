@@ -1,0 +1,69 @@
+name: Report an error
+description: Spot a fact that's wrong, a missing source citation, or a hallucinated claim? Tell us. Accuracy is the project's only currency.
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this. Every correction we accept becomes a public, append-only entry in `docs/corrections.md`. We treat accuracy as the project's only currency.
+
+  - type: input
+    id: doc_sha
+    attributes:
+      label: Document SHA-256 (or URL)
+      description: |
+        Find this in the document detail panel on uapfiles.org, or in `extract/release-manifest.jsonl`. Use the URL of the page you were on if you don't know the sha.
+      placeholder: e.g. 06f96d67fa825b5a... or https://uapfiles.org/#doc/06f96d67
+    validations:
+      required: true
+
+  - type: textarea
+    id: claim
+    attributes:
+      label: Which claim is wrong?
+      description: Quote the specific sentence or fact from the public page that you believe is incorrect.
+      placeholder: "The page says 'X happened in 1985'..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is the correct fact?
+      description: What should it say instead?
+      placeholder: "It should say 'X happened in 1986'..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source for the correction
+      description: |
+        How do you know? Cite a specific page in the source PDF, an external authoritative source, or your direct knowledge with context.
+      placeholder: "Page 4 of the PDF says..." or "FBI Vault entry..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Minor (typo, formatting, slightly imprecise wording)
+        - Substantive (factual error that changes meaning)
+        - Critical (named person attributed to wrong claim, fabricated quote, false attribution)
+      default: 1
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have checked the source PDF (or attempted to) and the claim genuinely doesn't match.
+          required: true
+        - label: I understand my report (without my email) becomes part of the public correction log if accepted.
+          required: true

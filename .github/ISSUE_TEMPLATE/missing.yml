@@ -1,0 +1,42 @@
+name: Missing document or source
+description: A war.gov UAP document not in the archive, or a source we should add
+title: "[Missing] "
+labels: ["missing-source"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us about a document that should be here but isn't. We'll investigate and add it (or explain why we can't).
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL of the missing document
+      placeholder: https://www.war.gov/medialink/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What is it / why does it matter?
+      placeholder: This is a State Department UAP cable from 1991 that...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: What type of source?
+      options:
+        - war.gov/UFO/ (PURSUE) — should already be here
+        - aaro.mil
+        - vault.fbi.gov
+        - cia.gov reading room
+        - catalog.archives.gov (NARA)
+        - science.nasa.gov
+        - foreign government (UK MoD / GEPAN-COMETA / CEFAA / GAS / other)
+        - other
+      default: 0
+    validations:
+      required: true

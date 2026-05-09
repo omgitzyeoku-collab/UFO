@@ -1,0 +1,477 @@
+{
+  "sha256": "3df0935cf48e6847d0a5df77a987f8a446e545cc1dda20cad60f79d966516568",
+  "title": "65_HS1-834228961_62-HQ-83894_Section_6",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "N/A",
+  "what_is_it": "A collection of FBI internal memoranda, correspondence, and an OSI scientific summary concerning unexplained aerial phenomena (green fireballs, discs, and meteors) observed near sensitive military installations in New Mexico from 1948 to 1950.",
+  "core_summary": "This FBI case file section documents sustained concern over unexplained aerial phenomena — classified as green fireballs, discs, and meteors — observed near sensitive US military and government installations in New Mexico from December 1948 onward. Dr. Lincoln LaPaz of the University of New Mexico conducted scientific analysis identifying at least 10 characteristics distinguishing green fireballs from ordinary meteors, and suggested the phenomena could be either US guided missiles or, if not, possibly missiles launched from the Ural region of the USSR. The Air Force contracted Land-Air, Inc. to conduct a scientific study (Project Twinkle) while the FBI maintained liaison with OSI, whose investigation failed to indicate the sightings involved space ships or missiles from another planet or country.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "OCR quality is poor on many pages, with numerous garbled sections, especially in the tabulated sighting summaries — some data points may be missing or misread.",
+    "Dr. LaPaz's favored explanation (US guided missiles) was explicitly unconfirmed — he noted 'those in position to confirm it should refuse to do so', suggesting possible classified programs.",
+    "The OSI conclusion that sightings did not involve 'space ships or missiles from any other planet or country' is a negative finding, not a positive identification of what the objects were.",
+    "The document reflects institutional jurisdictional concerns between FBI and Air Force OSI, which may have shaped what information was shared or withheld.",
+    "The tabulated sighting data (pages 34-38) is largely illegible due to OCR degradation of the original table format.",
+    "The Philadelphia disintegrating-object incident was reported secondhand through police channels and no physical evidence was preserved.",
+    "Several pages (1, 3, 7, 9, 11, 12, 14, 19, 21, 23) appear to be heavily degraded or contain minimal legible content."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "phenomena_types",
+      "value": "Three categories: green fireballs, discs, and meteors",
+      "source_quote": "The phenomena have been classified into 3 general types which are identified as follows: 1. Green fireballs... 2. Discs... 3. Meteors",
+      "citation_offset": {
+        "offset": 1410,
+        "len": 80,
+        "exact": false,
+        "matched": "lassified into 3 general types which are identified as follows: 1. Green firebal"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "observation_count",
+      "value": "Approximately 150 observations since 1948",
+      "source_quote": "Since 1948, approximately 150 observations of aerial phenomena referred to above have been recorded in the vicinity of installations in New Mexico",
+      "citation_offset": {
+        "offset": 1996,
+        "len": 85,
+        "exact": false,
+        "matched": "enomena referred to above have been recorded in the vicinity of installations in New "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "green_fireball_count",
+      "value": "72 objects accepted as green fireballs",
+      "source_quote": "the total number of objects now accepted as belonging in the green fireball category being 72",
+      "citation_offset": {
+        "offset": 27963,
+        "len": 63,
+        "exact": false,
+        "matched": "the total number of objects now accepted as belonging in the gr"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "scientific_contractor",
+      "value": "Land-Air, Inc., Alamogordo, New Mexico",
+      "source_quote": "OSI has contracted with Land-Air Inc., Alamogordo, New Mexico, to make scientific study of the unexplained phenomena",
+      "citation_offset": {
+        "offset": 1098,
+        "len": 95,
+        "exact": false,
+        "matched": "ith Land-Air Inc., Alamogordo, New Mexico, to make scientific study of the unexplained phenomen"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "project_name",
+      "value": "Project Twinkle",
+      "source_quote": "A 24-hour day watch is being maintained and has been designated Project Twinkle",
+      "citation_offset": {
+        "offset": 4741,
+        "len": 64,
+        "exact": false,
+        "matched": "A 24-hour day watch is being maintained and has been designated "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "observation_posts",
+      "value": "Established near Vaughn, New Mexico",
+      "source_quote": "have established a number of observation posts in the vicinity of Vaughn, New Mexico",
+      "citation_offset": {
+        "offset": 4410,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "land_air_sighting",
+      "value": "8 to 10 objects sighted on May 24, 1950",
+      "source_quote": "On May 24, 1950, personnel of Land-Air, Incorporated, sighted 8 to 10 objects of aerial phenomena",
+      "citation_offset": {
+        "offset": 4677,
+        "len": 62,
+        "exact": false,
+        "matched": "Air, Incorporated, sighted 8 to 10 objects of aerial phenomena"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "lapaz_hypothesis_us_missiles",
+      "value": "LaPaz believed non-meteoric phenomena were likely US guided missiles being tested near installations",
+      "source_quote": "the green fireballs or discs he believed to be U.S. guided missiles being tested in the neighborhood of the installations",
+      "citation_offset": {
+        "offset": 3121,
+        "len": 100,
+        "exact": false,
+        "matched": "reen fireballs or discs he believed to be U.S. guided missiles being tested in the neighborhood of t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "lapaz_hypothesis_ussr",
+      "value": "If not US missiles, possibly guided missiles launched from USSR Urals reaching New Mexico in under 15 minutes",
+      "source_quote": "missiles moving with the velocities of the order of those found for the green fireballs and discs could travel from the Ural region of the USSR to New Mexico in less than 15 minutes",
+      "citation_offset": {
+        "offset": 3523,
+        "len": 100,
+        "exact": false,
+        "matched": "und for the green fireballs and discs could travel from the Ural region of the USSR to New Mexico in"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "green_fireball_color",
+      "value": "Identical to copper salts in blowpipe flame, wavelength near 5218 Angstroms",
+      "source_quote": "by laboratory test this peculiar color seems to be identical with that given off by copper salts in the blowpipe flame... the wave length of the radiation from the green fireballs is near 5218A",
+      "citation_offset": {
+        "offset": 27039,
+        "len": 50,
+        "exact": false,
+        "matched": "by laboratory test this peculiar color seems to be"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "osi_conclusion_oct_1950",
+      "value": "OSI investigation failed to indicate space ships or missiles from another planet or country",
+      "source_quote": "Their investigation of these phenomena fails to indicate that the sightings involved space ships or missiles from any other planet or country",
+      "citation_offset": {
+        "offset": 12556,
+        "len": 141,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "philadelphia_incident_date",
+      "value": "September 26, 1950",
+      "source_quote": "During the late evening hours of September 26, 1950, two Philadelphia police officers observed a peculiar phenomenon",
+      "citation_offset": {
+        "offset": 14389,
+        "len": 50,
+        "exact": false,
+        "matched": "phia police officers observed a peculiar phenomeno"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "frank_scully_investigation",
+      "value": "FBI instructed to determine if author Frank Scully of 'Behind the Flying Saucers' was involved in Communist activities",
+      "source_quote": "WHETHER FRANK SCULLY, AUTHOR OF THE BOOK QUOTE BEHIND THE FLYING SAUCERS UNQUOTE IS IDENTICAL TO THE FRANK SCULLY WHO HAS BEEN ACTIVELY ENGAGED IN COMMUNIST ACTIVITIES",
+      "citation_offset": {
+        "offset": 17121,
+        "len": 100,
+        "exact": false,
+        "matched": "CULLY, AUTHOR OF THE BOOK QUOTE BEHIND THE FLYING SAUCERS UNQUOTE IS IDENTICAL TO THE FRANK SCULLY W"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "sighting_time_pattern",
+      "value": "Green fireballs mostly sighted between 5 PM and 11 PM MST, peak around 2030",
+      "source_quote": "the maximum frequency of sighting of green fireballs (occurring at approximately 2030)... most of the green fireballs have been sighted in a time interval extending from about 5 p.m. to 11 p.m. (MST)",
+      "citation_offset": {
+        "offset": 29459,
+        "len": 60,
+        "exact": false,
+        "matched": "most of the green fireballs have been sighted in a time inte"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "day_of_week_pattern",
+      "value": "Pronounced concentration on Friday through Monday, especially Saturday and Sunday",
+      "source_quote": "a pronounced concentration of green fireball incidents on the four days, Friday, Saturday, Sunday, Monday, almost all of the most widely observed incidents having occurred on Saturday or Sunday",
+      "citation_offset": {
+        "offset": 30789,
+        "len": 100,
+        "exact": false,
+        "matched": "a pronounced concentration of green fireball incidents on the four days, Friday, Saturday, Sunday, M"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "directional_pattern",
+      "value": "Green fireballs showed pronounced tendency to come from the north half of the sky",
+      "source_quote": "there is a very pronounced tendency for the paths to come in from the north half of the sky",
+      "citation_offset": {
+        "offset": 26091,
+        "len": 61,
+        "exact": false,
+        "matched": " pronounced tendency for the paths to come in from the north "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "kaplan_denial",
+      "value": "Dr. Joseph Kaplan and Von Karman stated they knew of no US experiments that would explain the objects",
+      "source_quote": "Frankly, I don't know of any U. S. experiments that would result in the appearance of these unconventional objects, and neither does Von Karmen",
+      "citation_offset": {
+        "offset": 31458,
+        "len": 65,
+        "exact": false,
+        "matched": "earance of these unconventional objects, and neither does Von Kar"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "photograph_sighting_175",
+      "value": "Unknown aerial object photographed at Datil, NM on Feb 24-25, 1950 by Cpl Stanfield; LaPaz ruled out moon, planets, and stars",
+      "source_quote": "the object seen by Stanfield was not the moon... it was not Venus or any other planet... and it was not a bright fixed star",
+      "citation_offset": {
+        "offset": 37657,
+        "len": 40,
+        "exact": false,
+        "matched": "the object seen by Stanfield was not the"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "conferences_held",
+      "value": "Two conferences held at Los Alamos on Feb 17, 1949 and Oct 14, 1949",
+      "source_quote": "On 17 February 1949 and again on 14 October 1949, conferences were held at Los Alamos, New Mexico, for the purpose of discussing the green fireball phenomena",
+      "citation_offset": {
+        "offset": 20752,
+        "len": 85,
+        "exact": false,
+        "matched": "On 17 February 1949 and again on 14 October 1949, conferences were held at Los Alamos"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "D. M. Ladd",
+    "A. H. Belmont",
+    "Lincoln LaPaz",
+    "Anthony O. Mirarchi",
+    "John Edgar Hoover",
+    "Walter D. Jones",
+    "Cornelius",
+    "Joseph F. Carroll",
+    "Doyle Rees",
+    "Frank Scully",
+    "Joseph Kaplan",
+    "Von Karman",
+    "Fred L. Whipple",
+    "Peter M. Millman",
+    "L. A. Manning",
+    "William Crozier",
+    "F. L. Wyckoff",
+    "Leo Laughlin"
+  ],
+  "named_places": [
+    "New Mexico",
+    "Albuquerque, New Mexico",
+    "Alamogordo, New Mexico",
+    "Vaughn, New Mexico",
+    "Los Alamos, New Mexico",
+    "Philadelphia, Pennsylvania",
+    "Sandia Base, New Mexico",
+    "Kirtland Air Force Base, New Mexico",
+    "Holloman Air Force Base, New Mexico",
+    "Wright Field, Ohio",
+    "White Sands Proving Ground",
+    "Las Vegas, New Mexico",
+    "Datil, New Mexico",
+    "Roswell, New Mexico",
+    "El Paso, Texas",
+    "Fort Worth, Texas",
+    "Cambridge, Massachusetts",
+    "Toronto, Ontario, Canada",
+    "Washington, D.C.",
+    "Ural region of the USSR",
+    "Phoenix, Arizona",
+    "Vare Boulevard near 26th Street, Philadelphia"
+  ],
+  "dated_events": [
+    "December 1948 — organized reporting of aerial phenomena began in New Mexico",
+    "1949-02-17 — first conference on green fireballs held at Los Alamos",
+    "1949-10-14 — second conference on green fireballs held at Los Alamos",
+    "1950-02-07 — extraordinary green fireball incident under intensive investigation",
+    "1950-02-24 to 1950-02-25 — unknown aerial object photographed at Datil, NM by Cpl Stanfield",
+    "1950-05-23 — Dr. LaPaz submitted analysis (Seventh Report on Anomalous Luminous Phenomena)",
+    "1950-05-24 — Land-Air personnel sighted 8 to 10 aerial objects",
+    "1950-05-25 — OSI summary of observations prepared",
+    "1950-07-19 — OSI summary furnished noting green fireballs and discs still observed",
+    "1950-08-10 — Albuquerque FBI office reported no new developments",
+    "1950-08-23 — Ladd memorandum to Director regarding Project Twinkle",
+    "1950-08-29 — letter from Walter D. Jones received by FBI",
+    "1950-09-08 — Hoover forwarded Jones letter to Air Force OSI",
+    "1950-09-26 — Philadelphia police officers observed disintegrating disc-like object",
+    "1950-09-27 — SAC Cornelius reported Philadelphia incident to FBI",
+    "1950-10-02 — Philadelphia SAC office memo on flying disc report",
+    "1950-10-09 — Ladd memorandum to Director summarizing aerial phenomena status",
+    "1950-10-13 — FBI urgent message to investigate Frank Scully's Communist ties"
+  ],
+  "objects_described": [
+    "Green fireballs — high-speed objects resembling half moons, circles, and discs emitting green light",
+    "Discs — round flat-shaped objects moving at fast velocity emitting brilliant white or reflected light",
+    "Meteors — aerial phenomena resembling meteoric material varying in color",
+    "Philadelphia object — six-foot diameter lavender glowing mass that disintegrated within 25 minutes leaving sticky residue",
+    "Sighting 175 — perfectly round luminous object photographed at Datil, NM with angular diameter of approximately 1/4 degree"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Approximately 150 aerial phenomena observations were recorded near New Mexico installations between December 1948 and mid-1950",
+      "source_quote": "Since 1948, approximately 150 observations of aerial phenomena referred to above have been recorded in the vicinity of installations in New Mexico",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1996,
+        "len": 85,
+        "exact": false,
+        "matched": "enomena referred to above have been recorded in the vicinity of installations in New "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Dr. LaPaz concluded approximately half the recorded phenomena were meteoric in origin",
+      "source_quote": "He concluded, as a result of his investigation, that approximately half of the phenomena recorded were of meteoric origin",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2953,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Green fireballs had 10 distinguishing characteristics separating them from ordinary meteors, including horizontal paths, low altitude, absence of sound, and unusual green color",
+      "source_quote": "the writer listed ten significant differences between the bright green horizontally-moving fireballs observed in the interval 1948, December 5-20, and typical meteors",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 24175,
+        "len": 85,
+        "exact": false,
+        "matched": "lly-moving fireballs observed in the interval 1948, December 5-20, and typical meteor"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The green color matched copper salts in laboratory testing at wavelength near 5218 Angstroms",
+      "source_quote": "by laboratory test this peculiar color seems to be identical with that given off by copper salts in the blowpipe flame",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 27039,
+        "len": 50,
+        "exact": false,
+        "matched": "by laboratory test this peculiar color seems to be"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Multiple US agencies including FBI, AEC, USAF, and Fourth Army participated in conferences about the phenomena",
+      "source_quote": "Representatives of the following organizations were present at these meetings: Fourth Army, Armed Forces Special Weapons Project, University of New Mexico, Federal Bureau of Investigation, U. S. Atomic Energy Commission",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20923,
+        "len": 60,
+        "exact": false,
+        "matched": "tives of the following organizations were present at these m"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A logical explanation was not reached at the Los Alamos conferences, but attendees agreed the phenomena existed and warranted scientific study",
+      "source_quote": "A logical explanation was not proffered with respect to the origin of the green fireballs. It was, however, generally concluded that the phenomena existed and that they should be studied scientifically",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 21314,
+        "len": 70,
+        "exact": false,
+        "matched": "A logical explanation was not proffered with respect to the origin of "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "OSI at Wright Field concluded the sightings did not involve space ships or missiles from another planet or country as of October 1950",
+      "source_quote": "Their investigation of these phenomena fails to indicate that the sightings involved space ships or missiles from any other planet or country",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12556,
+        "len": 141,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Dr. Joseph Kaplan of the USAF Scientific Advisory Board and Theodore Von Karman denied knowledge of any US experiments producing the observed phenomena",
+      "source_quote": "Frankly, I don't know of any U. S. experiments that would result in the appearance of these unconventional objects, and neither does Von Karmen",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 31458,
+        "len": 65,
+        "exact": false,
+        "matched": "earance of these unconventional objects, and neither does Von Kar"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "FBI Director Hoover ordered investigation into whether Frank Scully, author of 'Behind the Flying Saucers', had Communist ties",
+      "source_quote": "WHETHER FRANK SCULLY, AUTHOR OF THE BOOK QUOTE BEHIND THE FLYING SAUCERS UNQUOTE IS IDENTICAL TO THE FRANK SCULLY WHO HAS BEEN ACTIVELY ENGAGED IN COMMUNIST ACTIVITIES SINCE THE LATE NINETEEN THIRTIES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 17121,
+        "len": 100,
+        "exact": false,
+        "matched": "CULLY, AUTHOR OF THE BOOK QUOTE BEHIND THE FLYING SAUCERS UNQUOTE IS IDENTICAL TO THE FRANK SCULLY W"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Green fireballs showed a distinct decline in sightings during the same period that flying saucer reports reached an all-time high",
+      "source_quote": "there has been a distinct decline in the number of green fireball sightings during the last two months, within which the number of so-called flying saucer incidents in this region has attained an all-time high",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 31091,
+        "len": 90,
+        "exact": false,
+        "matched": " green fireball sightings during the last two months, within which the number of so-called"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A Philadelphia flying disc incident on September 26, 1950 involved an object that completely disintegrated within 25 minutes, leaving only a slight sticky residue",
+      "source_quote": "Over a period of about 25 minutes which the officers spent watching the object it completely disintegrated",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 7476,
+        "len": 75,
+        "exact": false,
+        "matched": "Over a period of about 25 minutes which the officers spent watching the obj"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 2,
+    "amber": 9,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T08:52:17.947Z",
+  "qa_completed_at": "2026-05-09T08:54:51.570Z",
+  "timing": {
+    "A": "88.1s",
+    "B": "65.2s",
+    "E": "35.5s"
+  },
+  "public_headline": "FBI Tracked 150 Unexplained Green Fireballs Near New Mexico Military Sites",
+  "public_tldr": "This FBI case file documents roughly 150 sightings of unusual aerial objects — green fireballs, discs, and meteors — near sensitive military installations in New Mexico between late 1948 and 1950. Scientists could not explain the green fireballs, the Air Force launched a formal study called Project Twinkle, and the official conclusion was that the objects were not spacecraft or foreign missiles, though no positive identification was ever made.",
+  "public_narrative": "This section of an FBI case file collects internal memos, letters, and a scientific summary dealing with unexplained aerial phenomena spotted near US military and government sites in New Mexico from December 1948 through 1950. The phenomena were sorted into three categories: green fireballs, discs, and meteors. Approximately 150 observations were logged, with 72 objects specifically classified as green fireballs.\n\nDr. Lincoln LaPaz of the University of New Mexico led the scientific analysis. He identified at least 10 characteristics that set green fireballs apart from ordinary meteors, including horizontal flight paths, low altitude, no audible sound, and a distinctive green colour that laboratory tests matched to copper salts at a wavelength near 5218 Angstroms. LaPaz believed the non-meteoric objects were most likely US guided missiles being tested near the installations. If they were not American, he suggested they could theoretically be missiles launched from the Ural region of the USSR, capable of reaching New Mexico in under 15 minutes. Dr. Joseph Kaplan, a US Air Force scientific adviser, and aerodynamicist Theodore Von Karman both stated they knew of no US experiments that would account for the objects.\n\nTwo conferences were held at Los Alamos in February and October 1949, attended by representatives from the FBI, the US Atomic Energy Commission, the Fourth Army, and other agencies. No explanation for the green fireballs was reached, but attendees agreed the phenomena were real and warranted formal scientific study. The Air Force then contracted Land-Air, Inc. of Alamogordo, New Mexico, to run Project Twinkle — a 24-hour observation watch with posts near Vaughn, New Mexico. On 24 May 1950, Land-Air personnel sighted 8 to 10 aerial objects.\n\nThe file also covers a separate incident on 26 September 1950, when two Philadelphia police officers reported a six-foot-diameter lavender glowing mass that disintegrated within 25 minutes, leaving a sticky residue. No physical evidence was preserved. Additionally, the FBI was instructed to investigate whether Frank Scully, author of the book 'Behind the Flying Saucers', had ties to Communist activities. By October 1950, the Air Force Office of Special Investigations (OSI) at Wright Field, Ohio, concluded that their investigation 'fails to indicate that the sightings involved space ships or missiles from any other planet or country' — a negative finding that ruled things out without identifying what the objects actually were.\n\nThe file shows green fireballs were mostly seen between 5 PM and 11 PM, peaking around 8:30 PM, with a notable concentration on weekends. Their flight paths showed a pronounced tendency to come from the north. Moderate redactions are present throughout the documents, and many pages are heavily degraded, with tabulated sighting data largely illegible.",
+  "public_caveats": [
+    "The OSI conclusion was a negative finding — it said what the objects were NOT (not spacecraft, not foreign missiles) but never positively identified what they were.",
+    "Dr. LaPaz's preferred explanation (US guided missiles) was never confirmed. He himself noted that anyone in a position to confirm it would refuse to do so, hinting at possible classified programmes.",
+    "Many pages are heavily degraded and the tabulated sighting data is largely illegible due to poor document quality, meaning some details may be missing or misread.",
+    "The Philadelphia disintegrating-object incident was reported secondhand through police channels, and no physical evidence was preserved for analysis.",
+    "The document reflects jurisdictional tensions between the FBI and Air Force OSI, which may have affected what information was shared between agencies."
+  ]
+}
