@@ -8,138 +8,237 @@
 <meta property="og:title" content="UAP Files" />
 <meta property="og:description" content="Declassified US government UAP documents, translated into plain English with every claim source-cited." />
 <meta property="og:type" content="website" />
+<link rel="stylesheet" href="page.css">
 <style>
-  :root {
-    --bg: #0b0c10; --card: #14161c; --line: #262830; --text: #e8e9ec; --dim: #92959e; --soft: #c0c2c8;
-    --accent: #6ee7b7; --warn: #fbbf24; --danger: #f87171; --link: #7dd3fc;
-    --DOW: #fbbf24; --FBI: #60a5fa; --NASA: #f87171; --DOS: #c084fc; --AARO: #34d399;
+  /* INDEX-PAGE-SPECIFIC styles on top of page.css brand tokens */
+
+  /* HERO */
+  .hero { padding: 3rem 1.75rem 2rem; max-width: 78ch; }
+  .hero h2 {
+    font-family: var(--ff-head); font-weight: 700;
+    font-size: 2.4rem; line-height: 1.15; letter-spacing: -0.02em;
+    margin: 0 0 1rem; color: var(--dark);
   }
-  * { box-sizing: border-box; }
-  html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--text); font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif; }
-  a { color: var(--link); text-decoration: none; } a:hover { text-decoration: underline; }
-  header.site { padding: 1.5rem 1.25rem 1rem; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 1rem; align-items: baseline; }
-  header.site h1 { font-size: 1.4rem; margin: 0; font-weight: 700; letter-spacing: -0.01em; }
-  header.site .tag { color: var(--dim); font-size: 0.85rem; }
-  header.site nav { margin-left: auto; display: flex; gap: 1rem; flex-wrap: wrap; }
-  header.site nav a { color: var(--soft); font-size: 0.95rem; }
+  .hero p { color: var(--dark); font-size: 1.05rem; margin: 0 0 0.5rem; max-width: 65ch; }
+  .hero p .accent { color: var(--orange); font-weight: 600; font-style: italic; }
 
-  .hero { padding: 1.5rem 1.25rem; max-width: 70ch; }
-  .hero h2 { font-size: 1.05rem; margin: 0 0 0.5rem; color: var(--soft); font-weight: 500; }
-  .hero p { color: var(--soft); margin: 0; }
-  .stat-row { display: flex; flex-wrap: wrap; gap: 1.5rem; padding: 0.5rem 1.25rem 1.5rem; color: var(--dim); font-size: 0.85rem; }
-  .stat-row strong { color: var(--text); }
+  /* STATS */
+  .stat-row {
+    display: flex; flex-wrap: wrap; gap: 1.75rem;
+    padding: 0.5rem 1.75rem 2rem;
+    color: var(--soft); font-size: 0.92rem; font-family: var(--ff-head);
+  }
+  .stat-row strong { color: var(--dark); font-weight: 700; }
 
-  .filters { padding: 1rem 1.25rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; position: sticky; top: 0; background: var(--bg); z-index: 5; }
-  .filters input, .filters select { background: var(--card); border: 1px solid var(--line); color: var(--text); padding: 0.55rem 0.7rem; border-radius: 6px; font: inherit; font-size: 0.9rem; }
-  .filters input { flex: 1; min-width: 240px; }
-  .filters input:focus, .filters select:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
-  .count { color: var(--dim); font-size: 0.85rem; margin-left: auto; }
+  /* FILTER BAR */
+  .filters {
+    padding: 1rem 1.75rem;
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center;
+    position: sticky; top: 70px; background: var(--light); z-index: 5;
+  }
+  .filters input, .filters select {
+    background: var(--card); border: 1px solid var(--line); color: var(--dark);
+    padding: 0.6rem 0.85rem; border-radius: 6px;
+    font-family: var(--ff-body); font-size: 0.95rem;
+  }
+  .filters input { flex: 1; min-width: 220px; }
+  .filters input:focus, .filters select:focus {
+    outline: 2px solid var(--orange); outline-offset: -1px; border-color: var(--orange);
+  }
+  .count { color: var(--soft); font-size: 0.88rem; margin-left: auto; font-family: var(--ff-head); font-style: italic; }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr)); gap: 1rem; padding: 1.25rem; }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1.1rem 1.2rem 1rem; cursor: pointer; transition: border-color 0.1s, transform 0.05s; display: flex; flex-direction: column; }
-  .card:hover { border-color: var(--accent); }
+  /* GRID */
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+    gap: 1.25rem; padding: 1.75rem;
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1.4rem 1.5rem 1.2rem; cursor: pointer; transition: border-color 0.12s, transform 0.05s, box-shadow 0.12s;
+    display: flex; flex-direction: column; box-shadow: 0 1px 0 rgba(20,20,19,0.02);
+  }
+  .card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(217,119,87,0.12); }
   .card:active { transform: scale(0.99); }
-  .card .badges { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.6rem; }
-  .badge { font-size: 0.7rem; padding: 0.15rem 0.55rem; border-radius: 999px; border: 1px solid var(--line); color: var(--dim); font-weight: 500; letter-spacing: 0.02em; }
-  .badge.agency-DOW { color: var(--DOW); border-color: #6b4d10; }
-  .badge.agency-FBI { color: var(--FBI); border-color: #1e3a5f; }
-  .badge.agency-NASA { color: var(--NASA); border-color: #5f1f1f; }
-  .badge.agency-DOS { color: var(--DOS); border-color: #4c2670; }
-  .badge.agency-AARO { color: var(--AARO); border-color: #115e3e; }
-  .badge.source { font-size: 0.65rem; opacity: 0.75; }
-  .badge.tier-green { color: var(--accent); border-color: #166534; }
-  .badge.tier-amber { color: var(--warn); border-color: #5a3e0a; }
-  .badge.tier-red { color: var(--danger); border-color: #5f1f1f; }
-  .card h3 { font-size: 1.05rem; margin: 0 0 0.4rem; line-height: 1.35; font-weight: 600; }
-  .card .tldr { color: var(--soft); font-size: 0.92rem; margin: 0 0 0.8rem; flex: 1; }
-  .card .footer { display: flex; gap: 1rem; flex-wrap: wrap; color: var(--dim); font-size: 0.78rem; margin-top: auto; }
-  .card .footer span { display: inline-block; }
-  .card.skeleton { opacity: 0.4; pointer-events: none; }
+  .card .badges { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
+  .badge {
+    font-family: var(--ff-head); font-size: 0.72rem; font-weight: 500;
+    padding: 0.18rem 0.6rem; border-radius: 999px;
+    border: 1px solid var(--line); color: var(--soft); letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .badge.agency-DOW { color: var(--orange); border-color: rgba(217,119,87,0.4); }
+  .badge.agency-FBI { color: var(--blue); border-color: rgba(106,155,204,0.4); }
+  .badge.agency-NASA { color: var(--green); border-color: rgba(120,140,93,0.4); }
+  .badge.agency-DOS { color: var(--dark); border-color: var(--mid); }
+  .badge.agency-AARO { color: var(--orange); border-color: rgba(217,119,87,0.4); background: rgba(217,119,87,0.05); }
+  .badge.tier-green { color: var(--tier-green); border-color: rgba(120,140,93,0.4); }
+  .badge.tier-amber { color: var(--tier-amber); border-color: rgba(217,119,87,0.4); }
+  .badge.source { font-size: 0.65rem; opacity: 0.85; }
 
-  .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 100; padding: 1rem; overflow: auto; }
+  .card h3 {
+    font-family: var(--ff-head); font-weight: 600; font-size: 1.15rem;
+    margin: 0 0 0.5rem; line-height: 1.3; letter-spacing: -0.01em; color: var(--dark);
+  }
+  .card .tldr {
+    color: var(--dark); font-size: 0.96rem; line-height: 1.55;
+    margin: 0 0 1rem; flex: 1; opacity: 0.85;
+  }
+  .card .footer {
+    display: flex; gap: 1rem; flex-wrap: wrap;
+    color: var(--soft); font-size: 0.82rem; font-family: var(--ff-head);
+    padding-top: 0.75rem; border-top: 1px dashed var(--line);
+  }
+
+  /* MODAL */
+  .modal {
+    display: none; position: fixed; inset: 0;
+    background: rgba(20,20,19,0.65); z-index: 100;
+    padding: 1rem; overflow: auto;
+  }
   .modal.open { display: block; }
-  .modal-inner { max-width: 920px; margin: 1.5rem auto; background: var(--card); border-radius: 12px; border: 1px solid var(--line); overflow: hidden; }
-  .modal-inner .body { padding: 1.5rem 1.75rem 2rem; }
-  .modal-inner h2 { font-size: 1.5rem; margin: 0 0 0.5rem; line-height: 1.3; }
-  .modal-inner .meta { color: var(--dim); font-size: 0.85rem; margin: 0 0 1.2rem; }
-  .modal-inner .tldr { background: #1a1d24; border-left: 3px solid var(--accent); padding: 0.85rem 1rem; margin: 0 0 1.2rem; color: var(--soft); border-radius: 0 4px 4px 0; }
-  .modal-inner .narrative { font-size: 1rem; line-height: 1.7; color: var(--soft); }
-  .modal-inner .narrative p { margin: 0 0 1rem; }
-  .modal-inner .caveats { margin-top: 1.5rem; padding: 1rem 1.2rem; background: #1a1d24; border-radius: 6px; border: 1px solid var(--line); }
-  .modal-inner .caveats h4 { margin: 0 0 0.5rem; font-size: 0.9rem; color: var(--warn); }
-  .modal-inner .caveats ul { margin: 0; padding-left: 1.2rem; color: var(--soft); font-size: 0.9rem; }
-  .modal-inner .source-row { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.2rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
-  .modal-inner .source-row a { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 0.85rem; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; color: var(--text); font-size: 0.85rem; }
-  .modal-inner .source-row a:hover { border-color: var(--accent); text-decoration: none; }
-  .modal-inner .pdf-frame { width: 100%; height: 540px; border: 1px solid var(--line); border-radius: 6px; margin-top: 1rem; background: #000; }
-  .modal-close { position: absolute; top: 1rem; right: 1.25rem; background: var(--bg); border: 1px solid var(--line); color: var(--soft); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 1.2rem; line-height: 1; display: grid; place-items: center; }
-  .modal-close:hover { color: var(--text); border-color: var(--accent); }
-  .modal-inner .key-facts { margin: 1.2rem 0; }
-  .modal-inner .key-facts h4 { font-size: 0.85rem; color: var(--dim); margin: 0 0 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; }
-  .modal-inner .key-facts dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.4rem 1rem; margin: 0; font-size: 0.9rem; }
-  .modal-inner .key-facts dt { color: var(--dim); }
-  .modal-inner .key-facts dd { margin: 0; color: var(--soft); }
-  .modal-inner .key-facts .conf-amber { opacity: 0.75; }
-  .modal-inner .verify-link { color: var(--dim); font-size: 0.75rem; margin-left: 0.4rem; }
+  .modal-inner {
+    max-width: 920px; margin: 1.5rem auto; background: var(--card);
+    border-radius: 12px; border: 1px solid var(--line); overflow: hidden;
+    box-shadow: 0 12px 48px rgba(20,20,19,0.2);
+  }
+  .modal-inner .body { padding: 2rem 2.25rem 2.5rem; position: relative; }
+  .modal-close {
+    position: absolute; top: 1.25rem; right: 1.5rem;
+    background: var(--light); border: 1px solid var(--line); color: var(--soft);
+    width: 38px; height: 38px; border-radius: 50%; cursor: pointer;
+    font-size: 1.4rem; line-height: 1; display: grid; place-items: center;
+    font-family: var(--ff-head);
+  }
+  .modal-close:hover { color: var(--dark); border-color: var(--orange); background: var(--card); }
+  .modal-inner h2 {
+    font-family: var(--ff-head); font-weight: 700;
+    font-size: 1.85rem; line-height: 1.25; letter-spacing: -0.02em;
+    margin: 0 0 0.6rem; color: var(--dark); padding-right: 3rem;
+  }
+  .modal-inner .meta {
+    color: var(--soft); font-size: 0.9rem; margin: 0 0 1.4rem;
+    font-family: var(--ff-head);
+  }
+  .modal-inner .meta strong { color: var(--dark); font-weight: 600; }
+  .modal-inner .tldr {
+    background: var(--light); border-left: 3px solid var(--orange);
+    padding: 1rem 1.2rem; margin: 0 0 1.4rem; color: var(--dark);
+    border-radius: 0 4px 4px 0; font-size: 1.02rem; line-height: 1.6;
+    font-style: italic;
+  }
+  .modal-inner .narrative {
+    font-family: var(--ff-body); font-size: 1.03rem; line-height: 1.75; color: var(--dark);
+  }
+  .modal-inner .narrative p { margin: 0 0 1.1rem; }
+  .modal-inner h4 {
+    font-family: var(--ff-head); font-weight: 600; font-size: 0.9rem;
+    color: var(--soft); text-transform: uppercase; letter-spacing: 0.06em;
+    margin: 1.6rem 0 0.5rem;
+  }
+  .modal-inner .key-facts dl {
+    display: grid; grid-template-columns: max-content 1fr;
+    gap: 0.5rem 1.2rem; margin: 0; font-size: 0.95rem;
+  }
+  .modal-inner .key-facts dt { color: var(--soft); font-family: var(--ff-head); font-weight: 500; }
+  .modal-inner .key-facts dd { margin: 0; color: var(--dark); }
+  .modal-inner .key-facts .conf-amber { opacity: 0.78; }
+  .modal-inner .key-facts .conf-amber dd::after {
+    content: ' (partial citation)'; color: var(--mid); font-size: 0.85em; font-style: italic;
+  }
+  .modal-inner .caveats {
+    margin-top: 1.5rem; padding: 1.1rem 1.3rem;
+    background: rgba(217,119,87,0.06); border-radius: 6px;
+    border: 1px solid rgba(217,119,87,0.2);
+  }
+  .modal-inner .caveats h4 { margin: 0 0 0.6rem; color: var(--orange); }
+  .modal-inner .caveats ul {
+    margin: 0; padding-left: 1.3rem; color: var(--dark); font-size: 0.95rem;
+  }
+  .modal-inner .caveats li { margin-bottom: 0.4rem; line-height: 1.55; }
+  .modal-inner .source-row {
+    display: flex; gap: 0.75rem; flex-wrap: wrap;
+    margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line);
+  }
+  .modal-inner .source-row a {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    padding: 0.55rem 1rem; background: var(--light); border: 1px solid var(--line);
+    border-radius: 6px; color: var(--dark); font-size: 0.92rem;
+    font-family: var(--ff-head); text-decoration: none;
+  }
+  .modal-inner .source-row a:hover { border-color: var(--orange); background: var(--card); }
+  .modal-inner .source-row a.primary { background: var(--orange); color: var(--light); border-color: var(--orange); font-weight: 600; }
+  .modal-inner .source-row a.primary:hover { background: var(--dark); border-color: var(--dark); }
+  .modal-inner .pdf-frame {
+    width: 100%; height: 580px; border: 1px solid var(--line);
+    border-radius: 6px; margin-top: 1.2rem; background: #f4f3ec;
+  }
 
-  .empty { padding: 3rem 1.25rem; text-align: center; color: var(--dim); }
+  .empty { padding: 4rem 1.75rem; text-align: center; color: var(--soft); font-style: italic; }
 
-  footer.site { padding: 2rem 1.25rem; border-top: 1px solid var(--line); color: var(--dim); font-size: 0.85rem; text-align: center; }
-  footer.site a { color: var(--soft); }
-  footer.site .donate { display: inline-block; margin: 1rem 0; padding: 0.55rem 1.2rem; background: var(--accent); color: #000; border-radius: 6px; font-weight: 600; }
-  footer.site .donate:hover { text-decoration: none; opacity: 0.9; }
+  /* FOOTER */
+  footer.site p { margin: 0 0 0.6rem; }
+  footer.site .small { font-size: 0.82rem; opacity: 0.8; max-width: 60ch; margin: 0.5rem auto 0; }
 
   @media (max-width: 600px) {
-    .grid { grid-template-columns: 1fr; padding: 0.75rem; }
+    .hero { padding: 2rem 1.25rem 1rem; }
+    .hero h2 { font-size: 1.7rem; }
+    .stat-row { padding: 0 1.25rem 1.5rem; gap: 1.1rem; font-size: 0.85rem; }
+    .filters { padding: 0.85rem 1.25rem; top: 60px; }
+    .grid { grid-template-columns: 1fr; padding: 1rem; gap: 0.85rem; }
+    .modal { padding: 0; }
     .modal-inner { margin: 0; border-radius: 0; }
-    .modal-inner .body { padding: 1.25rem 1.1rem 1.5rem; }
-    .modal-inner h2 { font-size: 1.25rem; }
+    .modal-inner .body { padding: 1.5rem 1.25rem 2rem; }
+    .modal-inner h2 { font-size: 1.35rem; padding-right: 2.5rem; }
     .modal-inner .pdf-frame { height: 70vh; }
+    header.site { top: 0; position: static; }
+    .filters { top: 0; }
   }
 </style>
 </head>
 <body>
 <header class="site">
-  <h1>UAP Files</h1>
+  <h1><a href="index.html">UAP Files</a></h1>
   <span class="tag">declassified, translated, source-cited</span>
   <nav>
-    <a href="#corpus">corpus</a>
+    <a href="index.html" class="active">corpus</a>
     <a href="about.html">about</a>
     <a href="methodology.html">methodology</a>
+    <a href="corrections.html">corrections</a>
     <a href="donate.html">support</a>
-    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank">source ↗</a>
+    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">source ↗</a>
   </nav>
 </header>
 
 <section class="hero">
   <h2>The full US government UAP disclosure, in plain English.</h2>
-  <p>Every document on <a href="https://www.war.gov/UFO/" target="_blank">war.gov/UFO/</a> read, translated, and source-cited. Free, neutral, every claim verifiable against the original PDF. Multi-agent QA pipeline ensures nothing fabricated. <a href="methodology.html">How it works →</a></p>
+  <p>Every document on <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">war.gov/UFO/</a> read, translated, and source-cited. Free, neutral, and verifiable against the original PDF.</p>
+  <p><span class="accent">Multi-agent QA pipeline</span> ensures nothing fabricated. <a href="methodology.html">How it works →</a></p>
 </section>
 
 <div class="stat-row" id="stats">loading…</div>
 
 <div class="filters">
-  <input id="q" placeholder="search title, body, location, agency…" autocomplete="off">
-  <select id="f-agency"><option value="">all agencies</option></select>
-  <select id="f-tier"><option value="">all tiers</option><option value="green">green: high confidence</option><option value="amber">amber: partial</option></select>
-  <select id="f-sort"><option value="date">most recent first</option><option value="title">title A–Z</option><option value="agency">agency</option></select>
+  <input id="q" placeholder="search title, body, location, agency…" autocomplete="off" aria-label="Search documents">
+  <select id="f-agency" aria-label="Filter by agency"><option value="">all agencies</option></select>
+  <select id="f-tier" aria-label="Filter by tier"><option value="">all tiers</option><option value="green">verified</option><option value="amber">partial</option></select>
+  <select id="f-sort" aria-label="Sort"><option value="date">most recent first</option><option value="title">title A–Z</option><option value="agency">agency</option></select>
   <span class="count" id="count">0 docs</span>
 </div>
 
 <section id="corpus" class="grid"><div class="empty">loading documents…</div></section>
 
-<div class="modal" id="modal">
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
   <div class="modal-inner">
-    <button class="modal-close" id="modal-close" aria-label="close">×</button>
     <div class="body" id="modal-body">loading…</div>
   </div>
 </div>
 
 <footer class="site">
-  <p>UAP Files is a free public archive translating government UAP documents into plain English. Every claim is source-cited; you can verify any of them against the original PDF.</p>
+  <p>UAP Files is a free public archive translating government UAP documents into plain English.</p>
   <p><a class="donate" href="donate.html">Support this project</a></p>
-  <p style="margin-top: 1.5rem;">Sources: <a href="https://www.war.gov/UFO/" target="_blank">war.gov/UFO/</a> · <a href="https://www.aaro.mil/" target="_blank">aaro.mil</a> (coming) · <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank">code + manifest</a></p>
-  <p style="font-size: 0.8rem; opacity: 0.7;">UAP Files makes no claims about the nature of the phenomena described. We translate documents; you decide what they mean.</p>
+  <p class="small">Sources: <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">war.gov/UFO/</a> · <a href="https://www.aaro.mil/" target="_blank" rel="noopener">aaro.mil</a> · <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">code + manifest</a></p>
+  <p class="small">UAP Files makes no claims about the nature of the phenomena described. We translate documents; you decide what they mean.</p>
 </footer>
 
 <script>
@@ -162,13 +261,8 @@ async function loadAll() {
   const map = new Map();
   for (const r of raw) if (r.sha256 && !map.has(r.sha256)) map.set(r.sha256, r);
   corpus = [...map.values()];
-
-  // Try to load QA-verified outputs for each doc
   await Promise.all(corpus.map(async d => {
-    try {
-      const r = await fetch(`extract/public/${d.sha256}.json`);
-      if (r.ok) qaIndex.set(d.sha256, await r.json());
-    } catch {}
+    try { const r = await fetch(`extract/public/${d.sha256}.json`); if (r.ok) qaIndex.set(d.sha256, await r.json()); } catch {}
   }));
 }
 
@@ -185,7 +279,7 @@ function renderStats() {
     <span><strong>${total}</strong> documents</span>
     <span><strong>${pdfCount}</strong> PDFs · <strong>${vidCount}</strong> videos · <strong>${imgCount}</strong> images</span>
     <span><strong>${verified}</strong> verified · <strong>${partial}</strong> partial · <strong>${total-verified-partial}</strong> awaiting QA</span>
-    <span>source: <a href="https://www.war.gov/UFO/" target="_blank">war.gov/UFO/</a></span>
+    <span>source: <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">war.gov/UFO/</a></span>
   `;
 }
 
@@ -223,10 +317,10 @@ function renderGrid() {
     const qa = qaIndex.get(d.sha256);
     const tier = qa?.tier;
     const headline = qa?.public_headline || d.title || d.name;
-    const tldr = qa?.public_tldr || (d.description || '').slice(0, 200);
+    const tldr = qa?.public_tldr || (d.description || '').slice(0, 220);
     const tierBadge = tier === 'green' ? '<span class="badge tier-green">verified</span>'
       : tier === 'amber' ? '<span class="badge tier-amber">partial</span>'
-      : '<span class="badge" style="opacity:0.5;">awaiting QA</span>';
+      : '<span class="badge" style="opacity:0.55;">awaiting QA</span>';
     const typeBadge = d.type === 'VID' ? '<span class="badge">video</span>'
       : d.type === 'IMG' ? '<span class="badge">image</span>'
       : '';
@@ -235,14 +329,13 @@ function renderGrid() {
         <span class="badge agency-${agencyShort(d.agency)}">${escapeHtml(agencyShort(d.agency))}</span>
         ${tierBadge}
         ${typeBadge}
-        ${d.source && d.source !== 'war.gov' ? `<span class="badge source">${escapeHtml(sourceLabel(d.source))}</span>` : ''}
       </div>
       <h3>${escapeHtml(headline)}</h3>
       <p class="tldr">${escapeHtml(tldr.slice(0, 240))}${tldr.length>240?'…':''}</p>
       <div class="footer">
         ${d.incident_date && d.incident_date!=='N/A' ? `<span>📅 ${escapeHtml(d.incident_date)}</span>` : ''}
         ${d.incident_location && d.incident_location!=='N/A' ? `<span>📍 ${escapeHtml(d.incident_location)}</span>` : ''}
-        <span>${fmt(d.bytes)}</span>
+        <span style="margin-left:auto;">${fmt(d.bytes)}</span>
       </div>
     </article>`;
   }).join('');
@@ -266,16 +359,14 @@ function openDoc(d) {
   const keyFacts = qa?.key_facts || [];
 
   body.innerHTML = `
-    <h2>${escapeHtml(headline)}</h2>
+    <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+    <h2 id="modal-title">${escapeHtml(headline)}</h2>
     <p class="meta">
       <strong>${escapeHtml(d.agency || '')}</strong>
       ${d.incident_date && d.incident_date !== 'N/A' ? ' · ' + escapeHtml(d.incident_date) : ''}
       ${d.incident_location && d.incident_location !== 'N/A' ? ' · ' + escapeHtml(d.incident_location) : ''}
       ${qa?.tier ? ' · <span class="badge tier-' + qa.tier + '">' + qa.tier + '</span>' : ''}
       ${d.source && d.source !== 'war.gov' ? ' · source: ' + escapeHtml(sourceLabel(d.source)) : ''}
-    </p>
-    <p class="meta" style="font-size: 0.78rem;">
-      <a href="https://github.com/omgitzyeoku-collab/UFO/issues/new?template=correction.yml&title=%5BCorrection%5D+${encodeURIComponent((d.title||d.name||'').slice(0,80))}&labels=correction" target="_blank" style="color: var(--dim);">⚠ report an error in this summary</a>
     </p>
     ${tldr ? `<div class="tldr">${escapeHtml(tldr)}</div>` : ''}
     ${narrative ? `<div class="narrative">${narrative.split('\n\n').map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>`
@@ -285,7 +376,7 @@ function openDoc(d) {
       <h4>Key facts (verified against source)</h4>
       <dl>${keyFacts.map(f => `
         <dt class="conf-${f.confidence}">${escapeHtml(f.field)}</dt>
-        <dd class="conf-${f.confidence}">${escapeHtml(f.value)}${f.confidence==='amber' ? ' <span class="verify-link">(partial citation)</span>' : ''}</dd>
+        <dd class="conf-${f.confidence}">${escapeHtml(f.value)}</dd>
       `).join('')}</dl>
     </div>` : ''}
 
@@ -295,14 +386,15 @@ function openDoc(d) {
     </div>` : ''}
 
     <div class="source-row">
-      <a href="${escapeAttr(d.release_url)}" target="_blank">↓ original ${isVid ? 'video' : isPdf ? 'PDF' : 'file'} (${fmt(d.bytes)})</a>
-      ${d.url ? `<a href="${escapeAttr(d.url)}" target="_blank">→ source on war.gov</a>` : ''}
-      <a href="https://github.com/omgitzyeoku-collab/UFO/blob/master/extract/text/${d.sha256}.txt" target="_blank" style="color: var(--dim);">extracted text</a>
+      <a class="primary" href="${escapeAttr(d.release_url)}" target="_blank" rel="noopener">↓ Original ${isVid ? 'video' : isPdf ? 'PDF' : 'file'} (${fmt(d.bytes)})</a>
+      ${d.url ? `<a href="${escapeAttr(d.url)}" target="_blank" rel="noopener">→ Source on war.gov</a>` : ''}
+      <a href="https://github.com/omgitzyeoku-collab/UFO/issues/new?template=correction.yml&title=%5BCorrection%5D+${encodeURIComponent((d.title||d.name||'').slice(0,80))}&labels=correction" target="_blank" rel="noopener">⚠ Report an error</a>
     </div>
 
     ${isPdf ? `<iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(d.release_url)}" loading="lazy" title="${escapeAttr(headline)}"></iframe>` : ''}
     ${isVid ? `<video class="pdf-frame" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
   `;
+  document.getElementById('modal-close').addEventListener('click', closeDoc);
   document.getElementById('modal').classList.add('open');
   history.replaceState(null, '', '#doc/' + d.sha256);
   document.body.style.overflow = 'hidden';
@@ -314,14 +406,13 @@ function closeDoc() {
   document.body.style.overflow = '';
 }
 
-document.getElementById('modal-close').addEventListener('click', closeDoc);
 document.getElementById('modal').addEventListener('click', e => { if (e.target.id === 'modal') closeDoc(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDoc(); });
 
 (async () => {
   try { await loadAll(); }
   catch (e) {
-    document.getElementById('corpus').innerHTML = `<div class="empty" style="color: var(--danger);">load failed: ${escapeHtml(e.message)}</div>`;
+    document.getElementById('corpus').innerHTML = `<div class="empty" style="color: var(--orange);">load failed: ${escapeHtml(e.message)}</div>`;
     return;
   }
   renderStats();
@@ -331,7 +422,6 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDoc(); 
   }
   for (const id of ['q','f-agency','f-tier','f-sort']) document.getElementById(id).addEventListener('input', renderGrid);
   renderGrid();
-  // Deep link via #doc/<sha>
   const m = location.hash.match(/^#doc\/([a-f0-9]+)/);
   if (m) { const d = corpus.find(x => x.sha256.startsWith(m[1])); if (d) openDoc(d); }
 })();

@@ -4,23 +4,27 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Methodology — UAP Files</title>
+<meta name="description" content="The full multi-agent QA pipeline that takes a war.gov PDF to a plain-English public summary, end-to-end." />
 <link rel="stylesheet" href="page.css">
 </head>
 <body>
 <header class="site">
-  <h1><a href="index.html" style="color:inherit;text-decoration:none;">UAP Files</a></h1>
+  <h1><a href="index.html">UAP Files</a></h1>
+  <span class="tag">declassified, translated, source-cited</span>
   <nav>
     <a href="index.html">corpus</a>
     <a href="about.html">about</a>
     <a href="methodology.html" class="active">methodology</a>
+    <a href="corrections.html">corrections</a>
     <a href="donate.html">support</a>
-    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank">source ↗</a>
+    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">source ↗</a>
   </nav>
 </header>
+
 <main class="prose">
   <h1>Methodology</h1>
 
-  <p>This page describes exactly how a document goes from "PDF on war.gov" to "plain-English summary on UAP Files." The pipeline is auditable — every step is open-source code in the <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank">project repo</a>.</p>
+  <p>This page describes exactly how a document goes from "PDF on war.gov" to "plain-English summary on UAP Files." The pipeline is auditable — every step is open-source code in the <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">project repo</a>.</p>
 
   <h2>1. Acquisition</h2>
   <p>A web crawler pulls the document index (a CSV file) from war.gov, then downloads each PDF, video, and image referenced. Every download is hashed (SHA-256) and stored content-addressably. We never alter the source files.</p>
@@ -64,12 +68,13 @@
   <p>A daily scheduled task checks war.gov/UFO/ for new content. When a new tranche drops, the pipeline runs on the new documents within 24 hours. Re-redactions of previously-released documents (where a document gets re-released with different redactions) are detected by SHA-256 mismatch on the same filename, and surfaced as a separate "redaction changes" log.</p>
 
   <h2>7. The whole pipeline is open-source</h2>
-  <p>You can audit every step. The code is at <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank">github.com/omgitzyeoku-collab/UFO</a>. The QA pipeline is in <code>extract/qa-pipeline.mjs</code>. The agent prompts are in the same file — they're the most important text in the project.</p>
+  <p>You can audit every step. The code is at <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">github.com/omgitzyeoku-collab/UFO</a>. The QA pipeline is in <code>extract/qa-pipeline.mjs</code>. The agent prompts are in the same file — they're the most important text in the project.</p>
 
   <p style="margin-top: 3rem;"><a href="index.html">← back to corpus</a></p>
 </main>
+
 <footer class="site">
-  <p>UAP Files · <a href="donate.html">support</a> · <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank">github</a></p>
+  <p>UAP Files · <a href="donate.html">support</a> · <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">github</a></p>
 </footer>
 </body>
 </html>
