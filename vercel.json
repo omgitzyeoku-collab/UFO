@@ -1,0 +1,20 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "mkdir -p public/extract/text public/extract/public public/docs && cp extract/release-manifest.jsonl public/extract/ 2>/dev/null || true && cp extract/captions.jsonl public/extract/ 2>/dev/null || true && cp extract/entities.jsonl public/extract/ 2>/dev/null || true && cp extract/entities-normalised.jsonl public/extract/ 2>/dev/null || true && cp extract/entity-index.jsonl public/extract/ 2>/dev/null || true && cp extract/scores.jsonl public/extract/ 2>/dev/null || true && cp extract/evidence.jsonl public/extract/ 2>/dev/null || true && cp extract/geocoded.jsonl public/extract/ 2>/dev/null || true && cp -r extract/public/. public/extract/public/ 2>/dev/null || true && cp -r extract/text/. public/extract/text/ 2>/dev/null || true && cp docs/hypotheses.md public/docs/ 2>/dev/null || true && cp docs/cross-corpus-diff.md public/docs/ 2>/dev/null || true && cp docs/improvement-plan.md public/docs/ 2>/dev/null || true && echo 'data staged for static deploy'",
+  "outputDirectory": "public",
+  "headers": [
+    {
+      "source": "/extract/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, must-revalidate" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/(.*\\.(html|css|xml|txt))",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=60, must-revalidate" }
+      ]
+    }
+  ]
+}
