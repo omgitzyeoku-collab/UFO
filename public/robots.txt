@@ -1,8 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /extract/manifest/
+Disallow: /extract/release-manifest.jsonl
 
-# Sitemap
-Sitemap: https://omgitzyeoku-collab.github.io/UFO/sitemap.xml
+Sitemap: https://ufo-wheat.vercel.app/sitemap.xml
 
-# We're a public archive. Crawl politely.
+# UAP Files — a public archive of US government UAP/UFO disclosure files.
+# Crawl politely.
 Crawl-delay: 1
