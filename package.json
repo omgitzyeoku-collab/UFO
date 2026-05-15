@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "description": "Archival mirror, manifest, and analysis layer for war.gov/ufo/",
   "scripts": {
     "scout": "node crawler/scout.mjs",
