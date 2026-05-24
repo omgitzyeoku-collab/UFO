@@ -1,0 +1,375 @@
+{
+  "sha256": "77d911c5a67a18efe230d230b52cc6e16a69ff64ef15964cfb132300299bab2b",
+  "title": "23 F 1423",
+  "agency": "AARO",
+  "type": "PDF",
+  "incident_date": "",
+  "incident_location": "",
+  "what_is_it": "A Joint Staff GENADMIN (General Administrative Message) order establishing standardized procedures for reporting Unidentified Anomalous Phenomena (UAP) and transferring UAP-related material to AARO across all Combatant Commands and Services.",
+  "core_summary": "This May 2023 Joint Staff J3 message directs all US Combatant Commands and Military Services to report UAP incidents, incursions, and engagements worldwide using a standardized template, notify counterintelligence elements within 24 hours, and transfer all UAP data and recovered material to AARO within 30 days. It defines UAP categories (spaceborne, airborne, seaborne, transmedium), establishes reporting timelines (96 hours for incidents, 12 hours for engagements), and assigns specific tasks to geographic combatant commands and military departments.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a procedural/administrative order establishing reporting requirements, not a report of any specific UAP event or evidence.",
+    "The document's statement about 'potentially ubiquitous presence of UAP' is a policy framing assertion, not backed by specific evidence within this document.",
+    "Some contact information at the end of the document appears partially redacted.",
+    "The document establishes that UAP reporting can range up to Top Secret/SCI and Special Access Program levels, suggesting the most sensitive UAP information would not appear in publicly released documents.",
+    "The existence of standardized reporting procedures does not itself confirm that anomalous phenomena of non-human origin have been observed."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "originator",
+      "value": "Joint Staff J3, J36 Homeland Defense Division, Washington DC",
+      "source_quote": "Originator: JOINT STAFF J3 WASHINGTON DC//J36 Homeland Defense Division",
+      "citation_offset": {
+        "offset": 89,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time_group",
+      "value": "191452Z May 23",
+      "source_quote": "DTG: 1914522 May 23",
+      "citation_offset": {
+        "offset": 199,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AARO_establishment_authority",
+      "value": "Deputy Secretary of Defense Memorandum dated 15 July 2022",
+      "source_quote": "REF A is the Deputy Secretary of Defense Memorandum...directing establishment of the All-domain Anomaly Resolution Office (AARO)",
+      "citation_offset": {
+        "offset": 1408,
+        "len": 70,
+        "exact": false,
+        "matched": "irecting establishment of the All-domain Anomaly Resolution Office (AA"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "AARO_mission",
+      "value": "Detect, identify, attribute, and mitigate anomalous objects across all domains",
+      "source_quote": "detect, identify, attribute and -as necessary-mitigate anomalous and unidentified spaceborne, airborne, seaborne, and transmedium objects",
+      "citation_offset": {
+        "offset": 1485,
+        "len": 137,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP_definition",
+      "value": "Sources of anomalous detections not yet attributable to known actors demonstrating behaviors not readily understood",
+      "source_quote": "sources of anomalous detections in one or more domain...that are not yet attributable to known actors and that demonstrate behaviors not readily understood by sensors or observers",
+      "citation_offset": {
+        "offset": 7887,
+        "len": 100,
+        "exact": false,
+        "matched": " are not yet attributable to known actors and that demonstrate behaviors not readily understood by s"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "incident_report_deadline",
+      "value": "96 hours after event",
+      "source_quote": "UAP INCIDENT AND INCURSION REPORTS are completed and securely transmitted...no later than 96 hours after the event",
+      "citation_offset": {
+        "offset": 11459,
+        "len": 70,
+        "exact": false,
+        "matched": "UAP INCIDENT AND INCURSION REPORTS are completed and securely transmit"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "engagement_report_deadline",
+      "value": "12 hours after event",
+      "source_quote": "UAP ENGAGEMENT REPORTS are completed and securely transmitted...no later than 12 hours after the event",
+      "citation_offset": {
+        "offset": 11886,
+        "len": 60,
+        "exact": false,
+        "matched": "UAP ENGAGEMENT REPORTS are completed and securely transmitte"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "counterintelligence_notification_deadline",
+      "value": "Within 24 hours of UAP incident",
+      "source_quote": "notify their respective counterintelligence element as soon as practicable and within 24 hours of a UAP incident",
+      "citation_offset": {
+        "offset": 15941,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "data_transfer_deadline",
+      "value": "30 days after UAP incident",
+      "source_quote": "securely transfer UAP DATA to the appropriate location(s)...no later than 30 days after a UAP incident",
+      "citation_offset": {
+        "offset": 16941,
+        "len": 55,
+        "exact": false,
+        "matched": "securely transfer UAP DATA to the appropriate location("
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "material_transfer_deadline",
+      "value": "30 days after event",
+      "source_quote": "UAP OBJECTS AND MATERIAL are secured...and are transferred to appropriate location(s)...no later than 30 days after the event",
+      "citation_offset": {
+        "offset": 18548,
+        "len": 45,
+        "exact": false,
+        "matched": "nd are transferred to appropriate location(s)"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "AARO_reporting_email_NIPR",
+      "value": "osd.pentagon.ousd-intel-sec.mbx.aaro@mail.mil",
+      "source_quote": "NIPR email at osd.pentagon.ousd-intel-sec.mbx.aaro@mail.mil",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "AARO_phone",
+      "value": "783-693-3810",
+      "source_quote": "Comm: 783-693-3810, SVOIP 302-221-3806, TSVoIP: 982-0521",
+      "citation_offset": {
+        "offset": 26117,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "national_security_implications",
+      "value": "Operational hazards, technological/intelligence surprise, adversaries' strategic miscalculations",
+      "source_quote": "range from operational hazards and threats to technological and intelligence surprise to adversaries' strategic miscalculations",
+      "citation_offset": {
+        "offset": 4193,
+        "len": 127,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP_described_as",
+      "value": "Potentially ubiquitous presence",
+      "source_quote": "The potentially ubiquitous presence of UAP defines the national security implications",
+      "citation_offset": {
+        "offset": 4081,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "transmedium_definition",
+      "value": "Sources of anomalous detections that transit more than one domain",
+      "source_quote": "TRANSMEDIUM UAP are sources of anomalous detections that transit more than one domain",
+      "citation_offset": {
+        "offset": 8643,
+        "len": 75,
+        "exact": false,
+        "matched": "M UAP are sources of anomalous detections that transit more than one domain"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Karman_Line_definition",
+      "value": "100km above Earth's mean sea level (boundary between airborne and spaceborne)",
+      "source_quote": "above the Karman Line (i.e., 100km above Earth's mean sea level)",
+      "citation_offset": {
+        "offset": 8342,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "funding",
+      "value": "Joint Staff will not provide funding",
+      "source_quote": "FUNDING. The Joint Staff will not provide funding.",
+      "citation_offset": {
+        "offset": 24369,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Washington DC",
+    "MacDill AFB FL",
+    "Stuttgart GE",
+    "Peterson AFB CO",
+    "Honolulu HI",
+    "Colorado Springs CO",
+    "Vaihingen GE",
+    "Miami FL",
+    "Scott AFB IL",
+    "Offutt AFB NE",
+    "Fort George G Meade MD",
+    "Alaska",
+    "Hawaii",
+    "Guam"
+  ],
+  "dated_events": [
+    "191452Z May 23",
+    "15JUL22",
+    "20JUL22",
+    "172100ZDEC21",
+    "30DEC11",
+    "1OCT20",
+    "26APR17"
+  ],
+  "objects_described": [
+    "UAP (spaceborne, airborne, seaborne, transmedium)",
+    "small unmanned aircraft systems (sUAS)",
+    "UAP objects (corporeal artifacts)",
+    "UAP material (debris/samples)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The US Government has observed UAP in or near the territory and operating areas of the United States, its allies, and its adversaries",
+      "source_quote": "The US Government has observed UAP in or near the territory and/or operating areas of the United States, of its allies, and of its adversaries",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3798,
+        "len": 142,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Observing, identifying, and mitigating UAP has become a growing priority for US policymakers, lawmakers, and warfighters",
+      "source_quote": "observing, identifying, and potentially mitigating UAP has become a growing priority for us policymakers, lawmakers, and warfighters",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3946,
+        "len": 100,
+        "exact": false,
+        "matched": "observing, identifying, and potentially mitigating UAP has become a growing priority for us policyma"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO was established by Deputy Secretary of Defense memorandum on 15 July 2022",
+      "source_quote": "REF A is the Deputy Secretary of Defense Memorandum...directing establishment of the All-domain Anomaly Resolution Office (AARO)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1408,
+        "len": 70,
+        "exact": false,
+        "matched": "irecting establishment of the All-domain Anomaly Resolution Office (AA"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "UAP engagement is defined as a kinetic or non-kinetic response intended to deny, disrupt, or destroy the phenomenon",
+      "source_quote": "A UAP ENGAGEMENT is a kinetic or non-kinetic response to a UAP, intended to deny, disrupt, or destroy the phenomenon and/or its object(s)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9858,
+        "len": 100,
+        "exact": false,
+        "matched": "A UAP ENGAGEMENT is a kinetic or non-kinetic response to a UAP, intended to deny, disrupt, or destro"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "UAP anomalous detections include phenomena that demonstrate capabilities or material exceeding known performance envelopes",
+      "source_quote": "include but are not limited to phenomena that demonstrate apparent capabilities or material that exceed known performance envelopes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8031,
+        "len": 90,
+        "exact": false,
+        "matched": "include but are not limited to phenomena that demonstrate apparent capabilities or materia"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Health effects from UAP encounters shall not be transmitted with the UAP report but retained in medical records",
+      "source_quote": "Details of UAP-related health incidents (e.g., physiological, psychological effects and whether persistent or transitory) will be retained in service members' medical records but shall not/not be transmitted with the UAP report",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11645,
+        "len": 227,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "DoD counterintelligence elements assess reported UAP for foreign intelligence attribution",
+      "source_quote": "DoD counterintelligence elements assess reported UAP for foreign intelligence attribution and conduct their related operational and investigative activities",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 16202,
+        "len": 156,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reporting template includes a field for whether UAP objects appear to be under intelligent control",
+      "source_quote": "UAP OBJECT(S) UNDER APPARENT INTELLIGENT CONTROL (yes/no; if yes, describe)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 13802,
+        "len": 50,
+        "exact": false,
+        "matched": "UAP OBJECT(S) UNDER APPARENT INTELLIGENT CONTROL ("
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "UAP interrogation methods include electro-optical, infrared, radar, lidar, electromagnetic, gravitational, and radioactive means",
+      "source_quote": "UAP INTERROGATION is the elicitation of UAP location, capabilities, characteristics, and/or intent using passive and/or active sensing capabilities-including but not limited to electro-optical/imagery, infrared/thermal, radiofrequency/radar, light/laser/lidar/ladar, electromagnetic, gravitational, and radioactive means",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10011,
+        "len": 100,
+        "exact": false,
+        "matched": "UAP INTERROGATION is the elicitation of UAP location, capabilities, characteristics, and/or intent u"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 6,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-24T22:17:30.575Z",
+  "qa_completed_at": "2026-05-24T22:19:01.701Z",
+  "timing": {
+    "A": "53.9s",
+    "B": "37.2s",
+    "E": "30.0s"
+  },
+  "public_headline": "Pentagon Orders All Military Branches to Report UAP Under Standardized Rules",
+  "public_tldr": "A May 2023 Joint Staff order directs every US Combatant Command and Military Service to report Unidentified Anomalous Phenomena (UAP) using a standardized template, notify counterintelligence within 24 hours, and transfer all UAP data and recovered material to the All-domain Anomaly Resolution Office (AARO) within 30 days. This is an administrative directive establishing procedures, not a report of any specific UAP event.",
+  "public_narrative": "In May 2023, the Joint Staff J3 Homeland Defense Division in Washington DC issued a military-wide order setting out exactly how every branch of the US armed forces must report encounters with Unidentified Anomalous Phenomena — the official term for what were previously called UFOs. The order was sent to all Combatant Commands and Military Services, covering operations worldwide.\n\nThe document defines four categories of UAP: spaceborne (above the Kármán Line, 100 km altitude), airborne, seaborne, and transmedium — meaning objects that move across more than one of these domains. It describes UAP as sources of anomalous detections not yet attributable to known actors that demonstrate behaviors not readily understood by sensors or observers, and notes they may include phenomena that exceed known performance envelopes. The order states that the US Government has observed UAP in or near the territory and operating areas of the United States, its allies, and its adversaries, and describes their potentially ubiquitous presence as a national security concern involving operational hazards, technological surprise, and the risk of adversaries' strategic miscalculations.\n\nThe directive sets strict reporting timelines: UAP incidents and incursions must be reported within 96 hours, while engagements — defined as kinetic or non-kinetic responses intended to deny, disrupt, or destroy a phenomenon — must be reported within 12 hours. Counterintelligence elements must be notified within 24 hours. All UAP data and any recovered material must be transferred to AARO within 30 days. The reporting template includes a field asking whether objects appear to be under intelligent control. Notably, any health effects from UAP encounters are to be kept in service members' medical records and explicitly excluded from the UAP report itself.\n\nAARO, the All-domain Anomaly Resolution Office, was established by a Deputy Secretary of Defense memorandum on 15 July 2022 with a mission to detect, identify, attribute, and mitigate anomalous objects across all domains. The Joint Staff order explicitly states it will not provide funding for these activities. Some contact information at the end of the document appears partially redacted, and the order notes that UAP reporting can be classified up to Top Secret/SCI and Special Access Program levels.",
+  "public_caveats": [
+    "This is a procedural order establishing reporting requirements — it is not a report of any specific UAP sighting, recovery, or evidence of non-human technology.",
+    "The document's language about the 'potentially ubiquitous presence of UAP' is a policy framing statement within the order, not a conclusion backed by specific evidence presented in the document itself.",
+    "The existence of standardized reporting procedures, categories like 'transmedium,' or template fields asking about 'intelligent control' does not by itself confirm that such phenomena have actually been observed.",
+    "The order states that the most sensitive UAP information can be classified up to Top Secret/SCI and Special Access Program levels, meaning the most significant material would not appear in publicly released documents.",
+    "Some contact information is partially redacted, though overall redaction in this document is minimal."
+  ]
+}

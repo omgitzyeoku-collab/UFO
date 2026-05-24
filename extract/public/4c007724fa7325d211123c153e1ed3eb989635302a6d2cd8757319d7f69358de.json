@@ -1,0 +1,195 @@
+{
+  "sha256": "4c007724fa7325d211123c153e1ed3eb989635302a6d2cd8757319d7f69358de",
+  "title": "DOE-UAP-D001, Enhanced PANTEX Imagery",
+  "agency": "Department of Energy",
+  "type": "PDF",
+  "what_is_it": "An incident report containing enhanced surveillance imagery of an unidentified object observed at the Pantex nuclear weapons facility.",
+  "core_summary": "This is a Pantex Unidentified Object Incident Report documenting an object captured by a ground surveillance radar tower. The report includes enhanced images of the object produced by Sandia National Laboratories. The document is marked UCNI (Unclassified Controlled Nuclear Information) and is almost entirely redacted, with only page headers and image captions visible.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "extreme",
+  "interpretation_warnings": [
+    "Extreme redaction: only page headers and section titles survived extraction; all imagery and narrative content is withheld under the UCNI exemption.",
+    "Only pages 5 and 6 of a 6-page report are represented; the first four pages are entirely absent from the extracted text.",
+    "No date, time, description of the object, or observational details are available due to redactions.",
+    "The OCR quality is poor — entity names are garbled (e.g. 'Comolnaittd NéidHr SNunly' for 'Consolidated Nuclear Security'), so minor textual errors may exist.",
+    "The involvement of Sandia National Labs for image enhancement suggests the incident was taken seriously enough to warrant inter-laboratory analysis, but no conclusions are visible.",
+    "UCNI is a DOE-specific control marking for nuclear security information; its use here indicates the object was observed in the context of nuclear facility security."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Facility",
+      "value": "Pantex Plant (DOE nuclear weapons assembly/disassembly facility)",
+      "source_quote": "Pantex Unidentified Object Incident Report",
+      "citation_offset": {
+        "offset": 54,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report type",
+      "value": "Unidentified Object Incident Report",
+      "source_quote": "Pantex Unidentified Object Incident Report",
+      "citation_offset": {
+        "offset": 54,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Imagery source",
+      "value": "Ground Surveillance Radar Tower",
+      "source_quote": "Image from Ground Surveillance Radar Tower",
+      "citation_offset": {
+        "offset": 128,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Image enhancement by",
+      "value": "Sandia National Laboratories",
+      "source_quote": "Sandia National Labs Enhanced Images of the Object",
+      "citation_offset": {
+        "offset": 316,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Security contractor",
+      "value": "Consolidated Nuclear Security, LLC",
+      "source_quote": "Comolnaittd N�idHr SNunly, LlC",
+      "citation_offset": {
+        "offset": 97,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Classification marking",
+      "value": "UCNI (Unclassified Controlled Nuclear Information)",
+      "source_quote": "UCNI",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Exemption cited",
+      "value": "(b)(3) UCNI",
+      "source_quote": "(bX3) (UCNI)",
+      "citation_offset": {
+        "offset": 173,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Pages visible",
+      "value": "Pages 5 and 6 of a 6-page report",
+      "source_quote": "Page 5 of 6",
+      "citation_offset": {
+        "offset": 197,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Pantex",
+    "Sandia National Labs"
+  ],
+  "dated_events": [],
+  "objects_described": [
+    "Unidentified object observed from ground surveillance radar tower"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "An unidentified object was observed and documented at the Pantex nuclear facility",
+      "source_quote": "Pantex Unidentified Object Incident Report",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 54,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was captured on imagery from a ground surveillance radar tower",
+      "source_quote": "Image from Ground Surveillance Radar Tower",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 128,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Sandia National Laboratories performed image enhancement on the captured imagery",
+      "source_quote": "Sandia National Labs Enhanced Images of the Object",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 316,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was prepared by or for Consolidated Nuclear Security, LLC, which operates Pantex",
+      "source_quote": "Comolnaittd N�idHr SNunly, LlC",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 97,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The imagery content is withheld under the (b)(3) UCNI exemption",
+      "source_quote": "(bX3) (UCNI)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 173,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-24T22:30:18.664Z",
+  "qa_completed_at": "2026-05-24T22:31:02.553Z",
+  "timing": {
+    "A": "24.8s",
+    "B": "19.1s",
+    "E": "33.6s"
+  },
+  "public_headline": "DOE Report Documents Unidentified Object at Pantex Nuclear Weapons Plant",
+  "public_tldr": "The Department of Energy released a heavily redacted incident report documenting an unidentified object observed at the Pantex nuclear weapons facility in Texas. The imagery was captured by a ground surveillance radar tower and enhanced by Sandia National Laboratories, but nearly all content — including the images themselves — is withheld under a nuclear security exemption.",
+  "public_narrative": "This document is a \"Pantex Unidentified Object Incident Report\" from the Department of Energy. Pantex is the United States' primary nuclear weapons assembly and disassembly facility, operated by Consolidated Nuclear Security, LLC. The report documents an object that was captured on imagery from a ground surveillance radar tower at the plant.\n\nThe imagery was considered significant enough that Sandia National Laboratories — a major federal research lab — was brought in to produce enhanced images of the object. That inter-laboratory involvement suggests the incident was taken seriously within the DOE's nuclear security apparatus.\n\nHowever, the document is almost entirely redacted. Only pages 5 and 6 of the six-page report are represented in the released version, and even those pages contain little beyond page headers and image captions. All imagery, narrative descriptions, dates, and conclusions have been withheld under the (b)(3) UCNI exemption — \"Unclassified Controlled Nuclear Information,\" a DOE-specific classification used to protect nuclear security details.\n\nNo date or time for the incident is available. No description of the object's appearance, behavior, or size survives the redactions. The document tells us that something was seen, that it was documented and analyzed, but nothing about what it was or what the DOE concluded about it.",
+  "public_caveats": [
+    "The report is almost entirely redacted: no imagery, no narrative, no dates, and no conclusions are visible in the released version.",
+    "Only 2 of 6 pages are represented; the first four pages are completely absent from the extracted text.",
+    "The UCNI exemption protects nuclear security information — redactions may reflect facility security concerns rather than the nature of the object itself.",
+    "OCR quality on the surviving text is poor, meaning some entity names were garbled and minor textual errors may exist in the source extraction.",
+    "No named witnesses, no physical description of the object, and no corroborating documents have been identified — this is a single-source record with almost no readable content."
+  ]
+}

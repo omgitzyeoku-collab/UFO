@@ -1,0 +1,264 @@
+{
+  "sha256": "b2a95e87f3853a55d837ea6124411c61a600462540a190c2f10e9d2153666d3a",
+  "title": "DD 3212",
+  "agency": "AARO",
+  "type": "PDF",
+  "incident_date": "",
+  "incident_location": "",
+  "what_is_it": "Official U.S. Department of Defense reporting form (DD Form 3212) used by the All-domain Anomaly Resolution Office (AARO) to collect testimony from government insiders with firsthand knowledge of UAP-related programs or activities.",
+  "core_summary": "DD Form 3212 is a standardized intake form created by AARO for current or former U.S. government employees, service members, and contractors to report firsthand knowledge of government programs or activities related to Unidentified Anomalous Phenomena (UAP) dating back to 1945. The form collects contact information, employment details, security clearance status, and basic program involvement data as an initial point of contact, with explicit legal protections against reprisal and NDA enforcement for those who report. It is unclassified and expressly prohibits submission of classified or controlled information.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a blank reporting form, not a case file or investigation result — it contains no UAP incident data or findings.",
+    "The form is designed only for initial contact; classified or sensitive details are explicitly excluded from this channel.",
+    "General public sightings are not accepted through this form — only government/military/contractor insiders with firsthand program knowledge.",
+    "The form's existence and legal protections do not themselves confirm or deny any specific UAP programs."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Form designation",
+      "value": "DD Form 3212, April 2024",
+      "source_quote": "DD FORM 3212, APRIL 2024",
+      "citation_offset": {
+        "offset": 6973,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "OMB Control Number",
+      "value": "0704-0674, expires 2027-04-30",
+      "source_quote": "OMB Control No. : 0704-0674 ... Exp. Date: 20270430",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Issuing office",
+      "value": "All-domain Anomaly Resolution Office (AARO)",
+      "source_quote": "All-domain Anomaly Resolution Office (AARO)",
+      "citation_offset": {
+        "offset": 0,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Eligible reporters",
+      "value": "Current or former U.S. government employees, service members, or contractor personnel with direct firsthand knowledge",
+      "source_quote": "AARO is currently accepting reports from current or former U.S. government employees, service members, or contractor personnel with direct knowledge of U.S. Government programs or activities related to UAP dating back to 1945",
+      "citation_offset": {
+        "offset": 2919,
+        "len": 225,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Historical scope",
+      "value": "UAP-related programs or activities dating back to 1945",
+      "source_quote": "programs or activities related to UAP dating back to 1945",
+      "citation_offset": {
+        "offset": 3087,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NDA override authority",
+      "value": "NDAA FY2023 Section 1673(b)(1) allows reporting without violating NDAs",
+      "source_quote": "individuals may report to AARO without fear of violating the terms of current or previous nondisclosure agreements (NDA)",
+      "citation_offset": {
+        "offset": 6590,
+        "len": 120,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Anti-reprisal protection",
+      "value": "Legal protection against personnel actions including clearance revocation or termination",
+      "source_quote": "An employee...shall not...take or fail to take...a personnel action, including the revocation or suspension of security clearances, or termination of employment...as a reprisal for any authorized disclosure",
+      "citation_offset": {
+        "offset": 9195,
+        "len": 100,
+        "exact": false,
+        "matched": " personnel action, including the revocation or suspension of security clearances, or termination of "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Submission method",
+      "value": "Email to osd.submit-to-aaro@mail.mil",
+      "source_quote": "Email the form to the following email address: osd.submit-to-aaro@mail.mil",
+      "citation_offset": {
+        "offset": 14819,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Legal authority",
+      "value": "10 U.S.C. 113; 44 U.S.C. 2107; NDAA FY2023 Section 1673 (Pub. Law 117-263)",
+      "source_quote": "AUTHORITY: 10 U.S.C. 113, Secretary of Defense; 44 U.S.C. 2107, Acceptance of Records for Historical Preservation; Section 1673 of the National Defense Authorization Act for Fiscal Year 2023",
+      "citation_offset": {
+        "offset": 936,
+        "len": 190,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP definition",
+      "value": "Airborne, transmedium, or submerged objects not immediately identifiable displaying anomalous behavior",
+      "source_quote": "Unidentified Anomalous Phenomenon (UAP) means (A) airborne objects that are not immediately identifiable; (B) transmedium objects or devices; (C) and submerged objects or devices",
+      "citation_offset": {
+        "offset": 3525,
+        "len": 178,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AARO access authority",
+      "value": "Can receive all UAP-related information regardless of special access programs or compartmented access controls",
+      "source_quote": "AARO may receive all UAP-related information, including any classified national security information, regardless of any restrictive access controls, special access programs, or compartmented access programs",
+      "citation_offset": {
+        "offset": 7018,
+        "len": 206,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "False reporting penalty",
+      "value": "Fine or imprisonment under 18 U.S.C. 1001",
+      "source_quote": "Knowing and willful false reporting can be punished by fine or imprisonment, or both (see 18 U.S.C. 1001)",
+      "citation_offset": {
+        "offset": 18616,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "General public reporting",
+      "value": "Not currently accepted; future expansion planned",
+      "source_quote": "AARO is NOT currently accepting reports of UAP sightings/encounters from the general public. In the future, reporting eligibility will be expanded to the general public",
+      "citation_offset": {
+        "offset": 5437,
+        "len": 168,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Washington"
+  ],
+  "dated_events": [
+    "APRIL 2024"
+  ],
+  "objects_described": [
+    "Unidentified Anomalous Phenomena (UAP) — airborne, transmedium, seaborne, spaceborne objects"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AARO has legal authority to receive all UAP-related information regardless of any classification controls, special access programs, or compartmented access programs.",
+      "source_quote": "AARO may receive all UAP-related information, including any classified national security information, regardless of any restrictive access controls, special access programs, or compartmented access programs",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7018,
+        "len": 206,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Authorized disclosures to AARO override existing nondisclosure agreements under NDAA FY2023.",
+      "source_quote": "An authorized disclosure shall not be subject to a nondisclosure agreement entered into by the individual who makes the disclosure",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7638,
+        "len": 130,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Individuals who disclose to AARO are legally protected from reprisal including clearance revocation or termination.",
+      "source_quote": "shall not...take or fail to take...a personnel action, including the revocation or suspension of security clearances, or termination of employment...as a reprisal for any authorized disclosure",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9194,
+        "len": 100,
+        "exact": false,
+        "matched": "a personnel action, including the revocation or suspension of security clearances, or termination of"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The form explicitly prohibits submission of classified or controlled unclassified information.",
+      "source_quote": "Please do NOT submit any information that is potentially CLASSIFIED, or unclassified information that is not publicly releasable",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4904,
+        "len": 128,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO's reporting scope covers UAP-related government programs dating back to 1945.",
+      "source_quote": "direct knowledge of U.S. Government programs or activities related to UAP dating back to 1945",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3051,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The DoD defines anomalous detections as phenomena demonstrating capabilities or material exceeding known performance envelopes.",
+      "source_quote": "phenomena that demonstrate apparent capabilities or material that exceed known performance envelopes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4318,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-24T22:21:17.553Z",
+  "qa_completed_at": "2026-05-24T22:22:23.020Z",
+  "timing": {
+    "A": "43.2s",
+    "B": "22.2s",
+    "E": "25.6s"
+  },
+  "public_headline": "Pentagon Created a Standard Form for Insiders to Report UAP Programs",
+  "public_tldr": "DD Form 3212 is a U.S. Department of Defense intake form, issued in April 2024, that lets government employees, military personnel, and contractors confidentially report firsthand knowledge of UAP-related programs dating back to 1945. It is a blank reporting template — not a case file — and contains no incident data or investigation findings.",
+  "public_narrative": "In April 2024, the All-domain Anomaly Resolution Office (AARO) published DD Form 3212, a standardized form for collecting testimony from U.S. government insiders who have direct knowledge of programs or activities related to Unidentified Anomalous Phenomena (UAP). The form is designed for current or former government employees, service members, and contractor personnel — not the general public, though the document notes public reporting may be added in the future.\n\nThe form defines UAP broadly: airborne objects not immediately identifiable, transmedium objects or devices, and submerged objects or devices that demonstrate capabilities or material exceeding known performance envelopes. AARO's scope covers government UAP-related activities going back to 1945, and the office has legal authority to receive all UAP-related information regardless of special access programs or compartmented access controls.\n\nNotably, the form includes explicit legal protections for anyone who reports. Under the National Defense Authorization Act for Fiscal Year 2023, Section 1673, individuals can report to AARO without violating existing nondisclosure agreements. The law also prohibits reprisal — including clearance revocation or termination — against those who make authorized disclosures. At the same time, knowingly filing a false report carries penalties of fine or imprisonment under 18 U.S.C. 1001.\n\nThe form itself is unclassified and expressly prohibits the submission of classified or controlled information. It collects only contact details, employment history, clearance status, and basic program involvement as an initial point of contact. Completed forms are emailed to osd.submit-to-aaro@mail.mil. Any sensitive follow-up would occur through separate, secure channels.",
+  "public_caveats": [
+    "This is a blank intake form, not a case file or investigation result — it contains zero UAP incident data or findings.",
+    "The form's existence and its legal protections do not confirm or deny any specific UAP programs.",
+    "Only government, military, and contractor insiders may use this form; general public sightings are not accepted through this channel.",
+    "Classified or sensitive details are explicitly excluded from this submission path — the form captures only initial, unclassified contact information.",
+    "No named individuals, specific incidents, or investigation conclusions appear in this document."
+  ]
+}

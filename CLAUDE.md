@@ -27,3 +27,12 @@ DuckDB (`@duckdb/node-api`), Playwright, Sharp, Tesseract.js, robots-parser.
 ## Runtime LLM
 
 `claude -p` only. No Anthropic SDK, no Ollama.
+
+## Linear
+
+Use the `linear` MCP for all tasks generated in this project.
+- Team: `Yeoku`
+- Default project: `UFO`
+- Mirror every new TaskCreate into a Linear issue immediately (title + description + priority + labels).
+- Default labels: `auto` (Claude ships without input) or `ops` (operator action), plus one of `P0`/`P1`/`P2`. Add `revenue` if applicable, `blocked` if waiting on external.
+- Run `/sync-to-linear` to bulk-mirror local TODO/BACKLOG/CLAUDE.md tasks to Linear.
