@@ -26,15 +26,23 @@ const docs = [...dedup.values()];
 const MANIFEST_DIR = path.join(ROOT, 'manifest');
 const thumbBlobBySlug = new Map();  // slug → { sha256, blob_path }
 for (const f of (await fs.readdir(MANIFEST_DIR))) {
-  if (!/^manifest-medialink-/.test(f)) continue;
+  if (!/^manifest-(medialink|release2)/.test(f)) continue;
   const lines = (await fs.readFile(path.join(MANIFEST_DIR, f), 'utf8')).trim().split('\n').filter(Boolean);
   for (const l of lines) {
     let r; try { r = JSON.parse(l); } catch { continue; }
-    if (r.kind !== 'medialink-thumb' || r.status !== 200 || !r.sha256 || !r.url) continue;
-    const m = r.url.match(/thumbnail\/([^/?]+)\.(jpg|jpeg|png)/i);
-    if (!m) continue;
-    const slug = m[1].toLowerCase();
-    if (!thumbBlobBySlug.has(slug)) thumbBlobBySlug.set(slug, { sha256: r.sha256, blob_path: r.blob_path });
+    if (r.status !== 200 || !r.sha256 || !r.url) continue;
+    // Release 1: .../thumbnail/<slug>.jpg
+    if (r.kind === 'medialink-thumb') {
+      const m = r.url.match(/thumbnail\/([^/?]+)\.(jpg|jpeg|png)/i);
+      if (!m) continue;
+      const slug = m[1].toLowerCase();
+      if (!thumbBlobBySlug.has(slug)) thumbBlobBySlug.set(slug, { sha256: r.sha256, blob_path: r.blob_path });
+    }
+    // Release 2: .../release_02/documents/<stem>.jpg pairs with .pdf of same stem
+    else if (r.kind === 'release2-image' && /\.jpe?g$/i.test(r.url)) {
+      const stem = r.url.split('/').pop().replace(/\.jpe?g$/i, '').toLowerCase();
+      if (!thumbBlobBySlug.has(stem)) thumbBlobBySlug.set(stem, { sha256: r.sha256, blob_path: r.blob_path });
+    }
   }
 }
 console.log(`thumbnail blobs found by slug: ${thumbBlobBySlug.size}`);
@@ -51,11 +59,17 @@ for (const d of docs) {
     }
   }
 
-  // Otherwise: derive slug from URL and look up thumbnail blob
+  // Otherwise: derive slug from URL and look up thumbnail blob.
+  // Try Release 1 pattern first, then Release 2 pattern.
   const url = d.url || d.release_url || '';
-  const m = url.match(/\/release_1\/([^/?]+)\.(pdf|jpg|jpeg|png|mp4)/i);
-  if (!m) { missing++; continue; }
-  const slug = m[1].toLowerCase();
+  let slug = null;
+  const m1 = url.match(/\/release_1\/([^/?]+)\.(pdf|jpg|jpeg|png|mp4)/i);
+  if (m1) slug = m1[1].toLowerCase();
+  else {
+    const m2 = url.match(/\/release_02\/documents\/([^/?]+)\.(pdf|jpg|jpeg|png|mp4)/i);
+    if (m2) slug = m2[1].toLowerCase();
+  }
+  if (!slug) { missing++; continue; }
   const tb = thumbBlobBySlug.get(slug);
   if (!tb) { missing++; continue; }
 

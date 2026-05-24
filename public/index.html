@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
 <title>UAP Files — every declassified US government UAP document, translated</title>
-<meta name="description" content="178 declassified US government UAP/UFO disclosure documents, plain-English summaries with source citations, interactive map, force-directed connection graph, and timeline. Free, no paywalls, no ads." />
+<meta name="description" content="Every declassified US government UAP/UFO file, including Release 2 (2026-05-22). 193+ documents, videos, and NASA Apollo audio recordings — plain-English summaries with source citations, interactive map, connection graph, and timeline. Free, no paywalls, no ads." />
 <link rel="canonical" href="https://ufo-wheat.vercel.app/" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ufo-wheat.vercel.app/" />
@@ -188,6 +188,33 @@
     background: rgba(217,119,87,0.32); color: var(--text); padding: 0 1px;
     border-radius: 2px; box-shadow: 0 0 0 1px rgba(217,119,87,0.3);
   }
+
+  /* === RELEASE 2 NEW BADGE + CARD ACCENT === */
+  .tag-pill.release-2-badge {
+    background: #e74c3c; color: #fff; border-color: #e74c3c;
+    font-weight: 700; letter-spacing: 0.04em;
+    animation: pulse-r2 2.4s ease-in-out infinite;
+  }
+  @keyframes pulse-r2 {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(231,76,60,0.6); }
+    50%      { box-shadow: 0 0 0 5px rgba(231,76,60,0); }
+  }
+  .card.release-2 { border-left: 3px solid #e74c3c; }
+  .card.release-2 .thumb { border-bottom-color: #e74c3c33; }
+  #f-release option[value="release_2"] { color: #e74c3c; font-weight: 600; }
+
+  /* === AUDIO PLAYER (detail panel) === */
+  .audio-player {
+    width: 100%; margin: 1rem 0 1.25rem;
+    background: var(--bg-elev-2); border: 1px solid var(--line);
+    border-radius: var(--radius-sm); padding: 0.85rem 1rem;
+  }
+  .audio-player audio { width: 100%; display: block; }
+  .audio-player .audio-meta {
+    font-family: var(--ff-mono); font-size: 0.72rem; color: var(--text-dim);
+    margin-top: 0.5rem; display: flex; gap: 0.6rem; flex-wrap: wrap;
+  }
+  .audio-player .audio-meta strong { color: var(--text-soft); font-weight: 500; }
 
   /* === SKELETON CARDS (loading state) === */
   .skel-card {
@@ -385,6 +412,15 @@
     </select>
   </div>
 
+  <h3>Release</h3>
+  <div class="filter-group">
+    <select id="f-release">
+      <option value="">All releases</option>
+      <option value="release_2">Release 2 (2026-05-22) NEW</option>
+      <option value="release_1">Release 1 (2026-05-08)</option>
+    </select>
+  </div>
+
   <h3>Filter</h3>
   <div class="filter-group">
     <select id="f-tier">
@@ -409,10 +445,12 @@
   <!-- HERO (first-visit) -->
   <div class="hero-banner" id="hero-banner">
     <button class="dismiss" id="hero-dismiss" aria-label="Dismiss">×</button>
-    <h1>178 declassified US government UAP documents,<br><span class="accent">translated into plain English.</span></h1>
-    <p>Each document on <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">war.gov/UFO/</a> + AARO is read by a 5-agent QA pipeline, summarised, source-cited, and connected to similar cases. Browse as a grid, plot on a map, or explore the connection graph linking them by shared people, places, projects, and sensor platforms.</p>
+    <div style="display:inline-block; background:#e74c3c; color:#fff; padding:0.18rem 0.55rem; border-radius:3px; font-size:0.7rem; font-weight:700; letter-spacing:0.05em; margin-bottom:0.6rem; animation: pulse-r2 2.4s ease-in-out infinite;">RELEASE 2 LIVE · 2026-05-22</div>
+    <h1>Every declassified US government UAP file,<br><span class="accent">translated into plain English.</span></h1>
+    <p>Release 2 (2026-05-22) added 64 new artefacts — 51 DOW videos, 7 NASA Apollo audio recordings, and 6 documents from DOE, CIA, ODNI. Combined with Release 1, every file on <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">war.gov/UFO/</a> is mirrored, read by a 5-agent QA pipeline, summarised, source-cited, and connected to similar cases. Browse as a grid, plot on a map, or explore the connection graph linking them by shared people, places, projects, and sensor platforms.</p>
     <div class="actions">
-      <a href="#" id="hero-show-network" class="primary">⌬ Explore the connection graph →</a>
+      <a href="?release=release_2" class="primary">▶ Browse Release 2 →</a>
+      <a href="#" id="hero-show-network">⌬ Connection graph</a>
       <a href="methodology.html">How it works</a>
       <a href="about.html">What this is, what it isn't</a>
     </div>
@@ -523,7 +561,7 @@
 <script>
 // ===================================================================== state
 let corpus = [], qaIndex = new Map(), connections = { nodes: [], edges: [] }, geocoded = {};
-let activeFilters = { source: '', tier: '', agency: null, type: null, region: null, q: '', netFilter: '' };
+let activeFilters = { source: '', release: '', tier: '', agency: null, type: null, region: null, q: '', netFilter: '' };
 let currentView = 'grid';
 let currentDetailIdx = -1, filteredDocs = [];
 let thumbCache = null;
@@ -583,7 +621,7 @@ async function loadAll() {
 // ===================================================================== url state
 function readUrlState() {
   const p = new URLSearchParams(location.search);
-  for (const k of ['source','tier','agency','type','region','q']) {
+  for (const k of ['source','release','tier','agency','type','region','q']) {
     if (p.has(k)) activeFilters[k] = p.get(k) || '';
   }
   if (p.has('view')) currentView = p.get('view');
@@ -609,6 +647,10 @@ function getFiltered() {
     if (activeFilters.source) {
       const src = d.source || 'war.gov';
       if (src.indexOf(activeFilters.source) === -1) return false;
+    }
+    if (activeFilters.release) {
+      const rel = d.release || 'release_1';
+      if (rel !== activeFilters.release) return false;
     }
     const qa = qaIndex.get(d.sha256);
     if (activeFilters.tier === 'green' && qa?.tier !== 'green') return false;
@@ -670,12 +712,14 @@ function renderSidebar() {
 
   // sync select inputs
   document.getElementById('f-source').value = activeFilters.source || '';
+  document.getElementById('f-release').value = activeFilters.release || '';
   document.getElementById('f-tier').value = activeFilters.tier || '';
 }
 
 function renderActiveFilters() {
   const chips = [];
   if (activeFilters.source) chips.push(['source', `source: ${activeFilters.source}`]);
+  if (activeFilters.release) chips.push(['release', `release: ${activeFilters.release === 'release_2' ? 'Release 2' : 'Release 1'}`]);
   if (activeFilters.tier) chips.push(['tier', `tier: ${activeFilters.tier}`]);
   if (activeFilters.agency) chips.push(['agency', `agency: ${activeFilters.agency}`]);
   if (activeFilters.type) chips.push(['type', `type: ${activeFilters.type}`]);
@@ -696,7 +740,7 @@ function renderActiveFilters() {
     });
   }
   document.getElementById('clear-all').addEventListener('click', () => {
-    activeFilters = { source: '', tier: '', agency: null, type: null, region: null, q: '', netFilter: '' };
+    activeFilters = { source: '', release: '', tier: '', agency: null, type: null, region: null, q: '', netFilter: '' };
     document.getElementById('q').value = '';
     document.getElementById('net-filter').value = '';
     writeUrlState(); renderSidebar(); renderActiveFilters(); renderCurrentView();
@@ -743,13 +787,15 @@ function renderGrid() {
       : tier === 'amber'
       ? '<span class="tag-pill tier-amber"><span class="swatch"></span>partial</span>'
       : '<span class="tag-pill faded">queued</span>';
-    return `<article class="card" data-i="${i}" data-sha="${d.sha256}">
+    return `<article class="card${d.release === 'release_2' ? ' release-2' : ''}" data-i="${i}" data-sha="${d.sha256}">
       ${thumbHtml(d.sha256)}
       <div class="body">
         <div class="card-meta">
           <span class="tag-pill agency-${agencyShort(d.agency)}"><span class="swatch"></span>${escapeHtml(agencyShort(d.agency))}</span>
           ${tierBadge}
+          ${d.release === 'release_2' ? '<span class="tag-pill release-2-badge">NEW · R2</span>' : ''}
           ${d.type === 'VID' ? '<span class="tag-pill">video</span>' : ''}
+          ${d.type === 'AUD' ? '<span class="tag-pill">audio</span>' : ''}
           ${d.type === 'IMG' ? '<span class="tag-pill">image</span>' : ''}
         </div>
         <h3>${hl(escapeHtml(headline), q)}</h3>
@@ -1117,6 +1163,15 @@ function openDetail(idx) {
 
     ${isPdf ? `<iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(d.release_url)}" loading="lazy" title="${escapeAttr(headline)}"></iframe>` : ''}
     ${isVid ? `<video class="pdf-frame" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
+    ${d.type === 'AUD' || /\.(mp3|wav|m4a|ogg)$/i.test(d.name || '') ? `
+      <div class="audio-player">
+        <audio src="${escapeAttr(d.release_url)}" controls preload="metadata"></audio>
+        <div class="audio-meta">
+          <span><strong>format</strong> ${(d.name || '').split('.').pop().toUpperCase()}</span>
+          <span><strong>size</strong> ${fmt(d.bytes)}</span>
+          ${d.dvids_id ? `<span><strong>DVIDS</strong> <a href="https://www.dvidshub.net/audio/${d.dvids_id}" target="_blank" rel="noopener">${d.dvids_id}</a></span>` : ''}
+        </div>
+      </div>` : ''}
   `;
 
   // Wire share + cite + close cite popover
@@ -1298,6 +1353,9 @@ const onSearch = debounce(() => {
 document.getElementById('q').addEventListener('input', onSearch);
 document.getElementById('f-source').addEventListener('change', (e) => {
   activeFilters.source = e.target.value; writeUrlState(); renderActiveFilters(); renderCurrentView();
+});
+document.getElementById('f-release').addEventListener('change', (e) => {
+  activeFilters.release = e.target.value; writeUrlState(); renderActiveFilters(); renderCurrentView();
 });
 document.getElementById('f-tier').addEventListener('change', (e) => {
   activeFilters.tier = e.target.value; writeUrlState(); renderActiveFilters(); renderCurrentView();
