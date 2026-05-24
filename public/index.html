@@ -189,6 +189,34 @@
     border-radius: 2px; box-shadow: 0 0 0 1px rgba(217,119,87,0.3);
   }
 
+  /* === RELEASE-3 NOTIFY STRIP === */
+  .notify-strip {
+    background: linear-gradient(90deg, rgba(217,119,87,0.12), rgba(217,119,87,0.04));
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    padding: 0.7rem 1.25rem;
+    display: flex; gap: 0.85rem; align-items: center; flex-wrap: wrap;
+    font-size: 0.85rem;
+  }
+  .notify-strip.hidden { display: none; }
+  .notify-strip strong { color: var(--accent); }
+  .notify-strip form { display: flex; gap: 0.4rem; align-items: center; margin-left: auto; }
+  .notify-strip input {
+    background: var(--bg-elev-2); border: 1px solid var(--line); color: var(--text);
+    padding: 0.4rem 0.7rem; border-radius: 4px; font: inherit; font-size: 0.85rem;
+    width: 240px;
+  }
+  .notify-strip input:focus { outline: none; border-color: var(--accent); }
+  .notify-strip button {
+    background: var(--accent); color: #141413; border: 1px solid var(--accent);
+    font-weight: 600; padding: 0.4rem 0.85rem; border-radius: 4px; cursor: pointer; font: inherit; font-size: 0.85rem;
+  }
+  .notify-strip button:hover { background: var(--accent-strong); }
+  .notify-strip .dismiss-x {
+    background: transparent; border: none; color: var(--text-dim); cursor: pointer;
+    font-size: 1rem; padding: 0.2rem 0.5rem; margin-left: 0.4rem;
+  }
+  .notify-strip .dismiss-x:hover { color: var(--text); }
+
   /* === RELEASE 2 NEW BADGE + CARD ACCENT === */
   .tag-pill.release-2-badge {
     background: #e74c3c; color: #fff; border-color: #e74c3c;
@@ -462,9 +490,27 @@
     <button data-view="network">⌬ Network</button>
     <button data-view="timeline">◴ Timeline</button>
     <span class="meta" id="result-count">—</span>
+    <div style="margin-left:auto; display:flex; gap:0.4rem; align-items:center;">
+      <label style="font-size:0.78rem; color:var(--text-dim);">Sort</label>
+      <select id="f-sort" style="background:var(--bg-elev-2); border:1px solid var(--line); color:var(--text); padding:0.3rem 0.5rem; border-radius:4px; font-size:0.8rem;">
+        <option value="newest-released">Newly released first</option>
+        <option value="incident-desc">Incident date (newest)</option>
+        <option value="incident-asc">Incident date (oldest)</option>
+        <option value="verified">Verified first</option>
+      </select>
+    </div>
   </div>
 
   <div class="active-filters" id="active-filters"></div>
+
+  <div class="notify-strip" id="notify-strip">
+    <span>⚡ <strong>Release 3 incoming.</strong> The next PURSUE drop hits war.gov on a rolling basis — we mirror within hours of release.</span>
+    <form id="notify-form" onsubmit="return saveNotify(event)">
+      <input type="email" id="notify-email" placeholder="your@email" required autocomplete="email" />
+      <button type="submit">Notify me</button>
+    </form>
+    <button class="dismiss-x" id="notify-dismiss" aria-label="Dismiss">×</button>
+  </div>
 
   <div class="view-body" id="vb-grid">
     <div class="grid-view" id="grid">
@@ -562,6 +608,7 @@
 // ===================================================================== state
 let corpus = [], qaIndex = new Map(), connections = { nodes: [], edges: [] }, geocoded = {};
 let activeFilters = { source: '', release: '', tier: '', agency: null, type: null, region: null, q: '', netFilter: '' };
+let currentSort = 'newest-released';
 let currentView = 'grid';
 let currentDetailIdx = -1, filteredDocs = [];
 let thumbCache = null;
@@ -771,9 +818,30 @@ function renderGrid() {
   }
 
   filteredDocs.sort((a,b) => {
-    const yA = dateYear(a.incident_date) || 0, yB = dateYear(b.incident_date) || 0;
-    if (yB !== yA) return yB - yA;
-    return (qaIndex.get(b.sha256)?.tier === 'green' ? 1 : 0) - (qaIndex.get(a.sha256)?.tier === 'green' ? 1 : 0);
+    if (currentSort === 'newest-released') {
+      // Release 2 first, then by incident year desc
+      const ra = (a.release === 'release_2') ? 1 : 0;
+      const rb = (b.release === 'release_2') ? 1 : 0;
+      if (rb !== ra) return rb - ra;
+      const yA = dateYear(a.incident_date) || 0, yB = dateYear(b.incident_date) || 0;
+      if (yB !== yA) return yB - yA;
+      return (qaIndex.get(b.sha256)?.tier === 'green' ? 1 : 0) - (qaIndex.get(a.sha256)?.tier === 'green' ? 1 : 0);
+    }
+    if (currentSort === 'incident-desc') {
+      const yA = dateYear(a.incident_date) || 0, yB = dateYear(b.incident_date) || 0;
+      return yB - yA;
+    }
+    if (currentSort === 'incident-asc') {
+      const yA = dateYear(a.incident_date) || 9999, yB = dateYear(b.incident_date) || 9999;
+      return yA - yB;
+    }
+    if (currentSort === 'verified') {
+      const ta = qaIndex.get(a.sha256)?.tier === 'green' ? 0 : qaIndex.get(a.sha256)?.tier === 'amber' ? 1 : 2;
+      const tb = qaIndex.get(b.sha256)?.tier === 'green' ? 0 : qaIndex.get(b.sha256)?.tier === 'amber' ? 1 : 2;
+      if (ta !== tb) return ta - tb;
+      return (dateYear(b.incident_date)||0) - (dateYear(a.incident_date)||0);
+    }
+    return 0;
   });
 
   const q = (activeFilters.q || '').trim();
@@ -1357,6 +1425,9 @@ document.getElementById('f-source').addEventListener('change', (e) => {
 document.getElementById('f-release').addEventListener('change', (e) => {
   activeFilters.release = e.target.value; writeUrlState(); renderActiveFilters(); renderCurrentView();
 });
+document.getElementById('f-sort').addEventListener('change', (e) => {
+  currentSort = e.target.value; renderCurrentView();
+});
 document.getElementById('f-tier').addEventListener('change', (e) => {
   activeFilters.tier = e.target.value; writeUrlState(); renderActiveFilters(); renderCurrentView();
 });
@@ -1369,6 +1440,40 @@ const onNetFilter = debounce(() => { activeFilters.netFilter = document.getEleme
 document.getElementById('net-filter').addEventListener('input', onNetFilter);
 document.getElementById('net-filter-clear').addEventListener('click', () => {
   document.getElementById('net-filter').value = ''; activeFilters.netFilter = ''; renderNetwork();
+});
+
+// notify strip (release-3 signup) — persisted in localStorage; submits to
+// formspree if NOTIFY_ENDPOINT is set, else falls back to mailto.
+window.saveNotify = function(e) {
+  e.preventDefault();
+  const email = document.getElementById('notify-email').value.trim();
+  if (!email) return false;
+  // If window.NOTIFY_ENDPOINT is configured (formspree / buttondown / a custom
+  // webhook), POST there. Otherwise just persist locally — operator will wire
+  // a real signup endpoint before launch comms.
+  const ENDPOINT = window.NOTIFY_ENDPOINT;
+  if (ENDPOINT) {
+    fetch(ENDPOINT, {
+      method: 'POST', mode: 'cors',
+      headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, source: 'uapfiles release-notify', registered_at: new Date().toISOString() }),
+    }).then(r => toast(r.ok ? 'Subscribed — we’ll email you when Release 3 lands' : 'Saved locally — submit failed'))
+      .catch(() => toast('Saved locally — offline'));
+  } else {
+    toast('Saved — signup endpoint will activate before Release 3');
+  }
+  const list = JSON.parse(localStorage.getItem('uap-notify-list') || '[]');
+  if (!list.includes(email)) list.push(email);
+  localStorage.setItem('uap-notify-list', JSON.stringify(list));
+  localStorage.setItem('uap-notify-strip-dismissed', 'true');
+  document.getElementById('notify-strip').classList.add('hidden');
+  return false;
+};
+const notifyDismissed = localStorage.getItem('uap-notify-strip-dismissed') === 'true';
+if (notifyDismissed) document.getElementById('notify-strip').classList.add('hidden');
+document.getElementById('notify-dismiss').addEventListener('click', () => {
+  document.getElementById('notify-strip').classList.add('hidden');
+  localStorage.setItem('uap-notify-strip-dismissed', 'true');
 });
 
 // hero banner
