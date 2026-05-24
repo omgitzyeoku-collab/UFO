@@ -77,20 +77,24 @@
   .card .thumb {
     width: 100%; aspect-ratio: 16/9;
     background: var(--bg-elev-2);
-    background-position: center; background-size: cover; background-repeat: no-repeat;
     border-bottom: 1px solid var(--line);
-    position: relative; flex: 0 0 auto;
+    position: relative; flex: 0 0 auto; overflow: hidden;
   }
-  .card .thumb.no-image {
-    background: linear-gradient(135deg, var(--bg-elev-2) 0%, var(--bg-hover) 100%);
-    display: flex; align-items: center; justify-content: center;
-    color: var(--text-dim); font-family: var(--ff-mono); font-size: 0.7rem;
-    text-transform: uppercase; letter-spacing: 0.05em;
+  .card .thumb .thumb-bg {
+    position: absolute; inset: 0;
+    background-position: center; background-size: cover; background-repeat: no-repeat;
+    transition: opacity 0.2s;
   }
+  .card .thumb .thumb-audio-svg,
+  .card .thumb .thumb-video-svg {
+    position: absolute; inset: 0; width: 100%; height: 100%; display: block;
+  }
+  .card .thumb.no-image .thumb-bg { opacity: 0; }
   .card .thumb-overlay {
     position: absolute; inset: 0;
     background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.6) 100%);
     opacity: 0; transition: opacity 0.15s;
+    pointer-events: none;
   }
   .card:hover .thumb-overlay { opacity: 1; }
   .card .body { padding: 0.85rem 1.1rem 0.85rem; display: flex; flex-direction: column; flex: 1; }
@@ -476,6 +480,14 @@
     <div style="display:inline-block; background:#e74c3c; color:#fff; padding:0.18rem 0.55rem; border-radius:3px; font-size:0.7rem; font-weight:700; letter-spacing:0.05em; margin-bottom:0.6rem; animation: pulse-r2 2.4s ease-in-out infinite;">RELEASE 2 LIVE · 2026-05-22</div>
     <h1>Every declassified US government UAP file,<br><span class="accent">translated into plain English.</span></h1>
     <p>Release 2 (2026-05-22) added 64 new artefacts — 51 DOW videos, 7 NASA Apollo audio recordings, and 6 documents from DOE, CIA, ODNI. Combined with Release 1, every file on <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">war.gov/UFO/</a> is mirrored, read by a 5-agent QA pipeline, summarised, source-cited, and connected to similar cases. Browse as a grid, plot on a map, or explore the connection graph linking them by shared people, places, projects, and sensor platforms.</p>
+    <div style="margin: 0.85rem 0 0.4rem; display: flex; gap: 1.1rem; flex-wrap: wrap; font-family: var(--ff-mono); font-size: 0.75rem; color: var(--text-dim);">
+      <span id="hero-stat-total">— docs</span>
+      <span id="hero-stat-verified">— verified</span>
+      <span id="hero-stat-videos">— videos</span>
+      <span id="hero-stat-audio">— audio</span>
+      <span id="hero-stat-pdfs">— PDFs</span>
+      <span id="hero-stat-r2" style="color:#e74c3c; font-weight:600;">— in Release 2</span>
+    </div>
     <div class="actions">
       <a href="?release=release_2" class="primary">▶ Browse Release 2 →</a>
       <a href="#" id="hero-show-network">⌬ Connection graph</a>
@@ -722,6 +734,22 @@ function renderSidebar() {
   document.getElementById('stat-docs').textContent = corpus.length;
   document.getElementById('stat-verified').textContent = verified;
 
+  // Hero strip stats
+  const byType = { PDF: 0, VID: 0, AUD: 0, IMG: 0 };
+  let r2 = 0;
+  for (const d of corpus) {
+    const t = d.type || 'PDF';
+    if (byType[t] !== undefined) byType[t]++;
+    if (d.release === 'release_2') r2++;
+  }
+  const setHero = (id, txt) => { const el = document.getElementById(id); if (el) el.textContent = txt; };
+  setHero('hero-stat-total', `${corpus.length} docs`);
+  setHero('hero-stat-verified', `${verified} verified`);
+  setHero('hero-stat-videos', `${byType.VID} videos`);
+  setHero('hero-stat-audio', `${byType.AUD} audio`);
+  setHero('hero-stat-pdfs', `${byType.PDF} PDFs`);
+  setHero('hero-stat-r2', `${r2} in Release 2`);
+
   const byAgency = {}, byType = {}, byRegion = {};
   for (const d of corpus) {
     if (d.agency) byAgency[d.agency] = (byAgency[d.agency]||0) + 1;
@@ -795,9 +823,33 @@ function renderActiveFilters() {
 }
 
 // ===================================================================== grid view
-function thumbHtml(sha) {
+function thumbHtml(sha, type) {
   const url = `extract/thumbs/${sha}.jpg`;
-  return `<div class="thumb" style="background-image:url('${url}');" data-sha="${sha}">
+  // Default per-type SVG fallback rendered behind the bg-image — if the
+  // bg-image 404s the SVG remains visible.
+  let typeFallback = '';
+  if (type === 'AUD') {
+    typeFallback = `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" class="thumb-audio-svg">
+      <rect width="200" height="80" fill="#1b1e23"/>
+      <g fill="#d97757" opacity="0.85">
+        ${Array.from({length: 30}, (_, i) => {
+          const h = 8 + Math.abs(Math.sin(i * 0.7) * 30) + Math.abs(Math.cos(i * 1.4) * 12);
+          return `<rect x="${10 + i*6}" y="${40 - h/2}" width="3" height="${h}"/>`;
+        }).join('')}
+      </g>
+      <text x="100" y="68" text-anchor="middle" fill="#8a8f99" font-family="monospace" font-size="9" letter-spacing="2">AUDIO RECORDING</text>
+    </svg>`;
+  } else if (type === 'VID') {
+    typeFallback = `<svg viewBox="0 0 200 112" xmlns="http://www.w3.org/2000/svg" class="thumb-video-svg">
+      <rect width="200" height="112" fill="#1b1e23"/>
+      <circle cx="100" cy="56" r="22" fill="#d97757" opacity="0.85"/>
+      <polygon points="93,46 93,66 113,56" fill="#141413"/>
+      <text x="100" y="100" text-anchor="middle" fill="#8a8f99" font-family="monospace" font-size="9" letter-spacing="2">VIDEO</text>
+    </svg>`;
+  }
+  return `<div class="thumb" data-sha="${sha}" data-type="${type || ''}">
+    ${typeFallback}
+    <div class="thumb-bg" style="background-image:url('${url}');"></div>
     <div class="thumb-overlay"></div>
   </div>`;
 }
@@ -856,7 +908,7 @@ function renderGrid() {
       ? '<span class="tag-pill tier-amber"><span class="swatch"></span>partial</span>'
       : '<span class="tag-pill faded">queued</span>';
     return `<article class="card${d.release === 'release_2' ? ' release-2' : ''}" data-i="${i}" data-sha="${d.sha256}">
-      ${thumbHtml(d.sha256)}
+      ${thumbHtml(d.sha256, d.type)}
       <div class="body">
         <div class="card-meta">
           <span class="tag-pill agency-${agencyShort(d.agency)}"><span class="swatch"></span>${escapeHtml(agencyShort(d.agency))}</span>
@@ -877,14 +929,15 @@ function renderGrid() {
     </article>`;
   }).join('');
 
-  // For each card thumbnail, attach an onerror to swap to no-image when 404
+  // For each card thumbnail, attach an onerror to hide the bg layer when 404.
+  // The per-type SVG fallback (audio waveform / video play-button) remains visible.
   for (const t of grid.querySelectorAll('.thumb')) {
     const sha = t.dataset.sha;
     const img = new Image();
     img.onerror = () => {
       t.classList.add('no-image');
-      t.style.backgroundImage = '';
-      t.innerHTML = '<span>no thumbnail</span>';
+      const bg = t.querySelector('.thumb-bg');
+      if (bg) bg.style.opacity = '0';
     };
     img.src = `extract/thumbs/${sha}.jpg`;
   }
