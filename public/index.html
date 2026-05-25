@@ -623,6 +623,7 @@
 <script>
 // ===================================================================== state
 let corpus = [], qaIndex = new Map(), connections = { nodes: [], edges: [] }, geocoded = {};
+let thumbsAvailable = null;  // Set<sha> populated from extract/thumbs-index.json
 let activeFilters = { source: '', release: '', tier: '', agency: null, type: null, region: null, q: '', netFilter: '' };
 let currentSort = 'newest-released';
 let currentView = 'grid';
@@ -667,12 +668,15 @@ async function loadAll() {
   const map = new Map();
   for (const r of raw) if (r.sha256 && !map.has(r.sha256)) map.set(r.sha256, r);
   corpus = [...map.values()];
-  // Only fetch QA outputs for docs that actually have one — saves 100+
-  // wasted 404 round-trips on initial load.
+  // Only fetch artefacts that exist — kills 150+ wasted 404 round-trips.
   let qaShas = null;
   try {
     const idx = await fetch('extract/qa-index.json');
     if (idx.ok) { const j = await idx.json(); qaShas = new Set(j.shas || []); }
+  } catch {}
+  try {
+    const t = await fetch('extract/thumbs-index.json');
+    if (t.ok) { const j = await t.json(); thumbsAvailable = new Set(j.shas || []); }
   } catch {}
   const toFetch = qaShas ? corpus.filter(d => qaShas.has(d.sha256)) : corpus;
   await Promise.all(toFetch.map(async d => {
@@ -830,7 +834,8 @@ function renderActiveFilters() {
 
 // ===================================================================== grid view
 function thumbHtml(sha, type) {
-  const url = `extract/thumbs/${sha}.jpg`;
+  const hasReal = !thumbsAvailable || thumbsAvailable.has(sha);
+  const url = hasReal ? `extract/thumbs/${sha}.jpg` : '';
   // Default per-type SVG fallback rendered behind the bg-image — if the
   // bg-image 404s the SVG remains visible.
   let typeFallback = '';
@@ -935,10 +940,17 @@ function renderGrid() {
     </article>`;
   }).join('');
 
-  // For each card thumbnail, attach an onerror to hide the bg layer when 404.
-  // The per-type SVG fallback (audio waveform / video play-button) remains visible.
+  // For cards whose thumbnail probably doesn't exist (per thumbs-index),
+  // immediately hide the bg layer so we never fire a doomed image load.
+  // For the rest, probe the image and hide on 404.
   for (const t of grid.querySelectorAll('.thumb')) {
     const sha = t.dataset.sha;
+    if (thumbsAvailable && !thumbsAvailable.has(sha)) {
+      t.classList.add('no-image');
+      const bg = t.querySelector('.thumb-bg');
+      if (bg) bg.style.opacity = '0';
+      continue;
+    }
     const img = new Image();
     img.onerror = () => {
       t.classList.add('no-image');
