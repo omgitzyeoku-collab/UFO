@@ -25,3 +25,6 @@ docs/release.json
 # Ephemeral deploy artefacts (CLI responses)
 docs/vercel-*.json
 docs/repo-flip-private.json
+
+# Transient working dirs from in-progress whisper / OCR runs
+extract/transcripts/_tmp_*/

@@ -1289,13 +1289,40 @@ function openDetail(idx) {
     ${isVid ? `<video class="pdf-frame" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
     ${d.type === 'AUD' || /\.(mp3|wav|m4a|ogg)$/i.test(d.name || '') ? `
       <div class="audio-player">
-        <audio src="${escapeAttr(d.release_url)}" controls preload="metadata"></audio>
+        <audio id="audio-${d.sha256.slice(0,12)}" src="${escapeAttr(d.release_url)}" controls preload="metadata"></audio>
         <div class="audio-meta">
           <span><strong>format</strong> ${(d.name || '').split('.').pop().toUpperCase()}</span>
           <span><strong>size</strong> ${fmt(d.bytes)}</span>
           ${d.dvids_id ? `<span><strong>DVIDS</strong> <a href="https://www.dvidshub.net/audio/${d.dvids_id}" target="_blank" rel="noopener">${d.dvids_id}</a></span>` : ''}
         </div>
-      </div>` : ''}
+        <div id="transcript-${d.sha256.slice(0,12)}" class="transcript-block" style="display:none;">
+          <h4 style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-dim);margin:0.8rem 0 0.4rem;">Transcript <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--text-dim);font-size:0.7rem;">auto-generated · click any line to seek</span></h4>
+          <div class="transcript-segments" id="tseg-${d.sha256.slice(0,12)}" style="max-height:280px;overflow:auto;background:var(--bg-elev);border:1px solid var(--line);border-radius:4px;padding:0.6rem 0.8rem;font-size:0.82rem;line-height:1.5;"></div>
+        </div>
+      </div>
+      <script>
+        (async () => {
+          try {
+            const r = await fetch('extract/transcripts/${d.sha256}.json');
+            if (!r.ok) return;
+            const tr = await r.json();
+            const block = document.getElementById('transcript-${d.sha256.slice(0,12)}');
+            const segEl = document.getElementById('tseg-${d.sha256.slice(0,12)}');
+            const audio = document.getElementById('audio-${d.sha256.slice(0,12)}');
+            if (!block || !segEl || !audio) return;
+            block.style.display = 'block';
+            for (const s of (tr.segments || [])) {
+              const div = document.createElement('div');
+              div.style.cursor = 'pointer'; div.style.padding = '2px 0';
+              const mm = Math.floor(s.start/60).toString().padStart(2,'0');
+              const ss = Math.floor(s.start%60).toString().padStart(2,'0');
+              div.innerHTML = '<span style="display:inline-block;width:48px;color:var(--text-dim);font-family:var(--ff-mono);font-size:0.72rem;">'+mm+':'+ss+'</span>' + (s.text || '').replace(/[<>&]/g, c=>({'<':'&lt;','>':'&gt;','&':'&amp;'})[c]);
+              div.onclick = () => { audio.currentTime = s.start; audio.play(); for (const sib of segEl.children) sib.style.background=''; div.style.background='rgba(217,119,87,0.18)'; };
+              segEl.appendChild(div);
+            }
+          } catch {}
+        })();
+      </script>` : ''}
   `;
 
   // Wire share + cite + close cite popover

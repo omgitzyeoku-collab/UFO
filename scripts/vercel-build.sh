@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-mkdir -p public/extract/text public/extract/public public/extract/thumbs public/docs public/doc
+mkdir -p public/extract/text public/extract/public public/extract/thumbs public/extract/transcripts public/docs public/doc public/entity
 
 for f in release-manifest captions entities entities-normalised entity-index scores evidence geocoded connections; do
   if [ -f "extract/${f}.jsonl" ]; then
@@ -11,6 +11,7 @@ done
 if [ -d "extract/public" ]; then cp -r extract/public/. public/extract/public/ 2>/dev/null || true; fi
 if [ -d "extract/text" ];   then cp -r extract/text/.   public/extract/text/   2>/dev/null || true; fi
 if [ -d "extract/thumbs" ]; then cp -r extract/thumbs/. public/extract/thumbs/ 2>/dev/null || true; fi
+if [ -d "extract/transcripts" ]; then cp -r extract/transcripts/. public/extract/transcripts/ 2>/dev/null || true; fi
 
 for f in hypotheses cross-corpus-diff improvement-plan deployment next-phase-plan sprint-1-status; do
   if [ -f "docs/${f}.md" ]; then cp "docs/${f}.md" "public/docs/${f}.md"; fi
