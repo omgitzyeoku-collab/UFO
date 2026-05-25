@@ -48,7 +48,16 @@ const sitemapUrls = [
   { loc: `${BASE}/methodology.html`, priority: '0.9', changefreq: 'monthly' },
   { loc: `${BASE}/corrections.html`, priority: '0.7', changefreq: 'weekly' },
   { loc: `${BASE}/donate.html`, priority: '0.5', changefreq: 'monthly' },
+  { loc: `${BASE}/privacy.html`, priority: '0.3', changefreq: 'yearly' },
+  { loc: `${BASE}/terms.html`, priority: '0.3', changefreq: 'yearly' },
+  { loc: `${BASE}/press.html`, priority: '0.7', changefreq: 'monthly' },
 ];
+
+// Append entity-page URLs (generated separately by build-entity-pages.mjs)
+try {
+  const entityUrls = JSON.parse(await fs.readFile(path.join(ROOT, 'extract', 'entity-sitemap.json'), 'utf8'));
+  for (const u of entityUrls) sitemapUrls.push(u);
+} catch {}
 
 let wrote = 0;
 for (const d of docs) {
