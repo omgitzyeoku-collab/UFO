@@ -77,30 +77,20 @@ const caseLinks = await page.evaluate(() => {
 console.log(`case-page links found: ${caseLinks.length}`);
 await fs.writeFile(path.join(DOCS, `fbi-vault-cases-${crawlId}.json`), JSON.stringify(caseLinks, null, 2));
 
-// Visit each case page and harvest PDF URLs
+// Each "case" URL in the FBI Vault index IS the PDF download itself
+// (vault.fbi.gov/UFO/UFO Part 1 triggers a PDF download directly).
+// The index links use Plone's /view suffix — strip it to get the download URL.
 const pdfUrls = new Set();
-let caseIdx = 0;
 for (const cu of caseLinks) {
-  caseIdx++;
-  console.log(`[case ${caseIdx}/${caseLinks.length}] ${cu}`);
-  try {
-    await page.goto(cu, { waitUntil: 'domcontentloaded', timeout: 90000 });
-    await page.waitForTimeout(1200);
-    const found = await page.evaluate(() => {
-      const out = new Set();
-      for (const a of document.querySelectorAll('a[href]')) {
-        const u = new URL(a.href, location.href).href;
-        if (/\.pdf(\?|$)/i.test(u) && /vault\.fbi\.gov/i.test(u)) out.add(u);
-      }
-      return [...out];
-    });
-    for (const u of found) pdfUrls.add(u);
-    console.log(`  +${found.length} pdfs`);
-  } catch (e) {
-    console.log(`  err: ${e.message.slice(0,60)}`);
-  }
+  // Skip nav cruft
+  if (/\/UFO\/?$/.test(cu)) continue;
+  if (/\/(login_form|@@|sitemap|search|contact-us)$/i.test(cu)) continue;
+  // Strip /view suffix → download URL
+  let downloadUrl = cu;
+  if (/\/view$/i.test(downloadUrl)) downloadUrl = downloadUrl.replace(/\/view$/i, '');
+  pdfUrls.add(downloadUrl);
 }
-console.log(`\n=== PDFs to fetch: ${pdfUrls.size} ===`);
+console.log(`\n=== PDFs to fetch (from case URLs): ${pdfUrls.size} ===`);
 
 // Download each PDF
 async function downloadPdf(url) {
