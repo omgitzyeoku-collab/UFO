@@ -6,6 +6,9 @@
 <title>UAP Files — every declassified US government UAP document, translated</title>
 <meta name="description" content="Every declassified US government UAP/UFO file, including Release 2 (2026-05-22). 193+ documents, videos, and NASA Apollo audio recordings — plain-English summaries with source citations, interactive map, connection graph, and timeline. Free, no paywalls, no ads." />
 <link rel="canonical" href="https://ufo-wheat.vercel.app/" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+<link rel="icon" href="favicon.ico" />
+<link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ufo-wheat.vercel.app/" />
 <meta property="og:title" content="UAP Files — declassified, translated, connected" />
@@ -480,22 +483,20 @@
   <!-- HERO (first-visit) -->
   <div class="hero-banner" id="hero-banner">
     <button class="dismiss" id="hero-dismiss" aria-label="Dismiss">×</button>
-    <div style="display:inline-block; background:#e74c3c; color:#fff; padding:0.18rem 0.55rem; border-radius:3px; font-size:0.7rem; font-weight:700; letter-spacing:0.05em; margin-bottom:0.6rem; animation: pulse-r2 2.4s ease-in-out infinite;">RELEASE 2 LIVE · 2026-05-22</div>
-    <h1>Every declassified US government UAP file,<br><span class="accent">translated into plain English.</span></h1>
-    <p>Release 2 (2026-05-22) added 64 new artefacts — 51 DOW videos, 7 NASA Apollo audio recordings, and 6 documents from DOE, CIA, ODNI. Combined with Release 1, every file on <a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">war.gov/UFO/</a> is mirrored, read by a 5-agent QA pipeline, summarised, source-cited, and connected to similar cases. Browse as a grid, plot on a map, or explore the connection graph linking them by shared people, places, projects, and sensor platforms.</p>
-    <div style="margin: 0.85rem 0 0.4rem; display: flex; gap: 1.1rem; flex-wrap: wrap; font-family: var(--ff-mono); font-size: 0.75rem; color: var(--text-dim);">
-      <span id="hero-stat-total">— docs</span>
-      <span id="hero-stat-verified">— verified</span>
-      <span id="hero-stat-videos">— videos</span>
-      <span id="hero-stat-audio">— audio</span>
-      <span id="hero-stat-pdfs">— PDFs</span>
-      <span id="hero-stat-r2" style="color:#e74c3c; font-weight:600;">— in Release 2</span>
-    </div>
-    <div class="actions">
-      <a href="?release=release_2" class="primary">▶ Browse Release 2 →</a>
-      <a href="#" id="hero-show-network">⌬ Connection graph</a>
-      <a href="methodology.html">How it works</a>
-      <a href="about.html">What this is, what it isn't</a>
+    <div style="display:flex; gap:1.5rem; align-items:flex-start; flex-wrap:wrap;">
+      <div style="flex:1 1 380px; min-width:0;">
+        <div style="display:inline-block; background:#e74c3c; color:#fff; padding:0.18rem 0.55rem; border-radius:3px; font-size:0.7rem; font-weight:700; letter-spacing:0.05em; margin-bottom:0.7rem;">RELEASE 2 LIVE · 2026-05-22</div>
+        <h1 style="margin-bottom:0.6rem;">Every declassified US government UAP file,<br><span class="accent">translated into plain English.</span></h1>
+        <p style="margin:0 0 0.95rem;"><strong id="hero-stat-total" style="color:var(--text);">— docs</strong> mirrored from war.gov/UFO/ + FBI Vault. Each one read by a 5-agent QA pipeline, source-cited, plotted on a map, connected by shared people / places / sensors.</p>
+        <div class="actions">
+          <a href="?release=release_2" class="primary">▶ Browse Release 2 →</a>
+          <a href="#" id="hero-show-network">⌬ Connection graph</a>
+          <a href="methodology.html">How it works</a>
+        </div>
+      </div>
+      <div id="hero-featured" style="flex:1 1 280px; min-width:0; display:grid; grid-template-columns:1fr 1fr; gap:0.45rem;">
+        <!-- featured cards injected by JS (Iran formation, Apollo 12, Roswell, etc.) -->
+      </div>
     </div>
   </div>
 
@@ -666,7 +667,15 @@ async function loadAll() {
   const map = new Map();
   for (const r of raw) if (r.sha256 && !map.has(r.sha256)) map.set(r.sha256, r);
   corpus = [...map.values()];
-  await Promise.all(corpus.map(async d => {
+  // Only fetch QA outputs for docs that actually have one — saves 100+
+  // wasted 404 round-trips on initial load.
+  let qaShas = null;
+  try {
+    const idx = await fetch('extract/qa-index.json');
+    if (idx.ok) { const j = await idx.json(); qaShas = new Set(j.shas || []); }
+  } catch {}
+  const toFetch = qaShas ? corpus.filter(d => qaShas.has(d.sha256)) : corpus;
+  await Promise.all(toFetch.map(async d => {
     try { const r = await fetch(`extract/public/${d.sha256}.json`); if (r.ok) qaIndex.set(d.sha256, await r.json()); } catch {}
   }));
   try {
@@ -1573,6 +1582,44 @@ document.getElementById('notify-dismiss').addEventListener('click', () => {
   localStorage.setItem('uap-notify-strip-dismissed', 'true');
 });
 
+// Featured cards (hand-picked headline docs).
+// SHAs of the highest-attention items in the corpus.
+const FEATURED = [
+  { sha: 'b542f90ec7370c64e60bf831bc41e44de8957f4d893538e1ecbb1ccef0e1ef9d', label: 'Iran · 4 UFOs in formation', sub: '2022 IR video' },
+  { sha: '084af52858fd2a0fcaae8e0d0bcd92d30e4588b26cc2015e5e543883a1bf6b6d', label: 'Apollo 12 · streaks of light', sub: '1969 audio · transcribed' },
+  { sha: 'c813e10e633f440918cb31dfe11ac7caa35113d91c5f6edcea44fd90fc0e71cd', label: 'FBI Vault · UFO Part 01', sub: 'Roswell era · 1947-77' },
+  { sha: 'db2a52321cac35dde1b7df8a3cbfa8d1b6c4e1be91e2c93cebec71f6b8da7e8b', label: 'Tyndall · USCG TIC TAC IR', sub: '2024 video' },
+];
+function renderFeatured() {
+  const wrap = document.getElementById('hero-featured');
+  if (!wrap) return;
+  // Resolve SHAs via corpus (in case full SHA isn't loaded — match by prefix)
+  const resolved = FEATURED.map(f => {
+    const d = corpus.find(x => x.sha256 === f.sha) || corpus.find(x => x.sha256.startsWith(f.sha.slice(0, 12)));
+    return d ? { d, label: f.label, sub: f.sub } : null;
+  }).filter(Boolean);
+  wrap.innerHTML = resolved.map(({ d, label, sub }) => `
+    <a href="#doc/${d.sha256}" class="hero-feat-card" data-sha="${d.sha256}" style="display:block;background:var(--bg-elev-2);border:1px solid var(--line);border-radius:5px;padding:0.55rem 0.7rem;text-decoration:none;color:inherit;transition:border-color 0.15s;">
+      <div style="font-size:0.78rem;font-weight:600;color:var(--text);line-height:1.3;margin-bottom:0.15rem;">${escapeHtml(label)}</div>
+      <div style="font-size:0.7rem;color:var(--text-dim);font-family:var(--ff-mono);">${escapeHtml(sub)}</div>
+    </a>`).join('');
+  for (const el of wrap.querySelectorAll('.hero-feat-card')) {
+    el.addEventListener('mouseover', () => el.style.borderColor = 'var(--accent)');
+    el.addEventListener('mouseout', () => el.style.borderColor = '');
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      const sha = el.dataset.sha;
+      const i = filteredDocs.findIndex(x => x.sha256 === sha);
+      if (i >= 0) openDetail(i);
+      else {
+        // Outside the current filter — open via a temp filteredDocs
+        const target = corpus.find(x => x.sha256 === sha);
+        if (target) { const orig = filteredDocs; filteredDocs = [target]; openDetail(0); filteredDocs = orig; }
+      }
+    });
+  }
+}
+
 // hero banner
 const dismissed = localStorage.getItem('uap-hero-dismissed') === 'true';
 if (dismissed) document.getElementById('hero-banner').classList.add('hidden');
@@ -1596,6 +1643,7 @@ document.getElementById('hero-show-network').addEventListener('click', (e) => {
   }
   renderSidebar();
   renderActiveFilters();
+  renderFeatured();
   // honour ?view=
   if (currentView !== 'grid') switchView(currentView);
   else renderGrid();

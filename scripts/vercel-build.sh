@@ -8,6 +8,12 @@ for f in release-manifest captions entities entities-normalised entity-index sco
   fi
 done
 
+# qa-index.json (list of shas that have QA output — avoids 404 spam on load)
+if [ -f "extract/build-qa-index.mjs" ]; then
+  node extract/build-qa-index.mjs || true
+fi
+if [ -f "extract/qa-index.json" ]; then cp extract/qa-index.json public/extract/qa-index.json; fi
+
 if [ -d "extract/public" ]; then cp -r extract/public/. public/extract/public/ 2>/dev/null || true; fi
 if [ -d "extract/text" ];   then cp -r extract/text/.   public/extract/text/   2>/dev/null || true; fi
 if [ -d "extract/thumbs" ]; then cp -r extract/thumbs/. public/extract/thumbs/ 2>/dev/null || true; fi
