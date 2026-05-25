@@ -196,6 +196,15 @@
     border-radius: 2px; box-shadow: 0 0 0 1px rgba(217,119,87,0.3);
   }
 
+  /* === CARD SLUG (mono-font document code under headline) === */
+  .card-slug {
+    font-family: var(--ff-mono);
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    letter-spacing: 0.04em;
+    margin: -0.3rem 0 0.45rem;
+  }
+
   /* === RELEASE-3 NOTIFY STRIP === */
   .notify-strip {
     background: linear-gradient(90deg, rgba(217,119,87,0.12), rgba(217,119,87,0.04));
@@ -419,6 +428,7 @@
     <kbd>/</kbd>
   </div>
   <nav>
+    <button id="filter-pill" class="filter-pill" aria-label="Toggle filter sidebar" title="Filters (F)">☰ Filter</button>
     <a href="entity/index.html">Entities</a>
     <a href="about.html">About</a>
     <a href="methodology.html">Methodology</a>
@@ -480,6 +490,16 @@
 </aside>
 
 <main class="main">
+  <!-- Slim notify strip (above hero, full-width, dismissible) -->
+  <div class="notify-strip" id="notify-strip" style="padding:0.45rem 1.25rem;font-size:0.8rem;">
+    <span style="flex:1;">⚡ <strong>Release 3 incoming.</strong> Email me when the next drop lands.</span>
+    <form id="notify-form" onsubmit="return saveNotify(event)" style="margin-left:0;">
+      <input type="email" id="notify-email" placeholder="your@email" required autocomplete="email" style="width:200px;" />
+      <button type="submit">Notify</button>
+    </form>
+    <button class="dismiss-x" id="notify-dismiss" aria-label="Dismiss">×</button>
+  </div>
+
   <!-- HERO (first-visit) -->
   <div class="hero-banner" id="hero-banner">
     <button class="dismiss" id="hero-dismiss" aria-label="Dismiss">×</button>
@@ -518,15 +538,6 @@
   </div>
 
   <div class="active-filters" id="active-filters"></div>
-
-  <div class="notify-strip" id="notify-strip">
-    <span>⚡ <strong>Release 3 incoming.</strong> The next PURSUE drop hits war.gov on a rolling basis — we mirror within hours of release.</span>
-    <form id="notify-form" onsubmit="return saveNotify(event)">
-      <input type="email" id="notify-email" placeholder="your@email" required autocomplete="email" />
-      <button type="submit">Notify me</button>
-    </form>
-    <button class="dismiss-x" id="notify-dismiss" aria-label="Dismiss">×</button>
-  </div>
 
   <div class="view-body" id="vb-grid">
     <div class="grid-view" id="grid">
@@ -601,6 +612,7 @@
     <h2>Keyboard shortcuts</h2>
     <table>
       <tr><td><kbd>/</kbd></td><td>Focus search</td></tr>
+      <tr><td><kbd>f</kbd></td><td>Toggle filter sidebar</td></tr>
       <tr><td><kbd>g</kbd></td><td>Grid view</td></tr>
       <tr><td><kbd>m</kbd></td><td>Map view</td></tr>
       <tr><td><kbd>n</kbd></td><td>Network view</td></tr>
@@ -651,8 +663,47 @@ function toast(msg, ms = 1900) {
   t.textContent = msg; t.classList.add('show');
   clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('show'), ms);
 }
-function agencyShort(a) { if (!a) return '?'; if (a==='Department of War') return 'DOW'; if (a==='Department of State') return 'DOS'; if (a==='FBI') return 'FBI'; if (a==='NASA') return 'NASA'; if (a==='AARO') return 'AARO'; return a; }
+// Returns a slug-safe short code. Unknown agencies are slugified at the
+// source so the result is always safe to interpolate into class="" without
+// further escaping. (Length capped to 12 chars.)
+function agencyShort(a) {
+  if (!a) return 'unk';
+  if (a === 'Department of War') return 'DOW';
+  if (a === 'Department of State') return 'DOS';
+  if (a === 'FBI') return 'FBI';
+  if (a === 'NASA') return 'NASA';
+  if (a === 'AARO') return 'AARO';
+  return (a + '').replace(/[^a-z0-9]/gi, '').toLowerCase().slice(0, 12) || 'unk';
+}
 function dateYear(s) { if (!s||s==='N/A') return null; let m=s.match(/(\d{4})/); if (m) return parseInt(m[1]); m=s.match(/\/(\d{2})$/); if (m) return 2000+parseInt(m[1]); return null; }
+
+// Extract the bureaucratic prefix slug (e.g. "DOW-UAP-PR050") and the
+// human-readable headline from a raw title like
+//   "DOW-UAP-PR050, '4 UAP Formation Iran 26 Aug 2022 over water [CALLSIGN]'"
+// → { slug: "DOW-UAP-PR050", headline: "4 UAP Formation Iran 26 Aug 2022 over water" }
+//
+// If a QA-pipeline `public_headline` exists for the doc, that wins as the
+// headline (the rewriter already did the work). The slug is always derived
+// from the raw title so it stays cite-able.
+function splitHeadline(d, qa) {
+  const raw = (d.title || d.name || '').toString().trim();
+  // Match codes like: DOW-UAP-PR050 / DOW-UAP-D17 / NASA-UAP-D008 / CIA-UAP-D001 / UFO Part 01
+  const slugMatch = raw.match(/^([A-Z]{2,5}-UAP-(?:PR|D)\d{2,4}|UFO Part \d+(?:\s*\([^)]+\))?)\s*,?\s*['"]?(.*?)['"]?$/);
+  let slug = '';
+  let headlineFromTitle = raw;
+  if (slugMatch) {
+    slug = slugMatch[1];
+    headlineFromTitle = (slugMatch[2] || raw).trim();
+  }
+  // Strip [CALLSIGN] / [REDACTED] / [PLATFORM] placeholders
+  headlineFromTitle = headlineFromTitle.replace(/\s*\[(CALLSIGN|REDACTED|PLATFORM|UNIT|MISSION)\]\s*/gi, ' ').trim();
+  // Strip trailing punctuation residue
+  headlineFromTitle = headlineFromTitle.replace(/^[,;:\s]+|[,;:\s]+$/g, '');
+  // Prefer QA-generated headline if present and meaningfully different
+  const qaH = qa?.public_headline?.trim();
+  const headline = qaH && qaH.length > 5 ? qaH : (headlineFromTitle || raw);
+  return { slug, headline };
+}
 function uniq(a) { return [...new Set(a)].filter(x=>x).sort(); }
 function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
 
@@ -911,7 +962,7 @@ function renderGrid() {
   grid.innerHTML = filteredDocs.map((d, i) => {
     const qa = qaIndex.get(d.sha256);
     const tier = qa?.tier;
-    const headline = qa?.public_headline || d.title || d.name;
+    const { slug, headline } = splitHeadline(d, qa);
     const tldr = qa?.public_tldr || (d.description || '').slice(0, 220);
     const tierBadge = tier === 'green'
       ? '<span class="tag-pill tier-green"><span class="swatch"></span>verified</span>'
@@ -930,6 +981,7 @@ function renderGrid() {
           ${d.type === 'IMG' ? '<span class="tag-pill">image</span>' : ''}
         </div>
         <h3>${hl(escapeHtml(headline), q)}</h3>
+        ${slug ? `<div class="card-slug">${escapeHtml(slug)}</div>` : ''}
         <p class="tldr">${hl(escapeHtml(tldr.slice(0, 240)), q)}</p>
         <div class="card-foot">
           ${d.incident_date && d.incident_date !== 'N/A' ? `<span>${escapeHtml(d.incident_date)}</span>` : '<span>—</span>'}
@@ -1053,7 +1105,7 @@ function renderNetwork() {
     <div class="row"><div class="swatch" style="background:#e57373"></div>NASA</div>
     <div class="row"><div class="swatch" style="background:#c084fc"></div>Dept of State</div>
     <div class="row"><div class="swatch" style="background:#6cc28a"></div>AARO</div>
-    <div class="row" style="margin-top:0.4rem;color:var(--text-dim);font-size:0.7rem">${nodes.length} nodes · ${edges.length} edges${entFilter ? ` · filter: "${entFilter}"` : ''}</div>`;
+    <div class="row" style="margin-top:0.4rem;color:var(--text-dim);font-size:0.7rem">${nodes.length} nodes · ${edges.length} edges${entFilter ? ` · filter: "${escapeHtml(entFilter)}"` : ''}</div>`;
 
   const g = svg.append('g');
   netZoom = d3.zoom().scaleExtent([0.15, 6]).on('zoom', (e) => g.attr('transform', e.transform));
@@ -1470,6 +1522,7 @@ document.addEventListener('keydown', (e) => {
 
   if (e.key === '/') { e.preventDefault(); document.getElementById('q').focus(); return; }
   if (e.key === '?') { e.preventDefault(); document.getElementById('kb-modal').classList.add('open'); return; }
+  if (e.key === 'f') { document.getElementById('filter-pill')?.click(); return; }
   if (e.key === 'g') { switchView('grid'); return; }
   if (e.key === 'm') { switchView('map'); return; }
   if (e.key === 'n') { switchView('network'); return; }
@@ -1631,6 +1684,20 @@ function renderFeatured() {
     });
   }
 }
+
+// sidebar toggle — collapsed by default for new visitors
+const appEl = document.querySelector('.app');
+const filterPill = document.getElementById('filter-pill');
+const sidebarPref = localStorage.getItem('uap-sidebar');  // 'open' | 'collapsed' | null
+const sidebarOpen = sidebarPref === 'open';  // null defaults to collapsed
+if (!sidebarOpen) appEl.classList.add('sidebar-collapsed');
+if (sidebarOpen) filterPill.classList.add('active');
+filterPill.addEventListener('click', () => {
+  const nowCollapsed = !appEl.classList.contains('sidebar-collapsed');
+  appEl.classList.toggle('sidebar-collapsed', nowCollapsed);
+  filterPill.classList.toggle('active', !nowCollapsed);
+  localStorage.setItem('uap-sidebar', nowCollapsed ? 'collapsed' : 'open');
+});
 
 // hero banner
 const dismissed = localStorage.getItem('uap-hero-dismissed') === 'true';
