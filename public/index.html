@@ -737,30 +737,24 @@ function renderSidebar() {
   document.getElementById('stat-docs').textContent = corpus.length;
   document.getElementById('stat-verified').textContent = verified;
 
-  // Hero strip stats
-  const byType = { PDF: 0, VID: 0, AUD: 0, IMG: 0 };
-  let r2 = 0;
-  for (const d of corpus) {
-    const t = d.type || 'PDF';
-    if (byType[t] !== undefined) byType[t]++;
-    if (d.release === 'release_2') r2++;
-  }
-  const setHero = (id, txt) => { const el = document.getElementById(id); if (el) el.textContent = txt; };
-  setHero('hero-stat-total', `${corpus.length} docs`);
-  setHero('hero-stat-verified', `${verified} verified`);
-  setHero('hero-stat-videos', `${byType.VID} videos`);
-  setHero('hero-stat-audio', `${byType.AUD} audio`);
-  setHero('hero-stat-pdfs', `${byType.PDF} PDFs`);
-  setHero('hero-stat-r2', `${r2} in Release 2`);
-
+  // Single pass: collect counts for hero strip + facets together.
   const byAgency = {}, byType = {}, byRegion = {};
+  let r2Count = 0;
   for (const d of corpus) {
     if (d.agency) byAgency[d.agency] = (byAgency[d.agency]||0) + 1;
     const t = d.type || 'PDF';
     byType[t] = (byType[t]||0) + 1;
     const r = d.incident_location && d.incident_location !== 'N/A' ? d.incident_location : null;
     if (r) byRegion[r] = (byRegion[r]||0) + 1;
+    if (d.release === 'release_2') r2Count++;
   }
+  const setHero = (id, txt) => { const el = document.getElementById(id); if (el) el.textContent = txt; };
+  setHero('hero-stat-total', `${corpus.length} docs`);
+  setHero('hero-stat-verified', `${verified} verified`);
+  setHero('hero-stat-videos', `${byType.VID || 0} videos`);
+  setHero('hero-stat-audio', `${byType.AUD || 0} audio`);
+  setHero('hero-stat-pdfs', `${byType.PDF || 0} PDFs`);
+  setHero('hero-stat-r2', `${r2Count} in Release 2`);
 
   function facet(elId, kvs, filterKey, max = 30) {
     const el = document.getElementById(elId);
@@ -1207,6 +1201,44 @@ function renderCurrentView() {
   else if (currentView === 'timeline') renderTimeline();
 }
 
+// Fetches /extract/transcripts/<sha>.json and renders click-to-seek segments
+// into the detail panel's transcript block. Safe to call multiple times.
+async function loadTranscript(sha) {
+  try {
+    const r = await fetch(`extract/transcripts/${sha}.json`);
+    if (!r.ok) return;
+    const tr = await r.json();
+    const block = document.querySelector(`[data-transcript-sha="${sha}"]`);
+    const segEl = document.querySelector(`[data-tseg-sha="${sha}"]`);
+    const audio = document.querySelector(`[data-audio-sha="${sha}"]`);
+    if (!block || !segEl || !audio) return;
+    block.style.display = 'block';
+    segEl.innerHTML = '';
+    for (const s of (tr.segments || [])) {
+      const div = document.createElement('div');
+      div.style.cursor = 'pointer';
+      div.style.padding = '2px 0';
+      const mm = Math.floor(s.start/60).toString().padStart(2,'0');
+      const ss = Math.floor(s.start%60).toString().padStart(2,'0');
+      const ts = document.createElement('span');
+      ts.style.cssText = 'display:inline-block;width:48px;color:var(--text-dim);font-family:var(--ff-mono);font-size:0.72rem;';
+      ts.textContent = mm + ':' + ss;
+      const txt = document.createTextNode(' ' + (s.text || '').trim());
+      div.appendChild(ts);
+      div.appendChild(txt);
+      div.addEventListener('click', () => {
+        audio.currentTime = s.start;
+        audio.play().catch(() => {});
+        for (const sib of segEl.children) sib.style.background = '';
+        div.style.background = 'rgba(217,119,87,0.18)';
+      });
+      segEl.appendChild(div);
+    }
+  } catch (e) {
+    // silent — no transcript yet
+  }
+}
+
 // ===================================================================== detail panel
 function openDetail(idx) {
   if (idx < 0 || idx >= filteredDocs.length) return;
@@ -1289,41 +1321,23 @@ function openDetail(idx) {
     ${isVid ? `<video class="pdf-frame" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
     ${d.type === 'AUD' || /\.(mp3|wav|m4a|ogg)$/i.test(d.name || '') ? `
       <div class="audio-player">
-        <audio id="audio-${d.sha256.slice(0,12)}" src="${escapeAttr(d.release_url)}" controls preload="metadata"></audio>
+        <audio data-audio-sha="${d.sha256}" src="${escapeAttr(d.release_url)}" controls preload="metadata"></audio>
         <div class="audio-meta">
           <span><strong>format</strong> ${(d.name || '').split('.').pop().toUpperCase()}</span>
           <span><strong>size</strong> ${fmt(d.bytes)}</span>
           ${d.dvids_id ? `<span><strong>DVIDS</strong> <a href="https://www.dvidshub.net/audio/${d.dvids_id}" target="_blank" rel="noopener">${d.dvids_id}</a></span>` : ''}
         </div>
-        <div id="transcript-${d.sha256.slice(0,12)}" class="transcript-block" style="display:none;">
+        <div data-transcript-sha="${d.sha256}" class="transcript-block" style="display:none;">
           <h4 style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-dim);margin:0.8rem 0 0.4rem;">Transcript <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--text-dim);font-size:0.7rem;">auto-generated · click any line to seek</span></h4>
-          <div class="transcript-segments" id="tseg-${d.sha256.slice(0,12)}" style="max-height:280px;overflow:auto;background:var(--bg-elev);border:1px solid var(--line);border-radius:4px;padding:0.6rem 0.8rem;font-size:0.82rem;line-height:1.5;"></div>
+          <div data-tseg-sha="${d.sha256}" class="transcript-segments" style="max-height:280px;overflow:auto;background:var(--bg-elev);border:1px solid var(--line);border-radius:4px;padding:0.6rem 0.8rem;font-size:0.82rem;line-height:1.5;"></div>
         </div>
-      </div>
-      <script>
-        (async () => {
-          try {
-            const r = await fetch('extract/transcripts/${d.sha256}.json');
-            if (!r.ok) return;
-            const tr = await r.json();
-            const block = document.getElementById('transcript-${d.sha256.slice(0,12)}');
-            const segEl = document.getElementById('tseg-${d.sha256.slice(0,12)}');
-            const audio = document.getElementById('audio-${d.sha256.slice(0,12)}');
-            if (!block || !segEl || !audio) return;
-            block.style.display = 'block';
-            for (const s of (tr.segments || [])) {
-              const div = document.createElement('div');
-              div.style.cursor = 'pointer'; div.style.padding = '2px 0';
-              const mm = Math.floor(s.start/60).toString().padStart(2,'0');
-              const ss = Math.floor(s.start%60).toString().padStart(2,'0');
-              div.innerHTML = '<span style="display:inline-block;width:48px;color:var(--text-dim);font-family:var(--ff-mono);font-size:0.72rem;">'+mm+':'+ss+'</span>' + (s.text || '').replace(/[<>&]/g, c=>({'<':'&lt;','>':'&gt;','&':'&amp;'})[c]);
-              div.onclick = () => { audio.currentTime = s.start; audio.play(); for (const sib of segEl.children) sib.style.background=''; div.style.background='rgba(217,119,87,0.18)'; };
-              segEl.appendChild(div);
-            }
-          } catch {}
-        })();
-      </script>` : ''}
+      </div>` : ''}
   `;
+  // Lazy-load the transcript for AUD docs. Defined outside the template
+  // literal so the HTML parser doesn't see a literal end-script tag.
+  if (d.type === 'AUD' || /\.(mp3|wav|m4a|ogg)$/i.test(d.name || '')) {
+    loadTranscript(d.sha256);
+  }
 
   // Wire share + cite + close cite popover
   const popover = document.getElementById('cite-popover');
