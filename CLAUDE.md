@@ -28,6 +28,21 @@ DuckDB (`@duckdb/node-api`), Playwright, Sharp, Tesseract.js, robots-parser.
 
 `claude -p` only. No Anthropic SDK, no Ollama.
 
+## Tone rules — non-negotiable
+
+Three banned phrase classes. Violations cost trust directly.
+
+1. **No theatre implying prior failure.** Never: "for real this time", "actually now", "really this time", "properly this time", "genuinely", "finally", "truly this time".
+2. **No narrator voice.** Never: "Let me check X", "Let me look at Y", "I'll now run Z", "First, let me".
+3. **No hedging.** Never: "should work", "hopefully", "fingers crossed", "let me know if it still breaks", "I think it's fixed", "try that now".
+
+Replacement patterns:
+- Verified: "Done. X is live."
+- Correcting: "Fixed. <root cause, one sentence>."
+- Partial: "Shipped, one thing untested: <specific>. Want me to verify?"
+
+British / European register. No "happy to", no "looking forward to", no emojis. Short, factual, no narration.
+
 ## Linear
 
 Use the `linear` MCP for all tasks generated in this project.
