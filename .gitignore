@@ -28,3 +28,6 @@ docs/repo-flip-private.json
 
 # Transient working dirs from in-progress whisper / OCR runs
 extract/transcripts/_tmp_*/
+
+# Playwright MCP ephemeral snapshots
+.playwright-mcp/
