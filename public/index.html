@@ -635,7 +635,9 @@
 <script>
 // ===================================================================== state
 let corpus = [], qaIndex = new Map(), connections = { nodes: [], edges: [] }, geocoded = {};
-let thumbsAvailable = null;  // Set<sha> populated from extract/thumbs-index.json
+let thumbsAvailable = null;  // Set<sha> of docs with a real thumbnail
+let transcriptsAvailable = new Set();  // Set<sha> of docs with a transcript
+let transcriptSearch = {};  // { sha: lowercased transcript text } for search
 let activeFilters = { source: '', release: '', tier: '', agency: null, type: null, region: null, q: '', netFilter: '' };
 let currentSort = 'newest-released';
 let currentView = 'grid';
@@ -715,24 +717,38 @@ async function loadThumbCache() {
 
 // ===================================================================== loading
 async function loadAll() {
-  const raw = await loadJsonl('extract/release-manifest.jsonl');
-  const map = new Map();
-  for (const r of raw) if (r.sha256 && !map.has(r.sha256)) map.set(r.sha256, r);
-  corpus = [...map.values()];
-  // Only fetch artefacts that exist — kills 150+ wasted 404 round-trips.
-  let qaShas = null;
+  // ONE fetch for the whole corpus (manifest + QA summary + artefact flags).
+  // Falls back to the legacy per-doc fetch path if corpus.json is absent.
+  let bundle = null;
   try {
-    const idx = await fetch('extract/qa-index.json');
-    if (idx.ok) { const j = await idx.json(); qaShas = new Set(j.shas || []); }
+    const r = await fetch('extract/corpus.json');
+    if (r.ok) bundle = await r.json();
   } catch {}
-  try {
-    const t = await fetch('extract/thumbs-index.json');
-    if (t.ok) { const j = await t.json(); thumbsAvailable = new Set(j.shas || []); }
-  } catch {}
-  const toFetch = qaShas ? corpus.filter(d => qaShas.has(d.sha256)) : corpus;
-  await Promise.all(toFetch.map(async d => {
-    try { const r = await fetch(`extract/public/${d.sha256}.json`); if (r.ok) qaIndex.set(d.sha256, await r.json()); } catch {}
-  }));
+
+  if (bundle && Array.isArray(bundle)) {
+    thumbsAvailable = new Set();
+    corpus = bundle.map(rec => {
+      const { _qa, _thumb, _transcript, ...doc } = rec;
+      if (_qa) qaIndex.set(doc.sha256, { ..._qa, _hasQa: true });
+      if (_thumb) thumbsAvailable.add(doc.sha256);
+      if (_transcript) transcriptsAvailable.add(doc.sha256);
+      return doc;
+    });
+  } else {
+    // Legacy fallback: manifest + per-doc QA fetches.
+    const raw = await loadJsonl('extract/release-manifest.jsonl');
+    const map = new Map();
+    for (const r of raw) if (r.sha256 && !map.has(r.sha256)) map.set(r.sha256, r);
+    corpus = [...map.values()];
+    let qaShas = null;
+    try { const idx = await fetch('extract/qa-index.json'); if (idx.ok) qaShas = new Set((await idx.json()).shas || []); } catch {}
+    try { const t = await fetch('extract/thumbs-index.json'); if (t.ok) thumbsAvailable = new Set((await t.json()).shas || []); } catch {}
+    const toFetch = qaShas ? corpus.filter(d => qaShas.has(d.sha256)) : corpus;
+    await Promise.all(toFetch.map(async d => {
+      try { const r = await fetch(`extract/public/${d.sha256}.json`); if (r.ok) qaIndex.set(d.sha256, { ...(await r.json()), _hasQa: true }); } catch {}
+    }));
+  }
+
   try {
     const conn = await loadJsonl('extract/connections.jsonl');
     connections.nodes = conn.filter(r => r.kind === 'node');
@@ -741,6 +757,24 @@ async function loadAll() {
   try {
     const gc = await loadJsonl('extract/geocoded.jsonl');
     for (const g of gc) if (g.lat && g.lon) geocoded[g.location] = g;
+  } catch {}
+  try {
+    const ts = await fetch('extract/transcripts-search.json');
+    if (ts.ok) transcriptSearch = await ts.json();
+  } catch {}
+}
+
+// Lazy-load full QA detail (narrative, key_facts, caveats) on demand.
+// The corpus bundle only carries the summary; this hydrates the rest.
+const qaHydrated = new Set();
+async function hydrateQa(sha) {
+  if (qaHydrated.has(sha)) return;
+  qaHydrated.add(sha);
+  const summary = qaIndex.get(sha);
+  if (!summary || !summary._hasQa) return;  // nothing to hydrate
+  try {
+    const r = await fetch(`extract/public/${sha}.json`);
+    if (r.ok) qaIndex.set(sha, { ...(await r.json()), _hasQa: true });
   } catch {}
 }
 
@@ -789,10 +823,18 @@ function getFiltered() {
       const tldr = qa?.public_tldr || '';
       const headline = qa?.public_headline || '';
       const hay = [d.title, d.agency, d.incident_location, d.description, headline, tldr, d.name].filter(Boolean).join(' ').toLowerCase();
-      if (!hay.includes(q)) return false;
+      // Also search inside audio/video transcripts (e.g. Apollo "streaks of light").
+      const transcript = transcriptSearch[d.sha256];
+      if (!hay.includes(q) && !(transcript && transcript.includes(q))) return false;
     }
     return true;
   });
+}
+// Whether the current query matched only inside a transcript (drives a badge).
+function isTranscriptHit(sha, q) {
+  if (!q) return false;
+  const t = transcriptSearch[sha];
+  return !!(t && t.includes(q.toLowerCase().trim()));
 }
 
 // ===================================================================== sidebar render
@@ -979,6 +1021,7 @@ function renderGrid() {
           ${d.type === 'VID' ? '<span class="tag-pill">video</span>' : ''}
           ${d.type === 'AUD' ? '<span class="tag-pill">audio</span>' : ''}
           ${d.type === 'IMG' ? '<span class="tag-pill">image</span>' : ''}
+          ${q && isTranscriptHit(d.sha256, q) ? '<span class="tag-pill" style="background:var(--accent-soft);color:var(--accent);border-color:rgba(217,119,87,0.3);">🔊 in transcript</span>' : ''}
         </div>
         <h3>${hl(escapeHtml(headline), q)}</h3>
         ${slug ? `<div class="card-slug">${escapeHtml(slug)}</div>` : ''}
@@ -1313,13 +1356,16 @@ async function loadTranscript(sha) {
 }
 
 // ===================================================================== detail panel
-function openDetail(idx) {
+async function openDetail(idx) {
   if (idx < 0 || idx >= filteredDocs.length) return;
   currentDetailIdx = idx;
   const d = filteredDocs[idx];
+  // Hydrate full QA detail (narrative/key_facts/caveats) before rendering.
+  await hydrateQa(d.sha256);
+  if (currentDetailIdx !== idx) return;  // user navigated away while hydrating
   const qa = qaIndex.get(d.sha256);
-  const isPdf = /\.pdf$/i.test(d.name);
-  const isVid = /\.mp4$/i.test(d.name) || d.type === 'VID';
+  const isPdf = d.type === 'PDF' || /\.pdf$/i.test(d.name || '');
+  const isVid = d.type === 'VID' || /\.mp4$/i.test(d.name || '');
   const headline = qa?.public_headline || d.title || d.name;
   const tldr = qa?.public_tldr;
   const narrative = qa?.public_narrative;

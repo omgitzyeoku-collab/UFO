@@ -8,11 +8,20 @@ for f in release-manifest captions entities entities-normalised entity-index sco
   fi
 done
 
-# qa-index.json (list of shas that have QA output — avoids 404 spam on load)
+# corpus.json — single bundled fetch (manifest + QA summary + artefact flags).
+# Primary load path; the qa-index/thumbs-index below remain as fallback.
+if [ -f "extract/build-corpus.mjs" ]; then
+  node extract/build-corpus.mjs || echo "build-corpus failed (non-fatal)"
+fi
+if [ -f "extract/corpus.json" ]; then cp extract/corpus.json public/extract/corpus.json; fi
+
+# qa-index.json + thumbs-index.json (legacy fallback path)
 if [ -f "extract/build-qa-index.mjs" ]; then
   node extract/build-qa-index.mjs || true
 fi
-if [ -f "extract/qa-index.json" ]; then cp extract/qa-index.json public/extract/qa-index.json; fi
+for idx in qa-index thumbs-index transcripts-index; do
+  if [ -f "extract/${idx}.json" ]; then cp "extract/${idx}.json" "public/extract/${idx}.json"; fi
+done
 
 if [ -d "extract/public" ]; then cp -r extract/public/. public/extract/public/ 2>/dev/null || true; fi
 if [ -d "extract/text" ];   then cp -r extract/text/.   public/extract/text/   2>/dev/null || true; fi

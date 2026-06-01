@@ -1,0 +1,113 @@
+// Build extract/corpus.json — ONE file the site fetches on load instead of
+// 165+ individual QA-JSON requests.
+//
+// Each record = manifest fields + flags (_thumb, _transcript) + an inline
+// QA summary (_qa: {tier, public_headline, public_tldr}) or null. The heavy
+// QA detail (narrative, key_facts, caveats) stays in extract/public/<sha>.json
+// and is lazy-loaded on detail-open.
+//
+// Also corrects a data-quality bug: 9 Release-1 "Unresolved UAP Report" docs
+// are tagged type=VID but their blobs are actually PDFs. We verify magic
+// bytes and correct the type so they render as documents, not broken players.
+
+import fs from 'node:fs/promises';
+import { openSync, readSync, closeSync, existsSync } from 'node:fs';
+import path from 'node:path';
+
+const ROOT = path.resolve('.');
+const RELEASE = path.join(ROOT, 'extract', 'release-manifest.jsonl');
+const QA_DIR = path.join(ROOT, 'extract', 'public');
+const THUMBS_DIR = path.join(ROOT, 'extract', 'thumbs');
+const TRANSCRIPTS_DIR = path.join(ROOT, 'extract', 'transcripts');
+const OUT = path.join(ROOT, 'extract', 'corpus.json');
+
+// Detect real file type from the blob's first bytes.
+function sniffType(blobPath) {
+  if (!existsSync(blobPath)) return null;
+  try {
+    const fd = openSync(blobPath, 'r');
+    const buf = Buffer.alloc(12);
+    readSync(fd, buf, 0, 12, 0);
+    closeSync(fd);
+    const hex = buf.toString('hex');
+    if (buf.slice(4, 8).toString() === 'ftyp') return 'VID';
+    if (hex.startsWith('25504446')) return 'PDF';      // %PDF
+    if (hex.startsWith('ffd8ff')) return 'IMG';         // JPEG
+    if (hex.startsWith('89504e47')) return 'IMG';       // PNG
+    if (hex.startsWith('494433') || hex.startsWith('fff')) return 'AUD'; // ID3 / MPEG
+    if (buf.slice(0, 4).toString() === 'RIFF') return 'AUD'; // WAV
+    return null;
+  } catch { return null; }
+}
+
+const records = (await fs.readFile(RELEASE, 'utf8')).trim().split('\n').filter(Boolean).map(l => JSON.parse(l));
+const dedup = new Map();
+for (const r of records) if (r.sha256 && !dedup.has(r.sha256)) dedup.set(r.sha256, r);
+const docs = [...dedup.values()];
+
+let qaCount = 0, thumbCount = 0, transcriptCount = 0, typeCorrected = 0;
+const out = [];
+
+for (const d of docs) {
+  const blobPath = path.join(ROOT, d.blob_path || `blobs/${d.sha256.slice(0,2)}/${d.sha256.slice(2,4)}/${d.sha256}`);
+
+  // Correct mislabeled type from blob magic bytes (only downgrade VID/AUD→PDF/IMG,
+  // never override a correct PDF/IMG to something else).
+  let type = d.type || 'PDF';
+  const sniffed = sniffType(blobPath);
+  if (sniffed && sniffed !== type) {
+    // Trust the sniff when the declared type is a media type but the bytes say document/image
+    if ((type === 'VID' || type === 'AUD') && (sniffed === 'PDF' || sniffed === 'IMG')) {
+      type = sniffed; typeCorrected++;
+    }
+  }
+
+  // Inline QA summary
+  let qa = null;
+  const qaPath = path.join(QA_DIR, d.sha256 + '.json');
+  if (existsSync(qaPath)) {
+    try {
+      const full = JSON.parse(await fs.readFile(qaPath, 'utf8'));
+      qa = {
+        tier: full.tier || null,
+        public_headline: full.public_headline || null,
+        public_tldr: full.public_tldr || null,
+      };
+      qaCount++;
+    } catch {}
+  }
+
+  const thumb = existsSync(path.join(THUMBS_DIR, d.sha256 + '.jpg'));
+  if (thumb) thumbCount++;
+  const transcript = existsSync(path.join(TRANSCRIPTS_DIR, d.sha256 + '.json'));
+  if (transcript) transcriptCount++;
+
+  out.push({
+    sha256: d.sha256,
+    type,
+    agency: d.agency || null,
+    incident_date: d.incident_date || null,
+    incident_location: d.incident_location || null,
+    release: d.release || 'release_1',
+    source: d.source || 'war.gov',
+    bytes: d.bytes || 0,
+    name: d.name || null,
+    title: d.title || null,
+    url: d.url || null,
+    release_url: d.release_url || d.url || null,
+    dvids_id: d.dvids_id || null,
+    description: d.description || null,
+    _qa: qa,
+    _thumb: thumb,
+    _transcript: transcript,
+  });
+}
+
+await fs.writeFile(OUT, JSON.stringify(out));
+const kb = (JSON.stringify(out).length / 1024).toFixed(0);
+
+console.log(`corpus.json: ${out.length} docs, ${kb} KB`);
+console.log(`  with QA summary: ${qaCount}`);
+console.log(`  with thumbnail:  ${thumbCount}`);
+console.log(`  with transcript: ${transcriptCount}`);
+console.log(`  type-corrected (VID/AUD→PDF/IMG): ${typeCorrected}`);
