@@ -51,13 +51,30 @@ const out = [];
 for (const d of docs) {
   const blobPath = path.join(ROOT, d.blob_path || `blobs/${d.sha256.slice(0,2)}/${d.sha256.slice(2,4)}/${d.sha256}`);
 
-  // Correct mislabeled type from blob magic bytes (only downgrade VID/AUD→PDF/IMG,
-  // never override a correct PDF/IMG to something else).
+  // Correct mislabeled type. PRIMARY signal is the filename extension —
+  // it's in the manifest, authoritative, and (unlike magic-byte sniffing)
+  // survives the Vercel build where the blobs are absent (gitignored).
+  // Magic bytes are a fallback only when the name has no useful extension.
   let type = d.type || 'PDF';
-  const sniffed = sniffType(blobPath);
-  if (sniffed && sniffed !== type) {
-    // Trust the sniff when the declared type is a media type but the bytes say document/image
-    if ((type === 'VID' || type === 'AUD') && (sniffed === 'PDF' || sniffed === 'IMG')) {
+  const name = (d.name || d.url || '').toLowerCase();
+  const extType =
+    /\.pdf$/.test(name) ? 'PDF' :
+    /\.(mp4|mov|webm|mkv)$/.test(name) ? 'VID' :
+    /\.(mp3|wav|m4a|ogg|flac)$/.test(name) ? 'AUD' :
+    /\.(jpe?g|png|gif|webp|tiff?)$/.test(name) ? 'IMG' : null;
+  if (extType && extType !== type) {
+    // Only correct media→document/image (the observed bug direction); never
+    // downgrade a real video to PDF on a stray name.
+    if ((type === 'VID' || type === 'AUD') && (extType === 'PDF' || extType === 'IMG')) {
+      type = extType; typeCorrected++;
+    } else if (type === 'PDF' && extType === 'VID' && d.dvids_id) {
+      // A PDF-typed record that's really a DVIDS video.
+      type = extType; typeCorrected++;
+    }
+  } else if (!extType) {
+    // No extension to go on — fall back to magic bytes if the blob is local.
+    const sniffed = sniffType(blobPath);
+    if (sniffed && (type === 'VID' || type === 'AUD') && (sniffed === 'PDF' || sniffed === 'IMG')) {
       type = sniffed; typeCorrected++;
     }
   }
