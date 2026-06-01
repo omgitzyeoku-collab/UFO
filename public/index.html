@@ -1442,7 +1442,7 @@ async function openDetail(idx) {
     </div>
 
     ${isPdf ? `<iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(d.release_url)}" loading="lazy" title="${escapeAttr(headline)}"></iframe>` : ''}
-    ${isVid ? `<video class="pdf-frame" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
+    ${isVid ? `<video class="pdf-frame" data-audio-sha="${d.sha256}" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
     ${d.type === 'AUD' || /\.(mp3|wav|m4a|ogg)$/i.test(d.name || '') ? `
       <div class="audio-player">
         <audio data-audio-sha="${d.sha256}" src="${escapeAttr(d.release_url)}" controls preload="metadata"></audio>
@@ -1451,15 +1451,16 @@ async function openDetail(idx) {
           <span><strong>size</strong> ${fmt(d.bytes)}</span>
           ${d.dvids_id ? `<span><strong>DVIDS</strong> <a href="https://www.dvidshub.net/audio/${d.dvids_id}" target="_blank" rel="noopener">${d.dvids_id}</a></span>` : ''}
         </div>
-        <div data-transcript-sha="${d.sha256}" class="transcript-block" style="display:none;">
-          <h4 style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-dim);margin:0.8rem 0 0.4rem;">Transcript <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--text-dim);font-size:0.7rem;">auto-generated · click any line to seek</span></h4>
-          <div data-tseg-sha="${d.sha256}" class="transcript-segments" style="max-height:280px;overflow:auto;background:var(--bg-elev);border:1px solid var(--line);border-radius:4px;padding:0.6rem 0.8rem;font-size:0.82rem;line-height:1.5;"></div>
-        </div>
+      </div>` : ''}
+    ${(d.type === 'AUD' || d.type === 'VID' || /\.(mp3|wav|m4a|ogg|mp4|mov)$/i.test(d.name || '')) ? `
+      <div data-transcript-sha="${d.sha256}" class="transcript-block" style="display:none;">
+        <h4 style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-dim);margin:0.8rem 0 0.4rem;">Transcript <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--text-dim);font-size:0.7rem;">auto-generated · click any line to seek</span></h4>
+        <div data-tseg-sha="${d.sha256}" class="transcript-segments" style="max-height:280px;overflow:auto;background:var(--bg-elev);border:1px solid var(--line);border-radius:4px;padding:0.6rem 0.8rem;font-size:0.82rem;line-height:1.5;"></div>
       </div>` : ''}
   `;
-  // Lazy-load the transcript for AUD docs. Defined outside the template
-  // literal so the HTML parser doesn't see a literal end-script tag.
-  if (d.type === 'AUD' || /\.(mp3|wav|m4a|ogg)$/i.test(d.name || '')) {
+  // Lazy-load the transcript for audio AND video docs. Called outside the
+  // template literal so the HTML parser never sees a literal end-script tag.
+  if (transcriptsAvailable.has(d.sha256)) {
     loadTranscript(d.sha256);
   }
 
