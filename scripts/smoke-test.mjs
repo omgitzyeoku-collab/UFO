@@ -30,8 +30,10 @@ page.on('console', msg => { if (msg.type() === 'error') consoleErrors.push(msg.t
 page.on('pageerror', e => consoleErrors.push(`PAGE ERROR: ${e.message}`));
 
 console.log(`smoke-testing ${TARGET}`);
-await page.goto(TARGET, { waitUntil: 'networkidle', timeout: 60000 });
-await page.waitForTimeout(2500);
+await page.goto(TARGET, { waitUntil: 'domcontentloaded', timeout: 60000 });
+// Wait for the app to populate at least one card before sampling
+try { await page.waitForSelector('.card', { timeout: 30000 }); } catch {}
+await page.waitForTimeout(1500);
 
 // 1. The #1 regression: <script> tag count
 const scriptCount = await page.evaluate(() => document.querySelectorAll('script').length);
