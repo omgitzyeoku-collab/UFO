@@ -1,0 +1,231 @@
+{
+  "sha256": "a00fc9e1aedcc18596c04982161a2ab2dbf4b72b8c05a0ca24e384d63a7d6173",
+  "title": "24 F 1138",
+  "agency": "AARO",
+  "type": "PDF",
+  "incident_date": "",
+  "incident_location": "",
+  "what_is_it": "A standardized verbal legal advisement script read to individuals before conducting an oral history interview in a SCIF, administered by AARO under the Office of the Under Secretary of Defense for Intelligence and Security.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "The interviewer's name and the date of the advisement are redacted, so it is unknown when or by whom this specific advisement was given.",
+    "This is a procedural/legal template document, not an incident report — it contains no UAP sighting details or witness testimony.",
+    "The document confirms AARO conducts oral history interviews in SCIFs where NDAs are temporarily suspended, which is significant procedurally but provides no substantive UAP information.",
+    "Redaction level is moderate: the interviewer's identity and date are blanked out but the legal text itself is fully intact."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Administering office",
+      "value": "Office of the Under Secretary of Defense for Intelligence and Security (OUSD I&S)",
+      "source_quote": "I am from the Office of the Under Secretary of Defense for Intelligence and Security OUSD (I&S).",
+      "citation_offset": {
+        "offset": 58,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Interview type",
+      "value": "Voluntary oral history",
+      "source_quote": "Do you agree that you are voluntarily participating in this oral history?",
+      "citation_offset": {
+        "offset": 275,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Interview location type",
+      "value": "Secure Compartmented Information Facility (SCIF)",
+      "source_quote": "only during the course of our discussion in this Secure Compartmented Information Facility (SCIF)",
+      "citation_offset": {
+        "offset": 2020,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary purpose",
+      "value": "Record historical knowledge of persons, events, and topics of interest to DoD and OUSD I&S",
+      "source_quote": "record your knowledge of historical information that focuses on persons, events, and topics of historical interest to the Department of Defense",
+      "citation_offset": {
+        "offset": 851,
+        "len": 143,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NDA suspension",
+      "value": "Nondisclosure agreements are temporarily suspended during the SCIF interview only",
+      "source_quote": "the information you disclose is not subject to any Nondisclosure Agreement you have signed",
+      "citation_offset": {
+        "offset": 2124,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NDA reinstatement",
+      "value": "All nondisclosure agreements resume full force after interview completion",
+      "source_quote": "upon completion of this interview today that all non-disclosure agreements remain in full force",
+      "citation_offset": {
+        "offset": 2239,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Congressional access",
+      "value": "Notes, transcripts, and derived information may be shared with Congress",
+      "source_quote": "the information derived from them may be made available to the U.S. Congress",
+      "citation_offset": {
+        "offset": 1866,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "False statement penalty",
+      "value": "Fine, imprisonment, or both under 18 U.S.C. 1001",
+      "source_quote": "a knowing and willful false statement during this interview can be punished by fine or imprisonment or both (18 U.S.C. 1001)",
+      "citation_offset": {
+        "offset": 2362,
+        "len": 124,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Withholding consequences",
+      "value": "May affect security clearance, employment, or result in removal from federal service",
+      "source_quote": "intentionally withholding, misrepresenting, or falsifying information may have a negative effect on your security clearance, employment prospects, or job status",
+      "citation_offset": {
+        "offset": 2514,
+        "len": 160,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Privacy Act system of records",
+      "value": "DoD-0014, DoD Historical Records (87 FR 54204, Sep. 1, 2022)",
+      "source_quote": "DoD-0014, DoD Historical Records system of records (87 FR 54204, Sep. 1, 2022)",
+      "citation_offset": {
+        "offset": 1286,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Government ownership",
+      "value": "All transcripts and materials belong to the U.S. Government",
+      "source_quote": "the transcripts and any materials resulting from this oral history will belong to the U.S. Government",
+      "citation_offset": {
+        "offset": 1467,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    {
+      "event": "Privacy Act system of records publication date: Sep. 1, 2022"
+    }
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The interview is conducted under the authority of the Office of the Under Secretary of Defense for Intelligence and Security.",
+      "source_quote": "I am from the Office of the Under Secretary of Defense for Intelligence and Security OUSD (I&S).",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 58,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Interviewees' nondisclosure agreements are temporarily waived during the SCIF oral history session.",
+      "source_quote": "the information you disclose is not subject to any Nondisclosure Agreement you have signed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2124,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Making a false statement during the interview is a federal crime under 18 U.S.C. 1001.",
+      "source_quote": "a knowing and willful false statement during this interview can be punished by fine or imprisonment or both (18 U.S.C. 1001)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2362,
+        "len": 124,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Interview materials may be provided to the U.S. Congress.",
+      "source_quote": "the information derived from them may be made available to the U.S. Congress",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1866,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Privacy Act system of records applicable is DoD-0014, published at 87 FR 54204.",
+      "source_quote": "DoD-0014, DoD Historical Records system of records (87 FR 54204, Sep. 1, 2022)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1286,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T12:43:02.310Z",
+  "qa_completed_at": "2026-05-09T12:43:46.151Z",
+  "timing": {
+    "A": "24.5s",
+    "B": "19.4s",
+    "E": "22.5s"
+  },
+  "public_headline": "AARO Legal Script Tells Interviewees Their NDAs Are Temporarily Lifted",
+  "public_tldr": "This document is a standardized legal advisement script that AARO reads aloud to individuals before conducting voluntary oral history interviews inside a secure facility. It confirms that nondisclosure agreements are temporarily suspended during these interviews and that transcripts may be shared with Congress, but it contains no UAP sighting details or witness testimony.",
+  "public_narrative": "This record, titled \"24 F 1138,\" is not a UAP sighting report. It is a scripted legal advisement — essentially a read-aloud form — used by the All-domain Anomaly Resolution Office (AARO), operating under the Office of the Under Secretary of Defense for Intelligence and Security (OUSD I&S). The script is read to individuals before they sit down for a voluntary oral history interview inside a SCIF (Sensitive Compartmented Information Facility), a type of secure room used to discuss classified material.\n\nThe key procedural detail is the handling of nondisclosure agreements. The script tells interviewees that any NDAs they have previously signed are temporarily suspended for the duration of the interview, meaning they can speak freely about otherwise restricted topics. However, the moment the interview ends, all nondisclosure obligations snap back into full force. The document also warns that making a knowingly false statement during the interview is a federal crime under 18 U.S.C. 1001, punishable by fine, imprisonment, or both, and that withholding or misrepresenting information may affect the person's security clearance or employment.\n\nAll transcripts and materials produced from these interviews belong to the U.S. Government and are stored under a Privacy Act system of records (DoD-0014, published September 1, 2022). Notably, the script states that notes, transcripts, and derived information may be shared with Congress.\n\nThe interviewer's name and the date of the advisement are redacted, so it is not possible to determine when this specific interview took place or who conducted it. The legal text itself, however, is fully intact. Because this is a procedural template rather than an incident report, it offers no information about any particular UAP event — but it does confirm the formal process AARO uses to collect testimony from individuals who may hold relevant knowledge.",
+  "public_caveats": [
+    "This is a procedural template, not an incident report — it contains zero information about any specific UAP sighting or encounter.",
+    "The interviewer's identity and the date are redacted, so we do not know when this advisement was given or to whom.",
+    "The document confirms AARO conducts oral history interviews where NDAs are temporarily lifted, which is procedurally significant but tells us nothing about what was actually discussed.",
+    "All facts in the document have high confidence and are directly quoted from the source text with no ambiguity.",
+    "No witness testimony, sensor data, or agency conclusions about any UAP are present in this document."
+  ]
+}

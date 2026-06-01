@@ -1,0 +1,244 @@
+{
+  "sha256": "3a9cdebb99b72246e3f1bd441b83e48fb74827d15ab694209d2cb50291e00e95",
+  "title": "24 F 0922",
+  "agency": "AARO",
+  "type": "PDF",
+  "incident_date": "",
+  "incident_location": "",
+  "what_is_it": "An internal Pentagon email invitation from a Defense Press Operations spokesperson to selected media journalists, organizing an embargoed press roundtable about AARO's Historical Record Report on UAP-related government programs.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is an administrative media coordination email, not a UAP sighting report or investigation document.",
+    "The BCC list reveals which journalists were specifically selected for early access to the HRRV1 report, suggesting a managed media rollout strategy.",
+    "The document was marked 'OFF THE RECORD / FOR PLANNING PURPOSES ONLY / NOT FOR DAYBOOKS', indicating it was not intended for public disclosure.",
+    "The email contains no substantive findings about UAP — it only announces the logistics of a briefing about the HRRV1 report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "Embargoed media roundtable invitation email",
+      "source_quote": "You are invited to participate in an embargoed invited-media roundtable",
+      "citation_offset": {
+        "offset": 469,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "roundtable_subject",
+      "value": "AARO Historical Record Report Volume 1 (HRRV1) on U.S. government UAP-related programs",
+      "source_quote": "on AARO's Historical Record Report Volume 1 (HRRV1), the initial volume of the congressionally directed historical record report on U.S. government UAP-related programs",
+      "citation_offset": {
+        "offset": 652,
+        "len": 168,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "roundtable_speaker",
+      "value": "Tim Phillips, acting director of AARO",
+      "source_quote": "embargoed invited-media roundtable with Tim Phillips, acting director, AARO",
+      "citation_offset": {
+        "offset": 506,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "roundtable_date_time",
+      "value": "Wednesday, March 6, 2024, 3 p.m. EST",
+      "source_quote": "on Wednesday, March 6, at 3 p.m. EST",
+      "citation_offset": {
+        "offset": 583,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "roundtable_location",
+      "value": "Pentagon Briefing Room",
+      "source_quote": "in the Pentagon Briefing Room",
+      "citation_offset": {
+        "offset": 621,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "roundtable_format",
+      "value": "On-record, off-camera",
+      "source_quote": "The roundtable will be on-record and off-camera",
+      "citation_offset": {
+        "offset": 822,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "embargo_lift_date",
+      "value": "Friday, March 8, 2024",
+      "source_quote": "embargoed until DOD announces the public release of the unclassified version of HRRV1 on Friday, March 8",
+      "citation_offset": {
+        "offset": 875,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sender",
+      "value": "Sue Gough, Defense Press Operations, OSD(PA)",
+      "source_quote": "Sue Gough Defense Press Operations, OSD(PA)",
+      "citation_offset": {
+        "offset": 1763,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "email_sent_date",
+      "value": "Tuesday, March 5, 2024, 8:33 PM",
+      "source_quote": "Tue 3/5/2024 8:33 PM",
+      "citation_offset": {
+        "offset": 142,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "attendance_restriction",
+      "value": "One person per outlet only, invitation not transferable",
+      "source_quote": "This is an invited-media roundtable only and this invitation is not transferable. ... Only one person from your outlet may attend.",
+      "citation_offset": {
+        "offset": 1330,
+        "len": 80,
+        "exact": false,
+        "matched": "This is an invited-media roundtable only and this invitation is not transferable"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "embargo_acceptance_required",
+      "value": "Journalists must reply with 'I agree to the embargo' to receive the report and attend",
+      "source_quote": "please respond with an email that states: \"I agree to the embargo.\"",
+      "citation_offset": {
+        "offset": 1686,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Sue Gough",
+    "Tim Phillips",
+    "Brandi Vincent",
+    "Oren Liebermann",
+    "Lara Seligman",
+    "Kayla Guo",
+    "Jeff Schogol",
+    "Dan Lamothe"
+  ],
+  "named_places": [
+    "Pentagon Briefing Room"
+  ],
+  "dated_events": [
+    "2024-03-05 — Email sent by Sue Gough",
+    "2024-03-06 — Embargoed media roundtable at 3 p.m. EST",
+    "2024-03-06 — Email forwarded at 2:14 PM",
+    "2024-03-08 — Planned public release of unclassified HRRV1"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "Tim Phillips was the acting director of AARO as of March 2024",
+      "source_quote": "Tim Phillips, acting director, AARO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 546,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "HRRV1 was congressionally directed",
+      "source_quote": "the congressionally directed historical record report on U.S. government UAP-related programs",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 727,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "HRRV1 is described as the initial volume of a historical record report series",
+      "source_quote": "the initial volume of the congressionally directed historical record report",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 705,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "DOD planned to publicly release the unclassified version of HRRV1 on Friday, March 8, 2024",
+      "source_quote": "embargoed until DOD announces the public release of the unclassified version of HRRV1 on Friday, March 8",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 875,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Journalists would receive an advance copy of HRRV1 on Wednesday morning before the roundtable",
+      "source_quote": "Those who agree to the embargo will be sent a copy of HRRV1 on Wednesday morning, so that you have time to read it prior to the roundtable",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 981,
+        "len": 138,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T12:44:08.650Z",
+  "qa_completed_at": "2026-05-09T12:44:54.252Z",
+  "timing": {
+    "A": "27.7s",
+    "B": "17.9s",
+    "E": "21.5s"
+  },
+  "public_headline": "Pentagon Email Organized Press Briefing on UAP History Report",
+  "public_tldr": "This document is an internal Pentagon email from March 5, 2024, inviting selected journalists to an embargoed press roundtable about AARO's first historical report on U.S. government UAP-related programs. It contains no UAP findings — it is purely a media coordination email arranging logistics for the briefing.",
+  "public_narrative": "This document is an email sent on March 5, 2024, by Sue Gough of Defense Press Operations to a select group of journalists. It invited them to an embargoed roundtable the following day — March 6, 2024, at 3 p.m. EST in the Pentagon Briefing Room — led by Tim Phillips, the acting director of AARO (the All-domain Anomaly Resolution Office).\n\nThe subject of the briefing was AARO's Historical Record Report Volume 1 (HRRV1), described as the first volume of a congressionally directed report examining U.S. government programs related to unidentified anomalous phenomena (UAP). The roundtable was on-record but off-camera, and all reporting was embargoed until the Department of Defense publicly released the unclassified version of the report on March 8, 2024. Journalists who agreed to the embargo would receive an advance copy on the morning of March 6 to read before the session.\n\nThe email was marked \"off the record / for planning purposes only / not for daybooks,\" meaning it was not intended for public disclosure. Attendance was restricted to one person per outlet, and the invitation was not transferable. Journalists were required to reply stating \"I agree to the embargo\" in order to attend and receive the report.\n\nThe BCC list on the email reveals the specific reporters selected for early access, including journalists from several major outlets. This shows the Pentagon managed a controlled media rollout for the HRRV1 report rather than releasing it cold.\n\nCritically, this document contains no substantive information about UAP sightings, investigations, or conclusions. It is an administrative email about scheduling a press event.",
+  "public_caveats": [
+    "This is a media logistics email, not a UAP investigation document. It contains zero findings about unidentified phenomena.",
+    "The document was not intended for public release — it was marked for planning purposes only.",
+    "The BCC list of invited journalists suggests the Pentagon carefully managed which outlets received early access to the HRRV1 report.",
+    "There is minimal redaction in this document. Its limited informational value comes from its administrative nature, not from withheld content.",
+    "Any conclusions about UAP would be found in the HRRV1 report itself, not in this invitation email."
+  ]
+}

@@ -1,0 +1,464 @@
+{
+  "sha256": "8bac3aeb023a716259510a74b1264cc38f16b3a012e420e1551a163e4df57573",
+  "title": "65_HS1-834228961_62-HQ-83894_Section_5",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "N/A",
+  "what_is_it": "A collection of FBI internal memos, teletypes, telephone records, and inter-agency correspondence from the case file 62-HQ-83894, documenting FBI handling of flying disc/saucer reports between mid-1949 and early 1950.",
+  "core_summary": "This section of the FBI's flying disc case file contains dozens of internal memos and communications showing how the Bureau processed flying saucer reports from the public, coordinated with Air Force OSI, and managed media inquiries. Key items include the famous Guy Hottel memo reporting three recovered saucers in New Mexico with small humanoid occupants, the investigation of a Peter Cameron Jones sighting letter sent to Walter Winchell, radar tracking of unidentified objects over Oak Ridge, Tennessee, and a Denver University lecture by an unidentified person claiming to have seen landed saucers with dead three-foot-tall occupants.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "The Guy Hottel memo is third-hand information (unnamed Air Force investigator to police investigator Howe to SA Kurtzman) with no FBI evaluation or follow-up noted",
+    "The Peter Cameron Jones sighting letter could not be verified as Jones was never located and may not have existed at the address given; Ladd suggested it may have been a prank",
+    "The Denver University lecturer refused to identify himself and was connected to George Koehler, whom OSI considered a probable mental case",
+    "OCR quality is poor on many pages due to age and condition of the scanned documents, making some text partially illegible",
+    "The San Antonio office acknowledged destroying large numbers of flying disc reports from Camp Hood, meaning an unknown quantity of data from this period is permanently lost",
+    "Dr. Parrish's theory linking flying saucers to polio via uranium poisoning was treated as a joke by Indiana University Medical School doctors",
+    "The Oak Ridge radar contacts were from a station only three weeks old with unverified operational efficiency"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Case file number",
+      "value": "62-HQ-83894",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Flying saucer convention planned",
+      "value": "Young Men's Business Club of Alexandria, Louisiana announced a convention for persons who have seen flying saucers",
+      "source_quote": "Young Men's Business Club of Alexandria, Louisiana, announced that it was planning a convention for persons from all over the nation who have seen flying saucers",
+      "citation_offset": {
+        "offset": 764,
+        "len": 161,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Peter Cameron Jones sighting",
+      "value": "Claimed to have seen a large silver-green metallic object shaped like a child's top while hiking in mountains near Los Angeles in August 1947",
+      "source_quote": "he observed about one-half block away from him a large silver metal, greenish in color, shaped like a child's top and about the size of the balloons used at County Fairs",
+      "citation_offset": {
+        "offset": 10702,
+        "len": 100,
+        "exact": false,
+        "matched": "f block away from him a large silver metal, greenish in color, shaped like a child's top and about t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Jones could not be located",
+      "value": "FBI Los Angeles could not find or identify Peter Cameron Jones at the address he provided",
+      "source_quote": "Present owner for one and one half years and former manager of court for six years, which includes 164 W. 37th Street, Los Angeles, do not know PETER CAMERLON JONES",
+      "citation_offset": {
+        "offset": 6522,
+        "len": 164,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Ernest Cuneo / Winchell media coordination",
+      "value": "Ernest Cuneo called FBI on behalf of Walter Winchell asking if Bureau objected to publishing the Jones letter",
+      "source_quote": "Winchell wanted to do a column on this letter if the Bureau had no objection",
+      "citation_offset": {
+        "offset": 9232,
+        "len": 51,
+        "exact": false,
+        "matched": "Winchell wanted to do a column on this letter if th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Cuneo quote about Air Force",
+      "value": "Cuneo dismissed coordinating with the Air Force",
+      "source_quote": "To hell with the Air Force. He just didn't want to release the information if it would affect the Bureau",
+      "citation_offset": {
+        "offset": 9689,
+        "len": 50,
+        "exact": false,
+        "matched": " didn't want to release the information if it woul"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Camp Hood reports practice",
+      "value": "San Antonio FBI office was receiving large numbers of flying disc reports around Camp Hood, Texas and destroying them after review",
+      "source_quote": "reports being received in great numbers in this office concerning the so-called flying disks or unnatural phenomena being frequently observed around Camp Hood, Texas",
+      "citation_offset": {
+        "offset": 14428,
+        "len": 85,
+        "exact": false,
+        "matched": "reports being received in great numbers in this office concerning the so-called flyin"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Jonathan Caldwell hoax",
+      "value": "Air Force searching for Jonathan Caldwell who made flying disks found in Marley Park, MD; located at Manhattan Beach, California",
+      "source_quote": "AIR FORCE SEARCHING FOR JONATHAN CALDWELL WHO MADE FLYING DISKS DISCOVERED IN MARLEY PARK MD",
+      "citation_offset": {
+        "offset": 15452,
+        "len": 47,
+        "exact": false,
+        "matched": "AIR FORCE SEARCHING FOR JONATHAN CALDWELL WHO M"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Dr. Parrish polio-saucer theory",
+      "value": "Dr. Richard K. Parrish of Decatur, Indiana theorized flying saucers caused uranium poisoning mistaken for polio",
+      "source_quote": "cases which were thought to be polio in the vicinity of Decatur, Indiana, were not polio, but possibly the result of uranium poisoning and that he felt the presence of flying saucers had direct bearing on the polio epidemic",
+      "citation_offset": {
+        "offset": 17727,
+        "len": 100,
+        "exact": false,
+        "matched": "cases which were thought to be polio in the vicinity of Decatur, Indiana, were not polio, but possib"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Glen Sprouse rocket sighting",
+      "value": "Pilot observed a bright canary yellow rocket-shaped object approximately 15-18 inches long near Parkersburg, WV on September 25, 1949",
+      "source_quote": "Color = bright canary yellow. Length = about 15 to 18 inches. Diameter- About 4 in largest part",
+      "citation_offset": {
+        "offset": 26893,
+        "len": 30,
+        "exact": false,
+        "matched": "Length = about 15 to 18 inches"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Sprouse object description",
+      "value": "Resembled a Lockheed X-90 fuselage with fins but no wings, needle nose, no visible propulsion",
+      "source_quote": "resembled a rocket, in fact was about the same shape and Proportions as the fuselage of a Lockheed Air Force X-90",
+      "citation_offset": {
+        "offset": 27000,
+        "len": 50,
+        "exact": false,
+        "matched": "resembled a rocket, in fact was about the same sha"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Denver University lectures",
+      "value": "Unidentified individual lectured at Denver University claiming to have seen landed saucers in New Mexico with dead three-foot-tall humanoid occupants",
+      "source_quote": "ONE OF WHICH ALLEGEDLY LANDED IN NEW MEXICO. HE ALSO CLAIMS TO HAVE OBSERVED OCCUPANTS OF SAUCERS DESCRIBED BY HIM AS OF HUMAN FORM, BUT ABOUT THREE FEET TALL",
+      "citation_offset": {
+        "offset": 34872,
+        "len": 100,
+        "exact": false,
+        "matched": "HE ALSO CLAIMS TO HAVE OBSERVED OCCUPANTS OF SAUCERS DESCRIBED BY HIM AS OF HUMAN FORM, BUT ABOUT TH"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "George Koehler connection",
+      "value": "Lecturer known to George Koehler connected with radio station KMYR Denver; OSI considered Koehler a probable mental case",
+      "source_quote": "KNOWN TO GEORGE KOEHLER, WHO IS CONNECTED WITH RADIO STATION KMYR, DENVER... OSI CONSIDERS KOEHLER AS PROBABLE MENTAL CASE",
+      "citation_offset": {
+        "offset": 35601,
+        "len": 40,
+        "exact": false,
+        "matched": " CONSIDERS KOEHLER AS PROBABLE MENTAL CA"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Guy Hottel memo - three recovered saucers",
+      "value": "An Air Force investigator reported three flying saucers recovered in New Mexico, circular, 50 feet diameter, each with three 3-foot-tall bodies in metallic cloth",
+      "source_quote": "three so-called flying saucers had been recovered in New Mexico. They were described as being circular in shape with raised centers, approximately 50 feet in diameter. Each one was occupied by three bodies of human shape but only 3 feet tall, dressed in metallic cloth of a very fine texture",
+      "citation_offset": {
+        "offset": 45688,
+        "len": 100,
+        "exact": false,
+        "matched": "three so-called flying saucers had been recovered in New Mexico. They were described as being circul"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Hottel memo radar theory",
+      "value": "Informant believed high-powered radar interfered with saucer control mechanisms",
+      "source_quote": "the Government has a very high-powered radar set-up in that area and it is believed the radar interferes with the controling mechanism of the saucers",
+      "citation_offset": {
+        "offset": 46188,
+        "len": 65,
+        "exact": false,
+        "matched": "has a very high-powered radar set-up in that area and it is belie"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Oak Ridge radar contacts",
+      "value": "Radar station near Knoxville tracked objects at 40,000-80,000 feet altitude over Oak Ridge on March 1-3, 1950",
+      "source_quote": "At 2130 hours on 2nd Mar radar station picked up 2 objects 310 degrees, altitude 80000 feet, approximately 18 miles from Knoxville in general direction of Oak Ridge",
+      "citation_offset": {
+        "offset": 47040,
+        "len": 95,
+        "exact": false,
+        "matched": "At 2130 hours on 2nd Mar radar station picked up 2 objects 310 degrees, altitude 80000 feet, ap"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Oak Ridge objects behavior",
+      "value": "Two objects moved in circular motion in opposite directions; speed described as terrific",
+      "source_quote": "moving in circular motion but in opposite directions... speed not established but report as terrific",
+      "citation_offset": {
+        "offset": 47464,
+        "len": 35,
+        "exact": false,
+        "matched": " speed not established but report a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Oak Ridge radar density",
+      "value": "Object radar density similar to a DC-3 airplane",
+      "source_quote": "Density of object similar to DC-3 airplane",
+      "citation_offset": {
+        "offset": 47419,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "No Air Force flight plan for Oak Ridge objects",
+      "value": "Smyrna Air Base Nashville confirmed no flight plan for any plane in that vicinity",
+      "source_quote": "Smyrna Air Base Nashville which reported it had no flight plan for any plane being in that vicinity and altitude",
+      "citation_offset": {
+        "offset": 49542,
+        "len": 50,
+        "exact": false,
+        "matched": " flight plan for any plane being in that vicinity "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Hoover declining jurisdiction",
+      "value": "Hoover told correspondents the matter was not being investigated by FBI",
+      "source_quote": "this matter is not being investigated by the FBI",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "J. Edgar Hoover",
+    "D. M. Ladd",
+    "Ernest Cuneo",
+    "Walter Winchell",
+    "Peter Cameron Jones",
+    "Guy Hottel",
+    "R. H. Kurtzman",
+    "Clyde Tolson",
+    "B. Hood",
+    "Glen Sprouse",
+    "John B. Woodruff",
+    "Elbert W. Farris",
+    "Richard K. Parrish",
+    "George Koehler",
+    "Maurice E. Hatten",
+    "Florence Pervier",
+    "Ferdinand E. Pfeil",
+    "Jonathan Caldwell",
+    "Nunamaker"
+  ],
+  "named_places": [
+    "Alexandria, Louisiana",
+    "Galveston, Texas",
+    "Los Angeles, California",
+    "New York City",
+    "Camp Hood, Texas",
+    "Parkersburg, West Virginia",
+    "Lubeck, West Virginia",
+    "Manhattan Beach, California",
+    "Marley Park, Maryland",
+    "Decatur, Indiana",
+    "Lake of the Woods, Canada",
+    "Denver, Colorado",
+    "Oak Ridge, Tennessee",
+    "Knoxville, Tennessee",
+    "New Mexico",
+    "Circleville, Ohio",
+    "Tulsa, Oklahoma",
+    "Philadelphia, Pennsylvania",
+    "Smyrna Air Base, Nashville",
+    "Fort McPherson, Georgia",
+    "Charleston, West Virginia",
+    "Clark Field, St. Albans, West Virginia",
+    "Denver University"
+  ],
+  "dated_events": [
+    "July 10, 1949 - Galveston News article about flying saucer convention",
+    "July 11, 1949 - Ernest Cuneo phone call to FBI",
+    "July 12, 1949 - Cuneo follow-up call and Ladd memos",
+    "July 13, 1949 - LA FBI report: Jones not found at address",
+    "July 15, 1949 - G-2 Fourth Army advisory about convention",
+    "July 21, 1949 - Letter to Cuneo about failed Jones search",
+    "July 26, 1949 - San Antonio memo re flying disks convention",
+    "August 1947 - Jones alleged sighting near Los Angeles",
+    "August 16, 1949 - San Antonio memo re Camp Hood reports",
+    "August 20, 1949 - LA teletype re Jonathan Caldwell",
+    "September 6, 1949 - Indianapolis memo re Dr. Parrish polio theory",
+    "September 25, 1949 - Glen Sprouse sighting near Parkersburg WV",
+    "October 2, 1949 - Pittsburgh memo re Sprouse sighting",
+    "October 8, 1949 - Hatten letter to Hoover",
+    "October 12, 1949 - Hoover reply to Hatten",
+    "October 19, 1949 - Hoover letter to OSI re Sprouse sighting",
+    "January 16, 1950 - OSI classified message re crash recovery claims",
+    "January 30, 1950 - Hoover reply to Pfeil",
+    "February 20, 1950 - Hoover reply to Fisher",
+    "February 28, 1950 - Florence Pervier letter",
+    "March 1, 1950 - Oak Ridge radar contact at 2135 hours",
+    "March 2, 1950 - Oak Ridge radar contacts at 1105 and 2130 hours",
+    "March 3, 1950 - Oak Ridge radar contact at 0030 hours",
+    "March 7, 1950 - Hoover reply to Pervier",
+    "March 9, 1950 - Denver teletype re university lectures",
+    "March 10, 1950 - Bureau reply to Denver: no further action",
+    "March 22, 1950 - Guy Hottel memo re three recovered saucers"
+  ],
+  "objects_described": [
+    "Large silver-green metallic object shaped like a child's top (Jones sighting)",
+    "Bright canary yellow rocket-shaped object 15-18 inches long with fins and needle nose (Sprouse sighting)",
+    "Three circular saucers with raised centers approximately 50 feet in diameter (Hottel memo)",
+    "Unidentified radar returns at 40,000-80,000 feet over Oak Ridge with DC-3-like radar density"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The FBI could not locate Peter Cameron Jones at the address he provided (164 W. 37th Street, Los Angeles)",
+      "source_quote": "Present owner for one and one half years and former manager of court for six years, which includes 164 W. 37th Street, Los Angeles, do not know PETER CAMERLON JONES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6522,
+        "len": 164,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "An Air Force investigator reportedly stated three flying saucers were recovered in New Mexico, each containing three small humanoid bodies",
+      "source_quote": "three so-called flying saucers had been recovered in New Mexico... Each one was occupied by three bodies of human shape but only 3 feet tall, dressed in metallic cloth of a very fine texture",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 45856,
+        "len": 100,
+        "exact": false,
+        "matched": ". Each one was occupied by three bodies of human shape but only 3 feet tall, dressed in metallic clo"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "SA Kurtzman made no evaluation of the Hottel memo information",
+      "source_quote": "No further evaluation was attempted by SA KURTZMAN concerning the above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 46351,
+        "len": 46,
+        "exact": false,
+        "matched": " attempted by SA KURTZMAN concerning the above"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The San Antonio FBI office was destroying Camp Hood flying disc reports after review to avoid bulky file accumulation",
+      "source_quote": "this office is following the practice of reviewing these data and then destroying them in the event there appears to be nothing of FBI interest therein",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 14667,
+        "len": 100,
+        "exact": false,
+        "matched": "this office is following the practice of reviewing these data and then destroying them in the event "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A radar station near Knoxville tracked two objects at 80,000 feet altitude moving in opposite circular paths in the direction of Oak Ridge",
+      "source_quote": "radar station picked up 2 objects 310 degrees, altitude 80000 feet, approximately 18 miles from Knoxville in general direction of Oak Ridge, moving in circular motion but in opposite directions",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 47065,
+        "len": 70,
+        "exact": false,
+        "matched": "radar station picked up 2 objects 310 degrees, altitude 80000 feet, ap"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "OSI considered George Koehler a probable mental case after he could not produce supporting information for his flying saucer claims",
+      "source_quote": "OSI CONSIDERS KOEHLER AS PROBABLE MENTAL CASE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 35598,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The unidentified Denver lecturer claimed saucer occupants were human-shaped but only three feet tall and were dead when observed",
+      "source_quote": "OCCUPANTS OF SAUCERS DESCRIBED BY HIM AS OF HUMAN FORM, BUT ABOUT THREE FEET TALL. THESE OCCUPANTS OF SAUCERS ALLEGEDLY DEAD AT TIME HE OBSERVED THEM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 34904,
+        "len": 100,
+        "exact": false,
+        "matched": "OCCUPANTS OF SAUCERS DESCRIBED BY HIM AS OF HUMAN FORM, BUT ABOUT THREE FEET TALL. THESE OCCUPANTS O"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Kansas City Star was aware of the crash recovery story but did not publish it because it was too fantastic",
+      "source_quote": "the editor of the Kansas City Star stated that while they were aware of this story they did not publish it in the paper because it is too fantastic",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 29610,
+        "len": 30,
+        "exact": false,
+        "matched": " of the Kansas City Star state"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Smyrna Air Base confirmed no flight plans existed for aircraft in the Oak Ridge area where radar contacts were made",
+      "source_quote": "Smyrna Air Base Nashville which reported it had no flight plan for any plane being in that vicinity and altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 49542,
+        "len": 50,
+        "exact": false,
+        "matched": " flight plan for any plane being in that vicinity "
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 2,
+    "amber": 7,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T08:49:08.184Z",
+  "qa_completed_at": "2026-05-09T08:51:40.220Z",
+  "timing": {
+    "A": "87.1s",
+    "B": "64.8s",
+    "E": "37.7s"
+  },
+  "public_headline": "FBI Files Show How the Bureau Handled Flying Saucer Reports in 1949-1950",
+  "public_tldr": "This section of FBI case file 62-HQ-83894 contains dozens of internal memos, teletypes, and correspondence documenting how the FBI processed flying saucer reports from mid-1949 to early 1950. Notable items include the Guy Hottel memo about three alleged saucer recoveries in New Mexico, radar tracking of unidentified objects over Oak Ridge, Tennessee, and multiple sighting reports the Bureau could not verify.",
+  "public_narrative": "This collection of FBI internal documents — memos, teletypes, phone logs, and letters — comes from case file 62-HQ-83894 and covers roughly mid-1949 through early 1950. It shows the nuts and bolts of how the Bureau dealt with a steady stream of flying saucer reports: fielding tips from the public, coordinating with Air Force Office of Special Investigations (OSI), and handling media inquiries. FBI Director J. Edgar Hoover's office repeatedly told correspondents that flying saucers were not being investigated by the FBI.\n\nSeveral specific incidents stand out. A man named Peter Cameron Jones wrote to columnist Walter Winchell claiming he had seen a large silver-green metallic object shaped like a child's top while hiking near Los Angeles in August 1947. Winchell's associate Ernest Cuneo called the FBI to ask if the Bureau objected to publishing the letter. The FBI's Los Angeles office tried to locate Jones at the address he provided — 164 W. 37th Street — but neither the property owner nor the building manager knew anyone by that name. The Bureau could not verify the claim. Separately, the San Antonio FBI office reported it was receiving large numbers of flying disc reports from the Camp Hood, Texas area and was destroying them after review to avoid bulky file accumulation — meaning an unknown quantity of reports from this period is permanently lost.\n\nThe most famous document in this batch is the March 22, 1950 memo from Special Agent Guy Hottel. It relayed a report from an unnamed Air Force investigator who claimed three flying saucers had been recovered in New Mexico — circular craft roughly 50 feet in diameter, each containing three bodies of human shape but only three feet tall, dressed in fine metallic cloth. The informant theorised that high-powered government radar had interfered with the saucers' control mechanisms. Notably, the receiving agent, SA Kurtzman, made no evaluation of the information and no follow-up is recorded in the file. The claim passed through at least three people before reaching the FBI, making it third-hand at best.\n\nIn early March 1950, a radar station near Knoxville, Tennessee — only three weeks old at the time — tracked unidentified objects at altitudes of 40,000 to 80,000 feet over Oak Ridge on three consecutive nights. Two objects were observed moving in circular paths in opposite directions at what operators described as terrific speed, with radar density similar to a DC-3 airplane. Smyrna Air Base in Nashville confirmed no flight plan existed for any aircraft in that area and altitude. Around the same time, an unidentified individual lectured at Denver University claiming to have seen landed saucers in New Mexico with dead three-foot-tall humanoid occupants. This person was connected to a George Koehler of radio station KMYR in Denver, whom OSI considered a probable mental case.\n\nOther items in the file include a planned flying saucer convention by the Young Men's Business Club of Alexandria, Louisiana; a Dr. Richard K. Parrish of Decatur, Indiana who theorised flying saucers caused uranium poisoning mistaken for polio (a claim doctors at Indiana University Medical School treated as a joke); and a pilot named Glen Sprouse who reported seeing a bright canary yellow rocket-shaped object about 15-18 inches long near Parkersburg, West Virginia in September 1949.",
+  "public_caveats": [
+    "The Guy Hottel memo is third-hand information — from an unnamed Air Force investigator, to a police investigator, to SA Kurtzman — with no FBI evaluation or follow-up recorded in the file. It is one of the most shared FBI documents online but carries very weak evidentiary weight.",
+    "The Peter Cameron Jones sighting letter could not be verified. The FBI could not locate Jones at the address he gave, and senior FBI official D. M. Ladd suggested it may have been a prank.",
+    "The Oak Ridge radar contacts came from a station that had been operational for only three weeks, with unverified operational efficiency — meaning the readings themselves may not be reliable.",
+    "The San Antonio FBI office acknowledged destroying large numbers of flying disc reports from the Camp Hood area, so an unknown quantity of data from this period is permanently lost.",
+    "The Denver University lecturer who claimed to have seen dead saucer occupants refused to identify himself and was linked to George Koehler, whom Air Force OSI formally assessed as a probable mental case."
+  ]
+}

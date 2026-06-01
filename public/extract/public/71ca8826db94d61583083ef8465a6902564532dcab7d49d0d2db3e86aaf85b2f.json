@@ -1,0 +1,546 @@
+{
+  "sha256": "71ca8826db94d61583083ef8465a6902564532dcab7d49d0d2db3e86aaf85b2f",
+  "title": "DOW-UAP-D20, Mission Report, Iraq, 2023",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "3/31/23",
+  "incident_location": "Iraq",
+  "what_is_it": "A declassified U.S. military Mission Report (MISREP) documenting a UAP sighting by F-16 fighter pilots during an Operation Inherent Resolve sortie over Iraq/Syria airspace on March 31, 2023.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy — personal names, callsigns, tail numbers, aircraft MDS type, grid coordinates, email addresses, phone numbers, and air-to-ground weapons are all redacted under FOIA exemptions (b)(3), (b)(6), and classification sections 1.4a and 1.4g",
+  "interpretation_warnings": [
+    "Single-source report: all observations are from one flight crew's subjective account during a night mission",
+    "Heavy redaction: callsigns, tail numbers, aircraft designator, grid coordinates, and all personal identifiers are withheld, limiting independent verification",
+    "The UAP first-seen location is explicitly marked 'DATA MASKED', preventing geolocation of the sighting",
+    "The document notes 'PREVIOUSLY SEEN IN PRIOR SORTIES', indicating this unit had prior UAP encounters, but no details of those encounters are included",
+    "FL600+ altitude is an estimate, not a measured value — the document field asks reporters to indicate estimated vs measured but does not clearly distinguish which was used here",
+    "The analyst comment comparing UAP to a star suggests a star-misidentification hypothesis was considered and partially ruled out, but the methodology and data behind this comparison are not described",
+    "The filename references 'southern-united-states' but the document describes a mission in Iraq/Syria airspace — this appears to be a metadata mismatch on the war.gov release",
+    "All classification markings appear partially garbled, likely from OCR artifacts during declassification processing"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "Mission Report (MISREP)",
+      "source_quote": "Report Type: MISREP",
+      "citation_offset": {
+        "offset": 1504,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operation",
+      "value": "Operation Inherent Resolve",
+      "source_quote": "ISO OPERATION INHERENT RESOLVE",
+      "citation_offset": {
+        "offset": 281,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "F-16CM, 2-ship formation",
+      "source_quote": "A 2-SHIP OF F-16CM",
+      "citation_offset": {
+        "offset": 217,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "originating_unit",
+      "value": "77th Expeditionary Fighter Squadron, 378th Air Expeditionary Wing",
+      "source_quote": "Originator (Unit or Squadron): 77 EFS",
+      "citation_offset": {
+        "offset": 1526,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "departure_base",
+      "value": "Prince Sultan Air Base (ICAO: OEPS)",
+      "source_quote": "TOOK OFF FROM PRINCE SULTAN AIR BASE (OEPS)",
+      "citation_offset": {
+        "offset": 237,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "takeoff_time",
+      "value": "311901Z MAR 23 (7:01 PM Zulu, March 31, 2023)",
+      "source_quote": "Takeoff Time DTG: 311901:00ZMAR23",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "mission_type",
+      "value": "Defensive Counter-Air (DCA)",
+      "source_quote": "Mission Type: DCA",
+      "citation_offset": {
+        "offset": 1613,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "killbox_area",
+      "value": "ESSA",
+      "source_quote": "Killbox (Location): ESSA",
+      "citation_offset": {
+        "offset": 5996,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "JTAC_callsign",
+      "value": "KINGPIN",
+      "source_quote": "JTAC Callsign: KINGPIN",
+      "citation_offset": {
+        "offset": 6043,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_sighting_time",
+      "value": "312302:05Z MAR 23 (11:02 PM Zulu, March 31, 2023)",
+      "source_quote": "Initial Contact DTG: 312302:05ZMAR23",
+      "citation_offset": {
+        "offset": 6505,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "friendly_aircraft_altitude",
+      "value": "FL265 (26,500 feet)",
+      "source_quote": "Friendly Aircraft Altitude/Depth: FL265",
+      "citation_offset": {
+        "offset": 6649,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "friendly_aircraft_speed",
+      "value": "293 (knots, presumed)",
+      "source_quote": "Friendly Aircraft Speed: 293",
+      "citation_offset": {
+        "offset": 6691,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_uap",
+      "value": "Possibly 10 to 20",
+      "source_quote": "Number of UAP Sighted: POSS 10X-20X",
+      "citation_offset": {
+        "offset": 6840,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_altitude",
+      "value": "FL600+ (60,000+ feet, estimated)",
+      "source_quote": "UAP Altitude, Depth, Velocity, and Trajectory (indicate estimated or measured): FL600+",
+      "citation_offset": {
+        "offset": 7146,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Several bright objects maneuvering quickly west to east, northeast of RLZ",
+      "source_quote": "OBSERVED SEVERAL BRIGHT OBJECTS MANUEVERING QUICKLY WEST TO EAST NE OF RLZ",
+      "citation_offset": {
+        "offset": 7365,
+        "len": 49,
+        "exact": false,
+        "matched": "OBSERVED SEVERAL BRIGHT OBJECTS MANUEVERING QUICK"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "targeting_pod",
+      "value": "Sniper LDP, TV mode, tracked UAP for approx 20 seconds before object dimmed and disappeared",
+      "source_quote": "OBTAIN POSS UAP ON TARGETING POD (TV MODE) FOR APPROX 20S BEFORE OBJECT WOULD BECOME DIM AND DISAPPEAR FROM TARGETING POD",
+      "citation_offset": {
+        "offset": 7458,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_formation",
+      "value": "No formations observed, unlike prior sorties",
+      "source_quote": "NONE OF THE OBJECTS WERE SEEN IN ANY FORMATIONS AS PREVIOUSLY SEEN IN PRIOR SORTIES",
+      "citation_offset": {
+        "offset": 7581,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "analyst_comparison",
+      "value": "Targeting pod comparison between UAP and a star showed different results",
+      "source_quote": "FLT COMPARED TARGETING POD BETWEEN POSS UAP AND STAR. RESULTS WERE DIFFERENT.",
+      "citation_offset": {
+        "offset": 7696,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_effects_on_persons",
+      "value": "None",
+      "source_quote": "UAP Effects on Persons: (U) NONE.",
+      "citation_offset": {
+        "offset": 6938,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_mission_time",
+      "value": "6 hours 47 minutes",
+      "source_quote": "Total Mission Time: 6 hours 47 minutes",
+      "citation_offset": {
+        "offset": 5828,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "time_on_station",
+      "value": "3 hours 2 minutes",
+      "source_quote": "Total Time On Station: 3 hours 2 minutes",
+      "citation_offset": {
+        "offset": 6188,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_software",
+      "value": "8070 / MMC 7.3",
+      "source_quote": "Radar Software Load or Mission Data: 8070 / MMC 7.3",
+      "citation_offset": {
+        "offset": 2837,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ecm_system",
+      "value": "ALQ-184",
+      "source_quote": "ECM Name or Designator: ALQ-184",
+      "citation_offset": {
+        "offset": 3128,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "rwr_system",
+      "value": "ALR-56M",
+      "source_quote": "Radar Warning Receiver (RWR) Name or Designator: ALR-56M",
+      "citation_offset": {
+        "offset": 2891,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "armament",
+      "value": "AIM-120 (x2), AIM-9X (x2), M61A1 gun (510 rounds)",
+      "source_quote": "Type of Radar-Guided AAM: AIM-120",
+      "citation_offset": {
+        "offset": 3702,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "data_link",
+      "value": "LINK 16",
+      "source_quote": "Data Link: LINK 16",
+      "citation_offset": {
+        "offset": 4029,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassification_authority",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 20,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassification_date",
+      "value": "8 October 2025",
+      "source_quote": "Declassified on: 8 October 2025",
+      "citation_offset": {
+        "offset": 84,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "combatant_command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 1446,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operations_center",
+      "value": "609th CAOC",
+      "source_quote": "Operations Center: 609 CAOC",
+      "citation_offset": {
+        "offset": 1931,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "poc_rank",
+      "value": "1LT (First Lieutenant)",
+      "source_quote": "Rank: lLT",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "uap_first_seen_location",
+      "value": "DATA MASKED",
+      "source_quote": "UAP First Seen Location: DATA MASKED",
+      "citation_offset": {
+        "offset": 7107,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "friendly_aircraft_location_grid",
+      "value": "37SGA1 (partially redacted MGRS grid)",
+      "source_quote": "Friendly Aircraft Location: 37SGA1",
+      "citation_offset": {
+        "offset": 6610,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Richard A. Harrison"
+  ],
+  "named_places": [
+    "Prince Sultan Air Base (OEPS)",
+    "Iraq",
+    "Syria"
+  ],
+  "dated_events": [
+    "311901Z MAR 23 — Takeoff from Prince Sultan Air Base",
+    "312058Z MAR 23 — On station in ESSA killbox",
+    "312302:05Z MAR 23 — Initial UAP contact, multiple bright objects observed",
+    "010000Z APR 23 — Off station",
+    "010148Z APR 23 — Landing at OEPS",
+    "010215Z APR 23 — Engine shutdown",
+    "8 October 2025 — Document declassified"
+  ],
+  "objects_described": [
+    "F-16CM fighter aircraft (2-ship formation)",
+    "10-20 bright objects maneuvering quickly at FL600+",
+    "Sniper LDP targeting pod",
+    "ALR-56M Radar Warning Receiver",
+    "ALQ-184 Electronic Countermeasures pod",
+    "ALE-50 towed decoy",
+    "AIM-120 radar-guided missiles",
+    "AIM-9X infrared-guided missiles",
+    "HTS-P R7.85 (HARM Targeting System)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A 2-ship F-16CM flight from the 77th EFS observed 10-20 possible UAPs at FL600+ on March 31, 2023",
+      "source_quote": "Number of UAP Sighted: POSS 10X-20X",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6840,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAPs were bright objects maneuvering quickly from west to east, northeast of the Recognized Logistics Zone",
+      "source_quote": "OBSERVED SEVERAL BRIGHT OBJECTS MANUEVERING QUICKLY WEST TO EAST NE OF RLZ",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 7365,
+        "len": 49,
+        "exact": false,
+        "matched": "OBSERVED SEVERAL BRIGHT OBJECTS MANUEVERING QUICK"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A targeting pod in TV mode tracked a UAP for approximately 20 seconds before it dimmed and disappeared",
+      "source_quote": "OBTAIN POSS UAP ON TARGETING POD (TV MODE) FOR APPROX 20S BEFORE OBJECT WOULD BECOME DIM AND DISAPPEAR FROM TARGETING POD",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7458,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects were not in formations, unlike UAPs observed on prior sorties by this unit",
+      "source_quote": "NONE OF THE OBJECTS WERE SEEN IN ANY FORMATIONS AS PREVIOUSLY SEEN IN PRIOR SORTIES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7581,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "An analyst compared targeting pod imagery of the UAP against a star and found the results were different, suggesting the UAP was not a star",
+      "source_quote": "FLT COMPARED TARGETING POD BETWEEN POSS UAP AND STAR. RESULTS WERE DIFFERENT.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 7696,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAPs produced no detectable RF signatures",
+      "source_quote": "UAP Signatures: No",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 6878,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAPs had no reported effects on personnel",
+      "source_quote": "UAP Effects on Persons: (U) NONE.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6938,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP estimated altitude exceeded FL600 (60,000 feet), well above the F-16's operating altitude of FL265",
+      "source_quote": "UAP Altitude, Depth, Velocity, and Trajectory (indicate estimated or measured): FL600+",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7146,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The mission was part of Operation Inherent Resolve conducting Defensive Counter-Air in the ESSA killbox",
+      "source_quote": "Mission Type: DCA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1613,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was controlled by KINGPIN (JTAC callsign) during the on-station period",
+      "source_quote": "JTAC Callsign: KINGPIN",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 6043,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 9,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:14:32.464Z",
+  "qa_completed_at": "2026-05-09T10:16:29.282Z",
+  "timing": {
+    "A": "60.1s",
+    "B": "56.7s",
+    "E": "26.6s"
+  },
+  "public_headline": "U.S. F-16 Pilots Reported 10–20 Bright Objects Over Iraq in 2023",
+  "public_tldr": "A declassified military mission report describes two F-16 fighter pilots observing an estimated 10 to 20 bright, fast-moving objects at extreme altitude during a night combat patrol over Iraq on March 31, 2023. The pilots tracked one object with their targeting camera for about 20 seconds before it dimmed and vanished, and compared it against a known star — the results were different.",
+  "public_narrative": "On the night of March 31, 2023, a pair of F-16CM fighters from the 77th Expeditionary Fighter Squadron took off from Prince Sultan Air Base in Saudi Arabia on a defensive patrol mission as part of Operation Inherent Resolve. The nearly seven-hour sortie took the pilots into Iraq and Syria airspace, where they were operating at about 26,500 feet.\n\nAt 11:02 PM Zulu time, the crew reported seeing several bright objects moving quickly from west to east, at an estimated altitude above 60,000 feet — more than twice their own altitude. They estimated between 10 and 20 objects. Using their Sniper targeting pod in TV (visual) mode, they managed to track one of the objects for roughly 20 seconds before it dimmed and disappeared from the display. The objects produced no detectable radar or electronic signatures and had no reported effects on the crew.\n\nThe pilots noted that on previous missions, similar objects had appeared in formations, but this time no formation pattern was observed. To test whether they might be looking at stars, the flight compared the targeting pod image of one object against a known star. The report states the results were different, suggesting the objects were not stars — though no detail is given on how that comparison was conducted.\n\nThe document was declassified on October 8, 2025, by Major General Richard A. Harrison, USCENTCOM Chief of Staff. It is heavily redacted: pilot names, callsigns, tail numbers, exact grid coordinates, and the precise location where the objects were first seen are all withheld. The UAP's first-seen location field is explicitly marked \"DATA MASKED.\" No conclusion is stated in the report about what the objects were.",
+  "public_caveats": [
+    "This is a single-source report: all observations come from one flight crew's account during a night mission. No independent corroboration from radar data, ground observers, or other aircraft is included in this document.",
+    "The report is heavily redacted — pilot identities, aircraft tail numbers, exact coordinates, and the UAP's first-seen location are all withheld, making independent verification difficult.",
+    "The 60,000-foot-plus altitude is an estimate, not a confirmed measurement. The report's own form asks reporters to distinguish between estimated and measured values, but the distinction is unclear here.",
+    "The crew noted they had seen similar objects on prior sorties, but no details of those earlier encounters are included in this document.",
+    "The comparison between the UAP and a star suggested they were different, but the methodology behind that comparison is not described — it is unclear what instruments or criteria were used."
+  ]
+}

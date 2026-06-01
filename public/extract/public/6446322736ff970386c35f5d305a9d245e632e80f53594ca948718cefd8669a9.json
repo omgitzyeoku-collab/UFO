@@ -1,0 +1,529 @@
+{
+  "sha256": "6446322736ff970386c35f5d305a9d245e632e80f53594ca948718cefd8669a9",
+  "title": "65_HS1-834228961_62-HQ-83894_Serial_130",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "N/A",
+  "what_is_it": "A compiled FBI/Air Defense Command case file containing multiple military intelligence reports, witness interrogations, sworn statements, and newspaper clippings documenting UFO sightings across the northeastern United States, Newfoundland, and Alabama in July-August 1947.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "The intelligence analysis memo (pages 36) is unsigned and undated, with no originating office identified — its provenance within the file is unclear.",
+    "Multiple sighting reports are from different locations and dates compiled into a single case file, potentially creating a false impression of a unified phenomenon.",
+    "OCR quality is poor on several pages (especially pages 2, 7, 9-13), causing partial text loss and possible misreadings.",
+    "The Birmingham newspaper accounts (pages 9-13) contain highly varied and contradictory witness descriptions typical of mass excitement events.",
+    "A searchlight/carnival beacon at Siluria was proposed as an explanation for the Birmingham sightings but this was not conclusively investigated.",
+    "The Kodachrome photographs taken by Leidy in Newfoundland are referenced but not included in this file; their fate and content are unknown from this document alone.",
+    "SSgt Livingston's size estimate of 'approximately two feet in diameter' at 2000 feet altitude and unknown distance would be extremely difficult to determine accurately.",
+    "Albert Samms, one of the Codroy witnesses, was a twelve-year-old boy.",
+    "The analyst's suggestion that this could be a domestic project 'about which the President knows' is speculative inference from the absence of top-level inquiries, not positive evidence.",
+    "Several pages are classified RESTRICTED or CONFIDENTIAL with partial declassification stamps visible, suggesting some content may have been withheld historically."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Powell sighting date",
+      "value": "4 August 1947",
+      "source_quote": "sighting of a possible flying disc 4 August 1947",
+      "citation_offset": {
+        "offset": 403,
+        "len": 33,
+        "exact": false,
+        "matched": "sighting of a possible flying dis"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Powell occupation",
+      "value": "Airlines Captain with Pan American Airways, over 4,000 command pilot hours, Maxwell Field Class 41-C graduate",
+      "source_quote": "Mr Powell, an Airlines Captain with Pan American Airways, Inc.",
+      "citation_offset": {
+        "offset": 471,
+        "len": 57,
+        "exact": false,
+        "matched": "Mr Powell, an Airlines Captain with Pan American Airways,"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Powell sighting location",
+      "value": "Between Everett MA Fan Marker and Bedford Radio Beacon, near Boston",
+      "source_quote": "at a position approximately midway between the Everett (Mass) Fan Marker and the Bedford Radio Beacon",
+      "citation_offset": {
+        "offset": 867,
+        "len": 55,
+        "exact": false,
+        "matched": "between the Everett (Mass) Fan Marker and the Bedford R"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Powell object description",
+      "value": "About the length of a P-40 fuselage, blunt at both ends, cylindrical, bright orange",
+      "source_quote": "about the length of a P-40 fuselage, blunt at both ends, cylindrical in shape, and having a bright orange hue",
+      "citation_offset": {
+        "offset": 2209,
+        "len": 60,
+        "exact": false,
+        "matched": "about the length of a P-40 fuselage, blunt at both ends, cyl"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Powell object speed estimate",
+      "value": "Approximately 160 mph on course 200° magnetic",
+      "source_quote": "the object was travelling at approximately 160 mph",
+      "citation_offset": {
+        "offset": 2595,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Powell observation duration",
+      "value": "Approximately 30 seconds",
+      "source_quote": "The object was under observation for approximately 30 seconds",
+      "citation_offset": {
+        "offset": 2060,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft details",
+      "value": "Constellation type, 8,000 feet altitude, airspeed 265 mph, course 244° magnetic",
+      "source_quote": "The aircraft was at 8,000 feet; airspeed 265 mph; and the course was 244 degrees, magnetic",
+      "citation_offset": {
+        "offset": 1380,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Newfoundland disc sighting date",
+      "value": "10 July 1947 at 2000Z",
+      "source_quote": "2000Z, 10 July 1947",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Newfoundland disc shape and size",
+      "value": "Circular like a wheel, estimated size of a C-54 from 10,000 ft",
+      "source_quote": "Circular like a wheel, estimated to be same size as a C-54 as seen from 10,000 ft.",
+      "citation_offset": {
+        "offset": 23789,
+        "len": 72,
+        "exact": false,
+        "matched": "Circular like a wheel, estimated to be same size as a C-54 as seen from "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Newfoundland disc trail",
+      "value": "Bluish-black trail approximately 15 miles long",
+      "source_quote": "left a Bluish Black trail approx 15 miles long",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Photographs taken",
+      "value": "Robert Leidy took two Kodachrome snapshots of the trail",
+      "source_quote": "Mr. Robert W. Leidy reported that he took two (2) Kodachrome snap shots of the trail",
+      "citation_offset": {
+        "offset": 23976,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Codroy Newfoundland sighting",
+      "value": "11 July 1947 at 0030Z, disc-shaped, flame colored with lighter flame trail",
+      "source_quote": "Flame colored with a trail of a lighter flame color",
+      "citation_offset": {
+        "offset": 26041,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Steamship Burgeo sighting",
+      "value": "20 July 1947 at 0015Z, 4-5 silvery-to-reddish flashes one second apart",
+      "source_quote": "four (4) or five (5) flashes approximately one (1) second apart and equidistant",
+      "citation_offset": {
+        "offset": 29046,
+        "len": 69,
+        "exact": false,
+        "matched": "r five (5) flashes approximately one (1) second apart and equidistant"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Harmon Field flashes sighting",
+      "value": "23 July 1947 at 0345Z, reddish intermittent flashes for ~3 minutes at approximately 10,000 feet",
+      "source_quote": "a number of intermittant flashes were seen for a period of approximately three (3) minutes",
+      "citation_offset": {
+        "offset": 21008,
+        "len": 85,
+        "exact": false,
+        "matched": "ber of intermittant flashes were seen for a period of approximately three (3) minutes"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Birmingham mass sighting date",
+      "value": "6 July 1947",
+      "source_quote": "At 2045 hours, 6 July 1947",
+      "citation_offset": {
+        "offset": 17332,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Birmingham military witness",
+      "value": "SSgt Ira L. Livingston saw objects at ~2000 ft, dim glow, estimated 500-600 mph",
+      "source_quote": "traveling at an estimated speed of five (5) to six (6) hundred miles per hour",
+      "citation_offset": {
+        "offset": 18033,
+        "len": 37,
+        "exact": false,
+        "matched": "d of five (5) to six (6) hundred mile"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Grand Falls Newfoundland sighting",
+      "value": "9 July 1947 at approximately 11:30 PM, four round objects flying side by side, then a jellyfish-like object",
+      "source_quote": "four round shaped figures passed overhead at a terrific speed and were flying side by side",
+      "citation_offset": {
+        "offset": 46657,
+        "len": 70,
+        "exact": false,
+        "matched": "four round shaped figures passed overhead at a terrific speed and were"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Intelligence analysis conclusion",
+      "value": "Something is really flying around; objects are metallic, circular/elliptical, flat bottom domed top, near C-54 size, speeds above 300 knots",
+      "source_quote": "This 'flying saucer' situation is not all imaginary or seeing too much in some natural phenomenon. Something is really flying around.",
+      "citation_offset": {
+        "offset": 47708,
+        "len": 100,
+        "exact": false,
+        "matched": " situation is not all imaginary or seeing too much in some natural phenomenon. Something is really f"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Possible domestic project hypothesis",
+      "value": "Analyst noted lack of top-level inquiries suggests possible domestic origin",
+      "source_quote": "Lack of topside inquiries...give more than ordinary weight to the possibility that this is a domestic project, about which the President, etc. know",
+      "citation_offset": {
+        "offset": 47998,
+        "len": 75,
+        "exact": false,
+        "matched": "ibility that this is a domestic project, about which the President, etc. kn"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Woodruff cloud-splitting observation",
+      "value": "Object appeared to rend or split clouds it passed through",
+      "source_quote": "it appeared to rent or split the clouds thru which it passed",
+      "citation_offset": {
+        "offset": 24611,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Crossland photograph",
+      "value": "Age-Herald copy reader photographed objects over Birmingham with 15-second exposure at 8:37 PM",
+      "source_quote": "The picture above was made by Mr. Crossland at 8:37 p.m. last night at his home at 29th Street and Highland Avenue",
+      "citation_offset": {
+        "offset": 10658,
+        "len": 65,
+        "exact": false,
+        "matched": "ve was made by Mr. Crossland at 8:37 p.m. last night at his home "
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Alpheus O. Powell",
+    "W. White (Walter I. White)",
+    "Ira L. Livingston",
+    "James L. Macfarlane",
+    "Marion C. Miller",
+    "William H. Smith",
+    "John N. Merhman",
+    "John W. Woodruff",
+    "Robert E. Leidy",
+    "John P. Legge",
+    "William Evans",
+    "Albert Samms",
+    "Mrs. John Samms",
+    "Eric Kearsey",
+    "John Jackman",
+    "Patricia Abbott",
+    "Lt. Hammaker",
+    "Mercedes Burke",
+    "Herman M. Sockwell",
+    "Captain Gullage",
+    "Donald L. Springer",
+    "F. I. Johnson",
+    "Crossland",
+    "L. S. Robinson",
+    "Mrs. James Bain",
+    "Mrs. Gordon Mize",
+    "R. H. Vaughn III",
+    "Jimmy Dewberry",
+    "Mr. Hayes",
+    "Alfred Hackberth",
+    "William Howell",
+    "Mrs. Murdoch",
+    "Eisman",
+    "Plumstead"
+  ],
+  "named_places": [
+    "New Hyde Park, Long Island, New York",
+    "Gander, Newfoundland",
+    "La Guardia Field, New York",
+    "Everett, Massachusetts",
+    "Bedford, Massachusetts",
+    "Boston, Massachusetts",
+    "Mitchel Field, New York",
+    "Birmingham, Alabama",
+    "Birmingham Army Airfield",
+    "Harmon Field, Stephenville, Newfoundland",
+    "Fort Pepperrell, Newfoundland",
+    "Codroy, Newfoundland",
+    "Grand Falls, Newfoundland",
+    "South Branch, Newfoundland",
+    "Sydney, Nova Scotia",
+    "Port aux Basques, Newfoundland",
+    "Stephenville Crossing, Newfoundland",
+    "Fort Totten, Long Island, New York",
+    "Hamilton Field, California",
+    "Portland, Oregon",
+    "Orlando, Florida",
+    "Edgewood",
+    "Mountain Brook",
+    "Avondale",
+    "Southside",
+    "Fairfield",
+    "Pratt City",
+    "West End",
+    "Central Park",
+    "Bessemer",
+    "Siluria, Alabama",
+    "Maxwell Field, Alabama",
+    "Warrior River",
+    "East Lake",
+    "Woodlawn"
+  ],
+  "dated_events": [
+    "4 August 1947 — Powell/White sighting near Boston",
+    "12 August 1947 — Powell interview date",
+    "12 September 1947 — Summary of Information reports issued",
+    "6 July 1947 — Birmingham mass sighting and Livingston sworn statement",
+    "7 July 1947 — Livingston statement sworn before Lt. Macfarlane",
+    "8 July 1947 — Birmingham BARD letter on local flying disc",
+    "25 July 1947 — ADC forwarded Birmingham report to AAF",
+    "9 July 1947 — Grand Falls Newfoundland sighting by Constable Kearsey",
+    "10 July 1947 — Codroy and Harmon Field Newfoundland sightings",
+    "11 July 1947 — Codroy sighting at 0030Z",
+    "15 July 1947 — Captain Gullage prior sighting from SS Burgeo",
+    "16 July 1947 — Interrogations of Woodruff, Merhman, and Leidy at Harmon Field",
+    "17 July 1947 — Statements taken from Legge, Evans, and Samms at Codroy",
+    "20 July 1947 — SS Burgeo sighting at 0015Z",
+    "23 July 1947 — Harmon Field intermittent flashes sighting",
+    "28 July 1947 — Newfoundland Base Command letter of transmittal",
+    "13 July 1947 — Constable Kearsey written report",
+    "25 August 1947 — Fourth Air Force forwards Johnson letter"
+  ],
+  "objects_described": [
+    "Bright orange cylindrical object, length of P-40 fuselage, blunt at both ends (Powell sighting)",
+    "Translucent/silvery circular disc, size of C-54, leaving 15-mile bluish-black trail (Harmon Field)",
+    "Flame-colored disc, barrel-head to dinner-plate size, cone-shaped afterglow trail (Codroy)",
+    "Dim glowing round objects, ~2 ft diameter, 500-600 mph (Birmingham/Livingston)",
+    "Jellyfish-like object with phosphorus glow, barrel-head size, rocking motion (Grand Falls)",
+    "Reddish intermittent flashes, high velocity, abrupt maneuvers (Harmon Field, 23 July)",
+    "Silvery-to-reddish evenly spaced flashes, faster than tracer bullet (SS Burgeo)",
+    "Generic intelligence assessment: metallic, circular/elliptical, flat bottom domed top, C-54 size, rear tabs, speeds above 300 knots"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Pan American Airways Captain Alpheus O. Powell with over 4,000 command pilot hours observed a cylindrical orange object near Boston on August 4, 1947",
+      "source_quote": "Mr Powell, an Airlines Captain with Pan American Airways, Inc...at this date, has over 4,000 command pilot hours to his credit",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 471,
+        "len": 60,
+        "exact": false,
+        "matched": "Mr Powell, an Airlines Captain with Pan American Airways, In"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Powell ruled out tow target, pilot balloon, and radiosonde device as explanations",
+      "source_quote": "Mr Powell stated that he has seen numerous pilot balloons, radiosonic devices and tow targets...the object observed on this flight definitely was not one of them",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6632,
+        "len": 90,
+        "exact": false,
+        "matched": "Mr Powell stated that he has seen numerous pilot balloons, radiosonic devices and tow targ"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object had a definite shape with no gaseous dissipation suggesting it was not rocket or jet exhaust",
+      "source_quote": "there was no suggestion of gaseous dissipation as there would be if the orange color were the exhaust from a rocket, or a jet aircraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2384,
+        "len": 134,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Navigator White and Captain Powell observed separate objects on different sides of the aircraft simultaneously",
+      "source_quote": "He stated that he does not believe it was the same object that he had viewed",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Robert Leidy took two Kodachrome photographs of the disc's trail over Newfoundland and film was to be transmitted for official processing",
+      "source_quote": "Mr. Robert W. Leidy reported that he took two (2) Kodachrome snap shots of the trail. The film has been transmitted to the Asst. Chief of Staff, Intelligence",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 23976,
+        "len": 85,
+        "exact": false,
+        "matched": "Mr. Robert W. Leidy reported that he took two (2) Kodachrome snap shots of the trail."
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Woodruff described the disc splitting clouds and leaving a 15-20 mile bluish trail",
+      "source_quote": "It spread the clouds out about half mile...The trail was from approximately fifteen (15) to twenty (20) miles long",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 32584,
+        "len": 65,
+        "exact": false,
+        "matched": "e trail was from approximately fifteen (15) to twenty (20) miles "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "An unnamed intelligence analyst concluded the flying saucer situation involves real objects and possibly a domestic project known to the President",
+      "source_quote": "Something is really flying around...give more than ordinary weight to the possibility that this is a domestic project, about which the President, etc. know",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 48000,
+        "len": 75,
+        "exact": false,
+        "matched": "ility that this is a domestic project, about which the President, etc. know"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The intelligence analysis described objects as metallic, circular, flat-bottomed, slightly domed, with possible liquid rocket propulsion",
+      "source_quote": "The surface of these objects is metallic...one observation indicates that the fuel may be throttled which would indicate a liquid rocket engine",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 48404,
+        "len": 95,
+        "exact": false,
+        "matched": "e observation indicates that the fuel may be throttled which would indicate a liquid rocket eng"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Objects were reported flying in formation of three to nine, at speeds above 300 knots, oscillating laterally",
+      "source_quote": "Flights have been reported, from three to nine of them, flying good formation on each other, with speeds always above 300 knots",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 48910,
+        "len": 55,
+        "exact": false,
+        "matched": "rmation on each other, with speeds always above 300 kno"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Fourth Air Force forwarded F.I. Johnson's letter noting similarity to Kenneth Arnold's account",
+      "source_quote": "Your attention is invited to the similarity of statement by Mr. Johnson and Mr. Arnold",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 49488,
+        "len": 46,
+        "exact": false,
+        "matched": "Your attention is invited to the similarity of"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A photograph was taken over Birmingham by Crossland with a 15-second exposure at 8:37 PM on July 6, 1947",
+      "source_quote": "The picture above was made by Mr. Crossland at 8:37 p.m. last night at his home at 29th Street and Highland Avenue. He said he gave the film a 15-second exposure",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 10658,
+        "len": 65,
+        "exact": false,
+        "matched": "ve was made by Mr. Crossland at 8:37 p.m. last night at his home "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Captain Gullage of SS Burgeo reported seeing the same phenomenon on July 15 with the object changing course abruptly several times",
+      "source_quote": "he had seen the same thing at approximately the same time and location...the object or flashes were traveling faster and frequently changed course",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 29955,
+        "len": 70,
+        "exact": false,
+        "matched": "he had seen the same thing at approximately the same time and location"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 1,
+    "amber": 11,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T09:03:47.077Z",
+  "qa_completed_at": "2026-05-09T09:06:37.513Z",
+  "timing": {
+    "A": "94.4s",
+    "B": "75.9s",
+    "E": "33.0s"
+  },
+  "public_headline": "FBI File Compiles 1947 UFO Sightings Across Northeast US and Newfoundland",
+  "public_tldr": "This FBI/Air Defense Command case file gathers military intelligence reports, sworn witness statements, newspaper clippings, and an unsigned intelligence analysis covering multiple UFO sightings in July and August 1947 across the northeastern United States, Newfoundland, and Alabama. An unnamed analyst concluded \"something is really flying around\" and speculated the objects could be a domestic military project.",
+  "public_narrative": "This document is a compiled FBI and Air Defense Command case file bringing together reports from multiple UFO sightings during the summer of 1947. It contains military intelligence reports, witness interrogations, sworn statements, and newspaper clippings from locations spanning Massachusetts, Newfoundland, Alabama, and New York.\n\nThe most detailed account comes from Alpheus O. Powell, a Pan American Airways captain with over 4,000 hours of command pilot experience, who on August 4, 1947, observed a bright orange cylindrical object near Boston while flying a Constellation aircraft at 8,000 feet. Powell described it as roughly the length of a P-40 fighter fuselage, blunt at both ends, traveling at about 160 mph. He watched it for approximately 30 seconds and ruled out pilot balloons, tow targets, and radiosonde devices as explanations, noting the object had a definite shape with no gaseous dissipation. His navigator, W. White, separately observed what appeared to be a different object on the opposite side of the aircraft.\n\nIn Newfoundland, multiple sightings were reported in July 1947. On July 10, witnesses near Harmon Field described a circular disc the apparent size of a C-54 transport aircraft leaving a bluish-black trail roughly 15 miles long. A civilian named Robert Leidy photographed the trail on Kodachrome film, which was forwarded to military intelligence — though the photographs themselves are not included in this file. At Codroy, Newfoundland, on July 11, witnesses including a twelve-year-old boy named Albert Samms described a flame-colored disc. Other sightings were reported from the steamship Burgeo and at Grand Falls, where a constable described four round objects followed by a jellyfish-like object with a phosphorus glow.\n\nIn Birmingham, Alabama, on July 6, 1947, a mass sighting prompted numerous civilian reports and newspaper coverage. Staff Sergeant Ira L. Livingston provided a sworn statement describing dim glowing objects at roughly 2,000 feet altitude traveling an estimated 500–600 mph. A local newspaper copy reader named Crossland photographed objects over Birmingham. A searchlight or carnival beacon at Siluria was proposed as an explanation for the Birmingham sightings but was never conclusively investigated.\n\nThe file includes an unsigned, undated intelligence analysis memo concluding that \"this 'flying saucer' situation is not all imaginary\" and that \"something is really flying around.\" The analyst described the objects as metallic, circular or elliptical, flat-bottomed and slightly domed, roughly the size of a C-54 aircraft, capable of speeds above 300 knots, and possibly powered by liquid rocket engines. The analyst also noted that the lack of high-level government inquiries into the sightings lent weight to the possibility that the objects were part of a domestic project known to the President — though this was speculation, not evidence.",
+  "public_caveats": [
+    "The intelligence analysis memo is unsigned, undated, and has no identified originating office — its authorship and authority within the file are unclear.",
+    "Multiple sightings from different locations and dates are compiled into a single case file, which can create a misleading impression that they represent a single coordinated phenomenon.",
+    "The Kodachrome photographs taken by Robert Leidy are referenced but not included in this file; their content and fate are unknown from this document alone.",
+    "Several pages have poor OCR quality with partial text loss, and the Birmingham newspaper accounts contain highly varied and contradictory witness descriptions typical of mass excitement events.",
+    "Some pages carry RESTRICTED or CONFIDENTIAL classification markings with partial declassification stamps, suggesting portions of the file may have been withheld historically. The analyst's suggestion of a domestic project 'about which the President knows' is speculative inference from the absence of top-level inquiries, not positive evidence."
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "sha256": "ad3b37eb9fbd20e6dc75152e486514e58ff8a1edde3d32615887ea0d19727884",
+  "title": "DOW-UAP-D63, Mission Report, Strait of Hormuz, October 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "10/1/20",
+  "incident_location": "Strait of Hormuz",
+  "what_is_it": "A U.S. military Mission Report (MISREP) documenting an ISR (intelligence, surveillance, reconnaissance) flight over the Strait of Hormuz area during which the operator observed one Unidentified Anomalous Phenomenon (UAP).",
+  "core_summary": "On 1-2 October 2020, a U.S. Air Force unmanned aircraft from the 482nd Attack Squadron took off from OKAS airfield and conducted a roughly 21-hour ISR mission supporting NAVCENT operations in the Arabian Gulf, Strait of Hormuz, and Gulf of Oman. During the mission the operator received five guard calls (radio challenges) from Iranian air defense and, at 1829Z, observed one UAP. Heavy haze during the mission precluded full imagery intelligence analysis.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redaction throughout: aircraft type, callsigns, operation name, personnel names, grid coordinates, and the UAP observation details (OBSERVATION LINE 1) are all redacted.",
+    "The UAP observation itself is referenced only by a single line ('SEE OBSERVATION LINE 1') which does not appear in the released text — the actual description of the UAP is missing or redacted.",
+    "Single-source report from one military operator; all characterizations reflect the reporter's subjective interpretation at the time.",
+    "Weather was described as heavy haze precluding imagery analysis, which may have affected the quality of any UAP observation.",
+    "The document notes that descriptive and estimative language should not be interpreted as conclusive indication of any intrinsic object features or performance characteristics."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "Misrep 4871281 (DOW-UAP-D63)",
+      "source_quote": "Misrep 4871281",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Originating unit",
+      "value": "482nd Attack Squadron (482 ATKS), 432nd Air Expeditionary Wing (432 AEW)",
+      "source_quote": "Originator (Unit or Squadron): 482ATKS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Domain",
+      "value": "Air",
+      "source_quote": "Domain: AIR",
+      "citation_offset": {
+        "offset": 1222,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Combatant command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 1296,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Major command",
+      "value": "AFCENT",
+      "source_quote": "Major Command (MAJCOM): AFCENT",
+      "citation_offset": {
+        "offset": 1263,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operations center",
+      "value": "609th CAOC",
+      "source_quote": "Operations Center: 609th",
+      "citation_offset": {
+        "offset": 1236,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission type",
+      "value": "AREC (aerial reconnaissance)",
+      "source_quote": "Mission Type: AREC",
+      "citation_offset": {
+        "offset": 1686,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Takeoff location",
+      "value": "OKAS (ICAO code)",
+      "source_quote": "Takeoff Location (ICAO Code): OKAS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Takeoff time",
+      "value": "012249Z OCT 2020",
+      "source_quote": "Takeoff Time DTG: 012249:00Z0CT20",
+      "citation_offset": {
+        "offset": 4093,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Landing time",
+      "value": "021953Z OCT 2020",
+      "source_quote": "Last Land Time: 021953:00Z0CT20",
+      "citation_offset": {
+        "offset": 3796,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Total mission time",
+      "value": "21 hours 4 minutes",
+      "source_quote": "Total Mission Time: 21 hours 4 minutes",
+      "citation_offset": {
+        "offset": 3875,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Time on station",
+      "value": "20 hours 22 minutes",
+      "source_quote": "Total Time On Station: 20 hours 22 minutes",
+      "citation_offset": {
+        "offset": 6489,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of aircraft",
+      "value": "1",
+      "source_quote": "Number of Aircraft: 1",
+      "citation_offset": {
+        "offset": 3956,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary sensor",
+      "value": "ANDAS4",
+      "source_quote": "Primary Sensor: ANDAS4",
+      "citation_offset": {
+        "offset": 4752,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Additional avionics",
+      "value": "AH-BS WARIO",
+      "source_quote": "Additional Avionics: AH-BS_WARIO",
+      "citation_offset": {
+        "offset": 3490,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation time",
+      "value": "1829Z",
+      "source_quote": "AT 1829Z, OBSERVED IX UAP, SEE OBSERVATION LINE 1",
+      "citation_offset": {
+        "offset": 695,
+        "len": 39,
+        "exact": false,
+        "matched": "OBSERVED IX UAP, SEE OBSERVATION LINE 1"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of UAP observed",
+      "value": "1",
+      "source_quote": "OBSERVED IX UAP",
+      "citation_offset": {
+        "offset": 695,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FMV exploitation",
+      "value": "Performed by DGS-1",
+      "source_quote": "FMV WAS EXPLOITED BY DGS-1",
+      "citation_offset": {
+        "offset": 834,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "IMINT hours",
+      "value": "17.3",
+      "source_quote": "17.3 IMINT HOURS",
+      "citation_offset": {
+        "offset": 880,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Weather conditions",
+      "value": "Heavy haze precluded IMINT analysis",
+      "source_quote": "HEAVY HAZE PRECLUDED IMINT ANALYSIS",
+      "citation_offset": {
+        "offset": 6153,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Supported unit",
+      "value": "NAVCENT",
+      "source_quote": "Supported Unit: NAVCENT",
+      "citation_offset": {
+        "offset": 5987,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of guard calls received",
+      "value": "5",
+      "source_quote": "RECEIVED GUARDCALL. SEE GUARD CALL LINE 5",
+      "citation_offset": {
+        "offset": 635,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Guard call tones",
+      "value": "Professional (calls 1, 2, 4) and Directive (calls 3, 5)",
+      "source_quote": "Guardcall Tone: PROFESSIONAL",
+      "citation_offset": {
+        "offset": 6806,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude during guard calls",
+      "value": "FL180 (first two calls), FL160 (last three calls)",
+      "source_quote": "Aircraft Altitude: FL180",
+      "citation_offset": {
+        "offset": 6708,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Precoordination time",
+      "value": "24 hours prior to takeoff with NAVCENT",
+      "source_quote": "Precoord Time: 24 HOURS",
+      "citation_offset": {
+        "offset": 6061,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Precoordination effectiveness",
+      "value": "Satisfactory",
+      "source_quote": "Precoord Effectiveness: SATISFACTORY",
+      "citation_offset": {
+        "offset": 6087,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Intel gap filled",
+      "value": "No",
+      "source_quote": "Intel Gap Filled?: No",
+      "citation_offset": {
+        "offset": 6217,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation at Abu Musa Island",
+      "value": "1x unidentified aircraft on runway at 1244Z, assessed as ATR 72-500 at 1344Z",
+      "source_quote": "OBSERVED 1X UI AIRCRAFT ON RUNWAY AT ABU MUSA ISLAND AIRFIELD",
+      "citation_offset": {
+        "offset": 5418,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation near Bushehr",
+      "value": "1x possible NASER WAP docked at Bushehr Iranian boatyard at 1657Z",
+      "source_quote": "OBSERVED 1X POSS NASER WAP DOCKED IVO BUSHERH IRIN BOATYARD",
+      "citation_offset": {
+        "offset": 5593,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassification date",
+      "value": "16 March 2026",
+      "source_quote": "Declassified on: 16 March 202",
+      "citation_offset": {
+        "offset": 88,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Country tasked",
+      "value": "US - United States",
+      "source_quote": "Country Tasked: US - UNITED STATES",
+      "citation_offset": {
+        "offset": 1739,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Service tasked",
+      "value": "Air Force",
+      "source_quote": "Service Tasked: A - AIR FORCE",
+      "citation_offset": {
+        "offset": 1776,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Strait of Hormuz",
+    "Arabian Gulf",
+    "Gulf of Oman",
+    "OKAS (airfield)",
+    "Abu Musa Island",
+    "Bushehr"
+  ],
+  "dated_events": [
+    "012249Z OCT 2020 — takeoff from OKAS",
+    "012300Z OCT 2020 — on station",
+    "020117Z OCT 2020 — ISR time on station",
+    "020727Z OCT 2020 — first guard call",
+    "020854Z OCT 2020 — second guard call",
+    "021122Z OCT 2020 — third guard call",
+    "021236Z OCT 2020 — fourth guard call",
+    "021315Z OCT 2020 — fifth guard call",
+    "021829Z OCT 2020 — 1x UAP observed",
+    "021835Z OCT 2020 — cleared to RTB",
+    "021922Z OCT 2020 — off station",
+    "021953Z OCT 2020 — landed at OKAS"
+  ],
+  "objects_described": [
+    "1x UAP (unidentified anomalous phenomenon)",
+    "1x unidentified aircraft assessed as ATR 72-500",
+    "1x possible NASER WAP (vessel)",
+    "ANDAS4 sensor/targeting pod",
+    "AH-BS WARIO avionics"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The 482nd Attack Squadron flew a 21-hour ISR mission from OKAS supporting NAVCENT operations in the Arabian Gulf, Strait of Hormuz, and Gulf of Oman on 1-2 October 2020.",
+      "source_quote": "SUPPORTED NAVCENT FOR OPERATION [...] IVO ARABIAN GULF, STRAIT OF HORMUZ AND GULF OF OMAN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 323,
+        "len": 49,
+        "exact": false,
+        "matched": "O ARABIAN GULF, STRAIT OF HORMUZ AND GULF OF OMAN"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "At 1829Z on 2 October 2020, the operator observed one UAP.",
+      "source_quote": "AT 1829Z, OBSERVED IX UAP, SEE OBSERVATION LINE 1",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 695,
+        "len": 39,
+        "exact": false,
+        "matched": "OBSERVED IX UAP, SEE OBSERVATION LINE 1"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft received five guard calls from Iranian air defense during the mission, all answered with standard responses and with no impact to the mission.",
+      "source_quote": "RESPONDED WITH STANDARD RESPONSE 1. NO IMPACT TO THE MISSION",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 6968,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Heavy haze during the mission prevented full imagery intelligence analysis.",
+      "source_quote": "HEAVY HAZE PRECLUDED IMINT ANALYSIS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6153,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "FMV (full-motion video) from the mission was exploited by DGS-1.",
+      "source_quote": "FMV WAS EXPLOITED BY DGS-1",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 834,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "An unidentified aircraft observed on the runway at Abu Musa Island Airfield was later assessed to be an ATR 72-500.",
+      "source_quote": "OBSERVED 1X UI AIRCRAFT ON RUNWAY AT ABU MUSA ISLAND AIRFIELD... ASSESSED TO BE AN ATR 72-500",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5418,
+        "len": 58,
+        "exact": false,
+        "matched": "OBSERVED 1X UI AIRCRAFT ON RUNWAY AT ABU MUSA ISLAND AIRFI"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A possible NASER WAP was observed docked near Bushehr Iranian boatyard.",
+      "source_quote": "OBSERVED 1X POSS NASER WAP DOCKED IVO BUSHERH IRIN BOATYARD",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5593,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The mission did not fill any intelligence gaps.",
+      "source_quote": "Intel Gap Filled?: No",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6217,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was declassified by MG Richard A. Harrison, USCENTCOM Chief of Staff, on 16 March 2026.",
+      "source_quote": "Declassified by MG Richard A. Harrisor USCENTCOM Chief of Staff",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 17,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 3,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:07:47.824Z",
+  "qa_completed_at": "2026-05-09T11:09:35.650Z",
+  "timing": {
+    "A": "51.2s",
+    "B": "56.6s",
+    "E": "26.2s"
+  },
+  "public_headline": "U.S. Air Force Drone Spotted One UAP Over Strait of Hormuz",
+  "public_tldr": "A heavily redacted U.S. military mission report describes a 21-hour unmanned surveillance flight over the Strait of Hormuz on 1–2 October 2020, during which the operator logged one Unidentified Anomalous Phenomenon (UAP) at 1829Z. The actual description of what was observed is redacted — the report references an \"Observation Line 1\" that does not appear in the released text.",
+  "public_narrative": "This document is a Mission Report (MISREP) from the 482nd Attack Squadron, a U.S. Air Force unit operating under U.S. Central Command (CENTCOM). It covers a roughly 21-hour aerial reconnaissance flight that took off from OKAS airfield on 1 October 2020 and landed the following day. The unmanned aircraft was supporting U.S. Naval Forces Central Command (NAVCENT) operations across the Arabian Gulf, Strait of Hormuz, and Gulf of Oman.\n\nDuring the flight, the operator received five radio challenges — known as guard calls — from Iranian air defense. These were described as professional or directive in tone and had no impact on the mission. The aircraft also made conventional observations: an unidentified plane on the runway at Abu Musa Island, later assessed to be an ATR 72-500 turboprop, and a possible NASER-class fast-attack craft docked near the Bushehr boatyard in Iran.\n\nAt 1829Z on 2 October, the operator recorded one UAP. The report directs readers to \"Observation Line 1\" for details, but that section is either missing or redacted from the released document. No description of the object's shape, size, movement, or behavior survives in the available text.\n\nHeavy haze throughout the mission limited the usefulness of imagery intelligence (IMINT), and the report notes that no intelligence gaps were filled. Full-motion video from the flight was processed by DGS-1, a ground-based exploitation unit, but the results are not included in this release.\n\nThe document was declassified on 16 March 2026 by Major General Richard A. Harrison, CENTCOM Chief of Staff. Substantial portions remain redacted, including the aircraft type, callsign, operation name, personnel names, grid coordinates, and — critically — the UAP observation itself.",
+  "public_caveats": [
+    "The actual UAP observation is redacted. The report references it but the description is entirely missing from the released text, so we do not know what was seen.",
+    "This is a single-source report from one military operator. There is no corroboration from other sensors, crews, or platforms in this document.",
+    "Heavy haze during the mission limited imagery analysis, which may have affected the quality or reliability of any visual observation, including the UAP.",
+    "The document explicitly warns that descriptive and estimative language in the report should not be interpreted as conclusive indication of any object's intrinsic features or performance.",
+    "Heavy redaction throughout — aircraft type, callsigns, operation name, coordinates, and personnel are all blacked out, making independent verification difficult."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "sha256": "7768268e837325333be0ea00ce5c00f571de3190e0c390f33e098f183cbf19a5",
+  "title": "FBI September 2023 Sighting - Composite Sketch",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "9/1/23",
+  "incident_location": "United States",
+  "what_is_it": "Composite sketch produced by the FBI Laboratory overlaying a graphic depiction of eyewitness descriptions onto an actual site photograph.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "extreme",
+  "interpretation_warnings": [
+    "The PDF source text is entirely unreadable garbled OCR output — all substantive facts are derived solely from the CSV metadata description provided by war.gov, not from the document body itself.",
+    "The composite sketch is an artist rendering based on witness testimony, not a photograph of the object.",
+    "No raw witness statements, investigator notes, or analytical conclusions are available from the extracted text.",
+    "Size estimates (130–195 feet) are eyewitness approximations with no confirmed measurement methodology described.",
+    "Single-event, witness-testimony-only evidence with no sensor or instrument data apparent in the available text."
+  ],
+  "fabrication_score": 6,
+  "key_facts": [
+    {
+      "field": "agency",
+      "value": "FBI",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_date",
+      "value": "September 2023",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_location",
+      "value": "United States",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "September 2023"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T12:02:52.075Z",
+  "qa_completed_at": "2026-05-09T12:03:41.879Z",
+  "timing": {
+    "A": "20.5s",
+    "B": "29.3s"
+  }
+}

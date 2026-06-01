@@ -1,0 +1,356 @@
+{
+  "sha256": "ec72132902a2f50d2ab032031386710fef1d1ae1face0226a90243f61d9347b4",
+  "title": "DOW-UAP-D017, UAP Reported at Sandia Base, 1948-1950",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "1948-1950",
+  "incident_location": "New Mexico",
+  "what_is_it": "A collection of military correspondence and scientific reports relating to security inspections at Sandia Base and investigations into copper particles potentially associated with green fireball sightings near Socorro, New Mexico, 1948-1950.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The lead scientist (Dr. Crozier) considered his own results 'negative or inconclusive' regarding association of copper with fireballs",
+    "Dr. LaPaz, the primary advocate for the fireball-copper connection, served as a voluntary consultant rather than independent investigator",
+    "Pre-fireball copper collection on July 14 complicates the association between fireballs and copper particles",
+    "The airplane collection was made at great distances from the actual fireball path and at insufficient altitude (23,000 ft vs recommended 40,000+ ft)",
+    "Local contamination sources (copper roofing, automobile traffic, pavement dust) were acknowledged as complicating factors",
+    "The document ends mid-sentence, suggesting the full text is not presented",
+    "OCR quality is poor in places, making some details uncertain"
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "phenomena_types",
+      "value": "green fireballs, discs or variations, probably meteoric",
+      "source_quote": "evaluates each sighting into one of three classifications, (1) green fireball phenomenon, (2) disc or variation, and (3) probably meteoric",
+      "citation_offset": {
+        "offset": 36733,
+        "len": 45,
+        "exact": false,
+        "matched": "(2) disc or variation, and (3) probably meteo"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "copper_particle_sizes",
+      "value": "Up to over 100 microns in largest dimension",
+      "source_quote": "The sizes of particles seen in the first collections ranged up to over one hundred microns in the largest dimension",
+      "citation_offset": {
+        "offset": 7156,
+        "len": 70,
+        "exact": false,
+        "matched": "ections ranged up to over one hundred microns in the largest dimension"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "collection_method",
+      "value": "Impactment against adhesive-coated plate in air jet, processing 34 liters per minute",
+      "source_quote": "the equipment processed air at the rate of about 34 liters per minute, the particles being separated from the air by impactment against an adhesive-coated plate in an air jet",
+      "citation_offset": {
+        "offset": 5826,
+        "len": 30,
+        "exact": false,
+        "matched": " the particles being separated"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "copper_reagent",
+      "value": "Rubeanic acid (dithiooxamide) in glycerin gelatin mixture",
+      "source_quote": "The adhesive used on the collecting plates was a glycerin gelatin mixture with an addition of rubeanic acid (dithiooxamide)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "cobalt_particles_found",
+      "value": "Three perfect 12-micron spheres with strong cobalt indications found July 26 at 2:00 PM",
+      "source_quote": "three quite remarkable particles were found that gave very strong cobalt indications. The particles were apparently perfect spheres, twelve microns in diameter",
+      "citation_offset": {
+        "offset": 12521,
+        "len": 30,
+        "exact": false,
+        "matched": "arkable particles were found t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "fireball_date_july",
+      "value": "July 24, 1949, at 8:26 PM over Socorro area",
+      "source_quote": "A fireball was reported to have passed over the general neighborhood of Socorro, New Mexico, at 8:26 p.m., July 24, 1949",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "fireball_date_august",
+      "value": "August 6, 1949",
+      "source_quote": "the event of August 6",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "airplane_collection_attempt",
+      "value": "B-25 from Kirtland Field, August 8, max altitude 23,000 feet, 41 hours after event",
+      "source_quote": "The collecting equipment was installed in a B-25 from Kirtland Field and on the afternoon of August 8, a flight was made",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "copper_meteorite_significance",
+      "value": "Copper is one of the rarest elements in meteorites; if fireballs deposited copper they are not conventional meteorites",
+      "source_quote": "if future more detailed work shows that the numerous copper particles found by Crozier and Mr. Seely are indeed floating down from green fireballs, then the fireballs are not conventional meteorites",
+      "citation_offset": {
+        "offset": 27607,
+        "len": 40,
+        "exact": false,
+        "matched": "s, then the fireballs are not convention"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "reporting_start_date",
+      "value": "December 1948",
+      "source_quote": "since December 1948, this District has assumed the responsibility for collecting and reporting basic information with respect to aerial phenomena",
+      "citation_offset": {
+        "offset": 35551,
+        "len": 55,
+        "exact": false,
+        "matched": "ting basic information with respect to aerial phenomena"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "security_gate_hours",
+      "value": "Electric gate closed 1700-0700 hours",
+      "source_quote": "Guard Orders have been amended directing that the electric gate be closed between 1700 hours until 0700 hours the following day",
+      "citation_offset": {
+        "offset": 415,
+        "len": 70,
+        "exact": false,
+        "matched": "ric gate be closed between 1700 hours until 0700 hours the following d"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "erosion_control_cost",
+      "value": "$20,000 estimated for resloping cuts",
+      "source_quote": "Initial estimates run in the neighborhood of twenty thousand dollars ($20,000.00)",
+      "citation_offset": {
+        "offset": 2573,
+        "len": 66,
+        "exact": false,
+        "matched": "Initial estimates run in the neighborhood of twenty thousand dolla"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "conferences_held",
+      "value": "Los Alamos conferences on Feb 17 1949 and Oct 14 1949",
+      "source_quote": "On 17 February 1949 and again on 14 October 1949, conferences were held at Los Alamos, New Mexico, for the purpose of discussing the green fireball phenomena",
+      "citation_offset": {
+        "offset": 37608,
+        "len": 65,
+        "exact": false,
+        "matched": "On 17 February 1949 and again on 14 October 1949, conferences wer"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "january_fireball",
+      "value": "Green fireball of January 30, 1949 had well-determined earth-trace",
+      "source_quote": "ground-level dust collections be made along the well determined earth-trace of the green fireball of January 30th",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "fireball_altitude_july24",
+      "value": "10-12 miles endpoint height",
+      "source_quote": "the best observations of the endpoints of these fireballs place that of July 24th at a height of 10-12 miles",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "fireball_altitude_aug6",
+      "value": "5-6 miles endpoint height",
+      "source_quote": "that of August 6th at 5-6 miles",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "recommended_aircraft",
+      "value": "B-36 or B-50 for high-altitude collection above 40,000 feet",
+      "source_quote": "In Dr. Crozier's opinion, a B-36 or 50 should be made available for such work",
+      "citation_offset": {
+        "offset": 29042,
+        "len": 32,
+        "exact": false,
+        "matched": "36 or 50 should be made availabl"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Lincoln LaPaz",
+    "Ben Seely",
+    "Charles L. Phillips (Major)",
+    "Paul Taft",
+    "Doyle Rees (Colonel)",
+    "Joseph F. Carroll (Brigadier General)",
+    "A. B. Montgomery (Brigadier General)",
+    "Barnes (Captain)",
+    "Olson (Lt Col)"
+  ],
+  "named_places": [
+    "Sandia Base, Albuquerque, New Mexico",
+    "Campbell Air Force Base, Camp Campbell, Kentucky",
+    "Socorro, New Mexico",
+    "Kirtland Field",
+    "Los Alamos, New Mexico",
+    "Las Vegas, New Mexico",
+    "San Antonio, New Mexico",
+    "Carthage, New Mexico",
+    "Bingham, New Mexico",
+    "Vaughn, New Mexico",
+    "Raton, New Mexico",
+    "Durango, Colorado",
+    "Pastura, New Mexico",
+    "Santa Rosa, New Mexico",
+    "Glorieta, New Mexico",
+    "Pecos, New Mexico",
+    "Canonicito, New Mexico",
+    "Highway 84",
+    "Route 66",
+    "Offutt Air Force Base, Omaha, Nebraska",
+    "March Air Force Base, California",
+    "University of New Mexico",
+    "New Mexico School of Mines",
+    "New Mexico Proving Grounds",
+    "Washington, D.C."
+  ],
+  "dated_events": [
+    "1 April 1949",
+    "7 April 1949",
+    "10 August 1949",
+    "17 August 1949",
+    "July 24, 1949 at 8:26 PM",
+    "July 25, 1949 at 10:00 AM",
+    "July 26, 1949",
+    "July 27, 1949",
+    "August 6, 1949",
+    "August 8, 1949",
+    "January 30, 1949",
+    "July 14, 1949",
+    "17 February 1949",
+    "14 October 1949",
+    "5 December 1949",
+    "29 November 1949",
+    "25 May 1950",
+    "December 1948"
+  ],
+  "objects_described": [
+    "green fireballs",
+    "discs or variations",
+    "meteoric phenomena",
+    "B-25 aircraft (collection platform)",
+    "impactment dust collector"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "An organized reporting plan for aerial phenomena was established in December 1948 after a liaison meeting determined the frequency of unexplained aerial phenomena in New Mexico warranted it",
+      "source_quote": "the frequency of unexplained aerial phenomena in the New Mexico area was such that an organized plan of reporting these observations should be undertaken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 35172,
+        "len": 85,
+        "exact": false,
+        "matched": "the frequency of unexplained aerial phenomena in the New Mexico area was such that an"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Copper-bearing particles up to 100 microns were collected at Socorro 13.5 hours after the July 24 fireball, which was unprecedented in Dr. Crozier's air dust collections",
+      "source_quote": "these particles were of unusually large size - up to 100 microns in maximum dimensions",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "If the copper particles originated from green fireballs, then the fireballs cannot be conventional meteorites since copper is extremely rare in meteorites",
+      "source_quote": "Copper is one of the rarest of the elements found in meteorites",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No logical explanation was offered for the green fireballs at two conferences attended by multiple military and scientific agencies",
+      "source_quote": "A logical explanation was not proffered with respect to the origin of the green fireballs",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 38192,
+        "len": 69,
+        "exact": false,
+        "matched": "A logical explanation was not proffered with respect to the origin of"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The 17th District OSI assumed responsibility for collecting and reporting aerial phenomena data for the New Mexico area",
+      "source_quote": "this District has assumed the responsibility for collecting and reporting basic information with respect to aerial phenomena occurring in this general area",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 35547,
+        "len": 90,
+        "exact": false,
+        "matched": "eporting basic information with respect to aerial phenomena occurring in this general area"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Three perfectly spherical 12-micron cobalt particles were found that were unique in the investigators' experience",
+      "source_quote": "Such particles are quite unique in the experience of the present",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Small copper particles (1-15 microns) were absent from early collections but appeared in large numbers after approximately 35 hours",
+      "source_quote": "particles of the smallest size group did not appear in large numbers until some 35 hours after the passage of the fireball",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Observers included scientists, OSI Special Agents, airline pilots, military pilots, Los Alamos Security Inspectors, and other reliable persons",
+      "source_quote": "The observers of these phenomena include scientists, Special Agents of the Office of Special Investigations (IG) USAF, airline pilots, military pilots, Los Alamos Security Inspectors",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 36236,
+        "len": 50,
+        "exact": false,
+        "matched": "The observers of these phenomena include scientist"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Ground collections in the subterminal regions of both July 24 and August 6 fireballs detected unusual aggregations of copper particles",
+      "source_quote": "ground collections in the subterminal regions of the fireballs of both August 6th and July 24th resulted in the detection of unusual aggregations of copper particles",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 9,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-24T22:22:48.645Z",
+  "qa_completed_at": "2026-05-24T22:24:29.232Z",
+  "timing": {
+    "A": "65.2s",
+    "B": "35.0s"
+  }
+}

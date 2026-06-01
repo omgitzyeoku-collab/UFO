@@ -1,0 +1,164 @@
+{
+  "sha256": "fbb76ffa1aad67e53d98e189b557ee3f893d2374ca28ae93862a79db20908db6",
+  "title": "65_HS1-834228961_62-HQ-83894_Serial_153",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "N/A",
+  "what_is_it": "FBI investigative file cover sheet and newspaper clipping regarding a photograph of a reported 'flying saucer' over Oak Ridge, Tennessee.",
+  "core_summary": "This FBI Knoxville field office file (65-11) documents 'flying saucers' observed over the Oak Ridge, Tennessee area in July 1947. The file includes two photographs and a newspaper clipping from the Knoxville News-Sentinel describing a photograph taken by a man named Presley at 218 Illinois Avenue, Oak Ridge, who inadvertently captured what was described as a 'flying saucer' on his last frame of film. Several pages are heavily degraded or redacted, rendering most content illegible.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Multiple pages (1, 3, 5, 6, 7, 8, 9) are either blank, heavily degraded, or consist of garbled OCR text, making most of the document illegible.",
+    "The newspaper clipping is a secondary source reprinted in an FBI file; the photograph itself is not viewable in this text extraction.",
+    "Only the photographer's surname (Presley) and initial (R.) are legible; full first name is unclear due to OCR degradation.",
+    "The classification 'Internal Security - X' indicates this was treated as a potential national security matter, given Oak Ridge's role as a nuclear facility, but no assessment or conclusion is visible in the legible portions.",
+    "Single-source account from a newspaper clipping; no corroborating investigation findings are legible in this file."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "FBI file number",
+      "value": "65-11 (Knoxville office), related to 62-HQ-83894",
+      "source_quote": "KNOXVILLE FILE #65-11",
+      "citation_offset": {
+        "offset": 80,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Subject classification",
+      "value": "Internal Security - X",
+      "source_quote": "INTERNAL SECURITY - X",
+      "citation_offset": {
+        "offset": 152,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Enclosures to Bureau",
+      "value": "Two photographs of reputedly 'flying saucers' and a photostatic copy of a newspaper clipping",
+      "source_quote": "Two photographs of reputedly \"flying saucers\" seen at Oak Ridge, Tennessee, during July 1947.",
+      "citation_offset": {
+        "offset": 198,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Newspaper source",
+      "value": "Knoxville News-Sentinel, July 1947",
+      "source_quote": "KNOXVILLE NEWS... JULY 1947",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Photographer name",
+      "value": "Presley (surname only legible)",
+      "source_quote": "R. PRESLEY",
+      "citation_offset": {
+        "offset": 538,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Photographer address",
+      "value": "218 Illinois Avenue, Oak Ridge",
+      "source_quote": "his house a' 218 Illinois Avenue, Oak Ridge",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Circumstances of photograph",
+      "value": "Presley had one frame left after photographing his family and house, turned and snapped a picture of the mountain, and captured the object",
+      "source_quote": "noticing he had ong film 'left on the roll, he turned and snapped it for a picture of the mountain.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Claimed first photograph at Oak Ridge",
+      "value": "Described as the first time a flying saucer was photographed over Oak Ridge",
+      "source_quote": "this is the first time that one has ever been photographed over Oak Ridge",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "R. Presley"
+  ],
+  "named_places": [
+    "Oak Ridge, Tennessee",
+    "Knoxville",
+    "218 Illinois Avenue, Oak Ridge"
+  ],
+  "dated_events": [
+    "July 1947"
+  ],
+  "objects_described": [
+    "flying saucer (photographed aerial object over Oak Ridge)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A man named R. Presley photographed an unidentified object over Oak Ridge, Tennessee in July 1947 while using the last frame on a roll of film.",
+      "source_quote": "R. PRESLEY had snapped several pictures of his family and his house... noticing he had ong film 'left on the roll, he turned and snapped it for a picture of the mountain.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 554,
+        "len": 40,
+        "exact": false,
+        "matched": "snapped several pictures of his family a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The FBI Knoxville office forwarded two photographs and a newspaper clipping about the incident to FBI headquarters.",
+      "source_quote": "Two photographs of reputedly \"flying saucers\" seen at Oak Ridge, Tennessee, during July 1947. Photostatic copy of newspaper clipping appearing in the Knoxville News-Sentinel",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 198,
+        "len": 173,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The photograph reportedly generated significant local discussion in Oak Ridge.",
+      "source_quote": "Mr. Presley says this picture has all of Oak Ridge talking.",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 1,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T09:07:10.487Z",
+  "qa_completed_at": "2026-05-09T09:08:03.999Z",
+  "timing": {
+    "A": "31.7s",
+    "B": "21.8s",
+    "E": "22.9s"
+  },
+  "public_headline": "FBI File Documents 1947 Flying Saucer Photograph Over Oak Ridge, Tennessee",
+  "public_tldr": "This FBI Knoxville field office file from July 1947 contains a cover sheet, two photographs, and a newspaper clipping about a resident named R. Presley who inadvertently photographed a reported 'flying saucer' over Oak Ridge, Tennessee. Most of the document is heavily degraded or redacted, and no investigative conclusions are visible in the legible portions.",
+  "public_narrative": "This document is an FBI investigative file originating from the Knoxville field office, catalogued as file number 65-11 and linked to headquarters file 62-HQ-83894. It was classified under 'Internal Security - X,' a designation that reflected the national security sensitivity of Oak Ridge, Tennessee — home to key nuclear facilities during and after World War II.\n\nThe file centres on a July 1947 incident in which a man identified as R. Presley, residing at 218 Illinois Avenue in Oak Ridge, reportedly photographed an unidentified aerial object. According to a newspaper clipping from the Knoxville News-Sentinel included in the file, Presley had been photographing his family and house when he noticed he had one frame of film remaining. He turned and snapped a picture of the nearby mountain, and the developed photograph appeared to show what was described as a 'flying saucer.' The clipping noted this was said to be the first time such an object had been photographed over Oak Ridge, and that the picture had generated significant local discussion.\n\nThe FBI Knoxville office forwarded two photographs of the reported 'flying saucers' and a photostatic copy of the newspaper clipping to FBI headquarters in Washington. Beyond this transmittal, no investigative findings, analysis, or conclusions are visible in the legible portions of the document.\n\nThe majority of this file is effectively unreadable. Multiple pages are blank, heavily degraded, or consist of garbled text from poor-quality scanning. Heavy redactions are also present. As a result, any FBI assessment of the incident — if one existed — cannot be determined from this document alone.",
+  "public_caveats": [
+    "The only legible account of the incident comes from a single newspaper clipping — a secondary source. No corroborating FBI investigation notes are readable in this file.",
+    "Heavy degradation and redaction affect most pages. Any conclusions the FBI may have reached are not visible here.",
+    "The photograph itself is not viewable in the released document; only descriptions of it survive.",
+    "The photographer's full first name is unclear due to poor scan quality — only the initial 'R.' and surname 'Presley' are legible.",
+    "Oak Ridge's status as a nuclear site meant routine aerial sightings there received heightened security attention, which is why the FBI was involved. This does not imply the object was assessed as a genuine threat."
+  ]
+}

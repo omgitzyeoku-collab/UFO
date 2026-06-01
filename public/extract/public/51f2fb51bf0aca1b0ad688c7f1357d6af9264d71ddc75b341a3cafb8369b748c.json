@@ -1,0 +1,178 @@
+{
+  "sha256": "51f2fb51bf0aca1b0ad688c7f1357d6af9264d71ddc75b341a3cafb8369b748c",
+  "title": "24 F 0448",
+  "agency": "AARO",
+  "type": "PDF",
+  "incident_date": "",
+  "incident_location": "",
+  "what_is_it": "An organizational chart showing the internal structure and staffing of the All-Domain Anomaly Resolution Office (AARO) within the Office of the Under Secretary of Defense for Intelligence & Security (OUSD I&S) as of August 2024.",
+  "core_summary": "This document is AARO's organizational chart dated August 2024, showing the office's leadership and divisional structure. The office is led by Director Jon Kosloski (SES) with Deputy Director Tim Phillips from ODNI-SNIS, and is organized into divisions including Analysis, Operations, Science & Technology, Strategic Communications, and liaison functions with NASA, Army, and Navy. Most individual staff names are redacted under FOIA exemption (b)(6).",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy — Nearly all individual staff names are redacted under FOIA exemption (b)(6), leaving only the two most senior leadership positions named.",
+  "interpretation_warnings": [
+    "This is an administrative organizational chart, not an incident or sighting report — it contains no UAP case data.",
+    "Heavy (b)(6) redactions obscure all staff names except the Director and Deputy Director, making it impossible to assess the office's full staffing level or expertise.",
+    "The chart shows positions that existed as of August 2024 and may not reflect current staffing.",
+    "Some position titles and organizational labels are partially garbled due to OCR artifacts from the PDF extraction."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "AARO consolidated OUSD(I&S) organization chart",
+      "source_quote": "AARO CONSOLIDATED OUSD (l&S) ORGANIZATION CHART AS OF AUGUST 2024",
+      "citation_offset": {
+        "offset": 0,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Director",
+      "value": "Jon Kosloski, SES rank",
+      "source_quote": "DIRECTOR Jon Kosloski SES",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Deputy Director",
+      "value": "Tim Phillips from ODNI-SNIS",
+      "source_quote": "DEPUTY DIRECTOR Mr. Tim Phillips (ODNI-SNIS)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Divisions",
+      "value": "Analysis, Operations, Science & Technology, Strategic Communications, Chief of Staff, FFRDC, Liaison",
+      "source_quote": "Analysis Operations Science & Technology Strategic Communications Chief of Staff FFRDC liaison",
+      "citation_offset": {
+        "offset": 229,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Liaison agencies",
+      "value": "NASA, Army, Navy",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Analysis roles listed",
+      "value": "Chief of Analysis, Sr. Intelligence Analyst, All-Source Analysts, Radar Analyst, Production Manager",
+      "source_quote": "CHIEF OF ANALYSIS SR. INTELLIGENCE ANALYST All-SOURCE ANALYST RADAR ANALYST PRODUCTION MANAGER",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Operations roles listed",
+      "value": "Senior Reporting Specialist Manager, Operations Specialist, Radar Analyst, PFPA Detailee",
+      "source_quote": "SENIOR REPORTING SPECIALIST MANAGER OPERATIONS SPECIALIST RADAR ANALYST PFPA DETAILEE",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Staff categories legend",
+      "value": "LNO, I&S Cadre, Surge, JOA/Reservist, Detailee",
+      "source_quote": "LNO l&SCADRE Surge JOA/ Reservist Detailee",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Special Assistant role",
+      "value": "DISES Special Assistant for Data Architecture and Navy LNO",
+      "source_quote": "DISES SPECIAL ASSISTANT FOR DATA ARCHITECTURE AND NAVY LNO",
+      "citation_offset": {
+        "offset": 113,
+        "len": 33,
+        "exact": false,
+        "matched": "DISES SPECIAL ASSISTANT FOR DATA "
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Jon Kosloski",
+    "Tim Phillips"
+  ],
+  "named_places": [],
+  "dated_events": [
+    "August 2024"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "Jon Kosloski served as AARO Director at SES level as of August 2024",
+      "source_quote": "DIRECTOR Jon Kosloski SES",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Tim Phillips from ODNI-SNIS served as AARO Deputy Director as of August 2024",
+      "source_quote": "DEPUTY DIRECTOR Mr. Tim Phillips (ODNI-SNIS)",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO had a Federally Funded Research and Development Center (FFRDC) component",
+      "source_quote": "FFRDC",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO included a PFPA (Pentagon Force Protection Agency) detailee in Operations",
+      "source_quote": "PFPA DETAILEE",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 790,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO maintained liaison officers from NASA, Army, and Navy",
+      "source_quote": "NASA ARMY",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO used surge staff, JOA/Reservists, and detailees in addition to I&S cadre",
+      "source_quote": "Surge JOA/ Reservist Detailee",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 1,
+    "amber": 5,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T12:45:15.795Z",
+  "qa_completed_at": "2026-05-09T12:46:00.477Z",
+  "timing": {
+    "A": "29.3s",
+    "B": "15.3s",
+    "E": "27.3s"
+  },
+  "public_headline": "AARO Org Chart Shows Office Structure and Leadership as of August 2024",
+  "public_tldr": "This document is an internal organizational chart for the All-Domain Anomaly Resolution Office (AARO), the Pentagon's UFO-investigation office, dated August 2024. It names the director and deputy director, lists the office's divisions, and shows staffing categories — but nearly all individual staff names are blacked out.",
+  "public_narrative": "This record, released under a Freedom of Information Act (FOIA) request, is not a UFO sighting report. It is an organizational chart — essentially a staffing diagram — for the All-Domain Anomaly Resolution Office (AARO), which sits within the Office of the Under Secretary of Defense for Intelligence and Security. The chart is dated August 2024.\n\nThe two most senior leaders are named: Director Jon Kosloski, a Senior Executive Service (SES) official, and Deputy Director Tim Phillips, detailed from the Office of the Director of National Intelligence's Special National Intelligence Service (ODNI-SNIS). Beyond those two, nearly every other staff member's name is redacted under FOIA exemption (b)(6), which protects personal privacy.\n\nThe chart shows AARO organized into several divisions: Analysis, Operations, Science and Technology, Strategic Communications, and a Chief of Staff function. It also lists a Federally Funded Research and Development Center (FFRDC) component and liaison officers from NASA, the Army, and the Navy. Specific roles mentioned include radar analysts, all-source intelligence analysts, a production manager, operations specialists, and a Pentagon Force Protection Agency (PFPA) detailee. A special assistant role for data architecture is also listed.\n\nStaffing categories shown in the chart's legend include liaison officers (LNOs), Intelligence and Security cadre, surge staff, Joint Operations Assignment or Reservist personnel, and detailees from other agencies. This mix suggests AARO drew on both permanent staff and temporary personnel from across the defense and intelligence community.\n\nBecause this is an administrative document, it contains no information about any specific UAP sighting, investigation, or conclusion. Its value is in showing how the office was structured and resourced at a particular point in time.",
+  "public_caveats": [
+    "This is an org chart, not a UAP incident report — it contains zero data about any sighting or investigation.",
+    "Heavy redactions under FOIA exemption (b)(6) obscure all staff names except the Director and Deputy Director, making it impossible to fully assess AARO's staffing level or expertise.",
+    "The chart reflects AARO's structure as of August 2024 and may not match current staffing or organization.",
+    "Some position titles may be slightly garbled due to OCR artifacts from the PDF scan, so exact wording of certain role names should be treated with minor caution.",
+    "The document is single-source — it shows what AARO chose to depict in its own internal chart, with no independent verification of whether all listed positions were actually filled."
+  ]
+}

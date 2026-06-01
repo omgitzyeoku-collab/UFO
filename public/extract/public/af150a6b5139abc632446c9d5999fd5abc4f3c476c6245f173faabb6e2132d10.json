@@ -1,0 +1,220 @@
+{
+  "sha256": "af150a6b5139abc632446c9d5999fd5abc4f3c476c6245f173faabb6e2132d10",
+  "title": "DOW-UAP-D5, Mission Report, Arabian Gulf, 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "Mediterranean Sea",
+  "what_is_it": "A U.S. military Mission Report (MISREP) documenting two separate UAP sightings in 2020.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redaction: observer identity, unit, platform, and sensor type are all redacted under exemption 1.4(a) (classified military/intelligence information).",
+    "The second sighting describes 'POSS UAPS' (possible UAPs), indicating the observer was uncertain about the identification.",
+    "Single-source reporting: both observations are subjective accounts from military operators with no corroborating sensor data visible in the released text.",
+    "The metadata states 'Arabian Gulf' but also lists 'Mediterranean Sea' as the incident location — these are different bodies of water, suggesting possible inconsistency in the metadata.",
+    "MGRS grid coordinates are provided but without date context cannot be independently verified for location.",
+    "All speed and altitude figures are observer estimates, not confirmed measurements.",
+    "Personal information redacted under exemption (b)(6)."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Sighting 1 - Time",
+      "value": "1354Z",
+      "source_quote": "AT 1354Z, OBSERVED 1X UAP IVO 34SCE7566990098",
+      "citation_offset": {
+        "offset": 87,
+        "len": 35,
+        "exact": false,
+        "matched": "OBSERVED 1X UAP IVO 34SCE7566990098"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 1 - Number of objects",
+      "value": "1",
+      "source_quote": "OBSERVED 1X UAP",
+      "citation_offset": {
+        "offset": 87,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting 1 - Grid reference",
+      "value": "34SCE7566990098",
+      "source_quote": "1X UAP IVO 34SCE7566990098",
+      "citation_offset": {
+        "offset": 96,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting 1 - Velocity",
+      "value": "40 knots",
+      "source_quote": "VELOCITY WAS 40 KNOTS AT FL160 TO FL170",
+      "citation_offset": {
+        "offset": 124,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting 1 - Altitude",
+      "value": "FL160 to FL170 (approximately 16,000-17,000 feet)",
+      "source_quote": "VELOCITY WAS 40 KNOTS AT FL160 TO FL170",
+      "citation_offset": {
+        "offset": 124,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting 1 - Speed behavior",
+      "value": "Constant",
+      "source_quote": "UAP SPEED REMAINED CONSTANT",
+      "citation_offset": {
+        "offset": 165,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting 2 - Time",
+      "value": "2243Z",
+      "source_quote": "AT 2243Z, OBSERVED 2X POSS UAPS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 2 - Number of objects",
+      "value": "2 (possible)",
+      "source_quote": "OBSERVED 2X POSS UAPS",
+      "citation_offset": {
+        "offset": 261,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting 2 - Grid reference",
+      "value": "35TQK1580995057",
+      "source_quote": "2X POSS UAPS IVO 35TQK1580995057",
+      "citation_offset": {
+        "offset": 270,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting 2 - Velocity",
+      "value": "Estimated 278 knots (~320 mph)",
+      "source_quote": "VELOCITY WAS ESTIMATED AT 278 KNOTS",
+      "citation_offset": {
+        "offset": 304,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting 2 - Direction change",
+      "value": "Increased speed and turned south",
+      "source_quote": "UAPS INCREASED SPEED AND CHANGED DIRECTION TOWARDS THE SOUTH",
+      "citation_offset": {
+        "offset": 341,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Classification marking",
+      "value": "SECRET//REL (releasable)",
+      "source_quote": "(S//REL)",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "34SCE7566990098 (MGRS grid coordinate)",
+    "35TQK1580995057 (MGRS grid coordinate)"
+  ],
+  "dated_events": [],
+  "objects_described": [
+    "UAP (single, 40 knots, constant speed, FL160-FL170)",
+    "2x possible UAPs (278 knots estimated, accelerated and changed direction south)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A single UAP was observed at 1354Z traveling at 40 knots at FL160-FL170 with constant speed.",
+      "source_quote": "AT 1354Z, OBSERVED 1X UAP IVO 34SCE7566990098. VELOCITY WAS 40 KNOTS AT FL160 TO FL170. UAP SPEED REMAINED CONSTANT.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 87,
+        "len": 100,
+        "exact": false,
+        "matched": "OBSERVED 1X UAP IVO 34SCE7566990098. VELOCITY WAS 40 KNOTS AT FL160 TO FL170. UAP SPEED REMAINED CON"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Two possible UAPs were observed at 2243Z traveling at an estimated 278 knots.",
+      "source_quote": "AT 2243Z, OBSERVED 2X POSS UAPS IVO 35TQK1580995057. VELOCITY WAS ESTIMATED AT 278 KNOTS.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 261,
+        "len": 79,
+        "exact": false,
+        "matched": "OBSERVED 2X POSS UAPS IVO 35TQK1580995057. VELOCITY WAS ESTIMATED AT 278 KNOTS."
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The two possible UAPs increased speed and changed direction towards the south.",
+      "source_quote": "UAPS INCREASED SPEED AND CHANGED DIRECTION TOWARDS THE SOUTH.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 341,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 1,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:46:22.287Z",
+  "qa_completed_at": "2026-05-09T10:47:15.961Z",
+  "timing": {
+    "A": "29.2s",
+    "B": "24.5s",
+    "E": "27.6s"
+  },
+  "public_headline": "U.S. Military Report Documents Two UAP Sightings in 2020",
+  "public_tldr": "A heavily redacted U.S. Department of War mission report records two separate UAP (Unidentified Anomalous Phenomena) sightings in 2020. The first involved a single object traveling at 40 knots at roughly 16,000–17,000 feet; the second involved two possible UAPs estimated at 278 knots that accelerated and turned south.",
+  "public_narrative": "This document is a U.S. military Mission Report (MISREP) originally classified SECRET//REL (releasable to allies). It records two UAP observations made during 2020, though the exact dates are not provided. The report is heavily redacted — the identity of the observers, their military unit, their platform (aircraft, ship, or ground station), and the type of sensor used are all blacked out under national-security exemptions.\n\nThe first sighting occurred at 1354Z (1:54 p.m. UTC). An observer reported a single UAP near military grid reference 34SCE7566990098, traveling at a steady 40 knots (about 46 mph) at an altitude between flight level 160 and 170 — roughly 16,000 to 17,000 feet. The object's speed remained constant throughout the observation.\n\nThe second sighting took place later the same day or on a separate occasion at 2243Z (10:43 p.m. UTC). This time the observer reported two \"possible UAPs\" near grid reference 35TQK1580995057, estimated at 278 knots (approximately 320 mph). During the observation, the two objects increased their speed and changed direction toward the south.\n\nThe document's metadata lists both \"Arabian Gulf\" in its title and \"Mediterranean Sea\" as the incident location — two entirely different bodies of water. This inconsistency is unexplained in the released text. The report contains no stated conclusions about what the objects were, and no corroborating sensor data is visible in the released portions.",
+  "public_caveats": [
+    "Heavy redaction: the observer's identity, military unit, platform, and sensor type are all withheld, making independent assessment of reliability impossible.",
+    "The second sighting describes 'possible UAPs' — the observer was not certain of the identification.",
+    "All speed and altitude figures are observer estimates, not confirmed instrument measurements. No corroborating sensor data appears in the released text.",
+    "The metadata contains a geographic contradiction: the title says 'Arabian Gulf' while the incident location field says 'Mediterranean Sea.' The reason for this mismatch is unclear.",
+    "This is single-source reporting — two subjective accounts from military operators with no visible independent corroboration."
+  ]
+}

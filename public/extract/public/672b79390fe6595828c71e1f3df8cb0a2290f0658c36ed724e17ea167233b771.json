@@ -1,0 +1,740 @@
+{
+  "sha256": "672b79390fe6595828c71e1f3df8cb0a2290f0658c36ed724e17ea167233b771",
+  "title": "DOW-UAP-D75, Mission Report, Gulf of Aden, July 2024",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "7/14/24",
+  "incident_location": "Gulf of Aden",
+  "what_is_it": "A classified U.S. military Mission Report (MISREP) documenting a UAP sighting during an ISR (Intelligence, Surveillance, and Reconnaissance) mission in the Gulf of Aden area on July 14, 2024.",
+  "core_summary": "A U.S. Air Force asset from the 124th Attack Squadron observed one UAP at 0517Z on July 14, 2024, during an ISR mission supporting NAVCENT in the Gulf of Aden region. The UAP maintained a straight flight path at constant altitude and traveled faster than the observing aircraft's flying speed; the operator assessed it as benign and followed it until it was too far away. The observer reported no effects on personnel or equipment, no engagement, and no materials recovered.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redaction throughout: aircraft type, tail number, callsign, exact coordinates, speeds, altitudes, sensor details, operation names, and UAP physical description are all redacted under exemptions 1.4a and 1.4g (classified military/intelligence information).",
+    "Single-source observation from one aircraft crew member (TSgt/E-5); no third-party observers were reported.",
+    "All kinetic measurements (altitude, velocity, trajectory) are noted as 'Estimated' rather than measured, reducing their reliability.",
+    "The UAP description field ('UAP HAD...') is cut off or redacted, so the physical appearance of the object is unknown from this document.",
+    "The observer's characterization of the UAP as 'benign' and speed comparisons are subjective assessments, not instrument-verified measurements.",
+    "The document was classified SECRET//REL TO USA, FVEY with a declassification date of 2049, suggesting significant portions remain sensitive."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "Misrep 10194673",
+      "source_quote": "Misrep 10194673",
+      "citation_offset": {
+        "offset": 92,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Classification",
+      "value": "SECRET//REL TO USA, FVEY",
+      "source_quote": "Classification: SECRET ... Associated Caveats: REL TO USA, FVEY",
+      "citation_offset": {
+        "offset": 1169,
+        "len": 33,
+        "exact": false,
+        "matched": "ociated Caveats: REL TO USA, FVEY"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Declassification date",
+      "value": "2049-07-14",
+      "source_quote": "Declassification Date (YYYYMMDD): 20490714",
+      "citation_offset": {
+        "offset": 1279,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report type",
+      "value": "MISREP (Mission Report)",
+      "source_quote": "Report Type: MISREP",
+      "citation_offset": {
+        "offset": 1742,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Originating unit",
+      "value": "124th Attack Squadron (124 ATKS)",
+      "source_quote": "Originator (Unit or Squadron): 124 ATKS",
+      "citation_offset": {
+        "offset": 1764,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Wing (reporting)",
+      "value": "132 Wing",
+      "source_quote": "Wing: 132 Wing",
+      "citation_offset": {
+        "offset": 2059,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Combatant command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 1670,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Major command",
+      "value": "ACC (Air Combat Command)",
+      "source_quote": "Major Command (MAJCOM): ACC",
+      "citation_offset": {
+        "offset": 1612,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operations center",
+      "value": "609th (609 CAOC)",
+      "source_quote": "Operations Center: 609th",
+      "citation_offset": {
+        "offset": 1376,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Domain",
+      "value": "Air",
+      "source_quote": "Domain: AIR",
+      "citation_offset": {
+        "offset": 1362,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of aircraft",
+      "value": "1",
+      "source_quote": "Number of Aircraft: 1",
+      "citation_offset": {
+        "offset": 3331,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP sighting time",
+      "value": "140517ZJUL24 (0517Z, July 14, 2024)",
+      "source_quote": "OBSERVED 1X UAP AT 140517ZJUL24",
+      "citation_offset": {
+        "offset": 4732,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of UAP sighted",
+      "value": "1",
+      "source_quote": "OBSERVED 1X UAP",
+      "citation_offset": {
+        "offset": 4732,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP event type",
+      "value": "UAP Incident",
+      "source_quote": "UAP Event Type: UAP Incident",
+      "citation_offset": {
+        "offset": 7131,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP maneuverability",
+      "value": "Straight flight path at same altitude",
+      "source_quote": "UAP Maneuverability Observations: STRAIGHT FLIGHT PATH AT SAME ALTI",
+      "citation_offset": {
+        "offset": 7162,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP response to observer",
+      "value": "Unknown",
+      "source_quote": "UAP Response to Observer Actions: UNKNOWN",
+      "citation_offset": {
+        "offset": 7232,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer assessment",
+      "value": "Benign",
+      "source_quote": "Observer Assessment of UAP: Benign",
+      "citation_offset": {
+        "offset": 7465,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP propulsion means",
+      "value": "Unknown",
+      "source_quote": "UAP Propulsion Means: UNKNOWN",
+      "citation_offset": {
+        "offset": 7805,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP under intelligent control",
+      "value": "Unknown",
+      "source_quote": "UAP Under Intelligent Control (yes/no; if yes, describe): UNKNOWN",
+      "citation_offset": {
+        "offset": 7852,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP advanced capabilities",
+      "value": "Unknown",
+      "source_quote": "UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe): UNKNOWN ABOUT ADVANCED CAPABILITIES AND/OR MATERIALS",
+      "citation_offset": {
+        "offset": 7943,
+        "len": 123,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP effects on persons",
+      "value": "None",
+      "source_quote": "UAP Effects on Persons: NO",
+      "citation_offset": {
+        "offset": 8140,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP effects on equipment",
+      "value": "None",
+      "source_quote": "UAP Effects on Equipment: NONE",
+      "citation_offset": {
+        "offset": 8497,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Materials recovered",
+      "value": "No",
+      "source_quote": "UAP Objects/Material Recovered (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 8433,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer engagement of UAP",
+      "value": "No",
+      "source_quote": "Observer Engagement of UAP (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 8653,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation interrogation of UAP",
+      "value": "No",
+      "source_quote": "Observation Interrogation of UAP (yes/no; if yes, list sensor(s) and returns):: NO",
+      "citation_offset": {
+        "offset": 7534,
+        "len": 47,
+        "exact": false,
+        "matched": "Observation Interrogation of UAP (yes/no; if ye"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP anomalous behavior",
+      "value": "Speed faster than observing aircraft's flying speed",
+      "source_quote": "UAP'S SPEED WAS FASTER THAN THE 1.4a, 1.4g FLYING SPEED",
+      "citation_offset": {
+        "offset": 9371,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reaction to observation",
+      "value": "Aircraft followed UAP until distance became too far",
+      "source_quote": "FOLLOWED THE UAP TILL THE DISTANCE BECAME TOO FAR TO FOLLOW",
+      "citation_offset": {
+        "offset": 9267,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP kinetic altitude",
+      "value": "Low",
+      "source_quote": "Kinetic Altitude: LOW",
+      "citation_offset": {
+        "offset": 8917,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP kinetic trajectory",
+      "value": "Northwest",
+      "source_quote": "Kinetic Trajectory: NW",
+      "citation_offset": {
+        "offset": 9107,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP first seen radius",
+      "value": "5 (units redacted)",
+      "source_quote": "First Seen Radius: 5",
+      "citation_offset": {
+        "offset": 8760,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP last seen radius",
+      "value": "5 (units redacted)",
+      "source_quote": "Last Seen Radius: 5",
+      "citation_offset": {
+        "offset": 8856,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude and velocity accuracy",
+      "value": "Estimated",
+      "source_quote": "Kinetic Altitude Accuracy: Estimated",
+      "citation_offset": {
+        "offset": 8878,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary sensor",
+      "value": "FMV (Full Motion Video)",
+      "source_quote": "Primary Sensor: FMV",
+      "citation_offset": {
+        "offset": 3809,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission on-station time",
+      "value": "140300ZJUL24",
+      "source_quote": "ARRIVED ON STATION AT 140300ZJUL24",
+      "citation_offset": {
+        "offset": 265,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer rank",
+      "value": "TSgt/E-5 (Technical Sergeant)",
+      "source_quote": "Rank/Grade: TSGT/E-5",
+      "citation_offset": {
+        "offset": 8567,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Weather impact",
+      "value": "Weather was not a factor",
+      "source_quote": "WEATHER WAS NOT A FACTOR",
+      "citation_offset": {
+        "offset": 5071,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Precoordination with NAVCENT",
+      "value": "124 minutes prior, rated excellent",
+      "source_quote": "PRECOORDINATION WAS EXCELLENT DUE TO RECEIVING MISSION PRODUCTS 124 MINUTES BEFORE TAKE OFF",
+      "citation_offset": {
+        "offset": 6293,
+        "len": 61,
+        "exact": false,
+        "matched": "PRECOORDINATION WAS EXCELLENT DUE TO RECEIVING MISSION PRODUC"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "ISR 1 location (MGRS)",
+      "value": "38P MT grid area",
+      "source_quote": "IVO 38P MT 51",
+      "citation_offset": {
+        "offset": 454,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ISR 2 supported unit",
+      "value": "AFCENT",
+      "source_quote": "CONDUCTED TARGET DEVELOPMENT ISO AFCENT",
+      "citation_offset": {
+        "offset": 623,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ISR 2 precoordination",
+      "value": "30 minutes prior, rated excellent",
+      "source_quote": "COORDINATED WITH AFCENT 30 MINUTES PRIOR TO RETASKING. PRECOORDINATION WAS EXCELLENT",
+      "citation_offset": {
+        "offset": 6238,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Recommendation authority",
+      "value": "MG Brandon R. Tegtmeier, USCENTCOM Chief of Staff",
+      "source_quote": "Recommendation by MG Brandon R. Tegtmeier USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 25,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Recommendation date",
+      "value": "June 2, 2025",
+      "source_quote": "Recommended on: 2 June 2025",
+      "citation_offset": {
+        "offset": 108,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MDR reference",
+      "value": "USCENTCOM MDR 25-0072",
+      "source_quote": "USCENTCOM MDR 25-0072",
+      "citation_offset": {
+        "offset": 1401,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "QC wing",
+      "value": "432nd Air Expeditionary Wing",
+      "source_quote": "Wing: 432 AEW",
+      "citation_offset": {
+        "offset": 2239,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Approver wing",
+      "value": "379th Air Expeditionary Wing",
+      "source_quote": "Wing: 379 AEW",
+      "citation_offset": {
+        "offset": 2708,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Third-party observers",
+      "value": "None reported",
+      "source_quote": "Third-party Observers and/or Reporters:",
+      "citation_offset": {
+        "offset": 7618,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Targets prosecuted",
+      "value": "1",
+      "source_quote": "TARGETS PROSECUTED: 1",
+      "citation_offset": {
+        "offset": 924,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Brandon R. Tegtmeier"
+  ],
+  "named_places": [],
+  "dated_events": [
+    "140300ZJUL24 — arrived on station",
+    "140334ZJUL24 — began ISR 1 target development",
+    "140517ZJUL24 — UAP observed",
+    "140925ZJUL24 — cleared off ISR 1 target",
+    "142130ZJUL24 — cleared off ISR 2 target",
+    "142142ZJUL24 — called off station",
+    "142238ZJUL24 — handed back",
+    "142259ZJUL24 — landed",
+    "2025-06-02 — recommended for release by MG Tegtmeier"
+  ],
+  "objects_described": [
+    "1 x UAP (straight flight path, low altitude, faster than observing aircraft, northwest trajectory)",
+    "U.S. Air Force ISR aircraft (type/MDS redacted under 1.4a/1.4g) from 124 ATKS, equipped with FMV sensor"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "One UAP was observed at 0517Z on July 14, 2024, in the Gulf of Aden area (MGRS grid 38P MT).",
+      "source_quote": "OBSERVED 1X UAP AT 140517ZJUL24 IVO 38P MT 53",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 4732,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP maintained a straight flight path at the same altitude.",
+      "source_quote": "UAP Maneuverability Observations: STRAIGHT FLIGHT PATH AT SAME ALTI",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7162,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP's speed exceeded the observing aircraft's flying speed.",
+      "source_quote": "UAP'S SPEED WAS FASTER THAN THE 1.4a, 1.4g FLYING SPEED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9371,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observer assessed the UAP as benign.",
+      "source_quote": "Observer Assessment of UAP: Benign",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7465,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft followed the UAP until it was too far away to continue pursuit.",
+      "source_quote": "FOLLOWED THE UAP TILL THE DISTANCE BECAME TOO FAR TO FOLLOW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9267,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "There was no engagement, no interrogation, and no materials recovered.",
+      "source_quote": "Observer Engagement of UAP (yes/no; if yes, describe): NO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8653,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP had no effect on personnel or equipment.",
+      "source_quote": "UAP Effects on Persons: NO ... UAP Effects on Equipment: NONE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8496,
+        "len": 31,
+        "exact": false,
+        "matched": " UAP Effects on Equipment: NONE"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The UAP's propulsion means, intelligent control status, and advanced capabilities were all unknown.",
+      "source_quote": "UAP Propulsion Means: UNKNOWN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7805,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was traveling in a northwest trajectory at low altitude.",
+      "source_quote": "Kinetic Trajectory: NW ... Kinetic Altitude: LOW",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The observer's rank was Technical Sergeant (E-5).",
+      "source_quote": "Rank/Grade: TSGT/E-5",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8567,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Weather was not a factor during the mission.",
+      "source_quote": "WEATHER WAS NOT A FACTOR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5071,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The mission was conducted by the 124th Attack Squadron, 132 Wing, under USCENTCOM.",
+      "source_quote": "Originator (Unit or Squadron): 124 ATKS ... Wing: 132 Wing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1764,
+        "len": 38,
+        "exact": false,
+        "matched": "Originator (Unit or Squadron): 124 ATK"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Full Motion Video was the primary sensor used.",
+      "source_quote": "Primary Sensor: FMV",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3809,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was recommended for release by MG Brandon R. Tegtmeier, USCENTCOM Chief of Staff, on June 2, 2025.",
+      "source_quote": "Recommendation by MG Brandon R. Tegtmeier USCENTCOM Chief of Staff Recommended on: 2 June 2025",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3114,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 11,
+    "amber": 3,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:18:25.094Z",
+  "qa_completed_at": "2026-05-09T11:20:13.561Z",
+  "timing": {
+    "A": "55.0s",
+    "B": "53.4s",
+    "E": "27.0s"
+  },
+  "public_headline": "U.S. Air Force Crew Reported One UAP Over Gulf of Aden in 2024",
+  "public_tldr": "A formerly secret U.S. military mission report documents a single unidentified anomalous phenomenon (UAP) spotted by an Air Force surveillance crew over the Gulf of Aden on July 14, 2024. The object flew in a straight line, faster than the observing aircraft, and was assessed as non-threatening; heavy redactions obscure most technical details.",
+  "public_narrative": "On July 14, 2024, at 0517 Zulu time (early morning UTC), a crew member from the 124th Attack Squadron, part of the 132 Wing operating under U.S. Central Command (USCENTCOM), observed a single UAP while conducting an intelligence, surveillance, and reconnaissance (ISR) mission in the Gulf of Aden. The aircraft's primary sensor was full-motion video (FMV). The mission supported Naval Forces Central Command (NAVCENT), and weather was reported as not a factor.\n\nAccording to the report, the UAP maintained a straight flight path at a constant, low altitude and traveled on a northwest trajectory. Its speed exceeded that of the observing aircraft — though the aircraft's type and airspeed are redacted. The crew followed the object until it moved too far away to continue tracking. The observer, a Technical Sergeant (E-5), assessed the UAP as benign.\n\nThe report states there was no engagement with the object, no interrogation by onboard sensors, and no materials recovered. The UAP had no reported effect on personnel or equipment. Its propulsion method, whether it was under intelligent control, and whether it displayed advanced capabilities were all listed as unknown. No third-party observers were reported, making this a single-source account.\n\nThe document was originally classified SECRET and releasable only to the U.S. and Five Eyes allies, with a declassification date of July 14, 2049. Its release was recommended on June 2, 2025, by Major General Brandon R. Tegtmeier, USCENTCOM Chief of Staff. Heavy redactions remain throughout: the aircraft type, tail number, callsign, exact coordinates, speeds, altitudes, sensor specifics, and the physical description of the UAP are all blacked out under national security exemptions.\n\nThe document does not offer any conclusion about what the object was. All altitude and velocity figures are noted as estimated rather than instrument-measured, and the UAP description field appears to be cut off or redacted, leaving the object's appearance unknown from this report alone.",
+  "public_caveats": [
+    "This is a single-source observation from one crew member (a Technical Sergeant). No third-party observers were reported, and there is no independent corroboration documented.",
+    "Heavy redactions obscure critical details: the aircraft type, exact location, speeds, altitudes, and the physical description of the UAP are all withheld under classified-information exemptions.",
+    "All kinetic measurements — altitude, velocity, trajectory — are listed as 'Estimated,' not instrument-verified, which reduces their reliability.",
+    "The observer's assessment that the UAP was 'benign' and that it was faster than the aircraft are subjective judgments, not confirmed by sensor data in this report.",
+    "The document does not identify the object or draw any conclusion about its nature. 'Unknown' is the answer given for propulsion, intelligent control, and advanced capabilities."
+  ]
+}

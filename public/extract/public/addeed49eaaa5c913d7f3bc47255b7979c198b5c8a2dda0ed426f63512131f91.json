@@ -1,0 +1,450 @@
+{
+  "sha256": "addeed49eaaa5c913d7f3bc47255b7979c198b5c8a2dda0ed426f63512131f91",
+  "title": "25 F 3452 1",
+  "agency": "AARO",
+  "type": "PDF",
+  "incident_date": "",
+  "incident_location": "",
+  "what_is_it": "A security review clearance package for the public release of a one-page AARO infographic titled 'UAP Reporting Trends' covering 1996–2023, including the DD Form 1910 request, internal emails, and the cleared infographic itself.",
+  "core_summary": "The All-domain Anomaly Resolution Office (AARO) submitted a one-page unclassified document titled 'Trends as of 20Nov23' for prepublication security review on November 21, 2023. The document was cleared for open publication the same day with no objections. The infographic summarises UAP reporting trends from 1996–2023, including typical altitudes, morphologies, sensor signatures, and geographic hotspots.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "All personal names except Timothy A. Phillips are redacted under (b)(6) exemption, limiting attribution of roles.",
+    "The infographic's altitude and morphology percentage labels are partially garbled in the OCR extraction, and some values may be misread.",
+    "The data covers 1996–2023 but no breakdown by year or trend direction is visible in the extracted text — the visual chart was not fully captured.",
+    "The 'hotspots' map is referenced but its geographic detail was not captured in text extraction.",
+    "This is an internal clearance package, not an analytical assessment — it documents the approval process for publishing the infographic, not AARO's analytical conclusions."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_title",
+      "value": "Trends as of 20Nov23",
+      "source_quote": "TITLE: Trends as of 20Nov23",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "subject_area",
+      "value": "Unclassified UAP Reporting Trends",
+      "source_quote": "SUBJECT AREA: Unclassified UAP Reporting Trends",
+      "citation_offset": {
+        "offset": 1134,
+        "len": 32,
+        "exact": false,
+        "matched": "nclassified UAP Reporting Trends"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "originating_office",
+      "value": "All-domain Anomaly Resolution Office (AARO)",
+      "source_quote": "All-domain Anomaly Resolution Office",
+      "citation_offset": {
+        "offset": 1281,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "parent_agency",
+      "value": "Office of the Deputy Secretary of Defense",
+      "source_quote": "AGENCY: Office of the Deputy Secretary of Defense",
+      "citation_offset": {
+        "offset": 1320,
+        "len": 39,
+        "exact": false,
+        "matched": "fice of the Deputy Secretary of Defense"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "clearance_case_number",
+      "value": "24-T-0401",
+      "source_quote": "clearance for security review case 24-T-0401",
+      "citation_offset": {
+        "offset": 269,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "clearance_date",
+      "value": "2023-11-21",
+      "source_quote": "CLEARED For Open Publication Nov 21, 2023",
+      "citation_offset": {
+        "offset": 1449,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "clearance_deadline",
+      "value": "2023-11-30",
+      "source_quote": "CLEARANCE IS REQUESTED BY 20231130",
+      "citation_offset": {
+        "offset": 2250,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification",
+      "value": "Unclassified",
+      "source_quote": "Classification: Unclassified",
+      "citation_offset": {
+        "offset": 9906,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "page_count",
+      "value": "1",
+      "source_quote": "PAGE COUNT 1",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "intended_publication",
+      "value": "aaro.mil website",
+      "source_quote": "To be published on aaro.mil website",
+      "citation_offset": {
+        "offset": 1413,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "deputy_director_name",
+      "value": "Timothy A. Phillips",
+      "source_quote": "Phillips, Timothy, A. Deputy Director",
+      "citation_offset": {
+        "offset": 2344,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_period",
+      "value": "1996–2023",
+      "source_quote": "UAP Reporting Trends 1996-2023",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "typical_morphology",
+      "value": "Round",
+      "source_quote": "Morphology Round",
+      "citation_offset": {
+        "offset": 11042,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "typical_size",
+      "value": "1–4 meters",
+      "source_quote": "Size 1-4 meters",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "typical_color",
+      "value": "White, Silver, Translucent",
+      "source_quote": "Color White, Silver, Translucent",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "typical_altitude",
+      "value": "10K–30K feet",
+      "source_quote": "Altitude 10K -- 30K feet",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "typical_velocity",
+      "value": "Stationary to Mach 2",
+      "source_quote": "Velocity Stationary to Mach 2",
+      "citation_offset": {
+        "offset": 11307,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "propulsion_signature",
+      "value": "No thermal exhaust detected",
+      "source_quote": "No thermal exhaust detected",
+      "citation_offset": {
+        "offset": 11350,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_signature",
+      "value": "Intermittent, X-Band (8–12 GHz)",
+      "source_quote": "Radar Intermittent, X-Band (8-12 GHz)",
+      "citation_offset": {
+        "offset": 11450,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radio_frequency_signature",
+      "value": "1–3 GHz and 8–12 GHz",
+      "source_quote": "Radio 1-3 GHz, 8-12 GHz",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "thermal_signature",
+      "value": "Intermittent, Shortwave Infrared, Medium-Wave Infrared",
+      "source_quote": "Thermal Intermittent, Shortwave Infrared, Medium-Wave Infrared",
+      "citation_offset": {
+        "offset": 11529,
+        "len": 42,
+        "exact": false,
+        "matched": "Thermal Intermittent, Shortwave Infrared, "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "morphology_breakdown_ambiguous",
+      "value": "9%",
+      "source_quote": "Ambiguous Sensor Contact, 9%",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "morphology_breakdown_other",
+      "value": "7%",
+      "source_quote": "Other, 7%",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "morphology_breakdown_cylinder",
+      "value": "5%",
+      "source_quote": "Cylinder. 5%",
+      "citation_offset": {
+        "offset": 11337,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "morphology_breakdown_oval",
+      "value": "5%",
+      "source_quote": "Oval. 5%",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "morphology_breakdown_triangle",
+      "value": "4%",
+      "source_quote": "Triangle. 4%",
+      "citation_offset": {
+        "offset": 11267,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "morphology_breakdown_square_polygon",
+      "value": "3%",
+      "source_quote": "Square/Polygon, 3%",
+      "citation_offset": {
+        "offset": 11145,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "morphology_breakdown_disk",
+      "value": "2%",
+      "source_quote": "Disk. 2%",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "review_action",
+      "value": "No objection from all reviewers",
+      "source_quote": "NO OBJECTION",
+      "citation_offset": {
+        "offset": 10142,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Timothy A. Phillips"
+  ],
+  "named_places": [
+    "Washington, DC",
+    "Pentagon"
+  ],
+  "dated_events": [
+    "2023-11-20",
+    "2023-11-21",
+    "2023-11-30"
+  ],
+  "objects_described": [
+    "Round UAP morphology (most common)",
+    "Cylinder-shaped UAP (5%)",
+    "Oval-shaped UAP (5%)",
+    "Triangle-shaped UAP (4%)",
+    "Square/Polygon-shaped UAP (3%)",
+    "Disk-shaped UAP (2%)",
+    "Ambiguous sensor contacts (9%)",
+    "X-Band radar (8–12 GHz)",
+    "Shortwave and Medium-Wave Infrared sensors"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AARO's deputy director as of November 2023 was Timothy A. Phillips.",
+      "source_quote": "Phillips, Timothy, A. Deputy Director",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2344,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The most commonly reported UAP morphology is round.",
+      "source_quote": "Morphology Round",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11042,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Typically reported UAP size is 1–4 meters.",
+      "source_quote": "Size 1-4 meters",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Reported UAP velocities range from stationary to Mach 2.",
+      "source_quote": "Velocity Stationary to Mach 2",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11307,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No thermal exhaust has been detected from reported UAPs.",
+      "source_quote": "No thermal exhaust detected",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11350,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "UAP radar signatures are intermittent and detected on X-Band (8–12 GHz).",
+      "source_quote": "Radar Intermittent, X-Band (8-12 GHz)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11450,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "UAP radio frequency emissions have been detected in the 1–3 GHz and 8–12 GHz bands.",
+      "source_quote": "Radio 1-3 GHz, 8-12 GHz",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Typical reported UAP altitude is 10,000–30,000 feet, overlapping with commercial air traffic.",
+      "source_quote": "Altitude 10K -- 30K feet",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The infographic covers UAP reporting data from 1996 to 2023.",
+      "source_quote": "UAP Reporting Trends 1996-2023",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was cleared for open publication on the same day it was submitted for review.",
+      "source_quote": "Date Received: 11/21/2023 Date Completed: 11/21/2023",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO asked whether routine minor percentage updates would require repeated security reviews.",
+      "source_quote": "Let me know if this is something that you guys will want to keep seeing for every tweak of percentages",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9282,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 5,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T12:36:42.904Z",
+  "qa_completed_at": "2026-05-09T12:38:01.247Z",
+  "timing": {
+    "A": "42.4s",
+    "B": "35.9s",
+    "E": "27.1s"
+  },
+  "public_headline": "Pentagon Office Released UAP Reporting Trends Infographic Covering 1996–2023",
+  "public_tldr": "This document is the internal approval package for a one-page infographic by the All-domain Anomaly Resolution Office (AARO) summarising UAP reporting trends from 1996 to 2023. It was cleared for public release on the AARO website on November 21, 2023, the same day it was submitted, with no objections from reviewers. The infographic describes typical UAP characteristics: round objects, 1–4 meters in size, at 10,000–30,000 feet altitude, with no thermal exhaust detected.",
+  "public_narrative": "In November 2023, the All-domain Anomaly Resolution Office — the Pentagon body responsible for investigating unidentified anomalous phenomena — prepared a one-page infographic titled 'UAP Reporting Trends' covering data from 1996 to 2023. The office submitted it for a routine prepublication security review on November 21, 2023, under case number 24-T-0401. It was cleared for open publication on the aaro.mil website that same day, with all reviewers returning 'no objection.' The document was unclassified, and AARO Deputy Director Timothy A. Phillips signed off on the submission.\n\nThe infographic itself profiles what a 'typical' reported UAP looks like according to the accumulated data. The most commonly reported shape is round, followed by ambiguous sensor contacts (9%), cylinders and ovals (5% each), triangles (4%), square or polygon shapes (3%), and disks (2%). Typical reported size is 1–4 meters, typical altitude is 10,000–30,000 feet — overlapping with commercial air traffic — and reported speeds range from stationary to Mach 2. Notably, no thermal exhaust has been detected from reported UAPs.\n\nSensor data in the infographic describes intermittent radar signatures on X-Band (8–12 GHz), radio frequency emissions in the 1–3 GHz and 8–12 GHz bands, and intermittent thermal signatures in shortwave and medium-wave infrared. An internal email reveals that AARO staff asked whether routine minor percentage updates to this infographic would require repeated security reviews, suggesting the office intended to keep updating it.\n\nAll personal names in the package except Timothy A. Phillips have been redacted under the (b)(6) privacy exemption. The underlying geographic hotspot map and year-by-year trend chart referenced in the infographic were not fully captured in the text extraction, so their details are unavailable.",
+  "public_caveats": [
+    "This is an internal clearance package — it documents the approval process for publishing an infographic, not AARO's analytical conclusions about what UAPs are.",
+    "All personal names except Timothy A. Phillips are redacted, so most individuals involved in the review cannot be identified.",
+    "Some percentage labels and the geographic hotspot map were not fully captured during text extraction, so specific figures (especially morphology breakdowns) may contain minor errors.",
+    "The data covers 1996–2023, but no year-by-year breakdown or trend direction is visible in the extracted text — 'trends' in the title may refer to a visual chart that was not captured.",
+    "The typical UAP profile described (round, 1–4 meters, no exhaust) is a statistical summary of reports, not a confirmed description of any single object. Reports can reflect sensor limitations and observer biases."
+  ]
+}

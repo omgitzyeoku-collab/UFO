@@ -1,0 +1,682 @@
+{
+  "sha256": "1822564fbae08f152ad4541c8d067a6ec3b6014c4b4eb8209604e1facb5e1bb3",
+  "title": "DOW-UAP-PR21, Unresolved UAP Report, Iraq, May 2022",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "N/A",
+  "incident_location": "Iraq",
+  "what_is_it": "A declassified U.S. military mission report (MISREP) documenting an ISR surveillance flight over the Eastern Mediterranean and Syria/Lebanon region in May 2022, which included a UAP sighting and observations of Russian military aircraft and naval vessels.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redaction throughout: aircraft type, callsign, tail number, specific coordinates, operation name, and personnel names are all redacted under 1.4a, 1.4c, 1.4g, and FOIA (b)(3)/(b)(6) exemptions.",
+    "The UAP sighting and the SU-27/35 landing observation are logged as separate events at different times (0117Z vs 0011Z) and different grid locations, but AARO's CSV description notes the mission report described the UAP as a 'probable SU-27/35', suggesting the UAP may have been a Russian military aircraft.",
+    "The observer was unable to achieve positive identification of the UAP — it remains formally unresolved.",
+    "This is a single-source report from one aircraft's crew and sensors.",
+    "The mission was primarily focused on Russian and Syrian military activity in the Eastern Mediterranean, not UAP detection — the UAP sighting was incidental.",
+    "The video associated with this report is only 10 seconds of infrared footage showing two areas of contrast, which provides very limited analytical value."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "MISREP (Mission Report)",
+      "source_quote": "Report Type: MISREP",
+      "citation_offset": {
+        "offset": 1521,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report ID",
+      "value": "Misrep undefined-7561279",
+      "source_quote": "Misrep undefined-7561279",
+      "citation_offset": {
+        "offset": 121,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Originating unit",
+      "value": "50th Attack Squadron (50 ATKS), 432 AEW",
+      "source_quote": "Originator (Unit or Squadron): 50ATKS",
+      "citation_offset": {
+        "offset": 1543,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Takeoff location",
+      "value": "Sigonella Airbase (ICAO: LICZ)",
+      "source_quote": "TOOK OFF FROM SIGONELLA AIRBASE (LIC2)",
+      "citation_offset": {
+        "offset": 175,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Takeoff time",
+      "value": "29 May 2022 at 1355Z",
+      "source_quote": "TakeoffTimeDTG: 291355:00ZMAY22",
+      "citation_offset": {
+        "offset": 4176,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Landing time",
+      "value": "30 May 2022 at 1025Z",
+      "source_quote": "Last Land Time: 301025:00ZMAY22",
+      "citation_offset": {
+        "offset": 4329,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Total mission time",
+      "value": "20 hours 30 minutes",
+      "source_quote": "Total Mission Time: 20 hours 30 minutes",
+      "citation_offset": {
+        "offset": 4670,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Total time on station",
+      "value": "14 hours 25 minutes",
+      "source_quote": "Total Time On Station: 14 hours 25 minutes",
+      "citation_offset": {
+        "offset": 5003,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission type",
+      "value": "ISR (Intelligence, Surveillance, Reconnaissance)",
+      "source_quote": "Mission Type: ISR",
+      "citation_offset": {
+        "offset": 1632,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Supported unit",
+      "value": "603 AOC (Air Operations Center)",
+      "source_quote": "Supported Unit: 603 AOC",
+      "citation_offset": {
+        "offset": 8458,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of targets collected",
+      "value": "39 targets",
+      "source_quote": "COLLECTED ON 39X TGTS",
+      "citation_offset": {
+        "offset": 5651,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of EEIs observed",
+      "value": "10",
+      "source_quote": "Number of EEis: 10",
+      "citation_offset": {
+        "offset": 5450,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Russian intercept time",
+      "value": "2147Z on 29 May 2022",
+      "source_quote": "Initial Contact DTG: 292147:00ZMAY22",
+      "citation_offset": {
+        "offset": 8967,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Intercept aircraft type",
+      "value": "1-3 aircraft including 1x possible RFAF SU-30",
+      "source_quote": "REACTED TO BY 1-3 ACFT, INCLUDING IX POSS RFAF SU-30",
+      "citation_offset": {
+        "offset": 10015,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Intercept closest approach",
+      "value": "Approximately 5 nautical miles",
+      "source_quote": "THAT GOT APPROXIMATELY 5NM FROM",
+      "citation_offset": {
+        "offset": 10069,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Intercept altitude",
+      "value": "Russian aircraft at FL190 vs friendly at FL243",
+      "source_quote": "FLEW DIRECTLY UNDER...ORBIT (FL190, VS ~ FL243)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Intercept duration",
+      "value": "Approximately 2 minutes under orbit",
+      "source_quote": "FOR APPROXIMATELY 2 MIN",
+      "citation_offset": {
+        "offset": 10207,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Enemy aircraft nationality",
+      "value": "Russian",
+      "source_quote": "Enemy Aircraft Nationality: RUSSIAN",
+      "citation_offset": {
+        "offset": 9212,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP sighting time",
+      "value": "0117Z on 30 May 2022",
+      "source_quote": "Initial Contact DTG: 300117:00ZMAY22",
+      "citation_offset": {
+        "offset": 10454,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of UAPs",
+      "value": "1",
+      "source_quote": "Number of UAP Sighted: 1",
+      "citation_offset": {
+        "offset": 10786,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP movement",
+      "value": "Flew north to northeast",
+      "source_quote": "OBSERVED A UAP AT 0117Z FLY NORTH TO NORTH EAST",
+      "citation_offset": {
+        "offset": 11191,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP identification",
+      "value": "No positive ID achieved",
+      "source_quote": "SCREENER COULD NOT GET A POSITIVE ID ON THE UAP",
+      "citation_offset": {
+        "offset": 11273,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Friendly aircraft altitude during UAP sighting",
+      "value": "FL240 (24,000 feet)",
+      "source_quote": "Friendly Aircraft Altitude/Depth: FL240",
+      "citation_offset": {
+        "offset": 10595,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Friendly aircraft speed during UAP sighting",
+      "value": "142 KIAS",
+      "source_quote": "Friendly Aircraft Speed: 142 K.IAS",
+      "citation_offset": {
+        "offset": 10637,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Probable SU-27/35 observation",
+      "value": "One probable SU-27/35 observed landing at 0011Z",
+      "source_quote": "ONE PROBABLE SU-27/35 OBSERVED LANDING IVO 36SYE6",
+      "citation_offset": {
+        "offset": 7958,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Slava-class cruiser observed",
+      "value": "1x Slava heading east at 1745Z",
+      "source_quote": "OBSERVED IX SLAVA HEADING EAST",
+      "citation_offset": {
+        "offset": 7599,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Gorshkov FFG observed",
+      "value": "Probable Gorshkov FFG heading east at 1808Z",
+      "source_quote": "IX PROBABLE GORSHKOV FFG HEADING EAST",
+      "citation_offset": {
+        "offset": 7676,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "A-50U Mainstay observed",
+      "value": "1x A-50U Mainstay and 2x IL-38 parked at 2120Z",
+      "source_quote": "IX A-50U MAINSTAY D AND 2X IL-38 OBSERVED PARKED",
+      "citation_offset": {
+        "offset": 7828,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "IL-76 observed",
+      "value": "One probable IL-76 active at 0006Z",
+      "source_quote": "ONE PROBABLE IL-76 OBSERVED ACTIVE",
+      "citation_offset": {
+        "offset": 7900,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Udaloy I destroyer observed",
+      "value": "Hull 626 heading east at 0405Z; Hull 564 heading west at 0530Z",
+      "source_quote": "ONE PROBABLE UDALOY I DD, HULL 626 HEADED EAST",
+      "citation_offset": {
+        "offset": 8162,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Slava CG Hull 055",
+      "value": "Heading east at 0411Z",
+      "source_quote": "ONE PROBABLE SLAVA CG, HULL 055 HEADED EAST",
+      "citation_offset": {
+        "offset": 8238,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Targeting pod",
+      "value": "ANDAS4",
+      "source_quote": "TGT Pod Name or Designator: ANDAS4",
+      "citation_offset": {
+        "offset": 3913,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Additional avionics",
+      "value": "AH/SAR (synthetic aperture radar)",
+      "source_quote": "Additional Avionics: AH\\SAR",
+      "citation_offset": {
+        "offset": 3950,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Combatant command",
+      "value": "USEUCOM",
+      "source_quote": "Combatant Command (COCOM): USEUCOM",
+      "citation_offset": {
+        "offset": 1478,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Major command",
+      "value": "ACC (Air Combat Command)",
+      "source_quote": "Major Command (MAJCOM): ACC",
+      "citation_offset": {
+        "offset": 1448,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Classification",
+      "value": "SECRET//REL TO USA, FVEY",
+      "source_quote": "Classification: SECRET",
+      "citation_offset": {
+        "offset": 1195,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassification date",
+      "value": "20470529",
+      "source_quote": "Declassification Date (YYYYMMDD): 20470529",
+      "citation_offset": {
+        "offset": 1333,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassified by",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 25,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Declassified on",
+      "value": "8 October 2025",
+      "source_quote": "Declassified on: 8 October 2025",
+      "citation_offset": {
+        "offset": 89,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FMV exploitation",
+      "value": "Exploited by DGS-IN and DGS4",
+      "source_quote": "FMV WAS EXPLOITED BY DGS-IN AND DGS4",
+      "citation_offset": {
+        "offset": 837,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Countermeasures during intercept",
+      "value": "None",
+      "source_quote": "Countermeasures Employed: NONE",
+      "citation_offset": {
+        "offset": 9462,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Weather impact",
+      "value": "Not a factor",
+      "source_quote": "WEATHER WAS NOT A FACTOR",
+      "citation_offset": {
+        "offset": 10422,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mission impact from intercept",
+      "value": "No impact",
+      "source_quote": "THERE WAS NO IMPACT TO THE MISSION",
+      "citation_offset": {
+        "offset": 10283,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "MG Richard A. Harrison"
+  ],
+  "named_places": [
+    "Sigonella Airbase (LICZ)",
+    "Eastern Mediterranean",
+    "Syria",
+    "Lebanon",
+    "Bassel Al Assad International Airfield",
+    "Latakia",
+    "Tartus Naval Base",
+    "Beirut",
+    "Juniyah",
+    "Rumyah",
+    "Jablah",
+    "Al Ladhiqiyah",
+    "Ibn Hani",
+    "Batrah",
+    "Adimah",
+    "Ar Rawdah",
+    "Ash Shamiyah",
+    "Abu Afsah",
+    "Tall Sukas",
+    "Ayn Ash Shariqiyah",
+    "Karantina",
+    "Bamlkah"
+  ],
+  "dated_events": [
+    "29 May 2022 — Takeoff from Sigonella at 1355Z",
+    "29 May 2022 1551Z — On station in SRO track",
+    "29 May 2022 1745Z — Slava-class cruiser observed heading east",
+    "29 May 2022 1808Z — Probable Gorshkov FFG observed heading east",
+    "29 May 2022 2104Z — Generator or possible radar dish observed",
+    "29 May 2022 2120Z — A-50U Mainstay and 2x IL-38 observed parked",
+    "29 May 2022 2147Z — Intercepted by 1-3 Russian aircraft including possible SU-30",
+    "30 May 2022 0006Z — Probable IL-76 observed active",
+    "30 May 2022 0011Z — Probable SU-27/35 observed landing",
+    "30 May 2022 0029Z — Probable SU-27/35 observed taking off to the south",
+    "30 May 2022 0117Z — UAP observed flying north to northeast",
+    "30 May 2022 0230Z — Cleared off tasking, returned to base",
+    "30 May 2022 0344Z — Probable Gorshkov FFG Hull 461 headed east",
+    "30 May 2022 0405Z — Probable Udaloy I DD Hull 626 headed east",
+    "30 May 2022 0411Z — Probable Slava CG Hull 055 headed east",
+    "30 May 2022 0530Z — Probable Udaloy I DD Hull 564 headed west",
+    "30 May 2022 0616Z — Off station",
+    "30 May 2022 1025Z — Landed at LICZ",
+    "8 October 2025 — Document declassified"
+  ],
+  "objects_described": [
+    "UAP (unidentified, no positive ID achieved)",
+    "SU-30 (possible Russian fighter, intercepting aircraft)",
+    "SU-27/35 (probable Russian fighter, observed landing and taking off)",
+    "Slava-class cruiser",
+    "Gorshkov-class frigate (FFG)",
+    "Udaloy I-class destroyer (DD)",
+    "A-50U Mainstay (Russian AWACS aircraft)",
+    "IL-38 (Russian maritime patrol aircraft)",
+    "IL-76 (Russian transport aircraft)",
+    "ANDAS4 targeting pod"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The mission originated from Sigonella Airbase in Sicily and lasted 20 hours 30 minutes.",
+      "source_quote": "Total Mission Time: 20 hours 30 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4670,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was intercepted by Russian aircraft including a possible SU-30 that came within approximately 5 nautical miles.",
+      "source_quote": "REACTED TO BY 1-3 ACFT, INCLUDING IX POSS RFAF SU-30, THAT GOT APPROXIMATELY 5NM FROM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10015,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Russian intercepting aircraft flew directly under the U.S. aircraft's orbit at FL190 versus the friendly aircraft's FL243.",
+      "source_quote": "FLEW DIRECTLY UNDER...ORBIT (FL190, VS ~ FL243) FOR APPROXIMATELY 2 MIN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10184,
+        "len": 46,
+        "exact": false,
+        "matched": "IT (FL190, VS ~ FL243) FOR APPROXIMATELY 2 MIN"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A single UAP was observed at 0117Z on 30 May 2022 flying north to northeast, and the screener could not achieve positive identification.",
+      "source_quote": "OBSERVED A UAP AT 0117Z FLY NORTH TO NORTH EAST AND FOLLOWED AS LONG AS POSSIBLE...SCREENER COULD NOT GET A POSITIVE ID ON THE UAP",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11191,
+        "len": 80,
+        "exact": false,
+        "matched": "OBSERVED A UAP AT 0117Z FLY NORTH TO NORTH EAST AND FOLLOWED AS LONG AS POSSIBLE"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The mission collected intelligence on 39 targets across Syrian and Lebanese military facilities.",
+      "source_quote": "COLLECTED ON 39X TGTS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5651,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No countermeasures were employed during the Russian intercept and there was no impact to the mission.",
+      "source_quote": "Countermeasures Employed: NONE...THERE WAS NO IMPACT TO THE MISSION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10285,
+        "len": 32,
+        "exact": false,
+        "matched": "ERE WAS NO IMPACT TO THE MISSION"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Multiple Russian naval vessels were observed including ships with identifiable hull numbers (461, 626, 055, 564).",
+      "source_quote": "PROBABLE GORSHKOV FFG, HULL 461...PROBABLE UDALOY I DD, HULL 626...PROBABLE SLAVA CG, HULL 055...PROBABLE UDALOY 1 DD, HULL 564",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8094,
+        "len": 30,
+        "exact": false,
+        "matched": "PROBABLE GORSHKOV FFG, HULL 46"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was originally classified SECRET//REL TO USA, FVEY with a declassification date of 2047.",
+      "source_quote": "Declassification Date (YYYYMMDD): 20470529",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1333,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was declassified early on 8 October 2025 by MG Richard A. Harrison.",
+      "source_quote": "Declassified by MG Richard A. Harrison...Declassified on: 8 October 2025",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 37,
+        "exact": false,
+        "matched": "Declassified by MG Richard A. Harriso"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 5,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:04:59.470Z",
+  "qa_completed_at": "2026-05-09T10:07:21.106Z",
+  "timing": {
+    "A": "65.9s",
+    "B": "75.7s",
+    "E": "28.3s"
+  },
+  "public_headline": "U.S. Surveillance Flight Over Syria Logged Unidentified Object in May 2022",
+  "public_tldr": "A formerly secret U.S. military mission report documents a 20-hour surveillance flight from Sicily over the Eastern Mediterranean in May 2022. During the mission, the crew observed extensive Russian military activity and spotted a single unidentified aerial phenomenon (UAP) that they were unable to identify, though the object may have been a Russian fighter jet.",
+  "public_narrative": "This document is a U.S. military mission report (MISREP) from the 50th Attack Squadron, operating under U.S. European Command. The aircraft took off from Sigonella Airbase in Sicily on 29 May 2022 and flew a 20-hour, 30-minute intelligence, surveillance, and reconnaissance (ISR) mission over the Eastern Mediterranean, Syria, and Lebanon. The crew collected information on 39 targets and observed 10 essential elements of information during roughly 14 and a half hours on station.\n\nThe mission recorded significant Russian military presence. A Slava-class cruiser and a probable Gorshkov-class frigate were seen heading east. An A-50U early-warning aircraft and two IL-38 patrol planes were spotted parked at an airfield. At 2147Z on 29 May, one to three Russian aircraft — including a possible SU-30 fighter — intercepted the U.S. aircraft, approaching within about 5 nautical miles and flying directly beneath it for roughly two minutes. No countermeasures were used by either side, and the crew reported no impact to their mission.\n\nAt 0117Z on 30 May, the crew observed a single UAP flying north to northeast. The screener followed the object as long as possible but could not achieve a positive identification. Notably, a probable SU-27/35 fighter had been observed landing at a nearby location about an hour earlier, at 0011Z, and the agency's own description of this report notes the UAP was described as a 'probable SU-27/35' — suggesting the unidentified object may have been a Russian military aircraft rather than something unexplained. The report remains formally unresolved.\n\nThe document was originally classified SECRET and releasable to the U.S. and Five Eyes allies, with a scheduled declassification date of 2047. It was declassified early on 8 October 2025 by Major General Richard A. Harrison, USCENTCOM Chief of Staff. Heavy redactions remain throughout: the aircraft type, callsign, tail number, specific coordinates, operation name, and personnel names are all blacked out.",
+  "public_caveats": [
+    "This is a single-source report from one aircraft's crew and sensors — there is no corroborating observation from a second platform or ground station.",
+    "The UAP sighting was incidental; the mission's primary purpose was monitoring Russian and Syrian military activity, not detecting UAPs.",
+    "The associated video is only 10 seconds of infrared footage showing two areas of contrast, offering very limited analytical value.",
+    "Heavy redactions obscure key details including aircraft type, crew identities, exact coordinates, and the operation name, making independent verification difficult.",
+    "The agency's own metadata describes the UAP as a 'probable SU-27/35,' meaning the most likely explanation on record is that it was a Russian fighter jet — but positive identification was never achieved."
+  ]
+}

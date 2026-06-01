@@ -1,0 +1,163 @@
+{
+  "sha256": "1ff8c16256579734969188915ad0e80062e1d5639bc424c6a207340e892c6dc6",
+  "title": "DOW-UAP-PR20, Unresolved UAP Report, Kuwait, May 2022",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "Iraq",
+  "what_is_it": "A recommendation document from USCENTCOM to AARO regarding an unresolved UAP report, accompanied by a still image from a U.S. military system.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "The extracted source text consists almost entirely of administrative headers and clearance markings — the substantive content of the recommendation itself is not visible in the extracted text.",
+    "Heavy redaction or minimal text extraction means the actual analytical findings or recommendation details are not available for review.",
+    "Key facts about the UAP movement, image alteration, and identification failure come from the CSV metadata description, not from the body text itself.",
+    "The image was digitally altered by the original reporter before submission, which may affect analytical utility.",
+    "Single-source observation with no independent corroboration mentioned.",
+    "The title references Kuwait but the CSV metadata lists Iraq as the incident location — the exact location may be ambiguous."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "Submitting command",
+      "value": "United States Central Command (USCENTCOM)",
+      "source_quote": "USCENTCOM Recommendation to AARO",
+      "citation_offset": {
+        "offset": 269,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Receiving office",
+      "value": "All-domain Anomaly Resolution Office (AARO)",
+      "source_quote": "USCENTCOM Recommendation to AARO",
+      "citation_offset": {
+        "offset": 269,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Recommending official",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Recommendation by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 8,
+        "len": 40,
+        "exact": false,
+        "matched": "Recommendation by MG Richard A. Harrison"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Recommendation date",
+      "value": "8 Oct 25",
+      "source_quote": "Recommended on: 8 Oct 25",
+      "citation_offset": {
+        "offset": 95,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Clearance date",
+      "value": "Mar 10, 2026",
+      "source_quote": "CLEARED For Open Publication Mar 10, 2026",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Case reference",
+      "value": "USCENTCOM MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S",
+      "source_quote": "USCENTCOM MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S",
+      "citation_offset": {
+        "offset": 200,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Review reference number",
+      "value": "10/17/25 001",
+      "source_quote": "10/17/25 001",
+      "citation_offset": {
+        "offset": 256,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Richard A. Harrison"
+  ],
+  "named_places": [],
+  "dated_events": [
+    "8 Oct 25",
+    "Mar 10, 2026",
+    "10/17/25"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "MG Richard A. Harrison served as USCENTCOM Chief of Staff and recommended this document.",
+      "source_quote": "Recommendation by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8,
+        "len": 40,
+        "exact": false,
+        "matched": "Recommendation by MG Richard A. Harrison"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was cleared for open publication on March 10, 2026.",
+      "source_quote": "CLEARED For Open Publication Mar 10, 2026",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was reviewed under USCENTCOM MDR 25-0094 thru MDR 25-0099.",
+      "source_quote": "USCENTCOM MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 200,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 1,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:21:47.647Z",
+  "qa_completed_at": "2026-05-09T11:22:28.494Z",
+  "timing": {
+    "A": "22.9s",
+    "B": "17.9s",
+    "E": "22.5s"
+  },
+  "public_headline": "U.S. Central Command Sent Unresolved UAP Report to Pentagon Office",
+  "public_tldr": "This document is a recommendation from U.S. Central Command (USCENTCOM) to the All-domain Anomaly Resolution Office (AARO) regarding an unresolved UAP sighting linked to Iraq. The document is heavily redacted, so the actual findings, description of the object, and analytical conclusions are not visible in the released version.",
+  "public_narrative": "In October 2025, Major General Richard A. Harrison, then Chief of Staff at U.S. Central Command (USCENTCOM), signed a recommendation forwarding an unresolved Unidentified Anomalous Phenomena (UAP) report to the All-domain Anomaly Resolution Office (AARO) — the Pentagon body responsible for investigating such cases. The recommendation was dated 8 October 2025 and processed under case references USCENTCOM MDR 25-0094 through MDR 25-0099.\n\nThe document was cleared for open publication on 10 March 2026 by the Department of War. Its title references Kuwait, though associated metadata lists Iraq as the incident location — the exact geography is ambiguous. An accompanying still image was captured by a U.S. military system, but the original reporter digitally altered the image before submitting it, which may limit its analytical value.\n\nThe substance of the report — what was seen, how it moved, and why it remains unresolved — is not available. The released text consists almost entirely of administrative headers, clearance markings, and case reference numbers. The heavy redaction means the public can confirm the report exists and was formally forwarded through military channels, but cannot evaluate what was actually observed or what conclusions, if any, were reached.\n\nThe document was reviewed under reference number 10/17/25 001 and carries the joint staff tracking code JS-250710-TM8S.",
+  "public_caveats": [
+    "The document is heavily redacted — the actual analytical findings, object description, and recommendation details are not visible in the released version.",
+    "The accompanying image was digitally altered by the original reporter before submission, which may reduce its evidentiary value.",
+    "This is a single-source observation with no independent corroboration mentioned in the available text.",
+    "The title says Kuwait but associated records say Iraq — the exact incident location is ambiguous.",
+    "Key details about the UAP (movement, appearance, identification attempts) come from metadata descriptions, not from the document body itself, meaning they cannot be independently verified against the source text."
+  ]
+}

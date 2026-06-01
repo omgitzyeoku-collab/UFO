@@ -1,0 +1,78 @@
+{
+  "sha256": "ff3909ff0fa5f99ee6da291d9241b9cd57b24f2889fcead89d8ae37a753d6c1c",
+  "title": "FBI Photo B11",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "Late 2025",
+  "incident_location": "Western United States",
+  "what_is_it": "A monochrome still image (photo) captured by a U.S. military sensor system, showing an unidentified anomalous phenomenon (UAP).",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "The extracted text from the image is heavily garbled — most alphanumeric HUD data is unreadable, limiting independent analysis.",
+    "Heavy redactions were applied before the image reached AARO, meaning potentially identifying sensor or platform details have been removed.",
+    "No mission report accompanies the image, so there is no operational context for the sighting.",
+    "The date stamp on the image is confirmed unreliable due to an unconfigured system clock.",
+    "Single-source observation with no corroborating sensor data or witness reports provided.",
+    "The narrative description from the CSV metadata explicitly states it should not be interpreted as an analytical judgment or factual determination."
+  ],
+  "fabrication_score": 7,
+  "key_facts": [
+    {
+      "field": "Submitting agency",
+      "value": "FBI",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident location",
+      "value": "Western United States",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident date",
+      "value": "Late 2025",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Western United States"
+  ],
+  "dated_events": [
+    "Late 2025"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The image contains HUD-style alphanumeric overlay data",
+      "source_quote": "4/00 A9-44-0F",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 209,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 1,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:24:32.072Z",
+  "qa_completed_at": "2026-05-09T11:25:24.961Z",
+  "timing": {
+    "A": "23.5s",
+    "B": "29.4s"
+  }
+}

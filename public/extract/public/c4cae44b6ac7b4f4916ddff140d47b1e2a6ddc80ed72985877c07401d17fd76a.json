@@ -1,0 +1,206 @@
+{
+  "sha256": "c4cae44b6ac7b4f4916ddff140d47b1e2a6ddc80ed72985877c07401d17fd76a",
+  "title": "DOW-UAP-D7, Mission Report, Arabian Gulf, 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "N/A",
+  "incident_location": "N/A",
+  "what_is_it": "A U.S. military Mission Report (MISREP) documenting an observation of an unidentified anomalous phenomenon (UAP) in the Arabian Gulf region in 2020.",
+  "core_summary": "A U.S. military operator observed a UAP that looked like a balloon, similar to one previously reported by the 48th Fighter Wing. The object was tracked as a weapons-quality target traveling with the winds at approximately 31,000 feet above mean sea level and was visually identified using the aircraft's targeting forward-looking infrared (TFLIR) sensor.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redaction: multiple sections marked 1.4(a) (classified national security information) are fully obscured, hiding potentially significant operational details.",
+    "Single-source report from one military operator — no corroborating observer or sensor data is visible in the unredacted text.",
+    "The observer's own description ('looks like a balloon,' 'traveling with the winds') strongly suggests a mundane object, though no formal identification or resolution is provided in the visible text.",
+    "Partial coordinates (323'S) are visible but the full location is redacted, preventing independent verification.",
+    "The reference to a prior similar UAP from 48FW suggests a pattern, but details of that earlier sighting are not included here.",
+    "All descriptive language reflects the reporter's subjective interpretation at the time, as noted in the document's own caveat."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "UAP description",
+      "value": "Looked like a balloon, similar to a previously reported UAP from the 48th Fighter Wing (48FW)",
+      "source_quote": "LOOKS LIKE A BALLOON, SIMILAR TO PREVIOUSLY REPORTED UAP FROM 48FW",
+      "citation_offset": {
+        "offset": 140,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Approximately 31,000 feet above mean sea level",
+      "source_quote": "TRAVELING WITH THE WINDS AT 31,000 FT MSL",
+      "citation_offset": {
+        "offset": 296,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Movement",
+      "value": "Traveling with the winds (wind-driven, not self-propelled based on observer's description)",
+      "source_quote": "TRAVELING WITH THE WINDS AT 31,000 FT MSL",
+      "citation_offset": {
+        "offset": 296,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Track quality",
+      "value": "Weapons Quality 1 track",
+      "source_quote": "OBSERVED A WEAPONS QUALITY 1 TRACK OF A UAP",
+      "citation_offset": {
+        "offset": 252,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sensor used",
+      "value": "Targeting Forward-Looking Infrared (TFLIR)",
+      "source_quote": "VISUALLY ID THE UAP IN THE TFLIR",
+      "citation_offset": {
+        "offset": 406,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Engagement status",
+      "value": "Operator was able to achieve a 'next to shoot' solution on the track",
+      "source_quote": "WAS ABLE TO MAKE A NEXT TO SHOOT ON THE TRACK",
+      "citation_offset": {
+        "offset": 356,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Classification level",
+      "value": "SECRET (for the UAP event description section)",
+      "source_quote": "(SECRET) OBSERVED A WEAPONS QUALITY 1 TRACK",
+      "citation_offset": {
+        "offset": 243,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Prior similar sighting",
+      "value": "A similar UAP was previously reported by the 48th Fighter Wing",
+      "source_quote": "SIMILAR TO PREVIOUSLY REPORTED UAP FROM 48FW",
+      "citation_offset": {
+        "offset": 162,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Approximate coordinates reference",
+      "value": "In the vicinity of 323'S (partial coordinates, rest redacted)",
+      "source_quote": "IVO 323'S",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [
+    "UAP described as balloon-like",
+    "TFLIR (Targeting Forward-Looking Infrared sensor)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The UAP was tracked at weapons-quality level, meaning it produced a reliable enough radar/sensor return to theoretically engage it.",
+      "source_quote": "OBSERVED A WEAPONS QUALITY 1 TRACK OF A UAP",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 252,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was moving with the wind at 31,000 feet, suggesting passive drift rather than self-propulsion.",
+      "source_quote": "TRAVELING WITH THE WINDS AT 31,000 FT MSL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 296,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP resembled a previously reported object from the 48th Fighter Wing, indicating a recurring or similar phenomenon.",
+      "source_quote": "SIMILAR TO PREVIOUSLY REPORTED UAP FROM 48FW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 162,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The operator achieved a targeting solution ('next to shoot') on the object.",
+      "source_quote": "WAS ABLE TO MAKE A NEXT TO SHOOT ON THE TRACK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 356,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was visually confirmed using an infrared sensor, not just radar.",
+      "source_quote": "VISUALLY ID THE UAP IN THE TFLIR",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 406,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:15:03.817Z",
+  "qa_completed_at": "2026-05-09T11:15:55.308Z",
+  "timing": {
+    "A": "30.1s",
+    "B": "21.3s",
+    "E": "24.2s"
+  },
+  "public_headline": "U.S. Military Report Documents Balloon-Like Object Over Arabian Gulf",
+  "public_tldr": "A 2020 U.S. military mission report describes a military operator tracking an unidentified object over the Arabian Gulf that resembled a balloon drifting with the wind at about 31,000 feet. The object produced a strong enough sensor return to be classified as a weapons-quality track, but the report is heavily redacted and no formal identification was made.",
+  "public_narrative": "This document is a U.S. Department of War mission report from 2020, originally classified SECRET, describing an encounter with an unidentified anomalous phenomenon (UAP) in the Arabian Gulf region. The report was filed by a single military operator.\n\nThe operator observed an object that, in their words, \"looks like a balloon\" and was \"traveling with the winds\" at approximately 31,000 feet above sea level. The object was noted as similar to a UAP previously reported by the 48th Fighter Wing, suggesting this was not a one-off sighting. The operator tracked the object as a \"weapons quality 1 track\" — meaning the sensors produced a reliable enough return that the object could theoretically have been engaged as a target. The operator confirmed they achieved a targeting solution (described as \"next to shoot\") and visually identified the object using the aircraft's targeting forward-looking infrared (TFLIR) sensor, an infrared camera used for precision targeting.\n\nDespite this detailed tracking, the document does not contain a formal conclusion about what the object was. The operator's own description — balloon-like, wind-driven, not self-propelled — points toward something conventional, but no definitive identification appears in the unredacted portions.\n\nSignificant portions of the report are redacted under classification markings for national security information. Full location coordinates, operational details, and potentially important context are blacked out, making it impossible to independently verify the full scope of the encounter from this document alone.",
+  "public_caveats": [
+    "This is a single-source report from one military operator — no corroborating observer or additional sensor data is visible in the unredacted text.",
+    "The report is heavily redacted: multiple sections are fully obscured under national security classification markings, hiding potentially significant details.",
+    "The operator's own description ('looks like a balloon,' 'traveling with the winds') suggests a mundane object, but no formal identification or resolution is provided in the visible text.",
+    "Partial coordinates are visible but the full location is redacted, preventing independent verification of where the encounter took place.",
+    "The reference to a prior similar UAP from the 48th Fighter Wing suggests a pattern, but no details of that earlier sighting are included in this document."
+  ]
+}

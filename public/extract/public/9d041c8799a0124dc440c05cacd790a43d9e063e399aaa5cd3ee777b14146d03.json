@@ -1,0 +1,400 @@
+{
+  "sha256": "9d041c8799a0124dc440c05cacd790a43d9e063e399aaa5cd3ee777b14146d03",
+  "title": "NASA-UAP-D2, Apollo 17 Transcript, 1972",
+  "agency": "NASA",
+  "type": "PDF",
+  "incident_date": "1972",
+  "incident_location": "Moon",
+  "what_is_it": "Excerpt from the Apollo 17 air-to-ground voice transcription (technical transcript of radio communications between astronauts and Houston Mission Control), highlighting periods where astronauts reported observing unidentified phenomena.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The astronauts themselves proposed prosaic explanations for most observations: debris from the S-IVB stage, SLA panels, ice, or peeling paint — the transcript does not present these as unexplained.",
+    "The sleep-period flashes reported by Cernan are consistent with the well-documented cosmic ray visual phenomenon (light flashes caused by high-energy particles striking the retina), which was actively studied during Apollo missions using the ALFMED device mentioned in the transcript.",
+    "The lunar surface flash near Grimaldi was immediately hypothesized as a small meteorite impact by the crew, not treated as anomalous.",
+    "The transcript is an excerpt selected to highlight anomalous-seeming passages; full context of routine mission operations is not included.",
+    "PDF text extraction has introduced some OCR artifacts and formatting irregularities that may affect exact wording in places."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "mission",
+      "value": "Apollo 17",
+      "source_quote": "APOLLO 17 AIR-TO-GROUND VOICE TRANSCRIPTION",
+      "citation_offset": {
+        "offset": 17758,
+        "len": 38,
+        "exact": false,
+        "matched": "APOLLO 17 AIR-TO-GROUND VOICE TRANSCRI"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "observation_1_time",
+      "value": "Day 00, Hour 03, Minutes 34-42",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "observation_1_description",
+      "value": "Bright particles or fragments drifting by spacecraft during maneuver",
+      "source_quote": "Now we've got a few very bright particles or fragments or something that go drifting by as we maneuver.",
+      "citation_offset": {
+        "offset": 776,
+        "len": 50,
+        "exact": false,
+        "matched": "ents or something that go drifting by as we maneuv"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "particle_appearance",
+      "value": "Jagged, angular, flat flakelike fragments, some possibly 6 inches across, tumbling slowly",
+      "source_quote": "They're very jagged, angular fragments that are tumbling.",
+      "citation_offset": {
+        "offset": 1021,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "particle_appearance_2",
+      "value": "Compared to Fourth of July fireworks",
+      "source_quote": "It looks like the Fourth of July out of Ron's window.",
+      "citation_offset": {
+        "offset": 922,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "astronaut_speculation_on_particles",
+      "value": "Possibly ice, paint, or fragments from S-IVB stage",
+      "source_quote": "ice chunks, possibly. Or maybe there's paint coming off of it.",
+      "citation_offset": {
+        "offset": 1904,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "photos_taken",
+      "value": "CMP took photos of fragments at Frame 65 and Frame 70",
+      "source_quote": "I tried a couple of pictures of them - different settings.",
+      "citation_offset": {
+        "offset": 1383,
+        "len": 48,
+        "exact": false,
+        "matched": "couple of pictures of them - different settings."
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "observation_2_flashing_object",
+      "value": "Bright rotating/flashing object observed at distance, not a nearby particle",
+      "source_quote": "it's definitely not a particle that's nearby because there is another one I can look at and get a three-dimensional comparison with. It is a bright object, and it's obviously rotating because it's flashing.",
+      "citation_offset": {
+        "offset": 8436,
+        "len": 100,
+        "exact": false,
+        "matched": "it's definitely not a particle that's nearby because there is another one I can look at and get a th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "flashing_pattern",
+      "value": "Two distinct flashes per rotation cycle — one bright, one dull",
+      "source_quote": "you get a very bright flash; and then you get a dull flash. And then it'll come around with a bright flash, and then a dull flash.",
+      "citation_offset": {
+        "offset": 10581,
+        "len": 85,
+        "exact": false,
+        "matched": "you get a very bright flash; and then you get a dull flash. And then it'll come aroun"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "flashing_object_position",
+      "value": "Approximately 10-12 Earth diameters from Earth, at 11 o'clock position, 45 degrees pitched up",
+      "source_quote": "it's up at about 11:00 about - oh, maybe 10 or 12 Earth diameters",
+      "citation_offset": {
+        "offset": 8972,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "crew_assessment_of_distant_object",
+      "value": "Tentatively identified as S-IVB stage or SLA panels",
+      "source_quote": "We got two of those flashers out there. They could be SLA panels.",
+      "citation_offset": {
+        "offset": 14203,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "cernan_sleep_flashes",
+      "value": "Commander saw bright flashes and streaks while trying to sleep, including one like a bright headlight",
+      "source_quote": "there was a very bright spot that flashed right between my eyes like a very bright headlight - like a train coming at you, only with a flash.",
+      "citation_offset": {
+        "offset": 5123,
+        "len": 141,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "lunar_flash_description",
+      "value": "Bright flash and thin streak of light near a crater north of Grimaldi",
+      "source_quote": "It was a bright little flash right out there near that crater... there was just a thin streak of light.",
+      "citation_offset": {
+        "offset": 20412,
+        "len": 60,
+        "exact": false,
+        "matched": "It was a bright little flash right out there near that crate"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "lunar_flash_possible_cause",
+      "value": "Small impact suggested",
+      "source_quote": "You might see if you got anything on your seismometers, although a small impact probably would give a fair amount of visible light.",
+      "citation_offset": {
+        "offset": 20291,
+        "len": 100,
+        "exact": false,
+        "matched": "ing on your seismometers, although a small impact probably would give a fair amount of visible light"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "houston_response",
+      "value": "Mission Control took reports seriously, requested attitude data and offered to locate objects via optics",
+      "source_quote": "if you can reference the object you're looking at out of your window, with respect to body axis and let us look at your - give us a mark, somehow, and give us your NOUN 20s, we can try and get a tie-in and start locating this object down for you.",
+      "citation_offset": {
+        "offset": 9738,
+        "len": 100,
+        "exact": false,
+        "matched": "your - give us a mark, somehow, and give us your NOUN 20s, we can try and get a tie-in and start loc"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Ron Evans",
+    "Jack Schmitt",
+    "Gene Cernan",
+    "Bob",
+    "Gordy"
+  ],
+  "named_places": [
+    "Moon",
+    "Earth",
+    "Grimaldi",
+    "Oceanus Procellarum",
+    "Orientale",
+    "Mare Marginis",
+    "Mare Crisium",
+    "Rima Gamma",
+    "Solomon Islands",
+    "Hawaii",
+    "New Zealand",
+    "Australia",
+    "Japan",
+    "Vietnam",
+    "El Lago"
+  ],
+  "dated_events": [],
+  "objects_described": [
+    "Very bright particles or fragments — jagged, angular, flat flakelike, some 6 inches across, tumbling slowly near spacecraft",
+    "Bright rotating/flashing distant object with dual-flash pattern (bright then dull), tentatively identified as S-IVB stage",
+    "Two flashers at distance, possibly SLA panels",
+    "Bright flash and thin streak of light on lunar surface north of Grimaldi crater",
+    "Bright flashes and streaks seen by Commander Cernan during sleep period"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Astronauts observed bright jagged fragments drifting near the spacecraft during a maneuver at approximately 03:34 mission elapsed time",
+      "source_quote": "Now we've got a few very bright particles or fragments or something that go drifting by as we maneuver.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 776,
+        "len": 50,
+        "exact": false,
+        "matched": "ents or something that go drifting by as we maneuv"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The fragments had no relative motion between them and appeared to be moving away from the spacecraft",
+      "source_quote": "there's no apparent relative motion between fragments",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2722,
+        "len": 33,
+        "exact": false,
+        "matched": "relative motion between fragments"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Commander Cernan described the particles as flat, flakelike, possibly 6 inches across",
+      "source_quote": "they are flat, flakelike particles. Some may be 6 inches across.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2973,
+        "len": 34,
+        "exact": false,
+        "matched": "lat, flakelike particles. Some may"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The astronauts speculated the fragments could be ice or peeling paint from the S-IVB rocket stage",
+      "source_quote": "ice chunks, possibly. Or maybe there's paint coming off of it.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1904,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A ground crew member reported seeing peeling material on the S-II or S-IVB during a pre-launch elevator trip",
+      "source_quote": "I noticed on one trip up the elevator last weak near one of the flags... Looked like it was peeling.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 1974,
+        "len": 70,
+        "exact": false,
+        "matched": "I noticed on one trip up the elevator last weak near one of the flags."
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "On the second day, a bright flashing object was observed at great distance with a rhythmic dual-flash pattern",
+      "source_quote": "It's got two flashes. As it comes around in rhythmic fashion, you get a very bright flash; and then you get a dull flash.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 10574,
+        "len": 65,
+        "exact": false,
+        "matched": "shion, you get a very bright flash; and then you get a dull flash"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Commander Cernan emphasized the distant object was physical and not a nearby particle",
+      "source_quote": "it's definitely not one of these particles that tends to look like a star out there. It's something physical in the distance.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9369,
+        "len": 100,
+        "exact": false,
+        "matched": " not one of these particles that tends to look like a star out there. It's something physical in the"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Schmitt reported observing the object for approximately 24 hours before connecting it to the S-IVB",
+      "source_quote": "we've been noticing that, I think, for about 24 hours or so. I just hadn't put it together as maybe being the S-IVB.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11465,
+        "len": 65,
+        "exact": false,
+        "matched": "we've been noticing that, I think, for about 24 hours or so. I ju"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Two similar flashers were later observed, tentatively identified as SLA panels",
+      "source_quote": "We got two of those flashers out there. They could be SLA panels.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 14203,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Schmitt reported a flash on the lunar surface north of Grimaldi crater and suggested it could be a small impact",
+      "source_quote": "Hey, I just saw a flash on the lunar surface! It was just out there north of Grimaldi.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20117,
+        "len": 46,
+        "exact": false,
+        "matched": "Hey, I just saw a flash on the lunar surface! "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Mission Control offered to use gimbal angles and optics to help locate the distant flashing object",
+      "source_quote": "maybe we can get a look at it through the optics",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9240,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Cernan reported seeing bright flashes like a headlight between his eyes while trying to sleep",
+      "source_quote": "there was a very bright spot that flashed right between my eyes like a very bright headlight",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5123,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Cernan stated he had never seen such flashes before that day",
+      "source_quote": "it might be interesting to know I've never seen it before today.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5634,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 8,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:42:50.754Z",
+  "qa_completed_at": "2026-05-09T11:44:46.471Z",
+  "timing": {
+    "A": "60.6s",
+    "B": "55.1s",
+    "E": "29.8s"
+  },
+  "public_headline": "Apollo 17 Astronauts Reported Bright Objects Near Spacecraft in 1972",
+  "public_tldr": "This document is an excerpt from the Apollo 17 mission's air-to-ground radio transcript from 1972, highlighting moments when astronauts reported seeing bright particles, a distant flashing object, and a flash on the lunar surface. The crew themselves proposed ordinary explanations for most observations — spacecraft debris, ice, peeling paint, or a meteorite impact — and none were treated as unexplained by the crew or Mission Control.",
+  "public_narrative": "This NASA document is a selected excerpt from the official Apollo 17 air-to-ground voice transcript — the radio communications between astronauts Gene Cernan, Ron Evans, and Jack Schmitt and Houston Mission Control during their 1972 Moon mission. The excerpt focuses on several periods where the crew reported observing unusual visual phenomena.\n\nEarly in the mission, around three and a half hours in, the crew noticed bright particles drifting past the spacecraft during a maneuver. They described the fragments as jagged, angular, and flat — some possibly six inches across — tumbling slowly nearby. One astronaut compared the view out the window to a Fourth of July fireworks display. Photos were taken. The crew speculated the fragments were ice chunks or peeling paint from the S-IVB rocket stage, and a ground crew member mentioned noticing peeling material on the rocket during a pre-launch elevator trip.\n\nLater, the astronauts observed a bright object at great distance — estimated at 10 to 12 Earth diameters from Earth — that appeared to rotate, producing a rhythmic pattern of one bright flash followed by one dull flash per cycle. Commander Cernan stressed it was a physical object at distance, not a nearby particle. After watching it for roughly 24 hours, the crew tentatively identified it as the S-IVB stage or SLA (Spacecraft-Lunar Module Adapter) panels. Two similar flashers were eventually noted. Mission Control took the reports seriously, offering to use spacecraft instruments to help locate and track the objects.\n\nTwo other observations appear in the excerpt. Commander Cernan reported seeing bright flashes and streaks — including one he compared to a bright headlight — while trying to sleep, a phenomenon consistent with cosmic rays striking the retina, which NASA was actively studying during Apollo missions. Separately, Schmitt reported a bright flash and a thin streak of light on the lunar surface north of Grimaldi crater, which the crew suggested could be a small meteorite impact.",
+  "public_caveats": [
+    "The astronauts proposed prosaic explanations for most observations — spacecraft debris, ice, peeling paint, SLA panels, cosmic ray flashes, or a meteorite impact. The transcript does not present these events as unexplained.",
+    "The sleep-period flashes Cernan reported are consistent with a well-documented phenomenon: high-energy cosmic ray particles striking the retina, which NASA was actively studying during Apollo missions using onboard equipment.",
+    "This document is a selected excerpt, not the full mission transcript. Passages were chosen to highlight anomalous-seeming moments, and routine mission context is not included.",
+    "Some text may contain minor errors from the PDF scanning process (OCR artifacts), so exact wording in places may not perfectly match the original paper transcript.",
+    "No agency conclusion labeling any of these observations as unidentified or anomalous has been verified — the document is a transcript of crew dialogue, not an analytical report."
+  ]
+}

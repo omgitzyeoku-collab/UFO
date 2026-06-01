@@ -1,0 +1,253 @@
+{
+  "sha256": "084af52858fd2a0fcaae8e0d0bcd92d30e4588b26cc2015e5e543883a1bf6b6d",
+  "title": "NASA-UAP-D008, Apollo 12 Medical Debriefing - Tape 12, 1969",
+  "agency": "NASA",
+  "type": "AUD",
+  "incident_date": "1969",
+  "incident_location": "Texas",
+  "what_is_it": "Auto-transcribed audio recording of a post-mission medical debriefing of the Apollo 12 crew discussing visual phenomena (light flashes/streaks) experienced during spaceflight.",
+  "core_summary": "During a medical debriefing, the Apollo 12 crew described seeing flashes and streaks of light while trying to sleep in the darkened spacecraft. The astronauts reported the streaks appeared roughly horizontal, generally in the same location in their visual field, and moved in a consistent direction. The NASA medical team discussed whether cosmic rays striking the retina could explain the phenomenon, noting they had previously photographed astronauts' retinas looking for evidence of cosmic ray damage but found none.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The source text is an automatic transcription of audio and contains extensive garbling, making many passages unintelligible or ambiguous.",
+    "Speaker attribution is absent — it is impossible to determine which crew member is speaking at any given point.",
+    "The named individuals (Conrad, Gordon, Bean) and the connection to Buzz Aldrin's Apollo 11 reports come from the CSV metadata description, not from the transcribed text itself.",
+    "NASA's conclusion that the phenomena were internal to the astronauts' vision (cosmic ray retinal stimulation) comes from the metadata; the transcript itself shows the discussion was still exploratory.",
+    "The poor transcription quality means verbatim quotes may not accurately reflect what was actually said."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "event_type",
+      "value": "Post-mission medical debriefing of Apollo 12 crew",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "phenomenon",
+      "value": "Light flashes and streaks seen with eyes closed in darkened spacecraft",
+      "source_quote": "it's nice when they're eyes closed. They're not only in all of these drives",
+      "citation_offset": {
+        "offset": 601,
+        "len": 70,
+        "exact": false,
+        "matched": "nice when they're eyes closed. They're not only in all of these drives"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "streak_orientation",
+      "value": "Generally horizontal, roughly in the same place, moving right to left",
+      "source_quote": "mine were horizontal, so hard on all streets were always... it always seemed to me it went from right to left",
+      "citation_offset": {
+        "offset": 4628,
+        "len": 55,
+        "exact": false,
+        "matched": "mine were horizontal, so hard on all streets were alway"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "streak_position",
+      "value": "Slightly above center of visual field",
+      "source_quote": "the hard on all streets with a little bit above the center",
+      "citation_offset": {
+        "offset": 4739,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flash_description",
+      "value": "Small point of light, like someone flashing a light",
+      "source_quote": "it would just light up this point of light, but it's closer to the end. Like some I was flashing a light at you",
+      "citation_offset": {
+        "offset": 4948,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "prior_reports",
+      "value": "Similar phenomena reported on an earlier Apollo flight",
+      "source_quote": "We reported it on somebody reported it on one of the earlier flights",
+      "citation_offset": {
+        "offset": 231,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "hypothesized_cause",
+      "value": "Cosmic rays or gamma rays striking retinal cells",
+      "source_quote": "we've been looking for cosmic rays, you know, cosmic rays strikes. And having, having particles, having nuclei that go through it",
+      "citation_offset": {
+        "offset": 2504,
+        "len": 129,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "retina_examination",
+      "value": "NASA photographed retinas from Mercury program onward but found no visible streaks",
+      "source_quote": "we start at clearback and mercury, taking photographs of the retina, see if you can see his streaks across the retina and stuff. We never could find any",
+      "citation_offset": {
+        "offset": 2645,
+        "len": 152,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mechanism_discussed",
+      "value": "Single-cell retinal stimulation by particle strikes",
+      "source_quote": "probably what it's doing anyway, it's probably hitting just a single cell, and yeah, that's all it has to do, particularly make this flesh",
+      "citation_offset": {
+        "offset": 3109,
+        "len": 138,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "internal_vs_external",
+      "value": "Phenomenon assessed as internal to the astronauts' vision, not external light sources",
+      "source_quote": "it's not something external to you, there's something that's in front of you",
+      "citation_offset": {
+        "offset": 2294,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "consistency_across_crew",
+      "value": "Multiple crew members reported similar experiences in similar locations in their visual field",
+      "source_quote": "about the same, they seem to appear about the same place",
+      "citation_offset": {
+        "offset": 5500,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [
+    "light flashes",
+    "streaks of light",
+    "point of light",
+    "red line"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The light streak phenomenon was also reported on a previous Apollo flight",
+      "source_quote": "We reported it on somebody reported it on one of the earlier flights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 231,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NASA had been photographing astronaut retinas since Mercury to look for cosmic ray damage",
+      "source_quote": "we start at clearback and mercury, taking photographs of the retina, see if you can see his streaks across the retina",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2645,
+        "len": 117,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No visible streaks or damage were found on retinal photographs",
+      "source_quote": "We never could find any in there",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2774,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The streaks were assessed as internal visual phenomena, not external light sources",
+      "source_quote": "it's not something external to you, there's something that's in front of you",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2294,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The hypothesized mechanism was cosmic ray particles striking individual retinal cells",
+      "source_quote": "probably what it's doing anyway, it's probably hitting just a single cell",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3109,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "One crew member reported seeing a red line while looking at equipment",
+      "source_quote": "I saw a red line, but I was looking at the MBC a hander",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3282,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The streaks appeared generally horizontal and slightly above center of the visual field",
+      "source_quote": "the hard on all streets with a little bit above the center. And it always seemed to me it went from right to left",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4739,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 7,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T08:25:47.920Z",
+  "qa_completed_at": "2026-06-01T08:26:35.992Z",
+  "timing": {
+    "A": "30.4s",
+    "B": "17.6s",
+    "E": "17.0s"
+  },
+  "public_headline": "Apollo 12 Crew Reported Seeing Light Flashes in Space",
+  "public_tldr": "This is an auto-transcribed audio recording of a post-mission medical debriefing in which the Apollo 12 crew described seeing flashes and streaks of light while trying to sleep in the darkened spacecraft. NASA's medical team discussed whether cosmic rays striking the retina could explain the phenomenon, noting they had photographed astronaut retinas since the Mercury programme but never found visible damage.",
+  "public_narrative": "This document is an audio recording from 1969, captured during a medical debriefing of the Apollo 12 crew after their return. The recording has been automatically transcribed, and the text quality is poor — many passages are garbled or unintelligible, and it is not possible to tell which crew member is speaking at any given point.\n\nDuring the debriefing, the astronauts described seeing flashes and streaks of light with their eyes closed while in the darkened spacecraft. The streaks appeared roughly horizontal, slightly above the centre of their visual field, and seemed to move from right to left. One crew member compared the flashes to someone shining a small point of light at them. Multiple crew members reported similar experiences in similar locations in their field of vision. The phenomenon had also been reported on an earlier Apollo flight.\n\nNASA's medical team assessed the flashes as internal to the astronauts' vision rather than external light sources. The leading hypothesis discussed was that cosmic ray particles were striking individual retinal cells, producing the sensation of light. NASA had been photographing astronaut retinas since the Mercury programme to look for evidence of cosmic ray damage but had never found any visible streaks or marks.\n\nThe discussion in the recording is exploratory — the medical team and crew were working through possible explanations rather than presenting firm conclusions. One crew member also mentioned seeing a red line while looking at equipment, though the context is unclear due to transcription quality.",
+  "public_caveats": [
+    "The source is an automatic transcription of audio, with extensive garbling — many passages are unintelligible or ambiguous, and verbatim quotes may not accurately reflect what was said.",
+    "Speaker attribution is absent: it is impossible to determine which specific crew member is speaking at any given point in the recording.",
+    "The connection to named individuals (Conrad, Gordon, Bean) and to Buzz Aldrin's Apollo 11 reports comes from catalogue metadata, not from the transcribed text itself.",
+    "The conclusion that the phenomena were cosmic ray retinal stimulation comes from metadata; the transcript itself shows the discussion was still exploratory and open-ended.",
+    "There is low evidence of redaction in this document."
+  ]
+}

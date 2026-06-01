@@ -1,0 +1,66 @@
+{
+  "sha256": "09444e6501f05a4030120db174a1841e891814464fd7ce6f325178d3c09cdf1a",
+  "title": "FBI Photo B6",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "Late 2025",
+  "incident_location": "Western United States",
+  "what_is_it": "A monochrome still image captured from a U.S. military sensor system, submitted by the FBI to AARO as a UAP report.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "The displayed timestamp (12/31/99) is a system default and does not reflect the actual date of the observation, which was late 2025.",
+    "The original image was redacted before submission to AARO, meaning potentially significant details have been removed.",
+    "No accompanying mission report was provided, so operational context is missing.",
+    "The OCR-extracted text from the image is heavily garbled, with most HUD overlay data unreadable.",
+    "This is a single still image from a single source with no corroborating evidence provided.",
+    "The narrative description from war.gov explicitly states it should not be interpreted as an analytical judgment."
+  ],
+  "fabrication_score": 7,
+  "key_facts": [
+    {
+      "field": "Displayed timestamp",
+      "value": "12/31/99 18:10:00",
+      "source_quote": "12/31/99 18:10:00",
+      "citation_offset": {
+        "offset": 49,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "12/31/99 18:10:00"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The displayed date of 12/31/99 is incorrect due to system date/time not being set",
+      "source_quote": "12/31/99 18:10:00",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 49,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 1,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T11:38:17.275Z",
+  "qa_completed_at": "2026-05-09T11:38:58.610Z",
+  "timing": {
+    "A": "19.7s",
+    "B": "21.7s"
+  }
+}

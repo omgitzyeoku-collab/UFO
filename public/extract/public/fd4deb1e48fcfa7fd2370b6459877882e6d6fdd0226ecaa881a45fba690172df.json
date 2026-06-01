@@ -1,0 +1,757 @@
+{
+  "sha256": "fd4deb1e48fcfa7fd2370b6459877882e6d6fdd0226ecaa881a45fba690172df",
+  "title": "DOW-UAP-PR33, Unresolved UAP Report, Syria, October 2024",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "N/A",
+  "incident_location": "Syria",
+  "what_is_it": "A declassified military mission report (MISREP) documenting an ISR surveillance mission in Syria during which the aircrew observed an unidentified anomalous phenomenon (UAP) consisting of unexplained light/glare on their full-motion video camera feed.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Heavy redaction: aircraft type, callsign, tail number, grid coordinates, personnel names, and unit details are extensively redacted under (b)(1)1.4a and (b)(6) exemptions",
+    "Single-source observation: the UAP was observed only via the FMV camera feed; no independent sensor corroboration was attempted ('Observation Interrogation of UAP: NO')",
+    "The observer was an E-4 (junior enlisted rank), and no third-party observers were reported",
+    "The crew themselves assessed the UAP as benign and noted no mission impact — this is an internal operational judgment, not an analytical conclusion",
+    "The UAP physical state is listed as 'Plasma' in a structured form field, but this appears to be a categorization choice rather than a measured determination",
+    "The video footage associated with this report is only 5 seconds long, while the observation period spanned 45 minutes (1559Z-1644Z), suggesting the vast majority of the event was not captured or not released",
+    "The narrative contains a chronological inconsistency: takeoff is listed at 0823Z but a 7-line tasking was received at 0649Z (before takeoff)",
+    "The report document ID (DOW-UAP-PR33) references D32 in the filename, suggesting this is the mission report companion to a separate UAP case file"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "MISREP (Mission Report)",
+      "source_quote": "Report Type: MISREP",
+      "citation_offset": {
+        "offset": 1749,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_id",
+      "value": "Misrep undefined-10541508",
+      "source_quote": "Misrep undefined-10541508",
+      "citation_offset": {
+        "offset": 122,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "originating_unit",
+      "value": "12th Special Operations Squadron (12 SOS)",
+      "source_quote": "Originator (Unit or Squadron): 12 SOS",
+      "citation_offset": {
+        "offset": 1771,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "wing",
+      "value": "27th Special Operations Wing (27 SOW)",
+      "source_quote": "Wing: 27 SOW",
+      "citation_offset": {
+        "offset": 2086,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "major_command",
+      "value": "Air Force Special Operations Command (AFSOC)",
+      "source_quote": "Major Command (MAJCOM): AFSOC",
+      "citation_offset": {
+        "offset": 1672,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "combatant_command",
+      "value": "USCENTCOM",
+      "source_quote": "Combatant Command (COCOM): USCENTCOM",
+      "citation_offset": {
+        "offset": 1704,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operations_center",
+      "value": "609th Combined Air Operations Center (609 CAOC)",
+      "source_quote": "Operations Center: 609th",
+      "citation_offset": {
+        "offset": 1632,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operation",
+      "value": "Operation Inherent Resolve",
+      "source_quote": "Operation: INHERENT RESOLVE",
+      "citation_offset": {
+        "offset": 1555,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mission_type",
+      "value": "ISR (Intelligence, Surveillance, and Reconnaissance)",
+      "source_quote": "Mission Type: ISR",
+      "citation_offset": {
+        "offset": 1858,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "domain",
+      "value": "Air",
+      "source_quote": "Domain: AIR",
+      "citation_offset": {
+        "offset": 1618,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "takeoff_time",
+      "value": "20 October 2024 at 0823Z",
+      "source_quote": "Takeoff Time DTG: 200823:00ZOCT24",
+      "citation_offset": {
+        "offset": 4442,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "landing_time",
+      "value": "21 October 2024 at 0447Z",
+      "source_quote": "Last Land Time: 210447:00ZOCT24",
+      "citation_offset": {
+        "offset": 5203,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_mission_time",
+      "value": "20 hours 24 minutes",
+      "source_quote": "Total Mission Time: 20 hours 24 minutes",
+      "citation_offset": {
+        "offset": 5282,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_time_on_station",
+      "value": "14 hours 22 minutes",
+      "source_quote": "Total Time On Station: 14 hours 22 minutes",
+      "citation_offset": {
+        "offset": 5081,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "fmv_hours",
+      "value": "14 hours 22 minutes",
+      "source_quote": "14:22 FMV HOURS",
+      "citation_offset": {
+        "offset": 976,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sigint_hours",
+      "value": "13 hours 2 minutes",
+      "source_quote": "13:02 SIGINT HOURS",
+      "citation_offset": {
+        "offset": 1021,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_aircraft",
+      "value": "1",
+      "source_quote": "Number of Aircraft: 1",
+      "citation_offset": {
+        "offset": 4284,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "friendly_aircraft_altitude",
+      "value": "20,088 feet",
+      "source_quote": "Friendly Aircraft Altitude/Depth: 20,088FT",
+      "citation_offset": {
+        "offset": 8751,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "friendly_aircraft_speed",
+      "value": "144 knots",
+      "source_quote": "Friendly Aircraft Speed: 144 KNOTS",
+      "citation_offset": {
+        "offset": 8871,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "friendly_aircraft_trajectory",
+      "value": "Orbit",
+      "source_quote": "Friendly Aircraft Trajectory: ORBIT",
+      "citation_offset": {
+        "offset": 8796,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "targeting_pod",
+      "value": "AN/DAS-4",
+      "source_quote": "TGT Pod Name or Designator: AN/DAS-4",
+      "citation_offset": {
+        "offset": 4132,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "additional_avionics",
+      "value": "AH/GMESH/SANTA FE",
+      "source_quote": "Additional Avionics: AH/GMESH/SANTA FE",
+      "citation_offset": {
+        "offset": 4171,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "data_link",
+      "value": "LINK 16",
+      "source_quote": "Data Link: LINK 16",
+      "citation_offset": {
+        "offset": 4212,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "iff_code",
+      "value": "33300",
+      "source_quote": "Mode 3 (IFF Codes): 33300",
+      "citation_offset": {
+        "offset": 4478,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_initial_contact_time",
+      "value": "20 October 2024 at 1559Z",
+      "source_quote": "Initial Contact DTG: 201559:00ZOCT24",
+      "citation_offset": {
+        "offset": 8390,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_event_type",
+      "value": "UAP Incident",
+      "source_quote": "UAP Event Type: UAP Incident",
+      "citation_offset": {
+        "offset": 8429,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_duration",
+      "value": "1559Z to 1644Z (45 minutes of intermittent observations)",
+      "source_quote": "FROM 1559Z-1644Z, OBSERVED UAP ACTIVITY (SEE UAP 1)",
+      "citation_offset": {
+        "offset": 7589,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Misshapen and uneven ball of white light",
+      "source_quote": "MISHAPEN AND UNEVEN BALL OF WHITE LIGHT",
+      "citation_offset": {
+        "offset": 11339,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_physical_state",
+      "value": "Plasma",
+      "source_quote": "UAP Physical State: Plasma",
+      "citation_offset": {
+        "offset": 9393,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_signatures",
+      "value": "Light",
+      "source_quote": "UAP Signatures: LIGHT",
+      "citation_offset": {
+        "offset": 9557,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_propulsion",
+      "value": "Unknown",
+      "source_quote": "UAP Propulsion Means: UNKNOWN",
+      "citation_offset": {
+        "offset": 9447,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_maneuverability",
+      "value": "Light/glare flashed across FMV camera feed from unknown origin",
+      "source_quote": "LIGHT/GLARE FLASHED OF UNK ORIGIN FLASHED ACCROSS FMV CAMERA FEED",
+      "citation_offset": {
+        "offset": 8494,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_anomalous_characteristics",
+      "value": "Light/glare from unknown origin flashed across FMV camera feed; aircrew assessed it was not a lasing event",
+      "source_quote": "LIGHT/GLARE FROM UNKNOWN ORIGIN FLASHED ACCROSS FMV CAMERA FEED. AIRCREW ASSESSED THIS NOT TO BE A LASING EVENT",
+      "citation_offset": {
+        "offset": 10679,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_response_to_observer",
+      "value": "No change",
+      "source_quote": "UAP Response to Observer Actions: NO CHANGE",
+      "citation_offset": {
+        "offset": 8562,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_intelligent_control",
+      "value": "No",
+      "source_quote": "UAP Under Intelligent Control (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 9494,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_advanced_capabilities",
+      "value": "No",
+      "source_quote": "UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 9581,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observer_assessment",
+      "value": "Benign",
+      "source_quote": "Observer Assessment of UAP: Benign",
+      "citation_offset": {
+        "offset": 8834,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observer_engagement",
+      "value": "No",
+      "source_quote": "Observer Engagement of UAP (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 10030,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_effects_on_persons",
+      "value": "No",
+      "source_quote": "UAP Effects on Persons: NO",
+      "citation_offset": {
+        "offset": 9742,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_objects_recovered",
+      "value": "No",
+      "source_quote": "UAP Objects/Material Recovered (yes/no; if yes, describe): NO",
+      "citation_offset": {
+        "offset": 9771,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_observation_count",
+      "value": "Multiple instances at 1559Z, 1602Z, 1609Z, 1620Z, and 1644Z",
+      "source_quote": "AT 1559Z, 1602Z AND AT 1644Z, OBSERVED 1X LIGHT/GLARE CROSSED DIRECTLY ON THE FMV CAMERA. AT 1609Z AND 1620Z, OBSERVED A LIGHT/GLARE HALO EFFECT",
+      "citation_offset": {
+        "offset": 11602,
+        "len": 80,
+        "exact": false,
+        "matched": "OBSERVED 1X LIGHT/GLARE CROSSED DIRECTLY ON THE FMV CAMERA. AT 1609Z AND 1620Z, "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "halo_effect",
+      "value": "Light/glare halo effect observed at top of FMV feed at 1609Z and 1620Z",
+      "source_quote": "AT 1609Z AND 1620Z, OBSERVED A LIGHT/GLARE HALO EFFECT AT THE TOP OF FMV FEED",
+      "citation_offset": {
+        "offset": 11693,
+        "len": 47,
+        "exact": false,
+        "matched": "OBSERVED A LIGHT/GLARE HALO EFFECT AT THE TOP O"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "observer_rank",
+      "value": "E-4 (Senior Airman)",
+      "source_quote": "Rank/Grade: E-4",
+      "citation_offset": {
+        "offset": 9920,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "weather",
+      "value": "Clear",
+      "source_quote": "CLEAR WX",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "global_campaign",
+      "value": "GCP - VEO (violent extremist group)",
+      "source_quote": "Global Campaign Plan: GCP - VEO (violent extremist group)",
+      "citation_offset": {
+        "offset": 5832,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification",
+      "value": "SECRET//REL TO USA, FVEY",
+      "source_quote": "Classification: SECRET",
+      "citation_offset": {
+        "offset": 1153,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassification_date",
+      "value": "20 October 2049",
+      "source_quote": "Declassification Date (YYYYMMDD): 20491020",
+      "citation_offset": {
+        "offset": 1277,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassified_by",
+      "value": "MG Richard A. Harrison, USCENTCOM Chief of Staff",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff",
+      "citation_offset": {
+        "offset": 25,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassified_on",
+      "value": "24 October 2025",
+      "source_quote": "Declassified on: 24 October 2025",
+      "citation_offset": {
+        "offset": 89,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "isr_taskings_completed",
+      "value": "3 FMV taskings, 3 SIGINT taskings",
+      "source_quote": "3X FMV TASKINGS PROSECUTED...3X SIGINT TASKINGS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "fmv_exploitation",
+      "value": "Full motion video was exploited by GET",
+      "source_quote": "FULL MOTION VIDEO WAS EXPLOITED BY GET",
+      "citation_offset": {
+        "offset": 915,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Richard A. Harrison"
+  ],
+  "named_places": [],
+  "dated_events": [
+    "20 October 2024 — mission takeoff at 0823Z",
+    "20 October 2024 at 1559Z — initial UAP observation",
+    "20 October 2024 1559Z-1644Z — UAP activity period with sightings at 1559Z, 1602Z, 1609Z, 1620Z, and 1644Z",
+    "21 October 2024 at 0447Z — landing at OJMS",
+    "24 October 2025 — declassification date"
+  ],
+  "objects_described": [
+    "UAP described as misshapen and uneven ball of white light with plasma physical state",
+    "AN/DAS-4 targeting pod",
+    "SANTA FE sensor system",
+    "AH/GMESH avionics",
+    "LINK 16 data link",
+    "FMV (full-motion video) camera"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The mission was conducted under Operation Inherent Resolve by the 12th Special Operations Squadron, 27th Special Operations Wing",
+      "source_quote": "Operation: INHERENT RESOLVE... Originator (Unit or Squadron): 12 SOS... Wing: 27 SOW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1770,
+        "len": 34,
+        "exact": false,
+        "matched": " Originator (Unit or Squadron): 12"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft took off from OJMS and returned to OJMS after a 20-hour 24-minute mission",
+      "source_quote": "Takeoff Location (ICAO Code): OJMS... Last Land Location (ICAO Code): OJMS... Total Mission Time: 20 hours 24 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5284,
+        "len": 35,
+        "exact": false,
+        "matched": "tal Mission Time: 20 hours 24 minut"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The UAP was first observed at 1559Z on 20 October 2024 at an aircraft altitude of 20,088 feet and speed of 144 knots",
+      "source_quote": "Initial Contact DTG: 201559:00ZOCT24... Friendly Aircraft Altitude/Depth: 20,088FT... Friendly Aircraft Speed: 144 KNOTS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8751,
+        "len": 40,
+        "exact": false,
+        "matched": "Friendly Aircraft Altitude/Depth: 20,088"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Multiple light/glare events were observed between 1559Z and 1644Z, including direct crossings of the FMV camera at 1559Z, 1602Z, and 1644Z, and halo effects at the top of the FMV feed at 1609Z and 1620Z",
+      "source_quote": "AT 1559Z, 1602Z AND AT 1644Z, OBSERVED 1X LIGHT/GLARE CROSSED DIRECTLY ON THE FMV CAMERA. AT 1609Z AND 1620Z, OBSERVED A LIGHT/GLARE HALO EFFECT AT THE TOP OF FMV FEED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11602,
+        "len": 80,
+        "exact": false,
+        "matched": "OBSERVED 1X LIGHT/GLARE CROSSED DIRECTLY ON THE FMV CAMERA. AT 1609Z AND 1620Z, "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircrew assessed the phenomenon was not a lasing event",
+      "source_quote": "AIRCREW ASSESSED THIS NOT TO BE A LASING EVENT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10744,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircrew assessed the UAP as benign with no mission impact",
+      "source_quote": "AIRCREW CONSIDERED THIS NO MISSION IMPACT OR CHANGE AND UAP WAS BENIGN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 11763,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP physical state was recorded as plasma",
+      "source_quote": "UAP Physical State: Plasma",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9393,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was assessed as not being under intelligent control",
+      "source_quote": "UAP Under Intelligent Control (yes/no; if yes, describe): NO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9494,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No advanced capabilities or materials were attributed to the UAP",
+      "source_quote": "UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe): NO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9581,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was declassified by MG Richard A. Harrison, USCENTCOM Chief of Staff, on 24 October 2025",
+      "source_quote": "Declassified by MG Richard A. Harrison USCENTCOM Chief of Staff Declassified on: 24 October 2025",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The weather during the mission was clear",
+      "source_quote": "CLEAR WX",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft was equipped with an AN/DAS-4 targeting pod",
+      "source_quote": "TGT Pod Name or Designator: AN/DAS-4",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4132,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 7,
+    "amber": 5,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:28:24.264Z",
+  "qa_completed_at": "2026-05-09T10:30:39.914Z",
+  "timing": {
+    "A": "64.4s",
+    "B": "71.2s",
+    "E": "33.6s"
+  },
+  "public_headline": "US Military Reports Unexplained Light During Syria Surveillance Mission",
+  "public_tldr": "A declassified military mission report documents an unexplained light observed by a US Air Force special operations aircrew during a surveillance flight over Syria on 20 October 2024. The crew saw a misshapen ball of white light flash across their video camera feed five times over 45 minutes, assessed it as benign, and took no action.",
+  "public_narrative": "This document is a military mission report (MISREP) from the 12th Special Operations Squadron, part of Air Force Special Operations Command, describing an intelligence, surveillance, and reconnaissance (ISR) flight conducted under Operation Inherent Resolve in Syria. The report was originally classified SECRET and releasable to the US and Five Eyes allies. It was declassified on 24 October 2025 by Major General Richard A. Harrison, USCENTCOM Chief of Staff.\n\nOn 20 October 2024, a single aircraft took off at 0823Z and flew a mission lasting 20 hours and 24 minutes, spending over 14 hours on station collecting full-motion video (FMV) and signals intelligence. The aircraft was orbiting at 20,088 feet and 144 knots when, starting at 1559Z, the crew began observing unexplained light activity on their FMV camera feed. Over the next 45 minutes, they logged five separate events: at 1559Z, 1602Z, and 1644Z a light or glare crossed directly across the camera, and at 1609Z and 1620Z a halo effect appeared at the top of the feed. The crew described the phenomenon as a misshapen and uneven ball of white light.\n\nThe observer — an E-4 (Senior Airman), a junior enlisted rank — reported that the light did not respond to the aircraft's presence and showed no signs of intelligent control or advanced capabilities. The aircrew assessed the phenomenon was not a lasing event (a laser deliberately aimed at an aircraft) and considered it benign with no impact on their mission. The report's structured form categorises the object's physical state as \"plasma,\" though this appears to be a form-field selection rather than a measured finding. No independent sensor was used to corroborate what the camera showed, and the crew did not attempt to engage or interrogate the phenomenon further.\n\nThe document is heavily redacted. Aircraft type, callsign, tail number, grid coordinates, personnel names, and unit-level details are all blacked out under national security and personal privacy exemptions. Notably, the associated video footage is only 5 seconds long, despite the observation window spanning 45 minutes — meaning the vast majority of the event was either not captured or not released.",
+  "public_caveats": [
+    "The phenomenon was observed only through the FMV camera feed — no independent sensor (radar, infrared, signals intelligence) was used to corroborate it, and the report explicitly notes that interrogation of the UAP was not attempted.",
+    "The sole observer was an E-4 (Senior Airman), a junior enlisted rank, and no third-party observers were reported.",
+    "The crew's own assessment was that the event was benign with no mission impact — this is an operational judgment by the aircrew, not an analytical conclusion by investigators.",
+    "The report is heavily redacted: aircraft type, exact location coordinates, personnel identities, and other operational details are withheld under national security and privacy exemptions.",
+    "Only 5 seconds of video footage accompanies the report despite a 45-minute observation window, so outside reviewers cannot independently evaluate the full event."
+  ]
+}

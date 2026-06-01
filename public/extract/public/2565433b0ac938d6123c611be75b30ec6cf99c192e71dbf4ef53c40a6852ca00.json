@@ -1,0 +1,355 @@
+{
+  "sha256": "2565433b0ac938d6123c611be75b30ec6cf99c192e71dbf4ef53c40a6852ca00",
+  "title": "DOW-UAP-D57, Range Fouler Reporting Form, Gulf of Aden, September 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "9/4/20",
+  "incident_location": "Gulf of Aden",
+  "what_is_it": "A U.S. Navy Range Fouler Reporting Form documenting an unauthorized intrusion into controlled airspace by an unidentified object over the Gulf of Aden in September 2020.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Single-source observer report with no corroborating sensor data or witness accounts included in this document.",
+    "Heavy redaction obscures the observer's identity, exact coordinates (MGRS and lat/long), email addresses, and contact information.",
+    "The 1172 ATKS designation suggests this was likely an MQ-9 Reaper drone unit, meaning the 'observer' may have been a remote sensor operator rather than a pilot physically present.",
+    "The term 'cold object' appearing 'bright white' on 'black hot' IR is the observer's subjective thermal characterization and does not conclusively establish the object's actual temperature or composition.",
+    "The altitude figure of 23,819 feet is described as HAT (Height Above Terrain), which is the aircraft's altitude, not necessarily the object's altitude — the object was detected 39 degrees below the aircraft.",
+    "The CSV description from war.gov notes that all descriptive and estimative language reflects the reporter's subjective interpretation at the time of the event.",
+    "The form was approved for release under FOUO with Privacy Act restrictions, suggesting additional classified details may exist in separate reporting channels."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "Range Fouler Reporting Form",
+      "source_quote": "Range Fouler Reportin Form",
+      "citation_offset": {
+        "offset": 0,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_of_incident",
+      "value": "September 4, 2020",
+      "source_quote": "Contact at 21:09z to 21:17z 04SEP2020",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "time_of_detection",
+      "value": "21:09:00 Zulu",
+      "source_quote": "21:09:00",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "duration_of_contact",
+      "value": "8 minutes (21:09z to 21:17z)",
+      "source_quote": "Contact at 21:09z to 21:17z",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "time_of_day",
+      "value": "Night",
+      "source_quote": "Night",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "location",
+      "value": "Gulf of Aden",
+      "source_quote": "over the Gulf of Aden we tracked a round, cold object",
+      "citation_offset": {
+        "offset": 2173,
+        "len": 43,
+        "exact": false,
+        "matched": "ulf of Aden we tracked a round, cold object"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "squadron",
+      "value": "1172 ATKS (1172nd Attack Squadron)",
+      "source_quote": "1172 ATKS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "crew_position",
+      "value": "Other",
+      "source_quote": "Other",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "mission_type",
+      "value": "ISR (Intelligence, Surveillance, and Reconnaissance)",
+      "source_quote": "ISR",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "object_shape",
+      "value": "Round",
+      "source_quote": "Round: [l]",
+      "citation_offset": {
+        "offset": 1524,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_thermal_signature",
+      "value": "Cold (appeared bright white on black hot IR)",
+      "source_quote": "we tracked a round, cold object in IR",
+      "citation_offset": {
+        "offset": 2185,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_heading_and_speed",
+      "value": "168 degrees at 277 mph",
+      "source_quote": "traveling 168 degrees at 277 mph",
+      "citation_offset": {
+        "offset": 2223,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_behavior",
+      "value": "Made abrupt directional changes",
+      "source_quote": "It made a few abrupt directional changes during the 8 minute contact",
+      "citation_offset": {
+        "offset": 2282,
+        "len": 43,
+        "exact": false,
+        "matched": "ctional changes during the 8 minute contact"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "number_of_contacts",
+      "value": "1",
+      "source_quote": "# of Contacts in \"Group\": 1",
+      "citation_offset": {
+        "offset": 1579,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sensor_depression_angle",
+      "value": "-39 degrees below aircraft altitude",
+      "source_quote": "Our sensor was aimed -39 degrees below our altitude",
+      "citation_offset": {
+        "offset": 2327,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "slant_range",
+      "value": "6.1 nautical miles",
+      "source_quote": "slant range of 6.1 ?NM",
+      "citation_offset": {
+        "offset": 2386,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ground_range",
+      "value": "8.81 km",
+      "source_quote": "ground range of 8.81 KM",
+      "citation_offset": {
+        "offset": 2413,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ir_sensor_mode",
+      "value": "Black hot",
+      "source_quote": "The IR sensor was set to black hot and the object in question was a bright white",
+      "citation_offset": {
+        "offset": 2438,
+        "len": 45,
+        "exact": false,
+        "matched": "The IR sensor was set to black hot and the ob"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "classification_marking",
+      "value": "FOUO (For Official Use Only)",
+      "source_quote": "Approved for Release to MRO - FOUO / PA applies",
+      "citation_offset": {
+        "offset": 2994,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "release_date",
+      "value": "March 16, 2026",
+      "source_quote": "03/16/26",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "combatant_command",
+      "value": "USCENTCOM",
+      "source_quote": "USCENTCOM 26.0028",
+      "citation_offset": {
+        "offset": 2976,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Gulf of Aden"
+  ],
+  "dated_events": [
+    "09/04/20",
+    "04SEP2020"
+  ],
+  "objects_described": [
+    "Round, cold UAP tracked via IR sensor",
+    "IR (infrared) sensor set to black hot mode"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A single round, cold object was tracked for 8 minutes over the Gulf of Aden on September 4, 2020.",
+      "source_quote": "Contact at 21:09z to 21:17z 04SEP2020...we tracked a round, cold object",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2185,
+        "len": 31,
+        "exact": false,
+        "matched": "we tracked a round, cold object"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object was traveling on a heading of 168 degrees at 277 mph.",
+      "source_quote": "traveling 168 degrees at 277 mph",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2223,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object made several abrupt directional changes during the encounter.",
+      "source_quote": "It made a few abrupt directional changes during the 8 minute contact",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2282,
+        "len": 43,
+        "exact": false,
+        "matched": "ctional changes during the 8 minute contact"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The observer's aircraft was at 23,819 feet HAT and the sensor was aimed 39 degrees below aircraft altitude.",
+      "source_quote": "at 23,819 HAT...Our sensor was aimed -39 degrees below our altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2331,
+        "len": 47,
+        "exact": false,
+        "matched": "sensor was aimed -39 degrees below our altitude"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The slant range to the object was approximately 6.1 nautical miles with a ground range of 8.81 km.",
+      "source_quote": "slant range of 6.1 ?NM and ground range of 8.81 KM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2386,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object appeared bright white on the IR sensor set to black hot, indicating a cold thermal signature.",
+      "source_quote": "The IR sensor was set to black hot and the object in question was a bright white",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2438,
+        "len": 45,
+        "exact": false,
+        "matched": "The IR sensor was set to black hot and the ob"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The observer was from the 1172nd Attack Squadron conducting an ISR mission.",
+      "source_quote": "1172 ATKS",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The encounter occurred at night.",
+      "source_quote": "Night",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "SPEAR sanitizes all reports of identifying information about aircrew and squadrons.",
+      "source_quote": "SPEAR sanitizes all reports of identifying information",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 2,
+    "amber": 7,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-05-09T10:56:02.069Z",
+  "qa_completed_at": "2026-05-09T10:57:15.951Z",
+  "timing": {
+    "A": "38.1s",
+    "B": "35.8s",
+    "E": "25.2s"
+  },
+  "public_headline": "Navy Drone Unit Tracked Unidentified Round Object Over Gulf of Aden",
+  "public_tldr": "A September 2020 military reporting form documents an 8-minute encounter between a U.S. Navy drone unit and a single round, thermally cold object over the Gulf of Aden. The object was traveling at 277 mph, made abrupt directional changes, and was detected on infrared sensors at a range of about 6 nautical miles.",
+  "public_narrative": "On the night of September 4, 2020, a crew from the 1172nd Attack Squadron — a unit that typically operates MQ-9 Reaper drones — was conducting an intelligence, surveillance, and reconnaissance (ISR) mission over the Gulf of Aden when they detected an unidentified object on their infrared sensor. The encounter lasted eight minutes, from 21:09 to 21:17 Zulu time, and was logged on a standard Range Fouler Reporting Form, which is the military's paperwork for unauthorized intrusions into controlled airspace.\n\nThe object was described as round and thermally \"cold.\" The infrared camera was set to \"black hot\" mode, meaning hot objects appear dark and cold objects appear bright — and this object showed up bright white. It was traveling roughly south-southeast on a heading of 168 degrees at 277 mph and made several abrupt directional changes during the encounter. The sensor operator was looking 39 degrees below the aircraft's altitude of 23,819 feet, at a slant range of 6.1 nautical miles (about 8.81 km ground distance).\n\nThe document is heavily redacted. The observer's name, exact coordinates (both military grid and latitude/longitude), email addresses, and other contact details are all blacked out. The form was marked \"For Official Use Only\" under the jurisdiction of U.S. Central Command (USCENTCOM) and was approved for release on March 16, 2026.\n\nThe form records what the operator observed but does not include any conclusion about what the object was. No corroborating sensor data, radar tracks, or independent witness accounts appear in this document. The Department of War's description notes that all language in the report reflects the reporter's subjective interpretation at the time of the event.",
+  "public_caveats": [
+    "This is a single-source observer report. No corroborating sensor data, radar records, or independent witness accounts are included in this document.",
+    "The document is heavily redacted — the observer's identity, exact location coordinates, and contact information are all obscured, making independent verification difficult.",
+    "The 1172nd Attack Squadron typically operates MQ-9 Reaper drones, so the 'observer' was likely a remote sensor operator viewing a screen, not a pilot physically present at the scene.",
+    "The altitude of 23,819 feet listed in the form is the aircraft's altitude, not the object's. The object was detected 39 degrees below the aircraft, so its actual altitude is not directly stated.",
+    "The term 'cold object' is the operator's subjective thermal characterization based on how it appeared on infrared. It does not conclusively establish the object's actual temperature or composition."
+  ]
+}
