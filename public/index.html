@@ -766,16 +766,21 @@ async function loadAll() {
 
 // Lazy-load full QA detail (narrative, key_facts, caveats) on demand.
 // The corpus bundle only carries the summary; this hydrates the rest.
-const qaHydrated = new Set();
-async function hydrateQa(sha) {
-  if (qaHydrated.has(sha)) return;
-  qaHydrated.add(sha);
+// In-flight dedup: concurrent calls for the same sha await the SAME fetch,
+// so a second caller never returns early on stale summary data.
+const qaHydrating = new Map();  // sha -> Promise (resolves once hydrated)
+function hydrateQa(sha) {
+  if (qaHydrating.has(sha)) return qaHydrating.get(sha);
   const summary = qaIndex.get(sha);
-  if (!summary || !summary._hasQa) return;  // nothing to hydrate
-  try {
-    const r = await fetch(`extract/public/${sha}.json`);
-    if (r.ok) qaIndex.set(sha, { ...(await r.json()), _hasQa: true });
-  } catch {}
+  if (!summary || !summary._hasQa || summary._full) return Promise.resolve();  // nothing to hydrate
+  const p = (async () => {
+    try {
+      const r = await fetch(`extract/public/${sha}.json`);
+      if (r.ok) qaIndex.set(sha, { ...(await r.json()), _hasQa: true, _full: true });
+    } catch {}
+  })();
+  qaHydrating.set(sha, p);
+  return p;
 }
 
 // ===================================================================== url state
