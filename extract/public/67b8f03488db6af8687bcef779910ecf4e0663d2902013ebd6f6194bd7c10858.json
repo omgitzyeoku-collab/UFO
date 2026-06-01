@@ -1,0 +1,73 @@
+{
+  "sha256": "67b8f03488db6af8687bcef779910ecf4e0663d2902013ebd6f6194bd7c10858",
+  "title": "DOW-UAP-PR078, \"2 November 2020 [CALLSIGN] [CALLSIGN] Observes and tracks UAP 2 of 2\"",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2020",
+  "incident_location": "CENTCOM",
+  "what_is_it": "Infrared video recording from a U.S. military sensor platform showing tracking of an unidentified anomalous phenomenon (UAP).",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "Callsigns in the original title are redacted, obscuring the specific military unit or platform involved.",
+    "AARO uses 'likely derived from' — the provenance is assessed, not confirmed.",
+    "Many of the responsive materials lack a substantiated chain of custody, per AARO's own statement.",
+    "The video description is truncated at 03:17, meaning the second observed area of contrast is not fully described.",
+    "No extracted text from the video itself — all facts derive from metadata and the CSV description provided by war.gov.",
+    "This is video 2 of 2 from the same incident; video 1 may contain additional context not reflected here."
+  ],
+  "fabrication_score": 3,
+  "key_facts": [
+    {
+      "field": "document_id",
+      "value": "DOW-UAP-PR078",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_date",
+      "value": "November 2020",
+      "source_quote": "infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in November 2020",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "area_of_responsibility",
+      "value": "United States Central Command (CENTCOM)",
+      "source_quote": "operating within the United States Central Command area of responsibility",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "video_sequence",
+      "value": "2 of 2",
+      "source_quote": "Observes and tracks UAP 2 of 2",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "United States Central Command area of responsibility"
+  ],
+  "dated_events": [
+    "November 2020"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T08:57:09.940Z",
+  "qa_completed_at": "2026-06-01T08:57:57.687Z",
+  "timing": {
+    "A": "23.8s",
+    "B": "23.9s"
+  }
+}

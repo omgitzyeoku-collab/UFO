@@ -1,0 +1,169 @@
+{
+  "sha256": "2ad200be8b01587371f16d1fbe1b95e58f88e2df934543e1430667ca1fda8dd1",
+  "title": "DOW-UAP-PR080, \"20 October 2020 [CALLSIGN] [CALLSIGN] Observes UAP\"",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2020",
+  "incident_location": "CENTCOM",
+  "what_is_it": "Infrared video recording from a U.S. military sensor platform showing an unidentified anomalous phenomenon (UAP) in the CENTCOM area of responsibility.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No extracted text from the video itself — all facts come from metadata and the CSV description provided by war.gov.",
+    "AARO uses the qualifier 'likely' when attributing the sensor platform, indicating uncertainty about the exact source.",
+    "The materials lack a substantiated chain of custody, meaning the provenance and handling history cannot be fully verified.",
+    "Callsigns in the title are redacted, preventing identification of the specific military unit or platform involved.",
+    "The video description appears truncated at the 02:45-02:46 timestamp entry, so later events in the video are not described.",
+    "The uploader-defined title does not confirm the video content matches the title's claim."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "DOW-UAP-PR080",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Area of operations",
+      "value": "United States Central Command (CENTCOM) area of responsibility",
+      "source_quote": "derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2020",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sensor type",
+      "value": "Infrared sensor aboard a U.S. military platform",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Video duration",
+      "value": "00:04:54",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Upload date",
+      "value": "October 2020",
+      "source_quote": "A user uploaded this video to a classified network in October 2020",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Congressional request date",
+      "value": "March 6, 2026",
+      "source_quote": "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of requesting representatives",
+      "value": "8",
+      "source_quote": "eight members of the U.S. House of Representatives requested access",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of records requested",
+      "value": "51",
+      "source_quote": "requested access to 51 potentially UAP-related records",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "First observation timestamp",
+      "value": "01:17-01:21",
+      "source_quote": "01:17-01:21: An area of contrast enters the sensor field-of-view from the top right of the screen",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Second observation timestamp",
+      "value": "02:45-02:46",
+      "source_quote": "02:45-02:46: An area of contrast transits the sensor field-of-view across t",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Chain of custody status",
+      "value": "Lacks substantiated chain of custody",
+      "source_quote": "Many of these materials lack a substantiated chain-of-custody",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "United States Central Command area of responsibility"
+  ],
+  "dated_events": [
+    "20 October 2020",
+    "March 6, 2026"
+  ],
+  "objects_described": [
+    "Area of contrast (potential UAP) observed via infrared sensor",
+    "Infrared sensor aboard a U.S. military platform"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records on March 6, 2026",
+      "source_quote": "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO identified responsive materials held on a classified network",
+      "source_quote": "The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The video is likely from an infrared sensor on a U.S. military platform in CENTCOM AOR in 2020",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2020",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The video was uploaded to a classified network in October 2020",
+      "source_quote": "A user uploaded this video to a classified network in October 2020",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Many of the responsive materials lack a substantiated chain of custody",
+      "source_quote": "Many of these materials lack a substantiated chain-of-custody",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "An area of contrast enters the sensor field of view at 01:17-01:21 from the top right",
+      "source_quote": "01:17-01:21: An area of contrast enters the sensor field-of-view from the top right of the screen",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 6,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T08:58:47.722Z",
+  "qa_completed_at": "2026-06-01T08:59:56.480Z",
+  "timing": {
+    "A": "23.6s",
+    "B": "45.2s"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "sha256": "7e81fd782a5b98af5cb941b6e5cce865f15324dea41b8c4cf4577f3d02c3fd66",
+  "title": "DOW-UAP-PR069, \"F/A-18 FLIR UAP\"",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_location": "NORTHCOM",
+  "what_is_it": "An infrared (FLIR) video recorded by a U.S. military sensor, released as part of the PURSUE collection in response to a congressional records request.",
+  "core_summary": "This 29-second infrared video, titled \"F/A-18 FLIR UAP,\" is assessed by AARO to be derived from an infrared sensor aboard a U.S. military platform operating within the NORTHCOM area of responsibility in 2022. The video shows a sensor panning to track an area of contrast, with a reticle locking on at the 14-second mark and losing track at the 27-second mark. The video was uploaded to a classified network in July 2023 and lacks a substantiated chain of custody.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No extracted body text available — all facts derived from metadata and the CSV description provided by war.gov.",
+    "AARO uses the qualifier 'likely' when attributing the video to a U.S. military infrared sensor, indicating the assessment is not certain.",
+    "The materials lack a substantiated chain of custody, meaning the provenance and handling history cannot be fully verified.",
+    "The video title 'F/A-18 FLIR UAP' was defined by the uploader, not by AARO or the Department of War — it may not accurately describe the platform or object.",
+    "The object tracked is described only as an 'area of contrast,' with no identification or characterisation provided by AARO.",
+    "The video description is noted as provided 'for informational purposes only' and appears truncated in the source."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "DOW-UAP-PR069",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Document type",
+      "value": "Video (VID)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Uploader-defined title",
+      "value": "F/A-18 FLIR UAP",
+      "source_quote": "whose uploader-defined title is, \"F/A-18 FLIR UAP,\"",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sensor type",
+      "value": "Infrared sensor aboard a U.S. military platform",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Area of responsibility",
+      "value": "United States Northern Command (NORTHCOM)",
+      "source_quote": "operating within the United States Northern Command area of responsibility",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Estimated capture year",
+      "value": "2022",
+      "source_quote": "area of responsibility in 2022",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Upload date",
+      "value": "July 2023",
+      "source_quote": "A user uploaded this video to a classified network in July 2023",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Video duration",
+      "value": "00:00:29",
+      "source_quote": "Video Duration: 00:00:29",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Congressional request date",
+      "value": "March 6, 2026",
+      "source_quote": "On March 6, 2026, eight members of the U.S. House of Representatives requested access",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of requesting members",
+      "value": "8",
+      "source_quote": "eight members of the U.S. House of Representatives",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of potentially responsive records",
+      "value": "51",
+      "source_quote": "requested access to 51 potentially UAP-related records",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Chain of custody status",
+      "value": "Lacks substantiated chain of custody",
+      "source_quote": "Many of these materials lack a substantiated chain-of-custody",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Reticle lock time",
+      "value": "14 seconds",
+      "source_quote": "At the 14 second mark, a reticle surrounds the area of contrast",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Reticle loss time",
+      "value": "27 seconds",
+      "source_quote": "At the 27 second mark, the reticle loses its track on the area of contrast",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "United States Northern Command area of responsibility"
+  ],
+  "dated_events": [
+    "2022 — estimated video capture year",
+    "July 2023 — video uploaded to classified network",
+    "March 6, 2026 — congressional records request by eight House members"
+  ],
+  "objects_described": [
+    "Infrared sensor (FLIR)",
+    "U.S. military platform (implied F/A-18 from title)",
+    "Unidentified area of contrast (tracked object)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records on March 6, 2026",
+      "source_quote": "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO identified responsive materials held on a classified network",
+      "source_quote": "The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Many of the released materials lack a substantiated chain of custody",
+      "source_quote": "Many of these materials lack a substantiated chain-of-custody",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The video is assessed as likely derived from an infrared sensor aboard a U.S. military platform in the NORTHCOM area in 2022",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Northern Command area of responsibility in 2022",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "A user uploaded this video to a classified network in July 2023",
+      "source_quote": "A user uploaded this video to a classified network in July 2023",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The sensor reticle locks on at 14 seconds and loses track at 27 seconds",
+      "source_quote": "At the 14 second mark, a reticle surrounds the area of contrast. At the 27 second mark, the reticle loses its track",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 6,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T08:47:22.204Z",
+  "qa_completed_at": "2026-06-01T08:48:23.924Z",
+  "timing": {
+    "A": "25.2s",
+    "B": "36.5s",
+    "E": "15.1s"
+  },
+  "public_headline": "Military Infrared Video Shows Unidentified Object Tracked Over U.S. Territory",
+  "public_tldr": "This 29-second infrared video, labelled \"F/A-18 FLIR UAP\" by its uploader, was recorded by what AARO assesses is likely a U.S. military sensor operating within the Northern Command area in 2022. The video shows a sensor tracking an unidentified area of contrast, but the object is never identified, and the video lacks a verified chain of custody.",
+  "public_narrative": "In March 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records held by the Department of War. The All-domain Anomaly Resolution Office (AARO) identified responsive materials on a classified network and released them publicly as part of the PURSUE collection. This video — catalogued as DOW-UAP-PR069 — is one of those records.\n\nThe video is 29 seconds long and was captured by what AARO describes as \"likely\" an infrared sensor aboard a U.S. military platform operating within the United States Northern Command (NORTHCOM) area of responsibility in 2022. The title \"F/A-18 FLIR UAP\" was assigned by the person who uploaded the video to a classified network in July 2023 — it was not assigned by AARO or the Department of War, so it may not accurately describe the aircraft or the object.\n\nIn the footage, the sensor pans to track an area of contrast — essentially a heat signature or thermal anomaly. At the 14-second mark, a targeting reticle locks onto the object. At the 27-second mark, the reticle loses its track. No identification or characterisation of the object is provided by AARO.\n\nThe Department of War notes that many of the released materials, including this one, lack a substantiated chain of custody — meaning the full history of who handled the video and how it reached the classified network cannot be verified. The accompanying description is marked as being provided \"for informational purposes only.\"",
+  "public_caveats": [
+    "AARO uses the word \"likely\" when attributing the video to a U.S. military infrared sensor — the assessment is not certain.",
+    "The video title \"F/A-18 FLIR UAP\" was chosen by the uploader, not by AARO or the Department of War, and may not accurately describe the platform or the object.",
+    "The tracked object is described only as an \"area of contrast\" — no identification, size, speed, altitude, or characterisation is provided.",
+    "The video lacks a substantiated chain of custody, meaning its provenance and handling history cannot be fully verified.",
+    "No body text or detailed analysis accompanies the video — all facts are derived from metadata and the brief description provided by war.gov."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "sha256": "db2a52321cacb248dcaf4733a99e42001ec6ac791395d78ad2a1da694e1c51c4",
+  "title": "DOW-UAP-PR065, \"USCG C-144 Tyndall UAP 2 TIC TAC IR hot 24 April 2024\"",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2024",
+  "incident_location": "Southeastern United States",
+  "what_is_it": "Infrared video captured by a U.S. Coast Guard sensor platform, released as part of the PURSUE collection in response to a Congressional records request.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "AARO uses 'likely derived from' — the platform attribution is an assessment, not confirmed",
+    "The uploader-defined title references 'TIC TAC' and 'Tyndall' but AARO does not confirm either descriptor in its own assessment",
+    "Chain of custody is explicitly described as not substantiated",
+    "The 'area of contrast' is not identified or characterized — it could be any heat-emitting object",
+    "The video was uploaded by an unnamed user, not through official reporting channels",
+    "No extracted text available from a source document; all facts derive from the CSV metadata description"
+  ],
+  "fabrication_score": 3,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "DOW-UAP-PR065",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident region",
+      "value": "Southeastern United States",
+      "source_quote": "operating in the Southeastern United States in 2024",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident year",
+      "value": "2024",
+      "source_quote": "operating in the Southeastern United States in 2024",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Uploader-defined title",
+      "value": "USCG C-144 Tyndall UAP 2 TIC TAC IR hot 24 April 2024",
+      "source_quote": "whose uploader-defined title is, \"USCG C-144 Tyndall UAP 2 TIC TAC IR hot 24 April 2024\"",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Associated installation (from title)",
+      "value": "Tyndall (likely Tyndall Air Force Base)",
+      "source_quote": "USCG C-144 Tyndall UAP 2 TIC TAC IR hot 24 April 2024",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Specific date (from title)",
+      "value": "24 April 2024",
+      "source_quote": "USCG C-144 Tyndall UAP 2 TIC TAC IR hot 24 April 2024",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Southeastern United States",
+    "Tyndall"
+  ],
+  "dated_events": [
+    "24 April 2024"
+  ],
+  "objects_described": [
+    "U.S. Coast Guard C-144 aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The video is likely derived from an infrared sensor aboard a U.S. Coast Guard platform.",
+      "source_quote": "AARO assesses that this video...is likely derived from an infrared sensor aboard a U.S. Coast Guard platform",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T08:43:49.961Z",
+  "qa_completed_at": "2026-06-01T08:44:40.503Z",
+  "timing": {
+    "A": "24.0s",
+    "B": "26.5s"
+  }
+}

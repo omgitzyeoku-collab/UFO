@@ -1,0 +1,181 @@
+{
+  "sha256": "f97c19f0ba2ba284c2a86cf2e6c20c0b3908f213d2d1e2b2e3c58f4b57807e34",
+  "title": "DOW-UAP-PR075, \"09JUN2021 [Platform] observed UAP in the ECS\"",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2021",
+  "incident_location": "East China Sea",
+  "what_is_it": "Infrared video footage from a U.S. military platform showing an unidentified anomalous phenomenon (UAP) observed over the East China Sea.",
+  "core_summary": "This is a 23-second infrared video reportedly captured by a U.S. military platform operating above the East China Sea on 9 June 2021. The sensor tracks an area of contrast for approximately 18 seconds before losing sight of the object. The video was uploaded to a classified network in June 2021 and was among 51 potentially UAP-related records requested by eight members of the U.S. House of Representatives on 6 March 2026.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "The platform identity is redacted from the video title, preventing independent verification of the source.",
+    "AARO notes the materials lack a substantiated chain of custody, meaning provenance is unconfirmed.",
+    "The video is only 23 seconds long with only 18 seconds of actual content; the remaining 5 seconds contain no content.",
+    "AARO uses the qualifier 'likely' when attributing the video to a U.S. military infrared sensor, indicating uncertainty.",
+    "No extracted text is available from the source document itself; all facts derive from metadata and the official video description.",
+    "The object is described only as 'an area of contrast' — no shape, size, speed, or behaviour details are provided."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "DOW-UAP-PR075",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident date",
+      "value": "9 June 2021",
+      "source_quote": "09JUN2021 [Platform] observed UAP in the ECS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "East China Sea",
+      "source_quote": "operating above the East China Sea in 2021",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sensor type",
+      "value": "Infrared",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Video duration",
+      "value": "23 seconds",
+      "source_quote": "Video Duration: 00:00:23",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Platform",
+      "value": "U.S. military platform (name redacted)",
+      "source_quote": "[Platform] observed UAP in the ECS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Upload date",
+      "value": "June 2021",
+      "source_quote": "A user uploaded this video to a classified network in June 2021",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Congressional request date",
+      "value": "6 March 2026",
+      "source_quote": "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of records requested",
+      "value": "51",
+      "source_quote": "requested access to 51 potentially UAP-related records",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Assessing body",
+      "value": "AARO (All-domain Anomaly Resolution Office)",
+      "source_quote": "The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Chain of custody",
+      "value": "Lacks substantiated chain-of-custody",
+      "source_quote": "Many of these materials lack a substantiated chain-of-custody",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Object tracking duration",
+      "value": "Approximately 18 seconds",
+      "source_quote": "The sensor pans to track an area of contrast. At the 18 second mark, the sensor loses sight of the object",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "East China Sea"
+  ],
+  "dated_events": [
+    "09JUN2021",
+    "June 2021",
+    "March 6, 2026"
+  ],
+  "objects_described": [
+    "UAP (area of contrast tracked by infrared sensor)",
+    "Infrared sensor aboard U.S. military platform"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records on 6 March 2026.",
+      "source_quote": "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO assessed the video is likely derived from an infrared sensor aboard a U.S. military platform.",
+      "source_quote": "AARO assesses that this video...is likely derived from an infrared sensor aboard a U.S. military platform",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The materials lack a substantiated chain of custody.",
+      "source_quote": "Many of these materials lack a substantiated chain-of-custody",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The sensor loses sight of the object at the 18-second mark.",
+      "source_quote": "At the 18 second mark, the sensor loses sight of the object",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The platform name in the video title is redacted.",
+      "source_quote": "[Platform] observed UAP in the ECS",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 5,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T08:53:33.295Z",
+  "qa_completed_at": "2026-06-01T08:54:23.979Z",
+  "timing": {
+    "A": "21.0s",
+    "B": "29.7s",
+    "E": "16.5s"
+  },
+  "public_headline": "U.S. Military Infrared Video Captures Unidentified Object Over East China Sea",
+  "public_tldr": "This 23-second infrared video, recorded by a U.S. military platform on 9 June 2021 over the East China Sea, shows a sensor tracking an unidentified area of contrast for about 18 seconds before losing sight of it. It was among 51 UAP-related records requested by eight members of the U.S. House of Representatives in March 2026, and the assessing office notes the materials lack a confirmed chain of custody.",
+  "public_narrative": "On 9 June 2021, a U.S. military platform operating over the East China Sea recorded a short infrared video of something it could not identify. The footage, catalogued as DOW-UAP-PR075, runs just 23 seconds. For roughly 18 of those seconds, the sensor tracks what is described only as \"an area of contrast\" before losing sight of the object. The remaining five seconds contain no content.\n\nThe video was uploaded to a classified network in June 2021. It resurfaced publicly after eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records on 6 March 2026. The All-domain Anomaly Resolution Office (AARO) identified this video as one of those responsive materials.\n\nAAro's assessment is limited. The office says the video is \"likely\" derived from an infrared sensor aboard a U.S. military platform — the word \"likely\" indicating they are not fully certain. No details about the object's shape, size, speed, or behaviour are provided. The name of the military platform is redacted from the title, shown only as \"[Platform]\".\n\nAAro also flags that many of the materials in this collection lack a substantiated chain of custody, meaning the provenance of this video has not been independently confirmed. No extracted text exists from the source document itself; what is known comes from metadata and the official video description.\n\nIn short, this is a very brief, low-detail recording. It documents that something was seen and tracked by an infrared sensor, but offers almost nothing about what that something was.",
+  "public_caveats": [
+    "The platform identity is redacted, so there is no way to independently verify which military asset captured the footage.",
+    "AARO itself uses the qualifier 'likely' when attributing the video to a U.S. military infrared sensor, signalling uncertainty about its origin.",
+    "The materials lack a substantiated chain of custody, meaning the video's provenance is unconfirmed.",
+    "The object is described only as 'an area of contrast' — no shape, size, speed, or behaviour details exist in the record.",
+    "The entire video is 23 seconds long with only 18 seconds of actual tracked content, making independent analysis extremely limited."
+  ]
+}

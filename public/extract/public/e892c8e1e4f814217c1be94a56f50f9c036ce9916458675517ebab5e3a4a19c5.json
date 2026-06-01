@@ -1,0 +1,75 @@
+{
+  "sha256": "e892c8e1e4f814217c1be94a56f50f9c036ce9916458675517ebab5e3a4a19c5",
+  "title": "DOW-UAP-PR089, \"31 AUG [CALLSIGN] [CALLSIGN] Observes UAP part2\"",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2020",
+  "incident_location": "CENTCOM",
+  "what_is_it": "Infrared video recorded by a U.S. military sensor platform showing unidentified areas of contrast (possible UAP), released as part of the PURSUE collection.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "This is part 2 of a two-part video; part 1 may contain additional context not reflected here.",
+    "AARO uses the word 'likely' when attributing the video to a military infrared sensor, indicating uncertainty.",
+    "The materials lack a substantiated chain of custody, meaning authenticity and provenance are not fully verified.",
+    "Callsigns in the title are redacted, obscuring unit identification.",
+    "The video description in the CSV metadata appears truncated, so the full narrative of what occurs after 01:09 is unknown.",
+    "No body text was extractable from the source document; all facts are derived from metadata and the CSV description only.",
+    "The areas of contrast are not identified or assessed as any specific object by AARO in the available description."
+  ],
+  "fabrication_score": 3,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "DOW-UAP-PR089",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident date",
+      "value": "2020",
+      "source_quote": "31 AUG 2020 [CALLSIGN] [CALLSIGN] Observes UAP part2",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Area of operations",
+      "value": "United States Central Command (CENTCOM) area of responsibility",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2020",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "United States Central Command area of responsibility"
+  ],
+  "dated_events": [
+    "31 AUG 2020"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The video is likely derived from an infrared sensor aboard a U.S. military platform in the CENTCOM AOR in 2020.",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2020",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T09:08:22.500Z",
+  "qa_completed_at": "2026-06-01T09:09:13.531Z",
+  "timing": {
+    "A": "23.9s",
+    "B": "27.1s"
+  }
+}

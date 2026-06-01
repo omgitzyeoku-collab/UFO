@@ -1,0 +1,169 @@
+{
+  "sha256": "d0b8800146dfc84e7d1fd40ff400c5d813cb8139dc7cfcf9b9e1ea189c6e8b47",
+  "title": "DOW-UAP-PR074, \"[CALLSIGN] (Mission)HD_20220613\"",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2022",
+  "incident_location": "CENTCOM",
+  "what_is_it": "Infrared sensor video recorded from a U.S. military platform, released as part of the PURSUE collection in response to a congressional request for UAP-related records.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No body text was extractable from the source document — all facts derive from the CSV metadata description provided by war.gov.",
+    "The callsign in the video title is redacted, preventing identification of the specific mission or platform.",
+    "AARO uses the word 'likely' when attributing the video to an infrared sensor on a military platform, indicating this is an assessment, not a confirmed fact.",
+    "The materials lack a substantiated chain-of-custody, meaning the provenance and handling history of this video cannot be fully verified.",
+    "The video description in the metadata is truncated and incomplete beyond timestamp 00:14.",
+    "The object observed is described only as an 'area of contrast' — no determination of what it is has been provided."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_id",
+      "value": "DOW-UAP-PR074",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "uploader_title",
+      "value": "[CALLSIGN] (Mission) HD_20220613",
+      "source_quote": "whose uploader-defined title is, \"[CALLSIGN] (Mission) HD_20220613\"",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "sensor_type",
+      "value": "Infrared sensor aboard a U.S. military platform",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "area_of_operations",
+      "value": "United States Central Command (CENTCOM) area of responsibility",
+      "source_quote": "operating in the United States Central Command area of responsibility",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "incident_date",
+      "value": "June 2022",
+      "source_quote": "A user uploaded this video to a classified network in June 2022",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "video_duration",
+      "value": "00:04:45",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "congressional_request_date",
+      "value": "March 6, 2026",
+      "source_quote": "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "number_of_records_requested",
+      "value": "51",
+      "source_quote": "requested access to 51 potentially UAP-related records",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "storage_location",
+      "value": "Classified network",
+      "source_quote": "A user uploaded this video to a classified network in June 2022",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "chain_of_custody",
+      "value": "Lacks substantiated chain-of-custody",
+      "source_quote": "Many of these materials lack a substantiated chain-of-custody",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "observation_00_00_to_00_10",
+      "value": "Sensor pans right to left tracking an area of contrast moving toward center of field-of-view before losing distinctiveness",
+      "source_quote": "The sensor pans from right to left tracking an area of contrast moving towards the center of the field-of-view, before losing distinctiveness against the background",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "observation_00_11_to_00_14",
+      "value": "Sensor zooms in; an area of contrast transits the field of view",
+      "source_quote": "The sensor zooms in. An area of contrast transits the",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "United States Central Command area of responsibility"
+  ],
+  "dated_events": [
+    "June 2022",
+    "March 6, 2026"
+  ],
+  "objects_described": [
+    "Area of contrast (unidentified, tracked by infrared sensor)",
+    "Infrared sensor on U.S. military platform"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records on March 6, 2026.",
+      "source_quote": "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO identified responsive materials held on a classified network.",
+      "source_quote": "The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Many of the responsive materials lack a substantiated chain-of-custody.",
+      "source_quote": "Many of these materials lack a substantiated chain-of-custody",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The video is likely from an infrared sensor aboard a U.S. military platform in the CENTCOM area in June 2022.",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform operating in the United States Central Command area of responsibility in June 2022",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "A user uploaded this video to a classified network in June 2022.",
+      "source_quote": "A user uploaded this video to a classified network in June 2022",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 5,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T08:52:22.780Z",
+  "qa_completed_at": "2026-06-01T08:53:33.294Z",
+  "timing": {
+    "A": "23.0s",
+    "B": "47.5s"
+  }
+}
