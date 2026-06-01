@@ -1,0 +1,229 @@
+{
+  "sha256": "7f18288e28384224cde647f873b0a1c9f287885a08153bc637c9785e80c59fcb",
+  "title": "NASA-UAP-D011, Mercury Atlas 9 Audio Excerpt, May 15, 1963",
+  "agency": "NASA",
+  "type": "AUD",
+  "incident_date": "5/15/63",
+  "incident_location": "Low Earth Orbit",
+  "what_is_it": "Auto-transcribed audio excerpt from the Mercury-Atlas 9 (Faith 7) spaceflight, capturing pilot-to-ground communications during orbital sunrise.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is an auto-transcription of 1963 audio; multiple passages are garbled or incoherent, likely due to poor audio quality and speech-to-text errors",
+    "The 'fireflies' and particles are identified in the mission description as mission-related equipment (xenon strobe beacons) and thruster-produced debris, not unexplained phenomena",
+    "Cooper's name does not appear in the transcript itself, only in the catalogue metadata",
+    "Single-source audio with no corroborating visual or telemetry data in this excerpt",
+    "Some numeric readings in the transcript may be misheard by the auto-transcription system"
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "Sunrise observation",
+      "value": "Cooper describes a brilliant blue band of light beneath the atmospheric haze layer as the spacecraft approaches orbital sunrise",
+      "source_quote": "the brilliant blue of sun rising in the east, right blue band, underneath all this haze layer",
+      "citation_offset": {
+        "offset": 52,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Particle observation",
+      "value": "Small, brilliant white particles observed drifting away from the spacecraft, moving rearward along the flight path",
+      "source_quote": "he's small in this particle, he's dripped away from you, small in and forward. It's light, they appear brilliant white",
+      "citation_offset": {
+        "offset": 526,
+        "len": 100,
+        "exact": false,
+        "matched": "small in this particle, he's dripped away from you, small in and forward. It's light, they appear br"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Particle movement",
+      "value": "Particles appeared to move outward and back toward the flight path",
+      "source_quote": "They appear to move on out. They're very round back towards the flight path",
+      "citation_offset": {
+        "offset": 667,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Beacon deployment",
+      "value": "Cooper had not visually acquired the deployed beacon but heard deployment noises",
+      "source_quote": "Negative, I still haven't seen the beacon... There was considerable noise of the little doors. It sounded like those doors blowing open",
+      "citation_offset": {
+        "offset": 959,
+        "len": 90,
+        "exact": false,
+        "matched": "There was considerable noise of the little doors. It sounded like those doors blowing open"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Firefly observation",
+      "value": "Firing pitch-down thruster produced a shower of luminous firefly-like particles",
+      "source_quote": "It's kind of like firing a pitch down thruster. I get a shower of these little fireflies",
+      "citation_offset": {
+        "offset": 2450,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Beacon visual",
+      "value": "Beacon observed flashing, estimated 10-12 miles away, comparable to a second-magnitude star",
+      "source_quote": "Here's to be about 10 to 12 miles away. I'm keeping it directly in the window. At the order of a second magnitude star now",
+      "citation_offset": {
+        "offset": 2669,
+        "len": 122,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Florida observation",
+      "value": "Cooper had a clear view of the entire state of Florida",
+      "source_quote": "what a beautiful shot of Florida... the whole state is clear",
+      "citation_offset": {
+        "offset": 1840,
+        "len": 30,
+        "exact": false,
+        "matched": "what a beautiful shot of Flori"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Main bus voltage",
+      "value": "24 volts reported",
+      "source_quote": "main bus is 24",
+      "citation_offset": {
+        "offset": 1400,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Florida"
+  ],
+  "dated_events": [],
+  "objects_described": [
+    "Small brilliant white particles drifting from spacecraft",
+    "Luminous firefly-like particles produced by thruster firing"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Cooper observed small, brilliant white particles drifting away from the spacecraft near orbital sunrise",
+      "source_quote": "he's small in this particle, he's dripped away from you, small in and forward. It's light, they appear brilliant white",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 526,
+        "len": 100,
+        "exact": false,
+        "matched": "small in this particle, he's dripped away from you, small in and forward. It's light, they appear br"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The particles moved outward and back along the flight path",
+      "source_quote": "They appear to move on out. They're very round back towards the flight path",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 667,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Cooper heard deployment noises but did not visually acquire the beacon initially",
+      "source_quote": "Negative, I still haven't seen the beacon... There was considerable noise of the little doors",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 959,
+        "len": 48,
+        "exact": false,
+        "matched": "There was considerable noise of the little doors"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Firing the pitch-down thruster produced a shower of firefly-like particles",
+      "source_quote": "It's kind of like firing a pitch down thruster. I get a shower of these little fireflies",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2450,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The beacon was estimated at 10-12 miles distance and comparable to a second-magnitude star",
+      "source_quote": "Here's to be about 10 to 12 miles away... At the order of a second magnitude star now",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2746,
+        "len": 45,
+        "exact": false,
+        "matched": ". At the order of a second magnitude star now"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The beacon appeared reddish-brown in colour",
+      "source_quote": "It's quite a brownish. It's reddish brown",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 2356,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The entire state of Florida was visible and clear from orbit",
+      "source_quote": "what a beautiful shot of Florida... the whole state is clear",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1840,
+        "len": 30,
+        "exact": false,
+        "matched": "what a beautiful shot of Flori"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 4,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T09:24:48.904Z",
+  "qa_completed_at": "2026-06-01T09:25:36.809Z",
+  "timing": {
+    "A": "25.7s",
+    "B": "22.2s",
+    "E": "17.5s"
+  },
+  "public_headline": "Mercury Atlas 9 Audio Captures Pilot Observing Particles in Orbit",
+  "public_tldr": "This is an auto-transcribed audio excerpt from the Mercury-Atlas 9 (Faith 7) spaceflight on 15 May 1963, capturing pilot-to-ground communications during orbital sunrise. The pilot describes brilliant white particles drifting from the spacecraft and luminous 'firefly'-like particles produced by thruster firing — both identified in mission documentation as equipment-related (xenon strobe beacons and thruster debris), not unexplained phenomena.",
+  "public_narrative": "This document is an auto-transcribed audio recording from NASA's Mercury-Atlas 9 mission, also known as Faith 7, dated 15 May 1963. It captures communications between the pilot in low Earth orbit and ground control during an orbital sunrise.\n\nThe pilot describes a brilliant blue band of light beneath the atmospheric haze layer as the spacecraft approached sunrise. He then reports small, brilliant white particles drifting away from the spacecraft, moving rearward along the flight path. Later, firing the pitch-down thruster produced what the pilot called a shower of 'little fireflies' — luminous particles streaming from the vehicle.\n\nThe recording also documents the pilot's attempts to locate a deployed xenon strobe beacon. He initially reported hearing deployment noises but not seeing the beacon. He later observed it flashing at an estimated distance of 10 to 12 miles, describing it as comparable to a second-magnitude star with a reddish-brown colour. Separately, the pilot reported a clear view of the entire state of Florida from orbit and noted a main bus voltage of 24 volts.\n\nThe mission description identifies the observed particles and 'fireflies' as mission-related equipment — specifically xenon strobe beacons and debris produced by thruster firings — rather than unexplained phenomena. NASA released this audio as part of its UAP (Unidentified Anomalous Phenomena) public document collection, though the content itself points to conventional explanations.\n\nThere is low evidence of redaction in this document. No agency conclusion about anomalous phenomena is present in the excerpt.",
+  "public_caveats": [
+    "This is an auto-transcription of 1963 audio; multiple passages are garbled or incoherent due to poor audio quality and speech-to-text errors, so exact wording should be treated with caution.",
+    "The 'fireflies' and particles are identified in the mission description as equipment-related (xenon strobe beacons and thruster debris), not unexplained phenomena.",
+    "The pilot's name does not appear in the transcript itself — it appears only in catalogue metadata. Attribution relies on that metadata alone.",
+    "This is a single-source audio excerpt with no corroborating visual or telemetry data included.",
+    "Some numeric readings in the transcript may have been misheard by the auto-transcription system."
+  ]
+}

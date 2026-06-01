@@ -1,0 +1,201 @@
+{
+  "sha256": "392c58d3ebec32241cbaac7b27a1437be827432cf94dcc458e4367dec9eb4a30",
+  "title": "NASA-UAP-D010, Mercury Atlas 9 Audio Excerpt, May 15, 1963",
+  "agency": "NASA",
+  "type": "AUD",
+  "incident_date": "5/15/63",
+  "incident_location": "Low Earth Orbit",
+  "what_is_it": "Auto-transcribed audio excerpt from NASA's Mercury-Atlas 9 (Faith 7) mission, documenting astronaut L. Gordon Cooper Jr.'s in-flight observations of luminous particles known as 'fireflies.'",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is an auto-transcription of audio, so wording may contain transcription errors (e.g. 'light rail fireflies', 'This guy looks dark' may be mishearings)",
+    "Cooper refers to the particles as 'him' and 'he' in places, likely artefacts of the auto-transcription rather than intentional personification",
+    "The official NASA explanation attributing the phenomenon to frozen condensation comes from metadata, not from Cooper's own words in the transcript",
+    "Single observer account from a solo orbital mission with no corroborating crew"
+  ],
+  "fabrication_score": 3,
+  "key_facts": [
+    {
+      "field": "Mission elapsed time of observation",
+      "value": "1 hour and 21 minutes",
+      "source_quote": "I now have 1 hour and 21 minutes, and I am observing John's fireflies",
+      "citation_offset": {
+        "offset": 70,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Phenomenon name",
+      "value": "John's fireflies (term from John Glenn's MA-6 mission)",
+      "source_quote": "I am observing John's fireflies, lifting away from me",
+      "citation_offset": {
+        "offset": 108,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Particle colour",
+      "value": "White with green tint",
+      "source_quote": "Fireflies appear to be white. Very whitish with almost a green light rail fireflies",
+      "citation_offset": {
+        "offset": 413,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Particle movement",
+      "value": "Drifting rearward from spacecraft",
+      "source_quote": "departing from the spacecraft and drifting out to the rear",
+      "citation_offset": {
+        "offset": 206,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Lighting conditions",
+      "value": "Transitional — daytime approaching but stars still visible",
+      "source_quote": "I have been on the daytime, decided not yet quite up, and I am observing stars",
+      "citation_offset": {
+        "offset": 630,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Star visibility",
+      "value": "Stars distinctly visible despite Earth being partially lit",
+      "source_quote": "I can see stars. Very distinctly",
+      "citation_offset": {
+        "offset": 800,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Cloud observation",
+      "value": "Earth's clouds changing colour, becoming lighter",
+      "source_quote": "Clouds on the Earth are changing color. They are getting quite light",
+      "citation_offset": {
+        "offset": 498,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident date",
+      "value": "May 15, 1963",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident location",
+      "value": "Low Earth Orbit",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [
+    "John"
+  ],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [
+    "Luminous particles ('fireflies') — white/greenish drifting objects near spacecraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Cooper observed luminous particles at 1 hour 21 minutes mission elapsed time",
+      "source_quote": "I now have 1 hour and 21 minutes, and I am observing John's fireflies",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 70,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The particles drifted rearward from the spacecraft",
+      "source_quote": "departing from the spacecraft and drifting out to the rear",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 206,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The particles appeared white with a greenish tint",
+      "source_quote": "Fireflies appear to be white. Very whitish with almost a green light rail fireflies",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 413,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Cooper could see stars distinctly while the sky above appeared dark",
+      "source_quote": "This guy looks dark above me, and I can see stars. Very distinctly",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 766,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Earth's clouds were changing colour and becoming lighter during the observation",
+      "source_quote": "Clouds on the Earth are changing color. They are getting quite light",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 498,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T09:23:50.920Z",
+  "qa_completed_at": "2026-06-01T09:24:31.076Z",
+  "timing": {
+    "A": "22.0s",
+    "B": "18.1s",
+    "E": "17.8s"
+  },
+  "public_headline": "Astronaut Cooper Reported Glowing Particles During 1963 Orbital Flight",
+  "public_tldr": "This is an auto-transcribed audio excerpt from NASA's Mercury-Atlas 9 mission on 15 May 1963, in which astronaut Gordon Cooper described luminous white-green particles drifting away from his spacecraft in low Earth orbit. The particles were the same 'fireflies' phenomenon first reported by John Glenn on an earlier Mercury mission.",
+  "public_narrative": "On 15 May 1963, astronaut L. Gordon Cooper Jr. was orbiting Earth alone aboard Faith 7, the final mission in NASA's Mercury programme. At one hour and 21 minutes into the flight, he reported seeing what he called \"John's fireflies\" — a reference to the luminous particles first observed by astronaut John Glenn during his Mercury-Atlas 6 mission the previous year.\n\nCooper described the particles as white with a greenish tint, drifting rearward from his spacecraft. He was in a transitional lighting period — approaching daytime but still able to see stars distinctly overhead, while Earth's clouds below were changing colour and becoming lighter.\n\nThis document is an auto-transcription of Cooper's in-flight audio, released by NASA as part of a UAP-related disclosure. It captures a single astronaut's real-time observations, with no ground-based corroboration included in the excerpt. NASA's metadata attributes the phenomenon to frozen condensation from the spacecraft, though Cooper himself does not offer that explanation in the transcript.\n\nThe transcript shows no signs of significant redaction. However, auto-transcription has introduced likely errors — phrases such as \"light rail fireflies\" and \"This guy looks dark\" appear to be mishearings rather than Cooper's actual words.",
+  "public_caveats": [
+    "This is a single-observer account from a solo mission — no crew member or ground station corroborates the visual details in this excerpt.",
+    "The transcript is auto-generated from audio, so specific wording may contain transcription errors that distort Cooper's original statements.",
+    "The official explanation (frozen condensation) comes from NASA metadata, not from anything Cooper says in the transcript itself.",
+    "The 'fireflies' phenomenon was already known from John Glenn's earlier mission and was not treated as unexplained by NASA at the time.",
+    "There is no significant redaction in this document — what you see is effectively the full content of the audio excerpt."
+  ]
+}

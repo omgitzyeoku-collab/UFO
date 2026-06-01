@@ -1,0 +1,174 @@
+{
+  "sha256": "7a9da5c7ffb2aefb581535d28a5d14a204f4a0f28a36aea537119b2159d5d224",
+  "title": "DOW-UAP-PR091, \"21 AUG [CALLSIGN] Observes UAP in Persian Gulf\"",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2020",
+  "incident_location": "CENTCOM",
+  "what_is_it": "Infrared video recording from a U.S. military sensor platform showing an unidentified anomalous phenomenon (UAP) observed in the Persian Gulf region.",
+  "core_summary": "This is a 4-minute 48-second infrared video likely captured by a U.S. military platform operating in the CENTCOM area of responsibility in August 2020. The video shows a sensor tracking an area of contrast that transits across the frame, with the first three minutes containing no content. AARO notes the video was uploaded to a classified network and lacks a substantiated chain of custody.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "The video lacks a substantiated chain of custody, meaning its origin and handling history cannot be fully verified.",
+    "The callsign in the title is redacted, preventing identification of the specific military unit or platform involved.",
+    "Over 64% of the video duration (first 3:07) contains no content, limiting the observable data.",
+    "AARO uses hedged language ('likely derived from'), indicating the platform and sensor identification is an assessment, not a confirmed fact.",
+    "No extracted text was available from the source document — all facts are derived from metadata and the CSV description provided by war.gov.",
+    "The video description in the metadata appears to be truncated, suggesting additional content may not be captured here."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_id",
+      "value": "DOW-UAP-PR091",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_date",
+      "value": "August 2020",
+      "source_quote": "uploader-defined title is, \"21 AUG 2020 [CALLSIGN] Observes UAP in Persian Gulf\"",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "incident_region",
+      "value": "Persian Gulf / CENTCOM AOR",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "sensor_type",
+      "value": "Infrared",
+      "source_quote": "likely derived from an infrared sensor aboard a U.S. military platform",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "video_duration",
+      "value": "00:04:48",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "classification_network_upload",
+      "value": "August 2020",
+      "source_quote": "A user uploaded this video to a classified network in August 2020",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "chain_of_custody",
+      "value": "Not substantiated",
+      "source_quote": "Many of these materials lack a substantiated chain-of-custody",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "congressional_request_date",
+      "value": "March 6, 2026",
+      "source_quote": "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "congressional_requestors",
+      "value": "Eight members of the U.S. House of Representatives",
+      "source_quote": "eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "no_content_segment",
+      "value": "00:00-03:07",
+      "source_quote": "00:00-03:07: No content",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "observable_event",
+      "value": "Area of contrast transits top to bottom of frame",
+      "source_quote": "An area of contrast transits from the top of the screen to the bottom, exiting the frame",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Persian Gulf",
+    "United States Central Command area of responsibility"
+  ],
+  "dated_events": [
+    "21 AUG 2020",
+    "March 6, 2026"
+  ],
+  "objects_described": [
+    "UAP (area of contrast on infrared sensor)",
+    "U.S. military platform with infrared sensor"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records on March 6, 2026",
+      "source_quote": "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO assessed the video is likely from an infrared sensor aboard a U.S. military platform in the CENTCOM area of responsibility",
+      "source_quote": "AARO assesses that this video...is likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The video was uploaded to a classified network in August 2020",
+      "source_quote": "A user uploaded this video to a classified network in August 2020",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Many of the responsive materials lack a substantiated chain of custody",
+      "source_quote": "Many of these materials lack a substantiated chain-of-custody",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The first three minutes and seven seconds of the video contain no content",
+      "source_quote": "00:00-03:07: No content",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 5,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T09:10:40.972Z",
+  "qa_completed_at": "2026-06-01T09:11:36.991Z",
+  "timing": {
+    "A": "21.5s",
+    "B": "34.5s",
+    "E": "16.3s"
+  },
+  "public_headline": "Pentagon Releases Infrared Video of Unidentified Object Over Persian Gulf",
+  "public_tldr": "This is a roughly five-minute infrared video from August 2020, assessed by AARO to have been captured by a U.S. military sensor platform in the Persian Gulf region. Most of the footage is blank, and the video lacks a verified chain of custody, meaning its origin cannot be fully confirmed.",
+  "public_narrative": "In August 2020, someone uploaded a video to a classified U.S. military network showing what was described as a UAP — an unidentified anomalous phenomenon — observed in the Persian Gulf. The video is catalogued as DOW-UAP-PR091 and runs four minutes and 48 seconds, though the first three minutes and seven seconds contain no content at all.\n\nThe All-domain Anomaly Resolution Office (AARO), the Pentagon body responsible for investigating UAP reports, assessed that the footage was likely captured by an infrared sensor aboard a U.S. military platform operating within the CENTCOM (United States Central Command) area of responsibility. In the portion of the video that does contain imagery, an area of contrast moves from the top of the frame to the bottom before exiting the screen. The military callsign in the title has been redacted, so the specific unit or aircraft involved is unknown.\n\nThis video was among materials released after eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records on 6 March 2026. AARO has not publicly identified what the object in the video is.\n\nNotably, AARO flags that many of the released materials — including this one — lack a substantiated chain of custody. That means the handling history of the video from capture to upload cannot be independently verified. AARO also uses hedged language throughout, describing the platform and sensor identification as an assessment rather than a confirmed fact.",
+  "public_caveats": [
+    "The video has no verified chain of custody — its origin and handling history cannot be fully confirmed.",
+    "Over 64% of the video (the first 3 minutes and 7 seconds) contains no content, leaving under two minutes of actual footage.",
+    "The military callsign is redacted, so the aircraft or unit involved is unidentified.",
+    "AARO describes the platform and sensor identification as 'likely' rather than confirmed — this is an assessment, not an established fact.",
+    "No extracted text was available from the source file itself; all facts here come from metadata and the official catalogue description provided by war.gov."
+  ]
+}

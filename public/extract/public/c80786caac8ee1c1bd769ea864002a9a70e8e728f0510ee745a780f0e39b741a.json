@@ -1,0 +1,74 @@
+{
+  "sha256": "c80786caac8ee1c1bd769ea864002a9a70e8e728f0510ee745a780f0e39b741a",
+  "title": "DOW-UAP-PR094, \"[CALLSIGN] (Mission) - HD 2020-02-13\"",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2020",
+  "incident_location": "CENTCOM",
+  "what_is_it": "A military infrared/electro-optical sensor video recording uploaded to a classified network, released as part of the PURSUE UAP disclosure collection.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "The callsign and mission name are redacted from the title, preventing identification of the specific platform or operation.",
+    "Nearly the entire 5-minute video contains no content; the observable event lasts only about 4 seconds.",
+    "AARO uses the word 'likely' when attributing the sensor platform, indicating uncertainty about provenance.",
+    "The materials explicitly lack a substantiated chain of custody, meaning the origin and handling cannot be fully verified.",
+    "No extracted text is available from the source document itself — all facts derive from the metadata description provided by AARO.",
+    "The 'area of contrast' is not identified or characterised beyond its brief transit across the frame."
+  ],
+  "fabrication_score": 3,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "DOW-UAP-PR094",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Title",
+      "value": "[CALLSIGN] (Mission) - HD 2020-02-13",
+      "source_quote": "whose uploader-defined title is, \"[CALLSIGN] (Mission) - HD 2020-02-13\"",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Area of responsibility",
+      "value": "United States Central Command (CENTCOM)",
+      "source_quote": "operating within the United States Central Command area of responsibility in 2020",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "United States Central Command area of responsibility"
+  ],
+  "dated_events": [
+    "2020-02-13"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The video is likely from an EO/IR sensor on a U.S. military platform in CENTCOM in 2020",
+      "source_quote": "likely derived from an electro-optical and infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2020",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T09:14:52.144Z",
+  "qa_completed_at": "2026-06-01T09:15:40.618Z",
+  "timing": {
+    "A": "23.9s",
+    "B": "24.6s"
+  }
+}
