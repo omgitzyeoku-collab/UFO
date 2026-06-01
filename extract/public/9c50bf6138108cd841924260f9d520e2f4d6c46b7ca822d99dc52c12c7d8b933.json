@@ -1,0 +1,247 @@
+{
+  "sha256": "9c50bf6138108cd841924260f9d520e2f4d6c46b7ca822d99dc52c12c7d8b933",
+  "title": "UFO Part 08",
+  "agency": "FBI",
+  "type": "PDF",
+  "what_is_it": "Collection of FBI internal memos, teletypes, and attached press clippings from 1950 concerning multiple flying saucer reports and investigations.",
+  "core_summary": "This file contains several 1950-era FBI documents: (1) an FBI Buffalo teletype reporting a 'flying saucer' near Elmira, NY that turned out to be a painted cardboard box hoax; (2) correspondence about a letter from Veracruz, Mexico claiming scientific investigation of flying discs, which the New York office found possibly psychotic or neurotic in origin; (3) a U.S. News & World Report article describing jet-propelled disk aircraft with German wartime origins; and (4) a detailed multi-page report on radar detections of an object at approximately 100,000 feet over Oak Ridge, Tennessee in March 1950, involving CIC, OSI, AEC, and Naval Reserve personnel.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "OCR quality is extremely poor throughout — most of pages 1, 4, 5, 8, and 9 are nearly unreadable garbled text, meaning significant content may be missed or misread.",
+    "Heavy redaction of personal names throughout the Oak Ridge radar report — all key witnesses, military officers, and the civilian radar operator are redacted.",
+    "The Oak Ridge radar detections relied on a single civilian's surplus APN-7 radar set that military evaluators deemed unreliable and 'haphazard at best'.",
+    "The U.S. News & World Report article (pages 11-14) is a press clipping attached to the FBI file, not an FBI assessment — its claims about German-origin jet-propelled disks reflect journalistic speculation of the era.",
+    "The Veracruz letter was assessed by FBI New York as potentially from someone 'psychotic or neurotic' — its content should not be treated as credible without further corroboration.",
+    "Multiple agencies (FBI, CIC, OSI, AEC, Air Force, 3rd Army) were involved but none appeared to take decisive investigative ownership of the Oak Ridge matter."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Elmira hoax description",
+      "value": "Corrugated cardboard box, 40 inches diameter, 1 foot thick, painted aluminum, with radio tube and trucker's red flare",
+      "source_quote": "FLYING SAUCER WAS CORRUGATED CARDBOARD BOX, FORTY INS. DIAMETER, ONE FOOT THICK AT CENTER. ENTIRE BOX PAINTED ALUMINUM",
+      "citation_offset": {
+        "offset": 3359,
+        "len": 60,
+        "exact": false,
+        "matched": "DIAMETER, ONE FOOT THICK AT CENTER. ENTIRE BOX PAINTED ALUMI"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Elmira hoax location",
+      "value": "Near Elmira, NY airport",
+      "source_quote": "FLYING SAUCER HAD LANDED NEAR ELMIRA, NY-AIRPORT",
+      "citation_offset": {
+        "offset": 3200,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Elmira hoax flight capability",
+      "value": "None — too fragile to fly, no witnesses to flight",
+      "source_quote": "NO WITNESSES AS TO ACTUAL FLIGHT AND BOX IS DESCRIBED AS TOO FRAGILE TO WITHSTAND FLIGHT",
+      "citation_offset": {
+        "offset": 3679,
+        "len": 43,
+        "exact": false,
+        "matched": "ESCRIBED AS TOO FRAGILE TO WITHSTAND FLIGHT"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Veracruz letter date",
+      "value": "March 19, 1950",
+      "source_quote": "This letter is dated at Veracruz, March 19, 1950",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Veracruz letter assessment",
+      "value": "FBI New York office could not determine authenticity; considered author possibly psychotic or neurotic",
+      "source_quote": "difficult to determine whether the formation is authentic or whether the author of this material is either paychotic or neurotic",
+      "citation_offset": {
+        "offset": 21115,
+        "len": 70,
+        "exact": false,
+        "matched": "formation is authentic or whether the author of this material is eithe"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Oak Ridge radar altitude",
+      "value": "Approximately 100,000 feet directly over Oak Ridge",
+      "source_quote": "indications of the object at approximately 100,000 feet directly over Oak Ridge",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Oak Ridge radar equipment assessment",
+      "value": "Military evaluators found the civilian's radar equipment haphazard and unreliable",
+      "source_quote": "equipment was haphazard at best and that no great degree of reliability could be placed therein",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "AEC jurisdiction concern",
+      "value": "AEC stated it lacked authority to request radar equipment since area defence was 3rd Army responsibility",
+      "source_quote": "they nevertheless did not feel that they had the authority to make a specific request for such action inasmuch as the protection of the area from assault was the responsibility of the 3rd Army",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Press article claim on disk origins",
+      "value": "U.S. News & World Report article claimed saucers were US-built jet-propelled disks based on German wartime designs",
+      "source_quote": "They are still planes, engineered on principles developed by wartime",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Article disk specs",
+      "value": "Only 25 feet diameter, max speed 400-500 mph, landing speed 25 mph",
+      "source_quote": "only 25 feet in diameter... maximum speed between 400 and 500 miles an hour",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Navy Flapjack project mentioned",
+      "value": "Article referenced a Navy disk project tested by Chance Vought from 1942, later said to be dropped",
+      "source_quote": "NAVY FLAPJACK PROJECT WAS DROPPED",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "J. Edgar Hoover",
+    "Sam Rayburn"
+  ],
+  "named_places": [
+    "Elmira, New York",
+    "Buffalo, New York",
+    "Washington, D.C.",
+    "The Pentagon",
+    "Veracruz, Mexico",
+    "Oak Ridge, Tennessee",
+    "Knoxville, Tennessee",
+    "Maxwell Field, Alabama",
+    "Atlanta, Georgia",
+    "Greenville, South Carolina",
+    "Fort Knox, Kentucky",
+    "White Sands",
+    "Chicago, Illinois"
+  ],
+  "dated_events": [
+    "1950-03-03 — radar observations began at Oak Ridge",
+    "1950-03-04 — second radar detection over Oak Ridge at 10:30",
+    "1950-03-05 — Colonel and Captain unable to gain entry to residence",
+    "1950-03-06 — further radar observation over Oak Ridge",
+    "1950-03-08 — Air Force representatives from Greenville, SC arrived",
+    "1950-03-09 — CIC and another agent observed radar 'pips' at the residence",
+    "1950-03-19 — letter from Veracruz dated",
+    "1950-04-01 — SAC New York memo to FBI Director",
+    "1950-04-07 — Veracruz letter received at New York office",
+    "1950-04-09 — letter to Bureau referencing flying saucers"
+  ],
+  "objects_described": [
+    "Hoax flying saucer (painted cardboard box with radio tube and flare)",
+    "Radar-detected object at ~100,000 feet over Oak Ridge",
+    "Jet-propelled disk aircraft (described in U.S. News & World Report article)",
+    "APN-7 surplus radar set (used by civilian observer)",
+    "Navy Flapjack experimental disk (Chance Vought)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A reported flying saucer near Elmira, NY was determined to be a cardboard hoax with no flight capability",
+      "source_quote": "FLYING SAUCER WAS CORRUGATED CARDBOARD BOX... TOO FRAGILE TO WITHSTAND FLIGHT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3690,
+        "len": 32,
+        "exact": false,
+        "matched": " TOO FRAGILE TO WITHSTAND FLIGHT"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The FBI was instructed to refer flying saucer press inquiries to the Air Force",
+      "source_quote": "any press inquiries regarding the flying saucer should be referred to the Air Force in that area",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5484,
+        "len": 46,
+        "exact": false,
+        "matched": "any press inquiries regarding the flying sauce"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A civilian in Knoxville detected radar returns at approximately 100,000 feet over the Oak Ridge AEC facility in early March 1950",
+      "source_quote": "indications of the object at approximately 100,000 feet directly over Oak Ridge",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Military personnel who examined the civilian's radar found it unreliable and haphazard",
+      "source_quote": "equipment was haphazard at best and that no great degree of reliability could be placed therein",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The AEC said area air defence was the 3rd Army's responsibility, not theirs",
+      "source_quote": "protection of the area from assault was the responsibility of the 3rd Army",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "CIC and another agent visited the civilian and observed radar 'pips' consistent with his previous reports but could not make authoritative statements",
+      "source_quote": "they had seen sufficient to give them reason to believe it warranted investigation",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "A scientist stated that while highly improbable, an aircraft sustaining 100,000 feet altitude was absolutely possible from a scientific and engineering standpoint",
+      "source_quote": "while it was highly improbable that aircraft could sustain an altitude of 100,000 feet, it was absolutely possible from a scientific and engineering standpoint",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The civilian radar operator was locally recognised as a reputable citizen and skilled radio technician",
+      "source_quote": "generally recognised in this vicinity as reputable and substantial citizen... credited with being a skilled radio technician",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 8,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T09:44:25.760Z",
+  "qa_completed_at": "2026-06-01T09:46:01.458Z",
+  "timing": {
+    "A": "64.0s",
+    "B": "31.6s",
+    "E": "23.3s"
+  },
+  "public_headline": "FBI Files from 1950: Hoaxes, Radar Blips, and Jurisdictional Confusion",
+  "public_tldr": "This FBI file compiles internal memos and press clippings from 1950 covering a cardboard flying saucer hoax near Elmira, NY, a dubious letter from Mexico claiming scientific study of flying discs, and a detailed but inconclusive investigation into radar detections of an object at roughly 100,000 feet over the Oak Ridge nuclear facility in Tennessee. Names of nearly all witnesses and military officers are redacted throughout.",
+  "public_narrative": "This collection of FBI documents from 1950 brings together several unrelated flying saucer reports that crossed the Bureau's desk. The most straightforward is from Buffalo, NY: a reported flying saucer near Elmira airport turned out to be a corrugated cardboard box, 40 inches across and a foot thick, painted aluminium and fitted with a radio tube and a trucker's red flare. The FBI noted it was too fragile to have ever flown, and no one had witnessed it in the air. Case closed as a hoax.\n\nA second thread involves a letter dated 19 March 1950 from Veracruz, Mexico, claiming scientific investigation of flying discs. The FBI's New York office reviewed it and could not confirm whether the claims were genuine, concluding the author was possibly \"psychotic or neurotic.\" The Bureau did not pursue the matter further.\n\nThe most substantial portion of the file concerns radar detections over Oak Ridge, Tennessee — home to Atomic Energy Commission (AEC) facilities — in early March 1950. A civilian near Knoxville, locally regarded as a reputable citizen and skilled radio technician, reported picking up returns on his surplus APN-7 radar set at approximately 100,000 feet directly over Oak Ridge. Observations began on 3 March and continued over subsequent days. Agents from the Counter Intelligence Corps (CIC) and the Office of Special Investigations (OSI) visited the civilian and observed radar \"pips\" consistent with his reports. A scientist consulted on the matter stated that while an aircraft sustaining 100,000 feet was \"highly improbable,\" it was \"absolutely possible from a scientific and engineering standpoint.\"\n\nHowever, military evaluators who examined the civilian's equipment found it \"haphazard at best\" and said no great reliability could be placed in its readings. The AEC stated it lacked authority to request proper radar equipment for verification, since area air defence fell to the 3rd Army. No agency appeared to take decisive ownership of the investigation. The file also includes a U.S. News & World Report article — a press clipping, not an FBI assessment — speculating that flying saucers were US-built jet-propelled disks based on German wartime designs, only 25 feet in diameter with a top speed of 400–500 mph. The article also referenced the Navy's \"Flapjack\" experimental disk project by Chance Vought, which it said had been dropped.",
+  "public_caveats": [
+    "Personal names are heavily redacted throughout the Oak Ridge radar report — all key witnesses, military officers, and the civilian radar operator are blacked out, making independent verification impossible.",
+    "The Oak Ridge radar detections relied on a single civilian's surplus equipment that military evaluators deemed unreliable, and no corroborating military-grade radar data was obtained.",
+    "OCR quality on the scanned document is extremely poor across multiple pages, meaning significant content may be missing or misread from the original.",
+    "The U.S. News & World Report article about German-origin jet disks is a press clipping attached to the FBI file, not an FBI finding — it reflects journalistic speculation of the era, not intelligence assessment.",
+    "Multiple agencies (FBI, CIC, OSI, AEC, Air Force, 3rd Army) were involved in the Oak Ridge matter, but none took clear investigative ownership, and the file contains no final resolution."
+  ]
+}

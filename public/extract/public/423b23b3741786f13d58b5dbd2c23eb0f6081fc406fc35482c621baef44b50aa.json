@@ -1,0 +1,267 @@
+{
+  "sha256": "423b23b3741786f13d58b5dbd2c23eb0f6081fc406fc35482c621baef44b50aa",
+  "title": "UFO Part 13",
+  "agency": "FBI",
+  "type": "PDF",
+  "what_is_it": "A collection of FBI correspondence including a UFO sighting interview summary, a citizen inquiry letter about flying saucers, J. Edgar Hoover's reply, and an Air Force counter-intelligence forwarding letter.",
+  "core_summary": "This batch of documents from roughly 1956 includes: an interview summary of a woman who reported seeing a bright, silent, flickering object near Henderson, North Carolina on approximately April 5, 1956; a letter from a Springfield, Massachusetts high school student asking the FBI to confirm a story from Harold Wilkins' book 'Flying Saucers Uncensored' about two supposed Venusians visiting a Los Angeles journalist in March 1953; J. Edgar Hoover's reply stating no such matter was ever reported to the FBI; and a USAF counter-intelligence letter forwarding a document found inside a book loaned to a Mr. Small, a typesetter for the Home Nugget newspaper in Alaska.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy — extensive degradation from poor scan quality makes large portions illegible; some text appears intentionally redacted alongside severe OCR corruption throughout all pages",
+  "interpretation_warnings": [
+    "Extremely poor OCR quality renders large portions of text illegible; extracted facts should be verified against the original scanned PDF",
+    "The Henderson NC sighting account is a single-witness report with no corroboration mentioned",
+    "The 'Venusian' contact story is presented only as a citizen's question about a book claim — the FBI explicitly denied any knowledge of it",
+    "The Air Force counter-intelligence letter's subject matter is partially illegible; the relationship between Dr. Kennedy, Mr. Small, and the found letter is unclear",
+    "Multiple pages appear to be hotel letterhead stationery (Miami, Florida) but content on those pages is almost entirely unreadable"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Henderson NC sighting date",
+      "value": "Approximately April 5, 1956",
+      "source_quote": "1956, Wail: drivzwg on... near Herzdensan, Iiar; Eareiina",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Henderson NC object description",
+      "value": "Bright, flickering light, silent, estimated less than 2,500 feet altitude",
+      "source_quote": "less than 2,5 fE... very bright wad Ficwinjj... It mad: no su.w:d that sh: could hear",
+      "citation_offset": {
+        "offset": 1528,
+        "len": 35,
+        "exact": false,
+        "matched": " mad: no su.w:d that sh: could hear"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Interview date",
+      "value": "April 6, 1956",
+      "source_quote": "ght on xprii 6, Z956",
+      "citation_offset": {
+        "offset": 978,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Book referenced by student",
+      "value": "Flying Saucers Uncensored by Harold Wilkins",
+      "source_quote": "entitled flying saucers uncensored written by Harold W11k1ns",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Alleged Venus contact date",
+      "value": "March 1953",
+      "source_quote": "two men who supposedly oame from Venus and wont to a Los Angelou journalist in March 1953",
+      "citation_offset": {
+        "offset": 5020,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Student location",
+      "value": "Springfield, Massachusetts, Technical High School",
+      "source_quote": "Springfielo Maasaohuoo... a student at Technical High School here in",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Hoover reply date",
+      "value": "Response to letter dated February 12, 1956",
+      "source_quote": "Your letter dated February 12, 1356, hag been received",
+      "citation_offset": {
+        "offset": 3542,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Hoover denial",
+      "value": "Stated no such matter was ever reported to the FBI",
+      "source_quote": "no matter such as ya: descrihcd was ever revarted u the iii",
+      "citation_offset": {
+        "offset": 3688,
+        "len": 54,
+        "exact": false,
+        "matched": "tter such as ya: descrihcd was ever revarted u the iii"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Air Force letter addressee",
+      "value": "J. Edgar Hoover, FBI, ATTN: Mr. Daniel J. Sullivan, Liaison Agent",
+      "source_quote": "ATTH: Mr. Daniel J. Sullivan Liaison Agent",
+      "citation_offset": {
+        "offset": 15285,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Air Force reference location",
+      "value": "Research Laboratory, St. Clair Shores, Michigan",
+      "source_quote": "Research Llboratury St. Cltir Shores, Ilioliigan",
+      "citation_offset": {
+        "offset": 15353,
+        "len": 33,
+        "exact": false,
+        "matched": "Research Llboratury St. Cltir Sho"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Alaska source",
+      "value": "Dr. Kennedy, DDS, private pilot who had previously reported to intelligence",
+      "source_quote": "Doctor Konnidy DDS, Ema, Alaska... privatu pilot who hinas the put bean the source of several raportn",
+      "citation_offset": {
+        "offset": 16083,
+        "len": 65,
+        "exact": false,
+        "matched": "privatu pilot who hinas the put bean the source of several raport"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Air Force originator",
+      "value": "Major Greenhalgh, Intelligence Service Squadron, Seattle, Washington",
+      "source_quote": "Major Greenhulghadvised that tha letter nu turned over to Flight 1",
+      "citation_offset": {
+        "offset": 15915,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Air Force signatory role",
+      "value": "Chief, Counter Intelligence Division, Director of Special Investigations, The Inspector General",
+      "source_quote": "Chief, Counter In o ig9n0a Div DIir Oborato at Special Invaatigationa The Inspector General",
+      "citation_offset": {
+        "offset": 17445,
+        "len": 61,
+        "exact": false,
+        "matched": " DIir Oborato at Special Invaatigationa The Inspector General"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "John Edgar Hoover",
+    "Daniel J. Sullivan",
+    "Harold Wilkins",
+    "Major Greenhalgh",
+    "Dr. Kennedy",
+    "Charles L. Young"
+  ],
+  "named_places": [
+    "Henderson, North Carolina",
+    "Springfield, Massachusetts",
+    "Washington, D.C.",
+    "Los Angeles",
+    "St. Clair Shores, Michigan",
+    "Seattle, Washington",
+    "Alaska",
+    "Miami, Florida"
+  ],
+  "dated_events": [
+    "April 6, 1956",
+    "February 12, 1956",
+    "March 1953",
+    "14 Nov 54"
+  ],
+  "objects_described": [
+    "Bright flickering silent aerial light observed near Henderson NC at less than 2,500 feet"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A woman reported seeing a bright, silent, flickering object while driving near Henderson, North Carolina around April 5, 1956",
+      "source_quote": "drivzwg on... near Herzdensan... very bright wad Ficwinjj... no su.w:d that sh: could hear",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1533,
+        "len": 30,
+        "exact": false,
+        "matched": " no su.w:d that sh: could hear"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "J. Edgar Hoover stated that no matter matching the student's description was ever reported to the FBI",
+      "source_quote": "no matter such as ya: descrihcd was ever revarted u the iii",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3688,
+        "len": 54,
+        "exact": false,
+        "matched": "tter such as ya: descrihcd was ever revarted u the iii"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Harold Wilkins' book 'Flying Saucers Uncensored' claimed two men from Venus visited a Los Angeles journalist in March 1953",
+      "source_quote": "two men who supposedly oame from Venus and wont to a Los Angelou journalist in March 1953",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5020,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Dr. Kennedy, a private pilot and dentist in Alaska, had been a source of multiple prior reports to Air Force intelligence",
+      "source_quote": "privatu pilot who hinas the put bean the source of several raportn to this organization",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 16083,
+        "len": 72,
+        "exact": false,
+        "matched": "privatu pilot who hinas the put bean the source of several raportn to th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A letter was found inside a book that Dr. Kennedy had loaned to Mr. Small over a year prior",
+      "source_quote": "the letter was fionund n book irhinh he had loanad ta Hr Bmall our a year ago",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 16221,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 2,
+    "amber": 3,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T09:54:38.840Z",
+  "qa_completed_at": "2026-06-01T09:56:29.686Z",
+  "timing": {
+    "A": "58.7s",
+    "B": "52.1s",
+    "E": "18.5s"
+  },
+  "public_headline": "FBI Files Show 1956 UFO Sighting Report and Hoover Denial",
+  "public_tldr": "This batch of FBI documents from around 1956 includes a witness interview about a silent bright light seen near Henderson, North Carolina, a high school student's letter asking the FBI about an alleged alien contact story from a popular book, and J. Edgar Hoover's flat denial that any such matter was ever reported to the Bureau. A separate Air Force counter-intelligence letter forwards a document found inside a book in Alaska.",
+  "public_narrative": "This collection of FBI correspondence, dating to roughly 1956, brings together several unrelated UFO-related items that passed through Bureau channels.\n\nThe first document summarises an interview conducted on April 6, 1956, with a woman who reported seeing a bright, flickering, silent object while driving near Henderson, North Carolina, around April 5, 1956. She estimated it was at less than 2,500 feet altitude. The account is a single-witness report with no mention of corroboration.\n\nA second strand involves a student at Technical High School in Springfield, Massachusetts, who wrote to the FBI asking whether a story in Harold Wilkins' book *Flying Saucers Uncensored* was true — specifically, a claim that two supposed Venusians visited a Los Angeles journalist in March 1953. FBI Director J. Edgar Hoover replied to the student's letter (dated February 12, 1956), stating plainly that no such matter was ever reported to the FBI.\n\nThe final piece is a US Air Force counter-intelligence letter addressed to Hoover's FBI, attention Liaison Agent Daniel J. Sullivan. It concerns a letter found inside a book that a Dr. Kennedy — a dentist and private pilot in Alaska who had previously reported to Air Force intelligence — had loaned to a Mr. Small, a typesetter for the Home Nugget newspaper, over a year earlier. Major Greenhalgh of the Intelligence Service Squadron in Seattle handled the matter. The exact contents of the found letter are largely illegible due to severe scan degradation.\n\nMuch of this file is in very poor condition. Heavy degradation from low-quality scanning has rendered large portions unreadable, and some text appears intentionally redacted. Several pages appear to be on Miami, Florida hotel letterhead, but their content is almost entirely illegible.",
+  "public_caveats": [
+    "The Henderson, North Carolina sighting is a single-witness account with no corroboration mentioned in the documents.",
+    "The 'Venusian contact' story was never an FBI claim — it was a citizen's question about a book, and Hoover explicitly denied any knowledge of it.",
+    "Extremely poor scan quality has made large portions of these documents illegible; any extracted facts should be checked against the original PDF.",
+    "The relationship between Dr. Kennedy, Mr. Small, and the letter found inside the book is only partially legible and remains unclear.",
+    "These documents show routine bureaucratic handling of UFO-related correspondence — they do not contain conclusions or analysis by the FBI about the phenomena described."
+  ]
+}

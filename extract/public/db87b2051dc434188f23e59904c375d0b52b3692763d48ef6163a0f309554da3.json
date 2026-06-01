@@ -1,0 +1,326 @@
+{
+  "sha256": "db87b2051dc434188f23e59904c375d0b52b3692763d48ef6163a0f309554da3",
+  "title": "UFO Part 14",
+  "agency": "FBI",
+  "type": "PDF",
+  "what_is_it": "FBI field office memoranda covering two separate incidents: a citizen inquiry about alleged UFO photographs in Flint/Detroit, Michigan, and an SA's report on a flying saucer lecture attended in Denver, Colorado.",
+  "core_summary": "The first memo (dated 5/20/60) describes a Detroit FBI office response to a citizen who claimed that photographs taken by Joseph Perry of Grand Blanc, Michigan, showing an apparent flying object near the moon, had been 'snatched' by FBI agents — the office clarified the FBI does not investigate flying saucers. The second memo (dated 4/26/60) is a Special Agent's report on a public lecture in Denver, Colorado, where a self-described 30-year aviation veteran claimed personal contact with space people, promoted a religious-cosmological narrative about aliens seeding Earth, and alleged the US Air Force suppresses UFO information.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "OCR quality is extremely poor throughout, with heavy character corruption — many names, dates, and passages may be partially or wholly unreadable.",
+    "Heavy redaction is present: multiple names (particularly the lecturer and the citizen caller) are redacted or illegible.",
+    "The lecturer's claims about space people, biblical reinterpretation, and government suppression are unverified personal assertions reported by an FBI agent, not endorsed by the FBI.",
+    "The document explicitly notes it contains 'neither recommendations nor conclusions' — it is raw field reporting.",
+    "The alleged UFO photograph was explained by the Air Force as a development defect in the negative; no independent verification of the 'flying object' claim is provided.",
+    "The Denver lecture is described by the attending SA as 'more of a religious-economics lecture rather than one of unidentified flying objects.'"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "FBI internal memoranda",
+      "source_quote": "Memorandum",
+      "citation_offset": {
+        "offset": 191083,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "First memo date",
+      "value": "May 20, 1960",
+      "source_quote": "5/20/60",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "First memo origin",
+      "value": "Detroit field office",
+      "source_quote": "Detroit",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Subject of first memo",
+      "value": "Joseph Perry, Grand Blanc, Michigan — alleged UFO photograph",
+      "source_quote": "Joseph Perry, Grand Blanc",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Perry's claim",
+      "value": "A slide photograph of the moon contained what appeared to be a flying object",
+      "source_quote": "this slide contained a photograph of the moon and that at shoved that appeared to be a flying object somewhere in the vicinity of the moon",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Air Force involvement",
+      "value": "Perry delivered a slide to Selfridge Air Force Base on May 3, 1960; it was returned with a letter saying the negative was not properly developed",
+      "source_quote": "Selfridge Air Force Base, Mt. Clemens, Michigan, on May 3, 1960... what appeared to be the object was not properly developed",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Citizen's intent",
+      "value": "Planned to send the slide to Eastman Kodak for further analysis",
+      "source_quote": "he intends to obtain this slide and forward it to the Eastman Kodak Company for further analysis",
+      "citation_offset": {
+        "offset": 10608,
+        "len": 36,
+        "exact": false,
+        "matched": "he intends to obtain this slide and "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "FBI position stated",
+      "value": "FBI does not investigate flying saucers",
+      "source_quote": "the FBI did not investigate and does not investigate",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Second memo date",
+      "value": "April 26, 1960",
+      "source_quote": "April 26, 1960",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Second memo origin",
+      "value": "Denver, Colorado",
+      "source_quote": "Denver, Colorado",
+      "citation_offset": {
+        "offset": 143979,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Lecture date",
+      "value": "April 17, 1960",
+      "source_quote": "4/17/60",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Lecturer's background claim",
+      "value": "Over 30 years in aviation, operates a private CAA-approved airfield in California",
+      "source_quote": "he had been in the game for over 30 years and currently operates a private Civil Aeronautics Authority approved airfield in California",
+      "citation_offset": {
+        "offset": 14800,
+        "len": 35,
+        "exact": false,
+        "matched": "or over 30 years and currently oper"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Lecturer's contact claim",
+      "value": "Claimed personal visits by space people",
+      "source_quote": "he has also been visited by the people from outer space",
+      "citation_offset": {
+        "offset": 15055,
+        "len": 35,
+        "exact": false,
+        "matched": "he has also been visited by the peo"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Lecturer's suppression allegation",
+      "value": "US Air Force suppresses UFO information and fears being disbanded",
+      "source_quote": "U.S. Air Force, who are responsible for investigations on unidentified flying objects, has suppressed information",
+      "citation_offset": {
+        "offset": 20840,
+        "len": 65,
+        "exact": false,
+        "matched": "Air Force, who are responsible for investigations on unidentified"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Audience description",
+      "value": "Mostly older individuals, majority female, few young people",
+      "source_quote": "a majority of older individuals and also a majority of the audience was female. There were few young people",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Distribution",
+      "value": "Bureau, Los Angeles, San Diego, San Francisco offices",
+      "source_quote": "the Bureau and the Los Angeles, San Diego, San Francisco",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Joseph Perry"
+  ],
+  "named_places": [
+    "Detroit, Michigan",
+    "Flint, Michigan",
+    "Grand Blanc, Michigan",
+    "Selfridge Air Force Base",
+    "Mt. Clemens, Michigan",
+    "Denver, Colorado",
+    "Giant Rock, California",
+    "North Africa"
+  ],
+  "dated_events": [
+    "5/20/60",
+    "May 3, 1960",
+    "4/17/60",
+    "4/19/60",
+    "April 26, 1960"
+  ],
+  "objects_described": [
+    "Unidentified flying object photographed near the moon on a slide",
+    "Unidentified flying objects discussed at Denver lecture"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Joseph Perry of Grand Blanc delivered a photographic slide to Selfridge Air Force Base on May 3, 1960, claiming it showed a flying object near the moon.",
+      "source_quote": "Selfridge Air Force Base, Mt. Clemens, Michigan, on May 3, 1960. This slide is the property of Jerry, of Grand Blanc, and Perry had claimed this slide contained a photograph of the moon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9857,
+        "len": 30,
+        "exact": false,
+        "matched": "Grand Blanc, and Perry had cla"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Air Force returned Perry's photograph with a letter stating the apparent object was due to improper development of the negative.",
+      "source_quote": "they gave Perry a letter explaining that what appeared to be the object was not properly developed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10091,
+        "len": 33,
+        "exact": false,
+        "matched": "they gave Perry a letter explaini"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A citizen intended to forward Perry's slide to Eastman Kodak Company for independent analysis.",
+      "source_quote": "he intends to obtain this slide and forward it to the Eastman Kodak Company for further analysis",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10608,
+        "len": 36,
+        "exact": false,
+        "matched": "he intends to obtain this slide and "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The FBI Detroit office explicitly stated the FBI does not investigate flying saucers or related incidents.",
+      "source_quote": "the FBI did not investigate and does not investigate",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "A Denver lecture on April 17, 1960, featured a speaker who claimed over 30 years in aviation and personal contact with space people.",
+      "source_quote": "he had been in the game for over 30 years and currently operates a private Civil Aeronautics Authority approved airfield in California",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 14800,
+        "len": 35,
+        "exact": false,
+        "matched": "or over 30 years and currently oper"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The lecturer alleged space people are concerned about atomic bomb explosions causing earthquakes and forcing a polar tilt.",
+      "source_quote": "the explosions of these bombs have upset earth's rotation and, in the instance of the French bomb explosion in North Africa, have actually caused earthquakes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 19919,
+        "len": 90,
+        "exact": false,
+        "matched": " the instance of the French bomb explosion in North Africa, have actually caused earthquak"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The lecturer claimed the US Air Force suppresses UFO information and fears being made obsolete.",
+      "source_quote": "the Air Force is afraid that they will be outmoded and disbanded if such information gets out",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 21146,
+        "len": 43,
+        "exact": false,
+        "matched": "moded and disbanded if such information get"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The lecturer claimed space people possess 'crystal batteries' generating magnetic fields that bend light, making them invisible.",
+      "source_quote": "equipped with a crystal battery which generates a magnetic field about them which bends light waves so that they, the space people, appear invisible",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 19529,
+        "len": 65,
+        "exact": false,
+        "matched": "h bends light waves so that they, the space people, appear invisi"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The lecturer alleged the Administration's main concern in withholding information is economic disruption.",
+      "source_quote": "the Administration's main concern in not making public any information is that the economy will be",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 21273,
+        "len": 33,
+        "exact": false,
+        "matched": " making public any information is"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The lecturer claimed space people communicate telepathically, similar to Jesus, and many are mute.",
+      "source_quote": "they have the power to know your thoughts just as Jesus did. He said this is their means of communication and many of the space people are mute",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 19164,
+        "len": 40,
+        "exact": false,
+        "matched": "they have the power to know your thought"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 10,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T09:56:48.188Z",
+  "qa_completed_at": "2026-06-01T09:58:11.825Z",
+  "timing": {
+    "A": "46.8s",
+    "B": "36.7s",
+    "E": "20.7s"
+  },
+  "public_headline": "FBI Memos Cover a Michigan UFO Photo Inquiry and a Denver Flying Saucer Lecture",
+  "public_tldr": "This FBI file contains two 1960 field office memoranda: one from Detroit about a citizen's complaint that FBI agents seized UFO photographs (which the Bureau denied), and one from Denver where an agent attended a public lecture by a self-described aviation veteran who claimed personal contact with extraterrestrials. Neither memo contains FBI conclusions or endorsements of any claims made.",
+  "public_narrative": "This file from the FBI's records — designated \"UFO Part 14\" — consists of internal memoranda from two field offices, both dated spring 1960. The documents are heavily redacted and the underlying scans suffer from severe OCR corruption, making portions difficult to read.\n\nThe first memo, dated 20 May 1960, originates from the Detroit office. It concerns Joseph Perry of Grand Blanc, Michigan, who had taken a photographic slide of the moon that appeared to show a flying object nearby. Perry delivered the slide to Selfridge Air Force Base on 3 May 1960. The Air Force returned it with a letter stating the apparent object was a defect caused by improper development of the negative. A citizen then contacted the FBI, alleging that agents had \"snatched\" the photographs — a claim the Detroit office firmly denied, stating the FBI \"does not investigate flying saucers.\" Perry reportedly planned to send the slide to Eastman Kodak for independent analysis.\n\nThe second memo, dated 26 April 1960, comes from the Denver office. A Special Agent attended a public lecture on 17 April 1960 given by an unnamed speaker who claimed over 30 years in aviation and said he operated a private airfield in California. The lecturer asserted he had been personally visited by \"space people,\" claimed these beings communicate telepathically and possess \"crystal batteries\" that bend light to render them invisible, and alleged the US Air Force suppresses UFO information out of fear of being disbanded. He also tied his claims to religious themes, saying space people had seeded life on Earth. The attending agent characterised it as \"more of a religious-economics lecture rather than one of unidentified flying objects.\" The audience was described as mostly older individuals, majority female, with few young people present.\n\nBoth memos are marked as containing \"neither recommendations nor conclusions\" — they are raw field reports, not FBI assessments. The lecturer's name is redacted, as are other identifying details throughout. Distribution copies went to FBI headquarters and the Los Angeles, San Diego, and San Francisco offices.",
+  "public_caveats": [
+    "The documents are heavily redacted with extremely poor OCR quality — many names, dates, and passages are partially or wholly unreadable, so details should be treated with caution.",
+    "The lecturer's claims about space people, crystal batteries, telepathy, and government suppression are unverified personal assertions reported by an FBI agent, not endorsed or investigated by the FBI.",
+    "The Air Force attributed Perry's UFO photograph to a development defect in the film negative; no independent verification of a 'flying object' was provided.",
+    "Both memos explicitly state they contain 'neither recommendations nor conclusions' — they are raw field reporting, not analytical findings.",
+    "The lecturer's identity is redacted, making independent verification of his claimed aviation background impossible from this document alone."
+  ]
+}

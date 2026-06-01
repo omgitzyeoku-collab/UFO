@@ -1,0 +1,305 @@
+{
+  "sha256": "e24a99efc7719ce63bef015b75413e02beed234aced91b450d84f70b11db06fe",
+  "title": "UFO Part 09",
+  "agency": "FBI",
+  "type": "PDF",
+  "what_is_it": "A collection of FBI internal memoranda, telegrams, and correspondence from approximately 1947–1952 relating to citizen reports of flying saucer sightings forwarded to or handled by the Bureau.",
+  "core_summary": "This portion of the FBI's UFO files contains multiple documents including a July 1949 memo about a letter sent to Walter Winchell describing a 1947 mountain encounter with a top-shaped silver-green metallic object, a 1952 letter from J. Edgar Hoover forwarding a citizen's flying saucer report to the Air Force, a 1952 report of objects dropped from formation bombers near Thessalon Lake in Ontario, Canada, and a 1952 citizen letter proposing flying saucers are reflections caused by radio and television beams. The Bureau's general stance was to forward such reports to Air Force Intelligence as the matter fell under their jurisdiction.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "OCR quality is extremely poor throughout, producing large amounts of garbled text; many pages are nearly unreadable",
+    "Heavy redaction of witness names and other identifying information across all documents",
+    "Multiple distinct documents spanning 1947–1953 are compiled together without clear separation",
+    "Witness accounts are single-source and unverified civilian reports",
+    "The FBI explicitly did not investigate these matters itself but forwarded them to Air Force Intelligence",
+    "The Staunton, Virginia letter is a citizen's unsolicited theory, not an official finding",
+    "Several pages (especially 2, 7, 10, 14, 20–22) are so degraded that almost no content can be reliably extracted"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document origin",
+      "value": "FBI internal memoranda and correspondence",
+      "source_quote": "Office Memorandum - UNITED STATES GOVERNMENT",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Winchell letter date",
+      "value": "July 9, 1949",
+      "source_quote": "DATE: July 9, 1949",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting date (mountain encounter)",
+      "value": "August 1947",
+      "source_quote": "in August of 1947 he left Los Angeles for the mountains",
+      "citation_offset": {
+        "offset": 507,
+        "len": 30,
+        "exact": false,
+        "matched": "in August of 1947 he left Los "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object description",
+      "value": "Large silver-green metallic object shaped like a child's top, about the size of a county fair balloon, with two windows and partially transparent metal",
+      "source_quote": "a large silver metal, greenish in color, shaped like a child's top and about the size of the balloons used at County Fairs",
+      "citation_offset": {
+        "offset": 790,
+        "len": 65,
+        "exact": false,
+        "matched": " shaped like a child's top and about the size of the balloons use"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object behavior",
+      "value": "Silent power, lifted off ground in one second, knocked witness down",
+      "source_quote": "this so-called flying saucer was off the ground in a second, knocking him to the ground",
+      "citation_offset": {
+        "offset": 1258,
+        "len": 67,
+        "exact": false,
+        "matched": "this so-called flying saucer was off the ground in a second, knocki"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Witness speculation",
+      "value": "Witness theorized occupants from another planet curious about atomic bomb explosions and may have solved negative gravity",
+      "source_quote": "the occupants of another planet might have solved the theory of negative gravity",
+      "citation_offset": {
+        "offset": 1890,
+        "len": 55,
+        "exact": false,
+        "matched": "planet might have solved the theory of negative gravity"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Bureau recommendation",
+      "value": "Los Angeles Office to discreetly check witness background and interview him",
+      "source_quote": "the Los Angeles Office discreetly check into the background",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Thessalon Lake sighting date",
+      "value": "July 27, 1952",
+      "source_quote": "FLYING SAUCERS SEEN NEAR THESSALON LAKE, ONTARIO, CANADA, JULY 27, 1952",
+      "citation_offset": {
+        "offset": 119442,
+        "len": 31,
+        "exact": false,
+        "matched": "CERS SEEN NEAR THESSALON LAKE, "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Thessalon Lake sighting details",
+      "value": "16-20 bombing planes in two groups flying south dropped objects that spurred vapor and flew off at high speed to the southwest",
+      "source_quote": "sixteen to twenty in number, in two groups flying south... dropped objects, at first thought by him to be parachutes",
+      "citation_offset": {
+        "offset": 122915,
+        "len": 50,
+        "exact": false,
+        "matched": "en to twenty in number, in two groups flying south"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Jurisdiction referral",
+      "value": "FBI forwarded saucer reports to Air Force Intelligence",
+      "source_quote": "the matter referred to therein is within the Jurisdiction of the Department of the Air Force",
+      "citation_offset": {
+        "offset": 83727,
+        "len": 32,
+        "exact": false,
+        "matched": " the Department of the Air Force"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Charleston letter",
+      "value": "Hoover acknowledged receipt of a saucer report from Charleston, South Carolina dated August 1, 1952",
+      "source_quote": "Charleston, South Carolina... I wish to acknowledge the receipt of your letter dated August 1, 1952",
+      "citation_offset": {
+        "offset": 24327,
+        "len": 44,
+        "exact": false,
+        "matched": "h to acknowledge the receipt of your letter "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Staunton VA letter",
+      "value": "A woman from Staunton, Virginia wrote to FBI, Air Force Intelligence, and Justice Dept claiming her flying saucer theory was stolen after she mailed it to Air Force",
+      "source_quote": "I am writing the same letter to all three Departments",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Baltimore theory",
+      "value": "A citizen from Baltimore proposed flying saucers were lights caused by radio/television beams illuminating moist vapor",
+      "source_quote": "these objects could be Lights, caused by Radio Television Beams illuminating moist vapor",
+      "citation_offset": {
+        "offset": 49719,
+        "len": 43,
+        "exact": false,
+        "matched": "ghts, caused by Radio Television Beams illu"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Walter Winchell",
+    "John Edgar Hoover"
+  ],
+  "named_places": [
+    "Los Angeles, California",
+    "Thessalon Lake, Ontario, Canada",
+    "Kokomo, Indiana",
+    "Charleston, South Carolina",
+    "Baltimore, Maryland",
+    "Washington, D.C.",
+    "London, England",
+    "The Pentagon"
+  ],
+  "dated_events": [
+    "August 1947",
+    "July 9, 1949",
+    "July 12, 1948",
+    "July 27, 1952",
+    "August 1, 1952",
+    "August 11, 1952",
+    "August 12, 1952"
+  ],
+  "objects_described": [
+    "Silver-green metallic top-shaped object with two windows and transparent portions, silent propulsion",
+    "Objects dropped from formation of 16-20 twin-trail bombers that spurred vapor and flew off at high speed",
+    "Flying saucers (generic citizen reports)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Walter Winchell received a letter about a 1947 flying saucer sighting in the mountains near Los Angeles",
+      "source_quote": "Walter Winchell had received a letter from Los Angeles... in August of 1947 he left Los Angeles for the mountains",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 509,
+        "len": 30,
+        "exact": false,
+        "matched": " August of 1947 he left Los An"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object was described as silent in flight and knocked the witness to the ground upon departure",
+      "source_quote": "its power was silent... this so-called flying saucer was off the ground in a second, knocking him to the ground",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1259,
+        "len": 65,
+        "exact": false,
+        "matched": "his so-called flying saucer was off the ground in a second, knock"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The FBI recommended discreet background check and interview of the witness through the Los Angeles field office",
+      "source_quote": "the Los Angeles Office discreetly check into the background... and thereafter interview him",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Winchell requested the Bureau keep the matter confidential",
+      "source_quote": "he requested that the Bureau keep the matter in confidence",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "A witness near Thessalon Lake observed 16-20 planes drop objects that flew off at high speed to the southwest on July 27, 1952",
+      "source_quote": "sixteen to twenty in number, in two groups flying south... suddenly spurred vapor and at a high rate of speed flew off in a southwesterly direction",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 122915,
+        "len": 50,
+        "exact": false,
+        "matched": "en to twenty in number, in two groups flying south"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The planes near Thessalon Lake had twin trails of bluish smoke",
+      "source_quote": "they had twin trails of bluish smoke",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The FBI's standard response was to forward flying saucer reports to the Department of the Air Force",
+      "source_quote": "the matter referred to therein is within the Jurisdiction of the Department of the Air Force",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 83727,
+        "len": 32,
+        "exact": false,
+        "matched": " the Department of the Air Force"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A woman from Staunton, Virginia alleged her flying saucer theory was plagiarized after she sent it to Air Force Intelligence",
+      "source_quote": "I have reason to believe my ideas have been hi-jacked",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 32576,
+        "len": 33,
+        "exact": false,
+        "matched": "e reason to believe my ideas have"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Staunton writer warned that man-made flying saucers could be used in conjunction with atomic and hydrogen bombs",
+      "source_quote": "Van-made flying saucers possibly could be used in conjunction with atom and hydrogen bombs or to destroy them",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 33644,
+        "len": 55,
+        "exact": false,
+        "matched": "conjunction with atom and hydrogen bombs or to destroy "
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 9,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T09:46:24.782Z",
+  "qa_completed_at": "2026-06-01T09:47:41.995Z",
+  "timing": {
+    "A": "45.7s",
+    "B": "31.4s",
+    "E": "22.2s"
+  },
+  "public_headline": "FBI Files Show Bureau Forwarded Citizen UFO Reports to Air Force",
+  "public_tldr": "This section of the FBI's UFO files contains internal memos and letters from roughly 1947 to 1952 in which citizens reported flying saucer sightings to the Bureau. The FBI's consistent response was that the matter fell under Air Force jurisdiction, and it forwarded the reports accordingly. The documents are heavily redacted and many pages are nearly unreadable due to poor scan quality.",
+  "public_narrative": "This batch of FBI records — designated UFO Part 09 — compiles internal memoranda, telegrams, and citizen correspondence handled by the Bureau between approximately 1947 and 1952. The documents are not a single investigation but a collection of separate reports that landed on the FBI's desk, most of which were passed along to Air Force Intelligence.\n\nThe most detailed account comes from a July 1949 memo about a letter sent to newspaper columnist Walter Winchell. The letter described an August 1947 encounter in the mountains near Los Angeles, where a witness claimed to have seen a large silver-green metallic object shaped like a child's top, roughly the size of a county fair balloon, with two windows and partially transparent metal. The witness said the object lifted off silently in about one second and knocked him to the ground. He speculated that its occupants came from another planet and had solved what he called negative gravity. Winchell asked the FBI to keep the matter confidential, and the Bureau recommended that the Los Angeles office discreetly check the witness's background and interview him.\n\nOther documents include a 1952 letter in which FBI Director J. Edgar Hoover acknowledged a flying saucer report from Charleston, South Carolina and forwarded it to the Air Force; a July 1952 report of 16 to 20 twin-trail bombers flying in formation near Thessalon Lake in Ontario, Canada, from which objects were dropped that then spurred vapor and flew off at high speed to the southwest; a citizen from Baltimore who proposed that flying saucers were simply lights caused by radio and television beams illuminating moist vapour; and a woman from Staunton, Virginia who wrote to the FBI, Air Force Intelligence, and the Justice Department claiming her own flying saucer theory had been stolen after she mailed it to the Air Force.\n\nThroughout these records, the FBI's position was consistent: flying saucer matters belonged to the Department of the Air Force. The Bureau did not conduct its own investigations into whether the reported objects were real. Heavy redaction obscures witness names and other identifying details across nearly every document, and several pages are so degraded that almost no content can be reliably read.",
+  "public_caveats": [
+    "Every sighting described here is a single-source, unverified civilian account — none were corroborated by the FBI or any other agency in these records.",
+    "Heavy redaction throughout removes witness names and other identifying information; several pages are too degraded to read at all.",
+    "The FBI explicitly did not investigate these reports itself but forwarded them to Air Force Intelligence, so these files contain no analytical conclusions about what was seen.",
+    "The Staunton letter and the Baltimore letter are unsolicited citizen theories, not official findings or expert assessments.",
+    "OCR quality on the original scans is extremely poor, meaning some details may be misread or missing from the extracted text."
+  ]
+}
