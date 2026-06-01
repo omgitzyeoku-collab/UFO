@@ -1,0 +1,177 @@
+CLEARED
+
+For Open Publication
+
+02
+
+Draft version March 1, 2023 Typeset using LATEX default style in AASTeX631
+
+Mar 08, 2023
+Department of Defense OFFICE OF PREPUBLICATION AND SECURITY REVIEW
+
+PHYSICAL CONSTRAINTS ON UNIDENTIFIED AERIAL PHENOMENA
+Abraham (Avi) Loeb1 and Sean M. Kirkpatrick2
+1Head of the Galileo Project, Astronomy Department, Harvard University 60 Garden Street, Cambridge, MA 02138, USA 2All-domain Anomaly Resolution Office 1010 Defense Pentagon Washington DC 20301, USA
+
+ABSTRACT
+We derive physical constraints on interpretations of “highly maneuverable” Unidentified Aerial Phenomena (UAP) based on standard physics and known forms of matter and radiation. In particular, we show that the friction of UAP with the surrounding air or water is expected to generate a bright optical fireball, ionization shell and tail - implying radio signatures. The fireball luminosity scales with inferred distance to the 5th power. Radar cross section scales similarly to meteor head echoes as the square of the effective radius of the sphere surrounding the object, while the radar cross section of the resulting ionization tail scales linearly with the radius of the ionization cylinder. The lack of all these signatures could imply inaccurate distance measurements (and hence derived velocity) for single site sensors without a range gate capability.
+
+Keywords: Interstellar objects – Meteors – meteoroids – Meteorites – Bolides – asteroids: general – asteroids: individual (A/2017 U1) – Minor planets – ‘Oumuamua
+
+1. INTRODUCTION
+In 2005, the US Congress tasked NASA to find 90% of all Near Earth Objects (NEOs) that are larger than 140 meters (Loff 2014). The Congressional task resulted in the construction of the Pan-STARRS telescopes. On October 19, 2017, the Pan-STARRS sky survey flagged an unusual NEO, the interstellar object ‘Oumuamua (see, Loeb (2022a) and references therein). Unlike Solar system asteroids or comets, ‘Oumuamua appeared to have an extreme flat shape and was pushed away from the Sun without showing a cometary tail of gas and dust, raising the possibility that it was thin and artificial in origin. Three years later, Pan-STARRS discovered a definitely artificial object, namely NASA’s rocket booster 2020 SO, which exhibited similar behavior with an extreme shape, a push by the Solar radiation pressure and no cometary tail because its thin walls were made of stainless steel (Talbert 2020).
+On March 9, 2017, six months before ‘Oumuamua’s closest approach to Earth, a meter-size interstellar meteor (IM2) collided with Earth (Siraj & Loeb 2022a). Surprisingly, IM2 had an identical speed relative to the Sun at large distances and an identical heliocentric semimajor axis as ‘Oumuamua had. But the inclination of IM2’s orbital plane around the Sun was completely different from ‘Oumuamua’s, implying that the two objects are unrelated.
+Nevertheless, the coincidences between some orbital parameters of ‘Oumuamua and IM2 inspires us to consider the possibility that an artificial interstellar object could potentially be a parent craft that releases many small probes during its close passage to Earth, an operational construct not too dissimilar from NASA missions.
+These “dandelion seeds” could be separated from the parent craft by the tidal gravitational force of the Sun or by a maneuvering capability. A small ejection speed far away could lead to a large deviation from the trajectory of the parent craft near the Sun. The changes would manifest both in arrival time and distance of closest approach to Earth. With proper design, these tiny probes would reach the Earth or other Solar system planets for exploration, as the parent craft passes by within a fraction of the Earth-Sun separation - just like ‘Oumuamua did. Astronomers would not be able to notice the spray of mini-probes because they do not reflect enough sunlight for existing survey telescopes to notice them if they are on the 10 cm scale of CubeSats or smaller. At a distance d from the Sun and the telescope, objects that are a meter in diameter and reflect a fraction a ≈ 10% of sunlight impinging on their surface would yield a flux of optical light of ∼ 0.2(d/1 AU)−2 nJy, well below the detection threshold of even the James Webb
+
+All-Domain Anomaly Resolution Office Chief of Staff, AARO Date: 2/5/2025 Released in Full: X Authority: FY24 NDAA, now codified at 44 U.S.C. 2107 Case Number: 330UAP000002
+
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO IAW FY24 NDAA, Section 1841(a)(1)(C) Date: 2/5/2025
+
+02
+2
+Space Telescope. In contrast, the radar signatures of a meter class object would be detectable with our deep space radars and space fence, much like IM2 was, out to beyond geosynchronous orbit at an altitude above 36,000 km. Such objects could also become optically detectable as they get close to Earth, especially if they create a fireball as a result of their friction with air.
+Equipped with a large surface-to-mass ratio of a parachute, technological “dandelion seeds” could slow down in the Earth’s atmosphere to avoid burnup and then pursue their objectives wherever they land. Current radar coverage of the majority of first-world countries gives detectability of this High-Area-To-Mass (HAMR) objects down to a few centimeters depending on material, making detectability possible (Frueh et al. 2017).
+Within a close range to a star, extraterrestrial technological probes could use starlight to charge their batteries and liquid water as their fuel. This would explain why they would target the habitable region around stars, where liquid water may exist on the surface of rocky planets with an atmosphere, like the Earth. Habitable planets would be particularly appealing to trans-medium probes, capable of moving between space, air and water. From a large distance, Venus, Earth or Mars would be equally attractive for probes. But upon closer inspection, Earth would show spectral signatures of liquid water (through reflection of blue light) and vegetation (through its red edge) that might attract selective attention (Seager et al. 2005).
+What would be the overarching purpose of the journey? In analogy with actual dandelion seeds, the probes could propagate the blueprint of their senders. As with biological seeds, the raw materials on the planet’s surface could also be used by them as nutrients for self-replication or simply scientific exploration. It is important to note, that given the time scales associated with the propulsion scheme discussed here, it is unreasonable to assert that the intention of any such probe launched in the far distant past, has anything to do with the human species. More likely, and similar to NASA’s missions – the goal would be scientific and exploratory in nature.
+Based on the detection rate of interstellar objects, Siraj & Loeb (2022b) estimated that for every interstellar NEO there are a thousand Solar system NEOs of the same size. Searching for interstellar meteorites among the many more meteorites from the Solar system without information about impact velocity, is like searching for a needle in a haystack.
+This is why the first interstellar meteor (IM1), confirmed by velocity measurement of the US Space Command (Siraj & Loeb 2022c), is the target of a fully-funded ocean expedition by the Galileo Project (Siraj et al. 2022; Tillinghast-Raby et al. 2022). Hopefully, by retrieving IM1’s fragments within the coming year we will know whether its extraordinary material strength resulted from it being made out of an artificial alloy, like stainless steel or materials not yet developed by humans.
+Are there any functioning extraterrestrial probes near Earth? We do not know. But the Galileo Project (2021) (Loeb 2021) intends to use the scientific method to explore this possibility, following the 2021 report about Unidentified Aerial Phenomena (UAP) from the Office of the Director of National Intelligence to the US Congress (ODN 2021). The stateof-the-art suite of instruments and computer algorithms of the Galileo Project will be able to study such data in the near future (Loeb & Laukien 2023).
+The search for UAP, and the characterization of UAP, requires bounding the search plan with physics-based constraints on what we are searching for. This paper aims to constrain one aspect of the UAP hypothesis with parameters that govern the movement and interaction of a UAP with Earth’s atmosphere to eliminate or bound observational uncertainties. Some data collected to date, while arising from multiple sensors, have uncertainties in one or more dimensions, leaving the exploitation of the data with a significant range of interpretations. This inevitably leaves open the debate on what some objects are, and whether or not they exhibited truly anomalous behavior. Specifically, if some observed UAP are of extraterrestrial origin, there are some practical limits on the interpretation of observed and measured data resulting from physics-based constraints.
+2. THE EXTRATTERIAL POSSIBILITY
+The academic interest in UAP stems from their potential non-human technological origin. Extraterrestrial equipment could arrive in two forms: space trash, similar to the way our own interstellar probes (Voyager 1 & 2, Pioneer 10 & 11 and New Horizons) will appear in a billion years, or functional equipment such as autonomous devices equipped with Artificial Intelligence (AI). Electronic probes employing conventional chemical propulsion and refueling that we currently understand, would be a likely choice for travel within a planetary system. Some combination of conventional propulsion, ion propulsion, or lightsail propulsion would provide good choices for crossing the tens of thousands of
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO IAW FY24 NDAA, Section 1841(a)(1)(C) Date: 2/5/2025
+
+02
+
+Constraints on UAP
+
+3
+
+light years that span the scale of the Milky Way galaxy. Such autonomous systems could be designed to survive even if the senders are not able to communicate with them, and deposit probes upon arrival to the target planetary systems.
+It is likely that any functional devices embedded in the Earth’s atmosphere are not carrying biological entities because these would not survive the long journey through interstellar space and its harsh conditions, including bombardment by energetic cosmic-rays, X-rays and gamma-rays (Hoang et al. 2017, 2018; Hoang & Loeb 2020). Interstellar gas and dust particles deposit a kinetic energy per unit mass that exceeds the output of chemical explosives at the speed of tens of km/s. However, technological devices with AI can be shielded to withstand the hazards of space, repair themselves mechanically, or even reproduce given the resources of a habitable planet like Earth. With Machine Learning capabilities, they can adapt to new circumstances and pursue the goals of their senders without any need for external guidance.
+As argued by John von Neumann in 1939, the number of such devices could increase exponentially with time if they self-replicate (Freitas 1980), a quality enabled by 3D printing and AI technologies. Physical artifacts might also carry messages, as envisioned by Ronald Bracewell in 1960Z (Bracewell 1960; Freitas & Valdes 1985) and currently used by NASA.
+
+3. PROPULSION METHODS
+In principle, the fastest devices could be launched by lightsails, pushed by powerful light beams up to the speed of light (Guillochon & Loeb 2015a). Natural processes, such as stellar explosions (Loeb 2023; Lingam & Loeb 2020) or gravitational slingshot near black hole pairs (Guillochon & Loeb 2015b; Loeb & Guillochon 2016), could launch objects to similar speeds. However, it would be difficult for relativistic payloads to slow down below the escape speed of Earth, 10−4.5c, without having around the same facilities that generated their high initial speeds.
+A better-suited propulsion technique that was used in all interplanetary space missions from Earth is chemical rockets. Since rockets carry their fuel, they can navigate to a desired planet and slow down near it. Alternatively, it may be possible to use one of the above methods to travel to and through a planetary system, deploying interplanetary probes using conventional chemical propulsion.
+For a rocket of total mass, m, and exhaust speed of the ablated gas relative to the rocket, vexh, momentum conservation implies: mv˙ = −m˙ vexh, where an overdot, (˙), denotes a partial time derivative. The Tsiolkovsky solution to the rocket equation (Tsiolkovsky 2000), (minitial/mfinal) = exp{(vfinal − vinitial)/vexh}, implies that for reasonable fuel-to-payload mass ratio, the final speed vfinal will only be an order of magnitude larger than the exhaust speed. For typical chemical propellants with vexh of order a few km s−1, this tyranny of the rocket equation explains why all human- made spacecraft reached a speed limit of tens of km s−1 or ≈ 10−4c. Interestingly, this speed is comparable to the escape speed from the Earth’s orbit around the Sun, vesc ≈ 42km s−1, making it possible for humanity to launch interstellar probes which take advantage of the motion of the Earth around the Sun at vinitial ≈ 30 km s−1. In contrast, chemical propulsion may not be sufficient for probes to escape from the habitable zone around dwarf stars, like the nearest star, Proxima Centuari (Loeb 2018; Lingam & Loeb 2018). In summary, chemical propulsion allows escape from the habitable zone of Sun-like stars and enables slowing down near a destination.
+Devices which need to refuel would favor a habitable planet where liquid water or combustible organic fuel are available. The exhaust velocity of hydrogen/oxygen for rocket fuel is about 4.5 km s−1 (at a mass ratio of 16.4 with steam as exhaust) and so pure liquid hydrogen/oxygen is insufficient to slow down the characteristic free-fall speed of over 40 km s−1 from interstellar space to the habitable zone around the Sun unless the fuel mass is many orders of magnitude larger than the payload mass. Combustion of fuels with potentially higher heat capacity (such as hydrocarbons) would result in other chemical byproducts at the craft’s exhaust, which would have distinct spectral signatures. This implies that chemical propulsion, while sufficient to escape the habitable zone using Earth’s motion around the Sun, is insufficient to slow down from interstellar space to the planet’s surface in the habitable zone without other assistance. Consequently, the mothership/probe scenario is more energetically viable. In addition, using water as the basis of the fuel would also require cold temperatures. Between hot exhaust (steam or other chemical byproducts) and cold storage (20K for hydrogen), this gives rise to additional signatures for characterization.
+Planets can be identified from a distance as they transit their star or through direct imaging (Winn 2023). Once an Earth-like planet is targeted, an interstellar device can plunge into its atmosphere. In principle, a multitude of tiny devices can be released from a mothership that passes near Earth. At vfinal ≈ 10−4c, a probe would cross twice the distance of the Sun from the Milky-Way center within a time of ≈ 0.5 Gyr. The fraction of all Sun-like stars that host Earth-like planets in their habitable zone is in the range ∼ 3–100% (Zink & Hansen 2019; Hsu et al. 2020; Bryson
+
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO IAW FY24 NDAA, Section 1841(a)(1)(C) Date: 2/5/2025
+
+02
+
+4
+
+et al. 2021). This implies that self-replicating probes could reach ∼ 1010 habitable planets around Sun-like stars in less than a billion years. Since most stars formed more than a billion years before the Sun (Madau & Dickinson 2014), it is possible that other technological civilizations predated ours by the amount of time needed for their devices to reach Earth.
+Here we can use time as another constraint. In the propulsion scheme where an interstellar self-replicating autonomous system is travelling at 10−4c, the above analysis argues that ∼ 1010 habitable planets around Sun-like stars could be reached within ∼ 0.5 Gyr. These self-replicating systems would necessarily be looking for water in order to generate fuel, and would necessarily have to take into account the relative motion of the planet in order to reach escape velocities after completion of the exploration mission. 1 Gyr ago Earth had water coverage and some simple algae plant life. In the extreme, detection of Earth 1 Gyr ago from a technological civilization near the center of the Milky Way 0.5 Gyr ago would be needed to decide to intentionally navigate here. In doing so, the navigators would need to plan for where the solar system would be located 1 Gyr in the future from their point of observation. Under such considerations, it becomes more likely that either: (i) such interstellar probes are the result of an unintended arrival to a planetary system; (ii) a technological civilization much closer to us than the center of the Milky Way; or (iii) an alternative propulsion scheme like the mothership/probe system is used.
+A detailed statistical analysis by Ezell & Loeb (Ezell & Loeb 2022) showed that the inferred abundance of probes is distinctly different in case of objects being targeted towards particular regions of the galaxy, specifically habitable zones containing planets. ‘Oumuamua was detected at a distance of ≈ 0.2 AU from Earth, and it passed through the habitable zone of our solar system. The estimated total number of ‘Oumuamua-like objects would then fall by a factor of ∼ 2 × 1010 in the case of targeted probes compared to probes on random trajectories.
+The interstellar meteor IM1 had an estimated diameter of ∼ 0.45 m and velocity of 60 km s−1, but it was detectable when it burned up within the atmosphere of the Earth (Siraj & Loeb 2022a). The estimated detection rate for meter-size interstellar meteors is at least ∼ 0.1yr−1 (Siraj & Loeb 2022a), resulting in a local density estimate of ∼ 106 AU−3 = 1022 pc−3. This implies 8 × 1034 IM1-like objects bound by the thin disk of the Milky Way. However, if objects with the properties of IM1 were targeted towards habitable zones containing planets, the required number of such objects is merely ∼ 4 × 1024. IM2 had a similar inferred number density to IM1 and a velocity of 40 km s−1 relative to the Local Standard of Rest (Siraj & Loeb 2022a). This implies ≈ 3 × 1034 IM2-like objects, with a reduction to 1.5 × 1024 if such objects were targeted towards habitable zones.
+The actual abundance of interstellar objects can be calibrated through future surveys such as the Legacy Survey of Space and Time (LSST) on the Vera C. Rubin Observatory in Chile. Parallax data from the James Webb Space Telescope may identify the nature and 3D trajectory of more ‘Oumuamua-like or smaller interstellar objects crossing through or trapped within the solar system.
+Below we show that any supersonic motion by such devices through the Earth’s atmosphere would inevitably be accompanied by bright optical emission and detectable characterization signatures.
+
+4. OPTICAL EMISSION
+An object made of known matter with a frontal cross-sectional area A, moving at a supersonic speed, v, must create a bow shock in the Earth’s atmosphere and dissipate a mechanical power,
+
+P
+
+≈
+
+1 2
+
+Aρav3
+
+=
+
+1.5TW(A/10
+
+m2)(ρa/0.3
+
+kg
+
+m−3)(v/10
+
+km
+
+s−1)3,
+
+(1)
+
+where ρa is the ambient air density which depends on elevation, normalized here by a representative value at an altitude of 10 km.
+
+Data on meteors shows that the fraction of the kinetic power which is radiated away in the optical band is ≈ 10%
+
+[see equation (1) and figure 2 in Brown et al. (Brown et al. 2002)], implying an optical luminosity,
+
+Lopt ≈ 150GW(A/10m2)(ρa/0.3 kg m−3)(v/10 km s−1)3.
+
+(2)
+
+For a path length ℓ, this luminosity will persist over a period of time, ∼ 1s × (ℓ/10 km)/(v/10 km s−1). Since Lopt ∝ Av3, the fireball luminosity scales with inferred distance to the 5-th power because A scales as distance squared and v scales as distance.
+
+5. OTHER OBSERVABLE SIGNATURES
+
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 2/5/2025
+
+02
+
+Constraints on UAP
+
+5
+
+In addition to the thermal, shock, and associated optical signatures of a high velocity, highly maneuvering object, there is also an ionization and associated radio frequency signature from such an object moving through the atmosphere. Studies into supersonic and hypersonic vehicles provide a good basis for comparison. While the ionization density depends on the altitude, shape, material and velocity of the object in motion, some limits can be derived on when a signature would be detected, implying a limit to the object’s motion prior to the fireball threshold. In particular, ionization at high velocities leads to an increase in radar reflectivity along the ionization edge of the object and along the ionization trail. Both give rise to enhanced radio-frequency (RF) reflection for frequencies below the cutoff frequency.
+Surzhikov calculates the ionization of air in high supersonic and low hypersonic regimes around blunt airframes (Surzhikov 2018). Figure 2 and table 1 in Surzhikov (2018) demonstrate the lowest end giving rise to a critical electron density of 1010 cm−3 for detection frequencies between 1-10 GHz. Variations of velocity, altitude and shape give rise to electron densities above this threshold, rendering the object detectable for typical radars in the L, S, C, and X radio bands.
+Dhakal et al. conducted an excellent assessment of constraints on dark matter using radar meteor detectors (Dhakal et al. 2022). While not directly applicable to the current span of UAP sightings, the calculations do address smaller, faster objects at higher altitudes (70-130 km). These objects also exhibit an ionization trail which can be used for detection and measurement using similar radars. This regime is relevant to the mothership/probe scenario discussed above, indicating a detectable signature prior to the onset of a fireball as shown in Figures (1) and (11) of Dhakal et al. (Dhakal et al. 2022).
+
+6. CONCLUSION
+The considerations in this paper imply a useful limit on observations of UAP which bound the hypothetical explanations and can support limitations on interpretations of data. For example, one of the most common sets of data within the military holdings comes from FLIR (forward looking infrared) pods. These sensors provide an accurate resolved image of relative thermal measurements across the scene. Typical UAP sightings are too far away to get a highly resolved image of the object and determination of the object’s motion is limited by the lack of range data. The range is usually estimated using the flight dynamics of the platform and some fixed points in the scene - if either are available. The error in estimating the range gives rise to a significant variation in the calculated velocity and is subject to human bias and error.
+Claims of objects exceeding the transonic to supersonic range should be evaluated against the above known physics of ionization, radar reflectivity, temperature, sonic booms, and fireballs (Loeb 2022b). All of which can more effectively and accurately bound the velocity, and hence drive the range calculation. This will, in turn, when matched with the specifics of the sensor, allow for better estimates of the size, shape, and mass of the object in question.
+
+ACKNOWLEDGEMENTS. This work was supported in part by Galileo Project at Harvard University and conducted in partnership with the Department of Defense, All-domain, Anomaly Resolution Office. We thank Richard Cloete for assistance and comments on the manuscript.
+
+REFERENCES
+
+2021, ODNI UAP Report], USG. https://www.dni.gov/files/ODNI/documents/ assessments/Prelimary-Assessment-UAP-20210625.pdf
+Bracewell, R. N. 1960, Nature, 186, 670, doi: 10.1038/186670a0
+Brown, P., Spalding, R. E., ReVelle, D. O., Tagliaferri, E., & Worden, S. P. 2002, Nature, 420, 294, doi: 10.1038/nature01238
+Bryson, S., Kunimoto, M., Kopparapu, R. K., et al. 2021, AJ, 161, 36, doi: 10.3847/1538-3881/abc418
+
+Dhakal, P., Prohira, S., Cappiello, C. V., et al. 2022, arXiv e-prints, arXiv:2209.07690, doi: 10.48550/arXiv.2209.07690
+Ezell, C., & Loeb, A. 2022, arXiv e-prints, arXiv:2209.11262, doi: 10.48550/arXiv.2209.11262
+Freitas, R. A., J. 1980, Journal of the British Interplanetary Society, 33, 251
+Freitas, R. A., J., & Valdes, F. 1985, Acta Astronautica, 12, 1027, doi: 10.1016/0094-5765(85)90031-1
+
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 2/5/2025
+
+6
+Frueh, C., Paul, S. M., & Fiedler, H. 2017, in Advanced Maui Optical and Space Surveillance (AMOS) Technologies Conference, ed. S. Ryan, 51
+Guillochon, J., & Loeb, A. 2015a, ApJL, 811, L20, doi: 10.1088/2041-8205/811/2/L20
+—. 2015b, ApJ, 806, 124, doi: 10.1088/0004-637X/806/1/124
+Hoang, T., Lazarian, A., Burkhart, B., & Loeb, A. 2017, ApJ, 837, 5, doi: 10.3847/1538-4357/aa5da6
+Hoang, T., & Loeb, A. 2020, ApJL, 899, L23, doi: 10.3847/2041-8213/abab0c
+Hoang, T., Loeb, A., Lazarian, A., & Cho, J. 2018, ApJ, 860, 42, doi: 10.3847/1538-4357/aac3db
+Hsu, D. C., Ford, E. B., & Terrien, R. 2020, MNRAS, 498, 2249, doi: 10.1093/mnras/staa2391
+Lingam, M., & Loeb, A. 2018, Research Notes of the American Astronomical Society, 2, 154, doi: 10.3847/2515-5172/aadcf4
+—. 2020, ApJ, 894, 36, doi: 10.3847/1538-4357/ab7dc7 Loeb, A. 2018, arXiv e-prints, arXiv:1804.03698.
+https://arxiv.org/abs/1804.03698 Loeb, A. 2021, Galileo Project, Harvard.
+https://projects.iq.harvard.edu/galileo/ Loeb, A. 2022a, Astrobiology, 22, 1392,
+doi: 10.1089/ast.2021.0193 —. 2022b, arXiv e-prints, arXiv:2210.01972,
+doi: 10.48550/arXiv.2210.01972 Loeb, A. 2023, Interstellar Objects from Broken Spheres.
+https://lweb.cfa.harvard.edu/∼loeb/Dyson arXiv.pdf Loeb, A., & Guillochon, J. 2016, Annals of Mathematical
+Sciences and Applications, 1, 183, doi: 10.4310/AMSA.2016.v1.n1.a5 Loeb, A., & Laukien, F. H. 2023, Journal of Astronomical Instrumentation, 2340003, doi: 10.1142/S2251171723400032
+
+02
+Loff, S. 2014, NASA’s search for asteroids to help protect Earth and understand our history, NASA. https://www.nasa.gov/content/ nasas-search-for-asteroids-to-help-protect-earth-and-understand-our-h
+Madau, P., & Dickinson, M. 2014, ARA&A, 52, 415, doi: 10.1146/annurev-astro-081811-125615
+Seager, S., Turner, E. L., Schafer, J., & Ford, E. B. 2005, Astrobiology, 5, 372, doi: 10.1089/ast.2005.5.372
+Siraj, A., & Loeb, A. 2022a, ApJL, 941, L28, doi: 10.3847/2041-8213/aca8a0
+—. 2022b, Astrobiology, 22, 1459, doi: 10.1089/ast.2021.0189
+—. 2022c, ApJ, 939, 53, doi: 10.3847/1538-4357/ac8eac Siraj, A., Loeb, A., & Gallaudet, T. 2022, arXiv e-prints,
+arXiv:2208.00092, doi: 10.48550/arXiv.2208.00092 Surzhikov, S. T. 2018, Journal of Physics: Conference
+Series, 1009, 012022, doi: 10.1088/1742-6596/1009/1/012022 Talbert, T. 2020, New data confirm 2020 so to be 1960s Upper Centaur Rocket Booster, NASA. https://www.nasa.gov/feature/ new-data-confirm-2020-so-to-be-the-upper-centaur-rocket-booster-fro Tillinghast-Raby, A., Loeb, A., & Siraj, A. 2022, arXiv e-prints, arXiv:2212.00839, doi: 10.48550/arXiv.2212.00839 Tsiolkovsky, K. 2000, in Encyclopedia of Astronomy and Astrophysics, ed. P. Murdin, 4067, doi: 10.1888/0333750888/4067 Winn, J. N. 2023, The Little Book of Exoplanets Zink, J. K., & Hansen, B. M. S. 2019, MNRAS, 487, 246, doi: 10.1093/mnras/stz1246
+
+Page determined to be Unclassified Review by Chief of Staff, AARO IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 2/5/2025
+
+

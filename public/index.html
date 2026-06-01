@@ -196,6 +196,15 @@
     border-radius: 2px; box-shadow: 0 0 0 1px rgba(217,119,87,0.3);
   }
 
+  /* === GRID "SHOW MORE" === */
+  .grid-more { grid-column: 1 / -1; display: flex; justify-content: center; padding: 1.5rem 0 0.5rem; }
+  .grid-more button {
+    background: var(--bg-elev-2); border: 1px solid var(--line); color: var(--text);
+    font: inherit; font-size: 0.85rem; font-weight: 500;
+    padding: 0.6rem 1.4rem; border-radius: var(--radius-sm); cursor: pointer;
+  }
+  .grid-more button:hover { border-color: var(--accent); color: var(--accent); }
+
   /* === CARD SLUG (mono-font document code under headline) === */
   .card-slug {
     font-family: var(--ff-mono);
@@ -454,6 +463,7 @@
     <select id="f-source">
       <option value="">All sources</option>
       <option value="war.gov">war.gov/UFO/</option>
+      <option value="nara">National Archives (NARA)</option>
       <option value="fbi.gov">FBI Vault</option>
       <option value="aaro.mil">aaro.mil</option>
     </select>
@@ -465,6 +475,7 @@
       <option value="">All releases</option>
       <option value="release_2">Release 2 (2026-05-22) NEW</option>
       <option value="release_1">Release 1 (2026-05-08)</option>
+      <option value="nara-electronic">NARA electronic (NRC/FAA/ODNI/OSD)</option>
       <option value="fbi-vault">FBI Vault (1947-77)</option>
     </select>
   </div>
@@ -641,6 +652,8 @@ let transcriptSearch = {};  // { sha: lowercased transcript text } for search
 let activeFilters = { source: '', release: '', tier: '', agency: null, type: null, region: null, q: '', netFilter: '' };
 let currentSort = 'newest-released';
 let currentView = 'grid';
+const GRID_PAGE = 120;       // cards rendered per page
+let gridLimit = GRID_PAGE;   // current render cap (bumped by "Show more")
 let currentDetailIdx = -1, filteredDocs = [];
 let thumbCache = null;
 
@@ -1005,8 +1018,14 @@ function renderGrid() {
     return 0;
   });
 
+  // Render cap — large corpus (~900 docs and growing). Reset the cap whenever
+  // the filter/sort signature changes; "Show more" bumps it.
+  const sig = JSON.stringify(activeFilters) + currentSort;
+  if (sig !== renderGrid._sig) { renderGrid._sig = sig; gridLimit = GRID_PAGE; }
+  const shown = filteredDocs.slice(0, gridLimit);
+
   const q = (activeFilters.q || '').trim();
-  grid.innerHTML = filteredDocs.map((d, i) => {
+  grid.innerHTML = shown.map((d, i) => {
     const qa = qaIndex.get(d.sha256);
     const tier = qa?.tier;
     const { slug, headline } = splitHeadline(d, qa);
@@ -1038,7 +1057,12 @@ function renderGrid() {
         </div>
       </div>
     </article>`;
-  }).join('');
+  }).join('') + (filteredDocs.length > gridLimit
+    ? `<div class="grid-more"><button id="grid-more-btn">Show more — ${filteredDocs.length - gridLimit} of ${filteredDocs.length} remaining</button></div>`
+    : '');
+
+  const moreBtn = document.getElementById('grid-more-btn');
+  if (moreBtn) moreBtn.addEventListener('click', () => { gridLimit += GRID_PAGE; renderGrid(); });
 
   // For cards whose thumbnail probably doesn't exist (per thumbs-index),
   // immediately hide the bg layer so we never fire a doomed image load.
@@ -1429,19 +1453,22 @@ async function openDetail(idx) {
       </div>` : ''}
 
     <div class="src-row">
-      <a class="primary" href="${escapeAttr(d.release_url)}" target="_blank" rel="noopener">↓ Original ${isVid ? 'video' : isPdf ? 'PDF' : 'file'} (${fmt(d.bytes)})</a>
-      ${d.url ? `<a href="${escapeAttr(d.url)}" target="_blank" rel="noopener">↗ Source on war.gov</a>` : ''}
+      ${d.source === 'nara'
+        ? `<a class="primary" href="${escapeAttr(d.release_url)}" target="_blank" rel="noopener">↗ View at National Archives</a>`
+        : `<a class="primary" href="${escapeAttr(d.release_url)}" target="_blank" rel="noopener">↓ Original ${isVid ? 'video' : isPdf ? 'PDF' : 'file'} (${fmt(d.bytes)})</a>`}
+      ${d.url && d.source !== 'nara' ? `<a href="${escapeAttr(d.url)}" target="_blank" rel="noopener">↗ Source on war.gov</a>` : ''}
       <a href="https://github.com/omgitzyeoku-collab/UFO/issues/new?template=correction.yml&title=%5BCorrection%5D+${encodeURIComponent((d.title||d.name||'').slice(0,80))}&labels=correction" target="_blank" rel="noopener">⚠ Report an error</a>
     </div>
 
     <div class="detail-actions">
       <button id="act-share" title="Copy share link (s)">⎘ Share link</button>
       <button id="act-cite" title="Copy citation (c)">❝ Cite</button>
-      <a href="${escapeAttr(d.release_url)}" download title="Download raw file">⤓ Download raw</a>
+      ${d.source !== 'nara' ? `<a href="${escapeAttr(d.release_url)}" download title="Download raw file">⤓ Download raw</a>` : ''}
       <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(headline + ' — UAP Files')}&url=${encodeURIComponent('https://ufo-wheat.vercel.app/doc/' + d.sha256 + '.html')}" target="_blank" rel="noopener">✕ Post</a>
     </div>
 
-    ${isPdf ? `<iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(d.release_url)}" loading="lazy" title="${escapeAttr(headline)}"></iframe>` : ''}
+    ${isPdf && /\.pdf(\?|$)|at_download/i.test(d.release_url || '') ? `<iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(d.release_url)}" loading="lazy" title="${escapeAttr(headline)}"></iframe>` : ''}
+    ${isPdf && !/\.pdf(\?|$)|at_download/i.test(d.release_url || '') && d.source === 'nara' ? `<div style="background:var(--bg-elev);border:1px solid var(--line);border-radius:var(--radius-sm);padding:1rem 1.2rem;margin-top:0.8rem;font-size:0.85rem;color:var(--text-soft);">📄 This is a National Archives record. The full original is hosted at <a href="${escapeAttr(d.release_url)}" target="_blank" rel="noopener">catalog.archives.gov</a>. ${d.nara_series ? 'Series: ' + escapeHtml(d.nara_series) + '.' : ''}</div>` : ''}
     ${isVid ? `<video class="pdf-frame" data-audio-sha="${d.sha256}" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
     ${d.type === 'AUD' || /\.(mp3|wav|m4a|ogg)$/i.test(d.name || '') ? `
       <div class="audio-player">

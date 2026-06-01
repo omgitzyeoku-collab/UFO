@@ -1,0 +1,230 @@
+025
+
+Public UAP Sightings and the Environment: An Analysis of Sky View Potential
+
+Richard M. Medina University of Utah
+Simon Brewer University of Utah
+Sean M. Kirkpatrick Department of Defense
+
+CLEARED For Open Publication
+Feb 17, 2023
+Department of Defense OFFICE OF PREPUBLICATION AND SECURITY REVIEW
+
+Proposed journal for submission: Annals of the American Association of Geographers
+
+Introduction There has been growing interest by the United States government in Unidentified
+Anomalous Phenomena (UAP). Given the new focus on this potential security threat and the operational safety risks posed by these objects, the UAP Task Force was initiated on August 4, 2020 (U.S. Department of Defense, 2020). This task force, like all task forces, had a limited scope, authority and resources to address the issue and was temporary in its duration. The Deputy Secretary of Defense gave direction to transition the UAP task force into the Airborne Object Identification and Management Synchronization Group (AOIMSG) on November 23, 2021 (U.S. Department of Defense, 2021). Congressional legislation, however, overtook that direction and todayâ€™s All-Domain Anomaly Resolution Office (AARO) was established on July 20, 2022 (U.S. Department of Defense, 2022) as the single authoritative UAP Office with the DoD and tasked with leading and synchronizing a whole of government approach to the issue. The mission of the AARO is to: â€œsynchronize efforts across the Department of Defense, and with other U.S. federal departments and agencies, to detect, identify and attribute objects of interest in, on or near military installations, operating areas, training areas, special use airspace and other areas of interest, and, as necessary, to mitigate any associated threats to safety of operations and national security. This includes anomalous, unidentified space, airborne, submerged and transmedium objectsâ€ (U.S. Department of Defense, 2022, np). As part of these efforts, this research team explores spatial patterns of publicly reported UAP sightings (analogous to UFO sightings in this research) from an open source online dataset.
+In the public 2021 DNI report, research on UAP sightings between 2004-2021 leaves most of its 144 government-based reports unexplained, due to limited data. Only one sighting was explained with high confidence, and was found to be a deflating balloon (Office of the Director of National Intelligence, 2021). The public 2022 DNI report on UAP sightings indicates the number of governmental sourced reports rose to 510, with nearly half still unexplained. The
+
+All-Domain Anomaly Resolution Office Chief of Staff, AARO Authority: FY24 NDAA, now codified at 44 U.S.C. 2107 Date: 02/06/2025 Released in Full: ____X___; Released in Part ______ Case Number: 330UAP000025
+
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+DNI report summarizes that there is no single explanation for all of these UAP, with potential sources including clutter, commercial drones, national security threats, and other unexplained phenomena. In 1969, another government effort, Project Blue Book determined that 701 sightings out of 12,618 were â€œunidentified,â€ but that there was no evidence of 1) any national security threat, 2) advanced technologies beyond present capabilities or knowledge, and 3) extraterrestrial vehicles (U.S. Air Force, nd). While there are some logical explanations for what many are seeing, that they think is unexplained, there are still many uncertainties surrounding UAP activity regardless of the source of the sightings. UAP research is often inconclusive. However, our ability to explain these events seems to have diminished as our sensor technology has advanced and our air activity has increased.
+In this research, we ask three foundational research questions: 1) What is the viability of publicly offered data on UAP sightings? 2) Are there credible spatial patterns to these sightings? and 3) If so, can these patterns be explained by physical and/or built environment factors? To answer these questions, we use UFO sighting data from the National UFO Research Center. These data offer an opportunity to analyze sightings not available before at a large geographic and temporal view. We model the total count of these sightings for a 20-year period from 20012020, using environmental explanatory variables â€“ light pollution, cloud cover, tree canopy cover, airports, and military installations. This model is intended to represent both the available view of the sky for any given county in the conterminous U.S., as well as the potential for airborne objects. The main hypothesis of this research is that people will report sightings of aerial objects where they have the most opportunity to see them. Specifically, we hypothesize that a) factors that limit visibility will be negatively correlated with sightings, and b) that factors related to air traffic will be positively correlated. To our knowledge, this is the first attempt to understand how the spatial variation in sightings is linked to environmental variables. This analysis offers a starting point for similar correlation theory to be applied to U.S. Government holdings on UAP activity to help identify possible sources, and represents the first serious statistical look at the totality of the available data.
+History of UAP sighting research and Environmental Explanations There has been little in the way of traditional academic research on UAPs and UAP
+sightings. This is expected as there are always efforts to discredit scientific endeavors toward understanding this phenomenon (Appelle, 1998). As well, verifiable data sources and questionable accounts have limited the rigor of previous work. While UAPs are typically things of science fiction, we cannot ignore the fact that many people throughout the world report having seen unknown objects in the sky that they cannot explain. In the U.S. there has been significant recent attention given to sightings by members of the military, or other U.S. government personnel. Databases of these events are now being kept by the AARO and the supporting Services, but these efforts only began in 2019, though they do hold information going back to 1996 (Office of the Director of National Intelligence, 2022). Congress has directed AARO to extend this research back to 1945.
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+Much of the research on UAPs has relied on firsthand accounts, psychological explanations, or specific events, which limits the systematic analysis of large area patterns (e.g., see Zimmer, 1984; Zimmer, 1985; Spanos et al., 1993; Salisbury, 1974). Data availability for large studies has been a longstanding issue, and the few studies that exist focus on smaller scale patterns and trends.
+The most likely explanation for a portion of UAP sightings is natural phenomena. For example, the planet Venus is the brightest planet and is often mistaken for a UAP. At times, it is seen close to the horizon and can shine through the trees to produce an irregular pattern of light and reflection (Phillips, 2004). The second most likely explanation is from human-made aircraft (Ramet, 1998). Human-made aircraft includes various objects in the sky, such as weather balloons, as originally explained to be responsible for the Roswell, New Mexico Case in 1947, arguably the most popular UAP case in U.S. history. Follow up disclosures by the Air Force describe the activity responsible for the event as being a then classified, multi-balloon project intended to detect Soviet nuclear tests (Weaver and McAndrew, 1995). Current explanations contributing to UAP sightings include the exponential growth in satellite and spacecraft launches and orbiters (e.g. SpaceX Starlink), as well as an increased drone activity. The use of modern technology, including satellites and drones may have led to increased incidents of these being mistakenly reported as UAPs. The U.S. Office of the Director of National Intelligenceâ€™s Preliminary Assessment on Unidentified Aerial Phenomena (2021) and the most recent DNI Report on UAP (2022) lists these five potential explanatory categories for UAP sightings â€“ airborne clutter, natural atmospheric phenomena, U.S. government or industry developmental programs, foreign adversary systems, and other (Office of the Director of National Intelligence, 2021).
+An early article attempting to explain an increase in sightings in Utahâ€™s Uinta Basin uses airborne insect infestation as a correlate. The selected insects showed patterns of â€œbrilliant colored flares or brushes of bluish white light from various external points on their bodiesâ€ during electric field stimulation (Callahan and Mankin, 1978, p. 3356). The artificially generated electric field was meant to resemble a stormy weather-related phenomenon called St. Elmoâ€™s Fire, where static electricity causes patterns of visible colored light. Interestingly, this research was refuted soon after publication and described as â€œsomewhat unrealisticâ€ (Tha Paw, 1979), though the authors did respond with a rebuttal (Callahan, 1979; Mankin, 1979).
+Other historical research suggests connections between seismic activity and UFO sightings. Persinger and Derr (1985) recall the tectonic strain hypothesis (Persinger, 1976; Persinger and Lafreniere, 1977; Persinger, 1984) â€“ â€œthat a substantial portion of UFO phenomena are generated by strain fields; they are evoked by the changing stresses within the earthâ€™s crustâ€ (Persinger and Derr, 1985). Further, research that connects seismic activity with solar activity may be a better predictor than just with seismic activity alone; also that considering seismic intensity leads to a stronger correlation with UFO sightings than with just seismic counts (Persinger, 1981).
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+Maybe the most popular natural explanation for UAP sightings is ball lightning. Ball lightning incidents are characterized by â€œa spherical or roughly spherical light-emitting object whose size varies from a few cm to a meter or more, with an average diameter of about 20 cm, and whose colors vary from red to yellow, white, blue, and (rarely) greenâ€ (Shmatov and Stephan, 2019, p. 1). Ball lightning is a rare event and data on its occurrences often relies on eyewitness accounts. These events are believed to most often occur at or near an ongoing thunderstorm. One of the issues with the ball lightning hypothesis is that it is such a rare, and rarely recorded event, that its existence is not accepted by all researchers. However, relatively recent research has confirmed, what is believed to be, a ball lightning incident (see Cen, Yuan, and Xue, 2014). Despite these attempts at explaining these phenomena, people continue to see and report things in the sky that they canâ€™t identify. We recognize that some sightings may be due to mental illnesses or other psychological issues, while others reported are hoaxes.
+The recent increase in interest in UAP reports has been accompanied by the development of new methods to assess and explain sightings (David, 2023), including custom built observatories and sensors, as well as mobile apps designed to leverage crowd-sourced information. While these methods bring new sophistication to analysis of individual events, there remains no information on the general context of sightings, i.e. why sightings are more common in certain regions of the country, and less common in others. Rather than attempt to explain what people are seeing in the sky, we explore how the combination of visibility and air traffic relates to reported sightings, thus providing a first order understanding of why the number of sightings varies spatially. Given their relative rarity, it seems unlikely that insects, seismic activity, and ball lightning are responsible for the majority of global sightings, especially those seen in the daytime. Understanding the environmental context of these sightings will make it easier to propose and test new explanations for their occurrence, and help to identify any truly anomalous sightings.
+Data and Methods UAP Public Sighting Data
+The public UAP sighting data source is the National UFO Reporting Center (NUFORC) online (NUFORC, 2023a). NUFORC was formed in 1974 and â€œthe Centerâ€™s primary function over the past four decades has been to receive, record, and to the greatest degree possible, corroborate and document reports from individuals who have been witness to unusual, possibly UFO-related eventsâ€ (NUFORC, 2023b, np). â€œUFOâ€ sighting data are available for historical years, as users can post their sightings from memory. The data are updated to about a month to the present. Our extracted dataset includes 122,983 reported sightings from June 1930 to June 2022, when we stopped our extraction. Early reports occur for many reasons. For example, a 1930 report is from a user reporting for their mother. Fields in the dataset include: Date, City, State, Country, Shape, Duration, Summary, Posted Sate, Image, and Lat/Long coordinates. The data are provided with geographic coordinates at the city level. We use the coordinate data provided for mapping; however, some entries have no coordinate data. For some, no coordinates
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+were given, but were still locatable, when spelling errors in the city field were corrected. For those, coordinates were added using online Microsoft services to construct a more complete dataset. The final resulting mappable dataset includes 121,949 points (locatable in the United States), which is 99.16% of the total extraction. For simplicity and interpretation, we focus on the conterminous U.S. from 2001 to 2020, which reduces the number of reported sightings to 98,724. For the analysis we use the total number of sightings per county across this time period to allow us to focus on the spatial patterns. Our temporal range is selected such that entries are assumed to be relatively recent events and not generated from memories decades ago. Internet access to report a sighting would be more feasible beginning about 2000, and is likely responsible for the increase in sighting reports over time. A timeline of reported sightings for the study period is provided in Figure 1, with a marked peak in sightings between 2012 and 2014, followed by a sharp drop between 2015 and 2018.
+Figure 1 Timeline of NUFORC Reported Sightings from 2001-2020 Figure 2 provides a visualization of the reported sighting spatial distribution for the conterminous U.S. Our preliminary analyses included Alaska and Hawaii; however, the tree canopy dataset did not cover the entirety of Alaska, rather it only included a coastal region. Because of this, we decided to limit the study to the conterminous U.S. The sighting point dataset was aggregated up to the county level for analysis. We selected county, rather than a city resolution for spatial continuity across the conterminous U.S., which helps with interpreting the results. Also, since these events are relatively rare, counties provide large enough areas for a meaningful aggregation of points. For our exploratory analysis, the NUFORC data were standardized by population, such that they are reported as sightings per 10,000 people.
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+Figure 2 NUFORC Reported Sighting Spatial Distribution for the Conterminous U.S. from 2001-2020
+In the spatial sciences, data like these are typically referred to as Volunteered Geographical Information (VGI). VGI are geographic information that are volunteered either knowingly or unknowingly by individuals, typically with the assistance of location enabled digital tools (Goodchild, 2007), and the issues connected to the use of these datasets has been extensively discussed. Those vulnerabilities are present here, along with others given the nature of this dataset. Like with other crowdsourced data, there is little hope for assurance of quality for VGI (Goodchild and Li, 2012). This problem is furthered in this dataset where some may be trying to actively disinform. It is clear that these data cannot be verified, and even if interviews with each person were possible, there would be issues determining truth and accuracy, especially given the historical attributes of the reports. However, NUFORC does include disclaimers on their reporting page to help remove false reports. First, they provide information including descriptions, images, and video of Starlink Satellites, which can look unidentified to those that have not seen them before. Second, they provide a description of Venus, which was discussed previously as a potential for unidentified sightings. Third, NUFORC discusses hoax and joke reports, which are said to be ignored and discarded (NUFORC, 2023c). Given the size and structure of the data, it is not clear that all hoaxes can be identified, but at least NUFORC is paying attention to hoax cases. Nor can we differentiate those sightings that have obvious and/or logical explanations, but we note that these still represent an â€˜unidentifiedâ€™ sighting. Still, this is
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+the only dataset of this size and detail that allows for geographic research. Furthermore, it is impossible to discredit over 120,000 cases. It should also be mentioned here that NUFORC accepts online, phone, and written reports to assist in unbiasing the dataset with only online activity.
+Explanatory Variables We use 3 explanatory datasets to represent physical and built environment attributes that
+would restrict the view of the sky: light pollution, cloud cover, and tree canopy cover. Additionally, we use 2 datasets that represent added airborne activity that might be mistaken for Unidentified Areal Phenomena (UAP). All data preparation and calculations are made using Microsoft Excel and ESRI ArcGIS Pro software. To aid in interpretation, all covariates were zscore transformed prior to modeling.
+Light pollution â€“ The data source for light pollution is the New World Atlas of Artificial Sky Brightness (Falchi et al., 2016a; Falchi et al., 2016b). This raster data set is offered in a geotiff file with 30 arcsecond/1km resolution and covers the entire world. For this project the data for the U.S. were extracted and the mean value for light pollution (values represent simulated zenith radiance in [mcd/m2]) was calculated for each U.S. county.
+Cloud cover â€“ Cloud cover data are sourced to the EarthEnv Project (Wilson and Jetz, 2016). These data are compiled using 15 years (2000-2014) of twice-daily remotely sensed observations from the Moderate Resolution Imaging Spectroradiometer (MODIS) sensor. They are provided in a geotiff file at 1km resolution for the entire world. The cloud cover values were averaged for each U.S. county.
+Tree canopy â€“ The tree canopy data are from the Multi-Resolution Land Characteristics Consortium (Coulston et al., 2012; Coulston et al., 2013). The data are generated by the United States Forest Service (USFS) using Landsat imagery and â€œother available ground and ancillary informationâ€ (Multi-Resolution Land Characteristics Consortium, 2022). The values represent 2016 vegetation at 30m resolution and are available for the continental U.S., coastal Alaska and Hawaii. Because of the size of the file and the resolution of other datasets in the model, the image required resampling. They were upsampled to 1km resolution. The tree canopy values were then averaged for each U.S. county.
+Airports â€“ These data are provided by ESRIâ€™s, ArcGIS Online service accessible through the ArcGIS Pro software. They include categories for airports, heliports, seaplane bases, ultralights, gliderports, balloonports and other. There are 19,850 entries in this dataset. Each entry is represented as a point. The data are standardized here as the number of airports per sq. km.
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+Military installations â€“ Military installation data are sourced to U.S. Census TIGER/Line shapefiles and downloaded from data.gov (data.gov, 2022). The U.S. Census created this dataset in collaboration with the U.S. Department of Defense and the U.S. Department of Homeland Security. The data represent the boundaries of military installations. For this research, those boundaries were overlaid onto U.S. counties, where the area of each county that is military installation is calculated.
+Models The NUFORC dataset is first explored alone to identify general spatial patterns of
+reported sightings using hotspot analysis. This exploratory analysis is based on the Getis-Ord (Gi*) index. This index identifies significant clusters of low values (cold spots) and high values (hot spots), by comparing the aggregate number of population standardized sightings in a set of neighboring counties to the full distribution of counts (Getis and Ord, 1992; Ord and Getis, 1995). Different from a heat map, the resulting map shows statistically significant regions of high and low occurrences.
+To model potential for seeing UAPs we use Bayesian small area estimation, based on the relative rate of sightings in the population of an area. Small area models are commonly used in epidemiology to study the spatial pattern of diseases. These incorporate a spatial autoregressive term to limit the influence of extreme values, which are often linked to small population sizes. For this model, the count of reported sightings for county i is assumed to follow a Poisson distribution as follows:
+í µí±¦í µí±–â€ˆ âˆ¼ í µí±ƒí µí±œí µí±–í µí± (í µí¼ƒí µí±–í µí°¸í µí±–)
+Where í µí°¸í µí±–is the expected number of sightings for county i and í µí¼ƒí µí±– is the relative rate. To get the expected value, first we estimate the per capita rate of sightings for the entire study region as the total number of sightings divided by the total population. The expected value for any county is obtained by multiplying this value by the population of that county. Where í µí¼ƒí µí±– > 1, the number of sightings is greater than would be expected based on population alone. Finally, the set of relative rates are modeled as follows:
+log(í µí¼ƒí µí±–) = í µí»½í µí±‹í µí±–â€ˆ + í µí¼–
+Where í µí»½í µí±‹í µí±–â€ˆis the set of z-score transformed covariates representing visibility and air traffic described above with associated coefficients. Finally, the model error (í µí¼–) is decomposed into a spatial autoregressive effect and non-spatial random noise. Model parameters and coefficients are estimated using Integrated Nested Laplacian Approximation (Rue et al., 2017). Model results are reported as the mean of the posterior probability distribution for each coefficient (Table 1) and spatially as the probability of a counties relative rate being over twice the national average (Figure 4). Variance Inflation Factors (VIFs), which signal potential multicollinearity within a
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025 model, for all variables in the model are well under 2. VIF values are traditionally accepted if they are under 5. Results
+The hotspot analysis shows a strong trend, with many more standardized sightings reported in the Western U.S. and in the very Northeast, along with some isolated areas including the tri-state border area of Illinois, Indiana, and Kentucky, surrounding Evansville, Indiana, and the area surrounding Washington D.C. Smaller clusters of low sightings are found through the central plains and in the southeast. Recall that this number does not represent sightings, but sightings per 10,000 in each conterminous U.S. county.
+Figure 3 Hotspot Analysis (Getis-Ord Gi*) of Reported Sightings from 2001-2020 Table 1 shows the results of the Bayesian small area model, based on the posterior probability distribution of each coefficient. As the model is based on log-transformed relative
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+
+rates, the posterior estimates have been exponentiated to help in interpretation. With the exception of the intercept, all model coefficients describe the rate of change of the relative rate of sightings for a one standard deviation increase in that coefficient (Table 1). Values above 1 indicate a positive relationship (i.e. increasing sightings); values below 1 indicate a negative relationship (decreasing sightings). For example, the coefficient for Mean Light Pollution is 0.923, indicating that a one standard deviation increase in light pollution will result in a 7.7% decrease in sightings. Coefficients are reported as the mean of the posterior distribution plus the 95% credibility interval.
+In contrast to classical frequentist analysis, Bayesian posterior estimates can be used to test specific hypotheses (McElreath, 2018). Here, we test the hypotheses that the relationship between each covariate and the rate of sightings is positive (i.e. >1) or negative (<1). Support for a given hypothesis is based on the posterior probability distribution of model coefficients, and is described as the credibility of that hypothesis. For example, if 95% of the posterior distribution of a coefficient is above one, this indicates a positive relationship between that covariate and the rate of sightings, and would be assigned a credibility of 95% of a positive relationship. If the posterior distribution is equally split into negative and positive estimates, this would be assigned a credibility of approximately 50% for either hypothesis. Credibility estimates are provided in Table 1. With the exception of cloud cover, all results support our initial hypothesis â€“ that people will see things when they have the opportunity to. The exception is cloud cover, which has a non-credible relationship with sightings, with no support of either a negative or positive relationship.
+
+Variables
+
+Exponentiated Results
+
+Positive coefficient credibility
+
+Negative coefficient credibility
+
+Relationship
+
+(Intercept)
+
+0.862 (0.848, 0.877)
+
+Mean Canopy
+
+0.961 (0.915, 1.01)
+
+6%
+
+94%
+
+More Canopy = Fewer Sightings
+
+Mean Cloud Cover 0.998 (0.929, 1.072)
+
+48%
+
+52%
+
+No Relationship
+
+Mean Light Pollution 0.923 (0.899, 0.947)
+
+0%
+
+100%
+
+More Light = Fewer Sightings
+
+Percent Military Area 1.013 (0.994, 1.033)
+
+92%
+
+8%
+
+More Military = More Sightings
+
+Air Traffic / Sq. Km 1.099 (1.068, 1.131)
+
+100%
+
+0%
+
+More Air Traffic = More Sightings
+
+Table 1 Results from Bayesian small area model. From left to right: variable name; mean
+
+posterior distribution (95% credible range); credibility of positive relationship with sightings;
+
+credibility of negative relationship with sightings; brief description of result
+
+As a further hypothesis, we use the model results to estimate the probability that the sightings in any county are more than twice the national average (the exceedance probability; Figure 4). The results confirm the hotspot analysis, with higher probabilities in western U.S. However, the area with the highest probability (80-100%) is restricted to a smaller area running from New Mexico and Nevada in the south to Washington in the north. Another smaller area
+
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+with high probabilities is located in the northwest, as well as isolated counties spread throughout the eastern U.S.
+Figure 4 Exceedance Probability for U.S. County UAP Reported Sightings, 2001-2020 Discussion and Conclusions
+We recall here our initial research questions: 1) What is the viability of publicly offered data on UAP sightings? 2) Are there credible spatial patterns to these sightings? and 3) If so, can these patterns be explained by physical and/or built environment factors? For question 1, the publicly available data from NUFORC online are useable data; however, they require processing to make them usable in a GIS for spatial analysis. There are also some errors that we took the liberty of correcting based on missing coordinates due to inaccurate city name spellings. All of the necessary data are present to make this research successful, and more are provided to inform our future research on this topic. It should also be noted that these data can be used for finer resolution (city level) research, rather than county level used here.
+The main question that hinders our faith in the research findings is, are these volunteered data valid? The short answer is that, it is likely that some are and some arenâ€™t. How much of this dataset is valid is questionable. However, we suggest that if the data were entirely invalid, the
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+sightings would exhibit little to no spatial pattern, and are unlikely to follow a pattern that can be explained by first-order visibility indicators as our results show. Another question is, are there any temporal and/or geographic errors? These errors are possible, because some entries into this dataset are historical and presented from memory, not always in the first person. We attempt to limit this by using data from 2001-present, rather than using data that was retroactively added to the database, but that does not completely remove the issue. Also, by upscaling the data to the county level, the locational estimates are placed more firmly into a spatial aggregate that has a greater likelihood of being accurate. A final issue we consider is that these reported cases require knowledge of NUFORC and access to communications. The authors found the website and organization while searching for data. Some may find the website while searching for an organization to report to. Still, there is likely bias in who has knowledge of this resource, and since it is not widely advertised many people may not be aware of it. In all, we believe this dataset to be valuable, at least in the sense that either, this is where people are seeing things they canâ€™t explain (or that they donâ€™t want to explain with more logical explanations), or this is where people are thinking more about UAPs. Both of these are important and have physical/social implications.
+For questions 2 and 3, There are credibly identifiable patterns to these sightings, and these patterns relate to environmental and landscape characteristics. We use physical factors of light pollution, tree canopy, and average annual cloud cover, as well as airborne clutter factors of air traffic and military installations. These variables should work, generally, to represent both 1) the opportunity to see something and 2) the potential for something human constructed to be in the field of view. We have not considered satellites or drones, which are likely important factors, nor the fact that airplanes (and helicopters, etc.) do not only fly around their takeoff and landing locations. However, around these locations we use, aircraft are likely to be closer to the ground, more visible, and more frequently present. Using the military installation data, we hope to capture, not only aircraft, but also nighttime training activities that might use, for example, tracer rounds, drones, and other forms of illumination in relatively desolate areas.
+If we assume that the large majority of sightings in this dataset are actually representative of true sightings that people determined to be unidentified, then our results have interesting implications. Our model shows that the majority of sightings are in the western parts of the U.S. and in the very northeast. There are also some isolated counties throughout the rest of the country that warrant further investigation to identify which properties may generate relatively more UAP attention. These results consider all independent variables; however, cloud cover is not credible. Why clouds donâ€™t seem to affect UAP sightings is a good question and may have something to do with the spatial distribution of sightings where high likelihood areas exist in coastal regions of the Pacific Northwest (relatively clouded), as well as desert regions of the Mountain West (relatively clear). All the other variable relationships are as expected and align with our initial hypotheses, that people report more sightings where they have a better view of the sky. The question now is why? This research begins to answer this question by considering how much human made airborne activity is occurring. The strong credible relationships with air
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+traffic and with military activity suggest that people are seeing things that are human made, in some unexpected way. As a good example, a hot air balloon seen from a far enough distance can look unexplainable, especially if it is seen by someone who has not seen one before. Drones, which we did not test specifically for here, can seem to fly erratically in areas where people arenâ€™t used to seeing things moving in the sky. It is unlikely that events, such as ball lightning, seismic based lights, insects, or other natural occurrences are responsible for more than a small portion of these sightings, as they are rare events themselves. We had initially expected cloud cover to be credibly related to sightings, as clouds can cause light to scatter and by doing so, obscure reflective or illuminated things that are moving within or above them, and create patterns that some might consider unexplained. However, that was not the case.
+While these results provide an initial assessment of factors linked to the sightings of unidentified or unexplained phenomenon, they also generate further questions. We find credible relationships with these factors and there are now spatial patterns that are require further investigation. Why, for example, are the rates of sightings low in California, when they are high in many of the surrounding states? Why do the rates of sightings fluctuate across time? Some of our future research will include temporal considerations (e.g., variation over time) to hopefully address some of these questions. We further note that our covariates represent average conditions, and while these clearly explain much of the first-order pattern in sightings, additional factors may be identified by considering individual events.
+We wonder how many sightings can be explained by sociocultural factors. For example, are there spikes of sightings after Hollywood attention is given to movies or TV shows on aliens? Are some cultures more likely to see UAPs, because of their belief systems? Have some U.S. regions/places been given more attention to historical UAP observations (e.g., New Mexico)? There is no question that geography and â€œplaceâ€ influence peopleâ€™s belief systems and behavior. In some places, the expectation of what you are supposed to see, may influence what you actually see. In a process termed motivated perception, people may bias their perceptions to arrive at expected conclusions that meet their goals or offer rewards (Kunda, 1990; Leong et al., 2019). If your goal is to see a UAP, you may very well see one given the opportunity.
+Many of the reports used here, given our results, may very well be explained by human based air traffic. We do not test natural phenomena, as discussed here, e.g., ball lightning. Many of those cases would be impossible to test for, as those occurrences are very rare and even more rarely recorded. One potential solution to estimate this would be to use weather data that identifies thunderstorms or other similar event activity. However, it could be the minority of sightings that take place during weather events given their spatial and temporal distribution.
+We approach this problem with caution, because of both the complexity of the topic and the sensitivity of available data. The U.S. Government position is that â€œUAP clearly pose a safety of flight issue and may pose a challenge to U.S. national securityâ€ (Office of the Director of National Intelligence, 2021, p. 3). For national security issues, uncertainties and unknowns are never good. It is the job of intelligence efforts to minimize the unknowns. Regardless of what people are seeing, and whether they are military pilots, civilian pilots, or general bystanders,
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+there is a potential threat. That threat grows as our uncertainties grow. Although based on a noisy, crowd sourced dataset, our results can provide a context for how sightings of unidentified objects vary in space, the factors may be linked to these, and may provide a small step towards understanding these threats.
+This problem is relevant on many fronts, including anthropological and sociological (i.e., understanding the human/social experience). The stigma given to this area of research, if it is explored scientifically, should be over. From a research perspective, we make no hypotheses about what people are seeing, only that they will see more when and where they have opportunity to. The question remains, however, as to what these sightings are of. Further examination of regions where the model performs poorly, temporal trends and reported details of each sighting may help further elucidate this.
+Works Cited Appelle, S. (1998) UFOs and the Scientific Method. Science, 281:5379, 919. Callahan, P. S. and Mankin, R. W. (1978) Insects as Unidentified Flying Objects. Applied Optics
+17(21): 3355-3360. Callahan, P. S. (1979) Insects as Unidentified Flying Objects: Authorâ€™s Reply to Comments.
+Applied Optics 18(16): 2725-2726. Cen, J., Yuan, P., and Xue, S. (2014) Observation of the Optical and Spectral Characteristics of
+Ball Lightning. Physical Review Letters 112: 035001. Coulston, J. W., Moisen, G. G., Wilson, B. T., Finco, M. V., Cohen, W. B., and Brewer, C. K.
+(2012). Modeling percent tree canopy cover: a pilot study. Photogrammetric Engineering & Remote Sensing 78(7): 715-727. Coulston, J. W., Jacobs, D. M., King, C. R., and Elmore, I. C. (2013). The influence of multiseason imagery on models of canopy cover: a case study. Photogrammetric Engineering & Remote Sensing 79(5):469-477. Data.gov (2022) TIGER/Line Shapefile, 2019, nation, U.S., Military Installation National Shapefile. https://catalog.data.gov/dataset/tiger-line-shapefile-2019-nation-u-s-militaryinstallation-national-shapefile. David, L. (2023). Scientists Try to Get Serious about Studying UFOs. Good Luck with That. Scientific American. https://www.scientificamerican.com/article/scientists-try-to-get-seriousabout-studying-ufos-good-luck-with-that/ Falchi, F., Cinzano, P., Duriscoe, D., Kyba, C. C. M., Elvidge, C. D., Baugh, K., Portnov, B., Rybnikova, N. A., Furgoni, R. (2016a) Supplement to: The New World Atlas of Artificial Night Sky Brightness. GFZ Data Services. http://doi.org/10.5880/GFZ.1.4.2016.001 Falchi, F., Cinzano, P., Duriscoe, D., Kyba, C. C., Elvidge, C. D., Baugh, K., Portnov, B. A., Rybnikova, N. A., Furgoni, R. (2016b) The new world atlas of artificial night sky brightness. Science Advances. 2016 Jun 1, 2(6): e1600377.
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+Getis, A. and Ord, J. K. (1992) The Analysis of Spatial Association by Use of Distance Statistics. Geographical Analysis 24(3).
+Goodchild, M. F. (2007). Citizens as sensors: the world of volunteered geography. GeoJournal, 69(4), 211-221.
+Goodchild, M. F. and Li, L. (2012) Assuring the Quality of Volunteered Geographic Information. Spatial Statistics 1:110-120.
+Kunda, Z. (1990) The Case for Motivated Reasoning. Psychological Bulletin 108(3): 480-498. Leong, Y. C., Hughes, B. L., Wang, Y., and Zaki, J. (2019) Neurocomputational Mechanisms
+Underlying Motivated Seeing. Nature Human Behavior 3: 962-973. Mankin, R. W. (1979) Insects as Unidentified Flying Objects: Authorâ€™s Reply to Comments.
+Applied Optics 18(16): 2725-2726. McElreath, R. (2018) Statistical rethinking: A Bayesian course with examples in r and stan.
+Chapman; Hall/CRC. Multi-Resolution Land Characteristics Consortium (2022) Tree Canopy.
+https://www.mrlc.gov/data/type/tree-canopy. National UFO Reporting Center (NUFORC) (2023a) The National UFO Reporting Center
+Online Database. https://nuforc.org/databank/. National UFO Reporting Center (NUFORC) (2023b) The National UFO Reporting Center â€“
+Information and Policies. https://nuforc.org/about-us/. National UFO Reporting Center (NUFORC) (2023c) File a Report. https://nuforc.org/file-a-
+report/. Office of the Director of National Intelligence (2021) Preliminary Assessment: Unidentified
+Aerial Phenomena. 25 June. https://www.dni.gov/files/ODNI/documents/assessments/Prelimary-Assessment-UAP20210625.pdf. Ord, J.K. and Getis, A. (1995) Local Spatial Autocorrelation Statistics: Distributional Issues and an Application. Geographical Analysis 27(4). Persinger, M. A. (1976) Transient Geophysical Bases for Ostensible UFO-Related Phenomena and Associated Verbal Behavior? Perceptual and Motor Skills 43: 215-221. Persinger, M. A. (1981) Geophysical Variables and Behavior: III. Prediction of UFO Reports by Geomagnetic and Seismic Activity. Perceptual and Motor Skills 53: 115-122. Persinger, M. A. (1984) Prediction of Historical and Contemporary Luminosity (UFO) Reports by Seismic Variables Within Western Europe. Experiensia 40: 676-681. Persinger, M. A., and Derr, J. S. (1985) Geophysical Variables and Behavior: XXIII. Relations Between UFO Reports Within the Uinta Basin and Local Seismicity. Perceptual and Motor Skills 60: 143-152. Persinger, M. A. and Lafreniere, G. F. (1977) Space-Time Transients and Unusual Events. Chicago: Nelson-Hall. Phillips, T. (2004) UFO Planet. NASA, 3 May. https://www.nasa.gov/vision/universe/watchtheskies/03may_maximumvenus.html.
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+025
+Ramet, S. P. (1998) UFOs over Russia and Eastern Europe. Journal of Popular Culture 32(3): 81-99.
+Rue, H., Riebler, A., SÃ¸rbye, S. H., Illian, J. B., Simpson, D. P., and Lindgren, F. K. (2017). Bayesian computing with INLA: A review. Annual Reviews of Statistics and Its Applications, 4(March), 395-421.
+Salisbury, F. B. (1974) The Utah UFO Display: A Biologistâ€™s Report. Old Greenwich: The Devin-Adair Company.
+Shmatov, M. L. and Stephan, K. D. (2019) Advances in Ball Lightning Research. Journal of Atmospheric and Solar-Terrestrial Physics 195: 105115.
+Spanos, N. P., Cross, P. A., Dickson, K., and DuBreuil, S. C. (1993) Close Encounters: An Examination of UFO Experiences. Journal of Abnormal Psychology 102(4): 624-632.
+Tha Paw, U. K. (1979) Insects as Unidentified Flying Objects: Comment. Applied Optics 18(16): 2723-2724.
+US Air Force (nd) Unidentified Flying Objects and Air Force Project Blue Book. https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104590/unidentified-flyingobjects-and-air-force-project-blue-book/.
+US Department of Defense (2020) Establishment of Unidentified Aerial Phenomena Task Force. Press Release, 14 August. https://www.defense.gov/News/Releases/Release/Article/2314065/establishment-ofunidentified-aerial-phenomena-task-force/.
+US Department of Defense (2021) DoD Announces the Establishment of the Airborne Object Identification and Management Synchronization Group (AOIMSG). Press Release, 20 July. https://www.defense.gov/News/Releases/Release/Article/2853121/dod-announces-theestablishment-of-the-airborne-object-identification-and-manag/.
+US Department of Defense (2022) DoD Announces the Establishment of the All-domain Anomaly Resolution Office. Press Release, 20 July. https://www.defense.gov/News/Releases/Release/Article/3100053/dod-announces-theestablishment-of-the-all-domain-anomaly-resolution-office/.
+Weaver, R. L. and McAndrew, J. (1995) The Roswell Report: Fact Versus Fiction in the New Mexico Desert. United States Air Force. U.S. Government Printing Office. Washington D.C.
+Wilson, A. M. and Jetz, W. (2016) Remotely Sensed High-Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions. PLoS Biol 14(3): e1002415. doi:10.1371/journal. pbio.1002415.
+Zimmer, T. A. (1984) Social Psychological Correlates of Possible UFO Sightings. The Journal of Social Psychology 123: 199.
+Zimmer, T. A. (1985) Belief in UFOs as Alternative Reality, Cultural Rejection, or Disturbed Psyche. Deviant Behavior 6: 405-419.
+Page determined to be Unclassified Reviewed by Chief of Staff, AARO
+IAW FY24 NDAA, Section 1841 (a)(1)(C) Date: 02/06/2025
+
+
