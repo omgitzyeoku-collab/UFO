@@ -1,0 +1,212 @@
+{
+  "sha256": "98f3aa27d112f3ed7309e81372466cf9ffb7fc3dd886e6218049f0af63aea397",
+  "title": "FAA UAP record 237UAP00141",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or other sensor evidence included in this report",
+    "The objects were described as appearing to be aircraft with navigation-style lights, which could indicate conventional aircraft not yet identified by ATC",
+    "Report status is 'Closed' with no resolution or explanation provided in the document",
+    "The tail number field is blank, limiting aircraft-specific verification",
+    "AWO notification is mentioned but no follow-up or AWO response is included"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_callsign",
+      "value": "DAL726",
+      "source_quote": "Callsign: DAL726",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL390 (39,000 feet)",
+      "source_quote": "E bound at FL390 over RZC",
+      "citation_offset": {
+        "offset": 368,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 246,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_description",
+      "value": "Two aircraft-like objects with red and white lights at very high altitude, off the 11 o'clock position",
+      "source_quote": "appeared to be two aircraft with red and white lights at a very high altitude",
+      "citation_offset": {
+        "offset": 418,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notification",
+      "value": "AWO notified",
+      "source_quote": "AWO notified.",
+      "citation_offset": {
+        "offset": 497,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "RZC",
+    "DEN",
+    "OGG",
+    "ATL",
+    "ZFW"
+  ],
+  "dated_events": [
+    "2023-01-14"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as appearing to be two aircraft with red and white lights at very high altitude"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL726 was flying eastbound at FL390 over the Razorback VOR on 14 January 2023",
+      "source_quote": "E bound at FL390 over RZC",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 368,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed what appeared to be two aircraft with red and white lights at very high altitude off their 11 o'clock position",
+      "source_quote": "appeared to be two aircraft with red and white lights at a very high altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 418,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Kahului, Maui (OGG) and was destined for Atlanta (ATL)",
+      "source_quote": "Origin: OGG Destination: ATL",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO was notified of the incident",
+      "source_quote": "AWO notified.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 497,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported through Fort Worth Center (ZFW)",
+      "source_quote": "Reporting Facility: ZFW",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:49:23.585Z",
+  "qa_completed_at": "2026-06-01T22:50:01.874Z",
+  "timing": {
+    "A": "20.6s",
+    "B": "17.7s",
+    "E": "17.8s"
+  },
+  "public_headline": "Delta Crew Reports Two Unidentified Lit Objects at High Altitude",
+  "public_tldr": "An FAA SKYWATCH incident report documents a Delta Air Lines crew on flight DAL726 observing what appeared to be two aircraft with red and white lights at very high altitude while flying at 39,000 feet on 14 January 2023. The case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under the primary code \"Unidentified Aerial Phenomenon.\" It records an observation made by the crew of Delta flight DAL726, a commercial flight travelling from Kahului, Maui (OGG) to Atlanta (ATL), on 14 January 2023.\n\nWhile flying eastbound at FL390 (39,000 feet) over the Razorback VOR (RZC), the crew reported seeing what appeared to be two aircraft with red and white lights at a very high altitude, off their 11 o'clock position. The sighting was reported through Fort Worth Center (ZFW), which is the FAA air traffic control facility covering that region. The FAA's Aviation Weather Office (AWO) was notified.\n\nThe report's status is listed as \"Closed,\" but the document contains no resolution, follow-up findings, or explanation for what the crew observed. No corroborating radar data or sensor evidence is included. The tail number field for the reporting aircraft is blank, and no AWO response is documented.\n\nThe report is associated with the Denver (DEN) point of departure in the system, though the flight itself originated from Maui. Redaction levels in this document appear low — the report is brief rather than heavily censored.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar data or other sensor evidence included in the report.",
+    "The objects were described as appearing to be aircraft with navigation-style lights, which could indicate conventional aircraft not yet identified by air traffic control.",
+    "The case was closed with no resolution or explanation documented — \"closed\" does not mean \"explained.\"",
+    "The tail number field is blank, which limits the ability to independently verify the specific aircraft involved.",
+    "AWO was notified but no follow-up or response from AWO is included in the document."
+  ]
+}

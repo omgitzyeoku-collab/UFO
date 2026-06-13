@@ -1,0 +1,176 @@
+{
+  "sha256": "c6f58c775c00325679e38c9ee05954f9d27d3098fe935879a5c711d392de4f7f",
+  "title": "FAA UAP record 237UAP00248",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon over Alaska.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The report spells 'Starlink' as 'Skylink', which appears to be a typo in the original FAA document.",
+    "The FAA's Starlink satellite assessment is stated without supporting evidence such as satellite pass data.",
+    "Case is closed; no follow-up investigation or additional data is referenced.",
+    "Single-source incident report with no sensor data or imagery attached."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2023-04-10 at 11:08 UTC",
+      "source_quote": "Date: 11:08 04/10/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "UPS (commercial)",
+      "source_quote": "Operator: UPS ... Operator Type: Commercial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Flight altitude",
+      "value": "FL350 (35,000 feet)",
+      "source_quote": "ENE bound at FL350",
+      "citation_offset": {
+        "offset": 367,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "148 NM northwest of Sparrevohn (SPY), Alaska",
+      "source_quote": "148 NM NW of SPY",
+      "citation_offset": {
+        "offset": 387,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Incheon (RKSI) to Anchorage (ANC)",
+      "source_quote": "Origin: RKSI Destination: ANC",
+      "citation_offset": {
+        "offset": 199,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Phenomenon description",
+      "value": "Bright white light at unknown altitude above the aircraft, seen off the left side",
+      "source_quote": "a bright white light unknown altitude above them",
+      "citation_offset": {
+        "offset": 432,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Corroborating aircraft",
+      "value": "AJT1020, B767, also RKSI to PANC at FL330",
+      "source_quote": "AJT1020, B767, RKSI to PANC at FL330 also reported same light",
+      "citation_offset": {
+        "offset": 482,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 109,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "Alaska",
+    "Anchorage (ANC/PANC)"
+  ],
+  "dated_events": [
+    "2023-04-10"
+  ],
+  "objects_described": [
+    "Bright white light at unknown altitude"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "UPS flight 49 reported a bright white light off its left side while flying at FL350, 148 NM NW of Sparrevohn.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while ENE bound at FL350, 148 NM NW of SPY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second aircraft (AJT1020) independently observed the same light.",
+      "source_quote": "AJT1020, B767, RKSI to PANC at FL330 also reported same light",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 482,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FAA assessed the sighting as consistent with a Starlink satellite train over Alaska.",
+      "source_quote": "consistent with a train of Skylink satellites traveling over Alaska",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 553,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:28:46.025Z",
+  "qa_completed_at": "2026-06-02T00:29:24.158Z",
+  "timing": {
+    "A": "20.2s",
+    "B": "18.0s",
+    "E": "16.7s"
+  },
+  "public_headline": "Two Pilots Over Alaska Reported Same Unidentified Bright Light",
+  "public_tldr": "This FAA incident report documents a UPS cargo pilot sighting of an unexplained bright white light above their aircraft over Alaska in April 2023, corroborated by a second aircraft on a similar route. The FAA assessed it as consistent with a Starlink satellite train and closed the case.",
+  "public_narrative": "On 10 April 2023 at 11:08 UTC, a UPS commercial flight cruising at 35,000 feet reported an unidentified aerial phenomenon while flying northeast-bound over Alaska, roughly 148 nautical miles northwest of Sparrevohn. The crew described a bright white light at an unknown altitude above them, visible off the aircraft's left side. The flight was en route from Incheon, South Korea to Anchorage.\n\nThe sighting was not isolated. A second aircraft — callsign AJT1020, a Boeing 767 also flying from Incheon to Anchorage at 33,000 feet — independently reported the same light.\n\nThe FAA's assessment concluded the sighting was consistent with a train of Starlink satellites travelling over Alaska. The original document spells it \"Skylink,\" which appears to be a typo. The case was closed with no further investigation referenced.\n\nNo sensor data, radar tracks, or imagery are attached to this report. It is a single-page incident record from the FAA's SKYWATCH reporting system, not a detailed analytical product.",
+  "public_caveats": [
+    "This is a single-source incident report — no radar data, photographs, or sensor recordings are attached or referenced.",
+    "The FAA's Starlink satellite explanation is stated without supporting evidence such as satellite pass timing data for that date and location.",
+    "A second aircraft independently reported the same light, which adds some corroboration, but both crews were on the same route and could have observed the same conventional object.",
+    "The case was closed without any referenced follow-up investigation or additional data collection.",
+    "The document contains a likely typo ('Skylink' instead of 'Starlink'), which is worth noting as it reflects the informal nature of the report."
+  ]
+}

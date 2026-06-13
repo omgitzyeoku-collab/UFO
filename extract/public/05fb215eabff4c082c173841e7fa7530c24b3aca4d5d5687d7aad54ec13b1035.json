@@ -1,0 +1,205 @@
+{
+  "sha256": "05fb215eabff4c082c173841e7fa7530c24b3aca4d5d5687d7aad54ec13b1035",
+  "title": "FAA UAP record 237UAP00184",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This report dates to early February 2023, coinciding with the Chinese surveillance balloon incidents and heightened balloon awareness across US airspace.",
+    "The object was described by the aircrew as a 'large balloon' — this is an observer characterisation, not a confirmed identification.",
+    "Single-source observation from one flight crew with no corroborating radar data or intercept information included in this report.",
+    "The altitude estimate of FL500 (approximately 50,000 feet) is a visual estimate from a crew at FL370 and may be imprecise.",
+    "The case is marked Closed with no resolution or follow-up details provided."
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary classification",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "SKW3756",
+      "source_quote": "Callsign: SKW3756",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Oklahoma City to Minneapolis",
+      "source_quote": "Origin: OKC Destination: MSP",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight Level 370 (37,000 feet)",
+      "source_quote": "N bound at FL370",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object position relative to aircraft",
+      "value": "Off the right side, 30 NM west of RBA",
+      "source_quote": "a large balloon off the right side while N bound at FL370, 30NM W of RBA",
+      "citation_offset": {
+        "offset": 309,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object altitude estimate",
+      "value": "Approximately FL500 (50,000 feet) and above",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "citation_offset": {
+        "offset": 383,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Large balloon",
+      "source_quote": "Aircraft reported a large balloon",
+      "citation_offset": {
+        "offset": 291,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZKC",
+    "OKC",
+    "MSP",
+    "RBA"
+  ],
+  "dated_events": [
+    "2023-02-03"
+  ],
+  "objects_described": [
+    "Large balloon at approximately FL500"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial SkyWest flight observed an unidentified large balloon at approximately 50,000 feet while flying at 37,000 feet.",
+      "source_quote": "Aircraft reported a large balloon off the right side while N bound at FL370, 30NM W of RBA. The balloon was at approximately FL500 and above.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 291,
+        "len": 141,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observation occurred 30 nautical miles west of the RBA VOR (Liberal, Kansas area).",
+      "source_quote": "30NM W of RBA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 368,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported through FAA Kansas City Center and classified under the primary code of Unidentified Aerial Phenomenon.",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was routing from Oklahoma City to Minneapolis.",
+      "source_quote": "Origin: OKC Destination: MSP",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:31:31.499Z",
+  "qa_completed_at": "2026-06-01T23:32:19.651Z",
+  "timing": {
+    "A": "23.0s",
+    "B": "25.1s",
+    "E": "14.3s"
+  },
+  "public_headline": "SkyWest Crew Reports Large Balloon at 50,000 Feet Over Kansas",
+  "public_tldr": "This FAA SKYWATCH incident report documents a February 2023 sighting by the crew of SkyWest flight SKW3756, who observed what they described as a large balloon at approximately 50,000 feet while flying at 37,000 feet over Kansas. The case was closed with no resolution or follow-up details provided.",
+  "public_narrative": "This document is an FAA SKYWATCH Incident Report classified under the primary code \"Unidentified Aerial Phenomenon.\" It records an observation made by the crew of SkyWest flight SKW3756, a commercial flight routing from Oklahoma City to Minneapolis, on 3 February 2023.\n\nWhile flying northbound at Flight Level 370 (37,000 feet), the crew reported a large balloon off the right side of the aircraft, approximately 30 nautical miles west of the RBA navigational beacon in the Liberal, Kansas area. They estimated the object was at approximately Flight Level 500 (50,000 feet) or above. The incident was reported through FAA Kansas City Center.\n\nThe report is marked as Closed, but no resolution, identification, or follow-up information is included. There is no radar data, no intercept details, and no corroborating observations from other aircraft or ground stations in this document. The FAA recorded it, classified it as a UAP, and that is where the paper trail ends.",
+  "public_caveats": [
+    "This is a single-source observation from one flight crew. No corroborating radar data or independent sightings are included in the report.",
+    "The crew described the object as a 'large balloon' — this is their characterisation, not a confirmed identification by the FAA or any other agency.",
+    "The altitude estimate of approximately 50,000 feet is a visual guess made from 37,000 feet and may be imprecise.",
+    "This report dates to early February 2023, during the period of heightened awareness following the Chinese surveillance balloon incidents over US airspace.",
+    "The case is closed with no explanation, no follow-up, and no stated conclusion — the FAA neither confirmed nor denied what the object was."
+  ]
+}

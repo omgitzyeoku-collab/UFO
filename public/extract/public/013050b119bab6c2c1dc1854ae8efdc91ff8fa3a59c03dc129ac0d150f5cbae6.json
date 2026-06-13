@@ -1,0 +1,259 @@
+{
+  "sha256": "013050b119bab6c2c1dc1854ae8efdc91ff8fa3a59c03dc129ac0d150f5cbae6",
+  "title": "FAA UAP record 237UAP00135",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot observation; no radar data, photographs, or corroborating sensor evidence is included.",
+    "The estimated distance of 10 feet is a visual estimate made at night (20:55 local or UTC) at 33,000 feet altitude, which may be unreliable.",
+    "The case is marked 'Closed' with no indication of follow-up investigation or resolution.",
+    "No tail number is recorded for the reporting aircraft, which is unusual for an incident report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "RPA3455",
+      "source_quote": "Callsign: RPA3455",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 258,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL330 (approximately 33,000 feet)",
+      "source_quote": "E bound at FL330",
+      "citation_offset": {
+        "offset": 435,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_proximity",
+      "value": "Approximately 10 feet off the nose of the aircraft",
+      "source_quote": "appeared to be 10 feet off the nose",
+      "citation_offset": {
+        "offset": 393,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Small circular object with flashing white lights",
+      "source_quote": "a small circular object with flashing white lights",
+      "citation_offset": {
+        "offset": 498,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_movement",
+      "value": "Departed field of view below and to the right",
+      "source_quote": "proceeded to depart the field of view below and to the right",
+      "citation_offset": {
+        "offset": 550,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "No evasive maneuvers were made",
+      "citation_offset": {
+        "offset": 612,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None",
+      "source_quote": "No LEO notification provided",
+      "citation_offset": {
+        "offset": 644,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZOB-M-2022/12/17-0001",
+      "source_quote": "MOR ID: ZOB-M-2022/12/17-0001",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ORD",
+    "ROC",
+    "LFD",
+    "ZOB"
+  ],
+  "dated_events": [
+    "2022-12-17"
+  ],
+  "objects_described": [
+    "Small circular object with flashing white lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Republic Airways commercial flight (RPA3455) encountered an unidentified object at FL330 on 17 December 2022.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon what appeared to be 10 feet off the nose while E bound at FL330",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 336,
+        "len": 115,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was described as small, circular, and equipped with flashing white lights.",
+      "source_quote": "a small circular object with flashing white lights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 498,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object passed extremely close to the aircraft — approximately 10 feet from the nose.",
+      "source_quote": "appeared to be 10 feet off the nose",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 393,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object moved away below and to the right of the aircraft.",
+      "source_quote": "proceeded to depart the field of view below and to the right",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 550,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew did not take evasive action.",
+      "source_quote": "No evasive maneuvers were made",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 612,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement was notified about the incident.",
+      "source_quote": "No LEO notification provided",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 644,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:43:34.232Z",
+  "qa_completed_at": "2026-06-01T22:44:21.065Z",
+  "timing": {
+    "A": "25.7s",
+    "B": "21.2s",
+    "E": "17.5s"
+  },
+  "public_headline": "Commercial Pilot Reports Small Flashing Object Ten Feet From Aircraft",
+  "public_tldr": "This FAA SKYWATCH incident report documents a Republic Airways pilot's sighting of a small circular object with flashing white lights that passed approximately 10 feet from the nose of their aircraft at 33,000 feet. The case was closed with no follow-up investigation indicated.",
+  "public_narrative": "This document is an FAA (Federal Aviation Administration) SKYWATCH incident report — a standardised form used to log pilot-reported sightings of unidentified aerial phenomena. It is filed under case number 237UAP00135 and references MOR ID ZOB-M-2022/12/17-0001, linking it to the Cleveland Air Route Traffic Control Center (ZOB).\n\nOn 17 December 2022, the crew of Republic Airways flight RPA3455, a commercial operator, reported an unidentified object while flying eastbound at FL330 (approximately 33,000 feet). The pilot described a small circular object with flashing white lights that appeared roughly 10 feet off the nose of the aircraft. The object then moved away, departing the field of view below and to the right.\n\nThe crew did not take evasive action, and no law enforcement agency was notified. The case is marked as closed, with no indication of any follow-up investigation or resolution.\n\nSeveral place codes appear in the report — DEN (Denver), ORD (Chicago O'Hare), ROC (Rochester), and LFD — though the specific incident location is not stated. No tail number was recorded for the reporting aircraft, which is unusual for an aviation incident report.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the pilot's visual observation. No radar data, photographs, or other sensor evidence is included.",
+    "The estimated distance of 10 feet is a visual guess made at night at 33,000 feet altitude — such estimates can be highly unreliable.",
+    "The case is marked 'Closed' with no indication that any follow-up investigation took place and no explanation for the object.",
+    "No aircraft tail number is recorded, which is atypical for an FAA incident report and limits independent verification.",
+    "The document shows minimal redaction, but it also contains minimal information — the brevity itself is notable."
+  ]
+}

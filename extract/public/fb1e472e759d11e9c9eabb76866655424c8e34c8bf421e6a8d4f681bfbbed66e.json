@@ -1,0 +1,212 @@
+{
+  "sha256": "fb1e472e759d11e9c9eabb76866655424c8e34c8bf421e6a8d4f681bfbbed66e",
+  "title": "FAA UAP record 237UAP00250",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft.",
+  "core_summary": "On 10 April 2023, commercial flight TSC611 (an A321 operated by TSC) reported an unidentified aerial phenomenon at approximately 55,000 feet — 20,000 feet above their position — on the HTO 125046 radial. The phenomenon was described as 4 red and white lights moving in circles. The incident was reported to facility ZNY and has been marked as closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating sensor or radar data mentioned.",
+    "No tail number recorded, limiting independent verification of the specific aircraft.",
+    "55,000 feet is well above typical commercial aviation altitudes, making visual estimation of altitude and distance less reliable.",
+    "Case is marked Closed with no resolution or explanation provided.",
+    "The position reference 'HTO 125046' likely refers to the Hampton VOR 125-degree radial at 46 nautical miles, but this is not explicitly stated in the document."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-04-10T06:23",
+      "source_quote": "Date: 06:23 04/10/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "TSC611",
+      "source_quote": "Callsign: TSC611",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "A321",
+      "source_quote": "Aircraft: A321",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "TSC (Commercial)",
+      "source_quote": "Operator: TSC",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_altitude",
+      "value": "55,000 feet",
+      "source_quote": "unidentified aerial phenomenon 20,000 feet above them at 55,000 feet",
+      "citation_offset": {
+        "offset": 314,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "~35,000 feet (inferred from 55,000 minus 20,000)",
+      "source_quote": "20,000 feet above them at 55,000 feet",
+      "citation_offset": {
+        "offset": 345,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "4 red and white lights moving in circles",
+      "source_quote": "The unknown phenomenon was 4 red and white lights moving in circles",
+      "citation_offset": {
+        "offset": 403,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "position_reference",
+      "value": "HTO 125046",
+      "source_quote": "on the HTO 125046",
+      "citation_offset": {
+        "offset": 384,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MDPC",
+    "CYQB",
+    "HTO",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-04-10"
+  ],
+  "objects_described": [
+    "A321 commercial aircraft",
+    "Unidentified aerial phenomenon — 4 red and white lights moving in circles at 55,000 feet"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The phenomenon was observed at 55,000 feet, which is 20,000 feet above the reporting aircraft's altitude.",
+      "source_quote": "unidentified aerial phenomenon 20,000 feet above them at 55,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 314,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of 4 red and white lights moving in circles.",
+      "source_quote": "The unknown phenomenon was 4 red and white lights moving in circles",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 403,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was a commercial operation from Punta Cana to Quebec City.",
+      "source_quote": "Origin: MDPC Destination: CYQB",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 200,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported to New York ARTCC (ZNY).",
+      "source_quote": "Reporting Facility: ZNY",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:30:37.345Z",
+  "qa_completed_at": "2026-06-02T00:31:17.659Z",
+  "timing": {
+    "A": "17.7s",
+    "B": "22.6s",
+    "E": "16.4s"
+  },
+  "public_headline": "Commercial Pilot Reports Four Circling Lights at 55,000 Feet",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of commercial flight TSC611, an Airbus A321, on 10 April 2023. The crew reported four red and white lights moving in circles at approximately 55,000 feet — roughly 20,000 feet above their aircraft. The case was closed with no explanation provided.",
+  "public_narrative": "On 10 April 2023, the crew of commercial flight TSC611 — an Airbus A321 operated by TSC — reported an unidentified aerial phenomenon while flying from Punta Cana (MDPC) to Quebec City (CYQB). The sighting was logged through the FAA's SKYWATCH incident reporting system.\n\nThe crew described four red and white lights moving in circles at an estimated altitude of 55,000 feet, roughly 20,000 feet above their own position. The location was referenced as the HTO 125046 radial, likely near the Hampton VOR navigational beacon. The report was filed with New York Air Route Traffic Control Centre (ZNY).\n\nThe FAA marked the case as closed. No resolution, identification, or follow-up explanation appears in the document. There is no mention of corroborating radar data, additional witness reports, or any sensor evidence beyond the crew's visual observation.\n\nThe reported altitude of 55,000 feet is notable — it sits well above the ceiling of most commercial and military aircraft. However, estimating altitude visually from a cockpit at night or in open sky is inherently imprecise, and no instrument data is cited to confirm the figure.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar or sensor data mentioned in the document.",
+    "No tail number was recorded for the reporting aircraft, which limits independent verification.",
+    "Visual altitude estimates from a cockpit — particularly at 55,000 feet — are unreliable without instrument confirmation.",
+    "The case is marked 'Closed' with no resolution or explanation provided by the FAA.",
+    "The document shows low evidence of redaction, but the lack of detail may reflect the brevity of the original report rather than deliberate withholding."
+  ]
+}

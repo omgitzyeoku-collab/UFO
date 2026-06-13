@@ -1,0 +1,245 @@
+{
+  "sha256": "38b2c4fb39a2222d1084bc6e43fc3e8b62c07276f116dcef76ee65ef4ff177aa",
+  "title": "FAA UAP record 237UAP00218",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft crew.",
+  "core_summary": "On 14 February 2023, American Airlines flight AAL1470 (an Airbus A321) reported white flashing lights while flying southeast-bound at 37,000 feet, approximately 90 nautical miles west of DBS. The reporting facility was ZLC (Salt Lake City ARTCC) and the incident was assessed as consistent with sunrise reflections off Low Earth Orbit satellites. NORAD was briefed on the report.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The prosaic explanation (satellite reflections) is the FAA's own assessment, not an independent finding.",
+    "DBS likely refers to the Dubois VOR navigational aid in Wyoming, but the abbreviation is not expanded in the document.",
+    "Single-source report based solely on aircrew observation with no corroborating radar or sensor data mentioned.",
+    "ZLC is the FAA identifier for Salt Lake City Air Route Traffic Control Center.",
+    "MOR (Mandatory Occurrence Report) filed by OMIC would contain additional details not present in this summary report."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-02-14 at 10:25 UTC",
+      "source_quote": "Date: 10:25 02/14/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "AAL1470",
+      "source_quote": "Callsign: AAL1470",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Seattle (SEA) to Dallas/Fort Worth (DFW)",
+      "source_quote": "Origin: SEA Destination: DFW",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "37,000 feet",
+      "source_quote": "SE bound at 37,000 feet",
+      "citation_offset": {
+        "offset": 349,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "90 nautical miles west of DBS",
+      "source_quote": "90 NM W of DBS",
+      "citation_offset": {
+        "offset": 374,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "White flashing lights",
+      "source_quote": "The unknown phenomenon was white flashing lights",
+      "citation_offset": {
+        "offset": 390,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Assessed explanation",
+      "value": "Sunrise reflections off Low Earth Orbit satellites",
+      "source_quote": "This report is consistent with sunrise reflections off Low Earth Orbit satellites",
+      "citation_offset": {
+        "offset": 440,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NORAD notification",
+      "value": "NORAD was briefed",
+      "source_quote": "NORAD briefed on report",
+      "citation_offset": {
+        "offset": 523,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Follow-up action",
+      "value": "OMIC to file MOR",
+      "source_quote": "OMIC will file MOR",
+      "citation_offset": {
+        "offset": 548,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "DBS",
+    "SEA",
+    "DFW"
+  ],
+  "dated_events": [
+    "2023-02-14"
+  ],
+  "objects_described": [
+    "White flashing lights (unidentified aerial phenomenon)",
+    "Low Earth Orbit satellites (proposed explanation)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight AAL1470 was operating an A321 from Seattle to Dallas/Fort Worth on 14 February 2023.",
+      "source_quote": "Callsign: AAL1470 ... Aircraft: A321 ... Origin: SEA Destination: DFW",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed white flashing lights while at 37,000 feet, 90 nautical miles west of DBS.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while SE bound at 37,000 feet, 90 NM W of DBS. The unknown phenomenon was white flashing lights.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 148,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FAA assessed the sighting as consistent with sunrise reflections off Low Earth Orbit satellites.",
+      "source_quote": "This report is consistent with sunrise reflections off Low Earth Orbit satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 440,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD was briefed on the incident.",
+      "source_quote": "NORAD briefed on report",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 523,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "OMIC was tasked with filing a Mandatory Occurrence Report.",
+      "source_quote": "OMIC will file MOR",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 548,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:03:43.012Z",
+  "qa_completed_at": "2026-06-02T00:04:19.801Z",
+  "timing": {
+    "A": "20.6s",
+    "B": "16.2s",
+    "E": "16.0s"
+  },
+  "public_headline": "American Airlines Crew Reported Flashing Lights Over Wyoming in 2023",
+  "public_tldr": "This FAA incident report documents white flashing lights observed by the crew of American Airlines flight 1470 on 14 February 2023 while flying at 37,000 feet over Wyoming. The FAA assessed the sighting as consistent with sunrise reflections off low Earth orbit satellites, and the case is closed.",
+  "public_narrative": "On 14 February 2023 at 10:25 UTC, the crew of American Airlines flight AAL1470 — an Airbus A321 flying from Seattle to Dallas/Fort Worth — reported seeing white flashing lights while cruising southeast-bound at 37,000 feet. The sighting occurred approximately 90 nautical miles west of DBS, a navigational waypoint likely located in Wyoming.\n\nThe report was filed through the FAA's SKYWATCH system and handled by Salt Lake City Air Route Traffic Control Center (ZLC). It was coded as an Unidentified Aerial Phenomenon. NORAD — the North American Aerospace Defense Command — was briefed on the report, and the FAA's Office of Military and Interagency Coordination (OMIC) was tasked with filing a Mandatory Occurrence Report.\n\nThe FAA's own assessment concluded the sighting was consistent with sunrise reflections off low Earth orbit satellites. The case is now closed. No corroborating radar or sensor data is mentioned in the document.\n\nThis is a summary-level incident report rather than a detailed investigation file. The separate Mandatory Occurrence Report referenced in the document would contain additional details not present here.",
+  "public_caveats": [
+    "The satellite-reflection explanation is the FAA's own assessment, not an independent finding — no outside analysis is referenced.",
+    "This is a single-source report based solely on the aircrew's visual observation, with no mention of corroborating radar or sensor data.",
+    "The document is a summary report; the fuller Mandatory Occurrence Report filed by OMIC is not included.",
+    "Redaction levels are low — the document appears largely complete, though the location abbreviation 'DBS' is not expanded in the original.",
+    "A closed case status means the FAA considered the matter resolved, not necessarily that every question was answered."
+  ]
+}

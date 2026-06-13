@@ -1,0 +1,310 @@
+{
+  "sha256": "7b3295d9dd7147897192b645260e8a6850a8cab281fb6be7dcb7c9dc4a411158",
+  "title": "FAA UAP record 237UAP00384",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial airline crew.",
+  "core_summary": "On 21 October 2024 at 01:36, the crew of American Airlines flight AAL2694 (a Boeing 737 MAX 8) reported observing several orbs traveling in multiple directions while flying northwest-bound at 36,000 feet, approximately 125 nautical miles southeast of Atlantic City. The objects appeared to be at altitudes between 40,000 and 60,000 feet and were not detected on ATC radar.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation with no corroborating radar data",
+    "No tail number recorded for the reporting aircraft",
+    "Case is marked closed with no resolution or follow-up findings documented",
+    "Altitude estimates of FL400–FL600 are approximate and based on visual judgment from the cockpit"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2024-10-21 at 01:36",
+      "source_quote": "Date: 01:36 10/21/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "AAL2694",
+      "source_quote": "Callsign: AAL2694",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "B38M (Boeing 737 MAX 8)",
+      "source_quote": "Aircraft: B38M",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "AAL (American Airlines)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "SYCJ",
+      "source_quote": "Origin: SYCJ",
+      "citation_offset": {
+        "offset": 201,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "JFK",
+      "source_quote": "Destination: JFK",
+      "citation_offset": {
+        "offset": 214,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZNY (New York ARTCC)",
+      "source_quote": "Reporting Facility: ZNY",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL360 (36,000 feet)",
+      "source_quote": "NW bound at FL360",
+      "citation_offset": {
+        "offset": 370,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location_of_sighting",
+      "value": "125 NM southeast of Atlantic City (ACY)",
+      "source_quote": "125NM SE of ACY",
+      "citation_offset": {
+        "offset": 389,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Several orbs traveling multiple directions",
+      "source_quote": "several orbs traveling multiple directions",
+      "citation_offset": {
+        "offset": 433,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_altitude",
+      "value": "FL400 to FL600 (40,000–60,000 feet)",
+      "source_quote": "approximately FL400 to FL600",
+      "citation_offset": {
+        "offset": 479,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 509,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 248,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_position",
+      "value": "Off the front side of aircraft",
+      "source_quote": "off the front side",
+      "citation_offset": {
+        "offset": 345,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "ACY (Atlantic City)",
+    "JFK",
+    "SYCJ",
+    "DEN"
+  ],
+  "dated_events": [
+    "2024-10-21T01:36"
+  ],
+  "objects_described": [
+    "B38M (Boeing 737 MAX 8)",
+    "Several orbs at FL400–FL600"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight AAL2694 reported a UAP sighting while en route to JFK",
+      "source_quote": "Callsign: AAL2694 ... Destination: JFK",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The phenomenon consisted of several orbs moving in multiple directions",
+      "source_quote": "several orbs traveling multiple directions",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 433,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The orbs were estimated at altitudes between 40,000 and 60,000 feet",
+      "source_quote": "approximately FL400 to FL600",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 479,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by ATC radar systems",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 509,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was 125 nautical miles southeast of Atlantic City at the time",
+      "source_quote": "125NM SE of ACY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 389,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting was reported to New York ARTCC (ZNY)",
+      "source_quote": "Reporting Facility: ZNY",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:36:24.873Z",
+  "qa_completed_at": "2026-06-02T02:37:04.583Z",
+  "timing": {
+    "A": "22.0s",
+    "B": "17.8s",
+    "E": "19.4s"
+  },
+  "public_headline": "American Airlines crew reported orbs at 40,000–60,000 feet over the Atlantic",
+  "public_tldr": "This FAA SKYWATCH incident report documents a sighting by the crew of American Airlines flight AAL2694 on 21 October 2024. While flying at 36,000 feet roughly 125 nautical miles southeast of Atlantic City, the crew observed several orbs moving in multiple directions at estimated altitudes of 40,000 to 60,000 feet; the objects did not appear on air traffic control radar.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unidentified aerial phenomenon (UAP) sightings reported by pilots and air traffic controllers. It was filed under case number 237UAP00384 and is now marked closed.\n\nOn 21 October 2024 at 01:36, the crew of American Airlines flight AAL2694, a Boeing 737 MAX 8 flying northwest-bound at 36,000 feet, reported seeing several orbs off the front of the aircraft. The flight was en route to New York's JFK airport and was approximately 125 nautical miles southeast of Atlantic City at the time. The sighting was reported to New York Air Route Traffic Control Center (ZNY).\n\nThe crew estimated the orbs were at altitudes between 40,000 and 60,000 feet and described them as travelling in multiple directions. Notably, the objects were not detected on the ATC facility's radar system, meaning the only evidence is the crew's visual observation.\n\nThe FAA marked the case as closed. No resolution, follow-up findings, or explanation for the objects is documented in the report. No tail number was recorded for the reporting aircraft.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the flight crew's visual observation — no radar, infrared, or other sensor data corroborates the sighting.",
+    "The altitude estimates of 40,000 to 60,000 feet are approximate, based on the crew's visual judgment from the cockpit, not instrument readings.",
+    "The case is marked closed with no explanation or follow-up findings recorded — 'closed' does not mean 'explained'.",
+    "No tail number was recorded for the reporting aircraft, which limits independent verification of the specific flight.",
+    "The document shows low evidence of redaction, meaning what is presented here appears to be the full extent of what the FAA recorded."
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "sha256": "77f4b443227c1468c22313766c0bd606157e282b2719c1d489618155dbe62405",
+  "title": "FAA UAP record 237UAP00285",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by commercial aircraft crews.",
+  "core_summary": "On 8 August 2023 at 03:00, a FedEx MD-11 cargo aircraft (callsign FDX52) at flight level 380 reported an unidentified aerial phenomenon near coordinates 24°29'N 72°50'W, which appeared to be military activity at approximately 40,000 feet. Approximately one minute later, a JetBlue A320 (flight JBU 1348) at flight level 340 independently reported a similar sighting in the same area.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The crew themselves described the phenomenon as appearing to be military activity, suggesting a possible conventional explanation.",
+    "No radar data, sensor readings, or photographic evidence is included in this report — it relies solely on pilot visual observations.",
+    "The case is marked Closed with no resolution explanation provided.",
+    "Two independent crews corroborate the sighting, which strengthens the observation but does not identify the phenomenon.",
+    "The location (over the Bahamas/Atlantic between Puerto Rico and Florida) is in an area with known military operating areas."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "primary_aircraft_callsign",
+      "value": "FDX52",
+      "source_quote": "Callsign: FDX52",
+      "citation_offset": {
+        "offset": 93,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_aircraft_type",
+      "value": "MD-11",
+      "source_quote": "Aircraft: MD11",
+      "citation_offset": {
+        "offset": 124,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "FedEx (FDX)",
+      "source_quote": "Operator: FDX",
+      "citation_offset": {
+        "offset": 185,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_level",
+      "value": "FL 380 (38,000 feet)",
+      "source_quote": "an unidentified aerial phenomenon at FL 380",
+      "citation_offset": {
+        "offset": 352,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location_coordinates",
+      "value": "24°29'N 72°50'W",
+      "source_quote": "Located approximately 2429N 7250W",
+      "citation_offset": {
+        "offset": 397,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin_destination",
+      "value": "SJU (San Juan) to MIA (Miami)",
+      "source_quote": "Origin: SJU Destination: MIA",
+      "citation_offset": {
+        "offset": 210,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZMA (Miami ARTCC)",
+      "source_quote": "Reporting Facility: ZMA",
+      "citation_offset": {
+        "offset": 161,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft",
+      "value": "JBU 1348, Airbus A320",
+      "source_quote": "JBU 1348, A320 TJSJ to IAD, at FL 340 reported similar sighting",
+      "citation_offset": {
+        "offset": 547,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_route",
+      "value": "TJSJ (San Juan) to IAD (Washington Dulles)",
+      "source_quote": "TJSJ to IAD",
+      "citation_offset": {
+        "offset": 562,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_altitude",
+      "value": "Approximately 40,000 feet",
+      "source_quote": "appeared to be military activity at approximately 40,000 feet",
+      "citation_offset": {
+        "offset": 455,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Appeared to be military activity",
+      "source_quote": "The unknown phenomenon appeared to be military activity at approximately 40,000 feet",
+      "citation_offset": {
+        "offset": 432,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 109,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZMA-M-2023/08/07-0003",
+      "source_quote": "MOR ID: ZMA-M-2023/08/07-0003",
+      "citation_offset": {
+        "offset": 296,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 256,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SJU (San Juan)",
+    "MIA (Miami)",
+    "TJSJ (San Juan)",
+    "IAD (Washington Dulles)",
+    "DEN (Denver POD)"
+  ],
+  "dated_events": [
+    "2023-08-08T03:00"
+  ],
+  "objects_described": [
+    "A320 airliner",
+    "Unidentified aerial phenomenon described as apparent military activity at ~40,000 feet"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A FedEx MD-11 (FDX52) reported a UAP at FL 380 near 24°29'N 72°50'W on 8 August 2023 at 03:00.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon at FL 380, Located approximately 2429N 7250W",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 334,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared to involve military activity at approximately 40,000 feet.",
+      "source_quote": "The unknown phenomenon appeared to be military activity at approximately 40,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 432,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A JetBlue A320 (JBU 1348) independently corroborated the sighting approximately one minute later from FL 340.",
+      "source_quote": "Approximately 1 minute later JBU 1348, A320 TJSJ to IAD, at FL 340 reported similar sighting",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 518,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FedEx flight was operating from San Juan to Miami.",
+      "source_quote": "Origin: SJU Destination: MIA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 210,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case was reported to Miami ARTCC and assigned MOR ID ZMA-M-2023/08/07-0003.",
+      "source_quote": "MOR ID: ZMA-M-2023/08/07-0003",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 296,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:03:46.774Z",
+  "qa_completed_at": "2026-06-02T01:04:31.468Z",
+  "timing": {
+    "A": "24.6s",
+    "B": "20.1s",
+    "E": "15.8s"
+  },
+  "public_headline": "Two Commercial Crews Reported Unidentified Aerial Activity Over the Atlantic in 2023",
+  "public_tldr": "This FAA incident report documents a sighting on 8 August 2023 in which a FedEx cargo crew and a JetBlue passenger crew independently reported an unidentified aerial phenomenon near the Bahamas at roughly 40,000 feet. The crews described it as apparent military activity; the FAA closed the case without a stated resolution.",
+  "public_narrative": "On 8 August 2023 at 03:00, a FedEx MD-11 cargo aircraft (callsign FDX52) flying from San Juan to Miami at 38,000 feet reported an unidentified aerial phenomenon near coordinates 24°29'N 72°50'W — an area over the Atlantic between the Bahamas and Puerto Rico. The crew described what they saw as apparent military activity at approximately 40,000 feet. The sighting was logged by Miami Air Route Traffic Control Center (ARTCC) under incident ID ZMA-M-2023/08/07-0003.\n\nAbout one minute later, a JetBlue Airbus A320 (flight JBU 1348) flying from San Juan to Washington Dulles at 34,000 feet independently reported a similar sighting in the same area. Two separate commercial crews, on different routes and at different altitudes, described the same phenomenon within a short window.\n\nThe FAA logged this as a SKYWATCH incident report — the agency's category for unidentified aerial phenomenon sightings reported by aircrew. The case is marked as closed, but the report provides no explanation of what was observed and no resolution. There is no radar data, sensor readings, or photographic evidence included; the report relies entirely on pilot visual observations.\n\nThe location sits in an area of the Atlantic known to contain military operating areas, which is consistent with the crews' own description of the phenomenon as apparent military activity. The report itself neither confirms nor rules out a military explanation.",
+  "public_caveats": [
+    "The report contains no radar data, sensor readings, or photographs — it is based solely on what two flight crews saw with their eyes.",
+    "Both crews independently described the phenomenon as appearing to be military activity, which suggests a conventional explanation may exist.",
+    "The FAA closed the case without providing any resolution or identification of what was observed.",
+    "The sighting occurred in an area of the Atlantic with known military operating areas, between the Bahamas and Puerto Rico.",
+    "Two independent crews corroborating the sighting strengthens the observation but does not identify what it was."
+  ]
+}

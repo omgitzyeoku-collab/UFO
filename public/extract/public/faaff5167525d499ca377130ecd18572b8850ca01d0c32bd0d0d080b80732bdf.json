@@ -1,0 +1,255 @@
+{
+  "sha256": "faaff5167525d499ca377130ecd18572b8850ca01d0c32bd0d0d080b80732bdf",
+  "title": "FAA UAP record 237UAP00059",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of a jet pack near Long Beach, California.",
+  "core_summary": "On June 25, 2021, the pilot of a Cessna 182 (callsign N974PA) reported seeing a jet pack at 5,400 feet traveling northwest near Long Beach. The FAA's Southern California TRACON (SCT) notified Long Beach Police Department, but LBPD stated they did not have the manpower to search for the individual.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The object was described by the pilot as a 'jet pack' — this is the observer's characterisation, not a confirmed identification.",
+    "This report is part of a series of jet pack sightings near LAX/Long Beach in 2020-2021 that were never conclusively explained.",
+    "The case was closed without law enforcement making contact with any individual, so no identification was established.",
+    "Single-source observation from one pilot; no radar data or corroborating witnesses are referenced in this report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2021-06-25T00:57Z",
+      "source_quote": "Date: 00:57 06/25/2021",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_callsign",
+      "value": "N974PA",
+      "source_quote": "Callsign: N974PA",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "C182 (Cessna 182)",
+      "source_quote": "Aircraft: C182",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 245,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "SCT (Southern California TRACON)",
+      "source_quote": "Reporting Facility: SCT",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_reported",
+      "value": "Jet pack at 5,400 ft traveling NW",
+      "source_quote": "Aircraft reported a Jet Pack LGB205004 at 5,400 ft. Jet pack was traveling NW.",
+      "citation_offset": {
+        "offset": 329,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "No evasive action.",
+      "citation_offset": {
+        "offset": 408,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notified",
+      "value": "Long Beach PD at 562-435-6711",
+      "source_quote": "Long Beach PD notified 562-435-6711.",
+      "citation_offset": {
+        "offset": 427,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_response",
+      "value": "LBPD lacked manpower to search",
+      "source_quote": "Long Beach PD did not have the manpower to search for the individual.",
+      "citation_offset": {
+        "offset": 757,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR_ID",
+      "value": "SCT-M-2021/06/24-0005",
+      "source_quote": "MOR ID: SCT-M-2021/06/24-0005",
+      "citation_offset": {
+        "offset": 291,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "jet_pack_reference_code",
+      "value": "LGB205004",
+      "source_quote": "Jet Pack LGB205004 at 5,400 ft",
+      "citation_offset": {
+        "offset": 349,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Long Beach",
+    "DEN",
+    "SCT"
+  ],
+  "dated_events": [
+    "06/25/2021",
+    "2021/06/24"
+  ],
+  "objects_described": [
+    "Jet pack (LGB205004)",
+    "C182 (Cessna 182)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Cessna 182 pilot reported a jet pack flying at 5,400 feet traveling northwest near Long Beach.",
+      "source_quote": "Aircraft reported a Jet Pack LGB205004 at 5,400 ft. Jet pack was traveling NW.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 329,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was required by the reporting aircraft.",
+      "source_quote": "No evasive action.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 408,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Long Beach Police Department was notified but did not have the manpower to investigate.",
+      "source_quote": "Long Beach PD did not have the manpower to search for the individual.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 757,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "FAA HQ advised SCT to request law enforcement make contact and collect identifying information.",
+      "source_quote": "HQ DEN advised SCT to call PD back and let them know, that this was a hazard to aviation and request they send a LEO out and try to make contact, collect identifying info",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 515,
+        "len": 170,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Long Beach PD was uncertain about what action to take when initially notified.",
+      "source_quote": "Long Beach PD was not certain what they should do.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 464,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:26:13.217Z",
+  "qa_completed_at": "2026-06-01T21:26:56.838Z",
+  "timing": {
+    "A": "24.6s",
+    "B": "19.0s",
+    "E": "18.9s"
+  },
+  "public_headline": "Pilot Reports Jet Pack at 5,400 Feet Near Long Beach",
+  "public_tldr": "This FAA incident report documents a Cessna 182 pilot who reported seeing a jet pack flying at 5,400 feet and travelling northwest near Long Beach, California on 25 June 2021. Long Beach Police were notified but said they lacked the manpower to investigate, and the case was closed without identifying anyone.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under reference 237UAP00059. It records an event on 25 June 2021 in which the pilot of a Cessna 182 (callsign N974PA), a general aviation aircraft, reported seeing what they described as a jet pack at 5,400 feet, travelling northwest near Long Beach, California. The sighting was logged by Southern California TRACON (SCT), the FAA radar facility covering the region.\n\nThe pilot did not take evasive action. SCT notified Long Beach Police Department, but LBPD was initially uncertain what action to take. FAA headquarters then advised SCT to call the police back, emphasising that the object was a hazard to aviation, and to request that officers attempt to make contact and collect identifying information.\n\nDespite this follow-up, Long Beach PD stated they did not have the manpower to search for the individual. The case was subsequently closed. No identification of the person or object was ever established.\n\nThis report is part of a broader series of jet pack sightings reported near the Los Angeles and Long Beach area during 2020 and 2021, none of which were conclusively explained. The document itself contains minimal redaction.",
+  "public_caveats": [
+    "The object was described as a 'jet pack' by the pilot — this is the observer's characterisation, not a confirmed identification.",
+    "This is a single-source observation from one pilot. No radar data or corroborating witnesses are referenced in the report.",
+    "The case was closed without law enforcement making contact with any individual, so no identification was established.",
+    "This sighting is part of a series of unexplained jet pack reports near LAX and Long Beach in 2020–2021 that remain unresolved.",
+    "Redaction levels in this document are low — the report is largely complete as released."
+  ]
+}

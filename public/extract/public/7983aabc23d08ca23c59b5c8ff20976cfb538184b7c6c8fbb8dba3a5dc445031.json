@@ -1,0 +1,224 @@
+{
+  "sha256": "7983aabc23d08ca23c59b5c8ff20976cfb538184b7c6c8fbb8dba3a5dc445031",
+  "title": "FAA UAP record 237UAP00128",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a civilian observation of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single civilian witness report with no corroborating radar data or additional observers mentioned",
+    "Ground-based visual observation only — no instrumented or sensor data referenced",
+    "The report is a secondhand account taken by FAA HQ Denver from the caller, not a direct investigator observation",
+    "Case is marked Closed with no resolution or identification noted"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report date/time",
+      "value": "2022-10-26 00:45",
+      "source_quote": "Date: 00:45 10/26/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Event time",
+      "value": "Approximately 2130",
+      "source_quote": "Event occurred approximately 2130",
+      "citation_offset": {
+        "offset": 326,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "HQ DEN",
+      "source_quote": "Reporting Facility: HQ DEN",
+      "citation_offset": {
+        "offset": 128,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 104,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Amber glowing sphere",
+      "source_quote": "an amber glowing sphere moving at a high rate of speed",
+      "citation_offset": {
+        "offset": 219,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object movement",
+      "value": "SW-NE, stopped mid-air, ascended straight up",
+      "source_quote": "moving at a high rate of speed from SW-NE, stop in mid air and ascend straight up",
+      "citation_offset": {
+        "offset": 243,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Vicinity of Deweyville, TX",
+      "source_quote": "in the vicinity of Deweyville, TX",
+      "citation_offset": {
+        "offset": 360,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Information request outcome",
+      "value": "Denied; referred to National UFO Reporting Hotline",
+      "source_quote": "Caller demanded to know additional information and details which was denied. Report taken and caller referred to National UFO Reporting Hotline",
+      "citation_offset": {
+        "offset": 395,
+        "len": 143,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Deweyville, TX",
+    "HQ DEN"
+  ],
+  "dated_events": [
+    "2022-10-26",
+    "approximately 2130"
+  ],
+  "objects_described": [
+    "Amber glowing sphere"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A civilian observer reported an amber glowing sphere moving at high speed from SW to NE near Deweyville, TX",
+      "source_quote": "Caller reported to HQ DEN they observed from the ground an amber glowing sphere moving at a high rate of speed from SW-NE",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 163,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object stopped in mid-air and ascended straight up",
+      "source_quote": "stop in mid air and ascend straight up",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 286,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The event occurred at approximately 2130 local time",
+      "source_quote": "Event occurred approximately 2130",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 326,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FAA denied the caller's request for additional information",
+      "source_quote": "Caller demanded to know additional information and details which was denied",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 395,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The caller was referred to the National UFO Reporting Hotline",
+      "source_quote": "caller referred to National UFO Reporting Hotline",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 489,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:36:52.520Z",
+  "qa_completed_at": "2026-06-01T22:37:30.293Z",
+  "timing": {
+    "A": "16.7s",
+    "B": "21.1s",
+    "E": "18.5s"
+  },
+  "public_headline": "FAA Logged Civilian Report of Glowing Sphere Over Texas",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a civilian caller's sighting of an amber glowing sphere near Deweyville, Texas on the evening of 26 October 2022. The object was described as moving at high speed before stopping mid-air and ascending straight up; the FAA closed the case with no identification or resolution noted.",
+  "public_narrative": "This document is a SKYWATCH Incident Report filed by the Federal Aviation Administration (FAA), coded as an \"Unidentified Aerial Phenomenon.\" It was logged at 00:45 on 26 October 2022 by FAA headquarters in Denver (HQ DEN) and is now marked as closed.\n\nA civilian caller reported observing, from the ground, an amber glowing sphere in the vicinity of Deweyville, Texas. The caller described the object moving at a high rate of speed from southwest to northeast, then stopping in mid-air and ascending straight up. The event occurred at approximately 9:30 p.m. local time.\n\nThe FAA took the report but denied the caller's request for additional information or details about the sighting. The caller was referred to the National UFO Reporting Hotline. The case was closed with no resolution or identification of the object noted in the record.\n\nThe report is brief — a single page capturing the basics of a phone call rather than a detailed investigation. There is no mention of radar data, photographs, additional witnesses, or any follow-up inquiry by the FAA.",
+  "public_caveats": [
+    "This is a single civilian witness report with no corroborating radar data, sensor readings, or additional observers mentioned.",
+    "The report is a secondhand account: FAA HQ Denver recorded what the caller told them over the phone, not what an investigator directly observed.",
+    "The case is marked 'Closed' with no resolution — the FAA did not identify or explain the reported object.",
+    "The observation was ground-based and purely visual; no instrumented or technical data supports the description of the object's movement.",
+    "Redaction levels are low, but the document is inherently limited — it captures a phone report, not an investigation."
+  ]
+}

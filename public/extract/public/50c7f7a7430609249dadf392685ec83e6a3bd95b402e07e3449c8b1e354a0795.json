@@ -1,0 +1,205 @@
+{
+  "sha256": "50c7f7a7430609249dadf392685ec83e6a3bd95b402e07e3449c8b1e354a0795",
+  "title": "FAA UAP record 237UAP00196",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": "On 3 February 2023 at 04:01 UTC, United Airlines flight UAL1046 (a Boeing 737-800 operating from Chicago O'Hare to Seattle) reported an unidentified aerial phenomenon while westbound at flight level 360 (approximately 36,000 feet), located 37 nautical miles northeast of Sioux City (SUX). The phenomenon had lights and appeared to be manoeuvring at approximately flight level 400 (40,000 feet) or above.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report from one flight crew with no corroborating radar data or additional witness accounts included.",
+    "The report says the phenomenon 'appeared to be maneuvering' — this is the crew's subjective impression, not instrumentally confirmed.",
+    "Case status is 'Closed' with no resolution or explanation provided in the document.",
+    "No tail number is listed for the aircraft, which is unusual."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary classification",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time",
+      "value": "2023-02-03 at 04:01",
+      "source_quote": "Date: 04:01 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "UAL1046",
+      "source_quote": "Callsign: UAL1046",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "United Airlines (commercial)",
+      "source_quote": "Operator: UAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 360 (approx. 36,000 ft)",
+      "source_quote": "W bound at FL360",
+      "citation_offset": {
+        "offset": 361,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Had lights, appeared to manoeuvre at FL400 or above",
+      "source_quote": "The unknown phenomenon had lights and appeared to be maneuvering at approximately FL400 or above",
+      "citation_offset": {
+        "offset": 395,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD (Point of Departure/Duty)",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "2023-02-03"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with lights at approximately FL400 or above"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight UAL1046 reported a UAP while flying westbound at FL360.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon above them while W bound at FL360",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 37 nautical miles northeast of Sioux City.",
+      "source_quote": "37NM NE of SUX",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 379,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon had visible lights.",
+      "source_quote": "The unknown phenomenon had lights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 395,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared to be manoeuvring at approximately FL400 (40,000 feet) or above.",
+      "source_quote": "appeared to be maneuvering at approximately FL400 or above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 433,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was above the reporting aircraft's altitude.",
+      "source_quote": "an unidentified aerial phenomenon above them",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 310,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:43:10.659Z",
+  "qa_completed_at": "2026-06-01T23:43:45.826Z",
+  "timing": {
+    "A": "19.0s",
+    "B": "16.2s",
+    "E": "17.5s"
+  },
+  "public_headline": "United Airlines crew reported lights manoeuvring above their 737 over Iowa",
+  "public_tldr": "An FAA SKYWATCH incident report documents United Airlines flight UAL1046 observing an unidentified aerial phenomenon with visible lights near Sioux City, Iowa on 3 February 2023. The crew reported the object appeared to be manoeuvring at roughly 40,000 feet — above their cruising altitude of 36,000 feet. The case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena (UAPs) in US airspace. It records a sighting by the crew of United Airlines flight UAL1046, a Boeing 737-800 flying from Chicago O'Hare to Seattle.\n\nOn 3 February 2023 at 04:01 UTC, while cruising westbound at flight level 360 (approximately 36,000 feet) and positioned 37 nautical miles northeast of Sioux City, Iowa, the crew reported an unidentified aerial phenomenon above them. The object had visible lights and appeared to be manoeuvring at approximately flight level 400 (around 40,000 feet) or above — meaning it was at least 4,000 feet higher than the reporting aircraft.\n\nThe FAA classified the report under its primary code for \"Unidentified Aerial Phenomenon.\" The case status is listed as closed, but the document provides no resolution, identification, or follow-up explanation for what the crew observed.\n\nNotably, the report contains no corroborating radar data, no additional witness accounts from other aircraft or ground stations, and no tail number for the aircraft — an omission the document does not explain. The description of the object manoeuvring is the crew's subjective impression rather than an instrumentally confirmed observation.",
+  "public_caveats": [
+    "This is a single-source report from one flight crew. No corroborating radar data or independent witness accounts are included in the document.",
+    "The crew described the phenomenon as 'appearing to manoeuvre' — this is a subjective visual impression, not confirmed by instruments or tracking systems.",
+    "The case is marked 'Closed' with no resolution or identification provided. Closed does not mean explained.",
+    "No aircraft tail number is listed, which is unusual for FAA incident reports. The reason for this omission is not stated.",
+    "There is minimal redaction in this document, but the record is also very brief — it contains limited detail beyond the basic sighting parameters."
+  ]
+}

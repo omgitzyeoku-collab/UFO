@@ -1,0 +1,211 @@
+{
+  "sha256": "2249808876244ee3eeb16d383a4cecc71d1ae14bb87d0234dfe1ea97ae5d1d62",
+  "title": "FAA UAP record 237UAP00444",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot's sighting of an unidentified aerial phenomenon near Lynchburg, Virginia.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts mentioned.",
+    "The abbreviation 'UNKN DEPARTURE ARPT - CLT' is ambiguous — it may mean unknown departure airport with CLT as destination, or vice versa.",
+    "No follow-up investigation or resolution is documented in this report.",
+    "Size and distance estimates from a cockpit at FL360 are inherently imprecise."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Aircraft tail number",
+      "value": "N926FM",
+      "source_quote": "N926FM, EMBRAER E135",
+      "citation_offset": {
+        "offset": 237,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Embraer E135",
+      "source_quote": "N926FM, EMBRAER E135",
+      "citation_offset": {
+        "offset": 237,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date and time",
+      "value": "January 26, 2023, 1853 EST",
+      "source_quote": "1/26/2023 6:53:00 PM (-05 EST)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "12 o'clock position",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON AT THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 286,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude during sighting",
+      "value": "Descending from FL360 to FL340",
+      "source_quote": "WHILE DESCENDING FROM FL360 TO FL340",
+      "citation_offset": {
+        "offset": 356,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting location",
+      "value": "10 NM northeast of Lynchburg (LYH)",
+      "source_quote": "10 NE LYH",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP behavior",
+      "value": "Climbing through FL360 with a smoke trail",
+      "source_quote": "THE UAP WAS OBSERVED CLIMBING THROUGH FL360 WITH A SMOKE TRAIL",
+      "citation_offset": {
+        "offset": 404,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Shiny, missile-shaped object",
+      "source_quote": "DESCRIBED AS A SHINY MISSILE SHAPED OBJECT",
+      "citation_offset": {
+        "offset": 480,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 550,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "37.4279°N, 79.0727°W",
+      "source_quote": "Latitude: 37.427853939999999",
+      "citation_offset": {
+        "offset": 99,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Lynchburg, VA",
+    "LYH",
+    "CLT"
+  ],
+  "dated_events": [
+    "1/26/2023",
+    "01-26-2023"
+  ],
+  "objects_described": [
+    "Embraer E135 (N926FM)",
+    "Shiny missile-shaped UAP with smoke trail"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "An Embraer E135 with tail number N926FM reported a UAP sighting while descending near Lynchburg, VA on January 26, 2023.",
+      "source_quote": "N926FM, EMBRAER E135, UNKN DEPARTURE ARPT - CLT, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 237,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was climbing through FL360 (approximately 36,000 feet) and left a smoke trail.",
+      "source_quote": "THE UAP WAS OBSERVED CLIMBING THROUGH FL360 WITH A SMOKE TRAIL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 404,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was described as shiny and missile-shaped.",
+      "source_quote": "DESCRIBED AS A SHINY MISSILE SHAPED OBJECT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 480,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement agency was notified of the sighting.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 550,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:53:22.019Z",
+  "qa_completed_at": "2026-06-02T02:54:01.233Z",
+  "timing": {
+    "A": "18.3s",
+    "B": "20.9s",
+    "E": "15.3s"
+  },
+  "public_headline": "Pilot Reports Shiny Missile-Shaped Object Climbing Near Lynchburg, Virginia",
+  "public_tldr": "This FAA incident report documents a pilot's sighting of an unidentified aerial phenomenon on January 26, 2023, near Lynchburg, Virginia. The pilot of an Embraer E135 regional jet described a shiny, missile-shaped object climbing through 36,000 feet with a smoke trail. No follow-up investigation or resolution is included in the report.",
+  "public_narrative": "On the evening of January 26, 2023, at 6:53 PM Eastern time, the pilot of an Embraer E135 aircraft (tail number N926FM) reported an unidentified aerial phenomenon to the FAA's Washington Operations Center. The aircraft was descending from 36,000 to 34,000 feet approximately 10 nautical miles northeast of Lynchburg, Virginia (coordinates 37.43°N, 79.07°W).\n\nThe pilot reported the object directly ahead at the 12 o'clock position. It was described as a shiny, missile-shaped object climbing through 36,000 feet — roughly the same altitude as the aircraft — and leaving a visible smoke trail behind it.\n\nThe report notes that no law enforcement notification was made. The document contains no mention of radar data, additional witnesses, or any corroborating evidence beyond the single pilot's account.\n\nThe FAA filed this as an incident report but the document includes no follow-up investigation, analysis, or conclusion about what the object was. It is a raw operational record — a snapshot of what was reported in the moment, not an assessed finding.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No corroborating radar data or additional witness accounts are mentioned in the report.",
+    "Size and distance estimates made from a cockpit at 36,000 feet are inherently imprecise.",
+    "The report contains no follow-up investigation or resolution — it documents what was reported, not what was concluded.",
+    "The abbreviation 'UNKN DEPARTURE ARPT - CLT' in the original document is ambiguous and may refer to the aircraft's route involving Charlotte (CLT), but the exact meaning is unclear.",
+    "Redaction levels are low, but the document's brevity means there is simply very little information to work with."
+  ]
+}

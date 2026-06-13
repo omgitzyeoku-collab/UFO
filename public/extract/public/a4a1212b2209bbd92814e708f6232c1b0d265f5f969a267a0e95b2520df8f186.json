@@ -1,0 +1,255 @@
+{
+  "sha256": "a4a1212b2209bbd92814e708f6232c1b0d265f5f969a267a0e95b2520df8f186",
+  "title": "FAA UAP record 237UAP00264",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On 17 May 2023, the crew of Aeromexico flight AMX692 (a Boeing 737 MAX 8) reported three white lights at their 12 o'clock position while northbound at 35,000 feet, approximately 50 nautical miles east of San Antonio, Texas. The lights were travelling westbound at roughly 45,000 feet and exhibited unusual behaviour: moving west for 3–5 seconds then instantly returning to their starting point. The incident was reported through FAA facility ZHU (Houston Center) and is marked closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included.",
+    "The case is marked 'Closed' with no resolution or explanation provided in this document.",
+    "No tail number is recorded, limiting independent flight verification.",
+    "The observed altitude of FL450 (45,000 feet) exceeds the service ceiling of most conventional aircraft."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "date_time",
+      "value": "2023-05-17 at 06:57 UTC",
+      "source_quote": "Date: 06:57 05/17/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "AMX692",
+      "source_quote": "Callsign: AMX692",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "B38M (Boeing 737 MAX 8)",
+      "source_quote": "Aircraft: B38M",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "AMX (Aeromexico)",
+      "source_quote": "Operator: AMX",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "MMMX (Mexico City)",
+      "source_quote": "Origin: MMMX",
+      "citation_offset": {
+        "offset": 200,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "CYYZ (Toronto)",
+      "source_quote": "Destination: CYYZ",
+      "citation_offset": {
+        "offset": 213,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_altitude",
+      "value": "FL350 (35,000 feet)",
+      "source_quote": "N bound at FL350",
+      "citation_offset": {
+        "offset": 362,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "50 NM east of San Antonio (SAT)",
+      "source_quote": "50 NM E of SAT",
+      "citation_offset": {
+        "offset": 380,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZHU (Houston Center)",
+      "source_quote": "Reporting Facility: ZHU",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "3 white lights travelling westbound at approximately FL450",
+      "source_quote": "3 white lights traveling W bound at approximately FL450",
+      "citation_offset": {
+        "offset": 423,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_behaviour",
+      "value": "Lights moved west for 3–5 seconds then instantly returned to start point",
+      "source_quote": "Lights would travel W for 3 to 5 seconds then immediately move back to start point",
+      "citation_offset": {
+        "offset": 480,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_altitude",
+      "value": "Approximately FL450 (45,000 feet)",
+      "source_quote": "at approximately FL450",
+      "citation_offset": {
+        "offset": 456,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MMMX",
+    "CYYZ",
+    "SAT",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-05-17"
+  ],
+  "objects_described": [
+    "B38M (Boeing 737 MAX 8)",
+    "3 white lights at approximately FL450"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Aeromexico flight AMX692 was operating a Mexico City to Toronto route on 17 May 2023",
+      "source_quote": "Origin: MMMX Destination: CYYZ",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 200,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was northbound at FL350 when the sighting occurred",
+      "source_quote": "N bound at FL350, 50 NM E of SAT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 362,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Three white lights were observed at the aircraft's 12 o'clock position at approximately FL450",
+      "source_quote": "an unidentified aerial phenomenon 12 O'clock while N bound at FL350, 50 NM E of SAT. The unknown phenomenon was 3 white lights traveling W bound at approximately FL450",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 311,
+        "len": 167,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights exhibited repetitive oscillating movement, travelling west then snapping back to their origin point every 3–5 seconds",
+      "source_quote": "Lights would travel W for 3 to 5 seconds then immediately move back to start point",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 480,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:44:30.586Z",
+  "qa_completed_at": "2026-06-02T00:45:12.714Z",
+  "timing": {
+    "A": "21.1s",
+    "B": "21.1s",
+    "E": "15.6s"
+  },
+  "public_headline": "Aeromexico Crew Reported Three Oscillating White Lights Over Texas",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of Aeromexico flight AMX692 on 17 May 2023. While flying at 35,000 feet near San Antonio, Texas, the pilots observed three white lights at a higher altitude that appeared to move west and then snap back to their starting position every few seconds. The case is marked closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standard form used to log pilot reports of unidentified aerial phenomena. It was filed through Houston Center (the FAA's air traffic control facility covering that region) and assigned the reference number 237UAP00264.\n\nOn 17 May 2023 at 06:57 UTC, the crew of Aeromexico flight AMX692 — a Boeing 737 MAX 8 flying from Mexico City to Toronto — reported something unusual. While heading north at 35,000 feet, approximately 50 nautical miles east of San Antonio, Texas, they spotted three white lights directly ahead at their 12 o'clock position. The lights appeared to be at roughly 45,000 feet, which is above the operating ceiling of most conventional aircraft.\n\nWhat made the sighting distinctive was the reported behaviour: the lights would travel westward for three to five seconds and then immediately return to their starting point, repeating this pattern. The report does not include any radar data or additional witness accounts to corroborate the crew's observations.\n\nThe FAA marked the case as closed. No resolution, identification, or explanation is provided in the document. There is no indication that further investigation was conducted or that any follow-up findings were recorded.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data, photographs, or independent witness accounts are included in the document.",
+    "The case is marked 'Closed' with no resolution — the FAA did not identify or explain what was observed.",
+    "No aircraft tail number is recorded, which limits the ability to independently verify the flight details.",
+    "The reported altitude of the lights (approximately 45,000 feet) exceeds the service ceiling of most conventional aircraft, but no analysis of this detail is included.",
+    "The document shows minimal redaction, but it also contains minimal information — brevity is not the same as transparency."
+  ]
+}

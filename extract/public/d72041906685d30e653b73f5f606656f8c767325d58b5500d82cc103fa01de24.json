@@ -1,0 +1,240 @@
+{
+  "sha256": "d72041906685d30e653b73f5f606656f8c767325d58b5500d82cc103fa01de24",
+  "title": "FAA UAP record 237UAP00443",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a pilot-reported unidentified aerial phenomenon.",
+  "core_summary": "On January 23, 2023, the crew of Delta flight 8934, a Boeing 757-200 flying from Miami to New Orleans, reported an unidentified aerial phenomenon at their 12 o'clock position while flying northwest at flight level 380 (approximately 38,000 feet), roughly 40 nautical miles southwest of St. Petersburg-Clearwater International Airport (PIE) in Florida. No evasive action was taken. The UFO Reporting Center was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or sensor evidence included in this document.",
+    "The document is a preliminary FAA operations center notification, not a full investigation report.",
+    "No description of the UAP's appearance, size, movement, or behaviour is provided.",
+    "The second coordinate field is labelled 'Latitude' but the negative value indicates it is actually longitude (West)."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "Delta 8934 (DAL8934)",
+      "source_quote": "DELTA 8934, B752, MIA - MSY",
+      "citation_offset": {
+        "offset": 260,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 757-200 (B752)",
+      "source_quote": "DELTA 8934, B752",
+      "citation_offset": {
+        "offset": 260,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Miami (MIA) to New Orleans (MSY)",
+      "source_quote": "MIA - MSY",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 380 (approx. 38,000 ft)",
+      "source_quote": "NW BOUND AT FL380",
+      "citation_offset": {
+        "offset": 369,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON FROM THEIR 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 289,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "27.9086°N, 82.6865°W",
+      "source_quote": "Latitude: 27.908633609999999 Latitude: -82.686509999999998",
+      "citation_offset": {
+        "offset": 100,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time",
+      "value": "January 23, 2023, 02:38 EST",
+      "source_quote": "Date: 1/23/2023 2:38:00 AM (-05 EST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Miami ARTCC",
+      "source_quote": "MIAMI ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 240,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 398,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Notification",
+      "value": "UFO Reporting Center notified",
+      "source_quote": "UFO REPORTING CENTER NOTIFIED",
+      "citation_offset": {
+        "offset": 423,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of travel",
+      "value": "Northwest bound",
+      "source_quote": "NW BOUND AT FL380",
+      "citation_offset": {
+        "offset": 369,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "St. Petersburg-Clearwater, FL",
+    "Miami (MIA)",
+    "New Orleans (MSY)",
+    "PIE (St. Petersburg-Clearwater International Airport)"
+  ],
+  "dated_events": [
+    "1/23/2023 2:38:00 AM (-05 EST)"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon (UAP)",
+    "Boeing 757-200 (Delta 8934)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight 8934, a Boeing 757-200, was operating the MIA-MSY route on January 23, 2023.",
+      "source_quote": "DELTA 8934, B752, MIA - MSY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 260,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew reported a UAP directly ahead of the aircraft while at 38,000 feet.",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON FROM THEIR 12 O'CLOCK POSITION WHILE NW BOUND AT FL380",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 289,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was approximately 40 nautical miles southwest of PIE airport at the time.",
+      "source_quote": "40 SW PIE",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 398,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO Reporting Center was notified of the incident.",
+      "source_quote": "UFO REPORTING CENTER NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 423,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Miami ARTCC was the air traffic control facility involved.",
+      "source_quote": "MIAMI ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 240,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:52:24.042Z",
+  "qa_completed_at": "2026-06-02T02:53:07.077Z",
+  "timing": {
+    "A": "20.2s",
+    "B": "22.8s",
+    "E": "14.9s"
+  },
+  "public_headline": "Delta 757 Crew Reports Unidentified Object at 38,000 Feet Over Florida",
+  "public_tldr": "An FAA operations center notification records that the crew of Delta flight 8934, a Boeing 757-200 flying from Miami to New Orleans, reported an unidentified aerial phenomenon directly ahead of their aircraft at 38,000 feet on January 23, 2023. No evasive action was taken, and the UFO Reporting Center was notified.",
+  "public_narrative": "This document is a preliminary incident notification from the FAA's Washington Operations Center, not a full investigation report. It records a pilot-reported sighting of an unidentified aerial phenomenon (UAP) — the current official term for what was previously called a UFO.\n\nOn January 23, 2023, at 2:38 AM Eastern time, the crew of Delta flight 8934 — a Boeing 757-200 operating the Miami to New Orleans route — reported a UAP at their 12 o'clock position, meaning directly ahead of the aircraft. The plane was flying northwest at flight level 380 (approximately 38,000 feet), roughly 40 nautical miles southwest of St. Petersburg-Clearwater International Airport in Florida. Miami Air Route Traffic Control Center (ARTCC) was the facility handling the flight.\n\nThe crew took no evasive action in response to the sighting. The FAA's UFO Reporting Center was notified of the incident.\n\nThe document provides no description of the object's appearance, size, movement, or behaviour. There is no radar data, sensor evidence, or follow-up investigation included. It is strictly an initial notification — a record that the event was reported, not an analysis of what was observed.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or sensor evidence included in the document.",
+    "The document is a preliminary FAA operations center notification, not a completed investigation or analysis.",
+    "No description of the UAP's appearance, size, movement, or behaviour is provided — only that something was reported at the 12 o'clock position.",
+    "There is no conclusion from the FAA about what the object was. The document records the report, nothing more.",
+    "One coordinate field is mislabelled in the original document (a longitude value is marked as latitude), though the actual location is clear from context."
+  ]
+}

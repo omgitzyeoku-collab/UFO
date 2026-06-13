@@ -1,0 +1,229 @@
+{
+  "sha256": "87833d89405c7b5ca55575dcfb2b05cdc9e3a200d33d372ad46f04c97e3038f4",
+  "title": "FAA UAP record 237UAP00301",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot observation with no corroborating radar or sensor data mentioned.",
+    "The description of lights near the Big Dipper constellation at high altitude could be consistent with satellites, Starlink trains, or other known objects — no investigation findings are included.",
+    "The report is marked Closed with no resolution or explanation provided.",
+    "AWO (Aviation Weather Office) notification suggests possible atmospheric or astronomical explanation was considered but no conclusion is documented."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "date_time",
+      "value": "2023-09-26T05:27",
+      "source_quote": "Date: 05:27 09/26/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "UAL980",
+      "source_quote": "Callsign: UAL980",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "United Airlines (UAL)",
+      "source_quote": "Operator: UAL",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "ORD (Chicago O'Hare)",
+      "source_quote": "Origin: ORD",
+      "citation_offset": {
+        "offset": 200,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "EIDW (Dublin, Ireland)",
+      "source_quote": "Destination: EIDW",
+      "citation_offset": {
+        "offset": 212,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL350 (35,000 feet)",
+      "source_quote": "E bound at FL350",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Bright lights orbiting at high altitude near the Big Dipper constellation",
+      "source_quote": "bright lights orbiting at a high altitude in the vicinity of the Big Dipper constellation",
+      "citation_offset": {
+        "offset": 395,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_observed",
+      "value": "Northern sky, possibly Canadian airspace",
+      "source_quote": "The event was in the Northern Sky, possibly Canadian airspace",
+      "citation_offset": {
+        "offset": 486,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ORD",
+    "EIDW",
+    "ZBW",
+    "Canadian airspace"
+  ],
+  "dated_events": [
+    "2023-09-26"
+  ],
+  "objects_described": [
+    "Bright lights orbiting at high altitude near the Big Dipper constellation"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 980 was operating a Boeing 757-200 from Chicago O'Hare to Dublin on 26 September 2023",
+      "source_quote": "Callsign: UAL980 ... Aircraft: B752 ... Origin: ORD Destination: EIDW",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft was eastbound at 35,000 feet when the phenomenon was observed",
+      "source_quote": "E bound at FL350",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of bright lights orbiting at high altitude near the Big Dipper constellation",
+      "source_quote": "bright lights orbiting at a high altitude in the vicinity of the Big Dipper constellation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 395,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Aviation Weather Office was notified of the incident",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 549,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case was closed with no further action indicated",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:19:16.894Z",
+  "qa_completed_at": "2026-06-02T01:19:56.298Z",
+  "timing": {
+    "A": "20.6s",
+    "B": "18.8s",
+    "E": "16.1s"
+  },
+  "public_headline": "United Airlines Pilot Reports Bright Lights Over Northern Sky",
+  "public_tldr": "This FAA incident report documents a United Airlines pilot observing bright lights appearing to orbit at high altitude near the Big Dipper constellation while flying from Chicago to Dublin on 26 September 2023. The case was closed with no explanation or resolution provided.",
+  "public_narrative": "On 26 September 2023 at 05:27, the crew of United Airlines flight 980 — a Boeing 757 flying eastbound from Chicago O'Hare to Dublin, Ireland — reported seeing something unusual while cruising at 35,000 feet. The pilot described bright lights orbiting at high altitude in the vicinity of the Big Dipper constellation, visible in the northern sky and possibly over Canadian airspace.\n\nThe sighting was logged by the FAA under its SKYWATCH programme as an Unidentified Aerial Phenomenon, case number 237UAP00301. The FAA's Aviation Weather Office was notified, which suggests the agency may have considered whether atmospheric or astronomical conditions could explain the lights. No findings from that referral appear in the record.\n\nThe case is marked as Closed. No resolution, explanation, or follow-up investigation findings are included in the document. There is no mention of corroborating radar data, sensor readings, or reports from other aircraft.\n\nThe report originates from a single pilot observation. While the document confirms the flight details and the nature of the sighting, it offers no conclusion about what the lights were.",
+  "public_caveats": [
+    "This is a single-source report based solely on one pilot's visual observation — no radar, sensor, or photographic evidence is mentioned.",
+    "The description of bright lights near the Big Dipper at high altitude is consistent with several known possibilities, including satellites or Starlink trains, though the report does not evaluate these.",
+    "The case was closed without any documented resolution or explanation for what was observed.",
+    "The Aviation Weather Office was notified but no conclusions from that referral appear in the record.",
+    "Redaction levels appear low, but the absence of investigation findings means the record is thin rather than censored."
+  ]
+}

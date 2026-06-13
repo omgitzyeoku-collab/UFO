@@ -1,0 +1,278 @@
+{
+  "sha256": "94df08bee4b1792ad579ddfe40f0121785d1acd13abe05ac7760346cb1cce76d",
+  "title": "FAA UAP record 237UAP00338",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during commercial flight.",
+  "core_summary": "On January 16, 2024, a commercial aircraft (callsign JTZ839) flying westbound at 40,000 feet reported two white lights approximately 30 nautical miles ahead that rapidly maneuvered toward the aircraft and then climbed 5,000 to 6,000 feet at extraordinary speed. Two other commercial flights (DAL543 and SKW3290) independently confirmed seeing the same lights. The phenomenon was not detected on ATC radar systems.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single incident report with no follow-up investigation details included.",
+    "Case status is 'Closed' with no resolution or explanation provided.",
+    "Pilot descriptions of speed are subjective and not instrumentally measured.",
+    "Absence from radar could indicate small size, non-metallic composition, or sensor limitations rather than extraordinary characteristics.",
+    "Three independent witnesses strengthen the observation but all are visual-only with no sensor corroboration."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2024-01-16 at 03:55 UTC",
+      "source_quote": "Date: 03:55 01/16/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_aircraft_callsign",
+      "value": "JTZ839",
+      "source_quote": "Callsign: JTZ839",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "E55P",
+      "source_quote": "Aircraft: E55P",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "JTZ (Commercial)",
+      "source_quote": "Operator: JTZ",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL400 (40,000 feet)",
+      "source_quote": "W bound at FL400",
+      "citation_offset": {
+        "offset": 393,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "45 nautical miles east-southeast of Zuni (ZUN)",
+      "source_quote": "45NM ESE of ZUN",
+      "citation_offset": {
+        "offset": 411,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "2 white lights approximately 30NM ahead, rapidly maneuvering toward aircraft then climbing 5,000-6,000 feet",
+      "source_quote": "2 white lights approximately 30NM in front of them rapidly maneuvering towards them then climbing 5,000 to 6,000 feet",
+      "citation_offset": {
+        "offset": 455,
+        "len": 117,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pilot_characterization",
+      "value": "Faster than anything the pilot had ever experienced",
+      "source_quote": "faster than anything he has ever experienced",
+      "citation_offset": {
+        "offset": 574,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC facility radar",
+      "source_quote": "The UAP was not observed on ATC facility radar systems",
+      "citation_offset": {
+        "offset": 621,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_1",
+      "value": "DAL543 (ATL to LAS)",
+      "source_quote": "DAL543 (ATL..LAS)",
+      "citation_offset": {
+        "offset": 677,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_2",
+      "value": "SKW3290 (GJT to PHX)",
+      "source_quote": "SKW3290 (GJT.. PHX)",
+      "citation_offset": {
+        "offset": 699,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken by any aircraft",
+      "source_quote": "No evasive action taken by any aircraft",
+      "citation_offset": {
+        "offset": 752,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "awo_notified",
+      "value": "Yes",
+      "source_quote": "AWO advised",
+      "citation_offset": {
+        "offset": 793,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZAB",
+    "ZUN",
+    "LBB",
+    "LAS",
+    "ATL",
+    "GJT",
+    "PHX"
+  ],
+  "dated_events": [
+    "2024-01-16T03:55",
+    "2024/01/15"
+  ],
+  "objects_described": [
+    "E55P aircraft",
+    "2 white lights (UAP)",
+    "ATC facility radar systems"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Three separate commercial aircraft independently observed the same two white lights.",
+      "source_quote": "DAL543 (ATL..LAS) and SKW3290 (GJT.. PHX) reported seeing the same lights",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 677,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by air traffic control radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar systems",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 621,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights rapidly maneuvered toward the aircraft and then climbed 5,000 to 6,000 feet at a speed the pilot described as unprecedented in his experience.",
+      "source_quote": "rapidly maneuvering towards them then climbing 5,000 to 6,000 feet \"faster than anything he has ever experienced\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 506,
+        "len": 100,
+        "exact": false,
+        "matched": "rapidly maneuvering towards them then climbing 5,000 to 6,000 feet \"faster than anything he has ever"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by any of the three aircraft.",
+      "source_quote": "No evasive action taken by any aircraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 752,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:53:32.421Z",
+  "qa_completed_at": "2026-06-02T01:54:15.316Z",
+  "timing": {
+    "A": "24.1s",
+    "B": "18.8s",
+    "E": "17.2s"
+  },
+  "public_headline": "Three Commercial Flights Reported Fast-Moving Lights Over New Mexico",
+  "public_tldr": "An FAA incident report documents a January 2024 sighting in which a pilot at 40,000 feet observed two white lights that rapidly approached his aircraft and climbed thousands of feet at extraordinary speed. Two other commercial flights independently confirmed the same lights, but air traffic control radar detected nothing.",
+  "public_narrative": "On 16 January 2024 at 03:55 UTC, the pilot of a commercial aircraft (callsign JTZ839, an E55P type) was flying westbound at 40,000 feet, roughly 45 nautical miles east-southeast of Zuni, New Mexico. The pilot reported seeing two white lights approximately 30 nautical miles ahead that rapidly manoeuvred toward the aircraft and then climbed 5,000 to 6,000 feet. The pilot described the speed as faster than anything he had ever experienced.\n\nTwo other commercial flights in the area independently reported seeing the same lights: DAL543, flying from Atlanta to Las Vegas, and SKW3290, flying from Grand Junction to Phoenix. None of the three aircraft took evasive action.\n\nThe FAA logged the event under its SKYWATCH programme and classified it as an Unidentified Aerial Phenomenon. Notably, the lights were not detected on any air traffic control radar system. The FAA's Airway Operations office was notified.\n\nThe case status is listed as Closed. The report includes no follow-up investigation, no proposed explanation, and no resolution. There is minimal redaction in the document itself.",
+  "public_caveats": [
+    "All three observations were visual only — no radar, infrared, or other sensor data corroborates what the pilots saw.",
+    "The pilot's description of speed ('faster than anything he has ever experienced') is subjective and was not instrumentally measured.",
+    "The absence of radar detection could have mundane explanations, including small object size, non-metallic composition, or sensor limitations.",
+    "The case was closed with no explanation or follow-up investigation documented, so the FAA reached no conclusion about what the lights were.",
+    "This is a single incident report, not a broader investigation or analytical assessment."
+  ]
+}

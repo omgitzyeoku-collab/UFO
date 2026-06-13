@@ -1,0 +1,246 @@
+{
+  "sha256": "371846133a6a9b5f3b5b09ebf17f58da5ae38932ffe9e7d0245ac89d05d3e571",
+  "title": "FAA UAP record 237UAP00058",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The flight crew provided no physical description of the phenomenon — it is classified as 'unidentified' with no detail on shape, size, colour, or behaviour.",
+    "The direction of the phenomenon's travel is listed as unknown.",
+    "Law enforcement was not notified, so no independent corroboration was sought.",
+    "'JH notified' is unexplained — no context on who JH is or what role they serve.",
+    "Single-source report from the flight crew with no radar data or additional sensor confirmation mentioned.",
+    "The tail number field is blank, limiting independent verification of the specific aircraft."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary classification",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time of incident",
+      "value": "20:05 on 20 June 2021",
+      "source_quote": "Date: 20:05 06/20/2021",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "C56X (Citation Excel)",
+      "source_quote": "Aircraft: C56X",
+      "citation_offset": {
+        "offset": 123,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "SLH4",
+      "source_quote": "Callsign: SLH4",
+      "citation_offset": {
+        "offset": 93,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "SLH (commercial)",
+      "source_quote": "Operator: SLH",
+      "citation_offset": {
+        "offset": 184,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight level",
+      "value": "FL430 (approximately 43,000 feet)",
+      "source_quote": "ENE bound at FL430",
+      "citation_offset": {
+        "offset": 346,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of flight",
+      "value": "East-northeast",
+      "source_quote": "ENE bound",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP altitude",
+      "value": "Approximately the same altitude as the aircraft (FL430)",
+      "source_quote": "at approximately the same altitude",
+      "citation_offset": {
+        "offset": 466,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Undescribed by flight crew; direction unknown",
+      "source_quote": "The unknown phenomenon was undescribed by the flight crew, traveling an unknown direction",
+      "citation_offset": {
+        "offset": 376,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 108,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "ACO",
+    "LNK",
+    "EWR",
+    "DEN",
+    "ZOB"
+  ],
+  "dated_events": [
+    "2021-06-20"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon at FL430"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial C56X aircraft with callsign SLH4 reported a UAP while flying at FL430 over the Akron-Canton area on 20 June 2021.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while ENE bound at FL430, over ACO",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 288,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was at approximately the same altitude as the aircraft.",
+      "source_quote": "at approximately the same altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 466,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight crew did not describe the phenomenon in detail.",
+      "source_quote": "The unknown phenomenon was undescribed by the flight crew",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 376,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified of the incident.",
+      "source_quote": "LEO notification not reported",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 502,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was traveling from Lincoln, Nebraska to Newark.",
+      "source_quote": "Origin: LNK Destination: EWR",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 198,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A person identified only as JH was notified.",
+      "source_quote": "JH notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 533,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:25:08.406Z",
+  "qa_completed_at": "2026-06-01T21:25:54.469Z",
+  "timing": {
+    "A": "22.5s",
+    "B": "23.5s",
+    "E": "18.7s"
+  },
+  "public_headline": "FAA Report: Commercial Jet Crew Spotted Unidentified Object at 43,000 Feet",
+  "public_tldr": "An FAA SKYWATCH incident report documents a commercial aircraft crew observing an unidentified aerial phenomenon while flying at 43,000 feet over the Akron-Canton area on 20 June 2021. The crew provided no physical description of the object, no radar or sensor data is mentioned, and the case was closed without further detail.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standard form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena (UAPs) in US airspace. It was filed under case number 237UAP00058 and is classified with the primary code \"Unidentified Aerial Phenomenon.\"\n\nOn 20 June 2021 at 20:05, the crew of a Cessna Citation Excel (a mid-size business jet) with callsign SLH4, operated by SLH, reported observing something unidentified while flying east-northeast at flight level 430 — roughly 43,000 feet. The aircraft was en route from Lincoln, Nebraska to Newark. At the time of the sighting, the aircraft was over the Akron-Canton (ACO) area.\n\nThe phenomenon was reported at approximately the same altitude as the aircraft. Beyond that, the flight crew provided no physical description whatsoever — no shape, size, colour, or behaviour. The direction the object was travelling is listed as unknown.\n\nThe report notes that law enforcement was not notified. A person identified only as \"JH\" was notified, though the document gives no context for who JH is or what role they serve. The aircraft's tail number field is blank, which limits independent verification of the specific aircraft involved. The case status is listed as closed.\n\nNo radar data, photographs, or additional sensor confirmation is mentioned anywhere in the report. This is a single-source account from the flight crew, recorded on a standard FAA form, with no apparent follow-up investigation documented.",
+  "public_caveats": [
+    "This is a single-source report from one flight crew. No radar data, sensor readings, or independent corroboration is mentioned in the document.",
+    "The crew provided no physical description of what they saw — no shape, size, colour, or movement details. It remains entirely uncharacterised.",
+    "The aircraft tail number is blank, making it harder to independently verify the specific flight.",
+    "Law enforcement was not notified, so no outside investigation was initiated.",
+    "A person referred to only as 'JH' was notified, but the document does not explain who they are or what authority they represent."
+  ]
+}

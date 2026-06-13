@@ -1,0 +1,207 @@
+{
+  "sha256": "572f76602200ca5413e046fdf6f98d8634b96bdd28ba441a41987863a1ab2911",
+  "title": "FAA UAP record 237UAP00405",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UFO sighting reported by a commercial airline pilot.",
+  "core_summary": "On August 7, 2022, the crew of American Airlines flight 2561, a Boeing 737-800 flying from Dallas/Fort Worth to Charlotte, reported a possible UFO sighting above their altitude while cruising at flight level 370 (approximately 37,000 feet) over Little Rock, Arkansas. The report was relayed by Memphis Air Route Traffic Control Center to FAA Operations.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source preliminary report with no follow-up investigation details included",
+    "The document is a brief operational notification, not a full investigation report",
+    "No description of the object's appearance, behaviour, or duration of sighting is provided",
+    "The pilot described it as a 'possible' UFO sighting, indicating uncertainty",
+    "There is a discrepancy between the metadata incident date (2023) and the document date (August 7, 2022)"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "American Airlines 2561 (AAL2561)",
+      "source_quote": "AMERICAN 2561, B738, DFW - CLT",
+      "citation_offset": {
+        "offset": 260,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737-800",
+      "source_quote": "B738",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "Dallas/Fort Worth (DFW) to Charlotte (CLT)",
+      "source_quote": "DFW - CLT",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date/time",
+      "value": "August 7, 2022, 0130 CDT",
+      "source_quote": "8/7/2022 1:30:00 AM (-05 CDT)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Over Little Rock, Arkansas",
+      "source_quote": "OVER LITTLE ROCK",
+      "citation_offset": {
+        "offset": 359,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL370 (37,000 feet)",
+      "source_quote": "WHILE AT FL370",
+      "citation_offset": {
+        "offset": 344,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object position relative to aircraft",
+      "value": "Above the aircraft's altitude",
+      "source_quote": "A POSSIBLE UFO SIGHTING ABOVE HIS ALTITUDE",
+      "citation_offset": {
+        "offset": 301,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting ATC facility",
+      "value": "Memphis ARTCC",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 238,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "34.7517°N, 92.2880°W",
+      "source_quote": "Latitude: 34.751715300000001",
+      "citation_offset": {
+        "offset": 105,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report category",
+      "value": "Miscellaneous",
+      "source_quote": "MISCELLANEOUS",
+      "citation_offset": {
+        "offset": 80,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Little Rock, AR",
+    "Dallas/Fort Worth (DFW)",
+    "Charlotte (CLT)"
+  ],
+  "dated_events": [
+    "08-07-2022"
+  ],
+  "objects_described": [
+    "Possible UFO above FL370",
+    "Boeing 737-800 (B738)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 2561 was a Boeing 737-800 operating the DFW-CLT route on August 7, 2022",
+      "source_quote": "AMERICAN 2561, B738, DFW - CLT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 260,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot reported a possible UFO above the aircraft's cruising altitude of FL370",
+      "source_quote": "REPORTED A POSSIBLE UFO SIGHTING ABOVE HIS ALTITUDE WHILE AT FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred over Little Rock, Arkansas at approximately 0130 CDT",
+      "source_quote": "LITTLE ROCK, AR/MISCELLANEOUS/0130C",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 202,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Memphis ARTCC relayed the report to FAA Operations",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 238,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:46:45.124Z",
+  "qa_completed_at": "2026-06-02T02:47:18.875Z",
+  "timing": {
+    "A": "20.5s",
+    "B": "13.2s",
+    "E": "15.9s"
+  },
+  "public_headline": "Airline Pilot Reported Unidentified Object Above 37,000 Feet Over Arkansas",
+  "public_tldr": "This FAA notification records that the crew of American Airlines flight 2561, a Boeing 737-800 flying from Dallas/Fort Worth to Charlotte, reported a possible UFO above their cruising altitude of 37,000 feet over Little Rock, Arkansas on 7 August 2022. The document is a brief operational alert relayed by air traffic control, not a full investigation.",
+  "public_narrative": "This document is an incident notification from the FAA's Washington Operations Center — essentially an internal alert that something unusual was reported during a commercial flight. It is not an investigation report and contains no conclusions about what the object was.\n\nOn 7 August 2022, at approximately 1:30 AM Central time, the crew of American Airlines flight 2561 reported a possible UFO sighting while cruising at flight level 370 (roughly 37,000 feet) over Little Rock, Arkansas. The object was described only as being above the aircraft's altitude. Memphis Air Route Traffic Control Center (ARTCC), the regional air traffic control facility handling the flight, relayed the report to FAA Operations.\n\nThe flight was a Boeing 737-800 operating the Dallas/Fort Worth to Charlotte route. The coordinates recorded in the report (34.75°N, 92.29°W) correspond to the Little Rock area.\n\nNo description of the object's appearance, behaviour, speed, or duration of the sighting is included in the document. The pilot himself characterised it as a \"possible\" UFO sighting, indicating uncertainty. The document is categorised under \"Miscellaneous\" — a general FAA reporting bucket rather than a specific threat or safety category.\n\nThere is no indication of any follow-up investigation, radar data, or corroborating reports from other aircraft or ground observers in this document.",
+  "public_caveats": [
+    "This is a single-page operational notification, not a full investigation — it records that a report was made, nothing more.",
+    "The pilot described it as a 'possible' UFO sighting, reflecting uncertainty about what was observed.",
+    "No details about the object's appearance, size, speed, or behaviour are included in the document.",
+    "There is no evidence of follow-up investigation, corroborating witnesses, or radar data within this record.",
+    "A date discrepancy exists: the document describes events on 7 August 2022, but the metadata lists the incident year as 2023."
+  ]
+}

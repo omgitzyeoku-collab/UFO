@@ -1,0 +1,240 @@
+{
+  "sha256": "c51a59fa8c751fed75903aac4d66a61109a9ff55635621eae89729f1f5966fd1",
+  "title": "FAA UAP record 237UAP00047",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified flying object during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on the pilot's visual observation — no radar data, sensor corroboration, or additional witness statements are included.",
+    "The abbreviation 'JH' in the notifications is unexplained in the document.",
+    "The approximate position 'ISO230040' may encode a radial and distance from the ISO VOR but is not further elaborated.",
+    "The report was filed under primary code 'OTHER' rather than a specific UAP category."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting facility",
+      "value": "ZDC (Washington Center)",
+      "source_quote": "Reporting Facility: ZDC",
+      "citation_offset": {
+        "offset": 92,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "DAL1748",
+      "source_quote": "Callsign: DAL1748",
+      "citation_offset": {
+        "offset": 116,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Airbus A320",
+      "source_quote": "Aircraft: A320",
+      "citation_offset": {
+        "offset": 134,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "Delta Air Lines (DAL)",
+      "source_quote": "Operator: DAL",
+      "citation_offset": {
+        "offset": 162,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin",
+      "value": "FLL (Fort Lauderdale)",
+      "source_quote": "Origin: FLL",
+      "citation_offset": {
+        "offset": 176,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination",
+      "value": "LGA (LaGuardia)",
+      "source_quote": "Destination: LGA",
+      "citation_offset": {
+        "offset": 188,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting time",
+      "value": "0539Z",
+      "source_quote": "At 0539 PIC reported seeing a UFO",
+      "citation_offset": {
+        "offset": 266,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Two bright lights in apparent formation flight, heading northeast",
+      "source_quote": "two bright lights between ORF and RIC that appeared like a formation flight flying overhead northeast bound",
+      "citation_offset": {
+        "offset": 350,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Notifications",
+      "value": "UFO reporting center and JH notified",
+      "source_quote": "UFO reporting center notified. JH notified.",
+      "citation_offset": {
+        "offset": 583,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 222,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "ISO",
+    "ORF",
+    "RIC",
+    "FLL",
+    "LGA",
+    "ZDC",
+    "DEN"
+  ],
+  "dated_events": [
+    "2021-03-08"
+  ],
+  "objects_described": [
+    "Airbus A320 (DAL1748)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight 1748 was an A320 operating commercially from Fort Lauderdale to LaGuardia on 8 March 2021.",
+      "source_quote": "Callsign: DAL1748 Aircraft: A320 ... Origin: FLL Destination: LGA ... Operator Type: Commercial",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 116,
+        "len": 30,
+        "exact": false,
+        "matched": "Callsign: DAL1748 Aircraft: A3"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The pilot-in-command reported the sighting at 0539Z to ATC.",
+      "source_quote": "At 0539 PIC reported seeing a UFO",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 266,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects were described as two bright lights between Norfolk and Richmond that resembled a formation flight heading northeast.",
+      "source_quote": "two bright lights between ORF and RIC that appeared like a formation flight flying overhead northeast bound",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 350,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The formation appeared to reverse course and fly toward the aircraft.",
+      "source_quote": "the formation appeared to fly toward them, then turned around",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 520,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO reporting center was notified of the incident.",
+      "source_quote": "UFO reporting center notified.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 583,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:13:45.156Z",
+  "qa_completed_at": "2026-06-01T21:14:29.884Z",
+  "timing": {
+    "A": "23.6s",
+    "B": "21.1s",
+    "E": "15.4s"
+  },
+  "public_headline": "Delta Pilot Reported Two Bright Lights in Formation Near Virginia",
+  "public_tldr": "This FAA SKYWATCH incident report documents a Delta Air Lines pilot's sighting of two bright lights flying in apparent formation between Norfolk and Richmond, Virginia. The pilot reported the objects appeared to reverse course and fly toward the aircraft before turning around. The case is closed with no explanation offered.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under record number 237UAP00047. It records a sighting reported by the pilot-in-command of Delta Air Lines flight 1748, an Airbus A320 operating a commercial route from Fort Lauderdale (FLL) to LaGuardia (LGA). The report was handled by Washington Center (ZDC).\n\nAt 0539Z, the pilot reported seeing two bright lights between Norfolk (ORF) and Richmond (RIC) that appeared to be flying in formation, heading northeast. According to the report, the formation then appeared to reverse course and fly toward the aircraft before turning around again.\n\nThe FAA notified a UFO reporting centre and an entity abbreviated as \"JH\" (which is not explained in the document). The report was filed under the primary code \"OTHER\" rather than a specific UAP category, and its status is listed as closed. No conclusions about the identity of the objects are recorded.\n\nNo radar data, sensor readings, or additional witness accounts are included in the report. The entire account rests on the pilot's visual observation alone.",
+  "public_caveats": [
+    "This is a single-source report based entirely on one pilot's visual observation — no radar data, no sensor corroboration, and no additional witnesses are referenced.",
+    "The FAA closed the case without offering any identification or explanation for the objects.",
+    "The abbreviation 'JH' in the notification section is unexplained in the document.",
+    "The report was categorised as 'OTHER' rather than under a specific UAP classification, which limits what can be inferred about the FAA's assessment.",
+    "The approximate position reference 'ISO230040' may encode a location relative to a navigational aid but is not elaborated on in the document."
+  ]
+}

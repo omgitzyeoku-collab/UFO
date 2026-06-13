@@ -1,0 +1,177 @@
+{
+  "sha256": "5b7e8456e04ee4b2b5f9cbc1ca7c43f4060a0e1a7398e127225bd120738f544c",
+  "title": "NRC UAP record ML24234A061",
+  "agency": "NRC",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "Internal NRC proposal presentation regarding procedures for reporting unidentified anomalous phenomena (UAP) flyovers at nuclear facilities.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a slide deck, not a final policy — it represents a proposal, not an adopted procedure.",
+    "The extracted text lacks slide visual content, charts, or any detailed recommendations that may have been conveyed graphically.",
+    "No specific incident data or case details are disclosed; the document is procedural in nature.",
+    "The admission of an information gap ('we have no idea') reflects the state at time of writing and may not reflect current NRC capabilities."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "Internal proposal/presentation (slide deck)",
+      "source_quote": "Current & Future Flyover Reporting Guidance for SIDs: A Proposal",
+      "citation_offset": {
+        "offset": 0,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "originating_office_location",
+      "value": "11545 Rockville Pike, One White Flint North, Rockville, MD 20852",
+      "source_quote": "11545 Rockville Pike One White Flint North Rockville, MD 20852",
+      "citation_offset": {
+        "offset": 65,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_requirement",
+      "value": "NRC must consult on reported UAP/drone incidents at nuclear sites per legislative mandate",
+      "source_quote": "In consultation with the Chairman of the Nuclear Regulatory Commission, the number of reported incidents, and descriptions thereof, of unidentified anomalous phenomena or drones of unknown origin associated with nuclear power generating stations",
+      "citation_offset": {
+        "offset": 1031,
+        "len": 245,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "covered_sites",
+      "value": "Nuclear power generating stations, nuclear fuel storage sites, and other NRC-regulated facilities",
+      "source_quote": "nuclear power generating stations, nuclear fuel storage sites, or other sites or facilities regulated by the Nuclear Regulatory Commission",
+      "citation_offset": {
+        "offset": 1243,
+        "len": 138,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "information_gap_acknowledged",
+      "value": "NRC admits it has no data on whether UAPs fly over nuclear facilities",
+      "source_quote": "We have no idea if UAPs are flying over the aerospace of nuclear power plants or Category I fuel cycle facilities.",
+      "citation_offset": {
+        "offset": 1497,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AARO_mandate_scope",
+      "value": "Covers material retrieval, analysis, reverse engineering, R&D, detection/tracking, testing, and security",
+      "source_quote": "including with respect to material retrieval, material analysis, reverse engineering, research and development, detection and tracking",
+      "citation_offset": {
+        "offset": 780,
+        "len": 134,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "responsible_entities",
+      "value": "Secretary of Defense via AARO, in consultation with Director of National Intelligence",
+      "source_quote": "The Secretary of Defense, acting through the head of the Office and in consultation with the Director of National Intelligence",
+      "citation_offset": {
+        "offset": 352,
+        "len": 126,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Rockville, MD"
+  ],
+  "dated_events": [],
+  "objects_described": [
+    "unidentified anomalous phenomena",
+    "drones of unknown origin"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The NRC has no knowledge of whether UAPs are flying over nuclear power plants or Category I fuel cycle facilities.",
+      "source_quote": "We have no idea if UAPs are flying over the aerospace of nuclear power plants or Category I fuel cycle facilities.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1497,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Federal law requires the NRC Chairman to be consulted regarding UAP or unknown-origin drone incidents at nuclear sites.",
+      "source_quote": "In consultation with the Chairman of the Nuclear Regulatory Commission, the number of reported incidents, and descriptions thereof, of unidentified anomalous phenomena or drones of unknown origin",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1031,
+        "len": 195,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "There is an identified gap in the NRC's current flyover reporting guidance for SIDs.",
+      "source_quote": "INFORMATION REPORTING GAP",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1421,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The AARO reporting mechanism covers programs related to material retrieval, reverse engineering, and related activities.",
+      "source_quote": "including with respect to material retrieval, material analysis, reverse engineering, research and development, detection and tracking, developmental or operational testing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 780,
+        "len": 172,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T20:29:38.575Z",
+  "qa_completed_at": "2026-06-01T20:30:16.867Z",
+  "timing": {
+    "A": "23.0s",
+    "B": "15.3s",
+    "E": "17.6s"
+  },
+  "public_headline": "NRC Proposed New Rules for Reporting UAP Sightings at Nuclear Sites",
+  "public_tldr": "This internal Nuclear Regulatory Commission (NRC) slide deck proposes procedures for reporting unidentified anomalous phenomena (UAP) and unknown-origin drone flyovers at nuclear facilities. The NRC acknowledges it has no data on whether UAPs are flying over nuclear power plants, calling this an explicit information gap.",
+  "public_narrative": "This document is an internal proposal presentation — a slide deck — from the Nuclear Regulatory Commission (NRC), originating from its offices at 11545 Rockville Pike in Rockville, Maryland. It is titled \"Current & Future Flyover Reporting Guidance for SIDs: A Proposal\" and addresses how the NRC should handle reports of unidentified anomalous phenomena (UAP) or drones of unknown origin near nuclear facilities.\n\nThe presentation references a federal legislative mandate requiring the NRC Chairman to be consulted on reported UAP or unknown-origin drone incidents at nuclear sites. The covered facilities include nuclear power generating stations, nuclear fuel storage sites, and other NRC-regulated locations. It also references the All-domain Anomaly Resolution Office (AARO), run by the Secretary of Defense in consultation with the Director of National Intelligence, whose mandate covers material retrieval, analysis, reverse engineering, detection, tracking, and related activities.\n\nThe most striking admission in the document is a frank acknowledgement of an information gap. The NRC states plainly: \"We have no idea if UAPs are flying over the aerospace of nuclear power plants or Category I fuel cycle facilities.\" The proposal appears aimed at closing that gap by establishing reporting procedures.\n\nThis is a proposal, not an adopted policy. The document does not describe any specific UAP incidents or sightings, nor does it contain case data. It is procedural in nature — focused on what reporting should look like, not on what has been observed. Redaction levels are low, and the document appears to be largely intact.",
+  "public_caveats": [
+    "This is a slide deck proposing procedures, not a final adopted NRC policy — it may never have been implemented as presented.",
+    "No specific UAP incidents, sightings, or case data are described anywhere in the document.",
+    "The extracted text lacks any visual content, charts, or diagrams from the slides, meaning some information conveyed graphically is missing from the record.",
+    "The NRC's admission that it has 'no idea' whether UAPs fly over nuclear sites reflects the state of knowledge at the time of writing and may not reflect current capabilities.",
+    "This is a single-source internal document with no external corroboration of its proposals or conclusions."
+  ]
+}

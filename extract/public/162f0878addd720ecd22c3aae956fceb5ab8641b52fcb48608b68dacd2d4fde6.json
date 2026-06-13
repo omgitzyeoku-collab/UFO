@@ -1,0 +1,196 @@
+{
+  "sha256": "162f0878addd720ecd22c3aae956fceb5ab8641b52fcb48608b68dacd2d4fde6",
+  "title": "FAA UAP record 237UAP00231",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a law enforcement observation of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source law enforcement observation with no corroborating sensor data.",
+    "The pilot's assessment of space junk or satellites is speculative opinion, not a confirmed identification.",
+    "No instrument readings or radar data are referenced in the report.",
+    "Report is marked Closed with no indication of further investigation or resolution."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "reporting_agency",
+      "value": "FAA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 103,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_observer",
+      "value": "Excelsior Springs Police Department",
+      "source_quote": "Excelsior Springs PD, who observed and reported an unidentified aerial phenomenon",
+      "citation_offset": {
+        "offset": 159,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Very large, grey, with white lights",
+      "source_quote": "The unknown phenomenon was very large and grey with white lights",
+      "citation_offset": {
+        "offset": 259,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_behavior",
+      "value": "Stationary for over an hour at very high altitude",
+      "source_quote": "The object was reported as stationary for over an hour and very high in altitude",
+      "citation_offset": {
+        "offset": 325,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pilot_assessment",
+      "value": "Space junk or satellites",
+      "source_quote": "PIC believes the lights are \"space junk\" or \"satellites\"",
+      "citation_offset": {
+        "offset": 476,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pilot_callsign",
+      "value": "FFT647",
+      "source_quote": "0219 ATSC requsted FFT647, who was in the area, to provide a report",
+      "citation_offset": {
+        "offset": 407,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Excelsior Springs"
+  ],
+  "dated_events": [
+    "2023-03-02"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon — very large, grey object with white lights, stationary at high altitude"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Excelsior Springs Police Department observed and reported the phenomenon.",
+      "source_quote": "Excelsior Springs PD, who observed and reported an unidentified aerial phenomenon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 159,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was located 2.5 nautical miles northwest of Excelsior Springs Memorial Airport.",
+      "source_quote": "2.5 NM NW of 3EX",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 241,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was stationary for over an hour at very high altitude.",
+      "source_quote": "The object was reported as stationary for over an hour and very high in altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 325,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "ATSC requested pilot FFT647 to provide a report at 02:19.",
+      "source_quote": "0219 ATSC requsted FFT647, who was in the area, to provide a report",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 407,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot in command believed the lights were space junk or satellites.",
+      "source_quote": "PIC believes the lights are \"space junk\" or \"satellites\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 476,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:14:47.171Z",
+  "qa_completed_at": "2026-06-02T00:15:23.344Z",
+  "timing": {
+    "A": "18.0s",
+    "B": "18.2s",
+    "E": "19.6s"
+  },
+  "public_headline": "Police Reported Large Grey Object Hovering Over Missouri in 2023",
+  "public_tldr": "This FAA incident report documents a 2023 observation by the Excelsior Springs Police Department of a large, grey object with white lights hovering at high altitude for over an hour. A pilot asked to investigate suggested it might be space junk or satellites, but no confirmed identification was made and the case was closed.",
+  "public_narrative": "In 2023, the Excelsior Springs Police Department in Missouri observed and reported an unidentified aerial phenomenon to the Federal Aviation Administration (FAA). The sighting was logged under FAA SKYWATCH, the agency's system for tracking unusual aerial observations, and assigned the case number 237UAP00231.\n\nAccording to the report, the object was located roughly 2.5 nautical miles northwest of Excelsior Springs Memorial Airport. It was described as very large and grey with white lights, and it remained stationary for over an hour at very high altitude.\n\nAt 02:19, air traffic control requested a pilot flying under the callsign FFT647, who was already in the area, to observe and provide a report. The pilot in command assessed that the lights were likely \"space junk\" or \"satellites.\" That assessment is the pilot's personal opinion and was not confirmed by radar, instrument readings, or any other sensor data referenced in the report.\n\nThe FAA marked the case as Closed. There is no indication in the report of any follow-up investigation or final determination of what the object was.",
+  "public_caveats": [
+    "This is a single-source observation from law enforcement with no corroborating radar or sensor data cited in the report.",
+    "The pilot's suggestion of space junk or satellites is speculative opinion, not a confirmed identification.",
+    "The report was marked Closed with no stated resolution or explanation for the object.",
+    "Redaction levels appear low, but the report contains limited detail overall — the brevity itself limits what can be concluded.",
+    "No named individuals appear in the report, and the incident location beyond Excelsior Springs is not further specified."
+  ]
+}

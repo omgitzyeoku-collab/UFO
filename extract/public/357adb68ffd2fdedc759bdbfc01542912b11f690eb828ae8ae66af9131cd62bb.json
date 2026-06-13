@@ -1,0 +1,207 @@
+{
+  "sha256": "357adb68ffd2fdedc759bdbfc01542912b11f690eb828ae8ae66af9131cd62bb",
+  "title": "FAA UAP record 237UAP00451",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UFO/UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On February 3, 2023, the crew of JetBlue flight 1211 (an Airbus A321neo flying from JFK to Las Vegas) reported multi-colored flashing lights at their 12 o'clock position while westbound at flight level 360, approximately 36 nautical miles south of Kansas City International Airport. Kansas City Air Route Traffic Control Center relayed the report to FAA Operations. No evasive action was taken and no law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document",
+    "This is a preliminary notification, not a full investigation report",
+    "The document does not identify or resolve what the observed lights were",
+    "No follow-up investigation findings are included"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "JetBlue 1211, Airbus A321neo (A21N)",
+      "source_quote": "JETBLUE 1211, A21N, JFK - LAS",
+      "citation_offset": {
+        "offset": 270,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "JFK to Las Vegas",
+      "source_quote": "JFK - LAS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date and time",
+      "value": "February 3, 2023 at 2135 Central time",
+      "source_quote": "2/3/2023 9:35:00 PM (-06 CST)... 2135C",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "36 nautical miles south of Kansas City International Airport (MCI)",
+      "source_quote": "36 S MCI",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 360 (approximately 36,000 feet)",
+      "source_quote": "W BOUND AT FL360",
+      "citation_offset": {
+        "offset": 375,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation",
+      "value": "Multi-colored flashing lights at the 12 o'clock position (directly ahead)",
+      "source_quote": "REPORTED MULTI-COLORED FLASHING LIGHTS FROM THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 301,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 402,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 427,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Kansas City ARTCC",
+      "source_quote": "KANSAS CITY ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 244,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "38.7757° N, 94.7139° W",
+      "source_quote": "Latitude: 38.775736790000003... -94.713888890000007",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Kansas City, MO",
+    "MCI (Kansas City International Airport)",
+    "JFK",
+    "Las Vegas (LAS)"
+  ],
+  "dated_events": [
+    "2/3/2023",
+    "02-03-2023"
+  ],
+  "objects_described": [
+    "Multi-colored flashing lights (UAP)",
+    "JetBlue 1211 Airbus A321neo"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "JetBlue flight 1211 was an Airbus A321neo operating from JFK to Las Vegas on February 3, 2023",
+      "source_quote": "JETBLUE 1211, A21N, JFK - LAS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 270,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed multi-colored flashing lights directly ahead of their aircraft at 36,000 feet",
+      "source_quote": "REPORTED MULTI-COLORED FLASHING LIGHTS FROM THE 12 O'CLOCK POSITION WHILE W BOUND AT FL360",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 301,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was approximately 36 nautical miles south of Kansas City International Airport at the time of the sighting",
+      "source_quote": "36 S MCI",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 402,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement was notified",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 427,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:59:38.880Z",
+  "qa_completed_at": "2026-06-02T03:00:14.746Z",
+  "timing": {
+    "A": "20.1s",
+    "B": "15.8s",
+    "E": "18.0s"
+  },
+  "public_headline": "JetBlue Crew Reported Flashing Lights Over Kansas at 36,000 Feet",
+  "public_tldr": "This FAA incident notification records a February 2023 sighting by the crew of JetBlue flight 1211, who observed multi-coloured flashing lights directly ahead of their Airbus A321neo while cruising at 36,000 feet south of Kansas City. The document is a preliminary report only — no explanation for the lights is offered and no follow-up investigation is included.",
+  "public_narrative": "On the evening of 3 February 2023, the crew of JetBlue flight 1211 — an Airbus A321neo flying from New York's JFK to Las Vegas — reported an unusual sighting to air traffic control. While heading westbound at flight level 360 (approximately 36,000 feet), roughly 36 nautical miles south of Kansas City International Airport, the crew observed multi-coloured flashing lights directly ahead of their aircraft at the 12 o'clock position.\n\nKansas City Air Route Traffic Control Center (ARTCC), the regional ATC facility responsible for high-altitude traffic in that area, relayed the report to the FAA's Washington Operations Center. The crew did not take evasive action, and no law enforcement notification was made.\n\nThe document itself is a standard FAA operations centre incident notification — essentially a log entry recording what was reported, when, and by whom. It does not identify or resolve what the lights were. There is no radar data, no corroborating witness accounts from other aircraft, and no record of a follow-up investigation in this filing.\n\nThis is one of hundreds of UAP-related records released by the Department of War's PURSUE programme. On its own it establishes only that a commercial flight crew saw something they could not immediately explain and reported it through normal channels. The FAA logged it; that is as far as this particular document goes.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data or independent witness accounts are included in the document.",
+    "The filing is a preliminary notification, not a completed investigation. No conclusions about the identity of the observed lights are offered.",
+    "There is minimal redaction, but equally minimal detail — the document records the report without analysing it.",
+    "Multi-coloured flashing lights can have a range of prosaic explanations (other aircraft, atmospheric phenomena, satellites) that this document does not explore or rule out.",
+    "No follow-up findings are attached, so it is unknown whether the FAA or any other agency investigated further."
+  ]
+}

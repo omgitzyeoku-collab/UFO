@@ -1,0 +1,211 @@
+{
+  "sha256": "d654d1ec9121df5f3dedcf3283f2f6b6309ac46faa83615572821573a621502e",
+  "title": "FAA UAP record 237UAP00389",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UFO sighting reported by a commercial airline crew.",
+  "core_summary": "On February 9, 2019, the crew of Alaska Airlines Flight 428, a Boeing 737-900 flying from Seattle to Los Angeles, reported observing a slow-moving UFO with a flashing white light at an altitude between 40,000 and 50,000 feet, heading northeast, approximately 14 nautical miles north-northeast of Chiloquin, Oregon. The aircraft was southbound at flight level 350. The Western Air Defense Sector (WADS) was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating sensor data included in this document.",
+    "The document metadata lists the incident year as 2023 but the source text clearly dates the event to February 9, 2019.",
+    "No follow-up investigation or resolution is included in this report — it is a preliminary notification only.",
+    "The object's altitude (FL400–FL500) places it above typical commercial traffic, but altitude estimates from a distance may be imprecise."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "Alaska Airlines Flight 428 (ASA428), Boeing 737-900",
+      "source_quote": "ALASKA 428, B739, SEA - LAX",
+      "citation_offset": {
+        "offset": 250,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Seattle (SEA) to Los Angeles (LAX)",
+      "source_quote": "SEA - LAX",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "Flight Level 350 (35,000 feet)",
+      "source_quote": "ALASKA 428 WAS S BOUND AT FL350",
+      "citation_offset": {
+        "offset": 395,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ufo_altitude",
+      "value": "Between FL400 and FL500 (40,000–50,000 feet)",
+      "source_quote": "A SLOW MOVING UFO WITH A FLASHING WHITE LIGHT BETWEEN FL400 - FL500",
+      "citation_offset": {
+        "offset": 288,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ufo_heading",
+      "value": "Northeast bound",
+      "source_quote": "HEADING NE BOUND",
+      "citation_offset": {
+        "offset": 356,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ufo_location",
+      "value": "14 nautical miles north-northeast of Chiloquin, Oregon",
+      "source_quote": "14 NNE CHILOQUIN, OR",
+      "citation_offset": {
+        "offset": 373,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ufo_description",
+      "value": "Slow moving with a flashing white light",
+      "source_quote": "A SLOW MOVING UFO WITH A FLASHING WHITE LIGHT",
+      "citation_offset": {
+        "offset": 288,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "atc_facility",
+      "value": "Seattle ARTCC (Air Route Traffic Control Center)",
+      "source_quote": "SEATTLE ARTCC ADVISES",
+      "citation_offset": {
+        "offset": 228,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "military_notification",
+      "value": "Western Air Defense Sector (WADS) notified",
+      "source_quote": "WADS NOTIFIED",
+      "citation_offset": {
+        "offset": 428,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "42.766654590000002, -121.7736704",
+      "source_quote": "Latitude: 42.766654590000002",
+      "citation_offset": {
+        "offset": 104,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Chiloquin, Oregon",
+    "Seattle",
+    "Los Angeles"
+  ],
+  "dated_events": [
+    "2/9/2019",
+    "02-09-2019"
+  ],
+  "objects_described": [
+    "Slow-moving UFO with flashing white light",
+    "Boeing 737-900 (Alaska Airlines Flight 428)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Alaska Airlines Flight 428 crew reported a slow-moving UFO with a flashing white light between 40,000 and 50,000 feet altitude near Chiloquin, Oregon on February 9, 2019.",
+      "source_quote": "ALASKA 428, B739, SEA - LAX, REPORTED A SLOW MOVING UFO WITH A FLASHING WHITE LIGHT BETWEEN FL400 - FL500",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 250,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO was heading northeast, located 14 nautical miles north-northeast of Chiloquin, Oregon.",
+      "source_quote": "HEADING NE BOUND 14 NNE CHILOQUIN, OR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 356,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Western Air Defense Sector was notified of the sighting.",
+      "source_quote": "WADS NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 428,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was relayed by Seattle ARTCC to FAA Operations.",
+      "source_quote": "SEATTLE ARTCC ADVISES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 228,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:40:03.959Z",
+  "qa_completed_at": "2026-06-02T02:40:40.324Z",
+  "timing": {
+    "A": "20.3s",
+    "B": "16.0s",
+    "E": "16.5s"
+  },
+  "public_headline": "Alaska Airlines Crew Reported Slow-Moving UFO Over Southern Oregon in 2019",
+  "public_tldr": "This FAA incident report documents a UFO sighting by the crew of Alaska Airlines Flight 428 on February 9, 2019. The crew observed a slow-moving object with a flashing white light at 40,000–50,000 feet near Chiloquin, Oregon, and the military's Western Air Defense Sector was notified.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report recording a UFO sighting by a commercial airline crew. It was filed after Seattle Air Route Traffic Control Center relayed the report to FAA Operations.\n\nOn February 9, 2019, the crew of Alaska Airlines Flight 428 — a Boeing 737-900 flying from Seattle to Los Angeles — reported seeing a slow-moving unidentified object with a flashing white light. The object was estimated to be at an altitude between 40,000 and 50,000 feet, heading northeast, roughly 14 nautical miles north-northeast of Chiloquin, Oregon. The reporting aircraft was southbound at 35,000 feet at the time.\n\nThe Western Air Defense Sector (WADS), the military unit responsible for air defense over the western United States, was notified of the sighting.\n\nThe report is a preliminary notification only. It contains no follow-up investigation, no resolution, and no conclusion about what the object was. There is no radar data, photographs, or other sensor evidence included in the document.\n\nOne discrepancy worth noting: the document's metadata lists the incident year as 2023, but the text of the report clearly dates the event to February 9, 2019.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar, satellite, or sensor data included in the document.",
+    "The report is a preliminary notification, not an investigation. The FAA drew no conclusion about what the object was.",
+    "Altitude estimates of the object (40,000–50,000 feet) were made visually from the aircraft at 35,000 feet and may be imprecise.",
+    "There is a date discrepancy: the metadata says 2023 but the report text says February 9, 2019.",
+    "There is minimal redaction in this document, but equally minimal detail — it records what the crew reported and nothing more."
+  ]
+}

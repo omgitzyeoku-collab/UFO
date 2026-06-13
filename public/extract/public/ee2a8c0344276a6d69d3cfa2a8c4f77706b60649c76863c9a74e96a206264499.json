@@ -1,0 +1,249 @@
+{
+  "sha256": "ee2a8c0344276a6d69d3cfa2a8c4f77706b60649c76863c9a74e96a206264499",
+  "title": "FAA UAP record 237UAP00227",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "A SKYWATCH incident report documenting an unidentified aerial phenomenon detected in the National Capital Region (Washington, D.C. area) restricted airspace.",
+  "core_summary": "On 24 February 2023, an unidentified radar target was detected heading east at 100 knots near Washington, D.C. restricted airspace. Military jets (callsign BLACKJACK) were scrambled from Joint Base Andrews and battle stations were declared, but the target exited the Special Flight Rules Area without ever being visually identified. All tactical actions were cancelled and the incident was closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The target was tracked on radar only — no visual confirmation was ever obtained, so the nature of the object remains entirely unknown.",
+    "The report uses extensive FAA and military abbreviations; some decoded meanings are inferred from standard aviation terminology.",
+    "This is a single-source operational log entry, not an investigation or analysis document.",
+    "The initials 'JH' at the end likely refer to a person notified but no full name is given."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "primary_code",
+      "value": "TOI-NCR FRZ (Target of Interest – National Capital Region Flight Restricted Zone)",
+      "source_quote": "PRIMARY CODE: TOI-NCR FRZ",
+      "citation_offset": {
+        "offset": 25,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "secondary_codes",
+      "value": "TOI-NCR SFRA, UNIDENTIFIED AERIAL PHENOMENON",
+      "source_quote": "Secondary Codes: TOI-NCR SFRA, UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 137,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2023-02-24 at 16:10",
+      "source_quote": "Date: 16:10 02/24/2023",
+      "citation_offset": {
+        "offset": 51,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 74,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "NCRCC (National Capital Region Coordination Center)",
+      "source_quote": "Reporting Facility: NCRCC",
+      "citation_offset": {
+        "offset": 100,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "target_heading",
+      "value": "100 degrees at 100 knots",
+      "source_quote": "primary target, heading 100 degree, 100 knots",
+      "citation_offset": {
+        "offset": 224,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "target_altitude",
+      "value": "16,000 feet (per WADS radar)",
+      "source_quote": "WADS radar was displayed target at 16000ft",
+      "citation_offset": {
+        "offset": 366,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "military_response",
+      "value": "BLACKJACK scrambled, Andrews AFB battle stations declared",
+      "source_quote": "BLKJK scrambled, ADW Battle Stations",
+      "citation_offset": {
+        "offset": 328,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "visual_confirmation",
+      "value": "None — no visual verification was achieved",
+      "source_quote": "No visual verification",
+      "citation_offset": {
+        "offset": 670,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "outcome",
+      "value": "Target exited SFRA; all tactical actions cancelled; BLACKJACK returned to base",
+      "source_quote": "Aircraft exited SFRA at the DCA130030. ADW canceled all tactical actions. BLKJK RTB",
+      "citation_offset": {
+        "offset": 517,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "condition_clear_time",
+      "value": "16:40",
+      "source_quote": "1640 NCR condition clear. ONEC terminated",
+      "citation_offset": {
+        "offset": 602,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "paged",
+      "value": "YES",
+      "source_quote": "Paged: YES",
+      "citation_offset": {
+        "offset": 126,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "NCRCC",
+    "ADW (Joint Base Andrews)",
+    "HEF (Manassas Regional Airport)",
+    "PCT (Potomac TRACON)",
+    "SFRA (Special Flight Rules Area)",
+    "FRZ (Flight Restricted Zone)"
+  ],
+  "dated_events": [
+    "2023-02-24"
+  ],
+  "objects_described": [
+    "BLACKJACK interceptor aircraft (military jets scrambled from Andrews AFB)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "No facility (Potomac TRACON, Manassas, or Dulles Approach) was able to establish communication with the target.",
+      "source_quote": "PCT, HEF, and DAA no communication with target",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 276,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "WADS radar tracked the target at 16,000 feet altitude.",
+      "source_quote": "WADS radar was displayed target at 16000ft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 366,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Military interceptors were scrambled but held in the Flight Restricted Zone because the target was heading outbound.",
+      "source_quote": "BLKJK held in FRZ. since target was outbound from FRZ",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 457,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The target was never visually identified by any asset.",
+      "source_quote": "No visual verification",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 670,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "WADS continued tracking the target after all tactical actions were cancelled.",
+      "source_quote": "WADS continued to track",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 645,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:11:01.934Z",
+  "qa_completed_at": "2026-06-02T00:11:48.090Z",
+  "timing": {
+    "A": "26.1s",
+    "B": "20.0s",
+    "E": "21.2s"
+  },
+  "public_headline": "Military Jets Scrambled After Unidentified Radar Target Near Washington D.C.",
+  "public_tldr": "This FAA incident report documents an unidentified radar target detected near Washington, D.C. restricted airspace on 24 February 2023. Military jets were scrambled from Joint Base Andrews and battle stations were declared, but the object left the area before anyone could visually identify it.",
+  "public_narrative": "On 24 February 2023 at 4:10 p.m., the National Capital Region Coordination Center (NCRCC) logged a radar contact heading east at 100 knots near the restricted airspace surrounding Washington, D.C. The object was tracked at 16,000 feet by WADS (Western Air Defense Sector) radar. No transponder signal or radio communication was established — three separate air traffic facilities (Potomac TRACON, Manassas Regional Airport, and Dulles Approach) all tried and failed to make contact.\n\nThe military response was immediate. Interceptor jets using the callsign BLACKJACK were scrambled from Joint Base Andrews, and battle stations were declared at the base. However, because the target was heading outbound — away from the most restricted zone around the capital — the jets were held inside the Flight Restricted Zone rather than sent to pursue.\n\nBy 4:40 p.m., roughly thirty minutes after the initial detection, the target had exited the Special Flight Rules Area entirely. All tactical actions were cancelled, and the BLACKJACK jets returned to base. WADS radar continued tracking the object, but no visual confirmation was ever achieved by any asset. The incident was closed.\n\nThe document is categorised under the FAA's SKYWATCH system and is tagged with the secondary code \"Unidentified Aerial Phenomenon.\" It is a single operational log entry — a record of what controllers and military personnel did in real time — not an investigation or analysis of what the object was. The report does not offer any conclusion about the nature of the target.",
+  "public_caveats": [
+    "The target was tracked on radar only. No one ever saw it visually, so its nature — drone, aircraft, weather anomaly, sensor artefact — remains entirely unknown.",
+    "This is a single-source operational log, not an investigation. It records what happened in real time but does not analyse or explain the event.",
+    "Redaction levels appear low, but the document uses heavy FAA and military abbreviations whose decoded meanings are inferred from standard aviation terminology.",
+    "No named individuals appear in the report. The initials 'JH' are noted at the end but no full identity is given.",
+    "The absence of visual confirmation means this incident cannot be corroborated beyond the radar data referenced in the log."
+  ]
+}

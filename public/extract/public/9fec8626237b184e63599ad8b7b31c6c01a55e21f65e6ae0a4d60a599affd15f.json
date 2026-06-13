@@ -1,0 +1,215 @@
+{
+  "sha256": "9fec8626237b184e63599ad8b7b31c6c01a55e21f65e6ae0a4d60a599affd15f",
+  "title": "FAA UAP record 237UAP00263",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting a pilot observation of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts in this report.",
+    "The altitude of the phenomenon (FL450) is described as approximate, indicating visual estimation rather than instrument measurement.",
+    "The case is marked 'Closed' with no resolution or explanation provided in this document.",
+    "The repetitive oscillating motion described (travel then instant return) is unusual and based solely on visual observation from a moving aircraft at night or early morning."
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report — Unidentified Aerial Phenomenon",
+      "source_quote": "SKYWATCH INCIDENT REPORT / PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 28,
+        "len": 41,
+        "exact": false,
+        "matched": "MARY CODE: UNIDENTIFIED AERIAL PHENOMENON"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "callsign",
+      "value": "CJT906",
+      "source_quote": "Callsign: CJT906",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL390 (39,000 feet)",
+      "source_quote": "NE bound at FL390",
+      "citation_offset": {
+        "offset": 355,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "3 white lights traveling westbound at approximately FL450",
+      "source_quote": "3 white lights traveling W bound at approximately FL450",
+      "citation_offset": {
+        "offset": 416,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_behaviour",
+      "value": "Lights traveled west for 3-5 seconds then instantly returned to start point",
+      "source_quote": "Lights would travel W for 3 to 5 seconds then immediately move back to start point",
+      "citation_offset": {
+        "offset": 473,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_estimated_altitude",
+      "value": "FL450 (45,000 feet)",
+      "source_quote": "at approximately FL450",
+      "citation_offset": {
+        "offset": 449,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "VCT",
+    "MMGL",
+    "CVG"
+  ],
+  "dated_events": [
+    "2023-05-17"
+  ],
+  "objects_described": [
+    "3 white lights at FL450 exhibiting rapid lateral displacement and instantaneous return"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Boeing 767 operating as CJT906 was flying northeast at FL390 when the crew observed the phenomenon.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon left while NE bound at FL390",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 292,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of three white lights at approximately FL450, roughly 6,000 feet above the aircraft.",
+      "source_quote": "3 white lights traveling W bound at approximately FL450",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 416,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights exhibited an anomalous motion pattern: traveling westbound for 3-5 seconds then instantaneously returning to their origin point.",
+      "source_quote": "Lights would travel W for 3 to 5 seconds then immediately move back to start point",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 473,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 5 nautical miles north of the Victoria VOR in Texas.",
+      "source_quote": "5 NM N of VCT",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 374,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was a commercial cargo route from Guadalajara, Mexico to Cincinnati.",
+      "source_quote": "Origin: MMGL Destination: CVG",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 200,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Houston Air Route Traffic Control Center was the reporting facility.",
+      "source_quote": "Reporting Facility: ZHU",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:43:15.791Z",
+  "qa_completed_at": "2026-06-02T00:44:10.326Z",
+  "timing": {
+    "A": "29.1s",
+    "B": "25.5s",
+    "E": "20.3s"
+  },
+  "public_headline": "FAA Report: Pilot Saw Three Lights Making Impossible Movements at 45,000 Feet",
+  "public_tldr": "This FAA SKYWATCH incident report documents a commercial cargo pilot's observation of three white lights at approximately 45,000 feet near Victoria, Texas on 17 May 2023. The lights repeatedly travelled westbound for 3–5 seconds then instantly snapped back to their starting point. The FAA closed the case with no explanation provided.",
+  "public_narrative": "On 17 May 2023, the crew of a commercial Boeing 767 flying under callsign CJT906 reported an unidentified aerial phenomenon to Houston Air Route Traffic Control Center. The aircraft was on a cargo route from Guadalajara, Mexico (MMGL) to Cincinnati (CVG), flying northeast at FL390 — roughly 39,000 feet.\n\nAbout 5 nautical miles north of the Victoria VOR (a navigation point in Texas), the crew observed three white lights to their left, travelling westbound at approximately FL450 (45,000 feet) — around 6,000 feet above them. The lights exhibited a striking repetitive behaviour: they would move west for 3 to 5 seconds, then immediately return to their starting point, over and over.\n\nThe FAA filed the observation as a SKYWATCH Incident Report under its \"Unidentified Aerial Phenomenon\" category. The case is marked as closed, but the document provides no resolution, identification, or follow-up explanation for what the crew saw.\n\nNo radar data or additional witness accounts appear in this report. The altitude of the lights is described as approximate, meaning it was a visual estimate from the cockpit rather than an instrument reading. The observation was made from a moving aircraft, likely at night or in early-morning darkness given the route and timing.",
+  "public_caveats": [
+    "This is a single-source pilot observation — no corroborating radar data or independent witness accounts are included in the report.",
+    "The altitude of the lights (FL450 / 45,000 feet) is described as approximate, based on visual estimation rather than instrument measurement.",
+    "The case is marked 'Closed' with no resolution or explanation provided, meaning the FAA neither identified nor ruled out any cause.",
+    "The unusual oscillating motion described — travelling then instantly returning — is based solely on visual observation from a moving aircraft, which can affect depth and motion perception.",
+    "The document shows low evidence of redaction, so this appears to be the substantially complete record as filed."
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "sha256": "824fcb27352180e7ef4b00d8b8246361d768215eb23bc3ad2b366531c4bff66b",
+  "title": "FAA UAP record 237UAP00214",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The document is a single-source pilot report with no corroborating radar data or sensor evidence included.",
+    "AMOC's attribution to a satellite train is informal and not confirmed as the explanation for this specific sighting.",
+    "The case is marked Closed with no explicit resolution or formal conclusion documented.",
+    "The tail number field is blank, limiting independent verification of the specific aircraft."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date",
+      "value": "2023-02-11 (report date) / 02/11/2023",
+      "source_quote": "Date: 09:00 02/11/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "AAL403",
+      "source_quote": "Callsign: AAL403",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "A320",
+      "source_quote": "Aircraft: A320",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Denver (DEN) to Philadelphia (PHL)",
+      "source_quote": "Origin: DEN Destination: PHL",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL370 (37,000 feet)",
+      "source_quote": "east bound at FL370",
+      "citation_offset": {
+        "offset": 367,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "Over Iowa City",
+      "source_quote": "over Iowa City",
+      "citation_offset": {
+        "offset": 388,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "Unknown object circling at or above aircraft altitude, appearing and disappearing",
+      "source_quote": "an aircraft circling at or above their altitude appearing and disappearing",
+      "citation_offset": {
+        "offset": 431,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Position relative to aircraft",
+      "value": "Off the left side",
+      "source_quote": "an unidentified aerial phenomenon off the left side",
+      "citation_offset": {
+        "offset": 309,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Prior similar report",
+      "value": "Same report received the previous week, attributed to satellite train",
+      "source_quote": "the same report came in last week and it was a \"train\" of satellites",
+      "citation_offset": {
+        "offset": 523,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 246,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Denver (DEN)",
+    "Philadelphia (PHL)",
+    "Iowa City"
+  ],
+  "dated_events": [
+    "02/11/2023",
+    "2023-02-11T09:00"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as an aircraft circling at or above FL370, appearing and disappearing",
+    "A320 commercial aircraft (reporting aircraft)",
+    "Satellite train (suggested explanation from prior report)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AAL403 was an A320 operating commercially from Denver to Philadelphia on 2 February 2023.",
+      "source_quote": "Callsign: AAL403 ... Aircraft: A320 ... Origin: DEN Destination: PHL",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed an unidentified phenomenon off the left side of the aircraft while at FL370 over Iowa City.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while east bound at FL370, over Iowa City",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared to be an aircraft circling at or above their altitude that was appearing and disappearing.",
+      "source_quote": "The unknown phenomenon was an aircraft circling at or above their altitude appearing and disappearing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 404,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AMOC reported an identical sighting had been filed the previous week and was explained as a satellite train.",
+      "source_quote": "AMOC added that the same report came in last week and it was a \"train\" of satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 507,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:59:56.402Z",
+  "qa_completed_at": "2026-06-02T00:00:35.467Z",
+  "timing": {
+    "A": "20.5s",
+    "B": "18.5s",
+    "E": "14.5s"
+  },
+  "public_headline": "American Airlines Pilot Reports Mysterious Object Over Iowa City",
+  "public_tldr": "This FAA SKYWATCH report documents an American Airlines crew on flight AAL403 reporting an unidentified aerial phenomenon while flying at 37,000 feet over Iowa City on 11 February 2023. The object appeared to circle at or above their altitude and kept appearing and disappearing; the FAA noted a similar sighting the previous week had been attributed to a satellite train, but the case was closed without a formal conclusion.",
+  "public_narrative": "On 11 February 2023, the crew of American Airlines flight AAL403 — an Airbus A320 flying from Denver to Philadelphia — reported an unidentified aerial phenomenon to the FAA. The aircraft was eastbound at 37,000 feet over Iowa City, Iowa, when the crew observed something off the left side of their aircraft.\n\nThe pilots described the object as appearing to circle at or above their altitude, repeatedly appearing and disappearing. The FAA logged the sighting through its SKYWATCH incident reporting system, which tracks unidentified aerial phenomena reported by pilots.\n\nThe FAA's Air Traffic Organization Military Operations Center (AMOC) noted that an identical report had come in the previous week and had been informally attributed to a \"train\" of satellites — likely a string of Starlink-type satellites visible in low orbit. However, the document does not confirm this explanation applied to this specific sighting.\n\nThe case is marked as Closed, but no formal resolution or conclusion is documented. There is no radar data, sensor evidence, or independent corroboration included in the file. The aircraft's tail number field is blank.",
+  "public_caveats": [
+    "This is a single-source pilot report with no accompanying radar data, photographs, or sensor evidence.",
+    "The satellite train explanation comes from a prior, separate sighting — it is not confirmed as the cause of this incident.",
+    "The case is marked Closed but contains no formal resolution or documented conclusion.",
+    "The aircraft tail number field is blank, which limits independent verification of the specific flight.",
+    "The document is an administrative incident log, not an investigation report — it records what was reported, not what was determined."
+  ]
+}

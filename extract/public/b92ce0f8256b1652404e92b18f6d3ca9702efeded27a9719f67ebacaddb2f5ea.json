@@ -1,0 +1,246 @@
+{
+  "sha256": "b92ce0f8256b1652404e92b18f6d3ca9702efeded27a9719f67ebacaddb2f5ea",
+  "title": "FAA UAP record 237UAP00161",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft.",
+  "core_summary": "On 3 February 2023, a commercial Airbus A321 operating as ROU1721 reported observing a large balloon while southwest-bound at flight level 320 (approximately 32,000 feet), located 51 nautical miles east of Kansas City (MCI). The balloon was estimated to be at flight level 500 (approximately 50,000 feet) or above.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This report dates to early February 2023, during a period of heightened balloon surveillance following the Chinese surveillance balloon incidents over North America.",
+    "Single-source pilot observation with no corroborating sensor data included in this report.",
+    "Altitude estimate of FL500+ is approximate and based on visual observation from FL320, which introduces significant uncertainty.",
+    "The tail number field is blank, limiting independent verification of the specific aircraft involved.",
+    "ROU typically refers to a Romanian carrier (TAROM) but operating CYYZ-PHX is atypical for that operator; callsign may map differently in FAA systems."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "ROU1721",
+      "source_quote": "Callsign: ROU1721",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "ROU (commercial)",
+      "source_quote": "Operator: ROU",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 248,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL320 (approximately 32,000 feet)",
+      "source_quote": "SW bound at FL320",
+      "citation_offset": {
+        "offset": 346,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Large balloon",
+      "source_quote": "Aircraft reported a large balloon off the front",
+      "citation_offset": {
+        "offset": 292,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_altitude",
+      "value": "FL500 and above (approximately 50,000+ feet)",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "citation_offset": {
+        "offset": 380,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_location",
+      "value": "51 nautical miles east of MCI (Kansas City)",
+      "source_quote": "51NM E of MCI",
+      "citation_offset": {
+        "offset": 365,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "tail_number",
+      "value": "Not provided",
+      "source_quote": "Tail Number:",
+      "citation_offset": {
+        "offset": 150,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZKC",
+    "CYYZ",
+    "PHX",
+    "MCI"
+  ],
+  "dated_events": [
+    "2023-02-03T17:21"
+  ],
+  "objects_described": [
+    "Large balloon at FL500+",
+    "A321 commercial aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial A321 operating as ROU1721 observed a large balloon while flying at FL320",
+      "source_quote": "Aircraft reported a large balloon off the front while SW bound at FL320",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon was at approximately FL500 (50,000 feet) or above",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 380,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 51 nautical miles east of Kansas City",
+      "source_quote": "51NM E of MCI",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 365,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Toronto (CYYZ) and was destined for Phoenix (PHX)",
+      "source_quote": "Origin: CYYZ Destination: PHX",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was classified under the primary code Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:08:44.983Z",
+  "qa_completed_at": "2026-06-01T23:09:28.211Z",
+  "timing": {
+    "A": "23.8s",
+    "B": "19.4s",
+    "E": "19.6s"
+  },
+  "public_headline": "Commercial Pilot Reports Large Balloon at 50,000 Feet Near Kansas City",
+  "public_tldr": "This FAA SKYWATCH incident report documents a commercial airline pilot observing a large balloon at approximately 50,000 feet or higher while flying at 32,000 feet near Kansas City on 3 February 2023. The FAA classified the sighting as an Unidentified Aerial Phenomenon and closed the case without further explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unusual aerial sightings reported by pilots. It was filed under case number 237UAP00161 and classified with the primary code \"Unidentified Aerial Phenomenon.\"\n\nOn 3 February 2023, the crew of a commercial Airbus A321 flying under callsign ROU1721 reported spotting a large balloon ahead of their aircraft. The plane was heading southwest at flight level 320 (roughly 32,000 feet), on a route from Toronto, Canada (CYYZ) to Phoenix, Arizona (PHX). The sighting occurred approximately 51 nautical miles east of Kansas City's airport (MCI).\n\nThe crew estimated the balloon was at flight level 500 or above — approximately 50,000 feet or higher. That altitude is well above normal commercial air traffic and near the upper limits of where conventional weather balloons typically operate. The report does not include any radar data, photographs, or other sensor evidence to corroborate the pilot's visual observation.\n\nThe case status is listed as closed. The report does not describe any resolution, identification of the balloon, or follow-up investigation. The aircraft's tail number field is blank, which limits the ability to independently verify which specific plane was involved. Notably, this incident occurred in early February 2023, during a period of intense public and military attention to unidentified balloons over North America following the Chinese surveillance balloon incidents.",
+  "public_caveats": [
+    "This is a single pilot's visual observation with no corroborating sensor data such as radar tracks or photographs included in the report.",
+    "The altitude estimate of 50,000 feet or above was made visually from 32,000 feet, which introduces significant uncertainty — judging altitude and distance of airborne objects by eye is inherently imprecise.",
+    "The aircraft tail number is blank in the report, limiting independent verification of the specific flight involved.",
+    "The case is marked closed with no stated conclusion — 'closed' does not mean 'identified' or 'explained.'",
+    "The sighting occurred during the February 2023 balloon surveillance period, when pilots and controllers were on heightened alert for high-altitude objects, which may have influenced reporting patterns."
+  ]
+}

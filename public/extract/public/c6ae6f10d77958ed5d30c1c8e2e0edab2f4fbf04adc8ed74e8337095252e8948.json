@@ -1,0 +1,238 @@
+{
+  "sha256": "c6ae6f10d77958ed5d30c1c8e2e0edab2f4fbf04adc8ed74e8337095252e8948",
+  "title": "FAA UAP record 237UAP00046",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified flying object during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness statements in this document.",
+    "The position notation 'WB TAD180030' is abbreviated ATC shorthand and its precise geographic meaning may require cross-referencing with sectional charts.",
+    "The incident is marked 'Closed' with no resolution or explanation recorded in this report.",
+    "The document metadata lists the incident year as 2023, but the report itself is clearly dated 2021-02-21 — the metadata date may refer to the release or cataloguing date."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2021-02-21 at 19:59 UTC",
+      "source_quote": "Date: 19:59 02/21/2021",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "AAL2292",
+      "source_quote": "Callsign: AAL2292",
+      "citation_offset": {
+        "offset": 116,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Airbus A320",
+      "source_quote": "Aircraft: A320",
+      "citation_offset": {
+        "offset": 134,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 162,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Cincinnati (CVG) to Phoenix (PHX)",
+      "source_quote": "Origin: CVG Destination: PHX",
+      "citation_offset": {
+        "offset": 176,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight Level 360 (36,000 feet)",
+      "source_quote": "PIC reported UFO at FL360",
+      "citation_offset": {
+        "offset": 271,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Long cylindrical object, eastbound, passed over the top of the aircraft",
+      "source_quote": "a long cylindrical object that was EB and went over the top of the aircraft",
+      "citation_offset": {
+        "offset": 337,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "Albuquerque Center (ZAB)",
+      "source_quote": "Reporting Facility: ZAB",
+      "citation_offset": {
+        "offset": 92,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 222,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UFO reporting center notified",
+      "value": "Yes",
+      "source_quote": "UFO reporting center notified",
+      "citation_offset": {
+        "offset": 414,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "CVG",
+    "PHX",
+    "DEN",
+    "ZAB"
+  ],
+  "dated_events": [
+    "2021-02-21"
+  ],
+  "objects_described": [
+    "Long cylindrical eastbound object at or above FL360",
+    "Airbus A320 (AAL2292)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 2292 was operating a commercial flight from Cincinnati to Phoenix on 21 February 2021.",
+      "source_quote": "Callsign: AAL2292 Aircraft: A320 ... Operator: AAL Origin: CVG Destination: PHX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 165,
+        "len": 39,
+        "exact": false,
+        "matched": "rator: AAL Origin: CVG Destination: PHX"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The pilot-in-command reported an unidentified object at 36,000 feet.",
+      "source_quote": "PIC reported UFO at FL360",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 271,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was described as long and cylindrical, moving eastbound, and passed over the top of the aircraft.",
+      "source_quote": "a long cylindrical object that was EB and went over the top of the aircraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 337,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO reporting center was notified of the incident.",
+      "source_quote": "UFO reporting center notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 414,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:12:46.613Z",
+  "qa_completed_at": "2026-06-01T21:13:27.822Z",
+  "timing": {
+    "A": "20.1s",
+    "B": "21.1s",
+    "E": "17.3s"
+  },
+  "public_headline": "American Airlines Pilot Reported Cylindrical Object at 36,000 Feet in 2021",
+  "public_tldr": "This FAA incident report documents a sighting by the pilot of American Airlines flight 2292, an Airbus A320 flying from Cincinnati to Phoenix on 21 February 2021. The pilot reported a long cylindrical object moving eastbound that passed over the aircraft at 36,000 feet. The case was closed with no explanation recorded.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standard form the Federal Aviation Administration uses to log unusual aerial observations reported by pilots and air traffic controllers. It was filed under the identifier 237UAP00046 and categorised with a primary code of \"OTHER.\"\n\nOn 21 February 2021 at 19:59 UTC, the pilot-in-command of American Airlines flight 2292 (callsign AAL2292), an Airbus A320 operating a commercial route from Cincinnati (CVG) to Phoenix (PHX), reported an unidentified flying object while cruising at Flight Level 360 — approximately 36,000 feet. The pilot described the object as long and cylindrical, travelling eastbound, which passed over the top of the aircraft. The sighting was handled through Albuquerque Center (ZAB), the air traffic control facility covering that region.\n\nThe report confirms that the UFO reporting center was notified of the incident. However, the case is marked \"Closed\" with no resolution or explanation recorded in the document itself.\n\nIt is worth noting a date discrepancy: while the document metadata lists the incident year as 2023, the report content is clearly dated 21 February 2021. The 2023 date likely refers to when the record was released or catalogued rather than when the event occurred.",
+  "public_caveats": [
+    "This is a single-source pilot observation. The document contains no corroborating radar data, photographs, or additional witness statements.",
+    "The case is marked 'Closed' but no conclusion, identification, or follow-up findings are recorded in this report.",
+    "The position notation 'WB TAD180030' used in the report is abbreviated air traffic control shorthand; its precise geographic meaning would require cross-referencing with sectional aeronautical charts.",
+    "The metadata date (2023) and the actual incident date (February 2021) do not match — the metadata date likely reflects when the record was released or catalogued, not when the event happened.",
+    "Redaction levels in this document are assessed as low, but the absence of detail (no radar confirmation, no resolution) may reflect information held elsewhere rather than information that was removed."
+  ]
+}

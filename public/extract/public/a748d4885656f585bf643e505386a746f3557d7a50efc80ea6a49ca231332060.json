@@ -1,0 +1,263 @@
+{
+  "sha256": "a748d4885656f585bf643e505386a746f3557d7a50efc80ea6a49ca231332060",
+  "title": "FAA UAP record 237UAP00087",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon sighting.",
+  "core_summary": "On 9 April 2022, the crew of United Airlines flight 2330 (a Boeing 737-900) reported observing a set of lights maneuvering at very high altitude near Stillwater, Oklahoma. A second aircraft, Delta flight 309 (a Boeing 757-300), 56 nautical miles behind, independently observed the same lights. A third aircraft (Spirit Airlines flight 806) passing within 20 nautical miles of Stillwater reported no sighting.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single incident report with no follow-up investigation or resolution details included.",
+    "Case is marked 'Closed' with no explanation of findings or conclusions.",
+    "Altitude and distance of the lights are described only in vague relative terms ('very high', 'in the distance') — no radar data or precise measurements are provided.",
+    "One of three queried aircraft reported no sighting, which may indicate the phenomenon was directional, transient, or ambiguous.",
+    "The report date in the metadata (2023) does not match the incident date in the document (2022-04-09); the incident occurred in 2022."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "SKYWATCH Incident Report — Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary reporting aircraft",
+      "value": "UAL2330, Boeing 737-900, FL330",
+      "source_quote": "Callsign: UAL2330 … Aircraft: B739",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Primary aircraft route",
+      "value": "Phoenix (PHX) to Newark (EWR)",
+      "source_quote": "Origin: PHX Destination: EWR",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "United Airlines (commercial)",
+      "source_quote": "Operator: UAL … Operator Type: Commercial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Corroborating aircraft",
+      "value": "DAL309, Boeing 757-300, FL350, LAX to ATL",
+      "source_quote": "DAL309, a B753 at FL350 in route from LAX to ATL is observing the same lights",
+      "citation_offset": {
+        "offset": 523,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Separation between observers",
+      "value": "56 nautical miles in trail",
+      "source_quote": "56NM in trail of UAL2330",
+      "citation_offset": {
+        "offset": 495,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Approximate location of phenomenon",
+      "value": "Vicinity of Stillwater, Oklahoma",
+      "source_quote": "lights very high in the distance maneuvering in the approximate vicinity of Stillwater, OK",
+      "citation_offset": {
+        "offset": 384,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "Set of lights at very high altitude, maneuvering",
+      "source_quote": "observing a set of lights very high in the distance maneuvering",
+      "citation_offset": {
+        "offset": 365,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Third aircraft queried",
+      "value": "NKS806 (Spirit Airlines), FL370, passing within 20 NM of SWO",
+      "source_quote": "NKS806, and passing within 20NM of SWO heading ESE bound at FL370",
+      "citation_offset": {
+        "offset": 778,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Third aircraft saw nothing",
+      "value": "No sighting reported by NKS806 crew",
+      "source_quote": "The flight crew had no reports of sighting any activity in the area",
+      "citation_offset": {
+        "offset": 845,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route separation",
+      "value": "40 NM between UAL2330 and NKS806",
+      "source_quote": "converging courses with 40NM route separation",
+      "citation_offset": {
+        "offset": 973,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZFW (Fort Worth ARTCC)",
+      "source_quote": "Reporting Facility: ZFW",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting POD",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "AWO notified",
+      "value": "Yes",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 1150,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Stillwater, OK",
+    "Phoenix (PHX)",
+    "Newark (EWR)",
+    "Denver (DEN)",
+    "Los Angeles (LAX)",
+    "Atlanta (ATL)",
+    "SWO (Stillwater VOR)",
+    "IRW"
+  ],
+  "dated_events": [
+    "2022-04-09"
+  ],
+  "objects_described": [
+    "Unidentified set of maneuvering lights at very high altitude",
+    "NKS806 (aircraft type not specified)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Two independent commercial flight crews observed the same set of lights near Stillwater, Oklahoma on 9 April 2022",
+      "source_quote": "DAL309, a B753 at FL350 in route from LAX to ATL is observing the same lights in the distance, very high above and in the approximate same vicinity as reported by the crew of UAL2330",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 523,
+        "len": 182,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A third aircraft passing near the reported location saw nothing",
+      "source_quote": "The flight crew had no reports of sighting any activity in the area",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 845,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights were described as very high and maneuvering",
+      "source_quote": "a set of lights very high in the distance maneuvering",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 375,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FAA's Aviation Weather Office (AWO) was notified",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 1150,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:53:05.138Z",
+  "qa_completed_at": "2026-06-01T21:53:51.198Z",
+  "timing": {
+    "A": "27.8s",
+    "B": "18.3s",
+    "E": "17.0s"
+  },
+  "public_headline": "Two Airline Crews Reported Maneuvering Lights Over Oklahoma in 2022",
+  "public_tldr": "This FAA incident report documents a sighting on 9 April 2022 in which the crew of a United Airlines Boeing 737 and, independently, the crew of a Delta Airlines Boeing 757 both observed a set of lights maneuvering at very high altitude near Stillwater, Oklahoma. The case was closed with no explanation of findings or conclusions.",
+  "public_narrative": "On 9 April 2022, the crew of United Airlines flight 2330 — a Boeing 737-900 flying at 33,000 feet from Phoenix to Newark — reported seeing a set of lights maneuvering at very high altitude near Stillwater, Oklahoma. The sighting was logged by Fort Worth Air Route Traffic Control Center (ARTCC) as an unidentified aerial phenomenon under the FAA's SKYWATCH reporting system.\n\nA second aircraft, Delta flight 309 — a Boeing 757-300 cruising at 35,000 feet from Los Angeles to Atlanta — was 56 nautical miles behind the United flight and independently reported observing the same lights in the same area. Two separate commercial crews seeing the same thing from different positions is notable because it reduces the chance of a simple misperception by one crew.\n\nControllers also queried a third aircraft, Spirit Airlines flight 806, which was passing within 20 nautical miles of Stillwater at 37,000 feet. That crew reported seeing nothing unusual. The route separation between the United and Spirit flights was about 40 nautical miles.\n\nThe FAA's Aviation Weather Office was notified. Beyond that, the report contains no follow-up investigation, no radar data, and no attempt to identify what the lights were. The case is marked \"Closed\" with no stated conclusion. The lights are described only in vague terms — \"very high\" and \"maneuvering\" — with no precise altitude, speed, or distance measurements recorded.",
+  "public_caveats": [
+    "This is a single incident report with no follow-up investigation or resolution — the case was closed without any stated findings.",
+    "The lights are described only in vague relative terms ('very high', 'maneuvering in the distance'). No radar data, altitude measurements, or precise coordinates are included.",
+    "One of three aircraft queried saw nothing, which could mean the phenomenon was transient, directional, or ambiguous.",
+    "The metadata lists a 2023 report date, but the actual incident occurred on 9 April 2022 — readers should note this date discrepancy.",
+    "Two independent crews corroborating the same sighting strengthens the report, but without instrument data or investigation, the document alone cannot establish what the lights were."
+  ]
+}

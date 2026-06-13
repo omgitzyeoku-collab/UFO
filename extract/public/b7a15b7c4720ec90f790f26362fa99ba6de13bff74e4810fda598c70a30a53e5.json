@@ -1,0 +1,215 @@
+{
+  "sha256": "b7a15b7c4720ec90f790f26362fa99ba6de13bff74e4810fda598c70a30a53e5",
+  "title": "FAA UAP record 237UAP00033",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a closed UFO sighting case near Amarillo, Texas.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The ISS explanation was derived from an internet search by the reporting facility, not from direct confirmation or radar data.",
+    "No details are provided about what the pilots actually observed — only that they reported a 'possible UFO sighting'.",
+    "The sighting time field shows '0440-0440', suggesting an instantaneous or very brief observation window.",
+    "Single-source report from ZAB facility with no corroborating sensor data mentioned."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time of report",
+      "value": "2018-06-05 11:32",
+      "source_quote": "Date: 11:32 06/05/2018",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Point of Distribution",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting location",
+      "value": "Vicinity of Amarillo, TX (PHN)",
+      "source_quote": "VCNTY of PHN (Amarillo, TX)",
+      "citation_offset": {
+        "offset": 195,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft direction of travel",
+      "value": "Northwest bound from DFW area",
+      "source_quote": "ACFT were NW bound from DFW area",
+      "citation_offset": {
+        "offset": 239,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of reporting aircraft",
+      "value": "Multiple",
+      "source_quote": "multiple ACFT reporting possible UFO sighting",
+      "citation_offset": {
+        "offset": 146,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NORAD response",
+      "value": "No known activity",
+      "source_quote": "HQ DEN contacted NORAD who reports no known activity",
+      "citation_offset": {
+        "offset": 273,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Resolution",
+      "value": "Likely International Space Station",
+      "source_quote": "NASA website indicating the Space Station would be visible from that vicinity and in that time frame",
+      "citation_offset": {
+        "offset": 369,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Paged",
+      "value": "No",
+      "source_quote": "Paged: NO",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Amarillo, TX",
+    "DEN"
+  ],
+  "dated_events": [
+    "2018-06-05"
+  ],
+  "objects_described": [
+    "Possible UFO (resolved as likely International Space Station)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Multiple aircraft reported a possible UFO sighting near Amarillo, TX at 0440 UTC on 5 June 2018.",
+      "source_quote": "ZAB reports multiple ACFT reporting possible UFO sighting in VCNTY of PHN (Amarillo, TX) from 0440-0440",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 134,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD was contacted and reported no known activity in the area.",
+      "source_quote": "HQ DEN contacted NORAD who reports no known activity",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 273,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A NASA website indicated the International Space Station would have been visible from that location and time.",
+      "source_quote": "internet search revealed NASA website indicating the Space Station would be visible from that vicinity and in that time frame",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 344,
+        "len": 125,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reporting aircraft were flying northwest from the Dallas-Fort Worth area.",
+      "source_quote": "ACFT were NW bound from DFW area",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 239,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:00:38.302Z",
+  "qa_completed_at": "2026-06-01T21:01:16.296Z",
+  "timing": {
+    "A": "19.1s",
+    "B": "18.9s",
+    "E": "18.7s"
+  },
+  "public_headline": "Multiple Pilots Reported UFO Near Amarillo; FAA Attributed It to Space Station",
+  "public_tldr": "This FAA SKYWATCH incident report documents a June 2018 case in which multiple aircraft crews reported a possible UFO sighting near Amarillo, Texas. After contacting NORAD and checking a NASA website, the FAA's Denver headquarters concluded the object was likely the International Space Station and closed the case.",
+  "public_narrative": "This document is an FAA SKYWATCH Incident Report — a standardised form the Federal Aviation Administration uses to log unusual aerial sightings reported by pilots or air traffic controllers. It was filed on 5 June 2018 at 11:32 and later closed.\n\nAccording to the report, the Albuquerque Air Route Traffic Control Center (ZAB) received calls from multiple aircraft crews reporting a possible UFO sighting in the vicinity of Amarillo, Texas. The aircraft were flying northwest from the Dallas–Fort Worth area. The sighting window recorded in the report is extremely narrow — listed as 0440 to 0440 UTC — suggesting a brief or instantaneous observation.\n\nFAA headquarters in Denver contacted NORAD (the North American Aerospace Defense Command), which reported no known activity in the area. The reporting facility then conducted an internet search and found a NASA website indicating the International Space Station would have been visible from that location at that time. On that basis, the FAA attributed the sighting to the ISS and closed the case.\n\nNo details are provided about what the pilots actually saw — the report notes only that they reported a \"possible UFO sighting.\" There is no mention of radar data, photographs, or any sensor corroboration. The document shows minimal redaction.",
+  "public_caveats": [
+    "The ISS explanation came from an internet search by the reporting facility, not from direct confirmation by NASA or independent radar data.",
+    "The report contains no description of what the pilots actually observed — only that they reported a 'possible UFO sighting.'",
+    "The sighting time is recorded as '0440–0440,' suggesting an instantaneous or very brief observation, though this could also reflect incomplete data entry.",
+    "This is a single-source report from one FAA facility (ZAB) with no corroborating sensor data mentioned.",
+    "The incident date in the document is June 2018, though it was released as part of a broader 2023-era FAA disclosure batch."
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "sha256": "527d8bed94fdcd809c98a02836b6fe267d05445afafa26d6756eb84be2a0d006",
+  "title": "FAA UAP record 237UAP00455",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On 7 February 2023, United Airlines flight 1164 (a Boeing 737-800 flying from San Francisco to Toronto) reported unidentified aerial phenomena manoeuvring between flight levels 450 and 600 (approximately 45,000–60,000 feet) near the Wolbach VORTAC navigation aid in Nebraska. Multiple aircraft in the area reported seeing 2–3 targets with flashing lights.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report (labelled 'PRELIM INFO'), not a final investigation conclusion.",
+    "No follow-up investigation findings or identification of the targets is included in this document.",
+    "The report is single-source from FAA Operations with no radar data, photographs, or sensor corroboration included.",
+    "The altitude range FL450–FL600 (45,000–60,000 ft) exceeds the service ceiling of most conventional aircraft."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_flight",
+      "value": "United Airlines 1164 (UAL1164), Boeing 737-800",
+      "source_quote": "UNITED 1164, B738, SFO - TORONTO, CANADA (CYYZ)",
+      "citation_offset": {
+        "offset": 266,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "San Francisco (SFO) to Toronto (CYYZ)",
+      "source_quote": "SFO - TORONTO, CANADA (CYYZ)",
+      "citation_offset": {
+        "offset": 285,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Near Wolbach VORTAC (OBH), Nebraska",
+      "source_quote": "VCNTY WOLBACH VORTAC (OBH)",
+      "citation_offset": {
+        "offset": 387,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_of_phenomena",
+      "value": "Between FL450 and FL600 (approx. 45,000–60,000 ft)",
+      "source_quote": "MANEUVERING BETWEEN FL450-FL600",
+      "citation_offset": {
+        "offset": 355,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_targets",
+      "value": "2–3 targets with flashing lights",
+      "source_quote": "2-3 TARGETS WITH FLASHING LIGHTS",
+      "citation_offset": {
+        "offset": 445,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "multiple_witnesses",
+      "value": "Multiple aircraft reported seeing the targets",
+      "source_quote": "MULTIPLY ACFT REPORTED SEEING 2-3 TARGETS WITH FLASHING LIGHTS IN THE GENERAL AREA",
+      "citation_offset": {
+        "offset": 415,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "7 February 2023, 03:44 CST",
+      "source_quote": "2/7/2023 3:44:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "41.397°N, 98.394°W",
+      "source_quote": "Latitude: 41.396957700000002",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC_facility",
+      "value": "Minneapolis ARTCC",
+      "source_quote": "MINNEAPOLIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 240,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_source",
+      "value": "FAA Washington Operations Center (WOC)",
+      "source_quote": "PRELIM INFO FROM FAA OPS",
+      "citation_offset": {
+        "offset": 179,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Wolbach, Nebraska",
+    "San Francisco (SFO)",
+    "Toronto, Canada (CYYZ)"
+  ],
+  "dated_events": [
+    "2/7/2023 3:44:00 AM (-06 CST)",
+    "02-07-2023"
+  ],
+  "objects_described": [
+    "Boeing 737-800 (B738)",
+    "2–3 unidentified aerial targets with flashing lights manoeuvring at FL450–FL600"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 1164 reported UAP activity near Wolbach VORTAC on 7 February 2023",
+      "source_quote": "UNITED 1164, B738, SFO - TORONTO, CANADA (CYYZ), REPORTED UNIDENTIFIED AERIAL PHENOMENON MANEUVERING BETWEEN FL450-FL600 VCNTY WOLBACH VORTAC (OBH)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 266,
+        "len": 147,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomena were observed manoeuvring at altitudes between 45,000 and 60,000 feet, well above typical commercial aviation cruising altitude",
+      "source_quote": "MANEUVERING BETWEEN FL450-FL600",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 355,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Multiple aircraft in the area independently reported seeing 2–3 targets with flashing lights",
+      "source_quote": "MULTIPLY ACFT REPORTED SEEING 2-3 TARGETS WITH FLASHING LIGHTS IN THE GENERAL AREA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 415,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T03:03:19.762Z",
+  "qa_completed_at": "2026-06-02T03:03:51.803Z",
+  "timing": {
+    "A": "18.6s",
+    "B": "13.5s",
+    "E": "16.7s"
+  },
+  "public_headline": "Airline Crews Reported Unidentified Objects Over Nebraska in 2023",
+  "public_tldr": "An FAA incident report from 7 February 2023 documents United Airlines flight 1164 and multiple other aircraft reporting 2–3 unidentified targets with flashing lights manoeuvring at extreme altitudes over Nebraska. The report is preliminary and includes no follow-up investigation or identification of the objects.",
+  "public_narrative": "This document is a preliminary incident report from the FAA's Washington Operations Center. It records a sighting of unidentified aerial phenomena reported on 7 February 2023 at approximately 3:44 AM Central time.\n\nUnited Airlines flight 1164, a Boeing 737-800 flying from San Francisco to Toronto, reported unidentified objects manoeuvring near the Wolbach navigational aid in central Nebraska (coordinates 41.4°N, 98.4°W). The objects were observed between flight levels 450 and 600 — roughly 45,000 to 60,000 feet — well above the cruising altitude of most commercial aircraft. Minneapolis Air Route Traffic Control Center was advised of the report.\n\nThe crew of flight 1164 was not alone in what they saw. Multiple aircraft in the area reported observing 2–3 targets with flashing lights in the same general vicinity.\n\nThe FAA document is labelled \"PRELIM INFO\" — a preliminary report, not a final investigation. It contains no radar data, photographs, sensor readings, or follow-up findings. The objects were never identified in this document. There is minimal redaction; the report is simply brief and limited in scope.\n\nThe altitude range is noteworthy: 45,000 to 60,000 feet exceeds the service ceiling of most conventional aircraft, including the 737-800 that reported the sighting.",
+  "public_caveats": [
+    "This is a preliminary report, not a completed investigation — no conclusion about what the objects were is offered.",
+    "The document contains no radar data, photographs, or sensor corroboration. It is based solely on pilot reports relayed through FAA Operations.",
+    "The phrase 'multiply aircraft reported' indicates multiple witnesses, but the document does not name or detail the other aircraft involved.",
+    "The reported altitude range (45,000–60,000 ft) exceeds the operating ceiling of most conventional aircraft, but no analysis of this detail is included in the report.",
+    "No follow-up investigation findings appear in this document — it may exist elsewhere or may never have been conducted."
+  ]
+}

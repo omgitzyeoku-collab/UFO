@@ -1,0 +1,214 @@
+{
+  "sha256": "e9bd516f55fa1e25b7e6b020e26f2137fc859a3d53513d4ceb4db8be6ad9c7ae",
+  "title": "FAA UAP record 237UAP00330",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no radar corroboration",
+    "No tail number recorded, limiting independent verification of the specific aircraft",
+    "Case marked closed with no resolution or explanation provided",
+    "No information on duration of observation or number of crew who witnessed the event"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-12-23 at 03:46 UTC",
+      "source_quote": "Date: 03:46 12/23/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft callsign",
+      "value": "DAL750",
+      "source_quote": "Callsign: DAL750",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Tampa (TPA) to Seattle (SEA)",
+      "source_quote": "Origin: TPA Destination: SEA",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "FL320 (32,000 feet)",
+      "source_quote": "NW bound at FL320",
+      "citation_offset": {
+        "offset": 367,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "50 NM west of Denver",
+      "source_quote": "50 NM West of DEN",
+      "citation_offset": {
+        "offset": 386,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Group of red lights circling each other at approximately FL400",
+      "source_quote": "a group of red lights circling each other at approximately FL400",
+      "citation_offset": {
+        "offset": 432,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Position relative to aircraft",
+      "value": "Off the left side",
+      "source_quote": "an unidentified aerial phenomenon off the left side",
+      "citation_offset": {
+        "offset": 309,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 498,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AWO notification",
+      "value": "Yes",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 553,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "TPA",
+    "SEA",
+    "ZDV"
+  ],
+  "dated_events": [
+    "2023-12-23"
+  ],
+  "objects_described": [
+    "Group of red lights circling each other at FL400"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL750 was flying northwest-bound at FL320 approximately 50 NM west of Denver when the crew observed the phenomenon.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while NW bound at FL320, 50 NM West of DEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of a group of red lights circling each other at approximately 40,000 feet.",
+      "source_quote": "a group of red lights circling each other at approximately FL400",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 432,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was not detected by ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 498,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Aircraft Weather Operations office was notified.",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 553,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:46:03.076Z",
+  "qa_completed_at": "2026-06-02T01:46:40.332Z",
+  "timing": {
+    "A": "18.3s",
+    "B": "19.0s",
+    "E": "19.0s"
+  },
+  "public_headline": "Delta Crew Reports Red Lights Circling at 40,000 Feet Near Denver",
+  "public_tldr": "This FAA incident report documents a December 2023 sighting by the crew of Delta flight DAL750, who observed a group of red lights circling each other at roughly 40,000 feet while flying at 32,000 feet about 50 miles west of Denver. The lights did not appear on air traffic control radar, and the case was closed without explanation.",
+  "public_narrative": "On 23 December 2023 at 03:46 UTC, the crew of Delta Air Lines flight DAL750 — flying northwest from Tampa, Florida to Seattle, Washington — reported an unidentified aerial phenomenon to air traffic control. The aircraft was at flight level 320 (32,000 feet), approximately 50 nautical miles west of Denver, Colorado.\n\nThe crew described a group of red lights circling each other off the left side of the aircraft at roughly flight level 400 (40,000 feet) — about 8,000 feet above them. The lights were not detected on the air traffic control facility's radar system.\n\nThe FAA logged the sighting under its SKYWATCH reporting system as case 237UAP00330. The FAA's Airway Operations office (AWO) was notified. The case is marked as closed, but the report provides no resolution, identification, or explanation for what the crew observed.\n\nNo tail number for the aircraft was recorded in the report. The document contains minimal redaction, but it also contains minimal detail — there is no information about how long the crew watched the lights, how many crew members saw them, or whether any other aircraft in the area were asked to confirm the sighting.",
+  "public_caveats": [
+    "This is a single-source pilot observation — no radar return, no second aircraft, and no instrument data corroborated the sighting.",
+    "No tail number was recorded, which limits independent verification of the specific aircraft involved.",
+    "The case was closed with no resolution or explanation provided by the FAA.",
+    "The report does not state how long the observation lasted or how many crew members witnessed it.",
+    "The document is an administrative incident log, not an investigation — the FAA recorded the report but did not describe any follow-up analysis."
+  ]
+}

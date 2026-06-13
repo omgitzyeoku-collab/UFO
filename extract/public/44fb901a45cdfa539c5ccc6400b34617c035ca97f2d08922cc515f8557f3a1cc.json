@@ -1,0 +1,231 @@
+{
+  "sha256": "44fb901a45cdfa539c5ccc6400b34617c035ca97f2d08922cc515f8557f3a1cc",
+  "title": "FAA UAP record 237UAP00392",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot-reported UFO/UAP sighting.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single brief ops-center log entry with minimal detail",
+    "FL450 (45,000 feet) is above typical commercial traffic ceiling — unusual altitude for a visual sighting",
+    "No follow-up investigation or resolution is documented in this record",
+    "Coordinates place the incident over North Carolina, not 240nm SW of IAD — possible discrepancy between stated relative position and coordinates"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "N39RC, Cessna C56X",
+      "source_quote": "N39RC, CESSNA C56X, PBI - ABE",
+      "citation_offset": {
+        "offset": 263,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Palm Beach International (PBI) to Allentown (ABE)",
+      "source_quote": "PBI - ABE",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "object_description",
+      "value": "White UFO circling at FL450",
+      "source_quote": "REPORTED A WHITE UFO FROM THE RIGHT SIDE CIRCLING AT FL450",
+      "citation_offset": {
+        "offset": 294,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "latitude",
+      "value": "36.446357679999998",
+      "source_quote": "Latitude: 36.446357679999998",
+      "citation_offset": {
+        "offset": 107,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "longitude",
+      "value": "-80.505882150000005",
+      "source_quote": "-80.505882150000005",
+      "citation_offset": {
+        "offset": 146,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft",
+      "value": "JetBlue flight 1380",
+      "source_quote": "JBU1380 CONFIRMED REPORT",
+      "citation_offset": {
+        "offset": 420,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 365,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 390,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC_facility",
+      "value": "Washington ARTCC",
+      "source_quote": "WASHINGTON ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 238,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_time",
+      "value": "0145 Eastern",
+      "source_quote": "0145E",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "date",
+      "value": "2021-04-26",
+      "source_quote": "Date: 4/26/2021 1:45:00 AM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Washington, DC",
+    "Dulles (IAD)",
+    "Palm Beach International (PBI)",
+    "Allentown (ABE)"
+  ],
+  "dated_events": [
+    "4/26/2021 1:45:00 AM (-04 EDT)",
+    "04-26-2021"
+  ],
+  "objects_described": [
+    "White UFO circling at FL450",
+    "Cessna C56X (N39RC)",
+    "JetBlue 1380"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Cessna Citation C56X with registration N39RC was flying from PBI to ABE on April 26, 2021",
+      "source_quote": "N39RC, CESSNA C56X, PBI - ABE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 263,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot reported a white UFO circling on the right side of the aircraft at FL450",
+      "source_quote": "REPORTED A WHITE UFO FROM THE RIGHT SIDE CIRCLING AT FL450",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 294,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "JetBlue flight 1380 independently confirmed the sighting",
+      "source_quote": "JBU1380 CONFIRMED REPORT",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 420,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the reporting aircraft",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 365,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 390,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:41:47.803Z",
+  "qa_completed_at": "2026-06-02T02:42:44.736Z",
+  "timing": {
+    "A": "24.0s",
+    "B": "32.9s",
+    "E": "17.9s"
+  },
+  "public_headline": "Two Aircraft Crews Reported White Object Circling at 45,000 Feet",
+  "public_tldr": "This FAA operations center log from April 2021 records a pilot flying a Cessna Citation from Palm Beach to Allentown who reported a white unidentified object circling at 45,000 feet. A JetBlue flight independently confirmed the sighting, but no further investigation is documented.",
+  "public_narrative": "This document is a brief incident log from the FAA's Washington Operations Center, dated 26 April 2021 at 1:45 AM Eastern time. It records a UAP (unidentified aerial phenomena) report made through standard aviation safety channels.\n\nThe reporting aircraft was a Cessna Citation C56X, registration N39RC, flying from Palm Beach International Airport in Florida to Lehigh Valley International Airport near Allentown, Pennsylvania. The pilot reported seeing a white unidentified object on the right side of the aircraft, circling at flight level 450 — roughly 45,000 feet, which is above the ceiling where most commercial aircraft operate. Washington Air Route Traffic Control Center was advised of the sighting.\n\nNotably, JetBlue flight 1380 independently confirmed the report, meaning a second crew in a separate aircraft saw the same thing. Despite the sighting, no evasive action was taken and no law enforcement was notified.\n\nThe coordinates logged in the report place the incident over North Carolina, though the record also describes the location as southwest of Dulles Airport in Virginia — a possible discrepancy worth noting. The document contains no follow-up investigation, no identification of the object, and no resolution. It is a single operational log entry, not a detailed case file.",
+  "public_caveats": [
+    "This is a single brief operations center log entry, not a full investigation report — it contains minimal detail about the object.",
+    "The sighting was confirmed by a second aircraft (JetBlue 1380), which adds some corroboration, though the record does not describe what the JetBlue crew saw in their own words.",
+    "No follow-up investigation or resolution is documented — the object was never identified in this record.",
+    "There is a geographic discrepancy: the logged coordinates point to North Carolina, but the report also describes the location relative to Dulles Airport in Virginia, and these may not align.",
+    "FL450 (45,000 feet) is unusually high for a visual sighting, as it is above the typical ceiling for commercial traffic."
+  ]
+}

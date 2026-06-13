@@ -1,0 +1,268 @@
+{
+  "sha256": "64c5659638151a8489e50202ef9bd2a78cada9cfbd9b1c367b8b09757a77bc9e",
+  "title": "FAA UAP record 237UAP00189",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial airline crew.",
+  "core_summary": "On 3 February 2023, the crew of American Airlines flight 769 (an Airbus A321 flying from Chicago O'Hare to Phoenix) reported observing a large balloon off the right side of their aircraft while westbound at flight level 320 (approximately 32,000 feet), about 30 nautical miles west of the RBA navigational fix. The balloon was estimated to be at flight level 500 (approximately 50,000 feet) or above. The incident was reported through the Denver (ZDV) air traffic control facility and is marked as closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source observation from one flight crew with no corroborating radar data or additional witnesses mentioned in the report.",
+    "The date format 02/03/2023 is US-style (February 3), confirmed by the ISO timestamp 2023-02-03T14:35 in the footer.",
+    "This report coincides with the period of heightened balloon sightings over the US in early February 2023, including the Chinese surveillance balloon incident.",
+    "FL500 (50,000 feet) is an unusually high altitude estimate and may reflect difficulty in judging altitude from a distance.",
+    "The case is marked Closed with no resolution or identification noted in this document."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2023-02-03 at 14:35",
+      "source_quote": "Date: 14:35 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "AAL769",
+      "source_quote": "Callsign: AAL769",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "A321",
+      "source_quote": "Aircraft: A321",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "ORD (Chicago O'Hare)",
+      "source_quote": "Origin: ORD",
+      "citation_offset": {
+        "offset": 200,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "PHX (Phoenix)",
+      "source_quote": "Destination: PHX",
+      "citation_offset": {
+        "offset": 212,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZDV (Denver ARTCC)",
+      "source_quote": "Reporting Facility: ZDV",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL320 (approximately 32,000 feet)",
+      "source_quote": "W bound at FL320",
+      "citation_offset": {
+        "offset": 349,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Large balloon",
+      "source_quote": "Aircraft reported a large balloon off the right side",
+      "citation_offset": {
+        "offset": 290,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_altitude",
+      "value": "FL500 and above (approximately 50,000 feet+)",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "citation_offset": {
+        "offset": 382,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_position_relative",
+      "value": "Off the right side of aircraft, 30NM west of RBA",
+      "source_quote": "a large balloon off the right side while W bound at FL320, 30NM W of RBA",
+      "citation_offset": {
+        "offset": 308,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZDV",
+    "ORD",
+    "PHX",
+    "RBA"
+  ],
+  "dated_events": [
+    "2023-02-03T14:35"
+  ],
+  "objects_described": [
+    "large balloon at approximately FL500 and above",
+    "A321 commercial aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 769 crew observed a large balloon while flying westbound at 32,000 feet",
+      "source_quote": "Aircraft reported a large balloon off the right side while W bound at FL320",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 290,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon was estimated at approximately 50,000 feet or higher",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 382,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 30 nautical miles west of the RBA navigational fix",
+      "source_quote": "30NM W of RBA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 367,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight route was from Chicago O'Hare to Phoenix",
+      "source_quote": "Origin: ORD Destination: PHX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:36:18.533Z",
+  "qa_completed_at": "2026-06-01T23:36:53.944Z",
+  "timing": {
+    "A": "21.3s",
+    "B": "14.1s",
+    "E": "19.9s"
+  },
+  "public_headline": "American Airlines Crew Reported High-Altitude Balloon in 2023",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of American Airlines flight 769 on 3 February 2023: a large balloon estimated at 50,000 feet or above, observed while the aircraft was cruising at 32,000 feet en route from Chicago to Phoenix. The case was closed with no identification or resolution noted.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unidentified aerial phenomenon sightings reported by pilots and air traffic controllers. It was filed through the Denver Air Route Traffic Control Center (ZDV).\n\nOn 3 February 2023 at 14:35, the crew of American Airlines flight 769, an Airbus A321 flying westbound from Chicago O'Hare (ORD) to Phoenix (PHX), reported a large balloon off the right side of their aircraft. The plane was at flight level 320, roughly 32,000 feet, approximately 30 nautical miles west of the RBA navigational fix. The crew estimated the balloon was at flight level 500 — around 50,000 feet — or higher.\n\nThe report is classified under the FAA's primary code for \"Unidentified Aerial Phenomenon.\" It carries a status of Closed, but the document contains no explanation of what the object was, no follow-up investigation notes, and no corroborating evidence such as radar data or additional witness accounts.\n\nThe timing is notable: early February 2023 was the period when multiple high-altitude balloon sightings were reported across the United States, including the widely publicised Chinese surveillance balloon that was ultimately shot down on 4 February 2023. This report does not draw any connection to that incident, but the proximity in date is worth noting as context.\n\nNo redactions are evident in the document. The information gaps — no object identification, no radar confirmation, no resolution — appear to reflect the limits of what was recorded rather than deliberate removal of content.",
+  "public_caveats": [
+    "This is a single-source observation from one flight crew. No corroborating radar data or additional witnesses are mentioned in the report.",
+    "Estimating the altitude of a distant airborne object from a cockpit is inherently imprecise. The FL500 (50,000 feet) estimate may not be accurate.",
+    "The case is marked Closed with no identification or explanation recorded — 'closed' does not mean 'resolved' or 'explained.'",
+    "This report coincides with the wave of US balloon sightings in early February 2023, but the document itself draws no link to any specific programme or object.",
+    "There is no evidence of redaction in this document; gaps in detail reflect the brevity of the original filing rather than removal of information."
+  ]
+}

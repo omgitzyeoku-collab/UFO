@@ -1,0 +1,290 @@
+{
+  "sha256": "6998f486d5208cad5c37d02419f24b95c57e3b546de10fe49f21403bedff1e52",
+  "title": "NRC UAP record UAP_BLUF_attachment-release_in_full",
+  "agency": "NRC",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An internal NRC (Nuclear Regulatory Commission) decision/alignment briefing document proposing new UAP reporting guidance for nuclear facility licensees.",
+  "core_summary": "This 2023 NRC briefing document proposes creating separate reporting categories for Unidentified Anomalous Phenomena (UAP) distinct from drones/UAS at nuclear power plants and Category I fuel cycle facilities. The document reveals the NRC had no process, definition, or guidance for UAP reporting, meaning sightings may have been misreported as drones or ignored entirely. It was prompted by a new federal law (FY-2023 NDAA) requiring the NRC to provide UAP and drone flyover data annually to the Pentagon's AARO office.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is an internal briefing proposing policy changes, not evidence of UAP sightings at nuclear facilities.",
+    "The document explicitly states the NRC has no data on whether UAPs have been observed near nuclear sites — the gap is in reporting capability, not confirmed incidents.",
+    "UAP characteristics listed (no propulsion, transmedium) are definitional descriptions used to distinguish UAP from conventional aircraft, not claims of specific observed events.",
+    "The document's security level is marked 'Publicly Available' — it is not a classified or restricted briefing."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Lead staff member",
+      "value": "Daryl Johnson, DSO/SOSB",
+      "source_quote": "Lead Staff Members: Daryl Johnson, DSO/SOSB",
+      "citation_offset": {
+        "offset": 0,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Meeting type",
+      "value": "Decision/Alignment Meeting",
+      "source_quote": "☒Decision/Alignment Meeting",
+      "citation_offset": {
+        "offset": 93,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Legal mandate",
+      "value": "FY-2023 NDAA requires NRC to provide UAP and drone data to AARO annually",
+      "source_quote": "new federal law requiring the NRC provide UAP and drone flyover data to the DOD's All-domain Anomaly Resolution Office (AARO) on a recurring annual basis",
+      "citation_offset": {
+        "offset": 686,
+        "len": 75,
+        "exact": false,
+        "matched": "new federal law requiring the NRC provide UAP and drone flyover data to the"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP characteristics described",
+      "value": "No propulsion, no sound, unusual flight maneuvers, transmedium (water and air)",
+      "source_quote": "UAPs differ from identified aircraft...having no propulsion, no sound, different flight maneuvers and capabilities, as well as operating in both water and air",
+      "citation_offset": {
+        "offset": 976,
+        "len": 100,
+        "exact": false,
+        "matched": "aving no propulsion, no sound, different flight maneuvers and capabilities, as well as operating in "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Prior NRC UAP reporting capability",
+      "value": "None — no SID category, no guidance, no definition, no awareness",
+      "source_quote": "the NRC has no process to report UAPs and has no awareness of UAPs operating around NRC licensees in its guidance, including no mention of them, no definition",
+      "citation_offset": {
+        "offset": 2958,
+        "len": 158,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting gap risk",
+      "value": "UAPs may be misreported as drones or not reported at all",
+      "source_quote": "NRC licensees may mistakenly report a UAP as a UAS/drone instead or not report them at all since there is no mention of UAPs in prior NRC security advisories",
+      "citation_offset": {
+        "offset": 1492,
+        "len": 157,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "First AARO data request to NRC",
+      "value": "May 1, 2023",
+      "source_quote": "First AARO request to NRC for UAP/UAS flyover data for their Congressional Report, 5/01/2023",
+      "citation_offset": {
+        "offset": 2284,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NRC response to AARO",
+      "value": "June 5, 2023",
+      "source_quote": "NSIR provided response to AARO for FY-2023, 6/05/2023",
+      "citation_offset": {
+        "offset": 2380,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Current drone flyover report volume",
+      "value": "12 to 25 reports per year",
+      "source_quote": "SID flyover reporting involving drones remains at 12 to 25 reports per year",
+      "citation_offset": {
+        "offset": 4729,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Enhanced Weapons Rule impact",
+      "value": "No impact — current 'manned' and 'unmanned' characterisation likely covers UAPs",
+      "source_quote": "There is no impact to the EWR because the current characterization of flyover using 'manned' and 'unmanned' likely covers UAPs",
+      "citation_offset": {
+        "offset": 3263,
+        "len": 80,
+        "exact": false,
+        "matched": "There is no impact to the EWR because the current characterization of flyover us"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Security classification",
+      "value": "Publicly Available",
+      "source_quote": "Security level Publicly Available",
+      "citation_offset": {
+        "offset": 5016,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Facilities concerned",
+      "value": "Nuclear power plants and Category I fuel cycle facilities",
+      "source_quote": "we have no idea if UAPs are flying over the aerospace of nuclear power plants or Category I fuel cycle facilities",
+      "citation_offset": {
+        "offset": 1364,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Daryl Johnson"
+  ],
+  "named_places": [],
+  "dated_events": [
+    "5/01/2023 — First AARO request to NRC for UAP/UAS flyover data",
+    "6/05/2023 — NSIR provided response to AARO for FY-2023",
+    "8/16/2023 — Branch Chief Alignment milestone",
+    "8/21/2023 — DSO Alignment milestone",
+    "8/22/2023 — NSIR Alignment milestone",
+    "5/1/2024 — CY-2023 AARO UAP Data Request",
+    "6/01/2024 — Response to CY-2023 AARO UAP Data Request"
+  ],
+  "objects_described": [
+    "UAP (Unidentified Anomalous Phenomena)",
+    "UAS/drones",
+    "fixed-wing aircraft",
+    "rotary aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The FY-2023 National Defense Authorization Act requires the NRC to provide UAP and drone data to AARO each year",
+      "source_quote": "FY-2023 National Defense Authorization Act requires the NRC to provide UAP and drone data to AARO each year",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2589,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO first requested UAP/UAS flyover data from the NRC on May 1, 2023",
+      "source_quote": "First AARO request to NRC for UAP/UAS flyover data for their Congressional Report, 5/01/2023",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2284,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The NRC had no process, definition, or guidance for reporting UAPs as of this briefing",
+      "source_quote": "the NRC has no process to report UAPs and has no awareness of UAPs operating around NRC licensees in its guidance",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2958,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The NRC updated its UAS flyover guidance in 2021 but made no mention of UAP",
+      "source_quote": "In 2021, the NRC updated its UAS flyover guidance by requesting more details about UAS incidents...There has been no mention of UAP in past generic communications",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2700,
+        "len": 95,
+        "exact": false,
+        "matched": "In 2021, the NRC updated its UAS flyover guidance by requesting more details about UAS incident"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "UAPs are described as having no propulsion, no sound, unusual flight capabilities, and transmedium operation",
+      "source_quote": "having no propulsion, no sound, different flight maneuvers and capabilities, as well as operating in both water and air",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 975,
+        "len": 119,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The NRC does not know whether UAPs are flying over nuclear facilities because there is no reporting mechanism",
+      "source_quote": "we have no idea if UAPs are flying over the aerospace of nuclear power plants or Category I fuel cycle facilities",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1364,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Drone flyover reporting volume is 12 to 25 reports per year",
+      "source_quote": "SID flyover reporting involving drones remains at 12 to 25 reports per year",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4729,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lack of UAP/UAS differentiation in reporting impacts FOIA response times",
+      "source_quote": "Having no differentiation between UAS and UAP in SID reporting has the potential to impact timely Freedom of Information Act (FOIA) response times",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1789,
+        "len": 146,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 7,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T20:30:34.482Z",
+  "qa_completed_at": "2026-06-01T20:31:20.046Z",
+  "timing": {
+    "A": "28.8s",
+    "B": "16.8s",
+    "E": "19.9s"
+  },
+  "public_headline": "NRC Had No Way to Track UAPs at Nuclear Plants",
+  "public_tldr": "A 2023 internal briefing from the Nuclear Regulatory Commission (NRC) reveals the agency had no process, definition, or guidance for reporting Unidentified Anomalous Phenomena (UAP) at nuclear facilities. The document proposes creating separate UAP reporting categories after a new federal law required the NRC to share UAP data with the Pentagon annually.",
+  "public_narrative": "In 2023, the Nuclear Regulatory Commission — the US agency that oversees nuclear power plants and fuel facilities — produced an internal briefing document acknowledging a significant gap in its security reporting. The NRC had no process, no definition, and no guidance for reporting UAP (Unidentified Anomalous Phenomena) at the nuclear sites it regulates. As the document states plainly: the agency had \"no idea\" whether UAPs were flying over nuclear power plants or Category I fuel cycle facilities, because there was simply no mechanism to capture that information.\n\nThe briefing was prompted by the FY-2023 National Defense Authorization Act, which requires the NRC to provide UAP and drone flyover data each year to the Pentagon's All-domain Anomaly Resolution Office (AARO). AARO first requested this data from the NRC on 1 May 2023, and the NRC's security division responded on 5 June 2023. The document was led by Daryl Johnson of the Division of Security Operations.\n\nA core problem identified in the briefing is that without separate reporting categories, nuclear facility operators may have been misreporting UAP sightings as drone incidents — or not reporting them at all. At the time, the NRC received 12 to 25 drone flyover reports per year, but had no way to distinguish whether any of those involved something other than a conventional drone. The document also notes that this lack of differentiation could slow down responses to Freedom of Information Act (FOIA) requests.\n\nThe briefing defines UAPs as distinct from conventional aircraft by characteristics such as no visible propulsion, no sound, unusual flight manoeuvres, and the ability to operate in both water and air. These are definitional descriptions used to separate UAPs from drones and other known aircraft — they are not claims about specific observed events at nuclear sites.\n\nThe document is marked \"Publicly Available\" and is a policy proposal, not a report of confirmed UAP incidents. It reveals a bureaucratic gap, not evidence of UAP activity near nuclear facilities.",
+  "public_caveats": [
+    "This is an internal policy briefing proposing reporting changes — it is not evidence that UAPs have been observed at nuclear facilities.",
+    "The NRC explicitly states it has no data on whether UAPs have appeared near nuclear sites; the gap is in reporting capability, not in confirmed incidents.",
+    "The UAP characteristics listed (no propulsion, transmedium operation) are definitional categories used to distinguish UAPs from drones, not descriptions of specific observed events.",
+    "The document is marked 'Publicly Available' — it is not classified or restricted, and minimal redaction is present.",
+    "This is a single-agency internal document reflecting one office's proposed guidance; it does not represent a final NRC policy decision."
+  ]
+}

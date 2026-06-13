@@ -1,0 +1,193 @@
+{
+  "sha256": "e277f7816e0fb6b34215a4c32cb77f11eb11e904eb23ee8b23b2bde20bf28382",
+  "title": "FAA UAP record 237UAP00127",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot observation of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report type: pilot visual observation only, no radar or sensor data mentioned.",
+    "No explanation or resolution is provided despite the case being marked closed.",
+    "The tail number field is blank, limiting aircraft-specific verification.",
+    "Night-time observation (02:57) of lights on the horizon — atmospheric or astronomical explanations cannot be ruled out from this document alone.",
+    "Three corroborating crews strengthen the observation but all are from the same airline and likely the same airspace sector."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "SWA1884, Boeing 737-800 (B738)",
+      "source_quote": "Callsign: SWA1884 … Aircraft: B738",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Operator",
+      "value": "Southwest Airlines (SWA), commercial",
+      "source_quote": "Operator: SWA … Operator Type: Commercial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "BWI to LAS",
+      "source_quote": "Origin: BWI Destination: LAS",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of observation",
+      "value": "West of Chicago, IL",
+      "source_quote": "off of the horizon W of Chicago, IL",
+      "citation_offset": {
+        "offset": 359,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "3 bright lights in a triangular shape, erratic motion in all directions, dimming and brightening",
+      "source_quote": "3 bright lights in a triangular shape moving in an erratic motion in all directions, dimming and brightening lights",
+      "citation_offset": {
+        "offset": 396,
+        "len": 115,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Corroborating flights",
+      "value": "SWA1976 and SWA2316 reported the same observation",
+      "source_quote": "SWA1976 and SWA2316 reported the same observation",
+      "citation_offset": {
+        "offset": 513,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Chicago, IL",
+    "BWI",
+    "LAS",
+    "DEN"
+  ],
+  "dated_events": [
+    "2022-10-24"
+  ],
+  "objects_described": [
+    "Three bright lights in a triangular shape (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Three separate Southwest Airlines flights independently observed the same aerial phenomenon west of Chicago on 24 October 2022.",
+      "source_quote": "SWA1976 and SWA2316 reported the same observation",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 513,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of three bright lights arranged in a triangular shape that moved erratically and changed brightness.",
+      "source_quote": "3 bright lights in a triangular shape moving in an erratic motion in all directions, dimming and brightening lights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 396,
+        "len": 115,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FAA's Aviation Weather Office was notified of the incident.",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 564,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was classified under the primary code Unidentified Aerial Phenomenon and the case is closed.",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON … Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 41,
+        "exact": false,
+        "matched": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOME"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:35:49.851Z",
+  "qa_completed_at": "2026-06-01T22:36:29.818Z",
+  "timing": {
+    "A": "21.5s",
+    "B": "18.5s",
+    "E": "22.7s"
+  },
+  "public_headline": "Three Southwest Airlines Crews Reported Triangular Lights West of Chicago",
+  "public_tldr": "This FAA incident report documents a pilot on Southwest Airlines flight SWA1884 observing three bright lights in a triangular formation moving erratically west of Chicago on 24 October 2022. Two other Southwest crews independently reported the same phenomenon. The FAA classified it as an Unidentified Aerial Phenomenon and closed the case without providing an explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — an internal Federal Aviation Administration record used to log pilot observations of unusual aerial activity. It was filed under case number 237UAP00127 and classified with the primary code \"Unidentified Aerial Phenomenon.\"\n\nOn 24 October 2022, the crew of Southwest Airlines flight SWA1884, a Boeing 737-800 flying from Baltimore-Washington International (BWI) to Las Vegas (LAS), reported seeing three bright lights arranged in a triangular shape off the horizon west of Chicago, Illinois. The lights were described as moving erratically in all directions while dimming and brightening. The observation was made at night, at 02:57.\n\nTwo other Southwest Airlines flights — SWA1976 and SWA2316 — reported the same observation, providing a degree of corroboration. The FAA's Aviation Weather Office (AWO) was notified of the incident.\n\nDespite three separate flight crews reporting the same phenomenon, the case is marked as closed. The document provides no explanation, resolution, or follow-up analysis. No radar data or sensor readings are mentioned — the record is based entirely on pilot visual observations.\n\nThe document contains minimal redaction. The tail number field for the reporting aircraft is blank, and some identifying details are absent, but the core narrative is intact and readable.",
+  "public_caveats": [
+    "This is a single-source report type: it records pilot visual observations only, with no mention of radar data, infrared imagery, or other sensor corroboration.",
+    "The three corroborating crews all flew for the same airline and were likely in the same airspace sector, which limits how independent their observations truly were.",
+    "The observation occurred at night (02:57), meaning atmospheric or astronomical explanations — such as bright stars, planets, or atmospheric refraction — cannot be ruled out from this document alone.",
+    "The case is marked closed with no explanation or resolution provided, so the FAA's internal assessment of what the lights were is unknown from this record.",
+    "The aircraft tail number field is blank, which limits the ability to cross-reference specific flight records for further verification."
+  ]
+}

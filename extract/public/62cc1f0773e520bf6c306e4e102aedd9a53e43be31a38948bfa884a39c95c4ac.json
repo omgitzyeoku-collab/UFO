@@ -1,0 +1,275 @@
+{
+  "sha256": "62cc1f0773e520bf6c306e4e102aedd9a53e43be31a38948bfa884a39c95c4ac",
+  "title": "FAA UAP record 237UAP00088",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by multiple commercial aircraft crews.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The temporal correlation between the avionics failures and proximity to the UAP does not establish causation.",
+    "No radar data, ATC recordings, or instrument logs are included — all information comes from crew-reported remarks only.",
+    "The case status is 'Closed' with no resolution or explanation provided.",
+    "FL550 (55,000 feet) is well above the certified ceiling of most commercial and military aircraft, which if accurate would be a notable detail.",
+    "Multiple independent witness crews strengthen the sighting report but all observations are visual only."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "date_time",
+      "value": "2022-04-22T01:52 UTC",
+      "source_quote": "Date: 01:52 04/22/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_aircraft_callsign",
+      "value": "LXJ359",
+      "source_quote": "Callsign: LXJ359",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL450 (45,000 feet)",
+      "source_quote": "SW bound at FL450",
+      "citation_offset": {
+        "offset": 377,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_position",
+      "value": "12 o'clock overhead, near ESL VORTAC",
+      "source_quote": "off the 12 o'clock overhead while SW bound at FL450 in the vicinity of the ESL VORTAC",
+      "citation_offset": {
+        "offset": 343,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_altitude",
+      "value": "FL550 (55,000 feet)",
+      "source_quote": "a string of bright lights at FL550",
+      "citation_offset": {
+        "offset": 470,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "String of bright lights",
+      "source_quote": "described as a string of bright lights at FL550",
+      "citation_offset": {
+        "offset": 457,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_duration",
+      "value": "4-5 minutes",
+      "source_quote": "The event lasted for 4-5 minutes",
+      "citation_offset": {
+        "offset": 506,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "avionics_failure",
+      "value": "Double Attitude Reference System failure and double Autopilot System failure",
+      "source_quote": "LXJ359 experienced a double Attitude Reference System failure and a double Autopilot System failure while directly underneath of the UFO lights",
+      "citation_offset": {
+        "offset": 540,
+        "len": 143,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "post_lights_observation",
+      "value": "Object still visible after lights turned off",
+      "source_quote": "The UFO's lights turned off and the flight crew could still observe that there was something there",
+      "citation_offset": {
+        "offset": 685,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_flights",
+      "value": "SWA368 (DCA-MDW), SWA393 (BWI-MDW), UAL46 (IAH-EDDF)",
+      "source_quote": "SWA368 (DCA-MDW), SWA393 (BWI-MDW), UAL46 (IAH-EDDF) reported sighting the same light phenomenon",
+      "citation_offset": {
+        "offset": 805,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "guard_frequency_discussion",
+      "value": "Multiple crews discussed sighting on GUARD emergency frequency",
+      "source_quote": "held a discussion about what they saw on GUARD frequency",
+      "citation_offset": {
+        "offset": 906,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "awo_notified",
+      "value": "Yes",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 964,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "BOS",
+    "HSV",
+    "ESL VORTAC",
+    "DCA",
+    "MDW",
+    "BWI",
+    "IAH",
+    "EDDF",
+    "DEN"
+  ],
+  "dated_events": [
+    "2022-04-22"
+  ],
+  "objects_described": [
+    "string of bright lights at FL550"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "LXJ359 suffered simultaneous double Attitude Reference System and double Autopilot System failures while positioned directly beneath the unidentified lights.",
+      "source_quote": "LXJ359 experienced a double Attitude Reference System failure and a double Autopilot System failure while directly underneath of the UFO lights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 540,
+        "len": 143,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The unidentified object remained visible to the crew even after its lights turned off.",
+      "source_quote": "The UFO's lights turned off and the flight crew could still observe that there was something there",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 685,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was observed at FL550, approximately 10,000 feet above the reporting aircraft.",
+      "source_quote": "a string of bright lights at FL550",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 470,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "At least three other commercial flights independently reported seeing the same phenomenon.",
+      "source_quote": "SWA368 (DCA-MDW), SWA393 (BWI-MDW), UAL46 (IAH-EDDF) reported sighting the same light phenomenon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 805,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crews of multiple aircraft discussed the sighting on the GUARD (121.5 MHz) emergency frequency.",
+      "source_quote": "held a discussion about what they saw on GUARD frequency",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 906,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The event lasted 4-5 minutes.",
+      "source_quote": "The event lasted for 4-5 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 506,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:54:08.195Z",
+  "qa_completed_at": "2026-06-01T21:55:03.711Z",
+  "timing": {
+    "A": "31.7s",
+    "B": "23.9s",
+    "E": "20.7s"
+  },
+  "public_headline": "Multiple Airline Crews Reported Bright Lights and Equipment Failures Over Central US",
+  "public_tldr": "This FAA SKYWATCH report documents an April 2022 incident in which the crew of a business jet flying at 45,000 feet observed a string of bright lights at 55,000 feet near the ESL VORTAC navigation point, while simultaneously experiencing failures in their attitude reference and autopilot systems. Three other commercial flights independently reported seeing the same lights, and crews discussed the sighting on the emergency radio frequency.",
+  "public_narrative": "On 22 April 2022 at 01:52 UTC, the crew of flight LXJ359, travelling southwest at 45,000 feet, reported an unidentified aerial phenomenon directly overhead near the ESL VORTAC navigation aid. They described it as a string of bright lights at an estimated altitude of 55,000 feet — well above the certified ceiling of most aircraft. The sighting lasted four to five minutes.\n\nWhile positioned directly beneath the lights, LXJ359 experienced a double failure of its Attitude Reference System and a double failure of its Autopilot System. The report notes this temporal overlap but does not establish whether the failures were caused by the phenomenon. After the lights switched off, the crew reported they could still see that something was present overhead.\n\nThe sighting was not limited to one aircraft. Three other commercial flights — Southwest Airlines 368 (Washington National to Chicago Midway), Southwest Airlines 393 (Baltimore to Chicago Midway), and United Airlines 46 (Houston to Frankfurt) — independently reported seeing the same light phenomenon. Multiple crews discussed what they observed on the GUARD emergency frequency (121.5 MHz), the universal channel monitored by all aircraft.\n\nThe FAA's Aviation Weather Operations office was notified. Despite the multiple independent witnesses and the reported equipment failures, the case status is listed as \"Closed\" with no resolution or explanation provided. The report contains no radar data, air traffic control recordings, or instrument logs — all information comes solely from crew-reported remarks.",
+  "public_caveats": [
+    "All information in this report comes from crew verbal accounts only — no radar data, air traffic control recordings, or instrument logs are included.",
+    "The simultaneous equipment failures and proximity to the lights are noted together in the report, but correlation does not prove the lights caused the failures.",
+    "The reported altitude of 55,000 feet is above the certified ceiling of most commercial and military aircraft, which, if accurate, would be significant — but the estimate is visual only.",
+    "The case is marked 'Closed' with no explanation or resolution, meaning the FAA did not publicly determine what the crews observed.",
+    "While four independent flight crews strengthen the report's credibility, all observations were visual — no instruments confirmed the sighting."
+  ]
+}

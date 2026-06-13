@@ -1,0 +1,262 @@
+{
+  "sha256": "4d5f126ef549d09a3a011b705db1bb91e1739602d00e1008b6cf95e865b79904",
+  "title": "FAA UAP record 237UAP00313",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": "On 4 November 2023 at 02:13 UTC, Southwest Airlines flight SWA3147 (a Boeing 737) reported an unidentified aerial phenomenon while flying northwest-bound at flight level 400 (approximately 40,000 feet) over the SZW navigational fix. The crew described three lights arranged in a circular pattern, spinning and appearing to hold position. The report was filed by FAA facility ZJX (Jacksonville Center) and is marked as closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation with no corroborating sensor data mentioned.",
+    "The word 'abover' at the end of the description appears to be a typo or truncation, possibly meaning 'above' or 'above her' — the intended meaning is unclear.",
+    "No information on weather conditions, other traffic, or follow-up investigation is included.",
+    "Case is marked closed with no resolution or explanation provided."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-11-04 at 02:13",
+      "source_quote": "Date: 02:13 11/04/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "SWA3147",
+      "source_quote": "Callsign: SWA3147",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737",
+      "source_quote": "Aircraft: B737",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "Southwest Airlines (SWA)",
+      "source_quote": "Operator: SWA",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL400 (approximately 40,000 feet)",
+      "source_quote": "NW bound at FL400",
+      "citation_offset": {
+        "offset": 368,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Over SZW navigational fix",
+      "source_quote": "over SZW",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Origin airport",
+      "value": "TPA (Tampa)",
+      "source_quote": "Origin: TPA",
+      "citation_offset": {
+        "offset": 201,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination airport",
+      "value": "BNA (Nashville)",
+      "source_quote": "Destination: BNA",
+      "citation_offset": {
+        "offset": 213,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZJX (Jacksonville Center)",
+      "source_quote": "Reporting Facility: ZJX",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "3 lights in a circular pattern, spinning in a holding pattern",
+      "source_quote": "3 lights in a circular pattern spinning in a holding pattern abover",
+      "citation_offset": {
+        "offset": 424,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Position relative to aircraft",
+      "value": "Off the left side",
+      "source_quote": "off the left side",
+      "citation_offset": {
+        "offset": 344,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Personnel paged",
+      "value": "Yes",
+      "source_quote": "Paged: YES",
+      "citation_offset": {
+        "offset": 273,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SZW",
+    "TPA",
+    "BNA",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-11-04"
+  ],
+  "objects_described": [
+    "Boeing 737 (SWA3147)",
+    "Unidentified aerial phenomenon: 3 lights in circular pattern spinning in holding pattern"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Southwest Airlines Boeing 737 (flight SWA3147) was flying northwest-bound at FL400 when the crew observed the phenomenon.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while NW bound at FL400",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of three lights arranged in a circular pattern that appeared to spin and hold position.",
+      "source_quote": "3 lights in a circular pattern spinning in a holding pattern abover",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 424,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred over the SZW navigational fix.",
+      "source_quote": "over SZW",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The flight originated from Tampa (TPA) with a destination of Nashville (BNA).",
+      "source_quote": "Origin: TPA Destination: BNA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported through Jacksonville Center (ZJX).",
+      "source_quote": "Reporting Facility: ZJX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:30:29.504Z",
+  "qa_completed_at": "2026-06-02T01:31:04.615Z",
+  "timing": {
+    "A": "18.8s",
+    "B": "16.3s",
+    "E": "17.4s"
+  },
+  "public_headline": "Southwest Airlines Crew Reports Spinning Lights at 40,000 Feet",
+  "public_tldr": "An FAA incident report documents a Southwest Airlines Boeing 737 crew observing three lights in a circular, spinning pattern while cruising at 40,000 feet on 4 November 2023. The case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unidentified aerial phenomena reported by pilots and air traffic controllers. It records an observation made by the crew of Southwest Airlines flight SWA3147, a Boeing 737 flying from Tampa (TPA) to Nashville (BNA).\n\nOn 4 November 2023 at 02:13 UTC, while cruising northwest-bound at flight level 400 (approximately 40,000 feet) over the SZW navigational fix, the crew reported an unidentified aerial phenomenon off the left side of their aircraft. They described three lights arranged in a circular pattern, spinning and appearing to hold position.\n\nThe sighting was logged by Jacksonville Center (ZJX), the FAA air traffic control facility covering that airspace, and personnel were paged in response. The case is marked as closed, but the report contains no resolution, no follow-up investigation details, and no explanation for what the crew observed.\n\nThe document contains minimal redaction. However, it is a brief, single-page form with limited detail — there is no mention of radar data, photographs, other witness accounts, or weather conditions at the time of the sighting.",
+  "public_caveats": [
+    "This is a single-source report based entirely on one flight crew's visual observation. No corroborating sensor data, radar returns, or independent witnesses are mentioned.",
+    "The case is marked closed with no resolution or explanation — 'closed' does not mean identified or explained.",
+    "No weather conditions, nearby air traffic, or follow-up investigation details are included in the document.",
+    "The description ends with the word 'abover', which appears to be a typo or truncation — the intended meaning is unclear.",
+    "The location 'SZW' is a navigational fix reference; the report does not name a city or state for the sighting location."
+  ]
+}

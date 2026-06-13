@@ -1,0 +1,271 @@
+{
+  "sha256": "2b9e2111154690648bfa28656475bd1f4218d4592394cd1cf420b592eea21133",
+  "title": "FAA UAP record 237UAP00286",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On 11 August 2023, the crew of Turkish Airlines flight TAI580 (an A320 en route to Washington Dulles) reported an unidentified aerial phenomenon while northbound at 31,000 feet on the RDU235030 airway. The object displayed rapidly flashing white lights and was climbing and descending; the pilot-in-command stated they observe this object every time they pass through the area and did not believe it was LEO satellites. EADS, NORAD, and NCRCC were notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot observation; no radar data or corroborating sensor evidence is included.",
+    "The pilot's claim of repeated sightings in the same area is unverified and not corroborated by other reports in this document.",
+    "No distance, size, or detailed shape description was provided, limiting the ability to assess what the object was.",
+    "Case status is 'Closed' with no resolution or explanation provided."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report date/time",
+      "value": "2023-08-11 at 06:39 UTC",
+      "source_quote": "Date: 06:39 08/11/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "TAI580",
+      "source_quote": "Callsign: TAI580",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "A320",
+      "source_quote": "Aircraft: A320",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "Turkish Airlines (TAI), commercial",
+      "source_quote": "Operator: TAI",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination",
+      "value": "IAD (Washington Dulles)",
+      "source_quote": "Destination: IAD",
+      "citation_offset": {
+        "offset": 213,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "31,000 feet",
+      "source_quote": "N bound at 31,000 feet",
+      "citation_offset": {
+        "offset": 367,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Flashing white lights, rapidly climbing and descending",
+      "source_quote": "flashing white lights rapidly climbing and descending",
+      "citation_offset": {
+        "offset": 418,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Recurrence claim",
+      "value": "PIC says they see this object every time they pass the area",
+      "source_quote": "PIC said they see this object every time they pass this area of the US",
+      "citation_offset": {
+        "offset": 510,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "LEO satellites ruled out by pilot",
+      "value": "PIC did not believe it was LEO satellites",
+      "source_quote": "The PIC did not believe it was LEO Satellites",
+      "citation_offset": {
+        "offset": 582,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Agencies notified",
+      "value": "EADS, NORAD, NCRCC",
+      "source_quote": "EADS/NORAD/NCRCC notified",
+      "citation_offset": {
+        "offset": 629,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZDC (Washington Center)",
+      "source_quote": "Reporting Facility: ZDC",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Distance/size",
+      "value": "Not reported",
+      "source_quote": "No description or distance reported",
+      "citation_offset": {
+        "offset": 473,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "RDU235030",
+    "DEN",
+    "ZDC",
+    "MSLP",
+    "IAD"
+  ],
+  "dated_events": [
+    "2023-08-11"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with flashing white lights, rapidly climbing and descending",
+    "A320 commercial aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Turkish Airlines flight TAI580 reported a UAP while northbound at 31,000 feet on the RDU235030 airway.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon on the RDU235030 while N bound at 31,000 feet",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 292,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon displayed rapidly flashing white lights and was climbing and descending.",
+      "source_quote": "The unknown phenomenon was flashing white lights rapidly climbing and descending",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 391,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot-in-command stated they observe this object every time they pass through this area of the US.",
+      "source_quote": "PIC said they see this object every time they pass this area of the US",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 510,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot did not believe the phenomenon was LEO satellites.",
+      "source_quote": "The PIC did not believe it was LEO Satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 582,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "EADS, NORAD, and NCRCC were notified of the incident.",
+      "source_quote": "EADS/NORAD/NCRCC notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 629,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No description of size or distance to the object was provided.",
+      "source_quote": "No description or distance reported",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 473,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:04:47.269Z",
+  "qa_completed_at": "2026-06-02T01:05:25.738Z",
+  "timing": {
+    "A": "21.9s",
+    "B": "16.6s",
+    "E": "19.4s"
+  },
+  "public_headline": "Turkish Airlines crew reported flashing object climbing and descending at 31,000 feet",
+  "public_tldr": "An FAA incident report documents the crew of Turkish Airlines flight TAI580 observing an unidentified aerial phenomenon with rapidly flashing white lights while flying at 31,000 feet on 11 August 2023. The pilot stated they see the same object every time they pass through the area, ruled out satellites, and three defence agencies were notified — but the case was closed with no explanation.",
+  "public_narrative": "This is an FAA SKYWATCH incident report — a standardised form the agency uses to log pilot sightings of unidentified aerial phenomena. It was filed on 11 August 2023 at 06:39 UTC by Washington Center (ZDC), the FAA facility handling air traffic in that region.\n\nThe report describes what happened aboard Turkish Airlines flight TAI580, an Airbus A320 heading to Washington Dulles Airport. While flying northbound at 31,000 feet along the RDU235030 airway, the crew observed an unknown object displaying rapidly flashing white lights that was climbing and descending. No size, shape, or distance to the object was recorded.\n\nOne detail stands out: the pilot-in-command told controllers they see this object every time they pass through this area of the United States, and did not believe it was low-Earth-orbit satellites. The report notes that three agencies were notified — EADS (Eastern Air Defense Sector), NORAD (North American Aerospace Defense Command), and NCRCC (National Capital Region Coordination Center).\n\nThe case status is listed as \"Closed.\" No resolution, identification, or follow-up findings appear in the document. There is no radar data, no corroborating sensor evidence, and no indication that the repeated-sighting claim was investigated further.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the pilot's visual observation — no radar tracks, photos, or other sensor data are included.",
+    "The pilot's claim of repeated sightings in the same area is not corroborated by any other reports referenced in this document.",
+    "No size, distance, or detailed shape was reported, which limits any assessment of what the object might have been.",
+    "The case was closed with no stated resolution or explanation — 'closed' does not mean 'identified.'",
+    "Low-Earth-orbit satellites (such as Starlink) can produce flashing lights visible from altitude, though the pilot explicitly rejected this explanation."
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "sha256": "56a64902679911b7663541b786f784313c3eeea588c06c2d8d5a534b3370e756",
+  "title": "FAA UAP record 237UAP00106",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by commercial aircraft near Los Angeles.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-page closed report with no follow-up investigation details or resolution explanation provided.",
+    "The tail number field is blank, limiting independent verification of the primary reporting aircraft.",
+    "Two independent aircraft observations from opposite directions strengthen the sighting but both are pilot visual reports with no sensor or radar data referenced.",
+    "The described holding pattern behaviour is unusual for conventional aircraft or known atmospheric phenomena but no analysis is included.",
+    "TY/AWO notification is referenced but no outcome of that notification is documented."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2022-08-18",
+      "source_quote": "Date: 07:49 08/18/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_aircraft_callsign",
+      "value": "TWY670",
+      "source_quote": "Callsign: TWY670",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_aircraft_altitude",
+      "value": "FL470 (47,000 feet)",
+      "source_quote": "W bound at FL470, 50NM W of LAX",
+      "citation_offset": {
+        "offset": 368,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_aircraft_position",
+      "value": "50 nautical miles west of LAX",
+      "source_quote": "50NM W of LAX",
+      "citation_offset": {
+        "offset": 386,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_aircraft_heading",
+      "value": "Westbound",
+      "source_quote": "W bound at FL470",
+      "citation_offset": {
+        "offset": 368,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "TWY (commercial)",
+      "source_quote": "Operator: TWY",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Bright light in a holding pattern approximately 5,000 feet above the aircraft",
+      "source_quote": "a bright light in a holding pattern approximately 5,000 feet above",
+      "citation_offset": {
+        "offset": 428,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_position_relative_to_primary",
+      "value": "Off the right side",
+      "source_quote": "an unidentified aerial phenomenon off the right side",
+      "citation_offset": {
+        "offset": 309,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_callsign",
+      "value": "AAL6",
+      "source_quote": "0852 AAL6, B789, OGG-DFW",
+      "citation_offset": {
+        "offset": 496,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_altitude",
+      "value": "FL390 (39,000 feet)",
+      "source_quote": "E bound at FL390, 40NM NW of SXC",
+      "citation_offset": {
+        "offset": 578,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_heading",
+      "value": "Eastbound",
+      "source_quote": "E bound at FL390",
+      "citation_offset": {
+        "offset": 578,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notification",
+      "value": "TY/AWO notified",
+      "source_quote": "TY/AWO notified",
+      "citation_offset": {
+        "offset": 612,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "LAX",
+    "DEN"
+  ],
+  "dated_events": [
+    "2022-08-18"
+  ],
+  "objects_described": [
+    "Unidentified bright light in holding pattern"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "TWY670 (GLF6) was flying westbound at FL470, 50 nautical miles west of LAX when crew observed a bright light approximately 5,000 feet above in a holding pattern",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the right side while W bound at FL470, 50NM W of LAX. The unknown phenomenon was a bright light in a holding pattern approximately 5,000 feet above.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 204,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AAL6 (B789) independently confirmed the same phenomenon while eastbound at FL390, 40 nautical miles northwest of San Clemente Island",
+      "source_quote": "0852 AAL6, B789, OGG-DFW, reported same aerial phenomenon off the left side while E bound at FL390, 40NM NW of SXC",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 496,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was observed off the right side of TWY670 and off the left side of AAL6, consistent with both aircraft viewing the same object from opposite directions",
+      "source_quote": "off the right side while W bound... reported same aerial phenomenon off the left side while E bound",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 521,
+        "len": 64,
+        "exact": false,
+        "matched": " reported same aerial phenomenon off the left side while E bound"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The incident was classified under primary code Unidentified Aerial Phenomenon and status is closed",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON... Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 42,
+        "exact": false,
+        "matched": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMEN"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 2,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:12:38.531Z",
+  "qa_completed_at": "2026-06-01T22:13:27.172Z",
+  "timing": {
+    "A": "26.6s",
+    "B": "22.0s",
+    "E": "19.7s"
+  },
+  "public_headline": "Two Commercial Flights Reported Same Bright Light Near Los Angeles",
+  "public_tldr": "An FAA incident report documents two commercial aircraft independently observing an unidentified bright light apparently holding position at roughly 52,000 feet over the Pacific Ocean west of Los Angeles in August 2022. The case was closed with no explanation or follow-up investigation documented.",
+  "public_narrative": "This is a single-page FAA SKYWATCH incident report (record 237UAP00106) filed on 18 August 2022. It documents what the FAA formally classified as an Unidentified Aerial Phenomenon. The report's status is closed, and no resolution or follow-up investigation is included in the released document.\n\nThe primary report came from TWY670, a Gulfstream G650 (GLF6) operated by TWY, flying westbound at 47,000 feet roughly 50 nautical miles west of Los Angeles International Airport (LAX). The crew reported a bright light off the aircraft's right side, apparently in a holding pattern approximately 5,000 feet above them — placing the object at around 52,000 feet.\n\nMinutes later, a second aircraft — American Airlines flight AAL6, a Boeing 787 flying eastbound from Maui to Dallas at 39,000 feet, roughly 40 nautical miles northwest of San Clemente Island — independently reported the same phenomenon off its left side. The fact that one crew saw it to their right while heading west and the other saw it to their left while heading east is consistent with both aircraft observing the same object from opposite directions.\n\nThe report notes that TY/AWO (a regional FAA notification point) was notified, but no outcome of that notification appears in the document. The case was processed through the FAA's Denver (DEN) facility. No radar data, sensor readings, or further analysis is referenced anywhere in the report.\n\nThe document is not heavily redacted, but it is notably sparse. The tail number field for the primary aircraft is blank, and no follow-up investigation details or resolution are provided. The FAA closed the case without any documented explanation of what the object was.",
+  "public_caveats": [
+    "Both observations are visual pilot reports only — no radar data, photographs, or instrument readings are referenced in the document.",
+    "The primary aircraft's tail number field is blank, which limits independent verification of the flight.",
+    "The report is a single closed page with no analysis, follow-up, or explanation for what was observed.",
+    "A holding pattern at roughly 52,000 feet is unusual for any known conventional aircraft, but the report offers no assessment of this.",
+    "TY/AWO was notified but the document does not record any response or outcome from that notification."
+  ]
+}

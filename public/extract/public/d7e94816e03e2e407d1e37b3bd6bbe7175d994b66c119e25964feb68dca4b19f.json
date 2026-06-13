@@ -1,0 +1,242 @@
+{
+  "sha256": "d7e94816e03e2e407d1e37b3bd6bbe7175d994b66c119e25964feb68dca4b19f",
+  "title": "FAA UAP record 237UAP00016",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a UFO sighting by a commercial aircraft crew near Flagstaff, Arizona.",
+  "core_summary": "On 7 August 2012 at 08:45, an FAA SKYWATCH incident report was filed via the Denver (DEN) reporting pod by Albuquerque Center (ZAB). A Canadair CRJ-700 operating as SKW573Z, en route from Oklahoma City to Los Angeles, observed an unidentified flying object approximately 10 miles south of Flagstaff, AZ, heading north at about 50,000 feet. The case status is closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The document is dated 2012 but was released under a 2023 FAA UAP records series — the incident predates the current UAP reporting framework.",
+    "The altitude figure 'about 50,000' lacks a unit in the source text but contextually refers to feet.",
+    "No details are given about the UFO's shape, size, speed, or duration of observation.",
+    "Single-source report with no corroborating radar data or additional witness statements included.",
+    "The operator and tail number fields are blank, limiting aircraft identification beyond the callsign.",
+    "SKW573Z suggests SkyWest Airlines, but the operator field is not filled in the report."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time",
+      "value": "2012-08-07 at 08:45",
+      "source_quote": "Date: 08:45 08/07/2012",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting POD",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZAB (Albuquerque Center)",
+      "source_quote": "Reporting Facility: ZAB",
+      "citation_offset": {
+        "offset": 92,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "SKW573Z",
+      "source_quote": "Callsign: SKW573Z",
+      "citation_offset": {
+        "offset": 116,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "CRJ7 / Canadair Challenger 870",
+      "source_quote": "Aircraft: CRJ7, CANADAIR, Challenger 870",
+      "citation_offset": {
+        "offset": 134,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin",
+      "value": "OKC (Oklahoma City)",
+      "source_quote": "Origin: OKC",
+      "citation_offset": {
+        "offset": 198,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination",
+      "value": "LAX (Los Angeles)",
+      "source_quote": "Destination: New Destination: LAX",
+      "citation_offset": {
+        "offset": 210,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UFO location",
+      "value": "Approximately 10 miles south of Flagstaff, AZ",
+      "source_quote": "Approximately 10 miles south of Flagstaff,AZ(FLG)",
+      "citation_offset": {
+        "offset": 277,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UFO heading",
+      "value": "North",
+      "source_quote": "UFO heading north",
+      "citation_offset": {
+        "offset": 328,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type paged",
+      "value": "No",
+      "source_quote": "Paged: NO",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Flagstaff, AZ",
+    "Oklahoma City (OKC)",
+    "Los Angeles (LAX)",
+    "Denver (DEN)"
+  ],
+  "dated_events": [
+    "2012-08-07"
+  ],
+  "objects_described": [
+    "Unidentified flying object (UFO) heading north at approximately 50,000 feet",
+    "CRJ-700 / Canadair Challenger 870 (SKW573Z)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A UFO was observed heading north at approximately 50,000 feet, about 10 miles south of Flagstaff, AZ.",
+      "source_quote": "Approximately 10 miles south of Flagstaff,AZ(FLG), UFO heading north about 50,000.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 277,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reporting aircraft was a Canadair CRJ-700 operating under callsign SKW573Z on a route from Oklahoma City to Los Angeles.",
+      "source_quote": "Callsign: SKW573Z Aircraft: CRJ7, CANADAIR, Challenger 870",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 116,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported through FAA Albuquerque Center (ZAB) and the Denver POD.",
+      "source_quote": "POD: DEN Reporting Facility: ZAB",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 83,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case status is closed.",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T20:46:35.683Z",
+  "qa_completed_at": "2026-06-01T20:47:12.698Z",
+  "timing": {
+    "A": "21.5s",
+    "B": "15.5s",
+    "E": "17.7s"
+  },
+  "public_headline": "Commercial Airline Crew Reported UFO Near Flagstaff, Arizona in 2012",
+  "public_tldr": "This is an FAA SKYWATCH incident report from 7 August 2012 in which a Canadair CRJ-700 crew flying from Oklahoma City to Los Angeles reported an unidentified flying object heading north at roughly 50,000 feet, about 10 miles south of Flagstaff, Arizona. The case was closed by the FAA with no further explanation included in the released document.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unusual aerial observations reported by pilots and air traffic controllers. It was filed on 7 August 2012 at 08:45 through the Denver reporting pod by Albuquerque Center (the FAA facility with call letters ZAB that manages airspace over much of the southwestern United States).\n\nThe reporting aircraft was a Canadair CRJ-700 regional jet operating under callsign SKW573Z on a route from Oklahoma City (OKC) to Los Angeles (LAX). The callsign prefix SKW suggests the flight was operated by SkyWest Airlines, though the operator field in the report was left blank. The crew reported observing an unidentified flying object approximately 10 miles south of Flagstaff, Arizona. The object was described as heading north at about 50,000 feet.\n\nThe report contains no details about the object's shape, size, speed, or how long the crew observed it. There is no mention of corroborating radar data or additional witness accounts. The FAA classified the primary code as \"OTHER\" and marked the case status as closed. No conclusions about what the object was — or wasn't — appear in the document.\n\nAlthough the incident occurred in 2012, the document was released as part of a 2023 FAA series of UAP (Unidentified Anomalous Phenomena) records, meaning it predates the current government framework for reporting and investigating such sightings.",
+  "public_caveats": [
+    "This is a single-source report from one flight crew. No corroborating radar data, photographs, or additional witness statements are included in the released document.",
+    "The report gives no description of the object's shape, size, speed, or duration of observation — only its approximate location, altitude, and heading.",
+    "The operator and aircraft tail number fields are blank, so the specific aircraft cannot be independently confirmed beyond the callsign.",
+    "The altitude figure of 'about 50,000' lacks an explicit unit in the source text, though in aviation context this refers to feet.",
+    "The FAA marked the case as closed but provided no written analysis or conclusion about what the object might have been."
+  ]
+}

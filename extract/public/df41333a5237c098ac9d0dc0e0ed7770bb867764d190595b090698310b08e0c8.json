@@ -1,0 +1,179 @@
+{
+  "sha256": "df41333a5237c098ac9d0dc0e0ed7770bb867764d190595b090698310b08e0c8",
+  "title": "FAA UAP record 237UAP00262",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The report itself suggests Starlink satellites as a probable explanation, making this a likely identified rather than truly unidentified phenomenon.",
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts mentioned.",
+    "No tail number is listed for the aircraft, which is unusual for an FAA incident report.",
+    "LEO in this context likely refers to Law Enforcement Officer, not low Earth orbit, despite the Starlink reference."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Route",
+      "value": "Orlando (MCO) to Baltimore (BWI)",
+      "source_quote": "Origin: MCO Destination: BWI",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL350 (35,000 feet)",
+      "source_quote": "N bound at FL350",
+      "citation_offset": {
+        "offset": 369,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "Circling lights high above and to the northeast",
+      "source_quote": "The unknown phenomenon was circling lights high above and to the NE",
+      "citation_offset": {
+        "offset": 397,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Probable explanation noted",
+      "value": "Starlink satellites",
+      "source_quote": "Appears to correlate with Star Link satellites",
+      "citation_offset": {
+        "offset": 466,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "MCO",
+    "BWI",
+    "FAY",
+    "ZDC"
+  ],
+  "dated_events": [
+    "2023-05-03"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as circling lights",
+    "Starlink satellites (suggested correlation)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Spirit Airlines flight NKS2078 was operating a commercial flight from Orlando (MCO) to Baltimore (BWI) on 3 May 2023.",
+      "source_quote": "Callsign: NKS2078 ... Origin: MCO Destination: BWI",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew reported an unidentified aerial phenomenon while northbound at 35,000 feet over Fayetteville.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the right side while N bound at FL350, over FAY",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 292,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was described as circling lights high above and to the northeast of the aircraft.",
+      "source_quote": "The unknown phenomenon was circling lights high above and to the NE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 397,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report notes the sighting appears to correlate with Starlink satellites.",
+      "source_quote": "Appears to correlate with Star Link satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 466,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement information was provided.",
+      "source_quote": "No LEO information provided",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 514,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:42:18.321Z",
+  "qa_completed_at": "2026-06-02T00:43:00.514Z",
+  "timing": {
+    "A": "18.9s",
+    "B": "23.3s",
+    "E": "15.3s"
+  },
+  "public_headline": "Commercial Pilot Reports Circling Lights Later Linked to Starlink",
+  "public_tldr": "This FAA incident report documents a commercial airline crew observing circling lights above their aircraft while flying from Orlando to Baltimore in May 2023. The FAA's own notes suggest the lights correlate with Starlink satellites, and the case is closed.",
+  "public_narrative": "On 3 May 2023, the crew of a commercial flight travelling from Orlando (MCO) to Baltimore (BWI) reported an unidentified aerial phenomenon to air traffic control. The aircraft was northbound at 35,000 feet over Fayetteville (FAY) when the crew observed circling lights high above and to the northeast of their position.\n\nThe sighting was logged through the FAA's SKYWATCH incident reporting system, which is used to track pilot reports of unusual aerial activity. The report identifies the operator as commercial and lists the Washington Centre (ZDC) as the relevant air traffic control facility.\n\nNotably, the FAA's own write-up includes an assessment that the lights appear to correlate with Starlink satellites — the large constellation of low-orbit communications satellites operated by SpaceX. This makes the case unusual among UAP reports in that the filing itself offers a probable conventional explanation.\n\nThe case is marked as closed. No corroborating radar data or additional witness accounts are mentioned in the report. The document shows minimal redaction.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no mention of corroborating radar data or other witnesses.",
+    "The FAA's own report suggests Starlink satellites as the probable explanation, meaning this may not represent a genuinely unidentified phenomenon.",
+    "No aircraft tail number is listed, which is unusual for an FAA incident report.",
+    "The abbreviation 'LEO' in the report likely refers to Law Enforcement Officer, not low Earth orbit, despite the Starlink context.",
+    "The case is closed with no indication of further investigation or follow-up."
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "sha256": "2e4d64c379a580e3efa19a5d4ca5275b4ba103b30a323030ac86071591624122",
+  "title": "FAA UAP record 237UAP00327",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": "On 3 December 2023 at 03:15, American Airlines flight AAL1308 (an Airbus A321 flying from Philadelphia to San Francisco) reported an unidentified aerial phenomenon while westbound at flight level 320, located 31 nautical miles south-southwest of O'Neill, Nebraska. The crew described spinning flashing lights above their altitude; the object was not detected on ATC radar.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data",
+    "No detailed description of object size, shape, speed, or duration of observation",
+    "Case marked as closed with no resolution or explanation provided"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/Time",
+      "value": "2023-12-03 at 03:15",
+      "source_quote": "Date: 03:15 12/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "AAL1308",
+      "source_quote": "Callsign: AAL1308",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "A321",
+      "source_quote": "Aircraft: A321",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Philadelphia (PHL) to San Francisco (SFO)",
+      "source_quote": "Origin: PHL Destination: SFO",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight Level 320 (approximately 32,000 feet)",
+      "source_quote": "W bound at FL320",
+      "citation_offset": {
+        "offset": 394,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "31 nautical miles south-southwest of O'Neill (ONL)",
+      "source_quote": "31NM SSW of ONL",
+      "citation_offset": {
+        "offset": 412,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Spinning flashing lights above aircraft altitude",
+      "source_quote": "spinning flashing lights above their altitude",
+      "citation_offset": {
+        "offset": 456,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 503,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZDV (Denver ARTCC)",
+      "source_quote": "Reporting Facility: ZDV",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "ZDV-M-2023/12/02-0004",
+      "source_quote": "MOR ID: ZDV-M-2023/12/02-0004",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "PHL",
+    "SFO",
+    "ONL"
+  ],
+  "dated_events": [
+    "2023-12-03T03:15"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with spinning flashing lights",
+    "A321 commercial aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight AAL1308 crew visually observed a UAP with spinning flashing lights above FL320",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while W bound at FL320, 31NM SSW of ONL. The unknown phenomenon was spinning flashing lights above their altitude.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 336,
+        "len": 166,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by ATC radar systems",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 503,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Aviation Weather Office (AWO) was notified",
+      "source_quote": "AWO advised",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 558,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:43:25.979Z",
+  "qa_completed_at": "2026-06-02T01:43:57.872Z",
+  "timing": {
+    "A": "18.1s",
+    "B": "13.8s",
+    "E": "17.7s"
+  },
+  "public_headline": "American Airlines Crew Reported Spinning Lights Over Nebraska in 2023",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of American Airlines flight AAL1308 on 3 December 2023. While flying at approximately 32,000 feet over Nebraska, the crew observed spinning flashing lights above their altitude that did not appear on air traffic control radar.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — part of the agency's system for logging unidentified aerial phenomena reported by pilots and air traffic controllers. It covers an event on 3 December 2023 at 03:15, involving American Airlines flight AAL1308, an Airbus A321 travelling from Philadelphia to San Francisco.\n\nWhile flying westbound at Flight Level 320 (approximately 32,000 feet), the crew reported seeing spinning flashing lights above their altitude. The sighting occurred 31 nautical miles south-southwest of O'Neill, Nebraska. The report was filed through Denver Air Route Traffic Control Centre (ZDV).\n\nAir traffic control radar did not detect the object. The Aviation Weather Office was notified. The case was assigned the identifier 237UAP00327 and the internal reference ZDV-M-2023/12/02-0004.\n\nThe FAA marked the case as closed. No resolution or explanation for the sighting is provided in the document.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or independent witness accounts.",
+    "The document provides no detailed description of the object's size, shape, speed, or how long the crew observed it.",
+    "The case is marked closed with no explanation or conclusion offered by the FAA.",
+    "No redactions are evident in the document, but the level of detail recorded is minimal.",
+    "A visual sighting without radar confirmation does not establish what the object was — it confirms only that the crew reported seeing something."
+  ]
+}

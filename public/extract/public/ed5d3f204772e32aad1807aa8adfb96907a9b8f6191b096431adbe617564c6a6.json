@@ -1,0 +1,276 @@
+{
+  "sha256": "ed5d3f204772e32aad1807aa8adfb96907a9b8f6191b096431adbe617564c6a6",
+  "title": "FAA UAP record 237UAP00371",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by multiple aircraft.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Multi-witness report from three independent aircraft crews increases reliability, but all observations are visual only with no radar corroboration.",
+    "Case is marked Closed with no resolution or explanation provided.",
+    "No operator or tail number is listed for the primary reporting aircraft, limiting traceability.",
+    "The report originated from the FAA's SKYWATCH system — an internal reporting mechanism — and no further investigation details are included."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2024-05-26T04:19",
+      "source_quote": "Date: 04:19 05/26/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_aircraft_callsign",
+      "value": "N513MA",
+      "source_quote": "Callsign: N513MA",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "GLF5 (Gulfstream V)",
+      "source_quote": "Aircraft: GLF5",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL430 (43,000 feet)",
+      "source_quote": "NW bound at FL430",
+      "citation_offset": {
+        "offset": 371,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "10 NM SSW of GTK (Grand Turk)",
+      "source_quote": "10NM SSW of GTK",
+      "citation_offset": {
+        "offset": 390,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Group of hovering lights",
+      "source_quote": "a group of hovering lights approximately 20 NM NNW of GTK",
+      "citation_offset": {
+        "offset": 434,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_location",
+      "value": "Approximately 20 NM NNW of GTK",
+      "source_quote": "approximately 20 NM NNW of GTK",
+      "citation_offset": {
+        "offset": 461,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_1",
+      "value": "FFT1745 / A20N",
+      "source_quote": "Similar reports were received from FFT1745 / A20N",
+      "citation_offset": {
+        "offset": 493,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_2",
+      "value": "JBU2054 / A320",
+      "source_quote": "JBU2054 / A320",
+      "citation_offset": {
+        "offset": 547,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 563,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZMA (Miami ARTCC)",
+      "source_quote": "Reporting Facility: ZMA",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin_airport",
+      "value": "TTPP (Piarco International, Trinidad)",
+      "source_quote": "Origin: TTPP",
+      "citation_offset": {
+        "offset": 196,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination_airport",
+      "value": "MIA (Miami)",
+      "source_quote": "Destination: MIA",
+      "citation_offset": {
+        "offset": 209,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 243,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "GTK (Grand Turk)",
+    "TTPP (Piarco International, Trinidad)",
+    "MIA (Miami)"
+  ],
+  "dated_events": [
+    "2024-05-26T04:19"
+  ],
+  "objects_described": [
+    "GLF5 (Gulfstream V)",
+    "Group of hovering lights (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Three separate aircraft independently reported the same UAP near Grand Turk on May 26, 2024.",
+      "source_quote": "Similar reports were received from FFT1745 / A20N and JBU2054 / A320",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 493,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by ATC radar despite being visually observed by multiple crews.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 563,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of a group of hovering lights approximately 20 NM NNW of Grand Turk.",
+      "source_quote": "a group of hovering lights approximately 20 NM NNW of GTK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 434,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reporting aircraft was flying at 43,000 feet on a northwest heading.",
+      "source_quote": "NW bound at FL430, 10NM SSW of GTK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 371,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:24:19.727Z",
+  "qa_completed_at": "2026-06-02T02:25:01.231Z",
+  "timing": {
+    "A": "21.9s",
+    "B": "19.6s",
+    "E": "19.5s"
+  },
+  "public_headline": "Three Aircraft Crews Reported Hovering Lights Near Grand Turk",
+  "public_tldr": "This FAA incident report documents a May 2024 sighting in which three separate aircraft crews independently reported a group of hovering lights approximately 20 nautical miles north-northwest of Grand Turk island. The lights were not detected on air traffic control radar, and the case was closed without explanation.",
+  "public_narrative": "On 26 May 2024 at 04:19 UTC, the crew of a Gulfstream V business jet (callsign N513MA) reported an unidentified aerial phenomenon while flying at 43,000 feet, roughly 10 nautical miles south-southwest of Grand Turk in the Turks and Caicos Islands. The aircraft was operating as a general aviation flight from Piarco International Airport in Trinidad to Miami.\n\nThe crew described a group of hovering lights approximately 20 nautical miles north-northwest of Grand Turk. Two other aircraft — Frontier flight FFT1745 (an Airbus A320neo) and JetBlue flight JBU2054 (an Airbus A320) — independently filed similar reports of the same phenomenon.\n\nMiami Air Route Traffic Control Center (ZMA), the FAA facility handling the airspace, checked its radar systems. The lights were not detected on radar despite being visually observed by all three crews.\n\nThe report was filed through the FAA's internal SKYWATCH reporting system, which is used to log unidentified aerial phenomena. The case is marked as closed. No resolution, identification, or further investigation details are included in the document.\n\nNo operator or tail number is listed for the primary reporting aircraft beyond its callsign, and no additional details about the nature or behaviour of the lights are provided.",
+  "public_caveats": [
+    "Three independent aircraft crews reported the same phenomenon, which strengthens the observation, but all sightings were visual only — no radar or instrument confirmation exists.",
+    "The case is marked 'Closed' with no explanation or identification provided, meaning the FAA did not publicly conclude what the lights were.",
+    "No operator is listed for the primary reporting aircraft, which limits independent verification of the source.",
+    "The report comes from the FAA's internal SKYWATCH system and contains no indication of further investigation beyond the initial filing.",
+    "The document shows minimal redaction, but it also contains very little detail — the brevity itself limits what can be concluded."
+  ]
+}

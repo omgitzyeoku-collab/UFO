@@ -1,0 +1,211 @@
+{
+  "sha256": "b7d1af00d1de228cd0d49c6669663ada7190afdf97efb2ecf222ffaabd7f7d5d",
+  "title": "FAA UAP record 237UAP00335",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a general aviation aircraft.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source visual observation by one aircrew with no radar corroboration.",
+    "No information provided about weather conditions or other possible explanations.",
+    "Case is marked closed with no resolution or identification of the phenomenon."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-12-29 at 00:32",
+      "source_quote": "Date: 00:32 12/29/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft callsign",
+      "value": "N268CA",
+      "source_quote": "Callsign: N268CA",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "16,000 feet",
+      "source_quote": "SE bound at 16,000 feet",
+      "citation_offset": {
+        "offset": 369,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Position",
+      "value": "34°36'N 86°48'W",
+      "source_quote": "3436N 8648W",
+      "citation_offset": {
+        "offset": 394,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Red and orange lights traveling in no specific direction",
+      "source_quote": "red and orange lights traveling in no specific direction 16,000 feet",
+      "citation_offset": {
+        "offset": 435,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 505,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "No evasive maneuvers were taken",
+      "citation_offset": {
+        "offset": 560,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MDW",
+    "TCL",
+    "DEN",
+    "ZME"
+  ],
+  "dated_events": [
+    "2023-12-29"
+  ],
+  "objects_described": [
+    "BE9L aircraft",
+    "Red and orange lights (UAP)",
+    "ATC facility radar system"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The aircraft was flying southeast at 16,000 feet when the sighting occurred.",
+      "source_quote": "SE bound at 16,000 feet, 3436N 8648W",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 369,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP appeared as red and orange lights with no specific direction of travel.",
+      "source_quote": "red and orange lights traveling in no specific direction 16,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 435,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was not detected by ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 505,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot did not take evasive maneuvers.",
+      "source_quote": "No evasive maneuvers were taken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 560,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:50:40.109Z",
+  "qa_completed_at": "2026-06-02T01:51:19.504Z",
+  "timing": {
+    "A": "16.6s",
+    "B": "22.8s",
+    "E": "17.4s"
+  },
+  "public_headline": "FAA Report: Pilot Spots Red-Orange Lights at 16,000 Feet Over Alabama",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a sighting by a general aviation pilot on 29 December 2023. The pilot, flying southeast at 16,000 feet near coordinates 34°36'N 86°48'W (northern Alabama), reported red and orange lights moving in no specific direction. Air traffic control radar did not detect anything, and the case was closed without explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH report — the Federal Aviation Administration's system for logging unidentified aerial phenomenon (UAP) sightings reported by pilots. It covers an incident on 29 December 2023 at 00:32, involving a general aviation aircraft with the callsign N268CA, a Beechcraft (BE9L) type.\n\nThe pilot was flying southeast at 16,000 feet, near position 34°36'N 86°48'W — roughly northern Alabama — when they observed red and orange lights. The lights were described as travelling in no specific direction, also at approximately 16,000 feet. The pilot did not take evasive action.\n\nAir traffic control checked their radar and found nothing — the object was not detected on the ATC facility radar system. This means the sighting rests entirely on the pilot's visual observation, with no independent sensor confirmation.\n\nThe FAA marked the case as closed. The report contains no resolution, no identification of what the lights were, and no discussion of weather conditions or alternative explanations. The document shows low evidence of redaction, meaning most of the content appears to be presented as-is rather than blacked out.",
+  "public_caveats": [
+    "This is a single-source visual observation by one aircrew member, with no radar or other sensor corroboration.",
+    "The FAA closed the case without identifying or explaining the phenomenon.",
+    "No information about weather conditions, nearby air traffic, or other possible explanations is included in the report.",
+    "The incident location is not explicitly named in the report but the coordinates place it in northern Alabama, within Memphis Center (ZME) airspace.",
+    "Low redaction evidence suggests the document is mostly complete, but absence of detail is not the same as absence of redaction."
+  ]
+}

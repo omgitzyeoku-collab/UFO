@@ -1,0 +1,234 @@
+{
+  "sha256": "be4aade7125dc028e585bf75213f8b5df464e696f3fd52ba031c1f4d21253fa8",
+  "title": "FAA UAP record 237UAP00146",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting reported by a commercial airline crew.",
+  "core_summary": "On January 29, 2023, the crew of American Airlines flight AAL2547 (an Airbus A321) reported observing 2-3 sets of unidentified aerial phenomena while flying eastbound at 37,000 feet. The objects were described as looking like stars turning on and off approximately every minute, moving right to left and left to right, possibly over Arkansas. The objects were above another aircraft (NKS2252) at 39,000 feet, and multiple aircraft on other frequencies were also reporting the incident.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report from one flight crew; corroborating aircraft reports are referenced but not included in this document.",
+    "Exact location of the objects could not be confirmed — 'possibly over ARG' is an estimate.",
+    "Object altitude is inferred only from being above another aircraft at FL390; no independent altitude measurement was taken.",
+    "Case is marked Closed with no resolution or identification provided in this report.",
+    "The description 'like a star turning on and off' is subjective and could be consistent with multiple conventional explanations (satellites, celestial objects, atmospheric effects)."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "reporting_flight",
+      "value": "AAL2547 (American Airlines)",
+      "source_quote": "Callsign: AAL2547",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Airbus A321",
+      "source_quote": "Aircraft: A321",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_altitude",
+      "value": "FL370 (37,000 feet)",
+      "source_quote": "AAL2547 was at FL370 eastbound",
+      "citation_offset": {
+        "offset": 456,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_objects",
+      "value": "2-3 sets",
+      "source_quote": "Aircraft reported 2-3 sets of unidentified aerial phenomenon",
+      "citation_offset": {
+        "offset": 336,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Star-like, turning on and off every minute or so",
+      "source_quote": "looking like a star turning on and off every minute or so",
+      "citation_offset": {
+        "offset": 517,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_movement",
+      "value": "Moving right to left and left to right",
+      "source_quote": "moving right to left and left to right",
+      "citation_offset": {
+        "offset": 397,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_altitude",
+      "value": "Above FL390 (39,000 feet)",
+      "source_quote": "they were above NKS2252 at FL390",
+      "citation_offset": {
+        "offset": 662,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Phoenix (PHX) to Charlotte (CLT)",
+      "source_quote": "Origin: PHX Destination: CLT",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "multiple_witnesses",
+      "value": "Multiple aircraft reported the incident on other frequencies",
+      "source_quote": "Multiple aircraft could be heard reporting the incident on other frequencies",
+      "citation_offset": {
+        "offset": 696,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZME-M-2023/01/29-0003",
+      "source_quote": "MOR ID: ZME-M-2023/01/29-0003",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "PHX",
+    "CLT",
+    "ARG"
+  ],
+  "dated_events": [
+    "2023-01-29"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon — star-like objects turning on and off",
+    "A321 (reporting aircraft)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AAL2547 was an American Airlines A321 flying from Phoenix to Charlotte on January 29, 2023",
+      "source_quote": "Aircraft: A321 ... Origin: PHX Destination: CLT",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The objects were at an altitude above 39,000 feet since they were above NKS2252 at FL390",
+      "source_quote": "Altitude was unknown but they were above NKS2252 at FL390",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 637,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Multiple aircraft on other frequencies independently reported the same incident",
+      "source_quote": "Multiple aircraft could be heard reporting the incident on other frequencies",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 696,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The location of the objects could not be confirmed over Arkansas due to distance",
+      "source_quote": "The location was too far away to confirm location over ARG",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 577,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO (Aviation Weather Operations) was notified of the incident",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 774,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:54:02.779Z",
+  "qa_completed_at": "2026-06-01T22:54:45.913Z",
+  "timing": {
+    "A": "22.7s",
+    "B": "20.4s",
+    "E": "17.2s"
+  },
+  "public_headline": "Airline Crew Reports Star-Like Objects Above 39,000 Feet Over Possible Arkansas",
+  "public_tldr": "This FAA incident report documents a January 2023 sighting by the crew of American Airlines flight AAL2547, who observed 2–3 sets of unidentified objects resembling stars turning on and off while cruising at 37,000 feet. Multiple aircraft on other frequencies also reported the incident, but the case was closed without explanation or identification.",
+  "public_narrative": "On January 29, 2023, the crew of American Airlines flight AAL2547 — an Airbus A321 flying from Phoenix to Charlotte at 37,000 feet — reported observing 2–3 sets of unidentified aerial phenomena. The objects were described as looking like stars turning on and off roughly every minute, moving both right to left and left to right.\n\nThe objects were at an unknown altitude but were above another aircraft, Spirit Airlines flight NKS2252, which was cruising at 39,000 feet. The crew estimated the objects were possibly over Arkansas, but said the distance was too great to confirm the location. Multiple aircraft on other radio frequencies could be heard reporting the same incident.\n\nThe report was logged under FAA SKYWATCH, the agency's system for tracking unidentified aerial phenomenon sightings, with the identifier ZME-M-2023/01/29-0003. Aviation Weather Operations (AWO) was notified.\n\nThe FAA marked the case as Closed. No identification or explanation for the objects is provided anywhere in the document. There is no indication that further investigation was conducted or that the corroborating reports from other aircraft were collected.",
+  "public_caveats": [
+    "This is a single-source report from one flight crew. The referenced reports from other aircraft are mentioned but not included in this document.",
+    "The exact location of the objects could not be confirmed — 'possibly over Arkansas' is the crew's estimate from a distance.",
+    "Object altitude is inferred only from being above another aircraft at 39,000 feet; no independent measurement was taken.",
+    "The description 'like a star turning on and off' is subjective and could be consistent with satellites, celestial objects, or atmospheric effects.",
+    "The case was closed with no resolution or identification provided — the FAA does not say what the objects were."
+  ]
+}

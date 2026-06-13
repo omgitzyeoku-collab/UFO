@@ -1,0 +1,243 @@
+{
+  "sha256": "d0d6f796f8bedd04e070058b4c7db2527a6e5bdac3bc5b09c36f8120cefbbf80",
+  "title": "FAA UAP record 237UAP00234",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft crew.",
+  "core_summary": "On 5 March 2023 at 21:59, the crew of American Airlines flight AAL1030 (a Boeing 787) reported observing a jet pack individual approximately 500 feet overhead while southbound at 700 feet on final approach. No evasive action was taken. The incident was reported through the DFW facility and assigned MOR ID DFW-M-2023/03/05-0001.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar or sensor data mentioned in the report.",
+    "The term 'Jet Pack individual' is the observer's description — no independent confirmation of the object's nature is provided.",
+    "The report is classified as a UAP under the SKYWATCH system, though the crew attributed it to a jet pack rather than leaving it unidentified.",
+    "PD (police department) notification was not annotated, meaning it is unclear whether law enforcement was informed."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2023-03-05 at 21:59",
+      "source_quote": "Date: 21:59 03/05/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "AAL1030",
+      "source_quote": "Callsign: AAL1030",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "DFW",
+      "source_quote": "Reporting Facility: DFW",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin airport",
+      "value": "MMUN (Cancún International Airport)",
+      "source_quote": "Origin: MMUN",
+      "citation_offset": {
+        "offset": 212,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination airport",
+      "value": "DFW (Dallas/Fort Worth)",
+      "source_quote": "Destination: DFW",
+      "citation_offset": {
+        "offset": 225,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object observed",
+      "value": "Jet pack individual approximately 500 feet overhead",
+      "source_quote": "Aircraft observed a Jet Pack individual 500 feet overhead",
+      "citation_offset": {
+        "offset": 337,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude on final",
+      "value": "700 feet",
+      "source_quote": "S bound at 700 feet on final",
+      "citation_offset": {
+        "offset": 401,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "No evasive action was taken",
+      "citation_offset": {
+        "offset": 431,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "DFW-M-2023/03/05-0001",
+      "source_quote": "MOR ID: DFW-M-2023/03/05-0001",
+      "citation_offset": {
+        "offset": 299,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 259,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Notifications",
+      "value": "TY, AWO notified; PD notification not annotated",
+      "source_quote": "PD notification not annotated. TY, AWO notified.",
+      "citation_offset": {
+        "offset": 460,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DFW",
+    "DEN",
+    "MMUN"
+  ],
+  "dated_events": [
+    "2023-03-05"
+  ],
+  "objects_described": [
+    "Jet pack individual",
+    "Boeing 787 (B789)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial American Airlines Boeing 787 crew observed a jet pack individual at approximately 1200 feet AGL (500 feet above the aircraft at 700 feet) during final approach to DFW.",
+      "source_quote": "Aircraft observed a Jet Pack individual 500 feet overhead while S bound at 700 feet on final",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 337,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "No evasive action was taken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 431,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Police department notification was not annotated in the report.",
+      "source_quote": "PD notification not annotated",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 460,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:17:40.833Z",
+  "qa_completed_at": "2026-06-02T00:18:17.122Z",
+  "timing": {
+    "A": "18.1s",
+    "B": "18.2s",
+    "E": "20.8s"
+  },
+  "public_headline": "American Airlines Crew Reported Jet Pack Sighting on Final Approach to Dallas",
+  "public_tldr": "An FAA incident report documents the crew of American Airlines flight AAL1030, a Boeing 787, observing what they described as a jet pack individual roughly 500 feet above them while on final approach to Dallas/Fort Worth airport on 5 March 2023. The case is closed, with no evasive action taken and no corroborating radar or sensor data mentioned.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unidentified aerial phenomenon sightings reported by aircrew. It covers a single event on 5 March 2023 at 21:59.\n\nThe crew of American Airlines flight AAL1030, a commercial Boeing 787 flying from Cancún (MMUN) to Dallas/Fort Worth (DFW), reported seeing what they described as a \"jet pack individual\" approximately 500 feet above their aircraft. At the time, the plane was southbound at 700 feet on final approach. No evasive action was taken. The incident was reported through the DFW facility and assigned case number DFW-M-2023/03/05-0001.\n\nThe report notes that TY and AWO were notified, but police department notification was not annotated — meaning it is unclear from the document whether law enforcement was ever informed. The case status is listed as closed.\n\nNotably, although this report is filed under the FAA's UAP tracking system, the crew themselves attributed the object to a jet pack rather than leaving it unidentified. No independent confirmation of the object's nature is provided in the document.",
+  "public_caveats": [
+    "This is a single-source pilot observation. The report mentions no corroborating radar data, sensor recordings, or independent witness accounts.",
+    "The description \"jet pack individual\" is what the crew reported seeing — no agency or third party confirmed what the object actually was.",
+    "The report is classified as a UAP under the FAA's SKYWATCH system, but the crew offered their own explanation rather than leaving the sighting unexplained.",
+    "Police notification was not annotated in the report, so it is unknown whether law enforcement investigated.",
+    "The incident location is not specified beyond the DFW approach corridor, and the document contains minimal additional detail beyond the structured incident fields."
+  ]
+}

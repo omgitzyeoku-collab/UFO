@@ -1,0 +1,230 @@
+{
+  "sha256": "61efb2e67253e787d8f40c90857899879a9aa328a06a8a7d3cf8b9e2f30a5aae",
+  "title": "FAA UAP record 237UAP00254",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon.",
+  "core_summary": "On April 17, 2023, at 04:30, the crew of commercial flight FFT1164 (an Airbus A321 operating from Orlando to Philadelphia) reported an unidentified aerial phenomenon off the left side of their aircraft while northeast-bound at 35,000 feet, 17 nautical miles southeast of Mackall Army Airfield. The phenomenon displayed flashing lights and was traveling southeast-bound at approximately 35,000 feet. Washington Center (ZDC) detected intermittent primary radar targets and contacted the UFO reporting center.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating visual or sensor data included in the document.",
+    "Radar contact described as 'intermittent primary targets' — not sustained tracking.",
+    "Case is marked 'Closed' with no resolution or explanation provided.",
+    "No tail number recorded, limiting independent verification of the specific flight."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date_time",
+      "value": "2023-04-17 at 04:30",
+      "source_quote": "Date: 04:30 04/17/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "FFT1164",
+      "source_quote": "Callsign: FFT1164",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "A321",
+      "source_quote": "Aircraft: A321",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "35,000 feet",
+      "source_quote": "NE bound at 35,000 feet",
+      "citation_offset": {
+        "offset": 365,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_location_relative_to_aircraft",
+      "value": "Left side, 17 NM SE of SDZ (Mackall AAF)",
+      "source_quote": "off the L side while NE bound at 35,000 feet, 17 NM SE of SDZ, directly over Mackall AAF",
+      "citation_offset": {
+        "offset": 344,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Flashing lights traveling southeast-bound at approximately 35,000 feet",
+      "source_quote": "The unknown phenomenon was flashing lights traveling SE bound at approximately 35,000 feet",
+      "citation_offset": {
+        "offset": 446,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Intermittent primary radar targets",
+      "source_quote": "ZDC was receiving intermittent primary targets",
+      "citation_offset": {
+        "offset": 538,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "follow_up_action",
+      "value": "ZDC contacted UFO reporting center",
+      "source_quote": "ZDC contacted UFO reporting center",
+      "citation_offset": {
+        "offset": 586,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MCO",
+    "PHL",
+    "SDZ",
+    "Mackall AAF",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-04-17"
+  ],
+  "objects_described": [
+    "A321 commercial aircraft",
+    "Unidentified aerial phenomenon with flashing lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Frontier Airlines A321 flight (FFT1164) reported a UAP while en route from Orlando to Philadelphia on April 17, 2023.",
+      "source_quote": "Callsign: FFT1164 ... Aircraft: A321 ... Operator: FFT ... Origin: MCO Destination: PHL",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The UAP was observed off the left side of the aircraft at 35,000 feet, 17 nautical miles southeast of Mackall Army Airfield.",
+      "source_quote": "off the L side while NE bound at 35,000 feet, 17 NM SE of SDZ, directly over Mackall AAF",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 344,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon displayed flashing lights and was traveling southeast at approximately 35,000 feet.",
+      "source_quote": "The unknown phenomenon was flashing lights traveling SE bound at approximately 35,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 446,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Washington Center (ZDC) detected intermittent primary radar targets associated with the phenomenon.",
+      "source_quote": "ZDC was receiving intermittent primary targets",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 538,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "ZDC contacted the UFO reporting center following the incident.",
+      "source_quote": "ZDC contacted UFO reporting center",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 586,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:34:32.394Z",
+  "qa_completed_at": "2026-06-02T00:35:10.872Z",
+  "timing": {
+    "A": "21.0s",
+    "B": "17.4s",
+    "E": "16.2s"
+  },
+  "public_headline": "Commercial Pilot Reports Flashing Lights at 35,000 Feet Near Army Airfield",
+  "public_tldr": "An FAA incident report documents a commercial airline crew observing an unidentified aerial phenomenon with flashing lights while flying at 35,000 feet over North Carolina on 17 April 2023. Air traffic control picked up intermittent radar returns and contacted the UFO reporting centre, but the case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the agency uses to log pilot-reported unidentified aerial phenomena. It records an event on 17 April 2023 at 04:30, involving flight FFT1164, an Airbus A321 operating a commercial route from Orlando (MCO) to Philadelphia (PHL).\n\nWhile heading northeast at 35,000 feet, the flight crew reported an unknown phenomenon off the left side of the aircraft, roughly 17 nautical miles southeast of Mackall Army Airfield in North Carolina. The object or lights were described as flashing and travelling in the opposite direction — southeast-bound — at approximately the same altitude.\n\nWashington Centre (ZDC), the air traffic control facility handling that airspace, picked up intermittent primary radar targets in the area. Primary radar detects reflections off physical objects but does not receive a transponder signal, so these returns could not be identified through normal means. ZDC subsequently contacted the UFO reporting centre.\n\nThe case is marked as closed. No resolution, identification, or follow-up explanation appears in the document. No additional sensor data, photographs, or corroborating reports from other aircraft are included.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating visual evidence, sensor data, or independent witness accounts are included in the document.",
+    "The radar contact is described as 'intermittent primary targets' — meaning brief, non-continuous returns with no transponder identification. This falls short of sustained tracking.",
+    "The case is marked 'Closed' with no stated resolution or explanation for what the crew observed.",
+    "No aircraft tail number was recorded, which limits the ability to independently verify the specific flight involved.",
+    "The document contains low levels of redaction, but also limited detail — it is a short incident form, not an investigative report."
+  ]
+}

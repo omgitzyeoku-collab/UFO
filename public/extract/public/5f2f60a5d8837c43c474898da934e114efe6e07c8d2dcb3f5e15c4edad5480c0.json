@@ -1,0 +1,190 @@
+{
+  "sha256": "5f2f60a5d8837c43c474898da934e114efe6e07c8d2dcb3f5e15c4edad5480c0",
+  "title": "FAA UAP record 237UAP00375",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On July 14, 2024, the crew of Delta Air Lines flight DAL1480, a BCS1 aircraft flying westbound at FL360, reported a white triangular stationary object at approximately FL360 off their right side, 18 nautical miles east of Pocatello (PIH). The object was not detected on ATC radar. The incident was reported through the FAA's SKYWATCH system and is marked as closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no radar corroboration",
+    "No information on number of crew members who observed the object or duration of sighting",
+    "Case is marked closed with no resolution or identification provided",
+    "The incident date in the CSV metadata says 2023 but the document itself is dated 2024-07-14"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2024-07-14 at 22:46 UTC",
+      "source_quote": "Date: 22:46 07/14/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "DAL1480",
+      "source_quote": "Callsign: DAL1480",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "Delta Air Lines (DAL), Commercial",
+      "source_quote": "Operator: DAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "DFW to SEA",
+      "source_quote": "Origin: DFW Destination: SEA",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "White triangle, stationary, at approximately FL360",
+      "source_quote": "a white triangle stationary at approximately FL360",
+      "citation_offset": {
+        "offset": 429,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 481,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DFW",
+    "SEA",
+    "DEN",
+    "PIH",
+    "ZLC"
+  ],
+  "dated_events": [
+    "2024-07-14"
+  ],
+  "objects_described": [
+    "White triangular stationary UAP at FL360",
+    "BCS1 commercial aircraft (DAL1480)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL1480 was flying westbound at FL360 when the crew observed an unidentified aerial phenomenon",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the right side while W bound at FL360",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP appeared as a white triangle and was stationary at approximately FL360",
+      "source_quote": "The unknown phenomenon was a white triangle stationary at approximately FL360",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 402,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 18 nautical miles east of Pocatello (PIH)",
+      "source_quote": "18NM E of PIH",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 387,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by ATC radar systems",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 481,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:28:19.500Z",
+  "qa_completed_at": "2026-06-02T02:28:55.354Z",
+  "timing": {
+    "A": "21.1s",
+    "B": "14.8s",
+    "E": "16.3s"
+  },
+  "public_headline": "Delta Crew Reports Stationary White Triangle at 36,000 Feet Over Idaho",
+  "public_tldr": "An FAA incident report documents the crew of Delta Air Lines flight DAL1480 observing a stationary white triangular object at cruising altitude near Pocatello, Idaho on 14 July 2024. The object did not appear on air traffic control radar, and the case was closed without explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — part of the agency's system for logging unidentified aerial phenomena (UAP) reported by pilots. It records an observation made by the crew of Delta Air Lines flight DAL1480, a commercial flight travelling from Dallas/Fort Worth (DFW) to Seattle (SEA) on 14 July 2024 at 22:46 UTC.\n\nWhile flying westbound at flight level 360 (approximately 36,000 feet), the crew reported seeing an unidentified object off the right side of the aircraft, roughly 18 nautical miles east of Pocatello, Idaho. They described it as a white triangle that appeared stationary at approximately the same altitude as their aircraft.\n\nAir traffic control checked their radar but did not detect the object. The report notes plainly: \"The UAP was not observed on ATC facility radar system.\" No further identification or explanation is provided in the document.\n\nThe case is marked as closed. There is no indication of follow-up investigation, additional witness statements, or any agency conclusion about what the object was. The document does not mention whether photographs, flight recorder data, or other corroborating evidence were collected.",
+  "public_caveats": [
+    "This is a single-source pilot report with no radar corroboration — the object was not detected by any ATC radar system.",
+    "The report does not state how many crew members observed the object or how long the sighting lasted.",
+    "The case is marked closed with no resolution: the FAA did not identify the object or offer an explanation.",
+    "There is a date discrepancy: the CSV metadata lists the incident year as 2023, but the document itself is dated 14 July 2024.",
+    "No redactions are evident in this document, but the level of detail is limited — it is a brief incident log, not an investigation report."
+  ]
+}

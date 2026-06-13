@@ -1,0 +1,215 @@
+{
+  "sha256": "dd8158d521e5e2987455a7d1f4c91c1366356f3cbdf0eefe7a45fef079f444bf",
+  "title": "FAA UAP record 237UAP00201",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon detected on radar near Alaska, later closed as erroneous radar data.",
+  "core_summary": "On 6 February 2023, Alaska NORAD reported an unidentified aerial phenomenon approximately 115 nautical miles north of Kotzebue, Alaska. The object was possibly an unverified balloon traveling northeast at 27 knots at approximately flight level 300. The report was closed the same day after the detection was determined to be erroneous and uncorrelated radar data with no originating aircraft.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The report was officially closed as erroneous radar data, meaning no confirmed UAP was present.",
+    "The incident occurred during the February 2023 period when multiple high-altitude balloon incidents were being tracked over North America, which may have heightened radar sensitivity.",
+    "No visual or sensor confirmation was obtained — the detection was radar-only with no corroborating aircraft.",
+    "Single-source radar detection in a remote area with no independent verification."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-02-06 at 20:16 UTC",
+      "source_quote": "Date: 20:16 02/06/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting entity",
+      "value": "Alaska NORAD",
+      "source_quote": "Alaska NORAD reported an unidentified aerial phenomenon",
+      "citation_offset": {
+        "offset": 160,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "115 NM north of Kotzebue (OTZ), coordinates 6845N 16139W",
+      "source_quote": "115 NM N of OTZ, 6845N 16139W",
+      "citation_offset": {
+        "offset": 216,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Possibly an unverified balloon traveling NE at 27 knots, approximately FL300",
+      "source_quote": "possibly an unverified balloon traveling NE bound, 27 Knots at approximately FL300",
+      "citation_offset": {
+        "offset": 273,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Verification status",
+      "value": "No aircraft available to verify",
+      "source_quote": "No aircraft in vicinity for verification",
+      "citation_offset": {
+        "offset": 357,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case resolution",
+      "value": "Erroneous and uncorrelated radar data",
+      "source_quote": "Report determined to be erroneous and uncorrelated radar data",
+      "citation_offset": {
+        "offset": 414,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Signal origin",
+      "value": "Not from aircraft",
+      "source_quote": "Initial reporting did not originate from aircraft",
+      "citation_offset": {
+        "offset": 477,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 104,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Alaska",
+    "OTZ (Kotzebue)",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-02-06"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon",
+    "Possible unverified balloon",
+    "Uncorrelated radar return"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Alaska NORAD detected an unidentified aerial phenomenon 115 nautical miles north of Kotzebue, Alaska on 6 February 2023.",
+      "source_quote": "Alaska NORAD reported an unidentified aerial phenomenon 115 NM N of OTZ, 6845N 16139W",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 160,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was possibly an unverified balloon at approximately flight level 300 traveling northeast at 27 knots.",
+      "source_quote": "possibly an unverified balloon traveling NE bound, 27 Knots at approximately FL300",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 273,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No aircraft were in the area to visually confirm the detection.",
+      "source_quote": "No aircraft in vicinity for verification",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 357,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was closed as erroneous and uncorrelated radar data.",
+      "source_quote": "Report determined to be erroneous and uncorrelated radar data",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 414,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The initial detection did not come from an aircraft source.",
+      "source_quote": "Initial reporting did not originate from aircraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 477,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:47:55.968Z",
+  "qa_completed_at": "2026-06-01T23:48:29.652Z",
+  "timing": {
+    "A": "18.4s",
+    "B": "15.2s",
+    "E": "17.3s"
+  },
+  "public_headline": "Alaska Radar Detected Possible Balloon, Later Ruled Erroneous Data",
+  "public_tldr": "This FAA SKYWATCH report documents a radar detection on 6 February 2023 of an unidentified aerial phenomenon roughly 115 nautical miles north of Kotzebue, Alaska. The object was tentatively identified as a possible balloon at high altitude, but the case was closed the same day after the detection was determined to be erroneous radar data with no confirming aircraft or sensor.",
+  "public_narrative": "On 6 February 2023 at 20:16 UTC, Alaska NORAD (the North American Aerospace Defense Command's Alaska region) reported an unidentified aerial phenomenon to the FAA. The detection occurred approximately 115 nautical miles north of Kotzebue, Alaska, at coordinates 68°45'N 161°39'W.\n\nThe object appeared on radar as a possible unverified balloon travelling northeast at 27 knots (roughly 31 mph) at approximately flight level 300 — around 30,000 feet. No aircraft were in the area to visually confirm what the radar was showing, and the initial detection did not come from any aircraft source.\n\nThe FAA logged the event under its SKYWATCH incident reporting system with primary code \"Unidentified Aerial Phenomenon.\" However, after review, the report was closed the same day. The agency determined the detection was erroneous and uncorrelated radar data — meaning the radar return could not be matched to any real object or aircraft.\n\nThe timing is notable: this incident occurred during early February 2023, a period when multiple high-altitude balloon detections were being tracked across North American airspace, which may have contributed to heightened radar scrutiny. The document itself shows low evidence of redaction.",
+  "public_caveats": [
+    "The FAA officially closed this case as erroneous radar data, meaning no confirmed unidentified object was verified to exist.",
+    "The detection was radar-only with no visual confirmation and no corroborating aircraft or sensors — a single-source detection in a remote area.",
+    "This incident took place during the February 2023 wave of balloon-related airspace alerts across North America, which likely increased radar sensitivity and scrutiny.",
+    "No named individuals, no photographs, and no supplementary sensor data accompany this report.",
+    "The document shows low evidence of redaction, suggesting what is published is close to the full record."
+  ]
+}

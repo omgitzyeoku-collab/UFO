@@ -1,0 +1,230 @@
+{
+  "sha256": "29d0348530f54af662c2e0f448a5bf15b7b843fdbabecc9da6e5acc325e5b0da",
+  "title": "FAA UAP record 237UAP00372",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observation near Stewart International Airport (SWF).",
+  "core_summary": "On 3 June 2024 at approximately 18:00, FAA facility SWF observed a stationary object 4 nautical miles southwest of SWF at 4,000 feet altitude. The object was estimated at 50 feet long, boomerang-shaped, not visible on radar, and remained in the area for approximately 50 minutes before disappearing into clouds.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source observation from one FAA facility with no corroborating radar data.",
+    "Altitude, size, and shape are visual estimates only — no instrumented measurements reported.",
+    "The abbreviations TY and PD (notified parties) are not explained in the document.",
+    "The incident date on the document (2024-06-03) does not match the metadata incident year (2023)."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2024-06-03",
+      "source_quote": "Date: 18:52 06/03/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "object_location",
+      "value": "4 nautical miles southwest of SWF",
+      "source_quote": "a UAP 4 NM SW of SWF",
+      "citation_offset": {
+        "offset": 178,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_altitude",
+      "value": "4,000 feet",
+      "source_quote": "stationary at 4,000 feet",
+      "citation_offset": {
+        "offset": 251,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_size",
+      "value": "Estimated 50 feet long",
+      "source_quote": "Object is estimated to be 50 feet long",
+      "citation_offset": {
+        "offset": 302,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_shape",
+      "value": "Boomerang-shaped",
+      "source_quote": "boomerang shaped",
+      "citation_offset": {
+        "offset": 342,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on radar",
+      "source_quote": "is not observed on RADAR",
+      "citation_offset": {
+        "offset": 364,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "duration",
+      "value": "Approximately 50 minutes",
+      "source_quote": "remained in vicinity for approximately 50 minutes",
+      "citation_offset": {
+        "offset": 397,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "departure",
+      "value": "Disappeared into clouds",
+      "source_quote": "before disappearing into the clouds",
+      "citation_offset": {
+        "offset": 447,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operational_impact",
+      "value": "None",
+      "source_quote": "no impact to operations",
+      "citation_offset": {
+        "offset": 277,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 104,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notifications",
+      "value": "TY and PD notified",
+      "source_quote": "TY, PD notified",
+      "citation_offset": {
+        "offset": 484,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SWF",
+    "DEN"
+  ],
+  "dated_events": [
+    "2024-06-03"
+  ],
+  "objects_described": [
+    "Boomerang-shaped UAP, approximately 50 feet long, stationary at 4,000 feet, not visible on radar"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The object was not detected on radar despite being observed visually.",
+      "source_quote": "is not observed on RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 364,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object appeared stationary at 4,000 feet altitude.",
+      "source_quote": "stationary at 4,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 251,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object remained in the area for approximately 50 minutes.",
+      "source_quote": "remained in vicinity for approximately 50 minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 397,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "There was no impact to air traffic operations.",
+      "source_quote": "no impact to operations",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 277,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:25:20.766Z",
+  "qa_completed_at": "2026-06-02T02:25:49.876Z",
+  "timing": {
+    "A": "15.4s",
+    "B": "13.7s",
+    "E": "16.9s"
+  },
+  "public_headline": "FAA logged a boomerang-shaped object hovering near Stewart Airport for 50 minutes",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a stationary, boomerang-shaped object observed 4 nautical miles southwest of Stewart International Airport (SWF) at 4,000 feet altitude on 3 June 2024. The object was estimated at 50 feet long, did not appear on radar, and remained in the area for roughly 50 minutes before disappearing into clouds.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report, record number 237UAP00372, filed on 3 June 2024 at approximately 18:00. It describes a single observation by FAA facility staff at Stewart International Airport (SWF) in New York.\n\nAccording to the report, personnel observed a stationary object roughly 4 nautical miles southwest of the airport at an altitude of 4,000 feet. The object was estimated to be about 50 feet long and boomerang-shaped. Despite being visually observed, it did not appear on radar.\n\nThe object remained in the vicinity for approximately 50 minutes before disappearing into clouds. The FAA noted there was no impact to air traffic operations. The report's status is listed as closed, and two parties identified only by the abbreviations TY and PD were notified.\n\nThe document contains no photographs, no radar data, and no identification of the object. No conclusions are drawn about what the object was. The case was closed without a stated resolution.",
+  "public_caveats": [
+    "This is a single-source visual observation from one FAA facility — no corroborating radar data, photographs, or independent witnesses are included in the report.",
+    "All measurements (altitude, size, shape) are visual estimates, not instrumented readings.",
+    "The abbreviations TY and PD, referring to parties who were notified, are not explained in the document.",
+    "The metadata lists the incident year as 2023, but the document itself is dated 3 June 2024 — the reason for this discrepancy is unclear.",
+    "The case is marked closed with no stated conclusion about the identity of the object."
+  ]
+}

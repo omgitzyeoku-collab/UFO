@@ -1,0 +1,202 @@
+{
+  "sha256": "ce0f78a54633378e07b70fdd9f3aebd62a5cd6f915cae725c7ef4cb7269b3135",
+  "title": "FAA UAP record 237UAP00123",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting a pilot's observation of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The crew themselves described the phenomenon as a 'celestial phenomenon,' suggesting a prosaic explanation such as stars or satellites.",
+    "Single-source report based solely on pilot observation with no corroborating radar data or additional witness accounts included.",
+    "The tail number field is blank, limiting independent verification of the specific aircraft involved.",
+    "The case is marked 'Closed' with no resolution or explanation provided in the report.",
+    "AWO/TY notification recipients are not explained in the document — their roles are unclear to a general reader."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report — Unidentified Aerial Phenomenon",
+      "source_quote": "SKYWATCH INCIDENT REPORT | PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 28,
+        "len": 41,
+        "exact": false,
+        "matched": "MARY CODE: UNIDENTIFIED AERIAL PHENOMENON"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "callsign",
+      "value": "UAL574",
+      "source_quote": "Callsign: UAL574",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight Level 370 (37,000 feet)",
+      "source_quote": "NE bound at FL370",
+      "citation_offset": {
+        "offset": 368,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Twinkling lights moving from low to high on the horizon, described as celestial",
+      "source_quote": "twinkling lights traveling from low on the horizon to high on the horizon and described as a celestial phenomenon",
+      "citation_offset": {
+        "offset": 430,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_direction",
+      "value": "Off the front side of the aircraft",
+      "source_quote": "an unidentified aerial phenomenon off the front side",
+      "citation_offset": {
+        "offset": 309,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notification",
+      "value": "AWO/TY notified",
+      "source_quote": "AWO/TY notified",
+      "citation_offset": {
+        "offset": 545,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "paged",
+      "value": "YES",
+      "source_quote": "Paged: YES",
+      "citation_offset": {
+        "offset": 272,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "SFO",
+    "ORD",
+    "FSD",
+    "ZMP"
+  ],
+  "dated_events": [
+    "2022-10-15"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon — twinkling lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 574 was operating a San Francisco to Chicago O'Hare route on October 15, 2022.",
+      "source_quote": "Callsign: UAL574 ... Origin: SFO Destination: ORD",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft was at 37,000 feet heading northeast when the phenomenon was observed.",
+      "source_quote": "NE bound at FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 368,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observation occurred approximately 50 nautical miles east of Sioux Falls, South Dakota.",
+      "source_quote": "50 NM E of FSD",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 387,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was described by the crew as twinkling lights moving from low to high on the horizon.",
+      "source_quote": "twinkling lights traveling from low on the horizon to high on the horizon and described as a celestial phenomenon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 430,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO/TY were notified of the incident.",
+      "source_quote": "AWO/TY notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 545,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:31:48.703Z",
+  "qa_completed_at": "2026-06-01T22:32:44.553Z",
+  "timing": {
+    "A": "21.6s",
+    "B": "34.3s",
+    "E": "18.7s"
+  },
+  "public_headline": "FAA Report: Airline Crew Saw Twinkling Lights at 37,000 Feet",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a United Airlines crew's observation of twinkling lights while flying at 37,000 feet near Sioux Falls, South Dakota on October 15, 2022. The crew themselves described the lights as a 'celestial phenomenon,' and the case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under the category \"Unidentified Aerial Phenomenon.\" It records an observation made by the crew of United Airlines flight 574 (callsign UAL574), which was operating a San Francisco (SFO) to Chicago O'Hare (ORD) route on October 15, 2022.\n\nAccording to the report, the aircraft was heading northeast at Flight Level 370 (37,000 feet), approximately 50 nautical miles east of Sioux Falls, South Dakota, when the crew observed something off the front of the aircraft. They described it as twinkling lights moving from low on the horizon to high on the horizon. Notably, the crew themselves characterised what they saw as a \"celestial phenomenon\" — a term that suggests stars, satellites, or a similar prosaic explanation.\n\nThe FAA's internal notification process was triggered: AWO/TY were notified, and the report indicates the incident was paged out (marked \"Paged: YES\"). However, the case is now marked \"Closed\" with no resolution or explanation recorded in the document. The tail number field is blank, which limits the ability to independently verify which specific aircraft was involved.\n\nThe report is a single-page administrative filing. There is no indication of corroborating radar data, no additional witness accounts, and no follow-up analysis included in the released material.",
+  "public_caveats": [
+    "This is a single-source report based solely on the crew's observation — no radar data or independent corroboration is included.",
+    "The crew themselves described the lights as a 'celestial phenomenon,' which suggests they may have considered a conventional explanation such as stars or satellites.",
+    "The case is marked 'Closed' with no resolution or explanation, so we do not know whether the FAA investigated further or simply filed the report.",
+    "The aircraft tail number is blank, limiting independent verification of the specific flight.",
+    "The notification recipients (AWO/TY) are not explained in the document — their roles in the FAA's process are unclear from this record alone."
+  ]
+}

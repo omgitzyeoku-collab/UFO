@@ -1,0 +1,285 @@
+{
+  "sha256": "0ff06f6400954adfe19988f5910ccc32fd76fc3969cd7745729b26a6c3cf9f02",
+  "title": "FAA UAP record 237UAP00278",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon.",
+  "core_summary": "On 21 July 2023 at 04:40, a Southwest Airlines Boeing 737 (callsign SWA121) flying westbound at FL240 reported an orange light approximately 100 nautical miles to its left side, near the Mexico border. The crew took no evasive action. NORAD was contacted but reported negative results on their systems.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar or sensor data mentioned.",
+    "NORAD check returned negative — the object was not detected on military systems.",
+    "Distance of 100NM from the aircraft means the observation was at extreme visual range, making identification inherently uncertain.",
+    "Case is marked Closed with no resolution or identification provided."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time",
+      "value": "2023-07-21 at 04:40",
+      "source_quote": "Date: 04:40 07/21/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "SWA121",
+      "source_quote": "Callsign: SWA121",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737",
+      "source_quote": "Aircraft: B737",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "Southwest Airlines (SWA)",
+      "source_quote": "Operator: SWA",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 246,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin",
+      "value": "PHX (Phoenix)",
+      "source_quote": "Origin: PHX",
+      "citation_offset": {
+        "offset": 200,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination",
+      "value": "BUR (Burbank)",
+      "source_quote": "Destination: BUR",
+      "citation_offset": {
+        "offset": 212,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL240 (24,000 feet)",
+      "source_quote": "W bound at FL240",
+      "citation_offset": {
+        "offset": 387,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Position",
+      "value": "20NM east of Palm Springs (PSP)",
+      "source_quote": "20NM E of PSP",
+      "citation_offset": {
+        "offset": 405,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "1 orange colored light near the Mexico border at approximately FL240",
+      "source_quote": "described as 1 orange colored light near the Mexico border at approximately FL240",
+      "citation_offset": {
+        "offset": 447,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Distance from aircraft",
+      "value": "Approximately 100NM off the left side",
+      "source_quote": "approximately 100NM off the left side",
+      "citation_offset": {
+        "offset": 343,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "No evasive action taken",
+      "citation_offset": {
+        "offset": 530,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NORAD check",
+      "value": "Negative results",
+      "source_quote": "HQ DEN requested NORAD to check their systems, negative results",
+      "citation_offset": {
+        "offset": 555,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZLA (Los Angeles ARTCC)",
+      "source_quote": "Reporting Facility: ZLA",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "PHX",
+    "BUR",
+    "PSP",
+    "Mexico border",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-07-21"
+  ],
+  "objects_described": [
+    "Boeing 737 (SWA121)",
+    "1 orange colored light (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Southwest Airlines B737 on a Phoenix-to-Burbank commercial flight reported a UAP on 21 July 2023.",
+      "source_quote": "Callsign: SWA121 ... Origin: PHX Destination: BUR",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The phenomenon was described as a single orange light near the Mexico border at approximately FL240.",
+      "source_quote": "described as 1 orange colored light near the Mexico border at approximately FL240",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 447,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 20 nautical miles east of Palm Springs.",
+      "source_quote": "20NM E of PSP",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 405,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD was asked to check their systems and returned negative results.",
+      "source_quote": "HQ DEN requested NORAD to check their systems, negative results",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 555,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the crew.",
+      "source_quote": "No evasive action taken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 530,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:57:16.207Z",
+  "qa_completed_at": "2026-06-02T00:57:49.863Z",
+  "timing": {
+    "A": "19.1s",
+    "B": "14.6s",
+    "E": "17.1s"
+  },
+  "public_headline": "Southwest Airlines Crew Reported Orange Light Near Mexico Border in 2023",
+  "public_tldr": "This FAA incident report documents a Southwest Airlines Boeing 737 crew sighting of a single orange light near the Mexico border on 21 July 2023. NORAD checked its systems and found nothing. The case was closed without identification or explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — the system the Federal Aviation Administration uses to log pilot sightings of unidentified aerial phenomena (UAP). It records an event on 21 July 2023 at 04:40, involving a Southwest Airlines Boeing 737 flying from Phoenix to Burbank under the callsign SWA121.\n\nThe aircraft was westbound at 24,000 feet, about 20 nautical miles east of Palm Springs, California, when the crew reported seeing a single orange-coloured light approximately 100 nautical miles off their left side, near the Mexico border. The light appeared to be at roughly the same altitude as the aircraft. The crew did not take evasive action.\n\nThe FAA's Denver headquarters asked NORAD — the joint US-Canadian military command responsible for aerospace monitoring — to check their systems. NORAD reported negative results, meaning the object did not appear on military radar or sensors.\n\nThe case was reported through the Los Angeles Air Route Traffic Control Centre (ZLA) and is marked as closed. No identification or explanation for the light was provided in the document. There is little evidence of redaction in this record.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar, sensor, or photographic evidence mentioned.",
+    "NORAD's check returned negative, meaning whatever the crew saw did not register on military tracking systems.",
+    "The reported distance of 100 nautical miles (about 115 miles) is extreme visual range, making reliable identification from the cockpit very difficult.",
+    "The case is marked closed with no resolution — the FAA did not identify or explain the light.",
+    "The document contains minimal redaction, but also minimal detail — it is a brief incident log, not an investigation report."
+  ]
+}

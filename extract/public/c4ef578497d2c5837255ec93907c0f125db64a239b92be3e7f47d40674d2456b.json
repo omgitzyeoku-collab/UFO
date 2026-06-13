@@ -1,0 +1,241 @@
+{
+  "sha256": "c4ef578497d2c5837255ec93907c0f125db64a239b92be3e7f47d40674d2456b",
+  "title": "FAA UAP record 237UAP00140",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon sighting.",
+  "core_summary": "On December 17, 2022, the crew of United Airlines flight 1126 (an A320 flying from Phoenix to Chicago O'Hare) reported seeing an unidentified aerial phenomenon while eastbound at 37,000 feet, approximately 21 nautical miles north of Kansas City. The phenomenon was described as red, green, and white lights fading in and out high above the aircraft, with a note that they were possibly satellites.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation with no corroborating sensor data mentioned.",
+    "The report itself notes 'possible satellites' as a prosaic explanation, suggesting the reporting facility considered a conventional cause likely.",
+    "Case status is 'Closed' with no indication of further investigation or follow-up findings.",
+    "No tail number is recorded, which limits independent verification of the specific aircraft involved."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2022-12-17 at 09:55 UTC",
+      "source_quote": "Date: 09:55 12/17/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "UAL1126",
+      "source_quote": "Callsign: UAL1126",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Airbus A320",
+      "source_quote": "Aircraft: A320",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "United Airlines (UAL)",
+      "source_quote": "Operator: UAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Phoenix (PHX) to Chicago O'Hare (ORD)",
+      "source_quote": "Origin: PHX Destination: ORD",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight Level 370 (37,000 feet)",
+      "source_quote": "E bound at FL370",
+      "citation_offset": {
+        "offset": 434,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "21 nautical miles north of Kansas City (MCI)",
+      "source_quote": "21NM N MCI",
+      "citation_offset": {
+        "offset": 452,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "Red, green, and white lights fading in and out, high above the aircraft",
+      "source_quote": "red, green, and white lights fading in and out, high above",
+      "citation_offset": {
+        "offset": 504,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Possible explanation noted",
+      "value": "Satellites",
+      "source_quote": "Possible satellites",
+      "citation_offset": {
+        "offset": 564,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZKC (Kansas City ARTCC)",
+      "source_quote": "Reporting Facility: ZKC",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "ZKC-M-2022/12/17-0001",
+      "source_quote": "MOR ID: ZKC-M-2022/12/17-0001",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "PHX",
+    "ORD",
+    "MCI",
+    "ZKC"
+  ],
+  "dated_events": [
+    "2022-12-17"
+  ],
+  "objects_described": [
+    "A320 commercial aircraft",
+    "Unidentified aerial phenomenon (red, green, and white lights fading in and out)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 1126 was operating an A320 from Phoenix to Chicago O'Hare on December 17, 2022",
+      "source_quote": "Callsign: UAL1126 ... Aircraft: A320 ... Origin: PHX Destination: ORD",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed red, green, and white lights fading in and out above their altitude of 37,000 feet near Kansas City",
+      "source_quote": "red, green, and white lights fading in and out, high above",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 504,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FAA noted the lights were possibly satellites",
+      "source_quote": "Possible satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 564,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported through Kansas City ARTCC and a Mandatory Occurrence Report was initiated",
+      "source_quote": "Reporting Facility: ZKC ... MOR Init: YES",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 2,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:48:27.525Z",
+  "qa_completed_at": "2026-06-01T22:49:06.218Z",
+  "timing": {
+    "A": "19.7s",
+    "B": "19.0s",
+    "E": "17.4s"
+  },
+  "public_headline": "United Airlines Crew Reported Unexplained Lights Above 37,000 Feet Near Kansas City",
+  "public_tldr": "An FAA incident report documents the crew of United Airlines flight 1126, an Airbus A320 flying from Phoenix to Chicago O'Hare, reporting red, green, and white lights fading in and out high above their aircraft at 37,000 feet on December 17, 2022, roughly 21 nautical miles north of Kansas City. The FAA noted the lights were possibly satellites and closed the case with no further investigation indicated.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standard form used when pilots report unidentified aerial phenomena to air traffic control. It was filed through Kansas City Air Route Traffic Control Center (ZKC) under Mandatory Occurrence Report ID ZKC-M-2022/12/17-0001.\n\nOn December 17, 2022, at 09:55 UTC, the crew of United Airlines flight 1126 — an Airbus A320 en route from Phoenix (PHX) to Chicago O'Hare (ORD) — observed something unusual while flying eastbound at 37,000 feet. Approximately 21 nautical miles north of Kansas City, they reported seeing red, green, and white lights fading in and out, positioned high above the aircraft.\n\nThe report includes a note that the lights were \"possible satellites,\" suggesting the reporting facility itself considered a conventional explanation likely. No corroborating sensor data, radar returns, or additional witness reports are mentioned in the document.\n\nThe case is marked as closed. There is no indication of follow-up investigation or additional findings. No tail number for the specific aircraft was recorded in the report. Redaction levels in the document appear low — the record is brief rather than censored.",
+  "public_caveats": [
+    "This is a single-source report based entirely on aircrew visual observation, with no radar data, photographs, or other sensor evidence mentioned.",
+    "The FAA's own report notes 'possible satellites' as a likely conventional explanation for the lights.",
+    "The case was closed with no indication of follow-up investigation or additional analysis.",
+    "No aircraft tail number was recorded, which limits the ability to independently verify the specific flight involved.",
+    "The document is a short administrative filing, not a detailed investigation — its brevity reflects its nature, not redaction."
+  ]
+}

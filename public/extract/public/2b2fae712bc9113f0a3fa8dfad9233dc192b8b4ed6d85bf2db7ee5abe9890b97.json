@@ -1,0 +1,226 @@
+{
+  "sha256": "2b2fae712bc9113f0a3fa8dfad9233dc192b8b4ed6d85bf2db7ee5abe9890b97",
+  "title": "FAA UAP record 237UAP00343",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot visual observation; no corroborating radar or sensor data.",
+    "No tail number recorded, limiting independent verification of the specific flight.",
+    "Case is marked Closed with no resolution or identification noted.",
+    "The bright light at high altitude could have mundane explanations (satellite, astronomical object, high-altitude aircraft) not explored in this report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time",
+      "value": "2024-01-21 13:18",
+      "source_quote": "Date: 13:18 01/21/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "XLJ411",
+      "source_quote": "Callsign: XLJ411",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "XLJ (Commercial)",
+      "source_quote": "Operator: XLJ",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "12 o'clock, 10NM NW of PSP",
+      "source_quote": "from the 12 o'clock position while SE bound climbing to FL410, 10NM NW of PSP",
+      "citation_offset": {
+        "offset": 387,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Bright light, turning then stationary, significantly higher than aircraft",
+      "source_quote": "a bright light turning and then stationary at times significantly higher than the aircraft",
+      "citation_offset": {
+        "offset": 493,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive manoeuvres",
+      "value": "None required",
+      "source_quote": "No evasive maneuvers required",
+      "citation_offset": {
+        "offset": 585,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 616,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "ZLA-M-2024/01/21-0001",
+      "source_quote": "MOR ID: ZLA-M-2024/01/21-0001",
+      "citation_offset": {
+        "offset": 297,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "VNY",
+    "TUS",
+    "PSP",
+    "DEN",
+    "ZLA"
+  ],
+  "dated_events": [
+    "2024-01-21"
+  ],
+  "objects_described": [
+    "Bright light UAP — turning then stationary, significantly higher than aircraft altitude"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Learjet 40 crew observed a bright light at 12 o'clock while climbing to FL410 southeast-bound, 10NM northwest of Palm Springs.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon from the 12 o'clock position while SE bound climbing to FL410, 10NM NW of PSP.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 335,
+        "len": 130,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The light was turning and at times stationary, positioned significantly higher than the aircraft.",
+      "source_quote": "The unknown phenomenon was a bright light turning and then stationary at times significantly higher than the aircraft.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 466,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive manoeuvres were taken.",
+      "source_quote": "No evasive maneuvers required.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 585,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon did not appear on ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 616,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:58:37.915Z",
+  "qa_completed_at": "2026-06-02T01:59:17.973Z",
+  "timing": {
+    "A": "21.2s",
+    "B": "18.8s",
+    "E": "17.5s"
+  },
+  "public_headline": "FAA Report: Pilot Spots Unexplained Bright Light Near Palm Springs",
+  "public_tldr": "This is an FAA SKYWATCH incident report from January 2024 documenting a commercial pilot's sighting of a bright, unidentified light well above their aircraft near Palm Springs, California. The object did not appear on air traffic control radar, no evasive action was needed, and the case was closed without explanation.",
+  "public_narrative": "On 21 January 2024, the crew of a commercial flight operating under callsign XLJ411 reported an unidentified aerial phenomenon to the Federal Aviation Administration. The aircraft was climbing to 41,000 feet on a southeast heading, approximately 10 nautical miles northwest of Palm Springs (PSP), when the crew spotted something unusual directly ahead at the 12 o'clock position.\n\nThe crew described a bright light that appeared to turn and then remain stationary at times. It was positioned significantly higher than their aircraft — meaning above 41,000 feet. No evasive manoeuvres were required, and the sighting did not affect the flight's safety.\n\nAir traffic control checked their radar systems but found nothing. The FAA logged the event under its SKYWATCH programme, which tracks unidentified aerial phenomena reported by pilots and controllers. The incident was assigned tracking number ZLA-M-2024/01/21-0001 under the Los Angeles Air Route Traffic Control Center (ZLA).\n\nThe case is now marked as closed. The FAA did not record any identification or resolution — the light remains unexplained in the official record. No tail number for the aircraft was logged, which limits the ability to independently verify the specific flight.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the pilot's visual observation. No radar, infrared, or other sensor data corroborates the sighting.",
+    "The case was closed without any identification or explanation of what the light was.",
+    "A bright, high-altitude light has several possible mundane explanations — satellites, astronomical objects, or high-altitude aircraft — none of which were explored in this report.",
+    "No aircraft tail number was recorded, making independent verification of the flight difficult.",
+    "The document shows low evidence of redaction, meaning what you see is close to the full record — but the record itself is brief."
+  ]
+}

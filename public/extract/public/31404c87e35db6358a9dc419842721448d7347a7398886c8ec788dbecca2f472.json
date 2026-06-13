@@ -1,0 +1,194 @@
+{
+  "sha256": "31404c87e35db6358a9dc419842721448d7347a7398886c8ec788dbecca2f472",
+  "title": "FAA UAP record 237UAP00360",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data.",
+    "No sensor or photographic evidence mentioned — visual observation only.",
+    "Case is marked closed with no resolution or explanation provided.",
+    "The objects at FL490 (~49,000 ft) would be above typical commercial traffic ceilings, but some military or experimental aircraft operate at that altitude.",
+    "Tail number and operator fields are blank, limiting independent verification of the reporting aircraft."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "date_time",
+      "value": "2024-02-24 at 02:43",
+      "source_quote": "Date: 02:43 02/24/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N5430G",
+      "source_quote": "Callsign: N5430G",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 254,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "MBPV",
+      "source_quote": "Origin: MBPV",
+      "citation_offset": {
+        "offset": 207,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Two white lights, appeared stationary at approximately FL490",
+      "source_quote": "2 white lights that appeared stationary at approximately FL490",
+      "citation_offset": {
+        "offset": 469,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 533,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZJX-M-2024/02/23-0005",
+      "source_quote": "MOR ID: ZJX-M-2024/02/23-0005",
+      "citation_offset": {
+        "offset": 300,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MBPV",
+    "EWR",
+    "ILM",
+    "ZJX",
+    "DEN"
+  ],
+  "dated_events": [
+    "02/24/2024"
+  ],
+  "objects_described": [
+    "Two stationary white lights at approximately FL490"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Gulfstream V flying at 45,000 feet observed two stationary white lights at approximately 49,000 feet, directly ahead while northbound.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon 12 O'clock while N bound at FL450, 140 NM S of ILM. The unknown phenomenon was 2 white lights that appeared stationary at approximately FL490.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 338,
+        "len": 194,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was not detected by ATC radar systems.",
+      "source_quote": "The UAP was not observed on ATC facility radar system.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 533,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 140 nautical miles south of Wilmington, NC.",
+      "source_quote": "140 NM S of ILM",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 425,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from MBPV and was destined for Newark (EWR).",
+      "source_quote": "Origin: MBPV Destination: EWR",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 207,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:14:05.642Z",
+  "qa_completed_at": "2026-06-02T02:14:46.847Z",
+  "timing": {
+    "A": "20.8s",
+    "B": "20.4s",
+    "E": "15.8s"
+  },
+  "public_headline": "FAA Report: Pilot Spotted Two Unexplained White Lights at 49,000 Feet",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a general aviation pilot's sighting of two stationary white lights at approximately 49,000 feet while flying northbound toward Newark. The objects were not detected on air traffic control radar, and the FAA closed the case without explanation.",
+  "public_narrative": "On 24 February 2024, a general aviation aircraft with callsign N5430G was flying northbound at 45,000 feet, roughly 140 nautical miles south of Wilmington, North Carolina (airport code ILM). The flight had departed from MBPV and was headed to Newark (EWR). At 02:43, the pilot reported seeing two white lights directly ahead that appeared stationary at approximately FL490 — flight level 490, or about 49,000 feet.\n\nThe FAA logged the sighting under its SKYWATCH programme as record 237UAP00360, with a corresponding Mandatory Occurrence Report ID of ZJX-M-2024/02/23-0005. Air traffic control checked their radar systems but did not detect anything at the reported location.\n\nThe case is now marked closed. The FAA provided no resolution or explanation for what the pilot observed. The tail number and operator fields in the report are blank, which limits independent verification of the reporting aircraft.\n\nThe altitude is notable: 49,000 feet sits above the ceiling of most commercial airliners, though some military and experimental aircraft do operate at that height. Without radar corroboration or any sensor data, the report rests entirely on the pilot's visual observation.",
+  "public_caveats": [
+    "This is a single-source pilot observation — no radar, photographic, or sensor evidence corroborates the sighting.",
+    "The FAA closed the case without providing any explanation or identification of the objects.",
+    "The tail number and operator fields are blank in the report, making it harder to independently verify details about the reporting aircraft.",
+    "Objects at approximately 49,000 feet are above typical commercial traffic but within the operating range of some military or experimental aircraft.",
+    "The report's redaction level is assessed as low, but the absence of detail (no resolution, no follow-up) means there is simply little information rather than withheld information."
+  ]
+}

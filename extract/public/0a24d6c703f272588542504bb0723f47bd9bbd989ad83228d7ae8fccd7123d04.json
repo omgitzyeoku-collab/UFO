@@ -1,0 +1,227 @@
+{
+  "sha256": "0a24d6c703f272588542504bb0723f47bd9bbd989ad83228d7ae8fccd7123d04",
+  "title": "FAA UAP record 237UAP00461",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On 11 February 2023, the crew of Delta flight 384 (a Boeing 737-800 flying from San Diego to New York JFK) reported lights circling off the left side of the aircraft at the same altitude or higher while eastbound at flight level 370 near Iowa City, Iowa. Chicago Air Route Traffic Control Center relayed the report. The FAA noted that similar phenomena had been reported the previous week and were determined to be a chain of satellites.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The FAA itself notes that similar prior reports were attributed to satellite chains (likely Starlink), suggesting a prosaic explanation.",
+    "This is a preliminary information report, not a formal investigation conclusion.",
+    "Single-source observation from flight crew with no corroborating sensor data mentioned.",
+    "No follow-up investigation or final determination is documented in this record."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2/11/2023 at 03:07 CST",
+      "source_quote": "Date: 2/11/2023 3:07:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight",
+      "value": "Delta 384 (DAL384)",
+      "source_quote": "DAL384 UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 73,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737-800 (B738)",
+      "source_quote": "DELTA 384, B738, SAN - JFK",
+      "citation_offset": {
+        "offset": 264,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "San Diego (SAN) to New York JFK",
+      "source_quote": "B738, SAN - JFK",
+      "citation_offset": {
+        "offset": 275,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 370 (37,000 feet)",
+      "source_quote": "E BOUND AT FL370",
+      "citation_offset": {
+        "offset": 364,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Vicinity of Iowa City, Iowa",
+      "source_quote": "VCNTY IOWA CITY",
+      "citation_offset": {
+        "offset": 381,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation",
+      "value": "Lights circling off the left side of the aircraft at same altitude or higher",
+      "source_quote": "REPORTED LIGHTS CIRCLING OFF LEFT SIDE AT SAME ALTITUDE OR HIGHER",
+      "citation_offset": {
+        "offset": 292,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Chicago ARTCC",
+      "source_quote": "CHICAGO ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 242,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Prior similar report outcome",
+      "value": "Similar phenomena reported the previous week were determined to be a satellite chain",
+      "source_quote": "SIMILAR PHENOMENA WERE REPORTED LAST WEEK AND WERE DETERMINED TO BE A CHAIN OF SATELLITES",
+      "citation_offset": {
+        "offset": 398,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Law enforcement officers were not notified",
+      "source_quote": "LEOS NOT NOTIFIED",
+      "citation_offset": {
+        "offset": 489,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "41.6578°N, 91.5346°W",
+      "source_quote": "Latitude: 41.657825699999997",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Iowa City, IA",
+    "San Diego (SAN)",
+    "New York (JFK)"
+  ],
+  "dated_events": [
+    "2/11/2023",
+    "02-11-2023"
+  ],
+  "objects_described": [
+    "Lights circling at or above FL370",
+    "Boeing 737-800 (Delta 384)",
+    "Chain of satellites (referenced as prior explanation)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight 384 crew reported lights circling off the left side of their aircraft near Iowa City while at 37,000 feet on 11 February 2023.",
+      "source_quote": "DELTA 384, B738, SAN - JFK, REPORTED LIGHTS CIRCLING OFF LEFT SIDE AT SAME ALTITUDE OR HIGHER WHILE E BOUND AT FL370 VCNTY IOWA CITY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 264,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Similar phenomena reported the previous week were attributed to a chain of satellites.",
+      "source_quote": "SIMILAR PHENOMENA WERE REPORTED LAST WEEK AND WERE DETERMINED TO BE A CHAIN OF SATELLITES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 398,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified about this incident.",
+      "source_quote": "LEOS NOT NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 489,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was processed through the FAA Washington Operations Center.",
+      "source_quote": "Washington Operations Center",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 0,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T03:08:35.224Z",
+  "qa_completed_at": "2026-06-02T03:09:08.953Z",
+  "timing": {
+    "A": "18.9s",
+    "B": "14.9s",
+    "E": "17.0s"
+  },
+  "public_headline": "Delta 384 crew reported circling lights over Iowa at 37,000 feet",
+  "public_tldr": "An FAA incident report documents the crew of Delta flight 384 observing lights circling off the left side of their Boeing 737-800 at 37,000 feet near Iowa City on 11 February 2023. The FAA noted that similar reports the previous week had been attributed to a chain of satellites.",
+  "public_narrative": "On 11 February 2023 at 03:07 CST, the crew of Delta flight 384 — a Boeing 737-800 flying from San Diego to New York JFK — reported unusual lights while cruising eastbound at 37,000 feet near Iowa City, Iowa. The lights were described as circling off the left side of the aircraft at the same altitude or higher. Chicago Air Route Traffic Control Center relayed the report to the FAA Washington Operations Center.\n\nThe FAA's report includes a notable detail: similar phenomena had been reported the previous week and were determined to be a chain of satellites — almost certainly a Starlink train, though the document does not name the satellite constellation. Law enforcement was not notified about the incident.\n\nThe document is a preliminary information report from the FAA's Washington Operations Center. It records what the crew saw and how it was routed through air traffic control, but it contains no formal investigation, no final determination about what the lights were, and no mention of corroborating radar or sensor data. The record is not heavily redacted — the information is simply limited in scope, as is typical for this type of operational log.\n\nThe coordinates in the report place the sighting at approximately 41.66°N, 91.53°W, consistent with the Iowa City area. No people are named in the document beyond the flight and facility identifiers.",
+  "public_caveats": [
+    "This is a preliminary operational log, not a formal investigation report. No conclusion about the nature of the lights is reached in this document.",
+    "The observation comes from a single source — the flight crew — with no corroborating sensor or radar data mentioned.",
+    "The FAA itself notes that similar reports from the prior week were attributed to a satellite chain, suggesting a prosaic explanation.",
+    "No follow-up investigation or final determination is documented in this record.",
+    "Law enforcement was not notified, which is standard for reports not involving a safety hazard or security threat."
+  ]
+}

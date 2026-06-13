@@ -1,0 +1,267 @@
+{
+  "sha256": "712d18aeccb76dd59b6713884f9152c25f9ebd6875c087587b48b995c5cb6806",
+  "title": "FAA UAP record 237UAP00276",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On July 21, 2023, the crew of American Airlines flight AAL266 (an Airbus A321 flying from Lihue, Hawaii to Los Angeles) reported seeing multiple lights that appeared to separate while eastbound at 14,000 feet, approximately 16 nautical miles west-southwest of Camarillo (CMA). NORAD was contacted to check their systems but returned negative results, and no evasive action was taken by the aircraft.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew observation with no corroborating radar or sensor data mentioned.",
+    "NORAD check returned negative, meaning no tracked object was detected on military systems.",
+    "The incident is marked as closed with no further investigation noted.",
+    "The description ('multiple lights appearing to separate') is vague and could correspond to various phenomena including debris re-entry, flares, or other conventional explanations."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-07-21T04:53",
+      "source_quote": "Date: 04:53 07/21/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "AAL266",
+      "source_quote": "Callsign: AAL266",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "A321",
+      "source_quote": "Aircraft: A321",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "LIH (Lihue, Hawaii)",
+      "source_quote": "Origin: LIH",
+      "citation_offset": {
+        "offset": 200,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "LAX (Los Angeles)",
+      "source_quote": "Destination: LAX",
+      "citation_offset": {
+        "offset": 212,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "14,000 feet",
+      "source_quote": "E bound at 14,000 feet",
+      "citation_offset": {
+        "offset": 349,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location_of_sighting",
+      "value": "16NM WSW of CMA (Camarillo)",
+      "source_quote": "16NM WSW of CMA",
+      "citation_offset": {
+        "offset": 373,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "description_of_phenomenon",
+      "value": "Multiple lights appearing to separate",
+      "source_quote": "The unknown phenomenon was described as multiple lights appearing to separate",
+      "citation_offset": {
+        "offset": 390,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "No evasive action taken",
+      "citation_offset": {
+        "offset": 469,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NORAD_check",
+      "value": "Negative results",
+      "source_quote": "HQ DEN requested NORAD to check their systems, negative results",
+      "citation_offset": {
+        "offset": 494,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZLA (Los Angeles ARTCC)",
+      "source_quote": "Reporting Facility: ZLA",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "LIH",
+    "LAX",
+    "CMA",
+    "ZLA"
+  ],
+  "dated_events": [
+    "2023-07-21"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as multiple lights appearing to separate",
+    "A321 commercial aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight AAL266 was operating a commercial flight from Lihue to Los Angeles on an A321 aircraft.",
+      "source_quote": "Callsign: AAL266 ... Aircraft: A321 ... Origin: LIH Destination: LAX ... Operator Type: Commercial",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed multiple lights that appeared to separate while at 14,000 feet, 16 nautical miles west-southwest of Camarillo.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while E bound at 14,000 feet, 16NM WSW of CMA. The unknown phenomenon was described as multiple lights appearing to separate.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 177,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft.",
+      "source_quote": "No evasive action taken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 469,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD was asked to check their systems and found nothing.",
+      "source_quote": "HQ DEN requested NORAD to check their systems, negative results",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 494,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Aviation Weather Office (AWO) was advised of the incident.",
+      "source_quote": "AWO advised",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 559,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:55:29.762Z",
+  "qa_completed_at": "2026-06-02T00:56:04.460Z",
+  "timing": {
+    "A": "19.9s",
+    "B": "14.8s",
+    "E": "19.5s"
+  },
+  "public_headline": "American Airlines Crew Reported Unexplained Lights Near Los Angeles in 2023",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of American Airlines flight AAL266 on 21 July 2023, who observed multiple lights that appeared to separate while approaching Los Angeles at 14,000 feet. NORAD checked its systems and found nothing; the case was closed with no further investigation noted.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena (UAP) from pilots and air traffic controllers. It was filed by the Los Angeles Air Route Traffic Control Centre (ZLA) on 21 July 2023.\n\nThe crew of American Airlines flight AAL266, an Airbus A321 flying from Lihue, Hawaii to Los Angeles, reported seeing an unidentified aerial phenomenon while eastbound at 14,000 feet, roughly 16 nautical miles west-southwest of Camarillo, California. They described the phenomenon as multiple lights that appeared to separate. The crew did not take any evasive action.\n\nFAA headquarters in Denver asked NORAD (North American Aerospace Defense Command) to check their systems for any tracked objects. NORAD returned negative results — meaning nothing was detected on military radar or sensors. The Aviation Weather Office was also advised of the incident.\n\nThe report is marked as closed. There is no indication of follow-up investigation, no corroborating radar data, and no identified explanation for what the crew observed. The level of redaction in this document is low — the core details are intact and readable.",
+  "public_caveats": [
+    "This is a single-source report based entirely on what the flight crew saw with their eyes. No radar data, photographs, or sensor readings are mentioned.",
+    "NORAD's check returned negative, meaning no object was tracked on military systems at that time and location. This does not confirm or deny the sighting — it means nothing was detected electronically.",
+    "The description ('multiple lights appearing to separate') is vague and could correspond to several conventional explanations, including satellite debris re-entry, military flares, or other known phenomena.",
+    "The case is marked closed with no further investigation noted, so no official conclusion was reached about what the lights were.",
+    "There is minimal redaction in this document — the key facts (date, location, altitude, description, NORAD response) are all present and legible."
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "sha256": "14edd640944094859f68f7563106f35da5bdb873adcb0d4497cd5c76b79ab8f1",
+  "title": "FAA UAP record 237UAP00453",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On February 3, 2023, the crew of United Airlines flight 1580 (a Boeing 737-800 flying from Chicago O'Hare to Vancouver, Canada) reported observing orbiting lights from above while flying west-northwest at flight level 380 (38,000 feet), approximately 60 nautical miles east of Billings, Montana. No evasive action was taken and no law enforcement notification was reported. The report was relayed by Salt Lake City Air Route Traffic Control Center.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary FAA operations notification, not a full investigation report.",
+    "The description is a single-source account from the flight crew relayed through ATC — no corroborating radar or sensor data is included.",
+    "The document is labelled 'PRELIM INFO' indicating it may not represent a final or verified assessment.",
+    "Vancouver is misspelled as 'VANCOVER' in the source, suggesting this was a rapid transcription."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "United Airlines 1580 (UAL1580)",
+      "source_quote": "UAL1580 UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 72,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737-800 (B738)",
+      "source_quote": "UNITED 1580, B738",
+      "citation_offset": {
+        "offset": 263,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Chicago O'Hare (ORD) to Vancouver, Canada (CYVR)",
+      "source_quote": "ORD - VANCOVER, CANADA (CYVR)",
+      "citation_offset": {
+        "offset": 282,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time",
+      "value": "February 3, 2023, 21:39 MST",
+      "source_quote": "2/3/2023 9:39:00 PM (-07 MST)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 380 (38,000 feet)",
+      "source_quote": "AT FL380",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "60 nautical miles east of Billings, Montana",
+      "source_quote": "60 E BIL",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Coordinates",
+      "value": "Lat 45.801097, Lon -107.301400",
+      "source_quote": "Latitude: 45.801096970000003",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation",
+      "value": "Orbiting lights from above",
+      "source_quote": "REPORTED ORBITING LIGHTS FROM ABOVE",
+      "citation_offset": {
+        "offset": 313,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of travel",
+      "value": "West-northwest bound",
+      "source_quote": "WHILE WNW BOUND",
+      "citation_offset": {
+        "offset": 349,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 384,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LAW ENFORCEMENT NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 412,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Salt Lake City ARTCC",
+      "source_quote": "SALT LAKE CITY ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 234,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report source",
+      "value": "FAA Operations (Washington Operations Center)",
+      "source_quote": "PRELIM INFO FROM FAA OPS",
+      "citation_offset": {
+        "offset": 172,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Billings, Montana",
+    "Salt Lake City",
+    "Chicago O'Hare (ORD)",
+    "Vancouver, Canada (CYVR)"
+  ],
+  "dated_events": [
+    "2/3/2023",
+    "02-03-2023"
+  ],
+  "objects_described": [
+    "Boeing 737-800 (B738)",
+    "Orbiting lights (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 1580 crew reported orbiting lights from above while at 38,000 feet.",
+      "source_quote": "REPORTED ORBITING LIGHTS FROM ABOVE WHILE WNW BOUND AT FL380",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 313,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was approximately 60 nautical miles east of Billings, Montana at the time of the sighting.",
+      "source_quote": "60 E BIL",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 384,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting was relayed through Salt Lake City Air Route Traffic Control Center.",
+      "source_quote": "SALT LAKE CITY ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 234,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T03:01:35.143Z",
+  "qa_completed_at": "2026-06-02T03:02:10.114Z",
+  "timing": {
+    "A": "20.6s",
+    "B": "14.4s",
+    "E": "15.4s"
+  },
+  "public_headline": "United Airlines Crew Reported Orbiting Lights Over Montana in 2023",
+  "public_tldr": "This FAA preliminary notification records that the crew of United Airlines flight 1580, a Boeing 737-800 flying from Chicago to Vancouver, reported seeing orbiting lights from above while cruising at 38,000 feet near Billings, Montana on 3 February 2023. No evasive action was taken and no further investigation is documented here.",
+  "public_narrative": "On the evening of 3 February 2023, the crew of United Airlines flight 1580 — a Boeing 737-800 en route from Chicago O'Hare to Vancouver, Canada — reported an unusual sighting to air traffic control. While flying west-northwest at 38,000 feet, roughly 60 nautical miles east of Billings, Montana, the crew observed what they described as orbiting lights from above.\n\nThe sighting was relayed by the Salt Lake City Air Route Traffic Control Center (ARTCC) to the FAA's Washington Operations Center, which logged it as a preliminary incident notification under reference 237UAP00453. The report notes that no evasive action was taken by the crew and no law enforcement notification was made.\n\nThis document is a brief operational log entry, not a full investigation report. It records only what the flight crew reported through standard air traffic control channels. There is no radar data, sensor corroboration, or follow-up analysis included. The notation \"PRELIM INFO\" on the document confirms it represents an initial record rather than a final assessment.\n\nNo conclusion is offered about what the crew saw. The FAA log simply documents the report as received — orbiting lights observed from above at cruise altitude over Montana — and leaves it at that.",
+  "public_caveats": [
+    "This is a preliminary FAA operations notification, not a full investigation or final report.",
+    "The account comes from a single source — the flight crew — relayed through air traffic control. No corroborating radar or sensor data is included.",
+    "The document is labelled 'PRELIM INFO', meaning it may not represent a verified or final assessment.",
+    "No conclusion is drawn about what the lights were. The FAA log records the crew's report without interpretation.",
+    "Minor transcription errors in the original (e.g. 'VANCOVER' for Vancouver) suggest it was logged quickly during operations."
+  ]
+}

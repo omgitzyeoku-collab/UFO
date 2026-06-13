@@ -1,0 +1,253 @@
+{
+  "sha256": "2237fd73d3eb99c6677de678f69dbcea9a460be46207df9df81d9fd0ac303f8b",
+  "title": "FAA UAP record 237UAP00306",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon.",
+  "core_summary": "On October 19, 2023, a Learjet 45 (callsign N823HL) reported an unidentified aerial phenomenon while descending through flight level 180 inbound to Nantucket (ACK). The object was described as silver, the size of a softball, and moving west/southwest. The incident was reported to Boston Center (ZBW) and the case status is closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The case is marked as closed with no resolution or explanation provided.",
+    "No tail number or operator name is recorded, limiting independent verification of the flight."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2023-10-19 at 11:41",
+      "source_quote": "Date: 11:41 10/19/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Learjet 45 (LJ45)",
+      "source_quote": "Aircraft: LJ45",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft callsign",
+      "value": "N823HL",
+      "source_quote": "Callsign: N823HL",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZBW (Boston Center)",
+      "source_quote": "Reporting Facility: ZBW",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin airport",
+      "value": "PNE (Northeast Philadelphia Airport)",
+      "source_quote": "Origin: PNE",
+      "citation_offset": {
+        "offset": 196,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination airport",
+      "value": "ACK (Nantucket Memorial Airport)",
+      "source_quote": "Destination: ACK",
+      "citation_offset": {
+        "offset": 208,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude at sighting",
+      "value": "Descending through FL180 (approximately 18,000 feet)",
+      "source_quote": "descending through FL180",
+      "citation_offset": {
+        "offset": 385,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Silver, softball-sized, moving west/southwest",
+      "source_quote": "silver and the size of a softball and was moving W/SW bound",
+      "citation_offset": {
+        "offset": 438,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object position relative to aircraft",
+      "value": "Off the right side",
+      "source_quote": "off the right side",
+      "citation_offset": {
+        "offset": 345,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "ACK",
+    "PNE",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-10-19"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon — silver, softball-sized, moving W/SW",
+    "LJ45 (Learjet 45)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Learjet 45 with callsign N823HL reported an unidentified aerial phenomenon while inbound to Nantucket.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the right side while inbound to ACK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 293,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was observed while the aircraft was descending through flight level 180.",
+      "source_quote": "descending through FL180",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 385,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was silver, softball-sized, and moving west/southwest.",
+      "source_quote": "silver and the size of a softball and was moving W/SW bound",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 438,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported to Boston Center (ZBW).",
+      "source_quote": "Reporting Facility: ZBW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from PNE and was destined for ACK.",
+      "source_quote": "Origin: PNE Destination: ACK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 196,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:23:56.144Z",
+  "qa_completed_at": "2026-06-02T01:24:29.304Z",
+  "timing": {
+    "A": "17.4s",
+    "B": "15.8s",
+    "E": "17.8s"
+  },
+  "public_headline": "Learjet Pilot Reports Silver Softball-Sized Object Near Nantucket at 18,000 Feet",
+  "public_tldr": "An FAA incident report documents a Learjet 45 pilot sighting a small, silver, softball-sized object while descending through 18,000 feet on approach to Nantucket on 19 October 2023. The case was reported to Boston Center and closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under the category \"Unidentified Aerial Phenomenon.\" It records an event on 19 October 2023 at 11:41, involving a Learjet 45 (callsign N823HL) flying from Northeast Philadelphia Airport (PNE) to Nantucket Memorial Airport (ACK) as a general aviation flight.\n\nWhile descending through flight level 180 — roughly 18,000 feet — the pilot reported an unidentified object off the right side of the aircraft. The object was described as silver, about the size of a softball, and moving in a west/southwest direction. The sighting was reported to Boston Center (ZBW), the FAA facility responsible for air traffic control in that region.\n\nThe FAA marked the case as closed. The document does not include any resolution, identification of the object, or further investigation notes. There is no corroborating radar data or additional witness testimony in the report.\n\nNo tail number or operator name is recorded in the document beyond the callsign, which limits the ability to independently verify the flight details. The report is a single-page administrative record rather than a detailed investigation file.",
+  "public_caveats": [
+    "This is a single-source pilot report — no radar data, photographs, or additional witnesses are included in the document.",
+    "The case is marked as closed with no identification or explanation of the object provided.",
+    "No operator name or tail number beyond the callsign N823HL is recorded, limiting independent verification.",
+    "The document shows low evidence of redaction, but it is also a brief administrative record rather than a full investigation.",
+    "A single visual sighting from a moving aircraft at 18,000 feet offers limited basis for determining the nature, size, or distance of the object."
+  ]
+}

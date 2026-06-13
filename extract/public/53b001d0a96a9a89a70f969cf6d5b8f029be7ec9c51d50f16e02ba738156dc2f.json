@@ -1,0 +1,258 @@
+{
+  "sha256": "53b001d0a96a9a89a70f969cf6d5b8f029be7ec9c51d50f16e02ba738156dc2f",
+  "title": "FAA UAP record 237UAP00017",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified flying object.",
+  "core_summary": "On 19 August 2012, the pilot-in-command of United Airlines flight 976 (a Boeing 777-200) reported seeing a circular, silver unidentified flying object at approximately 12,500 feet, about 5 nautical miles southeast of GAI. A JetBlue flight 25 miles behind on the same route did not observe the object, and radar playback by EADS found no corroborating targets.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-witness report: only the UAL976 pilot observed the object; a trailing aircraft on the same route did not corroborate",
+    "No radar corroboration from either ADAPT or EADS systems",
+    "The incident date (2012) predates the PURSUE collection's stated 2023 date, suggesting this is a historical record surfaced during the disclosure process",
+    "Report is marked Closed with no further action taken"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting airline and flight",
+      "value": "United Airlines flight UAL976",
+      "source_quote": "Callsign: UAL976",
+      "citation_offset": {
+        "offset": 116,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 777-200",
+      "source_quote": "Aircraft: B772, BOEING, 777-200",
+      "citation_offset": {
+        "offset": 133,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object location",
+      "value": "5 NM southeast of GAI, around 12,500 feet",
+      "source_quote": "sighting an unidentified flying object 5 NM SE of GAI around 12,500 feet",
+      "citation_offset": {
+        "offset": 285,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Circular shape, silver color",
+      "source_quote": "circular shape, silver color",
+      "citation_offset": {
+        "offset": 359,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Trailing aircraft",
+      "value": "JetBlue flight 1260, 25 miles behind, did not see the object",
+      "source_quote": "JBU1260, same route 25 miles behind UAL976 did not see the object",
+      "citation_offset": {
+        "offset": 486,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar findings",
+      "value": "No targets on ADAPT or EADS; radar playback negative",
+      "source_quote": "No targets received on ADAPT or by EADS",
+      "citation_offset": {
+        "offset": 553,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "EADS radar playback result",
+      "value": "Negative findings, no further action",
+      "source_quote": "EADS conducted a playback of RADAR tapes covering the time period of the UFO sighting reported by UAL976 with negative findings, NFA",
+      "citation_offset": {
+        "offset": 600,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "PCT (Potomac TRACON)",
+      "source_quote": "Reporting Facility: PCT",
+      "citation_offset": {
+        "offset": 92,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route origin",
+      "value": "OMDB (Dubai)",
+      "source_quote": "Origin: OMDB",
+      "citation_offset": {
+        "offset": 192,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route destination",
+      "value": "IAD (Washington Dulles)",
+      "source_quote": "Destination: New Destination: IAD",
+      "citation_offset": {
+        "offset": 205,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FAA order referenced",
+      "value": "JO 7110.65U Section 8 paragraph 9-8-1",
+      "source_quote": "FAA Order JO 7110.65U Section 8 paragraph9-8-1",
+      "citation_offset": {
+        "offset": 439,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "GAI",
+    "OMDB",
+    "IAD",
+    "DEN"
+  ],
+  "dated_events": [
+    "2012-08-19"
+  ],
+  "objects_described": [
+    "Circular silver unidentified flying object at ~12,500 feet",
+    "Boeing 777-200 (UAL976)",
+    "JetBlue flight JBU1260",
+    "ADAPT radar system",
+    "EADS radar system"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The pilot-in-command of UAL976 reported a circular, silver UFO at approximately 12,500 feet, 5 NM southeast of GAI.",
+      "source_quote": "PIC reported sighting an unidentified flying object 5 NM SE of GAI around 12,500 feet, circular shape, silver color",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 272,
+        "len": 115,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A JetBlue flight on the same route 25 miles behind did not observe the object.",
+      "source_quote": "JBU1260, same route 25 miles behind UAL976 did not see the object",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 486,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Neither ADAPT nor EADS detected any radar targets corresponding to the sighting.",
+      "source_quote": "No targets received on ADAPT or by EADS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 553,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "EADS conducted a radar tape playback and found nothing, resulting in no further action.",
+      "source_quote": "EADS conducted a playback of RADAR tapes covering the time period of the UFO sighting reported by UAL976 with negative findings, NFA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 600,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reporting procedure followed was prescribed in FAA Order JO 7110.65U Section 8 paragraph 9-8-1.",
+      "source_quote": "PCT was notified to report event as prescribed in FAA Order JO 7110.65U Section 8 paragraph9-8-1",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 389,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T20:47:30.411Z",
+  "qa_completed_at": "2026-06-01T20:48:09.300Z",
+  "timing": {
+    "A": "23.6s",
+    "B": "15.3s",
+    "E": "21.7s"
+  },
+  "public_headline": "United Airlines Pilot Reported Silver Object Near Washington Dulles in 2012",
+  "public_tldr": "This FAA incident report documents a United Airlines Boeing 777 pilot who spotted a circular, silver unidentified flying object at roughly 12,500 feet while approaching Washington Dulles from Dubai in August 2012. A JetBlue flight 25 miles behind on the same route saw nothing, radar systems found no matching targets, and the FAA closed the case with no further action.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — the standard form the agency uses to log pilot sightings of unidentified flying objects. It was filed by Potomac TRACON (PCT), the radar facility that manages air traffic in the Washington, D.C. region, and later surfaced as part of the Department of War's 2023 PURSUE public release of UAP-related records.\n\nOn 19 August 2012, the pilot-in-command of United Airlines flight 976, a Boeing 777-200 flying from Dubai to Washington Dulles, reported seeing a circular, silver object at approximately 12,500 feet, about 5 nautical miles southeast of GAI. The sighting was reported through the procedure laid out in FAA Order JO 7110.65U, which governs how air traffic controllers handle UFO reports.\n\nThe FAA attempted to corroborate the sighting in two ways. First, JetBlue flight 1260, which was on the same route 25 miles behind the United flight, was asked whether its crew saw anything — they did not. Second, two radar systems, ADAPT and EADS, were checked. Neither detected any targets matching the reported object. EADS also conducted a playback of its radar tapes covering the time window and found nothing.\n\nWith no corroboration from a second aircraft and no radar evidence, the FAA closed the report with no further action taken. The document shows minimal redaction.",
+  "public_caveats": [
+    "This is a single-witness report: only the United Airlines pilot saw the object. The JetBlue crew on the same route did not corroborate it.",
+    "Neither of the two radar systems checked (ADAPT and EADS) detected any object matching the sighting, including on tape playback.",
+    "The incident occurred in 2012, a decade before it was included in the 2023 PURSUE disclosure — it is a historical record, not a recent event.",
+    "The FAA closed the case with no further action and no conclusion about what the object was.",
+    "Redaction levels are low, meaning most of the report's content is visible, but the report itself is brief and contains limited detail beyond what is summarised here."
+  ]
+}

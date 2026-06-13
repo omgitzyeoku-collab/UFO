@@ -1,0 +1,289 @@
+{
+  "sha256": "066781c4aaf7273a886b7747ce992e2443ce5558d13237495b187ea3657f5f12",
+  "title": "FAA UAP record 237UAP00290",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation; no radar data, sensor confirmation, or corroborating witness accounts are included.",
+    "The case status is 'Closed' with no resolution or identification provided in the report.",
+    "PCU VOR/waypoint location would need to be cross-referenced with FAA navigation data to establish exact geographic coordinates.",
+    "The size comparison to an Embraer E-145 is a subjective pilot estimate made at altitude and distance, not a measured value."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report — Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "NKS797",
+      "source_quote": "Callsign: NKS797",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 257,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL370 (approx. 37,000 ft)",
+      "source_quote": "E bound at FL370",
+      "citation_offset": {
+        "offset": 411,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "11 nautical miles southwest of PCU",
+      "source_quote": "11NM SW of PCU",
+      "citation_offset": {
+        "offset": 429,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_shape",
+      "value": "Round, black and white, oblong",
+      "source_quote": "a round, black and white oblong object",
+      "citation_offset": {
+        "offset": 472,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_size",
+      "value": "Approximately the size of an Embraer E-145",
+      "source_quote": "approximately the size of an Embraer E-145 aircraft",
+      "citation_offset": {
+        "offset": 511,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_direction",
+      "value": "Westbound",
+      "source_quote": "The object was traveling W bound",
+      "citation_offset": {
+        "offset": 564,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_altitude",
+      "value": "FL360 to FL370 (approx. 36,000–37,000 ft)",
+      "source_quote": "at approximately FL360 to FL370",
+      "citation_offset": {
+        "offset": 597,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None",
+      "source_quote": "No evasive maneuvers and no additional operational impact reported",
+      "citation_offset": {
+        "offset": 630,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZHU-M-2023/08/21-0003",
+      "source_quote": "MOR ID: ZHU-M-2023/08/21-0003",
+      "citation_offset": {
+        "offset": 297,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_side",
+      "value": "Left side of aircraft",
+      "source_quote": "off the left side",
+      "citation_offset": {
+        "offset": 387,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "awo_notified",
+      "value": "Yes",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 698,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "IAH",
+    "FLL",
+    "PCU",
+    "ZHU"
+  ],
+  "dated_events": [
+    "2023-08-21"
+  ],
+  "objects_described": [
+    "Round black and white oblong UAP approximately Embraer E-145 sized",
+    "Embraer E-145 (size reference only)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Spirit Airlines flight NKS797 was operating a commercial route from IAH to FLL on 21 August 2023.",
+      "source_quote": "Callsign: NKS797 ... Origin: IAH Destination: FLL",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed an unidentified object off the left side of the aircraft while eastbound at FL370.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while E bound at FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 335,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was located 11 nautical miles southwest of PCU.",
+      "source_quote": "11NM SW of PCU",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 429,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was described as round, black and white, oblong, and approximately the size of an Embraer E-145.",
+      "source_quote": "a round, black and white oblong object approximately the size of an Embraer E-145 aircraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 472,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was travelling westbound at FL360 to FL370.",
+      "source_quote": "The object was traveling W bound at approximately FL360 to FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 564,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive manoeuvres were taken and no operational impact was reported.",
+      "source_quote": "No evasive maneuvers and no additional operational impact reported",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 630,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO (Aviation Weather Operations or equivalent office) was notified.",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 698,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:08:37.700Z",
+  "qa_completed_at": "2026-06-02T01:09:23.145Z",
+  "timing": {
+    "A": "24.6s",
+    "B": "20.8s",
+    "E": "19.2s"
+  },
+  "public_headline": "Commercial Pilot Reports Oblong Object at 37,000 Feet Near Texas",
+  "public_tldr": "An FAA SKYWATCH incident report documents a Spirit Airlines crew observing a round, black-and-white oblong object — roughly the size of a regional jet — while flying at 37,000 feet on 21 August 2023. The case was closed with no identification or explanation provided.",
+  "public_narrative": "This is an FAA SKYWATCH incident report filed under case number 237UAP00290, categorised as an Unidentified Aerial Phenomenon. It records an observation made by the crew of Spirit Airlines flight NKS797, a commercial service from Houston (IAH) to Fort Lauderdale (FLL), on 21 August 2023.\n\nWhile flying eastbound at flight level 370 (approximately 37,000 feet), the crew reported seeing an object off the left side of the aircraft, located 11 nautical miles southwest of the PCU navigation waypoint. They described it as round, black and white, and oblong in shape — approximately the size of an Embraer E-145 regional jet. The object was travelling westbound (opposite to their direction) at between 36,000 and 37,000 feet.\n\nNo evasive action was taken and no operational impact was reported. The FAA's internal record (MOR ID: ZHU-M-2023/08/21-0003, indicating Houston Center airspace) notes that AWO was notified.\n\nThe case status is listed as Closed. The report contains no resolution, no identification of the object, and no indication that radar data or other sensor evidence was reviewed. There is no mention of corroborating witnesses or follow-up investigation in the document.",
+  "public_caveats": [
+    "This is a single-source report based entirely on one aircrew's visual observation — no radar data, sensor confirmation, or independent witnesses are included.",
+    "The size estimate (comparable to an Embraer E-145) is a subjective judgment made by a pilot at altitude, not a measured value.",
+    "The case is marked 'Closed' with no explanation of what the object was — closure does not imply identification.",
+    "Redaction levels appear low, but the report is brief and contains no analytical assessment or follow-up findings.",
+    "The PCU waypoint location would need cross-referencing with FAA navigation data to pinpoint the exact geographic coordinates of the sighting."
+  ]
+}

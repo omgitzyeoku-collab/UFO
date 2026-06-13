@@ -1,0 +1,294 @@
+{
+  "sha256": "93e7a9f04ed5af5f314ef6725ed9b1acad5245f49a72bfd05a1a27e919d9c247",
+  "title": "FAA UAP record 237UAP00281",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot observation of an unidentified aerial phenomenon.",
+  "core_summary": "On July 31, 2023, United Airlines flight UAL1409 (an A320 operating commercially from Houston IAH to Milwaukee MKE) reported seeing 15 bright lights that appeared and quickly disappeared while flying northeast at flight level 260 near Lufkin, Texas. No evasive action was taken and no law enforcement was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts mentioned",
+    "The report is marked as closed with no indication of follow-up investigation or resolution",
+    "No tail number is recorded, which limits independent verification",
+    "The MOR date (07/30) precedes the incident date (07/31), suggesting the report may have been initiated before the formal incident timestamp or there is a timezone discrepancy"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-07-31T03:09",
+      "source_quote": "Date: 03:09 07/31/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "UAL1409",
+      "source_quote": "Callsign: UAL1409",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "A320",
+      "source_quote": "Aircraft: A320",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "United Airlines (UAL)",
+      "source_quote": "Operator: UAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 258,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "IAH (Houston Intercontinental)",
+      "source_quote": "Origin: IAH",
+      "citation_offset": {
+        "offset": 212,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "MKE (Milwaukee)",
+      "source_quote": "Destination: MKE",
+      "citation_offset": {
+        "offset": 224,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_level",
+      "value": "FL260 (approximately 26,000 feet)",
+      "source_quote": "NE bound at FL260",
+      "citation_offset": {
+        "offset": 408,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location_vicinity",
+      "value": "LFK (Lufkin, Texas)",
+      "source_quote": "in the vicinity of LFK",
+      "citation_offset": {
+        "offset": 427,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "15 bright lights that appeared and quickly disappeared",
+      "source_quote": "described as 15 bright lights that appeared and then quickly disappeared",
+      "citation_offset": {
+        "offset": 478,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_observation",
+      "value": "Off the front of the aircraft",
+      "source_quote": "an unidentified aerial phenomenon off the front",
+      "citation_offset": {
+        "offset": 354,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "No evasive action taken",
+      "citation_offset": {
+        "offset": 552,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None",
+      "source_quote": "No LEO notification",
+      "citation_offset": {
+        "offset": 577,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZFW (Fort Worth Center)",
+      "source_quote": "Reporting Facility: ZFW",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR_ID",
+      "value": "ZFW-M-2023/07/30-0008",
+      "source_quote": "MOR ID: ZFW-M-2023/07/30-0008",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "IAH",
+    "MKE",
+    "LFK",
+    "DEN",
+    "ZFW"
+  ],
+  "dated_events": [
+    "2023-07-31T03:09",
+    "2023/07/30"
+  ],
+  "objects_described": [
+    "A320 commercial aircraft",
+    "15 bright lights (unidentified aerial phenomenon)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight UAL1409 reported a UAP while flying northeast at FL260 near Lufkin, Texas",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the front while NE bound at FL260, in the vicinity of LFK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 336,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of 15 bright lights that appeared and then quickly disappeared",
+      "source_quote": "The unknown phenomenon was described as 15 bright lights that appeared and then quickly disappeared",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 451,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the crew",
+      "source_quote": "No evasive action taken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 552,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement was notified",
+      "source_quote": "No LEO notification",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 577,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case status is closed",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:00:02.340Z",
+  "qa_completed_at": "2026-06-02T01:00:35.402Z",
+  "timing": {
+    "A": "18.6s",
+    "B": "14.5s",
+    "E": "19.0s"
+  },
+  "public_headline": "United Airlines Pilot Reported 15 Bright Lights Over East Texas",
+  "public_tldr": "An FAA incident report documents a United Airlines A320 crew observing 15 bright lights that appeared and quickly vanished ahead of their aircraft near Lufkin, Texas on 31 July 2023. The case was closed with no evasive action taken and no follow-up investigation noted.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — the system the Federal Aviation Administration uses to log pilot observations of unidentified aerial phenomena (UAP). It records an event reported by the crew of United Airlines flight UAL1409, an Airbus A320 flying commercially from Houston Intercontinental (IAH) to Milwaukee (MKE).\n\nAt 03:09 UTC on 31 July 2023, while flying northeast at approximately 26,000 feet near Lufkin, Texas, the crew reported seeing an unidentified aerial phenomenon off the front of the aircraft. The phenomenon was described as 15 bright lights that appeared and then quickly disappeared. The report was logged by Fort Worth Center (ZFW), the air traffic control facility covering that airspace.\n\nThe crew took no evasive action, and no law enforcement was notified. The FAA marked the case as closed, with no indication in the document of any follow-up investigation or resolution. No radar data, additional witness accounts, or other corroborating evidence is referenced in the report.\n\nThe document contains minimal redaction. However, it is a single-source account — one crew's observation with no independent verification noted. No aircraft tail number was recorded, which limits the ability to cross-check the flight independently. A minor discrepancy exists between the report's internal reference date (30 July) and the recorded incident date (31 July), possibly due to timezone differences between local and UTC time.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar data or additional witness accounts mentioned in the report.",
+    "The case is marked as closed with no indication that any follow-up investigation was conducted or that the phenomenon was identified.",
+    "No aircraft tail number was recorded, which limits independent verification of the flight.",
+    "The report's internal reference date (30 July) precedes the incident date (31 July), suggesting a possible timezone discrepancy rather than a data error.",
+    "The document describes what the crew reported seeing — it does not confirm or deny what the lights were."
+  ]
+}

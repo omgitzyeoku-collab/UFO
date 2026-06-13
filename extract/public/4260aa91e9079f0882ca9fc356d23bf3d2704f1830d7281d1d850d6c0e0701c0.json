@@ -1,0 +1,252 @@
+{
+  "sha256": "4260aa91e9079f0882ca9fc356d23bf3d2704f1830d7281d1d850d6c0e0701c0",
+  "title": "FAA UAP record 237UAP00456",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification documenting a pilot report of unidentified aerial phenomenon.",
+  "core_summary": "On 9 February 2023, the pilot of aircraft N378BG, a Raytheon B300 (King Air 350), reported an unidentified aerial phenomenon while flying northwest-bound at flight level 280 (approximately 28,000 feet), 15 nautical miles south of Chanute, Kansas. The object displayed white and red flashing lights and was observed at the 9 o'clock position (left side of the aircraft). No injuries or law enforcement notification were reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The report is a preliminary notification only, not an investigated case file.",
+    "White and red flashing lights are consistent with conventional aircraft navigation lights; no extraordinary flight characteristics are described.",
+    "The document contains no follow-up investigation or resolution."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "FAA Washington Operations Center (WOC) incident report",
+      "source_quote": "Washington Operations Center",
+      "citation_offset": {
+        "offset": 0,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_date",
+      "value": "2023-02-09",
+      "source_quote": "Date: 2/9/2023 9:13:00 PM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_time",
+      "value": "2113 CST (9:13 PM Central)",
+      "source_quote": "2113C",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "aircraft_registration",
+      "value": "N378BG",
+      "source_quote": "N378BG",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Raytheon B300 (King Air 350)",
+      "source_quote": "RAYTHEON B300",
+      "citation_offset": {
+        "offset": 266,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_route",
+      "value": "BBG to FNL",
+      "source_quote": "BBG - FNL",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight Level 280 (approximately 28,000 feet)",
+      "source_quote": "FL280",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "location",
+      "value": "15 nautical miles south of Chanute, Kansas",
+      "source_quote": "15 S CNU",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "coordinates_latitude",
+      "value": "37.66788889",
+      "source_quote": "Latitude: 37.66788889",
+      "citation_offset": {
+        "offset": 107,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates_longitude",
+      "value": "-95.486722220000004",
+      "source_quote": "-95.486722220000004",
+      "citation_offset": {
+        "offset": 139,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "White and red flashing lights at 9 o'clock position",
+      "source_quote": "UNIDENTIFIED AERIAL PHENOMENON WITH WHITE AND RED FLASHING LIGHTS FROM THE 9 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 301,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "heading",
+      "value": "Northwest-bound",
+      "source_quote": "NW BOUND",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "injuries",
+      "value": "None reported",
+      "source_quote": "NO INJURIES REPORTED",
+      "citation_offset": {
+        "offset": 429,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 451,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Kansas City ARTCC",
+      "source_quote": "KANSAS CITY ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 232,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "woc_reference",
+      "value": "WOC 7-3333 MO/JF",
+      "source_quote": "WOC 7-3333 MO/JF",
+      "citation_offset": {
+        "offset": 481,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Chanute, Kansas",
+    "Kansas City ARTCC"
+  ],
+  "dated_events": [
+    "2/9/2023",
+    "02-09-2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with white and red flashing lights",
+    "Raytheon B300 (King Air 350), registration N378BG"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Aircraft N378BG, a Raytheon B300, was flying northwest-bound at FL280 when the pilot observed the phenomenon.",
+      "source_quote": "N378BG, RAYTHEON B300, BBG - FNL, REPORTED UNIDENTIFIED AERIAL PHENOMENON WITH WHITE AND RED FLASHING LIGHTS FROM THE 9 O'CLOCK POSITION WHILE NW BOUND AT FL280",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 258,
+        "len": 160,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 15 nautical miles south of Chanute, Kansas.",
+      "source_quote": "15 S CNU",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Kansas City ARTCC was the air traffic control facility that received and relayed the report.",
+      "source_quote": "KANSAS CITY ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 232,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No injuries and no law enforcement notification were associated with the incident.",
+      "source_quote": "NO INJURIES REPORTED. NO LEO NOTIFICATION REPORTED.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 429,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T03:04:08.478Z",
+  "qa_completed_at": "2026-06-02T03:04:45.571Z",
+  "timing": {
+    "A": "21.4s",
+    "B": "15.7s",
+    "E": "15.0s"
+  },
+  "public_headline": "Pilot Reports Flashing Lights Over Kansas at 28,000 Feet",
+  "public_tldr": "This FAA incident notification records a pilot's report of an unidentified aerial phenomenon with white and red flashing lights, observed on 9 February 2023 near Chanute, Kansas. The document is a preliminary report only — no investigation or explanation is included.",
+  "public_narrative": "On the evening of 9 February 2023, at approximately 9:13 PM Central time, the pilot of a Raytheon King Air 350 (registration N378BG) reported seeing an unidentified aerial phenomenon while cruising at around 28,000 feet. The aircraft was heading northwest, roughly 15 nautical miles south of Chanute, Kansas.\n\nThe pilot described an object displaying white and red flashing lights, visible from the 9 o'clock position — the left side of the aircraft. Kansas City Air Route Traffic Control Center (ARTCC) received and relayed the report to the FAA's Washington Operations Center, which logged it as incident 237UAP00456.\n\nNo injuries were reported, and no law enforcement was notified. The document is a standard FAA Operations Center notification — essentially a log entry recording that the event was reported. It contains no follow-up investigation, no radar data, and no conclusion about what the pilot saw.\n\nThe coordinates place the sighting in southeast Kansas. The aircraft was on a route from BBG to FNL. Beyond these basic details, the document offers no further analysis or resolution.",
+  "public_caveats": [
+    "This is a single pilot report with no corroborating radar data or additional witnesses included in the document.",
+    "The document is a preliminary notification, not an investigated case file — no conclusions were reached.",
+    "White and red flashing lights are consistent with conventional aircraft navigation lights; no unusual flight characteristics were described.",
+    "There is no follow-up investigation or resolution attached to this record.",
+    "Redaction levels appear low — the document simply contains limited information by nature of its format."
+  ]
+}

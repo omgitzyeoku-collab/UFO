@@ -1,0 +1,219 @@
+{
+  "sha256": "2881bfdeda352508e04adaa2835075f197b4274874cf61332c5776c23d157382",
+  "title": "FAA UAP record 237UAP00439",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot's sighting of an unidentified aerial phenomenon (UFO) during a commercial flight.",
+  "core_summary": "On 14 December 2022, the crew of American Airlines flight 276 (an Airbus A321 flying from San Francisco to New York JFK) reported an unidentified aerial phenomenon directly ahead of their aircraft while eastbound at flight level 350 (approximately 35,000 feet), 45 nautical miles east of St Joseph, Missouri. No evasive action was taken, and the UFO Reporting Center was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The report is a preliminary operations centre log entry, not a full investigation or case resolution.",
+    "No description of the UAP's shape, size, speed, or behaviour is provided beyond its position relative to the aircraft.",
+    "The incident date in the metadata says 2023, but the document itself dates the event to 14 December 2022."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "American Airlines 276 (AAL276)",
+      "source_quote": "AMERICAN 276, A321, SFOJFK",
+      "citation_offset": {
+        "offset": 252,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Airbus A321",
+      "source_quote": "A321",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "San Francisco (SFO) to New York JFK",
+      "source_quote": "SFOJFK",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date/time",
+      "value": "14 December 2022, 04:10 CST",
+      "source_quote": "12/14/2022 4:10:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 350 (approx. 35,000 ft)",
+      "source_quote": "E BOUND AT FL350",
+      "citation_offset": {
+        "offset": 349,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "FROM THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 314,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 376,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Notifications",
+      "value": "C-ROC advised; UFO Reporting Center notified",
+      "source_quote": "C-ROC ADVISED... UFO REPORTING CENTER NOTIFIED",
+      "citation_offset": {
+        "offset": 399,
+        "len": 31,
+        "exact": false,
+        "matched": ". UFO REPORTING CENTER NOTIFIED"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Coordinates (latitude)",
+      "value": "39.7719°N",
+      "source_quote": "Latitude: 39.771944439999999",
+      "citation_offset": {
+        "offset": 106,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates (longitude)",
+      "value": "94.9097°W",
+      "source_quote": "-94.909705560000006",
+      "citation_offset": {
+        "offset": 145,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting source",
+      "value": "FAA Washington Operations Center",
+      "source_quote": "PRELIM INFO FROM FAA OPS",
+      "citation_offset": {
+        "offset": 177,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "St Joseph, MO",
+    "SFO (San Francisco)",
+    "JFK (New York)"
+  ],
+  "dated_events": [
+    "12/14/2022",
+    "12-14-2022"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon (UFO)",
+    "Airbus A321 (American Airlines 276)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 276 was an A321 operating the SFO–JFK route on 14 December 2022",
+      "source_quote": "AMERICAN 276, A321, SFOJFK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 252,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed an aerial phenomenon directly ahead at 35,000 feet, 45 miles east of St Joseph, MO",
+      "source_quote": "REPORTED AN AERIAL PHENOMENON-UFO FROM THE 12 O'CLOCK POSITION WHILE E BOUND AT FL350 45 E STJ",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 280,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 376,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO Reporting Center was notified of the incident",
+      "source_quote": "UFO REPORTING CENTER NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 401,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:49:38.781Z",
+  "qa_completed_at": "2026-06-02T02:50:19.101Z",
+  "timing": {
+    "A": "21.7s",
+    "B": "18.6s",
+    "E": "16.7s"
+  },
+  "public_headline": "American Airlines crew reported unidentified object at 35,000 feet over Missouri",
+  "public_tldr": "This FAA operations centre log records that the crew of American Airlines flight 276, an Airbus A321 flying from San Francisco to New York JFK, observed an unidentified aerial phenomenon directly ahead of their aircraft at 35,000 feet near St Joseph, Missouri on 14 December 2022. No evasive action was taken and the UFO Reporting Center was notified.",
+  "public_narrative": "This document is a preliminary incident log from the FAA Washington Operations Center. It records a single event: on 14 December 2022 at approximately 04:10 Central time, the crew of American Airlines flight 276 reported seeing an unidentified aerial phenomenon directly ahead of their aircraft.\n\nThe flight was an Airbus A321 operating the San Francisco to New York JFK route. At the time of the sighting, the aircraft was eastbound at flight level 350 (roughly 35,000 feet), approximately 45 nautical miles east of St Joseph, Missouri. The coordinates recorded place the aircraft at 39.77°N, 94.91°W.\n\nThe crew did not take evasive action. The report notes that the regional operations centre was advised and the UFO Reporting Center was notified.\n\nThe document provides no description of the object's shape, size, speed, or behaviour — only that something was observed from the 12 o'clock position (directly ahead). There is no indication in this record that the FAA conducted a follow-up investigation or reached any conclusion about what the crew saw.\n\nThis is a short operational log entry, not a full investigation report. It contains no radar data, no photographs, and no corroborating witness accounts beyond the flight crew.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data or independent witness accounts are included in the document.",
+    "The record is a preliminary operations centre log entry, not the product of a completed investigation. No conclusions were reached about what was observed.",
+    "No physical description of the object is given — no shape, size, speed, or behaviour beyond its position directly ahead of the aircraft.",
+    "The metadata lists the incident year as 2023, but the document itself dates the event to 14 December 2022.",
+    "There is minimal redaction in this document, but the brevity of the record means very little detail was captured in the first place."
+  ]
+}

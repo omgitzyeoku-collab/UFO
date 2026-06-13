@@ -1,0 +1,203 @@
+{
+  "sha256": "9640902cf7de545781779559c3a36a71fb270863f5bfead6a636a1d605dcab17",
+  "title": "FAA UAP record 237UAP00211",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot observation of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts in this document.",
+    "The abbreviation 'TY' is not defined in the report — likely a facility or individual notified.",
+    "Case is marked closed with no resolution or explanation provided in this document.",
+    "No tail number is recorded, which limits independent verification of the specific aircraft."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary classification",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "ROU1704",
+      "source_quote": "Callsign: ROU1704",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "ROU (commercial)",
+      "source_quote": "Operator: ROU",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight Level 350 (approximately 35,000 feet)",
+      "source_quote": "E bound at FL350",
+      "citation_offset": {
+        "offset": 370,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "Lights coming and going at or above aircraft altitude, observed at 12 o'clock position",
+      "source_quote": "lights coming and going at or above their altitude",
+      "citation_offset": {
+        "offset": 430,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Paged",
+      "value": "Yes",
+      "source_quote": "Paged: YES",
+      "citation_offset": {
+        "offset": 274,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "LAS",
+    "CYYZ",
+    "FSD",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-02-11"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as lights coming and going"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial A321 flying as ROU1704 observed an unidentified aerial phenomenon while eastbound at FL350.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the 12 o'clock while E bound at FL350",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 293,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of lights appearing and disappearing at or above the aircraft's altitude.",
+      "source_quote": "lights coming and going at or above their altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 430,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 25 nautical miles south of Sioux Falls.",
+      "source_quote": "25NM S of FSD",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 388,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated in Las Vegas and was destined for Toronto.",
+      "source_quote": "Origin: LAS Destination: CYYZ",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "TY was notified of the incident.",
+      "source_quote": "TY notified.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 482,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:57:03.159Z",
+  "qa_completed_at": "2026-06-01T23:57:40.316Z",
+  "timing": {
+    "A": "19.2s",
+    "B": "17.9s",
+    "E": "18.1s"
+  },
+  "public_headline": "Commercial Pilot Reports Unexplained Lights at 35,000 Feet Over South Dakota",
+  "public_tldr": "An FAA SKYWATCH incident report documents a commercial airline pilot flying from Las Vegas to Toronto who observed unidentified lights appearing and disappearing at or above 35,000 feet, roughly 25 nautical miles south of Sioux Falls, South Dakota, on 11 February 2023. The case was closed with no explanation recorded in the document.",
+  "public_narrative": "This is an FAA SKYWATCH Incident Report — a standardised form the Federal Aviation Administration uses to log pilot observations of unidentified aerial phenomena. It was filed under case number 237UAP00211 and classified with the primary code \"Unidentified Aerial Phenomenon.\"\n\nOn 11 February 2023, the crew of a commercial Airbus A321 operating as flight ROU1704, travelling eastbound from Las Vegas (LAS) to Toronto (CYYZ), reported something unusual. While cruising at Flight Level 350 — approximately 35,000 feet — and positioned roughly 25 nautical miles south of Sioux Falls, South Dakota, the pilots observed lights at their 12 o'clock position. The lights were described as \"coming and going\" at or above the aircraft's altitude.\n\nThe report notes that a party identified only as \"TY\" was notified and that the incident was paged out. No corroborating radar data, additional witness accounts, or follow-up investigation findings appear in this document. No tail number was recorded for the aircraft.\n\nThe case is marked as closed. No resolution, identification, or explanation for the observed lights is provided anywhere in the report. The document is short and factual — it records what the crew said they saw and little else.",
+  "public_caveats": [
+    "This is a single-source pilot report. No radar data, photographs, or independent witness accounts are included in the document.",
+    "The case is marked closed with no explanation — \"closed\" does not mean \"explained\" or \"identified.\"",
+    "No aircraft tail number was recorded, which limits the ability to independently verify the specific flight.",
+    "The abbreviation \"TY\" (a party notified about the incident) is not defined in the report.",
+    "The document shows low evidence of redaction, but it is also very brief — the lack of detail may simply reflect the limits of the reporting form rather than deliberate omission."
+  ]
+}

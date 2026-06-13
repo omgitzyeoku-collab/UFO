@@ -1,0 +1,211 @@
+{
+  "sha256": "a05212b3c0aa24ca0e35caf9d54a50af51d7e534776808a3d80daac8daa2494e",
+  "title": "FAA UAP record 237UAP00095",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness statements included.",
+    "The report is brief and contains no investigation findings or analysis — only the initial sighting report.",
+    "'Closed' status does not indicate a conclusion was reached about the nature of the phenomenon.",
+    "The three lights could have mundane explanations (stars, satellites, other aircraft) not explored in this document."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "date_time",
+      "value": "2022-08-06T03:48",
+      "source_quote": "Date: 03:48 08/06/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N765QS",
+      "source_quote": "Callsign: N765QS",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_level",
+      "value": "FL360 (36,000 feet)",
+      "source_quote": "NW bound at FL360",
+      "citation_offset": {
+        "offset": 371,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "115 NM southeast of ZQA VOR",
+      "source_quote": "115 NM SE of ZQA",
+      "citation_offset": {
+        "offset": 390,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 243,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "3 lights turning on and off, stationary, above the horizon",
+      "source_quote": "The unknown phenomenon was 3 lights turning on and off, above the horizon stationary",
+      "citation_offset": {
+        "offset": 408,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "relative_position",
+      "value": "Off the right side of the aircraft",
+      "source_quote": "off the right side while NW bound",
+      "citation_offset": {
+        "offset": 346,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ufo_center_notified",
+      "value": "Yes",
+      "source_quote": "TY/UFO reporting center notified",
+      "citation_offset": {
+        "offset": 494,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "ZMA",
+    "ZQA",
+    "MBPV",
+    "MIA",
+    "DEN"
+  ],
+  "dated_events": [
+    "2022-08-06"
+  ],
+  "objects_described": [
+    "3 stationary lights turning on and off above the horizon"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A general aviation Challenger 350 crew reported three stationary lights turning on and off above the horizon while flying at 36,000 feet.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon, off the right side while NW bound at FL360, 115 NM SE of ZQA. The unknown phenomenon was 3 lights turning on and off, above the horizon stationary.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 293,
+        "len": 200,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO reporting center was notified of the incident.",
+      "source_quote": "TY/UFO reporting center notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 494,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was en route from Providenciales to Miami.",
+      "source_quote": "Origin: MBPV Destination: MIA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 196,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident case has been closed.",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:01:10.503Z",
+  "qa_completed_at": "2026-06-01T22:01:48.468Z",
+  "timing": {
+    "A": "19.1s",
+    "B": "18.8s",
+    "E": "17.2s"
+  },
+  "public_headline": "Pilot Reports Three Stationary Flashing Lights at 36,000 Feet",
+  "public_tldr": "This FAA SKYWATCH report documents a general aviation pilot's sighting of three lights turning on and off above the horizon while flying at 36,000 feet over the ocean southeast of the Bahamas on 6 August 2022. The case was closed with no explanation or investigation findings included in the document.",
+  "public_narrative": "This document is an FAA (Federal Aviation Administration) incident report filed under the agency's SKYWATCH system for tracking unidentified aerial phenomena. It records a sighting by the crew of aircraft N765QS, a general aviation flight travelling northwest at 36,000 feet on a route from Providenciales (Turks and Caicos) to Miami.\n\nOn 6 August 2022 at 03:48, the crew reported seeing three lights off the right side of the aircraft, approximately 115 nautical miles southeast of the ZQA navigation point. The lights were described as stationary, positioned above the horizon, and turning on and off.\n\nThe FAA notified the UFO reporting centre of the incident. The case status is marked as \"Closed,\" but the document contains no investigation findings, analysis, or conclusion about what the lights were.\n\nThe report is brief — essentially a single-page intake form capturing the initial sighting details. No radar data, no corroborating witness statements, and no follow-up analysis appear in the released document. The \"Closed\" status indicates the case was administratively shut, not that an explanation was reached.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or additional witness statements included.",
+    "The report contains no investigation findings or analysis — only the initial sighting intake form.",
+    "\"Closed\" status does not mean the FAA identified what the lights were; it means the case was administratively closed.",
+    "Three stationary lights above the horizon could have mundane explanations — stars, satellites, or distant aircraft — none of which are explored in this document.",
+    "Redaction levels appear low, but the document is inherently limited: it captures a report, not an investigation."
+  ]
+}

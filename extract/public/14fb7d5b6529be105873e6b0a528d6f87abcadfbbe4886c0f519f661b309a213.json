@@ -1,0 +1,253 @@
+{
+  "sha256": "14fb7d5b6529be105873e6b0a528d6f87abcadfbbe4886c0f519f661b309a213",
+  "title": "FAA UAP record 237UAP00192",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon (a large balloon at very high altitude).",
+  "core_summary": "On 3 February 2023, the crew of United Airlines flight 1152 (a Boeing 737 MAX 9) reported seeing a large balloon off the right side of the aircraft while flying westbound at 36,000 feet, approximately 30 nautical miles west of the RBA VOR. The balloon was estimated to be at approximately 50,000 feet or above. The case was logged by the Denver Center (ZDV) reporting facility and is marked as closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a single-source pilot observation with no corroborating radar data or additional witness reports included in the document.",
+    "The object was described by the crew as a 'large balloon' — this is the crew's characterisation, not a confirmed identification.",
+    "The date (3 February 2023) falls during the period of heightened balloon surveillance in US airspace following the Chinese surveillance balloon incidents of late January–early February 2023.",
+    "No tail number is recorded for the aircraft, and no diversion was made (New Destination field is blank).",
+    "The case is marked Closed with no resolution or follow-up details provided."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report — Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2023-02-03 at 14:32",
+      "source_quote": "Date: 14:32 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_callsign",
+      "value": "UAL1152 (United Airlines 1152)",
+      "source_quote": "Callsign: UAL1152",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "B39M (Boeing 737 MAX 9)",
+      "source_quote": "Aircraft: B39M",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "UAL (United Airlines)",
+      "source_quote": "Operator: UAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Chicago O'Hare (ORD) to Phoenix (PHX)",
+      "source_quote": "Origin: ORD Destination: PHX",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZDV (Denver Center)",
+      "source_quote": "Reporting Facility: ZDV",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL360 (36,000 feet)",
+      "source_quote": "W bound at FL360",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_position",
+      "value": "Off the right side of the aircraft, 30 nautical miles west of RBA",
+      "source_quote": "a large balloon off the right side while W bound at FL360, 30NM W of RBA",
+      "citation_offset": {
+        "offset": 309,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_altitude",
+      "value": "Approximately FL500 (50,000 feet) and above",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "citation_offset": {
+        "offset": 383,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Large balloon",
+      "source_quote": "Aircraft reported a large balloon off the right side",
+      "citation_offset": {
+        "offset": 291,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZDV",
+    "ORD",
+    "PHX",
+    "RBA"
+  ],
+  "dated_events": [
+    "2023-02-03"
+  ],
+  "objects_described": [
+    "Large balloon at approximately FL500",
+    "B39M (Boeing 737 MAX 9)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 1152 crew visually observed a large balloon while flying westbound at 36,000 feet.",
+      "source_quote": "Aircraft reported a large balloon off the right side while W bound at FL360, 30NM W of RBA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon was estimated to be at approximately 50,000 feet or higher — well above the aircraft's altitude.",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 383,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 30 nautical miles west of the RBA VOR.",
+      "source_quote": "30NM W of RBA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 368,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was a commercial United Airlines service from Chicago O'Hare to Phoenix.",
+      "source_quote": "Operator: UAL ... Origin: ORD Destination: PHX",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:39:13.558Z",
+  "qa_completed_at": "2026-06-01T23:39:57.061Z",
+  "timing": {
+    "A": "22.9s",
+    "B": "20.6s",
+    "E": "21.1s"
+  },
+  "public_headline": "United Airlines crew reported large balloon at 50,000 feet in February 2023",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of United Airlines flight 1152 on 3 February 2023. While flying at 36,000 feet over Colorado, the crew reported a large balloon to their right at an estimated 50,000 feet or above. The case was closed with no resolution or follow-up details provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unidentified aerial phenomena reported by pilots. It was filed under the primary code \"Unidentified Aerial Phenomenon\" and assigned case number 237UAP00192.\n\nOn 3 February 2023 at 14:32, the crew of United Airlines flight 1152 — a Boeing 737 MAX 9 flying from Chicago O'Hare to Phoenix — reported seeing a large balloon off the right side of their aircraft. The plane was heading westbound at 36,000 feet, approximately 30 nautical miles west of the RBA navigational waypoint. The crew estimated the balloon was at roughly 50,000 feet or higher, well above their own altitude.\n\nThe sighting was logged by Denver Center (ZDV), the FAA air traffic control facility covering that airspace. The report notes no diversion was made — the flight continued to Phoenix. No radar data or additional witness accounts are included in the document.\n\nThe case is marked as closed. No explanation, identification, or follow-up action is recorded. The date is notable: 3 February 2023 fell during a period of heightened attention to unidentified balloons in US airspace, following the detection of a Chinese surveillance balloon that was ultimately shot down on 4 February 2023.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No corroborating radar data, photographs, or additional witness reports are included in the document.",
+    "The crew described the object as a 'large balloon' — this is the crew's own characterisation, not a confirmed identification by the FAA or any other agency.",
+    "The case is marked closed with no resolution, meaning the FAA did not record what the object was or whether any follow-up investigation occurred.",
+    "The sighting occurred during the same week as the Chinese surveillance balloon incident, which may have heightened awareness of high-altitude objects among flight crews.",
+    "Redaction levels appear low, but the document is sparse by design — FAA SKYWATCH forms capture limited detail, so the absence of information does not necessarily indicate redaction."
+  ]
+}

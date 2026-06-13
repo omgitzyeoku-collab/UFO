@@ -1,0 +1,211 @@
+{
+  "sha256": "b994e84aa0c2304c95db97f12b213156822f1ba8b951c09a4278c6f4a9a77666",
+  "title": "FAA UAP record 237UAP00457",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification documenting a UAP sighting reported by a commercial aircraft crew.",
+  "core_summary": "On February 10, 2023, the crew of UPS flight 1016, a Boeing 767-300, reported an unidentified aerial phenomenon with bright lights at their 12 o'clock position while flying northeast-bound at flight level 370, approximately 18 nautical miles west of Wilkes-Barre, Pennsylvania. No evasive action was taken and no law enforcement notification was reported. The report was relayed through New York Air Route Traffic Control Center to FAA Operations.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The report is a preliminary notification, not a completed investigation.",
+    "No description of UAP shape, size, speed, or movement is provided beyond 'bright lights'."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "February 10, 2023, 03:30 EST",
+      "source_quote": "Date: 2/10/2023 3:30:00 AM (-05 EST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting flight",
+      "value": "UPS flight 1016",
+      "source_quote": "UPS 1016, B763, SDF - BOS",
+      "citation_offset": {
+        "offset": 269,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Louisville (SDF) to Boston (BOS)",
+      "source_quote": "SDF - BOS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 370 (37,000 feet)",
+      "source_quote": "AT FL370",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP description",
+      "value": "Bright lights at 12 o'clock position",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH BRIGHT LIGHTS FROM THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 296,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of travel",
+      "value": "Northeast-bound",
+      "source_quote": "WHILE NE BOUND",
+      "citation_offset": {
+        "offset": 387,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 421,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 446,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting ATC facility",
+      "value": "New York ARTCC",
+      "source_quote": "NEW YORK ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 246,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "41.2968°N, 76.1981°W",
+      "source_quote": "Latitude: 41.296787940000002",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Wilkes-Barre, PA",
+    "New York ARTCC"
+  ],
+  "dated_events": [
+    "2/10/2023 3:30:00 AM (-05 EST)",
+    "02-10-2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with bright lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "UPS flight 1016 was operating a Boeing 767-300 from Louisville (SDF) to Boston (BOS) on February 10, 2023.",
+      "source_quote": "UPS 1016, B763, SDF - BOS",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 269,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed an unidentified aerial phenomenon with bright lights directly ahead at 37,000 feet.",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH BRIGHT LIGHTS FROM THE 12 O'CLOCK POSITION WHILE NE BOUND AT FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 296,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 18 nautical miles west of the Wilkes-Barre VOR.",
+      "source_quote": "18 W WBW",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 421,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was made.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 446,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T03:05:00.539Z",
+  "qa_completed_at": "2026-06-02T03:05:37.517Z",
+  "timing": {
+    "A": "18.9s",
+    "B": "18.0s",
+    "E": "16.4s"
+  },
+  "public_headline": "UPS Cargo Crew Reports Bright Lights at 37,000 Feet Over Pennsylvania",
+  "public_tldr": "This FAA incident notification records a UAP sighting by the crew of UPS flight 1016, a Boeing 767-300 flying from Louisville to Boston, on February 10, 2023. The crew reported bright lights directly ahead while cruising at 37,000 feet near Wilkes-Barre, Pennsylvania. No evasive action was taken and no investigation findings are included.",
+  "public_narrative": "On February 10, 2023, at 3:30 AM Eastern time, the crew of UPS flight 1016 — a Boeing 767-300 cargo aircraft en route from Louisville, Kentucky to Boston, Massachusetts — reported seeing an unidentified aerial phenomenon. The object or lights appeared directly ahead of the aircraft (the \"12 o'clock position\") while the plane was flying northeast at 37,000 feet, roughly 18 nautical miles west of Wilkes-Barre, Pennsylvania.\n\nThe crew described the UAP only as having \"bright lights.\" No details about its shape, size, speed, or movement appear in the document. The crew did not take evasive action, and no law enforcement notification was reported. The sighting was relayed through the New York Air Route Traffic Control Center (ARTCC) to FAA Operations in Washington.\n\nThis document is a preliminary incident notification from the FAA's Washington Operations Center — essentially an intake form, not a completed investigation. It records the basic facts of the report but does not include any conclusions about what the crew saw, nor does it reference radar data or corroborating witnesses.\n\nThe coordinates place the sighting at approximately 41.30°N, 76.20°W, in the skies over northeastern Pennsylvania. Beyond the crew's own account, no additional evidence or follow-up findings are contained in this record.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data, photographs, or independent witness accounts are included in the document.",
+    "The document is a preliminary notification, not a completed investigation — there are no findings or conclusions about what the crew observed.",
+    "The UAP description is limited to 'bright lights' with no information about shape, size, speed, or behaviour.",
+    "No redactions are evident in the document, but the record is sparse by design — it is an intake form, not an analytical report.",
+    "The route information (Louisville to Boston) is inferred from airport codes in the document and carries slightly lower confidence than the directly quoted facts."
+  ]
+}

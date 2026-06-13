@@ -1,0 +1,219 @@
+{
+  "sha256": "947a246ba29d9cf4b8fc7d66d7711c39d926dcc020edd6c00d186adc9d8832c2",
+  "title": "FAA UAP record 237UAP00032",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document",
+    "GLD270018 likely refers to a radial and distance from Goodland VOR but the exact position is not explicitly decoded in the report",
+    "No operator or tail number is recorded, limiting independent verification",
+    "The report is categorised as PRIMARY CODE: OTHER, indicating FAA did not classify the object into a standard category"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date",
+      "value": "2018-03-06",
+      "source_quote": "Date: 07:31 03/06/2018",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Aircraft callsign",
+      "value": "LN77HE",
+      "source_quote": "Callsign: LN77HE",
+      "citation_offset": {
+        "offset": 116,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "BE9L, Beech King Air (90, A90 to E90)",
+      "source_quote": "Aircraft: BE9L, BEECH, \"King Air (90, A90 to E90)\"",
+      "citation_offset": {
+        "offset": 133,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin airport",
+      "value": "APA",
+      "source_quote": "Origin: APA",
+      "citation_offset": {
+        "offset": 207,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination airport",
+      "value": "GLD",
+      "source_quote": "Destination: New Destination: GLD",
+      "citation_offset": {
+        "offset": 219,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Circular red and green light pattern moving slowly westbound at 9,000 feet",
+      "source_quote": "a UFO of a circular red and green light pattern moving slowly westbound at 9,000 feet",
+      "citation_offset": {
+        "offset": 304,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP reported position",
+      "value": "GLD270018",
+      "source_quote": "Reported at GLD270018",
+      "citation_offset": {
+        "offset": 391,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Paged",
+      "value": "NO",
+      "source_quote": "Paged: NO",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZDV",
+    "APA",
+    "GLD",
+    "GLD270018"
+  ],
+  "dated_events": [
+    "2018-03-06"
+  ],
+  "objects_described": [
+    "Beech King Air BE9L (observer aircraft)",
+    "Circular red and green light pattern UFO at 9,000 feet"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Beech King Air with callsign LN77HE reported a UFO while en route from APA to GLD",
+      "source_quote": "Aircraft reported a UFO of a circular red and green light pattern moving slowly westbound at 9,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 286,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was described as a circular red and green light pattern at 9,000 feet moving slowly westbound",
+      "source_quote": "a UFO of a circular red and green light pattern moving slowly westbound at 9,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 304,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting location was reported as GLD270018",
+      "source_quote": "Reported at GLD270018",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 391,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was logged at 07:31 UTC on 6 March 2018 and the case is now closed",
+      "source_quote": "Date: 07:31 03/06/2018 Status: Closed",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 45,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T20:59:36.900Z",
+  "qa_completed_at": "2026-06-01T21:00:15.119Z",
+  "timing": {
+    "A": "19.8s",
+    "B": "18.4s",
+    "E": "23.2s"
+  },
+  "public_headline": "FAA Report: Pilot Spotted Circular Red-Green Lights Over Kansas in 2018",
+  "public_tldr": "This FAA SKYWATCH incident report documents a pilot's sighting of a circular red and green light pattern moving slowly westbound at 9,000 feet near Goodland, Kansas, on 6 March 2018. The FAA classified the object as \"OTHER\" and closed the case without identifying it.",
+  "public_narrative": "This document is an FAA (Federal Aviation Administration) SKYWATCH incident report, filed under case number 237UAP00032. It records a pilot's sighting of an unidentified aerial phenomenon on 6 March 2018, logged at 07:31.\n\nThe reporting aircraft was a Beech King Air (a twin-engine turboprop), flying under callsign LN77HE. It was travelling from Centennial Airport (APA) near Denver to Goodland Municipal Airport (GLD) in western Kansas. During the flight, the pilot reported seeing a circular pattern of red and green lights moving slowly westbound at 9,000 feet. The sighting position was recorded as GLD270018, which likely refers to a bearing and distance from the Goodland VOR navigational beacon, though the report does not decode the exact coordinates.\n\nThe FAA categorised the object under its primary code as \"OTHER\", meaning it did not fit any standard classification. The case status is listed as closed. The report contains no indication that radar data, additional witnesses, or follow-up investigation corroborated the pilot's account.\n\nNo operator name or aircraft tail number appears in the report, and no personnel are named. The document shows low evidence of redaction — it appears to be a brief, routine incident log rather than a detailed investigation file.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or additional witness accounts included in the document.",
+    "No aircraft operator or tail number is recorded, which limits independent verification of the flight.",
+    "The position code GLD270018 likely refers to a radial and distance from Goodland VOR, but the report does not spell out the exact geographic coordinates.",
+    "The FAA classified the object as \"OTHER\" — this means unidentified, not confirmed as anomalous. It reflects the limits of the data, not a conclusion about the object's nature.",
+    "The document shows low evidence of redaction; what you see appears to be the full extent of what was recorded."
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "sha256": "a56145282ff573b9e8147a75596ca4e805aa5b66ab5874b8cb888af7fc4ba663",
+  "title": "FAA UAP record 237UAP00326",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": "On 3 December 2023 at 03:15, a Gulfstream IV (callsign N461GT) flying westbound at 43,000 feet reported an unidentified aerial phenomenon 57 nautical miles west-northwest of O'Neill, Nebraska. The phenomenon was described as spinning flashing lights below the aircraft's altitude, and a second aircraft described it as triangular in shape and very bright. The object did not appear on ATC radar.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The tail number and operator fields are blank, limiting independent verification of the reporting aircraft.",
+    "The triangular shape description comes from a separate, unidentified aircraft — not the primary reporting crew.",
+    "The object was not detected on radar, meaning there is no independent sensor confirmation of the sighting.",
+    "The case is marked 'Closed' with no resolution or explanation recorded in this document.",
+    "Visual observations at night (03:15) of lights and shapes can be unreliable due to optical illusions and atmospheric effects."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2023-12-03 03:15",
+      "source_quote": "Date: 03:15 12/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N461GT",
+      "source_quote": "Callsign: N461GT",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "GLF4 (Gulfstream IV)",
+      "source_quote": "Aircraft: GLF4",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL430 (43,000 feet)",
+      "source_quote": "W bound at FL430",
+      "citation_offset": {
+        "offset": 395,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "57 NM WNW of O'Neill (ONL), Nebraska",
+      "source_quote": "57NM WNW of ONL",
+      "citation_offset": {
+        "offset": 413,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZDV (Denver ARTCC)",
+      "source_quote": "Reporting Facility: ZDV",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin_airport",
+      "value": "TEB (Teterboro, NJ)",
+      "source_quote": "Origin: TEB",
+      "citation_offset": {
+        "offset": 207,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination_airport",
+      "value": "RNO (Reno, NV)",
+      "source_quote": "Destination: RNO",
+      "citation_offset": {
+        "offset": 219,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 253,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Spinning flashing lights below aircraft altitude",
+      "source_quote": "spinning flashing lights below their altitude",
+      "citation_offset": {
+        "offset": 457,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_shape",
+      "value": "Triangular, very bright (per additional aircraft)",
+      "source_quote": "Additional aircraft described the phenomenon as triangular in shape and very bright",
+      "citation_offset": {
+        "offset": 559,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 504,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "paged",
+      "value": "YES",
+      "source_quote": "Paged: YES",
+      "citation_offset": {
+        "offset": 196,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZDV-M-2023/12/02-0004",
+      "source_quote": "MOR ID: ZDV-M-2023/12/02-0004",
+      "citation_offset": {
+        "offset": 299,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ONL",
+    "TEB",
+    "RNO",
+    "ZDV"
+  ],
+  "dated_events": [
+    "2023-12-03T03:15",
+    "2023/12/02"
+  ],
+  "objects_described": [
+    "GLF4 (Gulfstream IV)",
+    "Unidentified aerial phenomenon — triangular, spinning flashing lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Gulfstream IV (N461GT) reported a UAP while flying westbound at FL430, 57 NM WNW of ONL on 3 December 2023 at 03:15.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while W bound at FL430, 57NM WNW of ONL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 337,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP exhibited spinning flashing lights and was below the aircraft's altitude of 43,000 feet.",
+      "source_quote": "spinning flashing lights below their altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 457,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected on ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 504,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second aircraft independently described the phenomenon as triangular in shape and very bright.",
+      "source_quote": "Additional aircraft described the phenomenon as triangular in shape and very bright",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 559,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was flying from Teterboro, NJ to Reno, NV.",
+      "source_quote": "Origin: TEB Destination: RNO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 207,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO (Aviation Weather Office) was advised.",
+      "source_quote": "AWO advised",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 644,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:42:25.045Z",
+  "qa_completed_at": "2026-06-02T01:43:06.703Z",
+  "timing": {
+    "A": "25.3s",
+    "B": "16.4s",
+    "E": "19.3s"
+  },
+  "public_headline": "Pilot Reports Spinning Lights Over Nebraska at 43,000 Feet",
+  "public_tldr": "An FAA incident report documents a Gulfstream IV crew spotting spinning flashing lights below their aircraft over Nebraska on 3 December 2023. A second aircraft independently described the object as triangular and very bright, but it never appeared on air traffic control radar.",
+  "public_narrative": "This is an FAA SKYWATCH incident report — an internal form the Federal Aviation Administration uses to log unusual aerial sightings reported by pilots. It was filed under the code \"Unidentified Aerial Phenomenon\" and assigned case number 237UAP00326.\n\nAt 03:15 on 3 December 2023, a Gulfstream IV business jet (callsign N461GT) was flying westbound at 43,000 feet on a route from Teterboro, New Jersey to Reno, Nevada. Approximately 57 nautical miles west-northwest of O'Neill, Nebraska, the crew reported seeing spinning flashing lights below their altitude. The sighting was logged by Denver Air Route Traffic Control Center (ZDV).\n\nA separate, unidentified aircraft in the area independently described the same phenomenon as triangular in shape and very bright. Air traffic control checked their radar systems but the object did not appear on any of them. The Aviation Weather Office was notified.\n\nThe case is marked \"Closed\" in the FAA's system, but no explanation or resolution is recorded in the document. No cause — weather, military activity, conventional aircraft, or otherwise — is listed.",
+  "public_caveats": [
+    "The object was never detected on radar, so the only evidence is visual testimony from flight crews at night — a context prone to optical illusions and misjudged distances.",
+    "The triangular shape description comes from a second, unidentified aircraft — not the primary reporting crew — and no details about that aircraft or its crew are recorded.",
+    "The operator and tail number fields for the reporting aircraft are blank in the form, limiting independent verification.",
+    "The case is closed with no explanation recorded, which means the FAA did not publicly attribute the sighting to any known cause.",
+    "This is a single incident report, not an investigation. It records what was reported, not what was confirmed."
+  ]
+}

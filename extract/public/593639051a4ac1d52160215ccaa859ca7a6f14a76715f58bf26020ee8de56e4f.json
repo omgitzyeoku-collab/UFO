@@ -1,0 +1,203 @@
+{
+  "sha256": "593639051a4ac1d52160215ccaa859ca7a6f14a76715f58bf26020ee8de56e4f",
+  "title": "FAA UAP record 237UAP00134",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot observation of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts included in this report.",
+    "The report is closed with no resolution or identification of the phenomenon provided.",
+    "No tail number is listed for the aircraft, limiting independent verification of the specific airframe.",
+    "'Flashing lights' is a subjective visual description that could correspond to various conventional or unconventional sources."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2022-12-14 at 10:10 UTC",
+      "source_quote": "Date: 10:10 12/14/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "AAL276",
+      "source_quote": "Callsign: AAL276",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "San Francisco (SFO) to New York JFK",
+      "source_quote": "Origin: SFO Destination: JFK",
+      "citation_offset": {
+        "offset": 211,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 350 (approx. 35,000 ft)",
+      "source_quote": "E bound at FL350",
+      "citation_offset": {
+        "offset": 407,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Flashing lights at approximately FL370",
+      "source_quote": "flashing lights at approximately FL370",
+      "citation_offset": {
+        "offset": 481,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Notifications",
+      "value": "UFO Reporting Center notified; AWO advised",
+      "source_quote": "UFO Reporting Center notified. AWO advised.",
+      "citation_offset": {
+        "offset": 521,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "ZKC-M-2022/12/14-0001",
+      "source_quote": "MOR ID: ZKC-M-2022/12/14-0001",
+      "citation_offset": {
+        "offset": 297,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SFO",
+    "JFK",
+    "DEN",
+    "BDF"
+  ],
+  "dated_events": [
+    "2022-12-14"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as flashing lights at FL370"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight AAL276 reported an unidentified aerial phenomenon while eastbound at FL350.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the front while E bound at FL350",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 335,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was observed approximately 40 nautical miles west-southwest of Bradford VOR.",
+      "source_quote": "40NM WSW of BDF",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 425,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared as flashing lights at approximately FL370, roughly 2,000 feet above the aircraft.",
+      "source_quote": "flashing lights at approximately FL370",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 481,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO Reporting Center was notified of the incident.",
+      "source_quote": "UFO Reporting Center notified.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 521,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:42:38.076Z",
+  "qa_completed_at": "2026-06-01T22:43:16.725Z",
+  "timing": {
+    "A": "18.8s",
+    "B": "19.8s",
+    "E": "17.5s"
+  },
+  "public_headline": "American Airlines Pilot Reported Flashing Lights at 37,000 Feet Over Illinois",
+  "public_tldr": "This FAA incident report documents a December 2022 observation by the crew of American Airlines flight AAL276, flying from San Francisco to New York at 35,000 feet, who reported flashing lights approximately 2,000 feet above them near Bradford, Illinois. The case was closed with no identification or explanation of the phenomenon.",
+  "public_narrative": "On 14 December 2022 at 10:10 UTC, the crew of American Airlines flight AAL276 — a commercial service from San Francisco (SFO) to New York JFK — reported an unidentified aerial phenomenon while cruising eastbound at flight level 350, roughly 35,000 feet. The sighting occurred approximately 40 nautical miles west-southwest of Bradford VOR (a navigational reference point in Illinois).\n\nThe crew described the phenomenon as flashing lights at approximately flight level 370, about 2,000 feet above their aircraft. The FAA logged the incident under its SKYWATCH programme, which tracks pilot-reported UAP observations. The report was assigned case ID 237UAP00134 and MOR (Mandatory Occurrence Report) ID ZKC-M-2022/12/14-0001.\n\nFollowing the report, the UFO Reporting Center was notified and AWO (the relevant FAA office) was advised. No corroborating radar data or additional witness accounts are included in this document.\n\nThe case status is listed as closed. No resolution, identification, or explanation of the phenomenon is provided in the report. No tail number for the aircraft is recorded, which limits independent verification of the specific airframe involved.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No radar data or independent witness accounts are included in the report.",
+    "The case was closed without any identification or explanation of what was observed.",
+    "'Flashing lights' is a subjective visual description that could correspond to various conventional sources — other aircraft, atmospheric phenomena, or satellite reflections, among others.",
+    "No aircraft tail number is listed, limiting the ability to independently verify the specific flight.",
+    "The report carries low evidence of redaction, meaning what you see is close to the full content — but that content is itself minimal."
+  ]
+}

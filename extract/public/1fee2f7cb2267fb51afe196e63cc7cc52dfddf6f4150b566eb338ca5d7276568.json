@@ -1,0 +1,291 @@
+{
+  "sha256": "1fee2f7cb2267fb51afe196e63cc7cc52dfddf6f4150b566eb338ca5d7276568",
+  "title": "FAA UAP record 237UAP00331",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon observed during a commercial flight.",
+  "core_summary": "On 23 December 2023, the crew of American Airlines flight AAL2003, an Airbus A321neo flying northwest at 34,000 feet, reported two lights above the horizon that resembled stars but were dimming and reappearing, located 41 nautical miles south-southwest of Pocatello, Idaho (PIH). The phenomenon was not detected on ATC radar, but two other commercial flights (DAL2665 and SWA111) independently reported the same observation.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Visual observation only — the phenomenon was not detected on radar, so there is no independent sensor confirmation of a physical object.",
+    "Three separate flight crews reported the same phenomenon, providing some corroboration, but all observations were visual.",
+    "No tail number is recorded for the reporting aircraft.",
+    "The description of lights dimming and reappearing above the horizon is consistent with astronomical phenomena (e.g. scintillating stars or planets) as well as genuinely anomalous objects.",
+    "Case is marked as closed with no resolution or identification noted in the report."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "callsign",
+      "value": "AAL2003",
+      "source_quote": "Callsign: AAL2003",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "A21N (Airbus A321neo)",
+      "source_quote": "Aircraft: A21N",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL340 (34,000 feet)",
+      "source_quote": "NW bound at FL340",
+      "citation_offset": {
+        "offset": 369,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "41 NM south-southwest of PIH (Pocatello, Idaho)",
+      "source_quote": "41 NM SSW of PIH",
+      "citation_offset": {
+        "offset": 388,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "DFW (Dallas/Fort Worth)",
+      "source_quote": "Origin: DFW",
+      "citation_offset": {
+        "offset": 201,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "SEA (Seattle)",
+      "source_quote": "Destination: SEA",
+      "citation_offset": {
+        "offset": 213,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZLC (Salt Lake City ARTCC)",
+      "source_quote": "Reporting Facility: ZLC",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "uap_description",
+      "value": "Two lights above the horizon resembling stars, dimming and reappearing",
+      "source_quote": "two lights above the horizon that looked like a star, except they were dimming and reappearing",
+      "citation_offset": {
+        "offset": 433,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 529,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_flights",
+      "value": "DAL2665 and SWA111",
+      "source_quote": "DAL2665 and SWA111 reported the same phenomenon",
+      "citation_offset": {
+        "offset": 584,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_travel",
+      "value": "Northwest bound",
+      "source_quote": "NW bound at FL340",
+      "citation_offset": {
+        "offset": 369,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_direction",
+      "value": "Off the front side of aircraft",
+      "source_quote": "an unidentified aerial phenomenon off the front side",
+      "citation_offset": {
+        "offset": 310,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notifications",
+      "value": "AWO notified",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 633,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "DFW",
+    "SEA",
+    "PIH",
+    "ZLC"
+  ],
+  "dated_events": [
+    "2023-12-23"
+  ],
+  "objects_described": [
+    "A21N (Airbus A321neo)",
+    "Two dimming and reappearing lights above the horizon",
+    "ATC facility radar system"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight AAL2003 was flying northwest at 34,000 feet when the crew observed the phenomenon.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the front side while NW bound at FL340",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of two lights above the horizon that looked like stars but dimmed and reappeared.",
+      "source_quote": "two lights above the horizon that looked like a star, except they were dimming and reappearing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 433,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was not detected on ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 529,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Two other commercial flights independently reported seeing the same phenomenon.",
+      "source_quote": "DAL2665 and SWA111 reported the same phenomenon",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 584,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observation occurred 41 nautical miles south-southwest of Pocatello, Idaho.",
+      "source_quote": "41 NM SSW of PIH",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 388,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:46:59.286Z",
+  "qa_completed_at": "2026-06-02T01:47:39.772Z",
+  "timing": {
+    "A": "22.5s",
+    "B": "18.0s",
+    "E": "18.8s"
+  },
+  "public_headline": "Three Airline Crews Reported Mysterious Lights Over Idaho in 2023",
+  "public_tldr": "This FAA incident report documents an observation by the crew of American Airlines flight 2003 on 23 December 2023: two star-like lights that dimmed and reappeared above the horizon near Pocatello, Idaho. The lights did not appear on air traffic control radar, but two other commercial flights independently reported seeing the same thing. The case is closed with no explanation offered.",
+  "public_narrative": "On the night of 23 December 2023, the crew of American Airlines flight AAL2003 — an Airbus A321neo flying from Dallas/Fort Worth to Seattle at 34,000 feet — reported an unidentified aerial phenomenon off the front of their aircraft. They were approximately 41 nautical miles south-southwest of Pocatello, Idaho, heading northwest.\n\nThe crew described two lights above the horizon that resembled stars, except they were dimming and reappearing. Air traffic control at Salt Lake City Center (ZLC) checked their radar and found nothing corresponding to the lights. Despite the lack of radar contact, two other commercial flights in the area — Delta flight 2665 and Southwest flight 111 — independently reported observing the same phenomenon.\n\nThe FAA's internal office (AWO) was notified. The case is now marked as closed, but the report contains no identification or explanation of what the crews saw. No tail number was recorded for the reporting aircraft, and no further investigation is documented.\n\nThis record is one of hundreds released by the FAA through the Department of War's public UAP disclosure. It is a SKYWATCH incident report — a standardised form the FAA uses to log pilot-reported sightings of unidentified aerial phenomena.",
+  "public_caveats": [
+    "All three observations were visual only — no radar, infrared, or other sensor data confirmed the presence of a physical object.",
+    "The description of star-like lights that dim and reappear is consistent with ordinary astronomical phenomena such as scintillating stars or planets, though the report does not draw that conclusion.",
+    "Three independent flight crews reporting the same thing adds some corroboration, but all relied on eyesight alone.",
+    "The case is closed with no resolution — the FAA did not identify or explain the phenomenon.",
+    "Redaction levels in this document are low; the report appears largely intact."
+  ]
+}

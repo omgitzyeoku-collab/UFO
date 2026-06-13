@@ -1,0 +1,236 @@
+{
+  "sha256": "bfc4d2bd8818a63005c58edf05185b1dcef447d3a66e0e47af4ff139df81e83d",
+  "title": "FAA UAP record 237UAP00228",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-page summary report with minimal technical detail — no radar data, speed estimates, or duration of observation included.",
+    "'TY notified' likely refers to a supervisor or operations centre but the acronym is not defined in the document.",
+    "Case is marked Closed with no resolution or explanation provided.",
+    "Multiple aircraft corroboration strengthens the sighting but no independent sensor data is referenced."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-02-28T01:26",
+      "source_quote": "Date: 01:26 02/28/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N4200K",
+      "source_quote": "Callsign: N4200K",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL 400 (40,000 feet)",
+      "source_quote": "W bound at FL 400",
+      "citation_offset": {
+        "offset": 369,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_travel",
+      "value": "Westbound",
+      "source_quote": "W bound at FL 400",
+      "citation_offset": {
+        "offset": 369,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Bright white light travelling high above the aircraft",
+      "source_quote": "bright white light travelling high above",
+      "citation_offset": {
+        "offset": 431,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_side",
+      "value": "Left side of aircraft",
+      "source_quote": "off the left side",
+      "citation_offset": {
+        "offset": 345,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "multiple_witnesses",
+      "value": "Reported by multiple aircraft in ZMA and ZJX airspace",
+      "source_quote": "reported by multiple aircraft in ZMA and ZJX",
+      "citation_offset": {
+        "offset": 473,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notification",
+      "value": "TY notified",
+      "source_quote": "TY notified",
+      "citation_offset": {
+        "offset": 519,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "OPF",
+    "HOU",
+    "LBV",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-02-28"
+  ],
+  "objects_described": [
+    "Bright white light (unidentified aerial phenomenon)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "An aircraft with callsign N4200K reported a UAP while flying westbound at 40,000 feet.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while W bound at FL 400",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 293,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was located approximately 63 nautical miles west of LBV.",
+      "source_quote": "63 NM W of LBV",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 388,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Multiple aircraft in both Miami Center and Jacksonville Center airspace observed the same phenomenon.",
+      "source_quote": "reported by multiple aircraft in ZMA and ZJX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 473,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared as a bright white light moving at high altitude above the observing aircraft.",
+      "source_quote": "bright white light travelling high above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 431,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Opa-locka Executive Airport (OPF) with a destination of Houston Hobby (HOU).",
+      "source_quote": "Origin: OPF Destination: HOU",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 196,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:12:09.318Z",
+  "qa_completed_at": "2026-06-02T00:12:47.681Z",
+  "timing": {
+    "A": "20.0s",
+    "B": "18.4s",
+    "E": "16.6s"
+  },
+  "public_headline": "Multiple Aircraft Crews Reported Bright Light Over Southern US Airspace",
+  "public_tldr": "This is an FAA incident report documenting a bright white light seen high above a general aviation aircraft flying at 40,000 feet on 28 February 2023. Multiple aircraft crews across two air traffic control regions independently reported the same phenomenon, but the case was closed with no explanation provided.",
+  "public_narrative": "On 28 February 2023, at 01:26 UTC, a general aviation aircraft with callsign N4200K was flying westbound at 40,000 feet on a route from Opa-locka Executive Airport in Florida to Houston Hobby Airport in Texas. The crew reported seeing a bright white light travelling high above their aircraft, off the left side, approximately 63 nautical miles west of the LBV navigation point.\n\nThe sighting was not isolated. Multiple aircraft operating in both Miami Center (ZMA) and Jacksonville Center (ZJX) airspace reported the same phenomenon. This cross-witness corroboration across two separate air traffic control regions is notable, though the report does not reference any independent sensor data such as radar returns.\n\nThe FAA logged this under its SKYWATCH programme and classified it with the primary code \"Unidentified Aerial Phenomenon.\" A notification was sent to an entity abbreviated as \"TY\" — the acronym is not defined in the document.\n\nThe case is marked as Closed. No resolution, identification, or explanation is provided in the report. The document is a single-page summary with minimal technical detail — no radar data, speed estimates, or duration of observation are included.",
+  "public_caveats": [
+    "This is a single-page summary report, not a detailed investigation file. It contains no radar data, speed estimates, or duration of observation.",
+    "Multiple aircraft crews reported the same phenomenon across two air traffic control regions, which adds weight to the sighting, but no independent sensor data (radar, infrared) is referenced.",
+    "The case is marked Closed with no resolution or identification provided — 'closed' does not mean 'explained.'",
+    "The abbreviation 'TY' (notified as part of the reporting chain) is never defined in the document.",
+    "Redaction evidence is low — the document appears to be released largely intact, but its brevity means limited information was recorded in the first place."
+  ]
+}

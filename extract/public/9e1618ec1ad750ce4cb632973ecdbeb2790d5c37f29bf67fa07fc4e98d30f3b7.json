@@ -1,0 +1,215 @@
+{
+  "sha256": "9e1618ec1ad750ce4cb632973ecdbeb2790d5c37f29bf67fa07fc4e98d30f3b7",
+  "title": "FAA UAP record 237UAP00158",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon (large balloon) observed by a general aviation aircraft.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This report dates to early February 2023, coinciding with the widely reported Chinese surveillance balloon incidents and subsequent heightened balloon awareness across US airspace.",
+    "The object was described by the pilot as a 'large balloon' — this is a pilot observation, not a confirmed identification.",
+    "The report is brief with minimal detail; no follow-up investigation notes are included.",
+    "Several fields (Tail Number, Operator) are blank, limiting traceability."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date and time",
+      "value": "2023-02-03 at 17:26 UTC",
+      "source_quote": "Date: 17:26 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft callsign",
+      "value": "N506BA",
+      "source_quote": "Callsign: N506BA",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "FL430 (approximately 43,000 feet)",
+      "source_quote": "W bound at FL430",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object observed",
+      "value": "Large balloon at approximately FL500 and above",
+      "source_quote": "Aircraft reported a large balloon off the left side",
+      "citation_offset": {
+        "offset": 292,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object altitude",
+      "value": "FL500 (approximately 50,000 feet) and above",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "citation_offset": {
+        "offset": 383,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "10 nautical miles north of BQS",
+      "source_quote": "10NM N of BQS",
+      "citation_offset": {
+        "offset": 368,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of travel",
+      "value": "Westbound",
+      "source_quote": "W bound at FL430",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary classification",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "CLE",
+    "SAF",
+    "BQS",
+    "DEN",
+    "ZKC"
+  ],
+  "dated_events": [
+    "2023-02-03"
+  ],
+  "objects_described": [
+    "Large balloon at approximately FL500"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A general aviation Falcon 7X aircraft flying from Cleveland to Santa Fe observed a large balloon while westbound at 43,000 feet.",
+      "source_quote": "Aircraft reported a large balloon off the left side while W bound at FL430",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 292,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon was at approximately 50,000 feet or above, roughly 7,000 feet higher than the observing aircraft.",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 383,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 10 nautical miles north of BQS.",
+      "source_quote": "10NM N of BQS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 368,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was classified under the primary code Unidentified Aerial Phenomenon.",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:05:25.662Z",
+  "qa_completed_at": "2026-06-01T23:06:09.584Z",
+  "timing": {
+    "A": "25.0s",
+    "B": "18.9s",
+    "E": "18.6s"
+  },
+  "public_headline": "Pilot at 43,000 Feet Reported Large Balloon Above Them in 2023",
+  "public_tldr": "This FAA incident report documents a general aviation pilot who spotted a large balloon flying at approximately 50,000 feet while they were cruising at 43,000 feet on 3 February 2023. The FAA classified it as an Unidentified Aerial Phenomenon and closed the case with no further investigation notes included.",
+  "public_narrative": "On 3 February 2023 at 17:26 UTC, the pilot of a general aviation aircraft with callsign N506BA reported seeing a large balloon off the left side of their aircraft. The plane was flying westbound at FL430 — approximately 43,000 feet — and was located 10 nautical miles north of BQS at the time of the sighting.\n\nThe pilot estimated the balloon was at FL500 (approximately 50,000 feet) and above, placing it roughly 7,000 feet higher than the observing aircraft. The FAA logged the event under its SKYWATCH system and assigned it the primary classification of Unidentified Aerial Phenomenon.\n\nThe case status is listed as closed. The report is brief and contains no follow-up investigation notes, no confirmation of what the balloon was, and no resolution beyond the initial classification. Several fields in the report, including the aircraft's tail number and operator name, are blank.\n\nThe timing is notable: this incident occurred during the first week of February 2023, the same period when multiple high-altitude balloon sightings — including the widely reported Chinese surveillance balloon — were dominating US airspace concerns. The report itself does not connect this sighting to those events, and the object was not formally identified.",
+  "public_caveats": [
+    "The object was described by the pilot as a 'large balloon' — this is a single pilot's observation, not a confirmed identification by radar, imagery, or recovery.",
+    "The report is very brief with minimal detail and no follow-up investigation notes, so there is no indication the FAA pursued further analysis.",
+    "Several identifying fields (tail number, operator name) are blank in the report, which limits independent verification.",
+    "This sighting occurred during the early February 2023 period of heightened balloon awareness across US airspace, which may have influenced reporting patterns.",
+    "The FAA classified this as an Unidentified Aerial Phenomenon, meaning it was not identified — not that it was determined to be anomalous or unexplained in a stronger sense."
+  ]
+}

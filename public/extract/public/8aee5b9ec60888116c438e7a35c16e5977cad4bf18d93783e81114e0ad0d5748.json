@@ -1,0 +1,215 @@
+{
+  "sha256": "8aee5b9ec60888116c438e7a35c16e5977cad4bf18d93783e81114e0ad0d5748",
+  "title": "FAA UAP record 237UAP00084",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by commercial aircraft crews.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Initials 'JH' appear without identifying the individual — partial anonymisation or standard abbreviation.",
+    "SYA (Shemya) is near Eareckson Air Station in the Aleutian Islands, a location with known military radar and missile-warning infrastructure, which may be relevant context.",
+    "The description 'appeared to be rocket with a flash' is the crew's subjective impression, not an instrumented observation.",
+    "Case is marked 'Closed' with no resolution or explanation provided in this document.",
+    "Two independent flight crews corroborate the same sighting, which adds credibility over a single-witness report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign_1",
+      "value": "GTI8050",
+      "source_quote": "Callsign: GTI8050",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign_2",
+      "value": "GTI617",
+      "source_quote": "GTI8050 and GTI617 at FL 350",
+      "citation_offset": {
+        "offset": 292,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL 350 (approx. 35,000 ft)",
+      "source_quote": "GTI8050 and GTI617 at FL 350",
+      "citation_offset": {
+        "offset": 292,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 248,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Appeared to be a rocket with a flash travelling northwest, above the aircraft",
+      "source_quote": "reported an unidentified aerial phenomenon that appeared to be rocket with a flash traveling NW. The phenomenon was above aircraft",
+      "citation_offset": {
+        "offset": 321,
+        "len": 130,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notifications",
+      "value": "NORAD FAA ATSCS contacted; JH notified",
+      "source_quote": "HQ DEN contacted the NORAD FAA ATSCS. JH notified.",
+      "citation_offset": {
+        "offset": 489,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "VHHH",
+    "ANC",
+    "SYA"
+  ],
+  "dated_events": [
+    "2022-03-29T14:55"
+  ],
+  "objects_described": [
+    "unidentified aerial phenomenon resembling a rocket with a flash"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Two Atlas Air (GTI) flights independently observed the same aerial phenomenon near Shemya, Alaska",
+      "source_quote": "GTI8050 and GTI617 at FL 350 reported an unidentified aerial phenomenon",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 292,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared to be a rocket-like object with a flash moving northwest",
+      "source_quote": "appeared to be rocket with a flash traveling NW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 369,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was at an altitude above FL 350 (above 35,000 feet)",
+      "source_quote": "The phenomenon was above aircraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 418,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD was contacted about the incident through the FAA Air Traffic Security Coordination Service",
+      "source_quote": "HQ DEN contacted the NORAD FAA ATSCS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 489,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flights were operating the Hong Kong to Anchorage cargo route",
+      "source_quote": "Origin: VHHH Destination: ANC",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:49:48.239Z",
+  "qa_completed_at": "2026-06-01T21:50:37.052Z",
+  "timing": {
+    "A": "24.3s",
+    "B": "24.5s",
+    "E": "18.4s"
+  },
+  "public_headline": "Two Cargo Flights Report Rocket-Like Flash Over Alaska's Aleutian Islands",
+  "public_tldr": "This FAA SKYWATCH incident report documents two commercial cargo flights (Atlas Air callsigns GTI8050 and GTI617) that independently observed an unidentified aerial phenomenon resembling a rocket with a flash while flying at 35,000 feet near Shemya, Alaska. NORAD was notified, but the case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form used by the Federal Aviation Administration to log reports of unidentified aerial phenomena observed by pilots or air traffic controllers. It is classified under the primary code \"Unidentified Aerial Phenomenon.\"\n\nThe incident involved two commercial cargo flights, GTI8050 and GTI617, both operating at flight level 350 (approximately 35,000 feet) on a route from Hong Kong to Anchorage. The crews reported observing an object that appeared to be a rocket with a flash, travelling northwest at an altitude above their aircraft. The fact that two independent flight crews corroborated the same sighting is notable, as it reduces the likelihood of a single observer's misperception.\n\nFollowing the report, the FAA's headquarters in Denver contacted the NORAD FAA Air Traffic Security Coordination Service (ATSCS) — the channel through which the military is alerted to potential airspace threats. An individual identified only by the initials \"JH\" was also notified.\n\nThe case is marked \"Closed,\" but the document provides no resolution, identification of the object, or follow-up explanation. There is no indication of what, if anything, NORAD determined about the phenomenon.\n\nThe sighting occurred near Shemya in the Aleutian Islands, a location that hosts Eareckson Air Station, a site with known military radar and missile-warning infrastructure. The document itself does not draw any connection between the installation and the sighting, but readers should be aware of that geographic context.",
+  "public_caveats": [
+    "The description \"appeared to be a rocket with a flash\" is the crews' subjective impression, not an instrumented or radar-confirmed observation.",
+    "Two independent flight crews reported the same phenomenon, which adds weight compared to a single-witness account, but no radar data or other sensor evidence is referenced in this document.",
+    "The case is closed with no stated resolution — this means the FAA did not publicly identify the object, but it does not mean the object was unexplainable.",
+    "Shemya is near a military installation with missile-warning radar; this geographic context is not addressed in the report itself.",
+    "The initials \"JH\" appear without identifying who this person is — it is unclear whether this is partial redaction or standard internal shorthand."
+  ]
+}

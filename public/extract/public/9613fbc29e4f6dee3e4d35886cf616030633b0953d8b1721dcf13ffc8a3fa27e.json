@@ -1,0 +1,287 @@
+{
+  "sha256": "9613fbc29e4f6dee3e4d35886cf616030633b0953d8b1721dcf13ffc8a3fa27e",
+  "title": "FAA UAP record 237UAP00328",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon observed during a commercial flight.",
+  "core_summary": "On December 8, 2023, the crew of Southwest Airlines flight SWA498, a Boeing 737 flying westbound at 40,000 feet, reported seeing lights moving at high speed back and forth (left to right) at approximately 60,000 feet altitude, located 35 nautical miles northwest of Meridian, Mississippi. The phenomenon was not detected on ATC radar. The incident was reported through FAA facility ZME (Memphis Center) and the case status is closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot visual observation with no corroborating radar data.",
+    "FL600 (60,000 feet) is above the operational ceiling of most conventional aircraft, but the altitude is described as approximate.",
+    "Case is marked as closed with no resolution or explanation provided in this document.",
+    "No tail number is recorded for the reporting aircraft.",
+    "The description of lights moving 'back and forth left to right' is subjective and could be influenced by atmospheric or optical conditions."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-12-08 at 02:38 UTC",
+      "source_quote": "Date: 02:38 12/08/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "SWA498",
+      "source_quote": "Callsign: SWA498",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737",
+      "source_quote": "Aircraft: B737",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "Southwest Airlines (SWA)",
+      "source_quote": "Operator: SWA",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 257,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin airport",
+      "value": "ATL (Atlanta)",
+      "source_quote": "Origin: ATL",
+      "citation_offset": {
+        "offset": 211,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination airport",
+      "value": "DAL (Dallas Love Field)",
+      "source_quote": "Destination: DAL",
+      "citation_offset": {
+        "offset": 223,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "FL400 (40,000 feet)",
+      "source_quote": "W bound at FL400",
+      "citation_offset": {
+        "offset": 393,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP estimated altitude",
+      "value": "FL600 (approximately 60,000 feet)",
+      "source_quote": "at approximately FL600",
+      "citation_offset": {
+        "offset": 521,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP location",
+      "value": "35 nautical miles northwest of MEI (Meridian, MS)",
+      "source_quote": "35NM NW of MEI",
+      "citation_offset": {
+        "offset": 411,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Lights moving at high speed back and forth, left to right",
+      "source_quote": "lights moving at high rates of speed back and forth left to right",
+      "citation_offset": {
+        "offset": 454,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 545,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZME (Memphis Center)",
+      "source_quote": "Reporting Facility: ZME",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "MOR ID",
+      "value": "ZME-M-2023/12/07-0008",
+      "source_quote": "MOR ID: ZME-M-2023/12/07-0008",
+      "citation_offset": {
+        "offset": 297,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "ATL",
+    "DAL",
+    "MEI",
+    "DEN"
+  ],
+  "dated_events": [
+    "12/08/2023",
+    "2023-12-08T02:38",
+    "2023/12/07"
+  ],
+  "objects_described": [
+    "B737 (Boeing 737)",
+    "Unidentified lights at approximately FL600"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Southwest Airlines flight SWA498 was a commercial Boeing 737 flying from Atlanta to Dallas Love Field.",
+      "source_quote": "Aircraft: B737 ... Operator: SWA ... Origin: ATL Destination: DAL ... Operator Type: Commercial",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft was westbound at 40,000 feet when the crew observed the phenomenon.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while W bound at FL400",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 335,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observed lights were moving at high speed back and forth at an estimated altitude of 60,000 feet, roughly 20,000 feet above the aircraft.",
+      "source_quote": "lights moving at high rates of speed back and forth left to right, at approximately FL600",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 454,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 35 nautical miles northwest of Meridian, Mississippi.",
+      "source_quote": "35NM NW of MEI",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 411,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by ATC radar systems.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 545,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:44:15.544Z",
+  "qa_completed_at": "2026-06-02T01:44:53.440Z",
+  "timing": {
+    "A": "21.9s",
+    "B": "16.0s",
+    "E": "16.3s"
+  },
+  "public_headline": "Southwest Airlines Crew Reports Fast-Moving Lights at 60,000 Feet Over Mississippi",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of Southwest Airlines flight SWA498 on 8 December 2023. While flying at 40,000 feet over Mississippi, the crew observed lights moving at high speed back and forth at an estimated 60,000 feet — well above conventional aircraft ceilings — but air traffic control radar detected nothing. The case is closed with no explanation provided.",
+  "public_narrative": "On 8 December 2023 at 02:38 UTC, the crew of Southwest Airlines flight SWA498 — a Boeing 737 flying westbound from Atlanta to Dallas Love Field — reported an unidentified aerial phenomenon to Memphis Center (FAA facility ZME). The aircraft was cruising at 40,000 feet, approximately 35 nautical miles northwest of Meridian, Mississippi.\n\nThe crew described seeing lights moving at high speed back and forth, left to right, at an estimated altitude of roughly 60,000 feet — about 20,000 feet above their own aircraft. That altitude is above the operational ceiling of most conventional aircraft, though the report notes the figure is approximate.\n\nAir traffic control checked their radar systems and found no corresponding target. The phenomenon was a visual-only observation by the flight crew, with no independent sensor confirmation.\n\nThe FAA logged the incident under its SKYWATCH programme, which tracks unidentified aerial phenomena reported through the national airspace system. The case was assigned tracking number 237UAP00328 and MOR ID ZME-M-2023/12/07-0008. Its status is marked as closed, but the document provides no resolution or explanation for what the crew observed.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the flight crew's visual observation — no radar, infrared, or other sensor data corroborates the sighting.",
+    "The estimated altitude of 60,000 feet is described as approximate. Judging the altitude of lights at night from a moving aircraft is inherently imprecise.",
+    "The case is closed with no stated conclusion. 'Closed' does not mean explained — it means the FAA finished processing the report.",
+    "The description of lights moving 'back and forth left to right' is subjective and could be influenced by atmospheric or optical effects.",
+    "No tail number is recorded for the reporting aircraft, and the document shows minimal redaction overall."
+  ]
+}

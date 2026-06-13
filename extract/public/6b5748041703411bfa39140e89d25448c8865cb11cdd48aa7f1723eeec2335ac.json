@@ -1,0 +1,174 @@
+{
+  "sha256": "6b5748041703411bfa39140e89d25448c8865cb11cdd48aa7f1723eeec2335ac",
+  "title": "FAA UAP record 237UAP00144",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a general aviation aircraft.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar or sensor data mentioned in this report.",
+    "The report is brief and provides no physical description of the object beyond its direction and descent into clouds.",
+    "'Observed for 100 miles' is ambiguous — it could mean the object was tracked visually over 100 miles of the aircraft's flight path, which would imply a prolonged sighting.",
+    "Case is marked Closed with no resolution or explanation provided."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-01-26 at 21:15",
+      "source_quote": "Date: 21:15 01/26/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft callsign",
+      "value": "N541Z",
+      "source_quote": "Callsign: N541Z",
+      "citation_offset": {
+        "offset": 93,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 241,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Descending from FL430 (approx. 43,000 ft)",
+      "source_quote": "descending from FL430",
+      "citation_offset": {
+        "offset": 359,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object direction",
+      "value": "Southwest-bound, descending",
+      "source_quote": "an object traveling SW bound descending into cloud base cover",
+      "citation_offset": {
+        "offset": 409,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation distance",
+      "value": "100 miles",
+      "source_quote": "The object was observed for 100 miles",
+      "citation_offset": {
+        "offset": 490,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 109,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-01-26"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon — object traveling southwest-bound descending into cloud base cover"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "An aircraft descending from FL430 observed an unknown object traveling southwest and descending into cloud cover 10 miles north of Lynchburg, VA.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while SW bound descending from FL430. The unknown phenomenon was an object traveling SW bound descending into cloud base cover 10 miles N of LYH.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 292,
+        "len": 197,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was observed over a distance of 100 miles.",
+      "source_quote": "The object was observed for 100 miles.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 490,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Teterboro, NJ and was destined for Charlotte, NC.",
+      "source_quote": "Origin: TEB Destination: CLT",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 195,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:52:11.251Z",
+  "qa_completed_at": "2026-06-01T22:52:46.129Z",
+  "timing": {
+    "A": "17.5s",
+    "B": "17.4s",
+    "E": "19.3s"
+  },
+  "public_headline": "Pilot Reports Unidentified Object Descending Near Lynchburg, Virginia",
+  "public_tldr": "This FAA incident report documents a general aviation pilot observing an unidentified object travelling southwest and descending into cloud cover roughly 10 miles north of Lynchburg, Virginia, on 26 January 2023. The object was tracked visually over approximately 100 miles of the aircraft's flight path. The case was closed with no explanation provided.",
+  "public_narrative": "On 26 January 2023 at 21:15, the pilot of a general aviation aircraft with callsign N541Z reported an unidentified aerial phenomenon to the FAA's SKYWATCH system. The aircraft was flying from Teterboro, New Jersey to Charlotte, North Carolina and was descending from Flight Level 430 — roughly 43,000 feet — at the time of the sighting.\n\nThe pilot observed an object travelling southwest and descending into cloud base cover approximately 10 miles north of Lynchburg, Virginia (identified in the report by the airport code LYH). According to the report, the object was observed over a distance of 100 miles, suggesting a prolonged visual tracking as the aircraft continued along its route.\n\nThe report is brief and provides no physical description of the object beyond its direction of travel and descent into clouds. No radar data or other sensor corroboration is mentioned. The FAA marked the case as closed, but the report contains no resolution, identification, or explanation for what the pilot observed.\n\nThe document originates from the FAA's Denver point of distribution (POD: DEN). There is little evidence of redaction in this particular record — the brevity appears to reflect the limited information gathered rather than deliberate withholding.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No corroborating radar data, sensor readings, or additional witness reports are mentioned in the document.",
+    "The report provides no physical description of the object — only its direction (southwest-bound) and that it descended into cloud cover.",
+    "'Observed for 100 miles' is ambiguous. It likely means the pilot tracked it visually over 100 miles of flight path, but the phrasing is not precise.",
+    "The case is marked closed with no resolution or explanation, which is common in FAA incident reports and does not imply any particular conclusion.",
+    "This is a routine FAA incident filing, not an intelligence assessment or investigation. It records what a pilot reported, nothing more."
+  ]
+}

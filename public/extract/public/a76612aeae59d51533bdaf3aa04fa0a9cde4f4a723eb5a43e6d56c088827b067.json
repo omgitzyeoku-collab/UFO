@@ -1,0 +1,182 @@
+{
+  "sha256": "a76612aeae59d51533bdaf3aa04fa0a9cde4f4a723eb5a43e6d56c088827b067",
+  "title": "FAA UAP record 237UAP00300",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon sighting.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The position 25 degrees above the horizon near the Big Dipper constellation is consistent with an astronomical object (e.g. satellite constellation or bright stars) rather than a nearby airborne object, though this is not concluded in the report.",
+    "No radar data or sensor confirmation is referenced — all observations are visual from aircrew.",
+    "Case is marked Closed with no resolution or explanation provided.",
+    "Multiple independent pilot reports strengthen the observation but all are visual-only from commercial crews at night."
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "JBU811 (JetBlue), aircraft type BCS3",
+      "source_quote": "Callsign: JBU811 ... Aircraft: BCS3 ... Operator: JBU",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "altitude",
+      "value": "36,000 feet",
+      "source_quote": "W bound at 36,000 feet",
+      "citation_offset": {
+        "offset": 367,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "description_of_phenomenon",
+      "value": "Multiple lights orbiting, similar to aircraft landing lights, 25 degrees above horizon near Big Dipper",
+      "source_quote": "multiple lights orbiting. They appear to be similar to aircraft landing lights. The lights appear to be 25 degrees above the horizon in the vicinity of the Big Dipper constellation",
+      "citation_offset": {
+        "offset": 434,
+        "len": 180,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_observation",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "off the12 o'clock",
+      "citation_offset": {
+        "offset": 343,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft",
+      "value": "LXJ652 (GLF6, FL410), DAL2685 (BCS1, FL360), CMP422 (B738, FL380), UAE5WR (B77W, FL290)",
+      "source_quote": "LXJ652-GLF6, FL410, DAL2685-BCS1, FL360, CMP422-B738, FL380, UAE5WR-B77W, FL290",
+      "citation_offset": {
+        "offset": 669,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Boston (BOS) to Chicago O'Hare (ORD)",
+      "source_quote": "Origin: BOS Destination: ORD",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 246,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "BOS (Boston)",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-09-26T03:13"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon — multiple orbiting lights resembling aircraft landing lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "JetBlue flight 811 was operating BOS-ORD on 26 September 2023",
+      "source_quote": "Callsign: JBU811 ... Origin: BOS Destination: ORD",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The phenomenon was observed at coordinates 4312N/7535W at 36,000 feet",
+      "source_quote": "W bound at 36,000 feet, at 4312N/7535W",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 367,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights appeared near the Big Dipper constellation, 25 degrees above the horizon",
+      "source_quote": "The lights appear to be 25 degrees above the horizon in the vicinity of the Big Dipper constellation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 514,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO was notified of the incident",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 750,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:18:01.645Z",
+  "qa_completed_at": "2026-06-02T01:18:51.595Z",
+  "timing": {
+    "A": "26.3s",
+    "B": "23.7s",
+    "E": "25.3s"
+  },
+  "public_headline": "JetBlue Crew and Four Other Flights Report Orbiting Lights Over New England",
+  "public_tldr": "An FAA incident report documents a JetBlue pilot flying from Boston to Chicago at 36,000 feet who reported multiple orbiting lights resembling aircraft landing lights, positioned 25 degrees above the horizon near the Big Dipper constellation. Four other commercial and private aircraft independently reported the same phenomenon. The FAA closed the case without explanation.",
+  "public_narrative": "On 26 September 2023, the crew of JetBlue flight 811 — a commercial Airbus A220-300 (BCS3) flying westbound from Boston (BOS) to Chicago O'Hare (ORD) at 36,000 feet — reported an unidentified aerial phenomenon directly ahead of the aircraft. The sighting was logged through the FAA's SKYWATCH incident reporting system.\n\nThe crew described multiple lights that appeared to be orbiting one another, similar in appearance to aircraft landing lights. The lights were observed roughly 25 degrees above the horizon, in the direction of the Big Dipper constellation. The observation was made at coordinates 43°12'N, 75°35'W — over upstate New York.\n\nThe sighting was not limited to a single aircraft. Four other flights independently corroborated the observation: a Flexjet Gulfstream G650 (LXJ652) at 41,000 feet, a Delta Air Lines A220 (DAL2685) at 36,000 feet, a Copa Airlines Boeing 737-800 (CMP422) at 38,000 feet, and an Emirates Boeing 777-300ER (UAE5WR) at 29,000 feet. The FAA's Air Watch Operations (AWO) was notified.\n\nThe FAA closed the case with no resolution or explanation provided. There is no reference to radar data or any sensor confirmation in the report — all observations were visual, made by commercial and private aircrew at night.\n\nThe report shows low evidence of redaction. The incident location field was left blank in the structured data, though coordinates are provided in the narrative text of the report itself.",
+  "public_caveats": [
+    "All observations were visual only — no radar data, infrared imagery, or other sensor confirmation is referenced in this report.",
+    "The position described (25 degrees above the horizon near the Big Dipper) is consistent with astronomical objects such as satellite constellations or bright stars, though the report draws no such conclusion.",
+    "The FAA marked the case as Closed with no resolution, meaning the phenomenon was neither identified nor ruled out as conventional.",
+    "Multiple independent pilot reports from five separate aircraft strengthen the observation, but visual-only sightings from crews at night carry inherent limitations.",
+    "This is a routine FAA incident report, not an intelligence product — it documents what pilots reported, not what the phenomenon was."
+  ]
+}

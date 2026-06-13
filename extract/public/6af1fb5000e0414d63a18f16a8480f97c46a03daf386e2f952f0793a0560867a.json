@@ -1,0 +1,233 @@
+{
+  "sha256": "6af1fb5000e0414d63a18f16a8480f97c46a03daf386e2f952f0793a0560867a",
+  "title": "FAA UAP record 237UAP00062",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot observation of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness statements included in this report.",
+    "The report is brief and lacks detail on duration of observation, distance to the phenomenon, or weather conditions.",
+    "Initials 'JH notified' suggest an individual was informed but no full name or role is provided.",
+    "The incident date on the cover metadata says 2023, but the report body clearly states 2021-08-06 — the 2023 date likely refers to document processing or release date, not the incident."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2021-08-06 at 03:52 UTC",
+      "source_quote": "Date: 03:52 08/06/2021",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "ABD765",
+      "source_quote": "Callsign: ABD765",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "ABD (commercial)",
+      "source_quote": "Operator: ABD",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight level",
+      "value": "FL330 (approximately 33,000 feet)",
+      "source_quote": "ENE bound at FL330",
+      "citation_offset": {
+        "offset": 368,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Vicinity of PMM VOR",
+      "source_quote": "vicinity of PMM VOR",
+      "citation_offset": {
+        "offset": 388,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "off the 12 o'clock",
+      "citation_offset": {
+        "offset": 343,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP appearance",
+      "value": "Star-shaped lighting",
+      "source_quote": "star shaped lighting",
+      "citation_offset": {
+        "offset": 436,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP behaviour",
+      "value": "Rapidly changing altitudes then hovered",
+      "source_quote": "rapidly changing altitudes then hovered",
+      "citation_offset": {
+        "offset": 458,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None reported",
+      "source_quote": "No evasive action reported",
+      "citation_offset": {
+        "offset": 499,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZAU",
+    "PMM VOR",
+    "RFD",
+    "EDDF"
+  ],
+  "dated_events": [
+    "2021-08-06"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with star-shaped lighting"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Boeing 747-400 operated by ABD with callsign ABD765 observed a UAP while flying at FL330 near PMM VOR on 6 August 2021.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the 12 o'clock while ENE bound at FL330, vicinity of PMM VOR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP displayed star-shaped lighting and rapidly changed altitudes before hovering.",
+      "source_quote": "The unknown phenomenon had star shaped lighting, rapidly changing altitudes then hovered",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 409,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight crew took no evasive action in response to the UAP.",
+      "source_quote": "No evasive action reported",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 499,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "ZAU (Chicago Center) reported the sighting to the UFO reporting hotline.",
+      "source_quote": "ZAU will call UFO reporting hotline",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 527,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was flying from Rockford, Illinois to Frankfurt, Germany.",
+      "source_quote": "Origin: RFD Destination: EDDF",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 200,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:29:10.624Z",
+  "qa_completed_at": "2026-06-01T21:29:51.871Z",
+  "timing": {
+    "A": "20.7s",
+    "B": "20.6s",
+    "E": "18.7s"
+  },
+  "public_headline": "Cargo Pilot Reports Star-Shaped Object Changing Altitude at 33,000 Feet",
+  "public_tldr": "An FAA SKYWATCH incident report documents a commercial cargo pilot observing an unidentified aerial phenomenon with star-shaped lighting near PMM VOR on 6 August 2021. The object rapidly changed altitudes before hovering, and Chicago Center reported the sighting to the UFO reporting hotline.",
+  "public_narrative": "This is an FAA SKYWATCH incident report (case 237UAP00062) documenting a pilot's observation of an unidentified aerial phenomenon. The report is brief — a single-page filing that records the basics of what was seen and by whom.\n\nOn 6 August 2021 at 03:52 UTC, a commercial Boeing 747-400 operated by ABD (callsign ABD765) was flying east-northeast at flight level 330 (approximately 33,000 feet) in the vicinity of PMM VOR. The aircraft was en route from Rockford, Illinois (RFD) to Frankfurt, Germany (EDDF). The flight crew reported an unidentified phenomenon directly ahead of the aircraft — at the 12 o'clock position.\n\nThe crew described the object as having star-shaped lighting. It rapidly changed altitudes and then hovered. The crew took no evasive action. Chicago Center (ZAU) reported the sighting to the UFO reporting hotline. An individual identified only by the initials 'JH' was notified.\n\nThe case is marked as closed. The report contains no explanation of what the object was, no radar corroboration, and no further investigative findings. The metadata lists a 2023 date, which likely refers to when the document was processed or released rather than when the incident occurred.",
+  "public_caveats": [
+    "This is a single-source pilot observation — no radar data, photos, or additional witness statements are included in the report.",
+    "The report is very brief and lacks detail on how long the sighting lasted, the estimated distance to the object, or weather conditions at the time.",
+    "The FAA closed the case without providing any explanation or identification of the phenomenon in this document.",
+    "The 2023 date in the cover metadata likely refers to document processing or release, not the incident itself, which the report body dates to August 2021.",
+    "No named individuals appear in the report beyond unexplained initials ('JH'), limiting accountability and follow-up."
+  ]
+}

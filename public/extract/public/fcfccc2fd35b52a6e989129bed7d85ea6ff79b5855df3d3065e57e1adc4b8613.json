@@ -1,0 +1,199 @@
+{
+  "sha256": "fcfccc2fd35b52a6e989129bed7d85ea6ff79b5855df3d3065e57e1adc4b8613",
+  "title": "FAA UAP record 237UAP00294",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's observation of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness reports mentioned.",
+    "No details on duration of observation or any interaction with ATC beyond the report being filed.",
+    "The description 'moving erratically' is subjective and not quantified.",
+    "Case is marked closed with no resolution or explanation provided."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/Time",
+      "value": "2023-08-28 at 04:01 UTC",
+      "source_quote": "Date: 04:01 08/28/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "N224LD",
+      "source_quote": "Callsign: N224LD",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight level",
+      "value": "FL390",
+      "source_quote": "N bound at FL390",
+      "citation_offset": {
+        "offset": 369,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "Unorganized group of white lights moving erratically at FL390-FL410",
+      "source_quote": "an unorganized group of white lights moving erratically at approximately FL390-FL410",
+      "citation_offset": {
+        "offset": 431,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of observation",
+      "value": "Off the left side of the aircraft",
+      "source_quote": "off the left side",
+      "citation_offset": {
+        "offset": 345,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "OPF",
+    "TEB",
+    "FLO",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-08-28"
+  ],
+  "objects_described": [
+    "Unorganized group of white lights (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A general aviation aircraft flying from OPF to TEB observed a UAP while northbound at FL390.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while N bound at FL390",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 293,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of an unorganized group of white lights moving erratically at approximately FL390-FL410.",
+      "source_quote": "an unorganized group of white lights moving erratically at approximately FL390-FL410",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 431,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 40 nautical miles east-northeast of Florence, SC.",
+      "source_quote": "40NM ENE of FLO",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 387,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was observed off the left (west) side of the aircraft.",
+      "source_quote": "off the left side",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 345,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported to Jacksonville Air Route Traffic Control Center.",
+      "source_quote": "Reporting Facility: ZJX",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:12:37.853Z",
+  "qa_completed_at": "2026-06-02T01:13:16.889Z",
+  "timing": {
+    "A": "19.0s",
+    "B": "20.0s",
+    "E": "14.0s"
+  },
+  "public_headline": "Pilot Reports Erratic White Lights at 39,000 Feet Over South Carolina",
+  "public_tldr": "This FAA SKYWATCH incident report documents a general aviation pilot's sighting of an unorganised group of white lights moving erratically at 39,000–41,000 feet near Florence, South Carolina, on 28 August 2023. The case was closed with no explanation provided.",
+  "public_narrative": "On 28 August 2023 at 04:01 UTC, a general aviation aircraft with callsign N224LD was flying northbound from Opa-locka (OPF) to Teterboro (TEB) at flight level 390 — roughly 39,000 feet. Approximately 40 nautical miles east-northeast of Florence, South Carolina, the pilot observed something unusual off the left side of the aircraft.\n\nThe pilot described an unorganised group of white lights moving erratically at approximately FL390 to FL410 (39,000–41,000 feet). The sighting was reported through Jacksonville Air Route Traffic Control Center (ZJX) and logged under FAA case number 237UAP00294 via the agency's SKYWATCH reporting system, with the Denver (DEN) office listed as the point of distribution.\n\nThe case is marked as closed. No resolution, identification, or explanation for the lights is provided in the document. There is no mention of corroborating radar data, additional witnesses, or follow-up investigation.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No corroborating radar data or additional witness reports are mentioned in the document.",
+    "The description 'moving erratically' is subjective — no speed, trajectory, or duration figures are provided.",
+    "The case is closed with no resolution or explanation, which means it was neither confirmed nor debunked.",
+    "There is low evidence of redaction, but the document is brief and lacks detail that might appear in a more thorough investigation file.",
+    "FAA SKYWATCH reports are incident logs, not investigations — they record what was reported, not what was concluded."
+  ]
+}

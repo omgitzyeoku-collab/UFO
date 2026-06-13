@@ -1,0 +1,266 @@
+{
+  "sha256": "a64a373e059f16987c9e3edf96d53a619b1c94a3b792c0b2ad7677469ad2ad62",
+  "title": "FAA UAP record 237UAP00325",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by air traffic control and corroborated by Malmstrom Air Force Base security.",
+  "core_summary": "On 2 December 2023, Great Falls (GTF) air traffic control tower reported an unidentified aerial phenomenon to the northeast at approximately FL400 (40,000 feet) and above. The phenomenon consisted of five or more lights moving in a circular pattern at varying intensities and altitudes, resembling a holding pattern. The object was not detected on ATC radar, and Malmstrom AFB security independently confirmed seeing the lights.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Distance from reporting facility could not be determined — altitude estimate is approximate.",
+    "No radar corroboration: the phenomenon was only observed visually.",
+    "The report is marked NOTIFICATION-LATE, meaning it may not have been filed in real time.",
+    "The report is closed with no stated resolution or identification of the phenomenon.",
+    "Malmstrom AFB is a nuclear ICBM facility; proximity to nuclear assets is notable but the report draws no connection."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "report_date",
+      "value": "2023-12-02T15:43",
+      "source_quote": "Date: 15:43 12/02/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "GTF (Great Falls)",
+      "source_quote": "Reporting Facility: GTF",
+      "citation_offset": {
+        "offset": 172,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "UNIDENTIFIED AERIAL PHENOMENON",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR_ID",
+      "value": "GTF-M-2023/12/02-0001",
+      "source_quote": "MOR ID: GTF-M-2023/12/02-0001",
+      "citation_offset": {
+        "offset": 122,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "altitude",
+      "value": "FL400 (approximately 40,000 feet) and above",
+      "source_quote": "approximately FL400 and above, unable to determine distance",
+      "citation_offset": {
+        "offset": 300,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction",
+      "value": "Northeast of reporting facility",
+      "source_quote": "an unidentified aerial phenomenon to the NE",
+      "citation_offset": {
+        "offset": 253,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "description",
+      "value": "5 or more lights in circular pattern, changing intensity, at different altitudes",
+      "source_quote": "5 or more lights moving in a circular pattern, changing intensity, consistent with a holding pattern, but not always in a circular pattern",
+      "citation_offset": {
+        "offset": 388,
+        "len": 138,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 567,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "military_corroboration",
+      "value": "Malmstrom AFB security confirmed sighting",
+      "source_quote": "Malmstrom AFB security verified seeing lights as well",
+      "citation_offset": {
+        "offset": 643,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "HAYS_MOA_status",
+      "value": "Not active",
+      "source_quote": "HAYS MOA not active",
+      "citation_offset": {
+        "offset": 622,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 107,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "secondary_codes",
+      "value": "NOTIFICATION-LATE",
+      "source_quote": "Secondary Codes: NOTIFICATION-LATE",
+      "citation_offset": {
+        "offset": 196,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Great Falls (GTF)",
+    "Denver (DEN)",
+    "HAYS MOA",
+    "Malmstrom AFB"
+  ],
+  "dated_events": [
+    "2023-12-02"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon — 5 or more lights moving in circular pattern at varying altitudes and intensities"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "GTF air traffic control tower observed a UAP to the northeast at approximately 40,000 feet",
+      "source_quote": "ATCT reported an unidentified aerial phenomenon to the NE at approximately FL400 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 239,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of five or more lights moving in a circular pattern with changing intensity",
+      "source_quote": "5 or more lights moving in a circular pattern, changing intensity, consistent with a holding pattern",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 388,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights appeared to be at different altitudes",
+      "source_quote": "Appeared to be at different altitudes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 528,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP did not appear on air traffic control radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 567,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Malmstrom Air Force Base security independently confirmed the sighting",
+      "source_quote": "Malmstrom AFB security verified seeing lights as well",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 643,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The HAYS Military Operations Area was not active at the time",
+      "source_quote": "HAYS MOA not active",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 622,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:41:25.871Z",
+  "qa_completed_at": "2026-06-02T01:42:04.222Z",
+  "timing": {
+    "A": "21.4s",
+    "B": "16.9s",
+    "E": "20.8s"
+  },
+  "public_headline": "FAA Reports Unexplained Lights Over Great Falls Near Nuclear Base",
+  "public_tldr": "An FAA incident report documents five or more unidentified lights seen circling at roughly 40,000 feet northeast of Great Falls, Montana on 2 December 2023. The lights were visible to air traffic controllers and independently confirmed by security at Malmstrom Air Force Base, but never appeared on radar. The case was closed with no explanation offered.",
+  "public_narrative": "On 2 December 2023, air traffic controllers at the Great Falls (GTF) tower in Montana reported an unidentified aerial phenomenon to the northeast of their facility. They described five or more lights at approximately 40,000 feet and above, moving in a circular pattern at varying intensities and altitudes — a motion they compared to an aircraft holding pattern, though the movement was not always circular.\n\nThe lights did not appear on the facility's radar system, meaning the observation was entirely visual. Controllers could not determine the distance to the phenomenon. Separately, security personnel at Malmstrom Air Force Base confirmed they could also see the lights. The nearby HAYS Military Operations Area was not active at the time, ruling out routine military exercises in that airspace.\n\nThe FAA filed this as a SKYWATCH incident report under case number 237UAP00325, with the primary code \"Unidentified Aerial Phenomenon.\" The report carries a secondary code of NOTIFICATION-LATE, indicating it may not have been filed at the time of the event. The case status is closed, but the document offers no resolution or identification of what the lights were.\n\nMalmstrom Air Force Base is home to intercontinental ballistic missile silos, making it one of the most security-sensitive installations in the United States. The report itself draws no connection between the sighting and the base's nuclear mission, but the proximity is notable context.",
+  "public_caveats": [
+    "The phenomenon was observed visually only — it never appeared on radar, so there is no independent electronic corroboration of its presence or altitude.",
+    "The altitude estimate of 40,000 feet is approximate; controllers stated they could not determine the distance to the lights.",
+    "The report is marked NOTIFICATION-LATE, meaning it was not filed in real time and may reflect details recalled after the fact.",
+    "The case is closed with no stated resolution — the FAA did not identify what the lights were, but also did not characterise them as unexplainable.",
+    "Malmstrom AFB security confirmed seeing the lights, but the report provides no detail on what they observed or any follow-up investigation."
+  ]
+}

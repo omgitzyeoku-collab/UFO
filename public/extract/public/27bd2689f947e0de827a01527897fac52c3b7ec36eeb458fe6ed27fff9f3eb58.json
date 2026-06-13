@@ -1,0 +1,216 @@
+{
+  "sha256": "27bd2689f947e0de827a01527897fac52c3b7ec36eeb458fe6ed27fff9f3eb58",
+  "title": "FAA UAP record 237UAP00388",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot's UFO sighting.",
+  "core_summary": "On 8 February 2019, the pilot of United Airlines flight 1104 (a Boeing 737 flying from Anchorage to Denver) reported observing a UFO with red, green, and white lights hovering between flight levels 370 and 390 (approximately 37,000–39,000 feet) about 10 nautical miles southeast of the Coppertown VOR near Butte, Montana. No evasive action was taken. Salt Lake City ARTCC confirmed no other radar targets were in the area.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar returns or additional witnesses mentioned.",
+    "The document metadata lists an incident date of 2023, but the source text clearly dates the event to 8 February 2019 — the 2023 date likely refers to the record's release or cataloguing.",
+    "Red, green, and white lights are consistent with standard aviation navigation lighting, though the hovering behaviour described would not be typical of conventional aircraft at that altitude."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "United Airlines flight 1104, Boeing 737, routing Anchorage (ANC) to Denver (DEN)",
+      "source_quote": "UNITED 1104, B737, ANC - DEN",
+      "citation_offset": {
+        "offset": 249,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Object with red, green, and white lights, hovering between FL370 and FL390",
+      "source_quote": "PIC REPORTED A UFO WITH RED, GREEN, AND WHITE LIGHTS HOVERING BETWEEN FL370 - FL390",
+      "citation_offset": {
+        "offset": 279,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "10 nautical miles southeast of Coppertown VOR, Butte, Montana",
+      "source_quote": "10 SE COPPERTOWN VOR, BUTTE, MT",
+      "citation_offset": {
+        "offset": 363,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date and time",
+      "value": "8 February 2019 at 05:26 MST",
+      "source_quote": "Date: 2/8/2019 5:26:00 AM (-07 MST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Latitude",
+      "value": "45.901347",
+      "source_quote": "Latitude: 45.901346969999999",
+      "citation_offset": {
+        "offset": 105,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Longitude",
+      "value": "-112.388132",
+      "source_quote": "-112.3881322",
+      "citation_offset": {
+        "offset": 144,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 396,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar corroboration",
+      "value": "No other targets shown on radar besides United 1104",
+      "source_quote": "SALT LAKE ARTCC DID NOT SHOW ANY OTHER TARGETS IN THE AREA OTHER THAN UNITED 1104",
+      "citation_offset": {
+        "offset": 494,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Salt Lake City ARTCC",
+      "source_quote": "SALT LAKE ARTCC",
+      "citation_offset": {
+        "offset": 225,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Follow-up",
+      "value": "ATSC provided the UFO call center telephone number to Salt Lake ARTCC",
+      "source_quote": "ATSC PROVIDED SALT LAKE ARTCC WITH THE UFO CALL CENTER TELEPHONE NUMBER",
+      "citation_offset": {
+        "offset": 421,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Butte, MT",
+    "Coppertown VOR",
+    "Salt Lake City ARTCC",
+    "Anchorage (ANC)",
+    "Denver (DEN)"
+  ],
+  "dated_events": [
+    "2/8/2019",
+    "02-08-2019"
+  ],
+  "objects_described": [
+    "UFO with red, green, and white lights",
+    "Boeing 737 (United 1104)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 1104 was a Boeing 737 operating from Anchorage to Denver on 8 February 2019.",
+      "source_quote": "UNITED 1104, B737, ANC - DEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 249,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot in command reported a UFO with red, green, and white lights hovering between 37,000 and 39,000 feet.",
+      "source_quote": "PIC REPORTED A UFO WITH RED, GREEN, AND WHITE LIGHTS HOVERING BETWEEN FL370 - FL390",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 279,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Salt Lake City ARTCC radar showed no other aircraft in the area besides United 1104.",
+      "source_quote": "SALT LAKE ARTCC DID NOT SHOW ANY OTHER TARGETS IN THE AREA OTHER THAN UNITED 1104",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 494,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 396,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:39:11.795Z",
+  "qa_completed_at": "2026-06-02T02:39:44.342Z",
+  "timing": {
+    "A": "18.3s",
+    "B": "14.3s",
+    "E": "19.6s"
+  },
+  "public_headline": "United Airlines Pilot Reported Hovering Lights Over Montana in 2019",
+  "public_tldr": "An FAA incident report documents a United Airlines pilot observing an unidentified object with red, green, and white lights hovering at roughly 37,000–39,000 feet near Butte, Montana, on 8 February 2019. Air traffic control radar showed no other aircraft in the area.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report filed under record number 237UAP00388. It records a sighting reported by the pilot in command of United Airlines flight 1104, a Boeing 737 flying from Anchorage, Alaska, to Denver, Colorado.\n\nOn 8 February 2019 at 05:26 MST, the pilot reported seeing an unidentified object with red, green, and white lights. The object appeared to be hovering between flight levels 370 and 390 — roughly 37,000 to 39,000 feet — approximately 10 nautical miles southeast of the Coppertown VOR navigational beacon near Butte, Montana. The crew took no evasive action.\n\nSalt Lake City ARTCC (Air Route Traffic Control Center), the radar facility responsible for that airspace, confirmed it did not show any other targets in the area besides United 1104. The FAA's Air Traffic Security Coordinator provided Salt Lake ARTCC with a UFO call centre telephone number for further reporting.\n\nThe document contains no conclusions about what the object was. There is no indication of follow-up investigation findings, additional witness accounts, or photographic evidence. The record appears to have been catalogued or released in 2023, though the underlying event dates to February 2019.",
+  "public_caveats": [
+    "This is a single-source pilot report. No passengers, crew members, or other aircraft are cited as additional witnesses.",
+    "Radar did not corroborate the sighting — Salt Lake City ARTCC showed no other targets in the area, meaning whatever the pilot saw did not appear on radar.",
+    "Red, green, and white lights are consistent with standard aviation navigation lighting on conventional aircraft, though the reported hovering behaviour at that altitude would not be typical of such aircraft.",
+    "The document contains no agency conclusion or identification of the object. It is a raw incident report, not an investigation finding.",
+    "There is minimal redaction in this document, but also minimal detail — the report is brief and does not include sensor data, photographs, or follow-up analysis."
+  ]
+}

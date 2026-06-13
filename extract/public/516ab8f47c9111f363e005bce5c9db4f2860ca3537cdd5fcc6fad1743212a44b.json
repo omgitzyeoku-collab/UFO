@@ -1,0 +1,199 @@
+{
+  "sha256": "516ab8f47c9111f363e005bce5c9db4f2860ca3537cdd5fcc6fad1743212a44b",
+  "title": "FAA UAP record 237UAP00386",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data.",
+    "Case is marked closed with no resolution or explanation provided.",
+    "No tail number recorded, limiting independent verification of the specific aircraft.",
+    "Observer report only — no instrument or sensor confirmation of the phenomenon."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2024-10-26 at 02:05",
+      "source_quote": "Date: 02:05 10/26/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "AAL1468",
+      "source_quote": "Callsign: AAL1468",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "MIA to SAT",
+      "source_quote": "Origin: MIA Destination: SAT",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "FL360 (36,000 feet)",
+      "source_quote": "W bound at FL360",
+      "citation_offset": {
+        "offset": 369,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "White lights circling above the aircraft at approximately FL370",
+      "source_quote": "white lights circling above the aircraft at approximately FL370",
+      "citation_offset": {
+        "offset": 431,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "170 NM west of RSW",
+      "source_quote": "170 NM W of RSW",
+      "citation_offset": {
+        "offset": 387,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 496,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MIA",
+    "SAT",
+    "RSW",
+    "DEN"
+  ],
+  "dated_events": [
+    "2024-10-26"
+  ],
+  "objects_described": [
+    "White lights circling at approximately FL370"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 1468 was a commercial Boeing 737 MAX 8 flying from Miami to San Antonio.",
+      "source_quote": "Callsign: AAL1468 ... Aircraft: B38M ... Origin: MIA Destination: SAT",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed white lights circling above them at approximately FL370 while at FL360.",
+      "source_quote": "white lights circling above the aircraft at approximately FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 431,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 170 nautical miles west of Southwest Florida International Airport.",
+      "source_quote": "170 NM W of RSW",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 387,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was not detected on ATC facility radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 496,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:38:21.300Z",
+  "qa_completed_at": "2026-06-02T02:38:56.005Z",
+  "timing": {
+    "A": "17.4s",
+    "B": "17.3s",
+    "E": "15.8s"
+  },
+  "public_headline": "FAA Report: Crew Spots Unexplained White Lights Above Their Airliner",
+  "public_tldr": "An FAA SKYWATCH incident report documents white lights circling above American Airlines flight AAL1468 at approximately 37,000 feet over the Gulf of Mexico on 26 October 2024. The lights were not detected on air traffic control radar, and the case was closed without explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under case number 237UAP00386. It records an unidentified aerial phenomenon observed by a commercial aircraft crew. The FAA's primary code for the event is \"Unidentified Aerial Phenomenon.\"\n\nOn 26 October 2024, at 02:05, the crew of American Airlines flight AAL1468 — flying westbound from Miami (MIA) to San Antonio (SAT) at FL360 (36,000 feet) — reported seeing white lights circling above their aircraft at approximately FL370 (37,000 feet). The sighting occurred roughly 170 nautical miles west of RSW (Southwest Florida International Airport), placing it over the Gulf of Mexico.\n\nThe FAA report notes that the phenomenon was not observed on the air traffic control facility radar system. No corroborating radar data or instrument confirmation accompanied the crew's visual report. No tail number for the aircraft was recorded in the report.\n\nThe case is marked as closed. No resolution or explanation for the observed lights is provided in the document. The report remains a single-source pilot observation with no further follow-up documented.",
+  "public_caveats": [
+    "This is a single-source pilot report — only the flight crew observed the lights, with no independent corroboration from radar or other sensors.",
+    "The case was closed without any resolution or explanation, which is not uncommon for FAA UAP reports but means the lights remain unidentified.",
+    "No tail number was recorded, which limits the ability to independently verify which specific aircraft was involved.",
+    "The incident date in the document (October 2024) does not match the metadata label of '2023' — the verified source text reads '10/26/2024'.",
+    "There is low evidence of redaction in this document, meaning most of the report content appears to be available as filed."
+  ]
+}

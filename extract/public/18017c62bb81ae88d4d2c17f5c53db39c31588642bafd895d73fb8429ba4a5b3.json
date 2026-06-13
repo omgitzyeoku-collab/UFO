@@ -1,0 +1,154 @@
+{
+  "sha256": "18017c62bb81ae88d4d2c17f5c53db39c31588642bafd895d73fb8429ba4a5b3",
+  "title": "FAA UAP record 237UAP00255",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial airline crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or sensor evidence included in this document",
+    "No investigation findings or explanation are provided — 'Closed' status does not imply identification or resolution",
+    "The report contains only the crew's visual observation; no instrument data is referenced"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Flight callsign",
+      "value": "DAL1508",
+      "source_quote": "Callsign: DAL1508",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "4-5 white/red lights traveling towards the aircraft at approximately FL320 and above",
+      "source_quote": "4-5 white/red lights traveling towards them at approximately FL320 and above",
+      "citation_offset": {
+        "offset": 431,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report type",
+      "value": "SKYWATCH Incident Report — Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "ATL",
+    "SAT",
+    "DEN",
+    "LFK"
+  ],
+  "dated_events": [
+    "2023-04-18"
+  ],
+  "objects_described": [
+    "4-5 white/red lights (unidentified aerial phenomenon)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL1508 was operating an ATL-SAT route on an A321 aircraft on April 18, 2023",
+      "source_quote": "Callsign: DAL1508 / Aircraft: A321 / Origin: ATL Destination: SAT",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed 4-5 white/red lights traveling towards them at approximately flight level 320 and above",
+      "source_quote": "4-5 white/red lights traveling towards them at approximately FL320 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 431,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 50 nautical miles southeast of Lufkin, Texas",
+      "source_quote": "50 NM SE of LFK",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 387,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported to Houston Center (ZHU)",
+      "source_quote": "Reporting Facility: ZHU",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case status is closed",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:35:27.055Z",
+  "qa_completed_at": "2026-06-02T00:36:05.606Z",
+  "timing": {
+    "A": "19.1s",
+    "B": "19.4s",
+    "E": "18.7s"
+  },
+  "public_headline": "Delta Crew Reports White and Red Lights at 32,000 Feet Over Texas",
+  "public_tldr": "This FAA SKYWATCH incident report documents a sighting by the crew of Delta flight DAL1508 on April 18, 2023. The crew observed 4–5 white and red lights travelling toward their aircraft at approximately 32,000 feet, about 50 nautical miles southeast of Lufkin, Texas. The case is closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under case number 237UAP00255. It records an unidentified aerial phenomenon observed by the crew of a commercial Delta Air Lines flight on April 18, 2023.\n\nThe crew of Delta flight DAL1508, operating an Airbus A321 on an Atlanta (ATL) to San Antonio (SAT) route, reported seeing 4–5 white and red lights travelling toward their aircraft. The lights were observed at approximately flight level 320 — roughly 32,000 feet — about 50 nautical miles southeast of Lufkin, Texas. The incident was reported to Houston Center (ZHU), the FAA air traffic control facility covering that airspace.\n\nThe FAA classified the report under its primary code for Unidentified Aerial Phenomenon. The case status is listed as closed, but the document provides no investigation findings, no identification of the lights, and no resolution. A closed status in FAA reporting does not mean the phenomenon was explained — it means the case is no longer being actively worked.\n\nThe report is based solely on the crew's visual observation. No radar data, sensor evidence, or corroborating reports from other aircraft or ground stations are included in the document. There is minimal redaction, but equally minimal detail — the record captures what was reported and nothing more.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or sensor evidence included in the document.",
+    "'Closed' status does not mean the lights were identified or explained — it means the FAA is no longer actively investigating.",
+    "The report contains only the crew's visual observation; no instrument readings are referenced.",
+    "No investigation findings or conclusions appear anywhere in the document.",
+    "The incident location (50 NM southeast of Lufkin, Texas) and flight details have been verified against the source text, but the ATL–SAT route on an A321 is only partially confirmed."
+  ]
+}

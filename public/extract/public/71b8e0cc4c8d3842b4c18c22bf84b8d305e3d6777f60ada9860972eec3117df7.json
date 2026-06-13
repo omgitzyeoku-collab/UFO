@@ -1,0 +1,221 @@
+{
+  "sha256": "71b8e0cc4c8d3842b4c18c22bf84b8d305e3d6777f60ada9860972eec3117df7",
+  "title": "FAA UAP record 237UAP00323",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a civilian UAP sighting relayed through law enforcement to air traffic control.",
+  "core_summary": "On 25 November 2023 at 18:28, a civilian on the ground in Rio Grande, New Jersey reported a cylindrical object at the intersection of Route 9 and Route 47 to ACECOMM (State Police). The report was passed to Atlantic City Air Traffic Control Tower. The object was not detected on ATC radar nor observed by ATC personnel.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single civilian witness with no corroborating radar or visual confirmation from ATC",
+    "No altitude, speed, or direction data available",
+    "Case is closed with no further investigation details provided"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time",
+      "value": "2023-11-25 at 18:28",
+      "source_quote": "Date: 18:28 11/25/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 104,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ACY (Atlantic City)",
+      "source_quote": "Reporting Facility: ACY",
+      "citation_offset": {
+        "offset": 128,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer type",
+      "value": "Civilian on the ground",
+      "source_quote": "received a call from a civilian on the ground at Rio Grande, NJ",
+      "citation_offset": {
+        "offset": 203,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Cylindrical",
+      "source_quote": "Person reported a cylindrical object at the intersection of RTE 9 and RTE 47",
+      "citation_offset": {
+        "offset": 295,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system or by ATC personnel",
+      "citation_offset": {
+        "offset": 405,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude/direction",
+      "value": "Unknown",
+      "source_quote": "No known altitude or direction",
+      "citation_offset": {
+        "offset": 373,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting chain",
+      "value": "ACECOMM (State Police on AOA) relayed to ACY ATCT",
+      "source_quote": "ACECOMM (State Police unit located on AOA) received a call from a civilian on the ground at Rio Grande, NJ. ACECOMM notified ACY ATCT",
+      "citation_offset": {
+        "offset": 160,
+        "len": 133,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Rio Grande, NJ",
+    "RTE 9",
+    "RTE 47",
+    "DEN",
+    "ACY"
+  ],
+  "dated_events": [
+    "2023-11-25"
+  ],
+  "objects_described": [
+    "Cylindrical object (unidentified)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A civilian reported a cylindrical object at the intersection of Route 9 and Route 47 in Rio Grande, NJ",
+      "source_quote": "Person reported a cylindrical object at the intersection of RTE 9 and RTE 47",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 295,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was not detected on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system or by ATC personnel",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 405,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No altitude or direction of the object was known",
+      "source_quote": "No known altitude or direction",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 373,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was relayed by State Police (ACECOMM) located on the Airport Operations Area",
+      "source_quote": "ACECOMM (State Police unit located on AOA) received a call from a civilian on the ground",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 160,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:39:45.866Z",
+  "qa_completed_at": "2026-06-02T01:40:13.866Z",
+  "timing": {
+    "A": "16.4s",
+    "B": "11.6s",
+    "E": "18.3s"
+  },
+  "public_headline": "Civilian Reports Cylindrical Object in New Jersey; Radar Finds Nothing",
+  "public_tldr": "An FAA SKYWATCH incident report documents a civilian sighting of a cylindrical unidentified object near Rio Grande, New Jersey on 25 November 2023. The report was relayed through State Police to Atlantic City air traffic control, but the object was never detected on radar and the case was closed without further investigation.",
+  "public_narrative": "This document is an FAA SKYWATCH Incident Report — a standardised form used when unidentified aerial phenomena are reported to air traffic control facilities. It is classified under the primary code \"Unidentified Aerial Phenomenon\" and was logged at 18:28 on 25 November 2023.\n\nAccording to the report, a civilian on the ground in Rio Grande, New Jersey contacted ACECOMM — a State Police unit located on the Airport Operations Area — to report a cylindrical object at the intersection of Route 9 and Route 47. ACECOMM then notified the Atlantic City Air Traffic Control Tower (ACY ATCT).\n\nAir traffic control checked their radar systems but the object was not observed on any ATC facility radar, nor was it seen by ATC personnel. No altitude, speed, or direction of the object was established.\n\nThe case status is listed as \"Closed.\" No further investigation details are provided in the document, and no additional witnesses or sensor data corroborated the sighting.",
+  "public_caveats": [
+    "This is a single-witness civilian report with no corroborating radar data, photographs, or independent observers.",
+    "No altitude, direction, or speed was recorded — the object's behaviour is entirely undocumented beyond its reported shape (cylindrical).",
+    "The case was closed with no explanation of what the object might have been; 'closed' does not mean 'identified' or 'explained.'",
+    "There is minimal redaction in this document — the limitation is not hidden information but rather the absence of any follow-up investigation.",
+    "A single ground-level sighting relayed through a third party (police) carries low evidentiary weight on its own."
+  ]
+}

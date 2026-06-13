@@ -1,0 +1,226 @@
+{
+  "sha256": "b939f62bd0cc3fbd31bb1f259a3849c4ae74063808c6075e7e6652da1e5d6284",
+  "title": "FAA UAP record 237UAP00114",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on the pilot's visual observation — no radar data, no corroborating witnesses mentioned.",
+    "No tail number recorded for the reporting aircraft.",
+    "TY/AWO notification recipients are not explained in the document.",
+    "The case is marked Closed with no resolution or identification of the phenomenon provided."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2022-09-21 at 04:28 UTC",
+      "source_quote": "Date: 04:28 09/21/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "FFT2117",
+      "source_quote": "Callsign: FFT2117",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "FL360 (36,000 feet)",
+      "source_quote": "west bound at FL360",
+      "citation_offset": {
+        "offset": 369,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude",
+      "value": "Approximately FL340 (34,000 feet)",
+      "source_quote": "a light traveling north bound at approximately FL340",
+      "citation_offset": {
+        "offset": 437,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP behaviour",
+      "value": "Light travelling northbound, then turned off its light and continued northbound",
+      "source_quote": "the UFO then proceeded to turn its light off and continue north bound",
+      "citation_offset": {
+        "offset": 491,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Pilot action",
+      "value": "Stopped descent due to UAP occupying target altitude",
+      "source_quote": "PIC had to stop their descent because the UFO was in the altitude the PIC was trying to descend through",
+      "citation_offset": {
+        "offset": 562,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Notification",
+      "value": "TY/AWO notified",
+      "source_quote": "TY/AWO notified",
+      "citation_offset": {
+        "offset": 667,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZLA",
+    "DTW",
+    "LAS",
+    "PGA"
+  ],
+  "dated_events": [
+    "2022-09-21"
+  ],
+  "objects_described": [
+    "Unidentified light at approximately FL340, travelling northbound"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Frontier Airlines flight (FFT2117) encountered a UAP while westbound at FL360.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the 12 o'clock while west bound at FL360",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 292,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP appeared as a light travelling northbound at approximately FL340.",
+      "source_quote": "a light traveling north bound at approximately FL340",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 437,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP turned off its light and continued travelling northbound.",
+      "source_quote": "the UFO then proceeded to turn its light off and continue north bound",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 491,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot had to interrupt their descent because the UAP occupied the altitude they were descending into.",
+      "source_quote": "PIC had to stop their descent because the UFO was in the altitude the PIC was trying to descend through",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 562,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident occurred approximately 40 nautical miles south of Page, Arizona.",
+      "source_quote": "40 NM south of PGA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 390,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:20:40.043Z",
+  "qa_completed_at": "2026-06-01T22:21:21.632Z",
+  "timing": {
+    "A": "20.7s",
+    "B": "20.9s",
+    "E": "17.2s"
+  },
+  "public_headline": "Commercial Pilot Reports Unidentified Light at 34,000 Feet Over Arizona",
+  "public_tldr": "An FAA incident report documents a commercial Frontier Airlines pilot encountering an unidentified light while flying at 36,000 feet near Page, Arizona on 21 September 2022. The pilot had to halt their descent because the object occupied the altitude they were descending into. The FAA closed the case without identifying the phenomenon.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under case number 237UAP00114, classified under the primary code \"Unidentified Aerial Phenomenon.\" It records an encounter reported by the pilot-in-command of Frontier Airlines flight FFT2117, a commercial operation, on 21 September 2022 at 04:28 UTC.\n\nAccording to the report, the aircraft was flying westbound at flight level 360 (36,000 feet), approximately 40 nautical miles south of Page, Arizona, when the pilot observed a light ahead of the aircraft travelling northbound at roughly flight level 340 (34,000 feet). The light then switched off and continued moving north. The pilot had to stop their planned descent because the unidentified object was at the altitude the aircraft needed to pass through.\n\nThe report notes that TY/AWO were notified, though the document does not explain what these designations refer to. The case status is marked as \"Closed,\" with no resolution or identification of the phenomenon provided.\n\nNo radar data or corroborating witness accounts are mentioned in the document. The report is based entirely on the pilot's visual observation. No tail number for the reporting aircraft was recorded.",
+  "public_caveats": [
+    "This is a single-source report based solely on the pilot's visual observation — no radar data or additional witnesses are mentioned.",
+    "The case was closed without any identification or explanation of what the pilot saw.",
+    "No tail number was recorded for the reporting aircraft, limiting independent verification.",
+    "The incident date in the document (September 2022) predates the file's catalogue year (2023), suggesting a reporting or processing delay.",
+    "The notification recipients (TY/AWO) are not explained in the document, so their role in the response is unclear."
+  ]
+}

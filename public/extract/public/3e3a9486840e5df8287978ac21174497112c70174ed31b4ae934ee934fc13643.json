@@ -1,0 +1,238 @@
+{
+  "sha256": "3e3a9486840e5df8287978ac21174497112c70174ed31b4ae934ee934fc13643",
+  "title": "FAA UAP record 237UAP00198",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft.",
+  "core_summary": "On 4 February 2023, United Airlines flight UAL1580 (a Boeing 737-800) reported an unidentified aerial phenomenon with lights orbiting above the aircraft while flying westbound at 38,000 feet, approximately 60 nautical miles east of Billings, Montana. No evasive action was taken. The case is marked as closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness statements included.",
+    "The report is brief and contains minimal descriptive detail about the phenomenon.",
+    "'Orbiting' is the pilot's characterisation and could describe various types of movement.",
+    "No investigation findings or follow-up analysis are included despite the case being marked closed."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2023-02-04 at 04:39 UTC",
+      "source_quote": "Date: 04:39 02/04/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "UAL1580",
+      "source_quote": "Callsign: UAL1580",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "United Airlines (commercial)",
+      "source_quote": "Operator: UAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Chicago O'Hare (ORD) to Vancouver (CYVR)",
+      "source_quote": "Origin: ORD Destination: CYVR",
+      "citation_offset": {
+        "offset": 201,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight Level 380 (38,000 feet)",
+      "source_quote": "WNW bound at FL380",
+      "citation_offset": {
+        "offset": 362,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "60 nautical miles east of Billings, Montana",
+      "source_quote": "60NM E of BIL",
+      "citation_offset": {
+        "offset": 382,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "Above the aircraft",
+      "source_quote": "an unidentified aerial phenomenon above them",
+      "citation_offset": {
+        "offset": 311,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Had lights and was orbiting",
+      "source_quote": "The unknown phenomenon had lights and was reported as orbiting",
+      "citation_offset": {
+        "offset": 397,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None",
+      "source_quote": "No evasive action reported",
+      "citation_offset": {
+        "offset": 461,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AWO notified",
+      "value": "Yes",
+      "source_quote": "AWO advised",
+      "citation_offset": {
+        "offset": 489,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ORD",
+    "CYVR",
+    "BIL",
+    "ZLC"
+  ],
+  "dated_events": [
+    "2023-02-04"
+  ],
+  "objects_described": [
+    "Boeing 737-800 (B738)",
+    "Unidentified aerial phenomenon with lights, reported as orbiting"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "UAL1580 was a commercial United Airlines flight from Chicago O'Hare to Vancouver on 4 February 2023.",
+      "source_quote": "Origin: ORD Destination: CYVR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 201,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was at FL380 (38,000 feet) when the sighting occurred.",
+      "source_quote": "WNW bound at FL380",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 362,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was observed above the aircraft with lights and was orbiting.",
+      "source_quote": "The unknown phenomenon had lights and was reported as orbiting",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 397,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 60 nautical miles east of Billings, Montana.",
+      "source_quote": "60NM E of BIL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 382,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft.",
+      "source_quote": "No evasive action reported",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 461,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:45:07.860Z",
+  "qa_completed_at": "2026-06-01T23:45:43.084Z",
+  "timing": {
+    "A": "16.6s",
+    "B": "18.6s",
+    "E": "19.1s"
+  },
+  "public_headline": "United Airlines crew reported lights orbiting above their Boeing 737",
+  "public_tldr": "An FAA incident report documents a United Airlines flight crew observing an unidentified aerial phenomenon with lights orbiting above their aircraft at 38,000 feet over Montana in February 2023. The case was closed with no evasive action taken and no further investigation findings included.",
+  "public_narrative": "On 4 February 2023, the crew of United Airlines flight UAL1580 — a Boeing 737-800 flying from Chicago O'Hare to Vancouver — reported seeing an unidentified aerial phenomenon above their aircraft. The sighting occurred at 04:39 UTC while the plane was cruising westbound at 38,000 feet, roughly 60 nautical miles east of Billings, Montana.\n\nAccording to the FAA's SKYWATCH incident report, the unknown phenomenon had lights and was described by the crew as \"orbiting.\" The aircraft took no evasive action. The FAA's Air Watch Office (AWO) was notified.\n\nThe case is marked as closed. However, the report contains no investigation findings, no radar corroboration, and no follow-up analysis explaining what the object might have been or why the case was closed without further detail.\n\nThe document itself is brief — a standard FAA incident log rather than a detailed investigation file. It records the crew's account and basic flight data but offers no conclusions about what was observed.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or additional witness statements included in the document.",
+    "The term \"orbiting\" is the crew's own characterisation and could describe various types of movement — it is not an independent assessment.",
+    "The case is marked closed, but no explanation is given for the closure and no investigation findings are included.",
+    "The report contains minimal descriptive detail about the phenomenon beyond lights and movement.",
+    "There is low evidence of redaction, but the brevity of the report means limited information was recorded in the first place."
+  ]
+}

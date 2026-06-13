@@ -1,0 +1,248 @@
+{
+  "sha256": "4a1059354c8d107435a82d160f1b9947ded03b08ac0092748ce81f403fd9a8b8",
+  "title": "FAA UAP record 237UAP00213",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's observation of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar or sensor data included in this report",
+    "AMOC's satellite train explanation is noted but not confirmed as the definitive cause for this specific sighting",
+    "The report is marked Closed, suggesting no further investigation was conducted",
+    "No tail number was recorded in the report"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date and time",
+      "value": "2023-02-11 at 09:05",
+      "source_quote": "Date: 09:05 02/11/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "NKS656",
+      "source_quote": "Callsign: NKS656",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 246,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "LAX to PIT",
+      "source_quote": "Origin: LAX Destination: PIT",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL370 (37,000 feet)",
+      "source_quote": "east bound at FL370",
+      "citation_offset": {
+        "offset": 367,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of observation",
+      "value": "Over Iowa City",
+      "source_quote": "over Iowa City",
+      "citation_offset": {
+        "offset": 388,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "Aircraft-like object circling at or above their altitude, appearing and disappearing",
+      "source_quote": "an aircraft circling at or above their altitude appearing and disappearing",
+      "citation_offset": {
+        "offset": 431,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of observation",
+      "value": "Off the left side of the aircraft",
+      "source_quote": "off the left side",
+      "citation_offset": {
+        "offset": 343,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AMOC assessment",
+      "value": "Similar report the prior week attributed to a satellite train",
+      "source_quote": "AMOC added that the same report came in last week and it was a \"train\" of satellites",
+      "citation_offset": {
+        "offset": 507,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Iowa City",
+    "LAX",
+    "PIT",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-02-11"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as an aircraft circling and appearing/disappearing",
+    "Satellite train (proposed explanation)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Spirit Airlines flight NKS656 reported a UAP while eastbound at FL370 over Iowa City on February 11, 2023",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while east bound at FL370, over Iowa City",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 291,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared as an aircraft circling at or above their altitude that was appearing and disappearing",
+      "source_quote": "an aircraft circling at or above their altitude appearing and disappearing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 431,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AMOC indicated the same type of report had been received the previous week and was identified as a satellite train",
+      "source_quote": "AMOC added that the same report came in last week and it was a \"train\" of satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 507,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reporting facility was ZAU (Chicago Center)",
+      "source_quote": "Reporting Facility: ZAU",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from LAX and was destined for PIT",
+      "source_quote": "Origin: LAX Destination: PIT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:59:00.798Z",
+  "qa_completed_at": "2026-06-01T23:59:38.950Z",
+  "timing": {
+    "A": "19.7s",
+    "B": "18.5s",
+    "E": "17.4s"
+  },
+  "public_headline": "Commercial Pilot Reports Object Circling and Vanishing Over Iowa City",
+  "public_tldr": "This FAA SKYWATCH incident report documents a commercial pilot on a Los Angeles-to-Pittsburgh flight who observed what appeared to be an aircraft circling at or above 37,000 feet over Iowa City on 11 February 2023, repeatedly appearing and disappearing. The FAA's Air Traffic Organization Operations Center (AMOC) noted a similar report the prior week had been attributed to a satellite train, and the case was closed without further investigation.",
+  "public_narrative": "On 11 February 2023 at 09:05, the crew of Spirit Airlines flight NKS656 — a commercial flight travelling eastbound from Los Angeles (LAX) to Pittsburgh (PIT) — reported an unidentified aerial phenomenon to air traffic control. The aircraft was at flight level 370 (37,000 feet) over Iowa City, Iowa, when the crew observed something off the left side of the aircraft.\n\nThe crew described what looked like an aircraft circling at or above their altitude that kept appearing and disappearing. The sighting was logged by Chicago Center (reporting facility ZAU) and classified under the FAA's primary code for an Unidentified Aerial Phenomenon.\n\nThe FAA's AMOC (Air Traffic Organization Operations Center) noted that a similar report had come in the previous week and had been attributed to a \"train\" of satellites — a line of satellites visible in sequence, often associated with commercial satellite constellations. However, the report does not confirm that this specific sighting was caused by a satellite train.\n\nThe case was marked as closed. No corroborating radar data or sensor evidence is included in the report, and no tail number for the reporting aircraft was recorded. The level of redaction in the document is low — the information provided is relatively straightforward, though limited in scope.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar or sensor data included in the report.",
+    "AMOC's satellite train explanation references a similar report from the prior week but is not confirmed as the cause for this specific sighting.",
+    "The case was closed, meaning no further investigation was conducted by the FAA.",
+    "No aircraft tail number was recorded in the report, which limits independent verification of the flight details.",
+    "The document is an administrative incident log, not an investigative analysis — it records what was reported, not what was concluded."
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "sha256": "480d2bd03d34e69b51183f8e7db1e221f2a30457016985299c9237ada9a584f9",
+  "title": "FAA UAP record 237UAP00259",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report from one flight crew with no corroborating radar data included in this document.",
+    "TCAS detection suggests the object had some radar-reflective signature, but no details on the TCAS return characteristics are provided.",
+    "The case status is marked Closed with no resolution or identification noted in this report.",
+    "No tail number or operator name is recorded, limiting independent verification."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Callsign",
+      "value": "N899SC",
+      "source_quote": "Callsign: N899SC",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight altitude",
+      "value": "FL430 (43,000 ft)",
+      "source_quote": "E bound at FL430",
+      "citation_offset": {
+        "offset": 365,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "White, oval-shaped",
+      "source_quote": "The unknown phenomenon was white and oval in shape",
+      "citation_offset": {
+        "offset": 398,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude",
+      "value": "Initially FL430, climbed to approximately FL470",
+      "source_quote": "traveling towards them at approximately FL430, then turned away and climbed to about FL470",
+      "citation_offset": {
+        "offset": 449,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Closest proximity",
+      "value": "10 nautical miles",
+      "source_quote": "Closest proximity was 10NM",
+      "citation_offset": {
+        "offset": 600,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "TCAS detection",
+      "value": "Object appeared on TCAS but no resolution advisory issued",
+      "source_quote": "The object was identified on TCAS but did not issue an RA",
+      "citation_offset": {
+        "offset": 541,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SNA",
+    "HOU",
+    "GBN",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-04-27"
+  ],
+  "objects_described": [
+    "White oval-shaped unidentified aerial phenomenon"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The object was detected by the aircraft's TCAS system, indicating it had some form of transponder signal or radar-reflective presence.",
+      "source_quote": "The object was identified on TCAS but did not issue an RA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 541,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object manoeuvred — it initially travelled toward the aircraft, then turned away and climbed approximately 4,000 feet.",
+      "source_quote": "traveling towards them at approximately FL430, then turned away and climbed to about FL470",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 449,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The encounter occurred during a general aviation flight from Santa Ana to Houston.",
+      "source_quote": "Origin: SNA Destination: HOU",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 196,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:39:13.245Z",
+  "qa_completed_at": "2026-06-02T00:39:50.933Z",
+  "timing": {
+    "A": "19.3s",
+    "B": "18.4s",
+    "E": "21.8s"
+  },
+  "public_headline": "FAA Report: Pilot Spots White Oval Object at 43,000 Feet",
+  "public_tldr": "This is an FAA SKYWATCH incident report from April 2023 documenting a general aviation pilot's sighting of a white, oval-shaped unidentified aerial phenomenon while flying at 43,000 feet. The object appeared on the aircraft's collision-avoidance system, manoeuvred toward the aircraft before turning away and climbing, and the case was closed without identification.",
+  "public_narrative": "On 27 April 2023, the crew of a general aviation aircraft with callsign N899SC filed a report with the Federal Aviation Administration after encountering an unidentified aerial phenomenon during a flight from SNA (Santa Ana) to HOU (Houston). The aircraft was flying eastbound at flight level 430 — roughly 43,000 feet — when the crew observed the object.\n\nAccording to the report, the phenomenon was white and oval in shape. It was initially travelling toward the aircraft at approximately the same altitude before turning away and climbing to about flight level 470 — around 47,000 feet, some 4,000 feet above the aircraft. The closest the object came was 10 nautical miles.\n\nNotably, the object registered on the aircraft's TCAS (Traffic Collision Avoidance System), a radar-based system designed to detect nearby aircraft. However, the system did not issue a resolution advisory — the automated instruction pilots receive when a collision risk is imminent — suggesting the object was detected but not assessed as an immediate threat.\n\nThe FAA marked the case as closed. The report contains no resolution or identification of the object. No corroborating radar data from air traffic control is included in the document, and no tail number or operator name was recorded.",
+  "public_caveats": [
+    "This is a single-source report from one flight crew. No independent radar data or additional witnesses are included in the document.",
+    "The object appeared on TCAS, which suggests some radar-reflective presence, but the report provides no detail on the nature of that return.",
+    "The case is marked 'Closed' with no explanation of what the object was — closure does not mean identification.",
+    "No operator name or aircraft tail number is recorded in the report, limiting the ability to independently verify the account.",
+    "The report has low evidence of redaction, but limited detail overall — absence of information is not the same as withheld information."
+  ]
+}

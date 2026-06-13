@@ -1,0 +1,304 @@
+{
+  "sha256": "02d0e997cd5a1a28af6198da61d6f17b4b43936e31e8cf2683b5eec8bb2daede",
+  "title": "FAA UAP record 237UAP00004",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified object during flight.",
+  "core_summary": "On 19 October 2007, the pilot of a Gates Learjet 35 (callsign BKA626) reported seeing an unidentified white object pass above the aircraft in the opposite direction while observing the constellation Ursa Major. The Denver Center (ZDV) confirmed no IFR or VFR traffic was in the area on radar or non-radar, and no weather returns were present within a 400 nautical mile radius.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot testimony; no corroborating radar data or secondary witnesses mentioned.",
+    "The pilot was stargazing (observing Ursa Major), suggesting nighttime conditions which may affect visual identification reliability.",
+    "The case status is 'Closed' with no resolution or identification noted in the report.",
+    "No information on the altitude, speed, or size of the observed object is provided."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2007-10-19 at 12:44",
+      "source_quote": "Date: 12:44 10/19/2007",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZDV (Denver Center)",
+      "source_quote": "Reporting Facility: ZDV",
+      "citation_offset": {
+        "offset": 94,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "NCRCC",
+      "source_quote": "POD: NCRCC",
+      "citation_offset": {
+        "offset": 83,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "BKA626",
+      "source_quote": "Callsign: BKA626",
+      "citation_offset": {
+        "offset": 118,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Gates Learjet 35 (LJ35)",
+      "source_quote": "Aircraft: LJ35, GATES LEARJET, 35",
+      "citation_offset": {
+        "offset": 135,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "BKA",
+      "source_quote": "Operator: BKA",
+      "citation_offset": {
+        "offset": 182,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin_airport",
+      "value": "CVG (Cincinnati/Northern Kentucky)",
+      "source_quote": "Origin: CVG",
+      "citation_offset": {
+        "offset": 196,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination_airport",
+      "value": "APA (Centennial Airport, Colorado)",
+      "source_quote": "Destination: New Destination: APA",
+      "citation_offset": {
+        "offset": 208,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_color",
+      "value": "White",
+      "source_quote": "an unidentified object white in color",
+      "citation_offset": {
+        "offset": 371,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_direction",
+      "value": "Passed above aircraft in opposite direction",
+      "source_quote": "passed above in opposite direction",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "navigation_lights",
+      "value": "None observed",
+      "source_quote": "object did not have navigational lights",
+      "citation_offset": {
+        "offset": 461,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_traffic",
+      "value": "No IFR or VFR traffic in area",
+      "source_quote": "ZDV reports no IFR or VFR traffic was in the area RADAR or NON-RADAR",
+      "citation_offset": {
+        "offset": 502,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "weather",
+      "value": "No weather returns within 400 NM",
+      "source_quote": "No WX returns on the TSD in a 400 NM radius",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "observer_activity",
+      "value": "Pilot was observing Ursa Major at time of sighting",
+      "source_quote": "while observing Ursa Major",
+      "citation_offset": {
+        "offset": 344,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "follow_up_action",
+      "value": "NCRCC requested TSD picture from 0700 saved and emailed",
+      "source_quote": "FAA NCRCC asked ATCSCC for assistance in getting a TSD picture from 0700 saved to a file and emailed to FAA NCRCC",
+      "citation_offset": {
+        "offset": 614,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "ZDV",
+    "CVG",
+    "APA",
+    "NCRCC",
+    "ATCSCC"
+  ],
+  "dated_events": [
+    "2007-10-19"
+  ],
+  "objects_described": [
+    "Unidentified white object without navigational lights",
+    "Gates Learjet 35 (LJ35)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "No IFR or VFR traffic was detected in the area by radar or non-radar means at the time of the sighting.",
+      "source_quote": "ZDV reports no IFR or VFR traffic was in the area RADAR or NON-RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 502,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No weather returns were present on the Traffic Situation Display within a 400 nautical mile radius.",
+      "source_quote": "No WX returns on the TSD in a 400 NM radius",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The observed object had no navigational lights.",
+      "source_quote": "object did not have navigational lights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 461,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object passed above the aircraft travelling in the opposite direction.",
+      "source_quote": "an unidentified object white in color passed above in opposite direction",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 371,
+        "len": 42,
+        "exact": false,
+        "matched": "an unidentified object white in color pass"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "FAA NCRCC requested a saved TSD picture from 0700 to be emailed for review.",
+      "source_quote": "FAA NCRCC asked ATCSCC for assistance in getting a TSD picture from 0700 saved to a file and emailed to FAA NCRCC",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 614,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T20:34:29.616Z",
+  "qa_completed_at": "2026-06-01T20:35:10.020Z",
+  "timing": {
+    "A": "24.9s",
+    "B": "15.5s",
+    "E": "19.0s"
+  },
+  "public_headline": "Learjet Pilot Reported Unidentified White Object Over Colorado in 2007",
+  "public_tldr": "This FAA SKYWATCH incident report documents a Gates Learjet 35 pilot who saw an unidentified white object pass above the aircraft on 19 October 2007. Denver Center confirmed no other air traffic was in the area by radar or non-radar means, and the case was closed without explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form used by the Federal Aviation Administration to log unusual aerial sightings reported by pilots or air traffic controllers. It was catalogued under the identifier 237UAP00004 and later released as part of the US government's public UAP disclosure.\n\nOn 19 October 2007, the pilot of a Gates Learjet 35 (callsign BKA626), flying from Cincinnati/Northern Kentucky (CVG) to Centennial Airport, Colorado (APA), reported seeing an unidentified white object pass above the aircraft travelling in the opposite direction. The pilot noted the object had no navigational lights. At the time of the sighting, the pilot was observing the constellation Ursa Major, indicating nighttime conditions.\n\nDenver Center (ZDV), the FAA facility handling the airspace, confirmed that no IFR (instrument flight rules) or VFR (visual flight rules) traffic was detected in the area by either radar or non-radar means. There were also no weather returns on the Traffic Situation Display within a 400 nautical mile radius. The FAA's National Capital Region Coordination Center (NCRCC) requested that a saved radar picture from 0700 be emailed for further review.\n\nThe report's status is listed as \"Closed.\" No identification of the object was recorded, and no resolution or explanation appears in the document. The primary code assigned to the incident is simply \"OTHER.\"",
+  "public_caveats": [
+    "This is a single-source report based entirely on one pilot's testimony. No corroborating radar data, secondary witnesses, or physical evidence are mentioned.",
+    "The pilot was stargazing at the time, meaning the sighting occurred at night — conditions that can make visual identification of aerial objects less reliable.",
+    "No information on the object's altitude, speed, size, or shape is provided in the report.",
+    "The case was closed with no identification or explanation recorded — 'closed' does not mean 'resolved.'",
+    "The document shows minimal redaction, but also contains very little detail beyond the pilot's brief account and the confirmation of no nearby traffic."
+  ]
+}

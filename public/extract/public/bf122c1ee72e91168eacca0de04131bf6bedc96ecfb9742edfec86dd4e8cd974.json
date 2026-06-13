@@ -1,0 +1,182 @@
+{
+  "sha256": "bf122c1ee72e91168eacca0de04131bf6bedc96ecfb9742edfec86dd4e8cd974",
+  "title": "FAA UAP record 237UAP00187",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon (large balloon) during commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar or sensor data included in this report",
+    "The date (3 February 2023) coincides with the period of heightened US balloon incidents including the Chinese surveillance balloon shoot-down on 4 February 2023",
+    "Object described as a 'balloon' by the pilot but classified under UAP primary code",
+    "No follow-up investigation details included; status marked as closed"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-02-03 at 14:40 UTC",
+      "source_quote": "Date: 14:40 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "SCX8941",
+      "source_quote": "Callsign: SCX8941",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_altitude",
+      "value": "FL400 (40,000 feet)",
+      "source_quote": "W bound at FL400",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_altitude",
+      "value": "FL500 (approximately 50,000 feet) and above",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "citation_offset": {
+        "offset": 383,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Large balloon",
+      "source_quote": "Aircraft reported a large balloon off the right side",
+      "citation_offset": {
+        "offset": 291,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_position",
+      "value": "15 nautical miles west of RBA",
+      "source_quote": "15NM W of RBA",
+      "citation_offset": {
+        "offset": 368,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZDV",
+    "MSP",
+    "SKF",
+    "RBA"
+  ],
+  "dated_events": [
+    "2023-02-03"
+  ],
+  "objects_described": [
+    "Large balloon at approximately FL500"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial aircraft observed a large balloon at approximately 50,000 feet while flying at 40,000 feet",
+      "source_quote": "Aircraft reported a large balloon off the right side while W bound at FL400, 15NM W of RBA. The balloon was at approximately FL500 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 140,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 15 nautical miles west of RBA",
+      "source_quote": "15NM W of RBA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 368,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was operated by Sun Country Airlines (SCX) from Minneapolis to San Antonio",
+      "source_quote": "Operator: SCX Origin: MSP Destination: SKF",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 187,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:34:24.957Z",
+  "qa_completed_at": "2026-06-01T23:35:02.167Z",
+  "timing": {
+    "A": "19.3s",
+    "B": "17.9s",
+    "E": "19.5s"
+  },
+  "public_headline": "FAA Report: Pilot Spotted Large Balloon at 50,000 Feet in February 2023",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a commercial pilot's sighting of a large balloon flying at roughly 50,000 feet on 3 February 2023 — the day before the widely reported Chinese surveillance balloon was shot down. The report was classified under the FAA's Unidentified Aerial Phenomenon code and closed with no follow-up investigation details included.",
+  "public_narrative": "On 3 February 2023 at 14:40 UTC, the crew of Sun Country Airlines flight SCX8941, travelling westbound from Minneapolis (MSP) to San Antonio (SKF) at 40,000 feet, reported a large balloon off the right side of the aircraft. The object was observed approximately 15 nautical miles west of RBA, at an estimated altitude of 50,000 feet or above — roughly 10,000 feet higher than the airliner.\n\nThe FAA logged the sighting under its SKYWATCH system and assigned it the primary code \"Unidentified Aerial Phenomenon.\" Despite the pilot describing the object as a balloon, the UAP classification was applied. The case status is marked as closed, and the document contains no details of any follow-up investigation, corroborating radar data, or resolution.\n\nThe timing is notable. This sighting occurred one day before the US military shot down a Chinese surveillance balloon off the coast of South Carolina on 4 February 2023, during a period of heightened public and government attention to high-altitude balloon incursions over US airspace.\n\nThe document itself is brief and administrative in nature. It records the basic facts of the pilot's observation — date, time, callsign, altitude, position, and object description — but offers no analysis, no sensor data, and no conclusion about what the object was.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No corroborating radar or sensor data is included in the report.",
+    "The object was described by the pilot as a 'balloon' but was filed under the FAA's Unidentified Aerial Phenomenon code — this classification does not imply the object was unexplained, only how the FAA categorised the report.",
+    "The case is marked as closed with no follow-up investigation details, so it is unknown whether the object was ever identified.",
+    "The sighting date (3 February 2023) falls within the well-documented period of US balloon incidents, which may or may not be related.",
+    "Redaction evidence is low — the document appears largely complete but is very brief, containing only basic incident facts with no analytical content."
+  ]
+}

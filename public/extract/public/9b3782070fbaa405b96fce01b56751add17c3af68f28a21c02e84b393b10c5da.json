@@ -1,0 +1,161 @@
+{
+  "sha256": "9b3782070fbaa405b96fce01b56751add17c3af68f28a21c02e84b393b10c5da",
+  "title": "FAA UAP record 237UAP00129",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon sighting.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "FL740 (74,000 feet) is well above the operational ceiling of any known conventional aircraft; altitude estimate from cockpit visual observation is inherently imprecise.",
+    "Two independent commercial crews reported the same phenomenon, which strengthens the observation but both reports are still visual-only with no radar or sensor corroboration mentioned.",
+    "The case is marked Closed with no resolution or explanation provided in the document.",
+    "Tail number field is blank, limiting aircraft-specific verification."
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2022-11-11",
+      "source_quote": "Date: 11:04 11/11/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "UPS",
+      "source_quote": "Operator: UPS",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_altitude",
+      "value": "FL360 (36,000 feet)",
+      "source_quote": "N bound at FL360",
+      "citation_offset": {
+        "offset": 396,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZLC-M-2022/11/11-0001",
+      "source_quote": "MOR ID: ZLC-M-2022/11/11-0001",
+      "citation_offset": {
+        "offset": 297,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ELY",
+    "ONT",
+    "BOI",
+    "OAK",
+    "SLC"
+  ],
+  "dated_events": [
+    "2022-11-11"
+  ],
+  "objects_described": [
+    "2-3 white lights circling at approximately FL740"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "UPS flight 834 was northbound at FL360 when the crew observed the phenomenon.",
+      "source_quote": "Aircraft reported unidentified aerial phenomenon above while N bound at FL360",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 335,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of 2-3 white lights circling at approximately 74,000 feet, far above normal commercial or military aviation altitudes.",
+      "source_quote": "The unknown phenomenon was 2-3 white lights circling at approximately FL740",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 429,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second aircraft, FedEx flight 1879, independently reported the same phenomenon from the same location at the same time.",
+      "source_quote": "Additional aircraft reporting at same time from same location: FDX1879, B763, OAK-SLC, E bound at FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 506,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 74 nautical miles west of Ely, Nevada.",
+      "source_quote": "74NM W of ELY",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 414,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:37:48.775Z",
+  "qa_completed_at": "2026-06-01T22:38:31.876Z",
+  "timing": {
+    "A": "20.8s",
+    "B": "22.3s",
+    "E": "21.2s"
+  },
+  "public_headline": "Two Cargo Flights Reported Circling White Lights at Extreme Altitude Over Nevada",
+  "public_tldr": "This FAA incident report documents a November 2022 sighting by a UPS flight crew of 2–3 white lights circling at an estimated 74,000 feet — far above any known conventional aircraft ceiling — west of Ely, Nevada. A FedEx crew independently reported the same phenomenon from the same location at the same time. The FAA closed the case with no explanation provided.",
+  "public_narrative": "On 11 November 2022, the crew of UPS flight 834, flying northbound at 36,000 feet, reported an unidentified aerial phenomenon to air traffic control. The sighting occurred approximately 74 nautical miles west of Ely, Nevada, within the Salt Lake City (ZLC) air traffic control area.\n\nThe crew described 2–3 white lights circling at an estimated altitude of 74,000 feet — roughly double the cruising altitude of commercial airliners and well above the operational ceiling of any known conventional aircraft. Altitude estimates made visually from a cockpit are inherently imprecise, so the 74,000-foot figure should be treated as approximate.\n\nThe report was corroborated by a second, independent observation: the crew of FedEx flight 1879, a Boeing 767 flying eastbound at 37,000 feet between Oakland and Salt Lake City, reported the same phenomenon from the same location at the same time.\n\nThe FAA logged the incident under its SKYWATCH programme, which tracks pilot-reported sightings of unidentified aerial phenomena. The case was assigned reference number 237UAP00129 and MOR ID ZLC-M-2022/11/11-0001. It is marked as closed, but the document provides no resolution, identification, or explanation for what was observed.\n\nNo radar data or sensor corroboration is mentioned in the document. The tail number field for the reporting aircraft is blank, and the incident location field in the record metadata is not filled in, though the narrative text places the sighting west of Ely, Nevada.",
+  "public_caveats": [
+    "The estimated altitude of 74,000 feet is based solely on visual observation from a cockpit at 36,000 feet — such estimates can be significantly off, and no radar or instrument data is cited to confirm it.",
+    "Two independent commercial flight crews reported the same phenomenon, which adds credibility, but both reports are visual-only with no mention of radar or sensor corroboration.",
+    "The FAA closed the case without providing any explanation, identification, or resolution — 'closed' does not mean 'explained'.",
+    "Some fields in the report are incomplete (no tail number, no incident location in metadata), which limits independent verification of the reporting aircraft.",
+    "This is a pilot-reported observation logged through the FAA's standard SKYWATCH process — it is not a military or intelligence document, and it does not represent an official government conclusion about what was seen."
+  ]
+}

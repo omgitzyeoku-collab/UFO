@@ -1,0 +1,282 @@
+{
+  "sha256": "cdaea7c52f827dd02a82e8a6754313afcab12fb55d5f0dc58fc85f6a81dc0580",
+  "title": "FAA UAP record 237UAP00137",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar or sensor data mentioned.",
+    "The report itself notes 'possible satellites' as a prosaic explanation.",
+    "Case is closed with no resolution or follow-up analysis documented.",
+    "No tail number was recorded, limiting aircraft-specific verification."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "AAL2654",
+      "source_quote": "Callsign: AAL2654",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737-800",
+      "source_quote": "Aircraft: B738",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL390 (39,000 feet)",
+      "source_quote": "E bound at FL390",
+      "citation_offset": {
+        "offset": 434,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "38 nautical miles northwest of MCI (Kansas City)",
+      "source_quote": "38NM NW MCI",
+      "citation_offset": {
+        "offset": 452,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of travel",
+      "value": "Eastbound",
+      "source_quote": "E bound at FL390",
+      "citation_offset": {
+        "offset": 434,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin airport",
+      "value": "LAS (Las Vegas)",
+      "source_quote": "Origin: LAS",
+      "citation_offset": {
+        "offset": 212,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination airport",
+      "value": "ORD (Chicago O'Hare)",
+      "source_quote": "Destination: ORD",
+      "citation_offset": {
+        "offset": 224,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZKC (Kansas City ARTCC)",
+      "source_quote": "Reporting Facility: ZKC",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Possible explanation noted",
+      "value": "Satellites",
+      "source_quote": "Possible satellites",
+      "citation_offset": {
+        "offset": 565,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "ZKC-M-2022/12/17-0001",
+      "source_quote": "MOR ID: ZKC-M-2022/12/17-0001",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 258,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MCI",
+    "LAS",
+    "ORD",
+    "DEN",
+    "ZKC"
+  ],
+  "dated_events": [
+    "2022-12-17"
+  ],
+  "objects_described": [
+    "Boeing 737-800 (B738)",
+    "Red, green, and white lights fading in and out"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight AAL2654 reported a UAP on 17 December 2022 while eastbound at FL390.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while E bound at FL390",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 376,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was located 38 nautical miles northwest of Kansas City (MCI).",
+      "source_quote": "38NM NW MCI",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 452,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights were described as red, green, and white, fading in and out, positioned high above the aircraft.",
+      "source_quote": "red, green, and white lights fading in and out, high above",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 505,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report noted the lights were possibly satellites.",
+      "source_quote": "Possible satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 565,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was a commercial route from Las Vegas to Chicago O'Hare.",
+      "source_quote": "Origin: LAS Destination: ORD",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:45:32.794Z",
+  "qa_completed_at": "2026-06-01T22:46:13.605Z",
+  "timing": {
+    "A": "19.6s",
+    "B": "21.2s",
+    "E": "17.4s"
+  },
+  "public_headline": "American Airlines Pilot Reported Unexplained Lights Over Kansas at 39,000 Feet",
+  "public_tldr": "This FAA SKYWATCH incident report documents a pilot aboard American Airlines flight AAL2654, a Boeing 737-800, reporting red, green, and white lights fading in and out high above the aircraft while flying at 39,000 feet near Kansas City on 17 December 2022. The FAA noted the lights were possibly satellites and closed the case without further analysis.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form used by the Federal Aviation Administration to log pilot-reported unidentified aerial phenomena (UAPs). It was filed under case number 237UAP00137 and assigned MOR ID ZKC-M-2022/12/17-0001 by the Kansas City Air Route Traffic Control Center (ZKC).\n\nOn 17 December 2022, the crew of American Airlines flight AAL2654, a commercial Boeing 737-800 flying from Las Vegas to Chicago O'Hare, reported seeing something unusual while eastbound at flight level 390 (39,000 feet). The aircraft was approximately 38 nautical miles northwest of Kansas City (MCI) at the time.\n\nThe pilot described red, green, and white lights fading in and out, positioned high above the aircraft. The report itself notes a possible prosaic explanation: satellites. No corroborating radar data or sensor evidence is mentioned in the document.\n\nThe case is marked as closed. No resolution, follow-up investigation, or additional analysis is documented. No tail number for the aircraft was recorded in the report.",
+  "public_caveats": [
+    "This is a single-source pilot observation — no radar, sensor, or second-witness corroboration is mentioned in the document.",
+    "The FAA's own report suggests the lights were possibly satellites, which is a common explanation for fading lights seen at high altitude.",
+    "The case was closed with no documented resolution or follow-up analysis.",
+    "No aircraft tail number was recorded, limiting independent verification of the specific flight.",
+    "Low redaction evidence — the document appears largely complete, but the lack of detail reflects the brevity of the report itself rather than deliberate withholding."
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "sha256": "9e3c1d5bbe0204d850e5a5e3c6138591b6132535ea1dc12ef9558047defa195b",
+  "title": "FAA UAP record 237UAP00045",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a UFO sighting reported by a pilot.",
+  "core_summary": "On 13 February 2021 at 23:15, the pilot in command of a TBM8 aircraft (callsign N14SC) reported observing a UFO while flying northwest-bound at flight level 180. The object was located at the Anderson VOR 060 radial at 8 nautical miles, off the right side of the aircraft, and was described as fast-moving and climbing. A message was left with the UFO reporting center.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts in this document",
+    "The report is marked Closed with no indication of resolution or follow-up findings",
+    "AND060008 refers to a specific VOR radial and distance, placing the sighting near Anderson, South Carolina",
+    "The incident date in the source text is 2021, not 2023 as listed in the metadata"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_date_time",
+      "value": "2021-02-13T23:39",
+      "source_quote": "Date: 23:39 02/13/2021",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "callsign",
+      "value": "N14SC",
+      "source_quote": "Callsign: N14SC",
+      "citation_offset": {
+        "offset": 116,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "TBM8",
+      "source_quote": "Aircraft: TBM8",
+      "citation_offset": {
+        "offset": 132,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin_airport",
+      "value": "JZI",
+      "source_quote": "Origin: JZI",
+      "citation_offset": {
+        "offset": 170,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination_airport",
+      "value": "EVV",
+      "source_quote": "Destination: EVV",
+      "citation_offset": {
+        "offset": 182,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 216,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sighting_time",
+      "value": "23:15",
+      "source_quote": "At 2315 PIC reported a UFO",
+      "citation_offset": {
+        "offset": 266,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL 180 (18,000 feet)",
+      "source_quote": "while NW bound at FL 180",
+      "citation_offset": {
+        "offset": 325,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_heading",
+      "value": "Northwest-bound",
+      "source_quote": "while NW bound at FL 180",
+      "citation_offset": {
+        "offset": 325,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_behavior",
+      "value": "Fast-moving and climbing",
+      "source_quote": "Object was fast moving and climbing",
+      "citation_offset": {
+        "offset": 351,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "follow_up",
+      "value": "Message left with UFO reporting center",
+      "source_quote": "Message left with UFO reporting center",
+      "citation_offset": {
+        "offset": 388,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "paged",
+      "value": "NO",
+      "source_quote": "Paged: NO",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "JZI",
+    "EVV",
+    "DEN",
+    "ZTL"
+  ],
+  "dated_events": [
+    "2021-02-13"
+  ],
+  "objects_described": [
+    "UFO (fast-moving, climbing object)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The pilot in command reported a UFO sighting at 23:15 on 13 February 2021",
+      "source_quote": "At 2315 PIC reported a UFO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 266,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was located at the AND VOR 060 radial at 8 nautical miles, to the right of the aircraft",
+      "source_quote": "at the AND060008 off right side",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 293,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was flying northwest-bound at flight level 180",
+      "source_quote": "while NW bound at FL 180",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 325,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was fast-moving and climbing",
+      "source_quote": "Object was fast moving and climbing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 351,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A message was left with the UFO reporting center",
+      "source_quote": "Message left with UFO reporting center",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 388,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report status is closed",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:11:51.441Z",
+  "qa_completed_at": "2026-06-01T21:12:28.133Z",
+  "timing": {
+    "A": "20.1s",
+    "B": "16.6s",
+    "E": "18.5s"
+  },
+  "public_headline": "Pilot Reports Fast-Climbing UFO During Night Flight Over South Carolina",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a UFO sighting by the pilot of a small turboprop aircraft on 13 February 2021. The pilot, flying at 18,000 feet on a route from Charleston to Evansville, observed a fast-moving, climbing object off the right side of the aircraft near Anderson, South Carolina. The report was closed with no indication of follow-up findings.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unusual aerial sightings reported by pilots and air traffic controllers. It was filed on 13 February 2021 at 23:39 UTC under reference number 237UAP00045.\n\nAt 23:15 that evening, the pilot in command of a TBM8 (a single-engine turboprop) with callsign N14SC was flying northwest-bound at flight level 180 — roughly 18,000 feet — on a general aviation route from Charleston Executive Airport (JZI) to Evansville Regional Airport (EVV). The pilot reported observing an unidentified object positioned at the Anderson VOR (a ground-based navigation beacon in South Carolina), 060-degree radial at 8 nautical miles, off the right side of the aircraft. The object was described as fast-moving and climbing.\n\nThe FAA logged the sighting and a message was left with the UFO reporting centre. The report is marked as \"Closed\" with no further detail on any investigation, resolution, or identification of the object.\n\nNotably, the document contains no radar data, no corroborating witness accounts, and no follow-up findings. It is a single pilot's observation recorded through the FAA's standard reporting channel. The metadata listing this as a 2023 incident appears to be a cataloguing discrepancy — the source document itself dates the event to February 2021.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar data or additional witnesses documented in this report.",
+    "The report is marked 'Closed' with no explanation of what the object was or whether any follow-up investigation occurred.",
+    "There is minimal redaction in this document, but there is also minimal detail — the entire narrative is a few sentences.",
+    "The metadata lists 2023 as the incident date, but the document itself clearly dates the event to 13 February 2021.",
+    "A SKYWATCH report is a logging mechanism, not an investigation finding — its existence does not imply the FAA confirmed or denied anything about the object."
+  ]
+}

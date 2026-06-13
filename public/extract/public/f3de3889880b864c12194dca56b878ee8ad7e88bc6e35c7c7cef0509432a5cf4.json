@@ -1,0 +1,306 @@
+{
+  "sha256": "f3de3889880b864c12194dca56b878ee8ad7e88bc6e35c7c7cef0509432a5cf4",
+  "title": "FAA UAP record 237UAP00279",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by multiple commercial aircraft.",
+  "core_summary": "On July 22, 2023, multiple aircraft reported four unidentified aerial phenomena while northbound at 37,000 feet, approximately 130 nautical miles north-northeast of ZFP. The objects were described as green-lighted, climbing and descending rapidly before disappearing. EADS captured primary radar returns in the area, NORAD was notified, and the pilot-in-command of Avianca flight 062 recorded video of the objects.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The report status is 'Closed' with no resolution or identification of the objects provided.",
+    "The pilot's video is referenced but not included in the released document — its existence and content are unverified from this source alone.",
+    "AMOCC's inability to correlate a target means the objects did not match any known tracked aircraft, but does not confirm their nature.",
+    "The pilot's personal phone number appears to be a Colombian mobile number, consistent with Avianca being a Colombian airline."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-07-22 at 06:05 UTC",
+      "source_quote": "Date: 06:05 07/22/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "AVA062",
+      "source_quote": "Callsign: AVA062",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "A320",
+      "source_quote": "Aircraft: A320",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "AVA (Avianca)",
+      "source_quote": "Operator: AVA",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "SKCL (Cali) to JFK (New York)",
+      "source_quote": "Origin: SKCL Destination: JFK",
+      "citation_offset": {
+        "offset": 200,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZMA (Miami ARTCC)",
+      "source_quote": "Reporting Facility: ZMA",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_objects",
+      "value": "4",
+      "source_quote": "Multiple aircraft reported 4 unidentified aerial phenomenon",
+      "citation_offset": {
+        "offset": 292,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "37,000 feet",
+      "source_quote": "N bound at 37,000 feet",
+      "citation_offset": {
+        "offset": 358,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "130 NM NNE of ZFP",
+      "source_quote": "130NM NNE of ZFP",
+      "citation_offset": {
+        "offset": 382,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_appearance",
+      "value": "Green-lighted, climbing and descending rapidly, then disappearing",
+      "source_quote": "lighted green climbing and descending rapidly and disappearing from 37,000feet",
+      "citation_offset": {
+        "offset": 427,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "video_evidence",
+      "value": "Pilot-in-command has video of the objects",
+      "source_quote": "AVA062 PIC has video of the objects and will contact ZMA OMIC with detail on how to obtain footage",
+      "citation_offset": {
+        "offset": 507,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "EADS captured primary radar returns",
+      "source_quote": "EADS is capturing primary returns in the area",
+      "citation_offset": {
+        "offset": 637,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_coordinates",
+      "value": "ZFP055099",
+      "source_quote": "EADS reporting primaries ZFP055099",
+      "citation_offset": {
+        "offset": 724,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "correlation_result",
+      "value": "AMOCC unable to correlate a target",
+      "source_quote": "AMOCC unable to correlate a target",
+      "citation_offset": {
+        "offset": 782,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notifications",
+      "value": "EADS and NORAD notified",
+      "source_quote": "EADS and NORAD notified",
+      "citation_offset": {
+        "offset": 607,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Raul Salazar"
+  ],
+  "named_places": [
+    "SKCL",
+    "JFK",
+    "ZMA",
+    "ZFP",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-07-22"
+  ],
+  "objects_described": [
+    "A320 commercial aircraft",
+    "4 unidentified aerial phenomena (green-lighted, rapidly climbing/descending)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Multiple aircraft observed the same four objects, not just AVA062",
+      "source_quote": "Multiple aircraft reported 4 unidentified aerial phenomenon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects were detected on primary radar by EADS",
+      "source_quote": "EADS is capturing primary returns in the area",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 637,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AMOCC could not match the radar returns to any known aircraft or target",
+      "source_quote": "AMOCC unable to correlate a target",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 782,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot-in-command captured video of the objects",
+      "source_quote": "AVA062 PIC has video of the objects",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 507,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD was notified of the incident",
+      "source_quote": "EADS and NORAD notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 607,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot-in-command was identified as Raul Salazar with a Colombian phone number",
+      "source_quote": "ZMA provided PIC contact info, Raul Salazar, +573183119631",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 823,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:58:06.946Z",
+  "qa_completed_at": "2026-06-02T00:58:45.435Z",
+  "timing": {
+    "A": "22.7s",
+    "B": "15.8s",
+    "E": "17.7s"
+  },
+  "public_headline": "Multiple Pilots Report Four Green-Lit Objects at 37,000 Feet",
+  "public_tldr": "This FAA SKYWATCH incident report documents a July 2023 sighting in which multiple commercial aircraft observed four unidentified green-lighted objects rapidly climbing and descending near 37,000 feet. The objects were detected on primary radar but could not be matched to any known aircraft, and the case was closed without explanation.",
+  "public_narrative": "On 22 July 2023 at 06:05 UTC, crews aboard multiple commercial aircraft reported four unidentified aerial objects while flying northbound at 37,000 feet, roughly 130 nautical miles north-northeast of the ZFP navigation fix. The objects were described as green-lighted, climbing and descending rapidly before disappearing. The sighting was logged through the FAA's SKYWATCH reporting system, with Miami Air Route Traffic Control Center (ZMA) listed as the reporting facility.\n\nThe pilot-in-command of Avianca flight 062 — an Airbus A320 operating from Cali, Colombia (SKCL) to New York's JFK — was identified as the primary witness. The report states he recorded video of the objects on a personal device and agreed to provide the footage to ZMA's Operations Manager in Charge (OMIC). The Eastern Air Defense Sector (EADS) captured primary radar returns in the area, and both EADS and the North American Aerospace Defense Command (NORAD) were notified.\n\nDespite the radar detections, the Air and Marine Operations Coordination Center (AMOCC) was unable to correlate the returns to any known tracked target — meaning the objects did not match any aircraft in the system. The report's status is listed as \"Closed\" with no identification or explanation of what the objects were.\n\nThe document is a single-page FAA incident form. It contains no photographs, no attached video, and no analytical conclusions. The pilot-in-command is named as Raul Salazar, with contact information consistent with Avianca being a Colombian carrier.",
+  "public_caveats": [
+    "The case was closed with no resolution — the FAA did not identify or explain the objects.",
+    "The pilot's video is referenced in the report but is not included in the released document; its content and current status are unknown from this source alone.",
+    "AMOCC's inability to correlate a radar target means the objects didn't match known tracked aircraft, but that alone does not confirm what they were.",
+    "This is a single administrative incident form, not an investigation report — it records what was reported, not what was concluded.",
+    "The document shows minimal redaction, but it also contains minimal analysis; the brevity itself limits what can be drawn from it."
+  ]
+}

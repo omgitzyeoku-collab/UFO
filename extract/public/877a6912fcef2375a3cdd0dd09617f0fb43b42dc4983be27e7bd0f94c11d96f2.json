@@ -1,0 +1,256 @@
+{
+  "sha256": "877a6912fcef2375a3cdd0dd09617f0fb43b42dc4983be27e7bd0f94c11d96f2",
+  "title": "FAA UAP record 237UAP00115",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon event involving multiple UFO sightings near Toledo and Detroit.",
+  "core_summary": "On September 27, 2022, the FAA's SKYWATCH system logged multiple reports of UFO activity in and around the Toledo and Detroit areas. Objects were observed at altitudes of 29,000, 60,000, and 100,000 feet, maneuvering aggressively in multiple directions. The Air Traffic Services Cell (ATSC) initiated an inquiry and radar replay files were attached.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is an internal FAA incident report, not a confirmed identification — 'unidentified' means no explanation was recorded, not that the objects were extraordinary.",
+    "The 100,000-foot altitude claim is far above normal commercial and military aviation ceilings and may reflect sensor error or misinterpretation.",
+    "The attached radar replay files are not available in this text extraction; without viewing them, the nature of the radar returns cannot be independently assessed.",
+    "The report status is 'Closed' with no resolution or explanation provided in the text, so the outcome of the inquiry is unknown.",
+    "ZOB and ZAU are FAA Air Route Traffic Control Centers (Cleveland and Chicago); the report aggregates multiple separate observations without distinguishing individual sightings."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2022-09-27",
+      "source_quote": "Date: 10:51 09/27/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "UNIDENTIFIED AERIAL PHENOMENON",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 104,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "JATOC-AWO",
+      "source_quote": "Reporting Facility: JATOC-AWO",
+      "citation_offset": {
+        "offset": 128,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Toledo and Detroit areas",
+      "source_quote": "in and around the Toledo and Detroit areas",
+      "citation_offset": {
+        "offset": 212,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitudes_observed",
+      "value": "29,000 ft, 60,000 ft, 100,000 ft",
+      "source_quote": "at varying altitudes of 29,000 feet, 60,000 feet and 100,000 feet",
+      "citation_offset": {
+        "offset": 255,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "movement_description",
+      "value": "Aggressive maneuvering in multiple directions",
+      "source_quote": "maneuvering aggressively in multiple directions",
+      "citation_offset": {
+        "offset": 321,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "inquiry_initiated_by",
+      "value": "ATSC with ZAU/ZOB",
+      "source_quote": "ATSC initiated inquiry with ZAU/ZOB to identify more details",
+      "citation_offset": {
+        "offset": 370,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evidence_provided",
+      "value": "Radar replay files from JSEN",
+      "source_quote": "JSEN provided attached replays",
+      "citation_offset": {
+        "offset": 432,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "attached_files",
+      "value": "zau_9-27-2022_r35_pt1mp4.mp4, zob_9-27-2022_r45.mp4, zau_9-27-2022_r35_pt2.mp4",
+      "source_quote": "zau_9-27-2022_r35_pt1mp4.mp4 zob_9-27-2022_r45.mp4 zau_9-27-2022_r35_pt2.mp4",
+      "citation_offset": {
+        "offset": 653,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "exported_by",
+      "value": "NICHOLAS.D.TORGERSON",
+      "source_quote": "EXPORTED BY: NICHOLAS.D.TORGERSON",
+      "citation_offset": {
+        "offset": 566,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "paged",
+      "value": "YES",
+      "source_quote": "Paged: YES",
+      "citation_offset": {
+        "offset": 93,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "NICHOLAS.D.TORGERSON"
+  ],
+  "named_places": [
+    "Toledo",
+    "Detroit",
+    "DEN"
+  ],
+  "dated_events": [
+    "2022-09-27"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon at 29,000, 60,000, and 100,000 feet maneuvering aggressively"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Multiple UFO reports were received from the Toledo and Detroit areas on September 27, 2022",
+      "source_quote": "ZOB reported multiple reports of UFO activity in and around the Toledo and Detroit areas",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 166,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Objects were observed at three distinct altitude bands: 29,000, 60,000, and 100,000 feet",
+      "source_quote": "at varying altitudes of 29,000 feet, 60,000 feet and 100,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 255,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects were described as maneuvering aggressively in multiple directions",
+      "source_quote": "maneuvering aggressively in multiple directions",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 321,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Radar replay video files from two FAA facilities (ZAU and ZOB) were attached to the report",
+      "source_quote": "JSEN provided attached replays",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 432,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was serious enough to trigger paging",
+      "source_quote": "Paged: YES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 93,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:21:38.835Z",
+  "qa_completed_at": "2026-06-01T22:22:18.103Z",
+  "timing": {
+    "A": "23.3s",
+    "B": "15.9s",
+    "E": "19.5s"
+  },
+  "public_headline": "FAA Logged Multiple UFO Reports Near Toledo and Detroit in 2022",
+  "public_tldr": "This is an internal FAA incident report from September 27, 2022, documenting multiple reports of unidentified aerial phenomena near Toledo and Detroit. Objects were reported at altitudes ranging from 29,000 to 100,000 feet, described as maneuvering aggressively, and the case was closed with no explanation provided.",
+  "public_narrative": "On September 27, 2022, the FAA's SKYWATCH system — an internal incident-tracking tool — recorded multiple reports of unidentified aerial phenomena in and around the Toledo and Detroit areas. The reports came through ZOB and ZAU, the FAA's Cleveland and Chicago Air Route Traffic Control Centers, which manage high-altitude airspace across the Great Lakes region.\n\nThe objects were reported at three altitude bands: 29,000 feet, 60,000 feet, and 100,000 feet. They were described as maneuvering aggressively in multiple directions. The Air Traffic Services Cell (ATSC) opened an inquiry with ZAU and ZOB to gather more details, and radar replay video files from both facilities were attached to the report. The incident was flagged as serious enough to trigger paging.\n\nThe report was filed by JATOC-AWO (the Joint Air Traffic Operations Center — All-Weather Operations) and later exported by a staff member named Nicholas D. Torgerson. Three radar replay files were attached, two from the Chicago center (ZAU) and one from Cleveland (ZOB).\n\nThe case status is listed as \"Closed,\" but the document contains no resolution, identification, or explanation for what was observed. The report simply ends without a conclusion. The radar replay files themselves are not available in this text release, so the nature of what appeared on radar cannot be independently assessed from this document alone.",
+  "public_caveats": [
+    "This is an internal FAA incident log, not a confirmed identification — 'unidentified' means no explanation was recorded, not that the objects were extraordinary.",
+    "The reported altitude of 100,000 feet is far above the ceiling of normal commercial and military aircraft, but may reflect sensor error or misinterpretation rather than an actual object at that height.",
+    "The attached radar replay files are referenced but not available in this release, so the radar data cannot be independently reviewed.",
+    "The report aggregates multiple separate observations from two FAA centers without distinguishing individual sightings or providing detail on how many observers were involved.",
+    "The case was closed with no resolution or explanation provided in the text, so the outcome of the FAA's inquiry is unknown."
+  ]
+}

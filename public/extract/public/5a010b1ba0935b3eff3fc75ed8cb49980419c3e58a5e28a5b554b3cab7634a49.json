@@ -1,0 +1,211 @@
+{
+  "sha256": "5a010b1ba0935b3eff3fc75ed8cb49980419c3e58a5e28a5b554b3cab7634a49",
+  "title": "FAA UAP record 237UAP00467",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UFO-UAP sighting reported by local law enforcement.",
+  "core_summary": "On February 12, 2023, the Cass County Sheriff Department reported a straight line of 10-15 flashing lights passing northbound over Cass County, Michigan, near the intersection of US 12 and US 60 in Dowagiac. No aircraft reported the incident. The FAA's Central Region Operations Center (C-ROC) relayed the report, and South Bend TRACON was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report relayed from local law enforcement; no independent corroboration noted",
+    "No aircraft reported the incident, meaning there is no pilot or radar confirmation",
+    "The description of 10-15 lights in a straight line is consistent with Starlink satellite trains, which are a common source of similar reports, though the document does not identify the objects",
+    "The report is a preliminary notification, not a completed investigation"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "date_of_incident",
+      "value": "2023-02-12",
+      "source_quote": "Date: 2/12/2023 7:53:00 PM (-05 EST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Dowagiac, Cass County, Michigan",
+      "source_quote": "DOWAGIAC, MI/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 211,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_agency",
+      "value": "Cass County Sheriff Department",
+      "source_quote": "C-ROC ADVISED CASS COUNTY SHERIFF DEPARTMENT REPORTED",
+      "citation_offset": {
+        "offset": 247,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "description_of_objects",
+      "value": "Straight line of 10-15 flashing lights moving northbound",
+      "source_quote": "A STRAIGHT LINE OF 10-15 FLASHING LIGHTS PASSING NORTHBOUND OVER CASS COUNTY",
+      "citation_offset": {
+        "offset": 301,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "nearby_landmarks",
+      "value": "Near US 12 and US 60",
+      "source_quote": "NEAR US 12 AND US 60 IN DOWAGIAC",
+      "citation_offset": {
+        "offset": 378,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_involvement",
+      "value": "No aircraft reported the incident",
+      "source_quote": "NO ACFT REPORTED INCIDENT",
+      "citation_offset": {
+        "offset": 412,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "time_of_sighting",
+      "value": "1953 Eastern (7:53 PM EST)",
+      "source_quote": "1953E",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "notifications",
+      "value": "South Bend TRACON notified",
+      "source_quote": "SOUTH BEND TRACON NOTIFIED",
+      "citation_offset": {
+        "offset": 439,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "latitude",
+      "value": "41.984212",
+      "source_quote": "Latitude: 41.984212300000003",
+      "citation_offset": {
+        "offset": 114,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "longitude",
+      "value": "-86.108623",
+      "source_quote": "-86.108622800000006",
+      "citation_offset": {
+        "offset": 153,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Dowagiac, MI",
+    "Cass County",
+    "US 12",
+    "US 60",
+    "South Bend"
+  ],
+  "dated_events": [
+    "2/12/2023 7:53:00 PM (-05 EST)"
+  ],
+  "objects_described": [
+    "Straight line of 10-15 flashing lights moving northbound"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Cass County Sheriff Department reported the sighting to FAA C-ROC",
+      "source_quote": "C-ROC ADVISED CASS COUNTY SHERIFF DEPARTMENT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 247,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "10-15 flashing lights were observed in a straight line moving northbound",
+      "source_quote": "A STRAIGHT LINE OF 10-15 FLASHING LIGHTS PASSING NORTHBOUND OVER CASS COUNTY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 301,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No aircraft reported the incident",
+      "source_quote": "NO ACFT REPORTED INCIDENT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 412,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "South Bend TRACON was notified of the sighting",
+      "source_quote": "SOUTH BEND TRACON NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 439,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T03:14:17.504Z",
+  "qa_completed_at": "2026-06-02T03:14:50.843Z",
+  "timing": {
+    "A": "18.1s",
+    "B": "15.3s",
+    "E": "16.8s"
+  },
+  "public_headline": "Sheriff Reports Line of Flashing Lights Over Michigan to FAA",
+  "public_tldr": "This FAA notification documents a February 2023 report from the Cass County Sheriff Department describing 10 to 15 flashing lights in a straight line moving northbound over Dowagiac, Michigan. No aircraft reported the incident, and the document is a preliminary relay — not a completed investigation.",
+  "public_narrative": "On the evening of 12 February 2023, the Cass County Sheriff Department contacted the FAA's Central Region Operations Center (C-ROC) to report a UAP sighting near Dowagiac, Michigan. The location was close to the intersection of US Route 12 and US Route 60.\n\nAccording to the report, witnesses observed a straight line of 10 to 15 flashing lights passing northbound over Cass County at approximately 7:53 PM Eastern time. No aircraft in the area reported the incident, meaning there was no pilot or radar confirmation of the objects.\n\nThe FAA relayed the report and notified South Bend TRACON — a regional air traffic control facility responsible for the surrounding airspace. The document itself is a standard FAA Washington Operations Center incident notification, not an investigative report or analysis.\n\nThe FAA did not identify the objects or draw any conclusions in this document. There is no indication that a follow-up investigation was conducted, and the record contains minimal redaction.",
+  "public_caveats": [
+    "This is a single-source report relayed from local law enforcement — no independent corroboration from pilots, radar, or other observers is noted in the document.",
+    "The description of 10 to 15 lights in a straight line is consistent with Starlink satellite trains, a common source of similar reports, though the document does not identify the objects.",
+    "This is a preliminary notification, not a completed investigation or analytical report.",
+    "No aircraft reported the incident, so there is no airborne witness or instrument confirmation.",
+    "The document contains little to no redaction, but it also contains very limited detail — it records the fact of the report, not an evaluation of it."
+  ]
+}

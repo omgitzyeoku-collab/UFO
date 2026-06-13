@@ -1,0 +1,238 @@
+{
+  "sha256": "c06460fbb923df7299ba09b0fec281b69078707538fbeba43bcefaf79195cb3c",
+  "title": "FAA UAP record 237UAP00030",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a UFO sighting by an aircraft crew that was later resolved as a misidentified parallel-track aircraft.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a resolved case — the UFO was identified as a conventional aircraft (SWA814/B737) and the case was closed with no further action.",
+    "The resolution relies on crew self-assessment after a point-out by air traffic control, not independent radar or sensor confirmation.",
+    "The document is a single-page administrative export, not a detailed investigation report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2017-02-06 at 23:49 UTC",
+      "source_quote": "Date: 23:49 02/06/2017",
+      "citation_offset": {
+        "offset": 74,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZNY (New York Center)",
+      "source_quote": "Reporting Facility: ZNY",
+      "citation_offset": {
+        "offset": 121,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 97,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft callsign",
+      "value": "AWI3851",
+      "source_quote": "Callsign: AWI3851",
+      "citation_offset": {
+        "offset": 145,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft type",
+      "value": "CRJ2, Canadair Challenger 800",
+      "source_quote": "Aircraft: CRJ2, CANADAIR, Challenger 800",
+      "citation_offset": {
+        "offset": 163,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "AWI",
+      "source_quote": "Operator: AWI",
+      "citation_offset": {
+        "offset": 217,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "White object descending alongside the aircraft on the right side",
+      "source_quote": "reported a UFO off of the right side descending with the ACFT. Crew was unsure what the object was but reported it was white and following the ACFT",
+      "citation_offset": {
+        "offset": 315,
+        "len": 147,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Identified aircraft",
+      "value": "SWA814 / Boeing 737, Philadelphia departure",
+      "source_quote": "parallel track of PHL departure SWA814/B737",
+      "citation_offset": {
+        "offset": 576,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Final disposition",
+      "value": "No further action (NFA)",
+      "source_quote": "NFA",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Exported by",
+      "value": "Nicholas D. Torgerson",
+      "source_quote": "EXPORTED BY: NICHOLAS.D.TORGERSON",
+      "citation_offset": {
+        "offset": 20,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 54,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Nicholas D. Torgerson"
+  ],
+  "named_places": [
+    "DCA",
+    "BGR",
+    "DEN",
+    "ZNY",
+    "PHL"
+  ],
+  "dated_events": [
+    "2017-02-06T23:49"
+  ],
+  "objects_described": [
+    "CRJ2 Canadair Challenger 800 (reporting aircraft)",
+    "SWA814 Boeing 737 (identified source of sighting)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Flight AWI3851 crew reported a white UFO descending alongside their aircraft on the right side",
+      "source_quote": "ACFT reported a UFO off of the right side descending with the ACFT. Crew was unsure what the object was but reported it was white and following the ACFT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 310,
+        "len": 152,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "HQ DEN contacted PCT to obtain additional details from the crew",
+      "source_quote": "HQ DEN reached out to PCT to query the crew for additional details",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 464,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was resolved as Southwest Airlines flight SWA814, a Boeing 737 departing Philadelphia, approximately 20 NM away",
+      "source_quote": "the crew reported that it was most likely the ACFT about 20 NM off the right side over the horizon and into the sun",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 621,
+        "len": 115,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sun's position contributed to the misidentification",
+      "source_quote": "over the horizon and into the sun",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 703,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case was closed with no further action",
+      "source_quote": "NFA",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T20:57:07.009Z",
+  "qa_completed_at": "2026-06-01T20:57:52.728Z",
+  "timing": {
+    "A": "22.5s",
+    "B": "23.2s",
+    "E": "33.1s"
+  },
+  "public_headline": "Airline Crew's UFO Report Resolved as Misidentified Southwest Airlines Flight",
+  "public_tldr": "An FAA incident report from February 2017 documents a regional airline crew reporting a white object descending alongside their aircraft near New York. Air traffic control identified the object as a Southwest Airlines Boeing 737 departing Philadelphia roughly 20 nautical miles away, and the case was closed with no further action.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under record number 237UAP00030. It records an event on 6 February 2017 at 23:49 UTC, reported through New York Center (the FAA facility designated ZNY). The report was exported by Nicholas D. Torgerson and carries the primary code \"OTHER.\"\n\nThe crew of flight AWI3851, operating a Canadair Challenger 800 regional jet (aircraft type CRJ2) for carrier AWI, reported a white object off the right side of their aircraft. They described the object as descending alongside them and following the aircraft, but said they were unsure what it was.\n\nFAA headquarters in Denver (DEN) contacted the Potomac TRACON (PCT) to get more details from the crew. After air traffic control pointed out a nearby aircraft on a parallel track — Southwest Airlines flight SWA814, a Boeing 737 departing Philadelphia — the crew assessed that the object was most likely that aircraft, roughly 20 nautical miles away, positioned over the horizon and into the sun. The sun's position appears to have contributed to the initial misidentification.\n\nThe case was closed with no further action (NFA). This is a single-page administrative export, not a detailed investigation report. The document shows minimal redaction.",
+  "public_caveats": [
+    "This is a resolved case: the FAA concluded the sighting was a conventional aircraft (SWA814, a Boeing 737), and closed it with no further action.",
+    "The resolution relies on the reporting crew's own assessment after a point-out by air traffic control — there is no independent radar or sensor confirmation described in the document.",
+    "The document is a single-page administrative export, not a full investigation file. It contains limited detail beyond the basic incident narrative.",
+    "The incident date in the source document is February 2017, though it appears in a batch of records catalogued under a 2023-era FAA release.",
+    "Redaction levels are low — the document appears largely complete as exported."
+  ]
+}

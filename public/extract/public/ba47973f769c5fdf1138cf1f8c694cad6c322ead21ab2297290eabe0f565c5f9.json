@@ -1,0 +1,224 @@
+{
+  "sha256": "ba47973f769c5fdf1138cf1f8c694cad6c322ead21ab2297290eabe0f565c5f9",
+  "title": "FAA UAP record 237UAP00289",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a general aviation pilot and air traffic control tower personnel.",
+  "core_summary": "On August 17, 2023, a Cessna 208 (callsign N414CY) flying between Birmingham (BHM) and Huntsville (HSV), Alabama reported seeing multiple colored lights in the sky. Birmingham airport air traffic control tower independently confirmed observing the same lights moving around in the sky from their tower cab. Neither the pilot nor the tower could estimate the altitude of the lights.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Report is based on visual observations only — no radar data, photographs, or instrument readings are mentioned.",
+    "Two independent observers (pilot and ATC tower) corroborate the sighting, which adds credibility over single-witness reports.",
+    "The time 06:01 may be UTC rather than local time; local Central time would have been approximately 01:01 AM, meaning this was a nighttime observation.",
+    "No altitude, speed, size, or distance estimates were available for the observed lights.",
+    "The case status is 'Closed' with no indication of a resolution or identification of the lights."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N414CY",
+      "source_quote": "Callsign: N414CY",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 253,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "paged",
+      "value": "YES",
+      "source_quote": "Paged: YES",
+      "citation_offset": {
+        "offset": 196,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZME-M-2023/08/17-0002",
+      "source_quote": "MOR ID: ZME-M-2023/08/17-0002",
+      "citation_offset": {
+        "offset": 299,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_description",
+      "value": "Multiple colored lights observed moving in the sky between BHM and HSV",
+      "source_quote": "Aircraft reported seeing multiple colored lights and flying between BHM and HSV",
+      "citation_offset": {
+        "offset": 337,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "independent_corroboration",
+      "value": "BHM air traffic control tower also observed the lights",
+      "source_quote": "BHM ATCT also reported seeing the lights from the tower cab moving around in the sky",
+      "citation_offset": {
+        "offset": 418,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_estimate",
+      "value": "None available",
+      "source_quote": "N414CY and BHM tower did not have an altitude estimate",
+      "citation_offset": {
+        "offset": 504,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "BHM",
+    "HSV",
+    "MDQ",
+    "RYY",
+    "ZME",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-08-17"
+  ],
+  "objects_described": [
+    "multiple colored lights moving in the sky"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Cessna 208 with callsign N414CY reported multiple colored lights while flying between Birmingham and Huntsville, Alabama on August 17, 2023.",
+      "source_quote": "Aircraft reported seeing multiple colored lights and flying between BHM and HSV",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 337,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Birmingham airport air traffic control tower independently observed the same lights from their tower cab.",
+      "source_quote": "BHM ATCT also reported seeing the lights from the tower cab moving around in the sky",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 418,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Neither the aircraft nor the tower could determine the altitude of the observed lights.",
+      "source_quote": "N414CY and BHM tower did not have an altitude estimate",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 504,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was operating as general aviation, originating from MDQ with destination RYY.",
+      "source_quote": "Origin: MDQ Destination: RYY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 207,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:07:38.744Z",
+  "qa_completed_at": "2026-06-02T01:08:17.109Z",
+  "timing": {
+    "A": "21.6s",
+    "B": "16.8s",
+    "E": "20.6s"
+  },
+  "public_headline": "Pilot and Air Traffic Control Both Saw Unexplained Lights Over Alabama",
+  "public_tldr": "This FAA incident report documents a sighting on August 17, 2023, in which a general aviation pilot flying between Birmingham and Huntsville, Alabama reported multiple colored lights in the sky. Birmingham airport's air traffic control tower independently confirmed seeing the same lights, but neither could estimate the altitude. The case was closed without a stated resolution.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena (UAP). It was filed under the code 237UAP00289 and classified with the primary code \"Unidentified Aerial Phenomenon.\"\n\nOn August 17, 2023, a Cessna 208 with callsign N414CY, operating as a general aviation flight from MDQ to RYY, reported seeing multiple colored lights moving in the sky while flying between Birmingham (BHM) and Huntsville (HSV), Alabama. The sighting was notable because Birmingham airport's air traffic control tower (BHM ATCT) independently reported seeing the same lights from their tower cab, describing them as moving around in the sky.\n\nNeither the pilot nor the tower personnel could provide an altitude estimate for the lights. The report contains no mention of radar data, photographs, or instrument readings that might have supplemented the visual observations.\n\nThe case status is listed as \"Closed.\" The report does not indicate that the lights were ever identified or explained. There is no stated conclusion about what the objects were, and redaction levels in the document appear low — meaning this appears to be the full report rather than a heavily censored version.\n\nThe report was flagged as \"Paged: YES,\" meaning it was escalated within FAA channels, and carries a Memphis Center (ZME) mandatory occurrence report ID, suggesting the sighting was treated as a reportable safety event.",
+  "public_caveats": [
+    "The report is based entirely on visual observations — no radar tracks, photographs, or instrument data are mentioned.",
+    "Two independent sources (the pilot and the ATC tower) corroborate the sighting, which is stronger than a single-witness report but still limited to what two sets of eyes saw.",
+    "The recorded time of 06:01 may be in UTC, which would place the observation at roughly 1:01 AM local Central Time — a nighttime sighting, when colored lights can be harder to identify.",
+    "The case was closed with no stated resolution or identification of the lights. 'Closed' does not mean 'explained.'",
+    "No estimates of altitude, speed, size, or distance were available, making it impossible to determine the nature or scale of what was observed from this document alone."
+  ]
+}

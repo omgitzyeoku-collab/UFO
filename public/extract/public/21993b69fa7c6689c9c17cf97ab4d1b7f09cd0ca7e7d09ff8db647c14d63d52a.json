@@ -1,0 +1,204 @@
+{
+  "sha256": "21993b69fa7c6689c9c17cf97ab4d1b7f09cd0ca7e7d09ff8db647c14d63d52a",
+  "title": "FAA UAP record 237UAP00442",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot observation with no corroborating radar or sensor data mentioned",
+    "Described as preliminary information (PRELIM INFO), suggesting this may not be a final or investigated report",
+    "The pilot's own description ('appeared to be two aircraft') suggests the objects had conventional characteristics, though at unusually high altitude",
+    "No follow-up investigation or resolution is documented in this record"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "Delta 726 (DAL726), Airbus A330, route OGG (Maui) to ATL (Atlanta)",
+      "source_quote": "DELTA 726, A333, OGG-ATL",
+      "citation_offset": {
+        "offset": 239,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time",
+      "value": "14 January 2023, 04:35 CST",
+      "source_quote": "1/14/2023 4:35:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Over Razorback VORTAC near Fayetteville, Arkansas",
+      "source_quote": "OVERHEAD RAZORBACK VORTAC",
+      "citation_offset": {
+        "offset": 372,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 390 (approximately 39,000 feet)",
+      "source_quote": "E BOUND AT FL390",
+      "citation_offset": {
+        "offset": 355,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "Above the aircraft at the 11 o'clock position",
+      "source_quote": "ABOVE ACFT AT THE 11 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 311,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Appeared to be two aircraft with red and white lights at very high altitude",
+      "source_quote": "THE UAP APPEARED TO BE TWO ACFT WITH RED AND WHITE LIGHTS AT A VERY HIGH ALTITUDE",
+      "citation_offset": {
+        "offset": 412,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "36.0627°N, 94.1606°W",
+      "source_quote": "Latitude: 36.062657899999998",
+      "citation_offset": {
+        "offset": 105,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting source",
+      "value": "FAA Washington Operations Center (WOC)",
+      "source_quote": "PRELIM INFO FROM FAA OPS",
+      "citation_offset": {
+        "offset": 176,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report reference",
+      "value": "WOC 7-3333 DJ/RC",
+      "source_quote": "WOC 7-3333 DJ/RC",
+      "citation_offset": {
+        "offset": 495,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Fayetteville, AR",
+    "Razorback VORTAC",
+    "OGG (Kahului/Maui)",
+    "ATL (Atlanta)"
+  ],
+  "dated_events": [
+    "01-14-2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as two aircraft with red and white lights at very high altitude",
+    "Airbus A330 (Delta 726)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight 726 was an Airbus A330 operating the Maui to Atlanta route on 14 January 2023",
+      "source_quote": "DELTA 726, A333, OGG-ATL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 239,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred at flight level 390 over the Razorback VORTAC",
+      "source_quote": "E BOUND AT FL390 OVERHEAD RAZORBACK VORTAC",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 355,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot described the UAP as appearing to be two aircraft with red and white lights at very high altitude",
+      "source_quote": "THE UAP APPEARED TO BE TWO ACFT WITH RED AND WHITE LIGHTS AT A VERY HIGH ALTITUDE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 412,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was above the aircraft at the 11 o'clock position",
+      "source_quote": "ABOVE ACFT AT THE 11 O'CLOCK POSITION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 311,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:51:28.961Z",
+  "qa_completed_at": "2026-06-02T02:52:05.086Z",
+  "timing": {
+    "A": "19.1s",
+    "B": "17.0s",
+    "E": "19.0s"
+  },
+  "public_headline": "Delta Pilot Reports Two Lit Objects Above Flight Over Arkansas",
+  "public_tldr": "This FAA incident report documents a Delta Air Lines pilot who spotted an unidentified aerial phenomenon while flying at 39,000 feet over northwest Arkansas on 14 January 2023. The pilot described what appeared to be two aircraft with red and white lights positioned above the plane at very high altitude, but no follow-up investigation or explanation is recorded.",
+  "public_narrative": "On 14 January 2023 at 4:35 AM Central Time, the pilot of Delta Flight 726 — an Airbus A330 flying from Maui to Atlanta — reported an unidentified aerial phenomenon to air traffic control. The aircraft was eastbound at flight level 390 (roughly 39,000 feet) over the Razorback VORTAC, a navigation point near Fayetteville, Arkansas, at coordinates 36.06°N, 94.16°W.\n\nThe pilot described the objects as above the aircraft at the 11 o'clock position — meaning slightly to the left and ahead. According to the report, the phenomenon appeared to be two aircraft with red and white lights at a very high altitude, well above the already-high cruising altitude of the A330.\n\nThe report was filed as preliminary information by the FAA Washington Operations Center under reference WOC 7-3333 DJ/RC. It is marked as preliminary, and no follow-up investigation, radar corroboration, or final resolution appears in this record.\n\nThe document contains no redactions of note and no indication that the FAA identified the objects. The pilot's own language — that the lights \"appeared to be two aircraft\" — suggests the objects had conventional visual characteristics, though their reported altitude above 39,000 feet was unusual enough to warrant a report.",
+  "public_caveats": [
+    "This is a single-source report based solely on the pilot's visual observation — no radar data, sensor readings, or corroborating witnesses are mentioned.",
+    "The report is labelled as preliminary information, meaning it may not represent a final or fully investigated finding by the FAA.",
+    "The pilot's own description ('appeared to be two aircraft') suggests the objects had conventional characteristics, which could point to high-altitude military traffic or other explanations.",
+    "No follow-up investigation or resolution is documented — we do not know whether the FAA took further action or identified the objects.",
+    "The document has low evidence of redaction, meaning what you see is likely close to the full record as filed."
+  ]
+}

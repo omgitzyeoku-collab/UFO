@@ -1,0 +1,229 @@
+{
+  "sha256": "68cc939bc06979af50e3923934d08e0fded7ae84a6a09f1a99908b38462271d3",
+  "title": "FAA UAP record 237UAP00465",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On February 11, 2023, the crew of United Airlines flight 1786 (a Boeing 737 MAX 9 flying from Los Angeles to Cleveland) reported lights 'coming and going' at the same altitude or higher while eastbound between flight levels 350 and 370, approximately 25 miles south of Sioux Falls, South Dakota. The report was relayed by Minneapolis Air Route Traffic Control Center to FAA Operations. Law enforcement was not notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The document is a preliminary operations center notification, not a full investigation report.",
+    "No description of object shape, size, movement pattern, or duration of observation beyond 'lights coming and going'.",
+    "The initials 'DJ/JG' at the end likely refer to the operations center staff who logged the report but are not further identified."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "United Airlines flight 1786 (UAL1786)",
+      "source_quote": "UNITED 1786, B39M, LAX - CLE",
+      "citation_offset": {
+        "offset": 271,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737 MAX 9 (B39M)",
+      "source_quote": "B39M",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "Los Angeles (LAX) to Cleveland (CLE)",
+      "source_quote": "LAX - CLE",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date/time",
+      "value": "February 11, 2023, 03:35 CST",
+      "source_quote": "2/11/2023 3:35:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "25 miles south of Sioux Falls, South Dakota",
+      "source_quote": "25 S SIOUX FALLS",
+      "citation_offset": {
+        "offset": 401,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "43.2199°N, 96.7419°W",
+      "source_quote": "Latitude: 43.219880549999999",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Between FL350 and FL370 (35,000–37,000 feet)",
+      "source_quote": "BETWEEN FL350 AND FL370",
+      "citation_offset": {
+        "offset": 377,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation description",
+      "value": "Lights coming and going at same altitude or higher",
+      "source_quote": "REPORTED LIGHTS \"COMING AND GOING\" AT SAME ALTITUDE OR HIGHER",
+      "citation_offset": {
+        "offset": 301,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility involved",
+      "value": "Minneapolis ARTCC",
+      "source_quote": "MINNEAPOLIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 245,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not notified",
+      "source_quote": "LEOS NOT NOTIFIED",
+      "citation_offset": {
+        "offset": 419,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting office",
+      "value": "FAA Washington Operations Center",
+      "source_quote": "Washington Operations Center",
+      "citation_offset": {
+        "offset": 0,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Sioux Falls, SD",
+    "Los Angeles (LAX)",
+    "Cleveland (CLE)"
+  ],
+  "dated_events": [
+    "2/11/2023 3:35:00 AM (-06 CST)",
+    "02-11-2023"
+  ],
+  "objects_described": [
+    "Unidentified lights at or above FL350-FL370",
+    "Boeing 737 MAX 9 (United 1786)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 1786, a Boeing 737 MAX 9, was operating on the LAX to CLE route on this date.",
+      "source_quote": "UNITED 1786, B39M, LAX - CLE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 271,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew reported lights coming and going at the same altitude or higher while between FL350 and FL370.",
+      "source_quote": "REPORTED LIGHTS \"COMING AND GOING\" AT SAME ALTITUDE OR HIGHER WHILE E BOUND BETWEEN FL350 AND FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 301,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 25 miles south of Sioux Falls, South Dakota.",
+      "source_quote": "25 S SIOUX FALLS",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 401,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement officers were not notified of the incident.",
+      "source_quote": "LEOS NOT NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 419,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Minneapolis Air Route Traffic Control Center relayed the report to the FAA Operations Center.",
+      "source_quote": "MINNEAPOLIS ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 245,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T03:12:19.830Z",
+  "qa_completed_at": "2026-06-02T03:12:56.497Z",
+  "timing": {
+    "A": "20.2s",
+    "B": "16.5s",
+    "E": "20.9s"
+  },
+  "public_headline": "United Airlines Crew Reported Unexplained Lights Over South Dakota",
+  "public_tldr": "This is an FAA operations center notification from February 2023 documenting a UAP sighting by the crew of United Airlines flight 1786. While flying at 35,000–37,000 feet near Sioux Falls, South Dakota, the crew reported lights \"coming and going\" at the same altitude or higher. No investigation findings are included — this is a preliminary incident log, not a conclusions document.",
+  "public_narrative": "On 11 February 2023 at 03:35 CST, the crew of United Airlines flight 1786 — a Boeing 737 MAX 9 travelling from Los Angeles to Cleveland — reported seeing unidentified lights while cruising between 35,000 and 37,000 feet. The aircraft was approximately 25 miles south of Sioux Falls, South Dakota, at coordinates 43.22°N, 96.74°W.\n\nThe crew described the lights as \"coming and going\" at the same altitude or higher than the aircraft. Minneapolis Air Route Traffic Control Center (ARTCC), the regional radar facility handling the flight, relayed the report to the FAA Washington Operations Center, which logged the notification.\n\nThe document records that law enforcement was not notified of the incident. No further detail is given about the shape, size, movement pattern, or duration of the lights.\n\nThis record is a preliminary operations center notification — essentially an intake form. It does not contain any analysis, radar data, photographs, or investigative conclusions. There is no indication in the document that a follow-up investigation was conducted, though one may exist separately.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data, photographs, or additional witness accounts included in the document.",
+    "The document is a preliminary notification log, not an investigation report — it records that something was reported, not what it was.",
+    "The crew's description is limited to lights \"coming and going\" with no detail on shape, size, movement, colour, or how long the observation lasted.",
+    "There is minimal redaction in this document, but the brevity of the record itself means very little information was captured in the first place.",
+    "Law enforcement was not notified, and the document does not indicate whether any follow-up investigation occurred."
+  ]
+}

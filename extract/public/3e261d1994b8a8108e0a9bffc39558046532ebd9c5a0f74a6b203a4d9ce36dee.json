@@ -1,0 +1,244 @@
+{
+  "sha256": "3e261d1994b8a8108e0a9bffc39558046532ebd9c5a0f74a6b203a4d9ce36dee",
+  "title": "FAA UAP record 237UAP00447",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary incident report documenting a pilot-reported unidentified anomalous phenomenon sighting.",
+  "core_summary": "On 1 February 2023 at 04:07 CST, the crew of American Airlines flight 2399 (an Airbus A321neo flying from Las Vegas to Charlotte) reported an unidentified aerial phenomenon while eastbound at flight level 350, approximately 10 nautical miles west of Nashville (BNA). The phenomenon consisted of red, green, and white lights travelling in formation and changing colour and brightness, observed to the left side of the aircraft. No evasive action was taken, and Bowling Green Police Department was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report only, not a concluded investigation — no cause or identification was determined in this document.",
+    "Single-source observation from one flight crew; no corroborating radar data or additional witness reports are included.",
+    "The coordinates provided place the incident near Nashville, TN, consistent with the textual description.",
+    "The second coordinate field is labelled 'Latitude' but represents longitude (negative value indicating western hemisphere) — likely a data-entry formatting issue in the original system."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "1 February 2023, 04:07 CST",
+      "source_quote": "Date: 2/1/2023 4:07:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting flight",
+      "value": "American Airlines flight 2399 (AAL2399)",
+      "source_quote": "AMERICAN 2399, A21N, LAS - CLT",
+      "citation_offset": {
+        "offset": 246,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Airbus A321neo (A21N)",
+      "source_quote": "A21N",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "Las Vegas (LAS) to Charlotte (CLT)",
+      "source_quote": "LAS - CLT",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 350 (approximately 35,000 feet)",
+      "source_quote": "E BOUND AT FL350",
+      "citation_offset": {
+        "offset": 426,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "10 nautical miles west of Nashville BNA",
+      "source_quote": "10 W BNA",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Coordinates",
+      "value": "36.124342°N, 86.856953°W",
+      "source_quote": "Latitude: 36.124341600000001 Latitude: -86.856953430000004",
+      "citation_offset": {
+        "offset": 99,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Red, green, and white lights in formation, changing colours and brightness",
+      "source_quote": "RED/GREEN/WHITE LIGHTS TRAVELING IN FORMATION AND CHANGING COLORS-BRIGHTNESS",
+      "citation_offset": {
+        "offset": 324,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation direction",
+      "value": "Left side of aircraft",
+      "source_quote": "FROM THE LEFT SIDE",
+      "citation_offset": {
+        "offset": 401,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 453,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Memphis ARTCC",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 224,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Bowling Green Police Department notified",
+      "source_quote": "BOWLING GREEN PD NOTIFIED AT 270-842-1623",
+      "citation_offset": {
+        "offset": 478,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Nashville, TN",
+    "Las Vegas (LAS)",
+    "Charlotte (CLT)",
+    "Bowling Green"
+  ],
+  "dated_events": [
+    "2/1/2023",
+    "02-01-2023"
+  ],
+  "objects_described": [
+    "Airbus A321neo (A21N) — American Airlines flight 2399",
+    "Unidentified aerial phenomenon: red/green/white lights in formation, changing colour and brightness"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 2399 was an Airbus A321neo operating from Las Vegas to Charlotte on 1 February 2023.",
+      "source_quote": "AMERICAN 2399, A21N, LAS - CLT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 246,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight crew observed red, green, and white lights travelling in formation and changing colours and brightness to the left of the aircraft at FL350.",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON OF RED/GREEN/WHITE LIGHTS TRAVELING IN FORMATION AND CHANGING COLORS-BRIGHTNESS FROM THE LEFT SIDE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 278,
+        "len": 141,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 10 nautical miles west of Nashville.",
+      "source_quote": "10 W BNA",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 453,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Bowling Green Police Department was notified about the incident.",
+      "source_quote": "BOWLING GREEN PD NOTIFIED AT 270-842-1623",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 478,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Memphis ARTCC was the controlling air traffic facility.",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 224,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:56:06.939Z",
+  "qa_completed_at": "2026-06-02T02:56:44.356Z",
+  "timing": {
+    "A": "21.5s",
+    "B": "15.9s",
+    "E": "15.5s"
+  },
+  "public_headline": "American Airlines Crew Reports Formation of Coloured Lights Near Nashville",
+  "public_tldr": "This FAA preliminary incident report documents a sighting by the crew of American Airlines flight 2399 on 1 February 2023. While flying at roughly 35,000 feet near Nashville, Tennessee, the crew observed red, green, and white lights travelling in formation and changing colour and brightness. No evasive action was taken and no identification of the phenomenon was made.",
+  "public_narrative": "This document is a preliminary incident report from the FAA's Washington Operations Center. It records a sighting reported by the flight crew of American Airlines flight 2399, an Airbus A321neo flying from Las Vegas to Charlotte, on 1 February 2023 at 04:07 Central Standard Time.\n\nWhile eastbound at flight level 350 (approximately 35,000 feet), roughly 10 nautical miles west of Nashville, the crew observed an unidentified aerial phenomenon to the left side of the aircraft. They described it as red, green, and white lights travelling in formation, changing in colour and brightness. The crew did not take evasive action.\n\nMemphis Air Route Traffic Control Center (ARTCC) was advised of the sighting, and Bowling Green Police Department in Kentucky was also notified. The report includes coordinates (36.12°N, 86.86°W) consistent with the area west of Nashville.\n\nThis is a preliminary report only. The document does not contain any concluded investigation, identification of the phenomenon, or follow-up findings. There is no corroborating radar data or additional witness testimony included. The level of redaction in the document is low.",
+  "public_caveats": [
+    "This is a preliminary FAA incident report, not a completed investigation — no cause or identification was determined.",
+    "The observation comes from a single flight crew. No corroborating radar data or independent witness accounts are included in the document.",
+    "The description of coloured lights changing brightness and travelling in formation could be consistent with various explanations, none of which are confirmed here.",
+    "One coordinate field in the original report is mislabelled (a longitude value marked as 'Latitude'), likely a data-entry formatting error in the FAA's system.",
+    "The document has low redaction, meaning most of the original content is readable, but the report itself is brief and contains limited detail."
+  ]
+}

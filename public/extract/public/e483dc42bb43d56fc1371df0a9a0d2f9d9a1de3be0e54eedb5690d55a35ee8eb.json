@@ -1,0 +1,323 @@
+{
+  "sha256": "e483dc42bb43d56fc1371df0a9a0d2f9d9a1de3be0e54eedb5690d55a35ee8eb",
+  "title": "FAA UAP record 237UAP00341",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On 20 January 2024, the crew of Delta Air Lines flight DAL2784, a Boeing 717 flying westbound at 32,000 feet, reported seeing multiple lights ahead of their aircraft approximately 80 miles in the distance, maneuvering at an unknown altitude above them near the KOMMA Intersection, about 40 nautical miles southeast of Fort Smith, Arkansas. The phenomenon was observed visually only and was not detected on ATC radar systems.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source visual observation by flight crew only; no radar or instrument corroboration.",
+    "Distance estimate of 80 miles is a crew approximation and difficult to verify for a visual sighting at night.",
+    "Report is marked 'Closed' with no indication of follow-up investigation or resolution.",
+    "No tail number recorded for the reporting aircraft.",
+    "AWO notification mentioned but no further details on any response or investigation."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2024-01-20 at 02:50",
+      "source_quote": "Date: 02:50 01/20/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "DAL2784",
+      "source_quote": "Callsign: DAL2784",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Boeing 717",
+      "source_quote": "Aircraft: B717",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "Delta Air Lines (DAL)",
+      "source_quote": "Operator: DAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "ATL (Atlanta)",
+      "source_quote": "Origin: ATL",
+      "citation_offset": {
+        "offset": 201,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "OKC (Oklahoma City)",
+      "source_quote": "Destination: OKC",
+      "citation_offset": {
+        "offset": 213,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZME (Memphis ARTCC)",
+      "source_quote": "Reporting Facility: ZME",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "32,000 feet",
+      "source_quote": "W bound at 32,000 feet",
+      "citation_offset": {
+        "offset": 369,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location_relative",
+      "value": "40 NM southeast of Fort Smith (FSM)",
+      "source_quote": "40 NM SE of FSM",
+      "citation_offset": {
+        "offset": 393,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "35°01'N / 94°41'W",
+      "source_quote": "L/L coordinates 3501N/9441W",
+      "citation_offset": {
+        "offset": 410,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Multiple lights approximately 80 miles distant, maneuvering at unknown altitude above the aircraft",
+      "source_quote": "multiple lights approximately 80 miles in the distance maneuvering at an unknown altitude above them",
+      "citation_offset": {
+        "offset": 466,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "intersection",
+      "value": "KOMMA Intersection",
+      "source_quote": "at the KOMMA Intersection",
+      "citation_offset": {
+        "offset": 567,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_method",
+      "value": "Visual only, no onboard equipment used",
+      "source_quote": "Observation was visually without utilizing on board equipment",
+      "citation_offset": {
+        "offset": 594,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar systems",
+      "citation_offset": {
+        "offset": 657,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notifications",
+      "value": "AWO notified",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 713,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_observation",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "off the 12 o'clock",
+      "citation_offset": {
+        "offset": 344,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ATL",
+    "OKC",
+    "FSM",
+    "KOMMA Intersection"
+  ],
+  "dated_events": [
+    "2024-01-20"
+  ],
+  "objects_described": [
+    "Boeing 717 (commercial aircraft)",
+    "Multiple unidentified lights maneuvering at unknown altitude"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL2784 was operating a commercial ATL-to-OKC route on 20 January 2024",
+      "source_quote": "Callsign: DAL2784 ... Origin: ATL Destination: OKC",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed multiple lights approximately 80 miles ahead maneuvering above their altitude of 32,000 feet",
+      "source_quote": "multiple lights approximately 80 miles in the distance maneuvering at an unknown altitude above them",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 466,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred near coordinates 35°01'N / 94°41'W, 40 NM southeast of Fort Smith",
+      "source_quote": "L/L coordinates 3501N/9441W",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 410,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was not detected by ATC radar systems",
+      "source_quote": "The UAP was not observed on ATC facility radar systems",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 657,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observation was visual only, without use of onboard equipment",
+      "source_quote": "Observation was visually without utilizing on board equipment",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 594,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:56:36.951Z",
+  "qa_completed_at": "2026-06-02T01:57:14.253Z",
+  "timing": {
+    "A": "22.8s",
+    "B": "14.5s",
+    "E": "18.2s"
+  },
+  "public_headline": "Delta Pilots Report Multiple Maneuvering Lights Over Arkansas",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a visual sighting by the crew of Delta Air Lines flight DAL2784 on 20 January 2024. Flying at 32,000 feet near Fort Smith, Arkansas, the crew observed multiple lights ahead of their aircraft maneuvering at an unknown altitude — the lights were not detected on air traffic control radar, and the case was closed without a stated resolution.",
+  "public_narrative": "On 20 January 2024 at 02:50, the crew of Delta Air Lines flight DAL2784 — a Boeing 717 flying westbound from Atlanta to Oklahoma City at 32,000 feet — reported seeing something unusual directly ahead of their aircraft. Near the KOMMA Intersection, roughly 40 nautical miles southeast of Fort Smith, Arkansas (coordinates 35°01'N / 94°41'W), the crew observed multiple lights approximately 80 miles in the distance, maneuvering at an unknown altitude above them.\n\nThe observation was entirely visual. The crew did not use any onboard equipment to track the lights, and air traffic control radar at the Memphis Air Route Traffic Control Center (ARTCC), the facility handling the report, did not detect anything corresponding to what the crew described.\n\nThe FAA logged the event as a SKYWATCH Incident Report under the primary code \"Unidentified Aerial Phenomenon.\" The AWO (Aviation Weather Operations) was notified. Beyond that, the report contains no indication of any follow-up investigation or attempt to identify the lights.\n\nThe case is marked as closed. No tail number was recorded for the reporting aircraft, and no resolution or explanation is offered in the document.",
+  "public_caveats": [
+    "This is a single-source report based solely on what the flight crew saw with their eyes — no radar, no instrument data, and no independent corroboration from other aircraft or ground observers.",
+    "The crew estimated the lights were about 80 miles away, but judging distance visually at night and altitude is inherently unreliable.",
+    "The report is marked 'Closed' with no explanation of what the lights were and no indication that any follow-up investigation took place.",
+    "There is minimal redaction in this document — the lack of detail appears to reflect the brevity of the original report rather than information being withheld.",
+    "No tail number was recorded for the reporting aircraft, which limits the ability to independently verify flight details."
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "sha256": "e3da55c82bb360187187dc7772312d687b5dd0446c045ddf489f5233f06930b8",
+  "title": "FAA UAP record 237UAP00063",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report from one pilot with no corroborating observations from other aircraft or radar facilities noted.",
+    "No description of the phenomenon's appearance, size, movement, or duration was recorded.",
+    "The report is marked 'Closed' with no indication of follow-up investigation or resolution.",
+    "The lack of detail ('No other information was given by the pilot or facility') severely limits analytical value."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2021-08-22 at 16:30",
+      "source_quote": "Date: 16:30 08/22/2021",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N398WF",
+      "source_quote": "Callsign: N398WF",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL200 (approximately 20,000 feet)",
+      "source_quote": "SW bound at FL200",
+      "citation_offset": {
+        "offset": 369,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_travel",
+      "value": "Southwest-bound",
+      "source_quote": "SW bound at FL200",
+      "citation_offset": {
+        "offset": 369,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_position_relative_to_aircraft",
+      "value": "Off the left side",
+      "source_quote": "an unidentified aerial phenomenon off of left side",
+      "citation_offset": {
+        "offset": 312,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "origin_airport",
+      "value": "CPK",
+      "source_quote": "Origin: CPK",
+      "citation_offset": {
+        "offset": 196,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination_airport",
+      "value": "7FL6",
+      "source_quote": "Destination: 7FL6",
+      "citation_offset": {
+        "offset": 208,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 243,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notifications",
+      "value": "National UFO reporting number called; AWO/CM notified",
+      "source_quote": "National UFO reporting number called. AWO/CM notified.",
+      "citation_offset": {
+        "offset": 462,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "additional_details",
+      "value": "No further information provided by pilot or facility",
+      "source_quote": "No other information was given by the pilot or facility",
+      "citation_offset": {
+        "offset": 405,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "CPK",
+    "7FL6",
+    "ISO",
+    "ZDC",
+    "DEN"
+  ],
+  "dated_events": [
+    "2021-08-22T16:30"
+  ],
+  "objects_described": [
+    "PA46 aircraft",
+    "unidentified aerial phenomenon"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A PA46 aircraft with callsign N398WF observed a UAP off its left side while flying southwest at FL200",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off of left side while SW bound at FL200",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 294,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 10 nautical miles northeast of ISO",
+      "source_quote": "10 NM NE of ISO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 388,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot provided no additional details beyond the initial report",
+      "source_quote": "No other information was given by the pilot or facility",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 405,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The National UFO reporting number was contacted",
+      "source_quote": "National UFO reporting number called",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 462,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was flying from CPK to 7FL6",
+      "source_quote": "Origin: CPK Destination: 7FL6",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 196,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:30:10.570Z",
+  "qa_completed_at": "2026-06-01T21:30:50.122Z",
+  "timing": {
+    "A": "21.1s",
+    "B": "18.5s",
+    "E": "18.4s"
+  },
+  "public_headline": "FAA Report: Pilot Spotted Unidentified Object at 20,000 Feet in 2021",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a general aviation pilot's sighting of an unidentified aerial phenomenon off the left side of their aircraft while flying at 20,000 feet near Kinston, North Carolina on 22 August 2021. The report was closed with no follow-up investigation noted and almost no descriptive detail about what the pilot saw.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena from pilots and air traffic facilities. It was filed under case number 237UAP00063.\n\nOn 22 August 2021 at 16:30, the pilot of a PA46 aircraft (callsign N398WF) reported seeing an unidentified aerial phenomenon off the left side of the aircraft. The plane was a general aviation flight travelling southwest at flight level 200 (approximately 20,000 feet), routing from CPK to 7FL6. The sighting occurred roughly 10 nautical miles northeast of ISO.\n\nThe report contains remarkably little detail about what the pilot actually saw. No description of the object's appearance, size, movement, or duration was recorded. The document states plainly: \"No other information was given by the pilot or facility.\" The national UFO reporting number was contacted, and an AWO/CM (likely an airway operations or case manager) was notified.\n\nThe case is marked \"Closed\" with no indication that any follow-up investigation took place and no resolution or explanation offered. The FAA's Denver office (POD: DEN) handled the report.",
+  "public_caveats": [
+    "This is a single-source report from one pilot. No corroborating observations from other aircraft, passengers, or radar facilities are mentioned in the document.",
+    "The report contains no description whatsoever of what the pilot saw — no shape, size, colour, movement, or duration. It confirms only that something was reported.",
+    "The case was closed with no stated resolution or follow-up investigation, which limits what can be drawn from it.",
+    "The document shows low evidence of redaction — the sparse detail appears to reflect what was reported rather than what was removed.",
+    "The incident date in the document is August 2021, though it was released as part of the FAA's broader 2023-era UAP records disclosure."
+  ]
+}

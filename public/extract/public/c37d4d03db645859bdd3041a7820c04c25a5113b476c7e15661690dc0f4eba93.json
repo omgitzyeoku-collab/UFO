@@ -1,0 +1,237 @@
+{
+  "sha256": "c37d4d03db645859bdd3041a7820c04c25a5113b476c7e15661690dc0f4eba93",
+  "title": "FAA UAP record 237UAP00458",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary notification of a UAP sighting reported by a commercial cargo flight crew.",
+  "core_summary": "On 10 February 2023 at 03:45 EST, the crew of UPS flight 1052 (a Boeing 757-200 flying from Manchester, NH to Bangor, ME) reported an unidentified aerial phenomenon with bright lights at their 12 o'clock position while northeast-bound at flight level 370, approximately 18 nautical miles west of Wilkes-Barre, Pennsylvania. No evasive action was taken and no law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or other witness accounts included in this document",
+    "This is a preliminary operations center notification, not a completed investigation",
+    "The longitude field is mislabelled as 'Latitude' in the source document, which may indicate a data entry irregularity",
+    "No description of UAP shape, size, movement, or duration is provided beyond 'bright lights'",
+    "WOC reference number and initials (MO/JF) suggest internal tracking but no further detail is given"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "UPS 1052, Boeing 757-200 (B752)",
+      "source_quote": "UPS 1052, B752, MHT - BGR",
+      "citation_offset": {
+        "offset": 269,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_route",
+      "value": "Manchester, NH (MHT) to Bangor, ME (BGR)",
+      "source_quote": "MHT - BGR",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight level 370 (approximately 37,000 feet)",
+      "source_quote": "NE BOUND AT FL370",
+      "citation_offset": {
+        "offset": 393,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_position_relative_to_aircraft",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "BRIGHT LIGHTS FROM THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 344,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Bright lights",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH BRIGHT LIGHTS",
+      "citation_offset": {
+        "offset": 296,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "18 nautical miles west of Wilkes-Barre VOR (WBW), Pennsylvania",
+      "source_quote": "18 W WBW",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "date_time",
+      "value": "10 February 2023, 03:45 EST",
+      "source_quote": "Date: 2/10/2023 3:45:00 AM (-05 EST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 421,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 446,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "atc_facility",
+      "value": "New York ARTCC",
+      "source_quote": "NEW YORK ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 246,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "latitude",
+      "value": "41.296787940000002",
+      "source_quote": "Latitude: 41.296787940000002",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "longitude",
+      "value": "-76.198106289999998",
+      "source_quote": "Latitude: -76.198106289999998",
+      "citation_offset": {
+        "offset": 138,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Wilkes-Barre, PA",
+    "Manchester, NH (MHT)",
+    "Bangor, ME (BGR)"
+  ],
+  "dated_events": [
+    "2/10/2023 3:45:00 AM (-05 EST)",
+    "02-10-2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with bright lights",
+    "Boeing 757-200 (UPS 1052)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "UPS flight 1052 crew reported a UAP with bright lights directly ahead of the aircraft while at 37,000 feet",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH BRIGHT LIGHTS FROM THE 12 O'CLOCK POSITION WHILE NE BOUND AT FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 296,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was approximately 18 nautical miles west of Wilkes-Barre VOR at the time of the sighting",
+      "source_quote": "18 W WBW",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 421,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was made",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 446,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "New York ARTCC was the advising air traffic control facility",
+      "source_quote": "NEW YORK ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 246,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T03:05:53.936Z",
+  "qa_completed_at": "2026-06-02T03:06:33.201Z",
+  "timing": {
+    "A": "21.6s",
+    "B": "17.6s",
+    "E": "19.0s"
+  },
+  "public_headline": "UPS Cargo Crew Reported Bright Lights Ahead at 37,000 Feet",
+  "public_tldr": "This is an FAA preliminary notification from February 2023 documenting a UAP sighting by the crew of a UPS cargo flight over Pennsylvania. The crew saw bright lights directly ahead of their aircraft at 37,000 feet; no evasive action was taken and no investigation findings are included.",
+  "public_narrative": "On 10 February 2023 at 3:45 AM Eastern time, the crew of UPS flight 1052 — a Boeing 757-200 flying from Manchester, New Hampshire to Bangor, Maine — reported seeing an unidentified aerial phenomenon while cruising at 37,000 feet. The object appeared as bright lights directly ahead of the aircraft, at what pilots call the \"12 o'clock position.\"\n\nAt the time of the sighting, the aircraft was approximately 18 nautical miles west of Wilkes-Barre, Pennsylvania. New York ARTCC (Air Route Traffic Control Center), the air traffic control facility responsible for that airspace, was advised of the report. The crew did not take any evasive action, and no law enforcement was notified.\n\nThe document itself is a Washington Operations Center preliminary notification — essentially, the FAA's internal early-alert form for unusual events. It records basic details (flight number, position, time, what was seen) but contains no analysis, no radar data, and no conclusions about what the lights were. The description is limited to \"bright lights\" with no further detail on shape, size, movement, or how long the sighting lasted.\n\nOne oddity worth noting: the source document mislabels the longitude coordinate field as \"Latitude,\" which may reflect a simple data-entry error in the FAA's form. The coordinates given (roughly 41.3°N, 76.2°W) do correspond to an area west of Wilkes-Barre, consistent with the text description.",
+  "public_caveats": [
+    "This is a single-source pilot report — no corroborating radar data, photos, or independent witness accounts are included in the document.",
+    "The document is a preliminary notification, not a completed investigation. The FAA recorded what was reported but drew no conclusions about what the crew saw.",
+    "The UAP description is minimal: \"bright lights\" with no detail on shape, size, behaviour, or duration of the sighting.",
+    "There is little evidence of redaction in this document — the sparse detail appears to reflect the limited scope of a preliminary operations center form rather than deliberate withholding.",
+    "The mislabelling of the longitude field as \"Latitude\" in the source document suggests a data-entry irregularity but does not affect the substance of the report."
+  ]
+}

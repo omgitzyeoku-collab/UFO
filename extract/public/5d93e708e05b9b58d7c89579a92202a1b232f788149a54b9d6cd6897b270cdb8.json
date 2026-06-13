@@ -1,0 +1,262 @@
+{
+  "sha256": "5d93e708e05b9b58d7c89579a92202a1b232f788149a54b9d6cd6897b270cdb8",
+  "title": "FAA UAP record 237UAP00175",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": "On 3 February 2023, American Airlines flight AAL1743 (an A319) reported observing a large balloon off its right side while northbound at FL340, approximately 13 nautical miles west of St. Joseph, Missouri. The pilot in command reported the balloon appeared to drop 20,000 feet in altitude and was initially at approximately FL500 (50,000 feet) or above.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data mentioned in this report.",
+    "The object was described as a 'balloon' by the crew, which is their interpretation — the FAA coded it as an Unidentified Aerial Phenomenon.",
+    "FL500 (50,000 feet) is above the certified ceiling of most known civilian balloons, making altitude estimation uncertain.",
+    "This incident occurred during the February 2023 period when multiple high-altitude balloon incidents were reported over US airspace.",
+    "No tail number recorded for the aircraft, limiting independent verification."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-02-03 at 15:43 UTC",
+      "source_quote": "Date: 15:43 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "AAL1743",
+      "source_quote": "Callsign: AAL1743",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "A319",
+      "source_quote": "Aircraft: A319",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZKC (Kansas City Center)",
+      "source_quote": "Reporting Facility: ZKC",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "FL340 (34,000 feet)",
+      "source_quote": "N bound at FL340",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "13 nautical miles west of STJ (St. Joseph, Missouri)",
+      "source_quote": "13NM W of STJ",
+      "citation_offset": {
+        "offset": 368,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Large balloon at approximately FL500 (50,000 feet) and above",
+      "source_quote": "a large balloon off the right side... The balloon was at approximately FL500 and above",
+      "citation_offset": {
+        "offset": 461,
+        "len": 46,
+        "exact": false,
+        "matched": "e balloon was at approximately FL500 and above"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object behaviour",
+      "value": "Observed to drop 20,000 feet in altitude",
+      "source_quote": "PIC reported they observed the balloon take a 20,000 foot drop in altitude",
+      "citation_offset": {
+        "offset": 383,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin airport",
+      "value": "CID (Cedar Rapids)",
+      "source_quote": "Origin: CID",
+      "citation_offset": {
+        "offset": 201,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination airport",
+      "value": "DFW (Dallas/Fort Worth)",
+      "source_quote": "Destination: DFW",
+      "citation_offset": {
+        "offset": 213,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZKC",
+    "CID",
+    "DFW",
+    "STJ"
+  ],
+  "dated_events": [
+    "2023-02-03"
+  ],
+  "objects_described": [
+    "Large balloon at approximately FL500",
+    "A319 commercial aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial American Airlines A319 was flying northbound at 34,000 feet when the crew observed the object.",
+      "source_quote": "Aircraft reported a large balloon off the right side while N bound at FL340",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was described as a large balloon initially at approximately 50,000 feet or above.",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 459,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot in command observed the balloon descend approximately 20,000 feet.",
+      "source_quote": "PIC reported they observed the balloon take a 20,000 foot drop in altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 383,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was 13 nautical miles west of St. Joseph (STJ) at the time of observation.",
+      "source_quote": "13NM W of STJ",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 368,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:22:41.587Z",
+  "qa_completed_at": "2026-06-01T23:23:19.019Z",
+  "timing": {
+    "A": "20.5s",
+    "B": "16.9s",
+    "E": "18.1s"
+  },
+  "public_headline": "American Airlines Crew Reports High-Altitude Balloon Over Missouri in 2023",
+  "public_tldr": "This FAA incident report documents a sighting by an American Airlines crew on 3 February 2023. While flying at 34,000 feet near St. Joseph, Missouri, the pilots observed a large balloon at roughly 50,000 feet that appeared to drop 20,000 feet in altitude. The FAA classified it as an Unidentified Aerial Phenomenon and closed the case.",
+  "public_narrative": "On 3 February 2023, the crew of American Airlines flight AAL1743 — an Airbus A319 flying from Cedar Rapids to Dallas/Fort Worth — reported an unusual object while passing 13 nautical miles west of St. Joseph, Missouri. The aircraft was heading north at 34,000 feet (FL340) when the crew spotted what they described as a large balloon off the right side of the aircraft.\n\nThe pilot in command estimated the balloon was at approximately 50,000 feet (FL500) or above — well beyond the typical ceiling for most known civilian balloons. The crew then observed the object drop roughly 20,000 feet in altitude. Kansas City Center (ZKC) was the air traffic facility that received the report.\n\nThe FAA logged this under its SKYWATCH system and assigned it the primary code \"Unidentified Aerial Phenomenon.\" The case is now closed. Notably, the report does not mention any corroborating radar data, and no tail number was recorded for the aircraft. The crew described the object as a balloon, but the FAA still coded the event as a UAP rather than confirming that identification.\n\nThis incident took place during February 2023, a period when several high-altitude balloon sightings were reported across US airspace and attracted significant public attention. The document itself is brief and contains limited additional detail beyond the crew's account.",
+  "public_caveats": [
+    "This is a single-source pilot observation. The report does not mention any radar data or other sensor confirmation of the object.",
+    "The crew called it a 'balloon,' but that is their interpretation — the FAA still classified it as an Unidentified Aerial Phenomenon rather than confirming the identification.",
+    "An estimated altitude of 50,000 feet is above the certified ceiling of most civilian balloons, making the crew's altitude estimate uncertain.",
+    "No aircraft tail number was recorded, which limits the ability to independently verify flight details.",
+    "The case is closed with no stated conclusion about what the object was."
+  ]
+}

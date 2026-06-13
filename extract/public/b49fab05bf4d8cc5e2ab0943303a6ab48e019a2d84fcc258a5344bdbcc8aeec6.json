@@ -1,0 +1,230 @@
+{
+  "sha256": "b49fab05bf4d8cc5e2ab0943303a6ab48e019a2d84fcc258a5344bdbcc8aeec6",
+  "title": "FAA UAP record 237UAP00241",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witnesses mentioned.",
+    "Case is marked 'Closed' with no resolution or explanation provided.",
+    "The tail number field is blank, limiting aircraft verification despite the callsign being provided.",
+    "Time is listed as 05:00 UTC, placing the event in late evening local time (Pacific), which is relevant to the light observations."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N760ED",
+      "source_quote": "Callsign: N760ED",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL400 (40,000 feet)",
+      "source_quote": "NNW bound at FL400",
+      "citation_offset": {
+        "offset": 394,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "destination",
+      "value": "UAO",
+      "source_quote": "Destination: UAO",
+      "citation_offset": {
+        "offset": 218,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 252,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Multicoloured lights (orange, purple, green, red) appearing larger than an aircraft",
+      "source_quote": "multicolored lights (orange, purple, green, red) appearing to be larger than an aircraft",
+      "citation_offset": {
+        "offset": 473,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "heading",
+      "value": "North-northwest",
+      "source_quote": "NNW bound at FL400",
+      "citation_offset": {
+        "offset": 394,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZOA-M-2023/03/16-0004",
+      "source_quote": "MOR ID: ZOA-M-2023/03/16-0004",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "FAT",
+    "VIS",
+    "TRM",
+    "UAO",
+    "DEN",
+    "ZOA"
+  ],
+  "dated_events": [
+    "2023-03-17",
+    "2023/03/16"
+  ],
+  "objects_described": [
+    "Multicoloured lights (orange, purple, green, red) appearing larger than an aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A general aviation Citation Excel with callsign N760ED was flying at FL400 on 17 March 2023",
+      "source_quote": "Callsign: N760ED ... Aircraft: C56X ... NNW bound at FL400",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The aircraft was in the vicinity of Fresno and Visalia when the sighting occurred",
+      "source_quote": "in the vicinity of FAT and VIS",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 414,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of multicoloured lights that appeared larger than an aircraft",
+      "source_quote": "multicolored lights (orange, purple, green, red) appearing to be larger than an aircraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 473,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from TRM and was destined for UAO",
+      "source_quote": "Origin: TRM Destination: UAO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 206,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported through Oakland ARTCC (ZOA)",
+      "source_quote": "Reporting Facility: ZOA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:23:15.857Z",
+  "qa_completed_at": "2026-06-02T00:23:55.533Z",
+  "timing": {
+    "A": "21.3s",
+    "B": "18.3s",
+    "E": "18.2s"
+  },
+  "public_headline": "FAA Report: Pilot Saw Multicoloured Lights Larger Than Aircraft Over California",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a general aviation pilot's sighting of multicoloured lights near Fresno and Visalia, California on 16–17 March 2023. The pilot, flying at 40,000 feet, described orange, purple, green, and red lights that appeared larger than an aircraft. The case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under case number 237UAP00241, with a Mandatory Occurrence Report ID of ZOA-M-2023/03/16-0004. It records a pilot's sighting of an unidentified aerial phenomenon during a general aviation flight in March 2023.\n\nThe pilot was flying a Citation Excel (a business jet) under callsign N760ED, travelling north-northwest at FL400 — that is, 40,000 feet. The flight originated from Thermal, California (TRM) and was heading for Aurora, Oregon (UAO). While in the vicinity of Fresno (FAT) and Visalia (VIS) in central California, the pilot reported seeing multicoloured lights — orange, purple, green, and red — that appeared to be larger than an aircraft.\n\nThe sighting was reported through Oakland Air Route Traffic Control Centre (ZOA), which handles air traffic across much of California and Nevada. The FAA classified the event under its primary code for Unidentified Aerial Phenomenon.\n\nThe case status is listed as Closed, but the report provides no resolution or explanation for what the pilot observed. There is no mention of corroborating radar data or additional witnesses. The tail number field on the report is blank, which limits independent verification of the aircraft involved despite the callsign being recorded.\n\nThe time of the event is recorded as 05:00 UTC, which corresponds to late evening local time in the Pacific time zone — a detail relevant to understanding the light conditions under which the pilot made the observation.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No corroborating radar data or additional witnesses are mentioned in the report.",
+    "The case is marked 'Closed' with no resolution or explanation — closure does not mean the phenomenon was identified.",
+    "The aircraft tail number field is blank, which limits independent verification of the flight despite the callsign being provided.",
+    "The level of redaction in this document is low, but the report itself contains limited detail — it is a short incident form, not an investigation."
+  ]
+}

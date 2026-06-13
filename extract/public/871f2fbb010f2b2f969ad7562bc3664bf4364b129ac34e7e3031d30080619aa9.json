@@ -1,0 +1,292 @@
+{
+  "sha256": "871f2fbb010f2b2f969ad7562bc3664bf4364b129ac34e7e3031d30080619aa9",
+  "title": "FAA UAP record 237UAP00277",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft.",
+  "core_summary": "On July 21, 2023, Delta Air Lines flight DAL2054 (a Boeing 737-800) reported observing multiple stationary, synchronized lights while southbound at 14,200 feet, approximately 20 nautical miles southwest of LAX. NORAD was contacted to check their systems but returned negative results. No evasive action was taken by the aircraft.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar or sensor data mentioned.",
+    "NORAD check returned negative, meaning no corresponding object was detected on their systems.",
+    "The case status is closed with no resolution or identification of the phenomenon noted.",
+    "No tail number is recorded in the report."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/Time",
+      "value": "2023-07-21 at 04:52",
+      "source_quote": "Date: 04:52 07/21/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "DAL2054",
+      "source_quote": "Callsign: DAL2054",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737-800",
+      "source_quote": "Aircraft: B738",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "Delta Air Lines (DAL)",
+      "source_quote": "Operator: DAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin",
+      "value": "SFO",
+      "source_quote": "Origin: SFO",
+      "citation_offset": {
+        "offset": 201,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination",
+      "value": "LAX",
+      "source_quote": "Destination: LAX",
+      "citation_offset": {
+        "offset": 213,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZLA (Los Angeles ARTCC)",
+      "source_quote": "Reporting Facility: ZLA",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "14,200 feet",
+      "source_quote": "S bound at 14,200 feet",
+      "citation_offset": {
+        "offset": 350,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "20 nautical miles southwest of LAX",
+      "source_quote": "20NM SW of LAX",
+      "citation_offset": {
+        "offset": 374,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "Multiple stationary lights appearing synchronized",
+      "source_quote": "multiple stationary lights appearing to be synchronized",
+      "citation_offset": {
+        "offset": 430,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "No evasive action taken",
+      "citation_offset": {
+        "offset": 487,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NORAD check",
+      "value": "Negative results",
+      "source_quote": "HQ DEN requested NORAD to check their systems, negative results",
+      "citation_offset": {
+        "offset": 512,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AWO notification",
+      "value": "AWO was advised",
+      "source_quote": "AWO advised",
+      "citation_offset": {
+        "offset": 577,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SFO",
+    "LAX",
+    "DEN",
+    "ZLA"
+  ],
+  "dated_events": [
+    "2023-07-21"
+  ],
+  "objects_described": [
+    "Boeing 737-800 (B738)",
+    "Multiple stationary synchronized lights (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL2054 reported a UAP sighting while flying southbound at 14,200 feet, 20 nautical miles southwest of LAX.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while S bound at 14,200 feet, 20NM SW of LAX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of multiple stationary lights that appeared synchronized.",
+      "source_quote": "multiple stationary lights appearing to be synchronized",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 430,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft.",
+      "source_quote": "No evasive action taken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 487,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD was asked to check their systems and returned negative results.",
+      "source_quote": "HQ DEN requested NORAD to check their systems, negative results",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 512,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from San Francisco (SFO) and was destined for Los Angeles (LAX).",
+      "source_quote": "Origin: SFO Destination: LAX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:56:23.922Z",
+  "qa_completed_at": "2026-06-02T00:56:57.795Z",
+  "timing": {
+    "A": "20.3s",
+    "B": "13.6s",
+    "E": "18.4s"
+  },
+  "public_headline": "Delta Pilots Reported Synchronized Lights Near LAX in 2023",
+  "public_tldr": "This FAA incident report documents a sighting by a Delta Air Lines crew of multiple stationary, synchronized lights while descending toward Los Angeles on 21 July 2023. NORAD found nothing on its systems, no evasive action was taken, and the case was closed without identifying what the lights were.",
+  "public_narrative": "On 21 July 2023 at 04:52, the crew of Delta Air Lines flight DAL2054 — a Boeing 737-800 flying from San Francisco (SFO) to Los Angeles (LAX) — reported seeing something unusual while descending southbound at 14,200 feet, roughly 20 nautical miles southwest of LAX. The sighting was logged through the FAA's SKYWATCH system and reported via the Los Angeles Air Route Traffic Control Centre (ZLA).\n\nThe crew described multiple stationary lights that appeared to be synchronized. The aircraft did not take any evasive action, suggesting the lights were not perceived as an immediate collision threat.\n\nFAA headquarters in Denver asked NORAD (the North American Aerospace Defense Command) to check their tracking systems for any corresponding object. NORAD returned negative results — meaning whatever the crew saw did not show up on military radar or sensors.\n\nThe FAA classified the event under the primary code \"Unidentified Aerial Phenomenon\" and the case status is now closed. The report does not offer any explanation or identification for the lights. No tail number for the aircraft was recorded in the document.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data, photographs, or additional witness accounts are mentioned in the document.",
+    "NORAD's negative result means military systems did not detect a corresponding object — this neither confirms nor rules out a physical object being present.",
+    "The case is closed with no resolution. 'Closed' does not mean 'explained'; it means the FAA stopped investigating.",
+    "Redaction levels appear low in this document, but no tail number was recorded, which limits independent verification of the specific aircraft.",
+    "A pilot sighting alone, without sensor data, carries limited evidentiary weight regardless of the observer's professional credibility."
+  ]
+}

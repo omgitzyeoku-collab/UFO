@@ -1,0 +1,263 @@
+{
+  "sha256": "f9e5c84b9bc726e385278674efdec3a09507744c5138e60a43f5504a5a25f61c",
+  "title": "FAA UAP record 237UAP00280",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On July 23, 2023, the crew of American Airlines flight 821 (an Airbus A321 flying from San Diego to Charlotte) reported seeing an unidentified aerial phenomenon off the left side of the aircraft while eastbound at 33,000 feet, approximately 4 nautical miles east of the FUZ navigational fix. The phenomenon was described as 7 lights traveling westbound at approximately the same altitude.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness statements included in this document.",
+    "The case is marked as closed with no resolution or explanation provided in the report.",
+    "No tail number is recorded, which limits independent verification of the specific aircraft.",
+    "The description of '7 lights' is brief and lacks detail on size, color, formation, or duration of observation."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "AAL821",
+      "source_quote": "Callsign: AAL821",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "A321",
+      "source_quote": "Aircraft: A321",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "SAN (San Diego)",
+      "source_quote": "Origin: SAN",
+      "citation_offset": {
+        "offset": 211,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "CLT (Charlotte)",
+      "source_quote": "Destination: CLT",
+      "citation_offset": {
+        "offset": 223,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL 330 (33,000 feet)",
+      "source_quote": "E bound at FL 330",
+      "citation_offset": {
+        "offset": 411,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "4 NM east of FUZ navigational fix",
+      "source_quote": "4 NM E of FUZ",
+      "citation_offset": {
+        "offset": 430,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "description_of_phenomenon",
+      "value": "7 lights traveling westbound at approximately FL 330",
+      "source_quote": "The unknown phenomenon was 7 lights traveling W bound at approximately FL 330",
+      "citation_offset": {
+        "offset": 445,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZFW (Fort Worth Center)",
+      "source_quote": "Reporting Facility: ZFW",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 257,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZFW-M-2023/07/23-0001",
+      "source_quote": "MOR ID: ZFW-M-2023/07/23-0001",
+      "citation_offset": {
+        "offset": 297,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SAN",
+    "CLT",
+    "DEN",
+    "FUZ",
+    "ZFW"
+  ],
+  "dated_events": [
+    "2023-07-23"
+  ],
+  "objects_described": [
+    "A321 commercial aircraft",
+    "7 unidentified lights traveling westbound at FL 330"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 821 was operating an A321 from San Diego to Charlotte on July 23, 2023",
+      "source_quote": "Callsign: AAL821 ... Aircraft: A321 ... Origin: SAN Destination: CLT",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed an unidentified aerial phenomenon off the left side of the aircraft while eastbound at 33,000 feet",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while E bound at FL 330",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 335,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of 7 lights traveling westbound at approximately the same altitude as the aircraft",
+      "source_quote": "The unknown phenomenon was 7 lights traveling W bound at approximately FL 330",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 445,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 4 nautical miles east of the FUZ navigational fix",
+      "source_quote": "4 NM E of FUZ",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 430,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported to Fort Worth Center (ZFW) and the case status is closed",
+      "source_quote": "Reporting Facility: ZFW ... Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:59:03.124Z",
+  "qa_completed_at": "2026-06-02T00:59:40.081Z",
+  "timing": {
+    "A": "20.8s",
+    "B": "16.1s",
+    "E": "22.3s"
+  },
+  "public_headline": "American Airlines Crew Reported Seven Lights at 33,000 Feet in 2023",
+  "public_tldr": "This FAA SKYWATCH incident report documents a sighting by the crew of American Airlines flight 821 on July 23, 2023. While flying an Airbus A321 from San Diego to Charlotte at 33,000 feet, the crew reported seven unidentified lights traveling in the opposite direction at roughly the same altitude. The case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena (UAP) in US airspace. It was filed under case number 237UAP00280, with a Mandatory Occurrence Report ID of ZFW-M-2023/07/23-0001.\n\nOn July 23, 2023, the crew of American Airlines flight 821 — an Airbus A321 operating a commercial service from San Diego (SAN) to Charlotte (CLT) — reported an unidentified aerial phenomenon off the left side of their aircraft. The plane was eastbound at flight level 330 (33,000 feet), approximately four nautical miles east of the FUZ navigational fix. The crew described the phenomenon as seven lights traveling westbound at roughly the same altitude.\n\nThe sighting was reported to Fort Worth Center (ZFW), the FAA air traffic control facility responsible for that sector of airspace. The report is classified under the primary code \"Unidentified Aerial Phenomenon.\"\n\nThe case status is listed as closed. The document contains no resolution, no follow-up investigation notes, and no explanation for what the crew observed. There is no radar data, no corroborating witness statements from other aircraft, and no tail number recorded for the reporting aircraft.",
+  "public_caveats": [
+    "This is a single-source pilot report. No radar data, photographs, or independent witness accounts are included in the document.",
+    "The description of the phenomenon — \"7 lights\" — is brief. No detail on size, colour, formation pattern, or how long the crew observed them.",
+    "The case is marked closed with no resolution or explanation, which is common for these reports but means the FAA did not publicly identify what was seen.",
+    "No aircraft tail number was recorded, which limits the ability to independently verify the specific flight.",
+    "The document shows low evidence of redaction, meaning what you see here is close to the complete record — but that record is itself sparse."
+  ]
+}

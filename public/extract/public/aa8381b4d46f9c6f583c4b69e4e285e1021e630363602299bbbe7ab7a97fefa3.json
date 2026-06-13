@@ -1,0 +1,228 @@
+{
+  "sha256": "aa8381b4d46f9c6f583c4b69e4e285e1021e630363602299bbbe7ab7a97fefa3",
+  "title": "FAA UAP record 237UAP00035",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a UFO sighting reported by law enforcement over a hospital in Indiana.",
+  "core_summary": "On 3 November 2018, Indiana State Police and the Whitley County Sheriff's Office contacted FAA Fort Wayne ATCT about an object hovering over Columbia City Hospital. Witnesses reported red and green strobe lights on a circular object. FAA headquarters monitored all activity within 40 miles with negative results, and the object was no longer visible as of 08:45.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based on law enforcement relay of witness observations — no FAA personnel directly observed the object.",
+    "FAA radar monitoring found no corroborating returns within 40 miles.",
+    "The document is an administrative incident log, not an investigation or analysis.",
+    "Witness descriptions of lights and shape are subjective and unverified by instrumentation."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2018-11-03",
+      "source_quote": "Date: 12:45 11/03/2018",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "FWA (Fort Wayne ATCT)",
+      "source_quote": "Reporting Facility: FWA",
+      "citation_offset": {
+        "offset": 92,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "reporting_agencies",
+      "value": "Indiana State PD and Whitley County Sheriff's Office",
+      "source_quote": "FWAATCT contacted by Indiana State PD and Whitley County Sheriff's Office",
+      "citation_offset": {
+        "offset": 134,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Columbia City Hospital",
+      "source_quote": "sighting of an object hovering over the Columbia City Hospital",
+      "citation_offset": {
+        "offset": 223,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Circular object with red and green strobe lights",
+      "source_quote": "red and green strobe lights on a circular object",
+      "citation_offset": {
+        "offset": 320,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "resolution",
+      "value": "Object no longer visible as of 08:45; no further action",
+      "source_quote": "the object can no longer be seen as of 0845. NFA",
+      "citation_offset": {
+        "offset": 635,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "paged",
+      "value": "NO",
+      "source_quote": "Paged: NO",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "action_taken",
+      "value": "UFO Hotline number provided; MOR filing suggested",
+      "source_quote": "HQ DEN provided the UFO Hotline number. E-ROC suggested the facility file an MOR",
+      "citation_offset": {
+        "offset": 370,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Columbia City Hospital",
+    "Indiana",
+    "Whitley County",
+    "Fort Wayne (FWA)"
+  ],
+  "dated_events": [
+    "2018-11-03"
+  ],
+  "objects_described": [
+    "Circular object with red and green strobe lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "FAA headquarters monitored all radar activity within 40 miles of the sighting and found nothing.",
+      "source_quote": "HQ DEN monitored all activity within 40 miles of the reported sighting location with negative results",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 452,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was reported hovering over Columbia City Hospital.",
+      "source_quote": "sighting of an object hovering over the Columbia City Hospital",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 223,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was no longer visible as of 08:45.",
+      "source_quote": "Whitley County Sheriff's Department advised the object can no longer be seen as of 0845",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 591,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FAA provided a UFO Hotline number to the reporting facility.",
+      "source_quote": "HQ DEN provided the UFO Hotline number",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 370,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "An E-ROC representative suggested the facility file a Mandatory Occurrence Report.",
+      "source_quote": "E-ROC suggested the facility file an MOR",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 410,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:02:25.198Z",
+  "qa_completed_at": "2026-06-01T21:03:03.081Z",
+  "timing": {
+    "A": "19.3s",
+    "B": "18.6s",
+    "E": "17.9s"
+  },
+  "public_headline": "FAA logged a UFO hovering over an Indiana hospital in 2018",
+  "public_tldr": "This FAA incident report documents a November 2018 sighting of a circular object with red and green strobe lights hovering over Columbia City Hospital in Indiana. Law enforcement reported it to the FAA, but radar monitoring within 40 miles found nothing, and the object disappeared by morning.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — an administrative log used to record unusual sightings reported to air traffic control. It was filed under record number 237UAP00035 and is now closed.\n\nOn 3 November 2018, Indiana State Police and the Whitley County Sheriff's Office contacted the FAA's Fort Wayne air traffic control tower about an object hovering over Columbia City Hospital in Indiana. Witnesses described a circular object displaying red and green strobe lights.\n\nThe FAA's response was procedural. Headquarters monitored all radar activity within 40 miles of the reported location and found no corroborating returns. A UFO Hotline number was provided to the reporting facility, and an E-ROC (Eastern Regional Operations Centre) representative suggested the facility file a Mandatory Occurrence Report. The Whitley County Sheriff's Office later advised that the object was no longer visible as of 08:45, and no further action was taken.\n\nThe document is a log entry, not an investigation. The FAA did not send personnel to observe the object, did not identify it, and did not offer any explanation. The case was closed with no resolution beyond the object's disappearance.",
+  "public_caveats": [
+    "No FAA personnel directly observed the object — the report is based entirely on what law enforcement relayed from witnesses.",
+    "FAA radar monitoring within 40 miles found no corroborating returns, meaning nothing showed up on radar to confirm the sighting.",
+    "Witness descriptions of lights and shape are subjective and were not verified by any instruments or recordings.",
+    "This is an administrative incident log, not an investigation or analysis — the FAA drew no conclusions about what the object was.",
+    "Redaction levels in this document are low, but the record contains limited detail to begin with."
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "sha256": "07b120ae87c34d08be30d338526039fc4a065a5f66889642aa085db67ae5897f",
+  "title": "FAA UAP record 237UAP00347",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot observation of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On January 27, 2024, the crew of EVA Air flight EVA008, a Boeing 777 flying eastbound at FL370 (37,000 feet) approximately 450 nautical miles west of San Francisco, reported observing an unidentified aerial phenomenon at their 12 o'clock position. The phenomenon appeared to be dogfighting at approximately FL500 (50,000 feet). The UAP was not detected on ATC radar.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no radar corroboration — the report explicitly states the UAP was not observed on ATC radar.",
+    "The term 'dogfighting' is the pilot's subjective characterization of the observed movement; no details on what specific maneuvers were seen.",
+    "FL500 (50,000 feet) is above the service ceiling of most conventional aircraft, but the altitude estimate is approximate and based on visual observation from 13,000 feet below.",
+    "Case is marked Closed with no indication of any follow-up investigation or resolution.",
+    "The document title references record 237UAP00347 with a 2023 incident date, but the report itself is dated January 27, 2024."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2024-01-27 at 13:02 UTC",
+      "source_quote": "Date: 13:02 01/27/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft callsign",
+      "value": "EVA008",
+      "source_quote": "Callsign: EVA008",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 777",
+      "source_quote": "Aircraft: B777",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "EVA Air (Commercial)",
+      "source_quote": "Operator: EVA",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "RCTP (Taipei) to SFO (San Francisco)",
+      "source_quote": "Origin: RCTP Destination: SFO",
+      "citation_offset": {
+        "offset": 200,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "FL370 (37,000 feet)",
+      "source_quote": "E bound at FL370",
+      "citation_offset": {
+        "offset": 369,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "450 nautical miles west of SFO",
+      "source_quote": "450 NM W of SFO",
+      "citation_offset": {
+        "offset": 387,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observed altitude",
+      "value": "Approximately FL500 (50,000 feet)",
+      "source_quote": "appeared to be dogfighting at approximately FL500",
+      "citation_offset": {
+        "offset": 427,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP behavior",
+      "value": "Appeared to be dogfighting",
+      "source_quote": "The unknown phenomenon appeared to be dogfighting at approximately FL500",
+      "citation_offset": {
+        "offset": 404,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 478,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SFO",
+    "RCTP",
+    "DEN"
+  ],
+  "dated_events": [
+    "2024-01-27"
+  ],
+  "objects_described": [
+    "B777 commercial aircraft",
+    "Unidentified aerial phenomenon at approximately FL500"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "EVA Air flight EVA008 (B777) was flying eastbound at FL370, 450 NM west of SFO on January 27, 2024.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the 12 o'clock while E bound at FL370, 450 NM W of SFO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 110,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP appeared to be at approximately FL500, well above the aircraft's altitude.",
+      "source_quote": "The unknown phenomenon appeared to be dogfighting at approximately FL500",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 404,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared to involve dogfighting-type maneuvers.",
+      "source_quote": "The unknown phenomenon appeared to be dogfighting",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 404,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by ATC radar systems.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 478,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Taipei (RCTP) and was destined for San Francisco (SFO).",
+      "source_quote": "Origin: RCTP Destination: SFO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 200,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:02:32.399Z",
+  "qa_completed_at": "2026-06-02T02:03:14.773Z",
+  "timing": {
+    "A": "19.8s",
+    "B": "22.5s",
+    "E": "16.5s"
+  },
+  "public_headline": "EVA Air crew reported dogfighting objects at 50,000 feet over Pacific",
+  "public_tldr": "An FAA SKYWATCH incident report documents that the crew of EVA Air flight EVA008, a Boeing 777 en route from Taipei to San Francisco, observed an unidentified aerial phenomenon appearing to dogfight at approximately 50,000 feet while 450 nautical miles west of San Francisco on 27 January 2024. The phenomenon was not detected on air traffic control radar, and the case was closed with no indicated follow-up.",
+  "public_narrative": "This is an FAA SKYWATCH incident report filed under record number 237UAP00347. It documents a pilot observation made by the crew of EVA Air flight EVA008, a commercial Boeing 777 flying eastbound from Taipei (RCTP) to San Francisco (SFO) at 37,000 feet.\n\nOn 27 January 2024 at 13:02 UTC, approximately 450 nautical miles west of San Francisco, the crew reported an unidentified aerial phenomenon directly ahead of their aircraft at the 12 o'clock position. The crew described the phenomenon as appearing to be \"dogfighting\" at approximately FL500 — around 50,000 feet, some 13,000 feet above their own altitude.\n\nAir traffic control checked their radar systems and did not detect anything corresponding to the reported phenomenon. The case was marked as closed with no indication of any follow-up investigation or resolution in the document.\n\nThe report is brief and contains no photographs, sensor data, or corroborating observations from other aircraft or ground stations. It is a single-source pilot observation documented through the FAA's standard UAP reporting channel.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no radar corroboration — ATC explicitly confirmed nothing appeared on their radar.",
+    "The term 'dogfighting' is the crew's subjective description of the movement they observed; the report does not detail what specific manoeuvres were seen or how many objects were involved.",
+    "The estimated altitude of 50,000 feet is a visual approximation made from 13,000 feet below — not an instrument reading.",
+    "The case is marked closed with no stated resolution, explanation, or follow-up investigation.",
+    "The document shows low redaction — meaning most of the content is visible — but it also contains very little detail to begin with."
+  ]
+}

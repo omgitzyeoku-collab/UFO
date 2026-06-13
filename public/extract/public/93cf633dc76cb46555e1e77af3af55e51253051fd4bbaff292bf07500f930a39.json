@@ -1,0 +1,258 @@
+{
+  "sha256": "93cf633dc76cb46555e1e77af3af55e51253051fd4bbaff292bf07500f930a39",
+  "title": "FAA UAP record 237UAP00271",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by two commercial aircraft over the Atlantic/Caribbean region.",
+  "core_summary": "On June 27, 2023, Spirit Airlines flight NKS1900 (Airbus A319) reported an unidentified aerial phenomenon while flying northwest at 38,000 feet over coordinates 24.05N, 74.57W. A second Spirit Airlines flight, NKS1246, independently reported the same phenomenon while at 34,000 feet over 21.42N, 70.51W. Both crews described the phenomenon as lights high above them, possibly satellites.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The crews themselves suggested the lights may have been satellites, indicating low confidence this was anomalous.",
+    "No radar data, sensor data, or independent ground-based confirmation is referenced in the report.",
+    "The case is marked Closed with no follow-up analysis documented.",
+    "Single-page summary report only; no supplementary investigation materials are included."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2023-06-27 04:11 UTC",
+      "source_quote": "Date: 04:11 06/27/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_callsign",
+      "value": "NKS1900",
+      "source_quote": "Callsign: NKS1900",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 258,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_altitude",
+      "value": "FL380 (38,000 feet)",
+      "source_quote": "NW bound at FL380",
+      "citation_offset": {
+        "offset": 394,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_coordinates",
+      "value": "24.05N, 74.57W",
+      "source_quote": "over 24.05N, 74.57W",
+      "citation_offset": {
+        "offset": 413,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_callsign",
+      "value": "NKS1246",
+      "source_quote": "NKS1246 also reported the same",
+      "citation_offset": {
+        "offset": 434,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_altitude",
+      "value": "FL340 (34,000 feet)",
+      "source_quote": "NW bound at FL340",
+      "citation_offset": {
+        "offset": 471,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_coordinates",
+      "value": "21.42N, 70.51W",
+      "source_quote": "over 21.42N, 70.51W",
+      "citation_offset": {
+        "offset": 489,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Lights high above, possibly satellites",
+      "source_quote": "Both aircraft reported the unknown phenomenon as lights high above, possibly satellites",
+      "citation_offset": {
+        "offset": 510,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR_ID",
+      "value": "ZMA-M-2023/06/27-0001",
+      "source_quote": "MOR ID: ZMA-M-2023/06/27-0001",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "BQN",
+    "MCO",
+    "DEN",
+    "ZMA"
+  ],
+  "dated_events": [
+    "2023-06-27"
+  ],
+  "objects_described": [
+    "unidentified aerial phenomenon described as lights high above, possibly satellites"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Spirit Airlines flight NKS1900 reported a UAP while at FL380 over 24.05N, 74.57W on June 27, 2023",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while NW bound at FL380, over 24.05N, 74.57W",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 336,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second Spirit Airlines flight NKS1246 independently observed the same phenomenon at FL340 over 21.42N, 70.51W",
+      "source_quote": "NKS1246 also reported the same while NW bound at FL340 over 21.42N, 70.51W",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 434,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Both crews characterised the phenomenon as lights high above them, possibly satellites",
+      "source_quote": "Both aircraft reported the unknown phenomenon as lights high above, possibly satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 510,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement information was provided on the Mandatory Occurrence Report",
+      "source_quote": "No LEO information provided on MOR",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 599,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Aguadilla, Puerto Rico (BQN) bound for Orlando (MCO)",
+      "source_quote": "Origin: BQN Destination: MCO",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:50:48.142Z",
+  "qa_completed_at": "2026-06-02T00:51:33.484Z",
+  "timing": {
+    "A": "24.0s",
+    "B": "21.3s",
+    "E": "16.7s"
+  },
+  "public_headline": "Two Spirit Airlines Crews Reported Unexplained Lights Over the Atlantic in 2023",
+  "public_tldr": "This FAA SKYWATCH incident report documents two separate Spirit Airlines flights reporting an unidentified aerial phenomenon on 27 June 2023 over the Atlantic/Caribbean region. Both crews described lights high above them, possibly satellites, and the case was closed with no further investigation documented.",
+  "public_narrative": "This is a one-page FAA SKYWATCH incident report filed under case number 237UAP00271. It records an unidentified aerial phenomenon observed on 27 June 2023 at 04:11 UTC. The report was generated within the Miami Air Route Traffic Control Center (ZMA) under Mandatory Occurrence Report ID ZMA-M-2023/06/27-0001.\n\nSpirit Airlines flight NKS1900, an Airbus A319 flying from Aguadilla, Puerto Rico (BQN) to Orlando (MCO), reported the phenomenon while heading northwest at 38,000 feet over coordinates 24.05N, 74.57W — roughly over the Bahamas. A second Spirit Airlines flight, NKS1246, independently reported the same phenomenon while at 34,000 feet over 21.42N, 70.51W, a position further southeast near the Turks and Caicos Islands.\n\nBoth crews described what they saw as lights high above them, and both suggested the lights may have been satellites. The report notes that no law enforcement information was provided on the Mandatory Occurrence Report.\n\nThe case is marked as Closed. No follow-up analysis, radar data, sensor data, or supplementary investigation materials are included in this document.",
+  "public_caveats": [
+    "The crews themselves suggested the lights could have been satellites, indicating they did not consider the sighting strongly anomalous.",
+    "No radar data, sensor data, or independent ground-based confirmation is referenced anywhere in the report.",
+    "This is a single-page summary report only — no supplementary investigation or analysis materials are included.",
+    "The case was closed with no documented follow-up, meaning no formal determination was made about what the lights were.",
+    "Both sightings are pilot-reported visual observations only, with no corroborating instrument data."
+  ]
+}

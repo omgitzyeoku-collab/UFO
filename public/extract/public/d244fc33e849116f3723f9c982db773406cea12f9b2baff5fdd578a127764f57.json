@@ -1,0 +1,224 @@
+{
+  "sha256": "d244fc33e849116f3723f9c982db773406cea12f9b2baff5fdd578a127764f57",
+  "title": "FAA UAP record 237UAP00085",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by two commercial aircraft crews.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The conclusion of 'probably space debris' is qualified with 'probably' — it is not a definitive identification.",
+    "The conclusion was based on pilots' verbal descriptions relayed through intermediaries, not direct sensor data or physical evidence.",
+    "No pilot names are provided, limiting independent corroboration.",
+    "The initials 'JH notified' reference an unnamed individual whose role is not stated.",
+    "Single-page report with minimal detail; the full pilot descriptions that informed the space-debris conclusion are not included."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2022-03-29",
+      "source_quote": "Date: 12:45 03/29/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_callsign",
+      "value": "SKW3944",
+      "source_quote": "Callsign: SKW3944",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_callsign",
+      "value": "QXE2452",
+      "source_quote": "Aircraft QXE2452 at FL240",
+      "citation_offset": {
+        "offset": 291,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_altitude",
+      "value": "FL300 (30,000 ft)",
+      "source_quote": "SKW3944 at FL300",
+      "citation_offset": {
+        "offset": 321,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_aircraft_altitude",
+      "value": "FL240 (24,000 ft)",
+      "source_quote": "QXE2452 at FL240",
+      "citation_offset": {
+        "offset": 300,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Near Eugene, Oregon (44.22°N / 123.16°W)",
+      "source_quote": "approximately Eugene, OR (44.22n / 123.16w)",
+      "citation_offset": {
+        "offset": 428,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_travel",
+      "value": "Northbound",
+      "source_quote": "both reported an unidentified aerial phenomenon off their left side while north bound",
+      "citation_offset": {
+        "offset": 338,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_side",
+      "value": "Left side of both aircraft",
+      "source_quote": "off their left side while north bound",
+      "citation_offset": {
+        "offset": 386,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "entities_consulted",
+      "value": "NORAD FAA ATSCS, METOC, MSD, CSPOC",
+      "source_quote": "contacted the NORAD FAA ATSCS who conferred with METOC, MSD and the CSPOC",
+      "citation_offset": {
+        "offset": 480,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "preliminary_conclusion",
+      "value": "Probably space debris",
+      "source_quote": "concluded that the unknown phenomenon given the pilots description was probably space debris",
+      "citation_offset": {
+        "offset": 555,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Eugene, OR",
+    "DEN",
+    "MFR",
+    "SEA"
+  ],
+  "dated_events": [
+    "2022-03-29"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "Two separate commercial aircraft crews independently observed the same unidentified aerial phenomenon at different altitudes (FL240 and FL300).",
+      "source_quote": "Aircraft QXE2452 at FL240 and SKW3944 at FL300 both reported an unidentified aerial phenomenon off their left side",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 291,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD's FAA Air Traffic Security Coordination Staff was contacted and consulted with meteorological (METOC), missile defense (MSD), and Combined Space Operations Center (CSPOC) personnel.",
+      "source_quote": "HQ DEN contacted the NORAD FAA ATSCS who conferred with METOC, MSD and the CSPOC",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 473,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The multi-agency consultation concluded the phenomenon was probably space debris based on the pilots' description.",
+      "source_quote": "concluded that the unknown phenomenon given the pilots description was probably space debris",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 555,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred near Eugene, Oregon at coordinates 44.22°N / 123.16°W.",
+      "source_quote": "approximately Eugene, OR (44.22n / 123.16w)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 428,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:50:55.486Z",
+  "qa_completed_at": "2026-06-01T21:51:45.150Z",
+  "timing": {
+    "A": "24.3s",
+    "B": "25.4s",
+    "E": "15.3s"
+  },
+  "public_headline": "Two Airline Crews Reported Unidentified Object Near Eugene, Oregon",
+  "public_tldr": "This FAA SKYWATCH report documents a March 2022 incident in which two commercial aircraft crews, flying at different altitudes near Eugene, Oregon, independently reported seeing the same unidentified aerial phenomenon. After consulting NORAD and military agencies, officials concluded it was \"probably space debris\" — a qualified assessment, not a definitive identification.",
+  "public_narrative": "On 29 March 2022, two commercial flights — SkyWest flight SKW3944 at 30,000 feet and Horizon Air flight QXE2452 at 24,000 feet — were heading northbound near Eugene, Oregon (coordinates 44.22°N / 123.16°W). Both crews independently reported an unidentified aerial phenomenon off the left side of their aircraft.\n\nThe FAA's headquarters in Denver contacted NORAD's FAA Air Traffic Security Coordination Staff (ATSCS), who in turn consulted with meteorological specialists (METOC), missile defence staff (MSD), and the Combined Space Operations Center (CSPOC). Based on the pilots' verbal descriptions, these agencies concluded the object was \"probably space debris.\"\n\nThe case is now closed. The report is a single page with minimal detail — the full pilot descriptions that informed the space-debris conclusion are not included in the document. No sensor data, photographs, or physical evidence are referenced.\n\nNotably, the word \"probably\" qualifies the conclusion. The assessment was based on pilot descriptions relayed through intermediaries, not on direct instrumental evidence. No pilot names appear in the report, and an individual identified only by the initials \"JH\" is noted as having been notified, with no further explanation of their role.",
+  "public_caveats": [
+    "The \"probably space debris\" conclusion is not definitive — it is a qualified assessment based on verbal pilot descriptions, not sensor data or physical evidence.",
+    "This is a single-page report with minimal detail; the full pilot accounts that informed the conclusion are not included.",
+    "No pilot names are provided, which limits the ability to independently corroborate the sighting.",
+    "The conclusion was reached through intermediaries relaying pilot descriptions to military and space agencies — not through direct observation by those agencies.",
+    "An individual identified only as \"JH\" was notified, but their role and significance are unexplained in the document."
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "sha256": "366c1e16639b3b8ecd2bf946dc10b305c72f40507d5d7758bb61e444cf296889",
+  "title": "FAA UAP record 237UAP00104",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or independent witness accounts included.",
+    "The term 'geosynchronous orbit' is used by the observer — this is a description, not a confirmed orbital determination.",
+    "The incident is marked as closed with no resolution or explanation provided in this document.",
+    "No tail number or operator name is listed, limiting independent verification of the flight.",
+    "AWO/TY notification is referenced but no follow-up or analysis is included."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2022-08-14 at 05:40",
+      "source_quote": "Date: 05:40 08/14/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N728HG",
+      "source_quote": "Callsign: N728HG",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL450 (45,000 feet)",
+      "source_quote": "SW bound at FL450",
+      "citation_offset": {
+        "offset": 416,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "195 nautical miles south of Wilmington (ILM)",
+      "source_quote": "195NM S of ILM",
+      "citation_offset": {
+        "offset": 435,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 254,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_direction",
+      "value": "Off the aircraft's left side",
+      "source_quote": "an unidentified aerial phenomenon off their left side",
+      "citation_offset": {
+        "offset": 356,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZJX-M-2022/08/14-0001",
+      "source_quote": "MOR ID: ZJX-M-2022/08/14-0001",
+      "citation_offset": {
+        "offset": 300,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "EGGW",
+    "FLL",
+    "ILM",
+    "DEN",
+    "ZJX"
+  ],
+  "dated_events": [
+    "08/14/2022",
+    "2022-08-14T05:40"
+  ],
+  "objects_described": [
+    "3 lights in a row in geosynchronous orbit"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Aircraft N728HG was flying southwest-bound at 45,000 feet when the crew observed the phenomenon",
+      "source_quote": "SW bound at FL450, 195NM S of ILM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 416,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of three lights in a row with additional lights above them described as being in a geosynchronous orbit",
+      "source_quote": "described as 3 lights in a row and above them in a geosynchronous orbit",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 478,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from London Luton (EGGW) and was destined for Fort Lauderdale (FLL)",
+      "source_quote": "Origin: EGGW Destination: FLL",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 207,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting was reported through Jacksonville Center (ZJX)",
+      "source_quote": "Reporting Facility: ZJX",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO/TY was advised of the incident",
+      "source_quote": "AWO/TY advised",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 551,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:10:21.514Z",
+  "qa_completed_at": "2026-06-01T22:11:03.305Z",
+  "timing": {
+    "A": "21.6s",
+    "B": "20.2s",
+    "E": "17.8s"
+  },
+  "public_headline": "FAA Report: Pilot Saw Three Lights at 45,000 Feet Over Atlantic",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a general aviation pilot's sighting of an unidentified aerial phenomenon while flying from London Luton to Fort Lauderdale on 14 August 2022. The crew reported three lights in a row, with additional lights above them, observed off the left side of the aircraft at 45,000 feet roughly 195 nautical miles south of Wilmington, North Carolina. The case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena from pilots and air traffic controllers. It was filed under the identifier 237UAP00104 and classified with the primary code \"Unidentified Aerial Phenomenon.\"\n\nOn 14 August 2022 at 05:40, the crew of aircraft N728HG reported seeing something unusual while flying southwest-bound at flight level 450 (45,000 feet). The aircraft was approximately 195 nautical miles south of Wilmington, North Carolina (airport code ILM), on a general aviation flight from London Luton Airport (EGGW) in England to Fort Lauderdale (FLL) in Florida.\n\nThe crew described seeing an unidentified aerial phenomenon off the left side of their aircraft. They reported it as three lights arranged in a row, with additional lights above them that they described as being in a \"geosynchronous orbit.\" The sighting was reported through Jacksonville Center (ZJX), the FAA air traffic control facility covering that region, and a reference office designated AWO/TY was advised.\n\nThe report's status is marked as closed. Notably, no resolution or explanation for the sighting is provided anywhere in the document. There is no indication that radar data, independent witness accounts, or any follow-up analysis was included or conducted. The FAA's processing office for this report was Denver (DEN).",
+  "public_caveats": [
+    "This is a single pilot report with no corroborating radar data or independent witnesses mentioned in the document.",
+    "The crew's use of the term 'geosynchronous orbit' is their own description of what they saw — it is not a confirmed scientific determination of the object's trajectory or altitude.",
+    "The case is marked closed with no resolution, meaning the FAA did not publicly explain what the lights were.",
+    "No tail number or operator name beyond the callsign N728HG is listed, which limits independent verification of the flight.",
+    "The document references that AWO/TY was advised, but no follow-up report or analysis from that office is included."
+  ]
+}

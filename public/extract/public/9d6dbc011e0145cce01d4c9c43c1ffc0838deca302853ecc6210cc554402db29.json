@@ -1,0 +1,224 @@
+{
+  "sha256": "9d6dbc011e0145cce01d4c9c43c1ffc0838deca302853ecc6210cc554402db29",
+  "title": "FAA UAP record 237UAP00466",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting by commercial aircraft crew near Burlington, Vermont.",
+  "core_summary": "On 12 February 2023, the crew of Cargolux Italia flight 93PK (a Boeing 747-8 flying from Chicago O'Hare to Luxembourg) reported a UAP while eastbound at flight level 350, approximately 43 nautical miles northwest of Burlington, Vermont. The pilot described a light estimated to be above 60,000 feet flying in an erratic pattern, with three lights forming a triangle pattern that merged into one light repeatedly. A second northbound aircraft independently reported the same observation.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Altitude estimate of above FL600 is the pilot's visual estimate and not instrument-verified",
+    "Distance to the UAP is described as 'unspecified' — no range data available",
+    "This is a preliminary operations centre report, not a formal investigation or analysis",
+    "The second corroborating aircraft is not identified by callsign or type",
+    "The 'late report' designation suggests this was not reported in real time"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "Cargolux Italia flight 93PK, Boeing 747-8 (B748), routing ORD to Luxembourg (ELLX)",
+      "source_quote": "CARGOLUX ITALIA 93PK, B748, ORD - LUXEMBOURG, LUXEMBOURG (ELLX)",
+      "citation_offset": {
+        "offset": 276,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "Flight level 350 (approximately 35,000 feet)",
+      "source_quote": "E BOUND AT FL350",
+      "citation_offset": {
+        "offset": 362,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "43 nautical miles northwest of Burlington, Vermont",
+      "source_quote": "43 NW BTV",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "coordinates",
+      "value": "Latitude 44.9106, Longitude -73.7729",
+      "source_quote": "Latitude: 44.910622889999999",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_estimated_altitude",
+      "value": "Above flight level 600 (approximately 60,000 feet)",
+      "source_quote": "A LIGHT ESTIMATED TO BE ABOVE FL600",
+      "citation_offset": {
+        "offset": 405,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_behaviour",
+      "value": "Erratic flight pattern; three lights formed a triangle, merged into one light, and repeated the process several times",
+      "source_quote": "FLYING IN AN ERRATIC PATTERN AT AN UNSPECIFIED DISTANCE AHEAD. 3 LIGHTS APPEARED TO CREATE A TRIANGLE AND COME TOGETHER AS ONE LIGHT, REPEATING THE PROCESS SEVERAL TIMES",
+      "citation_offset": {
+        "offset": 441,
+        "len": 169,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_observer",
+      "value": "A second northbound aircraft independently reported the same observation",
+      "source_quote": "A SECOND ACFT N BOUND REPORTED THE SAME OBSERVATION",
+      "citation_offset": {
+        "offset": 612,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_date_time",
+      "value": "12 February 2023, 03:25 EST",
+      "source_quote": "Date: 2/12/2023 3:25:00 AM (-05 EST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_type",
+      "value": "Late report (LATE REPOR-0325E)",
+      "source_quote": "LATE REPOR-0325E",
+      "citation_offset": {
+        "offset": 238,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "atc_facility",
+      "value": "Boston ARTCC",
+      "source_quote": "BOSTON ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 255,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Burlington, VT",
+    "Chicago O'Hare (ORD)",
+    "Luxembourg (ELLX)"
+  ],
+  "dated_events": [
+    "2/12/2023",
+    "02-12-2023"
+  ],
+  "objects_described": [
+    "UAP: light above FL600 with erratic movement, three lights forming triangle pattern merging into one",
+    "Boeing 747-8 (Cargolux Italia 93PK)",
+    "Unidentified second northbound aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Cargolux Italia operated flight 93PK on a Boeing 747-8 from Chicago O'Hare to Luxembourg on 12 February 2023",
+      "source_quote": "CARGOLUX ITALIA 93PK, B748, ORD - LUXEMBOURG, LUXEMBOURG (ELLX)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 276,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was estimated to be above 60,000 feet altitude, well above the aircraft's 35,000 feet",
+      "source_quote": "A LIGHT ESTIMATED TO BE ABOVE FL600 FLYING IN AN ERRATIC PATTERN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 405,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting was corroborated by a second aircraft crew travelling northbound",
+      "source_quote": "A SECOND ACFT N BOUND REPORTED THE SAME OBSERVATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 612,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP exhibited a repeating pattern of three lights forming a triangle then converging into a single light",
+      "source_quote": "3 LIGHTS APPEARED TO CREATE A TRIANGLE AND COME TOGETHER AS ONE LIGHT, REPEATING THE PROCESS SEVERAL TIMES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 504,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was filed as a late report through Boston ARTCC",
+      "source_quote": "LATE REPOR-0325E/BOSTON ARTCC ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 238,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T03:13:17.413Z",
+  "qa_completed_at": "2026-06-02T03:13:56.996Z",
+  "timing": {
+    "A": "22.0s",
+    "B": "17.5s",
+    "E": "20.5s"
+  },
+  "public_headline": "Cargo Plane Crew Reports Erratic Triangle Light Over Vermont",
+  "public_tldr": "This is an FAA incident report from February 2023 in which a Boeing 747 cargo crew and a second aircraft independently observed an unidentified light above 60,000 feet near Burlington, Vermont. The light displayed an unusual repeating pattern — three lights forming a triangle, merging into one, and repeating — but no formal investigation or conclusion is included in the document.",
+  "public_narrative": "On 12 February 2023, the crew of Cargolux Italia flight 93PK — a Boeing 747-8 flying from Chicago O'Hare to Luxembourg — reported an unidentified aerial phenomenon to air traffic control. The aircraft was cruising eastbound at 35,000 feet, roughly 43 nautical miles northwest of Burlington, Vermont.\n\nThe pilot described a light estimated to be above 60,000 feet — well above their own altitude and beyond the ceiling of most conventional aircraft. The light was flying in what the crew called an erratic pattern at an unspecified distance ahead. Most distinctively, three lights appeared to form a triangle shape, then converge into a single light, repeating this process several times.\n\nA second aircraft, travelling northbound, independently reported the same observation, providing a degree of corroboration. The report was processed through Boston ARTCC (Air Route Traffic Control Center) and the FAA's Washington Operations Center.\n\nThe document is classified as a \"late report,\" meaning it was not filed in real time during the sighting. It is a preliminary operations centre record, not a formal investigation or analysis. The FAA document does not offer any explanation or conclusion about what the crew observed.\n\nRedaction in this document appears minimal. The second corroborating aircraft is not identified by callsign or type, but the primary reporting aircraft and its route are fully detailed.",
+  "public_caveats": [
+    "The altitude estimate of above 60,000 feet is the pilot's visual judgement, not verified by instruments or radar — visual altitude estimation at night is unreliable.",
+    "No distance to the object was recorded, so the actual size and proximity of the lights are unknown.",
+    "This is a preliminary FAA operations centre report, not a formal investigation — no analysis or conclusion was reached.",
+    "The second aircraft that corroborated the sighting is not identified by callsign or type, limiting independent verification.",
+    "The 'late report' designation means this was not reported in real time, which may affect the precision of details recalled."
+  ]
+}

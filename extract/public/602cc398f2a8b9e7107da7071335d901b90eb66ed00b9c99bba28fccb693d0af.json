@@ -1,0 +1,215 @@
+{
+  "sha256": "602cc398f2a8b9e7107da7071335d901b90eb66ed00b9c99bba28fccb693d0af",
+  "title": "FAA UAP record 237UAP00126",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon described as a manned jetpack.",
+  "core_summary": "On 22 October 2022 at 18:30, the crew of Republic Airways flight RPA5764 (an E75S aircraft) reported an unidentified aerial phenomenon while eastbound at 10,000 feet, 29 nautical miles southwest of LaGuardia Airport. The phenomenon was described as a manned jetpack hovering at approximately 8,000 feet. The New Jersey Counter Terrorism Task Force and NYPD Aviation Unit were both notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The description 'manned jetpack' is the observer's characterisation, not a confirmed identification — the report is still classified under 'Unidentified Aerial Phenomenon'.",
+    "Single-source pilot report with no corroborating radar data or imagery included in this document.",
+    "This is part of a series of jetpack sightings reported near the New York metropolitan area from 2020 onward, which have never been publicly resolved."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2022-10-22 at 18:30",
+      "source_quote": "Date: 18:30 10/22/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "RPA5764",
+      "source_quote": "Callsign: RPA5764",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "E75S",
+      "source_quote": "Aircraft: E75S",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "10,000 feet",
+      "source_quote": "E bound at 10,00 feet",
+      "citation_offset": {
+        "offset": 356,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_location",
+      "value": "29 NM southwest of LGA",
+      "source_quote": "29 NM SW of LGA",
+      "citation_offset": {
+        "offset": 379,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Manned jetpack hovering at approximately 8,000 feet",
+      "source_quote": "The unknown phenomenon was manned jetpack hovering at approximately 8,000 feet",
+      "citation_offset": {
+        "offset": 396,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notified",
+      "value": "NJ Counter Terrorism Task Force and NYPD Aviation Unit",
+      "source_quote": "New Jersey Counter Terrorism Task Force notified at 866-472-3365. 2015 N90 reports incident occurred over NY. NYPD Aviation Unit notified at 718-692-1220",
+      "citation_offset": {
+        "offset": 476,
+        "len": 153,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_location_clarification",
+      "value": "Occurred over New York",
+      "source_quote": "N90 reports incident occurred over NY",
+      "citation_offset": {
+        "offset": 547,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "LGA",
+    "SDF",
+    "DEN",
+    "New Jersey",
+    "NY"
+  ],
+  "dated_events": [
+    "2022-10-22"
+  ],
+  "objects_described": [
+    "E75S aircraft",
+    "manned jetpack"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial aircraft crew reported a manned jetpack hovering at 8,000 feet near LaGuardia Airport airspace.",
+      "source_quote": "The unknown phenomenon was manned jetpack hovering at approximately 8,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 396,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The New Jersey Counter Terrorism Task Force was notified about the incident.",
+      "source_quote": "New Jersey Counter Terrorism Task Force notified at 866-472-3365",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 476,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The NYPD Aviation Unit was notified about the incident.",
+      "source_quote": "NYPD Aviation Unit notified at 718-692-1220",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 586,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident occurred over New York, not New Jersey.",
+      "source_quote": "N90 reports incident occurred over NY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 547,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:34:54.074Z",
+  "qa_completed_at": "2026-06-01T22:35:31.320Z",
+  "timing": {
+    "A": "19.3s",
+    "B": "17.9s",
+    "E": "18.5s"
+  },
+  "public_headline": "Airline Crew Reported Jetpack Sighting Near New York at 8,000 Feet",
+  "public_tldr": "This FAA incident report documents a Republic Airways crew spotting what they described as a manned jetpack hovering at roughly 8,000 feet, about 29 nautical miles southwest of LaGuardia Airport on 22 October 2022. Both the New Jersey Counter Terrorism Task Force and NYPD Aviation Unit were notified; the case is now closed with no public resolution.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under the category \"Unidentified Aerial Phenomenon.\" It records a sighting reported by the crew of Republic Airways flight RPA5764, operating an Embraer E75S aircraft, on 22 October 2022 at 18:30.\n\nThe crew was flying eastbound at 10,000 feet, approximately 29 nautical miles southwest of LaGuardia Airport (LGA), when they observed what they described as a manned jetpack hovering at roughly 8,000 feet. Air traffic control facility N90 clarified that the incident occurred over New York, not New Jersey.\n\nTwo law enforcement agencies were notified: the New Jersey Counter Terrorism Task Force and the NYPD Aviation Unit. The report's status is listed as closed, but the document contains no explanation of what the object was, no corroborating radar data, and no follow-up findings.\n\nThis sighting is part of a broader pattern of jetpack reports near the New York metropolitan area dating back to 2020, none of which have been publicly explained. The FAA's own classification — \"Unidentified Aerial Phenomenon\" — means the object was never formally identified, despite the crew's description.",
+  "public_caveats": [
+    "The description \"manned jetpack\" is the flight crew's characterisation, not a confirmed identification. The FAA still classified this as an unidentified aerial phenomenon.",
+    "This is a single-source pilot report. No corroborating radar data, photographs, or video are included in the document.",
+    "The case status is \"closed,\" but no conclusion or explanation is provided in the released record.",
+    "This report is one of several unexplained jetpack sightings near New York since 2020, none of which have been publicly resolved.",
+    "Redaction levels in this document are low, but the absence of supplementary evidence (radar tracks, follow-up investigation notes) limits what can be drawn from it."
+  ]
+}

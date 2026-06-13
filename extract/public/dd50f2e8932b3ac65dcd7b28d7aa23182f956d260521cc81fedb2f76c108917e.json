@@ -1,0 +1,181 @@
+{
+  "sha256": "dd50f2e8932b3ac65dcd7b28d7aa23182f956d260521cc81fedb2f76c108917e",
+  "title": "FAA UAP record 237UAP00163",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft.",
+  "core_summary": "On 3 February 2023, a commercial Airbus A321 operated by ROU (Rouge/Air Canada Rouge) flying under callsign ROU1721 reported observing an unidentified aerial phenomenon described as a balloon while westbound at flight level 320 (approximately 32,000 feet). The incident was reported through the ZKC (Kansas City Center) facility and is marked as closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This report dates to early February 2023, during the period of heightened balloon-related sightings across US airspace following the Chinese surveillance balloon incident.",
+    "The UAP is parenthetically identified as a balloon in the remarks, suggesting the observer or reporting facility characterised it as such, though no confirmation of origin or type is provided.",
+    "Single-source pilot observation with no corroborating radar or sensor data included in this report.",
+    "No tail number is recorded for the reporting aircraft."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-02-03 at 17:18 UTC",
+      "source_quote": "Date: 17:18 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "ROU1721",
+      "source_quote": "Callsign: ROU1721",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL320 (approximately 32,000 feet)",
+      "source_quote": "W bound at FL320",
+      "citation_offset": {
+        "offset": 360,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_travel",
+      "value": "Westbound",
+      "source_quote": "W bound at FL320",
+      "citation_offset": {
+        "offset": 360,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Balloon",
+      "source_quote": "unidentified aerial phenomenon (Balloon)",
+      "citation_offset": {
+        "offset": 313,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 248,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZKC",
+    "CYYZ",
+    "PHX"
+  ],
+  "dated_events": [
+    "2023-02-03T17:18"
+  ],
+  "objects_described": [
+    "Balloon (unidentified aerial phenomenon)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial A321 aircraft with callsign ROU1721 reported a UAP described as a balloon while flying westbound at FL320.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon (Balloon) while W bound at FL320.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Toronto Pearson (CYYZ) and was destined for Phoenix (PHX).",
+      "source_quote": "Origin: CYYZ Destination: PHX",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported through Kansas City Center (ZKC).",
+      "source_quote": "Reporting Facility: ZKC",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:10:50.013Z",
+  "qa_completed_at": "2026-06-01T23:11:26.169Z",
+  "timing": {
+    "A": "19.0s",
+    "B": "17.1s",
+    "E": "16.8s"
+  },
+  "public_headline": "Air Canada Rouge crew reported balloon-like object at 32,000 feet in 2023",
+  "public_tldr": "This is an FAA incident report from 3 February 2023 in which the crew of a commercial Airbus A321, flying as Air Canada Rouge flight ROU1721, reported seeing an unidentified aerial phenomenon described as a balloon while cruising westbound at 32,000 feet. The case was reported through Kansas City Center and is marked closed with no further explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed on 3 February 2023 at 17:18 UTC. It records a sighting by the crew of a commercial Airbus A321 operating under callsign ROU1721, flying from Toronto Pearson (CYYZ) to Phoenix (PHX).\n\nWhile travelling westbound at flight level 320 — roughly 32,000 feet — the crew reported observing an unidentified aerial phenomenon. The report parenthetically describes the object as a balloon, though no detail is given about its size, colour, behaviour, or origin.\n\nThe sighting was reported through the Kansas City Center (ZKC) air traffic control facility. The FAA classified the primary code as \"Unidentified Aerial Phenomenon\" and marked the case status as closed. No radar data, sensor corroboration, or follow-up investigation results are included in the document.\n\nThe timing is notable: this report falls in early February 2023, during a period of heightened balloon-related sightings across US airspace following the Chinese surveillance balloon incident. Whether this object was related to that event or was something else entirely is not addressed in the record.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar or sensor data included in the report.",
+    "The object is parenthetically labelled a balloon by the reporting crew or facility, but no confirmation of its origin, type, or size is provided.",
+    "The case is marked closed with no explanation of what, if any, follow-up was conducted.",
+    "No tail number is recorded for the reporting aircraft, limiting independent verification.",
+    "This report dates to the same week as widespread balloon-related sightings in US airspace, which may have influenced reporting thresholds or characterisation."
+  ]
+}

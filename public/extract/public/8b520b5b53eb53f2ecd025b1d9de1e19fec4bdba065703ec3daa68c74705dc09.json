@@ -1,0 +1,246 @@
+{
+  "sha256": "8b520b5b53eb53f2ecd025b1d9de1e19fec4bdba065703ec3daa68c74705dc09",
+  "title": "FAA UAP record 237UAP00346",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On January 27, 2024, the crew of a Republic Airways Embraer E175 (callsign RPA4809) flying westbound from JFK to Pittsburgh at flight level 200 reported seeing two lights — white then turning red — chasing each other and moving fast near the EWC area, approximately 40 nautical miles west of PSB. The phenomenon was above the aircraft and was not detected on ATC radar.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation with no corroborating radar data.",
+    "No tail number recorded for the reporting aircraft.",
+    "Case is marked closed with no resolution or explanation provided in this document.",
+    "Night-time sighting (03:20) — visual perception of lights can be unreliable in darkness.",
+    "No information on whether other aircraft or ground observers corroborated the sighting."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "date_time",
+      "value": "2024-01-27 at 03:20 UTC",
+      "source_quote": "Date: 03:20 01/27/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "RPA4809",
+      "source_quote": "Callsign: RPA4809",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 258,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "JFK",
+      "source_quote": "Origin: JFK",
+      "citation_offset": {
+        "offset": 212,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL200 (20,000 feet)",
+      "source_quote": "W bound at FL200",
+      "citation_offset": {
+        "offset": 413,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location_of_sighting",
+      "value": "40 NM west of PSB, near EWC",
+      "source_quote": "40 NM W of PSB",
+      "citation_offset": {
+        "offset": 431,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Two lights, white then turning red, chasing each other, fast moving, above the aircraft",
+      "source_quote": "2 lights, white then turning red, chasing each other moving in the vicinity of EWC above the aircraft, fast moving",
+      "citation_offset": {
+        "offset": 474,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 590,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZOB-M-2024/01/26-0003",
+      "source_quote": "MOR ID: ZOB-M-2024/01/26-0003",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "position_relative_to_aircraft",
+      "value": "Off the right side",
+      "source_quote": "an unidentified aerial phenomenon off the right side",
+      "citation_offset": {
+        "offset": 354,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "JFK",
+    "PIT",
+    "PSB",
+    "EWC",
+    "DEN"
+  ],
+  "dated_events": [
+    "2024-01-27",
+    "2024/01/26"
+  ],
+  "objects_described": [
+    "Two lights (white then red) — unidentified aerial phenomenon"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Republic Airways E175 crew reported a UAP while flying westbound at FL200 on January 27, 2024.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the right side while W bound at FL200",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 336,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of two lights that changed from white to red and were chasing each other at high speed above the aircraft.",
+      "source_quote": "2 lights, white then turning red, chasing each other moving in the vicinity of EWC above the aircraft, fast moving",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 474,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was not detected by ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 590,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 40 nautical miles west of PSB.",
+      "source_quote": "40 NM W of PSB",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 431,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported to Cleveland Center (ZOB) and a mandatory occurrence report was initiated.",
+      "source_quote": "MOR Init: YES",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 284,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:01:26.299Z",
+  "qa_completed_at": "2026-06-02T02:02:05.863Z",
+  "timing": {
+    "A": "22.2s",
+    "B": "17.4s",
+    "E": "26.5s"
+  },
+  "public_headline": "Commercial Airline Crew Reports Two Fast-Moving Lights Over Pennsylvania",
+  "public_tldr": "This FAA SKYWATCH incident report documents a January 2024 sighting by a Republic Airways crew flying from New York JFK to Pittsburgh. The pilots observed two lights — white turning red — chasing each other at speed above their aircraft at 20,000 feet; air traffic control radar detected nothing, and the case was closed without explanation.",
+  "public_narrative": "On 27 January 2024 at 03:20 UTC, the crew of a Republic Airways Embraer E175 (callsign RPA4809) reported an unidentified aerial phenomenon while flying westbound from JFK to Pittsburgh at flight level 200 (20,000 feet). The sighting occurred off the right side of the aircraft, roughly 40 nautical miles west of PSB, near a point designated EWC.\n\nThe crew described two lights that started white, turned red, and appeared to chase each other at high speed above the aircraft. The report was logged under FAA SKYWATCH — the agency's system for tracking UAP (unidentified aerial phenomena) reports from pilots and controllers.\n\nAir traffic control radar at the relevant facility did not detect the phenomenon. A mandatory occurrence report was initiated through Cleveland Center (facility code ZOB), assigned reference ZOB-M-2024/01/26-0003.\n\nThe case status is marked as closed. The document provides no resolution, no identification of the lights, and no record of corroborating observations from other aircraft or ground stations. No tail number was recorded for the reporting aircraft.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the aircrew's visual observation — no radar data, no other aircraft, and no ground observers corroborated the sighting.",
+    "The sighting occurred at 03:20 UTC (night-time), when visual perception of lights can be unreliable.",
+    "The case is marked closed with no explanation or identification provided in the document.",
+    "No tail number was recorded for the reporting aircraft, limiting independent verification.",
+    "Low redaction was found in this document, but the record is brief and contains minimal investigative detail beyond the initial pilot report."
+  ]
+}

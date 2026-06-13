@@ -1,0 +1,245 @@
+{
+  "sha256": "397ba4a1022c764744fc3fd57a683e03c07c80e26135f67d0fa6274335f72e77",
+  "title": "FAA UAP record 237UAP00365",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no radar corroboration.",
+    "No altitude or distance estimate provided for the UAP, making size and proximity indeterminate.",
+    "FL450 (45,000 feet) is unusually high for most general aviation aircraft, which may indicate a misrecording or a high-performance aircraft.",
+    "The lights described as 'choreographed' is a subjective characterisation by the pilot.",
+    "Case is marked closed with no resolution or identification noted."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2024-03-21T03:45",
+      "source_quote": "Date: 03:45 03/21/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N231TJ",
+      "source_quote": "Callsign: N231TJ",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "GA5C",
+      "source_quote": "Aircraft: GA5C",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZJX",
+      "source_quote": "Reporting Facility: ZJX",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_level",
+      "value": "FL450 (45,000 feet)",
+      "source_quote": "N bound at FL450",
+      "citation_offset": {
+        "offset": 370,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "SUA",
+      "source_quote": "Origin: SUA",
+      "citation_offset": {
+        "offset": 196,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "SVH",
+      "source_quote": "Destination: SVH",
+      "citation_offset": {
+        "offset": 208,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP_description",
+      "value": "Group of five converging lights, appeared choreographed",
+      "source_quote": "a group of five converging lights that appeared to be choreographed",
+      "citation_offset": {
+        "offset": 426,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 529,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP_altitude",
+      "value": "Not provided",
+      "source_quote": "Altitude of the UAP not provided",
+      "citation_offset": {
+        "offset": 495,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "paged",
+      "value": "YES",
+      "source_quote": "Paged: YES",
+      "citation_offset": {
+        "offset": 274,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "DBN",
+    "SUA",
+    "SVH"
+  ],
+  "dated_events": [
+    "2024-03-21"
+  ],
+  "objects_described": [
+    "GA5C general aviation aircraft",
+    "Group of five converging choreographed lights (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A general aviation aircraft at FL450 reported seeing five converging lights northeast of DBN on 21 March 2024.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the front side while N bound at FL450, NE of DBN. The unknown phenomenon was a group of five converging lights that appeared to be choreographed.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 293,
+        "len": 201,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 529,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot did not provide an altitude for the UAP.",
+      "source_quote": "Altitude of the UAP not provided",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 495,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:19:02.449Z",
+  "qa_completed_at": "2026-06-02T02:19:37.114Z",
+  "timing": {
+    "A": "18.0s",
+    "B": "16.6s",
+    "E": "16.7s"
+  },
+  "public_headline": "Pilot Reports Five Coordinated Lights at 45,000 Feet Over Florida",
+  "public_tldr": "An FAA incident report documents a general aviation pilot flying at 45,000 feet who observed a group of five converging lights that appeared choreographed, northeast of Dublin, Georgia on 21 March 2024. Air traffic control radar did not detect the phenomenon, and the case was closed without identification.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — the FAA's system for logging unidentified aerial phenomena reported by pilots. It was filed under case number 237UAP00365 and processed by the Jacksonville Air Route Traffic Control Center (ZJX).\n\nOn 21 March 2024 at 03:45, the pilot of a general aviation aircraft (callsign N231TJ, aircraft type GA5C) was flying northbound at flight level 450 — roughly 45,000 feet — on a route from SUA to SVH. The pilot reported seeing an unidentified aerial phenomenon ahead of the aircraft, northeast of DBN. The phenomenon was described as a group of five converging lights that appeared to be choreographed.\n\nThe FAA noted that the lights were not detected on the ATC facility radar system, and the pilot did not provide an altitude estimate for the phenomenon. Without radar corroboration or a distance estimate, the size, proximity, and nature of the lights remain unknown.\n\nThe case is marked as closed. No resolution or identification of the phenomenon is recorded in the document. There is no indication of follow-up investigation or additional witness reports.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no radar corroboration — the lights did not appear on ATC radar.",
+    "No altitude or distance estimate was provided for the lights, making their size and proximity impossible to determine.",
+    "The description of the lights as 'choreographed' is the pilot's subjective characterisation, not an objective measurement.",
+    "FL450 (45,000 feet) is unusually high for most general aviation aircraft, which may indicate a high-performance aircraft or a possible misrecording.",
+    "The case was closed with no identification or explanation recorded — 'closed' does not mean 'explained.'"
+  ]
+}

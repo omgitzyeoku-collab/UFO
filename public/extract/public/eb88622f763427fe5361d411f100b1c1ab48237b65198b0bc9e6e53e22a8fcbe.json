@@ -1,0 +1,214 @@
+{
+  "sha256": "eb88622f763427fe5361d411f100b1c1ab48237b65198b0bc9e6e53e22a8fcbe",
+  "title": "FAA UAP record 237UAP00256",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft crew.",
+  "core_summary": "On 19 April 2023 at 05:55, the crew of commercial flight BYA584 (an Embraer E120) reported seeing two glowing and pulsing orbs while flying northeast-bound at flight level 270, approximately 40 nautical miles north of Texarkana (TXK). The orbs quickly disappeared. No law enforcement notification was made.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts mentioned.",
+    "Case is marked closed with no resolution or explanation recorded in this document.",
+    "No tail number is listed for the aircraft, limiting independent verification."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-04-19 at 05:55",
+      "source_quote": "Date: 05:55 04/19/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "BYA584",
+      "source_quote": "Callsign: BYA584",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "BYA (commercial)",
+      "source_quote": "Operator: BYA",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin airport",
+      "value": "HYI",
+      "source_quote": "Origin: HYI",
+      "citation_offset": {
+        "offset": 200,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination airport",
+      "value": "LAF",
+      "source_quote": "Destination: LAF",
+      "citation_offset": {
+        "offset": 212,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL270 (27,000 feet)",
+      "source_quote": "NE bound at FL270",
+      "citation_offset": {
+        "offset": 349,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "2 glowing and pulsing orbs that quickly disappeared",
+      "source_quote": "2 glowing and pulsing orbs that quickly disappeared",
+      "citation_offset": {
+        "offset": 423,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "LEO notification",
+      "value": "None provided",
+      "source_quote": "No LEO notification provided",
+      "citation_offset": {
+        "offset": 476,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "TXK",
+    "HYI",
+    "LAF",
+    "DEN",
+    "ZME"
+  ],
+  "dated_events": [
+    "2023-04-19"
+  ],
+  "objects_described": [
+    "2 glowing and pulsing orbs"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial BYA flight was operating from HYI to LAF on 19 April 2023.",
+      "source_quote": "Origin: HYI Destination: LAF",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was at flight level 270 when the sighting occurred, 40 nautical miles north of Texarkana.",
+      "source_quote": "NE bound at FL270, 40 NM N of TXK",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 349,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed two glowing and pulsing orbs that quickly disappeared.",
+      "source_quote": "2 glowing and pulsing orbs that quickly disappeared",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 423,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement was notified about the incident.",
+      "source_quote": "No LEO notification provided",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 476,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:36:24.287Z",
+  "qa_completed_at": "2026-06-02T00:37:01.254Z",
+  "timing": {
+    "A": "21.0s",
+    "B": "15.9s",
+    "E": "27.2s"
+  },
+  "public_headline": "FAA Report: Airline Crew Saw Two Glowing Orbs Near Texarkana",
+  "public_tldr": "An FAA SKYWATCH incident report documents a sighting by the crew of commercial flight BYA584, who reported two glowing and pulsing orbs while flying at 27,000 feet about 40 nautical miles north of Texarkana on 19 April 2023. The case was closed with no explanation recorded.",
+  "public_narrative": "This document is an FAA (Federal Aviation Administration) SKYWATCH incident report filed under the primary code \"Unidentified Aerial Phenomenon.\" It records a sighting made by the crew of commercial flight BYA584, an Embraer E120 operated by BYA, on 19 April 2023 at 05:55.\n\nThe aircraft was flying northeast-bound at flight level 270 (27,000 feet), approximately 40 nautical miles north of Texarkana (airport code TXK), on a route from HYI to LAF. The crew reported observing two glowing and pulsing orbs that quickly disappeared. No further detail on the objects' size, speed, or behaviour is recorded in the document.\n\nNo law enforcement notification was made following the sighting. The FAA marked the case as closed, but the document contains no resolution, explanation, or follow-up analysis. There is no mention of corroborating radar data, additional witnesses, or any subsequent investigation.\n\nThe report does not list a tail number for the aircraft, which limits the ability to independently verify the flight. The document shows low evidence of redaction — what you see appears to be the full extent of what was recorded.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data or independent witness accounts are mentioned in the document.",
+    "The case is marked closed with no resolution or explanation — the FAA did not record what the objects were or weren't.",
+    "No aircraft tail number is listed, making independent verification of the flight more difficult.",
+    "The document shows low evidence of redaction, suggesting this is likely the complete record rather than a censored version of a longer file.",
+    "A pilot report alone, without supporting sensor data, carries limited evidentiary weight. It documents what the crew said they saw, not what was objectively present."
+  ]
+}

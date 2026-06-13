@@ -1,0 +1,225 @@
+{
+  "sha256": "bbe3be54f39f7166a35a4194718b61c3324813489092fc1bd396a1b6b9dc56d3",
+  "title": "FAA UAP record 237UAP00118",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot observation of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating sensor data mentioned.",
+    "The report refers to the UAP as 'aircraft' in its final sentence, suggesting the observer perceived it as a physical craft, though it remains unidentified.",
+    "No information on whether the two aircraft 30 miles ahead also observed the phenomenon.",
+    "Case is marked 'Closed' with no resolution or identification noted.",
+    "Duration of observation was very brief (10-15 seconds), limiting detail."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2022-10-09 at 02:47",
+      "source_quote": "Date: 02:47 10/09/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft callsign",
+      "value": "NKS75",
+      "source_quote": "Callsign: NKS75",
+      "citation_offset": {
+        "offset": 93,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Newark (EWR) to Los Angeles (LAX)",
+      "source_quote": "Origin: EWR Destination: LAX",
+      "citation_offset": {
+        "offset": 199,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL340 (approximately 34,000 feet)",
+      "source_quote": "W bound at FL340",
+      "citation_offset": {
+        "offset": 366,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of travel",
+      "value": "Westbound",
+      "source_quote": "The unknown phenomenon was traveling W bound",
+      "citation_offset": {
+        "offset": 384,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Speed description",
+      "value": "High rate of speed",
+      "source_quote": "traveling W bound at a high rate of speed",
+      "citation_offset": {
+        "offset": 411,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Duration of observation",
+      "value": "10-15 seconds",
+      "source_quote": "The aircraft was only visible for 10-15 seconds",
+      "citation_offset": {
+        "offset": 519,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Position relative to observer",
+      "value": "12 o'clock (directly ahead), between reporting aircraft and two aircraft 30 miles ahead",
+      "source_quote": "off the12 o'clock while W bound at FL340",
+      "citation_offset": {
+        "offset": 342,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 109,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 245,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "EWR (Newark)",
+    "LAX (Los Angeles)"
+  ],
+  "dated_events": [
+    "2022-10-09"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon traveling westbound at high speed",
+    "Two unidentified aircraft 30 miles ahead of reporting aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Spirit Airlines flight (NKS75) reported a UAP while flying westbound at 34,000 feet.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the12 o'clock while W bound at FL340",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 290,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was traveling westbound at high speed between the reporting aircraft and two other aircraft 30 miles ahead.",
+      "source_quote": "The unknown phenomenon was traveling W bound at a high rate of speed between their aircraft and the other two aircraft 30 miles ahead",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 384,
+        "len": 133,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was visible for only 10-15 seconds.",
+      "source_quote": "The aircraft was only visible for 10-15 seconds",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 519,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported to Denver ARTCC (ZDV) and the case is now closed.",
+      "source_quote": "Reporting Facility: ZDV",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 161,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report uses the term 'aircraft' to describe the UAP in the final sentence, suggesting the observer perceived it as a craft.",
+      "source_quote": "The aircraft was only visible for 10-15 seconds",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 519,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:24:49.605Z",
+  "qa_completed_at": "2026-06-01T22:27:30.466Z",
+  "timing": {
+    "A": "19.9s",
+    "B": "140.9s",
+    "E": "20.0s"
+  },
+  "public_headline": "Commercial Pilot Reports Fast-Moving Unidentified Object at 34,000 Feet",
+  "public_tldr": "This FAA SKYWATCH incident report documents a brief sighting by the crew of a commercial flight (callsign NKS75) traveling from Newark to Los Angeles on 9 October 2022. The crew observed an unidentified object moving westbound at high speed ahead of their aircraft at 34,000 feet, but it was only visible for 10–15 seconds and the case was closed with no identification or resolution noted.",
+  "public_narrative": "On 9 October 2022 at 02:47, the crew of a commercial flight operating under callsign NKS75 — flying westbound from Newark (EWR) to Los Angeles (LAX) — reported an unidentified aerial phenomenon to Denver Air Route Traffic Control Center (ZDV). The aircraft was cruising at Flight Level 340, roughly 34,000 feet.\n\nThe crew described an unknown object directly ahead of them (at the 12 o'clock position), traveling westbound at a high rate of speed. It appeared to pass between their aircraft and two other aircraft approximately 30 miles ahead. The entire observation lasted only 10–15 seconds.\n\nThe FAA logged the event through its SKYWATCH reporting system. The report is brief and contains no mention of corroborating radar data, recordings, or observations from the two aircraft ahead. Notably, the report's final sentence refers to the phenomenon as an \"aircraft,\" suggesting the crew perceived it as a physical craft, though it remains formally unidentified.\n\nThe case is marked as closed. No explanation or identification was provided in the document. There is minimal redaction — the report appears to be a short, routine incident filing rather than a detailed investigation.",
+  "public_caveats": [
+    "This is a single-source pilot observation lasting only 10–15 seconds, with no corroborating sensor data or radar evidence mentioned in the report.",
+    "There is no indication that the two aircraft 30 miles ahead were contacted or asked whether they also observed the phenomenon.",
+    "The case is marked 'Closed' with no resolution, meaning the FAA did not identify the object — but also did not necessarily investigate further.",
+    "The document is a short incident filing, not a detailed investigation report. It contains limited descriptive information about the object beyond its speed and direction.",
+    "The incident date in the document is October 2022, though the record is catalogued under a 2023 identifier (237UAP00118), likely reflecting when it was processed."
+  ]
+}

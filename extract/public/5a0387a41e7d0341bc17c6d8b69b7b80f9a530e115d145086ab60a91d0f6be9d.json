@@ -1,0 +1,225 @@
+{
+  "sha256": "5a0387a41e7d0341bc17c6d8b69b7b80f9a530e115d145086ab60a91d0f6be9d",
+  "title": "FAA UAP record 237UAP00324",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On November 28, 2023, at 02:00, the crew of commercial flight GTI3674 (a Boeing 737-800) reported seeing numerous lights in the distance while westbound at 36,000 feet over HVQ. The lights appeared for approximately 20 seconds at a time and were possibly satellites. The phenomenon was not detected on ATC radar, but two other flights at similar altitudes reported the same sighting.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The report itself notes the lights were 'possibly satellites,' suggesting the phenomenon may have a conventional explanation.",
+    "No radar corroboration — the sighting is based solely on visual observation by flight crews.",
+    "The case is marked Closed with no stated resolution or follow-up investigation noted.",
+    "Three separate flight crews reported the same phenomenon, which lends some corroboration but all were visual-only observations."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-11-28T02:00",
+      "source_quote": "Date: 02:00 11/28/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "GTI3674",
+      "source_quote": "Callsign: GTI3674",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL360 (36,000 feet)",
+      "source_quote": "W bound at FL360",
+      "citation_offset": {
+        "offset": 364,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Over HVQ",
+      "source_quote": "over HVQ",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "description_of_phenomenon",
+      "value": "Numerous lights in the distance appearing for approximately 20 seconds at a time, possibly satellites",
+      "source_quote": "numerous lights in the distance, possibly satellites, appearing for approximately 20 seconds at a time",
+      "citation_offset": {
+        "offset": 419,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 523,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_flights",
+      "value": "FFT4777 at FL360 and EDV5295 at FL340",
+      "source_quote": "FFT4777 at FL360 and EDV5295 at FL340 reported same phenomenon",
+      "citation_offset": {
+        "offset": 578,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_travel",
+      "value": "Westbound",
+      "source_quote": "W bound at FL360",
+      "citation_offset": {
+        "offset": 364,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "position_of_uap_relative_to_aircraft",
+      "value": "Off the front",
+      "source_quote": "an unidentified aerial phenomenon off the front",
+      "citation_offset": {
+        "offset": 310,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "HVQ",
+    "BWI",
+    "SKF"
+  ],
+  "dated_events": [
+    "02:00 11/28/2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon (numerous lights)",
+    "ATC facility radar system"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Flight GTI3674 was a commercial Boeing 737-800 operating from BWI to SKF on November 28, 2023.",
+      "source_quote": "Aircraft: B738 ... Origin: BWI Destination: SKF",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed numerous lights appearing for approximately 20 seconds at a time while at FL360 over HVQ.",
+      "source_quote": "numerous lights in the distance, possibly satellites, appearing for approximately 20 seconds at a time",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 419,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was not detected on ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 523,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Two other flights independently reported the same phenomenon.",
+      "source_quote": "FFT4777 at FL360 and EDV5295 at FL340 reported same phenomenon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 578,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:40:32.174Z",
+  "qa_completed_at": "2026-06-02T01:41:08.132Z",
+  "timing": {
+    "A": "21.2s",
+    "B": "14.8s",
+    "E": "17.7s"
+  },
+  "public_headline": "Three Commercial Flights Report Mystery Lights at 36,000 Feet",
+  "public_tldr": "This FAA incident report documents a November 2023 sighting by the crew of a Boeing 737-800 (flight GTI3674), who observed numerous lights appearing in 20-second intervals while cruising at 36,000 feet. Two other flights at similar altitudes independently reported the same phenomenon, but nothing appeared on air traffic control radar. The case is closed with no stated resolution.",
+  "public_narrative": "On November 28, 2023, at 02:00, the crew of commercial flight GTI3674 — a Boeing 737-800 flying westbound at 36,000 feet over HVQ — reported an unidentified aerial phenomenon off the front of the aircraft. They described numerous lights in the distance, each appearing for roughly 20 seconds at a time. The crew noted the lights were possibly satellites.\n\nThe sighting was not picked up by the air traffic control (ATC) radar system. However, two other commercial flights in the area — FFT4777 at 36,000 feet and EDV5295 at 34,000 feet — independently reported seeing the same thing. That three separate crews observed the phenomenon adds a degree of corroboration, though all observations were visual only.\n\nThe FAA logged this under its SKYWATCH programme, which tracks unidentified aerial phenomena reported by pilots. The report lists the flight's origin as BWI (Baltimore-Washington International) and destination as SKF (Kelly Field, San Antonio), with the point of departure listed as DEN (Denver).\n\nThe case is marked as closed. The report contains no stated resolution, no follow-up investigation, and no definitive identification of what the crews saw. The FAA's own record notes the lights were \"possibly satellites,\" but does not confirm or rule out that explanation.",
+  "public_caveats": [
+    "All three sightings were visual only — nothing appeared on ATC radar, so there is no independent instrument confirmation.",
+    "The report itself suggests the lights were 'possibly satellites,' indicating a conventional explanation was considered likely even by those involved.",
+    "The case is closed with no stated resolution or follow-up, meaning the FAA did not reach a definitive conclusion.",
+    "Three separate flight crews reporting the same phenomenon provides some corroboration, but all were making the same type of observation (visual, at night, at high altitude) and could share common perceptual conditions.",
+    "There is minimal redaction in this document. The record appears to be a straightforward incident log rather than a detailed investigation file."
+  ]
+}

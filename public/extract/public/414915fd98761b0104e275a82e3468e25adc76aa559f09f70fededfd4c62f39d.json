@@ -1,0 +1,256 @@
+{
+  "sha256": "414915fd98761b0104e275a82e3468e25adc76aa559f09f70fededfd4c62f39d",
+  "title": "FAA UAP record 237UAP00238",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": "On 10 March 2023, the crew of Virgin Atlantic flight VIR156T (a Boeing 787) reported seeing three very bright lights high in the sky while flying eastbound at 37,000 feet near Fort Dodge, Iowa. The lights varied in brightness and were rotating around each other rapidly. No evasive action was taken, and the report was closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included.",
+    "The description 'very high in the sky' relative to an aircraft already at 37,000 feet is notable but unquantified.",
+    "FOD refers to Fort Dodge Regional Airport in Iowa — the sighting was in this vicinity, not necessarily at the airport.",
+    "Report is marked Closed with no resolution or identification of the phenomenon recorded."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date of incident",
+      "value": "2023-03-10",
+      "source_quote": "Date: 09:00 03/10/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "VIR156T",
+      "source_quote": "Callsign: VIR156T",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 787 (B789)",
+      "source_quote": "Aircraft: B789",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "Virgin Atlantic (VIR)",
+      "source_quote": "Operator: VIR",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Las Vegas (LAS) to London Heathrow (EGLL)",
+      "source_quote": "Origin: LAS Destination: EGLL",
+      "citation_offset": {
+        "offset": 212,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL370 (37,000 feet)",
+      "source_quote": "ENE bound at FL370",
+      "citation_offset": {
+        "offset": 413,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "Vicinity of Fort Dodge (FOD)",
+      "source_quote": "in the vicinity of FOD",
+      "citation_offset": {
+        "offset": 433,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "Three very bright lights high in the sky, varying brightness, rotating around each other rapidly",
+      "source_quote": "three very bright lights \"very high in the sky\" with various brightness rotating around each other rapidly",
+      "citation_offset": {
+        "offset": 485,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of observation",
+      "value": "Off the left side of the aircraft",
+      "source_quote": "an unidentified aerial phenomenon off the left side",
+      "citation_offset": {
+        "offset": 355,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action taken",
+      "value": "No",
+      "source_quote": "No evasive action",
+      "citation_offset": {
+        "offset": 593,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 259,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "ZMP-M-2023/03/10-0001",
+      "source_quote": "MOR ID: ZMP-M-2023/03/10-0001",
+      "citation_offset": {
+        "offset": 299,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "FOD",
+    "LAS",
+    "EGLL",
+    "ZMP"
+  ],
+  "dated_events": [
+    "2023-03-10"
+  ],
+  "objects_described": [
+    "Boeing 787 (B789)",
+    "Three very bright lights rotating around each other"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Virgin Atlantic Boeing 787 operating as VIR156T reported a UAP while flying from Las Vegas to London Heathrow.",
+      "source_quote": "Callsign: VIR156T ... Origin: LAS Destination: EGLL",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The phenomenon consisted of three very bright lights at high altitude that rotated around each other rapidly with varying brightness.",
+      "source_quote": "three very bright lights \"very high in the sky\" with various brightness rotating around each other rapidly",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 485,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was at flight level 370 (37,000 feet) near Fort Dodge when the sighting occurred.",
+      "source_quote": "ENE bound at FL370, in the vicinity of FOD",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 413,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the crew.",
+      "source_quote": "No evasive action",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 593,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO (Airways Weather Office) was advised of the sighting.",
+      "source_quote": "AWO advised",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 612,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:20:29.509Z",
+  "qa_completed_at": "2026-06-02T00:21:04.636Z",
+  "timing": {
+    "A": "18.7s",
+    "B": "16.5s",
+    "E": "17.1s"
+  },
+  "public_headline": "Virgin Atlantic Crew Reported Three Rotating Lights Over Iowa",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of a Virgin Atlantic Boeing 787 on 10 March 2023. While flying at 37,000 feet near Fort Dodge, Iowa, the crew observed three very bright lights high above them, rotating around each other with varying brightness. The FAA closed the report with no identification of the phenomenon.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — the system the Federal Aviation Administration uses to log unidentified aerial phenomena reported by pilots. It covers a sighting on 10 March 2023 by the crew of Virgin Atlantic flight VIR156T, a Boeing 787 flying from Las Vegas to London Heathrow.\n\nThe crew was heading east-northeast at 37,000 feet, in the vicinity of Fort Dodge, Iowa, when they observed an unidentified aerial phenomenon off the left side of the aircraft. They described three very bright lights positioned high in the sky above them — notable given the aircraft was already at cruising altitude. The lights varied in brightness and were rotating around each other rapidly.\n\nThe crew did not take evasive action, indicating the phenomenon was not considered an immediate collision risk. The Airways Weather Office was advised of the sighting. The FAA assigned the report the identifier 237UAP00238 and the mandatory occurrence report ID ZMP-M-2023/03/10-0001.\n\nThe report's status is marked as Closed. No resolution or identification of the lights is recorded in the document. There is no mention of corroborating radar data, additional witness accounts from other aircraft, or any follow-up investigation.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data or independent witness accounts are included in the document.",
+    "The crew described the lights as 'very high in the sky' relative to an aircraft already at 37,000 feet, but no altitude estimate for the lights themselves is given.",
+    "The report was closed with no explanation or identification of the phenomenon — 'closed' does not mean 'explained'.",
+    "Redaction levels appear low, but the document is brief and contains limited investigative detail to begin with.",
+    "FOD refers to the Fort Dodge Regional Airport area in Iowa — the sighting occurred in that vicinity, not necessarily at the airport itself."
+  ]
+}

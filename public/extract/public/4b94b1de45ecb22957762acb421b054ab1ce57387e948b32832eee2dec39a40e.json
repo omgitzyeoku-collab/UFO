@@ -1,0 +1,282 @@
+{
+  "sha256": "4b94b1de45ecb22957762acb421b054ab1ce57387e948b32832eee2dec39a40e",
+  "title": "FAA UAP record 237UAP00275",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon.",
+  "core_summary": "On 21 July 2023 at 04:55, Delta Air Lines flight DAL2110 (a BCS3 aircraft) reported an unidentified aerial phenomenon while southeast-bound at flight level 210, approximately 15 nautical miles west-northwest of Oceanside (OCN). The crew described bright lights offshore to the right side of the aircraft. NORAD was contacted but returned negative results.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating sensor data mentioned.",
+    "No altitude or distance estimate for the phenomenon was provided, limiting analysis.",
+    "NORAD negative result means no radar track was found, but does not rule out objects below radar coverage or non-metallic objects.",
+    "Bright lights offshore near the Southern California coast could have mundane explanations (marine vessels, military exercises, oil platforms) not investigated in this report.",
+    "The report is marked Closed with no resolution or identification noted."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time",
+      "value": "2023-07-21 at 04:55",
+      "source_quote": "Date: 04:55 07/21/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight/callsign",
+      "value": "DAL2110 (Delta Air Lines)",
+      "source_quote": "Callsign: DAL2110",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "DAL (Delta Air Lines, commercial)",
+      "source_quote": "Operator: DAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin",
+      "value": "SEA (Seattle)",
+      "source_quote": "Origin: SEA",
+      "citation_offset": {
+        "offset": 201,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination",
+      "value": "SAN (San Diego)",
+      "source_quote": "Destination: SAN",
+      "citation_offset": {
+        "offset": 213,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 210 (approximately 21,000 feet)",
+      "source_quote": "SE bound at FL210",
+      "citation_offset": {
+        "offset": 369,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Position relative to OCN",
+      "value": "15 NM west-northwest of Oceanside VOR",
+      "source_quote": "15NM WNW of OCN",
+      "citation_offset": {
+        "offset": 388,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Set of bright lights offshore, off the right side of the aircraft",
+      "source_quote": "described as a set of bright lights offshore, no altitude given",
+      "citation_offset": {
+        "offset": 432,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude",
+      "value": "Not given",
+      "source_quote": "no altitude given",
+      "citation_offset": {
+        "offset": 478,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "No evasive action taken",
+      "citation_offset": {
+        "offset": 497,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZLA (Los Angeles ARTCC)",
+      "source_quote": "Reporting Facility: ZLA",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NORAD check",
+      "value": "Negative results",
+      "source_quote": "HQ DEN requested NORAD to check their systems, negative results",
+      "citation_offset": {
+        "offset": 522,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SEA",
+    "SAN",
+    "DEN",
+    "OCN",
+    "ZLA"
+  ],
+  "dated_events": [
+    "2023-07-21"
+  ],
+  "objects_described": [
+    "Set of bright lights offshore (unidentified aerial phenomenon)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL2110 was flying southeast-bound at FL210 when the crew observed the phenomenon.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the right side while SE bound at FL210",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was located approximately 15 nautical miles west-northwest of Oceanside.",
+      "source_quote": "15NM WNW of OCN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 388,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared as bright lights offshore with no altitude determinable.",
+      "source_quote": "described as a set of bright lights offshore, no altitude given",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 432,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "No evasive action taken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 497,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD was contacted and found nothing on their systems.",
+      "source_quote": "HQ DEN requested NORAD to check their systems, negative results",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 522,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FAA's Aviation Weather Office (AWO) was advised.",
+      "source_quote": "AWO advised",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 587,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:54:32.488Z",
+  "qa_completed_at": "2026-06-02T00:55:12.455Z",
+  "timing": {
+    "A": "21.2s",
+    "B": "18.7s",
+    "E": "17.3s"
+  },
+  "public_headline": "Delta Pilots Reported Bright Lights Off California Coast in 2023",
+  "public_tldr": "This FAA incident report documents a July 2023 sighting by the crew of a Delta Air Lines flight travelling from Seattle to San Diego. The pilots observed bright lights offshore near Oceanside, California, at roughly 21,000 feet. NORAD found nothing on their systems, and the FAA closed the case without identifying the source.",
+  "public_narrative": "On 21 July 2023 at 04:55, the crew of Delta Air Lines flight DAL2110 — a commercial service from Seattle to San Diego — reported an unidentified aerial phenomenon to Los Angeles Air Route Traffic Control Centre (ZLA). The aircraft was heading southeast at flight level 210, roughly 21,000 feet, about 15 nautical miles west-northwest of the Oceanside navigational point on the Southern California coast.\n\nThe crew described a set of bright lights offshore, visible off the right side of the aircraft. No altitude for the lights was given, and the crew took no evasive action. The FAA's headquarters in Denver asked NORAD (the North American Aerospace Defense Command) to check their systems; the result came back negative, meaning no corresponding radar track was found. The FAA's Aviation Weather Office was also advised.\n\nThe report was filed under the FAA's SKYWATCH programme, which logs pilot-reported sightings of unidentified aerial phenomena. The case is marked as closed. No identification or explanation for the lights appears in the record.\n\nThe document itself is short and administrative in nature. There is minimal redaction, but also minimal investigation documented beyond the NORAD check. No photographs, sensor data, or follow-up analysis are referenced.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No radar data, photographs, or instrument readings are mentioned in the report.",
+    "NORAD returning negative results means no radar track was found, but that does not rule out objects too small, too low, or made of materials that do not reflect radar well.",
+    "Bright lights offshore near Southern California have several possible mundane explanations — marine vessels, military exercises, or offshore platforms — none of which were investigated in this document.",
+    "The case was closed without any resolution or identification recorded, which is common for FAA SKYWATCH filings where no safety-of-flight concern persists.",
+    "No altitude or distance estimate for the phenomenon was provided by the crew, which limits any independent analysis."
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "sha256": "03669bd156016fbcaa3fd0ff68ca24680cb5fb40590431a888a644a05a06daa9",
+  "title": "FAA UAP record 237UAP00086",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of unidentified aerial lights observed during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source visual observation by one flight crew; no corroboration from the nearby FedEx aircraft or radar.",
+    "No radar evidence supports the sighting — the objects were visually reported only.",
+    "The case is marked Closed with no resolution or identification provided.",
+    "OWB228068 and OWB333033 appear to be navigational fix references (Owensboro VOR radials/distances) placing the aircraft over the central US, likely Kentucky/Indiana area.",
+    "The tail number field is blank, limiting aircraft-specific verification."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report — Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_aircraft_callsign",
+      "value": "AMX692 (Aeromexico)",
+      "source_quote": "Callsign: AMX692",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "B38M (Boeing 737 MAX 8)",
+      "source_quote": "Aircraft: B38M",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "AMX (Aeromexico), Commercial",
+      "source_quote": "Operator: AMX",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Mexico City (MMMX) to Toronto (CYYZ)",
+      "source_quote": "Origin: MMMX Destination: CYYZ",
+      "citation_offset": {
+        "offset": 200,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL370 (37,000 feet)",
+      "source_quote": "Aircraft off the OWB228068 at FL370",
+      "citation_offset": {
+        "offset": 292,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "heading_and_speed",
+      "value": "Heading 041 at 504 knots",
+      "source_quote": "heading 041 at 504 knots",
+      "citation_offset": {
+        "offset": 328,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_description",
+      "value": "Several lights doing an orbit at very high altitude, estimated 60-80 miles ahead",
+      "source_quote": "observing 60-80 miles ahead and altitude very high above them several lights doing an orbit",
+      "citation_offset": {
+        "offset": 363,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_confirmation",
+      "value": "None — no radar returns in the area at any altitude",
+      "source_quote": "ZME controllers have no radar depicting any activity in the vicinity at any altitude",
+      "citation_offset": {
+        "offset": 456,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft",
+      "value": "FedEx FDX1 at FL380 saw nothing anomalous",
+      "source_quote": "FDX1 reported no anomalies sighted during their flight in the vicinity described by AMX692",
+      "citation_offset": {
+        "offset": 690,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "fdx1_position",
+      "value": "Approximately 70 miles west of Louisville, southwestbound at FL380",
+      "source_quote": "FDX1 was approximately 70 miles W of Louisville, SW bound",
+      "citation_offset": {
+        "offset": 782,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZME (Memphis Center)",
+      "source_quote": "Reporting Facility: ZME",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "follow_up_actions",
+      "value": "MOR filed for record; AWO notified",
+      "source_quote": "ZME will file an MOR for record. AWO notified.",
+      "citation_offset": {
+        "offset": 841,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MMMX (Mexico City)",
+    "CYYZ (Toronto)",
+    "Louisville",
+    "DEN"
+  ],
+  "dated_events": [
+    "2022-04-08"
+  ],
+  "objects_described": [
+    "Several lights performing an orbital pattern at very high altitude",
+    "B38M (Boeing 737 MAX 8)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AMX692 was flying at FL370 on heading 041 at 504 knots when the crew observed several lights doing an orbit at very high altitude, 60-80 miles ahead.",
+      "source_quote": "Aircraft off the OWB228068 at FL370 heading 041 at 504 knots reporting observing 60-80 miles ahead and altitude very high above them several lights doing an orbit",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 162,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Memphis Center ATC had no radar returns showing any objects in the vicinity at any altitude.",
+      "source_quote": "ZME controllers have no radar depicting any activity in the vicinity at any altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 456,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A nearby FedEx flight (FDX1) at FL380 reported no anomalies in the same area.",
+      "source_quote": "FDX1 reported no anomalies sighted during their flight in the vicinity described by AMX692",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 690,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Memphis Center filed a Mandatory Occurrence Report and notified AWO.",
+      "source_quote": "ZME will file an MOR for record. AWO notified.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 841,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:52:00.466Z",
+  "qa_completed_at": "2026-06-01T21:52:47.716Z",
+  "timing": {
+    "A": "25.5s",
+    "B": "21.7s",
+    "E": "17.4s"
+  },
+  "public_headline": "Aeromexico Crew Reports Orbiting Lights Over Central US at 37,000 Feet",
+  "public_tldr": "An FAA SKYWATCH report documents the crew of Aeromexico flight AMX692, a Boeing 737 MAX 8 flying from Mexico City to Toronto, observing several lights performing an orbital pattern at very high altitude roughly 60–80 miles ahead of their aircraft. Neither air traffic control radar nor a nearby FedEx flight could confirm the sighting, and the FAA closed the case without identifying the objects.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under case number 237UAP00086. It records a UAP (Unidentified Aerial Phenomenon) sighting reported by the flight crew of Aeromexico flight AMX692, a Boeing 737 MAX 8 operating a commercial route from Mexico City (MMMX) to Toronto (CYYZ).\n\nThe aircraft was cruising at FL370 (37,000 feet), heading 041 at 504 knots, over the central United States — likely the Kentucky/Indiana area based on navigational references in the report. The crew reported observing several lights performing an orbital pattern at very high altitude, estimated 60 to 80 miles ahead of their position.\n\nMemphis Center (ZME), the FAA air traffic control facility handling the area, checked radar and found no returns showing any objects in the vicinity at any altitude. A FedEx cargo flight, FDX1, was also in the area at FL380 (38,000 feet), approximately 70 miles west of Louisville. That crew reported seeing nothing anomalous.\n\nMemphis Center filed a Mandatory Occurrence Report (MOR) for the record and notified AWO, an FAA operations office. The case is marked Closed with no explanation or identification of the lights provided. No tail number was recorded for the Aeromexico aircraft, which limits further verification.",
+  "public_caveats": [
+    "This is a single-source visual observation by one flight crew. No radar data, photographs, or instrument readings support the sighting.",
+    "A nearby FedEx aircraft in the same general area reported seeing nothing unusual, meaning there is no independent corroboration.",
+    "The FAA closed the case without resolving what the lights were — 'Closed' does not mean identified or explained.",
+    "The aircraft's tail number field is blank in the report, which limits the ability to cross-reference the specific flight independently.",
+    "Navigational fix references suggest the sighting occurred over the Kentucky/Indiana region, but no specific location is stated outright in the document."
+  ]
+}

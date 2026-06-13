@@ -1,0 +1,206 @@
+{
+  "sha256": "08e02ba70778da501e70a03460bdc4e42b34ed4c4b036173b5603e413d19ab29",
+  "title": "FAA UAP record 237UAP00143",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On January 23, 2023, the crew of Delta Air Lines flight DAL8934, a Boeing 757-200, reported an unidentified aerial phenomenon while flying northwest-bound at flight level 380 (approximately 38,000 feet), located 40 nautical miles southwest of St. Petersburg-Clearwater (PIE). The unknown phenomenon was observed to change altitude, vertical speed, and light intensity. The UFO Reporting Center and AWO were notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew observation; no corroborating radar data or additional witness accounts are included.",
+    "The report is marked 'Closed' with no resolution or identification of the phenomenon provided.",
+    "No tail number is recorded for the aircraft, limiting independent verification.",
+    "The term 'light intensity' change could encompass conventional explanations such as distant aircraft, satellites, or atmospheric phenomena."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "date_time",
+      "value": "2023-01-23 at 02:28 UTC",
+      "source_quote": "Date: 02:28 01/23/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "DAL8934",
+      "source_quote": "Callsign: DAL8934",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 258,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL380 (approximately 38,000 feet)",
+      "source_quote": "NW bound at FL380",
+      "citation_offset": {
+        "offset": 419,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_behavior",
+      "value": "Changed altitude, vertical speed, and light intensity",
+      "source_quote": "The unknown phenomenon had changed altitude, vertical speed and light intensity",
+      "citation_offset": {
+        "offset": 454,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "position_relative_to_aircraft",
+      "value": "Off the front of the aircraft",
+      "source_quote": "an unidentified aerial phenomenon off their front",
+      "citation_offset": {
+        "offset": 363,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notifications",
+      "value": "UFO Reporting Center and AWO notified",
+      "source_quote": "UFO Reporting Center notified. AWO advised.",
+      "citation_offset": {
+        "offset": 535,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZMA-M-2023/01/22-0003",
+      "source_quote": "MOR ID: ZMA-M-2023/01/22-0003",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MIA",
+    "MSY",
+    "PIE",
+    "DEN",
+    "ZMA"
+  ],
+  "dated_events": [
+    "2023-01-23T02:28",
+    "2023/01/22"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with changing altitude, vertical speed, and light intensity",
+    "Boeing 757-200 (B752)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL8934 reported a UAP while flying at FL380, 40NM southwest of PIE",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off their front while NW bound at FL380, 40NM SW of PIE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 345,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon exhibited changes in altitude, vertical speed, and light intensity",
+      "source_quote": "The unknown phenomenon had changed altitude, vertical speed and light intensity",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 454,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO Reporting Center was notified of the incident",
+      "source_quote": "UFO Reporting Center notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 535,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated in Miami and was destined for New Orleans",
+      "source_quote": "Origin: MIA Destination: MSY",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:51:17.635Z",
+  "qa_completed_at": "2026-06-01T22:51:54.336Z",
+  "timing": {
+    "A": "21.0s",
+    "B": "15.7s",
+    "E": "16.9s"
+  },
+  "public_headline": "Delta Crew Reported Unidentified Phenomenon at 38,000 Feet Over Florida",
+  "public_tldr": "This FAA incident report documents a January 2023 sighting by the crew of a Delta Air Lines Boeing 757, flying at 38,000 feet near St. Petersburg, Florida. The crew observed an unidentified aerial phenomenon that changed altitude, speed, and light intensity. The case was closed with no explanation provided.",
+  "public_narrative": "On 23 January 2023 at 02:28 UTC, the crew of Delta Air Lines flight DAL8934 — a Boeing 757-200 flying from Miami to New Orleans — reported an unidentified aerial phenomenon ahead of their aircraft. The plane was travelling northwest at flight level 380 (approximately 38,000 feet), about 40 nautical miles southwest of St. Petersburg-Clearwater International Airport (PIE) in Florida.\n\nAccording to the FAA's SKYWATCH incident report, the unknown phenomenon changed altitude, vertical speed, and light intensity while being observed. No further detail is given about its size, shape, or duration of the encounter.\n\nThe FAA notified the UFO Reporting Center and AWO (Airway Operations) about the sighting. The report is filed under case reference ZMA-M-2023/01/22-0003, managed by the Miami Air Route Traffic Control Center.\n\nThe case is marked as closed. No identification or explanation for the phenomenon is provided in the document. There is no mention of corroborating radar data, additional witnesses, or follow-up investigation.",
+  "public_caveats": [
+    "This is a single-source report based solely on the aircrew's visual observation. No radar data or independent witness accounts are included.",
+    "The case was closed without any resolution or identification of what the crew saw.",
+    "No aircraft tail number was recorded, which limits independent verification of the flight details.",
+    "Changes in 'light intensity' could have conventional explanations, including distant aircraft, satellites, or atmospheric effects. The report does not rule these out.",
+    "The document shows low evidence of redaction, but the record is brief and lacks the detail needed to draw firm conclusions about what was observed."
+  ]
+}

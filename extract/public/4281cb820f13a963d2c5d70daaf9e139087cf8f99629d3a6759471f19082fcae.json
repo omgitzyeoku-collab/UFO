@@ -1,0 +1,306 @@
+{
+  "sha256": "4281cb820f13a963d2c5d70daaf9e139087cf8f99629d3a6759471f19082fcae",
+  "title": "FAA UAP record 237UAP00133",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting multiple commercial airline crews reporting unidentified aerial phenomena near Des Moines, Iowa.",
+  "core_summary": "On 12 December 2022, eleven commercial flights eastbound at altitudes between FL330 and FL390 reported orbs of light moving in various directions at varying distances from Des Moines (DSM). The sightings were reported through Minneapolis Center (ZMP), and the FAA's UFO Reporting Center numbers were provided to all reporting flights. A Mandatory Occurrence Report (MOR) was filed to consolidate the multiple vague reports.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The original reports were described as 'very vague' by the FAA itself, and the MOR was filed to consolidate them.",
+    "No radar, sensor, or photographic data is referenced — all observations are pilot visual reports only.",
+    "The case status is marked 'Closed' with no resolution or identification of the phenomena noted.",
+    "Position codes (e.g. DSM246035) encode bearing and distance from DSM but are not decoded in the document."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2022-12-11",
+      "source_quote": "Date: 09:15 12/11/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZMP (Minneapolis Center)",
+      "source_quote": "Reporting Facility: ZMP",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_callsign",
+      "value": "UAL2247",
+      "source_quote": "Callsign: UAL2247",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "United Airlines (UAL)",
+      "source_quote": "Operator: UAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "SFO (San Francisco)",
+      "source_quote": "Origin: SFO",
+      "citation_offset": {
+        "offset": 233,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "IAD (Washington Dulles)",
+      "source_quote": "Destination: IAD",
+      "citation_offset": {
+        "offset": 245,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Orbs of light moving in various directions",
+      "source_quote": "They reported Orbs of light moving in various directions",
+      "citation_offset": {
+        "offset": 661,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_sighting",
+      "value": "12 o'clock (straight ahead), eastbound",
+      "source_quote": "an unidentified aerial phenomenon off the 12 o'clock while E bound",
+      "citation_offset": {
+        "offset": 549,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reference_point",
+      "value": "Des Moines (DSM) at varying altitudes and distances",
+      "source_quote": "at varying altitudes and distances from DSM",
+      "citation_offset": {
+        "offset": 616,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_reporting_flights",
+      "value": "11",
+      "source_quote": "UAL1204 0922Z DSM246035 FL350 UAL1786 0929Z DSM244050 FL350 UAL362 0930Z DSM263100 FL350 AAL2453 0931Z DSM199050 FL350 ASA392 0932Z DSM227155 FL350 UPS957 0933Z DSM234155 FL390 AAL756 0936Z DSM255180 FL330 DAL2683 0936Z DSM239117 FL350 FFT2034 0942Z DSM240118 FL350 UAL2247 0948Z DSM240166 FL370 UAL1391 0950Z DSM258238 FL350",
+      "citation_offset": {
+        "offset": 848,
+        "len": 325,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_range",
+      "value": "FL330 to FL390 (33,000–39,000 ft)",
+      "source_quote": "FL350 ... FL390 ... FL330 ... FL370",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "time_span_of_reports",
+      "value": "0922Z to 0950Z (28 minutes)",
+      "source_quote": "UAL1204 0922Z ... UAL1391 0950Z",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "MOR_id",
+      "value": "ZMP-M-2022/12/11-0001",
+      "source_quote": "MOR ID: ZMP-M-2022/12/11-0001",
+      "citation_offset": {
+        "offset": 319,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 279,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "airlines_involved",
+      "value": "United (UAL), American (AAL), Alaska (ASA), UPS, Delta (DAL), Frontier (FFT)",
+      "source_quote": "UAL1204 ... AAL2453 ... ASA392 ... UPS957 ... DAL2683 ... FFT2034",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "awo_notified",
+      "value": "Yes",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 834,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZMP",
+    "SFO",
+    "IAD",
+    "DSM"
+  ],
+  "dated_events": [
+    "12/11/2022",
+    "2022-12-11T09:15"
+  ],
+  "objects_described": [
+    "Orbs of light"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Eleven separate commercial flights reported unidentified aerial phenomena near Des Moines on 11 December 2022 over a 28-minute window.",
+      "source_quote": "All flights reported an unidentified aerial phenomenon off the 12 o'clock while E bound at varying altitudes and distances from DSM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 528,
+        "len": 131,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomena were described as orbs of light moving in various directions.",
+      "source_quote": "They reported Orbs of light moving in various directions",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 661,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "ZMP provided UFO Reporting Center contact numbers to all reporting flights.",
+      "source_quote": "ZMP provided UFO reporting Center numbers to all flights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 719,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A Mandatory Occurrence Report was filed to consolidate the initially vague reports from multiple aircraft.",
+      "source_quote": "MOR was filed for a multitude of reports, but info was very vague",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 357,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reporting airlines included United, American, Alaska, UPS, Delta, and Frontier.",
+      "source_quote": "UAL1204 ... AAL2453 ... ASA392 ... UPS957 ... DAL2683 ... FFT2034",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "All sightings occurred at high altitude between FL330 and FL390 on eastbound flights.",
+      "source_quote": "while E bound at varying altitudes and distances from DSM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 602,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:41:33.616Z",
+  "qa_completed_at": "2026-06-01T22:42:22.338Z",
+  "timing": {
+    "A": "28.5s",
+    "B": "20.2s",
+    "E": "15.7s"
+  },
+  "public_headline": "Eleven Airline Crews Reported Orbs of Light Near Des Moines",
+  "public_tldr": "This FAA incident report documents eleven commercial flights reporting unidentified orbs of light near Des Moines, Iowa on 11 December 2022. All sightings came from eastbound aircraft at high altitude over a 28-minute window, and the case was closed without any identification of the phenomena.",
+  "public_narrative": "On 11 December 2022, eleven commercial flights passing near Des Moines, Iowa reported seeing unidentified aerial phenomena directly ahead of them while flying eastbound. The aircraft were cruising at altitudes between 33,000 and 39,000 feet. Pilots described the objects as orbs of light moving in various directions at varying distances from Des Moines.\n\nThe reports came from crews flying for six different airlines: United, American, Alaska, Delta, Frontier, and UPS. The first report was logged at 09:22 UTC and the last at 09:50 UTC — a span of 28 minutes. Minneapolis Center (the FAA regional air traffic control facility, known by its code ZMP) handled the reports and provided all flights with contact numbers for the FAA's UFO Reporting Center.\n\nThe FAA filed a Mandatory Occurrence Report (MOR ID: ZMP-M-2022/12/11-0001) to consolidate what it described as multiple vague reports from the various aircraft. The primary flight listed in the record is United Airlines flight 2247, operating from San Francisco to Washington Dulles.\n\nThe case is marked as closed. The document contains no radar data, sensor readings, or photographic evidence — every observation is a visual pilot report only. No explanation or identification of the phenomena is provided in the record.",
+  "public_caveats": [
+    "All observations are pilot visual reports only — no radar, sensor, or photographic evidence is referenced in the document.",
+    "The FAA itself described the original reports as 'very vague' and filed the MOR to consolidate them.",
+    "The case is marked closed with no resolution — the phenomena were never identified or explained in this record.",
+    "Position codes in the document (e.g. DSM246035) encode bearing and distance from Des Moines but are not decoded or interpreted within the report itself.",
+    "The metadata lists the incident year as 2023, but the document's own dates consistently show 11 December 2022."
+  ]
+}

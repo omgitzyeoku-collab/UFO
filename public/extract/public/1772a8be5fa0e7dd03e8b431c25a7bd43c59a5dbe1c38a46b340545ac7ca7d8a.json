@@ -1,0 +1,187 @@
+{
+  "sha256": "1772a8be5fa0e7dd03e8b431c25a7bd43c59a5dbe1c38a46b340545ac7ca7d8a",
+  "title": "FAA UAP record 237UAP00272",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The object was described subjectively (size compared to a Volkswagen) with no instrument measurements.",
+    "Case is marked Closed with no resolution or identification of the object provided.",
+    "POD listed as DEN (Denver) despite the flight route being in the northeastern US — this likely refers to an administrative processing centre, not the sighting location."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2023-07-09 at 00:04 UTC",
+      "source_quote": "Date: 00:04 07/09/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "EJA828",
+      "source_quote": "Callsign: EJA828",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL 240 (approximately 24,000 feet)",
+      "source_quote": "SE bound at FL 240",
+      "citation_offset": {
+        "offset": 364,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object position relative to aircraft",
+      "value": "200 feet below",
+      "source_quote": "an unidentified aerial phenomenon 200 feet below",
+      "citation_offset": {
+        "offset": 309,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Brown, stationary, size of a Volkswagen",
+      "source_quote": "a brown, stationary object the size of a Volkswagon",
+      "citation_offset": {
+        "offset": 420,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operational impact",
+      "value": "None",
+      "source_quote": "No impact to operations",
+      "citation_offset": {
+        "offset": 473,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary classification",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "2023-07-09"
+  ],
+  "objects_described": [
+    "Brown stationary object the size of a Volkswagen"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial aircraft flying at FL 240 observed a stationary brown object approximately the size of a Volkswagen 200 feet below it over Albany.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon 200 feet below while SE bound at FL 240 OVHD ALB. The unknown phenomenon was a brown, stationary object the size of a Volkswagon.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 291,
+        "len": 181,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting had no impact on flight operations.",
+      "source_quote": "No impact to operations.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 473,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Aviation Weather Office was notified of the incident.",
+      "source_quote": "AWO notified.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 498,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Portland, Maine and was destined for Teterboro, New Jersey.",
+      "source_quote": "Origin: PWM Destination: TEB",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:51:50.147Z",
+  "qa_completed_at": "2026-06-02T00:52:29.351Z",
+  "timing": {
+    "A": "19.8s",
+    "B": "19.4s",
+    "E": "15.9s"
+  },
+  "public_headline": "FAA Report: Pilot Spotted Stationary Brown Object at 24,000 Feet",
+  "public_tldr": "This is an FAA incident report from July 2023 documenting a pilot's sighting of a stationary, brown, Volkswagen-sized object 200 feet below their aircraft at 24,000 feet. The case was closed with no identification of the object and no impact on flight operations.",
+  "public_narrative": "On 9 July 2023 at 00:04 UTC, the crew of a commercial flight operating under callsign EJA828 — travelling from Portland, Maine to Teterboro, New Jersey — reported an unidentified aerial phenomenon while flying southeast at Flight Level 240 (approximately 24,000 feet) overhead Albany.\n\nThe pilot described the object as brown, stationary, and roughly the size of a Volkswagen, sitting about 200 feet below the aircraft. No instrument measurements of the object were taken; the description is based solely on the pilot's visual observation.\n\nThe FAA classified the event under its SKYWATCH programme as an Unidentified Aerial Phenomenon. The Aviation Weather Office was notified. The report notes there was no impact to flight operations.\n\nThe case is marked as Closed. Notably, no resolution or identification of the object is provided in the document — it remains unidentified. There is no mention of corroborating radar data or additional witness accounts.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or additional witness accounts included in the document.",
+    "The object's size ('the size of a Volkswagen') is a subjective visual estimate — no instruments measured it.",
+    "The case is closed but the object was never identified or explained.",
+    "The processing office is listed as Denver (DEN), which likely refers to an FAA administrative centre, not the location of the sighting — the flight route was in the northeastern United States.",
+    "Redaction levels are low, but the document is brief and contains limited detail beyond the pilot's account."
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "sha256": "bd3a8c335f2d60b777ad222f82edf62da947ea72a0442c9a9e7b749c167687b0",
+  "title": "FAA UAP record 237UAP00251",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot visual observation; no corroborating radar, sensor, or additional witness data is included.",
+    "The location of the phenomenon ('over Tennessee') is an estimate by the crew, not a confirmed position.",
+    "The description 'white blooming lights' is subjective and could correspond to various atmospheric, astronomical, or man-made phenomena.",
+    "The case status is 'Closed' with no resolution or explanation provided in the report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2023-04-14 at 04:52",
+      "source_quote": "Date: 04:52 04/14/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "FFT1024",
+      "source_quote": "Callsign: FFT1024",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL380 (38,000 feet)",
+      "source_quote": "NNW bound at FL380",
+      "citation_offset": {
+        "offset": 364,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "2 or 3 white blooming lights between FL380 and FL420",
+      "source_quote": "2 or 3 \"white blooming lights\" off in the distance between FL380 and FL420",
+      "citation_offset": {
+        "offset": 438,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "estimated_location_of_phenomenon",
+      "value": "Over Tennessee",
+      "source_quote": "estimated over Tennessee",
+      "citation_offset": {
+        "offset": 514,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MCO",
+    "MDW",
+    "MCN",
+    "Tennessee",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-04-14"
+  ],
+  "objects_described": [
+    "2 or 3 white blooming lights (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Frontier Airlines flight FFT1024 was operating a commercial route from Orlando (MCO) to Chicago Midway (MDW) on 14 April 2023.",
+      "source_quote": "Callsign: FFT1024 ... Operator: FFT ... Origin: MCO Destination: MDW ... Operator Type: Commercial",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed 2 or 3 white blooming lights at an estimated altitude between 38,000 and 42,000 feet.",
+      "source_quote": "2 or 3 \"white blooming lights\" off in the distance between FL380 and FL420",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 438,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 20 nautical miles south of Macon, Georgia.",
+      "source_quote": "20NM S of MCN",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 384,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights were estimated to be over Tennessee.",
+      "source_quote": "estimated over Tennessee",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 514,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was heading north-northwest at FL380 at the time of the sighting.",
+      "source_quote": "NNW bound at FL380",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 364,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:31:34.093Z",
+  "qa_completed_at": "2026-06-02T00:32:15.959Z",
+  "timing": {
+    "A": "20.6s",
+    "B": "21.3s",
+    "E": "16.1s"
+  },
+  "public_headline": "Frontier Airlines Crew Reported White Lights Over Tennessee in 2023",
+  "public_tldr": "This FAA SKYWATCH incident report documents a Frontier Airlines crew sighting of two or three \"white blooming lights\" at high altitude, estimated to be over Tennessee, on 14 April 2023. The case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena (UAP). It records an incident on 14 April 2023 at 04:52, involving the crew of Frontier Airlines flight FFT1024, a commercial flight from Orlando (MCO) to Chicago Midway (MDW).\n\nAccording to the report, the crew was approximately 20 nautical miles south of Macon, Georgia, heading north-northwest at flight level 380 (roughly 38,000 feet). They observed two or three \"white blooming lights\" off in the distance, estimated to be at altitudes between 38,000 and 42,000 feet and located over Tennessee.\n\nThe report's status is listed as \"Closed.\" No resolution or explanation for what the lights were is provided in the document. There is no indication that radar data, sensor recordings, or additional witness accounts were gathered or reviewed.\n\nThe report is a single page with low evidence of redaction. It is a straightforward administrative filing — a crew saw something they could not identify, reported it through official channels, and the case was closed without a stated conclusion.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the crew's visual observation. No radar, sensor, or independent witness data is included.",
+    "The location \"over Tennessee\" is the crew's estimate, not a confirmed position.",
+    "The description \"white blooming lights\" is subjective and could correspond to atmospheric, astronomical, or man-made phenomena.",
+    "The case was closed with no explanation or resolution provided — this does not mean the phenomenon was confirmed as anomalous.",
+    "The FAA's Point of Distribution (POD) is listed as Denver (DEN), which is an administrative detail and does not indicate where the sighting occurred."
+  ]
+}

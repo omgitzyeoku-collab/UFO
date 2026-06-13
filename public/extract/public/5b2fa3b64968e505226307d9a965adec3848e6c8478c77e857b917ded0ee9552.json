@@ -1,0 +1,214 @@
+{
+  "sha256": "5b2fa3b64968e505226307d9a965adec3848e6c8478c77e857b917ded0ee9552",
+  "title": "FAA UAP record 237UAP00302",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On 4 October 2023, the crew of Delta Air Lines flight DAL2779 (a Boeing 737-900) reported an unidentified aerial phenomenon while cruising at flight level 390 (approximately 39,000 feet), 83 nautical miles northeast of Scottsbluff, Nebraska (BFF). The phenomenon was described as three bright white lights that were stationary, not changing altitude, and blinking sequentially from left to right and right to left. The report was filed through the FAA's Denver (ZDV) facility and the case is marked as closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data, imagery, or additional witness accounts included in this document.",
+    "The case is marked as closed with no resolution or explanation provided.",
+    "BFF is the ICAO identifier for Western Nebraska Regional Airport near Scottsbluff; the sighting location is approximate.",
+    "No follow-up investigation details or analysis are included in this report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date and time",
+      "value": "2023-10-04 at 09:25 UTC",
+      "source_quote": "Date: 09:25 10/04/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "DAL2779",
+      "source_quote": "Callsign: DAL2779",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "Delta Air Lines (DAL)",
+      "source_quote": "Operator: DAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Las Vegas (LAS) to Minneapolis (MSP)",
+      "source_quote": "Origin: LAS Destination: MSP",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 390 (approx. 39,000 ft)",
+      "source_quote": "while at FL390",
+      "citation_offset": {
+        "offset": 406,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Three bright white lights, stationary, blinking left to right and right to left",
+      "source_quote": "three bright white lights, not moving or changing altitude, blinking left to right and right to left",
+      "citation_offset": {
+        "offset": 465,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Position relative to aircraft",
+      "value": "Off the left side",
+      "source_quote": "off the left side",
+      "citation_offset": {
+        "offset": 388,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "ZDV-M-2023/10/04-0002",
+      "source_quote": "MOR ID: ZDV-M-2023/10/04-0002",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 258,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "LAS",
+    "MSP",
+    "BFF"
+  ],
+  "dated_events": [
+    "2023-10-04"
+  ],
+  "objects_described": [
+    "Three bright white stationary blinking lights (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL2779 was operating a commercial route from Las Vegas to Minneapolis on 4 October 2023.",
+      "source_quote": "Origin: LAS Destination: MSP",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed three bright white lights that were stationary and blinking sequentially while at 39,000 feet.",
+      "source_quote": "three bright white lights, not moving or changing altitude, blinking left to right and right to left",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 465,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 83 nautical miles northeast of Scottsbluff, Nebraska.",
+      "source_quote": "83NM NE of BFF",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 422,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A Mandatory Occurrence Report was initiated for this incident.",
+      "source_quote": "MOR Init: YES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 284,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:20:12.434Z",
+  "qa_completed_at": "2026-06-02T01:20:49.535Z",
+  "timing": {
+    "A": "20.3s",
+    "B": "16.8s",
+    "E": "15.7s"
+  },
+  "public_headline": "Delta Crew Reports Stationary Blinking Lights at 39,000 Feet Over Nebraska",
+  "public_tldr": "This is an FAA incident report from October 2023 in which the crew of a Delta Air Lines Boeing 737 reported seeing three bright white stationary lights blinking in sequence while cruising at 39,000 feet northeast of Scottsbluff, Nebraska. The case was closed with no explanation or follow-up analysis included in the document.",
+  "public_narrative": "On 4 October 2023, the crew of Delta Air Lines flight DAL2779 — a commercial Boeing 737-900 flying from Las Vegas to Minneapolis — reported an unidentified aerial phenomenon to the FAA. The sighting occurred at approximately 09:25 UTC while the aircraft was cruising at flight level 390, roughly 39,000 feet.\n\nThe crew described three bright white lights off the left side of the aircraft, about 83 nautical miles northeast of Scottsbluff, Nebraska. The lights were stationary, not changing altitude, and were blinking sequentially from left to right and then right to left. A Mandatory Occurrence Report was initiated through the FAA's Denver facility.\n\nThe case is marked as closed. The document provides no resolution, no identification of what the lights were, and no indication that further investigation was conducted. There is no radar data, imagery, or additional witness testimony included.\n\nThis is a single-page FAA SKYWATCH report — a standardised form for logging pilot-reported aerial incidents. It records what the crew saw and basic flight details, but it is not an analytical document and draws no conclusions.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data, photographs, or independent witness accounts are included.",
+    "The case is marked as closed with no resolution or explanation — 'closed' does not mean 'explained'.",
+    "The location (83 nautical miles northeast of Scottsbluff, Nebraska) is approximate, based on the aircraft's position at the time of the report.",
+    "No follow-up investigation details or technical analysis appear in this document.",
+    "FAA SKYWATCH reports are incident logs, not investigative findings — they document what was reported, not what was determined."
+  ]
+}

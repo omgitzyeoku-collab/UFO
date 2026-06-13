@@ -1,0 +1,294 @@
+{
+  "sha256": "9853355e490a4c6c2d1f6933443e0cfe262dde27e3029515c09c478b2c5e8898",
+  "title": "FAA UAP record 237UAP00010",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a tracked airborne object that turned out to be a homemade helium balloon, not a UAP.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is not a genuine UAP case — it documents the well-known October 2009 'Balloon Boy' incident, which was later determined to be a hoax.",
+    "The document was included in the PURSUE collection likely because the object was initially unidentified and resembled a UFO by design.",
+    "No individual names are given in the report text despite the incident involving a publicly known family (Heene family).",
+    "The report is a single-source FAA internal record and reflects only what ATC observed and was told in real time."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2009-10-16",
+      "source_quote": "Date: 04:00 10/16/2009",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZDV (Denver Center)",
+      "source_quote": "Reporting Facility: ZDV",
+      "citation_offset": {
+        "offset": 92,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "primary_code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "balloon_altitude",
+      "value": "12,000–13,000 ft",
+      "source_quote": "Balloon 18N of DEN @ 12,000-13000ft",
+      "citation_offset": {
+        "offset": 542,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "balloon_distance_traveled",
+      "value": "Approximately 30 miles",
+      "source_quote": "The balloon was airborne for approximately 30-miles",
+      "citation_offset": {
+        "offset": 578,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "child_age",
+      "value": "Six years old",
+      "source_quote": "his six year old son had gone airborne",
+      "citation_offset": {
+        "offset": 186,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "balloon_description",
+      "value": "Helium-filled balloon made to resemble a UFO",
+      "source_quote": "a helium filled balloon that he had made to resemble a UFO",
+      "citation_offset": {
+        "offset": 252,
+        "len": 33,
+        "exact": false,
+        "matched": "hat he had made to resemble a UFO"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "landing_location",
+      "value": "DEN026 at 10.4 miles",
+      "source_quote": "The balloon landed softly in a clearing on the DEN026@10.4-miles",
+      "citation_offset": {
+        "offset": 891,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "tracking_assets",
+      "value": "TV helicopter and two ANG helicopters",
+      "source_quote": "A TV helo tracked the balloon for almost the entirety of its flight. Two ANG helos joined in",
+      "citation_offset": {
+        "offset": 671,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "transponder_status",
+      "value": "None — no altitude data available",
+      "source_quote": "None of our resources have the ability to depict altitude data due to the ACFT being without an operating transponder or mode-c readout",
+      "citation_offset": {
+        "offset": 1604,
+        "len": 135,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reality_tv_connection",
+      "value": "Family had previously appeared on a reality TV show",
+      "source_quote": "the family of the boy...has in the past been part of a Reality TV show",
+      "citation_offset": {
+        "offset": 1849,
+        "len": 45,
+        "exact": false,
+        "matched": "as in the past been part of a Reality TV show"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "outcome",
+      "value": "Child found safe at home, never aboard the balloon",
+      "source_quote": "CNN reports boy found at home, safe and was never aboard the balloon",
+      "citation_offset": {
+        "offset": 1902,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN (Denver)",
+    "ZDV (Denver Center)",
+    "COS",
+    "DEN026"
+  ],
+  "dated_events": [
+    "2009-10-16"
+  ],
+  "objects_described": [
+    "homemade helium-filled balloon resembling a UFO",
+    "TV helicopter",
+    "two Air National Guard (ANG) helicopters",
+    "chase plane (D01)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A father called ZDV air traffic control directly to report the incident at 1730 local time.",
+      "source_quote": "1730: Father called ZDV directly to inform ATC that his six year old son had gone airborne",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 134,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon reached altitudes of 12,000–13,000 feet and travelled approximately 30 miles.",
+      "source_quote": "The balloon was airborne for approximately 30-miles and reached a height of nearly 13,000ft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 578,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Two Air National Guard helicopters joined the tracking effort at around the 15-mile point.",
+      "source_quote": "Two ANG helos joined in on the trail at around the 15-mile point of the flight",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 774,
+        "len": 43,
+        "exact": false,
+        "matched": "l at around the 15-mile point of the flight"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The TV helicopter first filmed the balloon within 1–1.5 miles of the launch site.",
+      "source_quote": "the helo first filmed the balloon within 1-1.5-miles of the launch site",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1434,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No altitude data was available because the balloon had no transponder or Mode-C readout.",
+      "source_quote": "None of our resources have the ability to depict altitude data due to the ACFT being without an operating transponder",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1604,
+        "len": 117,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The family had previously been part of a reality TV show.",
+      "source_quote": "the family of the boy...has in the past been part of a Reality TV show",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1849,
+        "len": 45,
+        "exact": false,
+        "matched": "as in the past been part of a Reality TV show"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "CNN reported the boy was found safe at home and was never aboard the balloon.",
+      "source_quote": "CNN reports boy found at home, safe and was never aboard the balloon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1902,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T20:40:32.005Z",
+  "qa_completed_at": "2026-06-01T20:41:21.963Z",
+  "timing": {
+    "A": "24.7s",
+    "B": "25.3s",
+    "E": "19.4s"
+  },
+  "public_headline": "FAA Tracked a Homemade Balloon Mistaken for a UFO in 2009",
+  "public_tldr": "This is an FAA SKYWATCH incident report from October 2009 documenting a homemade helium balloon, built to resemble a UFO, that was tracked over the Denver area after a father reported his six-year-old son might be aboard. The child was later found safe at home and had never been on the balloon — the widely covered 'Balloon Boy' incident.",
+  "public_narrative": "This document is an internal FAA incident report filed under the SKYWATCH programme, catalogued as record 237UAP00010. It records events on 16 October 2009 in the Denver, Colorado area. The reporting facility was ZDV (Denver Center), and the case is marked as closed.\n\nAt 17:30 local time, a father contacted Denver Center air traffic control directly to report that his six-year-old son had gone airborne in a helium-filled balloon he had built to resemble a UFO. The balloon reached altitudes of 12,000 to 13,000 feet and travelled approximately 30 miles. Because it carried no transponder or Mode-C readout, air traffic control had no way to track its altitude using standard radar resources.\n\nA television news helicopter began filming the balloon within 1 to 1.5 miles of the launch site and followed it for nearly the entire flight. Two Air National Guard helicopters joined the pursuit at around the 15-mile point. The balloon eventually landed softly in a clearing at a point designated DEN026, about 10.4 miles out.\n\nThe report notes that the family had previously appeared on a reality television show. CNN later reported that the boy was found safe at home and had never been aboard the balloon. The incident became widely known as the 'Balloon Boy' hoax.\n\nThis record appears in the PURSUE UAP collection likely because the object was initially unidentified and was designed to look like a UFO. It is not a genuine unidentified aerial phenomenon case — it documents a resolved incident with a known explanation.",
+  "public_caveats": [
+    "This is a single-source FAA internal record reflecting only what air traffic control observed and was told in real time — it does not include any independent investigation or follow-up findings.",
+    "No individual names appear in the report text, even though the incident involved a publicly known family.",
+    "The document's inclusion in the PURSUE UAP release does not mean it represents a genuine unidentified object — the balloon was identified and the case was closed.",
+    "Redaction evidence is low; the report appears largely complete as released.",
+    "The incident date in the source document is 2009, not 2023 — the 2023 date in the catalogue metadata likely reflects when the record was processed or released, not when the event occurred."
+  ]
+}

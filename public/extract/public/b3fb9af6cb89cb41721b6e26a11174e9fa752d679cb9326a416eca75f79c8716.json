@@ -1,0 +1,210 @@
+{
+  "sha256": "b3fb9af6cb89cb41721b6e26a11174e9fa752d679cb9326a416eca75f79c8716",
+  "title": "FAA UAP record 237UAP00052",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included.",
+    "Case is marked Closed with no resolution or explanation provided in this document.",
+    "The phenomenon was not visually confirmed by ATC or other aircraft based on the information available in this report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2021-05-21",
+      "source_quote": "Date: 05:58 05/21/2021",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N992CE",
+      "source_quote": "Callsign: N992CE",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_of_aircraft",
+      "value": "FL210 (21,000 feet)",
+      "source_quote": "NE bound at FL210",
+      "citation_offset": {
+        "offset": 378,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_position",
+      "value": "11 o'clock, 9.6 NM SE of LFD",
+      "source_quote": "off the 11 o'clock position while NE bound at FL210, 9.6 NM SE of LFD",
+      "citation_offset": {
+        "offset": 344,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_altitude",
+      "value": "FL350 (approximately 35,000 feet)",
+      "source_quote": "at approximately FL350",
+      "citation_offset": {
+        "offset": 494,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Cluster of lights traveling in a circular direction",
+      "source_quote": "cluster of lights traveling in a circular direction",
+      "citation_offset": {
+        "offset": 442,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notified",
+      "value": "Hillsdale PD at 517-439-9913",
+      "source_quote": "Hillsdale PD notified at 517-439-9913",
+      "citation_offset": {
+        "offset": 518,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DAL",
+    "PTK",
+    "LFD",
+    "DEN",
+    "ZOB"
+  ],
+  "dated_events": [
+    "2021-05-21"
+  ],
+  "objects_described": [
+    "Cluster of lights traveling in a circular direction at FL350"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A general aviation aircraft (N992CE) reported a UAP while flying northeast-bound at 21,000 feet on 21 May 2021.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the 11 o'clock position while NE bound at FL210",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was described as a cluster of lights moving in a circular pattern at approximately 35,000 feet.",
+      "source_quote": "cluster of lights traveling in a circular direction at approximately FL350",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 442,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 9.6 nautical miles southeast of LFD.",
+      "source_quote": "9.6 NM SE of LFD",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 397,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Hillsdale Police Department was notified about the incident.",
+      "source_quote": "Hillsdale PD notified at 517-439-9913",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 518,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:19:07.655Z",
+  "qa_completed_at": "2026-06-01T21:19:43.011Z",
+  "timing": {
+    "A": "19.7s",
+    "B": "15.7s",
+    "E": "16.9s"
+  },
+  "public_headline": "FAA Report: Pilot Saw Circular Lights at 35,000 Feet in 2021",
+  "public_tldr": "This FAA SKYWATCH incident report documents a general aviation pilot's sighting of a cluster of lights moving in a circular pattern at approximately 35,000 feet on 21 May 2021. The case was closed with no resolution or explanation provided, and no corroborating radar data or additional witness accounts are included in the document.",
+  "public_narrative": "On 21 May 2021, the pilot of a general aviation aircraft with callsign N992CE reported an unidentified aerial phenomenon to the FAA. The aircraft was flying northeast at 21,000 feet, approximately 9.6 nautical miles southeast of LFD, when the pilot observed something unusual off the 11 o'clock position — to the left and slightly ahead.\n\nThe pilot described the phenomenon as a cluster of lights travelling in a circular direction at approximately 35,000 feet — roughly 14,000 feet above the aircraft's own altitude. Hillsdale Police Department was notified about the incident.\n\nThe FAA logged the sighting under its SKYWATCH programme as record 237UAP00052. The case status is marked as Closed, but the document provides no resolution, identification, or explanation for what the pilot observed.\n\nNotably, the report contains no mention of air traffic control or other aircraft visually confirming the phenomenon. No radar data is referenced. This is a single-witness account recorded through the FAA's reporting system.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data or additional witness accounts are included in the document.",
+    "The case is marked Closed with no resolution or explanation — 'closed' does not mean 'identified' or 'explained'.",
+    "Air traffic control did not visually confirm the phenomenon based on the information available in this report.",
+    "The document shows low evidence of redaction, meaning most of the report content appears to be available as filed.",
+    "The incident date in the document is May 2021, though the record was released as part of a broader 2023-era FAA disclosure."
+  ]
+}

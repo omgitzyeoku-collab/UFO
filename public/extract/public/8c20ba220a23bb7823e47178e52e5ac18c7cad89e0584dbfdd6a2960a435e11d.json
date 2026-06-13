@@ -1,0 +1,254 @@
+{
+  "sha256": "8c20ba220a23bb7823e47178e52e5ac18c7cad89e0584dbfdd6a2960a435e11d",
+  "title": "FAA UAP record 237UAP00266",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon encounter by a commercial aircraft near JFK airport.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot observation with no corroborating radar data or additional witnesses mentioned.",
+    "The object was not identified or recovered, so the description remains unverified.",
+    "Report is marked as closed with no indication of follow-up investigation or resolution."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-05-29 at 22:20",
+      "source_quote": "Date: 22:20 05/29/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft callsign",
+      "value": "JRE785",
+      "source_quote": "Callsign: JRE785",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "JRE (Commercial)",
+      "source_quote": "Operator: JRE",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 246,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 190 (approx. 19,000 ft)",
+      "source_quote": "NE bound at FL 190",
+      "citation_offset": {
+        "offset": 349,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "10 nautical miles south of JFK",
+      "source_quote": "10 NM S of JFK",
+      "citation_offset": {
+        "offset": 369,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "White cylindrical shape, approximately the size of three bowling balls",
+      "source_quote": "a white cylindrical shape, approximately size of three bowling balls",
+      "citation_offset": {
+        "offset": 412,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object direction of travel",
+      "value": "Eastbound",
+      "source_quote": "traveling E bound at approximately FL 190",
+      "citation_offset": {
+        "offset": 482,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Proximity classification",
+      "value": "Near miss",
+      "source_quote": "PIC reported as a near miss",
+      "citation_offset": {
+        "offset": 525,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action taken",
+      "value": "None",
+      "source_quote": "No evasive maneuvers taken",
+      "citation_offset": {
+        "offset": 554,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "JFK",
+    "SAV",
+    "POU",
+    "ZNY",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-05-29"
+  ],
+  "objects_described": [
+    "White cylindrical object approximately the size of three bowling balls"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial aircraft flying from Savannah to Poughkeepsie encountered an unidentified object near JFK airport on May 29, 2023.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while NE bound at FL 190, 10 NM S of JFK",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 291,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was white, cylindrical, and approximately the size of three bowling balls.",
+      "source_quote": "a white cylindrical shape, approximately size of three bowling balls",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 412,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was traveling eastbound at approximately the same altitude as the aircraft (FL 190).",
+      "source_quote": "traveling E bound at approximately FL 190",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 482,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot in command classified the encounter as a near miss.",
+      "source_quote": "PIC reported as a near miss",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 525,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive maneuvers were taken by the aircraft.",
+      "source_quote": "No evasive maneuvers taken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 554,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:46:16.572Z",
+  "qa_completed_at": "2026-06-02T00:46:55.895Z",
+  "timing": {
+    "A": "19.0s",
+    "B": "20.3s",
+    "E": "14.0s"
+  },
+  "public_headline": "Commercial Pilot Reports White Cylindrical Object Near JFK Airport",
+  "public_tldr": "An FAA SKYWATCH incident report documents a commercial aircraft encountering an unidentified white cylindrical object about 10 nautical miles south of JFK airport on 29 May 2023. The pilot classified it as a near miss at roughly 19,000 feet, but no evasive action was taken and the case was closed without apparent follow-up.",
+  "public_narrative": "On the evening of 29 May 2023, at 22:20, the crew of commercial flight JRE785 reported an unidentified aerial phenomenon while flying northeast at Flight Level 190 — roughly 19,000 feet — about 10 nautical miles south of John F. Kennedy International Airport in New York.\n\nThe pilot described the object as a white cylindrical shape, approximately the size of three bowling balls, travelling eastbound at roughly the same altitude as the aircraft. The pilot in command classified the encounter as a near miss, though no evasive manoeuvres were taken.\n\nThe report was filed under the FAA's SKYWATCH system and coded as an Unidentified Aerial Phenomenon. The case status is marked as closed, with no indication in the document of any follow-up investigation, resolution, or identification of the object.\n\nThe document is a single-page incident report with limited detail. It records only the pilot's account — there is no mention of corroborating radar data, additional witnesses, or any attempt to recover or further identify the object.",
+  "public_caveats": [
+    "This is a single-source report based solely on the pilot's observation — no corroborating radar data or additional witnesses are mentioned in the document.",
+    "The object was never identified or recovered, so the pilot's description of its shape and size remains unverified.",
+    "The case is marked as closed with no indication of follow-up investigation or resolution by the FAA.",
+    "There is low evidence of redaction in this document — it appears to be a routine incident filing rather than a heavily censored record.",
+    "The term 'near miss' reflects the pilot's own classification, not an independent assessment of how close the object came to the aircraft."
+  ]
+}

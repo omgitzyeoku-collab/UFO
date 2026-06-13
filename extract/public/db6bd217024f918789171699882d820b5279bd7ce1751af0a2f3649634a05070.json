@@ -1,0 +1,191 @@
+{
+  "sha256": "db6bd217024f918789171699882d820b5279bd7ce1751af0a2f3649634a05070",
+  "title": "FAA UAP record 237UAP00122",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or sensor evidence included in this document.",
+    "The report refers to the UAP as 'the aircraft' in one instance, suggesting the crew may have believed it was a conventional aircraft they could not identify.",
+    "No tail number is listed for the reporting aircraft, limiting independent verification.",
+    "Status is marked 'Closed' with no resolution or explanation provided."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time",
+      "value": "2022-10-09 at 02:47",
+      "source_quote": "Date: 02:47 10/09/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "NKS75",
+      "source_quote": "Callsign: NKS75",
+      "citation_offset": {
+        "offset": 93,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of travel (UAP)",
+      "value": "Westbound",
+      "source_quote": "The unknown phenomenon was traveling W bound at a high rate of speed",
+      "citation_offset": {
+        "offset": 384,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Duration of sighting",
+      "value": "10–15 seconds",
+      "source_quote": "The aircraft was only visible for 10-15 seconds",
+      "citation_offset": {
+        "offset": 519,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Relative position of UAP",
+      "value": "Between reporting aircraft and two other aircraft 30 miles ahead",
+      "source_quote": "between their aircraft and the other two aircraft 30 miles ahead",
+      "citation_offset": {
+        "offset": 453,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 109,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "EWR",
+    "LAX",
+    "DEN"
+  ],
+  "dated_events": [
+    "2022-10-09"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon traveling westbound at high speed"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The UAP was traveling westbound at a high rate of speed at approximately FL340 altitude.",
+      "source_quote": "The unknown phenomenon was traveling W bound at a high rate of speed",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 384,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP passed between the reporting aircraft and two other aircraft located 30 miles ahead.",
+      "source_quote": "between their aircraft and the other two aircraft 30 miles ahead",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 453,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was visible for only 10–15 seconds.",
+      "source_quote": "The aircraft was only visible for 10-15 seconds",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 519,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting was reported to Denver Air Route Traffic Control Center (ZDV).",
+      "source_quote": "Reporting Facility: ZDV",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 161,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:30:50.641Z",
+  "qa_completed_at": "2026-06-01T22:31:32.198Z",
+  "timing": {
+    "A": "20.8s",
+    "B": "20.8s",
+    "E": "16.5s"
+  },
+  "public_headline": "FAA Report: Pilot on Spirit Airlines Flight Spotted Fast-Moving Object",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon on 9 October 2022. The crew of Spirit Airlines flight NKS75 reported a fast-moving, westbound object that was visible for only 10–15 seconds before the case was closed with no explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unusual aerial sightings reported by pilots and air traffic controllers. It was filed under the primary code \"Unidentified Aerial Phenomenon\" and assigned case number 237UAP00122.\n\nOn 9 October 2022 at 02:47, the crew of Spirit Airlines flight NKS75 reported an unknown object to Denver Air Route Traffic Control Center (ZDV). According to the report, the object was travelling westbound at a high rate of speed and passed between the reporting aircraft and two other aircraft located roughly 30 miles ahead. The object was visible for only 10–15 seconds.\n\nThe document references airports EWR (Newark), LAX (Los Angeles), and DEN (Denver), though no specific incident location is stated. No tail number is recorded for the reporting aircraft, and no radar data or sensor evidence is included in the file.\n\nThe case status is marked \"Closed.\" No resolution, identification, or explanation of the object is provided anywhere in the document. The FAA simply logged the sighting and closed it.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data, photographs, or sensor evidence included.",
+    "The report itself refers to the object as 'the aircraft' in one instance, suggesting the crew may have initially believed it was a conventional aircraft they simply could not identify.",
+    "No tail number is listed for the reporting aircraft, which limits independent verification of the flight.",
+    "The case is marked 'Closed' with no resolution or explanation — the FAA did not state what the object was or was not.",
+    "The incident date in the document is October 2022, though the record is catalogued under a 2023 case number."
+  ]
+}

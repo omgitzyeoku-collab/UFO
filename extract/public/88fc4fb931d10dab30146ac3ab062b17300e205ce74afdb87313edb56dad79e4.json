@@ -1,0 +1,205 @@
+{
+  "sha256": "88fc4fb931d10dab30146ac3ab062b17300e205ce74afdb87313edb56dad79e4",
+  "title": "FAA UAP record 237UAP00171",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This report coincides with the early February 2023 period when multiple high-altitude balloon incursions were detected over North America, including the Chinese surveillance balloon shot down on 4 February 2023.",
+    "The observer estimated the balloon's altitude visually from 34,000 feet — altitude estimates at such distances are inherently imprecise.",
+    "Single-source pilot observation with no corroborating radar data or imagery included in this document.",
+    "The FAA classified this as a UAP, though the crew described it as a 'large balloon' — the UAP classification reflects that the object was not positively identified at the time of reporting."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-02-03T15:54 UTC (report timestamp); 02/03/2023 on header",
+      "source_quote": "Date: 15:54 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "SWA3125",
+      "source_quote": "Callsign: SWA3125",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_of_aircraft",
+      "value": "FL340 (34,000 feet)",
+      "source_quote": "W bound at FL340",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Large balloon at approximately FL500 (50,000 feet) and above",
+      "source_quote": "Aircraft reported a large balloon off the right side while W bound at FL340, OVHD STJ. The balloon was at approximately FL500 and above.",
+      "citation_offset": {
+        "offset": 291,
+        "len": 136,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_position_relative",
+      "value": "Off the right side of the aircraft",
+      "source_quote": "a large balloon off the right side",
+      "citation_offset": {
+        "offset": 309,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "MDW",
+    "COS",
+    "STJ",
+    "ZKC"
+  ],
+  "dated_events": [
+    "02/03/2023",
+    "2023-02-03T15:54"
+  ],
+  "objects_described": [
+    "Large balloon at approximately FL500"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Southwest Airlines flight SWA3125 reported a large balloon while westbound at FL340 over St. Joseph, Missouri",
+      "source_quote": "Aircraft reported a large balloon off the right side while W bound at FL340, OVHD STJ.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 291,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon was estimated at approximately 50,000 feet or above",
+      "source_quote": "The balloon was at approximately FL500 and above.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 378,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was operating from Chicago Midway to Colorado Springs",
+      "source_quote": "Origin: MDW Destination: COS",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was classified under the primary code Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case status is closed",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:18:54.279Z",
+  "qa_completed_at": "2026-06-01T23:19:35.093Z",
+  "timing": {
+    "A": "20.7s",
+    "B": "20.1s",
+    "E": "16.9s"
+  },
+  "public_headline": "Southwest Crew Reported High-Altitude Balloon Over Missouri in 2023",
+  "public_tldr": "This FAA incident report documents a Southwest Airlines crew observing a large balloon at roughly 50,000 feet while flying at 34,000 feet over Missouri on 3 February 2023. The FAA classified it as an Unidentified Aerial Phenomenon and closed the case.",
+  "public_narrative": "On 3 February 2023, the crew of Southwest Airlines flight SWA3125 reported spotting a large balloon while flying westbound at 34,000 feet. The aircraft was operating from Chicago Midway (MDW) to Colorado Springs (COS) and was overhead St. Joseph, Missouri (STJ) at the time. The crew described the object as off the right side of the aircraft, estimating its altitude at approximately 50,000 feet or above.\n\nThe FAA logged the sighting under its SKYWATCH system and classified it with the primary code \"Unidentified Aerial Phenomenon.\" That classification reflects the fact that the object was not positively identified at the time of reporting — the crew themselves described it as a balloon, but the FAA applies the UAP label when an object cannot be confirmed.\n\nThe case is now closed. The document contains no indication of follow-up investigation, corroborating radar data, or imagery. It is a single-page incident report with minimal detail beyond the crew's observation.\n\nThe timing is notable: this sighting occurred one day before the US military shot down a Chinese surveillance balloon on 4 February 2023, during a period when multiple high-altitude balloon incursions were detected over North America.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar data or imagery included in the document.",
+    "The crew estimated the balloon's altitude visually from 34,000 feet — such estimates at long range are inherently imprecise.",
+    "The FAA classified this as a UAP because the object was not positively identified, not because it exhibited unusual behaviour. The crew described it as a balloon.",
+    "The sighting occurred during the early February 2023 period of multiple high-altitude balloon incursions over North America, which may provide context for what was observed.",
+    "The document shows low evidence of redaction — what you see is essentially the full record, which is brief by nature."
+  ]
+}

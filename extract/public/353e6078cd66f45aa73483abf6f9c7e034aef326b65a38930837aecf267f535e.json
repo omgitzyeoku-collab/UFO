@@ -1,0 +1,242 @@
+{
+  "sha256": "353e6078cd66f45aa73483abf6f9c7e034aef326b65a38930837aecf267f535e",
+  "title": "FAA UAP record 237UAP00185",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "A SKYWATCH incident report from the FAA documenting an unidentified aerial phenomenon observed by multiple aircraft in Kansas City Center airspace.",
+  "core_summary": "On 3 February 2023, Kansas City Air Route Traffic Control Center (ZKC) Sector R26 received reports from multiple aircraft, starting with SCX623, of suspicious UAS activity near the PWE120025 fix. The object appeared to be a balloon at flight level 500 (approximately 50,000 feet) moving southeast-bound, and traffic advisories were issued to all affected aircraft.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The date (3 February 2023) coincides with the period of Chinese high-altitude balloon incursions over the US; this report may relate to that series of events.",
+    "FL500 (50,000 feet) is well above normal commercial aircraft altitude and consistent with high-altitude surveillance balloon operations.",
+    "The report is a single-source ATC incident filing; no independent sensor data or visual confirmation details are included.",
+    "The incident was marked 'Closed' and 'Paged: NO', suggesting it was not escalated as an emergency."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2023-02-03 at 14:52",
+      "source_quote": "Date: 14:52 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 103,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_sector",
+      "value": "R26",
+      "source_quote": "ZKC Sector R26 reported numerous aircraft",
+      "citation_offset": {
+        "offset": 159,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "first_reporting_aircraft",
+      "value": "SCX623",
+      "source_quote": "starting with SCX623 reported Suspicious UAS Activity",
+      "citation_offset": {
+        "offset": 201,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_location",
+      "value": "Vicinity of PWE120025",
+      "source_quote": "in the vicinity of the PWE120025",
+      "citation_offset": {
+        "offset": 255,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Balloon at FL500 moving southeast",
+      "source_quote": "appeared to be a balloon at FL500 moving SE bound",
+      "citation_offset": {
+        "offset": 308,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "airspace_transition",
+      "value": "Entered R94 airspace at approximately 1726z",
+      "source_quote": "enter R94's airspace at approximately 1726z",
+      "citation_offset": {
+        "offset": 437,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "action_taken",
+      "value": "Traffic advisories issued to all affected aircraft",
+      "source_quote": "all affected aircraft were issued traffic advisories",
+      "citation_offset": {
+        "offset": 359,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "activity_status",
+      "value": "Ongoing at time of report",
+      "source_quote": "The suspicious UAS activity is ongoing",
+      "citation_offset": {
+        "offset": 482,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "paged",
+      "value": "No",
+      "source_quote": "Paged: NO",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "PWE120025",
+    "R94 airspace"
+  ],
+  "dated_events": [
+    "02/03/2023",
+    "1726z"
+  ],
+  "objects_described": [
+    "SCX623 (reporting aircraft)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Multiple aircraft reported suspicious UAS activity near PWE120025 on 3 February 2023",
+      "source_quote": "ZKC Sector R26 reported numerous aircraft starting with SCX623 reported Suspicious UAS Activity in the vicinity of the PWE120025",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 159,
+        "len": 128,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object appeared to be a balloon operating at flight level 500, far above normal commercial aviation altitudes",
+      "source_quote": "appeared to be a balloon at FL500 moving SE bound",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 308,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object transitioned into R94 airspace at approximately 1726 Zulu time",
+      "source_quote": "The balloon appeared to enter R94's airspace at approximately 1726z",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 413,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Traffic advisories were issued to all affected aircraft",
+      "source_quote": "all affected aircraft were issued traffic advisories",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 359,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The suspicious activity was still ongoing at the time the report was filed",
+      "source_quote": "The suspicious UAS activity is ongoing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 482,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:32:33.977Z",
+  "qa_completed_at": "2026-06-01T23:33:12.694Z",
+  "timing": {
+    "A": "21.0s",
+    "B": "17.7s",
+    "E": "17.6s"
+  },
+  "public_headline": "Multiple Aircraft Report High-Altitude Balloon Over Kansas City Airspace",
+  "public_tldr": "This FAA incident report documents multiple aircraft reporting a suspected unidentified aerial object — described as a balloon at approximately 50,000 feet — moving southeast through Kansas City Center airspace on 3 February 2023. Traffic advisories were issued but the incident was closed without escalation.",
+  "public_narrative": "On 3 February 2023 at 14:52, the Federal Aviation Administration (FAA) filed a SKYWATCH incident report after Kansas City Air Route Traffic Control Center (ZKC), Sector R26, received reports from multiple aircraft of suspicious unmanned aircraft system (UAS) activity. The first report came from aircraft SCX623, with sightings concentrated near the navigational fix PWE120025.\n\nThe object was described as appearing to be a balloon operating at Flight Level 500 — roughly 50,000 feet, well above the altitude at which commercial aircraft normally fly. It was moving in a southeast direction. The balloon appeared to enter R94 airspace at approximately 1726 Zulu time (coordinated universal time). All affected aircraft were issued traffic advisories by air traffic control.\n\nAt the time the report was filed, the suspicious UAS activity was described as ongoing. The incident was marked as closed and was not escalated — the report notes it was not paged to higher authorities.\n\nThe date of this incident falls during the period in early February 2023 when several high-altitude balloon incursions over US airspace were widely reported in the press. The FAA report itself does not draw any connection or reach a stated conclusion about the object's origin or identity.",
+  "public_caveats": [
+    "This is a single-source air traffic control filing. No independent sensor data, radar tracks, or visual confirmation details are included in the report.",
+    "The object was reported by pilots and described as a balloon, but the FAA classified it under 'Unidentified Aerial Phenomenon' — meaning it was not positively identified.",
+    "The incident date (3 February 2023) coincides with a series of confirmed Chinese high-altitude balloon incursions over the United States, though this report does not reference that context.",
+    "The case was closed and not escalated, which suggests the FAA did not treat it as an emergency at the time.",
+    "Redaction levels in this document are low, but the report is brief and contains no follow-up investigation or final determination."
+  ]
+}

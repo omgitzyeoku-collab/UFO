@@ -1,0 +1,258 @@
+{
+  "sha256": "104631838de8e5fdacf5e324b7888384340562678808285b33a6c0e2a158a045",
+  "title": "FAA UAP record 237UAP00364",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot observation; no corroborating radar data.",
+    "The case is marked 'Closed' with no resolution or explanation provided.",
+    "Pilot video is referenced but not included in the released document.",
+    "No follow-up investigation details or MOR content included.",
+    "The document date (March 2024) is later than the CSV-indicated incident year (2023), suggesting a possible metadata discrepancy."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2024-03-16 at 06:16",
+      "source_quote": "Date: 06:16 03/16/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N473KW",
+      "source_quote": "Callsign: N473KW",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL410 (41,000 feet)",
+      "source_quote": "W bound at FL410",
+      "citation_offset": {
+        "offset": 364,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "40 nautical miles northwest of IAH (Houston Intercontinental Airport)",
+      "source_quote": "40NM NW of IAH",
+      "citation_offset": {
+        "offset": 382,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "description_of_uap",
+      "value": "3 bright lights coming together",
+      "source_quote": "The unknown phenomenon was 3 bright lights coming together",
+      "citation_offset": {
+        "offset": 398,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar systems",
+      "citation_offset": {
+        "offset": 458,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "video_evidence",
+      "value": "Pilot-in-command recorded video",
+      "source_quote": "PIC has video of event",
+      "citation_offset": {
+        "offset": 533,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "mor_filed",
+      "value": "Mandatory Occurrence Report to be filed",
+      "source_quote": "MOR will be filed",
+      "citation_offset": {
+        "offset": 514,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "IAH",
+    "SEF",
+    "TRM",
+    "DEN",
+    "ZHU"
+  ],
+  "dated_events": [
+    "03/16/2024"
+  ],
+  "objects_described": [
+    "E35L aircraft",
+    "3 bright lights (UAP)",
+    "ATC facility radar systems"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "An aircraft with callsign N473KW was flying westbound at FL410 on 16 March 2024",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the front while W bound at FL410",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot observed three bright lights converging approximately 40 NM northwest of Houston Intercontinental Airport",
+      "source_quote": "The unknown phenomenon was 3 bright lights coming together",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 398,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon did not appear on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar systems",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 458,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot-in-command captured video of the event",
+      "source_quote": "PIC has video of event",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 533,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A Mandatory Occurrence Report was to be filed",
+      "source_quote": "MOR will be filed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 514,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:18:01.436Z",
+  "qa_completed_at": "2026-06-02T02:18:42.442Z",
+  "timing": {
+    "A": "22.1s",
+    "B": "18.9s",
+    "E": "20.0s"
+  },
+  "public_headline": "FAA Report: Pilot Saw Three Bright Lights Converge Near Houston",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a general aviation pilot's sighting of three bright lights converging while flying at 41,000 feet northwest of Houston. The lights did not appear on air traffic control radar, the pilot recorded video, and the case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under the code \"Unidentified Aerial Phenomenon.\" It records an event involving a general aviation aircraft with the callsign N473KW, flying westbound at 41,000 feet approximately 40 nautical miles northwest of Houston Intercontinental Airport (IAH).\n\nThe pilot reported seeing three bright lights coming together off the front of the aircraft. Air traffic control checked their radar systems but did not detect anything corresponding to the lights. The pilot-in-command recorded video of the event, and a Mandatory Occurrence Report (MOR) was noted as pending.\n\nThe case is marked \"Closed,\" but the document provides no resolution, explanation, or follow-up investigation details. The referenced pilot video is not included in the released material, and no MOR content appears in the file. The report is dated 16 March 2024, though the dataset lists the incident year as 2023 — a metadata discrepancy worth noting.\n\nThe document is a single-page administrative form. It is not a detailed investigation. It records what the pilot reported and what radar did or did not show, and nothing more.",
+  "public_caveats": [
+    "This is a single-source report based entirely on what one pilot observed. No corroborating radar data exists — ATC confirmed the lights did not appear on their systems.",
+    "The pilot's video is referenced but not included in the released document, so its contents cannot be independently assessed.",
+    "The case is marked 'Closed' with no resolution or explanation, meaning the FAA did not publicly identify what the pilot saw.",
+    "There is a date discrepancy: the report is dated March 2024 but the dataset lists the incident year as 2023.",
+    "No follow-up investigation details or Mandatory Occurrence Report content are included in the release."
+  ]
+}

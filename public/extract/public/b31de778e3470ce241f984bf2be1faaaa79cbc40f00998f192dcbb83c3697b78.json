@@ -1,0 +1,200 @@
+{
+  "sha256": "b31de778e3470ce241f984bf2be1faaaa79cbc40f00998f192dcbb83c3697b78",
+  "title": "FAA UAP record 237UAP00225",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon during a commercial flight in Alaska.",
+  "core_summary": "On 21 February 2023, the crew of commercial flight RVF140 (a De Havilland Dash 8) reported observing a round, black, stationary object at approximately 16,000+ feet while flying south-west bound at 6,000 feet, located 52 nautical miles northwest of Kenai, Alaska. The Alaska NORAD Region was notified and the case was closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts included in this report.",
+    "The case is marked 'Closed' with no resolution or identification provided — closure does not imply the object was identified.",
+    "No tail number is recorded for the reporting aircraft, which limits cross-referencing."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-02-21 at 03:29 UTC",
+      "source_quote": "Date: 03:29 02/21/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "RVF140",
+      "source_quote": "Callsign: RVF140",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "DH8A (De Havilland Dash 8)",
+      "source_quote": "Aircraft: DH8A",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 257,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "6,000 feet",
+      "source_quote": "SW bound at 6,000 feet",
+      "citation_offset": {
+        "offset": 393,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object location relative to aircraft",
+      "value": "52 NM northwest (bearing 312°) of ENA",
+      "source_quote": "52 NM NW (312) of ENA",
+      "citation_offset": {
+        "offset": 417,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Round, black, stationary at approximately 16,000+ feet",
+      "source_quote": "The unknown phenomenon was round and black stationary at approximately 16,000+ feet",
+      "citation_offset": {
+        "offset": 440,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Military notification",
+      "value": "Alaska NORAD Region notified",
+      "source_quote": "ANR (AK NORAD Region) notified",
+      "citation_offset": {
+        "offset": 525,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "A11-M-2023/02/20-0001",
+      "source_quote": "MOR ID: A11-M-2023/02/20-0001",
+      "citation_offset": {
+        "offset": 297,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN"
+  ],
+  "dated_events": [
+    "02/21/2023",
+    "2023-02-21T03:29"
+  ],
+  "objects_described": [
+    "Round black stationary object at 16,000+ feet"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Ravn Alaska flight reported a UAP while en route from Anchorage to Kenai on 21 February 2023.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while SW bound at 6,000 feet, 52 NM NW (312) of ENA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 335,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observed object was round, black, and stationary at approximately 16,000 feet or higher.",
+      "source_quote": "The unknown phenomenon was round and black stationary at approximately 16,000+ feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 440,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Alaska NORAD Region was notified of the sighting.",
+      "source_quote": "ANR (AK NORAD Region) notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 525,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:09:08.132Z",
+  "qa_completed_at": "2026-06-02T00:09:44.567Z",
+  "timing": {
+    "A": "19.7s",
+    "B": "16.7s",
+    "E": "22.2s"
+  },
+  "public_headline": "Commercial Pilot Reports Black Stationary Object Over Alaska at 16,000 Feet",
+  "public_tldr": "An FAA incident report documents a commercial airline crew observing a round, black, stationary object at roughly 16,000 feet over Alaska on 21 February 2023. The Alaska NORAD Region was notified, and the case was closed without any identification of the object.",
+  "public_narrative": "On 21 February 2023 at 03:29 UTC, the crew of a De Havilland Dash 8 flying under callsign RVF140 reported an unidentified aerial phenomenon to the FAA. The commercial flight was south-west bound at 6,000 feet, positioned 52 nautical miles northwest of Kenai, Alaska (bearing 312° from ENA, Kenai's airport code).\n\nThe crew described the object as round, black, and stationary at approximately 16,000 feet or higher — well above their own altitude. The FAA logged the sighting under its SKYWATCH programme, which tracks reports of unidentified aerial phenomena from pilots and air traffic controllers.\n\nThe Alaska NORAD Region (the military's North American air-defence command for Alaska) was notified. The report was assigned MOR ID A11-M-2023/02/20-0001. Despite the military notification, the case is marked as closed. No resolution or identification of the object is recorded in the document — closure does not mean the object was explained.\n\nThe report contains minimal detail beyond the pilot's observation. No radar data, photographs, or additional witness accounts are included. No tail number is recorded for the reporting aircraft, limiting the ability to cross-reference the sighting with other records.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No corroborating radar data, imagery, or independent witness accounts are included in the report.",
+    "The case is marked 'Closed' — but closure does not mean the object was identified. No explanation or classification is provided.",
+    "No tail number is recorded for the reporting aircraft, which makes independent cross-referencing difficult.",
+    "The level of redaction is low, but the report is also sparse: it records what the crew saw and who was notified, and nothing more.",
+    "ENA refers to Kenai Municipal Airport in Alaska. NORAD is the North American Aerospace Defense Command."
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "sha256": "27cc9523e5d944aa8ae9ce77d10b985b19016d00e6ba4ad54da7ff80fdd5c800",
+  "title": "FAA UAP record 237UAP00374",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon encounter by commercial aircraft.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Only one pilot (AAL1913) achieved visual contact; all other aircraft detected objects on TCAS only.",
+    "TCAS detections without corresponding radar returns is unusual and could indicate transponder-like signals from an unknown source, or TCAS anomalies.",
+    "The pilot could not identify the type of aircraft observed, limiting physical description to 'light grey' and 'slow moving'.",
+    "The incident date in the header metadata says 2023 but the actual report is dated 2024-07-05 — there is a discrepancy between the catalogue date and the document contents.",
+    "Case is marked 'Closed' with no resolution or explanation noted in the report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2024-07-05 at 20:35 UTC",
+      "source_quote": "Date: 20:35 07/05/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft callsign",
+      "value": "AAL1913",
+      "source_quote": "Callsign: AAL1913",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Chicago O'Hare (ORD) to Phoenix (PHX)",
+      "source_quote": "Origin: ORD Destination: PHX",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude of reporting aircraft",
+      "value": "Flight Level 260 (26,000 feet)",
+      "source_quote": "W bound at FL 260",
+      "citation_offset": {
+        "offset": 369,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Objects observed",
+      "value": "Flight of 2 followed by a single aircraft, slow-moving, opposite direction, at FL 300, light grey",
+      "source_quote": "a flight of 2 followed by a single aircraft, all slow moving, opposite direction at FL 300, light grey in color",
+      "citation_offset": {
+        "offset": 444,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "TCAS resolution advisory",
+      "value": "Received by AAL1913 and UAL1687",
+      "source_quote": "PIC reports receiving a TCAS RA... UAL1687 also reports receiving a TCAS RA",
+      "citation_offset": {
+        "offset": 625,
+        "len": 40,
+        "exact": false,
+        "matched": "UAL1687 also reports receiving a TCAS RA"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "UAL1687 visual contact",
+      "value": "None",
+      "source_quote": "UAL1687 also reports receiving a TCAS RA in that area but did not acquire traffic visually",
+      "citation_offset": {
+        "offset": 625,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar returns",
+      "value": "None — no primary or secondary radar returns on ATC radar",
+      "source_quote": "There were no primary or secondary radar returns depicted on ATC facility radar",
+      "citation_offset": {
+        "offset": 717,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Military confirmation",
+      "value": "Western Air Defense reported no aircraft in the area",
+      "source_quote": "Western Air Defense reports no aircraft in vicinity",
+      "citation_offset": {
+        "offset": 798,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Additional aircraft affected",
+      "value": "5 more aircraft reported TCAS contacts near Fort Riley, KS",
+      "source_quote": "5 more aircraft reported seeing traffic in close proximity on TCAS in the vicinity of Fort Riley, KS",
+      "citation_offset": {
+        "offset": 864,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "GPS testing",
+      "value": "No known GPS testing in the area",
+      "source_quote": "No know GPS testing in that area",
+      "citation_offset": {
+        "offset": 991,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ORD",
+    "PHX",
+    "FOE",
+    "Fort Riley, KS",
+    "ZKC"
+  ],
+  "dated_events": [
+    "2024-07-05"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon — flight of 2 plus 1 single object, slow-moving, opposite direction at FL 300, light grey in color",
+    "A321 commercial aircraft (AAL1913)",
+    "TCAS (Traffic Collision Avoidance System)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AAL1913 pilot received a TCAS resolution advisory indicating nearby traffic",
+      "source_quote": "PIC reports receiving a TCAS RA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 404,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Pilot visually observed three objects (a pair followed by a single) at FL 300, light grey, slow-moving in opposite direction",
+      "source_quote": "saw a flight of 2 followed by a single aircraft, all slow moving, opposite direction at FL 300, light grey in color",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 440,
+        "len": 115,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "United Airlines flight UAL1687 also received a TCAS RA in the same area but had no visual contact",
+      "source_quote": "UAL1687 also reports receiving a TCAS RA in that area but did not acquire traffic visually",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 625,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No primary or secondary radar returns were detected by ATC",
+      "source_quote": "There were no primary or secondary radar returns depicted on ATC facility radar",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 717,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Western Air Defense confirmed no known aircraft in the vicinity",
+      "source_quote": "Western Air Defense reports no aircraft in vicinity",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 798,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Five additional aircraft reported TCAS contacts near Fort Riley, Kansas, with no visual confirmation",
+      "source_quote": "5 more aircraft reported seeing traffic in close proximity on TCAS in the vicinity of Fort Riley, KS. Negative visual contact",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 864,
+        "len": 125,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No corresponding traffic was shown on radar for any of the TCAS contacts",
+      "source_quote": "No corresponding traffic depicted on radar",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1025,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No known GPS testing was occurring in the area",
+      "source_quote": "No know GPS testing in that area",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 991,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 8,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:27:06.321Z",
+  "qa_completed_at": "2026-06-02T02:27:55.638Z",
+  "timing": {
+    "A": "27.1s",
+    "B": "22.2s",
+    "E": "23.9s"
+  },
+  "public_headline": "Multiple Airlines Triggered Collision Alerts Over Kansas With Nothing on Radar",
+  "public_tldr": "An FAA SKYWATCH report documents an incident on 5 July 2024 in which an American Airlines pilot visually spotted three slow-moving, light-grey objects at 30,000 feet, while at least six other aircraft received collision-avoidance alerts in the same area near Fort Riley, Kansas. Neither air-traffic-control radar nor military air defence could account for any of the objects, and the case was closed without explanation.",
+  "public_narrative": "This document is an FAA incident report filed under case number 237UAP00374. It records an event on 5 July 2024 at 20:35 UTC involving American Airlines flight AAL1913, an A321 flying westbound from Chicago O'Hare to Phoenix at 26,000 feet.\n\nThe pilot reported that the aircraft's TCAS — the onboard Traffic Collision Avoidance System, which warns pilots of nearby aircraft — issued a resolution advisory, meaning it detected what it interpreted as traffic close enough to require evasive guidance. The pilot then visually observed three objects: a pair followed by a single object, all described as light grey, slow-moving, and travelling in the opposite direction at 30,000 feet. A United Airlines flight, UAL1687, received its own TCAS alert in the same area but the crew never saw anything.\n\nFive more aircraft subsequently reported TCAS contacts near Fort Riley, Kansas. None of those crews achieved visual contact either. Air-traffic-control radar showed no primary or secondary returns corresponding to any of the alerts — meaning whatever triggered the collision-avoidance systems was invisible to ground radar. Western Air Defense confirmed it had no aircraft in the vicinity, and no GPS testing was known to be taking place in the area.\n\nThe FAA marked the case as closed. The report contains no resolution, no identification of the objects, and no further explanation. There is minimal redaction in the document itself.",
+  "public_caveats": [
+    "Only one pilot (AAL1913) visually saw the objects. Every other aircraft detected them solely through TCAS, which could theoretically be triggered by transponder-like signals or system anomalies rather than physical aircraft.",
+    "The pilot's visual description is limited — 'light grey' and 'slow moving' — with no identification of aircraft type, size, or markings.",
+    "ATC radar detected nothing, and Western Air Defense reported no aircraft in the area, but the report does not discuss whether alternative explanations (electronic interference, TCAS malfunction, classified military activity) were investigated.",
+    "There is a date discrepancy: the catalogue lists the incident year as 2023, but the report itself is dated 5 July 2024.",
+    "The case is marked 'Closed' with no stated conclusion, which means the FAA did not publicly attribute the objects to any known source."
+  ]
+}

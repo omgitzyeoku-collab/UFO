@@ -1,0 +1,234 @@
+{
+  "sha256": "5feb06a8550dfd778ba1aa05d20077f169943a2c3d097c5fc8eca0e4fe6c0f23",
+  "title": "FAA UAP record 237UAP00116",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a general aviation flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included",
+    "The incident is marked as Closed with no resolution or explanation provided in the report",
+    "The description of lights observed over 100 NM suggests a wide-area phenomenon but no ground-based or satellite confirmation is referenced",
+    "Tail number and operator fields are blank, limiting independent verification of the flight"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date",
+      "value": "2022-09-27 at 06:00",
+      "source_quote": "Date: 06:00 09/27/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "N127RR",
+      "source_quote": "Callsign: N127RR",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL350 (35,000 feet)",
+      "source_quote": "SE bound at FL350",
+      "citation_offset": {
+        "offset": 413,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 253,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Sea of flashing white lights below aircraft altitude, not very bright, observed for over 100 NM",
+      "source_quote": "a sea of flashing white lights below their altitude. The lights were not very bright and observed for over 100NM",
+      "citation_offset": {
+        "offset": 489,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None reported",
+      "source_quote": "No evasive action reported",
+      "citation_offset": {
+        "offset": 603,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZKC-M-2022/09/27-0001",
+      "source_quote": "MOR ID: ZKC-M-2022/09/27-0001",
+      "citation_offset": {
+        "offset": 299,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "PDX",
+    "OKC",
+    "LBL",
+    "ZKC"
+  ],
+  "dated_events": [
+    "09/27/2022",
+    "2022-09-27T06:00"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as a sea of flashing white lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Gulfstream IV with callsign N127RR was flying southeast at FL350 on September 27, 2022",
+      "source_quote": "Callsign: N127RR ... Aircraft: GLF4 ... SE bound at FL350",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed flashing white lights below their altitude for over 100 nautical miles",
+      "source_quote": "a sea of flashing white lights below their altitude. The lights were not very bright and observed for over 100NM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 489,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 50 NM west-northwest of Liberal, Kansas",
+      "source_quote": "50NM WNW of LBL",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 432,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft",
+      "source_quote": "No evasive action reported",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 603,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Portland and was destined for Oklahoma City",
+      "source_quote": "Origin: PDX Destination: OKC",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 207,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO (Aviation Weather Operations) was advised",
+      "source_quote": "AWO advised",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 631,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:22:37.616Z",
+  "qa_completed_at": "2026-06-01T22:23:22.463Z",
+  "timing": {
+    "A": "21.6s",
+    "B": "23.3s",
+    "E": "28.1s"
+  },
+  "public_headline": "FAA Report: Pilot Saw Vast Field of Flashing Lights Over Kansas",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a general aviation pilot's sighting of unidentified flashing white lights while flying at 35,000 feet on 27 September 2022. The lights stretched below the aircraft for over 100 nautical miles near Liberal, Kansas, and the case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standard form the Federal Aviation Administration uses to log unusual aerial sightings reported by pilots. It was filed under the code \"Unidentified Aerial Phenomenon\" with reference number 237UAP00116.\n\nOn 27 September 2022 at 06:00, the crew of a Gulfstream IV business jet (callsign N127RR) was flying southeast at 35,000 feet on a route from Portland (PDX) to Oklahoma City (OKC). Approximately 50 nautical miles west-northwest of Liberal, Kansas, the crew reported seeing what they described as \"a sea of flashing white lights\" below their altitude. The lights were not very bright but were visible for over 100 nautical miles — a substantial distance. No evasive action was taken.\n\nThe report was logged under the Kansas City Air Route Traffic Control Center (ZKC) with MOR ID ZKC-M-2022/09/27-0001. Aviation Weather Operations (AWO) was advised of the sighting. The FAA marked the case as Closed, but the report contains no resolution, explanation, or follow-up analysis of what the lights were.\n\nSeveral fields in the report are blank, including the aircraft operator name and tail number, which limits the ability to independently verify the flight. No corroborating radar data, satellite imagery, or additional witness accounts are included in the document.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data, satellite confirmation, or independent witness accounts included in the document.",
+    "The case is marked Closed with no explanation or resolution — the FAA did not identify what the lights were, nor did it state that further investigation occurred.",
+    "Key identifying fields such as operator name and tail number are blank, making independent verification of the flight more difficult.",
+    "The description of lights spanning over 100 nautical miles suggests a wide-area phenomenon, but no ground-based observations are referenced to confirm it.",
+    "The incident date in the report is September 2022, though the record is catalogued under 2023-era FAA UAP files."
+  ]
+}

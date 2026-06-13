@@ -1,0 +1,218 @@
+{
+  "sha256": "69758351dccd6172ce124d9c650d1658d12d012c1141b1c3f1af72a511925de5",
+  "title": "FAA UAP record 237UAP00351",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation; no corroborating radar data.",
+    "Direction of the UAP's travel relative to the aircraft is noted as 'not given' in the remarks.",
+    "No tail number recorded for the reporting aircraft.",
+    "The case is marked as closed with no indication of follow-up investigation or resolution."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2024-02-04",
+      "source_quote": "Date: 20:53 02/04/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "NKS1337",
+      "source_quote": "Callsign: NKS1337",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "A320",
+      "source_quote": "Aircraft: A320",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL320 (approx. 32,000 ft)",
+      "source_quote": "at FL320",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "location_relative",
+      "value": "110 NM southeast of IAH",
+      "source_quote": "110NM SE of IAH",
+      "citation_offset": {
+        "offset": 383,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Silver, size of a small business jet, less than 1,000 ft above aircraft",
+      "source_quote": "silver and the size of a small business jet less than 1,000 feet above",
+      "citation_offset": {
+        "offset": 427,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 545,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "awo_notified",
+      "value": "Yes",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 596,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "IAH",
+    "MMUN",
+    "DEN",
+    "ZHU"
+  ],
+  "dated_events": [
+    "2024-02-04"
+  ],
+  "objects_described": [
+    "A320 commercial aircraft",
+    "Silver UAP described as size of a small business jet"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Spirit Airlines A320 (NKS1337) crew reported a UAP overflying their aircraft while at FL320, 110 NM SE of Houston.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon overfly them while NW bound at FL320, 110NM SE of IAH",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 293,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was silver and approximately the size of a small business jet, less than 1,000 feet above the aircraft.",
+      "source_quote": "silver and the size of a small business jet less than 1,000 feet above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 427,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected on ATC radar.",
+      "source_quote": "UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 545,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Cancún (MMUN) and was destined for Houston (IAH).",
+      "source_quote": "Origin: MMUN Destination: IAH",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Aviation Weather Office (AWO) was notified.",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 596,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:05:22.010Z",
+  "qa_completed_at": "2026-06-02T02:06:07.599Z",
+  "timing": {
+    "A": "26.0s",
+    "B": "19.6s",
+    "E": "16.5s"
+  },
+  "public_headline": "Spirit Airlines crew reported silver object above their A320 near Houston",
+  "public_tldr": "An FAA SKYWATCH incident report documents a Spirit Airlines A320 crew observing a silver, business-jet-sized object less than 1,000 feet above them at 32,000 feet, roughly 110 nautical miles southeast of Houston on 4 February 2024. The object did not appear on air traffic control radar, and the case was closed without further investigation.",
+  "public_narrative": "This is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unidentified aerial phenomenon (UAP) sightings reported by aircrew. It was filed under case number 237UAP00351.\n\nOn 4 February 2024, the crew of Spirit Airlines flight NKS1337, an Airbus A320 flying from Cancún (MMUN) to Houston (IAH), reported a UAP while cruising at Flight Level 320 (approximately 32,000 feet). The aircraft was about 110 nautical miles southeast of Houston Intercontinental Airport at the time.\n\nThe crew described the object as silver and roughly the size of a small business jet, passing less than 1,000 feet above their aircraft. Air traffic control confirmed the object was not visible on their radar system. The Aviation Weather Office (AWO) was notified.\n\nThe FAA marked the case as closed. There is no indication in the document of any follow-up investigation, resolution, or identification of the object. The report is based entirely on the flight crew's visual observation — no corroborating sensor data exists in the record.",
+  "public_caveats": [
+    "This is a single-source report based solely on what the flight crew saw with their eyes. No radar, infrared, or other sensor data corroborates the sighting.",
+    "The case is marked 'Closed' with no explanation of what the object was or any indication that further investigation occurred.",
+    "The direction of travel of the reported object is listed as 'not given' in the report's remarks.",
+    "No tail number was recorded for the reporting aircraft, which is unusual for an FAA incident form.",
+    "The document shows low evidence of redaction — it appears to be a routine, brief incident log rather than a detailed investigative file."
+  ]
+}

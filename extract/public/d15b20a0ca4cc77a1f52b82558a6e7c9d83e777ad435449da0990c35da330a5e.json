@@ -1,0 +1,225 @@
+{
+  "sha256": "d15b20a0ca4cc77a1f52b82558a6e7c9d83e777ad435449da0990c35da330a5e",
+  "title": "FAA UAP record 237UAP00131",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts mentioned in this report.",
+    "The report is brief and provides no follow-up investigation details; case status is marked Closed.",
+    "AWO/TY notification recipients are not explained in the document.",
+    "No tail number is recorded for the aircraft, which is unusual but not necessarily significant for a cargo operator report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time",
+      "value": "2022-11-18 at 08:50",
+      "source_quote": "Date: 08:50 11/18/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "UPS1052",
+      "source_quote": "Callsign: UPS1052",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL350 (approximately 35,000 feet)",
+      "source_quote": "NE bound at FL350",
+      "citation_offset": {
+        "offset": 368,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP appearance",
+      "value": "Stationary lights resembling aircraft landing lights, 30 degrees above horizon, off the right side",
+      "source_quote": "appeared as aircraft landing lights and was stationary 30 degrees above the horizon",
+      "citation_offset": {
+        "offset": 420,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP behaviour",
+      "value": "Disappeared and reappeared",
+      "source_quote": "Phenomenon disappeared and reappeared",
+      "citation_offset": {
+        "offset": 505,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Notification",
+      "value": "AWO/TY notified",
+      "source_quote": "AWO/TY notified",
+      "citation_offset": {
+        "offset": 544,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SDF",
+    "MHT",
+    "HNK",
+    "DEN"
+  ],
+  "dated_events": [
+    "2022-11-18"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon resembling stationary aircraft landing lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "UPS flight 1052 was flying northeast-bound at FL350 over HNK when the crew observed the phenomenon.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the right side while NE bound at FL350, over HNK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared as stationary aircraft landing lights positioned 30 degrees above the horizon.",
+      "source_quote": "The unknown phenomenon appeared as aircraft landing lights and was stationary 30 degrees above the horizon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 397,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon disappeared and then reappeared.",
+      "source_quote": "Phenomenon disappeared and reappeared",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 505,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO/TY was notified of the incident.",
+      "source_quote": "AWO/TY notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 544,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from SDF and was destined for MHT.",
+      "source_quote": "Origin: SDF Destination: MHT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:39:45.585Z",
+  "qa_completed_at": "2026-06-01T22:40:21.357Z",
+  "timing": {
+    "A": "19.4s",
+    "B": "16.4s",
+    "E": "18.3s"
+  },
+  "public_headline": "UPS Cargo Crew Reports Stationary Lights at 35,000 Feet",
+  "public_tldr": "This FAA SKYWATCH incident report documents a sighting by the crew of UPS flight 1052, who observed stationary lights resembling aircraft landing lights while flying at 35,000 feet over the HNK navigational waypoint on 18 November 2022. The lights appeared 30 degrees above the horizon, disappeared, and reappeared before the case was closed with no follow-up investigation detailed.",
+  "public_narrative": "This document is an FAA SKYWATCH Incident Report — a standardised form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena (UAP). It was filed under case number 237UAP00131 and classified with the primary code \"Unidentified Aerial Phenomenon.\"\n\nOn 18 November 2022 at 08:50, the crew of UPS flight 1052, a commercial cargo flight travelling northeast from Louisville (SDF) to Manchester, New Hampshire (MHT), reported an unknown phenomenon while cruising at flight level 350 (approximately 35,000 feet). The sighting occurred over the HNK navigational fix. The crew described stationary lights off the right side of the aircraft that resembled aircraft landing lights, positioned roughly 30 degrees above the horizon.\n\nThe lights then disappeared and reappeared. The report notes that AWO/TY was notified, though the document does not explain who or what AWO/TY refers to. No tail number was recorded for the aircraft, which is somewhat unusual but not necessarily significant for a cargo operator filing.\n\nThe case status is marked as Closed. The report contains no details of any follow-up investigation, no corroborating radar data, and no additional witness accounts. It is a brief, single-page record of a pilot observation — nothing more.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar data or independent witnesses mentioned in the report.",
+    "The case was closed with no follow-up investigation details provided in the document.",
+    "The report is brief and contains minimal detail — it records what the crew saw but draws no conclusions about what the object was.",
+    "No aircraft tail number was logged, which limits independent verification of the flight.",
+    "The incident date in the document is November 2022, though the record falls under a 2023 case number, likely reflecting when it was processed."
+  ]
+}

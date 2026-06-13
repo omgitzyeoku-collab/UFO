@@ -1,0 +1,193 @@
+{
+  "sha256": "6948e303526df55b9b9891f3d8e0a311130d38ddb86e2d8ee2fa54415226bff3",
+  "title": "FAA UAP record 237UAP00404",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting an unidentified aerial phenomenon sighting by a commercial airline crew.",
+  "core_summary": "On July 18, 2022, the crew of Allegiant Air Flight 913, an Airbus A320, reported observing an unidentified aerial phenomenon while flying southeast-bound at flight level 370 (approximately 37,000 feet) near Greenville, Mississippi. The phenomenon was described as lights with no contrail traveling at approximately flight level 600 (approximately 60,000 feet) or above. The sighting was reported to the National UFO Reporting Center.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar or sensor data mentioned.",
+    "Preliminary information only — no follow-up investigation or resolution is documented.",
+    "The date header shows July 17 at 10 PM CDT, which corresponds to July 18 UTC; the title references 07-18-2022 — the event occurred late evening on July 17 / early July 18 depending on time zone.",
+    "The PURSUE CSV lists the incident year as 2023, but the document itself clearly states July 2022 — there is a metadata discrepancy.",
+    "No description of shape, size, speed, or duration of the observation beyond 'lights with no contrail'."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "Allegiant Air Flight 913 (AAY913), Airbus A320",
+      "source_quote": "ALLEGIANT 913, A320, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 245,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 370 (approximately 37,000 feet)",
+      "source_quote": "SE BOUND AT FL370",
+      "citation_offset": {
+        "offset": 330,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude",
+      "value": "Approximately flight level 600 (approximately 60,000 feet) or above",
+      "source_quote": "TRAVELING AT APPROXIMATELY FL600 OR ABOVE",
+      "citation_offset": {
+        "offset": 422,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Lights with no contrail",
+      "source_quote": "DESCRIBED AS LIGHTS WITH NO CONTRAIL",
+      "citation_offset": {
+        "offset": 385,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "35 nautical miles north of Greenville, Mississippi (GLH)",
+      "source_quote": "GREENVILLE, MS/MISCELLANEOUS/2200C/ALLEGIANT 913, A320... 35 N GLH",
+      "citation_offset": {
+        "offset": 210,
+        "len": 51,
+        "exact": false,
+        "matched": "GREENVILLE, MS/MISCELLANEOUS/2200C/ALLEGIANT 913, A"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Date and time",
+      "value": "July 18, 2022 at 2200 CDT",
+      "source_quote": "Date: 7/17/2022 10:00:00 PM (-05 CDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "33.48°N, 90.99°W",
+      "source_quote": "Latitude: 33.482881110000001",
+      "citation_offset": {
+        "offset": 113,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting channel",
+      "value": "National UFO Reporting Center",
+      "source_quote": "INFORMATION REPORTED TO THE NATIONAL UFO REPORTING CENTER",
+      "citation_offset": {
+        "offset": 465,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Source",
+      "value": "FAA Washington Operations Center",
+      "source_quote": "Washington Operations Center",
+      "citation_offset": {
+        "offset": 0,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Greenville, MS"
+  ],
+  "dated_events": [
+    "7/17/2022 10:00:00 PM (-05 CDT)",
+    "07-18-2022"
+  ],
+  "objects_described": [
+    "Airbus A320 (Allegiant Air Flight 913)",
+    "Unidentified aerial phenomenon described as lights with no contrail at approximately FL600 or above"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Allegiant Air Flight 913 was operating an Airbus A320 southeast-bound at flight level 370 near Greenville, MS on July 18, 2022.",
+      "source_quote": "ALLEGIANT 913, A320, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON ABOVE AIRCRAFT WHILE SE BOUND AT FL370 35 N GLH",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 245,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was observed above the aircraft at approximately 60,000 feet or higher.",
+      "source_quote": "THE UNKNOWN PHENOMENON WAS DESCRIBED AS LIGHTS WITH NO CONTRAIL TRAVELING AT APPROXIMATELY FL600 OR ABOVE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 358,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting was reported to the National UFO Reporting Center.",
+      "source_quote": "INFORMATION REPORTED TO THE NATIONAL UFO REPORTING CENTER",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 465,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:45:54.984Z",
+  "qa_completed_at": "2026-06-02T02:46:28.113Z",
+  "timing": {
+    "A": "19.0s",
+    "B": "14.1s",
+    "E": "17.0s"
+  },
+  "public_headline": "Allegiant Air Crew Reported Lights at 60,000 Feet Over Mississippi",
+  "public_tldr": "This FAA incident report documents a July 2022 sighting by the crew of Allegiant Air Flight 913, who observed unidentified lights with no contrail travelling at approximately 60,000 feet or above while flying near Greenville, Mississippi. The report is a single-page operational log entry with no follow-up investigation or conclusions recorded.",
+  "public_narrative": "This document is an incident report from the FAA Washington Operations Center. It records that on the evening of 17 July 2022 (18 July in UTC), the crew of Allegiant Air Flight 913 — an Airbus A320 flying southeast at approximately 37,000 feet — observed something unusual above their aircraft near Greenville, Mississippi (coordinates 33.48°N, 90.99°W).\n\nThe crew described the phenomenon as lights with no contrail, travelling at approximately flight level 600 — roughly 60,000 feet — or above. That altitude is well beyond the ceiling of most commercial and military aircraft. No details on shape, size, speed, or how long the crew observed the lights are included in the report.\n\nThe sighting was forwarded to the National UFO Reporting Center. The document contains no indication of radar corroboration, sensor data, or any follow-up investigation. It reads as a preliminary operational log entry rather than a completed inquiry.\n\nOne notable discrepancy: the government's own release metadata lists this as a 2023 incident, but the document itself clearly dates the event to July 2022. No explanation for this mismatch is provided.",
+  "public_caveats": [
+    "This is a single-source pilot report. No radar data, sensor readings, or independent corroboration is mentioned in the document.",
+    "The report is preliminary — no follow-up investigation, analysis, or conclusions are documented.",
+    "The crew's description is limited to 'lights with no contrail' at high altitude. No shape, size, speed, or duration was recorded.",
+    "There is a date discrepancy: the document says July 2022, but the release metadata lists the incident year as 2023.",
+    "The document has low redaction — most content appears intact — but the brevity of the report means there is very little information to work with."
+  ]
+}

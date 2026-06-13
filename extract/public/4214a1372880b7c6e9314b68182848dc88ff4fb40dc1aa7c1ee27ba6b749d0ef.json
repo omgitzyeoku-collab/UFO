@@ -1,0 +1,233 @@
+{
+  "sha256": "4214a1372880b7c6e9314b68182848dc88ff4fb40dc1aa7c1ee27ba6b749d0ef",
+  "title": "FAA UAP record 237UAP00021",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of multiple unidentified flying objects.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-page summary report with minimal detail — no follow-up investigation documented",
+    "The location '15 E of 38N' is approximate and may refer to a navigational fix rather than precise coordinates",
+    "Case was closed with no resolution or explanation recorded",
+    "The report is from 2015 but was released under a 2023 FAA UAP records series",
+    "No radar data, sensor corroboration, or duration of sighting is included"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date",
+      "value": "2015-01-15 at 08:05 UTC",
+      "source_quote": "Date: 08:05 01/15/2015",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "TCF641",
+      "source_quote": "Callsign: TCF641",
+      "citation_offset": {
+        "offset": 116,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Embraer 170",
+      "source_quote": "Aircraft: E170, EMBRAER, 170",
+      "citation_offset": {
+        "offset": 133,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Jacksonville (JAX) to Newark (EWR)",
+      "source_quote": "Origin: JAX Destination: New Destination: EWR",
+      "citation_offset": {
+        "offset": 189,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of objects",
+      "value": "5 or 6",
+      "source_quote": "ACFT reported 5 or 6 UFOs",
+      "citation_offset": {
+        "offset": 268,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude of sighting",
+      "value": "28,500 feet",
+      "source_quote": "5 or 6 UFOs at 28,500",
+      "citation_offset": {
+        "offset": 282,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Corroborating reports",
+      "value": "Other aircraft reported strobing lights nearby",
+      "source_quote": "Other ACFT have reported strobing lights in the vicinity",
+      "citation_offset": {
+        "offset": 317,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NORAD response",
+      "value": "No known activity in the area",
+      "source_quote": "NORAD advised no activity in the area",
+      "citation_offset": {
+        "offset": 375,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "EADS notification",
+      "value": "EADS was advised",
+      "source_quote": "EADS advised",
+      "citation_offset": {
+        "offset": 414,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "JAX",
+    "EWR",
+    "ZDC",
+    "DEN"
+  ],
+  "dated_events": [
+    "2015-01-15"
+  ],
+  "objects_described": [
+    "Embraer 170 (E170)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Flight TCF641 reported 5 or 6 UFOs at 28,500 feet, 15 miles east of 38°N",
+      "source_quote": "ACFT reported 5 or 6 UFOs at 28,500 15 E of 38N",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 268,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Other aircraft independently reported strobing lights in the same vicinity",
+      "source_quote": "Other ACFT have reported strobing lights in the vicinity",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 317,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD confirmed no known military or other activity in the area",
+      "source_quote": "NORAD advised no activity in the area",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 375,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "EADS (Eastern Air Defense Sector) was notified of the incident",
+      "source_quote": "EADS advised",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 414,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T20:51:48.787Z",
+  "qa_completed_at": "2026-06-01T20:52:32.002Z",
+  "timing": {
+    "A": "23.6s",
+    "B": "19.6s",
+    "E": "18.9s"
+  },
+  "public_headline": "Pilot Reports Five or Six UFOs at 28,500 Feet on Jacksonville-Newark Flight",
+  "public_tldr": "This is a single-page FAA SKYWATCH incident report from January 2015 documenting a pilot's sighting of five or six unidentified objects at 28,500 feet while flying from Jacksonville to Newark. Other aircraft independently reported strobing lights in the same area, and NORAD confirmed no known activity that could explain the sighting. The case was closed with no resolution.",
+  "public_narrative": "On 15 January 2015, at 08:05 UTC, the crew of flight TCF641 — an Embraer 170 travelling from Jacksonville (JAX) to Newark (EWR) — reported spotting five or six unidentified flying objects at an altitude of 28,500 feet, approximately 15 miles east of the 38th parallel north.\n\nThe sighting was not isolated. Other aircraft in the vicinity independently reported strobing lights in the same area. The FAA contacted NORAD (North American Aerospace Defense Command), which confirmed it had no known military or other activity in that region. The Eastern Air Defense Sector (EADS) was also notified.\n\nDespite the corroborating reports from other pilots and the absence of any known explanation from NORAD, the FAA closed the case. The report contains no follow-up investigation, no radar data, no sensor corroboration, and no recorded duration of the sighting. It is a single-page summary categorised under the primary code \"OTHER.\"\n\nThe document was released as part of a 2023 FAA series of UAP records, though the incident itself dates to 2015. There is minimal redaction, but equally minimal detail — the report records what the pilot said and who was notified, and nothing more.",
+  "public_caveats": [
+    "This is a single-page summary report with no follow-up investigation documented — it records the initial report and stops there.",
+    "No radar data, sensor recordings, or duration of the sighting is included, so the report rests entirely on pilot testimony.",
+    "Multiple aircraft reported unusual lights in the same area, which adds some corroboration, but no details about those other reports are provided.",
+    "NORAD's statement that there was 'no activity in the area' means only that they had no known explanation — it is not confirmation of anything anomalous.",
+    "The location '15 E of 38N' is approximate and may refer to a navigational fix rather than precise geographic coordinates."
+  ]
+}

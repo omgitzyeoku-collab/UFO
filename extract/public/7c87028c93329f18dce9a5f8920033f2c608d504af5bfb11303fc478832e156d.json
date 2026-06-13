@@ -1,0 +1,294 @@
+{
+  "sha256": "7c87028c93329f18dce9a5f8920033f2c608d504af5bfb11303fc478832e156d",
+  "title": "FAA UAP record 237UAP00105",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by multiple commercial aircraft crews.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The pilot in command offered a prosaic explanation (Starlink satellites reflecting sunlight) which was not confirmed or denied in the report.",
+    "Case status is Closed with no indication of further investigation or formal conclusion.",
+    "The abbreviations TY/AWO (notified parties) are not explained in the document.",
+    "Single-source document from FAA SKYWATCH system; no radar data, imagery, or independent sensor confirmation is referenced.",
+    "The time 05:00 UTC in mid-August would be approximately 01:00 local Eastern time, which is consistent with pre-dawn satellite visibility conditions."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2022-08-17",
+      "source_quote": "Date: 05:00 08/17/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_reporting_aircraft",
+      "value": "SWA2826, Boeing 737 MAX 8 (B38M)",
+      "source_quote": "Callsign: SWA2826 ... Aircraft: B38M",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "route",
+      "value": "RSW (Fort Myers) to BWI (Baltimore)",
+      "source_quote": "Origin: RSW Destination: BWI",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "Southwest Airlines (SWA)",
+      "source_quote": "Operator: SWA",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZDC (Washington Center)",
+      "source_quote": "Reporting Facility: ZDC",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL390 (39,000 feet)",
+      "source_quote": "NE bound at FL390",
+      "citation_offset": {
+        "offset": 370,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "position_of_primary_aircraft",
+      "value": "38 NM south of Fayetteville",
+      "source_quote": "38 NM S of FAY",
+      "citation_offset": {
+        "offset": 389,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Bright light in a holding pattern in the upper atmosphere",
+      "source_quote": "a bright light in a holding pattern in the upper atmosphere",
+      "citation_offset": {
+        "offset": 432,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_location",
+      "value": "Vicinity of 37:49N/78:01W, approximately 40 NM NW of Richmond",
+      "source_quote": "in the vicinity of 37:49N/78:01W, approximately 40 NM NW of RIC",
+      "citation_offset": {
+        "offset": 492,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_1",
+      "value": "SWA1875, B737, MIA-BWI, FL390, 9 NM S of Lawrenceville at 04:50",
+      "source_quote": "At 0450 SWA1875, B737, MIA-BWI, from the left side, while NE bound at FL390, 9 NM S of LVL",
+      "citation_offset": {
+        "offset": 605,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_2",
+      "value": "SWG603, B738, MUCC-CYUL, FL380, 26 NM SW of Lawrenceville at 04:55",
+      "source_quote": "At 0455 SWG603, B738, MUCC-CYUL, from the front side, while N bound at FL380, 26 NM SW of LVL",
+      "citation_offset": {
+        "offset": 697,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft_3",
+      "value": "SWG411, B38M, MDPP-CYYZ, FL370, 38 NM NW of Richmond at 05:40",
+      "source_quote": "0540 Additional aircraft reported seeing same object, SWG411, B38M, MDPP-CYYZ, from front side, while N bound at FL 370, 38 NM NW of RIC",
+      "citation_offset": {
+        "offset": 792,
+        "len": 136,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pilot_assessment",
+      "value": "Possibly Starlink satellites reflecting sunlight",
+      "source_quote": "PIC indicated they though phenomenon was star link satellites reflecting sunlight",
+      "citation_offset": {
+        "offset": 930,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notification",
+      "value": "TY/AWO notified",
+      "source_quote": "TY/AWO notified",
+      "citation_offset": {
+        "offset": 1013,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_witnesses",
+      "value": "Four separate aircraft crews",
+      "source_quote": "Two other aircraft reported seeing same object ... Additional aircraft reported seeing same object",
+      "citation_offset": {
+        "offset": 796,
+        "len": 48,
+        "exact": false,
+        "matched": " Additional aircraft reported seeing same object"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "FAY",
+    "RIC",
+    "LVL",
+    "RSW",
+    "BWI",
+    "MIA",
+    "ZDC"
+  ],
+  "dated_events": [
+    "2022-08-17"
+  ],
+  "objects_described": [
+    "Bright light in holding pattern in upper atmosphere",
+    "Boeing 737 MAX 8 (B38M)",
+    "Boeing 737 (B737)",
+    "Boeing 737-800 (B738)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Southwest Airlines flight SWA2826 observed a bright light in a holding pattern in the upper atmosphere near coordinates 37:49N/78:01W on 17 August 2022.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon from the front side while NE bound at FL390, 38 NM S of FAY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Three additional commercial aircraft independently confirmed the same object within approximately 50 minutes.",
+      "source_quote": "Two other aircraft reported seeing same object ... Additional aircraft reported seeing same object",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 796,
+        "len": 48,
+        "exact": false,
+        "matched": " Additional aircraft reported seeing same object"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The pilot in command attributed the phenomenon to Starlink satellites reflecting sunlight.",
+      "source_quote": "PIC indicated they though phenomenon was star link satellites reflecting sunlight",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 930,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was observed from multiple directions (front side, left side) by aircraft at different positions, suggesting a stationary or slow-moving object.",
+      "source_quote": "from the front side, while NE bound ... from the left side, while NE bound ... from the front side, while N bound",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 637,
+        "len": 35,
+        "exact": false,
+        "matched": "from the left side, while NE bound "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "All observing aircraft were at high altitude (FL370-FL390, approximately 37,000-39,000 feet).",
+      "source_quote": "at FL390 ... at FL390 ... at FL380 ... at FL 370",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 2,
+    "amber": 3,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:11:21.100Z",
+  "qa_completed_at": "2026-06-01T22:12:12.937Z",
+  "timing": {
+    "A": "26.6s",
+    "B": "25.2s",
+    "E": "25.6s"
+  },
+  "public_headline": "Four Airline Crews Reported a Bright Light Over Virginia in 2022",
+  "public_tldr": "An FAA incident report documents four commercial aircraft crews observing a bright, stationary light in the upper atmosphere over Virginia on 17 August 2022. The pilot in command suggested it may have been Starlink satellites reflecting sunlight, but the FAA closed the case without confirming or denying that explanation.",
+  "public_narrative": "This is an FAA SKYWATCH incident report (record 237UAP00105) describing an unidentified aerial phenomenon observed on 17 August 2022 at around 05:00 UTC — roughly 1:00 a.m. Eastern time, during pre-dawn hours. The primary report came from Southwest Airlines flight SWA2826, a Boeing 737 MAX 8 flying from Fort Myers (RSW) to Baltimore (BWI) at 39,000 feet. The crew reported a bright light in a holding pattern in the upper atmosphere near coordinates 37:49N/78:01W, approximately 40 nautical miles northwest of Richmond, Virginia.\n\nThree additional aircraft independently confirmed the same object within roughly 50 minutes. Southwest flight SWA1875, flying Miami to Baltimore, observed it from a different angle at 39,000 feet. Two other flights — SWG603 and SWG411, both northbound international routes — also reported the object from altitudes of 38,000 and 37,000 feet respectively. The fact that crews at different positions saw the object from multiple directions (front and left side) suggests it was stationary or slow-moving.\n\nThe pilot in command of the primary aircraft offered an explanation: Starlink satellites reflecting sunlight. The pre-dawn timing is consistent with conditions where satellites can catch sunlight while the ground below is still dark. However, the FAA report neither confirmed nor denied this assessment.\n\nThe case was closed with no indication of further investigation or any formal conclusion. The report notes that \"TY/AWO\" were notified, though these abbreviations are not explained in the document. No radar data, imagery, or independent sensor data is referenced — the entire record is based on pilot observations relayed through Washington Center (ZDC) air traffic control.",
+  "public_caveats": [
+    "This is a single-source document from the FAA's SKYWATCH system. No radar data, photographs, or independent sensor confirmation is referenced anywhere in the report.",
+    "The pilot's suggestion that the object was Starlink satellites reflecting sunlight was neither confirmed nor denied by the FAA. The case was simply closed.",
+    "Four separate crews observed the object, which adds weight to the sighting being real, but all observations are visual only — no instruments corroborated what was seen.",
+    "The abbreviations TY/AWO (parties notified) are unexplained in the document, so it is unclear who was informed beyond the immediate reporting chain.",
+    "The incident date in the document is August 2022, though the record is catalogued under a 2023 identifier — the reason for this discrepancy is not explained."
+  ]
+}

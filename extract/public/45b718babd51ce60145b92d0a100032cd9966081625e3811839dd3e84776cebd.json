@@ -1,0 +1,179 @@
+{
+  "sha256": "45b718babd51ce60145b92d0a100032cd9966081625e3811839dd3e84776cebd",
+  "title": "FAA UAP record 237UAP00193",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial airline crew.",
+  "core_summary": "On 3 February 2023, the crew of Delta Air Lines flight DAL1023 (an Airbus A319) reported observing a large balloon to the left of their aircraft while flying northbound at 31,000 feet, approximately 10 nautical miles west of the RBA navigation fix. The balloon was estimated to be at approximately 50,000 feet or above. The incident was reported through the Denver (ZDV) facility and is marked as closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot visual observation only; no corroborating radar data or additional sensor evidence is referenced in this report.",
+    "The date (3 February 2023) falls during the period of heightened US balloon incidents, including the Chinese surveillance balloon shot down on 4 February 2023, which may provide broader context.",
+    "FL500 (50,000 feet) is an unusually high altitude; the estimate is approximate and based on visual observation from 31,000 feet.",
+    "The case is marked closed with no resolution or identification of the object noted in the report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report — Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "DAL1023",
+      "source_quote": "Callsign: DAL1023",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Large balloon at approximately FL500 (50,000 ft) or above",
+      "source_quote": "Aircraft reported a large balloon off the left side while N bound at FL310, 10NM W of RBA. The balloon was at approximately FL500 and above.",
+      "citation_offset": {
+        "offset": 291,
+        "len": 140,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL310 (31,000 ft)",
+      "source_quote": "N bound at FL310",
+      "citation_offset": {
+        "offset": 349,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_position",
+      "value": "10 nautical miles west of RBA",
+      "source_quote": "10NM W of RBA",
+      "citation_offset": {
+        "offset": 367,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_heading",
+      "value": "Northbound",
+      "source_quote": "N bound",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZDV",
+    "SAT",
+    "MSP",
+    "RBA"
+  ],
+  "dated_events": [
+    "2023-02-03T14:28"
+  ],
+  "objects_described": [
+    "large balloon at approximately FL500",
+    "A319 commercial aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL1023 crew visually observed a large balloon off the left side of their aircraft",
+      "source_quote": "Aircraft reported a large balloon off the left side while N bound at FL310",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon was estimated at approximately 50,000 feet or higher",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 382,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was at 31,000 feet, 10 nautical miles west of RBA at the time of the sighting",
+      "source_quote": "N bound at FL310, 10NM W of RBA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 349,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was a commercial Delta Air Lines route from San Antonio to Minneapolis–Saint Paul",
+      "source_quote": "Operator: DAL",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:40:18.199Z",
+  "qa_completed_at": "2026-06-01T23:40:57.837Z",
+  "timing": {
+    "A": "21.9s",
+    "B": "17.7s",
+    "E": "20.2s"
+  },
+  "public_headline": "Delta Crew Reported Large Balloon at 50,000 Feet in February 2023",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of Delta Air Lines flight DAL1023 on 3 February 2023. While flying at 31,000 feet, the crew observed a large balloon to their left, estimated at roughly 50,000 feet or higher. The case was closed with no identification of the object recorded.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under the category \"Unidentified Aerial Phenomenon.\" It records a sighting made by the crew of Delta Air Lines flight DAL1023, an Airbus A319, on 3 February 2023.\n\nAccording to the report, the crew was flying northbound at 31,000 feet, approximately 10 nautical miles west of the RBA navigation fix, when they observed a large balloon off the left side of their aircraft. They estimated the balloon was at roughly 50,000 feet or above — well beyond the altitude of most commercial air traffic.\n\nThe report was filed through the FAA's Denver (ZDV) facility. The case is marked as closed, but the document does not record any identification of the object or any resolution explaining what the balloon was.\n\nThe timing is notable: this sighting occurred just one day before the widely reported Chinese surveillance balloon was shot down over the United States on 4 February 2023. That period saw a spike in balloon-related reports across the country, though this document does not draw any connection between the two events.\n\nThe report contains minimal redaction and is based solely on the crew's visual observation. No radar data, photographs, or additional sensor evidence are referenced.",
+  "public_caveats": [
+    "This is a single-source visual observation by the flight crew. No corroborating radar data or sensor evidence is mentioned in the report.",
+    "The altitude estimate of 50,000 feet is approximate, based on a visual guess made from 31,000 feet — a difficult judgement to make accurately.",
+    "The case is marked closed with no recorded identification or explanation of the object.",
+    "The sighting occurred during the February 2023 US balloon incident period, which may provide broader context but is not addressed in the document itself.",
+    "The report shows low evidence of redaction, meaning what you see is close to the full record."
+  ]
+}

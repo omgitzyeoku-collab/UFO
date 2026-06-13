@@ -1,0 +1,208 @@
+{
+  "sha256": "88a4aae90f4ff76ee3c34eade93e21f982dc57068cd9b6f0ae27070987e6abab",
+  "title": "FAA UAP record 237UAP00377",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On August 22, 2024, the crew of Envoy Air flight ENY3680 (an Embraer E170) reported seeing 4 or 5 lights maneuvering in all directions at approximately FL350-FL400 while flying northwest-bound at FL340, 10 nautical miles northwest of TBD VOR. The phenomenon was not detected on ATC radar.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data — the UAP was explicitly not detected on ATC radar.",
+    "The VOR identifier is listed as 'TBD' which may indicate the exact location was undetermined or redacted.",
+    "No crew names, tail number, or detailed technical sensor data are included in the report.",
+    "The incident is marked as 'Closed' with no resolution or explanation provided.",
+    "The MOR ID references a date of 2024/08/21 (one day before the report date), suggesting the sighting may have occurred late on August 21 UTC."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "callsign",
+      "value": "ENY3680",
+      "source_quote": "Callsign: ENY3680",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 261,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL340 (34,000 feet)",
+      "source_quote": "NW bound at FL 340",
+      "citation_offset": {
+        "offset": 416,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "4 or 5 lights maneuvering and traveling in all directions",
+      "source_quote": "The unknown phenomenon was 4 or 5 lights maneuvering and traveling in all directions",
+      "citation_offset": {
+        "offset": 457,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "10 NM northwest of TBD VOR",
+      "source_quote": "10 NM NW of TBD VOR",
+      "citation_offset": {
+        "offset": 436,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 572,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "HQ DEN",
+      "source_quote": "Reporting Facility: HQ DEN",
+      "citation_offset": {
+        "offset": 163,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZHU-M-2024/08/21-0005",
+      "source_quote": "MOR ID: ZHU-M-2024/08/21-0005",
+      "citation_offset": {
+        "offset": 301,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "MIA",
+    "OKC",
+    "TBD VOR"
+  ],
+  "dated_events": [
+    "2024-08-22",
+    "2024/08/21"
+  ],
+  "objects_described": [
+    "4 or 5 lights maneuvering at FL350-FL400"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Envoy Air flight ENY3680 was operating a commercial route from Miami to Oklahoma City on an Embraer E170.",
+      "source_quote": "Callsign: ENY3680 ... Aircraft: E170 ... Origin: MIA Destination: OKC ... Operator Type: Commercial",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed 4 or 5 lights maneuvering in all directions at an altitude above their own (FL350-FL400 vs FL340).",
+      "source_quote": "The unknown phenomenon was 4 or 5 lights maneuvering and traveling in all directions at approximately FL350-FL400",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 457,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was visually observed but did not appear on ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 572,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 10 nautical miles northwest of TBD VOR.",
+      "source_quote": "10 NM NW of TBD VOR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 436,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported to FAA headquarters in Denver and a Mandatory Occurrence Report was initiated.",
+      "source_quote": "Reporting Facility: HQ DEN ... MOR Init: YES",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:30:06.479Z",
+  "qa_completed_at": "2026-06-02T02:30:50.368Z",
+  "timing": {
+    "A": "24.2s",
+    "B": "19.7s",
+    "E": "19.2s"
+  },
+  "public_headline": "Airline Crew Reports Multiple Lights Maneuvering at 35,000 Feet",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of Envoy Air flight ENY3680, who observed 4 or 5 lights maneuvering in all directions above their aircraft while flying at 34,000 feet. The lights were not detected on air traffic control radar, and the FAA closed the case without providing an explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — the system the Federal Aviation Administration uses to log pilot sightings of unidentified aerial phenomena (UAP). It records an event reported on August 22, 2024, by the crew of Envoy Air flight ENY3680, a commercial Embraer E170 flying from Miami to Oklahoma City.\n\nAccording to the report, while cruising northwest-bound at FL340 (34,000 feet), approximately 10 nautical miles northwest of a navigation point listed as \"TBD VOR,\" the crew observed 4 or 5 lights maneuvering and traveling in all directions at an estimated altitude of FL350 to FL400 — roughly 35,000 to 40,000 feet, above the aircraft's own altitude.\n\nAir traffic control checked their radar and found nothing. The report states explicitly that the UAP was not observed on the ATC facility radar system. This means the sighting rests entirely on the crew's visual observation, with no independent sensor confirmation.\n\nThe incident was reported through FAA headquarters in Denver (listed as \"HQ DEN\") and assigned a Mandatory Occurrence Report ID referencing August 21, 2024 — one day before the report date, suggesting the sighting may have occurred late on the 21st in coordinated time. The case status is marked as \"Closed,\" with no resolution or explanation recorded in the document.\n\nThe report contains minimal detail. No crew names, aircraft tail number, or technical sensor data appear. The navigation reference \"TBD VOR\" may indicate the exact location was undetermined or omitted, making it difficult to pinpoint where this occurred.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data — the FAA explicitly noted the phenomenon was not detected on ATC radar.",
+    "The case is marked 'Closed' with no explanation or conclusion recorded, which means the FAA neither confirmed nor denied what the crew saw.",
+    "The location reference 'TBD VOR' is ambiguous — it may mean the exact position was undetermined or was not fully recorded.",
+    "No crew names, tail numbers, or detailed technical data are included, limiting independent verification.",
+    "The document records what was reported, not what was confirmed. A visual sighting by aircrew, while credible as an observation, is not the same as instrumentally verified evidence."
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "sha256": "1664895c53c4d927801759afbed43212a0c873cf2fb0361a0532d953e4ea6b0f",
+  "title": "FAA UAP record 237UAP00340",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On 20 January 2024 at 02:35, the crew of commercial flight ENY3914 (an Embraer E170) reported seeing multiple lights off the right side of the aircraft while westbound at 36,000 feet, approximately 33 nautical miles north of MKS. The lights were dimming and intensifying, the crew could not determine distance or altitude, and the phenomenon did not appear on ATC radar.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report from flight crew with no corroborating radar data or instrument readings.",
+    "Visual-only observation at night with no distance or altitude determination — lights could represent a wide range of conventional or unconventional sources.",
+    "Case is marked Closed with no resolution or identification noted in the report.",
+    "No tail number recorded, which limits traceability."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "date_time",
+      "value": "2024-01-20 at 02:35",
+      "source_quote": "Date: 02:35 01/20/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "ENY3914",
+      "source_quote": "Callsign: ENY3914",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "E170",
+      "source_quote": "Aircraft: E170",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "LEX",
+      "source_quote": "Origin: LEX",
+      "citation_offset": {
+        "offset": 201,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "DFW",
+      "source_quote": "Destination: DFW",
+      "citation_offset": {
+        "offset": 213,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "36,000 feet",
+      "source_quote": "W bound at 36,000 feet",
+      "citation_offset": {
+        "offset": 369,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "33 NM North of MKS, coordinates 3605N/8851W",
+      "source_quote": "33 NM North of MKS. L/L coordinates 3605N/8851W",
+      "citation_offset": {
+        "offset": 393,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "description_of_phenomenon",
+      "value": "Multiple lights dimming and intensifying in the distance",
+      "source_quote": "multiple lights in the distance, diming and light intensifying",
+      "citation_offset": {
+        "offset": 469,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_method",
+      "value": "Visual only, no onboard equipment used",
+      "source_quote": "Observation was visually with no on board equipment being utilized for the sighting",
+      "citation_offset": {
+        "offset": 589,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 674,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "awo_notified",
+      "value": "Yes",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 729,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "LEX",
+    "DFW",
+    "MKS",
+    "ZME"
+  ],
+  "dated_events": [
+    "2024-01-20T02:35"
+  ],
+  "objects_described": [
+    "Multiple unidentified lights (dimming and intensifying)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The crew could not determine the distance or altitude of the phenomenon.",
+      "source_quote": "The crew was unable to determine the distance/altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 533,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was not detected on ATC facility radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 674,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No onboard instruments were used for the sighting; observation was purely visual.",
+      "source_quote": "Observation was visually with no on board equipment being utilized for the sighting",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 589,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO was notified of the incident.",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 729,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:55:39.735Z",
+  "qa_completed_at": "2026-06-02T01:56:13.299Z",
+  "timing": {
+    "A": "19.0s",
+    "B": "14.6s",
+    "E": "23.6s"
+  },
+  "public_headline": "Commercial Flight Crew Reports Unidentified Lights at 36,000 Feet",
+  "public_tldr": "An FAA SKYWATCH incident report documents the crew of a commercial Embraer E170 flight observing multiple unidentified lights while cruising at 36,000 feet on 20 January 2024. The lights were not detected on air traffic control radar, the crew could not determine their distance or altitude, and the case was closed without explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under record number 237UAP00340. It records a sighting by the crew of commercial flight ENY3914, an Embraer E170 operating from Lexington, Kentucky (LEX) to Dallas/Fort Worth (DFW), on 20 January 2024 at 02:35.\n\nWhile flying westbound at 36,000 feet, approximately 33 nautical miles north of MKS (coordinates 3605N/8851W), the crew reported seeing multiple lights off the right side of the aircraft. The lights were dimming and intensifying. The crew was unable to determine the distance or altitude of whatever they were observing.\n\nThe observation was purely visual — no onboard instruments or equipment were used during the sighting. The phenomenon did not appear on the air traffic control (ATC) facility radar system. The FAA's Airway Operations (AWO) office was notified.\n\nThe case is marked as Closed. The report contains no identification or resolution of what the lights were. There is little evidence of redaction in the document, but the record includes no tail number for the aircraft and no corroborating data from radar or other sources.",
+  "public_caveats": [
+    "This is a single-source report based entirely on a visual observation by the flight crew. No radar data, photographs, or instrument readings corroborate the sighting.",
+    "The crew could not determine the distance or altitude of the lights, meaning the objects could have been very far away or relatively close — there is no way to tell from this report alone.",
+    "The case is marked Closed with no explanation or identification of the phenomenon recorded.",
+    "A nighttime visual observation of distant lights can have many conventional explanations (other aircraft, atmospheric effects, ground lights) that this report does not rule out.",
+    "No aircraft tail number was recorded, which limits the ability to independently verify the flight details."
+  ]
+}

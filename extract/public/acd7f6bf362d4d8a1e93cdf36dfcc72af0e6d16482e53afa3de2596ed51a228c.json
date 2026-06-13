@@ -1,0 +1,212 @@
+{
+  "sha256": "acd7f6bf362d4d8a1e93cdf36dfcc72af0e6d16482e53afa3de2596ed51a228c",
+  "title": "FAA UAP record 237UAP00382",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation; no corroborating radar data or additional witnesses are documented.",
+    "The case status is 'Closed' with no resolution or explanation provided in the report.",
+    "No tail number is listed for the aircraft, limiting independent verification."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report — Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2024-10-19 at 00:10",
+      "source_quote": "Date: 00:10 10/19/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "EJA647",
+      "source_quote": "Callsign: EJA647",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "CHS",
+      "source_quote": "Reporting Facility: CHS",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "7,000 feet",
+      "source_quote": "SW bound at 7,000 feet",
+      "citation_offset": {
+        "offset": 367,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_position_relative",
+      "value": "Off the left side of the aircraft, 7 NM SE of CHS",
+      "source_quote": "off the left side while SW bound at 7,000 feet, 7NM SE of CHS",
+      "citation_offset": {
+        "offset": 343,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Orange light moving straight up to 10,000 feet then back down, no lateral travel",
+      "source_quote": "an orange light going straight up to 10,000 feet and then back down not traveling in any direction",
+      "citation_offset": {
+        "offset": 433,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 533,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 246,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "CHS",
+    "TEB",
+    "DEN"
+  ],
+  "dated_events": [
+    "2024-10-19"
+  ],
+  "objects_described": [
+    "Orange light UAP ascending and descending vertically"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Citation Excel (EJA647) was flying southwest-bound at 7,000 feet, 7 NM southeast of Charleston when the crew observed the phenomenon.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while SW bound at 7,000 feet, 7NM SE of CHS",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 291,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observed phenomenon was an orange light that ascended vertically to 10,000 feet and descended again without lateral movement.",
+      "source_quote": "an orange light going straight up to 10,000 feet and then back down not traveling in any direction",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 433,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP did not appear on ATC facility radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 533,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated at Teterboro and was destined for Charleston.",
+      "source_quote": "Origin: TEB Destination: CHS",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:34:18.632Z",
+  "qa_completed_at": "2026-06-02T02:34:59.569Z",
+  "timing": {
+    "A": "24.1s",
+    "B": "16.8s",
+    "E": "21.6s"
+  },
+  "public_headline": "Commercial Pilot Reports Orange Light Rising Near Charleston Airport",
+  "public_tldr": "This FAA SKYWATCH incident report documents a commercial aircraft crew's sighting of an orange light that ascended vertically to 10,000 feet and descended again near Charleston, South Carolina on 19 October 2024. The object did not appear on air traffic control radar, and the case was closed without explanation.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under case number 237UAP00382. It records an unidentified aerial phenomenon observed by the crew of a commercial flight with callsign EJA647, which was travelling from Teterboro (TEB) to Charleston (CHS).\n\nOn 19 October 2024 at 00:10, the crew reported seeing an orange light off the left side of their aircraft while flying southwest-bound at 7,000 feet, approximately 7 nautical miles southeast of Charleston. The light moved straight up to roughly 10,000 feet and then back down again, with no lateral travel in any direction.\n\nThe reporting facility was CHS (Charleston). According to the report, the phenomenon was not detected on the ATC (air traffic control) facility radar system. The aircraft operator type is listed as commercial.\n\nThe case status is marked as \"Closed.\" No resolution, identification, or explanation for the sighting is provided in the report. No additional witnesses or corroborating sensor data are documented.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the aircrew's visual observation. No radar data, photographs, or additional witnesses are documented.",
+    "The case is marked 'Closed' but no explanation or identification of the phenomenon is given — closure does not mean resolved.",
+    "No aircraft tail number is listed, which limits the ability to independently verify flight details.",
+    "The report shows low evidence of redaction, but the absence of detail may simply reflect the brevity of FAA SKYWATCH filings rather than deliberate withholding.",
+    "The incident date in the metadata says 2023, but the report itself is dated 19 October 2024 — readers should note this discrepancy."
+  ]
+}

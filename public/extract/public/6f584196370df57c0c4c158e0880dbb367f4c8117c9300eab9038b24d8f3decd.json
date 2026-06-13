@@ -1,0 +1,232 @@
+{
+  "sha256": "6f584196370df57c0c4c158e0880dbb367f4c8117c9300eab9038b24d8f3decd",
+  "title": "FAA UAP record 237UAP00026",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot observation of an unidentified flying object.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts mentioned.",
+    "No physical description of the object was provided beyond speed and altitude.",
+    "The document is categorised under PRIMARY CODE: OTHER, indicating it did not fit standard FAA incident categories.",
+    "The incident date (2016) predates the war.gov PURSUE release; this is a historical record surfaced retrospectively."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZJX (Jacksonville ARTCC)",
+      "source_quote": "Reporting Facility: ZJX",
+      "citation_offset": {
+        "offset": 92,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "UAL1049",
+      "source_quote": "Callsign: UAL1049",
+      "citation_offset": {
+        "offset": 116,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "BE9L, Beech King Air (90, A90 to E90)",
+      "source_quote": "Aircraft: BE9L, BEECH, \"King Air (90, A90 to E90)\"",
+      "citation_offset": {
+        "offset": 134,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin airport",
+      "value": "EWR (Newark)",
+      "source_quote": "Origin: EWR",
+      "citation_offset": {
+        "offset": 208,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "New destination",
+      "value": "MMUN (Cancún)",
+      "source_quote": "New Destination: MMUN",
+      "citation_offset": {
+        "offset": 233,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object altitude",
+      "value": "FL370, 500 feet above aircraft",
+      "source_quote": "a fast moving UFO at FL370 500 feet above ACFT",
+      "citation_offset": {
+        "offset": 341,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object direction",
+      "value": "Opposite direction to aircraft",
+      "source_quote": "opposite direction",
+      "citation_offset": {
+        "offset": 389,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description provided",
+      "value": "None",
+      "source_quote": "No description provided",
+      "citation_offset": {
+        "offset": 409,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "FLO",
+    "EWR",
+    "MMUN",
+    "ZJX",
+    "DEN"
+  ],
+  "dated_events": [],
+  "objects_described": [
+    "Fast-moving UFO at FL370",
+    "BE9L Beech King Air"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The pilot of UAL1049 observed a fast-moving UFO at FL370, 500 feet above the aircraft, traveling in the opposite direction.",
+      "source_quote": "PIC observed a fast moving UFO at FL370 500 feet above ACFT, opposite direction",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 328,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 30 miles south of FLO.",
+      "source_quote": "while 30 miles south of FLO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 300,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No description of the object was provided by the pilot.",
+      "source_quote": "No description provided",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 409,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident report status is closed.",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T20:56:04.913Z",
+  "qa_completed_at": "2026-06-01T20:56:47.613Z",
+  "timing": {
+    "A": "21.8s",
+    "B": "20.9s",
+    "E": "19.4s"
+  },
+  "public_headline": "FAA Report: Pilot Spotted Fast-Moving Unidentified Object at 37,000 Feet",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a pilot's observation of a fast-moving unidentified flying object at flight level 370 (approximately 37,000 feet), roughly 500 feet above the aircraft, travelling in the opposite direction. The report was filed through Jacksonville Air Route Traffic Control Centre and is now closed, with no description of the object provided beyond its speed, altitude, and direction.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report, reference 237UAP00026, filed under the primary code OTHER — meaning it did not fit any of the FAA's standard incident categories. It was reported through ZJX, the Jacksonville Air Route Traffic Control Centre, and its status is closed.\n\nThe report concerns the pilot-in-command of flight UAL1049, a Beech King Air (BE9L) travelling from Newark (EWR) to Cancún (MMUN). While approximately 30 miles south of Florence (FLO), the pilot observed a fast-moving unidentified flying object at flight level 370 — roughly 37,000 feet — about 500 feet above the aircraft and travelling in the opposite direction.\n\nThe pilot provided no physical description of the object beyond its speed, altitude, and direction of travel. The report contains no mention of corroborating radar data or additional witnesses.\n\nThe FAA closed the report without any stated conclusion about what the object was. The document is a historical record — the underlying incident predates the war.gov PURSUE release and was surfaced retrospectively as part of that programme's public disclosure.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No corroborating radar data or additional witness accounts are mentioned in the report.",
+    "The pilot provided no physical description of the object — only its approximate altitude, relative position, and direction of travel.",
+    "The FAA categorised this under PRIMARY CODE: OTHER, meaning it did not match any standard incident type. The report is closed with no stated explanation.",
+    "The underlying incident predates the war.gov PURSUE release; this is a historical record surfaced retrospectively, not a newly reported event.",
+    "There is low evidence of redaction in this document, but the lack of detail may reflect the brevity of the original report rather than deliberate removal of information."
+  ]
+}

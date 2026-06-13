@@ -1,0 +1,223 @@
+{
+  "sha256": "528e762894296a5ec75a490ca8f02f631580cac3436a362e3bb75771a5bcaf5e",
+  "title": "FAA UAP record 237UAP00368",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On 11 May 2024 at 21:29, the crew of a C-130 aircraft (callsign CNV3460) reported observing a 1-to-2-metre orb travelling eastbound while they were flying westbound at flight level 240 (approximately 24,000 feet) over Laramie Regional Airport, Wyoming. The object was not detected on ATC radar, and the incident was reported through the FAA's SKYWATCH system via the Denver (ZDV) reporting facility.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation with no radar corroboration.",
+    "The case is marked Closed with no resolution or explanation provided.",
+    "No tail number is recorded for the reporting aircraft.",
+    "The document metadata lists the incident year as 2023, but the report itself is dated 2024-05-11 — the metadata date may be inaccurate."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date_time",
+      "value": "2024-05-11 at 21:29",
+      "source_quote": "Date: 21:29 05/11/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "C-130",
+      "source_quote": "Aircraft: C130",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "CNV3460",
+      "source_quote": "Callsign: CNV3460",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "CNV (Commercial)",
+      "source_quote": "Operator: CNV",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "FL240 (approximately 24,000 feet)",
+      "source_quote": "W bound at FL240",
+      "citation_offset": {
+        "offset": 394,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Over Laramie Regional Airport, Wyoming (LAR)",
+      "source_quote": "over Laramie Regional Airport, WY (LAR)",
+      "citation_offset": {
+        "offset": 412,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "1 to 2 metre orb travelling eastbound",
+      "source_quote": "a 1 to 2 meter orb traveling E bound",
+      "citation_offset": {
+        "offset": 480,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 518,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZDV-M-2024/05/11-0004",
+      "source_quote": "MOR ID: ZDV-M-2024/05/11-0004",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Laramie Regional Airport, Wyoming (LAR)"
+  ],
+  "dated_events": [
+    "2024-05-11"
+  ],
+  "objects_described": [
+    "C-130 aircraft",
+    "1 to 2 metre orb (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A C-130 crew observed a 1-to-2-metre orb travelling eastbound while flying westbound at FL240 over Laramie, Wyoming.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while W bound at FL240, over Laramie Regional Airport, WY (LAR). The unknown phenomenon was a 1 to 2 meter orb traveling E bound.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 336,
+        "len": 181,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was not detected by ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 518,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case was closed with no further action indicated.",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from Norfolk NS (NGU) and was destined for Reno (RNO).",
+      "source_quote": "Origin: NGU Destination: RNO",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:21:41.260Z",
+  "qa_completed_at": "2026-06-02T02:22:18.790Z",
+  "timing": {
+    "A": "20.6s",
+    "B": "16.9s",
+    "E": "15.1s"
+  },
+  "public_headline": "C-130 Crew Reported Small Orb Over Wyoming at 24,000 Feet",
+  "public_tldr": "This FAA SKYWATCH report documents a C-130 crew sighting of a 1-to-2-metre orb travelling eastbound over Laramie, Wyoming, while they flew westbound at approximately 24,000 feet on 11 May 2024. Air traffic control radar did not detect the object, and the case was closed without explanation.",
+  "public_narrative": "This document is an FAA incident report filed through the agency's SKYWATCH system — a channel for logging unidentified aerial phenomena observed by pilots. It was submitted via the Denver (ZDV) reporting facility under reference ZDV-M-2024/05/11-0004.\n\nOn 11 May 2024 at 21:29, the crew of a C-130 aircraft (callsign CNV3460) were flying westbound at flight level 240 — roughly 24,000 feet — over Laramie Regional Airport, Wyoming. The flight had originated from Norfolk Naval Station (NGU) and was headed for Reno (RNO). The crew reported observing a 1-to-2-metre orb travelling eastbound, moving in the opposite direction to their aircraft.\n\nAir traffic control checked their radar and found no corresponding return — the object did not appear on the ATC facility radar system. No tail number is recorded for the reporting aircraft, and the operator is listed simply as CNV (Commercial).\n\nThe FAA marked the case as Closed. No resolution, identification, or follow-up action is noted in the report. The document contains minimal redaction but also minimal detail — the entire record is a brief structured form rather than a detailed investigation.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the aircrew's visual observation. No radar, photographic, or independent corroboration exists in the record.",
+    "The case is marked Closed with no explanation or identification of the object provided.",
+    "The document's metadata lists the incident year as 2023, but the report itself is dated 11 May 2024 — the metadata date may be inaccurate.",
+    "No tail number was recorded for the reporting aircraft, which limits independent verification.",
+    "The report is a brief structured form, not a detailed investigation — it records what was reported, not what was concluded."
+  ]
+}

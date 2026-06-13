@@ -1,0 +1,204 @@
+{
+  "sha256": "a6f6e94846ce94e81598109945e501499654e6f443189eff795bea4a3001be92",
+  "title": "FAA UAP record 237UAP00177",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This report coincides with the February 2023 period when multiple high-altitude balloon objects were tracked over North America, including a confirmed Chinese surveillance balloon.",
+    "The observer (flight crew) described the object as a 'large balloon' but it was still classified as an unidentified aerial phenomenon, suggesting no positive identification was made.",
+    "Single-source observation from one aircraft crew with no corroborating radar or sensor data included in this report.",
+    "The report is brief (1 page) with minimal detail beyond the initial crew observation."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Flight callsign",
+      "value": "UAL700",
+      "source_quote": "Callsign: UAL700",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "United Airlines (UAL), commercial",
+      "source_quote": "Operator: UAL",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Washington Dulles (IAD) to San Francisco (SFO)",
+      "source_quote": "Origin: IAD Destination: SFO",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "FL400 (40,000 feet)",
+      "source_quote": "N bound at FL400",
+      "citation_offset": {
+        "offset": 349,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object altitude",
+      "value": "Approximately FL500 (50,000 feet) and above",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "citation_offset": {
+        "offset": 382,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Large balloon",
+      "source_quote": "Aircraft reported a large balloon",
+      "citation_offset": {
+        "offset": 290,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZKC",
+    "IAD",
+    "SFO",
+    "STJ"
+  ],
+  "dated_events": [
+    "2023-02-03"
+  ],
+  "objects_described": [
+    "Large balloon at approximately FL500"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 700 observed a large balloon while flying at 40,000 feet on 3 February 2023.",
+      "source_quote": "Aircraft reported a large balloon off the right side while N bound at FL400",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 290,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon was estimated to be at approximately 50,000 feet or above.",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 382,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 10 nautical miles west of St. Joseph, Missouri.",
+      "source_quote": "10NM W of STJ",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 367,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was routed from Washington Dulles to San Francisco.",
+      "source_quote": "Origin: IAD Destination: SFO",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 200,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was classified under the primary code Unidentified Aerial Phenomenon.",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:24:36.042Z",
+  "qa_completed_at": "2026-06-01T23:25:15.413Z",
+  "timing": {
+    "A": "19.5s",
+    "B": "19.9s",
+    "E": "16.4s"
+  },
+  "public_headline": "United Airlines crew reported large balloon at 50,000 feet in February 2023",
+  "public_tldr": "This FAA incident report documents a United Airlines flight crew observing a large balloon-like object at roughly 50,000 feet near St. Joseph, Missouri, on 3 February 2023. Despite the crew describing it as a balloon, the FAA classified it as an Unidentified Aerial Phenomenon, meaning no positive identification was made. The case is now closed.",
+  "public_narrative": "On 3 February 2023, the crew of United Airlines flight 700 — a commercial service from Washington Dulles (IAD) to San Francisco (SFO) — reported seeing a large balloon while flying northbound at 40,000 feet. The sighting occurred approximately 10 nautical miles west of St. Joseph, Missouri, in airspace managed by Kansas City Center (ZKC).\n\nThe object was estimated to be at approximately 50,000 feet or above, well above the aircraft's cruising altitude. The crew described it as a large balloon, but the FAA filed the report under its primary code of Unidentified Aerial Phenomenon, indicating that no definitive identification was established.\n\nThe timing is notable: this sighting took place during the same period in early February 2023 when multiple high-altitude balloon objects were being tracked over North America, including a confirmed Chinese surveillance balloon that was widely reported in the news. Whether this object was related to those incidents is not stated in the report.\n\nThe report itself is brief — a single page from the FAA's SKYWATCH incident reporting system. It contains the basic facts of the observation but includes no corroborating radar data, sensor readings, or follow-up investigation details. The case status is listed as closed.",
+  "public_caveats": [
+    "This is a single-source observation from one flight crew. No corroborating radar or sensor data is included in the report.",
+    "The report is only one page long with minimal detail beyond the initial crew observation.",
+    "The FAA classified it as an Unidentified Aerial Phenomenon, which means unidentified — not that it was anomalous or unexplained in any exotic sense.",
+    "The sighting coincides with the February 2023 period of multiple high-altitude balloon incursions over North America, but the report does not link this object to those events.",
+    "The case is closed with no stated conclusion about what the object was."
+  ]
+}

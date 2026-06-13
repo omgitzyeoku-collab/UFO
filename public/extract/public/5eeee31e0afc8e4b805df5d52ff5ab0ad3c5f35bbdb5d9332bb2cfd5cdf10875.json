@@ -1,0 +1,254 @@
+{
+  "sha256": "5eeee31e0afc8e4b805df5d52ff5ab0ad3c5f35bbdb5d9332bb2cfd5cdf10875",
+  "title": "FAA UAP record 237UAP00102",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a military helicopter crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source observation from one aircraft crew with no corroborating sensor data mentioned.",
+    "No tail number or operator recorded, limiting traceability.",
+    "The green light at 50 feet altitude could have mundane explanations (drone, laser, marine vessel light) not explored in this report.",
+    "Case is marked Closed with no resolution or identification noted.",
+    "The record is filed under FAA's SKYWATCH system — an internal incident tracking tool, not a formal investigation."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2022-08-10",
+      "source_quote": "Date: 03:15 08/10/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_time",
+      "value": "03:15 (local)",
+      "source_quote": "Date: 03:15 08/10/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "C6021",
+      "source_quote": "Callsign: C6021",
+      "citation_offset": {
+        "offset": 93,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "observer_altitude",
+      "value": "300 feet",
+      "source_quote": "W bound at 300 feet, 7 NM SE of NZY",
+      "citation_offset": {
+        "offset": 351,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observer_position",
+      "value": "7 NM SE of NZY",
+      "source_quote": "7 NM SE of NZY",
+      "citation_offset": {
+        "offset": 372,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Green light traveling westbound at approximately 50 feet",
+      "source_quote": "a green light traveling W bound at approximately 50 feet",
+      "citation_offset": {
+        "offset": 415,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_position_relative",
+      "value": "Off the left side of aircraft",
+      "source_quote": "an unidentified aerial phenomenon off the left side",
+      "citation_offset": {
+        "offset": 293,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_rules",
+      "value": "VFR to VFR",
+      "source_quote": "Origin: VFR Destination: VFR",
+      "citation_offset": {
+        "offset": 195,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 109,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "leo_notification",
+      "value": "Not reported",
+      "source_quote": "LEO notification was not reported",
+      "citation_offset": {
+        "offset": 473,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "awo_notification",
+      "value": "Yes",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 508,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "paged",
+      "value": "YES",
+      "source_quote": "Paged: YES",
+      "citation_offset": {
+        "offset": 256,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "NZY",
+    "DEN"
+  ],
+  "dated_events": [
+    "2022-08-10"
+  ],
+  "objects_described": [
+    "MH60 helicopter",
+    "Green light (unidentified aerial phenomenon)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A military MH60 helicopter crew observed an unidentified green light while flying at 300 feet altitude.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while W bound at 300 feet",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 275,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The green light was traveling westbound at approximately 50 feet altitude.",
+      "source_quote": "a green light traveling W bound at approximately 50 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 415,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 7 nautical miles southeast of Naval Air Station North Island.",
+      "source_quote": "7 NM SE of NZY",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 372,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified of the incident.",
+      "source_quote": "LEO notification was not reported",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 473,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Airspace Watch Officer was notified.",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 508,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:08:14.267Z",
+  "qa_completed_at": "2026-06-01T22:08:53.328Z",
+  "timing": {
+    "A": "18.9s",
+    "B": "20.1s",
+    "E": "26.8s"
+  },
+  "public_headline": "Military Helicopter Crew Reported Unidentified Green Light Near San Diego",
+  "public_tldr": "An FAA incident report documents a military MH-60 helicopter crew observing an unidentified green light travelling at roughly 50 feet altitude near Naval Air Station North Island, San Diego, on 10 August 2022. The case was closed with no identification or resolution recorded.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — an internal tracking record, not a formal investigation — filed under case number 237UAP00102. It records an unidentified aerial phenomenon reported by the crew of a military MH-60 helicopter on 10 August 2022 at 03:15 local time.\n\nThe helicopter, using callsign C6021, was flying westbound under visual flight rules at 300 feet altitude, approximately 7 nautical miles southeast of NZY (Naval Air Station North Island, San Diego). The crew reported seeing an unidentified green light off the left side of the aircraft, travelling westbound at roughly 50 feet altitude.\n\nThe FAA's Airspace Watch Officer was notified, but law enforcement was not. The case is marked as closed, with no explanation or identification of the object recorded in the document.\n\nThe report is brief and contains minimal detail. There is no mention of radar data, photographs, or any corroborating sensor evidence. No tail number or aircraft operator is recorded for the helicopter, and the incident location field in the FAA's metadata is blank.",
+  "public_caveats": [
+    "This is a single-source visual observation from one helicopter crew. No corroborating radar, sensor, or photographic evidence is mentioned in the report.",
+    "The case was closed without any identification or resolution — 'closed' does not mean 'explained'.",
+    "A green light at 50 feet altitude near a coastal military airfield could have mundane explanations — a drone, a laser, or a marine vessel light — none of which are explored in this report.",
+    "SKYWATCH is an FAA internal incident-logging system, not a formal investigative process. This record documents that a report was made, not that an investigation was conducted.",
+    "No tail number or operator is recorded for the helicopter, which limits independent verification of the account."
+  ]
+}

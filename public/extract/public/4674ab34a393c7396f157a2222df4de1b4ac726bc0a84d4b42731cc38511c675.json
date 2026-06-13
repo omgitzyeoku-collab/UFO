@@ -1,0 +1,279 @@
+{
+  "sha256": "4674ab34a393c7396f157a2222df4de1b4ac726bc0a84d4b42731cc38511c675",
+  "title": "FAA UAP record 237UAP00356",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon sighting.",
+  "core_summary": "On February 18, 2024, a Gulfstream IV aircraft (callsign N151SD) flying eastbound at 41,000 feet reported three lights moving erratically ahead of the flight at approximately 51,000 feet or higher near Pueblo, Colorado. The lights were not visible on the aircraft's collision avoidance system (TCAS) but were detected on ATC facility radar, and a second aircraft (American Airlines flight 2514) independently reported the same lights.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Case is marked 'Closed' with no resolution or explanation provided.",
+    "No details on what the ATC radar return looked like or how long the phenomenon was tracked.",
+    "The corroborating report from AAL2514 is mentioned but not detailed — no separate report is included.",
+    "PUB120050 is an aviation fix notation (radial/distance from Pueblo VOR) placing the sighting in eastern Colorado, but exact coordinates are not given.",
+    "The document lists an incident date of 2023 in metadata but the report itself is dated February 18, 2024."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2024-02-18",
+      "source_quote": "Date: 10:49 02/18/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_aircraft_callsign",
+      "value": "N151SD",
+      "source_quote": "Callsign: N151SD",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "GLF4 (Gulfstream IV)",
+      "source_quote": "Aircraft: GLF4",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZDV (Denver Center)",
+      "source_quote": "Reporting Facility: ZDV",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "LAS (Las Vegas)",
+      "source_quote": "Origin: LAS",
+      "citation_offset": {
+        "offset": 207,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "TEB (Teterboro)",
+      "source_quote": "Destination: TEB",
+      "citation_offset": {
+        "offset": 219,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_of_aircraft",
+      "value": "FL410 (41,000 feet)",
+      "source_quote": "E bound at FL410",
+      "citation_offset": {
+        "offset": 415,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Three lights moving erratically at approximately FL510 (51,000 feet) or higher",
+      "source_quote": "three lights traveling ahead of the flight moving erratically at approximately FL510 or higher",
+      "citation_offset": {
+        "offset": 484,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_position_relative_to_aircraft",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "an unidentified aerial phenomenon at their 12 O'clock",
+      "citation_offset": {
+        "offset": 355,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_location",
+      "value": "PUB120050 (120 degrees from Pueblo VOR at 50 nautical miles)",
+      "source_quote": "PUB120050",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "tcas_detection",
+      "value": "Not observed on TCAS",
+      "source_quote": "The UAP was not observed on TCAS",
+      "citation_offset": {
+        "offset": 580,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Observed on ATC facility radar",
+      "source_quote": "The UAP was observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 614,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_aircraft",
+      "value": "AAL2514 (Airbus A321neo, SFO to CLT)",
+      "source_quote": "AAL2514 (A21N, SFO..CLT) reported same lights",
+      "citation_offset": {
+        "offset": 665,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 253,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "LAS",
+    "TEB",
+    "DEN",
+    "SFO",
+    "CLT",
+    "PUB"
+  ],
+  "dated_events": [
+    "2024-02-18"
+  ],
+  "objects_described": [
+    "GLF4 (Gulfstream IV)",
+    "A21N (Airbus A321neo)",
+    "Three erratically moving lights (UAP)",
+    "TCAS",
+    "ATC facility radar system"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The UAP was detected on ATC facility radar but not on the aircraft's TCAS system.",
+      "source_quote": "The UAP was not observed on TCAS. The UAP was observed on ATC facility radar system.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 580,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second aircraft, American Airlines flight 2514, independently reported seeing the same lights.",
+      "source_quote": "AAL2514 (A21N, SFO..CLT) reported same lights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 665,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was described as three lights moving erratically at approximately 51,000 feet or higher, which is above the reporting aircraft's altitude of 41,000 feet.",
+      "source_quote": "three lights traveling ahead of the flight moving erratically at approximately FL510 or higher",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 484,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was assigned MOR ID ZDV-M-2024/02/18-0001.",
+      "source_quote": "MOR ID: ZDV-M-2024/02/18-0001",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 299,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:10:12.223Z",
+  "qa_completed_at": "2026-06-02T02:10:52.240Z",
+  "timing": {
+    "A": "22.8s",
+    "B": "17.2s",
+    "E": "20.0s"
+  },
+  "public_headline": "Two Aircraft Report Erratic Lights at 51,000 Feet Over Colorado",
+  "public_tldr": "This FAA SKYWATCH report documents a February 2024 incident in which a Gulfstream IV pilot and an American Airlines crew independently reported three erratically moving lights above 51,000 feet near Pueblo, Colorado. The objects appeared on air traffic control radar but not on either aircraft's collision avoidance system, and the FAA closed the case without explanation.",
+  "public_narrative": "On 18 February 2024, the crew of a Gulfstream IV business jet (callsign N151SD) was flying eastbound at 41,000 feet on a route from Las Vegas to Teterboro, New Jersey. While under the watch of Denver Center (ZDV), the crew reported an unidentified aerial phenomenon directly ahead of the aircraft — three lights moving erratically at approximately 51,000 feet or higher, well above their own cruising altitude.\n\nThe lights did not appear on the Gulfstream's onboard collision avoidance system (TCAS), a traffic alert tool that detects nearby aircraft transponders. However, the objects were picked up by the air traffic control facility's own radar system — a significant detail, because it means the phenomenon registered on independent ground-based sensors, not just the pilot's eyes.\n\nA second aircraft, American Airlines flight 2514 — an Airbus A321neo travelling from San Francisco to Charlotte — independently reported seeing the same lights. Two separate crews observing the same phenomenon strengthens the report, though the FAA file includes no further detail from the American Airlines crew.\n\nThe FAA logged the sighting under case number 237UAP00356 and assigned it MOR ID ZDV-M-2024/02/18-0001. The approximate location was recorded as 120 degrees from the Pueblo VOR navigational beacon at 50 nautical miles, placing it in eastern Colorado, though exact coordinates were not provided.\n\nThe case is marked \"Closed\" with no resolution or explanation. The FAA file does not identify what the lights were, does not describe the radar return in detail, and does not include the corroborating report from the American Airlines flight.",
+  "public_caveats": [
+    "The FAA closed this case without providing any explanation or identification of the phenomenon.",
+    "Two independent aircraft crews reported the same lights, which adds weight, but the corroborating report from American Airlines flight 2514 is only mentioned — no separate report is included in the file.",
+    "The objects appeared on ATC ground radar but not on either aircraft's TCAS, which could suggest the objects lacked standard aviation transponders. No detail is given about what the radar return looked like or how long it was tracked.",
+    "The document's metadata lists an incident date of 2023, but the report itself is clearly dated 18 February 2024 — a minor discrepancy that likely reflects a filing or indexing error.",
+    "No exact coordinates are provided. The location notation (PUB120050) gives only an approximate position in eastern Colorado relative to the Pueblo navigational beacon."
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "sha256": "51efd6339cd1f889272f97656f124474cfc1b22ddd6d5e940ed79f280ce9af35",
+  "title": "FAA UAP record 237UAP00094",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial airline crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot observation with no corroborating radar or sensor data mentioned.",
+    "No physical description of the object beyond negative attributes (no lights, unknown colour/size) — identification is not possible from this report alone.",
+    "The incident date in the report header (2022) does not match the CSV metadata incident year (2023); the source text date of 2022-07-28 is more specific and likely accurate.",
+    "Case was closed with no indication of follow-up investigation or resolution."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2022-07-28 at 01:50",
+      "source_quote": "Date: 01:50 07/28/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "DAL2230",
+      "source_quote": "Callsign: DAL2230",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL340 (approximately 34,000 feet)",
+      "source_quote": "W bound at FL340",
+      "citation_offset": {
+        "offset": 368,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP behaviour",
+      "value": "Stationary, untethered, no lights",
+      "source_quote": "stationary and untethered with no lights",
+      "citation_offset": {
+        "offset": 433,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description limitations",
+      "value": "Colour and size unknown",
+      "source_quote": "Unknown color or size as it passed underneath of the aircraft",
+      "citation_offset": {
+        "offset": 475,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD (point of departure/division)",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "DTW",
+    "SLC",
+    "LBF",
+    "ZDV"
+  ],
+  "dated_events": [
+    "2022-07-28"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon (stationary, untethered, no lights, unknown colour/size)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight DAL2230 was operating an Airbus A321 from Detroit to Salt Lake City on 28 July 2022.",
+      "source_quote": "Callsign: DAL2230 ... Aircraft: A321 ... Origin: DTW Destination: SLC",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew reported a UAP at their 12 o'clock position while westbound at FL340.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the 12 o'clock while W bound at FL340",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 35 miles southeast of North Platte Regional Airport.",
+      "source_quote": "35 miles SE of LBF",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 386,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was stationary, untethered, and had no lights.",
+      "source_quote": "stationary and untethered with no lights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 433,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew could not determine the object's colour or size before it passed beneath them.",
+      "source_quote": "Unknown color or size as it passed underneath of the aircraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 475,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case was closed with no further action indicated.",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:00:11.065Z",
+  "qa_completed_at": "2026-06-01T22:00:50.356Z",
+  "timing": {
+    "A": "19.7s",
+    "B": "19.6s",
+    "E": "20.1s"
+  },
+  "public_headline": "Delta crew reported stationary unlit object at 34,000 feet over Nebraska",
+  "public_tldr": "An FAA SKYWATCH report documents a Delta Air Lines crew (flight DAL2230) observing an unidentified object while flying westbound at 34,000 feet near North Platte, Nebraska, on 28 July 2022. The object was stationary, had no lights, and passed beneath the aircraft before its colour or size could be determined. The case was closed with no follow-up investigation indicated.",
+  "public_narrative": "This is an FAA SKYWATCH incident report — a standard form the Federal Aviation Administration uses to log unusual aerial sightings reported by pilots. It covers an event on 28 July 2022 at 01:50, involving Delta flight DAL2230, an Airbus A321 flying from Detroit (DTW) to Salt Lake City (SLC).\n\nWhile heading westbound at flight level 340 (approximately 34,000 feet), the crew reported an unidentified aerial phenomenon directly ahead at their 12 o'clock position, roughly 35 miles southeast of North Platte Regional Airport (LBF) in Nebraska. The object was described as stationary and untethered with no lights. It passed underneath the aircraft before the crew could determine its colour or size.\n\nThe FAA classified the operator as commercial and logged the report through standard channels. The case status is listed as closed, with no indication of any follow-up investigation, additional sensor review, or resolution. No radar data or other corroborating evidence is mentioned in the document.\n\nNotably, the report header lists a 2022 date while the metadata from the broader release assigns a 2023 incident year. The more specific date in the source text — 28 July 2022 — is likely accurate. The report contains minimal redaction and is a straightforward single-page incident log.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the flight crew's visual observation. No radar data, photographs, or other sensor evidence is mentioned.",
+    "The object's colour and size were never determined — the crew could not identify it before it passed beneath them, so the report offers almost no physical description.",
+    "The case was closed with no stated resolution or follow-up, meaning the FAA did not indicate what the object was or wasn't.",
+    "There is a date discrepancy: the document says 28 July 2022, but the release metadata lists 2023 as the incident year. The specific date in the report text is more likely correct.",
+    "This is a routine FAA incident log, not an investigative finding. It records what the crew reported but draws no conclusions about the nature of the object."
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "sha256": "e903040d5ca73a92197577392006fd0340eca5c703071d2807e9189d92e32ece",
+  "title": "FAA UAP record 237UAP00337",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft crew.",
+  "core_summary": "On January 13, 2024, United Airlines flight UAL1715 (an A320) reported an unidentified aerial phenomenon off the right side of the aircraft while eastbound at 7,000 feet, 16 nautical miles southeast of San Antonio (SAT). The object was described as white and blue in color at approximately 7,000 feet. No evasive action was taken, there was no impact to operations, and the UAP was not detected on ATC radar.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source visual observation by flight crew only — no corroborating radar data or other sensor confirmation.",
+    "The UAP was not detected on ATC radar, meaning no independent verification of the object's existence.",
+    "The report is classified as closed with no further investigation noted.",
+    "Tail number field is blank, limiting aircraft-specific verification."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2024-01-13 at 20:26",
+      "source_quote": "Date: 20:26 01/13/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "UAL1715",
+      "source_quote": "Callsign: UAL1715",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "A320",
+      "source_quote": "Aircraft: A320",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "United Airlines (UAL)",
+      "source_quote": "Operator: UAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "SAT (San Antonio)",
+      "source_quote": "Reporting Facility: SAT",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "SAT to DEN",
+      "source_quote": "Origin: SAT Destination: DEN",
+      "citation_offset": {
+        "offset": 212,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "16 NM southeast of SAT, at 7,000 feet, eastbound",
+      "source_quote": "E bound at 7,000 feet, 16 NM SE of SAT",
+      "citation_offset": {
+        "offset": 413,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "White and blue in color, at approximately 7,000 feet",
+      "source_quote": "The unknown phenomenon was white and blue in color at approximately 7,000 feet",
+      "citation_offset": {
+        "offset": 453,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "No evasive action",
+      "citation_offset": {
+        "offset": 533,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operational impact",
+      "value": "None",
+      "source_quote": "No impact to operation",
+      "citation_offset": {
+        "offset": 552,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 576,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 258,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "SAT-M-2024/01/13-0002",
+      "source_quote": "MOR ID: SAT-M-2024/01/13-0002",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "SAT",
+    "DEN"
+  ],
+  "dated_events": [
+    "2024-01-13"
+  ],
+  "objects_described": [
+    "A320 commercial aircraft",
+    "Unidentified aerial phenomenon (white and blue, at approximately 7,000 feet)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A United Airlines A320 flight (UAL1715) crew observed an unidentified aerial phenomenon while flying eastbound at 7,000 feet.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the right side while E bound at 7,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 336,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 16 nautical miles southeast of San Antonio.",
+      "source_quote": "16 NM SE of SAT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 436,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was white and blue in color at approximately the same altitude as the aircraft.",
+      "source_quote": "The unknown phenomenon was white and blue in color at approximately 7,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 453,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken and there was no impact to operations.",
+      "source_quote": "No evasive action. No impact to operation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 533,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP did not appear on ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 576,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:52:36.994Z",
+  "qa_completed_at": "2026-06-02T01:53:14.996Z",
+  "timing": {
+    "A": "18.2s",
+    "B": "19.8s",
+    "E": "17.4s"
+  },
+  "public_headline": "United Airlines Crew Reports White-Blue Object Near San Antonio",
+  "public_tldr": "This is an FAA incident report documenting a sighting by the crew of United Airlines flight 1715 (an Airbus A320) on 13 January 2024. The crew observed a white and blue object at roughly 7,000 feet while flying southeast of San Antonio, Texas. The object did not appear on air traffic control radar, no evasive action was taken, and the case is closed with no further investigation noted.",
+  "public_narrative": "On 13 January 2024 at 20:26, the crew of United Airlines flight UAL1715 — an Airbus A320 flying from San Antonio (SAT) to Denver (DEN) — reported an unidentified aerial phenomenon off the right side of the aircraft. The sighting occurred 16 nautical miles southeast of San Antonio while the aircraft was eastbound at 7,000 feet.\n\nThe crew described the object as white and blue in colour, at approximately the same altitude as the aircraft. No evasive action was taken, and the crew reported no impact to flight operations.\n\nThe FAA logged the event under its SKYWATCH programme, which tracks unidentified aerial phenomenon reports. Air traffic control checked their radar but did not detect the object. The report was assigned the identifier 237UAP00337 and the mandatory occurrence report ID SAT-M-2024/01/13-0002.\n\nThe case status is listed as closed. The document contains no indication of follow-up investigation, no identification of the object, and no additional sensor data beyond the crew's visual observation. The tail number field for the aircraft is blank.",
+  "public_caveats": [
+    "This is a single-source visual observation by the flight crew only — no radar, camera, or other sensor data corroborates the sighting.",
+    "The object was not detected on ATC radar, meaning there is no independent confirmation that it existed as a physical object at that location.",
+    "The case is marked closed with no further investigation noted, so the object was never identified or explained.",
+    "The document shows low evidence of redaction, but the aircraft tail number field is blank, which limits independent verification of the specific aircraft involved.",
+    "An FAA SKYWATCH report documents what a crew reported — it does not represent an FAA conclusion about what the object was."
+  ]
+}

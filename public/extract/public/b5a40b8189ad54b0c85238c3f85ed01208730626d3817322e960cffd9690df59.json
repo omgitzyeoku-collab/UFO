@@ -1,0 +1,204 @@
+{
+  "sha256": "b5a40b8189ad54b0c85238c3f85ed01208730626d3817322e960cffd9690df59",
+  "title": "FAA UAP record 237UAP00194",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This report coincides with the February 2023 period when multiple high-altitude balloon sightings were reported across North America, including the Chinese surveillance balloon incident",
+    "The object was reported only by the flight crew with no independent sensor confirmation documented in this report",
+    "The altitude estimate of FL500 (approximately 50,000 feet) is a crew visual estimate and may not be precise",
+    "The case is marked closed with no resolution or identification noted in the available text"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary classification",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "AAL2297",
+      "source_quote": "Callsign: AAL2297",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Balloon observed off right side of aircraft",
+      "source_quote": "Aircraft reported a balloon off the right side",
+      "citation_offset": {
+        "offset": 291,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft position",
+      "value": "30 nautical miles east of PWK (Chicago Executive Airport)",
+      "source_quote": "30NM E of PWK",
+      "citation_offset": {
+        "offset": 362,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft direction",
+      "value": "Southbound",
+      "source_quote": "while S bound at FL340",
+      "citation_offset": {
+        "offset": 338,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "DFW",
+    "BOS",
+    "PWK",
+    "ZDV"
+  ],
+  "dated_events": [
+    "2023-02-03"
+  ],
+  "objects_described": [
+    "Balloon at approximately FL500"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight AAL2297 reported a balloon while flying at 34,000 feet, 30 nautical miles east of Chicago Executive Airport",
+      "source_quote": "Aircraft reported a balloon off the right side while S bound at FL340, 30NM E of PWK",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 291,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon was estimated at approximately 50,000 feet altitude or above",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 377,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was classified as an Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case status is closed",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was a commercial operation from Dallas/Fort Worth to Boston",
+      "source_quote": "Origin: DFW Destination: BOS",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:41:18.078Z",
+  "qa_completed_at": "2026-06-01T23:41:58.088Z",
+  "timing": {
+    "A": "19.9s",
+    "B": "20.1s",
+    "E": "17.1s"
+  },
+  "public_headline": "FAA Report: American Airlines Crew Spotted Unidentified Balloon Near Chicago",
+  "public_tldr": "This FAA SKYWATCH incident report documents a February 2023 sighting by the crew of American Airlines flight AAL2297, who observed a balloon-like object off the right side of their aircraft while flying at 34,000 feet near Chicago. The object was estimated at approximately 50,000 feet altitude, and the case was closed without a stated identification.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena (UAP) in US airspace. It was classified under the primary code \"Unidentified Aerial Phenomenon.\"\n\nOn 3 February 2023, the crew of American Airlines flight AAL2297, a commercial flight travelling from Dallas/Fort Worth (DFW) to Boston (BOS), reported seeing a balloon off the right side of their aircraft. At the time, the plane was heading southbound at flight level 340 (approximately 34,000 feet), positioned about 30 nautical miles east of Chicago Executive Airport (PWK). The crew estimated the balloon was at approximately flight level 500 — roughly 50,000 feet — or above.\n\nThe report is notable for its timing: early February 2023 saw widespread reports of high-altitude balloon sightings across North America, including the widely publicised Chinese surveillance balloon incident. However, the document itself does not draw any connection to those events.\n\nThe FAA marked this case as closed. No resolution or identification of the object is recorded in the available text. The sighting was reported solely by the flight crew, with no independent sensor confirmation documented in this report.\n\nRedaction levels appear low — the document is largely readable — but the absence of a conclusion or identification means the report raises a question it does not answer.",
+  "public_caveats": [
+    "The sighting was reported only by the flight crew; no radar data, photographs, or independent sensor confirmation is documented in this report.",
+    "The altitude estimate of approximately 50,000 feet is a visual estimate made by the crew from 34,000 feet and may not be precise.",
+    "The case is marked closed with no identification or resolution recorded — 'closed' does not mean 'explained.'",
+    "This incident occurred during the February 2023 period of widespread high-altitude balloon sightings across North America, but the document does not link this sighting to any specific programme or event.",
+    "This is a single administrative report, not an investigation file — it records what was reported, not what was concluded."
+  ]
+}

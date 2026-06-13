@@ -1,0 +1,201 @@
+{
+  "sha256": "c0cae2f801869461cd0c6b8447843db2c974e4a280df959ee323fe4027378aab",
+  "title": "FAA UAP record 237UAP00284",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness statements included",
+    "The tail number field is blank, preventing independent verification of the specific aircraft",
+    "Case is marked Closed with no resolution or explanation provided",
+    "The phenomenon altitude (FL400–FL600) is well above typical commercial traffic, in the upper atmosphere/lower stratosphere range",
+    "No indication whether military or other sensors were tasked to investigate"
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary classification",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft callsign",
+      "value": "SWG6415",
+      "source_quote": "Callsign: SWG6415",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer altitude",
+      "value": "31,000 feet",
+      "source_quote": "at 31,000",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Phenomenon altitude range",
+      "value": "FL400 to FL600 (40,000–60,000 feet)",
+      "source_quote": "between FL400 and FL600",
+      "citation_offset": {
+        "offset": 346,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Phenomenon description",
+      "value": "Bright circling lights, maneuvering, lasting 1-2 minutes",
+      "source_quote": "bright circling lights and maneuvering for 1-2 min",
+      "citation_offset": {
+        "offset": 439,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 249,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZJX",
+    "MUHG",
+    "CYYZ",
+    "CRG"
+  ],
+  "dated_events": [
+    "2023-08-05"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon — bright circling lights maneuvering between FL400 and FL600"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Southwest Airlines flight observed an unidentified aerial phenomenon on 5 August 2023",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 294,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was located above the aircraft's altitude, between 40,000 and 60,000 feet while the aircraft was at 31,000 feet",
+      "source_quote": "between FL400 and FL600 while at 31,000",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 346,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of bright circling lights that maneuvered for 1-2 minutes",
+      "source_quote": "bright circling lights and maneuvering for 1-2 min",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 439,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was observed on the 070° radial at 127 nautical miles from Craig Airport, Jacksonville",
+      "source_quote": "located on the CRG070127",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 386,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was a commercial route from Havana, Cuba to Toronto, Canada",
+      "source_quote": "Origin: MUHG Destination: CYYZ",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:02:47.021Z",
+  "qa_completed_at": "2026-06-02T01:03:28.734Z",
+  "timing": {
+    "A": "21.0s",
+    "B": "20.7s",
+    "E": "18.0s"
+  },
+  "public_headline": "FAA Report: Commercial Crew Saw Bright Lights Above 40,000 Feet",
+  "public_tldr": "An FAA SKYWATCH incident report documents a commercial aircraft crew observing bright circling lights maneuvering at 40,000–60,000 feet on 5 August 2023, while flying at 31,000 feet off the coast of Jacksonville, Florida. The case was closed with no explanation provided.",
+  "public_narrative": "This is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena (UAP) from pilots and air traffic controllers. It was filed under case number 237UAP00284 and classified with the primary code \"Unidentified Aerial Phenomenon.\"\n\nOn 5 August 2023, the crew of a commercial flight with callsign SWG6415, travelling from Havana, Cuba to Toronto, Canada, reported observing something unusual. While cruising at 31,000 feet, the crew spotted bright circling lights above them, estimated between flight level 400 and flight level 600 — roughly 40,000 to 60,000 feet. That altitude range sits in the upper atmosphere, well above where commercial aircraft normally fly. The lights were described as maneuvering, and the sighting lasted approximately one to two minutes. The location was logged as 127 nautical miles out on the 070-degree radial from Craig Airport in Jacksonville, Florida.\n\nThe report is thin on follow-up. The case status is marked as \"Closed,\" but no resolution or explanation is provided in the document. There is no mention of radar data corroborating what the crew saw, no additional witness statements, and no indication that military sensors or other assets were tasked to investigate.\n\nThe aircraft's tail number field is blank, which limits the ability to independently verify which specific aircraft was involved, though the callsign and route details are recorded. The document shows low signs of redaction — the information appears sparse by design rather than blacked out.",
+  "public_caveats": [
+    "This is a single-source pilot report. No radar data, sensor readings, or independent witness accounts are included in the document.",
+    "The aircraft tail number is blank, making independent verification of the specific flight more difficult.",
+    "The case is marked Closed with no resolution — the FAA did not record an explanation for what was observed.",
+    "The reported altitude of 40,000–60,000 feet is above typical commercial traffic and in the upper atmosphere, but the estimate comes solely from the observing crew's judgment.",
+    "There is no indication in the document that any follow-up investigation or additional sensor tasking occurred."
+  ]
+}

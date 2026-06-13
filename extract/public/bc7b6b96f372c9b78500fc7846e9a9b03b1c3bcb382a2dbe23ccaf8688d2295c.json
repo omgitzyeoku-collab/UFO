@@ -1,0 +1,225 @@
+{
+  "sha256": "bc7b6b96f372c9b78500fc7846e9a9b03b1c3bcb382a2dbe23ccaf8688d2295c",
+  "title": "FAA UAP record 237UAP00239",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot observation; no corroborating radar or sensor data is referenced.",
+    "The case status is 'Closed' with no resolution or explanation provided in the document.",
+    "FL500 (approximately 50,000 feet) is above typical commercial aviation ceilings, making altitude estimation by the crew inherently imprecise.",
+    "No tail number is recorded, limiting independent verification of the specific aircraft involved.",
+    "'AWO advised' is noted but no follow-up action or AWO response is documented."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report — Unidentified Aerial Phenomenon",
+      "source_quote": "SKYWATCH INCIDENT REPORT | PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 28,
+        "len": 41,
+        "exact": false,
+        "matched": "MARY CODE: UNIDENTIFIED AERIAL PHENOMENON"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "callsign",
+      "value": "OAE573",
+      "source_quote": "Callsign: OAE573",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "OAE (commercial)",
+      "source_quote": "Operator: OAE",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_altitude",
+      "value": "FL330 (33,000 feet)",
+      "source_quote": "NE bound at FL330",
+      "citation_offset": {
+        "offset": 410,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "70 nautical miles northeast of ACK (Nantucket)",
+      "source_quote": "70NM NE of ACK",
+      "citation_offset": {
+        "offset": 429,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Stationary pulsating lights at approximately FL500 (50,000 feet)",
+      "source_quote": "stationary pulsating lights at approximately FL500",
+      "citation_offset": {
+        "offset": 485,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_position_relative_to_aircraft",
+      "value": "Off the front of the aircraft",
+      "source_quote": "an unidentified aerial phenomenon off their front",
+      "citation_offset": {
+        "offset": 354,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin_airport",
+      "value": "HOP",
+      "source_quote": "Origin: HOP",
+      "citation_offset": {
+        "offset": 211,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZBW-M-2023/03/10-0001",
+      "source_quote": "MOR ID: ZBW-M-2023/03/10-0001",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "awo_notified",
+      "value": "Yes",
+      "source_quote": "AWO advised",
+      "citation_offset": {
+        "offset": 537,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "HOP",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-03-10"
+  ],
+  "objects_described": [
+    "Stationary pulsating lights at approximately FL500"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Boeing 777-200 (OAE573) observed an unidentified aerial phenomenon while at FL330, 70 NM northeast of Nantucket.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off their front while NE bound at FL330, 70NM NE of ACK.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 336,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was stationary and exhibited pulsating lights at approximately 50,000 feet (FL500), well above the aircraft's altitude.",
+      "source_quote": "The unknown phenomenon was described as stationary pulsating lights at approximately FL500.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 445,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO (Aviation Weather Operations or relevant authority) was notified.",
+      "source_quote": "AWO advised.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 537,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from HOP and was destined for Shannon, Ireland (EINN).",
+      "source_quote": "Origin: HOP Destination: EINN",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 211,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:21:21.759Z",
+  "qa_completed_at": "2026-06-02T00:22:06.101Z",
+  "timing": {
+    "A": "21.2s",
+    "B": "23.2s",
+    "E": "17.9s"
+  },
+  "public_headline": "FAA Report: Pilot Spotted Pulsating Lights at 50,000 Feet Over the Atlantic",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a pilot sighting of stationary pulsating lights at approximately 50,000 feet on 10 March 2023, observed from a commercial flight cruising at 33,000 feet about 70 nautical miles northeast of Nantucket. The case was closed with no explanation provided.",
+  "public_narrative": "On 10 March 2023, the crew of a commercial flight operating under callsign OAE573 reported an unidentified aerial phenomenon to the FAA. The aircraft was flying northeast at 33,000 feet, roughly 70 nautical miles northeast of Nantucket, Massachusetts, en route from HOP to Shannon, Ireland.\n\nThe crew described stationary pulsating lights positioned off the front of their aircraft at approximately FL500 — around 50,000 feet, well above their cruising altitude. That altitude is above the ceiling of most commercial and military aircraft, which makes the observation unusual, though the crew's altitude estimate was visual and inherently imprecise at that distance.\n\nThe FAA logged the sighting as a SKYWATCH Incident Report under the primary code \"Unidentified Aerial Phenomenon\" and assigned it tracking number ZBW-M-2023/03/10-0001. The relevant authority (noted as \"AWO\") was advised, but no follow-up action or response from AWO appears in the document.\n\nThe case status is marked as \"Closed.\" No resolution, identification, or explanation for the observed phenomenon is provided anywhere in the report. No corroborating radar data or sensor evidence is referenced — the entire record rests on the pilot's account alone.",
+  "public_caveats": [
+    "This is a single-source report based entirely on pilot observation. No radar data, photographs, or other sensor evidence is referenced in the document.",
+    "The estimated altitude of the lights (approximately 50,000 feet) was a visual guess from the cockpit — altitude estimation at that distance is inherently imprecise.",
+    "The case is marked 'Closed' with no explanation or identification of the phenomenon. 'Closed' does not mean 'resolved' or 'explained.'",
+    "No aircraft tail number is recorded, which limits the ability to independently verify the specific flight involved.",
+    "The document notes that 'AWO' was advised, but no follow-up action or AWO response is documented."
+  ]
+}

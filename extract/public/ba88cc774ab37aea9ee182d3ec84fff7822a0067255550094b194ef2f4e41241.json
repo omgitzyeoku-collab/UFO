@@ -1,0 +1,241 @@
+{
+  "sha256": "ba88cc774ab37aea9ee182d3ec84fff7822a0067255550094b194ef2f4e41241",
+  "title": "FAA UAP record 237UAP00269",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by commercial aircraft over the Caribbean/Florida region.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Report is a brief administrative summary, not a detailed investigation — no radar data, photos, or follow-up analysis is included.",
+    "The tail number field is blank, limiting independent verification of the primary reporting aircraft.",
+    "Case status is 'Closed' with no resolution or explanation provided for the phenomenon.",
+    "Coordinates place the observations over the Florida Straits/Caribbean — an area with heavy commercial and military air traffic.",
+    "The '50,000 feet' altitude estimate is from a pilot visual observation and may not be precise."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-06-10 at 05:15 UTC",
+      "source_quote": "Date: 05:15 06/10/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_aircraft_callsign",
+      "value": "CMP404",
+      "source_quote": "Callsign: CMP404",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_aircraft_type",
+      "value": "Boeing 737-800",
+      "source_quote": "Aircraft: B738",
+      "citation_offset": {
+        "offset": 125,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "37,000 feet",
+      "source_quote": "N bound at 37,000 feet",
+      "citation_offset": {
+        "offset": 370,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_observation_position",
+      "value": "24°42'N / 81°06'W",
+      "source_quote": "at 2442N/8106W",
+      "citation_offset": {
+        "offset": 394,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Stationary white light turning on and off periodically, 40 miles ahead",
+      "source_quote": "a stationary white light that turned on and then off periodically, 40 miles ahead",
+      "citation_offset": {
+        "offset": 437,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_aircraft_registration",
+      "value": "N841MS",
+      "source_quote": "N841MS, C560/L, MMUN to FLL at FL370",
+      "citation_offset": {
+        "offset": 520,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_observation_details",
+      "value": "Two separate white lights at 37,000 and 50,000 feet, 80 miles ahead",
+      "source_quote": "two separate white lights from the 12 o'clock and 80 miles ahead at much higher altitudes (37,000 and 50,000 feet)",
+      "citation_offset": {
+        "offset": 566,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_observation_position",
+      "value": "26°38'N / 81°03'W",
+      "source_quote": "at 2638N/8103W",
+      "citation_offset": {
+        "offset": 681,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "multiple_witnesses",
+      "value": "Yes, confirmed by multiple aircraft",
+      "source_quote": "The same reported by multiple aircraft in the vicinity",
+      "citation_offset": {
+        "offset": 697,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZMA",
+    "MPTO",
+    "IAD",
+    "MMUN",
+    "FLL"
+  ],
+  "dated_events": [
+    "2023-06-10"
+  ],
+  "objects_described": [
+    "Stationary white light turning on and off periodically",
+    "Two separate white lights at high altitudes",
+    "Boeing 737-800 (B738)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Copa Airlines Boeing 737-800 observed a stationary pulsing white light while northbound at 37,000 feet over the Florida Straits.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon from the 12 o'clock while N bound at 37,000 feet, at 2442N/8106W",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 292,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second aircraft (N841MS) independently observed two separate white lights at altitudes of 37,000 and 50,000 feet.",
+      "source_quote": "N841MS, C560/L, MMUN to FLL at FL370 observed two separate white lights from the 12 o'clock and 80 miles ahead at much higher altitudes (37,000 and 50,000 feet)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 520,
+        "len": 160,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Multiple additional aircraft in the area reported the same phenomenon.",
+      "source_quote": "The same reported by multiple aircraft in the vicinity",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 697,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "One of the observed lights was at approximately 50,000 feet, well above standard commercial flight levels.",
+      "source_quote": "at much higher altitudes (37,000 and 50,000 feet)",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 631,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:48:48.948Z",
+  "qa_completed_at": "2026-06-02T00:49:39.253Z",
+  "timing": {
+    "A": "26.3s",
+    "B": "24.0s",
+    "E": "16.1s"
+  },
+  "public_headline": "Multiple Pilots Reported Pulsing White Lights Over Florida Straits in 2023",
+  "public_tldr": "This is an FAA SKYWATCH incident report from 10 June 2023 documenting stationary white lights observed by multiple commercial aircraft over the Florida Straits. At least two planes independently reported the lights at altitudes up to an estimated 50,000 feet, but the FAA closed the case with no explanation provided.",
+  "public_narrative": "On 10 June 2023 at 05:15 UTC, a Copa Airlines Boeing 737-800 (callsign CMP404) was flying northbound at 37,000 feet over the Florida Straits, near coordinates 24°42'N / 81°06'W. The crew reported a stationary white light roughly 40 miles ahead that turned on and off periodically.\n\nA second aircraft, a Cessna Citation V (registration N841MS) flying from Cancún to Fort Lauderdale at 37,000 feet, independently observed two separate white lights from its 12 o'clock position about 80 miles ahead. The crew estimated these lights were at 37,000 and 50,000 feet — the higher figure well above standard commercial cruising altitude. That observation was made near 26°38'N / 81°03'W. Multiple additional aircraft in the area reported the same phenomenon.\n\nThe FAA classified the report under its primary code of \"Unidentified Aerial Phenomenon.\" The case status is listed as Closed, but the document provides no resolution, identification, or follow-up analysis. There is no radar data, imagery, or investigative findings included.\n\nThe report is a brief administrative summary — a single-page record rather than a detailed investigation. The tail number field for the primary reporting aircraft is blank, which limits independent verification. The Florida Straits area sees heavy commercial and military air traffic, which is relevant context for any sighting in that region.",
+  "public_caveats": [
+    "This is a short administrative summary, not a detailed investigation — it contains no radar data, photographs, or analytical follow-up.",
+    "The 50,000-foot altitude estimate comes from a pilot's visual observation and may not be precise.",
+    "The case was closed with no resolution or explanation for what was observed.",
+    "The tail number field for the primary reporting aircraft (CMP404) is blank, limiting independent verification.",
+    "The sighting occurred over the Florida Straits, an area with heavy commercial and military air traffic, which could account for some aerial phenomena."
+  ]
+}

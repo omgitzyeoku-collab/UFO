@@ -1,0 +1,290 @@
+{
+  "sha256": "bd19d2a01d0bc706435cffae8a5fdc6a088771076b708179084c040fa29fa882",
+  "title": "FAA UAP record 237UAP00188",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observed by a commercial aircraft crew.",
+  "core_summary": "On 3 February 2023, the crew of American Airlines flight AAL2574, a Boeing 737-800 flying westbound at 36,000 feet, reported a large balloon off the right side of their aircraft approximately 30 nautical miles west of the RBA VOR. The balloon was estimated to be at approximately 50,000 feet or above. The incident was reported through the Denver (ZDV) air traffic control facility and the case is marked as closed.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a single-source pilot report with no corroborating radar data or additional witness accounts included.",
+    "The altitude estimate of FL500 (50,000 feet) is a visual estimate from a crew at FL360 and may be imprecise.",
+    "The date coincides with the February 2023 period when multiple high-altitude balloon incidents were reported across US airspace.",
+    "The case is marked as closed with no resolution or identification details provided in the report.",
+    "No tail number is listed for the reporting aircraft."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-02-03",
+      "source_quote": "Date: 14:39 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "AAL2574",
+      "source_quote": "Callsign: AAL2574",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Boeing 737-800",
+      "source_quote": "Aircraft: B738",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "origin",
+      "value": "STL (St. Louis)",
+      "source_quote": "Origin: STL",
+      "citation_offset": {
+        "offset": 201,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "destination",
+      "value": "PHX (Phoenix)",
+      "source_quote": "Destination: PHX",
+      "citation_offset": {
+        "offset": 213,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL360 (36,000 feet)",
+      "source_quote": "W bound at FL360",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_altitude",
+      "value": "Approximately FL500 (50,000 feet) and above",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "citation_offset": {
+        "offset": 383,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Large balloon",
+      "source_quote": "Aircraft reported a large balloon off the right side",
+      "citation_offset": {
+        "offset": 291,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_position_relative",
+      "value": "Right side of aircraft",
+      "source_quote": "a large balloon off the right side",
+      "citation_offset": {
+        "offset": 309,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "30 nautical miles west of RBA VOR",
+      "source_quote": "30NM W of RBA",
+      "citation_offset": {
+        "offset": 368,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "ZDV (Denver ARTCC)",
+      "source_quote": "Reporting Facility: ZDV",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN (Denver)",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZDV",
+    "STL",
+    "PHX",
+    "RBA"
+  ],
+  "dated_events": [
+    "2023-02-03"
+  ],
+  "objects_described": [
+    "Large balloon at approximately FL500 and above",
+    "Boeing 737-800 (B738)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight AAL2574 reported a large balloon while westbound at 36,000 feet",
+      "source_quote": "Aircraft reported a large balloon off the right side while W bound at FL360",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 291,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon was located approximately 30 nautical miles west of RBA",
+      "source_quote": "30NM W of RBA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 368,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The balloon was estimated at approximately 50,000 feet altitude or above",
+      "source_quote": "The balloon was at approximately FL500 and above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 383,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was classified under the primary code Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from St. Louis and was destined for Phoenix",
+      "source_quote": "Origin: STL Destination: PHX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:35:21.693Z",
+  "qa_completed_at": "2026-06-01T23:36:00.841Z",
+  "timing": {
+    "A": "21.4s",
+    "B": "17.8s",
+    "E": "17.7s"
+  },
+  "public_headline": "American Airlines Crew Reported High-Altitude Balloon Over Kansas in 2023",
+  "public_tldr": "This FAA incident report documents the crew of American Airlines flight 2574 spotting a large balloon at an estimated 50,000 feet or higher while flying at 36,000 feet on 3 February 2023. The sighting was logged as an Unidentified Aerial Phenomenon through the Denver air traffic control centre, and the case was closed with no resolution or identification provided.",
+  "public_narrative": "On 3 February 2023, the crew of American Airlines flight AAL2574 — a Boeing 737-800 flying from St. Louis to Phoenix — reported a large balloon off the right side of their aircraft. The plane was cruising westbound at 36,000 feet, roughly 30 nautical miles west of the RBA navigational beacon, when the crew spotted the object. They estimated it was at approximately 50,000 feet or higher.\n\nThe sighting was reported through Denver Air Route Traffic Control Centre (ZDV) and logged under the FAA's SKYWATCH system with the primary classification \"Unidentified Aerial Phenomenon.\" The report is a standard FAA incident form — it records the flight details, the crew's description of what they saw, and the approximate location.\n\nThe case is marked as closed. No identification of the object is provided in the report, no radar data or additional witness accounts are included, and no follow-up findings are documented. The date falls within the same period — early February 2023 — when multiple high-altitude balloon incidents were reported across US airspace, though this report does not reference any connection to those events.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or additional witness accounts included in the document.",
+    "The altitude estimate of 50,000 feet is a visual estimate made by a crew flying at 36,000 feet and may be imprecise.",
+    "The case is marked as closed with no resolution — the object was never identified within this report.",
+    "The sighting occurred during the February 2023 period when several high-altitude balloon incidents made headlines, but this report does not explicitly link the two.",
+    "No tail number for the reporting aircraft is listed in the document."
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "sha256": "6828ea00dfee52626782329102dcbceae7935575000a7275d1c7aff4a824ca8d",
+  "title": "FAA UAP record 237UAP00310",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-page incident report with no radar data, sensor recordings, or follow-up investigation notes included.",
+    "Case is marked 'Closed' with no resolution or identification provided.",
+    "Observation over 300 miles by two aircraft suggests extended duration, but no timestamps for first sighting are given.",
+    "Object described as 'very high altitude' relative to FL350 (35,000 ft) but no altitude estimate is provided.",
+    "Tail number field is blank — aircraft identity confirmable only via callsign and flight route."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "AAL2928, Airbus A319",
+      "source_quote": "Callsign: AAL2928 … Aircraft: A319",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "Monterrey (MMMY) to New York JFK",
+      "source_quote": "Origin: MMMY Destination: JFK",
+      "citation_offset": {
+        "offset": 201,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL350 (35,000 feet)",
+      "source_quote": "E bound at FL350",
+      "citation_offset": {
+        "offset": 351,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "20 NM north of Lynchburg VOR (LYH)",
+      "source_quote": "20 NM N of LYH",
+      "citation_offset": {
+        "offset": 369,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "3 bright white lights on a single object, mostly stationary, very high altitude",
+      "source_quote": "3 bright white lights on a single object mostly stationary at very high altitude",
+      "citation_offset": {
+        "offset": 412,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Corroborating aircraft",
+      "value": "FDX1402, Boeing 767-300, Memphis to Newark, FL350",
+      "source_quote": "FDX1402, B763, MEM-EWR, FL350 reported same object",
+      "citation_offset": {
+        "offset": 494,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Duration of observation",
+      "value": "Both crews observed lights over previous 300 miles",
+      "source_quote": "Both aircraft observed lights for the previous 300 miles",
+      "citation_offset": {
+        "offset": 546,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "JFK (New York)"
+  ],
+  "dated_events": [
+    "2023-10-28"
+  ],
+  "objects_described": [
+    "Single object with 3 bright white lights at very high altitude"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AAL2928 was eastbound at FL350 when the sighting occurred",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while E bound at FL350",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 293,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object displayed 3 bright white lights and was mostly stationary at very high altitude",
+      "source_quote": "3 bright white lights on a single object mostly stationary at very high altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 412,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second aircraft (FDX1402) independently reported the same object",
+      "source_quote": "FDX1402, B763, MEM-EWR, FL350 reported same object",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 494,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Both aircraft had observed the lights over a distance of 300 miles",
+      "source_quote": "Both aircraft observed lights for the previous 300 miles",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 546,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:27:32.893Z",
+  "qa_completed_at": "2026-06-02T01:28:10.579Z",
+  "timing": {
+    "A": "21.0s",
+    "B": "16.7s",
+    "E": "20.9s"
+  },
+  "public_headline": "Two Airliners Reported Same Stationary Lights at Very High Altitude in 2023",
+  "public_tldr": "An FAA SKYWATCH incident report records that an American Airlines crew and a FedEx crew both observed three bright white lights on a single object at very high altitude while flying at 35,000 feet on 28 October 2023. The case was closed with no identification or explanation provided.",
+  "public_narrative": "This is a one-page FAA incident report filed under the agency's SKYWATCH system, which logs pilot sightings of unidentified aerial phenomena. The primary code assigned to the event is \"Unidentified Aerial Phenomenon.\"\n\nOn 28 October 2023, the crew of American Airlines flight 2928 — an Airbus A319 flying eastbound from Monterrey, Mexico to New York JFK at 35,000 feet — reported seeing three bright white lights on a single object. The object appeared mostly stationary at what the crew described as very high altitude (above their own cruising level of 35,000 feet). The sighting location was approximately 20 nautical miles north of the Lynchburg VOR navigation beacon in Virginia.\n\nA second aircraft, FedEx flight 1402 — a Boeing 767-300 flying from Memphis to Newark at the same altitude — independently reported the same object. Both crews stated they had observed the lights over the previous 300 miles of their respective routes, suggesting the object remained visible for an extended period.\n\nThe FAA marked the case as closed. No resolution, identification, or follow-up investigation notes are included in the released document. No radar data or sensor recordings accompany the report.",
+  "public_caveats": [
+    "This is a single-page report with no radar data, sensor recordings, or follow-up investigation included — it records only pilot testimony.",
+    "The case is marked 'Closed' with no explanation of what the object was or why no further investigation was pursued.",
+    "No timestamps are given for when the crews first noticed the lights, so the actual duration of observation is unclear despite the 300-mile figure.",
+    "No altitude estimate is provided for the object itself — only that it appeared to be above FL350 (35,000 feet).",
+    "The reporting aircraft's tail number field is blank; the aircraft is identified only by callsign and route."
+  ]
+}

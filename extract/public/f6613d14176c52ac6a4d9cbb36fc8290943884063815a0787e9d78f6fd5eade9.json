@@ -1,0 +1,259 @@
+{
+  "sha256": "f6613d14176c52ac6a4d9cbb36fc8290943884063815a0787e9d78f6fd5eade9",
+  "title": "FAA UAP record 237UAP00203",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a UAP sighting that was subsequently identified as a Starlink satellite train.",
+  "core_summary": "On 7 February 2023, multiple commercial aircraft reported unidentified bright flashing lights resembling landing lights approximately 50 nautical miles north of Des Moines, Iowa, moving east-southeast at altitudes above 60,000 feet. Air traffic control advised pilots to file UAP reports. The sighting was subsequently correlated by FAA ATSC, OMIC, and NORAD to a Starlink satellite train consisting of approximately 20 satellites in 3-4 groups of 4 units.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Case was resolved as a Starlink satellite train — this is not an unexplained UAP incident.",
+    "The report is a single-page administrative summary, not a detailed investigation file.",
+    "No pilot names or specific aircraft registration numbers are included in the report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-02-07",
+      "source_quote": "Date: 10:00 02/07/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "UAL1164",
+      "source_quote": "Callsign: UAL1164",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 258,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sighting_location",
+      "value": "50 NM north of Des Moines",
+      "source_quote": "50 NM north of DSM moving to the ESE",
+      "citation_offset": {
+        "offset": 403,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "Above 60,000 feet",
+      "source_quote": "\"well above them\", 60,000+",
+      "citation_offset": {
+        "offset": 440,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "appearance",
+      "value": "Bright flashing lights similar to landing lights",
+      "source_quote": "bright flashing lights similar to landing lights",
+      "citation_offset": {
+        "offset": 495,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_witnesses",
+      "value": "Multiple aircraft crews",
+      "source_quote": "Multiple aircraft reported multiple unidentified aerial phenomenon",
+      "citation_offset": {
+        "offset": 336,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "resolution",
+      "value": "Starlink satellite train (~20 satellites)",
+      "source_quote": "STARLINK satellite train consisting of 3-4 groups of 4 units (approximately 20 satellites)",
+      "citation_offset": {
+        "offset": 622,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "confirming_agencies",
+      "value": "FAA ATSC, OMIC, NORAD",
+      "source_quote": "ATSC and OMIC correlated the report... FAA NORAD conferenced and concurs",
+      "citation_offset": {
+        "offset": 581,
+        "len": 32,
+        "exact": false,
+        "matched": "ATSC and OMIC correlated the rep"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZMP-M-2023/02/07-0001",
+      "source_quote": "MOR ID: ZMP-M-2023/02/07-0001",
+      "citation_offset": {
+        "offset": 298,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "SFO",
+    "CYYZ",
+    "DSM",
+    "ZMP"
+  ],
+  "dated_events": [
+    "2023-02-07"
+  ],
+  "objects_described": [
+    "Starlink satellite train (approximately 20 satellites in 3-4 groups of 4)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Multiple aircraft observed bright flashing lights 50 NM north of Des Moines on 7 February 2023",
+      "source_quote": "Multiple aircraft reported multiple unidentified aerial phenomenon 50 NM north of DSM moving to the ESE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 336,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects were reported at altitudes above 60,000 feet, well above the reporting aircraft",
+      "source_quote": "\"well above them\", 60,000+",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 440,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights appeared similar to aircraft landing lights",
+      "source_quote": "bright flashing lights similar to landing lights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 495,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "FAA ATSC and OMIC identified the sighting as a Starlink satellite train of approximately 20 satellites",
+      "source_quote": "ATSC and OMIC correlated the report to a STARLINK satellite train consisting of 3-4 groups of 4 units (approximately 20 satellites)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 581,
+        "len": 131,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD concurred with the Starlink identification",
+      "source_quote": "FAA NORAD conferenced and concurs",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 714,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "ATC instructed pilots to file UAP mandatory occurrence reports",
+      "source_quote": "ATC advised them to file a UAP MOR",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 545,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:49:40.528Z",
+  "qa_completed_at": "2026-06-01T23:50:18.822Z",
+  "timing": {
+    "A": "21.9s",
+    "B": "16.4s",
+    "E": "22.6s"
+  },
+  "public_headline": "Pilots Reported Mystery Lights Over Iowa; FAA Identified Starlink Satellites",
+  "public_tldr": "This FAA incident report documents a sighting on 7 February 2023 in which multiple commercial aircraft crews reported bright flashing lights above 60,000 feet, roughly 50 nautical miles north of Des Moines, Iowa. The case was closed after FAA and NORAD confirmed the lights were a Starlink satellite train of approximately 20 satellites.",
+  "public_narrative": "On 7 February 2023, crews aboard several commercial aircraft — including United Airlines flight UAL1164 — reported seeing bright flashing lights roughly 50 nautical miles north of Des Moines, Iowa. The lights were moving east-southeast at altitudes the pilots described as \"well above them,\" estimated at more than 60,000 feet. The crews said the lights resembled aircraft landing lights, which is what made them notable enough to report.\n\nAir traffic control instructed the pilots to file UAP (Unidentified Aerial Phenomenon) mandatory occurrence reports. The sighting was logged under FAA SKYWATCH, the agency's system for tracking such incidents, with the identifier 237UAP00203.\n\nThe case did not stay unidentified for long. FAA's Air Traffic Security Coordinator (ATSC) and Operations Management Integration Center (OMIC) correlated the reports to a Starlink satellite train — a formation of roughly 20 SpaceX satellites arranged in 3–4 groups of 4 units. NORAD (the North American Aerospace Defense Command) reviewed the finding and concurred. The case was closed.\n\nThe document itself is a single-page administrative summary, not a detailed investigation file. No pilot names or specific aircraft registration numbers appear in the report. There is minimal evidence of redaction.",
+  "public_caveats": [
+    "This case was resolved: the lights were identified as a Starlink satellite train by FAA and NORAD. It is not an unexplained UAP incident.",
+    "The report is a one-page administrative summary, not a full investigation file, so it contains limited detail about the sighting itself.",
+    "No pilot names or aircraft registration numbers are included, so independent verification of the witness accounts is not possible from this document alone.",
+    "The confirmation by NORAD is described in the report but the underlying NORAD analysis is not attached or quoted in detail.",
+    "There is low evidence of redaction — the document appears to be released largely intact."
+  ]
+}

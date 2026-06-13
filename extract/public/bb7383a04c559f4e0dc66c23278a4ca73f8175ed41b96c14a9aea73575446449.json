@@ -1,0 +1,270 @@
+{
+  "sha256": "bb7383a04c559f4e0dc66c23278a4ca73f8175ed41b96c14a9aea73575446449",
+  "title": "FAA UAP record 237UAP00101",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a UAP sighting by a commercial aircraft crew over the Atlantic Ocean.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation with no radar or sensor corroboration mentioned.",
+    "The crew themselves suggested the objects may have been Starlink satellites in the follow-up update, reducing the anomalous nature of the sighting.",
+    "The observation was made at night over open ocean, where visual distance and altitude estimation are unreliable.",
+    "The case is marked Closed with no resolution or investigation outcome documented."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft callsign",
+      "value": "UAE9918",
+      "source_quote": "Callsign: UAE9918",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight level",
+      "value": "FL330 (approx. 33,000 ft)",
+      "source_quote": "NNE bound at FL330",
+      "citation_offset": {
+        "offset": 376,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Position",
+      "value": "3208N/5750W, 1,050 miles east of the Carolinas",
+      "source_quote": "1,050 miles off the E coast of the Carolinas, LAT/LONG 3208N/5750W",
+      "citation_offset": {
+        "offset": 396,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of objects observed",
+      "value": "2-3 lights",
+      "source_quote": "they continue to observe 2 or 3 lights moving North and East very high above",
+      "citation_offset": {
+        "offset": 908,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object behavior",
+      "value": "Formation racetrack pattern, left-hand turns, 3-5 minute laps",
+      "source_quote": "operating in a formation in a North to South racetrack pattern",
+      "citation_offset": {
+        "offset": 517,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object altitude estimate",
+      "value": "At or above FL400 (approx. 40,000 ft)",
+      "source_quote": "estimated to be 40-50 miles ahead at approximately at or above FL400",
+      "citation_offset": {
+        "offset": 773,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object spacing",
+      "value": "One trailing the other by 5 seconds",
+      "source_quote": "one trailing the other by 5 seconds",
+      "citation_offset": {
+        "offset": 699,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Apparent lighting",
+      "value": "Landing lights appeared on",
+      "source_quote": "They appeared to have their landing lights on",
+      "citation_offset": {
+        "offset": 581,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Crew's later assessment",
+      "value": "Possibly Starlink satellites",
+      "source_quote": "They report this sighting to possibly be Starlink Satellites",
+      "citation_offset": {
+        "offset": 986,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notified",
+      "value": "No",
+      "source_quote": "LEO not notified",
+      "citation_offset": {
+        "offset": 843,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 248,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "Carolinas",
+    "BQN",
+    "EHAM"
+  ],
+  "dated_events": [
+    "2022-08-10T04:09"
+  ],
+  "objects_described": [
+    "2-3 unidentified lights in racetrack formation pattern",
+    "Starlink satellites (crew's tentative identification)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Emirates flight UAE9918 was en route from BQN to EHAM on 10 August 2022",
+      "source_quote": "Origin: BQN Destination: EHAM",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was at FL330 at position 3208N/5750W, 1,050 miles east of the Carolinas",
+      "source_quote": "NNE bound at FL330, 1,050 miles off the E coast of the Carolinas, LAT/LONG 3208N/5750W",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 376,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Two aircraft-like objects were observed in a left-hand racetrack pattern with landing lights on, at or above FL400",
+      "source_quote": "2 aircraft North of their position operating in a formation in a North to South racetrack pattern",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 482,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The racetrack laps were estimated at 3-5 minutes with one object trailing the other by 5 seconds",
+      "source_quote": "3-5 minutes laps with one trailing the other by 5 seconds",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 677,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew later suggested the lights might be Starlink satellites",
+      "source_quote": "They report this sighting to possibly be Starlink Satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 986,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified",
+      "source_quote": "LEO not notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 843,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO was notified during the follow-up update",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1048,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 7,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:07:07.104Z",
+  "qa_completed_at": "2026-06-01T22:07:54.387Z",
+  "timing": {
+    "A": "24.5s",
+    "B": "22.8s",
+    "E": "19.9s"
+  },
+  "public_headline": "Emirates Crew Reported Unidentified Lights Over the Atlantic in 2022",
+  "public_tldr": "An FAA incident report documents a commercial Emirates flight crew observing two to three unidentified lights flying in a racetrack pattern over the Atlantic Ocean in August 2022. The crew later suggested the objects may have been Starlink satellites, and the case was closed without a documented resolution.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under case number 237UAP00101. It records a UAP (unidentified anomalous phenomena) sighting by the crew of Emirates flight UAE9918, a commercial aircraft travelling from BQN to EHAM (Amsterdam).\n\nOn 10 August 2022, at around 04:09 UTC, the crew reported observing two aircraft-like objects north of their position while flying at FL330 (approximately 33,000 feet) over the Atlantic Ocean, roughly 1,050 miles east of the Carolinas at coordinates 3208N/5750W. The objects appeared to be operating in a north-to-south racetrack formation pattern with their landing lights on, estimated at or above FL400 (approximately 40,000 feet) and about 40–50 miles ahead. Each lap took an estimated three to five minutes, with one object trailing the other by about five seconds.\n\nIn a follow-up update, the crew reported continuing to observe two or three lights moving north and east at high altitude. They suggested the sighting could possibly be Starlink satellites. Law enforcement was not notified, though AWO (the FAA's Aviation Weather Office) was.\n\nThe case is marked as closed. No resolution, formal investigation outcome, or sensor corroboration is documented in the report.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the aircrew's visual observation — no radar data, infrared imagery, or other sensor corroboration is mentioned.",
+    "The crew themselves suggested the lights may have been Starlink satellites, which would make this a conventional sighting rather than an anomalous one.",
+    "The observation was made at night over open ocean, conditions under which estimating distance, altitude, and size by eye is highly unreliable.",
+    "The case is marked 'Closed' with no documented investigation outcome or formal conclusion about what the objects were.",
+    "Redaction levels appear low — the report seems largely intact, but the absence of follow-up analysis means key questions remain unanswered rather than redacted."
+  ]
+}

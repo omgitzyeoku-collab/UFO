@@ -1,0 +1,223 @@
+{
+  "sha256": "dd12334aae2912f9192f44ba2668d5109dd8ecf662965f97e81acb386e15d0dd",
+  "title": "FAA UAP record 237UAP00319",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On 22 November 2023 at 00:42, the crew of FedEx flight FDX3184 (a Boeing 767) reported an unidentified aerial phenomenon off the left side of the aircraft while eastbound at 14,000 feet, 36 nautical miles east of RSW (Southwest Florida International Airport). The phenomenon appeared as 3 lights arranged vertically then horizontally at the same altitude. The object was not observed on ATC radar, and a second aircraft (N516WP, a Learjet 60) independently corroborated the sighting.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single event with two independent pilot observers but no radar corroboration",
+    "No tail number recorded for the reporting aircraft",
+    "Report is marked Closed with no resolution or identification noted",
+    "No physical evidence or sensor data beyond visual observation by two flight crews"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2023-11-22 at 00:42 UTC",
+      "source_quote": "Date: 00:42 11/22/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft",
+      "value": "FedEx flight FDX3184, Boeing 767",
+      "source_quote": "Callsign: FDX3184 ... Aircraft: B763",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "14,000 feet",
+      "source_quote": "E bound at 14,000 feet",
+      "citation_offset": {
+        "offset": 368,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "36 nautical miles east of RSW",
+      "source_quote": "36NM E of RSW",
+      "citation_offset": {
+        "offset": 392,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "3 lights, vertical then horizontal orientation at 14,000 feet",
+      "source_quote": "The unknown phenomenon was 3 lights vertical then horizontal at 14,000 feet",
+      "citation_offset": {
+        "offset": 407,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 484,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Corroborating aircraft",
+      "value": "N516WP, Learjet 60, routing PTK to FXE",
+      "source_quote": "Also N516WP LJ60 PTK - FXE concurred with the report",
+      "citation_offset": {
+        "offset": 539,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Origin JPX, destination FLL",
+      "source_quote": "Origin: JPX Destination: FLL",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "RSW",
+    "JPX",
+    "FLL",
+    "FXE",
+    "PTK"
+  ],
+  "dated_events": [
+    "2023-11-22"
+  ],
+  "objects_described": [
+    "UAP described as 3 lights in vertical then horizontal arrangement"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "FedEx flight FDX3184 was eastbound at 14,000 feet when the crew observed the phenomenon",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon off the left side while E bound at 14,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of 3 lights that appeared vertical then horizontal at 14,000 feet",
+      "source_quote": "The unknown phenomenon was 3 lights vertical then horizontal at 14,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 407,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was not detected on ATC facility radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 484,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second aircraft (N516WP, a Learjet 60 flying PTK to FXE) independently confirmed the sighting",
+      "source_quote": "Also N516WP LJ60 PTK - FXE concurred with the report",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 539,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 36 nautical miles east of RSW",
+      "source_quote": "36NM E of RSW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 392,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:35:48.523Z",
+  "qa_completed_at": "2026-06-02T01:36:23.024Z",
+  "timing": {
+    "A": "18.7s",
+    "B": "15.8s",
+    "E": "26.7s"
+  },
+  "public_headline": "FedEx Crew and Second Pilot Report Three-Light UAP Over Florida",
+  "public_tldr": "This FAA incident report documents a sighting on 22 November 2023 in which the crew of a FedEx Boeing 767 observed three lights arranged vertically then horizontally while flying at 14,000 feet east of Southwest Florida International Airport. A second aircraft independently confirmed the sighting, but the object did not appear on air traffic control radar, and the case was closed without identification.",
+  "public_narrative": "On 22 November 2023 at 00:42 UTC, the crew of FedEx flight FDX3184 — a Boeing 767 on a commercial route from JPX to Fort Lauderdale (FLL) — reported an unidentified aerial phenomenon off the left side of their aircraft. They were flying eastbound at 14,000 feet, approximately 36 nautical miles east of RSW (Southwest Florida International Airport).\n\nThe crew described the phenomenon as three lights that appeared first in a vertical arrangement, then shifted to a horizontal orientation, at the same altitude as the aircraft. The sighting was independently corroborated by a second aircraft, a Learjet 60 with registration N516WP, which was routing from PTK to FXE and confirmed seeing the same thing.\n\nDespite two separate flight crews observing the phenomenon, air traffic control radar did not detect any object in the area. The FAA logged the event through its SKYWATCH incident reporting system.\n\nThe report is marked as closed. No resolution or identification of the phenomenon is recorded in the document. No physical evidence or sensor data beyond the visual observations of the two flight crews was collected.",
+  "public_caveats": [
+    "Two independent flight crews observed the phenomenon, which strengthens the report, but neither radar nor any other sensor system detected an object.",
+    "The case is marked closed with no explanation or identification offered by the FAA.",
+    "The document contains visual-only evidence — no photographs, video, or instrument readings are included.",
+    "No tail number was recorded for the reporting FedEx aircraft, which is an unusual omission in FAA records.",
+    "Redaction levels are low — this appears to be a straightforward incident report rather than a heavily censored document."
+  ]
+}

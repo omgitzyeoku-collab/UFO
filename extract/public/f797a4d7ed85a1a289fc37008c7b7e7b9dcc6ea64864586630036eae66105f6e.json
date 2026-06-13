@@ -1,0 +1,261 @@
+{
+  "sha256": "f797a4d7ed85a1a289fc37008c7b7e7b9dcc6ea64864586630036eae66105f6e",
+  "title": "FAA UAP record 237UAP00048",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot observation of an unidentified object near a commercial aircraft.",
+  "core_summary": "On April 19, 2021, the pilot-in-command of a commercial CRJ9 aircraft (callsign EDV4979) reported observing a red orb with black markings passing in very close proximity to the aircraft at FL250 (approximately 25,000 feet). The pilot initially described it as a UFO and later suggested it may have been a weather balloon. A subsequent review of recorded tapes by the ZID Operations Manager determined the pilot did not use the term 'UFO' but confirmed the object passed within very close proximity to the aircraft.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source observation from one pilot; no corroborating radar data or additional witness accounts are included in this report.",
+    "The pilot's initial 'UFO' characterization was walked back both by the pilot (suggesting weather balloon) and by the operations manager's tape review (pilot did not use the term 'UFO' on recording).",
+    "The extremely close proximity reported (30 feet above, 200 feet laterally) at FL250 represents a serious near-miss if accurate, but distances are pilot estimates only.",
+    "The report is marked 'Closed' with primary code 'OTHER', suggesting no further investigation was conducted.",
+    "Initials 'JH' are mentioned as notified but the individual is not identified."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2021-04-19 at 23:02 UTC",
+      "source_quote": "Date: 23:02 04/19/2021",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "ZID (Indianapolis Center)",
+      "source_quote": "Reporting Facility: ZID",
+      "citation_offset": {
+        "offset": 92,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "CRJ9 (Bombardier CRJ-900)",
+      "source_quote": "Aircraft: CRJ9",
+      "citation_offset": {
+        "offset": 134,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "EDV4979",
+      "source_quote": "Callsign: EDV4979",
+      "citation_offset": {
+        "offset": 116,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Dayton (DAY) to Atlanta (ATL)",
+      "source_quote": "Origin: DAY Destination: ATL",
+      "citation_offset": {
+        "offset": 176,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL250 (25,000 feet)",
+      "source_quote": "ACFT was at FL250",
+      "citation_offset": {
+        "offset": 401,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Red orb with black markings",
+      "source_quote": "a \"UFO\" described as a red orb with black markings",
+      "citation_offset": {
+        "offset": 292,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object proximity",
+      "value": "30 feet above and 200 feet laterally from aircraft",
+      "source_quote": "30 feet above and 200 feet laterally",
+      "citation_offset": {
+        "offset": 363,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object position relative to aircraft",
+      "value": "Off the right side, southbound near CVG 360/015",
+      "source_quote": "off the right side, 30 feet above and 200 feet laterally. ACFT was at FL250, south bound at the CVG360015",
+      "citation_offset": {
+        "offset": 343,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Pilot's later suggestion",
+      "value": "Possible weather balloon, but unsure",
+      "source_quote": "PIC later suggested it was a possible weather balloon, but was unsure",
+      "citation_offset": {
+        "offset": 450,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Tape review finding",
+      "value": "Pilot did not say 'UFO' on tape but confirmed very close proximity",
+      "source_quote": "ZID OM reviewed tapes and determined PIC did not state that object was a \"UFO\", but did state that it passed within very close proximity to the ACFT",
+      "citation_offset": {
+        "offset": 543,
+        "len": 148,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 222,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ZID",
+    "DAY",
+    "ATL",
+    "CVG"
+  ],
+  "dated_events": [
+    "2021-04-19"
+  ],
+  "objects_described": [
+    "Red orb with black markings",
+    "CRJ9 commercial aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial CRJ9 aircraft flying at 25,000 feet encountered an unidentified object that passed within 30 feet vertically and 200 feet laterally.",
+      "source_quote": "a red orb with black markings off the right side, 30 feet above and 200 feet laterally. ACFT was at FL250",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 313,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot-in-command initially described the object as a UFO but later suggested it might be a weather balloon.",
+      "source_quote": "PIC later suggested it was a possible weather balloon, but was unsure",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 450,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A review of recorded tapes by the ZID Operations Manager found the pilot did not use the term 'UFO' on the recording.",
+      "source_quote": "ZID OM reviewed tapes and determined PIC did not state that object was a \"UFO\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 543,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object passed within very close proximity to the aircraft, as confirmed by tape review.",
+      "source_quote": "did state that it passed within very close proximity to the ACFT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 627,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:14:45.244Z",
+  "qa_completed_at": "2026-06-01T21:15:25.896Z",
+  "timing": {
+    "A": "24.5s",
+    "B": "16.1s",
+    "E": "17.8s"
+  },
+  "public_headline": "Pilot Reports Red Orb Passing Within Feet of Commercial Flight",
+  "public_tldr": "This FAA incident report documents a commercial airline pilot observing a red orb with black markings pass extremely close to their aircraft at 25,000 feet on April 19, 2021. The case was closed with no further investigation, and a tape review confirmed the close encounter but found the pilot did not use the term 'UFO' on the recording.",
+  "public_narrative": "On April 19, 2021, the pilot-in-command of a Bombardier CRJ-900 regional jet (callsign EDV4979) flying from Dayton, Ohio to Atlanta reported an unidentified object while cruising at 25,000 feet. The aircraft was southbound near the Cincinnati area when the pilot observed a red orb with black markings off the right side of the plane, estimating it passed just 30 feet above and 200 feet to the side of the aircraft.\n\nThe pilot initially described the object as a UFO, then later suggested it might have been a weather balloon but said they were unsure. Indianapolis Center (ZID), the FAA facility handling the airspace, logged the report through the agency's SKYWATCH incident reporting system.\n\nThe ZID Operations Manager reviewed the recorded air traffic control tapes and determined that the pilot did not actually use the term 'UFO' on the recording, though the tapes did confirm the pilot reported the object passing within very close proximity to the aircraft.\n\nThe FAA classified the report under its primary code 'OTHER' and marked the case as closed. There is no indication in the document that any follow-up investigation was conducted, and no radar data or additional witness accounts are included in the report.",
+  "public_caveats": [
+    "This is a single-source observation from one pilot. No corroborating radar data, additional crew statements, or other witness accounts are included in the report.",
+    "The reported distances (30 feet above, 200 feet laterally) are pilot estimates made in flight — not instrument-verified measurements.",
+    "The pilot's own characterisation shifted from 'UFO' to 'possible weather balloon', and the tape review found the pilot did not use the term 'UFO' on the recording.",
+    "The case was closed with no further investigation noted, classified simply as 'OTHER'.",
+    "The document shows minimal redaction, but also contains minimal detail — the brevity itself limits what can be concluded."
+  ]
+}

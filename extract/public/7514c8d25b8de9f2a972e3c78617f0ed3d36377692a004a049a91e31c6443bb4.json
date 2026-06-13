@@ -1,0 +1,221 @@
+{
+  "sha256": "7514c8d25b8de9f2a972e3c78617f0ed3d36377692a004a049a91e31c6443bb4",
+  "title": "FAA UAP record 237UAP00043",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA SKYWATCH incident report documenting a UFO sighting reported by a commercial airline pilot.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on the pilot-in-command's observation; no corroborating radar or sensor data is included.",
+    "No description of the UFO's appearance, size, speed, or behaviour is provided beyond its position and heading.",
+    "The coordinates 36°15'N 80°47'W place the sighting over western North Carolina, consistent with the CLT-MDT flight path.",
+    "The document is a standardised FAA incident form, not an investigation report; no follow-up analysis is included."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2020-11-14T01:45",
+      "source_quote": "Date: 01:45 11/14/2020",
+      "citation_offset": {
+        "offset": 45,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_callsign",
+      "value": "PDT6182",
+      "source_quote": "Callsign: PDT6182",
+      "citation_offset": {
+        "offset": 137,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 253,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ufo_direction",
+      "value": "Northbound",
+      "source_quote": "15,000 north bound",
+      "citation_offset": {
+        "offset": 366,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "primary_code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "secondary_code",
+      "value": "MOR",
+      "source_quote": "Secondary Codes: MOR",
+      "citation_offset": {
+        "offset": 116,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ufo_center_notified",
+      "value": "Yes",
+      "source_quote": "UFO reporting center notified",
+      "citation_offset": {
+        "offset": 386,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_initiated",
+      "value": "Yes",
+      "source_quote": "MOR Init: YES",
+      "citation_offset": {
+        "offset": 279,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mor_id",
+      "value": "ZTL-M-2020/11/13-0002",
+      "source_quote": "MOR ID: ZTL-M-2020/11/13-0002",
+      "citation_offset": {
+        "offset": 293,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "CLT",
+    "MDT",
+    "ZTL",
+    "DEN",
+    "3615N 8047W"
+  ],
+  "dated_events": [
+    "2020-11-14T01:45",
+    "2020/11/13"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The pilot-in-command of flight PDT6182 reported observing a UFO at coordinates 36°15'N 80°47'W at 15,000 feet heading northbound.",
+      "source_quote": "PIC reported a UFO at 3615N 8047W, 15,000 north bound.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 331,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO reporting center was notified of the sighting.",
+      "source_quote": "UFO reporting center notified.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 386,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A Mandatory Occurrence Report (MOR) was initiated for this incident.",
+      "source_quote": "MOR Init: YES",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 279,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident status is closed.",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:09:45.339Z",
+  "qa_completed_at": "2026-06-01T21:10:28.005Z",
+  "timing": {
+    "A": "20.9s",
+    "B": "21.7s",
+    "E": "20.4s"
+  },
+  "public_headline": "Commercial Pilot Reported UFO Over North Carolina in 2020",
+  "public_tldr": "This FAA SKYWATCH incident report documents a UFO sighting by the pilot of commercial flight PDT6182 on 14 November 2020. The pilot reported an unidentified object at 15,000 feet heading northbound over western North Carolina; the case was closed with no follow-up analysis included in the released document.",
+  "public_narrative": "This document is a standardised FAA incident form — specifically a SKYWATCH report — filed after the pilot-in-command of commercial flight PDT6182 reported observing an unidentified flying object on 14 November 2020 at 01:45. The sighting occurred at coordinates 36°15'N 80°47'W, which places it over western North Carolina, consistent with a flight path between Charlotte (CLT) and Harrisburg (MDT).\n\nAccording to the report, the object was observed at 15,000 feet and was heading northbound. The FAA classified the incident under the primary code OTHER and initiated a Mandatory Occurrence Report (MOR), assigned the identifier ZTL-M-2020/11/13-0002. The UFO reporting centre was also notified.\n\nThe case status is listed as closed. No description of the object's appearance, size, speed, or behaviour is provided in the document beyond its position and heading. No radar data, sensor readings, or corroborating observations from other sources are included.\n\nThis is a reporting form, not an investigation report. It records that a sighting was reported and logged through official channels, but it contains no analysis, conclusions, or follow-up findings.",
+  "public_caveats": [
+    "This is a single-source report based solely on the pilot's observation — no corroborating radar or sensor data is included in the document.",
+    "No description of the object's appearance, size, speed, or behaviour is given beyond its altitude (15,000 feet) and heading (northbound).",
+    "The document is a standardised FAA incident form, not an investigation report — no follow-up analysis or conclusions are included.",
+    "The incident date in the verified data is 14 November 2020, though the record carries a 2023-era case number (237UAP00043), suggesting it may have been re-catalogued under a later UAP tracking system.",
+    "Redaction evidence is assessed as low, meaning the document appears largely complete as released, but the lack of detail may simply reflect the limited scope of the form itself."
+  ]
+}

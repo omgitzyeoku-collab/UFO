@@ -1,0 +1,203 @@
+{
+  "sha256": "f3c3807485379990cf4b7f2c28da6b74e9a91dad99119bd8aec32caa29598e61",
+  "title": "FAA UAP record 237UAP00079",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon encounter by a general aviation aircraft.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot observation with no corroborating radar or sensor data mentioned.",
+    "The object was described as a balloon, suggesting a conventional explanation, though it was still categorised under the UAP primary code.",
+    "No operator or tail number recorded, limiting traceability.",
+    "The report is closed with no indication of follow-up investigation or object recovery."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2022-02-26 at 17:25",
+      "source_quote": "Date: 17:25 02/26/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft callsign",
+      "value": "N500GF",
+      "source_quote": "Callsign: N500GF",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL380 (38,000 feet)",
+      "source_quote": "east bound at FL380",
+      "citation_offset": {
+        "offset": 350,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Balloon approximately 25 feet in diameter",
+      "source_quote": "a balloon 25 ft in diameter",
+      "citation_offset": {
+        "offset": 415,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Encounter type",
+      "value": "Near mid-air collision (NMAC)",
+      "source_quote": "PIC reported NMAC",
+      "citation_offset": {
+        "offset": 444,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination",
+      "value": "ARR",
+      "source_quote": "Destination: ARR",
+      "citation_offset": {
+        "offset": 208,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "HOU",
+    "ARR",
+    "SPI",
+    "DEN"
+  ],
+  "dated_events": [
+    "2022-02-26"
+  ],
+  "objects_described": [
+    "Balloon approximately 25 feet in diameter"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Gulfstream III was flying eastbound at 38,000 feet when it encountered an unidentified aerial phenomenon.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while east bound at FL380",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 292,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was located 42 nautical miles southwest of Springfield, Illinois.",
+      "source_quote": "42 NM SW of SPI",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 371,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was identified as a balloon approximately 25 feet in diameter.",
+      "source_quote": "The unknown phenomenon was a balloon 25 ft in diameter",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 388,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot in command reported a near mid-air collision.",
+      "source_quote": "PIC reported NMAC",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 444,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:46:05.285Z",
+  "qa_completed_at": "2026-06-01T21:46:41.650Z",
+  "timing": {
+    "A": "17.4s",
+    "B": "18.9s",
+    "E": "19.5s"
+  },
+  "public_headline": "FAA Report: Balloon Nearly Hit Aircraft at 38,000 Feet Near Springfield",
+  "public_tldr": "This FAA SKYWATCH incident report documents a near mid-air collision between a general aviation aircraft and a large balloon at 38,000 feet, approximately 42 nautical miles southwest of Springfield, Illinois, on 26 February 2022. The object was categorised under the FAA's Unidentified Aerial Phenomenon code, though the pilot described it as a balloon roughly 25 feet across. The case is closed with no follow-up investigation noted.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under case number 237UAP00079. It records an encounter between a general aviation aircraft — callsign N500GF — and an unidentified object while the aircraft was flying eastbound at FL380 (38,000 feet) on 26 February 2022 at 17:25.\n\nThe encounter took place approximately 42 nautical miles southwest of SPI (Springfield, Illinois). The pilot in command (PIC) reported a near mid-air collision (NMAC) with the object, which was described as a balloon approximately 25 feet in diameter. Despite that description, the FAA categorised the incident under its primary code for Unidentified Aerial Phenomenon.\n\nThe aircraft's destination was listed as ARR. The operator type was recorded as General Aviation. No operator name or aircraft tail number beyond the callsign was included in the report, which limits the ability to independently verify the account.\n\nThe case status is marked as Closed. There is no indication in the report of any follow-up investigation, corroborating radar data, sensor evidence, or recovery of the object. The report relies entirely on the pilot's observation.",
+  "public_caveats": [
+    "This is a single-source report based solely on the pilot's observation — no radar data, sensor readings, or independent corroboration are mentioned in the document.",
+    "The pilot described the object as a balloon, which suggests a conventional explanation, yet it was still filed under the FAA's Unidentified Aerial Phenomenon category.",
+    "No operator name or tail number was recorded beyond the callsign, limiting independent verification of the account.",
+    "The case is closed with no indication of follow-up investigation or object recovery.",
+    "Redaction levels appear low, but the report is brief and contains limited detail about the encounter itself."
+  ]
+}

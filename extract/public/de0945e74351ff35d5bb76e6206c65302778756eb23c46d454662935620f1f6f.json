@@ -1,0 +1,226 @@
+{
+  "sha256": "de0945e74351ff35d5bb76e6206c65302778756eb23c46d454662935620f1f6f",
+  "title": "FAA UAP record 237UAP00069",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon observation by a commercial aircraft crew.",
+  "core_summary": "On 25 September 2021, the crew of SkyWest flight SKW5329 (an E175 regional jet) reported observing what appeared to be a manned jetpack off their left side while flying southeast-bound at 11,000 feet, approximately 17 nautical miles northwest of LAX. The object was travelling northbound and below the aircraft. No evasive action was taken.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is one of several 'jetpack' sightings reported near LAX during 2020-2021, a cluster that was never publicly resolved.",
+    "The object is described as a 'manned jetpack' by the crew, but the PRIMARY CODE classifies it as an Unidentified Aerial Phenomenon — the identification is the observer's impression, not a confirmed determination.",
+    "Single-source visual observation from a moving aircraft; no radar data, photos, or corroborating witnesses are included in this report.",
+    "11,000 feet significantly exceeds the operational ceiling of any known commercially available jetpack, which raises questions about the accuracy of the identification."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2021-09-25 at 15:34",
+      "source_quote": "Date: 15:34 09/25/2021",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "SKW5329",
+      "source_quote": "Callsign: SKW5329",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "E75L (Embraer E175)",
+      "source_quote": "Aircraft: E75L",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "SKW (SkyWest Airlines)",
+      "source_quote": "Operator: SKW",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "ACV (Arcata) to LAX (Los Angeles)",
+      "source_quote": "Origin: ACV Destination: LAX",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "11,000 feet",
+      "source_quote": "at 11,000 feet",
+      "citation_offset": {
+        "offset": 360,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "17 NM northwest of LAX",
+      "source_quote": "17 NM NW of LAX",
+      "citation_offset": {
+        "offset": 376,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Manned jetpack, northbound, below and left of aircraft",
+      "source_quote": "Aircraft observed a manned jetpack off the left side while SE bound",
+      "citation_offset": {
+        "offset": 292,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "No evasive action was taken",
+      "citation_offset": {
+        "offset": 393,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "SCT (Southern California TRACON)",
+      "source_quote": "Reporting Facility: SCT",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "LAX",
+    "ACV",
+    "SCT"
+  ],
+  "dated_events": [
+    "2021-09-25"
+  ],
+  "objects_described": [
+    "Manned jetpack",
+    "E75L (Embraer E175 regional jet)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial SkyWest flight observed a manned jetpack at 11,000 feet near LAX on 25 September 2021.",
+      "source_quote": "Aircraft observed a manned jetpack off the left side while SE bound at 11,000 feet, 17 NM NW of LAX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 292,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The jetpack was travelling northbound below the aircraft's left wing.",
+      "source_quote": "The jetpack was traveling N bound below him and off his left wing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 422,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was required or taken.",
+      "source_quote": "No evasive action was taken",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 393,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:35:33.967Z",
+  "qa_completed_at": "2026-06-01T21:36:10.036Z",
+  "timing": {
+    "A": "18.8s",
+    "B": "17.3s",
+    "E": "21.4s"
+  },
+  "public_headline": "SkyWest Crew Reported Jetpack at 11,000 Feet Near Los Angeles",
+  "public_tldr": "This FAA incident report documents the crew of SkyWest flight SKW5329 observing what appeared to be a manned jetpack at 11,000 feet, about 17 nautical miles northwest of Los Angeles International Airport, on 25 September 2021. The FAA classified the object as an Unidentified Aerial Phenomenon and closed the case.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed under case number 237UAP00069. It records an observation made by the crew of SkyWest Airlines flight SKW5329, an Embraer E175 regional jet flying from Arcata, California to Los Angeles on 25 September 2021.\n\nAt 15:34 local time, while descending southeast-bound at 11,000 feet approximately 17 nautical miles northwest of LAX, the crew reported seeing what appeared to be a manned jetpack off their left side. The object was travelling northbound and below the aircraft. No evasive action was taken. The report was filed through Southern California TRACON (SCT), the radar facility managing approach traffic in the Los Angeles area.\n\nThe FAA classified the sighting under its primary code as an Unidentified Aerial Phenomenon. The case is marked as closed. The report contains no radar data, photographs, or corroborating observations from other sources — it relies entirely on the crew's visual account.\n\nThis sighting is one of several reported jetpack observations near LAX during 2020 and 2021, a cluster of incidents that was never publicly resolved. Notably, 11,000 feet is well above the operational ceiling of any known commercially available jetpack, which raises questions about what the crew actually saw. The FAA's classification as an Unidentified Aerial Phenomenon reflects this uncertainty — the crew's description of a jetpack is their impression, not a confirmed identification.",
+  "public_caveats": [
+    "This is a single-source visual observation from a moving aircraft. No radar data, photographs, or independent witnesses are included in the report.",
+    "The crew described the object as a manned jetpack, but the FAA classified it as an Unidentified Aerial Phenomenon — the identification is the observer's impression, not a confirmed determination.",
+    "11,000 feet significantly exceeds the known operational ceiling of commercially available jetpacks, casting doubt on the specific identification.",
+    "The case is closed with no public resolution. It is part of a broader cluster of unexplained jetpack sightings near LAX in 2020-2021, none of which have been publicly explained.",
+    "The document shows low evidence of redaction, meaning what is presented here appears to be substantially complete."
+  ]
+}

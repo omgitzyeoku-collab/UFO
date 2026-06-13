@@ -1,0 +1,221 @@
+{
+  "sha256": "167a4dce84c9b9305add5271f268d24be5bc87b1ff515fa273e488806ecc1dea",
+  "title": "FAA UAP record 237UAP00224",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial flight crew.",
+  "core_summary": "On 19 February 2023, the crew of commercial flight FFT2146 (an Airbus A320neo operating from Las Vegas to Charlotte) observed a flashing light at their eleven o'clock position while flying eastbound at flight level 310, approximately 15 nautical miles west of the SOT navigational fix. The crew compared the object to a balloon incident from several weeks prior. No evasive action was taken and AWO was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on flight crew visual observation with no corroborating radar or sensor data mentioned.",
+    "The crew's comparison to a 'balloon from several weeks ago' likely refers to the Chinese surveillance balloon shot down in early February 2023, suggesting a prosaic explanation was considered.",
+    "SOT is a navigational fix; the exact geographic location requires cross-referencing aeronautical charts.",
+    "No independent verification of the sighting is documented in this report."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2023-02-19 at 09:00",
+      "source_quote": "Date: 09:00 02/19/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "FFT2146",
+      "source_quote": "Callsign: FFT2146",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL310 (31,000 feet)",
+      "source_quote": "E bound at FL310",
+      "citation_offset": {
+        "offset": 355,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object position relative to aircraft",
+      "value": "Eleven o'clock, 15NM west of SOT",
+      "source_quote": "a flashing light off the eleven o'clock while E bound at FL310, 15NM W of SOT",
+      "citation_offset": {
+        "offset": 309,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Flashing light, compared to a recent balloon",
+      "source_quote": "Aircraft observed a flashing light off the eleven o'clock",
+      "citation_offset": {
+        "offset": 291,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "No evasive action was taken",
+      "citation_offset": {
+        "offset": 483,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None reported",
+      "source_quote": "No report of LEO notification",
+      "citation_offset": {
+        "offset": 512,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AWO notification",
+      "value": "Yes",
+      "source_quote": "AWO notified",
+      "citation_offset": {
+        "offset": 543,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "LAS",
+    "CLT",
+    "DEN",
+    "SOT"
+  ],
+  "dated_events": [
+    "2023-02-19"
+  ],
+  "objects_described": [
+    "Flashing light (unidentified aerial phenomenon)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The flight crew compared the observed object to a balloon sighting from several weeks earlier.",
+      "source_quote": "The Flight Crew stated that this appeared to be similar to the balloon from several weeks ago",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 388,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft.",
+      "source_quote": "No evasive action was taken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 483,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified.",
+      "source_quote": "No report of LEO notification",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 512,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AWO was notified of the incident.",
+      "source_quote": "AWO notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 543,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:08:18.077Z",
+  "qa_completed_at": "2026-06-02T00:08:50.060Z",
+  "timing": {
+    "A": "18.2s",
+    "B": "13.8s",
+    "E": "18.1s"
+  },
+  "public_headline": "Commercial Flight Crew Reports Flashing Light at 31,000 Feet",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of commercial flight FFT2146 on 19 February 2023. While flying eastbound at 31,000 feet, the crew observed a flashing light at their eleven o'clock position and compared it to a balloon sighting from weeks earlier. The case is closed with no evasive action taken and no explanation recorded.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — the system the Federal Aviation Administration uses to log unidentified aerial phenomenon (UAP) sightings reported by pilots and air traffic controllers. It covers a single event on 19 February 2023 involving flight FFT2146, a commercial Airbus A320neo operating from Las Vegas to Charlotte.\n\nWhile cruising eastbound at flight level 310 (31,000 feet), approximately 15 nautical miles west of the SOT navigational fix, the flight crew spotted a flashing light off their eleven o'clock position. The crew noted that the object appeared similar to a balloon incident from several weeks prior — almost certainly a reference to the Chinese surveillance balloon that was tracked across the US and shot down in early February 2023.\n\nNo evasive action was taken by the aircraft. The crew notified AWO (the FAA's internal reporting channel), and no law enforcement notification was made. The FAA has marked this case as closed.\n\nThe report contains no radar data, no photographs, and no corroborating observations from other aircraft or ground stations. There is no recorded conclusion about what the object was. The level of redaction in the document appears low — the report is simply brief rather than censored.",
+  "public_caveats": [
+    "This is a single-source report based entirely on one flight crew's visual observation. No radar, sensor, or photographic evidence is mentioned.",
+    "The crew themselves suggested a prosaic explanation, comparing the object to the high-profile balloon incident from early February 2023.",
+    "The case is marked closed with no stated conclusion — 'closed' does not mean 'explained' or 'unexplained', just that no further action was taken.",
+    "The exact geographic location requires cross-referencing the SOT navigational fix against aeronautical charts; the report does not give a plain-language location.",
+    "No independent verification of the sighting from other aircraft, ATC radar, or ground observers is documented."
+  ]
+}

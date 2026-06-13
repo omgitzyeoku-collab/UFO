@@ -1,0 +1,232 @@
+{
+  "sha256": "879c8e2849fe551581f1404162ae68d40af2042fb4e836836c549fc844714c1f",
+  "title": "FAA UAP record 237UAP00329",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot visual observation only — no radar corroboration",
+    "No sensor data or additional witness reports referenced",
+    "Case is marked closed with no resolution or explanation provided",
+    "Altitude estimate of FL410-FL580 (41,000-58,000 ft) is extremely high and based solely on pilot visual estimation"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/Time",
+      "value": "2023-12-15 at 00:05",
+      "source_quote": "Date: 00:05 12/15/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "N90CW",
+      "source_quote": "Callsign: N90CW",
+      "citation_offset": {
+        "offset": 93,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin airport",
+      "value": "JWN",
+      "source_quote": "Origin: JWN",
+      "citation_offset": {
+        "offset": 195,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination airport",
+      "value": "MOB",
+      "source_quote": "Destination: MOB",
+      "citation_offset": {
+        "offset": 207,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 241,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "FL380",
+      "source_quote": "S bound at FL380",
+      "citation_offset": {
+        "offset": 369,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude estimate",
+      "value": "FL410 to FL580",
+      "source_quote": "approximately FL410 to FL580",
+      "citation_offset": {
+        "offset": 492,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of objects",
+      "value": "Two",
+      "source_quote": "two objects moving side to side",
+      "citation_offset": {
+        "offset": 430,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Movement description",
+      "value": "Side to side with no apparent direction",
+      "source_quote": "two objects moving side to side with no apparent direction",
+      "citation_offset": {
+        "offset": 430,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 522,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 109,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "MSL",
+    "JWN",
+    "MOB",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-12-15"
+  ],
+  "objects_described": [
+    "Two unidentified objects moving side to side at FL410-FL580"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The pilot observed two objects moving side to side with no apparent direction ahead of the aircraft.",
+      "source_quote": "two objects moving side to side with no apparent direction",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 430,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects were estimated at altitudes between FL410 and FL580, above the reporting aircraft's FL380.",
+      "source_quote": "approximately FL410 to FL580",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 492,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by ATC radar.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 522,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 25 nautical miles south of Muscle Shoals.",
+      "source_quote": "25 NM S of MSL",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 387,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:45:09.744Z",
+  "qa_completed_at": "2026-06-02T01:45:46.018Z",
+  "timing": {
+    "A": "19.6s",
+    "B": "16.7s",
+    "E": "17.1s"
+  },
+  "public_headline": "FAA Report: Pilot Saw Two Objects Moving Erratically at High Altitude",
+  "public_tldr": "This is an FAA SKYWATCH incident report from December 2023 in which a general aviation pilot flying at 38,000 feet reported seeing two unidentified objects moving side to side at an estimated 41,000–58,000 feet. Air traffic control radar did not detect the objects, and the case was closed without explanation.",
+  "public_narrative": "On 15 December 2023 at 00:05, the pilot of a general aviation aircraft with callsign N90CW reported an unidentified aerial phenomenon to the FAA. The aircraft was flying southbound at flight level 380 (approximately 38,000 feet), en route from JWN to MOB (Mobile, Alabama).\n\nAbout 25 nautical miles south of Muscle Shoals (MSL), the pilot observed two objects ahead of the aircraft, moving side to side with no apparent direction. The pilot estimated their altitude at between FL410 and FL580 — roughly 41,000 to 58,000 feet — well above the reporting aircraft.\n\nAir traffic control checked their radar and did not detect the objects. The FAA logged the sighting under its SKYWATCH programme as record 237UAP00329. The case is now marked closed, with no resolution or explanation provided in the document.\n\nThe report contains no sensor data, no photographs, and no additional witness accounts. It is a single pilot's visual observation, recorded through the FAA's standard UAP reporting process.",
+  "public_caveats": [
+    "This is a single-source report based entirely on one pilot's visual observation — no radar, sensor data, or independent witnesses corroborated the sighting.",
+    "The altitude estimate of 41,000–58,000 feet is the pilot's visual guess; judging altitude of distant objects from a cockpit is inherently unreliable.",
+    "The case was closed with no explanation or conclusion — 'closed' does not mean identified or resolved.",
+    "There is little evidence of redaction in this document, but equally little substantive detail beyond the pilot's initial report.",
+    "The FAA's SKYWATCH programme logs pilot reports; it does not investigate or reach conclusions about what was observed."
+  ]
+}

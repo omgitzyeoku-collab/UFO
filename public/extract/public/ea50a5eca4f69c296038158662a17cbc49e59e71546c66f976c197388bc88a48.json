@@ -1,0 +1,211 @@
+{
+  "sha256": "ea50a5eca4f69c296038158662a17cbc49e59e71546c66f976c197388bc88a48",
+  "title": "FAA UAP record 237UAP00036",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a UFO sighting reported by a commercial airline pilot.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source visual observation by one flight crew; no corroborating radar returns.",
+    "No identifying details of the pilot-in-command are provided.",
+    "The described lights (red, green, white) are consistent with standard aviation navigation lighting, which could indicate a conventional aircraft not appearing on radar.",
+    "Case status is 'Closed' with no resolution or explanation recorded in this document."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "OTHER",
+      "source_quote": "PRIMARY CODE: OTHER",
+      "citation_offset": {
+        "offset": 25,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 68,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Boeing 737-700",
+      "source_quote": "Aircraft: B737, BOEING, 737-700",
+      "citation_offset": {
+        "offset": 134,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_range",
+      "value": "FL370–FL390 (37,000–39,000 ft)",
+      "source_quote": "between FL370 and FL390",
+      "citation_offset": {
+        "offset": 307,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Red, green, and white lights; stationary",
+      "source_quote": "described the UFO as having red, green, and white lights and being static",
+      "citation_offset": {
+        "offset": 337,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_corroboration",
+      "value": "None — no targets painted other than UAL1104",
+      "source_quote": "ZLC painted no targets other than UAL1104 in the area",
+      "citation_offset": {
+        "offset": 468,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "airway",
+      "value": "CPN14010",
+      "source_quote": "on the CPN14010",
+      "citation_offset": {
+        "offset": 291,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "ANC",
+    "ZLC"
+  ],
+  "dated_events": [
+    "02/08/2019",
+    "2019-02-08T17:26"
+  ],
+  "objects_described": [
+    "UFO with red, green, and white lights (stationary)",
+    "Boeing 737-700 (UAL1104)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The pilot-in-command of UAL1104 reported a UFO on airway CPN14010 between FL370 and FL390.",
+      "source_quote": "PIC reported a UFO on the CPN14010 between FL370 and FL390",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 272,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO had red, green, and white lights and was stationary.",
+      "source_quote": "described the UFO as having red, green, and white lights and being static",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 337,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "ZLC radar showed no other targets in the area besides UAL1104.",
+      "source_quote": "ZLC painted no targets other than UAL1104 in the area",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 468,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO call center number was provided to ZLC for relay to the pilot.",
+      "source_quote": "UFO call center number was given to ZLC to pass to PIC",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 412,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was routed from Denver to Anchorage.",
+      "source_quote": "Origin: DEN Destination: New Destination: ANC",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 193,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T21:03:20.970Z",
+  "qa_completed_at": "2026-06-01T21:04:10.683Z",
+  "timing": {
+    "A": "26.6s",
+    "B": "23.1s",
+    "E": "19.5s"
+  },
+  "public_headline": "FAA Report: Airline Pilot Saw Stationary Lights at 37,000 Feet, Radar Found Nothing",
+  "public_tldr": "This is an FAA SKYWATCH incident report documenting a UFO sighting by the pilot of a United Airlines Boeing 737-700 (flight UAL1104) flying between Denver and Anchorage. The pilot described a stationary object with red, green, and white lights at 37,000–39,000 feet, but Salt Lake City air traffic control radar showed no other aircraft in the area. The case was closed with no explanation recorded.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log unusual aerial observations. It records a sighting reported by the pilot-in-command of United Airlines flight 1104, a Boeing 737-700 travelling from Denver (DEN) to Anchorage (ANC).\n\nWhile flying on airway CPN14010 at an altitude between FL370 and FL390 (roughly 37,000 to 39,000 feet), the pilot reported seeing an unidentified object. The pilot described it as having red, green, and white lights and being stationary. The FAA's Salt Lake City Center (ZLC) checked radar and found no other targets in the area besides UAL1104 itself.\n\nThe FAA provided the pilot with a UFO call centre number, relayed through ZLC. The report is categorised under the primary code \"OTHER\" and its status is marked as \"Closed\" — but the document records no resolution, conclusion, or follow-up explanation for what the pilot observed.\n\nThe dated events in the report point to 8 February 2019. No identifying details about the pilot are included in the document. There is little evidence of redaction; the document appears to be a brief, routine incident log rather than an in-depth investigation file.",
+  "public_caveats": [
+    "This is a single-source visual observation by one flight crew member. No second witness or instrument confirmation is recorded.",
+    "Radar at Salt Lake City Center found no corresponding target, which means whatever the pilot saw did not show up on conventional air traffic control radar — but this alone does not confirm or rule out any particular explanation.",
+    "The described lights — red, green, and white — are consistent with standard aviation navigation lighting, which could indicate a conventional aircraft that simply was not appearing on radar.",
+    "The case is marked 'Closed' with no resolution or explanation recorded in the document itself.",
+    "This is a brief administrative incident log, not a detailed investigation report. It does not contain analysis, imagery, or physical evidence."
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "sha256": "0ba545d7c07a61fe4236fef22be690319caae9e59192bd53fb0056810d5d80b1",
+  "title": "FAA UAP record 237UAP00295",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witnesses mentioned.",
+    "The report is marked closed with no resolution or explanation provided for the observed object.",
+    "'Six feel long' appears to be a typo for 'six feet long' in the original document.",
+    "Airport codes BLM, CRE, and facility code NHK are not further identified in the document itself."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2023-09-01 at 00:04 UTC",
+      "source_quote": "Date: 00:04 09/01/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "N715JP",
+      "source_quote": "Callsign: N715JP",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin airport",
+      "value": "BLM",
+      "source_quote": "Origin: BLM",
+      "citation_offset": {
+        "offset": 196,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination airport",
+      "value": "CRE",
+      "source_quote": "Destination: CRE",
+      "citation_offset": {
+        "offset": 208,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Pilot altitude",
+      "value": "7,000 feet, southbound",
+      "source_quote": "S bound at 7,000 feet",
+      "citation_offset": {
+        "offset": 351,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object description",
+      "value": "Silver rocket, approximately six feet long",
+      "source_quote": "a silver rocket approximately six feel long",
+      "citation_offset": {
+        "offset": 438,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object altitude and heading",
+      "value": "Approximately 6,500 feet, northeast-bound",
+      "source_quote": "traveling NE bound at approximately 6,500 feet",
+      "citation_offset": {
+        "offset": 483,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Paged",
+      "value": "YES",
+      "source_quote": "Paged: YES",
+      "citation_offset": {
+        "offset": 274,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "NHK",
+    "BLM",
+    "CRE",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-09-01"
+  ],
+  "objects_described": [
+    "Silver rocket-shaped object, approximately six feet long"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A general aviation pilot flying a Cirrus SR22 reported a UAP near NHK while at 7,000 feet.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while S bound at 7,000 feet, in the vicinity of NHK.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 293,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was described as a silver rocket approximately six feet long travelling northeast at about 6,500 feet.",
+      "source_quote": "a silver rocket approximately six feel long, traveling NE bound at approximately 6,500 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 438,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight originated from BLM with a destination of CRE.",
+      "source_quote": "Origin: BLM Destination: CRE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 196,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T01:13:30.900Z",
+  "qa_completed_at": "2026-06-02T01:14:06.281Z",
+  "timing": {
+    "A": "18.6s",
+    "B": "16.8s",
+    "E": "19.4s"
+  },
+  "public_headline": "Pilot Reports Silver Rocket-Shaped Object at 6,500 Feet in 2023",
+  "public_tldr": "An FAA SKYWATCH incident report documents a general aviation pilot's sighting of a silver, rocket-shaped object roughly six feet long while flying at 7,000 feet on 1 September 2023. The case was closed with no explanation provided for what the pilot observed.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standard form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena (UAPs) from pilots and air traffic facilities. It was filed under case number 237UAP00295.\n\nOn 1 September 2023, at 00:04 UTC, a general aviation pilot flying under callsign N715JP reported an unidentified object while heading southbound at 7,000 feet near the facility coded NHK. The flight had originated from airport BLM and was bound for airport CRE. The pilot described the object as a silver rocket, approximately six feet long, travelling northeast at roughly 6,500 feet — meaning it was about 500 feet below the reporting aircraft and heading in a different direction.\n\nThe case is marked as closed. No resolution, identification, or follow-up explanation appears in the document. There is no mention of corroborating radar data, additional witnesses, or any further investigation. The report notes that a page-out was issued (marked \"Paged: YES\"), indicating the sighting was flagged to relevant personnel at the time.\n\nThe document contains minimal redaction. It is a short, structured incident form rather than an investigative file — it records what was reported but does not attempt to explain it.",
+  "public_caveats": [
+    "This is a single pilot's observation with no corroborating radar data or additional witnesses mentioned in the document.",
+    "The case was closed without any resolution or explanation — 'closed' does not mean 'identified' or 'explained'.",
+    "The airport codes BLM, CRE, and facility code NHK are not further identified within the document itself.",
+    "The original document contains a likely typo — 'six feel long' instead of 'six feet long'.",
+    "This is an incident report, not an investigation file — it records a claim but contains no analysis or conclusions."
+  ]
+}

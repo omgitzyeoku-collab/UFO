@@ -1,0 +1,237 @@
+{
+  "sha256": "bce371519aea69665d31867cd5b888f7261fc8446e318ba1cf59495a3da694b7",
+  "title": "FAA UAP record 237UAP00363",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a reported unidentified aerial phenomenon observed by multiple aircraft near Junction, Texas.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source FAA internal report based on pilot verbal reports — no independent sensor confirmation",
+    "Object was not detected on radar, so no independent corroboration of altitude, trajectory, or breakup",
+    "Description as 'some type of rocket' is observer interpretation, not confirmed identification",
+    "FALCON replay was attached but not included in this document — radar data is not available here",
+    "Status is 'Closed' with no resolution or identification noted"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2024-03-16 at 01:57",
+      "source_quote": "Date: 01:57 03/16/2024",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Vicinity of JCT VOR",
+      "source_quote": "multiple aircraft in the vicinity of JCT VOR",
+      "citation_offset": {
+        "offset": 174,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "36,000 feet",
+      "source_quote": "Report was at 36,000 feet",
+      "citation_offset": {
+        "offset": 438,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_travel",
+      "value": "West to east",
+      "source_quote": "device was moving west to east",
+      "citation_offset": {
+        "offset": 468,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "appearance",
+      "value": "Very bright with smoke, appeared rocket-like",
+      "source_quote": "believed to be some type of rocket. The device was very bright and had smoke",
+      "citation_offset": {
+        "offset": 262,
+        "len": 46,
+        "exact": false,
+        "matched": "believed to be some type of rocket. The device"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "behaviour",
+      "value": "Ascended then broke apart or disappeared",
+      "source_quote": "passed from below to above and then appeared to break up into pieces and/or disappear",
+      "citation_offset": {
+        "offset": 309,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "citation_offset": {
+        "offset": 500,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "witnesses",
+      "value": "Multiple aircraft crews",
+      "source_quote": "multiple aircraft in the vicinity of JCT VOR reported",
+      "citation_offset": {
+        "offset": 174,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "norad_notified",
+      "value": "Yes",
+      "source_quote": "NORAD notified",
+      "citation_offset": {
+        "offset": 555,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 104,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "JCT VOR",
+    "DEN",
+    "ZHU"
+  ],
+  "dated_events": [
+    "2024-03-16"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as rocket-like, bright, with smoke, ascending and breaking apart"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Multiple aircraft near JCT VOR simultaneously observed the same unidentified object.",
+      "source_quote": "multiple aircraft in the vicinity of JCT VOR reported an unidentified aerial phenomenon",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 174,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was not detected by ATC radar despite being reported at 36,000 feet.",
+      "source_quote": "The UAP was not observed on ATC facility radar system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 500,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD was notified of the incident.",
+      "source_quote": "NORAD notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 555,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object appeared to break apart or disappear after ascending.",
+      "source_quote": "appeared to break up into pieces and/or disappear",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 345,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Houston Center filed a Mandatory Occurrence Report and attached FALCON radar replay data.",
+      "source_quote": "ZHU will file MOR and attach FALCON replay",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 571,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:17:01.541Z",
+  "qa_completed_at": "2026-06-02T02:17:39.987Z",
+  "timing": {
+    "A": "19.3s",
+    "B": "19.1s",
+    "E": "21.4s"
+  },
+  "public_headline": "Multiple Pilots Report Bright, Rocket-Like Object Over Texas",
+  "public_tldr": "This FAA incident report documents an unidentified aerial phenomenon observed by crews aboard multiple aircraft near Junction, Texas on 16 March 2024. The bright, smoke-trailing object ascended past 36,000 feet and appeared to break apart, but was never detected on radar. The case was closed without identification.",
+  "public_narrative": "On 16 March 2024 at 01:57, crews aboard multiple aircraft flying near the JCT VOR (a navigation point near Junction, Texas) reported an unidentified aerial phenomenon to air traffic control. The pilots described a very bright object trailing smoke, moving from west to east, which they believed resembled some type of rocket.\n\nAccording to the report, the object passed from below the aircraft to above them — placing it at or above 36,000 feet — and then appeared to break up into pieces or disappear. Despite being reported at that altitude by multiple witnesses, the object was not detected on the air traffic control radar system.\n\nThe incident was logged under the FAA's SKYWATCH programme, which tracks unidentified aerial phenomena. NORAD (the North American Aerospace Defense Command) was notified. Houston Center (ZHU), the FAA facility handling the airspace, filed a Mandatory Occurrence Report and noted that FALCON radar replay data would be attached, though that radar data is not included in this document.\n\nThe FAA classified the primary code as \"Unidentified Aerial Phenomenon\" and marked the case status as closed. No resolution or identification of the object is recorded in the report.",
+  "public_caveats": [
+    "This is a single-source FAA internal report based on verbal pilot accounts — there is no independent sensor confirmation of the object.",
+    "The object was not detected on ATC radar, so there is no independent data on its altitude, speed, or trajectory.",
+    "The pilots' description of the object as 'some type of rocket' is their interpretation, not a confirmed identification.",
+    "FALCON radar replay data was referenced as an attachment but is not included in this document, so the radar record cannot be reviewed here.",
+    "The case was closed with no explanation or identification recorded — 'closed' does not mean 'resolved'."
+  ]
+}

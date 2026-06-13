@@ -1,0 +1,219 @@
+{
+  "sha256": "6d5b8168667907e8b44bf3108e9c0f4d5e7d8c73ee8c9ba853e90e15c2d6c097",
+  "title": "FAA UAP record 237UAP00099",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot-reported unidentified aerial phenomenon observation.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness statements included in the document.",
+    "The report is brief and provides no follow-up investigation details despite being marked as closed.",
+    "Tail number field is blank, which limits independent verification of the specific aircraft involved.",
+    "The POD listed as DEN does not match the origin DAL — POD likely refers to the FAA administrative point of departure office, not the flight origin."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary classification",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "SWA2413",
+      "source_quote": "Callsign: SWA2413",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737",
+      "source_quote": "Aircraft: B737",
+      "citation_offset": {
+        "offset": 126,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "Southwest Airlines (SWA)",
+      "source_quote": "Operator: SWA",
+      "citation_offset": {
+        "offset": 187,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Dallas (DAL) to Nashville (BNA)",
+      "source_quote": "Origin: DAL Destination: BNA",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight Level 370 (37,000 feet)",
+      "source_quote": "at FL 370",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP description",
+      "value": "Flashing lights in a diamond pattern traveling west to east at high altitude",
+      "source_quote": "described as flashing lights traveling west to east in a diamond pattern at high altitude",
+      "citation_offset": {
+        "offset": 442,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of observation",
+      "value": "Off left side of aircraft while northeast-bound",
+      "source_quote": "off the above while NE bound off left side",
+      "citation_offset": {
+        "offset": 344,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DAL",
+    "BNA",
+    "DEN",
+    "LIT",
+    "ZME"
+  ],
+  "dated_events": [
+    "2022-08-08"
+  ],
+  "objects_described": [
+    "Boeing 737 (SWA2413)",
+    "Flashing lights in diamond pattern at high altitude"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Southwest Airlines flight SWA2413 was a Boeing 737 operating from Dallas to Nashville on 8 August 2022.",
+      "source_quote": "Callsign: SWA2413 ... Aircraft: B737 ... Origin: DAL Destination: BNA",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew observed flashing lights in a diamond pattern traveling west to east at high altitude while at FL 370, 15 NM southeast of Little Rock.",
+      "source_quote": "described as flashing lights traveling west to east in a diamond pattern at high altitude",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 442,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UFO Reporting Center was notified by HQ DEN.",
+      "source_quote": "HQ DEN notified UFO Reporting Center.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 533,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported through FAA facility ZME (Memphis ARTCC).",
+      "source_quote": "Reporting Facility: ZME",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 163,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case status is closed.",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:05:06.347Z",
+  "qa_completed_at": "2026-06-01T22:05:51.187Z",
+  "timing": {
+    "A": "20.4s",
+    "B": "24.4s",
+    "E": "19.0s"
+  },
+  "public_headline": "Southwest Airlines Pilot Reported Flashing Diamond-Pattern Lights Over Arkansas",
+  "public_tldr": "An FAA SKYWATCH incident report records a Southwest Airlines Boeing 737 crew observing flashing lights in a diamond pattern at high altitude while flying from Dallas to Nashville on 8 August 2022. The case was closed with no follow-up investigation details included in the document.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standardised form the Federal Aviation Administration uses to log pilot-reported sightings of unidentified aerial phenomena (UAP). It is classified under the primary code \"Unidentified Aerial Phenomenon\" and carries case number 237UAP00099.\n\nOn 8 August 2022, the crew of Southwest Airlines flight SWA2413, a Boeing 737 flying from Dallas Love Field (DAL) to Nashville (BNA), reported an unusual sighting while cruising at Flight Level 370 (approximately 37,000 feet). The crew described flashing lights travelling west to east in a diamond pattern at high altitude, observed off the left side of the aircraft while the plane was heading northeast. The sighting occurred roughly 15 nautical miles southeast of Little Rock, Arkansas.\n\nThe incident was reported through Memphis Air Route Traffic Control Center (ZME), and the FAA's UFO Reporting Center was notified by FAA headquarters in Denver (DEN). The report's status is marked as closed, but the document contains no details of any follow-up investigation, no radar data, and no additional witness statements.\n\nThe document is brief and administrative in nature. It records the pilot's account but offers no analysis, explanation, or conclusion about what was observed. The tail number field is blank, which limits the ability to independently verify the specific aircraft involved.",
+  "public_caveats": [
+    "This is a single-source pilot report — no corroborating radar data, photographs, or additional witness statements are included in the document.",
+    "The case is marked as closed, but no investigation findings or follow-up details are provided, so 'closed' does not imply 'explained'.",
+    "The aircraft tail number field is blank, which limits independent verification of the specific flight.",
+    "The incident date in FAA metadata says 2023, but the document's own dated event is 8 August 2022 — readers should note this discrepancy.",
+    "The document has low redaction evidence, meaning most fields are filled in, but the report itself is brief and contains minimal detail beyond the pilot's initial description."
+  ]
+}

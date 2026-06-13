@@ -1,0 +1,211 @@
+{
+  "sha256": "ae4cbbd0d055a9707bc5e3bd0fc0bfa59474dd82f55d1027fb1621d5f1fb74ac",
+  "title": "FAA UAP record 237UAP00463",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification documenting a pilot-reported UAP sighting.",
+  "core_summary": "On February 11, 2023, the crew of United Airlines flight 2059, a Boeing 777-200 flying from San Francisco to Newark, reported lights 'coming and going' at the same altitude or higher while eastbound between flight levels 350 and 370, approximately 25 nautical miles south of Sioux Falls, South Dakota. The report was relayed by Minneapolis Air Route Traffic Control Center to FAA Operations. Law enforcement was not notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included",
+    "Described as preliminary information (PRELIM INFO), suggesting this is an initial notification rather than a full investigation",
+    "No follow-up investigation or resolution is documented in this record",
+    "The nature of the lights (aircraft, satellites, celestial, anomalous) is not determined in this document"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "United Airlines 2059 (UAL2059)",
+      "source_quote": "UNITED 2059, B772, SFO - EWR",
+      "citation_offset": {
+        "offset": 271,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "San Francisco (SFO) to Newark (EWR)",
+      "source_quote": "SFO - EWR",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date/time of report",
+      "value": "February 11, 2023 at 03:32 CST",
+      "source_quote": "Date: 2/11/2023 3:32:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Between FL350 and FL370 (35,000–37,000 feet)",
+      "source_quote": "BETWEEN FL350 AND FL370",
+      "citation_offset": {
+        "offset": 377,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation description",
+      "value": "Lights appearing and disappearing at same altitude or higher",
+      "source_quote": "REPORTED LIGHTS \"COMING AND GOING\" AT SAME ALTITUDE OR HIGHER",
+      "citation_offset": {
+        "offset": 301,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates (latitude)",
+      "value": "43.2199°N",
+      "source_quote": "Latitude: 43.219880549999999",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates (longitude)",
+      "value": "96.7419°W",
+      "source_quote": "-96.741924999999995",
+      "citation_offset": {
+        "offset": 148,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Minneapolis ARTCC",
+      "source_quote": "MINNEAPOLIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 245,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not notified",
+      "source_quote": "LEOS NOT NOTIFIED",
+      "citation_offset": {
+        "offset": 419,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Sioux Falls, SD",
+    "San Francisco (SFO)",
+    "Newark (EWR)"
+  ],
+  "dated_events": [
+    "2/11/2023",
+    "02-11-2023"
+  ],
+  "objects_described": [
+    "Unidentified lights at or above FL350-FL370",
+    "Boeing 777-200 (UAL2059)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 2059 was a Boeing 777-200 operating the SFO-EWR route on February 11, 2023",
+      "source_quote": "UNITED 2059, B772, SFO - EWR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 271,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew reported lights coming and going at the same altitude or higher between FL350 and FL370",
+      "source_quote": "REPORTED LIGHTS \"COMING AND GOING\" AT SAME ALTITUDE OR HIGHER WHILE E BOUND BETWEEN FL350 AND FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 301,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 25 nautical miles south of Sioux Falls, South Dakota",
+      "source_quote": "25 S SIOUX FALLS",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 401,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement officers were not notified of the incident",
+      "source_quote": "LEOS NOT NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 419,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Minneapolis Air Route Traffic Control Center relayed the report",
+      "source_quote": "MINNEAPOLIS ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 245,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T03:10:25.881Z",
+  "qa_completed_at": "2026-06-02T03:11:02.447Z",
+  "timing": {
+    "A": "20.4s",
+    "B": "16.1s",
+    "E": "23.6s"
+  },
+  "public_headline": "United Airlines Crew Reports Unexplained Lights Over South Dakota",
+  "public_tldr": "This FAA incident notification records that the crew of United Airlines flight 2059, a Boeing 777-200 flying from San Francisco to Newark, reported unidentified lights appearing and disappearing at their altitude or higher on February 11, 2023. The sighting occurred near Sioux Falls, South Dakota, at 35,000–37,000 feet, and no investigation or explanation is documented.",
+  "public_narrative": "This document is an FAA Washington Operations Center notification — essentially an internal log entry recording that a pilot crew reported something unusual. It is preliminary information, not an investigation report or a conclusion.\n\nOn February 11, 2023, at 03:32 CST, the crew of United Airlines flight 2059 reported lights \"coming and going\" at the same altitude or higher while flying eastbound between 35,000 and 37,000 feet. The aircraft, a Boeing 777-200 on the San Francisco-to-Newark route, was approximately 25 nautical miles south of Sioux Falls, South Dakota (coordinates 43.22°N, 96.74°W). Minneapolis Air Route Traffic Control Center (ARTCC) — the radar facility managing that airspace — relayed the report to FAA Operations.\n\nThe document notes that law enforcement was not notified. There is no record of follow-up investigation, corroborating radar data, additional witnesses, or any determination of what the lights were. The nature of the lights — whether aircraft, satellites, atmospheric phenomena, or something else — remains unresolved in this record.\n\nThe document shows minimal redaction. What it lacks is not hidden information but rather any investigative follow-up: this is where the official paper trail begins and, as far as this record shows, ends.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or additional witness accounts included in the document.",
+    "The record is marked as preliminary information (PRELIM INFO), meaning it is an initial notification rather than a completed investigation.",
+    "No follow-up investigation, resolution, or explanation for the lights is documented.",
+    "The nature of the observed lights — aircraft, satellites, celestial objects, or something else — is not determined anywhere in this document.",
+    "The document has low evidence of redaction, but its brevity reflects the limited scope of an operations-centre log entry, not necessarily a complete account of what was known."
+  ]
+}

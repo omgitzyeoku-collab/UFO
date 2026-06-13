@@ -1,0 +1,242 @@
+{
+  "sha256": "942229a07fc1d281f8c54ac8e715bb1cf42bd0ab64337709334791df77f7daf0",
+  "title": "FAA UAP record 237UAP00136",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon during a commercial flight.",
+  "core_summary": "On 17 December 2022, the crew of American Airlines flight AAL661 (an Airbus A321 flying from Las Vegas to Philadelphia) reported seeing an unidentified aerial phenomenon while eastbound at flight level 370, approximately 95 nautical miles east of Kansas City. The phenomenon was described as red, green, and white lights fading in and out at high altitude, with the report noting it was possibly satellites.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating sensor data or additional witness accounts documented.",
+    "The report itself suggests a prosaic explanation (satellites), indicating low confidence that this was a genuinely anomalous event.",
+    "No tail number was recorded, limiting independent verification of the specific aircraft involved."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date/time",
+      "value": "2022-12-17 at 09:55 UTC",
+      "source_quote": "Date: 09:55 12/17/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight callsign",
+      "value": "AAL661",
+      "source_quote": "Callsign: AAL661",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator",
+      "value": "American Airlines (AAL)",
+      "source_quote": "Operator: AAL",
+      "citation_offset": {
+        "offset": 186,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 257,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin",
+      "value": "Las Vegas (LAS)",
+      "source_quote": "Origin: LAS",
+      "citation_offset": {
+        "offset": 211,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Destination",
+      "value": "Philadelphia (PHL)",
+      "source_quote": "Destination: PHL",
+      "citation_offset": {
+        "offset": 223,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight Level 370 (37,000 feet)",
+      "source_quote": "E bound at FL370",
+      "citation_offset": {
+        "offset": 433,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "95 nautical miles east of Kansas City (MCI)",
+      "source_quote": "95NM E MCI",
+      "citation_offset": {
+        "offset": 451,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Red, green, and white lights fading in and out at high altitude",
+      "source_quote": "red, green, and white lights fading in and out, high above",
+      "citation_offset": {
+        "offset": 503,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Possible explanation noted",
+      "value": "Satellites",
+      "source_quote": "Possible satellites",
+      "citation_offset": {
+        "offset": 563,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "MOR ID",
+      "value": "ZKC-M-2022/12/17-0001",
+      "source_quote": "MOR ID: ZKC-M-2022/12/17-0001",
+      "citation_offset": {
+        "offset": 297,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "LAS (Las Vegas)",
+    "PHL (Philadelphia)",
+    "MCI (Kansas City)",
+    "DEN (Denver)"
+  ],
+  "dated_events": [
+    "2022-12-17"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon: red, green, and white lights fading in and out at high altitude"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight AAL661 was an A321 operating from Las Vegas to Philadelphia on 17 December 2022.",
+      "source_quote": "Callsign: AAL661 ... Aircraft: A321 ... Origin: LAS Destination: PHL",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew reported an unidentified aerial phenomenon while eastbound at 37,000 feet, 95 nautical miles east of Kansas City.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while E bound at FL370, 95NM E MCI",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 375,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was described as red, green, and white lights fading in and out at high altitude.",
+      "source_quote": "The unknown phenomenon was described as red, green, and white lights fading in and out, high above",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 463,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report suggests the lights were possibly satellites.",
+      "source_quote": "Possible satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 563,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case status is closed.",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:44:38.544Z",
+  "qa_completed_at": "2026-06-01T22:45:15.144Z",
+  "timing": {
+    "A": "19.0s",
+    "B": "17.6s",
+    "E": "17.6s"
+  },
+  "public_headline": "American Airlines Crew Reported Colored Lights Over Kansas at 37,000 Feet",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of American Airlines flight AAL661 on 17 December 2022, who observed red, green, and white lights fading in and out at high altitude while flying east of Kansas City at 37,000 feet. The report itself notes the lights were possibly satellites, and the case is closed.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — the system the Federal Aviation Administration uses to log pilot reports of unidentified aerial phenomena. It covers a sighting reported by the crew of American Airlines flight AAL661, an Airbus A321 flying from Las Vegas to Philadelphia on 17 December 2022.\n\nAt 09:55 UTC, while eastbound at flight level 370 (37,000 feet) and approximately 95 nautical miles east of Kansas City, the crew reported seeing an unidentified aerial phenomenon. They described it as red, green, and white lights fading in and out at high altitude above them.\n\nThe report itself offers a possible explanation: satellites. No corroborating sensor data or additional witness accounts are documented in the record. The case has been closed by the FAA under reference number ZKC-M-2022/12/17-0001.\n\nNo tail number for the aircraft was recorded in the report, and no named individuals appear in the document. The incident location is not redacted but is described only by its position relative to Kansas City.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar, infrared, or other sensor data documented in the report.",
+    "The report itself suggests a prosaic explanation — satellites — indicating the FAA did not treat this as a confirmed anomalous event.",
+    "No aircraft tail number was recorded, which limits independent verification of the specific flight involved.",
+    "The case is closed, meaning the FAA conducted no further investigation beyond this initial report.",
+    "There is minimal redaction in this document; the record is short and largely complete, but also limited in detail."
+  ]
+}

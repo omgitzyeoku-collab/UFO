@@ -1,0 +1,235 @@
+{
+  "sha256": "64ed033bc16593434da307e91fbf67c13c1e573a2eeafe34d15652d539983734",
+  "title": "FAA UAP record 237UAP00390",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAS/UFO sighting by a commercial aircraft crew.",
+  "core_summary": "On July 13, 2019, the crew of Endeavor 3468 (a CRJ-900 flying from Asheville to LaGuardia) reported observing a large UAS or 'UFO' at 11,300 feet, approximately 10 miles southwest of Robbinsville, New Jersey. No evasive action was taken and no description of the object or its direction of flight was provided. Law enforcement was not notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts in this document",
+    "No physical description of the object was provided, limiting analysis",
+    "Report was filed late, which may affect accuracy of details",
+    "The term 'UFO' appears in quotes in the original, suggesting the crew used it informally alongside 'UAS'",
+    "The document metadata lists incident date as 2023 but the source text clearly states July 13, 2019 — the metadata date may refer to the PURSUE release or processing date"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "July 13, 2019",
+      "source_quote": "Date: 7/13/2019 3:53:00 PM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_aircraft",
+      "value": "Endeavor 3468, CRJ-900 (CRJ9)",
+      "source_quote": "ENDEAVOR 3468, CRJ9, AVL - LGA",
+      "citation_offset": {
+        "offset": 297,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Asheville (AVL) to LaGuardia (LGA)",
+      "source_quote": "AVL - LGA",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "object_altitude",
+      "value": "11,300 feet",
+      "source_quote": "OBSERVED A LARGE UAS OR \"UFO\" AT 11,300 FEET",
+      "citation_offset": {
+        "offset": 329,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "10 miles southwest of Robbinsville, NJ",
+      "source_quote": "10 SW ROBBINSVILLE",
+      "citation_offset": {
+        "offset": 374,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "40.2162036, -74.6195327",
+      "source_quote": "Latitude: 40.2162036",
+      "citation_offset": {
+        "offset": 105,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 394,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Not provided",
+      "source_quote": "NO UAS DESCRIPTION OR DIRECTION OF FLIGHT GIVEN",
+      "citation_offset": {
+        "offset": 422,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "Not notified",
+      "source_quote": "LEOS NOT NOTIFIED",
+      "citation_offset": {
+        "offset": 471,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_type",
+      "value": "Late report, time of observation approximately 14:05 Eastern",
+      "source_quote": "LATE REPORT - 1405E",
+      "citation_offset": {
+        "offset": 224,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC_facilities_involved",
+      "value": "Washington ARTCC, New York TRACON",
+      "source_quote": "WASHINGTON ARTCC WAS ADVISED BY NEW YORK TRACON",
+      "citation_offset": {
+        "offset": 244,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Robbinsville, NJ",
+    "Washington ARTCC",
+    "New York TRACON",
+    "Asheville (AVL)",
+    "LaGuardia (LGA)"
+  ],
+  "dated_events": [
+    "7/13/2019"
+  ],
+  "objects_described": [
+    "Large UAS or 'UFO' at 11,300 feet",
+    "CRJ-900 commercial regional jet (Endeavor 3468)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Endeavor 3468 crew observed a large unidentified object at 11,300 feet near Robbinsville, NJ",
+      "source_quote": "ENDEAVOR 3468, CRJ9, AVL - LGA, OBSERVED A LARGE UAS OR \"UFO\" AT 11,300 FEET 10 SW ROBBINSVILLE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 297,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 394,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No description of the object or its flight direction was provided",
+      "source_quote": "NO UAS DESCRIPTION OR DIRECTION OF FLIGHT GIVEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 422,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified of the incident",
+      "source_quote": "LEOS NOT NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 471,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was filed late, with the incident occurring at approximately 14:05 Eastern",
+      "source_quote": "LATE REPORT - 1405E",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 224,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T02:40:56.856Z",
+  "qa_completed_at": "2026-06-02T02:41:32.170Z",
+  "timing": {
+    "A": "21.4s",
+    "B": "13.9s",
+    "E": "15.6s"
+  },
+  "public_headline": "Airline Crew Reported Unidentified Object at 11,300 Feet Over New Jersey",
+  "public_tldr": "This FAA incident report documents a July 2019 sighting by the crew of a commercial regional jet (Endeavor 3468) who observed a large unidentified object at 11,300 feet near Robbinsville, New Jersey. No description of the object was provided, no evasive action was taken, and law enforcement was not notified.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report from July 13, 2019. It records that the crew of Endeavor 3468 — a CRJ-900 regional jet flying from Asheville, North Carolina to LaGuardia Airport in New York — reported seeing a large unidentified aerial object while in flight.\n\nThe crew described the object as a large UAS (unmanned aircraft system) or \"UFO\" at 11,300 feet, located roughly 10 miles southwest of Robbinsville, New Jersey. The sighting was relayed from New York TRACON (Terminal Radar Approach Control) to Washington ARTCC (Air Route Traffic Control Center). The report was filed late, with the observation itself occurring at approximately 2:05 PM Eastern time.\n\nNotably, the crew did not provide any physical description of the object — its shape, colour, size, or direction of flight are absent from the record. No evasive action was taken by the aircraft, and law enforcement agencies were not notified.\n\nThe FAA report does not draw any conclusion about what the object was. It is a factual log of what the crew reported, with no follow-up investigation or resolution documented here. The metadata lists a 2023 date, but the source text clearly places the incident on July 13, 2019 — the later date likely reflects when the document was processed for public release.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar data or additional witness accounts in the document.",
+    "No physical description of the object was provided — there is nothing in this report to indicate what it was.",
+    "The report was filed late, which may affect the accuracy of recalled details.",
+    "The crew used the term 'UFO' informally alongside 'UAS' (drone) — neither term reflects an official FAA determination.",
+    "There is no evidence of redaction in this document; it is simply a brief incident log with limited information recorded at the time."
+  ]
+}

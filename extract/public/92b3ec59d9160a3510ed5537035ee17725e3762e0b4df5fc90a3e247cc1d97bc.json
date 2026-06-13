@@ -1,0 +1,179 @@
+{
+  "sha256": "92b3ec59d9160a3510ed5537035ee17725e3762e0b4df5fc90a3e247cc1d97bc",
+  "title": "FAA UAP record 237UAP00190",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting an unidentified aerial phenomenon sighting by a commercial aircraft.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The February 2023 date coincides with the Chinese surveillance balloon incidents over the US, which may provide context for the 'Balloon' classification.",
+    "Single-source pilot observation with no corroborating sensor data mentioned in this report.",
+    "FL500 (approximately 50,000 feet) is well above normal commercial aviation altitudes, consistent with high-altitude balloon operations.",
+    "The destination SKF (Kelly Field/Lackland AFB) is a military installation, though the operator is listed as commercial."
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "incident_date",
+      "value": "2023-02-03 at 14:34 UTC",
+      "source_quote": "Date: 14:34 02/03/2023",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "SCX8941",
+      "source_quote": "Callsign: SCX8941",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL340 (approximately 34,000 feet)",
+      "source_quote": "at FL340, while S bound",
+      "citation_offset": {
+        "offset": 353,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_location",
+      "value": "15 NM west-northwest of RBA (Sabetha VOR), 60 NM northwest of MCI (Kansas City)",
+      "source_quote": "60NM NW of MCI. The unknown phenomenon was at approximately FL500, 15NM WNW of RBA",
+      "citation_offset": {
+        "offset": 378,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pod",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "DEN",
+    "MCI",
+    "MSP",
+    "SKF",
+    "RBA",
+    "ZKC"
+  ],
+  "dated_events": [
+    "2023-02-03"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as a balloon at approximately FL500"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Sun Country Airlines flight reported a balloon-like object at approximately 50,000 feet while flying southbound at 34,000 feet.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon (Balloon) at FL340, while S bound, 60NM NW of MCI. The unknown phenomenon was at approximately FL500, 15NM WNW of RBA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 291,
+        "len": 169,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident occurred on 3 February 2023, during the period of heightened balloon activity over the US.",
+      "source_quote": "Date: 14:34 02/03/2023",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flight was routed from Minneapolis-Saint Paul to Kelly Field/Lackland AFB in San Antonio.",
+      "source_quote": "Origin: MSP Destination: SKF",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 201,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The case has been closed by the FAA.",
+      "source_quote": "Status: Closed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T23:37:13.829Z",
+  "qa_completed_at": "2026-06-01T23:37:56.570Z",
+  "timing": {
+    "A": "20.7s",
+    "B": "22.0s",
+    "E": "17.6s"
+  },
+  "public_headline": "FAA Report: Pilot Spotted Balloon-Like Object at 50,000 Feet Over Kansas",
+  "public_tldr": "This is a closed FAA incident report from February 2023 in which a commercial pilot flying at 34,000 feet reported an unidentified balloon-like object at roughly 50,000 feet over northwest Kansas. The FAA classified it as an Unidentified Aerial Phenomenon and closed the case without a public explanation.",
+  "public_narrative": "On 3 February 2023 at 14:34 UTC, a commercial aircraft with the callsign SCX8941 — a Sun Country Airlines flight travelling southbound from Minneapolis-Saint Paul (MSP) to Kelly Field/Lackland AFB (SKF) in San Antonio — reported an unusual sighting to air traffic control. The crew was flying at FL340, roughly 34,000 feet, when they observed an unidentified object well above them.\n\nThe object was described as balloon-like and was estimated at approximately FL500, or 50,000 feet — far above normal commercial flight altitudes. Its position was logged as about 15 nautical miles west-northwest of the Sabetha VOR (RBA) navigation point, roughly 60 nautical miles northwest of Kansas City (MCI). The report was handled by the Denver (DEN) office and routed through Kansas City Center (ZKC).\n\nThe FAA filed this under its SKYWATCH programme with the primary code \"Unidentified Aerial Phenomenon.\" The case status is listed as Closed. No resolution or identification of the object appears in the released document.\n\nThe date is notable: 3 February 2023 fell during the wave of high-altitude balloon incidents over the United States, including the Chinese surveillance balloon that was eventually shot down on 4 February. Whether this sighting is connected to those events is not stated in the report.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No corroborating radar data, satellite imagery, or sensor records are mentioned in the released document.",
+    "The FAA closed the case but the document does not include an explanation or identification of the object.",
+    "The sighting date — 3 February 2023 — coincides with the well-publicised Chinese surveillance balloon incidents, which may or may not be related.",
+    "FL500 (approximately 50,000 feet) is consistent with high-altitude balloon operations and well above normal commercial traffic.",
+    "The destination SKF is a military airfield (Lackland AFB), though the operator is listed as a commercial airline."
+  ]
+}

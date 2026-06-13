@@ -1,0 +1,232 @@
+{
+  "sha256": "7cd291bfa8557b631bf24090780087e6ecedff8f41249f40bd7585e31362d9c4",
+  "title": "FAA UAP record 237UAP00130",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on one pilot's visual observation with no corroborating radar data or additional witnesses mentioned.",
+    "The case is marked as closed with no resolution or explanation provided in this document.",
+    "Airport identifier 3T5 refers to a small general aviation airport; I90 is the FAA TRACON facility. TY likely refers to another FAA facility but is not explained.",
+    "No tail number or operator name is recorded, limiting independent verification."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report date/time",
+      "value": "2022-11-11 at 02:22",
+      "source_quote": "Date: 02:22 11/11/2022",
+      "citation_offset": {
+        "offset": 70,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "N1439X",
+      "source_quote": "Callsign: N1439X",
+      "citation_offset": {
+        "offset": 93,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Pilot altitude",
+      "value": "3,000 feet",
+      "source_quote": "westbound at 3,000 feet",
+      "citation_offset": {
+        "offset": 351,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "10 NM southeast of 3T5",
+      "source_quote": "10 NM SE of 3T5",
+      "citation_offset": {
+        "offset": 376,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Bright rotating lights, size of a C172, traveling southwest at high speed at approximately 4,000 feet",
+      "source_quote": "bright rotating lights about the size of a C172 traveling at a high rate of speed SW bound at approximately 4,000 feet",
+      "citation_offset": {
+        "offset": 420,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude",
+      "value": "Approximately 4,000 feet",
+      "source_quote": "at approximately 4,000 feet",
+      "citation_offset": {
+        "offset": 511,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "I90",
+      "source_quote": "Reporting Facility: I90",
+      "citation_offset": {
+        "offset": 162,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POD",
+      "value": "DEN",
+      "source_quote": "POD: DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Origin airport",
+      "value": "3T5",
+      "source_quote": "Origin: 3T5",
+      "citation_offset": {
+        "offset": 196,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operator type",
+      "value": "General Aviation",
+      "source_quote": "Operator Type: General Aviation",
+      "citation_offset": {
+        "offset": 242,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 110,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Notification",
+      "value": "TY notified",
+      "source_quote": "TY notified",
+      "citation_offset": {
+        "offset": 540,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "3T5",
+    "DEN",
+    "I90"
+  ],
+  "dated_events": [
+    "2022-11-11"
+  ],
+  "objects_described": [
+    "PA28 (reporting aircraft)",
+    "Unidentified aerial phenomenon with bright rotating lights approximately C172-sized"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A PA28 pilot reported a UAP while flying westbound at 3,000 feet, 10 NM southeast of 3T5.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while westbound at 3,000 feet, 10 NM SE of 3T5",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 293,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP appeared as bright rotating lights roughly the size of a Cessna 172.",
+      "source_quote": "bright rotating lights about the size of a C172",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 420,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was traveling southwest at a high rate of speed at approximately 4,000 feet altitude.",
+      "source_quote": "traveling at a high rate of speed SW bound at approximately 4,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 468,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The entity identified as TY was notified of the incident.",
+      "source_quote": "TY notified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 540,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-01T22:38:53.112Z",
+  "qa_completed_at": "2026-06-01T22:39:28.792Z",
+  "timing": {
+    "A": "18.9s",
+    "B": "16.8s",
+    "E": "16.8s"
+  },
+  "public_headline": "FAA Report Documents Pilot Sighting of Bright Rotating Lights in 2022",
+  "public_tldr": "This FAA SKYWATCH incident report records a general aviation pilot's sighting of an unidentified aerial phenomenon on 11 November 2022. The pilot, flying at 3,000 feet near airport 3T5, observed bright rotating lights roughly the size of a small aircraft moving southwest at high speed. The case was closed with no explanation provided.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report filed on 11 November 2022 at 02:22. It records a sighting by the pilot of aircraft N1439X, a general aviation PA28, who reported an unidentified aerial phenomenon while flying westbound at 3,000 feet, approximately 10 nautical miles southeast of airport 3T5.\n\nThe pilot described the object as having bright rotating lights, roughly the size of a Cessna 172 (a common single-engine aircraft about 8 metres long). It was travelling southwest at a high rate of speed at approximately 4,000 feet — about 1,000 feet above the reporting aircraft. The sighting was logged through FAA facility I90 (a Terminal Radar Approach Control facility), and an entity identified as \"TY\" was notified.\n\nThe report is marked as closed. No resolution, explanation, or identification of the phenomenon is provided in the document. There is no mention of corroborating radar data, additional witnesses, or follow-up investigation.\n\nThe document lists the point of departure as DEN and the origin airport as 3T5. No tail number for the observed object or operator details beyond \"General Aviation\" for the reporting aircraft are recorded. The level of redaction in this document appears low — it is a brief, routine incident form rather than a heavily censored file.",
+  "public_caveats": [
+    "This is a single-source report based entirely on one pilot's visual observation. No radar data or additional witnesses are mentioned.",
+    "The case is marked as closed with no resolution — the FAA did not identify the object or offer an explanation in this document.",
+    "No tail number or operator name is recorded for the reporting aircraft beyond its callsign (N1439X), limiting independent verification.",
+    "Airport identifier 3T5 refers to a small general aviation airport; I90 is an FAA TRACON facility. The abbreviation \"TY\" is not explained in the document.",
+    "This is a routine FAA incident form, not an in-depth investigation report. It documents that a sighting was reported, not that it was analysed."
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "sha256": "65fc33fa937a55c535568654ec86d0361b59fad09088ab86c21ab9feadca4b0a",
+  "title": "FAA UAP record 237UAP00274",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA SKYWATCH incident report documenting a pilot sighting of an unidentified aerial phenomenon.",
+  "core_summary": "On 21 July 2023, a Horizon Air (QXE) commercial flight operating as QXE2063, an E175 regional jet, reported 10-15 stationary lights at approximately FL230 while southbound at FL250, located 20 nautical miles southwest of LAX. NORAD was contacted to check their systems but returned negative results.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness reports documented.",
+    "NORAD check returned negative, meaning no corresponding object was detected on military radar systems.",
+    "The report is marked 'Closed' with no resolution or identification of the phenomenon.",
+    "No tail number is recorded for the reporting aircraft, which is unusual but not necessarily indicative of redaction.",
+    "The time 05:15 is likely UTC; local Pacific time would be approximately 22:15 on 20 July 2023, meaning this was a nighttime observation."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_type",
+      "value": "SKYWATCH Incident Report",
+      "source_quote": "SKYWATCH INCIDENT REPORT",
+      "citation_offset": {
+        "offset": 0,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_code",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "PRIMARY CODE: UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 25,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "callsign",
+      "value": "QXE2063",
+      "source_quote": "Callsign: QXE2063",
+      "citation_offset": {
+        "offset": 93,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "operator_type",
+      "value": "Commercial",
+      "source_quote": "Operator Type: Commercial",
+      "citation_offset": {
+        "offset": 247,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL250 (25,000 feet)",
+      "source_quote": "S bound at FL250",
+      "citation_offset": {
+        "offset": 350,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_location",
+      "value": "20NM southwest of LAX",
+      "source_quote": "20NM SW of LAX",
+      "citation_offset": {
+        "offset": 368,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "10-15 stationary lights at approximately FL230",
+      "source_quote": "described as 10-15 stationary lights at approximately FL230",
+      "citation_offset": {
+        "offset": 411,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "No evasive action taken",
+      "citation_offset": {
+        "offset": 472,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "norad_check",
+      "value": "Negative results",
+      "source_quote": "HQ DEN requested NORAD to check their systems, negative results",
+      "citation_offset": {
+        "offset": 497,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "status",
+      "value": "Closed",
+      "source_quote": "Status: Closed",
+      "citation_offset": {
+        "offset": 111,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "LAX",
+    "PDX",
+    "SNA",
+    "DEN"
+  ],
+  "dated_events": [
+    "2023-07-21"
+  ],
+  "objects_described": [
+    "10-15 stationary lights at approximately FL230"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A commercial Horizon Air flight (QXE2063) observed 10-15 stationary lights while flying southbound at FL250, 20NM southwest of LAX.",
+      "source_quote": "Aircraft reported an unidentified aerial phenomenon while S bound at FL250, 20NM SW of LAX. The unknown phenomenon was described as 10-15 stationary lights at approximately FL230.",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 292,
+        "len": 179,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observed lights were at a lower altitude (FL230) than the reporting aircraft (FL250), a difference of approximately 2,000 feet.",
+      "source_quote": "S bound at FL250... 10-15 stationary lights at approximately FL230",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 424,
+        "len": 46,
+        "exact": false,
+        "matched": "10-15 stationary lights at approximately FL230"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "NORAD was asked to check their systems and found nothing.",
+      "source_quote": "HQ DEN requested NORAD to check their systems, negative results",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 497,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "No evasive action taken",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 472,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Aviation Weather Office (AWO) was advised of the incident.",
+      "source_quote": "AWO advised",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 562,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-02T00:53:36.794Z",
+  "qa_completed_at": "2026-06-02T00:54:16.702Z",
+  "timing": {
+    "A": "21.6s",
+    "B": "18.3s",
+    "E": "15.8s"
+  },
+  "public_headline": "Horizon Air Pilot Reported Stationary Lights Near Los Angeles in 2023",
+  "public_tldr": "An FAA incident report documents a Horizon Air commercial pilot observing 10 to 15 stationary lights below their aircraft while flying near Los Angeles on 21 July 2023. NORAD checked its systems and found nothing; the FAA closed the case without identifying the lights.",
+  "public_narrative": "This document is an FAA SKYWATCH incident report — a standard form the Federal Aviation Administration uses to log reports of unidentified aerial phenomena from pilots and air traffic controllers. It was filed under the code \"Unidentified Aerial Phenomenon\" and assigned case number 237UAP00274.\n\nOn 21 July 2023, a Horizon Air regional jet operating as flight QXE2063 was flying southbound at 25,000 feet, roughly 20 nautical miles southwest of Los Angeles International Airport (LAX). The pilot reported seeing 10 to 15 stationary lights at approximately 23,000 feet — about 2,000 feet below the aircraft. No evasive action was taken.\n\nFAA headquarters in Denver asked NORAD (the North American Aerospace Defense Command) to check its systems for any corresponding objects. NORAD returned negative results, meaning military radar did not detect anything in that area. The Aviation Weather Office was also notified.\n\nThe case is marked \"Closed.\" No identification or explanation for the lights is recorded in the document. There is no indication of follow-up investigation, additional witness reports, or corroborating radar data.",
+  "public_caveats": [
+    "This is a single-source pilot observation. No radar data, photographs, or independent witnesses are documented in the report.",
+    "NORAD's negative result means military radar did not detect an object — but that does not confirm or deny the pilot's visual observation.",
+    "The case was closed with no resolution. The FAA did not identify or explain the lights.",
+    "The observation occurred at night (the 05:15 timestamp is likely UTC, making it approximately 10:15 PM local Pacific time on 20 July 2023).",
+    "Redaction levels appear low in this document, but the report contains limited detail overall — no tail number for the aircraft is recorded, and the narrative section is brief."
+  ]
+}
