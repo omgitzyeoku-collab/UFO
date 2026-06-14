@@ -1,0 +1,219 @@
+{
+  "sha256": "bc434f1e3c35bc7761505a144c19e6378fbb79beece2d1b059ef47c4e2a65057",
+  "title": "FAA UAP record 237UAP00590",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot-reported unidentified anomalous phenomenon (UAP) sighting.",
+  "core_summary": "On December 23, 2023, the crew of United Airlines flight 1605 (an Airbus A320 flying from Los Angeles to Baltimore-Washington) reported an unidentified aerial phenomenon off the left side of the aircraft while eastbound at flight level 350, approximately 80 nautical miles west of Springfield, Illinois. The UAP was described as lights moving erratically in random directions at an unknown altitude. Air traffic control radar did not detect the object.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data",
+    "No altitude, size, or distance estimate for the UAP was provided",
+    "The report is a preliminary operations center log entry, not a full investigation",
+    "The coordinates in the metadata place the incident in western Illinois near the Missouri border, consistent with the stated location 80 miles west of Springfield"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "United Airlines 1605 (UAL1605)",
+      "source_quote": "UNITED 1605, A320, LAX - BWI",
+      "citation_offset": {
+        "offset": 272,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Airbus A320",
+      "source_quote": "UNITED 1605, A320, LAX - BWI",
+      "citation_offset": {
+        "offset": 272,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Los Angeles (LAX) to Baltimore-Washington (BWI)",
+      "source_quote": "A320, LAX - BWI",
+      "citation_offset": {
+        "offset": 285,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date/time",
+      "value": "December 23, 2023 at 0535 CST",
+      "source_quote": "12/23/2023 5:35:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 350 (approximately 35,000 feet)",
+      "source_quote": "AT FL350",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP description",
+      "value": "Lights moving erratically in random directions at unknown altitude",
+      "source_quote": "UAP WAS LIGHTS MOVING ERRATICALLY TRAVELING IN RANDOM DIRECTIONS AT UNKNOWN ALTITUDE",
+      "citation_offset": {
+        "offset": 397,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "Off the left side",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON OFF THE LEFT SIDE",
+      "citation_offset": {
+        "offset": 302,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "UAP WAS NOT OBSERVED ON ATC RADAR",
+      "citation_offset": {
+        "offset": 483,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Kansas City ARTCC",
+      "source_quote": "KANSAS CITY ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 246,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "39.83°N, 91.18°W",
+      "source_quote": "Latitude: 39.834861770000003",
+      "citation_offset": {
+        "offset": 110,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Springfield, IL",
+    "Los Angeles (LAX)",
+    "Baltimore-Washington (BWI)",
+    "Kansas City ARTCC"
+  ],
+  "dated_events": [
+    "12/23/2023",
+    "12-23-2023"
+  ],
+  "objects_described": [
+    "Airbus A320 (United 1605)",
+    "UAP described as lights moving erratically in random directions"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 1605 was an A320 operating on the LAX to BWI route on December 23, 2023",
+      "source_quote": "UNITED 1605, A320, LAX - BWI",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 272,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was reported while the aircraft was eastbound at flight level 350, approximately 80 miles west of Springfield, IL",
+      "source_quote": "E BOUND AT FL350 80 W SPI",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The UAP appeared as lights moving erratically in random directions",
+      "source_quote": "UAP WAS LIGHTS MOVING ERRATICALLY TRAVELING IN RANDOM DIRECTIONS AT UNKNOWN ALTITUDE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 397,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by air traffic control radar",
+      "source_quote": "UAP WAS NOT OBSERVED ON ATC RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 483,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was relayed through Kansas City ARTCC",
+      "source_quote": "KANSAS CITY ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 246,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:01:54.900Z",
+  "qa_completed_at": "2026-06-14T01:02:29.763Z",
+  "timing": {
+    "A": "18.8s",
+    "B": "16.1s",
+    "E": "19.2s"
+  },
+  "public_headline": "United Airlines crew reported erratic lights over Illinois in 2023",
+  "public_tldr": "An FAA operations center report documents the crew of United Airlines flight 1605 observing unidentified lights moving erratically off the left side of their aircraft while cruising at 35,000 feet over western Illinois on 23 December 2023. Air traffic control radar did not detect anything at the reported location.",
+  "public_narrative": "This document is an incident log from the FAA's Washington Operations Center recording a pilot-reported unidentified anomalous phenomenon (UAP). It is a preliminary operations center entry, not a full investigation report.\n\nOn 23 December 2023 at 05:35 CST, the crew of United Airlines flight 1605 — an Airbus A320 flying from Los Angeles (LAX) to Baltimore-Washington (BWI) — reported seeing something unusual. While eastbound at flight level 350 (roughly 35,000 feet), approximately 80 nautical miles west of Springfield, Illinois, the crew observed lights off the left side of the aircraft. The lights were described as moving erratically and travelling in random directions at an unknown altitude.\n\nThe sighting was relayed through Kansas City Air Route Traffic Control Center (ARTCC). Controllers checked their radar but the object was not observed on air traffic control radar. The coordinates logged in the report (39.83°N, 91.18°W) place the incident in western Illinois near the Missouri border, consistent with the stated location.\n\nThe document does not contain any conclusions about what the lights were. There is no indication of a follow-up investigation, no estimate of the object's size, distance, or altitude, and no corroborating reports from other aircraft or ground observers. The report shows minimal redaction.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar data or independent witnesses.",
+    "No altitude, size, or distance estimate for the UAP was provided by the crew.",
+    "The document is a preliminary operations center log entry, not a completed investigation or analytical report.",
+    "The flight level figure (FL350) has slightly lower confidence in the source text than other details, though it is consistent with typical cruise altitude for an A320 on this route.",
+    "Minimal redaction is present, but the brevity of the report means limited detail is available about the incident."
+  ]
+}

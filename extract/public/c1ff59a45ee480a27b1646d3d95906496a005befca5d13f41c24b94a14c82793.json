@@ -1,0 +1,81 @@
+{
+  "sha256": "c1ff59a45ee480a27b1646d3d95906496a005befca5d13f41c24b94a14c82793",
+  "title": "CIA-UAP-017, Placement on High Alert Due to Perceived Aggressive Foreign Posturing",
+  "agency": "CIA",
+  "type": "IMG",
+  "incident_date": "July, 2008",
+  "incident_location": "Harare, Zimbabwe",
+  "what_is_it": "A CIA report documenting a UFO sighting at Harare International Airport, with debate over whether the object was a foreign reconnaissance device or extraterrestrial in origin.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No extracted body text available — all facts derived from document metadata and CSV description only.",
+    "The document is an image file (scanned), so OCR was unsuccessful and no verbatim source quotes are available.",
+    "Single-source report with no corroborating documentation provided.",
+    "The debate over foreign vs. extraterrestrial origin is noted in the metadata description but no analytical conclusion is documented.",
+    "Redaction level estimated as moderate based on typical CIA document handling, but cannot be confirmed without readable source text."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_date",
+      "value": "July 2008",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "subject",
+      "value": "UFO sighting prompting high alert due to perceived aggressive foreign posturing",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Harare",
+    "Zimbabwe"
+  ],
+  "dated_events": [
+    "July 2008"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "A UFO was sighted at Harare International Airport in July 2008",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    },
+    {
+      "claim": "The sighting led to placement on high alert due to perceived aggressive foreign posturing",
+      "source_quote": "",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 2
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:41:08.610Z",
+  "qa_completed_at": "2026-06-14T02:41:39.642Z",
+  "timing": {
+    "A": "16.2s",
+    "B": "14.8s"
+  }
+}

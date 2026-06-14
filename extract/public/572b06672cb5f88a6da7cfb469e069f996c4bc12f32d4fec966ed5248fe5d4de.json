@@ -1,0 +1,233 @@
+{
+  "sha256": "572b06672cb5f88a6da7cfb469e069f996c4bc12f32d4fec966ed5248fe5d4de",
+  "title": "FAA UAP record 237UAP00578",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification reporting a UAP sighting by a commercial FedEx flight crew.",
+  "core_summary": "On November 21, 2023, the crew of FedEx flight 3184 (a Boeing 767-300) flying from Fort Worth to Fort Lauderdale reported an unidentified aerial phenomenon while at 14,000 feet, approximately 36 nautical miles east-southeast of Southwest Florida International Airport (RSW). The UAP was described as three lights arranged vertically and horizontally at the 11 o'clock position relative to the aircraft. No evasive action was taken and law enforcement was not notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report from one flight crew with no corroborating radar data or additional witness accounts included",
+    "The notation 'LEO WERE NOT NOTIFICATION' appears to be a typo for 'notified', suggesting this is a preliminary or hastily drafted report",
+    "No follow-up investigation details are included — this is an initial operations center notification only",
+    "The description '3 lights vertical and horizontal' is ambiguous and could describe various conventional or unconventional phenomena"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "FedEx 3184 (FDX3184), Boeing 767-300 (B763)",
+      "source_quote": "FEDEX 3184, B763, AFW - FLL",
+      "citation_offset": {
+        "offset": 258,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Fort Worth (AFW) to Fort Lauderdale (FLL)",
+      "source_quote": "AFW - FLL",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date and time",
+      "value": "November 21, 2023, at 1840 Eastern",
+      "source_quote": "11/21/2023 6:40:00 PM (-05 EST)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "36 nautical miles east-southeast of RSW (Southwest Florida International Airport), near Fort Myers, FL",
+      "source_quote": "36 ESE RSW",
+      "citation_offset": {
+        "offset": 390,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "14,000 feet",
+      "source_quote": "AT 14,000 FEET",
+      "citation_offset": {
+        "offset": 375,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Three lights arranged vertically and horizontally",
+      "source_quote": "UAP DESCRIBED AS 3 LIGHTS VERTICAL AND HORIZONTAL",
+      "citation_offset": {
+        "offset": 402,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "11 o'clock position while heading east-southeast",
+      "source_quote": "FROM THE 11 O'CLOCK POSITION WHILE ESE BOUND",
+      "citation_offset": {
+        "offset": 330,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 453,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not notified",
+      "source_quote": "LEO WERE NOT NOTIFICATION",
+      "citation_offset": {
+        "offset": 478,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility involved",
+      "value": "Miami ARTCC",
+      "source_quote": "MIAMI ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 238,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "26.322489°N, 81.225045°W",
+      "source_quote": "Latitude: 26.32248912",
+      "citation_offset": {
+        "offset": 110,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Fort Myers, FL",
+    "RSW (Southwest Florida International Airport)",
+    "Fort Lauderdale (FLL)"
+  ],
+  "dated_events": [
+    "11/21/2023",
+    "11-21-2023"
+  ],
+  "objects_described": [
+    "Boeing 767-300 (B763) — FedEx 3184",
+    "UAP described as 3 lights vertical and horizontal"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "FedEx flight 3184 crew observed a UAP at 14,000 feet altitude on November 21, 2023",
+      "source_quote": "FEDEX 3184, B763, AFW - FLL, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 258,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of three lights arranged vertically and horizontally",
+      "source_quote": "UAP DESCRIBED AS 3 LIGHTS VERTICAL AND HORIZONTAL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 402,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 36 nautical miles east-southeast of RSW airport",
+      "source_quote": "36 ESE RSW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 390,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 453,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified of the incident",
+      "source_quote": "LEO WERE NOT NOTIFICATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 478,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:52:23.462Z",
+  "qa_completed_at": "2026-06-14T00:52:58.770Z",
+  "timing": {
+    "A": "20.3s",
+    "B": "15.0s",
+    "E": "18.4s"
+  },
+  "public_headline": "FedEx Cargo Crew Reported Three Unexplained Lights Over Southwest Florida",
+  "public_tldr": "This FAA operations center notification documents a UAP sighting by the crew of FedEx flight 3184, a Boeing 767-300 cargo aircraft, on November 21, 2023. The crew described three lights arranged vertically and horizontally while flying at 14,000 feet near Fort Myers, Florida. No evasive action was taken and no follow-up investigation is included in the record.",
+  "public_narrative": "On the evening of November 21, 2023, the crew of FedEx flight 3184 — a Boeing 767-300 cargo aircraft flying from Fort Worth to Fort Lauderdale — reported seeing an unidentified aerial phenomenon to Miami ARTCC (Air Route Traffic Control Center). The sighting occurred at 6:40 PM Eastern time while the aircraft was at 14,000 feet, approximately 36 nautical miles east-southeast of Southwest Florida International Airport near Fort Myers.\n\nThe crew described the UAP as three lights arranged vertically and horizontally, visible from the 11 o'clock position relative to the aircraft while heading east-southeast. The crew did not take evasive action, and law enforcement was not notified of the incident.\n\nThis document is an FAA Washington Operations Center incident notification — essentially a preliminary intake form, not an investigation report. It records the basic facts of what was reported but includes no radar data, no photographs, and no follow-up analysis. The FAA did not reach any conclusion about what the lights were.\n\nThe record contains no redactions of note. It appears to be a hastily drafted notification, as evidenced by the phrasing \"LEO WERE NOT NOTIFICATION\" — an apparent typo for \"notified.\" The coordinates place the sighting over the Gulf of Mexico approaches to southwest Florida.",
+  "public_caveats": [
+    "This is a single-source report from one flight crew. No corroborating radar data, additional witnesses, or sensor evidence is included in this record.",
+    "The document is a preliminary operations center notification, not the result of any investigation. The FAA drew no conclusions about what the crew observed.",
+    "The description of 'three lights vertical and horizontal' is ambiguous and could correspond to a range of conventional or unconventional explanations.",
+    "No follow-up investigation details are included. It is unknown whether further inquiry was conducted.",
+    "The apparent typo in the document ('LEO WERE NOT NOTIFICATION') suggests this was drafted quickly and may lack the precision of a formal report."
+  ]
+}

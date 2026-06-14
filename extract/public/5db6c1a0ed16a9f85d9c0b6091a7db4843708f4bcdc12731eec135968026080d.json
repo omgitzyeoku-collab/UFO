@@ -1,0 +1,235 @@
+{
+  "sha256": "5db6c1a0ed16a9f85d9c0b6091a7db4843708f4bcdc12731eec135968026080d",
+  "title": "FAA UAP record 237UAP00522",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification documenting a UAP sighting report from a commercial airline crew.",
+  "core_summary": "On July 16, 2023, the crew of Southwest Airlines Flight 549 (a Boeing 737 flying from Fort Myers to St. Louis) reported an unidentified aerial phenomenon described as a string of lights above their aircraft while northwest-bound at flight level 380, approximately 81 nautical miles southeast of Memphis. No evasive action was taken. The sighting was correlated with Starlink satellites.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The sighting was resolved as Starlink satellites by the FAA, making this a case of identified aerial phenomena rather than a true unknown.",
+    "This is a preliminary operations center notification, not a full investigation report.",
+    "Single-source observation from one flight crew with no independent corroboration described beyond the Starlink correlation."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "Southwest Airlines Flight 549 (SWA549)",
+      "source_quote": "SWA549",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737",
+      "source_quote": "B737",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "RSW (Fort Myers) to STL (St. Louis)",
+      "source_quote": "RSW - STL",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date/time",
+      "value": "July 16, 2023, at 2136 CDT",
+      "source_quote": "2136C",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 380 (approximately 38,000 feet)",
+      "source_quote": "FL380",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "81 nautical miles southeast of Memphis, TN",
+      "source_quote": "81 SE MEM",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "String of lights above the aircraft",
+      "source_quote": "AN UNIDENTIFIED AERIAL PHENOMENON OF A STRING OF LIGHTS ABOVE ACFT",
+      "citation_offset": {
+        "offset": 303,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of travel",
+      "value": "Northwest-bound",
+      "source_quote": "WHILE NW BOUND",
+      "citation_offset": {
+        "offset": 370,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 405,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Identification",
+      "value": "Correlated with Starlink satellites",
+      "source_quote": "SIGHTING CORRELATED WITH STARLINK SATELLITES",
+      "citation_offset": {
+        "offset": 430,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None",
+      "source_quote": "NO LEO NOTIFICATION",
+      "citation_offset": {
+        "offset": 476,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Memphis ARTCC",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 240,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Memphis, TN",
+    "RSW (Fort Myers)",
+    "STL (St. Louis)"
+  ],
+  "dated_events": [
+    "07-16-2023",
+    "7/16/2023 9:33:00 PM (-05 CDT)"
+  ],
+  "objects_described": [
+    "Boeing 737 (SWA549)",
+    "Unidentified aerial phenomenon — string of lights",
+    "Starlink satellites (identified correlation)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Southwest Airlines Flight 549 reported an unidentified aerial phenomenon on July 16, 2023",
+      "source_quote": "SOUTHWEST 549, B737, RSW - STL, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 262,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was described as a string of lights above the aircraft",
+      "source_quote": "A STRING OF LIGHTS ABOVE ACFT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 340,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was at flight level 380 approximately 81 nautical miles southeast of Memphis",
+      "source_quote": "AT FL380 81 SE MEM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 385,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 405,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting was correlated with Starlink satellites",
+      "source_quote": "SIGHTING CORRELATED WITH STARLINK SATELLITES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 430,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement was notified",
+      "source_quote": "NO LEO NOTIFICATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 476,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:02:55.684Z",
+  "qa_completed_at": "2026-06-14T00:03:27.228Z",
+  "timing": {
+    "A": "18.1s",
+    "B": "13.5s",
+    "E": "16.7s"
+  },
+  "public_headline": "Southwest Airlines Crew Reported Lights Later Linked to Starlink Satellites",
+  "public_tldr": "This FAA operations center notification documents a July 2023 sighting by the crew of Southwest Airlines Flight 549, who observed a string of lights above their aircraft near Memphis. The FAA correlated the sighting with Starlink satellites, effectively resolving it as an identified object rather than a true unknown.",
+  "public_narrative": "On the evening of 16 July 2023, the crew of Southwest Airlines Flight 549 — a Boeing 737 flying from Fort Myers, Florida to St. Louis, Missouri — reported seeing an unidentified aerial phenomenon while cruising at approximately 38,000 feet. The aircraft was about 81 nautical miles southeast of Memphis, Tennessee, heading northwest at the time.\n\nThe crew described the phenomenon as a string of lights above their aircraft. They did not take any evasive action, and Memphis Air Route Traffic Control Center (ARTCC) was advised of the report. No law enforcement was notified.\n\nThe FAA's assessment was straightforward: the sighting was correlated with Starlink satellites, the large constellation of low-orbit communications satellites operated by SpaceX. Starlink satellites are a well-documented source of light-string sightings, particularly shortly after launch when they travel in close formation.\n\nThis document is a preliminary FAA Washington Operations Center incident notification — a standard internal report used to log unusual sightings. It is not a full investigation. There is minimal redaction, and the core facts are clearly stated in the record.",
+  "public_caveats": [
+    "This sighting was resolved by the FAA as Starlink satellites, making it an identified aerial phenomenon rather than a genuine unknown.",
+    "The document is a preliminary operations center notification, not a completed investigation — it captures the initial report and a correlation, nothing more.",
+    "The observation comes from a single flight crew with no independent corroboration described beyond the Starlink match.",
+    "No evasive action was taken and no law enforcement was contacted, indicating the crew did not consider the sighting a safety threat.",
+    "Redaction levels in this document are low; the key facts are legible and internally consistent."
+  ]
+}

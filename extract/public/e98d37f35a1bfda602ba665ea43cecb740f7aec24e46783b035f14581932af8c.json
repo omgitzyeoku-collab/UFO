@@ -1,0 +1,89 @@
+{
+  "sha256": "e98d37f35a1bfda602ba665ea43cecb740f7aec24e46783b035f14581932af8c",
+  "title": "FBI-UAP-D010, FD-302-71, “Northeastern Orb Sighting,” 2026",
+  "agency": "FBI",
+  "type": "IMG",
+  "incident_date": "2025",
+  "incident_location": "Northeastern United States",
+  "what_is_it": "An FBI FD-302 interview record documenting a first-hand witness account of an unidentified anomalous phenomena (UAP) orb sighting in the northeastern United States.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "No extracted body text is available — all facts are derived from metadata and the official CSV description only.",
+    "The document is an image file (JPG), suggesting a scanned document with no machine-readable text.",
+    "Single-source witness account: the FD-302 records one person's perspective without independent corroboration noted.",
+    "Redaction level is assessed as heavy given the absence of readable content and the nature of FBI interview records in this collection.",
+    "The witness identity is not disclosed; the document refers only to 'a U.S. person'."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "agency",
+      "value": "FBI (Federal Bureau of Investigation)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_location",
+      "value": "Northeastern United States",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_date",
+      "value": "2025",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "phenomenon_type",
+      "value": "Orb sighting",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Northeastern United States"
+  ],
+  "dated_events": [
+    "2025"
+  ],
+  "objects_described": [
+    "Orb (unidentified anomalous phenomenon)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The FBI conducted an interview with a U.S. person regarding a first-hand UAP sighting",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    },
+    {
+      "claim": "The sighting involved an orb-type phenomenon in the northeastern United States",
+      "source_quote": "",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 2
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:46:31.381Z",
+  "qa_completed_at": "2026-06-14T02:47:03.774Z",
+  "timing": {
+    "A": "16.6s",
+    "B": "15.8s"
+  }
+}

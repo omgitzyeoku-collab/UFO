@@ -1,0 +1,81 @@
+{
+  "sha256": "4ae3a455443d96333e8d9273608a77e80d74a0c462266e8e14b83459b51440ce",
+  "title": "CIA-UAP-018, Report of Unusual Flying Object Sightings and Attendant Scientific Activity",
+  "agency": "CIA",
+  "type": "IMG",
+  "incident_date": "1955",
+  "incident_location": "Hungary",
+  "what_is_it": "A CIA intelligence report documenting unusual flying object sightings and related scientific activity in Hungary, derived from intercepted or shared correspondence between Hungarian relatives.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No body text available — document is a scanned image with no successful OCR extraction",
+    "All facts derived from metadata and CSV description only",
+    "Single-source intelligence derived from personal correspondence, not direct observation by trained personnel",
+    "A more redacted version existed previously, suggesting sensitive content beyond what metadata reveals"
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "originating_agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_year",
+      "value": "1955",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_location",
+      "value": "Hungary",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "document_type",
+      "value": "Report of Unusual Flying Object Sightings and Attendant Scientific Activity",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Hungary"
+  ],
+  "dated_events": [
+    "1955"
+  ],
+  "objects_described": [
+    "unusual flying object"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A UFO sighting occurred in Hungary in 1955",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:05:42.320Z",
+  "qa_completed_at": "2026-06-14T03:06:12.511Z",
+  "timing": {
+    "A": "14.9s",
+    "B": "15.3s"
+  }
+}

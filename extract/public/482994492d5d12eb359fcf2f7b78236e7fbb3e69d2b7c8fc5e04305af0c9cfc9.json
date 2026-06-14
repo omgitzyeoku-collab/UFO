@@ -1,0 +1,70 @@
+{
+  "sha256": "482994492d5d12eb359fcf2f7b78236e7fbb3e69d2b7c8fc5e04305af0c9cfc9",
+  "title": "CIA-UAP-007, Current Status Of Unidentified Flying Objects (UFO) Project.",
+  "agency": "CIA",
+  "type": "IMG",
+  "incident_date": "December, 1953",
+  "what_is_it": "A CIA memorandum providing a status update on the Air Force's project investigating unidentified flying objects.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No OCR text was extractable from this scanned image; all facts are derived from metadata and the CSV description only.",
+    "A more redacted version existed previously, indicating this is a less-redacted release, but the level of remaining redaction in the full document cannot be assessed without readable text.",
+    "Single-source document with no corroborating materials provided."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "document_id",
+      "value": "CIA-UAP-007",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "date",
+      "value": "December 1953",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "December 1953"
+  ],
+  "objects_described": [
+    "UFOs (unidentified flying objects)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The Air Force had an active UFO investigation project as of December 1953",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:55:11.584Z",
+  "qa_completed_at": "2026-06-14T02:55:36.446Z",
+  "timing": {
+    "A": "12.8s",
+    "B": "12.1s"
+  }
+}

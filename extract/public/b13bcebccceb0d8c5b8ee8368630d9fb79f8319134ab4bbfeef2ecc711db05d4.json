@@ -1,0 +1,74 @@
+{
+  "sha256": "b13bcebccceb0d8c5b8ee8368630d9fb79f8319134ab4bbfeef2ecc711db05d4",
+  "title": "CIA-UAP-004, CASE 17708 (CLOSED) and DR. Leon Davidson",
+  "agency": "CIA",
+  "type": "IMG",
+  "incident_date": "1958",
+  "what_is_it": "A 1958 CIA internal memorandum documenting a phone conversation with Dr. Leon Davidson about a destroyed 'space message and its transmitter.'",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No OCR text was extracted from this scanned image; all facts derive from metadata and the CSV description only.",
+    "The document is described as a previously redacted release, meaning the full original content may contain additional information not reflected here.",
+    "Without the body text, the nature of the 'space message and its transmitter' cannot be assessed from primary source material.",
+    "Single-source metadata: claims cannot be cross-verified against the document body."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "case_number",
+      "value": "17708",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "case_status",
+      "value": "Closed",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "year",
+      "value": "1958",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "subject_person",
+      "value": "Dr. Leon Davidson",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The matter was tracked under CIA Case 17708, which was closed.",
+      "source_quote": "",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:52:04.730Z",
+  "qa_completed_at": "2026-06-14T02:52:34.951Z",
+  "timing": {
+    "A": "14.1s",
+    "B": "16.1s"
+  }
+}

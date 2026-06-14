@@ -1,0 +1,177 @@
+{
+  "sha256": "6ccaebed73431719fe63ee996c71fb15108a6faefffa61cdd2cd9f570c72ead6",
+  "title": "FAA UAP record 237UAP00483",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot UAP sighting near Provo, Utah.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no radar corroboration",
+    "Preliminary report only — no follow-up investigation documented",
+    "'Afterburners' is the pilot's subjective description, not a confirmed identification",
+    "No additional information was provided, so details are limited to this initial report"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "2/22/2023 at 03:40 MST",
+      "source_quote": "Date: 2/22/2023 3:40:00 AM (-07 MST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft",
+      "value": "UPS flight 598, Boeing 757-200",
+      "source_quote": "UPS 598, B752",
+      "citation_offset": {
+        "offset": 249,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Ontario, CA (ONT) to Billings, MT (BIL)",
+      "source_quote": "ONT - BIL",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "Provo, Utah (lat 40.219, lon -111.723)",
+      "source_quote": "PROVO, UT/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 198,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation description",
+      "value": "Afterburners making lateral movements from above, moving in all directions but not circling",
+      "source_quote": "REPORTED SEEING AFTERBURNERS MAKING LATERAL MOVEMENTS FROM ABOVE. PILOT STATED IT APPEARED TO BE MOVING IN ALL DIRECTIONS BUT NOT CIRCLING",
+      "citation_offset": {
+        "offset": 275,
+        "len": 138,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "No radar contact by ATC",
+      "source_quote": "ATC DID NOT HAVE EVENT ON RADAR",
+      "citation_offset": {
+        "offset": 415,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report reference",
+      "value": "WOC 7-3333 JB/JG",
+      "source_quote": "WOC 7-3333 JB/JG",
+      "citation_offset": {
+        "offset": 484,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Provo, UT",
+    "Ontario (ONT)",
+    "Billings (BIL)"
+  ],
+  "dated_events": [
+    "02-22-2023"
+  ],
+  "objects_described": [
+    "Unidentified object displaying apparent afterburner-like illumination with multi-directional lateral movement",
+    "Boeing 757-200 (UPS 598)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "UPS flight 598 reported a UAP sighting near Provo, Utah on 22 February 2023",
+      "source_quote": "UPS 598, B752, ONT - BIL, REPORTED SEEING AFTERBURNERS MAKING LATERAL MOVEMENTS FROM ABOVE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 249,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object appeared to move in all directions but was not circling",
+      "source_quote": "PILOT STATED IT APPEARED TO BE MOVING IN ALL DIRECTIONS BUT NOT CIRCLING",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 341,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Air traffic control did not detect the object on radar",
+      "source_quote": "ATC DID NOT HAVE EVENT ON RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 415,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No additional information was provided beyond the preliminary report",
+      "source_quote": "NO ADDITIONAL INFORMATION PROVIDED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 448,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:28:45.859Z",
+  "qa_completed_at": "2026-06-13T23:29:16.329Z",
+  "timing": {
+    "A": "16.9s",
+    "B": "13.6s",
+    "E": "16.4s"
+  },
+  "public_headline": "UPS Cargo Pilot Reported Unidentified Object Over Provo, Utah",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of UPS flight 598 on 22 February 2023, in which a pilot reported seeing what appeared to be afterburners making multi-directional lateral movements above their aircraft near Provo, Utah. Air traffic control did not detect anything on radar, and no follow-up investigation is documented.",
+  "public_narrative": "On 22 February 2023 at 3:40 a.m. Mountain Standard Time, the crew of UPS flight 598 — a Boeing 757-200 flying from Ontario, California to Billings, Montana — reported an unidentified aerial phenomenon near Provo, Utah. The sighting was logged by the FAA's Washington Operations Center as record 237UAP00483.\n\nThe pilot described seeing what appeared to be afterburners making lateral movements from above the aircraft. The object seemed to move in all directions but was not circling. Air traffic control (ATC) confirmed they did not have the object on radar.\n\nThe report is brief and preliminary. The FAA record states that no additional information was provided beyond this initial account. There is no documented follow-up investigation, no radar data corroborating the sighting, and no conclusion about what the pilot observed.\n\nThe document itself shows minimal redaction. It is a short operational log entry rather than a detailed investigative file. The reference number WOC 7-3333 JB/JG identifies the specific Washington Operations Center log entry.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no radar or sensor corroboration — ATC confirmed they saw nothing on radar.",
+    "'Afterburners' is the pilot's subjective description of what they saw, not a confirmed identification of the object or its propulsion.",
+    "This is a preliminary incident report only. No follow-up investigation is documented in the record.",
+    "The FAA record explicitly states that no additional information was provided, so the available details are limited to this brief initial account.",
+    "The document does not draw any conclusions about what the pilot observed."
+  ]
+}

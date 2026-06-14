@@ -1,0 +1,225 @@
+{
+  "sha256": "b64479e1be8db12566e90b29a2db2863d5728d7b1f869a4aee593025b1552811",
+  "title": "FAA UAP record 237UAP00596",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification reporting a UAP sighting by a commercial aircraft crew.",
+  "core_summary": "On January 19, 2024, NetJets flight 466 (an Embraer E55P traveling from St. Louis to a destination coded LBX) reported an unidentified aerial phenomenon observed from the right side of the aircraft while southbound at flight level 400 (approximately 40,000 feet), three miles east of Thayer, Missouri. Memphis Air Route Traffic Control Center (ARTCC) relayed the report. No evasive action was taken and no law enforcement notification was made.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included",
+    "The UAP is not described in any detail — no shape, size, color, movement, or duration is provided",
+    "This is a preliminary notification, not a full investigation report",
+    "LBX destination code may refer to a private or smaller airfield"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "NetJets 466 (EJA466), Embraer E55P",
+      "source_quote": "NETJETS 466, EMBRAER E55P, STL - LBX",
+      "citation_offset": {
+        "offset": 261,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_route",
+      "value": "St. Louis (STL) to LBX",
+      "source_quote": "STL - LBX",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight Level 400 (approximately 40,000 feet)",
+      "source_quote": "AT FL400",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "location",
+      "value": "3 miles east of Thayer, Missouri",
+      "source_quote": "3 E THAYER",
+      "citation_offset": {
+        "offset": 385,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "direction_of_travel",
+      "value": "Southbound",
+      "source_quote": "WHILE S BOUND",
+      "citation_offset": {
+        "offset": 362,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_direction",
+      "value": "Right side of aircraft",
+      "source_quote": "FROM THE RIGHT SIDE",
+      "citation_offset": {
+        "offset": 342,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "time_of_incident",
+      "value": "1907C (7:07 PM CST)",
+      "source_quote": "1907C",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "ATC_facility",
+      "value": "Memphis ARTCC",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 239,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 397,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None provided",
+      "source_quote": "NO LEO NOTIFICATION PROVIDED",
+      "citation_offset": {
+        "offset": 422,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "latitude",
+      "value": "36.522272",
+      "source_quote": "Latitude: 36.522272260000001",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_date",
+      "value": "January 19, 2024",
+      "source_quote": "Date: 1/19/2024 7:07:00 PM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Thayer, Missouri",
+    "St. Louis (STL)",
+    "Memphis ARTCC"
+  ],
+  "dated_events": [
+    "1/19/2024",
+    "01-19-2024"
+  ],
+  "objects_described": [
+    "Unidentified Aerial Phenomenon (UAP)",
+    "Embraer E55P (NetJets 466)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "NetJets flight 466 reported an unidentified aerial phenomenon while flying at 40,000 feet near Thayer, Missouri",
+      "source_quote": "NETJETS 466, EMBRAER E55P, STL - LBX, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON FROM THE RIGHT SIDE WHILE S BOUND AT FL400 3 E THAYER",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 261,
+        "len": 134,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 397,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was made",
+      "source_quote": "NO LEO NOTIFICATION PROVIDED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 422,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was relayed through Memphis Air Route Traffic Control Center",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 239,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:07:17.681Z",
+  "qa_completed_at": "2026-06-14T01:07:51.002Z",
+  "timing": {
+    "A": "17.5s",
+    "B": "15.9s",
+    "E": "17.2s"
+  },
+  "public_headline": "NetJets Crew Reports Unidentified Phenomenon at 40,000 Feet Over Missouri",
+  "public_tldr": "An FAA incident notification records that the crew of NetJets flight 466, an Embraer E55P, reported seeing an unidentified aerial phenomenon from the right side of the aircraft while flying southbound at 40,000 feet near Thayer, Missouri on January 19, 2024. No evasive action was taken, no description of the object was provided, and no further investigation is documented here.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident notification — essentially a short internal alert that something unusual was reported during a commercial flight. It is not an investigation report and contains no conclusions about what was seen.\n\nOn the evening of January 19, 2024, NetJets flight 466, an Embraer E55P traveling from St. Louis to a destination coded LBX, was flying southbound at flight level 400 (approximately 40,000 feet). The crew reported observing an unidentified aerial phenomenon from the right side of the aircraft, roughly three miles east of Thayer, Missouri. The sighting was relayed through Memphis Air Route Traffic Control Center (ARTCC), which handles high-altitude air traffic in that region.\n\nThe notification states that no evasive action was taken by the aircraft and no law enforcement notification was made. Notably, the document provides no description whatsoever of the phenomenon — no shape, size, colour, movement, or duration is recorded.\n\nThe record amounts to a single brief filing confirming that a pilot report was made and logged. There is no indication of follow-up investigation, radar corroboration, or additional witness accounts within this document.",
+  "public_caveats": [
+    "This is a preliminary notification, not a full investigation — it records that a report was made, nothing more.",
+    "The phenomenon is not described in any detail: no shape, size, colour, speed, or behaviour is given.",
+    "This is a single-source pilot report with no corroborating radar data or independent witness accounts included.",
+    "No conclusions were drawn by the FAA in this document about what the crew observed.",
+    "The destination code LBX likely refers to a smaller or private airfield; the exact location is not clarified in the record."
+  ]
+}

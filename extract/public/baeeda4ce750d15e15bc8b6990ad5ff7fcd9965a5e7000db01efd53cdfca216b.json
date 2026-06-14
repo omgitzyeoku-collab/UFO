@@ -1,0 +1,222 @@
+{
+  "sha256": "baeeda4ce750d15e15bc8b6990ad5ff7fcd9965a5e7000db01efd53cdfca216b",
+  "title": "FAA UAP record 237UAP00630",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UFO/UAP sighting near Stewart Air Force Base in New York.",
+  "core_summary": "On June 3, 2024, FAA Operations reported a suspicious object floating southwest of Stewart Field (SWF) in New York at 2,000 feet altitude. The object was described as silver in color, approximately 50 feet in length, and remained stationary for 50 minutes before disappearing into the clouds. No impact to air operations was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source preliminary report from FAA Operations with no corroborating radar data or additional witness statements included.",
+    "The report is labeled as preliminary information (PRELIM INFO), suggesting a final assessment may exist but is not included here.",
+    "No identification or explanation of the object is provided in this document."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date of incident",
+      "value": "June 3, 2024",
+      "source_quote": "Date: 6/3/2024 2:00:00 PM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Southwest of Stewart Field (SWF), New York, NY",
+      "source_quote": "SUSPICIOUS OBJECT FLOATING SW OF SWF",
+      "citation_offset": {
+        "offset": 271,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "2,000 feet",
+      "source_quote": "FLOATING SW OF SWF AT 2,000 FEET",
+      "citation_offset": {
+        "offset": 289,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object color",
+      "value": "Silver",
+      "source_quote": "OBJECT APPEARED TO BE SILVER IN COLOR",
+      "citation_offset": {
+        "offset": 323,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object size",
+      "value": "Approximately 50 feet in length",
+      "source_quote": "APPROXIMATELY 50 FEET IN LENGTH",
+      "citation_offset": {
+        "offset": 365,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Duration of observation",
+      "value": "50 minutes",
+      "source_quote": "STATIONARY FOR 50 MINUTES",
+      "citation_offset": {
+        "offset": 401,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object behavior",
+      "value": "Stationary, then disappeared into clouds",
+      "source_quote": "STATIONARY FOR 50 MINUTES BEFORE IT DISAPPEARED INTO THE CLOUDS",
+      "citation_offset": {
+        "offset": 401,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operational impact",
+      "value": "None",
+      "source_quote": "NO IMPACT TO OPERATIONS",
+      "citation_offset": {
+        "offset": 466,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Latitude",
+      "value": "41.504111",
+      "source_quote": "Latitude: 41.504111109999997",
+      "citation_offset": {
+        "offset": 113,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Longitude",
+      "value": "-74.104833",
+      "source_quote": "-74.104833330000005",
+      "citation_offset": {
+        "offset": 152,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report time",
+      "value": "1400 Eastern",
+      "source_quote": "UFO-UAP ACTIVITY/1400E",
+      "citation_offset": {
+        "offset": 223,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "New York, NY",
+    "Stewart Field (SWF)"
+  ],
+  "dated_events": [
+    "6/3/2024"
+  ],
+  "objects_described": [
+    "Silver object, approximately 50 feet in length, stationary at 2,000 feet"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A suspicious object was observed floating southwest of Stewart Field at 2,000 feet altitude.",
+      "source_quote": "STEWARD FCT ADVISED OF A SUSPICIOUS OBJECT FLOATING SW OF SWF AT 2,000 FEET",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 246,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was silver in color and approximately 50 feet long.",
+      "source_quote": "OBJECT APPEARED TO BE SILVER IN COLOR AND APPROXIMATELY 50 FEET IN LENGTH",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 323,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object remained stationary for 50 minutes before disappearing into clouds.",
+      "source_quote": "STATIONARY FOR 50 MINUTES BEFORE IT DISAPPEARED INTO THE CLOUDS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 401,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "There was no impact to air operations.",
+      "source_quote": "NO IMPACT TO OPERATIONS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 466,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:38:28.745Z",
+  "qa_completed_at": "2026-06-14T01:38:58.105Z",
+  "timing": {
+    "A": "16.0s",
+    "B": "13.3s",
+    "E": "16.4s"
+  },
+  "public_headline": "FAA Reports Silver Object Hovering Near New York Air Force Base",
+  "public_tldr": "This FAA incident report documents a silver, roughly 50-foot-long object that hovered at 2,000 feet southwest of Stewart Air Force Base in New York on 3 June 2024. It remained stationary for 50 minutes before disappearing into clouds, with no impact on air operations reported.",
+  "public_narrative": "This document is a preliminary incident report from the FAA (Federal Aviation Administration) Washington Operations Center, filed under record number 237UAP00630. It describes an unidentified aerial phenomenon observed near Stewart Field (SWF), a joint civil-military airport in New York state.\n\nOn 3 June 2024 at approximately 2:00 PM Eastern time, Stewart facility staff reported a suspicious object floating southwest of the airfield at an altitude of 2,000 feet. The object was described as silver in colour and approximately 50 feet in length. It remained stationary in the sky for 50 minutes before it disappeared into the clouds.\n\nThe FAA noted no impact to air operations as a result of the sighting. The report provides geographic coordinates (approximately 41.50°N, 74.10°W) placing the observation in the Hudson Valley region of New York.\n\nThe document is labelled as preliminary information, meaning a final assessment may exist but is not included in this release. No explanation or identification of the object is offered anywhere in the report. There is no mention of radar data, photographs, or additional witness accounts beyond the initial facility report.",
+  "public_caveats": [
+    "This is a single-source preliminary report from FAA Operations — no corroborating radar data, photographs, or independent witness statements are included.",
+    "The report is marked as preliminary; a final assessment may exist but has not been released in this document.",
+    "No identification or explanation of the object is provided — the FAA neither confirms nor rules out any cause.",
+    "Redaction levels appear low, but the brevity of the document means there is simply very little information to work with.",
+    "All physical descriptions (size, colour, altitude, duration) come from one facility report and have not been independently verified in this document."
+  ]
+}

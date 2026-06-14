@@ -1,0 +1,230 @@
+{
+  "sha256": "777916d43dcb793dd49fa55e36515141f70cf9c2065d5da9582ce7040848305d",
+  "title": "FAA UAP record 237UAP00587",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification documenting a pilot report of unidentified aerial phenomenon.",
+  "core_summary": "On December 22, 2023, the crew of American Airlines flight 2003 (an Airbus A321neo flying from Dallas/Fort Worth to Seattle) reported an unidentified aerial phenomenon at their 12 o'clock position while flying northeast at flight level 340 (approximately 34,000 feet), located 41 nautical miles south-southwest of Pocatello, Idaho. No evasive action was taken and no law enforcement was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary operational notification, not a full investigation report",
+    "Single-source account from the flight crew with no corroborating radar or sensor data mentioned",
+    "No description of the UAP's appearance, size, speed, or behaviour is provided",
+    "The document is labelled as preliminary information only"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "December 22, 2023 at 21:15 MST",
+      "source_quote": "Date: 12/22/2023 9:15:00 PM (-07 MST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight",
+      "value": "American Airlines 2003 (AAL2003)",
+      "source_quote": "AMERICAN 2003, A21N, DFW - SEA",
+      "citation_offset": {
+        "offset": 273,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Airbus A321neo",
+      "source_quote": "A21N",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "Dallas/Fort Worth (DFW) to Seattle (SEA)",
+      "source_quote": "DFW - SEA",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 340 (approximately 34,000 feet)",
+      "source_quote": "NE BOUND AT FL340",
+      "citation_offset": {
+        "offset": 383,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "41 nautical miles south-southwest of Pocatello, Idaho",
+      "source_quote": "41 SSW PIH",
+      "citation_offset": {
+        "offset": 401,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "FROM THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 348,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "42.3513°N, 112.8698°W",
+      "source_quote": "Latitude: 42.351299009999998",
+      "citation_offset": {
+        "offset": 110,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility involved",
+      "value": "Salt Lake City ARTCC",
+      "source_quote": "SALT LAKE CITY ARTCC",
+      "citation_offset": {
+        "offset": 244,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 413,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None",
+      "source_quote": "NO LEO NOTIFICATION",
+      "citation_offset": {
+        "offset": 438,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting source",
+      "value": "FAA Operations (Washington Operations Center)",
+      "source_quote": "PRELIM INFO FROM FAA OPS",
+      "citation_offset": {
+        "offset": 181,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Pocatello, Idaho",
+    "Salt Lake City",
+    "Dallas/Fort Worth (DFW)",
+    "Seattle (SEA)"
+  ],
+  "dated_events": [
+    "12/22/2023",
+    "12-22-2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon (UAP)",
+    "Airbus A321neo (American Airlines flight 2003)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 2003 reported a UAP directly ahead while flying at 34,000 feet near Pocatello, Idaho",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON FROM THE 12 O'CLOCK POSITION WHILE NE BOUND AT FL340 41 SSW PIH",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 305,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 413,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement was notified about the incident",
+      "source_quote": "NO LEO NOTIFICATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 438,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was handled by Salt Lake City Air Route Traffic Control Center",
+      "source_quote": "SALT LAKE CITY ARTCC ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 244,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:59:18.924Z",
+  "qa_completed_at": "2026-06-14T00:59:50.951Z",
+  "timing": {
+    "A": "17.1s",
+    "B": "14.9s",
+    "E": "16.9s"
+  },
+  "public_headline": "American Airlines Crew Reported Unidentified Object at 34,000 Feet Over Idaho",
+  "public_tldr": "An FAA incident notification records that the crew of American Airlines flight 2003, flying from Dallas/Fort Worth to Seattle on 22 December 2023, reported an unidentified aerial phenomenon directly ahead of their aircraft at 34,000 feet near Pocatello, Idaho. No evasive action was taken and no law enforcement was notified. The document is a preliminary operational notice, not a full investigation.",
+  "public_narrative": "On the evening of 22 December 2023, at 9:15 PM Mountain Standard Time, the crew of American Airlines flight 2003 — an Airbus A321neo en route from Dallas/Fort Worth to Seattle — reported an unidentified aerial phenomenon to air traffic control. The aircraft was flying northeast at approximately 34,000 feet, positioned 41 nautical miles south-southwest of Pocatello, Idaho (coordinates 42.35°N, 112.87°W). The crew said the object was at their 12 o'clock position, meaning directly ahead of the aircraft.\n\nSalt Lake City Air Route Traffic Control Center (ARTCC), the regional radar facility responsible for that airspace, was advised of the report. The crew took no evasive action and no law enforcement agency was contacted.\n\nThe document itself is an FAA Washington Operations Center incident notification — essentially a preliminary log entry recording that the event occurred. It does not contain a description of what the crew saw: no shape, size, speed, colour, or behaviour of the object is mentioned. It is not an investigation report and draws no conclusions about what the phenomenon was.\n\nNo corroborating radar data or sensor readings are referenced in the document. The entire account rests on the flight crew's report as relayed through FAA channels. The record shows minimal redaction.",
+  "public_caveats": [
+    "This is a preliminary FAA operational notification, not a completed investigation — it records that a report was made, nothing more.",
+    "The document provides no description of the object's appearance, size, speed, or behaviour.",
+    "The account is single-source: it comes entirely from the flight crew, with no mention of corroborating radar or sensor data.",
+    "No evasive action was taken, which may suggest the crew did not perceive an immediate collision risk.",
+    "The document is labelled as preliminary information only and should not be treated as a definitive finding."
+  ]
+}

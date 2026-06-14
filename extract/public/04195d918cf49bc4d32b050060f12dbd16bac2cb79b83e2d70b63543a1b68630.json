@@ -1,0 +1,65 @@
+{
+  "sha256": "04195d918cf49bc4d32b050060f12dbd16bac2cb79b83e2d70b63543a1b68630",
+  "title": "FBI-UAP-D012, Newark Field Office, 1952-1967",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "August 1952-1967",
+  "incident_location": "New Jersey, United States",
+  "what_is_it": "A collection of FBI memoranda and correspondence documenting a special inquiry into UFO sightings reported in and near New Jersey over a 15-year period.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No extracted body text was available; all facts are derived solely from document metadata and the CSV description provided by war.gov.",
+    "The original PDF appears to be scanned with poor or no OCR, so specific details such as named witnesses, exact sighting descriptions, and classified assessments could not be extracted.",
+    "Redaction level is estimated as moderate based on typical FBI documents of this era, but cannot be precisely assessed without readable page content.",
+    "Single-agency source: the FBI's perspective may differ from Air Force or other agency assessments of the same sightings."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "agency",
+      "value": "Federal Bureau of Investigation (FBI)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "geographic_focus",
+      "value": "New Jersey and surrounding areas",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "New Jersey"
+  ],
+  "dated_events": [],
+  "objects_described": [
+    "unidentified flying objects (UFOs)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The FBI Newark Field Office conducted a special inquiry into UFO sightings in and near New Jersey between August 1952 and January 1967.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:25:58.242Z",
+  "qa_completed_at": "2026-06-14T03:26:32.082Z",
+  "timing": {
+    "A": "19.1s",
+    "B": "14.8s"
+  }
+}

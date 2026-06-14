@@ -1,0 +1,245 @@
+{
+  "sha256": "19bf4f17b6c0a81dd222016c84ef7dd1062858df0cfa9e899307a842d327fa77",
+  "title": "FAA UAP record 237UAP00476",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary incident report documenting a pilot sighting of an unidentified aerial object.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The object was only tentatively described as a 'possible UAS/balloon' — this is the crew's initial impression, not a confirmed identification.",
+    "This is marked as preliminary information (PRELIM INFO), not a final investigation conclusion.",
+    "The coordinates place the incident near Tacoma/Federal Way, Washington, consistent with the 18 SSE SEA description."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "Alaska Airlines 688 (ASA688)",
+      "source_quote": "SEATTLE ARTCC ADVISED ALASKA 688",
+      "citation_offset": {
+        "offset": 233,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737-900 (B739)",
+      "source_quote": "ALASKA 688, B739, SEA - LAS",
+      "citation_offset": {
+        "offset": 255,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Seattle (SEA) to Las Vegas (LAS)",
+      "source_quote": "SEA - LAS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Object description",
+      "value": "Dark object, possible UAS/balloon",
+      "source_quote": "REPORTED A DARK OBJECT DESCRIBED AS POSSIBLE UAS/BALLOON",
+      "citation_offset": {
+        "offset": 284,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object position relative to aircraft",
+      "value": "2 o'clock position, same altitude",
+      "source_quote": "AT SAME ALTITUDE FROM THE 2 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 341,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "10,700 feet",
+      "source_quote": "SSE BOUND AT 10,700 FEET",
+      "citation_offset": {
+        "offset": 392,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "18 nautical miles south-southeast of Seattle",
+      "source_quote": "18 SSE SEA",
+      "citation_offset": {
+        "offset": 417,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft heading",
+      "value": "South-southeast bound",
+      "source_quote": "WHILE SSE BOUND",
+      "citation_offset": {
+        "offset": 386,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 429,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 454,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting ATC facility",
+      "value": "Seattle ARTCC",
+      "source_quote": "SEATTLE ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 233,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "47.204968°N, 122.181008°W",
+      "source_quote": "Latitude: 47.204968520000001",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Seattle, WA",
+    "Seattle ARTCC",
+    "SEA (Seattle-Tacoma International Airport)",
+    "LAS (Las Vegas)"
+  ],
+  "dated_events": [
+    "2/16/2023",
+    "02-16-2023"
+  ],
+  "objects_described": [
+    "Dark object described as possible UAS/balloon",
+    "Boeing 737-900 (B739)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Alaska Airlines flight 688 was operating a Boeing 737-900 on the Seattle to Las Vegas route on February 16, 2023.",
+      "source_quote": "ALASKA 688, B739, SEA - LAS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 255,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew reported a dark object at the same altitude from their 2 o'clock position at 10,700 feet.",
+      "source_quote": "REPORTED A DARK OBJECT DESCRIBED AS POSSIBLE UAS/BALLOON AT SAME ALTITUDE FROM THE 2 O'CLOCK POSITION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 284,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was 18 nautical miles south-southeast of Seattle at the time of the sighting.",
+      "source_quote": "SSE BOUND AT 10,700 FEET 18 SSE SEA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 392,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 429,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was reported.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 454,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:22:03.657Z",
+  "qa_completed_at": "2026-06-13T23:22:48.600Z",
+  "timing": {
+    "A": "22.2s",
+    "B": "22.7s",
+    "E": "17.6s"
+  },
+  "public_headline": "Alaska Airlines crew reported dark object near Seattle in 2023",
+  "public_tldr": "This FAA preliminary incident report documents a February 2023 sighting by the crew of Alaska Airlines flight 688, who observed a dark object at their altitude while departing Seattle. The object was tentatively described as a possible drone or balloon, but no confirmed identification was made.",
+  "public_narrative": "On 16 February 2023, the crew of Alaska Airlines flight 688 — a Boeing 737-900 flying from Seattle to Las Vegas — reported an unidentified object to Seattle Air Route Traffic Control Centre (ARTCC). The aircraft was approximately 18 nautical miles south-southeast of Seattle-Tacoma International Airport, heading south-southeast at 10,700 feet.\n\nThe crew described the object as dark, positioned at their 2 o'clock (roughly front-right), and at the same altitude as the aircraft. They tentatively characterised it as a possible drone or balloon, though this was an initial impression rather than a confirmed identification.\n\nThe flight crew took no evasive action, and no law enforcement notification was reported. The FAA's Washington Operations Centre logged the event as a preliminary report — meaning this document records the initial facts as relayed by air traffic control, not the outcome of any deeper investigation.\n\nThe coordinates in the report (47.2°N, 122.2°W) place the sighting near the Tacoma/Federal Way area of Washington state, consistent with the described position relative to Seattle.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data or additional witness accounts are included in the document.",
+    "The document is marked as preliminary information, not a final investigation conclusion or finding.",
+    "The crew's description of the object as a 'possible UAS/balloon' is a tentative first impression, not a confirmed identification.",
+    "There is minimal redaction in this document, but correspondingly little detail — it is a brief operational log, not a detailed investigation file.",
+    "No follow-up investigation results or final disposition are included, so the object remains unidentified within this record."
+  ]
+}

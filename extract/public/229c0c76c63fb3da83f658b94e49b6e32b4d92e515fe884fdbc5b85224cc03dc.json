@@ -1,0 +1,212 @@
+{
+  "sha256": "229c0c76c63fb3da83f658b94e49b6e32b4d92e515fe884fdbc5b85224cc03dc",
+  "title": "FAA UAP record 237UAP00497",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report (PRELIM INFO), not a final investigation conclusion.",
+    "The 100-mile distance estimate is a crew visual estimate and may be highly imprecise.",
+    "Flashing lights at 100 miles above FL410 could be consistent with astronomical objects, satellites, or other conventional explanations — the report does not investigate further.",
+    "Single-source account from the flight crew with no corroborating radar or sensor data mentioned."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "Southwest Airlines 1307 (SWA1307)",
+      "source_quote": "SOUTHWEST 1307",
+      "citation_offset": {
+        "offset": 273,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737 MAX 8 (B38M)",
+      "source_quote": "B38M",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "RSW (Fort Myers) to BWI (Baltimore)",
+      "source_quote": "RSW - BWI",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight Level 410 (41,000 feet)",
+      "source_quote": "AT FL410",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "10 nautical miles east of Lawrenceville VORTAC, Virginia",
+      "source_quote": "10 E OF LVL VORTAC",
+      "citation_offset": {
+        "offset": 406,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "36.7576° N, 77.8469° W",
+      "source_quote": "Latitude: 36.757646899999997",
+      "citation_offset": {
+        "offset": 110,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Flashing lights above the aircraft at approximately 100 miles distance",
+      "source_quote": "FLASHING LIGHTS ABOVE THEM AT A DISTANCE OF 100 MILES",
+      "citation_offset": {
+        "offset": 466,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 521,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Washington ARTCC",
+      "source_quote": "WASHINGTON ARTCC",
+      "citation_offset": {
+        "offset": 248,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report source",
+      "value": "FAA Operations (Washington Operations Center)",
+      "source_quote": "PRELIM INFO FROM FAA OPS",
+      "citation_offset": {
+        "offset": 181,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Lawrenceville, VA",
+    "Washington ARTCC"
+  ],
+  "dated_events": [
+    "3/22/2023"
+  ],
+  "objects_described": [
+    "Boeing 737 MAX 8 (B38M)",
+    "Unidentified aerial phenomenon described as flashing lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Southwest Airlines flight 1307 was a Boeing 737 MAX 8 operating from Fort Myers (RSW) to Baltimore (BWI).",
+      "source_quote": "SOUTHWEST 1307, B38M, RSW - BWI",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 273,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was flying northbound at 41,000 feet when the sighting occurred.",
+      "source_quote": "N BOUND AT FL410",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 389,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was observed on the left side of the aircraft, 10 nautical miles east of the Lawrenceville VORTAC.",
+      "source_quote": "ON LEFT SIDE OF AIRCRAFT WHILE N BOUND AT FL410 10 E OF LVL VORTAC",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 358,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of flashing lights above the aircraft at an estimated 100-mile distance.",
+      "source_quote": "FLASHING LIGHTS ABOVE THEM AT A DISTANCE OF 100 MILES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 466,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 521,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:41:20.128Z",
+  "qa_completed_at": "2026-06-13T23:41:59.533Z",
+  "timing": {
+    "A": "18.7s",
+    "B": "20.7s",
+    "E": "18.0s"
+  },
+  "public_headline": "Southwest Airlines crew reported flashing lights above their 737 over Virginia",
+  "public_tldr": "This FAA preliminary incident report documents a March 2023 sighting by the crew of Southwest Airlines flight 1307, who observed flashing lights above their aircraft at an estimated 100-mile distance while flying at 41,000 feet near Lawrenceville, Virginia. No evasive action was taken and no further investigation is recorded in this document.",
+  "public_narrative": "On 22 March 2023, the crew of Southwest Airlines flight 1307 — a Boeing 737 MAX 8 flying from Fort Myers, Florida to Baltimore, Maryland — reported an unidentified aerial phenomenon to air traffic control. The aircraft was cruising northbound at Flight Level 410 (41,000 feet) approximately 10 nautical miles east of the Lawrenceville VORTAC navigation aid in Virginia when the crew spotted flashing lights on the left side of the aircraft, above them, at an estimated distance of 100 miles.\n\nThe sighting was logged by the FAA's Washington Operations Center as preliminary information relayed through Washington ARTCC (Air Route Traffic Control Center), the facility managing that airspace. The crew reported no evasive action was taken.\n\nThe document is a standard FAA Operations Center incident report — a brief, structured form capturing the basics of what was reported. It is not an investigation finding or a conclusion about what the lights were. The FAA logged the event and recorded the crew's account, but the report contains no follow-up analysis, no radar data, and no sensor corroboration.\n\nThere is little evidence of redaction in this document. The report is simply brief by design — these preliminary logs capture who reported what, where, and when, without attempting to explain the phenomenon.",
+  "public_caveats": [
+    "This is a preliminary report, not an investigation conclusion. The FAA logged what the crew said but did not assess what the lights were.",
+    "The 100-mile distance estimate is a visual guess by the flight crew — at night and altitude, such estimates can be highly imprecise.",
+    "Flashing lights at that distance above 41,000 feet could be consistent with satellites, astronomical objects, or other conventional sources. The report does not explore explanations.",
+    "This is a single-source account from one flight crew with no corroborating radar data, sensor readings, or independent witnesses mentioned.",
+    "The coordinates place the sighting over rural southern Virginia, near the North Carolina border."
+  ]
+}

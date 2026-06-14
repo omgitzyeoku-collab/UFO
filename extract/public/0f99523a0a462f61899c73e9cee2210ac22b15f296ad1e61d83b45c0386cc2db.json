@@ -1,0 +1,232 @@
+{
+  "sha256": "0f99523a0a462f61899c73e9cee2210ac22b15f296ad1e61d83b45c0386cc2db",
+  "title": "FAA UAP record 237UAP00636",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification documenting a pilot report of unidentified anomalous phenomena during flight.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The document is a preliminary notification, not a completed investigation.",
+    "'Public use' designation for the flight suggests a government or government-contracted mission, but the specific agency operating the aircraft is not stated.",
+    "The extremely close proximity reported (10 feet) at FL200 would represent a serious near-miss if accurate."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date",
+      "value": "September 17, 2024",
+      "source_quote": "Date: 9/17/2024 2:20:00 PM (-07 PDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Callsign",
+      "value": "TROY21",
+      "source_quote": "PUBLIC USE TROY21",
+      "citation_offset": {
+        "offset": 73,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Riverside (RIV) to San Jose (SJC)",
+      "source_quote": "BEECH B350, RIV - SJC",
+      "citation_offset": {
+        "offset": 287,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP proximity",
+      "value": "10 feet below right wing",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON TRAVEL 10 FEET BELOW RIGHT WING",
+      "citation_offset": {
+        "offset": 310,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Football-sized, cylindrical shape",
+      "source_quote": "THE UAP WAS DESCRIBED AS A FOOTBALL SIZED, CYLINDRICAL SHAPE",
+      "citation_offset": {
+        "offset": 453,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 425,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 515,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting ATC facility",
+      "value": "Los Angeles ARTCC",
+      "source_quote": "LOS ANGELES ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 242,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "35.798737°N, 119.877240°W",
+      "source_quote": "Latitude: 35.798737170000003",
+      "citation_offset": {
+        "offset": 118,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Local time of sighting",
+      "value": "3:00 PM",
+      "source_quote": "1500P",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location city",
+      "value": "Avenal, California",
+      "source_quote": "AVENAL, CA/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 208,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Avenal, CA",
+    "Los Angeles ARTCC",
+    "Avenal VOR (AVE)"
+  ],
+  "dated_events": [
+    "9/17/2024",
+    "09-172024"
+  ],
+  "objects_described": [
+    "Football-sized cylindrical UAP"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Beech B350 on a public use mission with callsign TROY21 reported a UAP 10 feet below its right wing at FL200.",
+      "source_quote": "PUBLIC USE TROY21, BEECH B350, RIV - SJC, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON TRAVEL 10 FEET BELOW RIGHT WING WHILE AT FL200",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 268,
+        "len": 131,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was described as football-sized and cylindrical in shape.",
+      "source_quote": "THE UAP WAS DESCRIBED AS A FOOTBALL SIZED, CYLINDRICAL SHAPE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 453,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the pilot.",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 425,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 515,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 20 nautical miles southeast of the Avenal VOR.",
+      "source_quote": "20 SE AVENAL VOR (AVE)",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 401,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:44:21.687Z",
+  "qa_completed_at": "2026-06-14T01:45:10.147Z",
+  "timing": {
+    "A": "20.8s",
+    "B": "27.6s",
+    "E": "17.9s"
+  },
+  "public_headline": "Pilot Reports Football-Sized Object Ten Feet From Aircraft Wing",
+  "public_tldr": "This FAA incident notification records a pilot flying a Beech B350 from Riverside to San Jose who reported a football-sized, cylindrical object passing just 10 feet below the right wing at 20,000 feet over central California. The document is a preliminary notification from the FAA Washington Operations Center, not a completed investigation.",
+  "public_narrative": "On 17 September 2024, the FAA Washington Operations Center logged an incident report from a pilot flying under the callsign TROY21 — a Beech B350 King Air on a public-use mission routing from Riverside, California (RIV) to San Jose (SJC). The aircraft was designated \"public use,\" a category that typically indicates a government or government-contracted flight, though the specific operating agency is not named in the document.\n\nWhile cruising at Flight Level 200 (approximately 20,000 feet), roughly 20 nautical miles southeast of the Avenal VOR navigation beacon in California's Central Valley, the pilot reported an unidentified object passing just 10 feet below the aircraft's right wing. The object was described as football-sized and cylindrical in shape. Los Angeles Air Route Traffic Control Center (ARTCC) was advised of the sighting.\n\nDespite the extremely close proximity — 10 feet at that altitude would constitute a serious near-miss — the pilot reported taking no evasive action. No law enforcement notification was recorded in the document.\n\nThe report is a preliminary notification only. It contains no radar data, no corroborating witness accounts, and no follow-up investigation findings. The coordinates place the sighting near Avenal, California, at approximately 35.80°N, 119.88°W, at around 3:00 PM local time.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or additional witness accounts included in the document.",
+    "The document is a preliminary FAA notification, not a completed investigation — no conclusions were reached about what the object was.",
+    "The 'public use' flight designation suggests a government or government-contracted mission, but the specific agency is not stated.",
+    "A reported proximity of 10 feet at 20,000 feet would be an extremely serious near-miss if accurate, but there is no independent verification of the distance estimate.",
+    "Redaction levels in this document are low — the content appears largely intact as released."
+  ]
+}

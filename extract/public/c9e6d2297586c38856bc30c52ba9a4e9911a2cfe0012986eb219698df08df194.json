@@ -1,0 +1,488 @@
+{
+  "sha256": "c9e6d2297586c38856bc30c52ba9a4e9911a2cfe0012986eb219698df08df194",
+  "title": "OSD UAP record 08_Go_Fast",
+  "agency": "OSD",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "AARO case resolution report analyzing the 'Go Fast' UAP video recorded by a U.S. Navy F/A-18F pilot, concluding the object displayed no anomalous performance characteristics.",
+  "core_summary": "In January 2015, a U.S. Navy F/A-18F pilot recorded an object on FLIR sensors at approximately 13,000 feet above the Atlantic Ocean off Florida's eastern coast. AARO's analysis determined the object's apparent high speed was an optical illusion caused by motion parallax, and its actual intrinsic speed ranged from 5 to 92 mph depending on wind conditions. The object moved generally with the wind and did not demonstrate anomalous or exceptional behavior.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The original sensor recording and metadata are lost; all analysis was performed on a compressed .wmv video file, limiting precision.",
+    "The aircraft's exact geographic position and compass heading were unknown, so AARO calculated a range of possible speeds and headings rather than a single definitive answer.",
+    "Wind data was sourced from historical records, not direct measurements at the time and location of the event.",
+    "Sensor display values were integers only, introducing rounding uncertainty into all calculations.",
+    "The object could not be definitively identified — AARO states it 'cannot definitively identify the object' despite assessing no anomalous performance.",
+    "Pixel-based size estimation ('one meter or less') was performed by an unnamed Intelligence Community partner, not independently verified in this report."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Case name",
+      "value": "Go Fast",
+      "source_quote": "Case: \"Go Fast\" Case Resolution",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident date",
+      "value": "January 2015",
+      "source_quote": "In January 2015, a U.S. Navy F/A-18F pilot recorded an object",
+      "citation_offset": {
+        "offset": 270,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Eastern coast of Florida, Atlantic Ocean",
+      "source_quote": "Location: Eastern coast of Florida",
+      "citation_offset": {
+        "offset": 448,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object altitude (assessed)",
+      "value": "Approximately 13,000 feet (3,962 m)",
+      "source_quote": "The UAP altitude was found to be ≈3,962 m (13,000 ft) above sea level",
+      "citation_offset": {
+        "offset": 41630,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "25,000 feet (7,620 m)",
+      "source_quote": "An average aircraft altitude of 7,621 m was assumed",
+      "citation_offset": {
+        "offset": 13303,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "F/A-18F Super Hornet",
+      "source_quote": "F/A-18 Super Hornet observing the event in January 2015",
+      "citation_offset": {
+        "offset": 8906,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sensor type",
+      "value": "AN/ASQ Forward Looking Infrared (FLIR)",
+      "source_quote": "forward-looking infrared (FLIR) video footage captured by an AN/ASQ sensor pod",
+      "citation_offset": {
+        "offset": 8815,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object speed (reported)",
+      "value": "Appeared to move at high speeds",
+      "source_quote": "Object Speed (reported): Appeared to move at high speeds",
+      "citation_offset": {
+        "offset": 912,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object speed (assessed, raw)",
+      "value": "32-72 m/s (72-161 mph)",
+      "source_quote": "The object's speed ranged from about 32 m/s (72 mph) to 72 m/s (161 mph)",
+      "citation_offset": {
+        "offset": 1394,
+        "len": 57,
+        "exact": false,
+        "matched": "eed ranged from about 32 m/s (72 mph) to 72 m/s (161 mph)"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object intrinsic speed (wind-compensated)",
+      "value": "2-41.3 m/s (5-92 mph)",
+      "source_quote": "its approximate speed range is 2 m/s (5 mph) to 41.3 m/s (92 mph)",
+      "citation_offset": {
+        "offset": 1755,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object shape (assessed)",
+      "value": "Spherical or oblate ellipsoid",
+      "source_quote": "Object Shape (assessed): Spherical or oblate ellipsoid",
+      "citation_offset": {
+        "offset": 1040,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object size (assessed)",
+      "value": "One meter or less",
+      "source_quote": "pixel analysis by AARO's Intelligence Community partner suggested the object was one meter or less in size",
+      "citation_offset": {
+        "offset": 7846,
+        "len": 80,
+        "exact": false,
+        "matched": "Intelligence Community partner suggested the object was one meter or less in siz"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Wind speed at 13,000 ft",
+      "value": "30.9 m/s (69 mph) from the west (265°)",
+      "source_quote": "At 13,000 feet, wind speed was 30.9 m/s (69 mph) from the west (265°)",
+      "citation_offset": {
+        "offset": 3225,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Wind speed at 25,000 ft",
+      "value": "52 m/s (116 mph) from WSW (255°)",
+      "source_quote": "At 25,000 feet, wind speed was 52 m/s (116 mph) from the west southwest (255°)",
+      "citation_offset": {
+        "offset": 3298,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Max heading deviation from wind",
+      "value": "32.1 degrees",
+      "source_quote": "The maximum deviation in the UAP's direction of travel from wind direction is 32.1°",
+      "citation_offset": {
+        "offset": 4812,
+        "len": 48,
+        "exact": false,
+        "matched": "direction of travel from wind direction is 32.1°"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Video duration analyzed",
+      "value": "34 seconds total, 13-second excerpt primary analysis",
+      "source_quote": "AARO analyzed the publicly available 34-second FLIR video",
+      "citation_offset": {
+        "offset": 6497,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft speed",
+      "value": "Mach 0.61-0.62 (~190 m/s)",
+      "source_quote": "resulting in an average speed of about 190 m/s over the time frame",
+      "citation_offset": {
+        "offset": 13462,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft bank angle",
+      "value": "14 degrees",
+      "source_quote": "This angle, denoted by θB, was approximately 14° from t1 to t2",
+      "citation_offset": {
+        "offset": 13239,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Video public release",
+      "value": "2020 by Department of Defense",
+      "source_quote": "The Department of Defense officially released the \"Go Fast\" video in 2020",
+      "citation_offset": {
+        "offset": 716,
+        "len": 48,
+        "exact": false,
+        "matched": "The Department of Defense officially released th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Case resolution date",
+      "value": "February 6, 2025",
+      "source_quote": "Case: \"Go Fast\" Case Resolution | February 6, 2025",
+      "citation_offset": {
+        "offset": 95,
+        "len": 35,
+        "exact": false,
+        "matched": " Case Resolution | February 6, 2025"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Original file availability",
+      "value": "No longer available",
+      "source_quote": "the original file and its accompanying metadata are no longer available",
+      "citation_offset": {
+        "offset": 6564,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Apparent speed explanation",
+      "value": "Motion parallax",
+      "source_quote": "The object's apparent high speed is attributable to motion parallax",
+      "citation_offset": {
+        "offset": 5933,
+        "len": 52,
+        "exact": false,
+        "matched": "parent high speed is attributable to motion parallax"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Confidence level",
+      "value": "High confidence no anomalous performance",
+      "source_quote": "AARO assesses with high confidence that the object did not move at anomalous speeds",
+      "citation_offset": {
+        "offset": 1115,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object moved against wind?",
+      "value": "No",
+      "source_quote": "The object did not move against the wind in any simulation",
+      "citation_offset": {
+        "offset": 1985,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Continuous path speed estimate",
+      "value": "17.4 m/s (38.9 mph)",
+      "source_quote": "Speed 17.4 m/s (38.9 mph)",
+      "citation_offset": {
+        "offset": 30799,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Range to target at t1",
+      "value": "4.0 NM (7,408 m)",
+      "source_quote": "At t1, the F/A-18's range to the UAP was 4.0 NM",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Range to target at t2",
+      "value": "3.4 NM (6,297 m)",
+      "source_quote": "closed in range to 3.4 NM at t2",
+      "citation_offset": {
+        "offset": 12651,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Florida",
+    "Atlantic Ocean"
+  ],
+  "dated_events": [
+    "January 2015",
+    "2020",
+    "February 6, 2025",
+    "2/14/2025"
+  ],
+  "objects_described": [
+    "Unidentified object — spherical or oblate ellipsoid, one meter or less",
+    "F/A-18F Super Hornet",
+    "AN/ASQ FLIR sensor pod",
+    "Forward Looking Infrared (FLIR) sensor"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The object was at approximately 13,000 feet altitude, not near the ocean surface as initially reported.",
+      "source_quote": "Object Altitude (reported): Near ocean's surface ... Object Altitude (assessed): 13,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 502,
+        "len": 37,
+        "exact": false,
+        "matched": "Object Altitude (reported): Near ocea"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object's apparent high speed was caused by motion parallax — an optical illusion from the fast-moving aircraft.",
+      "source_quote": "The object's apparent high speed is attributable to motion parallax",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5933,
+        "len": 52,
+        "exact": false,
+        "matched": "parent high speed is attributable to motion parallax"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "After compensating for wind, the object's intrinsic speed ranged from 5 to 92 mph.",
+      "source_quote": "its approximate speed range is 2 m/s (5 mph) to 41.3 m/s (92 mph)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1755,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object never moved against the wind in any simulation scenario.",
+      "source_quote": "The object did not move against the wind in any simulation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1985,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object's size was estimated at one meter or less, comparable to a small drone or bird.",
+      "source_quote": "the object was one meter or less in size - comparable to a small drone or bird",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7887,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The original sensor recording and metadata are no longer available; analysis used a compressed .wmv file.",
+      "source_quote": "the original file and its accompanying metadata are no longer available",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6564,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft's exact location and compass heading during recording are unknown.",
+      "source_quote": "The aircraft's exact location and heading (compass direction) during the recording are unknown",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6980,
+        "len": 79,
+        "exact": false,
+        "matched": "exact location and heading (compass direction) during the recording are unknown"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO used NGA Motion Imagery Standards Board methodology for the analysis.",
+      "source_quote": "AARO reconstructed the F/A-18's flight path... using the mathematics, standard methods, and conventions defined in the National Geospatial-Intelligence Agency's (NGA) Motion Imagery Standards Board",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10419,
+        "len": 100,
+        "exact": false,
+        "matched": "ng the mathematics, standard methods, and conventions defined in the National Geospatial-Intelligenc"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Historical wind data was sourced within 15-20 minutes of the reported event time.",
+      "source_quote": "The data for the appropriate date and location were found and were within 15-20 minutes of the time reported",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 31739,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "In the headwind scenario, the object moved only 2 m/s (5 mph) faster than the wind and within 5 degrees of wind direction.",
+      "source_quote": "The object moved 2.0 m/s (5 mph) faster than the wind, at a heading of 5° off-wind",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5249,
+        "len": 67,
+        "exact": false,
+        "matched": "The object moved 2.0 m/s (5 mph) faster than the wind, at a heading"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The DoD officially released the Go Fast video in 2020, available at the Navy's FOIA Reading Room.",
+      "source_quote": "The Department of Defense officially released the \"Go Fast\" video in 2020. It is available for public viewing at the Navy's FOIA Reading Room",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 776,
+        "len": 60,
+        "exact": false,
+        "matched": "video in 2020. It is available for public viewing at the Nav"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 6,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:25:06.267Z",
+  "qa_completed_at": "2026-06-14T02:26:29.185Z",
+  "timing": {
+    "A": "51.5s",
+    "B": "31.4s",
+    "E": "24.8s"
+  },
+  "public_headline": "Pentagon Analysis Finds 'Go Fast' UFO Video Was an Optical Illusion",
+  "public_tldr": "This is AARO's official case resolution for the well-known 'Go Fast' Navy infrared video from January 2015. The analysis concludes with high confidence that the object's apparent high speed was an optical illusion caused by motion parallax, and that its actual speed — after accounting for wind — was between 5 and 92 mph, consistent with a small wind-borne object.",
+  "public_narrative": "In January 2015, a U.S. Navy F/A-18F Super Hornet pilot flying at roughly 25,000 feet over the Atlantic Ocean off Florida's eastern coast recorded an object using the aircraft's forward-looking infrared (FLIR) sensor. The object appeared to streak across the ocean surface at extraordinary speed. The Department of Defense officially released the video in 2020, and it became one of the most widely discussed pieces of UAP footage in the public domain.\n\nThe All-domain Anomaly Resolution Office (AARO) published this case resolution on 6 February 2025. Their central finding: the object was not skimming the ocean surface at all — it was at approximately 13,000 feet altitude. The impression of extreme speed was caused by motion parallax, an optical effect created by the fast-moving aircraft filming a much slower object far below it. AARO assessed the object's raw speed at 72–161 mph, but after compensating for a 69 mph wind blowing from the west at that altitude, the object's intrinsic speed dropped to between 5 and 92 mph. The object never moved against the wind in any of AARO's simulation scenarios, and its heading deviated no more than 32 degrees from the wind direction.\n\nAARO assessed the object as spherical or oblate ellipsoid in shape and roughly one metre or smaller — comparable to a small drone or bird. That size estimate came from pixel analysis performed by an unnamed Intelligence Community partner. Despite this detailed analysis, AARO states it cannot definitively identify what the object was. It concluded only that the object displayed no anomalous or exceptional performance characteristics.\n\nSeveral limitations constrain the analysis. The original sensor recording and its metadata are no longer available; AARO worked from a compressed .wmv video file. The aircraft's exact geographic position and compass heading during the recording are unknown, so AARO calculated a range of possible speeds and headings rather than a single definitive answer. Wind data came from historical records sourced within 15–20 minutes of the reported event time, not from direct measurements at the scene.",
+  "public_caveats": [
+    "The original sensor recording and metadata are lost — all analysis was performed on a compressed .wmv video file, which limits the precision of every calculation.",
+    "The aircraft's exact position and heading during the event are unknown, so AARO produced a range of possible speeds rather than a single definitive figure.",
+    "Wind data was drawn from historical records, not direct measurements at the time and location of the incident.",
+    "The object's size estimate ('one metre or less') was produced by an unnamed Intelligence Community partner and was not independently verified in this report.",
+    "AARO concluded the object showed no anomalous performance, but explicitly states it cannot definitively identify what the object was."
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "sha256": "beea6f3d2f17489e386edaa0fa52ed2707a710bd3e75a1c12dca28ee8f208254",
+  "title": "FAA UAP record 237UAP00494",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary information report documenting a UAP sighting by a commercial airline crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary FAA operations report, not a full investigation or conclusion.",
+    "The identities and details of the other aircraft reporting similar sightings are not provided.",
+    "No sensor data, radar tracks, or photographic evidence is referenced — the report is based solely on pilot testimony relayed through ATC."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "10 March 2023, 03:00 CST",
+      "source_quote": "Date: 3/10/2023 3:00:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Las Vegas to London Heathrow (EGLL)",
+      "source_quote": "LAS - LONDON, UNITED KINGDOM (EGLL)",
+      "citation_offset": {
+        "offset": 314,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Three lights with various brightness/intensity at 11 o'clock position",
+      "source_quote": "AN UNIDENTIFIED AERIAL PHENOMENON OF 3 LIGHTS WITH VARIOUS BRIGHTNESS/INTENSITY FROM THE 11 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 360,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 370 (37,000 feet)",
+      "source_quote": "ENE BOUND AT FL370",
+      "citation_offset": {
+        "offset": 475,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Vicinity of Fort Dodge, Iowa (42.551°N, 94.192°W)",
+      "source_quote": "VCNTY FORT DODGE",
+      "citation_offset": {
+        "offset": 494,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Minneapolis ARTCC",
+      "source_quote": "MINNEAPOLIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 244,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 512,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None",
+      "source_quote": "NO LEO NOTIFICATION",
+      "citation_offset": {
+        "offset": 537,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Corroboration",
+      "value": "Multiple aircraft reported similar sightings",
+      "source_quote": "MULTIPLE ACFT REPORTED SIMILAR SIGHTINGS",
+      "citation_offset": {
+        "offset": 558,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Fort Dodge, Iowa",
+    "Las Vegas",
+    "London, United Kingdom",
+    "Minneapolis"
+  ],
+  "dated_events": [
+    "3/10/2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon consisting of 3 lights with varying brightness/intensity"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Virgin Atlantic flight 156 was a Boeing 787-9 flying from Las Vegas to London Heathrow on 10 March 2023.",
+      "source_quote": "UNITED KINGDOM REGISTERED VIRGIN 156, B789, LAS - LONDON, UNITED KINGDOM (EGLL)",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 270,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed three lights of varying brightness at their 11 o'clock position at FL370 near Fort Dodge, Iowa.",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON OF 3 LIGHTS WITH VARIOUS BRIGHTNESS/INTENSITY FROM THE 11 O'CLOCK POSITION WHILE ENE BOUND AT FL370 VCNTY FORT DODGE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 351,
+        "len": 159,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 512,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Multiple other aircraft reported similar sightings in the same area.",
+      "source_quote": "MULTIPLE ACFT REPORTED SIMILAR SIGHTINGS",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 558,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:39:27.113Z",
+  "qa_completed_at": "2026-06-13T23:40:06.119Z",
+  "timing": {
+    "A": "17.4s",
+    "B": "21.6s",
+    "E": "17.0s"
+  },
+  "public_headline": "Commercial Airline Crew Reports Three Unexplained Lights Over Iowa",
+  "public_tldr": "An FAA preliminary report documents a UAP sighting by the crew of a Virgin Atlantic Boeing 787 flying from Las Vegas to London on 10 March 2023. The crew observed three lights of varying brightness near Fort Dodge, Iowa, at 37,000 feet, and multiple other aircraft reported similar sightings in the area.",
+  "public_narrative": "This is a preliminary information report from the FAA's Washington Operations Center — essentially a first-pass incident log, not a full investigation. It records a sighting reported by the crew of Virgin Atlantic flight 156, a Boeing 787-9 travelling from Las Vegas to London Heathrow on 10 March 2023.\n\nAt around 03:00 Central Standard Time, while flying east-northeast at flight level 370 (37,000 feet) near Fort Dodge, Iowa, the crew reported seeing three lights at their 11 o'clock position. The lights had varying brightness and intensity. Minneapolis Air Route Traffic Control Center (ARTCC) was advised of the sighting.\n\nThe crew took no evasive action, and no law enforcement was notified. Notably, the report states that multiple other aircraft reported similar sightings in the same area, though the identities and details of those aircraft are not included in the document.\n\nThe FAA report does not offer any conclusion about what the lights were. It contains no radar data, sensor readings, or photographic evidence — it is based entirely on pilot testimony relayed through air traffic control. No follow-up investigation is referenced in the document.",
+  "public_caveats": [
+    "This is a preliminary FAA operations report, not a completed investigation or official conclusion about what the lights were.",
+    "The report is based solely on pilot testimony relayed through air traffic control — no radar tracks, sensor data, or photographs are referenced.",
+    "While the report mentions multiple aircraft saw similar things, no details about those other aircraft or their observations are provided.",
+    "The document has low evidence of redaction, meaning what you see is likely close to the full content — but that content is itself limited in scope.",
+    "A preliminary report like this is a first record of an event, not an assessment of its cause or significance."
+  ]
+}

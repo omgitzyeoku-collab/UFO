@@ -1,0 +1,68 @@
+{
+  "sha256": "c6c33cf9f578f24210e3d6454139f20279d025f6d25b4bc6bf3cc3d27865e7fe",
+  "title": "CIA-UAP-016, Sightings of Unidentified Flying Objects in Ladakh, Nepal, Sikkim and Bhutan",
+  "agency": "CIA",
+  "type": "PDF",
+  "incident_date": "1968",
+  "incident_location": "Ladakh, Nepal | Skkim, India | Bhutam",
+  "what_is_it": "A CIA intelligence report cataloguing seven UFO sightings observed across the Himalayan border regions of Ladakh, Nepal, Sikkim, and Bhutan in early 1968.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No body text was extractable from the PDF — all facts are derived from metadata and the war.gov catalogue description only.",
+    "The document is likely a scanned image with poor OCR quality, meaning potentially significant details in the body remain unread.",
+    "A prior, more redacted version existed on the CIA website; differences between versions are unknown without readable text.",
+    "Single-source intelligence report — observer reliability and corroboration status are unknown."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "originating_agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "regions_covered",
+      "value": "Ladakh, Nepal, Sikkim, Bhutan",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Ladakh",
+    "Nepal",
+    "Sikkim",
+    "Bhutan"
+  ],
+  "dated_events": [],
+  "objects_described": [
+    "unidentified flying objects"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Seven UFO sightings were recorded in the Ladakh-Nepal-Sikkim-Bhutan region between 19 Feb and 25 Mar 1968",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:04:01.919Z",
+  "qa_completed_at": "2026-06-14T03:04:35.539Z",
+  "timing": {
+    "A": "15.8s",
+    "B": "17.8s"
+  }
+}

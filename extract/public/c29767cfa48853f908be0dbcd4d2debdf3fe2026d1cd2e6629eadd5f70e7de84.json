@@ -1,0 +1,232 @@
+{
+  "sha256": "c29767cfa48853f908be0dbcd4d2debdf3fe2026d1cd2e6629eadd5f70e7de84",
+  "title": "FAA UAP record 237UAP00504",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting by a commercial aircraft crew.",
+  "core_summary": "On April 16, 2023, Air Canada flight 1091 (an Airbus A330) flying from Orlando to Toronto reported an unidentified aerial phenomenon while northbound at flight level 390 (approximately 39,000 feet), about 35 nautical miles south of Elkins, West Virginia. The phenomenon consisted of 3 to 5 flashing lights well above FL390 and was corroborated by additional aircraft. No law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary operational report, not a full investigation",
+    "The identities and number of corroborating aircraft are not specified",
+    "No radar data, sensor readings, or follow-up investigation results are included",
+    "The report was filed late (LATE REPORT designation), meaning it was not recorded in real time"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "Air Canada 1091, Airbus A330 (A333)",
+      "source_quote": "AIR CANADA 1091, A333, MCO - TORONTO, CANADA (CYYZ)",
+      "citation_offset": {
+        "offset": 277,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Orlando (MCO) to Toronto (CYYZ)",
+      "source_quote": "MCO - TORONTO, CANADA (CYYZ)",
+      "citation_offset": {
+        "offset": 300,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight level 390 (approximately 39,000 feet)",
+      "source_quote": "N BOUND AT FL390",
+      "citation_offset": {
+        "offset": 397,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "35 nautical miles south of Elkins, West Virginia",
+      "source_quote": "35 S EKN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "coordinates",
+      "value": "38.382 latitude, -79.857 longitude",
+      "source_quote": "Latitude: 38.382031699999999",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "3 to 5 flashing lights well above FL390",
+      "source_quote": "PHENOMENON WAS 3 TO 5 FLASHING LIGHTS WELL ABOVE FL390",
+      "citation_offset": {
+        "offset": 424,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroboration",
+      "value": "Reported by additional aircraft",
+      "source_quote": "WAS REPORTED BY ADDITIONAL ACFT",
+      "citation_offset": {
+        "offset": 483,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "atc_facility",
+      "value": "Washington ARTCC",
+      "source_quote": "WASHINGTON ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 252,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement",
+      "value": "No LEO notification reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 516,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_timing",
+      "value": "Late report filed at 0001E",
+      "source_quote": "LATE REPORT-0001E",
+      "citation_offset": {
+        "offset": 234,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "April 16, 2023, 5:05 AM EDT",
+      "source_quote": "Date: 4/16/2023 5:05:00 AM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Elkins, WV",
+    "Orlando (MCO)",
+    "Toronto, Canada (CYYZ)"
+  ],
+  "dated_events": [
+    "4/16/2023"
+  ],
+  "objects_described": [
+    "Airbus A330 (Air Canada 1091)",
+    "3 to 5 flashing lights (UAP) well above FL390"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Air Canada flight 1091 was operating between Orlando and Toronto on April 16, 2023",
+      "source_quote": "AIR CANADA 1091, A333, MCO - TORONTO, CANADA (CYYZ)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 277,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of 3 to 5 flashing lights positioned well above 39,000 feet",
+      "source_quote": "PHENOMENON WAS 3 TO 5 FLASHING LIGHTS WELL ABOVE FL390",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 424,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was seen off the left side of the aircraft",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON OFF THE LEFT SIDE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 330,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Additional aircraft also reported the same phenomenon",
+      "source_quote": "WAS REPORTED BY ADDITIONAL ACFT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 483,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement was notified",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 516,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:47:28.793Z",
+  "qa_completed_at": "2026-06-13T23:47:59.642Z",
+  "timing": {
+    "A": "17.7s",
+    "B": "13.1s",
+    "E": "17.8s"
+  },
+  "public_headline": "Air Canada Crew Reports Flashing Lights Above 39,000 Feet Over West Virginia",
+  "public_tldr": "This is an FAA incident report from April 2023 documenting a UAP sighting by the crew of Air Canada flight 1091, an Airbus A330 flying from Orlando to Toronto. The crew observed 3 to 5 flashing lights well above their cruising altitude of 39,000 feet near Elkins, West Virginia, and other aircraft in the area reported the same phenomenon.",
+  "public_narrative": "On April 16, 2023, the crew of Air Canada flight 1091 — an Airbus A330 travelling from Orlando to Toronto — spotted something unusual off the left side of their aircraft. While cruising northbound at approximately 39,000 feet, about 35 nautical miles south of Elkins, West Virginia, they reported an unidentified aerial phenomenon to air traffic control.\n\nThe phenomenon consisted of 3 to 5 flashing lights positioned well above the aircraft's altitude of 39,000 feet. Washington ARTCC (Air Route Traffic Control Center) was advised of the sighting. Notably, other aircraft in the area independently reported the same phenomenon, though the report does not identify which aircraft or how many.\n\nThe FAA's Washington Operations Center logged the incident but no law enforcement agencies were notified. The report carries a \"late report\" designation, meaning it was not filed in real time but recorded after the fact, at 00:01 Eastern.\n\nThis document is a preliminary operational report — essentially a logbook entry — not a full investigation. It contains no radar data, no sensor readings, and no follow-up analysis. The FAA did not reach any conclusion about what the lights were.",
+  "public_caveats": [
+    "This is a preliminary incident log, not a formal investigation — the FAA recorded what was reported but did not analyse or explain the phenomenon.",
+    "The report was filed late (marked 'LATE REPORT'), meaning it was not captured in real time, which may affect the precision of details.",
+    "Other aircraft reportedly saw the same phenomenon, but the report does not name them or say how many, so the strength of that corroboration is limited.",
+    "No radar data, photographs, sensor readings, or follow-up investigation results are included in this document.",
+    "The exact location is rated with slightly lower confidence — the coordinates are verified, but the description '35 nautical miles south of Elkins' is interpreted from abbreviated notation."
+  ]
+}

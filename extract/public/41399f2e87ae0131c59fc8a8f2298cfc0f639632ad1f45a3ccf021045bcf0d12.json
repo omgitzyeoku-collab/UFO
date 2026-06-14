@@ -1,0 +1,196 @@
+{
+  "sha256": "41399f2e87ae0131c59fc8a8f2298cfc0f639632ad1f45a3ccf021045bcf0d12",
+  "title": "FAA UAP record 237UAP00616",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary information report documenting a UAP sighting reported by a commercial aircraft crew.",
+  "core_summary": "On 25 February 2024, a Canada-registered Sunwing Airlines flight 381 (Boeing 737-800) flying from Varadero, Cuba to Quebec City, Canada reported an unidentified aerial phenomenon near Presque Isle, Maine. The crew described multiple bright white lights at flight level 550 (approximately 55,000 feet) that appeared to move rapidly and change directions. The report was relayed through Boston Air Route Traffic Control Center.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report ('PRELIM INFO') and not a final investigation conclusion.",
+    "The observation is single-source, reported by one flight crew.",
+    "FL550 (55,000 feet) is above the service ceiling of the reporting Boeing 737-800 (max ~41,000 feet), meaning the crew was estimating the altitude of the lights from below.",
+    "The second latitude field appears to contain a longitude value (-68.0158615), suggesting a formatting issue in the original report.",
+    "No corroborating radar data or additional witness reports are included in this document."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "Sunwing 381, Boeing 737-800 (B738), Canada-registered",
+      "source_quote": "CANADA REGISTERED SUNWING 381, B738",
+      "citation_offset": {
+        "offset": 258,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_route",
+      "value": "Varadero, Cuba (MUVR) to Quebec City, Canada (CYQB)",
+      "source_quote": "VARADERO, CUBA (MUVR) - QUEBEC CITY, CANADA (CYQB)",
+      "citation_offset": {
+        "offset": 295,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Vicinity of Presque Isle, Maine",
+      "source_quote": "VCNTY PRESQUE ISLE",
+      "citation_offset": {
+        "offset": 390,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "25 February 2024, 0240 Eastern",
+      "source_quote": "02-25-2024... 0240E",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP_description",
+      "value": "Multiple bright white lights at FL550, moving rapidly and changing directions",
+      "source_quote": "MULTIPLE BRIGHT WHITE LIGHTS AT FL550. THE LIGHTS APPEARED TO BE MOVING RAPIDLY AND CHANGING DIRECTIONS",
+      "citation_offset": {
+        "offset": 435,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_of_UAP",
+      "value": "Flight Level 550 (approximately 55,000 feet)",
+      "source_quote": "AT FL550",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "reporting_ATC_facility",
+      "value": "Boston ARTCC",
+      "source_quote": "BOSTON ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 237,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "46.681153, -68.015862",
+      "source_quote": "Latitude: 46.681153000000002... Latitude: -68.0158615",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "report_reference",
+      "value": "WOC 73333",
+      "source_quote": "WOC 73333 HM/MC",
+      "citation_offset": {
+        "offset": 540,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Presque Isle, Maine",
+    "Varadero, Cuba",
+    "Quebec City, Canada"
+  ],
+  "dated_events": [
+    "2/25/2024 2:40:00 AM",
+    "02-25-2024"
+  ],
+  "objects_described": [
+    "Multiple bright white lights at FL550 (UAP)",
+    "Boeing 737-800 (Sunwing 381)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Sunwing flight 381 was a Boeing 737-800 operating from Varadero, Cuba to Quebec City, Canada",
+      "source_quote": "CANADA REGISTERED SUNWING 381, B738, VARADERO, CUBA (MUVR) - QUEBEC CITY, CANADA (CYQB)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 258,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was observed at approximately 55,000 feet, well above the service ceiling of most commercial and military aircraft",
+      "source_quote": "AT FL550",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The lights were described as moving rapidly and changing directions",
+      "source_quote": "THE LIGHTS APPEARED TO BE MOVING RAPIDLY AND CHANGING DIRECTIONS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 474,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred in the vicinity of Presque Isle, Maine at approximately 0240 Eastern time",
+      "source_quote": "VCNTY PRESQUE ISLE... 0240E",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Boston Air Route Traffic Control Center was the ATC facility involved",
+      "source_quote": "BOSTON ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 237,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:25:25.231Z",
+  "qa_completed_at": "2026-06-14T01:25:59.166Z",
+  "timing": {
+    "A": "20.2s",
+    "B": "13.7s",
+    "E": "18.0s"
+  },
+  "public_headline": "Airline Crew Reports Fast-Moving Lights Over Northern Maine",
+  "public_tldr": "An FAA preliminary report documents a sighting by a Sunwing Airlines crew on 25 February 2024, who observed multiple bright white lights at an estimated 55,000 feet near Presque Isle, Maine. The lights appeared to move rapidly and change direction, but no radar data or additional witnesses are included in the report.",
+  "public_narrative": "This document is a preliminary information report from the FAA's Washington Operations Center (reference WOC 73333). It records a UAP sighting reported by the crew of Sunwing Airlines flight 381, a Canada-registered Boeing 737-800 flying from Varadero, Cuba to Quebec City, Canada.\n\nAt approximately 2:40 a.m. Eastern time on 25 February 2024, the crew reported seeing multiple bright white lights near Presque Isle, Maine. They estimated the lights were at Flight Level 550 — roughly 55,000 feet — well above their own aircraft's maximum altitude of around 41,000 feet. The crew described the lights as moving rapidly and changing directions. The report was relayed through Boston Air Route Traffic Control Center (ARTCC).\n\nThe FAA document is marked as preliminary. It does not contain any investigation conclusions, radar data, or corroborating reports from other aircraft or ground observers. The coordinates recorded in the report (approximately 46.68°N, 68.02°W) place the sighting in northern Maine, consistent with the noted vicinity of Presque Isle.\n\nOne formatting irregularity worth noting: a second latitude field in the original report appears to contain a longitude value, suggesting a data-entry issue rather than a second location. The document shows minimal redaction.",
+  "public_caveats": [
+    "This is a preliminary report, not a final investigation or conclusion by the FAA.",
+    "The sighting is single-source — reported by one flight crew with no corroborating radar data or additional witnesses included.",
+    "The crew estimated the lights at 55,000 feet, but their aircraft's maximum altitude is around 41,000 feet, so this was a visual estimate from below, not a measured altitude.",
+    "The document contains a likely data-entry error (a longitude value recorded in a latitude field), which does not affect the substance of the report but indicates imperfect record-keeping.",
+    "No explanation or identification of the lights is offered in this document."
+  ]
+}

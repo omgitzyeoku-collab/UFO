@@ -1,0 +1,246 @@
+{
+  "sha256": "35827c483212c8f1121f863230ea25eb35567669b0725c14e065c2883e4f471f",
+  "title": "FAA UAP record 237UAP00536",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On 7 August 2023, the crew of JetBlue flight 1348 (an Airbus A320 flying from San Juan, Puerto Rico to Washington Dulles) reported unidentified anomalous phenomena activity 6,000 feet above their 12 o'clock position while cruising at flight level 340 over the Atlantic Ocean near coordinates 24°29'N/72°50'W. No evasive action was taken and no law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included",
+    "The report is a preliminary operations center log entry, not a full investigation",
+    "No description of the UAP's shape, size, colour, movement, or duration of observation is provided",
+    "The term 'UAP activity' is used without further detail on what was observed",
+    "Coordinates place the sighting over open ocean southeast of the Bahamas, limiting ground-based corroboration"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "JetBlue 1348, Airbus A320",
+      "source_quote": "JETBLUE 1348, A320",
+      "citation_offset": {
+        "offset": 250,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "San Juan, Puerto Rico (TJSJ) to Washington Dulles (IAD)",
+      "source_quote": "SAN JUAN, PUERTO, RICO (TJSJ) - IAD",
+      "citation_offset": {
+        "offset": 270,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 340 (approximately 34,000 feet)",
+      "source_quote": "WHILE AT FL340",
+      "citation_offset": {
+        "offset": 372,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP relative position",
+      "value": "6,000 feet above, 12 o'clock position",
+      "source_quote": "6,000 FEET ABOVE THEIR 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 329,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP approximate altitude",
+      "value": "~40,000 feet (FL340 + 6,000 feet)",
+      "source_quote": "6,000 FEET ABOVE THEIR 12 O'CLOCK POSITION WHILE AT FL340",
+      "citation_offset": {
+        "offset": 329,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location coordinates",
+      "value": "24°29'N / 72°50'W, Atlantic oceanic airspace",
+      "source_quote": "VCNTY ATLANTIC OCEANIC AIRSPACE (2429N/7250W)",
+      "citation_offset": {
+        "offset": 387,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Miami ARTCC",
+      "source_quote": "MIAMI ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 230,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 434,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 459,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report date/time",
+      "value": "7 August 2023, 23:01 UTC",
+      "source_quote": "Date: 8/7/2023 11:01:00 PM (-00 Local)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report time (local reference)",
+      "value": "2301E (Eastern)",
+      "source_quote": "2301E",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Atlantic Ocean",
+    "San Juan, Puerto Rico",
+    "TJSJ (San Juan airport)",
+    "IAD (Washington Dulles)",
+    "Atlantic Oceanic Airspace"
+  ],
+  "dated_events": [
+    "08-07-2023"
+  ],
+  "objects_described": [
+    "UAP (unidentified anomalous phenomena) observed ahead of and above aircraft",
+    "Airbus A320 (JetBlue 1348)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "JetBlue flight 1348 reported UAP activity while flying at FL340 over the Atlantic Ocean on 7 August 2023",
+      "source_quote": "JETBLUE 1348, A320, SAN JUAN, PUERTO, RICO (TJSJ) - IAD, REPORTED UAP ACTIVITY 6,000 FEET ABOVE THEIR 12 O'CLOCK POSITION WHILE AT FL340",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 250,
+        "len": 136,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was observed approximately 6,000 feet above the aircraft's position, directly ahead",
+      "source_quote": "6,000 FEET ABOVE THEIR 12 O'CLOCK POSITION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 329,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred near coordinates 24°29'N/72°50'W in Atlantic oceanic airspace",
+      "source_quote": "VCNTY ATLANTIC OCEANIC AIRSPACE (2429N/7250W)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 387,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 434,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was made",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 459,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Miami ARTCC was the controlling ATC facility",
+      "source_quote": "MIAMI ARTCC ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 230,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:16:09.944Z",
+  "qa_completed_at": "2026-06-14T00:16:44.742Z",
+  "timing": {
+    "A": "20.4s",
+    "B": "14.4s",
+    "E": "18.2s"
+  },
+  "public_headline": "JetBlue crew reported unidentified object over Atlantic Ocean in 2023",
+  "public_tldr": "An FAA operations center log from 7 August 2023 records that the crew of JetBlue flight 1348, flying from San Juan to Washington Dulles, reported unidentified anomalous phenomena 6,000 feet above their aircraft over the Atlantic Ocean. The report is a brief incident log with no description of the object, no radar corroboration, and no follow-up investigation included.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report — essentially a log entry — recording a UAP (unidentified anomalous phenomena) sighting reported by a commercial airline crew on 7 August 2023.\n\nThe crew of JetBlue flight 1348, an Airbus A320 travelling from San Juan, Puerto Rico to Washington Dulles, reported UAP activity while cruising at flight level 340 (approximately 34,000 feet). They described the phenomena as being 6,000 feet above them at their 12 o'clock position — meaning directly ahead and at roughly 40,000 feet altitude. The sighting occurred over open ocean near coordinates 24°29'N/72°50'W, southeast of the Bahamas in Atlantic oceanic airspace. Miami Air Route Traffic Control Center (ARTCC) was the controlling facility.\n\nThe crew took no evasive action, and no law enforcement notification was made. The report was logged at 23:01 UTC.\n\nNotably, the document provides no description of what the crew actually saw — no shape, size, colour, movement pattern, or duration of observation. The phrase \"UAP activity\" is used without elaboration. This is a preliminary operations center log entry, not a completed investigation, and no conclusions or identification of the phenomena are offered.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or additional witness accounts included in the document.",
+    "The report is a preliminary operations center log entry, not a full investigation — no conclusions or identification were reached.",
+    "No description of the UAP's appearance, behaviour, or duration of observation is provided; only its relative position is recorded.",
+    "The sighting occurred over open ocean southeast of the Bahamas, which limits the possibility of ground-based corroboration.",
+    "There is minimal redaction in this document — the brevity reflects the nature of the log format, not deliberate withholding."
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "sha256": "cd48e1cf940021057e4489551215e0cf39bcd0149496e210b65faf0ee14ea2c4",
+  "title": "FAA UAP record 237UAP00622",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UAP sighting reported by a civilian aircraft crew.",
+  "core_summary": "On March 20, 2024, the crew of N231TJ, a Gulfstream GA5C business jet, reported observing a group of 5 converging lights while flying northbound at 45,000 feet near Dublin, Georgia. The sighting was relayed by Jacksonville Air Route Traffic Control Center to FAA Operations. No evasive action was taken and no law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or other sensor evidence included in this document.",
+    "The document is a brief preliminary operational notification, not a full investigation report.",
+    "No description of UAP behavior beyond 'converging lights' — duration, speed, and movement pattern are not specified.",
+    "FL450 (45,000 feet) is unusually high for most aircraft, suggesting the crew may have had clear visibility conditions, but no weather data is included."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Aircraft registration",
+      "value": "N231TJ",
+      "source_quote": "N231TJ, GULFSTREAM GA5C",
+      "citation_offset": {
+        "offset": 267,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Gulfstream GA5C",
+      "source_quote": "N231TJ, GULFSTREAM GA5C",
+      "citation_offset": {
+        "offset": 267,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Group of 5 converging lights",
+      "source_quote": "REPORTED A UAP DESCRIBED AS A GROUP OF 5 CONVERGING LIGHTS",
+      "citation_offset": {
+        "offset": 303,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL450 (45,000 feet)",
+      "source_quote": "N BOUND AT FL450",
+      "citation_offset": {
+        "offset": 368,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Vicinity of Dublin, Georgia",
+      "source_quote": "VCNTY DBN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Direction of travel",
+      "value": "Northbound",
+      "source_quote": "N BOUND AT FL450",
+      "citation_offset": {
+        "offset": 368,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 396,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 421,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Jacksonville ARTCC",
+      "source_quote": "JACKSONVILLE ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 240,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report date/time",
+      "value": "March 20, 2024, 11:45 PM Eastern",
+      "source_quote": "03-20-2024/2345E",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Coordinates",
+      "value": "32.575°N, 82.973°W",
+      "source_quote": "Latitude: 32.574983250000002",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "WOC reference",
+      "value": "7-3333 JF/JE",
+      "source_quote": "WOC 7-3333 JF/JE",
+      "citation_offset": {
+        "offset": 452,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Dublin, GA",
+    "Jacksonville ARTCC"
+  ],
+  "dated_events": [
+    "03-20-2024",
+    "3/20/2024"
+  ],
+  "objects_described": [
+    "Gulfstream GA5C (N231TJ)",
+    "Group of 5 converging lights (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Gulfstream GA5C registered N231TJ reported a UAP sighting to Jacksonville ARTCC on March 20, 2024.",
+      "source_quote": "JACKSONVILLE ARTCC ADVISED N231TJ, GULFSTREAM GA5C",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 240,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was described as a group of 5 converging lights.",
+      "source_quote": "REPORTED A UAP DESCRIBED AS A GROUP OF 5 CONVERGING LIGHTS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 303,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was flying northbound at 45,000 feet near Dublin, Georgia at the time of the sighting.",
+      "source_quote": "N BOUND AT FL450 VCNTY DBN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 368,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 396,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was reported.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 421,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:30:54.945Z",
+  "qa_completed_at": "2026-06-14T01:31:55.994Z",
+  "timing": {
+    "A": "21.4s",
+    "B": "39.6s",
+    "E": "17.5s"
+  },
+  "public_headline": "Business Jet Crew Reports Five Converging Lights at 45,000 Feet Over Georgia",
+  "public_tldr": "This FAA operations centre notification records a UAP sighting by the crew of a Gulfstream business jet flying at 45,000 feet near Dublin, Georgia on 20 March 2024. The crew described a group of five converging lights; no evasive action was taken and no investigation findings are included.",
+  "public_narrative": "On 20 March 2024, at 11:45 PM Eastern time, the crew of a Gulfstream GA5C business jet (registration N231TJ) reported an unidentified aerial phenomenon to air traffic control while flying northbound at 45,000 feet in the vicinity of Dublin, Georgia. They described what they saw as a group of five converging lights.\n\nThe sighting was relayed by Jacksonville Air Route Traffic Control Center (ARTCC) to the FAA Washington Operations Center, which logged it as incident 237UAP00622. The crew took no evasive action, and no law enforcement notification was reported.\n\nThe document itself is a brief preliminary operational notification — essentially a short-form log entry — rather than a full investigation report. It contains no radar data, no sensor evidence, and no weather information. There is no description of how the lights moved, how long they were visible, or at what distance they appeared.\n\nNo conclusions are drawn in this document. It records what the crew reported and nothing more. Redaction appears minimal — the record reads as a standard FAA operations centre notification rather than a redacted investigative file.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data, photographs, or other sensor evidence included in the document.",
+    "The document is a brief operational notification, not an investigation report — no analysis or conclusions were produced.",
+    "No details are given about the lights' behaviour beyond the word 'converging' — duration, speed, distance, and movement pattern are all unspecified.",
+    "FL450 (45,000 feet) is unusually high altitude, which may have provided clear visibility, but no weather or atmospheric data is included to confirm conditions.",
+    "The incident date in the document is March 2024, though the record was released as part of the broader 2023-era FAA UAP disclosure set."
+  ]
+}

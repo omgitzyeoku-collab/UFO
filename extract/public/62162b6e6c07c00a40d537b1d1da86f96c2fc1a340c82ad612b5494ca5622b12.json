@@ -1,0 +1,238 @@
+{
+  "sha256": "62162b6e6c07c00a40d537b1d1da86f96c2fc1a340c82ad612b5494ca5622b12",
+  "title": "FAA UAP record 237UAP00538",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary incident report documenting a UAP sighting by a commercial airline crew.",
+  "core_summary": "On August 12, 2023, the crew of Sun Country Airlines flight 8727, a Boeing 737-800 flying from Fort Lauderdale to Charlotte, observed an unidentified aerial phenomenon from the right side of the aircraft while northbound at flight level 200 (approximately 20,000 feet), approximately 30 nautical miles southwest of Florence, South Carolina. No evasive action was taken and no law enforcement notification was made. The report was relayed by Jacksonville Air Route Traffic Control Center to FAA Operations.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report only, not a completed investigation or case resolution.",
+    "The UAP is described solely from the crew's visual observation with no sensor or radar data referenced.",
+    "Single-source account from one flight crew with no corroborating observations noted.",
+    "The coordinates place the event near Florence, SC, consistent with the textual description.",
+    "No description of the UAP's appearance, size, movement, or behaviour is provided in this report."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_flight",
+      "value": "Sun Country Airlines flight 8727 (SCX8727)",
+      "source_quote": "SUN COUNTRY 8727",
+      "citation_offset": {
+        "offset": 262,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Boeing 737-800",
+      "source_quote": "B738",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "route",
+      "value": "Fort Lauderdale (FLL) to Charlotte (CLT)",
+      "source_quote": "FLL - CLT",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight level 200 (approximately 20,000 feet)",
+      "source_quote": "FL200",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "observation_direction",
+      "value": "Right side of aircraft",
+      "source_quote": "OBSERVED AN UNIDENTIFIED AERIAL PHENOMENON FROM THE RIGHT SIDE",
+      "citation_offset": {
+        "offset": 297,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "30 nautical miles southwest of Florence, SC",
+      "source_quote": "30 SW FLO",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "heading",
+      "value": "Northbound",
+      "source_quote": "WHILE N BOUND",
+      "citation_offset": {
+        "offset": 360,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 394,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None provided",
+      "source_quote": "NO LEO NOTIFICATION PROVIDED",
+      "citation_offset": {
+        "offset": 419,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Jacksonville Air Route Traffic Control Center",
+      "source_quote": "JACKSONVILLE ARTCC",
+      "citation_offset": {
+        "offset": 235,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_time",
+      "value": "0155 Eastern time",
+      "source_quote": "0155E",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "latitude",
+      "value": "33.87702985",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "longitude",
+      "value": "-80.092891989999998",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "report_date_time",
+      "value": "August 12, 2023, 2:17 AM EDT",
+      "source_quote": "8/12/2023 2:17:00 AM (-04 EDT)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Florence, SC",
+    "Fort Lauderdale (FLL)",
+    "Charlotte (CLT)"
+  ],
+  "dated_events": [
+    "08-12-2023"
+  ],
+  "objects_described": [
+    "Unidentified Aerial Phenomenon (UAP)",
+    "Boeing 737-800 (B738)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Sun Country flight 8727 crew visually observed a UAP from the right side of the aircraft while flying northbound at 20,000 feet.",
+      "source_quote": "SUN COUNTRY 8727, B738, FLL - CLT, OBSERVED AN UNIDENTIFIED AERIAL PHENOMENON FROM THE RIGHT SIDE WHILE N BOUND AT FL200",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 262,
+        "len": 120,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 30 nautical miles southwest of Florence, South Carolina.",
+      "source_quote": "30 SW FLO",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 394,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was made.",
+      "source_quote": "NO LEO NOTIFICATION PROVIDED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 419,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported by Jacksonville ARTCC to FAA Operations.",
+      "source_quote": "JACKSONVILLE ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 235,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:17:50.675Z",
+  "qa_completed_at": "2026-06-14T00:18:24.648Z",
+  "timing": {
+    "A": "18.6s",
+    "B": "15.4s",
+    "E": "22.2s"
+  },
+  "public_headline": "Sun Country Airlines crew reports UAP sighting over South Carolina",
+  "public_tldr": "This FAA preliminary incident report documents a UAP sighting by the crew of Sun Country Airlines flight 8727 on August 12, 2023, while flying at approximately 20,000 feet near Florence, South Carolina. The crew observed something unidentified off the right side of their aircraft but took no evasive action, and no further details about the object's appearance or behaviour are provided in the report.",
+  "public_narrative": "On August 12, 2023, at approximately 1:55 AM Eastern time, the crew of Sun Country Airlines flight 8727 — a Boeing 737-800 flying from Fort Lauderdale to Charlotte — spotted an unidentified aerial phenomenon from the right side of their aircraft. They were heading northbound at flight level 200, roughly 20,000 feet, about 30 nautical miles southwest of Florence, South Carolina.\n\nThe crew did not take evasive action, and no law enforcement notification was made. Jacksonville Air Route Traffic Control Center relayed the report to FAA Operations, which produced this preliminary incident record from the FAA Washington Operations Center.\n\nNotably, the report contains no description of what the crew actually saw — no shape, size, colour, movement, or behaviour of the object is recorded. This is a bare-bones operational log, not an investigation or analysis. There is no reference to radar data, sensor readings, or corroborating observations from other aircraft or ground stations.\n\nThe document carries minimal redaction. What is missing appears to be detail that was simply never captured at this stage of reporting rather than information that was removed. The FAA assigned this record the identifier 237UAP00538.",
+  "public_caveats": [
+    "This is a preliminary operational report, not a completed investigation or case resolution. No conclusions were drawn about what the crew observed.",
+    "The sighting is a single-source account from one flight crew. No corroborating observations from other aircraft, radar, or ground stations are referenced.",
+    "No description of the UAP's appearance, size, movement, or behaviour appears anywhere in the report.",
+    "The report references only a visual observation — no sensor or instrument data is cited.",
+    "Low redaction does not mean full transparency; it may simply reflect that little detail was recorded at the preliminary reporting stage."
+  ]
+}

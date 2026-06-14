@@ -1,0 +1,243 @@
+{
+  "sha256": "c7b78fcc6d51dd1910e0fcc9dd217c8174654f7ff89308d5c75249de97895daf",
+  "title": "FAA UAP record 237UAP00554",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary incident notification regarding a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On September 15, 2023, the crew of American Airlines Flight 662 (an Airbus A321 flying from Dallas/Fort Worth to Denver) reported an unidentified aerial phenomenon approximately 10,000 feet below their aircraft while flying northwest at flight level 340 over Liberal, Kansas. The UAP was described as lights coming from unidentified objects. No evasive action was taken.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary FAA operations center notification, not a full investigation report",
+    "Single-source account from one flight crew with no corroborating radar data or other witness reports included",
+    "The description 'lights coming from unidentified objects' is vague and could encompass many conventional explanations",
+    "No follow-up investigation or resolution is documented in this record"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "American Airlines Flight 662 (AAL662), Airbus A321",
+      "source_quote": "AMERICAN 662, A321, DFW - DEN",
+      "citation_offset": {
+        "offset": 267,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Dallas/Fort Worth (DFW) to Denver (DEN)",
+      "source_quote": "DFW - DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "Flight level 340 (approximately 34,000 feet)",
+      "source_quote": "NW BOUND AT FL340",
+      "citation_offset": {
+        "offset": 370,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_relative_position",
+      "value": "Approximately 10,000 feet below the aircraft",
+      "source_quote": "10,000 FEET BELOW ACFT",
+      "citation_offset": {
+        "offset": 341,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Lights coming from unidentified objects",
+      "source_quote": "THE UAP WAS DESCRIBED AS LIGHTS COMING FROM UNIDENTIFIED OBJECTS",
+      "citation_offset": {
+        "offset": 402,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Over Liberal, Kansas",
+      "source_quote": "OVER LIBERAL",
+      "citation_offset": {
+        "offset": 388,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "latitude",
+      "value": "37.050331909999997",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "longitude",
+      "value": "-100.92099899999999",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 468,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Kansas City Air Route Traffic Control Center (ARTCC)",
+      "source_quote": "KANSAS CITY ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 241,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "time_of_report",
+      "value": "0015 CDT (local time)",
+      "source_quote": "0015C",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "document_date",
+      "value": "September 15, 2023",
+      "source_quote": "Date: 9/15/2023 12:15:00 AM (-05 CDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Liberal, Kansas",
+    "Dallas/Fort Worth (DFW)",
+    "Denver (DEN)"
+  ],
+  "dated_events": [
+    "9/15/2023",
+    "09-15-2023"
+  ],
+  "objects_described": [
+    "Airbus A321 (American Airlines Flight 662)",
+    "Unidentified aerial phenomenon described as lights coming from unidentified objects"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines Flight 662 was operating an Airbus A321 on the DFW to DEN route on September 15, 2023",
+      "source_quote": "AMERICAN 662, A321, DFW - DEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 267,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was flying northwest at flight level 340 over Liberal, Kansas when the sighting occurred",
+      "source_quote": "NW BOUND AT FL340 OVER LIBERAL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 370,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was observed approximately 10,000 feet below the aircraft",
+      "source_quote": "10,000 FEET BELOW ACFT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 341,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew described the UAP as lights coming from unidentified objects",
+      "source_quote": "THE UAP WAS DESCRIBED AS LIGHTS COMING FROM UNIDENTIFIED OBJECTS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 402,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 468,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported via Kansas City ARTCC to the FAA Operations Center",
+      "source_quote": "KANSAS CITY ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 241,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:31:38.017Z",
+  "qa_completed_at": "2026-06-14T00:32:10.857Z",
+  "timing": {
+    "A": "17.8s",
+    "B": "15.0s",
+    "E": "17.3s"
+  },
+  "public_headline": "American Airlines crew reported unexplained lights over Kansas in 2023",
+  "public_tldr": "This FAA preliminary incident notification records a UAP sighting by the crew of American Airlines Flight 662 on September 15, 2023. The crew reported lights from unidentified objects roughly 10,000 feet below their aircraft while flying over Liberal, Kansas at 34,000 feet. No evasive action was taken and no follow-up investigation is included in this record.",
+  "public_narrative": "This document is a preliminary incident notification from the FAA Washington Operations Center, dated September 15, 2023. It records a UAP (unidentified aerial phenomenon) sighting reported through routine aviation safety channels — not a full investigation or conclusion.\n\nAccording to the record, the crew of American Airlines Flight 662, an Airbus A321 flying from Dallas/Fort Worth to Denver, observed something unusual while cruising northwest at flight level 340 (approximately 34,000 feet) over Liberal, Kansas, at around 12:15 AM local time. They described seeing lights coming from unidentified objects roughly 10,000 feet below their aircraft. The crew did not take evasive action.\n\nThe sighting was relayed by Kansas City Air Route Traffic Control Center (ARTCC) to the FAA Operations Center. The record contains no radar data, no corroborating witness accounts, and no identification or explanation of what the crew saw.\n\nThe document does not reflect a completed investigation. It is a single notification capturing one crew's report as it entered the FAA system. There is no resolution, no follow-up findings, and no agency conclusion about what the objects were.",
+  "public_caveats": [
+    "This is a preliminary FAA operations center notification, not the result of an investigation. It captures the initial report only.",
+    "The account comes from a single flight crew. No corroborating radar data, photographs, or independent witness reports are included in this record.",
+    "The description — 'lights coming from unidentified objects' — is vague and could encompass many conventional explanations, including other aircraft, ground lights, or atmospheric phenomena.",
+    "No follow-up investigation or resolution is documented. The record does not say what the objects were or were not.",
+    "Redaction levels in this document appear low, but the brevity of the record means little detail was captured in the first place."
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "sha256": "e09da2a620136c643b9ac37807549eb74a2815b1486328c5bbf1cb7ec7953ab0",
+  "title": "FAA UAP record 237UAP00606",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA Washington Operations Center notification report documenting a UAP sighting near Washington, DC.",
+  "core_summary": "On February 4, 2024, at 04:00 EST, the FAA Washington Operations Center logged a report from National Air Traffic Control Tower (ATCT) of an unidentified aerial phenomenon consisting of 3 lights flying around at Flight Level 300 (approximately 30,000 feet) east of Reagan National Airport (DCA). The UAP was not detected on ATC radar and no aircraft were involved in the incident.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is preliminary information only, not a final investigation report.",
+    "The sighting was visual only — the objects were not corroborated by radar.",
+    "Single-source report from one air traffic control tower with no additional sensor confirmation.",
+    "The coordinates provided (38.907, -77.037) correspond to central Washington, DC, not necessarily the exact location of the observed phenomenon."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_agency",
+      "value": "FAA Washington Operations Center",
+      "source_quote": "Washington Operations Center",
+      "citation_offset": {
+        "offset": 0,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "2024-02-04 at 04:00 EST",
+      "source_quote": "Date: 2/4/2024 4:00:00 AM (-05 EST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Washington, DC, east of DCA (Reagan National Airport)",
+      "source_quote": "WASHINGTON, DC/UFO-UAP ACTIVITY/0400E/NATIONAL ATCT REPORTED AN UNIDENTIFIED AERIAL PHENOMENON OF 3 LIGHTS FLYING AROUND AT FL300 E DCA",
+      "citation_offset": {
+        "offset": 212,
+        "len": 135,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "38.907192, -77.036871",
+      "source_quote": "Latitude: 38.907192299999998",
+      "citation_offset": {
+        "offset": 115,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "description",
+      "value": "3 lights flying around at FL300 (approx. 30,000 feet)",
+      "source_quote": "3 LIGHTS FLYING AROUND AT FL300 E DCA",
+      "citation_offset": {
+        "offset": 310,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "UAP NOT OBSERVED ON ATC RADAR",
+      "citation_offset": {
+        "offset": 349,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_involvement",
+      "value": "None",
+      "source_quote": "NO ACFT INVOLVED",
+      "citation_offset": {
+        "offset": 380,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "National ATCT (Air Traffic Control Tower)",
+      "source_quote": "NATIONAL ATCT REPORTED",
+      "citation_offset": {
+        "offset": 250,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_status",
+      "value": "Preliminary information",
+      "source_quote": "PRELIM INFO FROM FAA OPS",
+      "citation_offset": {
+        "offset": 186,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reference_number",
+      "value": "WOC 7-3333 RC/DD",
+      "source_quote": "WOC 7-3333 RC/DD",
+      "citation_offset": {
+        "offset": 398,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Washington, DC",
+    "DCA (Reagan National Airport)"
+  ],
+  "dated_events": [
+    "2/4/2024 4:00:00 AM (-05 EST)",
+    "02-04-2024"
+  ],
+  "objects_described": [
+    "3 unidentified lights at FL300 (approximately 30,000 feet)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "National ATCT reported 3 lights flying at FL300 east of Reagan National Airport on February 4, 2024",
+      "source_quote": "NATIONAL ATCT REPORTED AN UNIDENTIFIED AERIAL PHENOMENON OF 3 LIGHTS FLYING AROUND AT FL300 E DCA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 250,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected on ATC radar",
+      "source_quote": "UAP NOT OBSERVED ON ATC RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 349,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No aircraft were involved in the incident",
+      "source_quote": "NO ACFT INVOLVED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 380,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:16:25.768Z",
+  "qa_completed_at": "2026-06-14T01:16:55.459Z",
+  "timing": {
+    "A": "17.4s",
+    "B": "12.3s",
+    "E": "16.1s"
+  },
+  "public_headline": "FAA Logged Three Unidentified Lights Near Reagan Airport in 2024",
+  "public_tldr": "This FAA notification documents a visual sighting of three unidentified lights flying at approximately 30,000 feet east of Reagan National Airport in Washington, DC, on February 4, 2024. The lights were not detected on air traffic control radar and no aircraft were involved.",
+  "public_narrative": "On February 4, 2024, at 4:00 AM Eastern time, the FAA's Washington Operations Center logged a report from the National Air Traffic Control Tower (ATCT) describing an unidentified aerial phenomenon near Washington, DC. Controllers observed three lights flying at Flight Level 300 — roughly 30,000 feet — to the east of Reagan National Airport (DCA).\n\nThe report notes that the lights were not detected on air traffic control radar, making this a visual-only sighting from a single facility. No aircraft were involved in the incident, meaning no planes were endangered or required to take evasive action.\n\nThe document is classified as preliminary information from FAA Operations, referenced under number WOC 7-3333 RC/DD. It is not a final investigation report and does not offer any conclusion about what the lights were.\n\nThe coordinates listed in the report (38.907, -77.037) correspond to central Washington, DC, and indicate the general area rather than the precise position of the observed lights. There is minimal redaction in this document — the record is brief by nature, consisting of a standard operational notification rather than a detailed investigative file.",
+  "public_caveats": [
+    "This is preliminary information only — it is not the result of an investigation and no conclusions were drawn about what the lights were.",
+    "The sighting was visual only. The objects did not appear on air traffic control radar, meaning there is no independent sensor confirmation.",
+    "This is a single-source report from one air traffic control tower. No additional witnesses or instruments corroborated the observation.",
+    "The coordinates in the document point to central Washington, DC, not necessarily the exact location of the lights themselves.",
+    "The brevity of the document reflects its nature as a routine operational notification, not evidence of redaction or concealment."
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "sha256": "734cc531836d5a3a8e41c15097ea0a7c836f464d09f42e3c1d6ae6d203b38c95",
+  "title": "FAA UAP record 237UAP00561",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting by a commercial aircraft crew.",
+  "core_summary": "On 5 October 2023, the crew of Journey Aviation flight 58, a Gulfstream GV, reported an unidentified aerial phenomenon with lights at their 11 o'clock position while flying eastbound at flight level 450 (approximately 45,000 feet), roughly 50 nautical miles west-northwest of Albany, NY. Boston Air Route Traffic Control Center (ARTCC) relayed the report. No evasive action was taken and no law enforcement notification was made.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The report is classified as preliminary information (PRELIM INFO).",
+    "No description of UAP shape, size, speed, or behaviour beyond the presence of lights.",
+    "The coordinates provided place the incident in upstate New York, consistent with the stated location relative to Albany."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "5 October 2023, 03:20 EDT",
+      "source_quote": "Date: 10/5/2023 3:20:00 AM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft",
+      "value": "Journey Aviation flight 58 (JNY58), Gulfstream GLF5",
+      "source_quote": "JOURNEY AVIATION 58, GULFSTREAM GLF5",
+      "citation_offset": {
+        "offset": 259,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 450 (approximately 45,000 feet)",
+      "source_quote": "E BOUND AT FL450",
+      "citation_offset": {
+        "offset": 387,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "11 o'clock position",
+      "source_quote": "UNIDENTIFIED AERIAL PHENOMENON WITH LIGHTS FROM THE 11 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 309,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "50 nautical miles west-northwest of Albany, NY",
+      "source_quote": "50 WNW ALB",
+      "citation_offset": {
+        "offset": 404,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Latitude",
+      "value": "42.932639709999997",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Longitude",
+      "value": "-74.754167089999996",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Boston ARTCC",
+      "source_quote": "BOSTON ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 238,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 416,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 441,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP characteristics",
+      "value": "Lights observed",
+      "source_quote": "UNIDENTIFIED AERIAL PHENOMENON WITH LIGHTS",
+      "citation_offset": {
+        "offset": 309,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Albany, NY"
+  ],
+  "dated_events": [
+    "10/5/2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with lights",
+    "Gulfstream GLF5 (GV business jet)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Gulfstream GV operating as Journey Aviation flight 58 reported a UAP with lights at the 11 o'clock position while eastbound at FL450.",
+      "source_quote": "JOURNEY AVIATION 58, GULFSTREAM GLF5, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH LIGHTS FROM THE 11 O'CLOCK POSITION WHILE E BOUND AT FL450",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 259,
+        "len": 144,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 50 nautical miles west-northwest of Albany, NY.",
+      "source_quote": "50 WNW ALB",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 404,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 416,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement was notified.",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 441,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was relayed through Boston ARTCC to the FAA Washington Operations Center.",
+      "source_quote": "BOSTON ARTCC ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 238,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:38:03.822Z",
+  "qa_completed_at": "2026-06-14T00:38:38.626Z",
+  "timing": {
+    "A": "18.2s",
+    "B": "16.6s",
+    "E": "17.9s"
+  },
+  "public_headline": "Commercial Jet Crew Reports Lights at 45,000 Feet Near Albany",
+  "public_tldr": "An FAA incident report documents a UAP sighting by the crew of a Gulfstream business jet flying at approximately 45,000 feet about 50 nautical miles west-northwest of Albany, New York, on 5 October 2023. The crew described an unidentified aerial phenomenon with lights at their 11 o'clock position; no evasive action was taken and no further investigation is documented here.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report filed on 5 October 2023 at 03:20 Eastern time. It records a sighting reported by the crew of Journey Aviation flight 58, a Gulfstream GV business jet, while flying eastbound at flight level 450 — roughly 45,000 feet.\n\nThe crew reported an unidentified aerial phenomenon with lights at their 11 o'clock position, meaning slightly to the left and ahead of the aircraft. The sighting occurred approximately 50 nautical miles west-northwest of Albany, New York, placing it over upstate New York. Boston Air Route Traffic Control Center (ARTCC), the regional air traffic control facility, relayed the report.\n\nThe crew took no evasive action, and no law enforcement notification was made. The report is marked as preliminary information.\n\nThe document is brief and contains no description of the object's shape, size, speed, or behaviour beyond the presence of lights. There is no mention of radar data, photographs, or corroborating reports from other aircraft or ground observers. The FAA did not include any conclusion or identification of what the crew observed.",
+  "public_caveats": [
+    "This is a single-source pilot report — no radar data, no additional witnesses, and no corroborating evidence are included in this document.",
+    "The report is classified as preliminary information, not a final investigation or conclusion.",
+    "No details about the object's shape, size, speed, or behaviour are provided beyond the presence of lights.",
+    "The FAA did not identify or attempt to explain the phenomenon in this document.",
+    "There is low evidence of redaction — the document appears to be complete as filed, rather than stripped of sensitive content."
+  ]
+}

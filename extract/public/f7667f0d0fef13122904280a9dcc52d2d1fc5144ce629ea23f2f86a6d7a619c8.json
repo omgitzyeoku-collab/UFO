@@ -1,0 +1,89 @@
+{
+  "sha256": "f7667f0d0fef13122904280a9dcc52d2d1fc5144ce629ea23f2f86a6d7a619c8",
+  "title": "FBI-UAP-D002, FD-1057, Unresolved UAP Report, Colorado Springs, 2022",
+  "agency": "FBI",
+  "type": "IMG",
+  "incident_date": "2022",
+  "incident_location": "Colorado Springs, Colorado, U.S.",
+  "what_is_it": "An FBI investigative activity form (FD-1057) recording a first-hand witness narrative of an unidentified anomalous phenomena (UAP) incident near Colorado Springs, Colorado.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No text could be extracted from the source image file; all facts are derived from metadata and the CSV description only.",
+    "The document is an image (likely a scanned form), so the full witness narrative is not available for analysis.",
+    "Single-source witness account with no corroborating evidence visible in available metadata.",
+    "The case is marked as unresolved — no determination was made about the nature of the reported phenomena.",
+    "The mention of a 'digital artistic interpretation' suggests the document may describe visual characteristics of the UAP, but the content is not accessible."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "agency",
+      "value": "FBI (Federal Bureau of Investigation)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_location",
+      "value": "Colorado Springs, Colorado, U.S.",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_year",
+      "value": "2022",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "document_designation",
+      "value": "FBI-UAP-D002",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "case_status",
+      "value": "Unresolved",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Colorado Springs, Colorado"
+  ],
+  "dated_events": [
+    "2022"
+  ],
+  "objects_described": [
+    "Unidentified anomalous phenomena (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The FBI used FD-1057 forms to record UAP-related investigative activity.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:39:34.052Z",
+  "qa_completed_at": "2026-06-14T03:40:09.575Z",
+  "timing": {
+    "A": "16.7s",
+    "B": "18.8s"
+  }
+}

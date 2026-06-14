@@ -1,0 +1,224 @@
+{
+  "sha256": "2247a55b4ec9e0a31c65fd5c0046bfbdec1a9c7e7152b2436ce1f90f7fd157e9",
+  "title": "FAA UAP record 237UAP00539",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary information report documenting a UFO/UAP sighting by a commercial airline crew and multiple other aircraft.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary information report, not a final investigation or conclusion",
+    "The lights were observed at night (0100 local time) which limits visual identification capability",
+    "No instrument or radar data is referenced — all observations are visual",
+    "The wide altitude range ('6,000 feet up to satellite altitude') suggests observers may have been describing different phenomena or had difficulty judging distance",
+    "No follow-up investigation or resolution is included in this document"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "reporting_flight",
+      "value": "American Airlines flight 1397 (AAL1397), Boeing 737-800, routing Miami (MIA) to Kansas City (MCI)",
+      "source_quote": "AMERICAN 1397, B738, MIA - MCI",
+      "citation_offset": {
+        "offset": 259,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation",
+      "value": "Two bright lights observed above the aircraft",
+      "source_quote": "OBSERVED TWO BRIGHT LIGHTS ABOVE ACFT",
+      "citation_offset": {
+        "offset": 291,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "20,000 feet",
+      "source_quote": "WHILE AT 20,000 FEET",
+      "citation_offset": {
+        "offset": 329,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "60 nautical miles north of Birmingham, Alabama",
+      "source_quote": "60 N BHM",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "coordinates",
+      "value": "Latitude 34.434, Longitude -86.752",
+      "source_quote": "Latitude: 34.43441498",
+      "citation_offset": {
+        "offset": 109,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 361,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_observers",
+      "value": "Multiple aircraft at altitudes from 6,000 feet to satellite altitude, plus Birmingham ATCT",
+      "source_quote": "MULTIPLE ACFT HAVE REPORTED SAME TWO LIGHTS AT VARIOUS ALTITUDES (6,000 FEET UP TO \"SATELLITE ALTITUDE\"). BMH ATCT REPORTED LIGHTS AS WELL",
+      "citation_offset": {
+        "offset": 389,
+        "len": 138,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "geographic_extent",
+      "value": "Lights reported as far north as Nashville (BNA) and Huntsville (HSV)",
+      "source_quote": "THE LIGHTS HAVE BEEN REPORTED AS FAR NORTH AS BNA AND HSV",
+      "citation_offset": {
+        "offset": 529,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement",
+      "value": "No law enforcement notification reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 588,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_artcc",
+      "value": "Memphis Air Route Traffic Control Center",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 237,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Birmingham, AL",
+    "Miami (MIA)",
+    "Kansas City (MCI)",
+    "Nashville (BNA)",
+    "Huntsville (HSV)"
+  ],
+  "dated_events": [
+    "2023-08-16"
+  ],
+  "objects_described": [
+    "Two bright lights above aircraft at various altitudes from 6,000 feet to satellite altitude",
+    "Boeing 737-800 (B738)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 1397 crew observed two bright lights above their aircraft at 20,000 feet near Birmingham, Alabama",
+      "source_quote": "AMERICAN 1397, B738, MIA - MCI, OBSERVED TWO BRIGHT LIGHTS ABOVE ACFT WHILE AT 20,000 FEET 60 N BHM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 259,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Multiple aircraft at different altitudes independently reported the same two lights",
+      "source_quote": "MULTIPLE ACFT HAVE REPORTED SAME TWO LIGHTS AT VARIOUS ALTITUDES (6,000 FEET UP TO \"SATELLITE ALTITUDE\")",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 389,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Birmingham Air Traffic Control Tower also observed the lights",
+      "source_quote": "BMH ATCT REPORTED LIGHTS AS WELL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 495,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights were visible over a wide geographic area extending north to Nashville and Huntsville",
+      "source_quote": "THE LIGHTS HAVE BEEN REPORTED AS FAR NORTH AS BNA AND HSV",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 529,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the reporting aircraft",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 361,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:18:46.808Z",
+  "qa_completed_at": "2026-06-14T00:19:29.310Z",
+  "timing": {
+    "A": "22.0s",
+    "B": "20.5s",
+    "E": "21.8s"
+  },
+  "public_headline": "Multiple Aircraft and ATC Report Two Bright Lights Over Alabama",
+  "public_tldr": "This FAA preliminary report documents a August 2023 incident in which the crew of American Airlines flight 1397, along with multiple other aircraft and Birmingham air traffic control, observed two bright unidentified lights above their aircraft over Alabama. No explanation or follow-up investigation is included in the document.",
+  "public_narrative": "On 16 August 2023, the crew of American Airlines flight 1397 — a Boeing 737-800 flying from Miami to Kansas City — reported two bright lights above their aircraft while cruising at 20,000 feet, roughly 60 nautical miles north of Birmingham, Alabama. The sighting was logged by the FAA's Washington Operations Center as a preliminary information report.\n\nThe crew were not the only observers. Multiple aircraft at altitudes ranging from 6,000 feet up to what pilots described as \"satellite altitude\" independently reported the same two lights. Birmingham's Air Traffic Control Tower (ATCT) confirmed the sighting as well. Reports of the lights extended over a wide geographic area, reaching as far north as Nashville and Huntsville. Memphis Air Route Traffic Control Center was advised of the situation.\n\nDespite the unusual nature of the sighting, no evasive action was taken by any reporting aircraft, and no law enforcement agencies were notified. The document is a preliminary information report only — it contains no radar data, no instrument readings, and no conclusions about what the lights were. No follow-up investigation or resolution appears in this record.\n\nThe observations were made at approximately 0100 local time, meaning all sightings occurred in darkness, which limits the ability of observers to visually identify distant objects. The wide range of reported altitudes — from 6,000 feet to \"satellite altitude\" — suggests observers may have been describing different phenomena or had difficulty judging distance at night.",
+  "public_caveats": [
+    "This is a preliminary information report, not a completed investigation. The FAA drew no conclusions about what the lights were.",
+    "All observations were visual. No radar data or instrument readings are referenced anywhere in the document.",
+    "The sighting occurred at night (around 0100 local time), which significantly limits visual identification capability.",
+    "The wide altitude range cited by observers — from 6,000 feet to 'satellite altitude' — suggests difficulty judging distance or possibly multiple distinct phenomena being grouped together.",
+    "No follow-up investigation or resolution is included in this document, so it is unknown whether the lights were later identified."
+  ]
+}

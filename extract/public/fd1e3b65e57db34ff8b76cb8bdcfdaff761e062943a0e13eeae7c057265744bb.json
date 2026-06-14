@@ -1,0 +1,228 @@
+{
+  "sha256": "fd1e3b65e57db34ff8b76cb8bdcfdaff761e062943a0e13eeae7c057265744bb",
+  "title": "FAA UAP record 237UAP00481",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot UFO/UAP sighting.",
+  "core_summary": "On February 22, 2023, the pilots of Delta flight 1156 (an Airbus A319 flying from Salt Lake City to Vancouver, Canada) reported seeing lights moving in a triangular pattern at their 12 o'clock position, approximately 15-20 degrees above the horizon near Brownlee Reservoir, Idaho. The lights were moving at a high rate of speed, numbered between 2 and 4, formed a line, and one light became very bright before disappearing.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included",
+    "Aircraft altitude at time of sighting was unknown, limiting altitude estimation of the observed lights",
+    "The report is preliminary ('PRELIM INFO') and may not represent a final investigation conclusion",
+    "Date discrepancy: the report timestamp shows 2/21/2023 10:20 PM MST but the event title references 02-22-2023, consistent with MST-to-UTC conversion"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "flight",
+      "value": "Delta 1156 (DAL1156), Airbus A319",
+      "source_quote": "DELTA 1156, A319, SLC VANCOUVER, CANADA (CYVR)",
+      "citation_offset": {
+        "offset": 249,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Salt Lake City to Vancouver, Canada (CYVR)",
+      "source_quote": "SLC VANCOUVER, CANADA (CYVR)",
+      "citation_offset": {
+        "offset": 267,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "February 22, 2023 at 2220M (10:20 PM MST)",
+      "source_quote": "2/21/2023 10:20:00 PM (-07 MST) Title: DAL1156 UFO-UAP ACTIVITY 02-22-2023",
+      "citation_offset": {
+        "offset": 35,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Vicinity of Brownlee Reservoir, Idaho",
+      "source_quote": "VCNTY OF THE BROWNLEE RESERVOIR",
+      "citation_offset": {
+        "offset": 627,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "44.008778900000003, -116.245407",
+      "source_quote": "Latitude: 44.008778900000003",
+      "citation_offset": {
+        "offset": 110,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_position",
+      "value": "12 o'clock position, 15-20 degrees above the horizon",
+      "source_quote": "LIGHTS MOVING IN TRIANGULAR PATTERN AT THE 12 O'CLOCK POSITION AND ABOUT 15 TO 20 DEGREES ABOVE THE HORIZON",
+      "citation_offset": {
+        "offset": 320,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_movement",
+      "value": "Triangular pattern, high rate of speed, also formed a line",
+      "source_quote": "LIGHTS MOVING IN TRIANGULAR PATTERN... MOVING AT A HIGH RATE OF SPEED... THEM FORMING A LINE",
+      "citation_offset": {
+        "offset": 320,
+        "len": 32,
+        "exact": false,
+        "matched": "LIGHTS MOVING IN TRIANGULAR PATT"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "number_of_lights",
+      "value": "2 to 4",
+      "source_quote": "REPORTED SEEING AS MANY AS 2 TO 4 LIGHTS",
+      "citation_offset": {
+        "offset": 473,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "notable_behavior",
+      "value": "One light became very bright then disappeared",
+      "source_quote": "ONE LIGHT GOT REALLY BRIGHT THEN DISAPPEARED",
+      "citation_offset": {
+        "offset": 555,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "Unknown",
+      "source_quote": "ACFT WAS AT UNKN ALTITUDE",
+      "citation_offset": {
+        "offset": 601,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "nearby_location",
+      "value": "Brownlee, Idaho",
+      "source_quote": "BROWNLEE, ID/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 199,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Brownlee, Idaho",
+    "Brownlee Reservoir",
+    "Salt Lake City",
+    "Vancouver, Canada"
+  ],
+  "dated_events": [
+    "02-22-2023",
+    "2/21/2023 10:20:00 PM (-07 MST)"
+  ],
+  "objects_described": [
+    "2 to 4 unidentified lights moving in triangular pattern",
+    "Airbus A319 (Delta 1156)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight 1156 was an Airbus A319 operating the Salt Lake City to Vancouver route on February 22, 2023",
+      "source_quote": "DELTA 1156, A319, SLC VANCOUVER, CANADA (CYVR)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 249,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Pilots observed lights moving in a triangular pattern at high speed near Brownlee Reservoir, Idaho",
+      "source_quote": "PILOTS REPORTED SEEING LIGHTS MOVING IN TRIANGULAR PATTERN AT THE 12 O'CLOCK POSITION AND ABOUT 15 TO 20 DEGREES ABOVE THE HORIZON. LIGHTS WERE MOVING AT A HIGH RATE OF SPEED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 297,
+        "len": 174,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights also formed a line formation and one became very bright before disappearing",
+      "source_quote": "THEY ALSO REPORTED THEM FORMING A LINE. ONE LIGHT GOT REALLY BRIGHT THEN DISAPPEARED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 515,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft altitude at the time of sighting was unknown",
+      "source_quote": "ACFT WAS AT UNKN ALTITUDE VCNTY OF THE BROWNLEE RESERVOIR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 601,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:26:49.617Z",
+  "qa_completed_at": "2026-06-13T23:27:25.566Z",
+  "timing": {
+    "A": "21.5s",
+    "B": "14.5s",
+    "E": "20.6s"
+  },
+  "public_headline": "Delta Pilots Reported Fast-Moving Lights Over Idaho in 2023",
+  "public_tldr": "An FAA incident report records that the pilots of Delta flight 1156, an Airbus A319 en route from Salt Lake City to Vancouver, reported seeing two to four lights moving in a triangular pattern at high speed near Brownlee Reservoir, Idaho on 22 February 2023. One light became very bright before disappearing. The report is preliminary and includes no radar data or corroborating witnesses.",
+  "public_narrative": "This document is an incident report from the FAA (Federal Aviation Administration) Washington Operations Center. It records a pilot sighting of unidentified lights during a commercial flight on 22 February 2023.\n\nThe crew of Delta flight 1156, flying an Airbus A319 from Salt Lake City to Vancouver, Canada, reported seeing lights at their 12 o'clock position — directly ahead — roughly 15 to 20 degrees above the horizon. The sighting occurred near Brownlee Reservoir in Idaho, at coordinates 44.01°N, 116.25°W. The pilots described two to four lights moving in a triangular pattern at a high rate of speed. The lights also shifted into a line formation, and one light became very bright before disappearing entirely.\n\nThe report notes that the aircraft's altitude at the time of the sighting was unknown, which limits any estimation of how high the observed lights were. There is a minor date discrepancy in the document: the timestamp reads 21 February 2023 at 10:20 PM Mountain Standard Time, while the event title references 22 February 2023 — consistent with a local-time-to-UTC conversion rather than a data error.\n\nThe FAA filing is marked as preliminary information. It does not contain a conclusion about what the lights were, nor does it include corroborating evidence such as radar tracks or reports from other aircraft or ground observers. There is little evidence of redaction in this document.",
+  "public_caveats": [
+    "This is a single-source pilot report. No radar data, photographs, or independent witness accounts are included in the filing.",
+    "The report is labelled as preliminary and may not represent a final investigation finding or conclusion by the FAA.",
+    "The aircraft's altitude at the time of observation was recorded as unknown, making it impossible to estimate the altitude or distance of the lights from this document alone.",
+    "There is minimal redaction, but the absence of follow-up material means it is unclear whether any further investigation took place.",
+    "Pilot visual reports, while credible observations, can be affected by atmospheric conditions, relative motion, and limited reference points at night."
+  ]
+}

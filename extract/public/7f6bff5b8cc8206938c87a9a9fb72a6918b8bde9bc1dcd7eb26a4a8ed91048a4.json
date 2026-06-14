@@ -1,0 +1,250 @@
+{
+  "sha256": "7f6bff5b8cc8206938c87a9a9fb72a6918b8bde9bc1dcd7eb26a4a8ed91048a4",
+  "title": "FAA UAP record 237UAP00623",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot's sighting of an unidentified anomalous phenomenon (UAP) during flight.",
+  "core_summary": "On 29 March 2024, the pilot of Martinaire flight 685, a Cessna C208 aircraft, reported a white UAP at the 12 o'clock position while flying southwest-bound at 4,000 feet, approximately 22 nautical miles northwest of Victoria, Texas. No evasive action was taken and law enforcement was not notified. The report was relayed by Houston Air Route Traffic Control Center (ARTCC) to the FAA Operations Center.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The report is a preliminary operations center log entry, not a full investigation file.",
+    "The UAP is described only as 'white' with no details on shape, size, movement, or duration of observation.",
+    "Martinaire is a cargo airline; MRA685 was likely a cargo flight, not a passenger flight."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "report_date",
+      "value": "2024-03-29T07:51:00-05:00",
+      "source_quote": "Date: 3/29/2024 7:51:00 AM (-05 CDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_callsign",
+      "value": "MRA685 (Martinaire 685)",
+      "source_quote": "MARTINAIRE 685",
+      "citation_offset": {
+        "offset": 256,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Cessna C208",
+      "source_quote": "CESSNA C208",
+      "citation_offset": {
+        "offset": 272,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "White UAP at the 12 o'clock position",
+      "source_quote": "REPORTED A WHITE UAP AT THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 285,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "4,000 feet",
+      "source_quote": "SW BOUND AT 4,000 FEET",
+      "citation_offset": {
+        "offset": 339,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "22 NM northwest of Victoria, Texas",
+      "source_quote": "22 NW VICTORIA",
+      "citation_offset": {
+        "offset": 362,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "heading",
+      "value": "Southwest-bound",
+      "source_quote": "SW BOUND",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 378,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notified",
+      "value": "No",
+      "source_quote": "LEOS NOT NOTIFIED",
+      "citation_offset": {
+        "offset": 406,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Houston ARTCC",
+      "source_quote": "HOUSTON ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 234,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_time",
+      "value": "0715C (Central time)",
+      "source_quote": "0715C",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "latitude",
+      "value": "29.08375783",
+      "source_quote": "Latitude: 29.08375783",
+      "citation_offset": {
+        "offset": 108,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "longitude",
+      "value": "-96.666116",
+      "source_quote": "-96.666116049999999",
+      "citation_offset": {
+        "offset": 140,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_location_city",
+      "value": "Victoria, TX",
+      "source_quote": "VICTORIA, TX",
+      "citation_offset": {
+        "offset": 198,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Victoria, TX",
+    "Houston ARTCC"
+  ],
+  "dated_events": [
+    "3/29/2024",
+    "03-29-2024"
+  ],
+  "objects_described": [
+    "White UAP",
+    "Cessna C208"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Martinaire flight 685, a Cessna C208, encountered a white UAP while flying at 4,000 feet southwest-bound, 22 NM northwest of Victoria, TX",
+      "source_quote": "MARTINAIRE 685, CESSNA C208, REPORTED A WHITE UAP AT THE 12 O'CLOCK POSITION WHILE SW BOUND AT 4,000 FEET 22 NW VICTORIA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 256,
+        "len": 120,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the pilot",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 378,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement officers were not notified",
+      "source_quote": "LEOS NOT NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 406,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident was reported through Houston ARTCC to FAA Operations",
+      "source_quote": "HOUSTON ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 234,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:32:13.447Z",
+  "qa_completed_at": "2026-06-14T01:32:48.119Z",
+  "timing": {
+    "A": "20.9s",
+    "B": "13.8s",
+    "E": "18.4s"
+  },
+  "public_headline": "Cargo Pilot Reports White UAP Near Victoria, Texas",
+  "public_tldr": "This FAA operations center log records a cargo pilot's sighting of a white unidentified anomalous phenomenon (UAP) while flying at 4,000 feet near Victoria, Texas on 29 March 2024. The pilot took no evasive action and law enforcement was not notified — the report is a brief incident log, not a full investigation.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report — essentially a standardised log entry recording that something unusual was reported during a flight. It is not an investigation report and draws no conclusions about what the object was.\n\nOn 29 March 2024, the pilot of Martinaire flight 685, a Cessna C208 cargo aircraft, reported seeing a white UAP directly ahead (the \"12 o'clock position\") while flying southwest at 4,000 feet, roughly 22 nautical miles northwest of Victoria, Texas. Martinaire is a regional cargo airline, so this was likely a freight run rather than a passenger flight.\n\nThe sighting was relayed by Houston Air Route Traffic Control Center (ARTCC) — the facility responsible for managing high-altitude and en-route air traffic in that region — to the FAA Operations Center. The pilot did not take evasive action, and law enforcement was not contacted.\n\nThe report includes coordinates (approximately 29.08°N, 96.67°W) but provides very little detail about the object itself — only that it was white. There is no description of its shape, size, speed, or how long the pilot observed it. The FAA log does not include any radar data, additional witness accounts, or follow-up analysis.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or independent witness accounts included in the document.",
+    "The UAP is described only as 'white' — no shape, size, movement pattern, or duration of observation is recorded.",
+    "This is a preliminary operations center log entry, not a completed investigation. The FAA drew no conclusions about what the object was.",
+    "There is minimal redaction in this document, but the brevity of the report means very little information was recorded in the first place.",
+    "The report date (29 March 2024) post-dates the listed incident year of 2023 in the record identifier, which may reflect administrative filing timelines rather than the actual event date."
+  ]
+}

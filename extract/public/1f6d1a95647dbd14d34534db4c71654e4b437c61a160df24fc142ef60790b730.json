@@ -1,0 +1,89 @@
+{
+  "sha256": "1f6d1a95647dbd14d34534db4c71654e4b437c61a160df24fc142ef60790b730",
+  "title": "CIA-UAP-018, Report of Unusual Flying Object Sightings and Attendant Scientific Activity",
+  "agency": "CIA",
+  "type": "PDF",
+  "incident_date": "1955",
+  "incident_location": "Hungary",
+  "what_is_it": "A CIA intelligence report documenting unusual flying object sightings in Hungary and related scientific activity, based on intercepted correspondence between Hungarian relatives.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "No body text was extractable from the PDF — all facts are derived from metadata and the war.gov catalogue description only.",
+    "The document is likely a scanned image with poor OCR quality, meaning key details from the original report are unavailable.",
+    "Intelligence is single-source, based on private family correspondence rather than direct observation or official channels.",
+    "A prior, more heavily redacted version existed publicly, suggesting sensitive content was withheld even in earlier releases.",
+    "Without the body text, the nature of the 'attendant scientific activity' referenced in the title cannot be determined."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "Originating agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Document identifier",
+      "value": "CIA-UAP-018",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Year of incident",
+      "value": "1955",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Location",
+      "value": "Hungary",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Subject matter",
+      "value": "Unusual flying object sightings and attendant scientific activity",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Hungary"
+  ],
+  "dated_events": [
+    "1955"
+  ],
+  "objects_described": [
+    "Unusual flying object"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "UFO sightings occurred in Hungary in 1955",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:05:06.061Z",
+  "qa_completed_at": "2026-06-14T03:05:42.318Z",
+  "timing": {
+    "A": "15.0s",
+    "B": "21.3s"
+  }
+}

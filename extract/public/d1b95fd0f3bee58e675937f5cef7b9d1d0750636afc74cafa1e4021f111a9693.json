@@ -1,0 +1,215 @@
+{
+  "sha256": "d1b95fd0f3bee58e675937f5cef7b9d1d0750636afc74cafa1e4021f111a9693",
+  "title": "FAA UAP record 237UAP00604",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no radar corroboration — ATC confirmed no UAP on radar",
+    "The description of 'aircraft dogfighting' at FL500 is the crew's characterisation of what they observed, not a confirmed identification",
+    "Coordinates place the sighting over the open Pacific Ocean, far from land, limiting corroborating witnesses",
+    "The report is a preliminary operations center log entry, not a full investigation"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "route",
+      "value": "Taipei, Taiwan (RCTP) to San Francisco (SFO)",
+      "source_quote": "TAIPEI, TAIWAN (RCTP) - SFO",
+      "citation_offset": {
+        "offset": 293,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Unidentified aerial phenomenon resembling aircraft dogfighting",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON OF ACFT DOGFIGHTING AT FL500",
+      "citation_offset": {
+        "offset": 322,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_altitude",
+      "value": "Flight Level 500 (approximately 50,000 feet)",
+      "source_quote": "ACFT DOGFIGHTING AT FL500",
+      "citation_offset": {
+        "offset": 368,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observer_altitude",
+      "value": "Flight Level 370 (approximately 37,000 feet)",
+      "source_quote": "W BOUND AT FL370",
+      "citation_offset": {
+        "offset": 429,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observer_position",
+      "value": "450 nautical miles west of SFO",
+      "source_quote": "450 NM WEST OF SFO",
+      "citation_offset": {
+        "offset": 446,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_relative_position",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "FROM THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 394,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "No UAP observed on radar by ATC",
+      "source_quote": "ATC REPORTED NO UAP OBSERVED ON RADAR",
+      "citation_offset": {
+        "offset": 466,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "atc_facility",
+      "value": "Oakland ARTCC",
+      "source_quote": "OAKLAND ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 239,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "Latitude 37.33, Longitude -130.56",
+      "source_quote": "Latitude: 37.33452956",
+      "citation_offset": {
+        "offset": 108,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_date_time",
+      "value": "January 27, 2024, 05:02 AM PST",
+      "source_quote": "Date: 1/27/2024 5:02:00 AM (-08 PST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "San Francisco, CA",
+    "Taipei, Taiwan",
+    "SFO",
+    "Oakland ARTCC"
+  ],
+  "dated_events": [
+    "1/27/2024",
+    "01-27-2024"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon described as aircraft dogfighting at FL500"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "EVA Air flight 008 crew reported seeing what appeared to be aircraft dogfighting at 50,000 feet while the reporting aircraft was at 37,000 feet",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON OF ACFT DOGFIGHTING AT FL500 FROM THE 12 O'CLOCK POSITION WHILE W BOUND AT FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 322,
+        "len": 123,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 450 nautical miles west of San Francisco over the Pacific Ocean",
+      "source_quote": "450 NM WEST OF SFO",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 446,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Air traffic control radar did not detect any objects corresponding to the reported UAP",
+      "source_quote": "ATC REPORTED NO UAP OBSERVED ON RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 466,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was registered in China",
+      "source_quote": "CHINA REGISTERED EVA 008",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 261,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:14:33.066Z",
+  "qa_completed_at": "2026-06-14T01:15:15.364Z",
+  "timing": {
+    "A": "18.8s",
+    "B": "23.5s",
+    "E": "17.4s"
+  },
+  "public_headline": "Airline Crew Reports Objects Dogfighting at 50,000 Feet Over Pacific",
+  "public_tldr": "An FAA operations center log from January 2024 records a commercial airline crew on a Taipei-to-San Francisco flight reporting what appeared to be aircraft dogfighting at approximately 50,000 feet over the open Pacific Ocean. Air traffic control confirmed no corresponding objects appeared on radar.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report logged on 27 January 2024. It records a UAP (unidentified aerial phenomenon) sighting reported by the crew of EVA Air flight 008, a China-registered aircraft flying westbound from Taipei, Taiwan to San Francisco at Flight Level 370 (approximately 37,000 feet).\n\nThe crew reported seeing what they described as aircraft dogfighting at Flight Level 500 (approximately 50,000 feet), directly ahead of their aircraft at the 12 o'clock position. The sighting occurred roughly 450 nautical miles west of San Francisco, over the open Pacific Ocean, at coordinates 37.33 latitude, -130.56 longitude.\n\nOakland ARTCC (Air Route Traffic Control Center) was advised of the report. Air traffic control reported that no UAP was observed on their radar, meaning whatever the crew saw did not register on ground-based radar systems.\n\nThe document is a preliminary operations center log entry rather than a full investigation report. No conclusion is drawn about what the crew observed, and no follow-up investigation is documented in this record. Redaction levels are low — the report appears largely intact.",
+  "public_caveats": [
+    "This is a single-source pilot report with no radar corroboration — ATC confirmed nothing appeared on radar matching the crew's description.",
+    "The phrase 'aircraft dogfighting' is the crew's own characterisation of what they saw, not a confirmed identification of actual aircraft or combat.",
+    "The sighting occurred over the open Pacific Ocean, far from land, which severely limits the possibility of independent witnesses.",
+    "This is a preliminary operations center log entry, not the result of a formal investigation — no conclusions were reached.",
+    "Flight Level 500 (approximately 50,000 feet) is above the ceiling of most commercial and military aircraft, which makes the crew's description notable but unverified."
+  ]
+}

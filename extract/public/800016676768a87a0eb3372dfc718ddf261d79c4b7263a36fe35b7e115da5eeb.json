@@ -1,0 +1,273 @@
+{
+  "sha256": "800016676768a87a0eb3372dfc718ddf261d79c4b7263a36fe35b7e115da5eeb",
+  "title": "FAA UAP record 237UAP00551",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UAP sighting reported by a civilian pilot.",
+  "core_summary": "On August 31, 2023, the pilot of N715JP, a Cirrus SR22 aircraft, reported seeing a silver unidentified anomalous phenomenon (UAP) approximately 500 feet below the aircraft while flying southbound at 7,000 feet near Patuxent River, Maryland. No evasive action was taken and no law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report from one civilian pilot with no corroborating radar data or additional witness accounts mentioned.",
+    "NHK is the FAA identifier for Patuxent River Naval Air Station, placing this sighting in restricted/military-adjacent airspace.",
+    "The document is a preliminary operations center notification, not a completed investigation.",
+    "BLM and CRE are airport codes (Belmar/Farmingdale, NJ and Grand Strand/Myrtle Beach, SC respectively), indicating the aircraft's route of flight."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of report",
+      "value": "8/31/2023 9:55:00 PM EDT",
+      "source_quote": "Date: 8/31/2023 9:55:00 PM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft tail number",
+      "value": "N715JP",
+      "source_quote": "N715JP, CIRRUS SR22",
+      "citation_offset": {
+        "offset": 267,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Cirrus SR22",
+      "source_quote": "N715JP, CIRRUS SR22",
+      "citation_offset": {
+        "offset": 267,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "BLM to CRE",
+      "source_quote": "BLM - CRE",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP description",
+      "value": "Silver object",
+      "source_quote": "REPORTED A SILVER UAP",
+      "citation_offset": {
+        "offset": 299,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP relative position",
+      "value": "500 feet below the aircraft",
+      "source_quote": "A SILVER UAP 500 FEET BELOW THE ACFT",
+      "citation_offset": {
+        "offset": 308,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "7,000 feet",
+      "source_quote": "S BOUND AT 7,000 FEET",
+      "citation_offset": {
+        "offset": 351,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft heading",
+      "value": "Southbound",
+      "source_quote": "WHILE S BOUND AT 7,000 FEET",
+      "citation_offset": {
+        "offset": 345,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Vicinity of NHK (Patuxent River NAS)",
+      "source_quote": "VCNTY NHK",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Patuxent River ATC",
+      "source_quote": "PATUXENT RIVER ATC ADVISED",
+      "citation_offset": {
+        "offset": 240,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 384,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 412,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting center",
+      "value": "Washington Operations Center",
+      "source_quote": "Washington Operations Center",
+      "citation_offset": {
+        "offset": 0,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Latitude",
+      "value": "38.28633361",
+      "source_quote": "Latitude: 38.28633361",
+      "citation_offset": {
+        "offset": 108,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Longitude",
+      "value": "-76.409971389999995",
+      "source_quote": "Latitude: -76.409971389999995",
+      "citation_offset": {
+        "offset": 130,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Patuxent River, MD",
+    "NHK",
+    "BLM",
+    "CRE"
+  ],
+  "dated_events": [
+    "08-31-2023"
+  ],
+  "objects_described": [
+    "Silver UAP",
+    "Cirrus SR22 (N715JP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Cirrus SR22 with tail number N715JP reported a silver UAP while flying near Patuxent River, MD.",
+      "source_quote": "N715JP, CIRRUS SR22, BLM - CRE, REPORTED A SILVER UAP 500 FEET BELOW THE ACFT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 267,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was observed approximately 500 feet below the aircraft at 7,000 feet altitude.",
+      "source_quote": "A SILVER UAP 500 FEET BELOW THE ACFT WHILE S BOUND AT 7,000 FEET",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 308,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the pilot.",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 384,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was made.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 412,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred at approximately 8:04 PM EDT.",
+      "source_quote": "UFO-UAP ACTIVITY/2004E",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 217,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:28:58.975Z",
+  "qa_completed_at": "2026-06-14T00:29:37.476Z",
+  "timing": {
+    "A": "20.3s",
+    "B": "18.2s",
+    "E": "18.9s"
+  },
+  "public_headline": "Civilian Pilot Reports Silver Object Below Aircraft Near Maryland Naval Station",
+  "public_tldr": "This FAA Washington Operations Center notification documents a civilian pilot's report of a silver unidentified anomalous phenomenon (UAP) spotted 500 feet below their aircraft near Patuxent River Naval Air Station, Maryland, on August 31, 2023. No evasive action was taken, no law enforcement was notified, and no investigation conclusions are included — this is a preliminary incident notification, not a completed inquiry.",
+  "public_narrative": "On the evening of August 31, 2023, the FAA's Washington Operations Center logged an incident notification about a UAP sighting. The pilot of a Cirrus SR22 light aircraft (tail number N715JP), flying southbound at 7,000 feet on a route from Belmar/Farmingdale, New Jersey to Myrtle Beach, South Carolina, reported seeing a silver unidentified object roughly 500 feet below the aircraft.\n\nThe sighting occurred in the vicinity of Patuxent River Naval Air Station (NHK) in Maryland — a location notable for its proximity to restricted military airspace. Patuxent River air traffic control was advised of the report. The pilot did not take evasive action, and no law enforcement notification was made.\n\nThe document itself is brief and administrative in nature. It is a standard FAA operations center notification — essentially a log entry recording that a pilot reported something unusual. It does not contain any analysis, follow-up investigation, radar data, or conclusions about what the object was. There is minimal redaction.\n\nThe coordinates recorded in the report (approximately 38.29°N, 76.41°W) place the sighting over southern Maryland's Chesapeake Bay region. The report was logged at 9:55 PM EDT, with the sighting itself occurring at approximately 8:04 PM EDT.\n\nNo additional witnesses, corroborating sensor data, or follow-up findings are mentioned in this document.",
+  "public_caveats": [
+    "This is a single-source report from one civilian pilot. No corroborating radar data, photographs, or additional witness accounts are mentioned.",
+    "The document is a preliminary operations center notification — essentially a log entry — not a completed investigation or analysis.",
+    "The sighting occurred near Patuxent River Naval Air Station, which is surrounded by restricted military airspace, but the document does not address whether military radar tracked anything.",
+    "The term 'UAP' (unidentified anomalous phenomenon) means the object was unidentified at the time of reporting. It does not imply any particular explanation.",
+    "No conclusions were drawn about what the silver object was. The FAA document records the report but offers no assessment."
+  ]
+}

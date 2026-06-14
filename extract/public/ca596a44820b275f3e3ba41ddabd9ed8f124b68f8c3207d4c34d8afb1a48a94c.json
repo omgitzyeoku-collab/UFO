@@ -1,0 +1,89 @@
+{
+  "sha256": "ca596a44820b275f3e3ba41ddabd9ed8f124b68f8c3207d4c34d8afb1a48a94c",
+  "title": "NASA-UAP-D016, Preliminary Gemini 4 Crew Debriefing, Part I, 1965",
+  "agency": "NASA",
+  "type": "PDF",
+  "incident_date": "6/9/65",
+  "incident_location": "North Atlantic Ocean",
+  "what_is_it": "Preliminary crew debriefing transcript from the Gemini 4 spaceflight, recorded aboard the recovery ship USS Wasp on June 9, 1965.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No extracted body text was available — all facts are derived from document metadata and the CSV description only.",
+    "The document appears to be a scanned PDF with poor or no OCR, so the full content of the debriefing transcript could not be analysed.",
+    "The term \"sparkles\" is vague and could refer to various phenomena (debris, ice particles, optical effects); without the full transcript, context for this observation is unavailable.",
+    "Single-source crew observation with no corroborating sensor data referenced in available metadata."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "NASA-UAP-D016",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Originating agency",
+      "value": "NASA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Mission",
+      "value": "Gemini 4",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Document type",
+      "value": "Preliminary crew debriefing transcript (Part I)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Debriefing date",
+      "value": "June 9, 1965",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident location",
+      "value": "North Atlantic Ocean",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The Gemini 4 crew debriefing was conducted aboard the USS Wasp on June 9, 1965",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:29:12.466Z",
+  "qa_completed_at": "2026-06-14T03:29:45.086Z",
+  "timing": {
+    "A": "15.4s",
+    "B": "17.2s"
+  }
+}

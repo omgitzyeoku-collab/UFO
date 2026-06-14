@@ -1,0 +1,80 @@
+{
+  "sha256": "1ddd2eaeb5b030b7a984f6b80f85d4b6fb50c8b422986c5fce7135a08a0ea90a",
+  "title": "FBI-UAP-D001, FD-302, Unresolved UAP Report, Colorado Springs, 2022",
+  "agency": "FBI",
+  "type": "IMG",
+  "incident_date": "February, 2022",
+  "incident_location": "Colorado Springs, Colorado, U.S.",
+  "what_is_it": "An FBI FD-302 interview summary form documenting an interview with a U.S. military service member about a UAP sighting.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "Source text could not be extracted from the image; all facts are derived from the CSV metadata description provided by war.gov.",
+    "Single-witness account from a military service member — no corroborating sensor data or additional witnesses mentioned.",
+    "The interview occurred approximately three years after the incident, raising potential recall reliability concerns.",
+    "The witness's identity is not disclosed; the document likely contains redactions of personally identifiable information.",
+    "The case is described as 'unresolved' — no identification or explanation of the object has been provided."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "FBI FD-302 (interview record form)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "agency",
+      "value": "Federal Bureau of Investigation (FBI)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_date",
+      "value": "February 2022",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_location",
+      "value": "Colorado Springs, Colorado",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Colorado Springs, Colorado"
+  ],
+  "dated_events": [
+    "February 2022"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The FBI conducted an interview in March 2025 with a U.S. military service member about a February 2022 UAP incident in Colorado Springs.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:19:33.911Z",
+  "qa_completed_at": "2026-06-14T03:20:17.939Z",
+  "timing": {
+    "A": "18.5s",
+    "B": "25.5s"
+  }
+}

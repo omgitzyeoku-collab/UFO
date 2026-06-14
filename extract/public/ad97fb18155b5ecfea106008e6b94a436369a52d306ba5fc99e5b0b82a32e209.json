@@ -1,0 +1,203 @@
+{
+  "sha256": "ad97fb18155b5ecfea106008e6b94a436369a52d306ba5fc99e5b0b82a32e209",
+  "title": "FAA UAP record 237UAP00518",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA Washington Operations Center incident report documenting a pilot's sighting of an unidentified anomalous phenomenon near Nashville, Tennessee.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report from one pilot with no corroborating radar data or additional witnesses mentioned.",
+    "The description 'large brown object' is vague and could correspond to various conventional objects (e.g., weather balloon, debris).",
+    "The report is a preliminary operations center log entry, not a full investigation report.",
+    "The notation '30 N BNA' likely means 30 nautical miles north of BNA, but the exact meaning is inferred from aviation shorthand."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "report_date",
+      "value": "2023-06-25 20:15 CDT",
+      "source_quote": "Date: 6/25/2023 8:15:00 PM (-05 CDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_registration",
+      "value": "N79866",
+      "source_quote": "N79866, MOONEY M20P",
+      "citation_offset": {
+        "offset": 257,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Mooney M20P",
+      "source_quote": "N79866, MOONEY M20P",
+      "citation_offset": {
+        "offset": 257,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Large brown object",
+      "source_quote": "REPORTED A LARGE BROWN OBJECT",
+      "citation_offset": {
+        "offset": 278,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location_coordinates",
+      "value": "36.5596°N, 86.6782°W",
+      "source_quote": "Latitude: 36.55956947",
+      "citation_offset": {
+        "offset": 108,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "artcc_involved",
+      "value": "Memphis ARTCC",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 235,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 340,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 368,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Nashville, TN",
+    "BNA (Nashville International Airport)",
+    "Memphis ARTCC"
+  ],
+  "dated_events": [
+    "6/25/2023"
+  ],
+  "objects_described": [
+    "Large brown object (UAP)",
+    "Mooney M20P (general aviation aircraft)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Mooney M20P aircraft registered N79866 reported a UAP sighting on June 25, 2023.",
+      "source_quote": "N79866, MOONEY M20P, REPORTED A LARGE BROWN OBJECT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 257,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object was described as large and brown, positioned approximately 2,000 feet above the aircraft and 30 nautical miles north of Nashville International Airport.",
+      "source_quote": "REPORTED A LARGE BROWN OBJECT FROM 2,000 FEET ABOVE 30 N BNA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 278,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot did not take evasive action.",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 340,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was made.",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 368,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Memphis Air Route Traffic Control Center handled the report.",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 235,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:59:06.068Z",
+  "qa_completed_at": "2026-06-13T23:59:54.380Z",
+  "timing": {
+    "A": "20.9s",
+    "B": "27.4s",
+    "E": "17.2s"
+  },
+  "public_headline": "Pilot Reports Large Brown Object North of Nashville in 2023",
+  "public_tldr": "This FAA operations center report documents a June 2023 incident in which a pilot flying a small Mooney aircraft spotted a large brown object roughly 30 nautical miles north of Nashville International Airport. The report is a brief log entry with no follow-up investigation or identification of the object included.",
+  "public_narrative": "On 25 June 2023, the FAA's Washington Operations Center logged a report from a pilot flying a Mooney M20P, a single-engine general aviation aircraft registered as N79866. The pilot reported seeing a large brown object approximately 2,000 feet above the aircraft's position, roughly 30 nautical miles north of Nashville International Airport (BNA) in Tennessee. The coordinates place the sighting at about 36.56°N, 86.68°W.\n\nMemphis Air Route Traffic Control Center (ARTCC), which manages high-altitude airspace across the region, was advised of the sighting. According to the report, the pilot did not take evasive action, and no law enforcement agencies were notified.\n\nThe document is a preliminary operations center log entry — essentially a one-page intake record — rather than a full investigation. It contains no radar data, no photographs, and no mention of additional witnesses or corroborating evidence. The FAA did not identify the object or offer any conclusion about what it might have been.\n\nThere is little evidence of redaction in this particular document. What's notable is not what was removed but what was never included: the record captures only the bare facts of the pilot's report and stops there.",
+  "public_caveats": [
+    "This is a single-source report from one pilot. No corroborating radar data or additional witnesses are mentioned in the document.",
+    "The description 'large brown object' is vague and could correspond to conventional explanations such as a weather balloon, airborne debris, or other known objects.",
+    "This is a preliminary log entry from the FAA's operations center, not a completed investigation. No conclusions were drawn about the object's identity.",
+    "The phrase '30 N BNA' is standard aviation shorthand likely meaning 30 nautical miles north of Nashville International Airport, but this is an inference from convention, not an explicit statement in the document.",
+    "No evasive action was taken and no law enforcement was contacted, which suggests the pilot did not perceive an immediate threat."
+  ]
+}

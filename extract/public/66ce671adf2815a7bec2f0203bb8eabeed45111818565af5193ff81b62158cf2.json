@@ -1,0 +1,73 @@
+{
+  "sha256": "66ce671adf2815a7bec2f0203bb8eabeed45111818565af5193ff81b62158cf2",
+  "title": "CIA-UAP-013, Report of Unusual Flying Object Sightings and Attendant Scientific Activity",
+  "agency": "CIA",
+  "type": "IMG",
+  "incident_date": "1956",
+  "incident_location": "Budapest, Hungary",
+  "what_is_it": "A CIA Information Report documenting unusual flying object sightings reported by a sub-source in Budapest, Hungary, including a sketch of the objects' suspected formation and flight path.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No OCR text could be extracted from this scanned image; all facts derive from metadata and the war.gov CSV description only.",
+    "The report relies on a single sub-source in Budapest; no corroborating sources are mentioned.",
+    "A more redacted version was previously public, meaning this release contains additional content, but the extent of new material is unclear without readable text.",
+    "Cold War-era intelligence reports from behind the Iron Curtain should be evaluated with awareness of the geopolitical context and potential for disinformation."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "Originating agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Date of incident",
+      "value": "1956",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Location of sightings",
+      "value": "Budapest, Hungary",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Budapest",
+    "Hungary"
+  ],
+  "dated_events": [
+    "1956"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "Flying object sightings were reported by a Budapest-based sub-source to the CIA in 1956.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:01:18.924Z",
+  "qa_completed_at": "2026-06-14T03:01:51.813Z",
+  "timing": {
+    "A": "18.3s",
+    "B": "14.6s"
+  }
+}

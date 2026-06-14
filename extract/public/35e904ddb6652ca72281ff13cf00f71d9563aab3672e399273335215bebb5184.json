@@ -1,0 +1,60 @@
+{
+  "sha256": "35e904ddb6652ca72281ff13cf00f71d9563aab3672e399273335215bebb5184",
+  "title": "NASA-UAP-D015, Astronaut Scientific Debriefings, 1962-1963",
+  "agency": "NASA",
+  "type": "PDF",
+  "incident_date": "1962-1963",
+  "what_is_it": "A collection of memoranda, correspondence, reports, and interview transcripts relating to NASA's scientific investigation of luminous phenomena observed by astronauts during spaceflight in 1962-1963.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No extracted body text was available; all facts are derived solely from document metadata and the CSV description.",
+    "The document appears to be scanned with poor OCR quality, so the full content could not be analysed.",
+    "Only specific page ranges (34-35, 55-56, 57-63, 64-113, 122-127) are flagged as PURSUE-relevant; the remainder may cover unrelated NASA topics.",
+    "Without the source text, redaction levels and specific claims cannot be independently verified."
+  ],
+  "fabrication_score": 3,
+  "key_facts": [
+    {
+      "field": "Agency",
+      "value": "NASA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Time period",
+      "value": "1962-1963",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "NASA conducted scientific debriefings and interviews with both astronauts regarding these observations",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:28:09.304Z",
+  "qa_completed_at": "2026-06-14T03:28:41.938Z",
+  "timing": {
+    "A": "15.3s",
+    "B": "17.3s"
+  }
+}

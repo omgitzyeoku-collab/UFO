@@ -1,0 +1,60 @@
+{
+  "sha256": "3e03f61e60ce007256731bcb7119d15829cee3d532b21336c7c06177c19414c8",
+  "title": "CIA-UAP-004, CASE 17708 (CLOSED) and DR. Leon Davidson",
+  "agency": "CIA",
+  "type": "PDF",
+  "incident_date": "1958",
+  "what_is_it": "A CIA internal memorandum documenting a phone conversation with Dr. Leon Davidson about a destroyed 'space message and its transmitter.'",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No body text was extractable from the PDF — all facts derive from the document title and CSV metadata description only.",
+    "The document is known to be redacted; a redacted version was already public on the CIA website.",
+    "Without the full text, the nature of the 'space message and its transmitter' and what was destroyed cannot be determined.",
+    "Dr. Leon Davidson was a known UFO researcher of the era; his claims should be evaluated in that context."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "case_number",
+      "value": "17708 (CLOSED)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "subject_person",
+      "value": "Dr. Leon Davidson",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The matter was filed under CIA Case 17708, which was subsequently closed",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:51:37.418Z",
+  "qa_completed_at": "2026-06-14T02:52:04.729Z",
+  "timing": {
+    "A": "13.7s",
+    "B": "13.6s"
+  }
+}

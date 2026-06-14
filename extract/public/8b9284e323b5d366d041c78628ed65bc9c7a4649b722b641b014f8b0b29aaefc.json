@@ -1,0 +1,372 @@
+{
+  "sha256": "8b9284e323b5d366d041c78628ed65bc9c7a4649b722b641b014f8b0b29aaefc",
+  "title": "OSD UAP record 026_DGI_Briefing",
+  "agency": "OSD",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "Unclassified briefing presentation by the All-Domain Anomaly Resolution Office (AARO) on leveraging data, analysis, and AI to identify UAP, delivered at the Defense Space, Geospatial & Intelligence Leadership Conference.",
+  "core_summary": "This AARO briefing outlines the office's mission to investigate UAP across all domains, describes analytic trends showing most reports resolve to mundane objects, and presents case studies including the Mt. Etna balloon resolution and Starlink flaring as explanations for reported UAP. It also covers AARO's expansion into space domain awareness, controlled field experiments at Camp Grafton to validate new GEOINT methods, and the development of automated detection algorithms.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a public-facing briefing presentation, not raw intelligence — it presents AARO's institutional perspective and selected case resolutions",
+    "The Mt. Etna assessment is stated at 'moderate confidence', not high confidence",
+    "Most civilian UAP reports are noted as lacking sufficient data for conclusive analysis",
+    "The briefing emphasises prosaic explanations (balloons, Starlink) and does not discuss any cases assessed as genuinely anomalous",
+    "Camp Grafton experiments used surrogate targets designed to mimic reported UAP behaviours — results demonstrate how mundane objects can appear anomalous, but this does not address all reported UAP cases"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Presenting official",
+      "value": "Mr. Tim Phillips, Deputy Director, AARO",
+      "source_quote": "Mr. Tim Phillips Deputy Director, AARO",
+      "citation_offset": {
+        "offset": 11110,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Event presented at",
+      "value": "Defense Space, Geospatial & Intelligence Leadership Conference",
+      "source_quote": "Presentation to the Defense Space, Geospatial & Intelligence Leadership Conference",
+      "citation_offset": {
+        "offset": 104,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Legal authority",
+      "value": "FY24 NDAA, codified at 44 U.S.C. 2107",
+      "source_quote": "Authority: FY24 NDAA, now codified at 44 U.S.C. 2107",
+      "citation_offset": {
+        "offset": 262,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case number",
+      "value": "330UAP000026",
+      "source_quote": "Case Number: 330UAP000026",
+      "citation_offset": {
+        "offset": 350,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Classification",
+      "value": "Released in Full, Unclassified",
+      "source_quote": "Released in Full: X",
+      "citation_offset": {
+        "offset": 330,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Prepublication clearance date",
+      "value": "2025-02-03",
+      "source_quote": "CLEARED For Open Publication Feb 03, 2025",
+      "citation_offset": {
+        "offset": 1617,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP primary attribution",
+      "value": "Domain-awareness gaps",
+      "source_quote": "UAP are primarily attributable to domain-awareness gaps",
+      "citation_offset": {
+        "offset": 1360,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FAA reports received",
+      "value": "More than 100 reports from the FAA",
+      "source_quote": "AARO received more than 100 reports from the FAA",
+      "citation_offset": {
+        "offset": 3848,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mt. Etna object assessment",
+      "value": "Balloon drifting with wind approximately 170 km from volcano, moderate confidence",
+      "source_quote": "assesses with moderate confidence that the object was a balloon drifting with the wind approximately 170 kilometers from the volcano",
+      "citation_offset": {
+        "offset": 4726,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mt. Etna event year",
+      "value": "2018",
+      "source_quote": "In 2018, a US UAS platform captured video of an unidentified object while observing an eruption of Mt. Etna in Italy",
+      "citation_offset": {
+        "offset": 4413,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Camp Grafton testing location",
+      "value": "Camp Grafton, North Dakota — 10,000 acres of federal land",
+      "source_quote": "AARO conducted controlled experiments at Camp Grafton, North Dakota… 10,000 acres of federal land (UAS training area)",
+      "citation_offset": {
+        "offset": 6821,
+        "len": 65,
+        "exact": false,
+        "matched": "AARO conducted controlled experiments at Camp Grafton, North Dako"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Camp Grafton FMV collection duration",
+      "value": "Over two hours of unclassified FMV collection",
+      "source_quote": "Over two hours of unclassified FMV collection",
+      "citation_offset": {
+        "offset": 7045,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Space UAP cases received",
+      "value": "81 cases, 74 from FAA, 62 closed",
+      "source_quote": "AARO has received 81 UAP cases from observers related to Space Domain… Of these, 74 were reported by the FAA… AARO has closed 62 Space-based UAP cases",
+      "citation_offset": {
+        "offset": 8927,
+        "len": 65,
+        "exact": false,
+        "matched": "AARO has received 81 UAP cases from observers related to Space Do"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Space UAP Tiger Team",
+      "value": "Convened to address space domain awareness gaps and develop automated detection algorithms",
+      "source_quote": "AARO convened a Space UAP Tiger Team to address space domain awareness",
+      "citation_offset": {
+        "offset": 8143,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Starlink flaring explanation",
+      "value": "Bright specular reflection off nadir surface of Starlink satellites, occurring just above horizon after sunset/before sunrise",
+      "source_quote": "Flaring is bright specular reflection off nadir surface; Occurs just above horizon after sunset and before sunrise",
+      "citation_offset": {
+        "offset": 9649,
+        "len": 55,
+        "exact": false,
+        "matched": "Flaring is bright specular reflection off nadir surface"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "AARO organizational divisions",
+      "value": "Analysis, Operations, Science & Technology, Strategic Communications, Chief of Staff",
+      "source_quote": "Analysis Chief of Staff Operations Science & Technology Strategic Communications",
+      "citation_offset": {
+        "offset": 2456,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Surrogate target behaviours tested",
+      "value": "Hot, high-speed, orb-like, star-like, highly manoeuvrable, transmedium",
+      "source_quote": "Surrogate targets exhibited similar behaviors and morphologies as widely reported UAP behaviors, such as being \"hot,\" \"high-speed,\" \"orb-like,\" \"star-like,\" \"highly maneuverable,\" or \"transmedia\"",
+      "citation_offset": {
+        "offset": 7093,
+        "len": 100,
+        "exact": false,
+        "matched": "Surrogate targets exhibited similar behaviors and morphologies as widely reported UAP behaviors, suc"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Tim Phillips"
+  ],
+  "named_places": [
+    "Mt. Etna, Italy",
+    "Camp Grafton, North Dakota",
+    "United States"
+  ],
+  "dated_events": [
+    "2018",
+    "2025-02-03",
+    "2025-02-06"
+  ],
+  "objects_described": [
+    "US UAS platform",
+    "balloon",
+    "Starlink satellites",
+    "telemetered airborne surrogate targets"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Most anomalous detections reported to AARO resolve to mundane objects",
+      "source_quote": "Of those that do, most resolve to mundane objects",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1184,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Mt. Etna object was assessed with moderate confidence to be a balloon 170 km from the volcano",
+      "source_quote": "assesses with moderate confidence that the object was a balloon drifting with the wind approximately 170 kilometers from the volcano",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4726,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object's flight path did not intersect with the Mt. Etna ash plume based on pixel luminosity analysis",
+      "source_quote": "AARO found that the object's flight path did not intersect with the ash plume by analyzing pixel luminosity against its surroundings",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5251,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO received more than 100 UAP reports from the FAA",
+      "source_quote": "AARO received more than 100 reports from the FAA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3848,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO received 81 space-domain UAP cases, 74 from the FAA, and closed 62",
+      "source_quote": "AARO has received 81 UAP cases from observers related to Space Domain… Of these, 74 were reported by the FAA… AARO has closed 62 Space-based UAP cases",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8927,
+        "len": 65,
+        "exact": false,
+        "matched": "AARO has received 81 UAP cases from observers related to Space Do"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO conducted controlled experiments at Camp Grafton with over two hours of unclassified full-motion video collection",
+      "source_quote": "AARO conducted controlled experiments at Camp Grafton, North Dakota… Over two hours of unclassified FMV collection",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6821,
+        "len": 65,
+        "exact": false,
+        "matched": "AARO conducted controlled experiments at Camp Grafton, North Dako"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO employed mathematical tools to predict Starlink flaring events and validated the predictions through observation",
+      "source_quote": "AARO employed mathematical tools to predict when and where flaring events would occur; observed and validated the predictions",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9880,
+        "len": 125,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Many UAP cases remain unresolved due to lack of verifiable data",
+      "source_quote": "Many cases in AARO's holdings remain unresolved because of a lack of verifiable data",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3007,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO's reporting has a collection bias near major range and test facilities, special use airspace, and operational areas",
+      "source_quote": "AARO's reliance on DoD-sourced reports leads to a collection bias near major range and test facilities, special use airspace, and operational areas",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3403,
+        "len": 100,
+        "exact": false,
+        "matched": "s reliance on DoD-sourced reports leads to a collection bias near major range and test facilities, s"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Surrogate targets at Camp Grafton exhibited behaviours commonly reported as anomalous UAP characteristics",
+      "source_quote": "Surrogate targets exhibited similar behaviors and morphologies as widely reported UAP behaviors, such as being \"hot,\" \"high-speed,\" \"orb-like,\" \"star-like,\" \"highly maneuverable,\" or \"transmedia\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7093,
+        "len": 100,
+        "exact": false,
+        "matched": "Surrogate targets exhibited similar behaviors and morphologies as widely reported UAP behaviors, suc"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 4,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:06:57.783Z",
+  "qa_completed_at": "2026-06-14T02:08:06.993Z",
+  "timing": {
+    "A": "40.5s",
+    "B": "28.7s",
+    "E": "25.5s"
+  },
+  "public_headline": "Pentagon UAP Office Briefing Shows Most Sightings Resolve to Ordinary Objects",
+  "public_tldr": "This is an unclassified briefing by the All-Domain Anomaly Resolution Office (AARO), the Pentagon's UAP investigation unit, presented at a defence intelligence conference. It argues that most reported UAP are explained by gaps in awareness of what's already in the sky — balloons, satellites, and other mundane objects — while acknowledging that many cases remain unresolved due to insufficient data.",
+  "public_narrative": "This document is a briefing presentation delivered by Tim Phillips, Deputy Director of the All-Domain Anomaly Resolution Office (AARO), at the Defense Space, Geospatial & Intelligence Leadership Conference. AARO is the Pentagon office responsible for investigating unidentified anomalous phenomena (UAP) across air, sea, space, and land. The briefing was cleared for public release on 3 February 2025 and is fully unclassified with minimal redaction. Its legal authority is cited as the FY24 National Defense Authorization Act, codified at 44 U.S.C. 2107.\n\nThe central message is that UAP are \"primarily attributable to domain-awareness gaps\" — meaning most sightings stem from observers not recognising ordinary objects. The briefing walks through specific case studies. In one, a US drone captured video of an unidentified object near Italy's Mt. Etna volcano in 2018; AARO assessed with moderate confidence that it was a balloon drifting with the wind roughly 170 kilometres from the eruption, based partly on pixel luminosity analysis showing the object's path did not intersect the ash plume. In another, AARO explains that bright \"flaring\" from SpaceX Starlink satellites — caused by sunlight reflecting off their flat undersides just after sunset or before sunrise — accounts for a category of space-domain reports. AARO developed mathematical tools to predict these flaring events and validated the predictions through observation.\n\nAARO also describes controlled field experiments at Camp Grafton, North Dakota, a 10,000-acre federal site, where surrogate targets were designed to mimic commonly reported UAP behaviours — appearing hot, high-speed, orb-like, star-like, or highly manoeuvrable. Over two hours of unclassified full-motion video was collected. The aim was to test new geospatial intelligence methods and develop automated detection algorithms. Separately, AARO received 81 space-domain UAP cases (74 from the Federal Aviation Administration) and had closed 62 of them. More than 100 total reports came from the FAA. A dedicated Space UAP Tiger Team was convened to address awareness gaps in that domain.\n\nDespite the emphasis on prosaic explanations, the briefing acknowledges that many cases in AARO's holdings remain unresolved because of a lack of verifiable data. It also notes a collection bias: because AARO relies heavily on Department of Defense sources, reports cluster near military test ranges, special-use airspace, and operational areas rather than reflecting UAP activity nationwide.",
+  "public_caveats": [
+    "This is a public-facing briefing designed to present AARO's institutional perspective and selected resolved cases — it is not raw intelligence data or a comprehensive accounting of all UAP reports.",
+    "The Mt. Etna balloon assessment is stated at 'moderate confidence', not high confidence, meaning the explanation is considered likely but not certain.",
+    "The briefing emphasises cases that resolved to mundane explanations (balloons, Starlink satellites) and does not discuss any cases assessed as genuinely anomalous or unexplained in detail.",
+    "The Camp Grafton experiments demonstrated that surrogate targets can mimic reported UAP behaviours, but this does not address or explain all reported UAP cases.",
+    "AARO acknowledges a geographic collection bias toward military facilities and that many civilian UAP reports lack sufficient data for conclusive analysis."
+  ]
+}

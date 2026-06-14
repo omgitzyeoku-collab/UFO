@@ -1,0 +1,216 @@
+{
+  "sha256": "d3cf5702fd98a522960790d76acd4dd41177e09c6f9e725bf2583efde17b90b5",
+  "title": "FAA UAP record 237UAP00544",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification reporting a UFO/UAP sighting by commercial aircraft crews near Little Rock, Arkansas.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary operations center notification, not a completed investigation or case resolution.",
+    "Pilot visual observation only — no radar data, sensor readings, or photographic evidence referenced.",
+    "Two independent flight crews corroborate the sighting, which strengthens the report compared to a single-source observation.",
+    "The coordinates place the sighting near Little Rock, AR but precise UAP location relative to the aircraft is not specified."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "August 25, 2023 at 03:50 CDT",
+      "source_quote": "Date: 8/25/2023 3:50:00 AM (-05 CDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "El Paso (ELP) to Louisville (SDF)",
+      "source_quote": "ELP - SDF",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight Level 270 (27,000 feet)",
+      "source_quote": "E BOUND AT FL270",
+      "citation_offset": {
+        "offset": 409,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Vicinity of Little Rock, AR (34.729°N, 92.225°W)",
+      "source_quote": "VCNTY LIT",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP description",
+      "value": "Dim-to-bright white lights moving in circles and up-down patterns",
+      "source_quote": "UNIDENTIFIED AERIAL PHENOMENON OF DIM-BRIGHT WHITE LIGHTS MOVING IN CIRCLES AND UP-DOWN PATTERNS",
+      "citation_offset": {
+        "offset": 306,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 471,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None",
+      "source_quote": "NO LEO NOTIFICATION",
+      "citation_offset": {
+        "offset": 496,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Memphis ARTCC",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 244,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Latitude",
+      "value": "34.729441389999998",
+      "source_quote": "Latitude: 34.729441389999998",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Longitude",
+      "value": "-92.224777219999993",
+      "source_quote": "-92.224777219999993",
+      "citation_offset": {
+        "offset": 147,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Little Rock, AR",
+    "Memphis ARTCC"
+  ],
+  "dated_events": [
+    "08-25-2023",
+    "8/25/2023 3:50:00 AM (-05 CDT)"
+  ],
+  "objects_described": [
+    "Dim-to-bright white lights moving in circles and up-down patterns"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Berry Aviation flight 651 was operating an E120 aircraft on the ELP-SDF route at FL270 when the sighting occurred.",
+      "source_quote": "BERRY 651, E120, ELP - SDF, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 266,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of dim-to-bright white lights exhibiting circular and vertical movement patterns.",
+      "source_quote": "DIM-BRIGHT WHITE LIGHTS MOVING IN CIRCLES AND UP-DOWN PATTERNS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 340,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second aircraft, JetBlue flight 358, independently corroborated the sighting.",
+      "source_quote": "JBU358 REPORTED SIMILAR SIGHTING",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 437,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the reporting aircraft.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 471,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified.",
+      "source_quote": "NO LEO NOTIFICATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 496,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:22:34.967Z",
+  "qa_completed_at": "2026-06-14T00:23:18.397Z",
+  "timing": {
+    "A": "22.5s",
+    "B": "20.9s",
+    "E": "18.9s"
+  },
+  "public_headline": "Two Airline Crews Reported Unexplained Lights Near Little Rock in 2023",
+  "public_tldr": "This FAA Washington Operations Center notification documents a UAP sighting on August 25, 2023, near Little Rock, Arkansas. A Berry Aviation crew flying at 27,000 feet observed dim-to-bright white lights moving in circles and up-down patterns, and a JetBlue flight independently reported a similar sighting.",
+  "public_narrative": "On August 25, 2023, at 3:50 AM Central time, the crew of Berry Aviation flight 651 — operating an E120 aircraft on a route from El Paso to Louisville at 27,000 feet — reported an unidentified aerial phenomenon near Little Rock, Arkansas. They described dim-to-bright white lights that moved in circular and up-and-down patterns.\n\nThe sighting was reported to Memphis ARTCC (Air Route Traffic Control Center), the FAA facility managing that airspace. A second aircraft, JetBlue flight 358, independently reported a similar sighting, providing corroboration from a separate crew.\n\nNo evasive action was taken by either aircraft, and law enforcement was not notified. The coordinates recorded in the report (34.73°N, 92.22°W) place the incident in the vicinity of Little Rock, though the precise location of the lights relative to the aircraft is not specified.\n\nThis document is a preliminary operations center notification — an internal FAA alert generated when something unusual is reported. It is not the result of a completed investigation, and the FAA did not reach any conclusion about what the lights were. There is little evidence of redaction in the record.\n\nThe report contains no radar data, sensor readings, or photographic evidence. What it does contain is a straightforward account from two independent commercial flight crews describing the same phenomenon in the same area at the same time.",
+  "public_caveats": [
+    "This is a preliminary FAA notification, not a completed investigation or case resolution. No conclusions were drawn about what the lights were.",
+    "The report is based entirely on pilot visual observations — no radar data, instrument readings, or photographs are referenced.",
+    "Two independent flight crews reported similar sightings, which adds weight compared to a single-source report, but visual observation alone has well-known limitations.",
+    "The coordinates place the sighting near Little Rock, AR, but the exact position of the lights relative to the aircraft is not stated.",
+    "Low redaction evidence suggests the document is largely complete as released, but absence of redaction does not mean all relevant information was captured in the first place."
+  ]
+}

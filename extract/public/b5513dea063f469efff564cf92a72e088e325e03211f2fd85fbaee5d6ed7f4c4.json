@@ -1,0 +1,80 @@
+{
+  "sha256": "b5513dea063f469efff564cf92a72e088e325e03211f2fd85fbaee5d6ed7f4c4",
+  "title": "FBI-UAP-D009, FD-302-67, “Northeastern Orb Sighting,” 2026",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "2026",
+  "incident_location": "Northeastern United States",
+  "what_is_it": "An FBI FD-302 interview report documenting a U.S. person's account of incidents potentially involving unidentified anomalous phenomena in the northeastern United States.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "No body text was extractable from the PDF — all facts are derived from metadata and the war.gov CSV description only.",
+    "The document is likely heavily redacted or scanned at a quality too low for OCR extraction.",
+    "The interviewee is described only as a 'U.S. person' with no further identifying details available.",
+    "Single-source account: the FD-302 records one person's description of events.",
+    "The term 'orb' appears in the document title but cannot be confirmed from body text."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "FBI FD-302 (interview record form)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "agency",
+      "value": "FBI",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_region",
+      "value": "Northeastern United States",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "subject_matter",
+      "value": "Incidents potentially involving unidentified anomalous phenomena",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Northeastern United States"
+  ],
+  "dated_events": [],
+  "objects_described": [
+    "Orb"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The FBI conducted an interview in February 2026 with a U.S. person about incidents potentially involving unidentified anomalous phenomena.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:44:50.252Z",
+  "qa_completed_at": "2026-06-14T02:45:24.983Z",
+  "timing": {
+    "A": "15.3s",
+    "B": "19.5s"
+  }
+}

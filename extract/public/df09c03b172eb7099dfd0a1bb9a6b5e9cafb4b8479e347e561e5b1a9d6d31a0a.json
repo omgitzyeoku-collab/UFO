@@ -1,0 +1,74 @@
+{
+  "sha256": "df09c03b172eb7099dfd0a1bb9a6b5e9cafb4b8479e347e561e5b1a9d6d31a0a",
+  "title": "CIA-UAP-011, The Sary Shagan Weapons Testing Range",
+  "agency": "CIA",
+  "type": "IMG",
+  "incident_date": "December, 1973",
+  "incident_location": "USSR",
+  "what_is_it": "A CIA Intelligence Information Report documenting Soviet weapons testing facilities and an unidentified aerial phenomenon observed at the Sary Shagan Weapons Testing Range.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "No extracted body text available — all facts derived from metadata and the CSV description only.",
+    "Source is a scanned image with no OCR text, so verbatim quotes cannot be provided.",
+    "Laser weapon research is described as 'rumored' even in the metadata, indicating it was unconfirmed intelligence.",
+    "A more redacted version existed publicly, suggesting this release contains additional previously withheld information.",
+    "Single-source intelligence report; claims about the site may reflect incomplete or unverified intelligence from 1973."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "Originating agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Document date",
+      "value": "December 1973",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Location",
+      "value": "Sary Shagan Weapons Testing Range, USSR",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Sary Shagan Weapons Testing Range",
+    "USSR"
+  ],
+  "dated_events": [
+    "December 1973"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "An unidentified aerial phenomenon was observed at the Sary Shagan range",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:59:08.572Z",
+  "qa_completed_at": "2026-06-14T02:59:38.859Z",
+  "timing": {
+    "A": "14.7s",
+    "B": "15.5s"
+  }
+}

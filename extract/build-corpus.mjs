@@ -99,13 +99,20 @@ for (const d of docs) {
   const transcript = existsSync(path.join(TRANSCRIPTS_DIR, d.sha256 + '.json'));
   if (transcript) transcriptCount++;
 
+  // Derive the release tag from the medialink URL (release_0N → release_N).
+  // war.gov's release-watch delta crawler hardcodes 'release_2', so a doc
+  // whose URL says release_03 must be re-tagged. The URL is authoritative.
+  let release = d.release || 'release_1';
+  const relMatch = (d.url || d.release_url || '').match(/release_0?(\d+)/i);
+  if (relMatch) release = `release_${parseInt(relMatch[1])}`;
+
   out.push({
     sha256: d.sha256,
     type,
     agency: d.agency || null,
     incident_date: d.incident_date || null,
     incident_location: d.incident_location || null,
-    release: d.release || 'release_1',
+    release,
     source: d.source || 'war.gov',
     bytes: d.bytes || 0,
     name: d.name || null,

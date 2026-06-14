@@ -1,0 +1,222 @@
+{
+  "sha256": "4645ef2b841b8722b18c79de3276e5719c66465eec63493241cc275991e0b27a",
+  "title": "FAA UAP record 237UAP00527",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UAP sighting reported by a commercial aircraft crew.",
+  "core_summary": "On July 20, 2023, the crew of Horizon Air flight 2063 (an Embraer E175L) flying from Portland to Santa Ana reported observing 10-15 stationary lights at approximately FL230 (23,000 feet) while southbound at FL250 (25,000 feet), located 20 nautical miles southwest of LAX. No evasive action was taken and no law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The document is a preliminary operations center notification, not a full investigation report.",
+    "The title references 07-21-2023 but the timestamp is 7/20/2023 10:15 PM PDT, likely reflecting a UTC date difference.",
+    "The longitude value is negative (-118.65), placing the coordinates off the coast of Los Angeles, consistent with the stated location 20 SW LAX."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "Horizon Air flight 2063 (QXE2063), Embraer E75L",
+      "source_quote": "HORIZON 2063, E75L, PDX - SNA",
+      "citation_offset": {
+        "offset": 272,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Portland (PDX) to Santa Ana (SNA)",
+      "source_quote": "PDX - SNA",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL250 (25,000 feet)",
+      "source_quote": "S BOUND AT FL250",
+      "citation_offset": {
+        "offset": 352,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "20 nautical miles southwest of LAX",
+      "source_quote": "20 SW LAX",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "10-15 stationary lights at approximately FL230 (23,000 feet)",
+      "source_quote": "10-15 STATIONARY LIGHTS AT APPROXIMATELY FL230",
+      "citation_offset": {
+        "offset": 404,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "July 20, 2023 at 10:15 PM PDT",
+      "source_quote": "7/20/2023 10:15:00 PM (-07 PDT)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 452,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 477,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Los Angeles ARTCC",
+      "source_quote": "LOS ANGELES ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 246,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "33.737061, -118.653651",
+      "source_quote": "Latitude: 33.737060970000002",
+      "citation_offset": {
+        "offset": 110,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "record_id",
+      "value": "237UAP00527",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Los Angeles",
+    "LAX",
+    "Portland (PDX)",
+    "Santa Ana (SNA)"
+  ],
+  "dated_events": [
+    "7/20/2023",
+    "07-21-2023"
+  ],
+  "objects_described": [
+    "Embraer E75L commercial aircraft",
+    "10-15 stationary lights at FL230"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Horizon Air flight 2063 was operating an Embraer E175L on the Portland to Santa Ana route.",
+      "source_quote": "HORIZON 2063, E75L, PDX - SNA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 272,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed 10-15 stationary lights at approximately 23,000 feet while flying at 25,000 feet.",
+      "source_quote": "10-15 STATIONARY LIGHTS AT APPROXIMATELY FL230",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 404,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 20 nautical miles southwest of LAX.",
+      "source_quote": "20 SW LAX",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 452,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was reported.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 477,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:07:33.597Z",
+  "qa_completed_at": "2026-06-14T00:08:08.738Z",
+  "timing": {
+    "A": "18.7s",
+    "B": "16.4s",
+    "E": "18.5s"
+  },
+  "public_headline": "Airline Crew Reports 10-15 Stationary Lights Near Los Angeles",
+  "public_tldr": "An FAA operations center notification documents a July 2023 sighting by the crew of a Horizon Air commercial flight, who reported observing 10 to 15 stationary lights hovering at roughly 23,000 feet about 20 nautical miles southwest of Los Angeles International Airport. No evasive action was taken, and the document is a preliminary notification rather than a full investigation.",
+  "public_narrative": "On the evening of July 20, 2023, the crew of Horizon Air flight 2063 — an Embraer E175L flying from Portland, Oregon to Santa Ana, California — reported an unusual sighting to air traffic control. While heading south at 25,000 feet, the crew observed what they described as 10 to 15 stationary lights positioned at approximately 23,000 feet, roughly 2,000 feet below their aircraft. The lights were located about 20 nautical miles southwest of LAX, placing them over the Pacific Ocean off the coast of Los Angeles.\n\nThe crew did not take evasive action, and the document notes that no law enforcement notification was reported. Los Angeles Area Route Traffic Control Center (ARTCC) was advised of the sighting. The recorded coordinates (33.74°N, 118.65°W) are consistent with the stated location off the LA coast.\n\nThis document is an FAA Washington Operations Center incident notification — essentially a preliminary alert logged when a UAP (unidentified anomalous phenomena) report comes in. It is not a full investigation report, and it contains no conclusions about what the lights were. There is no mention of corroborating radar data, additional witness accounts, or follow-up investigation within this particular record.",
+  "public_caveats": [
+    "This is a single-source pilot report. No radar data, photographs, or independent witness accounts are included in the document.",
+    "The record is a preliminary operations center notification, not a completed investigation. The FAA drew no conclusions about the nature of the lights.",
+    "The document title references July 21, 2023, while the timestamp reads July 20, 2023 at 10:15 PM Pacific time — the discrepancy likely reflects a UTC date conversion.",
+    "There is minimal redaction in this document, but minimal detail as well — it captures the initial report and little else.",
+    "Without corroborating evidence, the sighting remains an unverified crew observation."
+  ]
+}

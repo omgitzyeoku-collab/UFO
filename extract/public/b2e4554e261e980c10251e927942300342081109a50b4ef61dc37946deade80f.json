@@ -1,0 +1,69 @@
+{
+  "sha256": "b2e4554e261e980c10251e927942300342081109a50b4ef61dc37946deade80f",
+  "title": "DOW-UAP-D084, US Army-Flying-Saucer-Study_1949",
+  "agency": "Department of War",
+  "type": "PDF",
+  "what_is_it": "An evaluation study commissioned by the U.S. Army General Staff to determine whether flying saucer reports could be attributed to natural phenomena or foreign power activity.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No body text was extractable from the PDF — all facts are derived solely from the document title and catalogue metadata.",
+    "The actual findings and conclusions of the study are unknown from the available extraction.",
+    "The document is likely a scanned image with poor or no OCR, so substantive content may exist but was not captured."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "document_id",
+      "value": "DOW-UAP-D084",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "originating_agency",
+      "value": "Department of War",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "year",
+      "value": "1949",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "1949"
+  ],
+  "objects_described": [
+    "flying saucers"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The U.S. Army General Staff commissioned a formal evaluation study of the flying saucer phenomenon in 1949.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:41:39.644Z",
+  "qa_completed_at": "2026-06-14T02:42:10.314Z",
+  "timing": {
+    "A": "13.0s",
+    "B": "17.6s"
+  }
+}

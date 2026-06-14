@@ -1,0 +1,227 @@
+{
+  "sha256": "6ba619764bf95deeaf1be735e34c4b7a57b99d4a7931d5433fe7b49176fc6ed5",
+  "title": "FAA UAP record 237UAP00478",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary information report documenting a UFO/UAP sighting by a commercial airline crew.",
+  "core_summary": "On 18 February 2023 at 04:00 EST, the crew of Spirit Airlines flight 128 (an Airbus A320neo flying from Los Angeles to Baltimore-Washington) reported an unidentified aerial phenomenon at flight level 350 with blinking lights off their left side while eastbound at flight level 370, approximately 50 nautical miles west of the Charleston VOR (HVQ) in West Virginia. No evasive action was taken and no law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report (PRELIM INFO) and may not reflect final FAA findings",
+    "Single-source observation from one flight crew with no corroborating radar or sensor data mentioned",
+    "Blinking lights could be consistent with conventional aircraft or other explainable phenomena",
+    "No follow-up investigation or resolution is documented in this record"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "Spirit Airlines flight 128 (NKS128), Airbus A320neo, LAX to BWI",
+      "source_quote": "SPIRIT 128, A20N, LAX - BWI",
+      "citation_offset": {
+        "offset": 270,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "18 February 2023, 04:00 EST",
+      "source_quote": "Date: 2/18/2023 4:00:00 AM (-05 EST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "50 nautical miles west of Charleston VOR (HVQ), Charleston, WV area",
+      "source_quote": "50 W CHARLESTON VOR (HVQ)",
+      "citation_offset": {
+        "offset": 421,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "Lat 38.346206, Lon -82.553129",
+      "source_quote": "Latitude: 38.346206479999999",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP_altitude",
+      "value": "Flight level 350 (approximately 35,000 feet)",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON AT FL350",
+      "citation_offset": {
+        "offset": 299,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_aircraft_altitude",
+      "value": "Flight level 370 (approximately 37,000 feet)",
+      "source_quote": "EAST BOUND AT FL370",
+      "citation_offset": {
+        "offset": 401,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP_description",
+      "value": "Unidentified aerial phenomenon with blinking lights, observed off the left side of the aircraft",
+      "source_quote": "WITH BLINKING LIGHTS OFF OF THEIR LEFT SIDE",
+      "citation_offset": {
+        "offset": 351,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 448,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFCATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 473,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC_facility",
+      "value": "Indianapolis ARTCC",
+      "source_quote": "INDIANAPOLIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 243,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Charleston, WV",
+    "Charleston VOR (HVQ)",
+    "Los Angeles (LAX)",
+    "Baltimore-Washington (BWI)"
+  ],
+  "dated_events": [
+    "2/18/2023",
+    "02-18-2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with blinking lights at FL350",
+    "Airbus A320neo (Spirit Airlines flight 128)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Spirit Airlines flight 128 was an Airbus A320neo operating the LAX to BWI route on 18 February 2023",
+      "source_quote": "SPIRIT 128, A20N, LAX - BWI",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 270,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was observed at flight level 350, approximately 2,000 feet below the reporting aircraft at FL370",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON AT FL350 WITH BLINKING LIGHTS OFF OF THEIR LEFT SIDE WHILE EAST BOUND AT FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 299,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 50 nautical miles west of the Charleston VOR",
+      "source_quote": "50 W CHARLESTON VOR (HVQ)",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 421,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Indianapolis ARTCC was the controlling ATC facility that relayed the report",
+      "source_quote": "INDIANAPOLIS ARTCC ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 243,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 448,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:24:07.961Z",
+  "qa_completed_at": "2026-06-13T23:24:45.603Z",
+  "timing": {
+    "A": "20.6s",
+    "B": "17.1s",
+    "E": "18.4s"
+  },
+  "public_headline": "Spirit Airlines Crew Reports Blinking Lights at 35,000 Feet Over West Virginia",
+  "public_tldr": "An FAA preliminary report documents a UAP sighting by the crew of Spirit Airlines flight 128 on 18 February 2023. The crew observed an object with blinking lights roughly 2,000 feet below their aircraft while flying over West Virginia; no evasive action was taken and no follow-up investigation is recorded.",
+  "public_narrative": "This document is a preliminary information report from the FAA's Washington Operations Center. It records a sighting of an unidentified aerial phenomenon (UAP) reported by the crew of Spirit Airlines flight 128, an Airbus A320neo flying from Los Angeles to Baltimore-Washington.\n\nOn 18 February 2023 at 04:00 Eastern time, Indianapolis Air Route Traffic Control Center relayed that the Spirit Airlines crew had spotted an object with blinking lights off the left side of their aircraft. The crew was flying eastbound at flight level 370 (roughly 37,000 feet) and reported the UAP at flight level 350 (roughly 35,000 feet) — about 2,000 feet below them. The sighting occurred approximately 50 nautical miles west of the Charleston VOR navigation aid in West Virginia.\n\nThe crew did not take evasive action, and no law enforcement notification was reported. The document is marked as preliminary and contains no indication of a follow-up investigation or any conclusion about what the object was.\n\nThere is little evidence of redaction in this record. The report is brief and factual — a standard FAA operations centre log entry rather than a detailed investigation file.",
+  "public_caveats": [
+    "This is a preliminary FAA report, not a completed investigation. No final findings or conclusions are included.",
+    "The sighting comes from a single flight crew with no mention of corroborating radar data, sensor records, or reports from other aircraft.",
+    "Blinking lights at altitude are consistent with conventional explanations such as other aircraft, satellites, or atmospheric phenomena — the report does not rule anything in or out.",
+    "No follow-up investigation or resolution is documented, so the object remains formally unidentified.",
+    "The record shows low evidence of redaction, meaning what you see is close to the full content the FAA holds for this entry."
+  ]
+}

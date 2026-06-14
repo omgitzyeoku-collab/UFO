@@ -1,0 +1,369 @@
+{
+  "sha256": "550416679054b5f63e8d8ee70c0f96f92bbd63cf1e85f400f547d58e9ae770b8",
+  "title": "OSD UAP record 25_Sky_View_Final_Draft",
+  "agency": "OSD",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "Academic research paper analyzing spatial patterns of public UAP sightings in relation to environmental variables such as light pollution, cloud cover, tree canopy, airports, and military installations.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Data is crowd-sourced (NUFORC) and cannot be independently verified; some entries may be hoaxes or misidentifications.",
+    "The paper does not attempt to explain what people are seeing — only that sighting rates correlate with visibility and air traffic opportunity.",
+    "Co-authored by Sean Kirkpatrick, then-director of AARO, which may reflect the institutional perspective that most UAP have conventional explanations.",
+    "Cloud cover results are inconclusive and may reflect competing regional effects (cloudy Pacific Northwest vs. clear Mountain West both show high sighting rates).",
+    "The paper uses county-level aggregation which may mask finer-grained patterns.",
+    "Natural phenomena (ball lightning, seismic luminosity) were not directly tested as covariates due to rarity of recorded events."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Data source",
+      "value": "National UFO Reporting Center (NUFORC) online database",
+      "source_quote": "The public UAP sighting data source is the National UFO Reporting Center (NUFORC) online",
+      "citation_offset": {
+        "offset": 12349,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Total sightings extracted",
+      "value": "122,983 reported sightings from June 1930 to June 2022",
+      "source_quote": "Our extracted dataset includes 122,983 reported sightings from June 1930 to June 2022",
+      "citation_offset": {
+        "offset": 12900,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Study subset",
+      "value": "98,724 sightings in conterminous US from 2001–2020",
+      "source_quote": "we focus on the conterminous U.S. from 2001 to 2020, which reduces the number of reported sightings to 98,724",
+      "citation_offset": {
+        "offset": 13943,
+        "len": 109,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Mappable sightings",
+      "value": "121,949 points (99.16% of total)",
+      "source_quote": "The final resulting mappable dataset includes 121,949 points (locatable in the United States), which is 99.16% of the total extraction",
+      "citation_offset": {
+        "offset": 13772,
+        "len": 134,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Light pollution effect",
+      "value": "One SD increase in light pollution results in 7.7% decrease in sightings",
+      "source_quote": "the coefficient for Mean Light Pollution is 0.923, indicating that a one standard deviation increase in light pollution will result in a 7.7% decrease in sightings",
+      "citation_offset": {
+        "offset": 24983,
+        "len": 163,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Air traffic effect",
+      "value": "Positive relationship with 100% credibility (coefficient 1.099)",
+      "source_quote": "Air Traffic / Sq. Km 1.099 (1.068, 1.131) 100% 0% More Air Traffic = More Sightings",
+      "citation_offset": {
+        "offset": 26866,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Military installations effect",
+      "value": "Positive relationship with 92% credibility (coefficient 1.013)",
+      "source_quote": "Percent Military Area 1.013 (0.994, 1.033) 92% 8% More Military = More Sightings",
+      "citation_offset": {
+        "offset": 26785,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Cloud cover effect",
+      "value": "No credible relationship found",
+      "source_quote": "Mean Cloud Cover 0.998 (0.929, 1.072) 48% 52% No Relationship",
+      "citation_offset": {
+        "offset": 26644,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Tree canopy effect",
+      "value": "Negative relationship with 94% credibility (coefficient 0.961)",
+      "source_quote": "Mean Canopy 0.961 (0.915, 1.01) 6% 94% More Canopy = Fewer Sightings",
+      "citation_offset": {
+        "offset": 26575,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Peak sighting period",
+      "value": "Between 2012 and 2014, followed by sharp drop 2015–2018",
+      "source_quote": "a marked peak in sightings between 2012 and 2014, followed by a sharp drop between 2015 and 2018",
+      "citation_offset": {
+        "offset": 14566,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Hotspot regions",
+      "value": "Western US, very Northeast, tri-state IL/IN/KY border, Washington DC area",
+      "source_quote": "many more standardized sightings reported in the Western U.S. and in the very Northeast, along with some isolated areas including the tri-state border area of Illinois, Indiana, and Kentucky",
+      "citation_offset": {
+        "offset": 23691,
+        "len": 190,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Project Blue Book comparison",
+      "value": "701 of 12,618 sightings unidentified",
+      "source_quote": "Project Blue Book determined that 701 sightings out of 12,618 were 'unidentified'",
+      "citation_offset": {
+        "offset": 3150,
+        "len": 66,
+        "exact": false,
+        "matched": "Project Blue Book determined that 701 sightings out of 12,618 were"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "2021 DNI report",
+      "value": "144 government reports, most unexplained, one confirmed as deflating balloon",
+      "source_quote": "research on UAP sightings between 2004-2021 leaves most of its 144 government-based reports unexplained… Only one sighting was explained with high confidence, and was found to be a deflating balloon",
+      "citation_offset": {
+        "offset": 2153,
+        "len": 100,
+        "exact": false,
+        "matched": "research on UAP sightings between 2004-2021 leaves most of its 144 government-based reports unexplai"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "2022 DNI report",
+      "value": "Reports rose to 510, nearly half still unexplained",
+      "source_quote": "the number of governmental sourced reports rose to 510, with nearly half still unexplained",
+      "citation_offset": {
+        "offset": 2484,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Proposed journal",
+      "value": "Annals of the American Association of Geographers",
+      "source_quote": "Proposed journal for submission: Annals of the American Association of Geographers",
+      "citation_offset": {
+        "offset": 300,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Clearance date",
+      "value": "Feb 17, 2023",
+      "source_quote": "CLEARED For Open Publication Feb 17, 2023",
+      "citation_offset": {
+        "offset": 191,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Statistical method",
+      "value": "Bayesian small area estimation using INLA",
+      "source_quote": "Model parameters and coefficients are estimated using Integrated Nested Laplacian Approximation",
+      "citation_offset": {
+        "offset": 22969,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Richard M. Medina",
+    "Simon Brewer",
+    "Sean M. Kirkpatrick"
+  ],
+  "named_places": [
+    "University of Utah",
+    "Utah",
+    "Uinta Basin",
+    "Roswell, New Mexico",
+    "Washington D.C.",
+    "California",
+    "Nevada",
+    "New Mexico",
+    "Washington",
+    "Illinois",
+    "Indiana",
+    "Kentucky",
+    "Evansville, Indiana",
+    "Pacific Northwest"
+  ],
+  "dated_events": [
+    "1930 — earliest NUFORC report in dataset",
+    "1947 — Roswell New Mexico case",
+    "1969 — Project Blue Book conclusion",
+    "1974 — NUFORC founded",
+    "August 4, 2020 — UAP Task Force initiated",
+    "November 23, 2021 — AOIMSG transition directed",
+    "July 20, 2022 — AARO established",
+    "Feb 17, 2023 — paper cleared for open publication",
+    "02/06/2025 — AARO review/release date"
+  ],
+  "objects_described": [
+    "UAP/UFO (general unidentified aerial objects)",
+    "weather balloons",
+    "commercial drones",
+    "satellites (e.g. SpaceX Starlink)",
+    "hot air balloons",
+    "ball lightning",
+    "human-made aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Sightings correlate positively with air traffic density and military installation presence, and negatively with light pollution and tree canopy cover.",
+      "source_quote": "all results support our initial hypothesis – that people will see things when they have the opportunity to",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 26176,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Cloud cover has no statistically credible relationship with UAP sighting rates.",
+      "source_quote": "The exception is cloud cover, which has a non-credible relationship with sightings, with no support of either a negative or positive relationship",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 26284,
+        "len": 145,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The western US has the highest exceedance probability (80-100%) for sighting rates more than twice the national average.",
+      "source_quote": "the area with the highest probability (80-100%) is restricted to a smaller area running from New Mexico and Nevada in the south to Washington in the north",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 27502,
+        "len": 154,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The NUFORC dataset shows a marked peak in reported sightings between 2012 and 2014.",
+      "source_quote": "a marked peak in sightings between 2012 and 2014, followed by a sharp drop between 2015 and 2018",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 14566,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The strong correlation with air traffic and military activity suggests people are seeing human-made objects in unexpected ways.",
+      "source_quote": "The strong credible relationships with air traffic and with military activity suggest that people are seeing things that are human made, in some unexpected way",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 33163,
+        "len": 100,
+        "exact": false,
+        "matched": "affic and with military activity suggest that people are seeing things that are human made, in some "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The UAP Task Force was initiated on August 4, 2020.",
+      "source_quote": "the UAP Task Force was initiated on August 4, 2020",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 614,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO was established on July 20, 2022 as the single authoritative UAP office within the DoD.",
+      "source_quote": "All-Domain Anomaly Resolution Office (AARO) was established on July 20, 2022",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1136,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "If NUFORC data were entirely invalid, sightings would show no spatial pattern and would not correlate with visibility indicators.",
+      "source_quote": "if the data were entirely invalid, the sightings would exhibit little to no spatial pattern, and are unlikely to follow a pattern that can be explained by first-order visibility indicators",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 29285,
+        "len": 100,
+        "exact": false,
+        "matched": "ightings would exhibit little to no spatial pattern, and are unlikely to follow a pattern that can b"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:37:29.035Z",
+  "qa_completed_at": "2026-06-14T02:38:51.274Z",
+  "timing": {
+    "A": "52.4s",
+    "B": "29.8s",
+    "E": "26.9s"
+  },
+  "public_headline": "Pentagon-Backed Study Links UAP Sightings to Air Traffic and Visibility",
+  "public_tldr": "This 2023 academic paper, co-authored by the then-director of the Pentagon's UAP office, analysed nearly 99,000 public UFO sighting reports across the US from 2001 to 2020. It found that sighting rates rise where there is more air traffic and military activity, and fall where light pollution or tree cover limits sky visibility — suggesting most reports reflect people seeing conventional objects in unexpected ways.",
+  "public_narrative": "This document is a draft academic paper cleared for open publication on 17 February 2023 by the Office of the Secretary of Defense (OSD). It was proposed for submission to the Annals of the American Association of Geographers. The authors are Richard M. Medina and Simon Brewer of the University of Utah, alongside Sean M. Kirkpatrick, who at the time led the All-Domain Anomaly Resolution Office (AARO) — the Pentagon's dedicated UAP investigation unit, established on 20 July 2022.\n\nThe study drew on 122,983 sighting reports from the National UFO Reporting Center (NUFORC), a public database founded in 1974. Focusing on 98,724 sightings in the contiguous United States between 2001 and 2020, the researchers used Bayesian statistical modelling to test whether sighting rates correlate with environmental factors such as light pollution, cloud cover, tree canopy, nearby airports, and military installations.\n\nThe results showed clear patterns. Counties with more air traffic reported more sightings, with 100% statistical credibility. Areas near military installations also showed higher rates, at 92% credibility. Conversely, heavier light pollution reduced sightings by about 7.7% per standard-deviation increase, and denser tree canopy was also linked to fewer reports. Cloud cover showed no credible relationship in either direction. Sighting hotspots clustered in the western US, the far northeast, the Illinois-Indiana-Kentucky border region, and around Washington DC. Reports peaked nationally between 2012 and 2014, then dropped sharply through 2018.\n\nThe authors concluded that the data support a straightforward explanation: people report UAP when they have more opportunity to look at the sky and more things flying through it. They noted that the strong link to air traffic and military activity suggests observers are seeing human-made objects in unexpected ways. The paper does not claim to explain every sighting, nor does it rule out genuinely anomalous cases — it addresses statistical patterns across a large dataset, not individual incidents.",
+  "public_caveats": [
+    "The underlying data comes from NUFORC, a crowd-sourced public database. Reports are self-submitted and unverified — some may be hoaxes or misidentifications of known objects like satellites, drones, or weather balloons.",
+    "Co-author Sean Kirkpatrick was then-director of AARO, the Pentagon's UAP office. The paper may reflect an institutional perspective that most sightings have conventional explanations.",
+    "The study analyses county-level statistical patterns, not individual sighting cases. It does not attempt to explain what any specific witness saw.",
+    "Cloud cover results were inconclusive, possibly because competing regional effects (the cloudy Pacific Northwest and the clear Mountain West both have high sighting rates) cancelled each other out at the national scale.",
+    "Natural phenomena such as ball lightning or seismic luminosity were not tested as variables because recorded instances are too rare to model statistically."
+  ]
+}
