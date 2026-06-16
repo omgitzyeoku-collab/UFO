@@ -7,3 +7,11 @@ updates:
       day: monday
     target-branch: master
     open-pull-requests-limit: 10
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    target-branch: master
+    open-pull-requests-limit: 5
