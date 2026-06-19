@@ -5,91 +5,34 @@
   "type": "PDF",
   "incident_date": "2022",
   "incident_location": "Colorado Springs, Colorado, U.S.",
-  "what_is_it": "A digitally rendered artistic interpretation of a reported UAP (unidentified anomalous phenomena) incident, based on a first-hand witness narrative.",
+  "what_is_it": "A digital artistic rendering (image) depicting a 2022 unresolved UAP incident near Colorado Springs, Colorado, based on a first-hand narrative from a companion FBI report.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No text was extractable from the PDF; all facts are derived from file metadata and the war.gov CSV description only.",
-    "This is an artistic interpretation, not photographic or sensor evidence of a UAP.",
-    "The rendering is based on a single witness narrative from a companion document (FBI-UAP-D002), making it a second-order representation of a single-source account.",
-    "The underlying case is marked unresolved, meaning no determination was made about the nature of the reported phenomena."
+    "The extracted text is almost entirely garbled OCR output — no legible sentences could be recovered from the PDF body, so nearly all facts come from metadata and the CSV description rather than the document itself.",
+    "This is an artistic rendering, not primary evidence such as a photograph, sensor data, or direct witness statement.",
+    "The rendering derives from a single companion report (FBI-UAP-D002); without that source document, the accuracy of the depiction cannot be assessed.",
+    "The case is classified as 'unresolved' — no determination was made about the nature of the reported phenomena."
   ],
   "fabrication_score": 4,
-  "key_facts": [
-    {
-      "field": "document_id",
-      "value": "FBI-UAP-D003",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "originating_agency",
-      "value": "FBI",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "incident_location",
-      "value": "Colorado Springs, Colorado, U.S.",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "incident_year",
-      "value": "2022",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "case_status",
-      "value": "Unresolved",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    }
-  ],
+  "key_facts": [],
   "named_people": [],
-  "named_places": [
-    "Colorado Springs, Colorado"
-  ],
-  "dated_events": [
-    "2022"
-  ],
-  "objects_described": [
-    "Unidentified anomalous phenomena (UAP)"
-  ],
-  "verifiable_claims": [
-    {
-      "claim": "The image is an artistic interpretation, not a direct photograph or sensor capture of the reported UAP.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
-    },
-    {
-      "claim": "The underlying UAP report remains unresolved.",
-      "source_quote": "",
-      "verifier_verdict": "supported",
-      "citation_offset": null,
-      "confidence": "red"
-    }
-  ],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [],
   "tier": "red",
   "confidence_breakdown": {
     "green": 0,
     "amber": 0,
-    "red": 2
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:43:46.652Z",
-  "qa_completed_at": "2026-06-14T02:44:19.826Z",
+  "qa_started_at": "2026-06-19T20:37:55.604Z",
+  "qa_completed_at": "2026-06-19T20:38:30.676Z",
   "timing": {
-    "A": "15.8s",
-    "B": "17.4s"
+    "A": "19.9s",
+    "B": "15.2s"
   }
 }

@@ -4,34 +4,276 @@
   "agency": "CIA",
   "type": "PDF",
   "incident_date": "December, 1953",
-  "what_is_it": "A CIA memorandum providing a status update on the Air Force's Unidentified Flying Objects (UFO) project activities.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "Internal CIA memorandum providing a status update on the US Air Force's Unidentified Flying Objects (UFOB) project and related activities.",
+  "core_summary": "This December 1953 CIA memo summarises the current state of the Air Force's UFO investigation effort (Project Bluebook No. 10073), noting it is staffed by just one officer, one airman, and a secretary at ATIC. The memo reports that roughly ten percent of reported sightings remained unsolved over the past year, and that Project Bluebook was in the process of being transferred from ATIC to Headquarters, Air Defense Command because ADC had been doing most of the field investigation work.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived from metadata and the CSV description only.",
-    "The document is known to exist in at least two versions with different redaction levels, suggesting sensitive content.",
-    "Without the full text, the scope and detail of the intelligence operations and Canadian laboratory activities cannot be assessed.",
-    "Source quotes are unavailable for all claims due to OCR failure on the scanned document."
+    "The document text cuts off mid-sentence at the end, indicating the extracted text is incomplete — additional facts and context from later pages are missing.",
+    "Moderate redaction is evident; the full scope of activities and conclusions may be obscured.",
+    "This is a single-source internal CIA memo reflecting the CIA's understanding of Air Force activities, not the Air Force's own account.",
+    "The CSV description mentions Canada's establishment of a 'laboratory' for recording observable phenomena and equipment procurement for photographing UFOs, but neither topic appears in the extracted text, suggesting those sections were in the missing portion of the document."
   ],
-  "fabrication_score": 4,
-  "key_facts": [],
-  "named_people": [],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Document date",
+      "value": "17 December 1953",
+      "source_quote": "17 December 1953",
+      "citation_offset": {
+        "offset": 30,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Addressed to",
+      "value": "Assistant Director, Scientific Intelligence",
+      "source_quote": "MEMORANDUM TO, .Assistant Director, Scientific Intelligence",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Author division",
+      "value": "Physics and Electronics Division, SI",
+      "source_quote": "Chief, Physics and Electronics Division; SI",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "P&E Division took over project",
+      "value": "27 May 1953",
+      "source_quote": "P&E Division assumed responsibility for the OSI project on unidentified flying objects as a result of your memorandum of 27 May 1953",
+      "citation_offset": {
+        "offset": 437,
+        "len": 60,
+        "exact": false,
+        "matched": "P&E Division assumed responsibility for the OSI project on u"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Project scope",
+      "value": "Monitoring other agencies (notably USAF) and maintaining files",
+      "source_quote": "The project has been confined to maintaining awareness of the activities of other agencies (notably the USAF) in the unidentified flying objects business and to maintenance of files",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Air Force emphasis",
+      "value": "Decreasing",
+      "source_quote": "The Air Force continues to maintain, but with apparently decreasing emphasis, its interest in UFOB's",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "USAF interest level",
+      "value": "Confined to cursory cognizance of ATIC's Project Bluebook No. 10073",
+      "source_quote": "The present interest of the Directorate of Intelligence, Hq., USAF, is confined to a cursory cognizance of ATIC's project (Bluebook No. 10073)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Project Bluebook staff",
+      "value": "One officer (Capt. Charles A. Hardin), one airman (A/1C Max G. Futch), and a secretary",
+      "source_quote": "the project is carried by one officer (Capt. Charles A. Hardin), one airman (A/1C Max G. Futch), and a secretary",
+      "citation_offset": {
+        "offset": 1154,
+        "len": 30,
+        "exact": false,
+        "matched": "Charles A. Hardin), one airman"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Organisational unit",
+      "value": "Aerial Phenomena Section, Electronics Branch, Technical Analysis Division",
+      "source_quote": "operating as the Aerial Phenomena Section of the Electronics Branch, Technical Analysis Division",
+      "citation_offset": {
+        "offset": 1278,
+        "len": 31,
+        "exact": false,
+        "matched": "the Electronics Branch, Technic"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "ATIC field investigations",
+      "value": "No longer conducted by ATIC; delegated to USAF intelligence officers nearer to sightings",
+      "source_quote": "ATIC personnel no longer conduct field investigations of UFOB sightings",
+      "citation_offset": {
+        "offset": 1500,
+        "len": 36,
+        "exact": false,
+        "matched": "eld investigations of UFOB sightings"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Field investigation sources",
+      "value": "Primarily Air Defense Command and Airways and Air Communications Service",
+      "source_quote": "requested from USAF intelligence officers (primarily Air Defense Command and Airways and Air Communications Service) nearer to the sightings",
+      "citation_offset": {
+        "offset": 1600,
+        "len": 60,
+        "exact": false,
+        "matched": "ly Air Defense Command and Airways and Air Communications Se"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Unsolved sighting rate",
+      "value": "Approximately 10% over the past year",
+      "source_quote": "approximately ten percent of the reported sightings have been tagged as unsolved",
+      "citation_offset": {
+        "offset": 2251,
+        "len": 30,
+        "exact": false,
+        "matched": "ely ten percent of the reporte"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Project Bluebook transfer",
+      "value": "Being transferred from ATIC to Headquarters, Air Defense Command",
+      "source_quote": "ATIC is in the process of transferring Project Bluebook to Hq., Air Defense Command",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Transfer rationale authority",
+      "value": "Lt. Col. Harry Johnston, Chief, Electronics Branch",
+      "source_quote": "According to Lt. Col. Harry Johnston, Chief, Electronics Branch, the reason for the transfer was that ADC had been doing most of the",
+      "citation_offset": {
+        "offset": 2521,
+        "len": 30,
+        "exact": false,
+        "matched": "s Branch, the reason for the t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Verbal request origin",
+      "value": "Mr. Brent, Exec/SI, on 30 November",
+      "source_quote": "the verbal request of Mr. Brent, Exec/SI, on 30 November",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Mr. Brent",
+    "Capt. Charles A. Hardin",
+    "A/1C Max G. Futch",
+    "Lt. Col. Harry Johnston"
+  ],
   "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "dated_events": [
+    "17 December 1953",
+    "30 November",
+    "27 May 1953"
+  ],
+  "objects_described": [
+    "Unidentified Flying Objects (UFOB)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The CIA's Physics and Electronics Division took over the OSI UFO project following a memorandum dated 27 May 1953.",
+      "source_quote": "P&E Division assumed responsibility for the OSI project on unidentified flying objects as a result of your memorandum of 27 May 1953",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 437,
+        "len": 60,
+        "exact": false,
+        "matched": "P&E Division assumed responsibility for the OSI project on u"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Project Bluebook was staffed by only three people: one officer, one airman, and a secretary.",
+      "source_quote": "the project is carried by one officer (Capt. Charles A. Hardin), one airman (A/1C Max G. Futch), and a secretary",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1154,
+        "len": 30,
+        "exact": false,
+        "matched": "Charles A. Hardin), one airman"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Approximately ten percent of reported UFO sightings over the preceding year were classified as unsolved.",
+      "source_quote": "approximately ten percent of the reported sightings have been tagged as unsolved",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2251,
+        "len": 30,
+        "exact": false,
+        "matched": "ely ten percent of the reporte"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "ATIC was in the process of transferring Project Bluebook to Air Defense Command headquarters because ADC had been performing most of the field investigation work.",
+      "source_quote": "ATIC is in the process of transferring Project Bluebook to Hq., Air Defense Command",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "ATIC no longer conducted its own field investigations of UFO sightings, instead relying on USAF intelligence officers closer to the sighting locations.",
+      "source_quote": "ATIC personnel no longer conduct field investigations of UFOB sightings",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1500,
+        "len": 36,
+        "exact": false,
+        "matched": "eld investigations of UFOB sightings"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Air Force's interest in UFOs was apparently decreasing as of December 1953.",
+      "source_quote": "The Air Force continues to maintain, but with apparently decreasing emphasis, its interest in UFOB's",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Aerial Phenomena Section worked directly with the Public Information Office of USAF Headquarters on preparing information for public release.",
+      "source_quote": "The Aerial Phenomena Section also deals directly with the Public Information Office of Hq., USAF, reviewing information for public release",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2077,
+        "len": 45,
+        "exact": false,
+        "matched": "The Aerial Phenomena Section also deals direc"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
+    "amber": 7,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:54:40.377Z",
-  "qa_completed_at": "2026-06-14T02:55:11.582Z",
+  "qa_started_at": "2026-06-19T21:02:32.192Z",
+  "qa_completed_at": "2026-06-19T21:03:36.170Z",
   "timing": {
-    "A": "13.9s",
-    "B": "17.3s"
-  }
+    "A": "35.6s",
+    "B": "28.4s",
+    "E": "21.6s"
+  },
+  "public_headline": "CIA Memo Shows Air Force UFO Project Running on Skeleton Staff in 1953",
+  "public_tldr": "A December 1953 internal CIA memo reports that the US Air Force's UFO investigation programme, Project Bluebook, was staffed by just three people and that roughly ten percent of sightings remained unexplained. The project was being transferred from its home base to Air Defense Command because that unit was already doing most of the fieldwork.",
+  "public_narrative": "On 17 December 1953, the CIA's Physics and Electronics Division sent an internal memorandum to the Assistant Director of Scientific Intelligence summarising the state of the US Air Force's UFO investigation effort. The division had taken over responsibility for the CIA's own monitoring of the subject the previous May.\n\nThe memo describes a programme running on minimal resources. Project Bluebook (officially No. 10073) was operated out of the Air Technical Intelligence Center (ATIC) by just one officer — Captain Charles A. Hardin — one airman, and a secretary, working within the Aerial Phenomena Section of the Electronics Branch. ATIC staff no longer went into the field themselves; instead, investigations were delegated to Air Force intelligence officers closer to sighting locations, primarily from Air Defense Command and the Airways and Air Communications Service.\n\nThe document notes that roughly ten percent of UFO reports over the preceding year were tagged as unsolved. Despite this, the Air Force's interest in the subject was described as \"apparently decreasing.\" At the time of writing, the project was being transferred from ATIC to Air Defense Command headquarters — according to Lt. Col. Harry Johnston, because ADC had already been doing most of the investigative legwork.\n\nThe CIA's own role, as described here, was limited to monitoring other agencies and maintaining files rather than conducting independent research. The Aerial Phenomena Section also worked directly with the Air Force's Public Information Office on preparing UFO-related material for public release.\n\nThe extracted text of this document cuts off mid-sentence, meaning additional content from later pages is missing. Moderate redaction is also evident throughout.",
+  "public_caveats": [
+    "This is a single internal CIA memo reflecting the CIA's understanding of Air Force activities — it is not the Air Force's own account and may be incomplete or second-hand.",
+    "The document text cuts off mid-sentence, confirming that portions are missing from the available extraction. Topics mentioned in related metadata (such as Canadian UFO research) do not appear in the surviving text.",
+    "Moderate redaction is present, so the full scope of conclusions and activities discussed in this memo may be obscured.",
+    "The memo describes an administrative status update, not an investigation of a specific sighting or event. It tells us about bureaucratic structure, not about what was actually observed.",
+    "All named individuals and organisational details carry 'amber' confidence — meaning they are readable in the source but may be partially obscured or ambiguous due to document quality."
+  ]
 }

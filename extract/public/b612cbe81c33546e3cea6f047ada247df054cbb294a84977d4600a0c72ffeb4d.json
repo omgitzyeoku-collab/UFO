@@ -5,64 +5,249 @@
   "type": "PDF",
   "incident_date": "2025",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI FD-302 interview record documenting a first-hand witness account of an unidentified anomalous phenomena sighting in the northeastern United States.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "An FBI FD-302 interview report documenting a first-hand witness account of unidentified anomalous phenomena (orb sightings) in the northeastern United States.",
+  "core_summary": "An FBI FD-302 records an interview with a U.S. person who observed two luminous orbs (one basketball-sized, one beach-ball-sized) approximately 30 yards away and 20-30 feet above the ground near their home at around 9:15pm. A second witness also observed the objects move laterally before one orb appeared to merge into the other and both abruptly disappeared. The primary witness reported additional sightings weeks later of white orbs traveling at higher altitude, and recalled a separate 1987 sighting of a red light near power lines.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived from metadata and the war.gov CSV description only.",
-    "The document is likely heavily redacted or scanned at a quality too poor for OCR, limiting independent verification.",
-    "Single-source witness account recorded by law enforcement; no corroborating evidence is available from this document alone.",
-    "The witness identity is not disclosed; the interviewee is described only as 'a U.S. person'.",
-    "Related documents FBI-UAP-D009 and FBI-UAP-PR004 may contain additional context not captured here."
+    "Heavy redaction: all witness names, specific dates, and precise locations are redacted throughout the document.",
+    "Single-source account: the primary observations come from one witness, with partial corroboration from one additional person.",
+    "The 1987 sighting is recalled from memory decades later and is unverified.",
+    "OCR artifacts in the source text introduce minor uncertainties in some quoted passages.",
+    "The document explicitly states it contains neither recommendations nor conclusions of the FBI.",
+    "No photographic evidence is included in the released text, though photos are referenced as attachments."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "agency",
-      "value": "FBI",
+      "field": "document_type",
+      "value": "FBI FD-302 interview form",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     },
     {
-      "field": "incident_region",
-      "value": "Northeastern United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "first_orb_description",
+      "value": "Yellow ball of light, approximately basketball-sized",
+      "source_quote": "noticed a ball of ligh: -:hrough winds~ield which was yellow and about the size of a basketball",
+      "citation_offset": {
+        "offset": 351,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_year",
-      "value": "2025",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "second_orb_description",
+      "value": "Larger ball of light, approximately beach-ball-sized",
+      "source_quote": "saw a second ball of ligjt which was larger and about the size of a beach ball",
+      "citation_offset": {
+        "offset": 479,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "phenomenon_type",
-      "value": "Orb sighting",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "time_of_sighting",
+      "value": "Around 9:15pm",
+      "source_quote": "arrived home in the evening around 9:15pm",
+      "citation_offset": {
+        "offset": 273,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "distance_from_witness",
+      "value": "Approximately 30 yards away, 20-30 feet above ground",
+      "source_quote": "the objects were approximately 30 yards away and 20-30 feet above the ground",
+      "citation_offset": {
+        "offset": 931,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_movement",
+      "value": "Moved laterally to the left, passing behind trees and a neighbor's house",
+      "source_quote": "observed tte objects move laterally to their left, passing behind a tree approximately 36 yards away",
+      "citation_offset": {
+        "offset": 1099,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "health_effects",
+      "value": "No health issues or eye discomfort reported",
+      "source_quote": "was able to look at the lights without stre.1in or discomfort on - eyes",
+      "citation_offset": {
+        "offset": 732,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "subsequent_sighting",
+      "value": "White orbs traveling west to east at higher altitude, weeks later",
+      "source_quote": "saw several ~hite orbs travel over house from the west to the east. These whi-:e orbs were traveling much higher in ~ltit~dc",
+      "citation_offset": {
+        "offset": 1525,
+        "len": 100,
+        "exact": false,
+        "matched": "bs travel over house from the west to the east. These whi-:e orbs were traveling much higher in ~lti"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "1987_sighting",
+      "value": "Red light circling near power lines, described like the front end of Kit from Nightrider",
+      "source_quote": "saw a red light circling around itself at night described lt like the front end or Kit frurn",
+      "citation_offset": {
+        "offset": 1752,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "1987_object_behavior",
+      "value": "Hovered and then landed near a power station",
+      "source_quote": "saw t he ob ject ho ve r and then land neai:- the power station",
+      "citation_offset": {
+        "offset": 2313,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "interview_attachments",
+      "value": "Photos taken by agents at the witness's permission",
+      "source_quote": "Attached t o th i s i nter view were phot os taken by Age nts at t he per mi ss ion",
+      "citation_offset": {
+        "offset": 2467,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_witnesses",
+      "value": "Two (primary witness plus a second person who came outside)",
+      "source_quote": "came outside to views the objects as well. Both",
+      "citation_offset": {
+        "offset": 1040,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "dated_events": [
+    "1987"
+  ],
+  "objects_described": [
+    "Yellow orb (basketball-sized)",
+    "Larger orb (beach-ball-sized)",
+    "White orbs at higher altitude",
+    "Red circling light near power lines (1987)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The witness observed two luminous orbs near their home at approximately 9:15pm, roughly 30 yards away and 20-30 feet above the ground.",
+      "source_quote": "arrived home in the evening around 9:15pm",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 273,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "One orb appeared to merge into the other before both abruptly vanished.",
+      "source_quote": "one orb going into the other orb before disappearing abruptly",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The witness experienced no health issues or eye strain from observing the objects.",
+      "source_quote": "has not h~d ~ny health issues or concerns since seeing these objects",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 824,
+        "len": 63,
+        "exact": false,
+        "matched": "ot h~d ~ny health issues or concerns since seeing these objects"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Weeks later, the witness saw white orbs traveling at higher altitude from west to east.",
+      "source_quote": "saw several ~hite orbs travel over house from the west to the east",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1525,
+        "len": 46,
+        "exact": false,
+        "matched": "bs travel over house from the west to the east"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "In 1987, the witness saw a red light near power lines that hovered and landed near a power station.",
+      "source_quote": "saw t he ob ject ho ve r and then land neai:- the power station",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2313,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Photos were taken by FBI agents at the scene with the witness's permission.",
+      "source_quote": "phot os taken by Age nts at t he per mi ss ion",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2504,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 3,
+    "amber": 3,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:45:55.833Z",
-  "qa_completed_at": "2026-06-14T02:46:31.379Z",
+  "qa_started_at": "2026-06-19T20:41:53.919Z",
+  "qa_completed_at": "2026-06-19T20:43:03.128Z",
   "timing": {
-    "A": "15.9s",
-    "B": "19.6s"
-  }
+    "A": "34.4s",
+    "B": "34.8s",
+    "E": "20.1s"
+  },
+  "public_headline": "FBI Interview Records Witness Account of Luminous Orbs in Northeastern US",
+  "public_tldr": "This FBI FD-302 interview report documents a witness who observed two luminous orbs — one basketball-sized, one beach-ball-sized — hovering near their home in the northeastern United States around 9:15pm in 2025. The document is heavily redacted, contains no FBI conclusions, and relies primarily on a single witness account with partial corroboration from one other person.",
+  "public_narrative": "This document is an FBI FD-302, a standard form used to record witness interviews. It captures a first-hand account from a person in the northeastern United States who reported seeing unidentified anomalous phenomena near their home in 2025.\n\nThe witness stated that upon arriving home around 9:15pm, they noticed a yellow ball of light roughly the size of a basketball through their windshield. Shortly after, they saw a second, larger ball of light about the size of a beach ball. Both objects were approximately 30 yards away and 20 to 30 feet above the ground. A second person came outside and also observed the objects. Both witnesses watched the orbs move laterally to the left, passing behind trees and a neighbour's house. At some point, one orb appeared to merge into the other before both abruptly vanished. The primary witness reported no health issues or eye discomfort from watching the lights.\n\nWeeks later, the same witness reported seeing white orbs travelling from west to east at a higher altitude. The witness also recalled a separate 1987 sighting of a red light near power lines, which they described as resembling the front of the car from the television show Knight Rider. They said the object hovered and then landed near a power station.\n\nThe FBI document states explicitly that it contains neither recommendations nor conclusions from the bureau. Photos were taken by FBI agents at the scene with the witness's permission, but no photographic evidence is included in the released text — they are referenced only as attachments. All witness names, specific dates, and precise locations are redacted throughout.",
+  "public_caveats": [
+    "The document is heavily redacted: all witness names, exact dates, and specific locations have been removed.",
+    "The primary observations come from a single witness, with only partial corroboration from one additional person who also saw the objects.",
+    "The 1987 sighting described in the document is recalled from memory decades later and is unverified.",
+    "The FBI explicitly states the document contains no recommendations or conclusions — it is a record of what was reported, not an assessment of what happened.",
+    "No photographs are included in the released text, though photos taken by agents are referenced as attachments."
+  ]
 }

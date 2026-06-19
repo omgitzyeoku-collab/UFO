@@ -5,92 +5,183 @@
   "type": "IMG",
   "incident_date": "2022",
   "incident_location": "Colorado Springs, Colorado, U.S.",
-  "what_is_it": "An FBI investigative activity form (FD-1057) recording a first-hand witness narrative of an unidentified anomalous phenomena (UAP) incident near Colorado Springs, Colorado.",
+  "what_is_it": "An FBI forensic sketch interview form (FD-1057) documenting an interview conducted to produce a digital artistic interpretation of a UAP sighting near Colorado Springs, Colorado.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No extracted body text is available — the document is an image file with no OCR text, so all facts are derived from metadata and the CSV description only.",
-    "Single-source witness account with no corroborating evidence described in available metadata.",
-    "The case is explicitly marked as unresolved — no determination of what the UAP was has been made.",
-    "The mention of a 'digital artistic interpretation' suggests the visual rendering of the incident is an artist's reconstruction, not a photograph or sensor capture.",
-    "Redaction level is estimated as moderate based on the document type and classification context, but cannot be precisely assessed without viewing the image content."
+    "Extreme redaction: nearly all identifying details about the witness, agents, locations, and the UAP description itself are redacted.",
+    "The OCR quality is very poor due to the document being an image (IMG type), making some text fragments unreliable.",
+    "No substantive description of the UAP survives the redactions — the actual witness account is entirely obscured.",
+    "Date discrepancy: the header says 07/2020 but the metadata lists the incident year as 2022; the relationship between the interview date and incident date is unclear.",
+    "The enclosed forensic sketch draft is not included in this extracted text, so the visual reconstruction of the UAP is not available here.",
+    "Single-source witness account provided to FBI agents; no corroboration is documented in the visible portions."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "Document form type",
-      "value": "FBI FD-1057 (investigative activity record)",
+      "field": "Document type",
+      "value": "FBI FD-1057 (forensic sketch interview form)",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     },
     {
-      "field": "Reporting agency",
+      "field": "Agency",
       "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "FEDERAL BUREAU OF INVESTIGATION",
+      "citation_offset": {
+        "offset": 0,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Incident location",
-      "value": "Near Colorado Springs, Colorado",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Interview date",
+      "value": "7/24 (month/day; year redacted but header says 07/2020)",
+      "source_quote": "forensic sketch iaterviev of EEN on 7-24",
+      "citation_offset": {
+        "offset": 169,
+        "len": 35,
+        "exact": false,
+        "matched": "sic sketch iaterviev of EEN on 7-24"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "Incident year",
-      "value": "2022",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Header date",
+      "value": "07/2020",
+      "source_quote": "Date: 07/2020",
+      "citation_offset": {
+        "offset": 65,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Case status",
-      "value": "Unresolved",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Interviewer unit",
+      "value": "FBI Operational Projects Unit (OPU) forensic artist",
+      "source_quote": "crocationai Projects Unit (070) forensic artist",
+      "citation_offset": {
+        "offset": 440,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Subject of interview",
+      "value": "Unidentified Aerial Phenomenon (UAP)",
+      "source_quote": "forensic recreation of the Unidentified Aerial Phenonenon (IAF)",
+      "citation_offset": {
+        "offset": 608,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Enclosures",
+      "value": "Sketch draft included as enclosure",
+      "source_quote": "Sketch draft",
+      "citation_offset": {
+        "offset": 277,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Colorado Springs, Colorado"
-  ],
+  "named_places": [],
   "dated_events": [
-    "2022"
+    "07/2020",
+    "7-24"
   ],
   "objects_described": [
-    "Unidentified anomalous phenomena (UAP)"
+    "Unidentified Aerial Phenomenon (UAP)"
   ],
   "verifiable_claims": [
     {
-      "claim": "The FBI used form FD-1057 to record investigative activity related to this UAP incident",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "The FBI conducted a forensic sketch interview to visually reconstruct a UAP sighting",
+      "source_quote": "forensic recreation of the Unidentified Aerial Phenonenon (IAF)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 608,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "claim": "The UAP report remains unresolved",
-      "source_quote": "",
+      "claim": "The interview was conducted by an FBI Operational Projects Unit forensic artist",
+      "source_quote": "crocationai Projects Unit (070) forensic artist",
       "verifier_verdict": "supported",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 440,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness provided information to aid in the forensic recreation",
+      "source_quote": "provided the following information to aid in the forensic recreation of the Unidentified Aerial Phenonenon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 559,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A sketch draft was produced and enclosed with the document",
+      "source_quote": "Sketch draft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 277,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness was advised of the identities of the interviewing individuals",
+      "source_quote": "wiviaed of the identities of the interviewing individuals",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 496,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
+    "green": 5,
     "amber": 0,
-    "red": 2
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:43:10.301Z",
-  "qa_completed_at": "2026-06-14T02:43:46.651Z",
+  "qa_started_at": "2026-06-19T20:36:50.431Z",
+  "qa_completed_at": "2026-06-19T20:37:33.511Z",
   "timing": {
-    "A": "17.8s",
-    "B": "18.6s"
-  }
+    "A": "23.2s",
+    "B": "19.9s",
+    "E": "22.1s"
+  },
+  "public_headline": "FBI Used Forensic Sketch Artist to Draw a UAP Sighting",
+  "public_tldr": "This FBI document is a forensic sketch interview form (FD-1057) recording an interview conducted to produce a visual reconstruction of an unidentified aerial phenomenon (UAP) reported near Colorado Springs, Colorado. Nearly all substantive details — the witness's identity, the description of the object, and key dates — are redacted, leaving only the procedural framework visible.",
+  "public_narrative": "This document is an FBI form known as an FD-1057 — the same type of forensic sketch interview form the Bureau uses when a witness sits down with a sketch artist to reconstruct what they saw. In this case, the subject was not a criminal suspect but an unidentified aerial phenomenon, or UAP.\n\nThe interview was conducted by a forensic artist from the FBI's Operational Projects Unit (OPU). A witness provided information to help produce a visual recreation of the UAP. A sketch draft was produced and enclosed with the document, though the sketch itself is not available in the extracted text — only the interview form survives.\n\nThe incident is catalogued as occurring near Colorado Springs, Colorado, in 2022, but the document header carries a date of July 2020. The interview itself is noted as taking place on 7/24, with the year redacted. The relationship between these dates is unclear.\n\nThe level of redaction is extreme. Nearly all identifying details — the witness's name, the interviewing agents, specific locations, and crucially, the actual description of what the witness saw — have been blacked out. No substantive account of the UAP survives. The document confirms that the FBI took the report seriously enough to deploy a forensic sketch process, but reveals almost nothing about the sighting itself.\n\nThe FBI reached no stated conclusion in the visible portions of this document. The report remains categorised as unresolved.",
+  "public_caveats": [
+    "Extreme redaction: the actual witness description of the UAP is entirely obscured, so this document tells us the FBI conducted an interview but not what was reported.",
+    "This is a single-source witness account with no corroboration documented in the visible portions.",
+    "There is a date discrepancy: the header reads July 2020 but the metadata lists the incident year as 2022 — the reason for this mismatch is not explained.",
+    "The forensic sketch itself is not included in the extracted text, so the visual reconstruction of the UAP cannot be reviewed here.",
+    "Poor OCR quality (the document is an image) means some text fragments in the original may be unreliable."
+  ]
 }

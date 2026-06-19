@@ -5,77 +5,190 @@
   "type": "IMG",
   "incident_date": "July, 2008",
   "incident_location": "Harare, Zimbabwe",
-  "what_is_it": "A CIA report documenting a UFO sighting at Harare International Airport, with debate over whether the object was a foreign reconnaissance device or extraterrestrial in origin.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "A classified CIA intelligence cable (information report) distributed to senior US government and military recipients regarding a perceived threat posture in Zimbabwe.",
+  "core_summary": "This is a SECRET/NOFORN CIA information report dated 3 July 2008 concerning Zimbabwe. The subject is 'Placement on High Alert Due to Perceived Aggressive Foreign Posturing.' The document was distributed to a wide array of US intelligence, military, and government agencies but the substantive body text is almost entirely redacted.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No extracted body text available — all facts derived from document metadata and CSV description only.",
-    "The document is an image file (scanned), so OCR was unsuccessful and no verbatim source quotes are available.",
-    "Single-source report with no corroborating documentation provided.",
-    "The debate over foreign vs. extraterrestrial origin is noted in the metadata description but no analytical conclusion is documented.",
-    "Redaction level estimated as moderate based on typical CIA document handling, but cannot be confirmed without readable source text."
+    "The entire body text of the cable is redacted — only the header, distribution list, and subject line are readable.",
+    "The CSV metadata from war.gov describes a UFO sighting at Harare International Airport with debate over whether it was a foreign reconnaissance device or extraterrestrial, but none of this detail appears in the visible source text.",
+    "The document is OCR'd from an image (IMG type), introducing transcription artifacts throughout (e.g. 'FOSTURING' for 'POSTURING', 'Reloase' for 'Release').",
+    "Classified as 'not finally evaluated intelligence' — the CIA had not verified the underlying reporting at time of distribution.",
+    "The extremely wide distribution list (dozens of military and intelligence recipients) suggests the report was considered operationally significant at the time."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "agency",
-      "value": "CIA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Classification",
+      "value": "SECRET/NOFORN",
+      "source_quote": "REPORTCLASSSECRE T-NOFORN",
+      "citation_offset": {
+        "offset": 1831,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_date",
-      "value": "July 2008",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Originator",
+      "value": "CIA Washington DC",
+      "source_quote": "0317107 CIA WASHINGTON DC 455182",
+      "citation_offset": {
+        "offset": 150,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "subject",
-      "value": "UFO sighting prompting high alert due to perceived aggressive foreign posturing",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Distribution date",
+      "value": "3 July 2008",
+      "source_quote": "DIST: 3 JULY 2008",
+      "citation_offset": {
+        "offset": 1857,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Country",
+      "value": "Zimbabwe",
+      "source_quote": "COUNTRY: ZIMBABWE",
+      "citation_offset": {
+        "offset": 1876,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Subject",
+      "value": "Placement on high alert due to perceived aggressive foreign posturing",
+      "source_quote": "SUBJ: PLACEMENT ONG ALERT DUE TO PERCEIVED AGGRESSIVE FOREIGN FOSTURING",
+      "citation_offset": {
+        "offset": 1910,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date of information",
+      "value": "Early July 2008",
+      "source_quote": "DOL EARLY JULY 2008",
+      "citation_offset": {
+        "offset": 1983,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report status",
+      "value": "Not finally evaluated intelligence",
+      "source_quote": "INFORMATION REPORT, NOT FINALLY EVALUATED INTELLIGENCE",
+      "citation_offset": {
+        "offset": 1498,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [
-    "Harare",
-    "Zimbabwe"
+    "Zimbabwe",
+    "Washington DC",
+    "Vaihingen GE",
+    "RAF Molesworth UK",
+    "Heidelberg GE",
+    "Ramstein AB GE",
+    "Naples IT",
+    "Norfolk VA",
+    "Langley AFB VA",
+    "Fort Bliss TX",
+    "Offutt AFB NE",
+    "Scott AFB IL",
+    "MacDill AFB FL",
+    "Fort Bragg NC",
+    "Stuttgart GE",
+    "Dahlgren VA",
+    "Fort George G Meade MD"
   ],
   "dated_events": [
-    "July 2008"
+    "3 JULY 2008",
+    "EARLY JULY 2008"
   ],
   "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "A UFO was sighted at Harare International Airport in July 2008",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "The CIA issued a classified cable about Zimbabwe being placed on high alert due to perceived aggressive foreign posturing in early July 2008.",
+      "source_quote": "SUBJ: PLACEMENT ONG ALERT DUE TO PERCEIVED AGGRESSIVE FOREIGN FOSTURING",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1910,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "claim": "The sighting led to placement on high alert due to perceived aggressive foreign posturing",
-      "source_quote": "",
+      "claim": "The report was distributed to the White House Situation Room, DIA, NSA, FBI, Secret Service, FAA, Department of Homeland Security, and numerous military commands.",
+      "source_quote": "70: WHITE HOUSE SITUATION ROOM WASHINGTON DC, DN] WASHINGTON DC, SECSTATE WASHINGTON DC",
       "verifier_verdict": "supported",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 183,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was marked as not finally evaluated intelligence, meaning it had not been fully verified or assessed.",
+      "source_quote": "INFORMATION REPORT, NOT FINALLY EVALUATED INTELLIGENCE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1498,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was approved for release in 2026 under Section 1842.",
+      "source_quote": "Approved for Reloase 2026 Under Section 1842",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 71,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
+    "green": 4,
     "amber": 0,
-    "red": 2
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:41:08.610Z",
-  "qa_completed_at": "2026-06-14T02:41:39.642Z",
+  "qa_started_at": "2026-06-19T20:32:54.522Z",
+  "qa_completed_at": "2026-06-19T20:33:39.118Z",
   "timing": {
-    "A": "16.2s",
-    "B": "14.8s"
-  }
+    "A": "26.3s",
+    "B": "18.3s",
+    "E": "19.3s"
+  },
+  "public_headline": "CIA Sent Secret Cable on Zimbabwe High-Alert Status in 2008",
+  "public_tldr": "In July 2008, the CIA distributed a secret intelligence cable about Zimbabwe being placed on high alert due to perceived aggressive foreign posturing. The document was sent to dozens of US military and intelligence agencies, but its entire body text is redacted, leaving the specific details unknown.",
+  "public_narrative": "On 3 July 2008, CIA Washington DC issued a classified intelligence cable titled \"Placement on High Alert Due to Perceived Aggressive Foreign Posturing,\" concerning events in Zimbabwe in early July 2008. The cable was marked SECRET/NOFORN, meaning it was secret-level and not to be shared with foreign governments.\n\nThe distribution list was unusually wide. Recipients included the White House Situation Room, the Defense Intelligence Agency (DIA), the National Security Agency (NSA), the FBI, the Secret Service, the Federal Aviation Administration (FAA), the Department of Homeland Security, and numerous military commands across the United States and Europe — from Fort Bragg, North Carolina to RAF Molesworth in the United Kingdom and Stuttgart, Germany. This breadth suggests the report was considered operationally significant at the time.\n\nThe CIA itself flagged this as \"not finally evaluated intelligence,\" meaning the underlying reporting had not been fully verified or assessed when the cable went out. It was preliminary information, not a confirmed conclusion.\n\nCritically, the entire substantive body of the cable is redacted. Only the header, subject line, classification markings, and distribution list are readable. There is no visible text explaining what the perceived threat was, who was posturing, or what specific alert measures were taken. The document was approved for public release in 2026 under Section 1842.",
+  "public_caveats": [
+    "The entire body text is redacted — the subject line is the only indication of what this cable was about. No details about the threat, the parties involved, or the response are visible.",
+    "The CIA marked this as 'not finally evaluated intelligence,' meaning the agency had not verified the underlying reporting at the time it was circulated.",
+    "This document is an OCR scan of an image, and the visible text contains transcription errors (e.g. 'FOSTURING' for 'POSTURING'), which can introduce ambiguity.",
+    "The wide distribution list tells us the report was treated as important, but importance alone does not confirm accuracy or completeness.",
+    "No named individuals, specific objects, or detailed events are visible in the unredacted portions of the document."
+  ]
 }

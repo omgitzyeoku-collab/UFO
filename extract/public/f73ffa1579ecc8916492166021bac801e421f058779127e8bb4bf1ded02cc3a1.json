@@ -5,99 +5,272 @@
   "type": "PDF",
   "incident_date": "2022",
   "incident_location": "Colorado Springs, Colorado, U.S.",
-  "what_is_it": "An FBI investigative activity form (FD-1057) recording a first-hand witness narrative of an unidentified anomalous phenomena (UAP) encounter near Colorado Springs, Colorado.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "FBI investigative form (FD-1057) recording a forensic sketch interview about an unresolved UAP sighting near Colorado Springs, Colorado.",
+  "core_summary": "A former U.S. Army intelligence officer and four members of his unit observed a UAP over the Cheyenne Mountains in 2022. The object was described as potato-shaped, opalescent, covered in articulating fish-scale-like panels, and perfectly still before it vanished or 'cloaked' after approximately two minutes. The witness was interviewed at FBI offices in New York in July 2024 to aid a forensic artist in producing a sketch of the object.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived from metadata and the CSV description only.",
-    "The document is likely scanned with poor OCR quality, preventing text extraction.",
-    "Single-source witness account with no corroborating evidence available in the extracted material.",
-    "Redaction level assessed as heavy based on the absence of extractable content and the document's classification as unresolved.",
-    "The 'digital artistic interpretation' referenced suggests the original observation may be conveyed through a reconstruction rather than direct imagery."
+    "All names of witnesses, agents, and the forensic artist are redacted — no independent verification of individuals is possible.",
+    "Single-source first-person account recorded two years after the incident (2022 sighting, 2024 interview).",
+    "The document references four additional witnesses but their statements are not included.",
+    "The forensic sketch referenced as an enclosure is not available in the extracted text.",
+    "Proximity to Cheyenne Mountain (NORAD/USNORTHCOM) is notable but no military radar or sensor corroboration is mentioned.",
+    "The term 'cloaked' is the witness's own characterisation, not an assessed finding."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "Document designator",
-      "value": "FBI-UAP-D002",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "FBI FD-1057 Electronic Communication",
+      "source_quote": "FD-1057 (Rev. 5-8-10) FEDERAL BUREAU OF INVESTIGATION Electronlc CommunlcaUon",
+      "citation_offset": {
+        "offset": 0,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Form type",
-      "value": "FD-1057 (FBI investigative activity form)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Interview purpose",
+      "value": "Forensic sketch interview to recreate UAP observed over Cheyenne Mountain",
+      "source_quote": "provided the following information to aid in the forensic recreation of the Unidentified Aerial Phenomenon (UAP)",
+      "citation_offset": {
+        "offset": 790,
+        "len": 50,
+        "exact": false,
+        "matched": "to aid in the forensic recreation of the Unidentif"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "Issuing agency",
-      "value": "FBI (Federal Bureau of Investigation)",
-      "source_quote": "",
+      "field": "Interview location",
+      "value": "26 Federal Plaza, New York, NY 10278",
+      "source_quote": "interviewed at 26 Federal Plaza, New York, NY 10278",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Incident location",
-      "value": "Colorado Springs, Colorado, U.S.",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Interview date",
+      "value": "July 2024",
+      "source_quote": "Forensic sketch interview of on 7-ll-24",
+      "citation_offset": {
+        "offset": 208,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Incident year",
-      "value": "2022",
-      "source_quote": "",
+      "field": "Witness background",
+      "value": "Former U.S. Army intelligence officer",
+      "source_quote": "a former U.S. Army intelligence officer",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Case status",
-      "value": "Unresolved",
-      "source_quote": "",
+      "field": "Number of witnesses",
+      "value": "Five (the interviewee plus four other unit members)",
+      "source_quote": "along with four other members of his unit, observed a UAP",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting location",
+      "value": "Over the Cheyenne Mountains, near Colorado Springs",
+      "source_quote": "observed a UAP over the Cheyenne Mountains as they exited their office building",
+      "citation_offset": {
+        "offset": 1082,
+        "len": 74,
+        "exact": false,
+        "matched": "observed a UAP over the Cheyenne Mountains as they exited their office bui"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object shape",
+      "value": "Potato-shaped with distinct edges",
+      "source_quote": "The object was \"potato\" shaped with distinct edges",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Object color",
+      "value": "Creamy/whitish opalescent, somewhat translucent with a slight shimmer",
+      "source_quote": "appeared to look painted in a creamy/whitish opalescent color. It was somewhat translucent with a slight shimmer",
+      "citation_offset": {
+        "offset": 1448,
+        "len": 50,
+        "exact": false,
+        "matched": "r. It was somewhat translucent with a slight shimm"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object surface",
+      "value": "Articulating fish-scale-like panels, non-symmetrical, non-overlapping, irregular shaped",
+      "source_quote": "articulating fish scales or panels that were non-symmetrical, non-overlapping, and irregularly shaped",
+      "citation_offset": {
+        "offset": 1559,
+        "len": 30,
+        "exact": false,
+        "matched": "articulating fish scales or pa"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object movement",
+      "value": "Perfectly still, but panels shifted in slow waves from different points of origin simultaneously",
+      "source_quote": "The object itself was perfectly still but each panel on the object shifted in slow waves starting at different points of origin but at the same time",
+      "citation_offset": {
+        "offset": 1753,
+        "len": 65,
+        "exact": false,
+        "matched": "ow waves starting at different points of origin but at the same t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Duration of sighting",
+      "value": "Approximately two minutes",
+      "source_quote": "After approximately two minutes, the object vanished",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Disappearance",
+      "value": "Object cloaked instantly with no shadow left behind",
+      "source_quote": "the object \"cloaked\" in the space of time it took to turn a head and there was no shadow",
+      "citation_offset": {
+        "offset": 1928,
+        "len": 73,
+        "exact": false,
+        "matched": "aked\" in the space of time it took to turn a head and there was no shadow"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Weather conditions",
+      "value": "Clear blue sky, no clouds, little humidity, approximately 50°F",
+      "source_quote": "the perfect \"blue bird\" sky as there were no clouds, little humidity, with a temperature of approximately 50 degrees Fahrenheit",
+      "citation_offset": {
+        "offset": 1257,
+        "len": 40,
+        "exact": false,
+        "matched": "humidity, with a temperature of approxim"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Enclosures",
+      "value": "Sketch draft attached",
+      "source_quote": "Sketch draft",
+      "citation_offset": {
+        "offset": 428,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [
-    "Colorado Springs, Colorado"
+    "Cheyenne Mountains",
+    "Cheyenne Mountain",
+    "26 Federal Plaza, New York, NY 10278"
   ],
   "dated_events": [
-    "2022"
+    "7-11-24 (interview date, July 11, 2024)",
+    "07/2024 (document date)"
   ],
   "objects_described": [
-    "Unidentified anomalous phenomena (UAP)"
+    "Potato-shaped UAP with opalescent color, translucent surface, articulating fish-scale panels, and cloaking capability"
   ],
   "verifiable_claims": [
     {
-      "claim": "The FBI recorded a first-hand UAP witness narrative on an FD-1057 form",
-      "source_quote": "",
+      "claim": "The witness was a former U.S. Army intelligence officer stationed near Cheyenne Mountain.",
+      "source_quote": "a former U.S. Army intelligence officer",
       "verifier_verdict": "partial",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
     },
     {
-      "claim": "The UAP report remains unresolved",
-      "source_quote": "",
+      "claim": "Five people witnessed the UAP simultaneously.",
+      "source_quote": "along with four other members of his unit, observed a UAP over the Cheyenne Mountains",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1079,
+        "len": 45,
+        "exact": false,
+        "matched": "t, observed a UAP over the Cheyenne Mountains"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object appeared to have a surface made of independently moving, irregular panels.",
+      "source_quote": "articulating fish scales or panels that were non-symmetrical, non-overlapping, and irregularly shaped",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1559,
+        "len": 30,
+        "exact": false,
+        "matched": "articulating fish scales or pa"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object vanished or 'cloaked' almost instantaneously after about two minutes.",
+      "source_quote": "the object \"cloaked\" in the space of time it took to turn a head and there was no shadow",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1928,
+        "len": 73,
+        "exact": false,
+        "matched": "aked\" in the space of time it took to turn a head and there was no shadow"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The interview was conducted at the FBI's New York field office.",
+      "source_quote": "interviewed at 26 Federal Plaza, New York, NY 10278",
       "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "A forensic artist was producing a sketch based on the witness's description.",
+      "source_quote": "provided the following information to aid in the forensic recreation of the Unidentified Aerial Phenomenon (UAP)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 790,
+        "len": 50,
+        "exact": false,
+        "matched": "to aid in the forensic recreation of the Unidentif"
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
-    "red": 2
+    "amber": 6,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:42:38.622Z",
-  "qa_completed_at": "2026-06-14T02:43:10.299Z",
+  "qa_started_at": "2026-06-19T20:35:31.932Z",
+  "qa_completed_at": "2026-06-19T20:36:27.862Z",
   "timing": {
-    "A": "15.5s",
-    "B": "16.2s"
-  }
+    "A": "28.6s",
+    "B": "27.3s",
+    "E": "22.6s"
+  },
+  "public_headline": "FBI Records Forensic Sketch Interview of Unresolved UAP Sighting Near Colorado Springs",
+  "public_tldr": "This FBI investigative form documents a July 2024 forensic sketch interview with a former U.S. Army intelligence officer who, along with four unit members, observed an unidentified aerial phenomenon over the Cheyenne Mountains near Colorado Springs in 2022. The object was described as potato-shaped, opalescent, covered in moving fish-scale-like panels, and motionless before it vanished almost instantly after about two minutes.",
+  "public_narrative": "This document is an FBI Electronic Communication form (FD-1057) recording a forensic sketch interview conducted on July 11, 2024, at 26 Federal Plaza in New York City. The purpose was to help a forensic artist recreate an unidentified aerial phenomenon (UAP) that the witness had observed two years earlier near Colorado Springs, Colorado.\n\nThe witness, identified only as a former U.S. Army intelligence officer (all names are redacted), reported that in 2022 he and four other members of his unit saw an object hovering over the Cheyenne Mountains as they stepped outside their office building. The weather was clear — blue sky, no clouds, roughly 50°F with little humidity. The object was described as potato-shaped with distinct edges, creamy or whitish in colour, somewhat translucent with a slight shimmer. Its surface appeared to be made of irregular, non-overlapping panels resembling fish scales, which shifted independently in slow waves from multiple points at once.\n\nThe object remained perfectly still for approximately two minutes before it vanished. The witness used the word \"cloaked\" to describe its disappearance, saying it happened in the time it took to turn one's head, leaving no shadow behind. The FBI form notes a forensic sketch was drafted as an enclosure, but that sketch is not included in the extracted text.\n\nThe document is heavily redacted. All names — the witness, accompanying unit members, FBI agents, and the forensic artist — are blacked out. No military radar data, sensor readings, or corroborating records from nearby Cheyenne Mountain (home to NORAD and U.S. Northern Command) are mentioned. The FBI did not record a conclusion or explanation for the sighting; the report is marked as unresolved.",
+  "public_caveats": [
+    "This is a single witness's account recorded two years after the event. Four other witnesses are referenced but none of their statements appear in the document.",
+    "All names are redacted, making independent verification of the individuals involved impossible.",
+    "No radar, sensor, or other instrumental data is cited despite the sighting's proximity to the Cheyenne Mountain military complex (NORAD/USNORTHCOM).",
+    "The word \"cloaked\" is the witness's own description, not an assessed finding by the FBI.",
+    "The forensic sketch referenced as an attachment is not available in the released material."
+  ]
 }

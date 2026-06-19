@@ -5,85 +5,245 @@
   "type": "IMG",
   "incident_date": "2025",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI FD-302 interview record documenting a first-hand witness account of an unidentified anomalous phenomena (UAP) orb sighting in the northeastern United States.",
+  "what_is_it": "An FBI FD-302 interview record documenting a civilian's first-hand account of observing unidentified luminous orb-like objects near their home in the northeastern United States.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted body text is available — all facts are derived from metadata and the official CSV description only.",
-    "The document is an image file (JPG), suggesting a scanned document with no machine-readable text.",
-    "Single-source witness account: the FD-302 records one person's perspective without independent corroboration noted.",
-    "Redaction level is assessed as heavy given the absence of readable content and the nature of FBI interview records in this collection.",
-    "The witness identity is not disclosed; the document refers only to 'a U.S. person'."
+    "Heavy redaction throughout: all witness names, specific dates, and precise locations are redacted, preventing independent verification.",
+    "OCR-extracted text from an image file contains numerous transcription errors, meaning some details may be misread.",
+    "Single-source account: the document records one civilian's testimony with no corroborating physical evidence described.",
+    "The document references related files FBI-UAP-D009 and FBI-UAP-PR004 which may contain additional context not present here.",
+    "The 'earlier sighting' near power lines is mentioned without a specific date beyond a reference to 1987 (partially legible), suggesting the witness is recounting events across a long time span."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "agency",
-      "value": "FBI (Federal Bureau of Investigation)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "FBI FD-302 interview record",
+      "source_quote": "FEDERAL BUREAU OF INVESTIGATION",
+      "citation_offset": {
+        "offset": 32,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
-      "value": "Northeastern United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Arrival time",
+      "value": "Around 5:15pm in the evening",
+      "source_quote": "rived hone in the evening around 5:15pm",
+      "citation_offset": {
+        "offset": 265,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_date",
-      "value": "2025",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "First object description",
+      "value": "Yellow ball of light, approximately basketball-sized",
+      "source_quote": "a ball of lish: through Windshield which was yellow and about the size Of 8 basketball",
+      "citation_offset": {
+        "offset": 376,
+        "len": 61,
+        "exact": false,
+        "matched": "indshield which was yellow and about the size Of 8 basketball"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "phenomenon_type",
-      "value": "Orb sighting",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Object distance and altitude",
+      "value": "Approximately 30 yards away and 20-30 feet above the ground",
+      "source_quote": "the oblects vere approximately 30 yards avay and 20-30 feet above the Srowns",
+      "citation_offset": {
+        "offset": 921,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object position relative to terrain",
+      "value": "Near a tree line between witness's property and neighbor's property",
+      "source_quote": "in front of a section of trees between property and neighbors property behind the hone",
+      "citation_offset": {
+        "offset": 624,
+        "len": 36,
+        "exact": false,
+        "matched": "in front of a section of trees betwe"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Viewing comfort",
+      "value": "Witness could look at lights without strain or eye discomfort",
+      "source_quote": "Took at the lights without strain or discomfort on eyes",
+      "citation_offset": {
+        "offset": 735,
+        "len": 50,
+        "exact": false,
+        "matched": "Took at the lights without strain or discomfort on"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Health effects",
+      "value": "No health issues or concerns reported since sighting",
+      "source_quote": "has mot had say health fesiee oF concerns since seeing these",
+      "citation_offset": {
+        "offset": 814,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object movement",
+      "value": "Moved laterally to the left, passing behind trees and a neighbor's house",
+      "source_quote": "observed fhe objects Move Laterally to thesr Tett, passing bening a tree spproxiastely 36 yards away",
+      "citation_offset": {
+        "offset": 1083,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Maximum observed distance",
+      "value": "Approximately 75 yards before objects passed beyond view",
+      "source_quote": "beyond a tres chat was approximately 75 away",
+      "citation_offset": {
+        "offset": 1245,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Subsequent sighting",
+      "value": "White orbs traveling from west to east at higher altitude over the house, weeks later",
+      "source_quote": "saw several white oxbe. travel over house from the west to the east. Theso white orbs were Crovel ing mach higher in altitsds",
+      "citation_offset": {
+        "offset": 1484,
+        "len": 90,
+        "exact": false,
+        "matched": " house from the west to the east. Theso white orbs were Crovel ing mach higher in altitsds"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Red light comparison",
+      "value": "Described as resembling the front end of KITT from Knight Rider",
+      "source_quote": "Sescribed it like the front end of Kit from",
+      "citation_offset": {
+        "offset": 1751,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of witnesses",
+      "value": "At least two — the primary witness and a second person who came outside",
+      "source_quote": "came cuiside to views the objects as vel. Both anc observed fhe objects",
+      "citation_offset": {
+        "offset": 1028,
+        "len": 46,
+        "exact": false,
+        "matched": "came cuiside to views the objects as vel. Both"
+      },
+      "confidence": "amber"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Northeastern United States"
-  ],
-  "dated_events": [
-    "2025"
-  ],
+  "named_places": [],
+  "dated_events": [],
   "objects_described": [
-    "Orb (unidentified anomalous phenomenon)"
+    "Yellow ball of light (basketball-sized)",
+    "Larger ball of light (beach-ball-sized)",
+    "White orbs at higher altitude"
   ],
   "verifiable_claims": [
     {
-      "claim": "The FBI conducted an interview with a U.S. person regarding a first-hand UAP sighting",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Two luminous objects were observed hovering approximately 30 yards away and 20-30 feet above the ground near a residential tree line.",
+      "source_quote": "the oblects vere approximately 30 yards avay and 20-30 feet above the Srowns",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 921,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "claim": "The sighting involved an orb-type phenomenon in the northeastern United States",
-      "source_quote": "",
+      "claim": "The objects moved laterally from the witness's perspective, passing behind trees and a neighboring house.",
+      "source_quote": "observed fhe objects Move Laterally to thesr Tett, passing bening a tree spproxiastely 36 yards away",
       "verifier_verdict": "supported",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 1083,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness reported no health issues following the sighting.",
+      "source_quote": "has mot had say health fesiee oF concerns since seeing these",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 814,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second sighting of white orbs occurred weeks later, traveling at higher altitude from west to east.",
+      "source_quote": "saw several white oxbe. travel over house from the west to the east",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1444,
+        "len": 32,
+        "exact": false,
+        "matched": "saw several white oxbe. travel o"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "An earlier sighting involved a red light circling near power lines, compared to the front of KITT from Knight Rider.",
+      "source_quote": "av ¢ sed light CITeling around itself at night Sescribed it like the front end of Kit from",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 1704,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 2
+    "green": 4,
+    "amber": 1,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:46:31.381Z",
-  "qa_completed_at": "2026-06-14T02:47:03.774Z",
+  "qa_started_at": "2026-06-19T20:43:23.243Z",
+  "qa_completed_at": "2026-06-19T20:44:28.950Z",
   "timing": {
-    "A": "16.6s",
-    "B": "15.8s"
-  }
+    "A": "32.5s",
+    "B": "33.3s",
+    "E": "23.2s"
+  },
+  "public_headline": "FBI Interview Records Civilian's Orb Sightings in Northeastern US",
+  "public_tldr": "This FBI FD-302 interview record documents a civilian's account of observing luminous orb-like objects near their home in the northeastern United States in 2025. The witness described basketball- and beach-ball-sized lights hovering near a tree line, a later sighting of white orbs at higher altitude, and an earlier incident involving a red light near power lines — but the document is heavily redacted, with all names, dates, and precise locations removed.",
+  "public_narrative": "This document is an FBI FD-302 — the standard form used to record witness interviews — filed under the designation FBI-UAP-D010. It captures a civilian's first-hand account of observing unidentified luminous objects near their home in the northeastern United States.\n\nAccording to the witness, they arrived home around 5:15 p.m. and spotted a yellow ball of light through their windshield, roughly the size of a basketball. A larger, beach-ball-sized light was also present. The objects hovered approximately 30 yards away and 20–30 feet above the ground, near a tree line between the witness's property and a neighbour's. A second person came outside and also observed the objects. Both watched as the lights moved laterally to the left, passing behind trees and a neighbouring house before disappearing from view at roughly 75 yards away. The witness reported being able to look at the lights without eye strain or discomfort and said they experienced no health issues afterwards.\n\nWeeks later, the same witness reported seeing several white orbs travelling from west to east over their house at a much higher altitude. The document also references an earlier sighting — possibly dating to 1987 — in which the witness observed a red light circling near power lines, which they compared to the front end of KITT from the television series Knight Rider.\n\nThe document is heavily redacted throughout. All witness names, specific dates, and precise locations have been removed, making independent verification impossible. The FBI drew no stated conclusion about what the objects were. The record references related files FBI-UAP-D009 and FBI-UAP-PR004, which may contain additional context not available here.",
+  "public_caveats": [
+    "This is a single-source account: one civilian's testimony with no corroborating physical evidence described in the document.",
+    "Heavy redaction removes all names, specific dates, and precise locations, preventing anyone from independently verifying the claims.",
+    "The text was extracted via OCR from an image file and contains numerous transcription errors, meaning some details may be misread.",
+    "The FBI records the witness's statements but does not offer any conclusion or analysis about what the objects were.",
+    "Related files (FBI-UAP-D009 and FBI-UAP-PR004) are referenced but not included, so important context may be missing."
+  ]
 }

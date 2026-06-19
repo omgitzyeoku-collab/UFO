@@ -4,28 +4,20 @@
   "agency": "CIA",
   "type": "IMG",
   "incident_date": "1952-1953",
-  "what_is_it": "A report from a CIA-convened Scientific Advisory Panel on Unidentified Flying Objects, documenting their conclusions and recommendations from 1952–1953.",
+  "what_is_it": "A report from a CIA-convened Scientific Advisory Panel on Unidentified Flying Objects, summarizing their conclusions from 1952-1953.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No extracted text available — all facts derived from metadata and CSV description only, not from the document body itself.",
-    "The document is an image file (JPG), suggesting a scanned document that may contain additional detail not captured here.",
-    "This is widely understood to describe the Robertson Panel; metadata does not name individual panel members.",
-    "The CSV description appears truncated, so recommendations made by the panel may be incompletely represented."
+    "Source text is empty — all facts are derived from metadata (CSV description and filename) rather than the document body itself",
+    "The document is an image file (JPG) and the OCR/extraction yielded no text, so no verbatim source quotes are available",
+    "The CSV description appears truncated, so some panel recommendations may be missing from this extraction"
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 4,
   "key_facts": [
     {
-      "field": "Date range",
-      "value": "1952–1953",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Panel type",
-      "value": "Scientific Advisory Panel on Unidentified Flying Objects",
+      "field": "Document date range",
+      "value": "1952-1953",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
@@ -34,10 +26,10 @@
   "named_people": [],
   "named_places": [],
   "dated_events": [
-    "1952–1953"
+    "1952-1953"
   ],
   "objects_described": [
-    "unidentified flying objects"
+    "Unidentified Flying Objects"
   ],
   "verifiable_claims": [],
   "tier": "red",
@@ -47,10 +39,10 @@
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:49:58.806Z",
-  "qa_completed_at": "2026-06-14T02:50:33.989Z",
+  "qa_started_at": "2026-06-19T20:51:13.539Z",
+  "qa_completed_at": "2026-06-19T20:51:42.499Z",
   "timing": {
-    "A": "17.2s",
-    "B": "18.0s"
+    "A": "15.7s",
+    "B": "13.2s"
   }
 }

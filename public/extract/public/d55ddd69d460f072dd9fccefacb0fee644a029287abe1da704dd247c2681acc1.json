@@ -4,61 +4,108 @@
   "agency": "CIA",
   "type": "IMG",
   "incident_date": "1950",
-  "what_is_it": "A CIA Information Report from 1950 discussing a German scientist's published article theorizing about the aerodynamic principles behind so-called 'Flying Discs'.",
+  "what_is_it": "CIA Information Report summarizing a German scientist's published article theorizing about the aerodynamic principles behind 'Flying Discs'.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No OCR text was extractable from the scanned image; all facts are derived from the CSV metadata description provided by war.gov, not from the document body itself.",
-    "The identity of the German scientist is not specified in the available metadata.",
-    "The document reports on a published article's theory, not on confirmed observations or intelligence findings.",
-    "A redacted version existed publicly, indicating some information has been withheld."
+    "The OCR extraction is extremely degraded, rendering most of the body text illegible; key facts are supplemented from the official CSV description provided by war.gov.",
+    "The German scientist is not named in the legible portions of the text.",
+    "This is a single-source intelligence report summarizing a published article, not a direct observation or investigation of any UAP event.",
+    "Heavy redaction is present throughout the document, obscuring source details and much of the analytical content.",
+    "A redacted version of this report was previously available on the CIA's public website."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 5,
   "key_facts": [
     {
-      "field": "originating_agency",
-      "value": "CIA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "report_number",
+      "value": "SO B-273",
+      "source_quote": "REPORT NO. SO B-273",
+      "citation_offset": {
+        "offset": 41,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "year",
-      "value": "1950",
-      "source_quote": "",
+      "field": "document_type",
+      "value": "CIA Information Report",
+      "source_quote": "CENTRAL INTELLIGENCE AGENCY REPORT NO. SO B-273 INFORMATION REPORT",
+      "citation_offset": {
+        "offset": 13,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "subject",
+      "value": "German scientist's article on Flying Discs",
+      "source_quote": "Gimn Ctemstte ietide on Tying",
+      "citation_offset": {
+        "offset": 105,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_pages",
+      "value": "1",
+      "source_quote": "NO.OFPMES 1",
+      "citation_offset": {
+        "offset": 140,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification",
+      "value": "SECRET",
+      "source_quote": "SRECT",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     }
   ],
   "named_people": [],
   "named_places": [],
-  "dated_events": [
-    "1950"
-  ],
+  "dated_events": [],
   "objects_described": [
     "Flying Discs"
   ],
   "verifiable_claims": [
     {
-      "claim": "A German scientist published an article proposing that Flying Discs could be a new type of aircraft based on German aerodynamic research",
-      "source_quote": "",
+      "claim": "A German scientist published an article proposing that Flying Discs could be explained as aircraft using aerodynamic principles from German research facilities.",
+      "source_quote": "Gimn Ctemstte ietide on Tying",
       "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 105,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was classified SECRET and consisted of one page.",
+      "source_quote": "SRECT... NO.OFPMES 1",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
     }
   ],
   "tier": "red",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 1,
+    "amber": 1,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:53:05.185Z",
-  "qa_completed_at": "2026-06-14T02:53:39.021Z",
+  "qa_started_at": "2026-06-19T20:59:24.510Z",
+  "qa_completed_at": "2026-06-19T21:00:00.709Z",
   "timing": {
-    "A": "16.7s",
-    "B": "17.1s"
+    "A": "18.7s",
+    "B": "17.5s"
   }
 }

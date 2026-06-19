@@ -4,57 +4,268 @@
   "agency": "CIA",
   "type": "PDF",
   "incident_date": "1958",
-  "what_is_it": "A CIA internal memorandum documenting a phone conversation with Dr. Leon Davidson about a destroyed 'space message and its transmitter.'",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "Internal CIA memorandum documenting a phone conversation with Dr. Leon Davidson regarding a destroyed 'space message and its transmitter' and the agency's evasive handling of his inquiries.",
+  "core_summary": "This January 1958 CIA memo from the Chicago Office to the Chief of the Contact Division reports that Dr. Leon Davidson was informed by telephone that records concerning a 'space message and its transmitter' had been destroyed by the originating agency. The memo's author expresses concern that the non-committal and evasive answer given to Davidson was unfair and unlikely to be fully accepted, and acknowledges that efforts had been made to conceal CIA identity from Davidson in prior contacts.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts derive from the document title and CSV metadata description only.",
-    "The document is known to be redacted; a redacted version was already public on the CIA website.",
-    "Without the full text, the nature of the 'space message and its transmitter' and what was destroyed cannot be determined.",
-    "Dr. Leon Davidson was a known UFO researcher of the era; his claims should be evaluated in that context."
+    "The source text is heavily degraded OCR from a scanned document, making some words ambiguous or unreadable.",
+    "Moderate redaction is present — some names and reference numbers are partially obscured.",
+    "The document is a single internal CIA memo representing one officer's perspective; no corroborating documents are included.",
+    "The 'space message and its transmitter' is never defined or described in this document — context is assumed known by the recipients.",
+    "The memo explicitly acknowledges that evasive and potentially misleading answers were given to Dr. Davidson by instruction."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "case_number",
-      "value": "17708 (CLOSED)",
-      "source_quote": "",
+      "field": "Document date",
+      "value": "9 January 1958",
+      "source_quote": "9 Januar,- 1958",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "subject_person",
+      "field": "Case number",
+      "value": "17708 (Closed)",
+      "source_quote": "Case l.TT08 {CJ cseil)",
+      "citation_offset": {
+        "offset": 134,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Subject person",
       "value": "Dr. Leon Davidson",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "Dr. Dav.td.son",
+      "citation_offset": {
+        "offset": 335,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "From",
+      "value": "Chief, Chicago Office",
+      "source_quote": "Chid'., Chicago Office",
+      "citation_offset": {
+        "offset": 95,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "To",
+      "value": "Chief, Contact Division",
+      "source_quote": "Chief, Contact Divi.sicn",
+      "citation_offset": {
+        "offset": 32,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Records status",
+      "value": "Destroyed by originating agency",
+      "source_quote": "reco:rds en the t::e.~..er l::ave been. destroyed by tho ~ti.:lg agency",
+      "citation_offset": {
+        "offset": 477,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Davidson's response",
+      "value": "Said he had been told this before; mentioned a second article for publication about Air Force handling of space sightings",
+      "source_quote": "he b!4 been told thi.a bei'ore, tbat he Il01' had a seca:id art:Lcl..e ~c,r pnbllcatiOll cOJJ.Ce:rn:1ng .Aj.r Force banditng or S];:BCS sight-.1.ng3",
+      "citation_offset": {
+        "offset": 610,
+        "len": 100,
+        "exact": false,
+        "matched": "he b!4 been told thi.a bei'ore, tbat he Il01' had a seca:id art:Lcl..e ~c,r pnbllcatiOll cOJJ.Ce:rn:"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "CIA identity concealment",
+      "value": "Efforts were made to conceal CIA identity from Davidson in contacts with Walker and Stokich",
+      "source_quote": "ettort bad becsi ::sde to caiceru tbe.!r CL\\ 1dem;:1ty- :Crcm·him",
+      "citation_offset": {
+        "offset": 1680,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Author's concern",
+      "value": "The evasive answer was the only option to avoid contradicting previous statements, but was unfair to Davidson",
+      "source_quote": "the ~ nonea:mt:I.ttal. am evasive 8.l:l.SVe2\" ve were inst.meted to give Davidsen w..s ~ : p e",
+      "citation_offset": {
+        "offset": 1099,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Author assessment",
+      "value": "More will be heard from Davidson",
+      "source_quote": "Tile ant s:a:re xaore 'V:ill. be hes.xd :f'rcm. l:!aT:1.d.so:n",
+      "citation_offset": {
+        "offset": 2075,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Meeting location reference",
+      "value": "Court of Appeals Building conference room",
+      "source_quote": "wen ~ +ruJtea to us in the court of' ippeaJ.s Building confc:xeace .rocu",
+      "citation_offset": {
+        "offset": 1772,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
+  "named_people": [
+    "Dr. Leon Davidson",
+    "Walker",
+    "LaFountain"
+  ],
+  "named_places": [
+    "Chicago",
+    "Pentagon",
+    "Court of Appeals Building"
+  ],
+  "dated_events": [
+    "9 January 1958",
+    "8 Jan. 58"
+  ],
+  "objects_described": [
+    "space message and its transmitter"
+  ],
   "verifiable_claims": [
     {
-      "claim": "The matter was filed under CIA Case 17708, which was subsequently closed",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "CIA told Dr. Davidson that records on the transmitter had been destroyed by the originating agency",
+      "source_quote": "reco:rds en the t::e.~..er l::ave been. destroyed by tho ~ti.:lg agency",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 477,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Davidson had been given this same answer before",
+      "source_quote": "he b!4 been told thi.a bei'ore",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 610,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Davidson had a second article for publication concerning Air Force handling of space sightings",
+      "source_quote": "he Il01' had a seca:id art:Lcl..e ~c,r pnbllcatiOll cOJJ.Ce:rn:1ng .Aj.r Force banditng or S];:BCS sight-.1.ng3",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 647,
+        "len": 100,
+        "exact": false,
+        "matched": "he Il01' had a seca:id art:Lcl..e ~c,r pnbllcatiOll cOJJ.Ce:rn:1ng .Aj.r Force banditng or S];:BCS s"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The article was pending Pentagon security review",
+      "source_quote": "1.n the l;anc'J:1 ~ the Penta.gr:m secorl:t;y revie-;, peopl~",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 760,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "CIA contacts with Davidson through Walker and Stokich were conducted with efforts to hide CIA identity",
+      "source_quote": "ettort bad becsi ::sde to caiceru tbe.!r CL\\ 1dem;:1ty- :Crcm·him",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1680,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The evasive answer was the only option to avoid contradicting previous statements by CIA and other involved agencies",
+      "source_quote": "only Cllle pos:ibl.e t t lie 'li'e::r'C to a-void czossillg up previous sta:te:,ent",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1201,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The author believed Davidson likely knew he was dealing with the CIA during the Court of Appeals Building meeting",
+      "source_quote": "h9 kru!,v ver.,-vell. v.lth. Yball he l.a.s deaUJ?g",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1846,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The author predicted more would be heard from Davidson",
+      "source_quote": "Tile ant s:a:re xaore 'V:ill. be hes.xd :f'rcm. l:!aT:1.d.so:n",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2075,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 7,
+    "amber": 1,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:51:37.418Z",
-  "qa_completed_at": "2026-06-14T02:52:04.729Z",
+  "qa_started_at": "2026-06-19T20:55:30.675Z",
+  "qa_completed_at": "2026-06-19T20:56:44.378Z",
   "timing": {
-    "A": "13.7s",
-    "B": "13.6s"
-  }
+    "A": "42.9s",
+    "B": "30.8s",
+    "E": "22.6s"
+  },
+  "public_headline": "CIA Memo Shows Agency Gave Evasive Answers to Physicist About Destroyed Records",
+  "public_tldr": "A January 1958 internal CIA memo from the Chicago Office reports that Dr. Leon Davidson was told records about a 'space message and its transmitter' had been destroyed. The memo's author openly criticises the evasive response as unfair and notes that CIA officers had been concealing their agency identity from Davidson during prior contacts.",
+  "public_narrative": "On 9 January 1958, the Chief of the CIA's Chicago Office sent a memo to the Chief of the Contact Division about a phone call with Dr. Leon Davidson, filed under Case 17708 (Closed). Davidson had been asking about a 'space message and its transmitter' — an object never described or defined in the memo itself — and was told that the records had been destroyed by the originating agency. Davidson replied that he had heard this before and mentioned he had a second article ready for publication about how the Air Force handled space sightings, which was pending Pentagon security review.\n\nWhat makes this memo notable is the author's candour about the agency's own conduct. The memo states that the non-committal and evasive answer given to Davidson was the only option available to avoid contradicting previous statements made by the CIA and other agencies. The author describes this approach as unfair to Davidson.\n\nThe memo also reveals that efforts had been made to conceal CIA identity from Davidson during prior contacts through individuals named Walker and Stokich. However, the author believed Davidson likely knew he was dealing with the CIA, particularly after a meeting at the Court of Appeals Building conference room. The memo closes with a prediction that more would be heard from Davidson.\n\nThe document is a single internal memo representing one officer's perspective. No corroborating documents, replies, or follow-up records are included. The original scan is heavily degraded, and moderate redaction obscures some names and reference numbers.",
+  "public_caveats": [
+    "This is a single internal memo from one CIA officer — no corroborating documents or responses are included in this release.",
+    "The 'space message and its transmitter' is never defined or described anywhere in the document; readers should not assume they know what it refers to.",
+    "The document has moderate redactions — some names and reference numbers are partially obscured.",
+    "The source scan is heavily degraded, making some words ambiguous in the OCR text. Two facts (the exact date and Davidson's response about his article) carry slightly lower confidence due to this degradation.",
+    "The memo explicitly acknowledges that CIA personnel were instructed to give evasive answers and to hide their agency affiliation — this is stated in the document itself, not an outside interpretation."
+  ]
 }

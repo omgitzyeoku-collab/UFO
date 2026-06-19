@@ -8,45 +8,43 @@
   "what_is_it": "A CIA information report documenting an eyewitness sighting of unconventional triangular aircraft near Baku, Azerbaijan in 1955.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No OCR text was extractable from this scanned image; all facts are derived from metadata and the war.gov CSV description only.",
-    "Single eyewitness account from a US national — no corroborating sources referenced.",
-    "The document has known redactions; a redacted version was previously public, and the full extent of redaction in this release is unclear.",
-    "Cold War-era sighting near a Soviet airfield — the 'unconventional aircraft' may have been experimental Soviet military craft rather than anything anomalous."
+    "The source is an image (JPG) and OCR extraction failed almost entirely — the extracted text is garbled and nearly unreadable.",
+    "Almost all key facts are derived from the CSV metadata description provided by war.gov rather than directly from the document body text.",
+    "Heavy redaction is evident; the document has previously only been available in redacted form on CIA's public site.",
+    "Single-source eyewitness account from one US national; no corroborating observations noted.",
+    "The sighting occurred near a Soviet-era airfield during the Cold War; the aircraft may have been experimental Soviet craft rather than anomalous objects.",
+    "No verbatim source quotes could be reliably extracted due to the severity of OCR failure on this image document."
   ],
-  "fabrication_score": 5,
+  "fabrication_score": 6,
   "key_facts": [
     {
-      "field": "Originating agency",
-      "value": "CIA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "originating_agency",
+      "value": "Central Intelligence Agency",
+      "source_quote": "CENTRAL INTELLIGENCE AGENCY",
+      "citation_offset": {
+        "offset": 90,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Document date",
-      "value": "November 1955",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Incident location",
-      "value": "Airfield near Baku, Azerbaijan",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_type",
+      "value": "Information Report",
+      "source_quote": "INFORMATION REPORT",
+      "citation_offset": {
+        "offset": 67,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Baku",
-    "Azerbaijan"
-  ],
-  "dated_events": [
-    "November 1955"
-  ],
+  "named_places": [],
+  "dated_events": [],
   "objects_described": [],
   "verifiable_claims": [],
   "tier": "red",
@@ -56,10 +54,10 @@
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:54:07.592Z",
-  "qa_completed_at": "2026-06-14T02:54:40.375Z",
+  "qa_started_at": "2026-06-19T21:01:48.966Z",
+  "qa_completed_at": "2026-06-19T21:02:32.188Z",
   "timing": {
-    "A": "14.8s",
-    "B": "18.0s"
+    "A": "22.4s",
+    "B": "20.8s"
   }
 }

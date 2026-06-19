@@ -4,59 +4,516 @@
   "agency": "CIA",
   "type": "PDF",
   "incident_date": "1954-1974",
-  "what_is_it": "A CIA History Staff document chronicling the complete history of the U-2 and OXCART (A-12) high-altitude reconnaissance aircraft programs from 1954 to 1974.",
+  "what_is_it": "A classified CIA History Staff monograph chronicling the development and operations of the U-2 and A-12 OXCART high-altitude reconnaissance aircraft programs from 1954 to 1974.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No body text was extractable from this PDF — all facts derive from metadata and the CSV description only.",
-    "A prior, more heavily redacted version existed, indicating sensitive content was withheld in earlier releases.",
-    "This is primarily a history of manned reconnaissance aircraft programs, not a UAP/UFO incident report; its inclusion in the PURSUE collection likely relates to U-2 flights being misidentified as UFOs during the 1950s–1960s."
+    "This is a CIA internal history written by CIA staff with access only to CIA records and selected interviews — it represents the Agency's own perspective on events.",
+    "The document was deliberately kept at Secret classification, meaning some details about satellites and interagency agreements are described only in general terms by the authors' own admission.",
+    "Moderate redaction is present — some names and organisational details are blacked out in the text.",
+    "The UFO/BLUE BOOK connection is referenced only as a chapter heading in this extracted portion; the full chapter text explaining how U-2 flights generated UFO sightings is not included in this extract.",
+    "The document was published in 1992, decades after the events described, and relies partly on interviews with ageing participants whose recollections may be incomplete.",
+    "A more redacted version of this document has been publicly available on the CIA website; the PURSUE release may contain additional previously-redacted content."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "programs_covered",
-      "value": "U-2 and OXCART (A-12) high-altitude reconnaissance aircraft",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document classification",
+      "value": "Secret NOFORN (No Foreign Nationals)",
+      "source_quote": "Secret NOFORN",
+      "citation_offset": {
+        "offset": 135636,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "time_period",
-      "value": "1954–1974",
-      "source_quote": "",
+      "field": "Authors",
+      "value": "Gregory W. Pedlow and Donald E. Welzenbach, CIA History Staff",
+      "source_quote": "Gregory W. Pedlow and Donald E. Welzenbach History Staff Central Intelligence Agency",
+      "citation_offset": {
+        "offset": 830,
+        "len": 74,
+        "exact": false,
+        "matched": " Pedlow and Donald E. Welzenbach History Staff Central Intelligence Agency"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Publication date",
+      "value": "1992",
+      "source_quote": "Washington, D.C. 1992",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Program duration",
+      "value": "20 years, from late 1954 to 1974",
+      "source_quote": "The Agency's manned overhead reconnaissance program lasted 20 years. It began with President Eisenhower's authorization of the U-2 project in late 1954 and ended with the transfer of the remaining Agency U-2s to the Air Force in 1974",
+      "citation_offset": {
+        "offset": 19669,
+        "len": 233,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "U-2 designer",
+      "value": "Clarence L. (Kelly) Johnson of Lockheed",
+      "source_quote": "Lockheed's best aircraft designer-Clarence L. (Kelly) Johnson-began working on the project, then known as the CL-282",
+      "citation_offset": {
+        "offset": 47321,
+        "len": 100,
+        "exact": false,
+        "matched": " best aircraft designer-Clarence L. (Kelly) Johnson-began working on the project, then known as the "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "U-2 original designation",
+      "value": "CL-282",
+      "source_quote": "then known as the CL-282 but later to become famous under its Air Force designator-the U-2",
+      "citation_offset": {
+        "offset": 47403,
+        "len": 75,
+        "exact": false,
+        "matched": "then known as the CL-282 but later to become famous under its Air Force des"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "U-2 design basis",
+      "value": "Jet-propelled glider based on F-104 fuselage with sailplane wings",
+      "source_quote": "a radical design based upon the fuselage of the F-104 jet fighter but incorporating a high-aspect-ratio sailplane wing",
+      "citation_offset": {
+        "offset": 47718,
+        "len": 50,
+        "exact": false,
+        "matched": "a radical design based upon the fuselage of the F-"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "CL-282 maximum altitude",
+      "value": "Just over 70,000 feet with 2,000-mile range",
+      "source_quote": "The CL-282's maximum altitude would be just over 70,000 feet with a 2,000-mile range",
+      "citation_offset": {
+        "offset": 48761,
+        "len": 59,
+        "exact": false,
+        "matched": "'s maximum altitude would be just over 70,000 feet with a 2"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "CL-282 airframe stress rating",
+      "value": "2.5 g's instead of military standard 5.33 g's",
+      "source_quote": "Johnson decided to stress the airframe to only 2.5 units of gravity (g's) instead of the military specification strength of 5.33 g's",
+      "citation_offset": {
+        "offset": 47902,
+        "len": 60,
+        "exact": false,
+        "matched": "Johnson decided to stress the airframe to only 2.5 units of "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "First Soviet overflight",
+      "value": "July 1956",
+      "source_quote": "its first flight over the USSR in July 1956 made it immediately the most important source of intelligence on the Soviet Union",
+      "citation_offset": {
+        "offset": 14559,
+        "len": 125,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Powers shootdown date",
+      "value": "1 May 1960",
+      "source_quote": "After the Soviets shot down Francis Gary Powers' U-2 on 1 May 1960",
+      "citation_offset": {
+        "offset": 15121,
+        "len": 56,
+        "exact": false,
+        "matched": "After the Soviets shot down Francis Gary Powers' U-2 on "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "OXCART successor",
+      "value": "A-12 OXCART, cancelled 1968 after Air Force deployed SR-71",
+      "source_quote": "this advanced aircraft saw little operational use and the program was canceled in 1968 after the Air Force deployed a fleet of similar aircraft, a military variant of the A-12 called the SR-71",
+      "citation_offset": {
+        "offset": 19999,
+        "len": 100,
+        "exact": false,
+        "matched": "ced aircraft saw little operational use and the program was canceled in 1968 after the Air Force dep"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "OXCART public reveal",
+      "value": "February and July 1964 by President Johnson",
+      "source_quote": "at press conferences in February and July 1964, President Lyndon B. Johnson revealed the existence of the OXCART-type of aircraft",
+      "citation_offset": {
+        "offset": 20515,
+        "len": 80,
+        "exact": false,
+        "matched": "4, President Lyndon B. Johnson revealed the existence of the OXCART-type of airc"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Soviet air defense escalation",
+      "value": "1950 — Soviets began aggressively attacking aircraft near borders",
+      "source_quote": "In 1950 there was a major change in Soviet policy. Air defense units became very aggressive in defending their airspace, attacking all aircraft that came near the borders",
+      "citation_offset": {
+        "offset": 30917,
+        "len": 170,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "First US aircraft shot down",
+      "value": "8 April 1950, US Navy Privateer over Baltic Sea",
+      "source_quote": "On 8 April 1950, Soviet fighters shot down a US Navy Privateer patrol aircraft over the Baltic Sea",
+      "citation_offset": {
+        "offset": 31109,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Project codename for U-2",
+      "value": "AQUATONE",
+      "source_quote": "Funding Arrangements for Project AQUATONE",
+      "citation_offset": {
+        "offset": 2372,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "OXCART first deployment operation",
+      "value": "Operation BLACK SHIELD",
+      "source_quote": "First A-12 Deployment: Operation BLACK SHIELD",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Institutional legacy",
+      "value": "Led to creation of CIA Directorate of Science and Technology in 1960s",
+      "source_quote": "The formation of the Directorate of Science and Technology in the 1960s, principally to develop and direct reconnaissance programs, is the most obvious legacy",
+      "citation_offset": {
+        "offset": 14069,
+        "len": 65,
+        "exact": false,
+        "matched": "The formation of the Directorate of Science and Technology in the"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Eisenhower's stance on overflights",
+      "value": "Reluctant and doubtful of their prudence",
+      "source_quote": "President Eisenhower, from the outset doubtful of the prudence and propriety of invading Soviet airspace, only reluctantly allowed any overflights at all",
+      "citation_offset": {
+        "offset": 15036,
+        "len": 80,
+        "exact": false,
+        "matched": "priety of invading Soviet airspace, only reluctantly allowed any overflights at "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Key advocate for high-altitude recon",
+      "value": "Richard S. Leghorn, MIT graduate and Kodak employee",
+      "source_quote": "One of the leading advocates of the need for new, high-altitude reconnaissance aircraft was Richard S. Leghorn, a Massachusetts Institute of Technology graduate and employee of Eastman Kodak",
+      "citation_offset": {
+        "offset": 33903,
+        "len": 190,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
+  "named_people": [
+    "Gregory W. Pedlow",
+    "Donald E. Welzenbach",
+    "J. Kenneth McDonald",
+    "Gerald Haines",
+    "Diane Marvin",
+    "Francis Gary Powers",
+    "Dwight D. Eisenhower",
+    "Lyndon B. Johnson",
+    "Richard S. Leghorn",
+    "Clarence L. (Kelly) Johnson",
+    "John H. (Jack) Carter",
+    "L. Eugene Root",
+    "Eugene P. Kiefer",
+    "Charles F. (Bud) Wienberg",
+    "Bernard A. Schriever",
+    "Joseph J. Pellegrini",
+    "Donald L. Putt",
+    "John Seaberg",
+    "Woldemar Voigt",
+    "Richard Vogt",
+    "Werner von Fritsch",
+    "Arthur S. Lundahl",
+    "Dino Brugioni",
+    "Helen Hill Kleyla",
+    "Robert D. O'Hern",
+    "David Wise",
+    "Thomas B. Ross",
+    "Michael Beschloss",
+    "William Burrows",
+    "Chris Pocock",
+    "Jay Miller",
+    "Ivan A. Getting",
+    "Philip G. Strong"
+  ],
+  "named_places": [
+    "Soviet Union",
+    "Washington, D.C.",
+    "Dayton, Ohio",
+    "Buffalo, New York",
+    "Hagerstown, Maryland",
+    "Baltimore",
+    "Abilene, Kansas",
+    "Lakenheath",
+    "Wiesbaden",
+    "Pakistan",
+    "Norway",
+    "Lebanon",
+    "Taiwan",
+    "India",
+    "Laos",
+    "North Vietnam",
+    "South America",
+    "Indonesia",
+    "Tibet",
+    "Thailand",
+    "Hokkaido",
+    "Igarka",
+    "Siberia",
+    "Baltic Sea",
+    "Sea of Japan",
+    "Vladivostok",
+    "Kapustin Yar",
+    "Peenemunde",
+    "Frankfurt",
+    "Eastern Europe",
+    "South Korea",
+    "United Kingdom"
+  ],
+  "dated_events": [
+    "1954-1974 — U-2 and OXCART program period",
+    "1946 — Leghorn presents papers advocating pre-D-day reconnaissance",
+    "May 1949 — Canberra first flight",
+    "March 1950 — Canberra PR3 reconnaissance version begins flying",
+    "8 April 1950 — Soviet fighters shoot down US Navy Privateer over Baltic Sea",
+    "June 1950 — Korean War outbreak",
+    "April 1951 — Leghorn heads Reconnaissance Systems Branch at Wright Air Development Command",
+    "August 1952 — Soviet reconnaissance aircraft begin violating Japanese airspace",
+    "7 October 1952 — Soviet fighters shoot down US RB-29 over Hokkaido",
+    "13 June 1952 — RB-29 lost in Sea of Japan",
+    "September 1952 — Air Research and Development Command contracts Martin to modify B-57",
+    "March 1953 — Seaberg expands ideas into request for proposal",
+    "July 1953 — Bell and Fairchild receive study contracts",
+    "January 1954 — Three firms submit proposals",
+    "March 1954 — Seaberg recommends Martin and Bell proposals",
+    "Early March 1954 — Kelly Johnson submits CL-282 design",
+    "Late 1954 — Eisenhower authorizes U-2 project",
+    "July 1956 — First U-2 flight over the USSR",
+    "1 May 1960 — Francis Gary Powers' U-2 shot down over Soviet Union",
+    "February 1964 — LBJ reveals OXCART-type aircraft",
+    "July 1964 — LBJ second press conference on OXCART-type aircraft",
+    "1968 — OXCART program cancelled",
+    "1969 — DST publishes History of the Office of Special Activities",
+    "1974 — Remaining CIA U-2s transferred to Air Force",
+    "April 1992 — Document published"
+  ],
   "objects_described": [
-    "U-2 reconnaissance aircraft",
-    "OXCART (A-12) reconnaissance aircraft"
+    "U-2 reconnaissance aircraft (CL-282)",
+    "A-12 OXCART reconnaissance aircraft",
+    "SR-71 (military variant of A-12)",
+    "YF-12A interceptor",
+    "Boeing RB-47 reconnaissance aircraft",
+    "RB-29 reconnaissance aircraft",
+    "English Electric Canberra / PR3",
+    "B-57 Canberra (US license-built version)",
+    "RB-57D (modified high-altitude B-57)",
+    "Bell Model 67 / X-16",
+    "Fairchild M-195",
+    "Martin Model 294",
+    "F-104 jet fighter",
+    "MIG-17 Soviet interceptor",
+    "P-38",
+    "P-80",
+    "US Navy Privateer patrol aircraft",
+    "US Navy Neptune bomber",
+    "General Electric J73/GE-3 turbojet engine",
+    "Rolls-Royce Avon-109 engine",
+    "SCR-584 target-tracking radar",
+    "SCR-270 early warning radar"
   ],
   "verifiable_claims": [
     {
-      "claim": "The CIA developed and operated the U-2 and OXCART (A-12) high-altitude reconnaissance programs from 1954 to 1974.",
-      "source_quote": "",
+      "claim": "The U-2's first flight over the USSR in July 1956 made it immediately the most important source of intelligence on the Soviet Union",
+      "source_quote": "its first flight over the USSR in July 1956 made it immediately the most important source of intelligence on the Soviet Union",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 14559,
+        "len": 125,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "U-2 high-altitude flights generated UFO reports that were processed through the Air Force's Operation BLUE BOOK",
+      "source_quote": "U-2s, UFOs, and Operation BLUE BOOK",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 3236,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "President Eisenhower banned further U-2 flights over the USSR after the Powers shootdown on 1 May 1960",
+      "source_quote": "After the Soviets shot down Francis Gary Powers' U-2 on 1 May 1960, President Eisenhower forbade any further U-2 flights over the USSR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 15181,
+        "len": 70,
+        "exact": false,
+        "matched": "y 1960, President Eisenhower forbade any further U-2 flights over the "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The CIA's overhead reconnaissance program led to the creation of the Directorate of Science and Technology in the 1960s",
+      "source_quote": "The formation of the Directorate of Science and Technology in the 1960s, principally to develop and direct reconnaissance programs, is the most obvious legacy",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 14069,
+        "len": 65,
+        "exact": false,
+        "matched": "The formation of the Directorate of Science and Technology in the"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Soviet fighters shot down a US Navy Privateer patrol aircraft over the Baltic Sea on 8 April 1950",
+      "source_quote": "On 8 April 1950, Soviet fighters shot down a US Navy Privateer patrol aircraft over the Baltic Sea",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 31109,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The MIG-17, the best Soviet interceptor at the time, struggled to reach 45,000 feet",
+      "source_quote": "the best Soviet interceptor at that time, the MIG-17, had to struggle to reach 45,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 35187,
+        "len": 50,
+        "exact": false,
+        "matched": "the best Soviet interceptor at that time, the MIG-"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The CL-282 was essentially a jet-propelled glider designed to fly above 70,000 feet",
+      "source_quote": "Essentially, Kelly Johnson had designed a jet-propelled glider",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 48838,
+        "len": 57,
+        "exact": false,
+        "matched": "Essentially, Kelly Johnson had designed a jet-propelled g"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "An RB-47 once flew 450 miles into Soviet territory and photographed the city of Igarka in Siberia",
+      "source_quote": "One RB-47 aircraft even managed to fly 450 miles inland and photograph the city of Igarka in Siberia",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 30735,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The OXCART program was cancelled in 1968 after the Air Force deployed the SR-71",
+      "source_quote": "the program was canceled in 1968 after the Air Force deployed a fleet of similar aircraft, a military variant of the A-12 called the SR-71",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20043,
+        "len": 80,
+        "exact": false,
+        "matched": "the program was canceled in 1968 after the Air Force deployed a fleet of similar"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Soviet Union continued improving radar technology after WWII while the US and UK did not prioritise it equally",
+      "source_quote": "the Soviet Union, unlike Britain and the United States, had continued to improve radar technology after the end of World War II",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 40632,
+        "len": 100,
+        "exact": false,
+        "matched": "like Britain and the United States, had continued to improve radar technology after the end of World"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "General von Fritsch predicted in 1938 that the nation with the best aerial reconnaissance would win the next war",
+      "source_quote": "Gen. Werner von Fritsch, Commander in Chief of the German Army, predicted: 'The nation with the best aerial reconnaissance facilities will win the next war'",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25791,
+        "len": 80,
+        "exact": false,
+        "matched": "'The nation with the best aerial reconnaissance facilities will win the next war"
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 4,
+    "amber": 7,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:50:33.990Z",
-  "qa_completed_at": "2026-06-14T02:51:03.690Z",
+  "qa_started_at": "2026-06-19T20:51:42.501Z",
+  "qa_completed_at": "2026-06-19T20:54:13.327Z",
   "timing": {
-    "A": "14.8s",
-    "B": "14.9s"
-  }
+    "A": "79.1s",
+    "B": "71.3s",
+    "E": "32.2s"
+  },
+  "public_headline": "CIA History Details Secret U-2 and OXCART Spy Plane Programs",
+  "public_tldr": "This is a CIA internal history, written in 1992 and classified Secret, covering the development and operations of the U-2 and A-12 OXCART high-altitude reconnaissance aircraft from 1954 to 1974. It documents how Cold War intelligence needs drove radical aircraft design, how U-2 flights inadvertently generated UFO reports, and how the programmes reshaped the CIA itself.",
+  "public_narrative": "This document is a CIA History Staff monograph written by Gregory W. Pedlow and Donald E. Welzenbach, published in April 1992 and classified Secret NOFORN (No Foreign Nationals). It chronicles 20 years of CIA-run aerial spying, from President Eisenhower's authorisation of the U-2 project in late 1954 through the transfer of the last CIA U-2s to the Air Force in 1974.\n\nThe story begins in the early Cold War, when the Soviet Union grew increasingly aggressive about defending its airspace. On 8 April 1950, Soviet fighters shot down a US Navy Privateer patrol aircraft over the Baltic Sea — one of several incidents that underscored how dangerous conventional reconnaissance had become. The CIA needed an aircraft that could fly above Soviet defences. Clarence L. \"Kelly\" Johnson of Lockheed answered with the CL-282, essentially a jet-propelled glider: an F-104 fuselage fitted with sailplane wings, stressed to only 2.5 g's instead of the military standard 5.33 g's, capable of reaching just over 70,000 feet. The best Soviet interceptor of the era, the MIG-17, struggled to reach 45,000 feet. The aircraft became the U-2, codenamed Project AQUATONE.\n\nThe U-2's first flight over the Soviet Union in July 1956 made it, according to the document, the most important single source of intelligence on the USSR. But Eisenhower remained reluctant about the flights, doubtful of their prudence. His caution proved warranted: on 1 May 1960, Soviet forces shot down pilot Francis Gary Powers, and Eisenhower banned further U-2 overflights of the USSR. The CIA then developed the faster A-12 OXCART as a successor, but it saw limited operational use. Its first deployment was Operation BLACK SHIELD. President Lyndon B. Johnson publicly revealed the OXCART-type aircraft at press conferences in February and July 1964, and the programme was cancelled in 1968 after the Air Force fielded its own variant, the SR-71.\n\nOne notable detail: the document includes a chapter heading referencing U-2s, UFOs, and the Air Force's Operation BLUE BOOK — the connection being that U-2 flights at extreme altitude generated UFO sighting reports. However, the full chapter text explaining this link is not included in the extracted portion. The programmes' broader legacy was institutional: the CIA created its Directorate of Science and Technology in the 1960s principally to manage reconnaissance efforts like these.",
+  "public_caveats": [
+    "This is a CIA internal history written by CIA staff using CIA records and selected interviews — it presents the Agency's own account of events, not an independent assessment.",
+    "The document carries moderate redaction: some names and organisational details are blacked out, and the authors note they deliberately kept certain satellite and interagency details vague due to the Secret classification level.",
+    "The UFO/BLUE BOOK connection appears only as a chapter heading in this extract — the full explanation of how U-2 flights generated UFO reports is not included in the text available here.",
+    "The monograph was published in 1992, decades after the events it describes, and relies partly on interviews with ageing participants whose recollections may be incomplete.",
+    "A more heavily redacted version of this document has previously been available on the CIA website; this release through the PURSUE programme may contain additional previously-redacted content."
+  ]
 }

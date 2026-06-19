@@ -5,76 +5,286 @@
   "type": "PDF",
   "incident_date": "2026",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI FD-302 interview report documenting a U.S. person's account of incidents potentially involving unidentified anomalous phenomena in the northeastern United States.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "An FBI FD-302 interview report documenting a witness account of an unidentified anomalous phenomena (UAP) sighting in the northeastern United States.",
+  "core_summary": "In February 2026, the FBI interviewed a U.S. person via Microsoft Teams videoconference about a UAP sighting at their residence. The witness observed a brilliant red sphere approximately one meter in diameter with a white plasma-like center hovering in their backyard, which was joined by a second identical orb; both moved silently westward in tandem before appearing to merge into one. Weeks later, the same witness observed several white orbs at higher altitude traveling from west to east over their house.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived from metadata and the war.gov CSV description only.",
-    "The document is likely heavily redacted or scanned at a quality too low for OCR extraction.",
-    "The interviewee is described only as a 'U.S. person' with no further identifying details available.",
-    "Single-source account: the FD-302 records one person's description of events.",
-    "The term 'orb' appears in the document title but cannot be confirmed from body text."
+    "Heavy redactions obscure all names, specific dates, exact locations, and identifying details of the witnesses and interviewing agents.",
+    "The account is based on a single primary witness's testimony, with partial corroboration from a second household member.",
+    "The source text is OCR-extracted from a PDF and contains numerous artifacts and corrupted characters, which may cause minor inaccuracies in quoted text.",
+    "The witness's description uses subjective terms ('brilliant and beautiful', 'white plasma sun') that reflect personal impression rather than measured observation.",
+    "The referenced video attachment (FBI-UAP-PR004) is not included in this document and would need separate review for corroboration."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
       "field": "document_type",
-      "value": "FBI FD-302 (interview record form)",
-      "source_quote": "",
+      "value": "FBI FD-302 interview record",
+      "source_quote": "FD-302 (Rev 5-8-101 FEDERAL BUREAU Of INVESTIGATION",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "agency",
-      "value": "FBI",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "interview_date",
+      "value": "February 2026",
+      "source_quote": "On February ., 2026,",
+      "citation_offset": {
+        "offset": 191,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_region",
-      "value": "Northeastern United States",
-      "source_quote": "",
+      "field": "interview_method",
+      "value": "Videoconference on Microsoft Teams",
+      "source_quote": "via videoconference on Microsoft Teams",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "subject_matter",
-      "value": "Incidents potentially involving unidentified anomalous phenomena",
-      "source_quote": "",
+      "field": "witness_education",
+      "value": "Bachelor's degree in Economics & Finance",
+      "source_quote": "received a Bachelor's degree in Economics & finance from",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "orb_description",
+      "value": "Red sphere approximately one meter in diameter",
+      "source_quote": "described the light as a red sphere that was about one meter in diameter",
+      "citation_offset": {
+        "offset": 1314,
+        "len": 37,
+        "exact": false,
+        "matched": "ibed the light as a red sphere that w"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "orb_color",
+      "value": "Brilliant red, described as unlike any red previously seen",
+      "source_quote": "described the red color as being brilliant and beautiful, and that had never seen anything that color of red before",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "orb_interior",
+      "value": "White plasma-like center about the size of a basketball",
+      "source_quote": "inside the red sphere, at the center, there appeared to be what described as a \"white plasma sun\" about the size of a basketball",
+      "citation_offset": {
+        "offset": 1527,
+        "len": 60,
+        "exact": false,
+        "matched": "inside the red sphere, at the center, there appeared to be w"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "initial_position",
+      "value": "Hovering below the tree line in the middle of the backyard",
+      "source_quote": "noticed an intense bright light hovering below the tree line in the middle of their backyard",
+      "citation_offset": {
+        "offset": 830,
+        "len": 67,
+        "exact": false,
+        "matched": "right light hovering below the tree line in the middle of their bac"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "number_of_orbs",
+      "value": "Two identical red orbs observed initially",
+      "source_quote": "they noticed there was a second, identical orb, hovering above the first one",
+      "citation_offset": {
+        "offset": 1728,
+        "len": 61,
+        "exact": false,
+        "matched": "noticed there was a second, identical orb, hovering above the"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "orb_movement",
+      "value": "Silent, smooth, in tandem as if tethered or in formation, moving westward",
+      "source_quote": "The orbs were silent and moved in a smooth motion. They moved in tandem as if they were flying in formation or were tethered together",
+      "citation_offset": {
+        "offset": 2407,
+        "len": 100,
+        "exact": false,
+        "matched": "The orbs were silent and moved in a smooth motion. They moved in tandem as if they were flying in fo"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "orb_behavior_changes",
+      "value": "Changed both altitude and direction during observation",
+      "source_quote": "they exhibited both a change in altitude and a change in direction",
+      "citation_offset": {
+        "offset": 2339,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "orb_merging",
+      "value": "Orbs appeared to merge into one as they moved out of sight",
+      "source_quote": "saw the orbs merge together into one orb, or were so close together that could only see one orb",
+      "citation_offset": {
+        "offset": 2576,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "video_evidence",
+      "value": "Witness captured video of the orbs above the trees moving away",
+      "source_quote": "captured a video of the orbs beginning at the point when they were above the trees and moving away from their backyard",
+      "citation_offset": {
+        "offset": 2679,
+        "len": 75,
+        "exact": false,
+        "matched": "captured a video of the orbs beginning at the point when they were above th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "second_sighting",
+      "value": "Several white orbs seen weeks later traveling west to east at higher altitude",
+      "source_quote": "saw several white orbs travel over house from the west to the east",
+      "citation_offset": {
+        "offset": 2901,
+        "len": 31,
+        "exact": false,
+        "matched": "saw several white orbs travel o"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "white_orb_apparent_size",
+      "value": "Size of a dime held at arm's length",
+      "source_quote": "described them as appearing the size of a dime held at arm's length",
+      "citation_offset": {
+        "offset": 3056,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_witness",
+      "value": "A second person at the residence also observed the orbs",
+      "source_quote": "then went outside to join and see what was looking at",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "security_camera",
+      "value": "Second witness checked security camera and saw the first witness standing next to vehicle looking into the backyard",
+      "source_quote": "checked security camera and saw standing next to vehicle looking into the backyard",
+      "citation_offset": {
+        "offset": 1208,
+        "len": 32,
+        "exact": false,
+        "matched": "ehicle looking into the backyard"
+      },
+      "confidence": "amber"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Northeastern United States"
+  "named_places": [],
+  "dated_events": [
+    "February 2026"
   ],
-  "dated_events": [],
   "objects_described": [
-    "Orb"
+    "Red sphere UAP approximately one meter in diameter with white plasma-like center",
+    "Second identical red orb",
+    "Several white orbs at higher altitude"
   ],
   "verifiable_claims": [
     {
-      "claim": "The FBI conducted an interview in February 2026 with a U.S. person about incidents potentially involving unidentified anomalous phenomena.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "The witness captured video of the orbs, which is attached to the interview document.",
+      "source_quote": "captured a video of the orbs beginning at the point when they were above the trees and moving away from their backyard. The video is contained as an attachment to this interview document.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2760,
+        "len": 100,
+        "exact": false,
+        "matched": "es and moving away from their backyard. The video is contained as an attachment to this interview do"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The orbs produced no sound.",
+      "source_quote": "The orbs were silent and moved in a smooth motion.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2407,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The orbs exhibited changes in both altitude and direction.",
+      "source_quote": "they exhibited both a change in altitude and a change in direction",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2339,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The two orbs appeared to merge into a single orb as they departed.",
+      "source_quote": "saw the orbs merge together into one orb, or were so close together that could only see one orb",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2576,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second sighting of white orbs occurred weeks after the initial red orb sighting.",
+      "source_quote": "A few weeks later, stated that saw several white orbs travel over house from the west to the east",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2900,
+        "len": 32,
+        "exact": false,
+        "matched": " saw several white orbs travel o"
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 3,
+    "amber": 2,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:44:50.252Z",
-  "qa_completed_at": "2026-06-14T02:45:24.983Z",
+  "qa_started_at": "2026-06-19T20:39:14.250Z",
+  "qa_completed_at": "2026-06-19T20:40:07.529Z",
   "timing": {
-    "A": "15.3s",
-    "B": "19.5s"
-  }
+    "A": "29.6s",
+    "B": "23.7s",
+    "E": "24.4s"
+  },
+  "public_headline": "FBI Interview Records Witness Account of Red Orbs in Backyard",
+  "public_tldr": "This is an FBI interview report (FD-302) from February 2026 documenting a witness's account of glowing red spheres hovering in their backyard in the northeastern United States. The witness described two silent, metre-wide red orbs with white plasma-like centres that moved in tandem before appearing to merge into one, followed weeks later by a separate sighting of white orbs at higher altitude.",
+  "public_narrative": "This document is an FBI FD-302 — a standard form the Bureau uses to record the contents of witness interviews. In February 2026, FBI agents interviewed a U.S. person via Microsoft Teams videoconference about a UAP (unidentified anomalous phenomena) sighting at the witness's residence somewhere in the northeastern United States. The witness holds a bachelor's degree in economics and finance.\n\nAccording to the witness, they noticed an intense bright light hovering below the tree line in the middle of their backyard. They described it as a red sphere roughly one metre across, with a colour they called \"brilliant and beautiful\" and unlike any red they had seen before. At its centre was what the witness called a \"white plasma sun,\" about the size of a basketball. A second person at the residence confirmed seeing the witness standing by a vehicle looking into the backyard via a security camera, then went outside and also observed the objects.\n\nA second identical orb appeared above the first. The two moved silently and smoothly westward, changing both altitude and direction, as if tethered together or flying in formation. As they departed, the orbs appeared to merge into a single object — or drew so close together that only one was visible. The witness captured video of the orbs once they were above the tree line and moving away; this video is referenced as an attachment (FBI-UAP-PR004) but is not included in the document itself.\n\nWeeks later, the same witness reported seeing several white orbs travelling from west to east over their house at a higher altitude, each appearing roughly the size of a dime held at arm's length.\n\nThe document is heavily redacted: all names, specific dates beyond the month, exact locations, and identifying details of both the witnesses and the interviewing agents have been removed. The FBI drew no stated conclusion in the released text about what the objects were.",
+  "public_caveats": [
+    "The account rests primarily on a single witness's testimony, with only partial corroboration from a second household member who also observed the objects.",
+    "The document is heavily redacted — all names, precise dates, exact locations, and agent identities are blacked out, making independent verification difficult.",
+    "The referenced video attachment (FBI-UAP-PR004) is not included in this document and has not been separately reviewed here.",
+    "The witness's descriptions use subjective language ('brilliant and beautiful', 'white plasma sun') reflecting personal impressions rather than measured or instrumented observations.",
+    "The original text was extracted via OCR from a PDF scan, which introduces the possibility of minor textual errors in quoted passages."
+  ]
 }

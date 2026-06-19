@@ -4,43 +4,264 @@
   "agency": "FBI",
   "type": "PDF",
   "incident_date": "1949",
-  "what_is_it": "Correspondence between FBI Director J. Edgar Hoover and a civilian witness, with a referral letter to the Atomic Energy Commission (AEC), regarding a reported UAP sighting.",
+  "what_is_it": "Correspondence between a civilian pastor and FBI Director J. Edgar Hoover regarding an observed aerial phenomenon, with referral to the Atomic Energy Commission.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No OCR text was extractable from the PDF; all facts are derived solely from the war.gov catalogue metadata description.",
-    "Single civilian witness account with no corroborating observations noted.",
-    "The witness was a clergyman, not a trained military or scientific observer.",
-    "No indication that any investigation or follow-up by the AEC is documented here.",
-    "The nature of the 'beams of light' and 'explosion' is uncharacterised — no physical evidence referenced."
+    "Single civilian observer account with no corroborating witnesses mentioned",
+    "The observer explicitly acknowledged the sighting may have been a scientific experiment rather than anomalous",
+    "The observation was reported approximately 8 months after it occurred",
+    "Hoover's reply and the AEC referral are partially illegible due to poor scan quality",
+    "No follow-up investigation results or AEC response are included in this document"
   ],
-  "fabrication_score": 5,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "year",
-      "value": "1949",
-      "source_quote": "",
+      "field": "author",
+      "value": "Rev. Charles C. Barnes, Pastor, First Presbyterian Church, Box 391, McMinnville, Oregon",
+      "source_quote": "REV. CHARLES C. BARNES, PASTOR Box 391",
+      "citation_offset": {
+        "offset": 202,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "recipient",
+      "value": "J. Edgar Hoover, FBI Director, Washington D.C.",
+      "source_quote": "Mre J. Edgar Hoover Washington D.C.",
+      "citation_offset": {
+        "offset": 267,
+        "len": 30,
+        "exact": false,
+        "matched": "Mre J. Edgar Hoover Washington"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "letter_date",
+      "value": "January 31, 1949",
+      "source_quote": "January 31, 1949",
+      "citation_offset": {
+        "offset": 250,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_date",
+      "value": "May 1948 (one afternoon)",
+      "source_quote": "Last May one afternoon I saw four beams in the sky",
+      "citation_offset": {
+        "offset": 639,
+        "len": 35,
+        "exact": false,
+        "matched": "Last May one afternoon I saw four b"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Four beams of light passing from northwest to southeast, converging in the Cascade Mountains with a great explosion effect",
+      "source_quote": "four beams in the sky passing from the northwest to the southeast and converging in the Cascade mountains",
+      "citation_offset": {
+        "offset": 678,
+        "len": 95,
+        "exact": false,
+        "matched": " in the sky passing from the northwest to the southeast and converging in the Cascade mountains"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "cloud_formation",
+      "value": "Small clouds were forming in the four narrow beams",
+      "source_quote": "In those four narrow beams small clouds were forming",
+      "citation_offset": {
+        "offset": 775,
+        "len": 32,
+        "exact": false,
+        "matched": "In those four narrow beams small"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "explosion_effect",
+      "value": "A great explosion effect visible where the beams converged against the mountains",
+      "source_quote": "where the beams met apparently against the mountains a great explosion effect was to be seen",
+      "citation_offset": {
+        "offset": 835,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "duration",
+      "value": "At least 10 minutes or longer",
+      "source_quote": "visible for at least 10 minutes or longer",
+      "citation_offset": {
+        "offset": 957,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_estimate",
+      "value": "Approximately 10,000 feet",
+      "source_quote": "The explosion effect seemed to rise to a height of about ten thousand feet",
+      "citation_offset": {
+        "offset": 1763,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "personal_connection_to_AEC",
+      "value": "Barnes had a son working with the AEC at Hanford",
+      "source_quote": "another working with the A.E.C. at Hanford",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "personal_connection_to_military",
+      "value": "Barnes had a son in the Air Corps",
+      "source_quote": "I have one son in the Air Corps",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "fbi_reply_date",
+      "value": "February 10, 1949",
+      "source_quote": "FEB.10 1949",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "named_people": [
+    "Charles C. Barnes",
+    "J. Edgar Hoover"
+  ],
+  "named_places": [
+    "Cascade Mountains",
+    "Washington D.C.",
+    "Hanford"
+  ],
+  "dated_events": [
+    "January 31, 1949",
+    "Last May (1948)",
+    "FEB.10 1949"
+  ],
+  "objects_described": [
+    "Four beams of light converging from northwest to southeast with explosion effect at convergence point"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Rev. Barnes observed four beams of light converging in the Cascade Mountains one afternoon in May 1948",
+      "source_quote": "Last May one afternoon I saw four beams in the sky passing from the northwest to the southeast and converging in the Cascade mountains",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 679,
+        "len": 90,
+        "exact": false,
+        "matched": "in the sky passing from the northwest to the southeast and converging in the Cascade mount"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A great explosion effect was visible at the convergence point for at least 10 minutes",
+      "source_quote": "where the beams met apparently against the mountains a great explosion effect was to be seen. I would say that they were visible for at least 10 minutes or longer",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 835,
+        "len": 95,
+        "exact": false,
+        "matched": "where the beams met apparently against the mountains a great explosion effect was to be seen. I"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The explosion effect rose to approximately 10,000 feet altitude",
+      "source_quote": "The explosion effect seemed to rise to a height of about ten thousand feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1763,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Small clouds were forming within the beams",
+      "source_quote": "In those four narrow beams small clouds were forming",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 775,
+        "len": 32,
+        "exact": false,
+        "matched": "In those four narrow beams small"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Barnes had a son working at the AEC facility at Hanford",
+      "source_quote": "another working with the A.E.C. at Hanford",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Barnes had a son in the Air Corps",
+      "source_quote": "I have one son in the Air Corps",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Hoover forwarded the letter to the Atomic Energy Commission",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    },
+    {
+      "claim": "Barnes speculated the observation might relate to radio beam experiments to produce rainfall",
+      "source_quote": "experiments carried on in Europe with various types of radio beams to effect rainfall",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1065,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 0
+    "green": 2,
+    "amber": 5,
+    "red": 1
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:47:03.776Z",
-  "qa_completed_at": "2026-06-14T02:47:34.096Z",
+  "qa_started_at": "2026-06-19T20:44:52.106Z",
+  "qa_completed_at": "2026-06-19T20:45:44.516Z",
   "timing": {
-    "A": "14.3s",
-    "B": "16.0s"
-  }
+    "A": "29.4s",
+    "B": "23.0s",
+    "E": "19.1s"
+  },
+  "public_headline": "Oregon Pastor Reported Converging Light Beams to FBI in 1949",
+  "public_tldr": "In January 1949, a Presbyterian pastor in McMinnville, Oregon wrote to FBI Director J. Edgar Hoover describing four beams of light he had seen converging over the Cascade Mountains the previous May, producing what he called a \"great explosion effect.\" The FBI acknowledged the letter and referred it to the Atomic Energy Commission (AEC); no follow-up results are included in the released document.",
+  "public_narrative": "This document is a 1949 exchange between Reverend Charles C. Barnes, pastor of the First Presbyterian Church in McMinnville, Oregon, and FBI Director J. Edgar Hoover. On 31 January 1949, Barnes wrote to Hoover to report something he had witnessed roughly eight months earlier, one afternoon in May 1948.\n\nBarnes described seeing four beams of light in the sky, moving from northwest to southeast and converging in the Cascade Mountains. Small clouds were forming within the beams, and where they met against the mountains, he observed what he called a great explosion effect that appeared to rise to about 10,000 feet. The phenomenon remained visible for at least ten minutes.\n\nBarnes himself offered a possible mundane explanation: he noted experiments conducted in Europe using radio beams to produce rainfall and suggested the beams might have been something similar. He also mentioned personal connections to the military and nuclear establishment — one son in the Air Corps and another working with the Atomic Energy Commission (AEC) at Hanford.\n\nThe FBI replied on 10 February 1949 and referred the correspondence to the AEC, though Hoover's reply and the referral are partially illegible due to poor scan quality. The released document contains no record of any follow-up investigation by the FBI or AEC, and no response from the AEC is included.",
+  "public_caveats": [
+    "This is a single civilian eyewitness account with no corroborating witnesses mentioned in the document.",
+    "The observation was reported approximately eight months after it occurred, which affects the reliability of specific details.",
+    "The observer himself acknowledged the sighting may have been a scientific experiment rather than anything anomalous.",
+    "Parts of Hoover's reply and the AEC referral are partially illegible due to poor scan quality, so the FBI's full response is unclear.",
+    "No follow-up investigation results or AEC response are included — the document trail ends with the referral."
+  ]
 }

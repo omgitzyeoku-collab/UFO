@@ -4,24 +4,72 @@
   "agency": "FBI",
   "type": "IMG",
   "incident_date": "1949",
-  "what_is_it": "Correspondence between FBI Director J. Edgar Hoover and a civilian witness, with a referral letter to the Atomic Energy Commission (AEC), regarding a reported UAP sighting.",
+  "what_is_it": "A cover sheet or routing slip for an FBI file related to correspondence referral, showing file handling and classification markings.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No OCR text was extractable from this scanned image; all facts derive from the CSV metadata description provided by war.gov, not from direct reading of the document.",
-    "Single civilian witness account with no corroborating observations noted.",
-    "The witness's own hypothesis (military/scientific experiment) is speculative and unconfirmed.",
-    "The nature of the 'beams of light' and 'explosion' is uncharacterised — no instrumented measurement was described."
+    "The source text is extremely degraded due to poor OCR quality on this image document, rendering nearly all substantive content unreadable.",
+    "The metadata description references Director Hoover, Rev. Charles Barnes, light beams over the Cascade Mountains, and referral to the Atomic Energy Commission, but none of these details are legible in the extracted text itself.",
+    "This appears to be only the administrative cover page, not the actual correspondence content.",
+    "Single-source observer account (Rev. Barnes) per the metadata; the observer's interpretation of the event is unverified."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "document_year",
-      "value": "1949",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "originating_agency",
+      "value": "Federal Bureau of Investigation (FBI)",
+      "source_quote": "FEDERAL BUREAD",
+      "citation_offset": {
+        "offset": 103,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "parent_department",
+      "value": "Department of Justice",
+      "source_quote": "Bepartment of ustiss",
+      "citation_offset": {
+        "offset": 6,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "document_type",
+      "value": "File cover sheet / routing slip",
+      "source_quote": "HANDLING TRIS FILE",
+      "citation_offset": {
+        "offset": 274,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "file_actions",
+      "value": "Transfer and return instructions noted",
+      "source_quote": "Transfer-Gall 362",
+      "citation_offset": {
+        "offset": 324,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification_marking",
+      "value": "Reclassification noted on document",
+      "source_quote": "RECLASSIFIGATION",
+      "citation_offset": {
+        "offset": 127,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
@@ -36,10 +84,10 @@
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:47:34.098Z",
-  "qa_completed_at": "2026-06-14T02:48:01.773Z",
+  "qa_started_at": "2026-06-19T20:46:03.585Z",
+  "qa_completed_at": "2026-06-19T20:46:28.478Z",
   "timing": {
-    "A": "14.3s",
-    "B": "13.3s"
+    "A": "14.4s",
+    "B": "10.5s"
   }
 }

@@ -5,82 +5,53 @@
   "type": "IMG",
   "incident_date": "2022",
   "incident_location": "Colorado Springs, Colorado, U.S.",
-  "what_is_it": "Digital artistic rendering (image) of an unresolved UAP incident reported near Colorado Springs in 2022.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "Digital rendering (artistic interpretation) of an unresolved UAP incident reported near Colorado Springs in 2022, produced by the FBI.",
+  "core_summary": "This file is an artistic interpretation image derived from the first-hand narrative in FBI-UAP-D002 (an FD-1057 form) describing a 2022 UAP incident near Colorado Springs, Colorado. The source text is garbled OCR output from the image file and contains no readable or meaningful content.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "This is an artistic interpretation, not direct evidence — it reflects an artist's visualisation of a witness narrative, not a photograph or sensor data.",
-    "No extracted text is available from the image file itself; all facts are derived from catalogue metadata.",
-    "The underlying witness account (FBI-UAP-D002) would need to be reviewed independently to assess credibility.",
-    "Single-source: the rendering is based on one first-hand narrative description."
+    "The source text is entirely garbled OCR noise produced by running text extraction on a JPG image; no meaningful textual content exists in this file.",
+    "This is an artistic interpretation, not a photograph or sensor capture of an actual UAP.",
+    "All factual context comes solely from the CSV metadata and filename, not from the image itself.",
+    "The underlying incident details are in the parent document FBI-UAP-D002, not in this rendering."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "Document ID",
-      "value": "FBI-UAP-D003",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Originating agency",
-      "value": "FBI",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Document type",
-      "value": "Digital rendering / artistic interpretation",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Incident location",
-      "value": "Colorado Springs, Colorado, U.S.",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Incident year",
-      "value": "2022",
+      "field": "source_text_quality",
+      "value": "Entirely garbled — OCR was run on an image file, producing no legible text",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Colorado Springs, Colorado"
-  ],
-  "dated_events": [
-    "2022"
-  ],
+  "named_places": [],
+  "dated_events": [],
   "objects_described": [],
-  "verifiable_claims": [
-    {
-      "claim": "The depicted incident occurred near Colorado Springs in 2022 and remains unresolved.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
-    }
-  ],
-  "tier": "red",
+  "verifiable_claims": [],
+  "tier": "amber",
   "confidence_breakdown": {
     "green": 0,
     "amber": 0,
-    "red": 1
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:44:19.827Z",
-  "qa_completed_at": "2026-06-14T02:44:50.251Z",
+  "qa_started_at": "2026-06-19T20:38:30.678Z",
+  "qa_completed_at": "2026-06-19T20:38:57.892Z",
   "timing": {
-    "A": "13.5s",
-    "B": "16.9s"
-  }
+    "A": "16.7s",
+    "B": "10.6s",
+    "E": "16.4s"
+  },
+  "public_headline": "FBI Digital Rendering Depicts Unresolved 2022 Colorado Springs UAP Incident",
+  "public_tldr": "This file is an FBI-produced digital rendering — an artistic interpretation, not a photograph — of an unresolved Unidentified Anomalous Phenomena (UAP) incident reported near Colorado Springs, Colorado in 2022. The image itself contains no readable text; all factual context comes from its metadata and its parent document, FBI-UAP-D002.",
+  "public_narrative": "This document, catalogued as FBI-UAP-D003, is a digital rendering produced by the FBI. It is an artistic interpretation of a UAP incident reported near Colorado Springs, Colorado in 2022. It is not a photograph, sensor capture, or any other direct recording of an actual event.\n\nThe rendering is derived from a parent document, FBI-UAP-D002, which is an FD-1057 form — a standard FBI reporting template — containing a first-hand narrative of the incident. The details of what was observed are recorded in that parent document, not in this image.\n\nThe image file itself contains no meaningful textual content. When text-extraction tools were run against it, they produced only garbled, unreadable output — a predictable result of attempting OCR (optical character recognition) on an image rather than a text document.\n\nThe incident remains officially unresolved. The FBI has not published a conclusion about what the reported object was, based on the materials available in this release.\n\nReaders should note that all factual context about this file — the agency, incident date, and location — comes solely from the release metadata and filename, not from any content within the image itself.",
+  "public_caveats": [
+    "This is an artistic interpretation, not a photograph or sensor data — it does not constitute direct evidence of a UAP.",
+    "The image contains no readable text; all factual claims derive from catalogue metadata and the parent document FBI-UAP-D002.",
+    "The underlying incident is unresolved — the FBI has not stated what the reported object was.",
+    "No named witnesses, specific dates beyond '2022', or corroborating sources are present in this file.",
+    "Without access to the parent document (FBI-UAP-D002), the details of the original sighting cannot be independently verified from this rendering alone."
+  ]
 }

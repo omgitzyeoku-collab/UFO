@@ -3,17 +3,31 @@
   "title": "DOW-UAP-D084, US Army-Flying-Saucer-Study_1949",
   "agency": "Department of War",
   "type": "IMG",
-  "what_is_it": "A photographic image of a 1949 US Army evaluation study on flying saucers, commissioned by the Plans & Operations Division of the General Staff.",
+  "what_is_it": "A US Army evaluation study examining the flying saucer phenomenon to determine whether it could be attributed to natural phenomena or foreign power activity.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No extracted body text is available — all facts are derived solely from the document title and catalogue metadata.",
-    "The source is a scanned image (JPG) with no OCR text, so the full content and conclusions of the study are not represented here.",
-    "Single-source metadata: claims about the study's purpose and scope rely entirely on the war.gov CSV description."
+    "No body text was extractable from this image file; all facts are derived from metadata and the CSV description only.",
+    "The document is a single image (JPG), so the full contents of the study are not captured in this extraction.",
+    "Without the study's actual findings, it is unknown what conclusion the Army reached regarding the phenomenon's origin."
   ],
   "fabrication_score": 3,
   "key_facts": [
+    {
+      "field": "document_id",
+      "value": "DOW-UAP-D084",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "originating_agency",
+      "value": "Department of War / US Army",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
     {
       "field": "subject",
       "value": "Flying saucer phenomenon",
@@ -24,20 +38,6 @@
     {
       "field": "year",
       "value": "1949",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "format",
-      "value": "Scanned image (JPG)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "originating_agency",
-      "value": "Department of War",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
@@ -53,7 +53,7 @@
   ],
   "verifiable_claims": [
     {
-      "claim": "The US Army General Staff commissioned a formal evaluation study of flying saucer reports in 1949.",
+      "claim": "The US Army's Plans & Operations Division commissioned an evaluation study of the flying saucer phenomenon in 1949.",
       "source_quote": "",
       "verifier_verdict": "partial",
       "citation_offset": null,
@@ -67,10 +67,10 @@
     "red": 1
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:42:10.315Z",
-  "qa_completed_at": "2026-06-14T02:42:38.621Z",
+  "qa_started_at": "2026-06-19T20:35:02.911Z",
+  "qa_completed_at": "2026-06-19T20:35:31.930Z",
   "timing": {
-    "A": "13.9s",
-    "B": "14.4s"
+    "A": "14.1s",
+    "B": "14.9s"
   }
 }
