@@ -1,0 +1,218 @@
+{
+  "sha256": "aa17009b97e6e3421994da1960218d5e76cbb2bed64ba33cb4c40c2197d13945",
+  "title": "FAA UAP record 237UAP00524",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UFO/UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On July 20, 2023, Southwest Airlines Flight 121, a Boeing 737 flying from Phoenix to Burbank, reported an unidentified aerial phenomenon approximately 100 miles to the left of the aircraft while westbound at Flight Level 240 (24,000 feet), 20 miles east of Palm Springs, California. No evasive action was taken. The report was relayed by Los Angeles Air Route Traffic Control Center to FAA Operations.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The UAP was reported at 100 miles distance, which is far beyond visual range in most conditions — the observation method (radar, TCAS, visual) is not specified.",
+    "The document header references 07-21-2023 while the date field says 7/20/2023, likely reflecting UTC vs PDT timezone difference.",
+    "This is a preliminary notification (PRELIM INFO), not a completed investigation."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "Southwest Airlines Flight 121 (SWA121), Boeing 737",
+      "source_quote": "SOUTHWEST 121, B737, PHX - BUR",
+      "citation_offset": {
+        "offset": 257,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_route",
+      "value": "Phoenix (PHX) to Burbank (BUR)",
+      "source_quote": "PHX - BUR",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "Flight Level 240 (approximately 24,000 feet)",
+      "source_quote": "W BOUND AT FL240",
+      "citation_offset": {
+        "offset": 368,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_position",
+      "value": "20 miles east of Palm Springs",
+      "source_quote": "20 E PSP",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "uap_distance_from_aircraft",
+      "value": "100 miles to the left side",
+      "source_quote": "100 MILES FROM THE LEFT SIDE",
+      "citation_offset": {
+        "offset": 333,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 395,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Los Angeles Air Route Traffic Control Center (ARTCC)",
+      "source_quote": "LOS ANGELES ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 231,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_date",
+      "value": "2023-07-20",
+      "source_quote": "Date: 7/20/2023",
+      "citation_offset": {
+        "offset": 29,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location_coordinates",
+      "value": "33.829°N, 116.159°W",
+      "source_quote": "Latitude: 33.82917647 Latitude: -116.1589874",
+      "citation_offset": {
+        "offset": 108,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_location",
+      "value": "Palm Springs, California area",
+      "source_quote": "PALM SPRINGS, CA/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 191,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Palm Springs, CA",
+    "Phoenix (PHX)",
+    "Burbank (BUR)"
+  ],
+  "dated_events": [
+    "7/20/2023",
+    "07-21-2023"
+  ],
+  "objects_described": [
+    "Unidentified Aerial Phenomenon (UAP)",
+    "Boeing 737 (Southwest Airlines Flight 121)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Southwest Airlines Flight 121 was a Boeing 737 operating the Phoenix to Burbank route on July 20, 2023.",
+      "source_quote": "SOUTHWEST 121, B737, PHX - BUR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 257,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed an unidentified aerial phenomenon 100 miles from the left side of the aircraft.",
+      "source_quote": "REPORTED AND UNIDENTIFIED AERIAL PHENOMENON 100 MILES FROM THE LEFT SIDE",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 289,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was westbound at 24,000 feet, 20 miles east of Palm Springs at the time of the sighting.",
+      "source_quote": "W BOUND AT FL240 20 E PSP",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 368,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 395,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was relayed through Los Angeles ARTCC to the FAA Washington Operations Center.",
+      "source_quote": "LOS ANGELES ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 231,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:04:37.565Z",
+  "qa_completed_at": "2026-06-14T00:05:16.212Z",
+  "timing": {
+    "A": "21.4s",
+    "B": "17.2s",
+    "E": "20.7s"
+  },
+  "public_headline": "Southwest Airlines crew reported UAP near Palm Springs in 2023",
+  "public_tldr": "This is an FAA incident notification from July 2023 in which the crew of a Southwest Airlines Boeing 737 reported seeing an unidentified aerial phenomenon roughly 100 miles to their left while flying near Palm Springs, California. No evasive action was taken, and the document is a preliminary notification rather than a completed investigation.",
+  "public_narrative": "On July 20, 2023, the crew of Southwest Airlines Flight 121 — a Boeing 737 flying from Phoenix to Burbank — reported an unidentified aerial phenomenon (UAP) to air traffic control. The aircraft was westbound at 24,000 feet, approximately 20 miles east of Palm Springs, California, when the crew observed something roughly 100 miles to the left side of the aircraft.\n\nThe sighting was relayed by the Los Angeles Air Route Traffic Control Center (ARTCC) to the FAA's Washington Operations Center, which generated this incident notification. The crew did not take any evasive action in response to the sighting.\n\nThe document itself is a preliminary notification — essentially a standardised form the FAA uses to log reported incidents. It records the basic facts (flight number, aircraft type, position, altitude, and what was reported) but does not contain any analysis, conclusions, or follow-up investigation. There is no radar data, no corroborating witness accounts, and no description of what the object looked like or how it behaved.\n\nThe coordinates recorded in the document (33.829°N, 116.159°W) place the aircraft in the Palm Springs area of Southern California. A minor date discrepancy in the document — one field reads 7/20/2023 while a header reads 07-21-2023 — likely reflects the difference between Pacific and UTC time zones.",
+  "public_caveats": [
+    "This is a single-source pilot report. No radar data, photographs, or additional witness accounts are included in this document.",
+    "The UAP was reported at 100 miles distance, which is well beyond normal visual range. The document does not specify how the crew detected it — whether by eye, radar, or collision-avoidance system.",
+    "This is a preliminary notification, not a completed investigation. The FAA did not reach any conclusion about what the object was.",
+    "There is minimal redaction in this document, but there is also minimal detail — the form captures only the basics of the report.",
+    "A reported sighting is not confirmation that an unexplained object was present. Preliminary reports like this one are a starting point for potential further inquiry, not evidence of a specific phenomenon."
+  ]
+}

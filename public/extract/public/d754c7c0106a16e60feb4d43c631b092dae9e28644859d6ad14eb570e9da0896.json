@@ -1,0 +1,203 @@
+{
+  "sha256": "d754c7c0106a16e60feb4d43c631b092dae9e28644859d6ad14eb570e9da0896",
+  "title": "FAA UAP record 237UAP00594",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a pilot-reported unidentified aerial phenomenon.",
+  "core_summary": "On December 28, 2023, the pilot of aircraft N268CA (a Beechcraft BE9L) reported observing an unidentified aerial phenomenon to the left side of the aircraft while flying southeast-bound at 16,000 feet, approximately 5.4 nautical miles northwest of Hartselle, Alabama. No evasive action was taken and no law enforcement notification was reported. The report was relayed through Memphis Air Route Traffic Control Center (ARTCC).",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included.",
+    "The document is a preliminary operations center notification, not a full investigation report.",
+    "No description of the phenomenon's appearance, behavior, size, or duration is provided.",
+    "The report contains only the initial notification; any follow-up investigation is not included."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Aircraft registration",
+      "value": "N268CA",
+      "source_quote": "N268CA, BEECH BE9L, MDW - TCL",
+      "citation_offset": {
+        "offset": 265,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "16,000 feet",
+      "source_quote": "SE BOUND AT 16,000 FEET",
+      "citation_offset": {
+        "offset": 364,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "5.4 NM northwest of Hartselle, Alabama (5M0)",
+      "source_quote": "5.4 NW HARTSELLE (5M0)",
+      "citation_offset": {
+        "offset": 388,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of observation",
+      "value": "Left side of aircraft while flying southeast",
+      "source_quote": "FROM THE LEFT SIDE WHILE SE BOUND",
+      "citation_offset": {
+        "offset": 339,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 412,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 437,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting ATC facility",
+      "value": "Memphis ARTCC",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 243,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates (latitude)",
+      "value": "34.4636",
+      "source_quote": "Latitude: 34.463599930000001",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Hartselle, AL",
+    "Memphis ARTCC"
+  ],
+  "dated_events": [
+    "12/28/2023",
+    "12-28-2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon (UAP)",
+    "Beechcraft BE9L (N268CA)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Aircraft N268CA was a Beechcraft BE9L flying from Chicago Midway to Tuscaloosa on December 28, 2023.",
+      "source_quote": "N268CA, BEECH BE9L, MDW - TCL",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 265,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot reported an unidentified aerial phenomenon visible from the left side of the aircraft at 16,000 feet.",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON FROM THE LEFT SIDE WHILE SE BOUND AT 16,000 FEET",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 296,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 5.4 nautical miles northwest of Hartselle, Alabama.",
+      "source_quote": "5.4 NW HARTSELLE (5M0)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 388,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the pilot.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 412,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was reported.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 437,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:05:34.824Z",
+  "qa_completed_at": "2026-06-14T01:06:10.084Z",
+  "timing": {
+    "A": "18.2s",
+    "B": "17.0s",
+    "E": "15.9s"
+  },
+  "public_headline": "Pilot Reports Unidentified Aerial Phenomenon Over Northern Alabama",
+  "public_tldr": "An FAA operations center notification documents a pilot sighting of an unidentified aerial phenomenon near Hartselle, Alabama on 28 December 2023. The pilot, flying a Beechcraft BE9L at 16,000 feet, observed something to the left of the aircraft but took no evasive action. The document is a preliminary notification, not a full investigation.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident notification — essentially a short internal report logging that something unusual was reported by a pilot. It is not an investigation report, and it draws no conclusions about what the pilot saw.\n\nOn 28 December 2023, the pilot of a Beechcraft BE9L (registration N268CA) reported an unidentified aerial phenomenon while flying southeast at 16,000 feet. The sighting occurred approximately 5.4 nautical miles northwest of Hartselle, Alabama, and was relayed through Memphis ARTCC (Air Route Traffic Control Center), the regional air traffic control facility responsible for that airspace.\n\nThe pilot observed the phenomenon from the left side of the aircraft. No evasive action was taken, and no law enforcement notification was reported. The document provides no description of what the pilot saw — no details on the object's appearance, size, behaviour, or how long it was visible.\n\nThe record contains no indication of corroborating radar data, additional witnesses, or any follow-up investigation. It is a single-source preliminary notification, the kind of form filed when an incident is first reported up the FAA chain. Whether any further inquiry took place is not covered by this document.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or additional witness accounts included in the document.",
+    "The document is a preliminary operations center notification, not a full investigation — it records that something was reported, not what it was.",
+    "No description of the phenomenon's appearance, behaviour, size, or duration is provided anywhere in the record.",
+    "Any follow-up investigation that may have occurred is not included in this document.",
+    "Redaction levels appear low, but the document is inherently limited in scope — it was never intended as a detailed report."
+  ]
+}

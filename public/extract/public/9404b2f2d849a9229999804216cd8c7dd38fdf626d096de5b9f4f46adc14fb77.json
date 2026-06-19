@@ -1,0 +1,289 @@
+{
+  "sha256": "9404b2f2d849a9229999804216cd8c7dd38fdf626d096de5b9f4f46adc14fb77",
+  "title": "OSD UAP record 04_AARO_Trifold_2024",
+  "agency": "OSD",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An official informational trifold brochure published by the All-domain Anomaly Resolution Office (AARO) describing its mission, functions, and reporting procedures for UAP.",
+  "core_summary": "This is a 2024 AARO trifold brochure that explains what UAP are, defines AARO's mission to detect, track, and analyse Unidentified Anomalous Phenomena, and outlines how government personnel and civilian pilots should report UAP sightings. It describes AARO's four functional areas: Science & Technology, Analysis, Operations, and Strategic Communications.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a public-facing informational brochure, not an investigative or analytical report — it describes AARO's mandate rather than specific UAP cases or findings.",
+    "The document contains no specific incident data, sensor readings, or case outcomes.",
+    "Latin phrases in the document ('universum mutatio est', 'nostra est quod cogitationes nostra facer') appear to be AARO motto/branding elements."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "publishing_office",
+      "value": "All-domain Anomaly Resolution Office (AARO), Department of Defense",
+      "source_quote": "AARO is leading the U.S. Government's efforts to detect, track, and analyze Unidentified Anomalous Phenomena",
+      "citation_offset": {
+        "offset": 1903,
+        "len": 65,
+        "exact": false,
+        "matched": "forts to detect, track, and analyze Unidentified Anomalous Phenom"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "document_type",
+      "value": "Informational trifold brochure",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "classification",
+      "value": "Unclassified, cleared for open publication",
+      "source_quote": "CLEARED For Open Publication",
+      "citation_offset": {
+        "offset": 1092,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_number",
+      "value": "330UAP000004",
+      "source_quote": "Case Number: 330UAP000004",
+      "citation_offset": {
+        "offset": 1467,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "legal_authority",
+      "value": "FY24 NDAA, codified at 44 U.S.C. 2107",
+      "source_quote": "Authority: FY24 NDAA, now codified at 44 U.S.C. 2107",
+      "citation_offset": {
+        "offset": 1337,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP_definition",
+      "value": "Sources of anomalous detections in one or more domains not yet attributable to known actors",
+      "source_quote": "UAP are sources of anomalous detections in one or more domains (i.e., airborne, seaborne, spaceborne, and/or transmedium) that are not yet attributable to known actors",
+      "citation_offset": {
+        "offset": 2048,
+        "len": 167,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "domains_covered",
+      "value": "Air, Maritime, Space",
+      "source_quote": "Air ▪ Maritime ▪ Space",
+      "citation_offset": {
+        "offset": 1528,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_website",
+      "value": "www.aaro.mil",
+      "source_quote": "A reporting form is available at www. aaro.mil",
+      "citation_offset": {
+        "offset": 308,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "military_reporting_guidance",
+      "value": "GENADMIN Joint Staff J3 Washington DC 191452ZMAY23",
+      "source_quote": "Military and DoD civilian personnel should report through their command or service in accordance with GENADMIN Joint Staff J3 Washington DC 191452ZMAY23",
+      "citation_offset": {
+        "offset": 676,
+        "len": 152,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "civilian_pilot_reporting",
+      "value": "Report UAP sightings to air traffic control; AARO receives PIREPs from FAA",
+      "source_quote": "Civilian pilots are encouraged to promptly report UAP sightings to air traffic control. AARO receives UAP­related Pilot Reports (PIREPs) from the Federal Aviation Administration",
+      "citation_offset": {
+        "offset": 902,
+        "len": 100,
+        "exact": false,
+        "matched": "Civilian pilots are encouraged to promptly report UAP sightings to air traffic control. AARO receive"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "historical_report_mandate",
+      "value": "AARO is accepting reports to inform its congressionally directed Historical Record Report",
+      "source_quote": "These reports will be used to inform AARO's congressionally directed Historical Record Report",
+      "citation_offset": {
+        "offset": 258,
+        "len": 48,
+        "exact": false,
+        "matched": "ongressionally directed Historical Record Report"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "domain_awareness_gap_link",
+      "value": "AARO states UAP existence is a direct consequence of domain-awareness gaps",
+      "source_quote": "Existence of UAP is direct consequence of domain-awareness gaps",
+      "citation_offset": {
+        "offset": 2583,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "prepublication_review_date",
+      "value": "Jun 27, 2024",
+      "source_quote": "Jun 27, 2024 Department of Defense OFFICE OF PREPUBLICATION AND SECURITY REVIEW",
+      "citation_offset": {
+        "offset": 1152,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "review_date",
+      "value": "2025-03-20",
+      "source_quote": "Date: 3/20/2025",
+      "citation_offset": {
+        "offset": 1390,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "release_status",
+      "value": "Released in Full",
+      "source_quote": "Released in Full: X",
+      "citation_offset": {
+        "offset": 1421,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Washington DC"
+  ],
+  "dated_events": [
+    "Jun 27, 2024 — Department of Defense Office of Prepublication and Security Review clearance",
+    "3/20/2025 — AARO Chief of Staff review date",
+    "3/3/2025 — Page unclassified review date",
+    "191452ZMAY23 — GENADMIN Joint Staff J3 reporting directive date"
+  ],
+  "objects_described": [
+    "UAP (Unidentified Anomalous Phenomena) — airborne, seaborne, spaceborne, and/or transmedium"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AARO leads the US Government's efforts to detect, track, and analyse UAP using a scientific framework and data-driven approach",
+      "source_quote": "AARO is leading the U.S. Government's efforts to detect, track, and analyze Unidentified Anomalous Phenomena (UAP) using a rigorous scientific framework and a data-driven approach",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1903,
+        "len": 100,
+        "exact": false,
+        "matched": "forts to detect, track, and analyze Unidentified Anomalous Phenomena (UAP) using a rigorous scientif"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "UAP may demonstrate capabilities or materials that exceed known performance envelopes",
+      "source_quote": "phenomena that demonstrate apparent capabilities or material that exceed known performance envelopes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2362,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "UAP potentially represent advanced capabilities operating in domain-awareness gaps",
+      "source_quote": "UAP potentially represent advanced capabilities operating in our domain-awareness gaps",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2650,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO accepts reports from current or former US Government employees, service members, or contractor personnel with direct knowledge",
+      "source_quote": "AARO is accepting reports of U.S. Government programs or activities related to UAP from current or former U.S. Government employees, service members, or contractor personnel with direct knowledge",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 16,
+        "len": 195,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The AARO reporting form is not intended for conveying potentially sensitive or classified information",
+      "source_quote": "it is not intended for conveying potentially sensitive or classified information",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 419,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO emerged from congressional and departmental recognition that UAP present complex hazards and threats across service, regional, and domain boundaries",
+      "source_quote": "AARO emerged from congressional and departmental recognition that UAP present complex hazards and threats across service, regional, and domain boundaries",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2770,
+        "len": 153,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:17:45.765Z",
+  "qa_completed_at": "2026-06-14T02:18:45.693Z",
+  "timing": {
+    "A": "41.4s",
+    "B": "18.6s",
+    "E": "24.3s"
+  },
+  "public_headline": "Pentagon Office Publishes Brochure Explaining How to Report UAP",
+  "public_tldr": "This is an unclassified informational brochure from the All-domain Anomaly Resolution Office (AARO), the Pentagon's UAP investigation unit. It explains what UAP are, describes AARO's mission to detect and analyse them across air, sea, and space, and tells government personnel and civilian pilots how to file reports.",
+  "public_narrative": "In 2024, the Department of Defense's All-domain Anomaly Resolution Office — known as AARO — published a trifold brochure explaining its role and how people should report sightings of Unidentified Anomalous Phenomena (UAP). The brochure was cleared for public release on 27 June 2024 and later reviewed by AARO's Chief of Staff on 20 March 2025. It was released in full with no redactions.\n\nThe brochure defines UAP as \"sources of anomalous detections\" in the air, at sea, in space, or moving between these domains that \"are not yet attributable to known actors.\" It states that some UAP \"demonstrate apparent capabilities or material that exceed known performance envelopes\" and that their existence is a \"direct consequence of domain-awareness gaps.\" AARO describes its legal authority as deriving from the FY24 National Defence Authorisation Act, codified at 44 U.S.C. 2107.\n\nAARO explains that it accepts reports from current or former US Government employees, service members, and contractor personnel with direct knowledge of government programmes or activities related to UAP. A reporting form is available at www.aaro.mil, though the brochure notes the form is not intended for sensitive or classified information. Military and DoD civilian personnel are directed to report through their chain of command per a May 2023 Joint Staff directive. Civilian pilots are encouraged to report UAP sightings to air traffic control, and AARO receives these pilot reports through the Federal Aviation Administration.\n\nThe brochure also notes that AARO was created because Congress and the Department of Defense recognised that UAP \"present complex hazards and threats across service, regional, and domain boundaries.\" AARO describes four functional areas: Science and Technology, Analysis, Operations, and Strategic Communications. It is also collecting reports to support a congressionally directed Historical Record Report.",
+  "public_caveats": [
+    "This is a public-relations brochure, not an investigative report — it describes what AARO does, not what it has found. It contains no specific incident data, sensor readings, or case outcomes.",
+    "The document was released in full with no redactions, which is consistent with its nature as a public-facing informational product rather than a sensitive analytical document.",
+    "Statements such as UAP exceeding \"known performance envelopes\" are AARO's own framing from the brochure — they do not represent confirmed findings from specific investigations.",
+    "The brochure carries case number 330UAP000004, indicating it was processed through AARO's own records system, but this is an administrative reference, not a UAP incident case number."
+  ]
+}

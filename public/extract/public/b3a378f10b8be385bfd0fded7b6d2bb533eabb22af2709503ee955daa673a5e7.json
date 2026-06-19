@@ -1,0 +1,67 @@
+{
+  "sha256": "b3a378f10b8be385bfd0fded7b6d2bb533eabb22af2709503ee955daa673a5e7",
+  "title": "CIA-UAP-015, Project Blue Book Special Report No. 14 (Analysis of Reports of Unidentified Aerial Objects)",
+  "agency": "CIA",
+  "type": "IMG",
+  "what_is_it": "A scanned image of the USAF Project Blue Book Special Report No. 14, which is a statistical analysis of reports of unidentified aerial objects, bearing a CIA cover sheet marking it as an 'Official Record Copy.'",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No OCR text was extractable from this scanned image, so all facts are derived from metadata and the CSV description only.",
+    "The handwritten note on the first page — the only previously unreleased element — cannot be read or analysed from available data.",
+    "Project Blue Book Special Report No. 14 is a well-known, widely studied document; this release primarily confirms CIA custody rather than adding new content."
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "document_title",
+      "value": "Project Blue Book Special Report No. 14 (Analysis of Reports of Unidentified Aerial Objects)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "originating_agency",
+      "value": "CIA (cover sheet), USAF (underlying report)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "subject_matter",
+      "value": "Statistical analysis of UFO/UAP sighting reports collected by the US Air Force",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [
+    "unidentified aerial objects"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The document contains a handwritten note on the first page that was not previously available on the CIA's public website.",
+      "source_quote": "With the exception of the handwritten note on the first page, the content of this document has been available on CIA's public website.",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:03:22.196Z",
+  "qa_completed_at": "2026-06-14T03:04:01.918Z",
+  "timing": {
+    "A": "16.8s",
+    "B": "23.0s"
+  }
+}

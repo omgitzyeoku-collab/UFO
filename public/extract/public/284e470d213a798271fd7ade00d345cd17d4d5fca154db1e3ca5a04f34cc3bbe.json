@@ -1,0 +1,80 @@
+{
+  "sha256": "284e470d213a798271fd7ade00d345cd17d4d5fca154db1e3ca5a04f34cc3bbe",
+  "title": "DOW-UAP-D078, Notional Map: Western United States Event",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "October, 2023",
+  "incident_location": "Westen United States",
+  "what_is_it": "A notional (illustrative) overhead map depicting four UAP incidents in the western United States.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No extractable text from the PDF — all facts derived from metadata and the CSV description only.",
+    "The document is explicitly described as 'notional' (illustrative), meaning the map positions and details may not reflect exact real-world locations or geometries.",
+    "No details about what the UAP looked like, how they behaved, or what sensors detected them are available from this source.",
+    "Single-source reporting from federal law enforcement; no corroborating sensor data or independent witnesses referenced.",
+    "The identity of the specific federal law enforcement agency is not disclosed."
+  ],
+  "fabrication_score": 5,
+  "key_facts": [
+    {
+      "field": "document_id",
+      "value": "DOW-UAP-D078",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "originating_agency",
+      "value": "Department of War",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "document_type",
+      "value": "Notional map (illustrative representation, not a literal photograph or sensor capture)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_region",
+      "value": "Western United States",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Western United States"
+  ],
+  "dated_events": [
+    "October 2023"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The map is a notional (illustrative) representation, not a literal depiction.",
+      "source_quote": "",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:08:14.073Z",
+  "qa_completed_at": "2026-06-14T03:08:47.967Z",
+  "timing": {
+    "A": "14.2s",
+    "B": "19.7s"
+  }
+}

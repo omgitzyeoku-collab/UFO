@@ -1,0 +1,218 @@
+{
+  "sha256": "b3024803818b236ba6da8aec53e3cd75f920cefc2d62ce5687981e02fea5674b",
+  "title": "FAA UAP record 237UAP00514",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary notification of a UFO/UAP sighting reported by a commercial cargo aircraft.",
+  "core_summary": "On May 17, 2023, a Canada-registered CargoJet flight 906 (Boeing 767-200), flying northeast from Guadalajara, Mexico to Cincinnati (CVG) at flight level 390, reported an unidentified aerial phenomenon with three white lights off its left side while 5 nautical miles north of Victoria, Texas. No evasive action was taken. Houston Air Route Traffic Control Center relayed the report to the FAA Operations Center.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or other sensor evidence included",
+    "Preliminary information only — no follow-up investigation or resolution documented",
+    "LETO (Law Enforcement Terrorism Operations) was not notified, suggesting the event was not assessed as a security threat at the time",
+    "The observation is from the flight crew only; no details on duration, movement, or size of the phenomenon are provided"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "CargoJet 906 (CJT906), Boeing 767-200, Canada-registered",
+      "source_quote": "CANADA REGISTERED CARGOJET 906, B762",
+      "citation_offset": {
+        "offset": 263,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Guadalajara, Mexico (MMGL) to CVG (Cincinnati)",
+      "source_quote": "GUADALAJARA, MEXICO (MMGL) - CVG",
+      "citation_offset": {
+        "offset": 301,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight level 390 (approximately 39,000 feet)",
+      "source_quote": "NE BOUND AT FL390",
+      "citation_offset": {
+        "offset": 422,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "5 nautical miles north of Victoria, Texas (VCT)",
+      "source_quote": "5 N VCT",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "uap_description",
+      "value": "Unidentified aerial phenomenon with 3 white lights off the left side of the aircraft",
+      "source_quote": "AN UNIDENTIFIED AERIAL PHENOMENON WITH 3 WHITE LIGHTS OFF THE LEFT SIDE",
+      "citation_offset": {
+        "offset": 344,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 449,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "May 17, 2023, 0220 CDT",
+      "source_quote": "5/17/2023 2:20:00 AM (-05 CDT)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Houston ARTCC",
+      "source_quote": "HOUSTON ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 241,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "28.854206°N, 96.918732°W",
+      "source_quote": "Latitude: 28.854205830000001",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "leto_notification",
+      "value": "Not provided",
+      "source_quote": "NO LETO NOTIFICATION PROVIDED",
+      "citation_offset": {
+        "offset": 474,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Victoria, TX",
+    "Guadalajara, Mexico",
+    "Houston"
+  ],
+  "dated_events": [
+    "5/17/2023",
+    "05-17-2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with 3 white lights",
+    "Boeing 767-200 (CargoJet 906)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "CargoJet flight 906 was a Canada-registered Boeing 767-200 flying from Guadalajara to CVG on May 17, 2023",
+      "source_quote": "CANADA REGISTERED CARGOJET 906, B762, GUADALAJARA, MEXICO (MMGL) - CVG",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 263,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed an unidentified aerial phenomenon with three white lights off the aircraft's left side at FL390",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH 3 WHITE LIGHTS OFF THE LEFT SIDE WHILE NE BOUND AT FL390",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 335,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was approximately 5 nautical miles north of Victoria, Texas when the sighting occurred",
+      "source_quote": "5 N VCT",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 449,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No LETO notification was provided",
+      "source_quote": "NO LETO NOTIFICATION PROVIDED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 474,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:55:28.642Z",
+  "qa_completed_at": "2026-06-13T23:56:01.376Z",
+  "timing": {
+    "A": "19.5s",
+    "B": "13.3s",
+    "E": "18.4s"
+  },
+  "public_headline": "Cargo Pilot Reports Three White Lights Over Texas at 39,000 Feet",
+  "public_tldr": "An FAA preliminary notification records that the crew of a Canadian cargo flight reported seeing an unidentified aerial phenomenon with three white lights while cruising at 39,000 feet near Victoria, Texas on May 17, 2023. The document is a single-page operational relay with no follow-up investigation or sensor data attached.",
+  "public_narrative": "This document is a preliminary notification from the FAA Washington Operations Center — essentially an internal alert that something unusual was reported in US airspace. It is not an investigation report, and it reaches no conclusions about what the crew saw.\n\nOn May 17, 2023, at approximately 2:20 AM Central Time, the crew of CargoJet flight 906 — a Canada-registered Boeing 767-200 flying northeast from Guadalajara, Mexico to Cincinnati — reported an unidentified aerial phenomenon with three white lights off the left side of their aircraft. The plane was at flight level 390 (roughly 39,000 feet) and was about 5 nautical miles north of Victoria, Texas, at coordinates 28.85°N, 96.92°W. No evasive action was taken.\n\nHouston Air Route Traffic Control Center relayed the pilot report to the FAA Operations Center. The document notes that no LETO (Law Enforcement Terrorism Operations) notification was provided, which suggests the event was not treated as a security concern at the time.\n\nThere is no follow-up investigation documented here, no radar data, no photographs, and no resolution. The record is exactly what it appears to be: a preliminary relay of a pilot sighting, preserved in the FAA's operational records and released as part of the Department of War's public UAP disclosure.",
+  "public_caveats": [
+    "This is a single-source pilot report — no radar data, sensor recordings, or independent corroboration is included in the document.",
+    "The document is a preliminary notification only; no follow-up investigation or resolution is documented.",
+    "No details about the phenomenon's size, movement, speed, or duration of observation are provided.",
+    "The absence of a LETO notification suggests the FAA did not assess this as a security threat, but that is not the same as an explanation of what was observed.",
+    "There is minimal redaction in this document — the limited detail reflects the brevity of the original operational report, not censorship."
+  ]
+}

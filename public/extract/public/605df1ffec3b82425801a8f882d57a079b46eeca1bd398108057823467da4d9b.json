@@ -1,0 +1,196 @@
+{
+  "sha256": "605df1ffec3b82425801a8f882d57a079b46eeca1bd398108057823467da4d9b",
+  "title": "FAA UAP record 237UAP00546",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting reported by a UPS cargo flight near Las Vegas, Nevada.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts in this document.",
+    "The report is preliminary ('PRELIM INFO') and may not reflect a final determination.",
+    "Distances and altitudes are approximations provided by the flight crew, not instrument-verified measurements.",
+    "Movement described as '100 miles left to right' is an exceptionally large lateral range and may reflect estimation error or misperception."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "UPS 917, Boeing 767-300 (B763), route Ontario (ONT) to Louisville (SDF)",
+      "source_quote": "UPS 917, B763, ONT - SDF",
+      "citation_offset": {
+        "offset": 256,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date and time",
+      "value": "August 27, 2023, 02:05 AM PDT",
+      "source_quote": "8/27/2023 2:05:00 AM (-07 PDT)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Vicinity of Las Vegas, Nevada (36.08°N, 115.15°W)",
+      "source_quote": "VCNTY LAS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Object description",
+      "value": "3 white lights orbiting",
+      "source_quote": "REPORTED 3 WHITE LIGHTS ORBITING",
+      "citation_offset": {
+        "offset": 282,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Vertical movement",
+      "value": "Approximately 15,000 feet up and down",
+      "source_quote": "LIGHTS MOVED UP AND DOWN APPROX 15,000 FT",
+      "citation_offset": {
+        "offset": 316,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Horizontal movement",
+      "value": "Approximately 100 miles left to right",
+      "source_quote": "HORIZONTALLY APPROX 100 MILES LEFT TO RIGHT",
+      "citation_offset": {
+        "offset": 362,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude of lights",
+      "value": "Above Flight Level 600 (above 60,000 feet)",
+      "source_quote": "LIGHTS REPORTED ABOVE FL600",
+      "citation_offset": {
+        "offset": 417,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting source",
+      "value": "FAA Washington Operations Center (WOC) via W-ROC",
+      "source_quote": "W-ROC ADVISED",
+      "citation_offset": {
+        "offset": 242,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "36.080043889999999, -115.15223469999999",
+      "source_quote": "Latitude: 36.080043889999999",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Las Vegas, NV"
+  ],
+  "dated_events": [
+    "8/27/2023"
+  ],
+  "objects_described": [
+    "3 white lights orbiting, moving vertically ~15,000 ft and horizontally ~100 miles, above FL600"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "UPS flight 917 was operating a Boeing 767-300 on the Ontario to Louisville route when the sighting occurred.",
+      "source_quote": "UPS 917, B763, ONT - SDF",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 256,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Three white lights were observed orbiting in the vicinity of Las Vegas.",
+      "source_quote": "REPORTED 3 WHITE LIGHTS ORBITING",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 282,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights exhibited vertical movement of approximately 15,000 feet and horizontal movement of approximately 100 miles.",
+      "source_quote": "LIGHTS MOVED UP AND DOWN APPROX 15,000 FT AND HORIZONTALLY APPROX 100 MILES LEFT TO RIGHT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 316,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights were reported at an altitude above Flight Level 600, which is above 60,000 feet.",
+      "source_quote": "LIGHTS REPORTED ABOVE FL600",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 417,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:24:28.018Z",
+  "qa_completed_at": "2026-06-14T00:25:04.227Z",
+  "timing": {
+    "A": "19.1s",
+    "B": "17.2s",
+    "E": "18.9s"
+  },
+  "public_headline": "UPS Cargo Crew Reports Three Lights Above 60,000 Feet Near Las Vegas",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of UPS flight 917, a Boeing 767-300 cargo aircraft, on 27 August 2023 near Las Vegas, Nevada. The crew reported three white orbiting lights above 60,000 feet that moved roughly 15,000 feet vertically and 100 miles horizontally — figures that, if accurate, describe movement well beyond conventional aircraft behaviour.",
+  "public_narrative": "On 27 August 2023 at 02:05 AM Pacific time, the crew of UPS flight 917 — a Boeing 767-300 flying from Ontario, California to Louisville, Kentucky — reported an unusual sighting to the FAA's Washington Operations Center. The aircraft was in the vicinity of Las Vegas, Nevada, at coordinates roughly 36.08°N, 115.15°W.\n\nThe crew described three white lights that appeared to be orbiting. According to the report, the lights moved up and down by approximately 15,000 feet and swept horizontally across roughly 100 miles. The crew estimated the lights were above Flight Level 600, meaning above 60,000 feet — well above the ceiling of commercial airliners and most military aircraft.\n\nThe FAA logged this as a preliminary UAP (Unidentified Anomalous Phenomena) report through its W-ROC (Washington Regional Operations Center) channel. The document does not contain any final determination about what the lights were, nor does it reference corroborating radar data or additional witnesses.\n\nThe report is short and largely unredacted, but it is also a single-source account. The distances and altitudes were estimated by the flight crew, not confirmed by instruments. In particular, the claimed 100-mile horizontal range is an exceptionally large figure that the crew may have misjudged from a distance at night.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or independent witnesses cited in the document.",
+    "The report is marked as preliminary ('PRELIM INFO') and does not reflect a final FAA determination about the object's identity.",
+    "All distances and altitudes are crew estimates, not instrument-verified measurements — night-time visual estimation at high altitude is inherently unreliable.",
+    "The claimed 100-mile horizontal movement is an exceptionally large range and may reflect estimation error or visual misperception.",
+    "The document shows low evidence of redaction — what you see is essentially the full record as filed."
+  ]
+}

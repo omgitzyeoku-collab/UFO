@@ -1,0 +1,215 @@
+{
+  "sha256": "9d536dd459a53ab03fe1ca89d4086cd43f287e77547461a6b283b0f319ce1d0b",
+  "title": "FAA UAP record 237UAP00605",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UAP encounter reported by a USAF F-16 fighter jet.",
+  "core_summary": "On 29 January 2024, Eglin Air Force Base notified the FAA that a USAF F-16 aircraft (callsign RACER2) reported an unidentified aerial phenomenon approximately 10 nautical miles south of Destin-Fort Walton Beach Airport (VPS) in Florida. No description of the UAP was provided, no evasive action was taken, and no law enforcement notification was made.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report from FAA operations center with no corroborating sensor data or additional witness accounts",
+    "No description of the UAP was provided, making independent assessment impossible",
+    "The report is a preliminary notification, not a full investigation",
+    "The incident occurred near Eglin AFB, a major military test range, which could be relevant context for the sighting"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date of incident",
+      "value": "2024-01-29",
+      "source_quote": "Date: 1/29/2024 10:11:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft",
+      "value": "USAF F-16, callsign RACER2",
+      "source_quote": "EGLIN AFB ADVISED USAF RACER2, F16, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 267,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude of UAP",
+      "value": "Unknown",
+      "source_quote": "AT UNKN ALTITUDE",
+      "citation_offset": {
+        "offset": 346,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "30.338049, -86.526044",
+      "source_quote": "Latitude: 30.338049290000001",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Nearby military installation",
+      "value": "Eglin Air Force Base",
+      "source_quote": "EGLIN AFB ADVISED USAF RACER2",
+      "citation_offset": {
+        "offset": 267,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description provided",
+      "value": "No",
+      "source_quote": "DESCRIPTION OF UAP WAS NOT PROVIDED",
+      "citation_offset": {
+        "offset": 376,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action taken",
+      "value": "No",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 413,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notified",
+      "value": "No",
+      "source_quote": "LEO NOTIFICATION NOT PROVIDED",
+      "citation_offset": {
+        "offset": 441,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Time of report",
+      "value": "1011C (10:11 AM Central)",
+      "source_quote": "UFO-UAP ACTIVITY/1011C",
+      "citation_offset": {
+        "offset": 244,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Valparaiso",
+    "Destin-Fort Walton Beach, FL",
+    "Eglin AFB",
+    "VPS"
+  ],
+  "dated_events": [
+    "1/29/2024"
+  ],
+  "objects_described": [
+    "F-16 (USAF, callsign RACER2)",
+    "Unidentified Aerial Phenomenon (no description provided)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A USAF F-16 with callsign RACER2 reported a UAP encounter to Eglin AFB",
+      "source_quote": "EGLIN AFB ADVISED USAF RACER2, F16, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 267,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was observed at an unknown altitude approximately 10 miles south of VPS airport",
+      "source_quote": "AT UNKN ALTITUDE 10 S OF VPS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 346,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No description of the UAP was provided by the pilot",
+      "source_quote": "DESCRIPTION OF UAP WAS NOT PROVIDED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 376,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot did not take evasive action",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 413,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified",
+      "source_quote": "LEO NOTIFICATION NOT PROVIDED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 441,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:15:32.802Z",
+  "qa_completed_at": "2026-06-14T01:16:05.286Z",
+  "timing": {
+    "A": "17.6s",
+    "B": "14.9s",
+    "E": "20.5s"
+  },
+  "public_headline": "USAF F-16 Pilot Reported Unidentified Aerial Phenomenon Near Florida Coast",
+  "public_tldr": "An FAA operations centre notification records that a US Air Force F-16 fighter jet (callsign RACER2) reported encountering an unidentified aerial phenomenon roughly 10 miles south of Destin-Fort Walton Beach Airport in Florida on 29 January 2024. No description of the object was given, no evasive action was taken, and the report contains minimal detail.",
+  "public_narrative": "This document is an incident notification from the FAA's Washington Operations Center — essentially a short-form alert that something unusual was reported in controlled airspace. It is not an investigation report or a detailed analysis; it is the bureaucratic first step of logging that an event occurred.\n\nOn 29 January 2024, at 10:11 AM Central time, Eglin Air Force Base in Florida notified the FAA that a USAF F-16 aircraft, flying under the callsign RACER2, had reported an unidentified aerial phenomenon. The encounter took place at an unknown altitude, approximately 10 nautical miles south of Destin-Fort Walton Beach Airport (known by its FAA code VPS). The coordinates given in the report place the sighting over the Gulf of Mexico, just off the Florida panhandle coast.\n\nNotably, the pilot provided no description of the object — its shape, size, colour, and behaviour are entirely absent from the record. The pilot did not take evasive action, and no law enforcement notification was made. The document records the bare minimum: something was seen, a report was filed, and the FAA logged it.\n\nThe location is worth noting for context. Eglin Air Force Base hosts one of the largest military test and training ranges in the United States. Sightings near active military testing areas can have a range of explanations, but this document does not offer or rule out any.",
+  "public_caveats": [
+    "This is a single-source preliminary notification, not a completed investigation. No corroborating radar data, sensor readings, or additional witness accounts are included.",
+    "The pilot gave no description of the phenomenon — there is nothing in this document to assess what was actually observed.",
+    "The incident occurred near Eglin AFB, a major military test range, which may be relevant context but the document draws no connection.",
+    "No evasive action was taken and no law enforcement was notified, suggesting the encounter was not treated as an immediate safety threat.",
+    "The verified facts metadata lists the incident year as 2023, but the document itself is dated 29 January 2024 — readers should rely on the specific date in the source text."
+  ]
+}

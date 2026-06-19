@@ -1,0 +1,268 @@
+{
+  "sha256": "4ae8636a62145c7fffc9ad7a4a6421c2142578a23fea55cf28da40aa9ec0d812",
+  "title": "FAA UAP record 237UAP00631",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting by a commercial airline crew.",
+  "core_summary": "On June 15, 2024, the crew of United Airlines Flight 1835 (an Airbus A319 flying from Denver to Knoxville) reported a 4-foot red and blue unidentified anomalous phenomenon below their aircraft while southbound at 11,000 feet, approximately 10 miles south of Denver. No evasive action was taken, and the object was not observed on ATC radar.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data",
+    "Object size estimate (4 feet) is a visual approximation from a moving aircraft at altitude",
+    "No independent confirmation of the sighting beyond the flight crew's report",
+    "The original text contains a typo ('OBERSVED') suggesting this is a raw preliminary report, not a reviewed final document"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "United Airlines 1835 (UAL1835)",
+      "source_quote": "UNITED 1835, A319, DEN - TYS",
+      "citation_offset": {
+        "offset": 255,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Airbus A319",
+      "source_quote": "UNITED 1835, A319",
+      "citation_offset": {
+        "offset": 255,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Denver (DEN) to Knoxville (TYS)",
+      "source_quote": "DEN - TYS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date of incident",
+      "value": "June 15, 2024",
+      "source_quote": "06-15-2024",
+      "citation_offset": {
+        "offset": 98,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "10 miles south of Denver, CO",
+      "source_quote": "10 S DEN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "11,000 feet",
+      "source_quote": "AT 11,000 FEET",
+      "citation_offset": {
+        "offset": 345,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "4-foot red and blue object",
+      "source_quote": "A 4-FOOT RED AND BLUE UAP BELOW ACFT",
+      "citation_offset": {
+        "offset": 294,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "Below the aircraft",
+      "source_quote": "UAP BELOW ACFT",
+      "citation_offset": {
+        "offset": 316,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of travel",
+      "value": "Southbound",
+      "source_quote": "WHILE S BOUND",
+      "citation_offset": {
+        "offset": 331,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 370,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on ATC radar",
+      "source_quote": "UAP NOT OBERSVED ON ATC RADAR",
+      "citation_offset": {
+        "offset": 398,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "Denver TRACON",
+      "source_quote": "DENVER TRACON ADVISED",
+      "citation_offset": {
+        "offset": 233,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "39.8617°N, 104.6732°W",
+      "source_quote": "Latitude: 39.861666659999997",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report origin",
+      "value": "FAA Washington Operations Center",
+      "source_quote": "Washington Operations Center",
+      "citation_offset": {
+        "offset": 0,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Denver, CO",
+    "Denver (DEN)",
+    "Knoxville (TYS)"
+  ],
+  "dated_events": [
+    "06-15-2024"
+  ],
+  "objects_described": [
+    "4-foot red and blue UAP",
+    "ATC radar"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines Flight 1835, an A319, was operating the DEN-TYS route on June 15, 2024",
+      "source_quote": "UNITED 1835, A319, DEN - TYS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 255,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew reported a 4-foot red and blue UAP below the aircraft at 11,000 feet",
+      "source_quote": "REPORTED A 4-FOOT RED AND BLUE UAP BELOW ACFT WHILE S BOUND AT 11,000 FEET",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 285,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 10 miles south of Denver",
+      "source_quote": "10 S DEN",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 370,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected on ATC radar",
+      "source_quote": "UAP NOT OBERSVED ON ATC RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 398,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Denver TRACON relayed the report",
+      "source_quote": "DENVER TRACON ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 233,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:39:14.519Z",
+  "qa_completed_at": "2026-06-14T01:39:49.743Z",
+  "timing": {
+    "A": "18.5s",
+    "B": "16.7s",
+    "E": "21.6s"
+  },
+  "public_headline": "United Airlines crew reported small red-blue object near Denver",
+  "public_tldr": "An FAA incident report documents that the crew of United Airlines Flight 1835, an Airbus A319 flying from Denver to Knoxville, reported seeing a small red and blue unidentified object below their aircraft at 11,000 feet on June 15, 2024. The object was not picked up on air traffic control radar, and no evasive action was taken.",
+  "public_narrative": "This document is an incident report from the FAA's Washington Operations Center, relayed through Denver TRACON (Terminal Radar Approach Control, the facility that manages air traffic around Denver). It records a sighting reported by the crew of United Airlines Flight 1835, an Airbus A319 operating from Denver (DEN) to Knoxville (TYS) on June 15, 2024.\n\nWhile flying southbound at 11,000 feet, approximately 10 miles south of Denver, the crew reported seeing a 4-foot red and blue unidentified anomalous phenomenon (UAP) below their aircraft. The crew did not take evasive action.\n\nAir traffic control checked their radar and did not detect the object. The report contains a typo in the original text ('OBERSVED' instead of 'observed'), suggesting this is a raw, preliminary report rather than a reviewed final document.\n\nThe FAA report does not offer any explanation or identification of the object. It simply records what the crew reported and notes the absence of radar confirmation. No additional investigation or follow-up is documented in this record.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or independent witnesses.",
+    "The size estimate of 4 feet is a visual approximation made from a moving aircraft at altitude and may not be accurate.",
+    "The document appears to be a raw preliminary report, not a reviewed final document, based on typographical errors in the original text.",
+    "The FAA report does not draw any conclusions about what the object was — it only records the crew's account.",
+    "The incident location (10 miles south of Denver) carries slightly lower confidence as it is derived from shorthand notation rather than a full description."
+  ]
+}

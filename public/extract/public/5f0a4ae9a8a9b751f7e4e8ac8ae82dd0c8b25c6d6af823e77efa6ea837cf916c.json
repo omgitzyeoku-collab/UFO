@@ -1,0 +1,69 @@
+{
+  "sha256": "5f0a4ae9a8a9b751f7e4e8ac8ae82dd0c8b25c6d6af823e77efa6ea837cf916c",
+  "title": "CIA-UAP-003, The Central Intelligence Agency and Overhead Reconnaissance; The U-2 and OXCART Programs, 1954-1974",
+  "agency": "CIA",
+  "type": "IMG",
+  "incident_date": "1954-1974",
+  "what_is_it": "A CIA History Staff document chronicling the U-2 and OXCART (A-12) high-altitude reconnaissance aircraft programs from 1954 to 1974.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No body text was extractable from this document — all facts are derived from metadata and the CSV description only.",
+    "The document is an image file (IMG), suggesting it is a scanned page or cover sheet rather than machine-readable text.",
+    "A less redacted version implies this release contains additional material, but the extent of remaining redactions is unknown without the full text.",
+    "This is a CIA-authored institutional history, not an independent or contemporaneous source."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "originating_agency",
+      "value": "CIA (History Staff)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "programs_covered",
+      "value": "U-2 and OXCART (A-12) high-altitude reconnaissance aircraft",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "time_period",
+      "value": "1954–1974",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [
+    "U-2 reconnaissance aircraft"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The CIA developed and operated the U-2 and OXCART (A-12) high-altitude reconnaissance programs between 1954 and 1974.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:51:03.691Z",
+  "qa_completed_at": "2026-06-14T02:51:37.417Z",
+  "timing": {
+    "A": "15.8s",
+    "B": "18.0s"
+  }
+}

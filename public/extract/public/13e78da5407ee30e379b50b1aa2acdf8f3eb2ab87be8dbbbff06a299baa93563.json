@@ -1,0 +1,228 @@
+{
+  "sha256": "13e78da5407ee30e379b50b1aa2acdf8f3eb2ab87be8dbbbff06a299baa93563",
+  "title": "FAA UAP record 237UAP00628",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting by a commercial airline crew.",
+  "core_summary": "On May 18, 2024, the crew of SkyWest Flight 3260, an Embraer E175 flying from Phoenix to Houston at flight level 370, reported two maneuvering lights approximately 100-150 miles north of their aircraft while eastbound 30 miles west of Austin, Texas. The lights were above FL370 and were not detected on radar by air traffic control. No evasive action was taken.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data",
+    "Distance estimate of 100-150 miles is a visual estimate at night, inherently imprecise",
+    "Late report — timing gap between observation and filing",
+    "No independent confirmation from other aircraft or ground observers"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "SkyWest Flight 3260 (SKW3260), Embraer E175",
+      "source_quote": "SKY WEST 3260, E75L, PHX - IAH",
+      "citation_offset": {
+        "offset": 267,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flight_route",
+      "value": "Phoenix (PHX) to Houston Intercontinental (IAH)",
+      "source_quote": "PHX - IAH",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight Level 370 (37,000 feet)",
+      "source_quote": "E BOUND AT FL370",
+      "citation_offset": {
+        "offset": 362,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "30 miles west of Austin, TX",
+      "source_quote": "30 W AUS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "coordinates",
+      "value": "Lat 30.19356887, Lon -98.17123989",
+      "source_quote": "Latitude: 30.19356887",
+      "citation_offset": {
+        "offset": 109,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Two maneuvering lights, 100-150 miles north of the aircraft, above FL370",
+      "source_quote": "TWO MANEUVERING LIGHTS 100-150 MILES N OF THE ACFT ABOVE FL370",
+      "citation_offset": {
+        "offset": 445,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_detection",
+      "value": "Not observed on radar by ATC",
+      "source_quote": "THE UAP WAS NOT OBSERVED ON RADAR BY ATC",
+      "citation_offset": {
+        "offset": 509,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 389,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "atc_facility",
+      "value": "Houston ARTCC",
+      "source_quote": "HOUSTON ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 245,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_time",
+      "value": "0150 CDT, late report",
+      "source_quote": "LATE REPORT-0150C",
+      "citation_offset": {
+        "offset": 227,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 551,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Austin, TX",
+    "Phoenix (PHX)",
+    "Houston (IAH)"
+  ],
+  "dated_events": [
+    "05-18-2024"
+  ],
+  "objects_described": [
+    "Embraer E175 (E75L) commercial aircraft",
+    "Two maneuvering lights (UAP) above FL370"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "SkyWest Flight 3260 was operating an Embraer E175 on the Phoenix to Houston route on May 18, 2024",
+      "source_quote": "SKY WEST 3260, E75L, PHX - IAH",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 267,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of two maneuvering lights estimated at 100-150 miles north of the aircraft",
+      "source_quote": "TWO MANEUVERING LIGHTS 100-150 MILES N OF THE ACFT ABOVE FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 445,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected on radar by air traffic control",
+      "source_quote": "THE UAP WAS NOT OBSERVED ON RADAR BY ATC",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 509,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew did not take evasive action",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 389,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 551,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:36:42.694Z",
+  "qa_completed_at": "2026-06-14T01:37:13.270Z",
+  "timing": {
+    "A": "18.0s",
+    "B": "12.6s",
+    "E": "17.5s"
+  },
+  "public_headline": "SkyWest Crew Reports Two Maneuvering Lights Over Central Texas",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of SkyWest Flight 3260, who observed two maneuvering lights roughly 100–150 miles north of their aircraft while flying at 37,000 feet near Austin, Texas on May 18, 2024. Air traffic control confirmed the lights did not appear on radar.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report filed under record number 237UAP00628. It records a UAP (unidentified anomalous phenomena) sighting reported by the flight crew of a commercial airline.\n\nOn May 18, 2024, the crew of SkyWest Flight 3260 — an Embraer E175 regional jet flying from Phoenix to Houston — spotted two maneuvering lights while cruising eastbound at flight level 370 (37,000 feet), approximately 30 miles west of Austin, Texas. The crew estimated the lights were 100 to 150 miles north of their aircraft and above their altitude. The report was filed late, at 0150 Central Daylight Time.\n\nHouston ARTCC (Air Route Traffic Control Center) was advised of the sighting. Controllers confirmed that the objects were not observed on radar. The crew did not take evasive action, and law enforcement was not notified.\n\nThe FAA report does not offer any explanation or identification of the lights. It records the observation and the absence of radar corroboration, but draws no conclusion about what the crew saw.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data, sensor evidence, or independent confirmation from other aircraft or ground observers.",
+    "The distance estimate of 100–150 miles is a visual estimate made at night from a cockpit, which is inherently imprecise.",
+    "The report was filed late (noted as 'LATE REPORT' in the document), meaning there was a timing gap between the observation and the official filing.",
+    "The FAA document does not identify or explain the lights — it simply records the crew's report and notes the lack of radar detection.",
+    "There is minimal redaction in this document, but the record contains limited detail overall — no photographs, sensor data, or follow-up investigation results are included."
+  ]
+}

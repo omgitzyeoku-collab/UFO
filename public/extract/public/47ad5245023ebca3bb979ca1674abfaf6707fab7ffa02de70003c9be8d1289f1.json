@@ -1,0 +1,197 @@
+{
+  "sha256": "47ad5245023ebca3bb979ca1674abfaf6707fab7ffa02de70003c9be8d1289f1",
+  "title": "FAA UAP record 237UAP00564",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UFO/UAP sighting reported by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or other sensor evidence included in this document.",
+    "The document is a preliminary notification, not a full investigation report.",
+    "No description of the UFO's shape, size, color, or behavior is provided beyond its relative altitude.",
+    "The coordinates place the sighting over the Gulf of Mexico, not over land near St. Petersburg-Clearwater."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "Air Transport 3331, Boeing 767-300 (B763)",
+      "source_quote": "AIR TRANSPORT 3331, B763, LAL - SBD",
+      "citation_offset": {
+        "offset": 279,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight Level 410 (approximately 41,000 feet)",
+      "source_quote": "E BOUND AT FL410",
+      "citation_offset": {
+        "offset": 354,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UFO relative position",
+      "value": "2,000 feet below the aircraft",
+      "source_quote": "REPORTED A UFO 2,000 FEET BELOW",
+      "citation_offset": {
+        "offset": 316,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft heading",
+      "value": "Eastbound",
+      "source_quote": "E BOUND AT FL410",
+      "citation_offset": {
+        "offset": 354,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 382,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not required",
+      "source_quote": "LEO NOTIFICATION NOT REQUIRED",
+      "citation_offset": {
+        "offset": 410,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility involved",
+      "value": "Miami ARTCC",
+      "source_quote": "MIAMI ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 259,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "27.8958°N, 84.5664°W (Gulf of Mexico)",
+      "source_quote": "Latitude: 27.895810650000001",
+      "citation_offset": {
+        "offset": 110,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "St. Petersburg-Clearwater, FL",
+    "Miami ARTCC"
+  ],
+  "dated_events": [
+    "10/24/2023"
+  ],
+  "objects_described": [
+    "Boeing 767-300 (Air Transport 3331)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Boeing 767-300 operating as Air Transport 3331 reported a UFO 2,000 feet below while at FL410 on October 24, 2023.",
+      "source_quote": "AIR TRANSPORT 3331, B763, LAL - SBD, REPORTED A UFO 2,000 FEET BELOW WHILE E BOUND AT FL410",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 279,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 115 nautical miles west of St. Petersburg-Clearwater International Airport over the Gulf of Mexico.",
+      "source_quote": "115 W PIE",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft.",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 382,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement notification was deemed not required.",
+      "source_quote": "LEO NOTIFICATION NOT REQUIRED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 410,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was relayed through Miami ARTCC.",
+      "source_quote": "MIAMI ARTCC ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 259,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:40:48.987Z",
+  "qa_completed_at": "2026-06-14T00:41:44.902Z",
+  "timing": {
+    "A": "19.0s",
+    "B": "36.9s",
+    "E": "21.2s"
+  },
+  "public_headline": "Commercial Airline Crew Reported UFO Over Gulf of Mexico in 2023",
+  "public_tldr": "This FAA incident notification records a UFO sighting by the crew of a Boeing 767-300 flying at 41,000 feet over the Gulf of Mexico on October 24, 2023. The crew reported an unidentified object 2,000 feet below their aircraft; no evasive action was taken and no further investigation is documented here.",
+  "public_narrative": "On October 24, 2023, the crew of Air Transport 3331 — a Boeing 767-300 flying eastbound at Flight Level 410 (approximately 41,000 feet) — reported an unidentified flying object roughly 2,000 feet below their aircraft. The sighting occurred over the Gulf of Mexico, at coordinates placing it well offshore, approximately 115 nautical miles west of St. Petersburg-Clearwater International Airport in Florida.\n\nThe report was relayed through Miami ARTCC (Air Route Traffic Control Center), the FAA facility responsible for that airspace. The FAA's Washington Operations Center logged the incident as a standard UAP notification.\n\nAccording to the document, no evasive action was taken by the aircraft, and law enforcement notification was deemed not required. The record contains no description of the object's shape, size, colour, or behaviour beyond its position relative to the aircraft.\n\nThis document is a preliminary notification — essentially a log entry — not a full investigation report. It does not include any conclusions about what the object was, nor does it reference radar data or other sensor evidence that might corroborate the crew's visual report.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or other sensor evidence included in the document.",
+    "The document is a preliminary incident notification, not a completed investigation — no conclusions were reached about what the object was.",
+    "No physical description of the UFO is provided beyond its altitude relative to the aircraft.",
+    "The coordinates place the sighting over the Gulf of Mexico, not over land near St. Petersburg-Clearwater as the nearest reference airport might suggest.",
+    "Redaction levels appear low, but the document's brevity means little detail was recorded in the first place."
+  ]
+}

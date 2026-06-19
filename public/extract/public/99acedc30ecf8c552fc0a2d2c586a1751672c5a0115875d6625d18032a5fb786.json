@@ -1,0 +1,231 @@
+{
+  "sha256": "99acedc30ecf8c552fc0a2d2c586a1751672c5a0115875d6625d18032a5fb786",
+  "title": "FAA UAP record 237UAP00625",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On 14 April 2024, the crew of Delta Air Lines flight 1706 (a Boeing 717-200) flying from Atlanta to Charlotte reported observing an unidentified anomalous phenomenon at flight level 234 (approximately 23,400 feet) near the PHIIL waypoint in the vicinity of Rutledge, Georgia. No evasive action was taken by the aircraft, and no law-enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary operations-center log entry, not a full investigation report.",
+    "The document contains only the initial crew report relayed through FAA channels — no corroborating radar data, sensor evidence, or follow-up investigation is included.",
+    "Initials 'JG/MO' at the end likely refer to the WOC staff who logged the entry, not witnesses.",
+    "The incident date in the title (2023) from the filing metadata does not match the document's own date of 14 April 2024."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "date_of_incident",
+      "value": "2024-04-14",
+      "source_quote": "Date: 4/14/2024 7:40:00 AM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_flight",
+      "value": "Delta 1706 (DAL1706)",
+      "source_quote": "DAL1706 UFO-UAP ACTIVITY 04-14-2024",
+      "citation_offset": {
+        "offset": 73,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Boeing 717-200 (B712)",
+      "source_quote": "DELTA 1706, B712, ATL CLT",
+      "citation_offset": {
+        "offset": 256,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Atlanta (ATL) to Charlotte (CLT)",
+      "source_quote": "DELTA 1706, B712, ATL CLT",
+      "citation_offset": {
+        "offset": 256,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight Level 234 (approximately 23,400 feet)",
+      "source_quote": "REPORTED A UAP AT FL234",
+      "citation_offset": {
+        "offset": 283,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Near PHIIL waypoint, vicinity of Rutledge, GA",
+      "source_quote": "RUTLEDGE, GA/UFO-UAP ACTIVITY/0740E/E-ROC ADVISED DELTA 1706...VCNTY PHIIL WAYPOINT",
+      "citation_offset": {
+        "offset": 206,
+        "len": 58,
+        "exact": false,
+        "matched": "RUTLEDGE, GA/UFO-UAP ACTIVITY/0740E/E-ROC ADVISED DELTA 17"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "coordinates",
+      "value": "33.626°N, 83.612°W",
+      "source_quote": "Latitude: 33.625954499999999",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "time",
+      "value": "0740 Eastern",
+      "source_quote": "0740E",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 329,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 354,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "source_of_report",
+      "value": "E-ROC (Eastern Regional Operations Center) to FAA Washington Operations Center",
+      "source_quote": "PRELIM INFO FROM FAA OPS...E-ROC ADVISED",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Rutledge, GA",
+    "PHIIL waypoint",
+    "Atlanta (ATL)",
+    "Charlotte (CLT)"
+  ],
+  "dated_events": [
+    "4/14/2024",
+    "04-14-2024"
+  ],
+  "objects_described": [
+    "UAP at FL234",
+    "Boeing 717-200 (B712)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Delta flight 1706, a Boeing 717-200, was operating on the Atlanta to Charlotte route on 14 April 2024.",
+      "source_quote": "DELTA 1706, B712, ATL CLT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 256,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew reported a UAP at flight level 234 near the PHIIL waypoint.",
+      "source_quote": "REPORTED A UAP AT FL234 VCNTY PHIIL WAYPOINT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 283,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 329,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was reported.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 354,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident occurred in the vicinity of Rutledge, Georgia.",
+      "source_quote": "RUTLEDGE, GA/UFO-UAP ACTIVITY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 206,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:34:02.340Z",
+  "qa_completed_at": "2026-06-14T01:34:40.898Z",
+  "timing": {
+    "A": "21.2s",
+    "B": "17.3s",
+    "E": "18.5s"
+  },
+  "public_headline": "Delta crew reported unidentified object at 23,400 feet over Georgia",
+  "public_tldr": "This FAA operations-centre log records that the crew of Delta Air Lines flight 1706, a Boeing 717-200, reported seeing an unidentified anomalous phenomenon while flying at roughly 23,400 feet near Rutledge, Georgia on 14 April 2024. No evasive action was taken and no law-enforcement notification was filed.",
+  "public_narrative": "This document is a preliminary incident notification from the FAA's Washington Operations Center (WOC). It logs a report relayed from the Eastern Regional Operations Center (E-ROC) about a UAP — unidentified anomalous phenomenon — sighted by a commercial airline crew.\n\nOn 14 April 2024 at approximately 7:40 a.m. Eastern time, the crew of Delta Air Lines flight 1706, operating a Boeing 717-200 on the Atlanta-to-Charlotte route, reported observing a UAP at flight level 234 — roughly 23,400 feet. The sighting occurred near an aviation waypoint called PHIIL, in the vicinity of Rutledge, Georgia (coordinates 33.63°N, 83.61°W).\n\nThe log notes that no evasive action was taken by the aircraft and that no law-enforcement notification was reported. There is no description of the object's shape, size, movement, or behaviour in the document.\n\nThe record is a short operational log entry, not a full investigation report. It contains no radar data, sensor evidence, photographs, or follow-up findings. It simply confirms that the crew made the report and that it was logged through standard FAA channels.",
+  "public_caveats": [
+    "This is a preliminary operations-centre log, not a completed investigation — it records that a report was made, nothing more.",
+    "No corroborating evidence is included: no radar data, no sensor readings, no photographs, and no follow-up investigation results.",
+    "The document does not describe what the crew saw — only that they reported a UAP. There is no detail on the object's appearance or behaviour.",
+    "The filing metadata lists the incident year as 2023, but the document itself clearly dates the event to 14 April 2024 — this appears to be a metadata discrepancy.",
+    "The source is a single crew report relayed through FAA channels; no independent witness or instrument confirmation is present in this record."
+  ]
+}

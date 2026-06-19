@@ -1,0 +1,252 @@
+{
+  "sha256": "5bb23084c91bf63571a2a948f483aabe2d5375ebcdd814c4c6a8f49b4d1492d6",
+  "title": "FAA UAP record 237UAP00531",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On July 30, 2023, the crew of United Airlines flight 1409, an Airbus A320 flying from Houston (IAH) to Milwaukee (MKE), reported an unidentified aerial phenomenon near Lufkin, Texas. The UAP was described as 15 bright lights at the 12 o'clock position that appeared and then quickly disappeared while the aircraft was northeast-bound at flight level 260 (approximately 26,000 feet). No evasive action was taken and law enforcement was not notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included",
+    "Described as a late report, meaning there may have been a delay between observation and reporting",
+    "No indication of any sensor data or recording — observation is purely visual from the cockpit",
+    "The lights appeared and disappeared quickly, limiting the duration of observation"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "United Airlines flight 1409, Airbus A320",
+      "source_quote": "UNITED 1409, A320, IAH - MKE",
+      "citation_offset": {
+        "offset": 267,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Houston Intercontinental (IAH) to Milwaukee (MKE)",
+      "source_quote": "IAH - MKE",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date and time of incident",
+      "value": "July 30, 2023, at 2209 CDT (late report)",
+      "source_quote": "LATE REPORT - 2209C",
+      "citation_offset": {
+        "offset": 222,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Vicinity of Lufkin, Texas (LFK)",
+      "source_quote": "VCNTY LFK",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 260 (approximately 26,000 feet)",
+      "source_quote": "NE BOUND AT FL260",
+      "citation_offset": {
+        "offset": 373,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "15 bright lights that appeared and then quickly disappeared",
+      "source_quote": "15 BRIGHT LIGHTS THAT APPEARED AND THEN QUICKLY DISAPPEARED",
+      "citation_offset": {
+        "offset": 427,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "AT THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 340,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 488,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not notified",
+      "source_quote": "LEO WERE NOT NOTIFIED",
+      "citation_offset": {
+        "offset": 513,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility involved",
+      "value": "Fort Worth ARTCC",
+      "source_quote": "FORT WORTH ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 242,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "31.234 N, 94.75 W",
+      "source_quote": "Latitude: 31.234027780000002",
+      "citation_offset": {
+        "offset": 110,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Direction of travel",
+      "value": "Northeast-bound",
+      "source_quote": "NE BOUND AT FL260",
+      "citation_offset": {
+        "offset": 373,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Lufkin, TX",
+    "Houston (IAH)",
+    "Milwaukee (MKE)",
+    "Fort Worth"
+  ],
+  "dated_events": [
+    "7/30/2023",
+    "07-30-2023"
+  ],
+  "objects_described": [
+    "Airbus A320 (United 1409)",
+    "UAP described as 15 bright lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 1409 was operating an Airbus A320 on the IAH-MKE route on July 30, 2023",
+      "source_quote": "UNITED 1409, A320, IAH - MKE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 267,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew reported the UAP at 2209 CDT to Fort Worth ARTCC",
+      "source_quote": "LATE REPORT - 2209C/FORT WORTH ARTCC ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 222,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of 15 bright lights that appeared and quickly disappeared",
+      "source_quote": "15 BRIGHT LIGHTS THAT APPEARED AND THEN QUICKLY DISAPPEARED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 427,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was at flight level 260 near Lufkin, Texas when the sighting occurred",
+      "source_quote": "AT FL260 VCNTY LFK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 382,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 488,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement officers were not notified",
+      "source_quote": "LEO WERE NOT NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 513,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:11:25.616Z",
+  "qa_completed_at": "2026-06-14T00:12:01.478Z",
+  "timing": {
+    "A": "18.4s",
+    "B": "17.4s",
+    "E": "15.9s"
+  },
+  "public_headline": "United Airlines Crew Reported 15 Bright Lights Over East Texas",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of United Airlines flight 1409 on July 30, 2023. While flying an Airbus A320 from Houston to Milwaukee at approximately 26,000 feet near Lufkin, Texas, the crew observed 15 bright lights directly ahead of the aircraft that appeared and then quickly disappeared.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report covering a UAP sighting by a commercial airline crew. The report was filed as a late report, meaning there was a delay between the observation and when it was formally logged.\n\nOn July 30, 2023, at 10:09 PM Central time, the crew of United Airlines flight 1409 — an Airbus A320 travelling northeast from Houston Intercontinental (IAH) to Milwaukee (MKE) — observed an unidentified aerial phenomenon near Lufkin, Texas. The aircraft was at flight level 260, roughly 26,000 feet. The crew described 15 bright lights at the 12 o'clock position (directly ahead) that appeared and then quickly disappeared.\n\nThe crew took no evasive action. Fort Worth Air Route Traffic Control Center (ARTCC) was advised of the sighting. Law enforcement was not notified.\n\nThe FAA report does not include any explanation or conclusion about what the lights were. There is no mention of corroborating radar data, sensor recordings, or additional witness accounts from other aircraft or ground observers. The document records the crew's visual observation and nothing more.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or independent witness accounts included in the document.",
+    "The sighting was filed as a late report, so there was a gap between the observation and the formal report.",
+    "The observation was purely visual from the cockpit — no sensor data or recordings are referenced.",
+    "The lights appeared and disappeared quickly, limiting the duration of the observation and the crew's ability to assess what they saw.",
+    "The FAA report records the incident but offers no analysis or conclusion about what the lights were."
+  ]
+}

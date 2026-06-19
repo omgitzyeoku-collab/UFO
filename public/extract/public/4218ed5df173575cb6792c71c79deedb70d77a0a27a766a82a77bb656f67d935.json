@@ -1,0 +1,227 @@
+{
+  "sha256": "4218ed5df173575cb6792c71c79deedb70d77a0a27a766a82a77bb656f67d935",
+  "title": "FAA UAP record 237UAP00486",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UAP sighting reported by a commercial airline crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary operational notification, not an investigated case file — no analysis or conclusions are included.",
+    "The document notes the pilot planned to post video on social media, meaning corroborating footage may exist publicly.",
+    "A second aircraft (N4200K) reportedly saw the same phenomenon, but no details of that sighting are included in this record.",
+    "Coordinates place the incident off the southwest Florida coast, though the text says 'La Belle, FL' which is inland — the coordinates and Gulf of Mexico reference are more precise."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "reporting_flight",
+      "value": "American Airlines 2640 (AAL2640)",
+      "source_quote": "MIAMI ARTCC ADVISED AMERICAN 2640",
+      "citation_offset": {
+        "offset": 257,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Airbus A321",
+      "source_quote": "AMERICAN 2640, A321, PBI - DFW",
+      "citation_offset": {
+        "offset": 277,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "PBI (Palm Beach International) to DFW (Dallas/Fort Worth)",
+      "source_quote": "A321, PBI - DFW",
+      "citation_offset": {
+        "offset": 292,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight level 340 (34,000 feet)",
+      "source_quote": "NW BOUND AT FL340 OVER GULF OF MEXICO",
+      "citation_offset": {
+        "offset": 337,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "26.758067 latitude, -82.457748 longitude",
+      "source_quote": "Latitude: 26.758067029999999",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evidence_captured",
+      "value": "Video recorded by crew",
+      "source_quote": "CAPTURED VIDEO OF UAP",
+      "citation_offset": {
+        "offset": 309,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 416,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "prior_report",
+      "value": "Incident previously reported by aircraft N4200K",
+      "source_quote": "INCIDENT PREVIOUSLY REPORTED BY N4200K",
+      "citation_offset": {
+        "offset": 376,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pilot_intent",
+      "value": "Planned to post video on social media after landing",
+      "source_quote": "PILOT STATED THAT HE PLANS TO POST VIDEO ON SOCIAL MEDIA AFTER LANDING DFW",
+      "citation_offset": {
+        "offset": 444,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Miami ARTCC (Air Route Traffic Control Center)",
+      "source_quote": "MIAMI ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 257,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "La Belle, FL",
+    "Gulf of Mexico",
+    "PBI (Palm Beach International)",
+    "DFW (Dallas/Fort Worth)"
+  ],
+  "dated_events": [
+    "2/27/2023",
+    "02-27-2023"
+  ],
+  "objects_described": [
+    "UAP (unidentified anomalous phenomenon)",
+    "Aircraft N4200K"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 2640, an A321, was flying from Palm Beach to Dallas/Fort Worth on 27 February 2023.",
+      "source_quote": "AMERICAN 2640, A321, PBI - DFW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 277,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew captured video of a UAP while at 34,000 feet over the Gulf of Mexico.",
+      "source_quote": "CAPTURED VIDEO OF UAP WHILE NW BOUND AT FL340 OVER GULF OF MEXICO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 309,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The same UAP had been previously reported by aircraft N4200K.",
+      "source_quote": "INCIDENT PREVIOUSLY REPORTED BY N4200K",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 376,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft.",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 416,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot intended to post the video on social media after landing at DFW.",
+      "source_quote": "PILOT STATED THAT HE PLANS TO POST VIDEO ON SOCIAL MEDIA AFTER LANDING DFW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 444,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:31:40.416Z",
+  "qa_completed_at": "2026-06-13T23:32:27.434Z",
+  "timing": {
+    "A": "22.6s",
+    "B": "24.5s",
+    "E": "17.9s"
+  },
+  "public_headline": "American Airlines Crew Filmed UAP Over Gulf of Mexico in 2023",
+  "public_tldr": "This FAA operational notification records that the crew of American Airlines flight 2640, an Airbus A321 flying from Palm Beach to Dallas/Fort Worth on 27 February 2023, captured video of an unidentified anomalous phenomenon at 34,000 feet over the Gulf of Mexico. A second aircraft had independently reported the same phenomenon, and the pilot stated he planned to post the video on social media after landing.",
+  "public_narrative": "This document is an incident notification from the FAA's Washington Operations Center — essentially an internal alert that something unusual was reported during a commercial flight. It is not an investigation report and contains no analysis or conclusions about what the object was.\n\nOn 27 February 2023, Miami Air Route Traffic Control Center (ARTCC) reported that the crew of American Airlines flight 2640, an Airbus A321 en route from Palm Beach International Airport to Dallas/Fort Worth, observed an unidentified anomalous phenomenon while flying northwest at 34,000 feet over the Gulf of Mexico. The crew captured video of the object. No evasive action was taken, suggesting the crew did not consider it an immediate collision threat.\n\nThe notification also records that a second aircraft, registered as N4200K, had previously reported the same incident — meaning two separate crews observed whatever this was. However, no details of that second sighting are included in this record.\n\nNotably, the pilot told controllers he planned to post the video on social media after landing at Dallas/Fort Worth, which means corroborating footage may exist publicly. The document's coordinates place the sighting off the southwest coast of Florida in the Gulf of Mexico.",
+  "public_caveats": [
+    "This is a preliminary operational notification, not an investigated case file — no analysis, identification, or conclusions about what the object was are included.",
+    "A second aircraft (N4200K) reportedly saw the same phenomenon, but this document contains no details of that sighting.",
+    "The pilot said he planned to post video on social media — that footage may or may not have been published and could serve as independent corroboration.",
+    "The document shows minimal redaction, but that also means it contains very little detail — it is a brief internal alert, not a detailed report.",
+    "No description of the object's appearance, behaviour, size, or movement is included in the verified facts from this record."
+  ]
+}

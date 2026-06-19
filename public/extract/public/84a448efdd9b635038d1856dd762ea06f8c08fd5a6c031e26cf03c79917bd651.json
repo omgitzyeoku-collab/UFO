@@ -1,0 +1,190 @@
+{
+  "sha256": "84a448efdd9b635038d1856dd762ea06f8c08fd5a6c031e26cf03c79917bd651",
+  "title": "OSD UAP record 06_SAPCO_CAPCO_MFR",
+  "agency": "OSD",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "A prepublication and security review clearance page (cover sheet) for a document related to the All-Domain Anomaly Resolution Office (AARO), cleared for open publication by the Department of Defense.",
+  "core_summary": "This document consists of two cover pages from the Department of Defense Office of Prepublication and Security Review, indicating that a record (Case Number 330UAP000006) associated with AARO was reviewed and cleared for open publication. The document was released in part under authority of the FY24 NDAA (44 U.S.C. 2107 § 1843(a)(3)), with review conducted by the Chief of Staff of AARO.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "This document contains only cover/clearance pages — the substantive content of the underlying AARO record is not present in the extracted text.",
+    "The 'Released in Part' marking indicates portions of the full document were withheld, so the public version is incomplete.",
+    "The document label 'SAPCO_CAPCO_MFR' suggests this may be a Memorandum for Record related to Special Access Program (SAP) security classification matters, but the actual memo content is absent from the extraction.",
+    "Two different review dates appear (02/05/2025 and 2/14/2025), suggesting the document underwent multiple rounds of review."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "case_number",
+      "value": "330UAP000006",
+      "source_quote": "Case Number: 330UAP000006",
+      "citation_offset": {
+        "offset": 295,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "prepub_review_number",
+      "value": "24-P-0402",
+      "source_quote": "24-P-0402",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "release_status",
+      "value": "Released in Part",
+      "source_quote": "Released in Part: X",
+      "citation_offset": {
+        "offset": 239,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "withholding_authority",
+      "value": "44 U.S.C. 2107 § 1843(a)(3)",
+      "source_quote": "Reason: 44 U.S.C. 2107 § 1843(a)(3)",
+      "citation_offset": {
+        "offset": 259,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification_determination",
+      "value": "Unclassified",
+      "source_quote": "Page determined to be Unclassified",
+      "citation_offset": {
+        "offset": 321,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reviewing_authority",
+      "value": "Chief of Staff, AARO",
+      "source_quote": "Reviewed by Chief of Staff, AARO IAW FY24 NDAA, Section 1841(a)(1)(C)",
+      "citation_offset": {
+        "offset": 356,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "clearance_date",
+      "value": "Mar 25, 2024",
+      "source_quote": "Mar 25, 2024",
+      "citation_offset": {
+        "offset": 32,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "review_date_1",
+      "value": "2/14/2025",
+      "source_quote": "Date: 2/14/2025",
+      "citation_offset": {
+        "offset": 223,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "review_date_2",
+      "value": "02/05/2025",
+      "source_quote": "Date: 02/05/2025",
+      "citation_offset": {
+        "offset": 713,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "document_series_label",
+      "value": "06",
+      "source_quote": "06",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "Mar 25, 2024",
+    "2/14/2025",
+    "02/05/2025"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The document was cleared for open publication by the DoD Office of Prepublication and Security Review on March 25, 2024.",
+      "source_quote": "CLEARED For Open Publication Mar 25, 2024 Department of Defense OFFICE OF PREPUBLICATION AND SECURITY REVIEW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 465,
+        "len": 95,
+        "exact": false,
+        "matched": "r Open Publication Mar 25, 2024 Department of Defense OFFICE OF PREPUBLICATION AND SECURITY REV"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was released only in part, with portions withheld under 44 U.S.C. 2107 § 1843(a)(3).",
+      "source_quote": "Released in Part: X Reason: 44 U.S.C. 2107 § 1843(a)(3)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 239,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The page was determined to be unclassified by the Chief of Staff of AARO under authority of the FY24 NDAA.",
+      "source_quote": "Page determined to be Unclassified Reviewed by Chief of Staff, AARO IAW FY24 NDAA, Section 1841(a)(1)(C)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 321,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 2,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:21:38.001Z",
+  "qa_completed_at": "2026-06-14T02:22:13.320Z",
+  "timing": {
+    "A": "20.6s",
+    "B": "14.7s",
+    "E": "18.5s"
+  },
+  "public_headline": "Pentagon Clears AARO Record for Partial Public Release",
+  "public_tldr": "This document is a cover sheet from the Department of Defense's prepublication review office, confirming that an All-Domain Anomaly Resolution Office (AARO) record — Case Number 330UAP000006 — was cleared for partial public release on March 25, 2024. The underlying substantive content is not included; only the clearance pages are present.",
+  "public_narrative": "This record consists of two cover pages from the Department of Defense Office of Prepublication and Security Review. The pages confirm that a document associated with AARO — the Pentagon office responsible for investigating unidentified anomalous phenomena — was reviewed and cleared for open publication on March 25, 2024. The case is numbered 330UAP000006.\n\nThe document was released only in part, with portions withheld under authority of 44 U.S.C. 2107 § 1843(a)(3), a provision from the FY24 National Defense Authorization Act governing UAP-related records. The page itself was determined to be unclassified by the Chief of Staff of AARO, acting under FY24 NDAA Section 1841(a)(1)(C).\n\nThe file name — 06_SAPCO_CAPCO_MFR — suggests the underlying document may be a Memorandum for Record related to Special Access Program security classification matters, but the actual memo content is absent from what was released. Two different review dates appear in the document (February 5, 2025 and February 14, 2025), indicating it went through multiple rounds of review before publication.\n\nIn practical terms, this release tells us that the Pentagon reviewed a UAP-related record, decided parts of it could be made public, and withheld the rest. What was withheld and why remains unknown from this document alone.",
+  "public_caveats": [
+    "This document contains only cover and clearance pages — the substantive content of the underlying AARO record is not present.",
+    "The 'Released in Part' marking means the public version is incomplete; portions were withheld under statutory authority.",
+    "The document label suggests a connection to Special Access Program classification matters, but this cannot be confirmed from the released pages alone.",
+    "No incident details, witness accounts, sensor data, or analytical conclusions appear in this release — it is purely administrative."
+  ]
+}

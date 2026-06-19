@@ -1,0 +1,56 @@
+{
+  "sha256": "a56e49ed5dd5fbb00b70101762b3eb9bb6148aeb380163ece648d377dfa5e5c7",
+  "title": "CIA-UAP-002, Scientific Advisory Panel on Unidentified Flying Objects, Report, 1952-1953",
+  "agency": "CIA",
+  "type": "PDF",
+  "incident_date": "1952-1953",
+  "what_is_it": "A report and associated correspondence from a CIA-convened Scientific Advisory Panel on Unidentified Flying Objects, produced between 1952 and 1953.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No extracted body text available — all facts derived solely from metadata and the CSV description provided by war.gov.",
+    "The document is likely a scanned PDF with poor or no OCR, so verbatim source quotes could not be obtained.",
+    "This panel is widely known as the Robertson Panel; the metadata here does not name individual panelists.",
+    "The CSV description appears truncated, so additional panel recommendations (e.g. debunking programs, public education) may exist in the full document but are not reflected here."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "date_range",
+      "value": "1952–1953",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "panel_name",
+      "value": "Scientific Advisory Panel on Unidentified Flying Objects",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "1952–1953"
+  ],
+  "objects_described": [
+    "unidentified flying objects"
+  ],
+  "verifiable_claims": [],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:49:23.773Z",
+  "qa_completed_at": "2026-06-14T02:49:58.804Z",
+  "timing": {
+    "A": "17.5s",
+    "B": "17.5s"
+  }
+}

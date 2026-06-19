@@ -1,0 +1,214 @@
+{
+  "sha256": "f77945f9d0e0ecfbdd89451c5d3e6927fa4f55d2d025a74e61b663614e9ccbb1",
+  "title": "FAA UAP record 237UAP00534",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary information report documenting a UAP sighting reported by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report (marked 'PRELIM INFO'), not a final investigation or conclusion.",
+    "Single-source account from the flight crew relayed through ATC; no corroborating radar data or additional witnesses are mentioned.",
+    "The reported UAP altitude of FL400–FL600 (40,000–60,000 feet) is based solely on crew visual estimation, which is unreliable at night and at distance.",
+    "No follow-up investigation findings are included in this document."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date and time of report",
+      "value": "5 August 2023, 01:11 AM EDT",
+      "source_quote": "Date: 8/5/2023 1:11:00 AM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft",
+      "value": "Sunwing Airlines flight SWG6415, Boeing 737 MAX 8 (B38M), Canadian-registered",
+      "source_quote": "CANADA REGISTERED SUNWING 6415, B38M",
+      "citation_offset": {
+        "offset": 272,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Holguín, Cuba (MUHG) to Toronto, Canada (CYYZ)",
+      "source_quote": "HOLGUIN, CUBA (MUHG) - TORONTO, CANADA (CYYZ)",
+      "citation_offset": {
+        "offset": 310,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 310 (approximately 31,000 feet)",
+      "source_quote": "WHILE AT FL310",
+      "citation_offset": {
+        "offset": 460,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Bright circling lights",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH BRIGHT CIRCLING LIGHTS",
+      "citation_offset": {
+        "offset": 357,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude range",
+      "value": "Between FL400 and FL600 (approximately 40,000–60,000 feet)",
+      "source_quote": "MANEUVERING BETWEEN FL400-FL600",
+      "citation_offset": {
+        "offset": 428,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "Latitude 30.951, Longitude -79.504",
+      "source_quote": "Latitude: 30.951435780000001",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 488,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 513,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Jacksonville ARTCC",
+      "source_quote": "JACKSONVILLE ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 245,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Jacksonville, FL",
+    "Holguín, Cuba",
+    "Toronto, Canada"
+  ],
+  "dated_events": [
+    "8/5/2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with bright circling lights",
+    "Boeing 737 MAX 8 (B38M) — Sunwing Airlines flight SWG6415"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Sunwing Airlines Boeing 737 MAX 8 on flight SWG6415 reported a UAP sighting to Jacksonville ARTCC on 5 August 2023.",
+      "source_quote": "JACKSONVILLE ARTCC ADVISED CANADA REGISTERED SUNWING 6415, B38M, HOLGUIN, CUBA (MUHG) - TORONTO, CANADA (CYYZ), REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 245,
+        "len": 154,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP exhibited bright circling lights and was maneuvering at altitudes between 40,000 and 60,000 feet, well above the reporting aircraft's altitude of 31,000 feet.",
+      "source_quote": "BRIGHT CIRCLING LIGHTS MANEUVERING BETWEEN FL400-FL600 WHILE AT FL310",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 405,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 127 nautical miles east-northeast of Craig Airport, Jacksonville, over the Atlantic Ocean.",
+      "source_quote": "127 ENE CRG",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 475,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew did not take evasive action in response to the phenomenon.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 488,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:14:10.646Z",
+  "qa_completed_at": "2026-06-14T00:14:53.032Z",
+  "timing": {
+    "A": "22.6s",
+    "B": "19.8s",
+    "E": "17.5s"
+  },
+  "public_headline": "Sunwing Crew Reports Bright Circling Lights Over Atlantic at 40,000–60,000 Feet",
+  "public_tldr": "An FAA preliminary report from 5 August 2023 documents a Sunwing Airlines crew on a Cuba-to-Toronto flight reporting an unidentified aerial phenomenon with bright circling lights maneuvering well above their altitude over the Atlantic Ocean east of Jacksonville, Florida. No evasive action was taken and no follow-up investigation findings are included in the document.",
+  "public_narrative": "On 5 August 2023, at roughly 1:11 AM Eastern time, the crew of Sunwing Airlines flight SWG6415 — a Boeing 737 MAX 8 flying from Holguín, Cuba to Toronto, Canada — reported an unidentified aerial phenomenon to Jacksonville Air Route Traffic Control Center (ARTCC). The aircraft was cruising at approximately 31,000 feet over the Atlantic Ocean, about 127 nautical miles east-northeast of Jacksonville.\n\nThe crew described the object as displaying bright circling lights and maneuvering at altitudes between roughly 40,000 and 60,000 feet — well above their own flight level. Despite the sighting, the crew did not take any evasive action, and no law enforcement notification was reported.\n\nThe document is an FAA Washington Operations Center preliminary information report, marked \"PRELIM INFO.\" It records what the crew told air traffic control and nothing more. There are no radar data, no corroborating witnesses from other aircraft, and no follow-up investigation findings included.\n\nThe FAA did not reach any conclusion about what the crew observed. This is a single-source account relayed through ATC, preserved as a preliminary record. The document shows minimal redaction.",
+  "public_caveats": [
+    "This is a preliminary report, not a completed investigation or official conclusion about what the object was.",
+    "The account comes from a single flight crew relayed through air traffic control — no independent witnesses or radar corroboration are mentioned in the document.",
+    "The estimated altitude of the object (40,000–60,000 feet) is based on the crew's visual judgement at night and at distance, which is inherently unreliable.",
+    "No follow-up investigation results are included; it is unclear whether any further inquiry was conducted.",
+    "The document shows low evidence of redaction — what you see is essentially what the FAA recorded."
+  ]
+}

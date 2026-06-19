@@ -1,0 +1,70 @@
+{
+  "sha256": "85e84eb491e2331aebecb0ea021eb64d67795dc4c25197ca293ddfcffc81dee9",
+  "title": "CIA-UAP-005, German Scientist's Article on 'Flying Discs'",
+  "agency": "CIA",
+  "type": "PDF",
+  "incident_date": "1950",
+  "what_is_it": "A CIA Information Report relaying a German scientist's published article theorizing that 'Flying Discs' could be explained as unconventional aircraft using aerodynamic principles from German research.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No extracted body text was available — all facts are derived from metadata and the CSV description only.",
+    "The scientist's identity is not specified in available metadata, limiting verification.",
+    "The document reports on a published article's theory, not on any direct UAP observation or investigation.",
+    "A redacted version was previously public, indicating some content has been withheld.",
+    "The theory presented is speculative engineering conjecture from 1950, not confirmed technical analysis."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "Originating agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Date",
+      "value": "1950",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Subject",
+      "value": "German scientist's article theorizing Flying Discs as advanced aircraft",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [
+    "Flying Discs"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A German scientist published an article proposing that Flying Discs could be explained as aircraft using rotating cylinders or gas turbines for lift via boundary layer manipulation.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:52:34.952Z",
+  "qa_completed_at": "2026-06-14T02:53:05.183Z",
+  "timing": {
+    "A": "15.2s",
+    "B": "15.0s"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "sha256": "09d0314bc2085b2e3014d0b7efe63da764288d720970fce42d680d1c032d801b",
+  "title": "FAA UAP record 237UAP00570",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary information report documenting UAP activity reported by multiple aircraft near Walnut Ridge, Arkansas.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report only, not a full investigation or case resolution.",
+    "No details are provided about the type, size, shape, or appearance of the phenomenon beyond its altitude behavior.",
+    "The second coordinate field is mislabelled as 'Latitude' when it represents longitude.",
+    "The abbreviation 'WHIILE' appears to be a typo in the original FAA report.",
+    "No follow-up investigation or case disposition is included in this document.",
+    "Multiple aircraft corroboration strengthens the observation but no radar or sensor data is referenced."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "date_time",
+      "value": "November 8, 2023, 8:55 PM CST (2055C local)",
+      "source_quote": "Date: 11/8/2023 8:55:00 PM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Walnut Ridge, Arkansas, 80 NM northwest of ARG (Walnut Ridge Regional Airport)",
+      "source_quote": "WALNUT RIDGE, AR/UFO-UAP ACTIVITY/2055C/...80 NW ARG",
+      "citation_offset": {
+        "offset": 207,
+        "len": 37,
+        "exact": false,
+        "matched": "WALNUT RIDGE, AR/UFO-UAP ACTIVITY/205"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "coordinates",
+      "value": "36.9407°N, 91.9471°W",
+      "source_quote": "Latitude: 36.94072079 Latitude: -91.947072550000001",
+      "citation_offset": {
+        "offset": 117,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Memphis ARTCC",
+      "source_quote": "MEMPHIS ARTCC ADVISED MULTIPLE ACFT REPORTED",
+      "citation_offset": {
+        "offset": 247,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_witnesses",
+      "value": "Multiple aircraft",
+      "source_quote": "MULTIPLE ACFT REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 269,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observed_behavior",
+      "value": "Erratic altitude changes between FL280, FL340, and FL450",
+      "source_quote": "CHANGING ALTITUDES ERRATICALLY AT WHIILE AT FL280-340-450",
+      "citation_offset": {
+        "offset": 326,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_range",
+      "value": "FL280–FL450 (approx. 28,000–45,000 feet)",
+      "source_quote": "FL280-340-450",
+      "citation_offset": {
+        "offset": 370,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 395,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None",
+      "source_quote": "NO LEO NOTIFICATION",
+      "citation_offset": {
+        "offset": 420,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_reference",
+      "value": "WOC 7-3333 RC/JA",
+      "source_quote": "WOC 7-3333 RC/JA",
+      "citation_offset": {
+        "offset": 441,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Walnut Ridge, AR",
+    "Memphis ARTCC",
+    "ARG (Walnut Ridge Regional Airport)"
+  ],
+  "dated_events": [
+    "11/8/2023",
+    "11-082023"
+  ],
+  "objects_described": [
+    "Unidentified Aerial Phenomenon changing altitudes erratically at FL280-FL450"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Memphis ARTCC reported that multiple aircraft observed a UAP on November 8, 2023",
+      "source_quote": "MEMPHIS ARTCC ADVISED MULTIPLE ACFT REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 247,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was changing altitudes erratically between FL280 and FL450",
+      "source_quote": "CHANGING ALTITUDES ERRATICALLY AT WHIILE AT FL280-340-450",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 326,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The incident occurred 80 nautical miles northwest of Walnut Ridge Regional Airport",
+      "source_quote": "80 NW ARG",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No aircraft took evasive action in response to the UAP",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 395,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified about the incident",
+      "source_quote": "NO LEO NOTIFICATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 420,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:45:44.656Z",
+  "qa_completed_at": "2026-06-14T00:46:25.086Z",
+  "timing": {
+    "A": "20.4s",
+    "B": "20.1s",
+    "E": "18.1s"
+  },
+  "public_headline": "Multiple Aircraft Report Erratic UAP Near Walnut Ridge, Arkansas",
+  "public_tldr": "This FAA preliminary report documents an incident on November 8, 2023, in which multiple aircraft reported an unidentified aerial phenomenon changing altitudes erratically between 28,000 and 45,000 feet near Walnut Ridge, Arkansas. No evasive action was taken and no follow-up investigation is included in this document.",
+  "public_narrative": "On the evening of November 8, 2023, at 8:55 PM Central time, Memphis ARTCC (Air Route Traffic Control Center) reported that multiple aircraft had observed an unidentified aerial phenomenon approximately 80 nautical miles northwest of Walnut Ridge Regional Airport in Arkansas. The coordinates given place the incident at 36.94°N, 91.95°W.\n\nAccording to the FAA's Washington Operations Center report, the object was changing altitudes erratically between flight levels 280, 340, and 450 — roughly 28,000 to 45,000 feet. That altitude range sits squarely in the zone used by commercial airliners. Despite the sighting, no aircraft took evasive action in response.\n\nLaw enforcement was not notified about the incident. The document is a preliminary information report only — it records what was observed and reported, but contains no follow-up investigation, case resolution, or explanation of what the phenomenon was. No radar or sensor data is referenced.\n\nThe report provides no description of the object's size, shape, colour, or appearance beyond its altitude behaviour. It is filed under reference WOC 7-3333 RC/JA. This is a raw operational record, not an analytical assessment or conclusion.",
+  "public_caveats": [
+    "This is a preliminary FAA report, not a completed investigation. No conclusion about what the phenomenon was is offered.",
+    "Multiple aircraft corroboration strengthens the observation, but no radar data, sensor readings, or other instrument evidence is referenced in the document.",
+    "The document describes only altitude behaviour — no details about the object's size, shape, or appearance are provided.",
+    "No follow-up investigation or case disposition is included, so it is unknown whether the FAA pursued the matter further.",
+    "The location '80 NM northwest of ARG' is stated in the report but the exact reference point carries slightly lower confidence than other facts in the document."
+  ]
+}

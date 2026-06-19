@@ -1,0 +1,203 @@
+{
+  "sha256": "6711d1898b1f1fd8684350dbd6faaea1630549af615b940a28ead03154bcb5d7",
+  "title": "FAA UAP record 237UAP00558",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On 27 September 2023, the crew of United Airlines flight 2710 (a Boeing 737-900 operating San Francisco to Chicago O'Hare) reported seeing three bright white lights at their 10 o'clock position, approximately 45 nautical miles southwest of Scottsbluff, Nebraska. No evasive action was taken and no law enforcement was notified. The report was filed as a late report at 0300 Mountain time.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation with no corroborating radar or sensor data mentioned",
+    "Filed as a late report, meaning there may have been a delay between the observation and the filing",
+    "BFF is the FAA identifier for Western Nebraska Regional Airport at Scottsbluff; '45 SW BFF' likely means 45 nautical miles southwest of that airport",
+    "No description of object behaviour, size, altitude, or duration of sighting is provided"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "United Airlines flight 2710, Boeing 737-900 (B739)",
+      "source_quote": "UNITED 2710, B739, SFO - ORD",
+      "citation_offset": {
+        "offset": 271,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "San Francisco (SFO) to Chicago O'Hare (ORD)",
+      "source_quote": "SFO - ORD",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date and time",
+      "value": "27 September 2023, 0300 Mountain time (late report)",
+      "source_quote": "LATE REPORT-0300M",
+      "citation_offset": {
+        "offset": 239,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Approximately 45 nautical miles southwest of Scottsbluff, Nebraska (near BFF)",
+      "source_quote": "45 SW BFF",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Coordinates",
+      "value": "Latitude 41.4795, Longitude -104.2881",
+      "source_quote": "Latitude: 41.479522500000002",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Description of objects",
+      "value": "Three bright white lights observed from the 10 o'clock position",
+      "source_quote": "THREE BRIGHT WHITE LIGHTS FROM THE 10 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 310,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 376,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 401,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting chain",
+      "value": "C-ROC advised FAA Operations",
+      "source_quote": "C-ROC ADVISED",
+      "citation_offset": {
+        "offset": 257,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Scottsbluff, NE",
+    "SFO (San Francisco)",
+    "ORD (Chicago O'Hare)",
+    "BFF (Scottsbluff airport identifier)"
+  ],
+  "dated_events": [
+    "9/27/2023"
+  ],
+  "objects_described": [
+    "Three bright white lights (UAP)",
+    "Boeing 737-900 (United Airlines flight 2710)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 2710 was a Boeing 737-900 operating from San Francisco to Chicago O'Hare on 27 September 2023",
+      "source_quote": "UNITED 2710, B739, SFO - ORD",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 271,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed three bright white lights at their 10 o'clock position",
+      "source_quote": "THREE BRIGHT WHITE LIGHTS FROM THE 10 O'CLOCK POSITION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 310,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 45 nautical miles southwest of Scottsbluff, Nebraska",
+      "source_quote": "45 SW BFF",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 376,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was made",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 401,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:35:09.643Z",
+  "qa_completed_at": "2026-06-14T00:35:46.425Z",
+  "timing": {
+    "A": "17.5s",
+    "B": "19.3s",
+    "E": "17.8s"
+  },
+  "public_headline": "United Airlines Crew Reports Three Bright Lights Over Nebraska",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of United Airlines flight 2710 on 27 September 2023. While flying from San Francisco to Chicago, the crew observed three bright white lights to their left, roughly 45 nautical miles southwest of Scottsbluff, Nebraska. No evasive action was taken and no further investigation is recorded in the document.",
+  "public_narrative": "This document is an incident report from the FAA's Washington Operations Center, filed under record number 237UAP00558. It records a UAP (unidentified anomalous phenomena) sighting reported by a commercial airline crew during a routine domestic flight.\n\nOn 27 September 2023, the crew of United Airlines flight 2710 — a Boeing 737-900 flying from San Francisco (SFO) to Chicago O'Hare (ORD) — reported seeing three bright white lights from their 10 o'clock position. The sighting occurred approximately 45 nautical miles southwest of Scottsbluff, Nebraska, at coordinates roughly 41.48°N, 104.29°W. The report was filed late, at 0300 Mountain time, meaning there was a delay between the observation and the official filing.\n\nThe crew did not take evasive action, and no law enforcement was notified. The report was passed through the FAA's internal chain: C-ROC (a regional operations centre) advised FAA Operations.\n\nThe document does not include any description of the objects' behaviour, size, altitude, or how long they were visible. There is no mention of radar data, sensor readings, or any follow-up investigation. The FAA drew no conclusions about what the lights were.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the flight crew's visual observation — no radar or sensor data is mentioned to corroborate it.",
+    "The report was filed late, which means details may be less precise than an immediate filing.",
+    "No description of the objects' behaviour, size, altitude, or duration of the sighting is provided in the document.",
+    "The FAA report records the sighting but does not offer any explanation or conclusion about what the crew saw.",
+    "The location '45 SW BFF' is interpreted as 45 nautical miles southwest of Scottsbluff's Western Nebraska Regional Airport — this is a reasonable but not fully confirmed reading of the FAA shorthand."
+  ]
+}

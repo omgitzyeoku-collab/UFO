@@ -1,0 +1,229 @@
+{
+  "sha256": "556c6b9cf8221737377cd5499bd517fee20fcb7caad214d90af329efe1e7739b",
+  "title": "FAA UAP record 237UAP00632",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA Washington Operations Center incident report documenting a UAP encounter reported by commercial airline pilots near Topeka, Kansas.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "TCAS RAs from two separate aircraft suggest something was physically present, yet the complete absence of primary and secondary radar returns is unusual and unexplained.",
+    "The term 'ACFT' (aircraft) is used by the reporting pilot, suggesting the objects resembled conventional aircraft in shape, though their behavior (slow speed, no transponder, no radar signature) was anomalous.",
+    "Visual observation was made by AAL1913 crew only; UAL1687 received TCAS but did not see anything, making this partly single-observer for visual details.",
+    "The report is preliminary ('PRELIM INFO') and may have been superseded by a more detailed follow-up investigation."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "American Airlines Flight 1913, Airbus A321, routing ORD-PHX",
+      "source_quote": "AMERICAN 1913, A321, ORD - PHX",
+      "citation_offset": {
+        "offset": 265,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude_reporting_aircraft",
+      "value": "FL260 (26,000 feet)",
+      "source_quote": "W BOUND AT FL260",
+      "citation_offset": {
+        "offset": 325,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "July 5, 2024 at 1535 CDT",
+      "source_quote": "Date: 7/5/2024 3:35:00 PM (-05 CDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "TCAS_RA_triggered",
+      "value": "Yes, pilot received a TCAS Resolution Advisory",
+      "source_quote": "PIC REPORTS RECEIVING A TCAS RA",
+      "citation_offset": {
+        "offset": 352,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP_description",
+      "value": "Flight of 2 slow-moving aircraft followed by a single aircraft traveling in opposite direction, all light grey",
+      "source_quote": "A FLIGHT OF 2 SLOW MOVING ACFT FOLLOWED BY A SINGLE ACFT TRAVELING IN OPPOSITE DIRECTION AT FL300. ALL ACFT WERE LIGHT GREY IN COLOR",
+      "citation_offset": {
+        "offset": 393,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_witness",
+      "value": "United Airlines Flight 1687 also received TCAS RA in the same area",
+      "source_quote": "UNITED 1687 ALSO REPORTED RECEIVING TCAS RA IN THAT AREA",
+      "citation_offset": {
+        "offset": 527,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "visual_acquisition_UAL1687",
+      "value": "No — did not visually acquire traffic",
+      "source_quote": "DID NOT ACQUIRE TRAFFIC VISUALLY",
+      "citation_offset": {
+        "offset": 588,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "radar_returns",
+      "value": "None — no primary or secondary radar returns on ATC radar",
+      "source_quote": "NO PRIMARY OR SECONDARY RADAR RETURNS DEPICTED ON ATC FACILITY RADAR",
+      "citation_offset": {
+        "offset": 622,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC_facility",
+      "value": "Kansas City ARTCC",
+      "source_quote": "KANSAS CITY ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 239,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "39.5308°N, 95.6636°W",
+      "source_quote": "Latitude: 39.530789140000003",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Topeka, KS",
+    "Kansas City ARTCC",
+    "ORD (Chicago O'Hare)",
+    "PHX (Phoenix)"
+  ],
+  "dated_events": [
+    "7/5/2024",
+    "07-05-2024"
+  ],
+  "objects_described": [
+    "Flight of 2 slow-moving light grey aircraft",
+    "Single light grey aircraft traveling in opposite direction at FL300",
+    "Airbus A321 (AAL1913)",
+    "TCAS (Traffic Collision Avoidance System)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines Flight 1913 was an A321 operating the ORD-PHX route on July 5, 2024",
+      "source_quote": "AMERICAN 1913, A321, ORD - PHX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 265,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot received a TCAS Resolution Advisory, indicating the system detected a collision risk from nearby traffic",
+      "source_quote": "PIC REPORTS RECEIVING A TCAS RA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 352,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Three unidentified aircraft were visually observed: two slow-moving together and one traveling in the opposite direction",
+      "source_quote": "A FLIGHT OF 2 SLOW MOVING ACFT FOLLOWED BY A SINGLE ACFT TRAVELING IN OPPOSITE DIRECTION AT FL300",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 393,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "United Airlines Flight 1687 independently received a TCAS RA in the same area, corroborating anomalous traffic presence",
+      "source_quote": "UNITED 1687 ALSO REPORTED RECEIVING TCAS RA IN THAT AREA BUT DID NOT ACQUIRE TRAFFIC VISUALLY",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 527,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No radar returns were detected by ATC despite TCAS alerts and visual sighting",
+      "source_quote": "NO PRIMARY OR SECONDARY RADAR RETURNS DEPICTED ON ATC FACILITY RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 622,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:40:11.388Z",
+  "qa_completed_at": "2026-06-14T01:41:00.243Z",
+  "timing": {
+    "A": "26.9s",
+    "B": "21.9s",
+    "E": "24.7s"
+  },
+  "public_headline": "Two Airliners Got Collision Warnings From Invisible Objects Near Kansas",
+  "public_tldr": "An FAA incident report from July 2024 documents American Airlines and United Airlines pilots both receiving automated collision alerts near Topeka, Kansas, triggered by objects that did not appear on air traffic control radar. The American Airlines crew visually observed three slow-moving, light grey aircraft-like objects, but no radar evidence of them was ever found.",
+  "public_narrative": "On 5 July 2024 at 3:35 PM Central time, the crew of American Airlines Flight 1913 — an Airbus A321 flying from Chicago O'Hare to Phoenix — reported an unusual encounter while heading westbound at 26,000 feet near Topeka, Kansas. The pilot-in-command told Kansas City Air Route Traffic Control Center that the plane's TCAS (Traffic Collision Avoidance System, an onboard safety system that detects nearby aircraft and issues collision warnings) had triggered a Resolution Advisory, its most urgent alert level.\n\nThe crew visually observed what appeared to be three aircraft: two slow-moving objects flying together, followed by a single object travelling in the opposite direction at roughly 30,000 feet. All three were described as light grey in colour. The pilot used the term 'aircraft' to describe them, suggesting they resembled conventional planes in shape, though their behaviour was not typical.\n\nUnited Airlines Flight 1687 independently received its own TCAS Resolution Advisory in the same area, meaning a second aircraft's collision-avoidance system also detected something. However, the United crew did not see anything visually.\n\nThe most striking detail in the report is what was absent: Kansas City air traffic control confirmed there were no primary or secondary radar returns on their facility radar corresponding to whatever triggered the alerts. TCAS works by interrogating transponders on other aircraft, yet these objects produced no radar signature at all — an unusual combination that the report does not explain.\n\nThe document is marked as preliminary information and may have been followed by a more detailed investigation. No conclusions about what the objects were appear in the record.",
+  "public_caveats": [
+    "Only the American Airlines crew visually saw the objects. The United Airlines crew received a TCAS alert but never saw anything, making visual details a single-crew observation.",
+    "TCAS alerts from two separate aircraft suggest something was physically present, but the complete absence of radar returns is unexplained and unusual — TCAS normally detects transponder-equipped traffic, yet ATC saw nothing.",
+    "The report is marked as preliminary and may have been superseded by a follow-up investigation not included here.",
+    "The pilot described the objects as 'aircraft', which tells us their shape but not what they actually were. The FAA record itself uses the term UAP (unidentified anomalous phenomena) without drawing a conclusion.",
+    "Redaction levels are low — the report appears largely complete, but no final determination or agency conclusion is included."
+  ]
+}

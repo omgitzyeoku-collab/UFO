@@ -1,0 +1,236 @@
+{
+  "sha256": "a4370d719c8711bf512dfda51e488f1c853fee32e3343d704e5cc095c96133a4",
+  "title": "FAA UAP record 237UAP00637",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary incident report documenting a pilot's UAP sighting.",
+  "core_summary": "Southwest Airlines Flight 986, a Boeing 737 flying from San Diego to Oakland, reported seeing bright lights that appeared to be orbiting or stationary at 60,000 feet while the aircraft was northbound at 40,000 feet, approximately 16 nautical miles southwest of LAX. No evasive action was taken. The FAA noted the object correlates with a Starlink satellite map.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The FAA itself noted the object correlates with a Starlink satellite map, suggesting a likely prosaic explanation.",
+    "This is a preliminary operations center report, not a full investigation.",
+    "Single-source observation from one flight crew with no corroborating radar or sensor data mentioned.",
+    "The report date (9/30/2024) and incident date reference (10-01-2024) span a timezone boundary, likely reflecting PDT vs UTC timing."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Flight",
+      "value": "Southwest Airlines Flight 986 (SWA986)",
+      "source_quote": "SOUTHWEST 986, B737, SAN - OAK",
+      "citation_offset": {
+        "offset": 264,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737",
+      "source_quote": "B737",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "San Diego (SAN) to Oakland (OAK)",
+      "source_quote": "SAN - OAK",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Observation description",
+      "value": "Bright lights, orbiting or stationary, seen from the right side of the aircraft",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON OF BRIGHT LIGHTS ORBITING-STATIONARY AT FL600 FROM THE RIGHT SIDE",
+      "citation_offset": {
+        "offset": 296,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object altitude",
+      "value": "Flight Level 600 (approximately 60,000 feet)",
+      "source_quote": "AT FL600",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight Level 400 (approximately 40,000 feet)",
+      "source_quote": "WHILE N BOUND AT FL400",
+      "citation_offset": {
+        "offset": 405,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "16 nautical miles southwest of LAX",
+      "source_quote": "16 SW LAX",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 439,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Possible explanation",
+      "value": "Correlates with Starlink satellite positions",
+      "source_quote": "OBJECT CORRELATES WITH STARLINK MAP",
+      "citation_offset": {
+        "offset": 464,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Los Angeles ARTCC",
+      "source_quote": "LOS ANGELES ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 238,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report time",
+      "value": "10:21 PM local (2221P)",
+      "source_quote": "2221P",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Coordinates",
+      "value": "33.778 latitude, -118.605 longitude",
+      "source_quote": "Latitude: 33.778187680000002",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "WOC contact number",
+      "value": "202-267-3333",
+      "source_quote": "WOC 202-267-3333 RC/JC",
+      "citation_offset": {
+        "offset": 501,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Los Angeles, CA",
+    "LAX",
+    "San Diego (SAN)",
+    "Oakland (OAK)"
+  ],
+  "dated_events": [
+    "10-01-2024",
+    "9/30/2024"
+  ],
+  "objects_described": [
+    "Bright lights orbiting/stationary at FL600 (correlated with Starlink satellites)",
+    "Boeing 737 (SWA986)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Southwest Flight 986 crew observed bright lights appearing orbiting or stationary at approximately 60,000 feet while flying at 40,000 feet.",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON OF BRIGHT LIGHTS ORBITING-STATIONARY AT FL600 FROM THE RIGHT SIDE WHILE N BOUND AT FL400",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 296,
+        "len": 131,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 16 nautical miles southwest of LAX.",
+      "source_quote": "16 SW LAX",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 439,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FAA determined the observed object correlates with Starlink satellite positions.",
+      "source_quote": "OBJECT CORRELATES WITH STARLINK MAP",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 464,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was relayed through Los Angeles ARTCC.",
+      "source_quote": "LOS ANGELES ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 238,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:45:28.069Z",
+  "qa_completed_at": "2026-06-14T01:46:12.675Z",
+  "timing": {
+    "A": "19.1s",
+    "B": "25.5s",
+    "E": "17.5s"
+  },
+  "public_headline": "Southwest Airlines crew reported bright lights near LAX, likely Starlink satellites",
+  "public_tldr": "An FAA preliminary incident report documents the crew of Southwest Airlines Flight 986 observing bright lights that appeared orbiting or stationary at roughly 60,000 feet while flying at 40,000 feet near Los Angeles. The FAA noted the object correlates with a Starlink satellite map, suggesting a likely conventional explanation.",
+  "public_narrative": "This document is a preliminary incident report from the FAA's Washington Operations Center (record 237UAP00637). It records a UAP sighting reported by the crew of Southwest Airlines Flight 986, a Boeing 737 operating from San Diego to Oakland.\n\nAccording to the report, the crew observed bright lights from the right side of the aircraft that appeared to be orbiting or stationary at approximately 60,000 feet. The aircraft was northbound at 40,000 feet, about 16 nautical miles southwest of Los Angeles International Airport (LAX). The sighting was relayed through Los Angeles Air Route Traffic Control Center (ARTCC). No evasive action was taken.\n\nThe FAA's own note on the report states that the observed object \"correlates with Starlink map,\" indicating the agency identified a match between the lights and known positions of SpaceX Starlink satellites. This is a preliminary operations center report rather than a full investigation, and no further conclusions or follow-up findings are included in the document.\n\nThe report contains minimal redaction. Coordinates place the sighting at roughly 33.78°N, 118.61°W, consistent with the area southwest of LAX over the Pacific.",
+  "public_caveats": [
+    "This is a preliminary FAA operations center report, not a completed investigation or formal finding.",
+    "The FAA itself noted the sighting correlates with Starlink satellite positions, pointing toward a conventional explanation.",
+    "The observation comes from a single flight crew with no mention of corroborating radar or sensor data.",
+    "No evasive action was required, indicating the crew did not consider the object a collision risk.",
+    "The report dates (30 September and 1 October 2024) span a timezone boundary, likely reflecting Pacific Daylight Time versus UTC."
+  ]
+}

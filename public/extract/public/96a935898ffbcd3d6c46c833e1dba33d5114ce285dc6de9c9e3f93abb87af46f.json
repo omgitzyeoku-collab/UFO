@@ -1,0 +1,197 @@
+{
+  "sha256": "96a935898ffbcd3d6c46c833e1dba33d5114ce285dc6de9c9e3f93abb87af46f",
+  "title": "FAA UAP record 237UAP00575",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot sighting of an unidentified aerial phenomenon near Tampa, Florida.",
+  "core_summary": "On 19 November 2023, the crew of Frontier Airlines flight 2402 (an Airbus A320neo flying from Dallas/Fort Worth to Tampa) reported a large unidentified aerial phenomenon described as the 'size of an airliner' hovering at flight level 250 (approximately 25,000 feet), located 40 nautical miles northwest of Tampa. No evasive action was taken and no law-enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The report is a preliminary operations center log entry, not a full investigation.",
+    "'Hovering' is the pilot's characterisation and was not independently verified by radar or other sensors in this document.",
+    "Coordinates place the sighting over the Gulf of Mexico off Florida's west coast."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "Frontier Airlines flight 2402 (FFT2402), Airbus A320neo",
+      "source_quote": "FRONTIER 2402, A20N, DFW TPA",
+      "citation_offset": {
+        "offset": 247,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Dallas/Fort Worth (DFW) to Tampa (TPA)",
+      "source_quote": "DFW TPA",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date and time of report",
+      "value": "19 November 2023 at 1740 Eastern",
+      "source_quote": "11/19/2023 5:40:00 PM (-05 EST)... 1740E",
+      "citation_offset": {
+        "offset": 35,
+        "len": 30,
+        "exact": false,
+        "matched": "11/19/2023 5:40:00 PM (-05 EST"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP description",
+      "value": "Large object described as the size of an airliner, hovering",
+      "source_quote": "A LARGE UNIDENTIFIED AERIAL PHENOMENON THE \"SIZE OF AN AIRLINER\" HOVERING",
+      "citation_offset": {
+        "offset": 286,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude",
+      "value": "Flight level 250 (approximately 25,000 feet)",
+      "source_quote": "HOVERING AT FL250",
+      "citation_offset": {
+        "offset": 351,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP location",
+      "value": "40 nautical miles northwest of Tampa",
+      "source_quote": "40 NW OF TPA",
+      "citation_offset": {
+        "offset": 369,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "28.385°N, 82.998°W",
+      "source_quote": "Latitude: 28.38542807... -82.997683120000005",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 383,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 408,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Initial report source",
+      "value": "E-ROC (Eastern Regional Operations Center) advised FAA Operations",
+      "source_quote": "E-ROC ADVISED",
+      "citation_offset": {
+        "offset": 233,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Tampa, FL",
+    "DFW (Dallas/Fort Worth)",
+    "TPA (Tampa International Airport)"
+  ],
+  "dated_events": [
+    "11/19/2023",
+    "11-19-2023"
+  ],
+  "objects_described": [
+    "Airbus A320neo (Frontier 2402)",
+    "Unidentified aerial phenomenon described as 'size of an airliner', hovering at FL250"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Frontier flight 2402 reported a UAP the size of an airliner hovering at 25,000 feet, 40 nautical miles northwest of Tampa on 19 November 2023.",
+      "source_quote": "FRONTIER 2402, A20N, DFW TPA, REPORTED A LARGE UNIDENTIFIED AERIAL PHENOMENON THE \"SIZE OF AN AIRLINER\" HOVERING AT FL250 40 NW OF TPA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 247,
+        "len": 134,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 383,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was reported.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 408,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:50:45.329Z",
+  "qa_completed_at": "2026-06-14T00:51:15.801Z",
+  "timing": {
+    "A": "18.3s",
+    "B": "12.1s",
+    "E": "17.4s"
+  },
+  "public_headline": "Frontier Airlines crew reported airliner-sized object hovering near Tampa",
+  "public_tldr": "An FAA operations center log from 19 November 2023 records the crew of Frontier Airlines flight 2402 reporting a large unidentified aerial phenomenon — described as the size of an airliner — hovering at roughly 25,000 feet, about 40 nautical miles northwest of Tampa, Florida. No evasive action was taken and no law enforcement was notified.",
+  "public_narrative": "This document is an incident log from the FAA's Washington Operations Center, initially relayed by the Eastern Regional Operations Center (E-ROC). It records a pilot sighting reported on 19 November 2023 at 5:40 PM Eastern time.\n\nThe crew of Frontier Airlines flight 2402 — an Airbus A320neo flying from Dallas/Fort Worth to Tampa — reported observing a large unidentified aerial phenomenon at flight level 250 (approximately 25,000 feet). The crew described the object as the \"size of an airliner\" and said it was hovering roughly 40 nautical miles northwest of Tampa, over the Gulf of Mexico off Florida's west coast. The coordinates logged in the report place the sighting at approximately 28.4°N, 83.0°W.\n\nThe crew did not take evasive action, and no law enforcement notification was reported. The document is a preliminary operations center log entry — not a full investigation or final conclusion. The FAA did not offer an explanation for what the crew observed.\n\nThere is minimal redaction in this record. However, the report is notable for what it lacks: no radar data, no corroborating witness accounts from other aircraft, and no follow-up investigation are included in this document.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data or additional witness accounts are included in the document.",
+    "The description of the object as 'hovering' is the crew's characterisation and was not independently verified by radar or other sensors in this record.",
+    "This is a preliminary operations center log entry, not a completed investigation with findings or conclusions.",
+    "The coordinates place the sighting over the Gulf of Mexico, off Florida's west coast — not over land near Tampa itself.",
+    "No explanation or identification of the object was provided by the FAA in this document."
+  ]
+}

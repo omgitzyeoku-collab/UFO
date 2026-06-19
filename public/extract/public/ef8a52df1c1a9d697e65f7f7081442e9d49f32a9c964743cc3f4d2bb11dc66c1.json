@@ -1,0 +1,232 @@
+{
+  "sha256": "ef8a52df1c1a9d697e65f7f7081442e9d49f32a9c964743cc3f4d2bb11dc66c1",
+  "title": "FAA UAP record 237UAP00609",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary information report documenting a UAP sighting by a commercial airline crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report only, not a final investigation or conclusion.",
+    "Single-source observation from one flight crew with no radar corroboration.",
+    "DAL757 appears to be a call sign; the actual aircraft type is listed as B764 (Boeing 767-400).",
+    "No follow-up investigation results are included in this document."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "Delta 757 (call sign DAL757), Boeing 767-400",
+      "source_quote": "DELTA 757, B764, PHX - ATL",
+      "citation_offset": {
+        "offset": 243,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Phoenix (PHX) to Atlanta (ATL)",
+      "source_quote": "PHX - ATL",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Flight level",
+      "value": "FL370 (37,000 feet)",
+      "source_quote": "E BOUND AT FL370",
+      "citation_offset": {
+        "offset": 332,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Approximately 50 nautical miles west of Huntsville, Alabama",
+      "source_quote": "50 W HSV",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Latitude",
+      "value": "34.634039559999998",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Date and time",
+      "value": "14 February 2024 at 0330 Central Standard Time",
+      "source_quote": "02-14-2024... 0330C",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP description",
+      "value": "Multiple lights orbiting well ahead of the aircraft at various altitudes",
+      "source_quote": "MULTIPLE LIGHTS ORBITING WELL AHEAD OF THE ACFT AND AT VARIOUS ALTITUDES",
+      "citation_offset": {
+        "offset": 391,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 465,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "UAP was not observed by radar",
+      "source_quote": "THE UAP WAS NOT OBSERVED BY RADAR",
+      "citation_offset": {
+        "offset": 490,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting source",
+      "value": "FAA Operations / Washington Operations Center",
+      "source_quote": "PRELIM INFO FROM FAA OPS",
+      "citation_offset": {
+        "offset": 179,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location description",
+      "value": "Huntsville, AL area",
+      "source_quote": "HUNTSVILLE, AL/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 205,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Huntsville, AL",
+    "Phoenix (PHX)",
+    "Atlanta (ATL)"
+  ],
+  "dated_events": [
+    "02-14-2024",
+    "2/14/2024 3:30:00 AM"
+  ],
+  "objects_described": [
+    "Boeing 767-400 (B764)",
+    "Multiple lights at various altitudes (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Delta Air Lines Boeing 767-400 crew reported a UAP sighting while flying from Phoenix to Atlanta on 14 February 2024.",
+      "source_quote": "DELTA 757, B764, PHX - ATL, REPORTED UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 243,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of multiple lights orbiting ahead of the aircraft at various altitudes.",
+      "source_quote": "MULTIPLE LIGHTS ORBITING WELL AHEAD OF THE ACFT AND AT VARIOUS ALTITUDES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 391,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was at 37,000 feet, approximately 50 nautical miles west of Huntsville, Alabama.",
+      "source_quote": "E BOUND AT FL370 50 W HSV",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 332,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 465,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP did not appear on radar.",
+      "source_quote": "THE UAP WAS NOT OBSERVED BY RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 490,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was observed visually from the front of the aircraft.",
+      "source_quote": "OFF FRONT SIDE",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 311,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:18:59.096Z",
+  "qa_completed_at": "2026-06-14T01:19:40.168Z",
+  "timing": {
+    "A": "18.4s",
+    "B": "22.7s",
+    "E": "16.3s"
+  },
+  "public_headline": "Delta crew reported multiple orbiting lights over Alabama in 2024",
+  "public_tldr": "This FAA preliminary report documents a Delta Air Lines crew sighting multiple lights orbiting at various altitudes ahead of their aircraft near Huntsville, Alabama, on 14 February 2024. The lights were not detected on radar, and no evasive action was taken. No follow-up investigation results are included.",
+  "public_narrative": "This document is a preliminary information report from the FAA's Washington Operations Center — the agency's round-the-clock facility that logs aviation incidents nationwide. It records a UAP (Unidentified Aerial Phenomenon) sighting reported by a commercial airline flight crew.\n\nOn 14 February 2024 at approximately 3:30 a.m. Central time, the crew of Delta flight 757 — a Boeing 767-400 flying from Phoenix to Atlanta — observed multiple lights ahead of the aircraft. The lights appeared to be orbiting at various altitudes. The aircraft was cruising at 37,000 feet, roughly 50 nautical miles west of Huntsville, Alabama.\n\nThe crew did not take evasive action, indicating the lights were not perceived as an immediate collision threat. Notably, the UAP was not observed by radar, meaning only the flight crew's visual report exists as evidence.\n\nThe FAA filed this as a preliminary report. The document contains no conclusions about what the lights were, no follow-up investigation results, and no additional corroborating observations from other aircraft or ground stations. It is a record of a single crew's report, logged through standard FAA channels.",
+  "public_caveats": [
+    "This is a preliminary report only — not a completed investigation or any kind of official conclusion about what was observed.",
+    "The sighting is single-source: one flight crew's visual observation with no radar corroboration and no reports from other aircraft or ground observers.",
+    "DAL757 is a radio call sign, not the aircraft type — the plane was a Boeing 767-400, not a Boeing 757.",
+    "No follow-up findings, analysis, or resolution are included in this document.",
+    "The incident location is approximate, based on the crew's reported position relative to Huntsville, Alabama."
+  ]
+}

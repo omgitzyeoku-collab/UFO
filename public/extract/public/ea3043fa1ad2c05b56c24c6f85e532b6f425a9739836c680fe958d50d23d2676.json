@@ -1,0 +1,208 @@
+{
+  "sha256": "ea3043fa1ad2c05b56c24c6f85e532b6f425a9739836c680fe958d50d23d2676",
+  "title": "FAA UAP record 237UAP00489",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary incident report documenting a UAP/jet pack sighting by a commercial airline crew on short final approach.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source observation from one flight crew with no corroboration from other aircraft or ground observers",
+    "The object altitude is explicitly noted as unknown",
+    "Preliminary report only — no follow-up investigation results are included",
+    "Jet pack man designation is the crew's characterisation, not a confirmed identification"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "American Airlines flight 1030, Boeing 787",
+      "source_quote": "AMERICAN 1030, B789",
+      "citation_offset": {
+        "offset": 281,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Cancun, Mexico (MMUN) to Dallas-Fort Worth (DFW)",
+      "source_quote": "CANCUN, MEXICO (MMUN) - DFW",
+      "citation_offset": {
+        "offset": 302,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object described",
+      "value": "Jet pack man, 500 feet above the aircraft",
+      "source_quote": "REPORTED A JET PACK MAN 500 FEET ABOVE ACFT",
+      "citation_offset": {
+        "offset": 331,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft position",
+      "value": "Southbound on short final to Runway 18R",
+      "source_quote": "WHILE S BOUND AT UNKN ALTITUDE ON SHORT FINAL TO RUNWAY 18R",
+      "citation_offset": {
+        "offset": 375,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 436,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Operational impact",
+      "value": "None",
+      "source_quote": "NO IMPACT TO OPERATIONS",
+      "citation_offset": {
+        "offset": 461,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Corroborating sightings",
+      "value": "None",
+      "source_quote": "NO OTHER SIGHTINGS REPORTED",
+      "citation_offset": {
+        "offset": 486,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "Dallas-Fort Worth Air Traffic Control Tower",
+      "source_quote": "DALLAS-FORT WORTH ATCT ADVISED",
+      "citation_offset": {
+        "offset": 250,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date and time",
+      "value": "5 March 2023 at 1616 Central",
+      "source_quote": "03-05-2023 ... 1616C",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Coordinates",
+      "value": "32.904489, -97.037695",
+      "source_quote": "Latitude: 32.904488729999997 ... -97.037694720000005",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Dallas-Fort Worth, TX",
+    "Cancun, Mexico",
+    "DFW",
+    "MMUN"
+  ],
+  "dated_events": [
+    "3/5/2023",
+    "03-05-2023"
+  ],
+  "objects_described": [
+    "Jet pack man",
+    "Boeing 787 (B789)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "American Airlines flight 1030 was operating a Boeing 787 from Cancun to DFW on 5 March 2023",
+      "source_quote": "AMERICAN 1030, B789, CANCUN, MEXICO (MMUN) - DFW",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 281,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew reported a jet pack man 500 feet above their aircraft on short final to Runway 18R",
+      "source_quote": "REPORTED A JET PACK MAN 500 FEET ABOVE ACFT WHILE S BOUND AT UNKN ALTITUDE ON SHORT FINAL TO RUNWAY 18R",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 331,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No other aircraft or observers corroborated the sighting",
+      "source_quote": "NO OTHER SIGHTINGS REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 486,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was required and operations were unaffected",
+      "source_quote": "NO EVASIVE ACTION TAKEN. NO IMPACT TO OPERATIONS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 436,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:34:31.955Z",
+  "qa_completed_at": "2026-06-13T23:35:10.797Z",
+  "timing": {
+    "A": "19.3s",
+    "B": "19.5s",
+    "E": "17.8s"
+  },
+  "public_headline": "Airline Crew Reports Jet Pack Figure Near Dallas-Fort Worth Airport",
+  "public_tldr": "An FAA preliminary incident report documents the crew of American Airlines flight 1030 reporting a \"jet pack man\" approximately 500 feet above their Boeing 787 while on final approach to Dallas-Fort Worth International Airport on 5 March 2023. No other observers corroborated the sighting, no evasive action was taken, and the FAA recorded no impact to operations.",
+  "public_narrative": "This document is a preliminary incident report from the FAA's Washington Operations Center, filed under record number 237UAP00489. It records a UAP sighting reported by the flight crew of American Airlines flight 1030, a Boeing 787 operating from Cancún, Mexico to Dallas-Fort Worth.\n\nOn 5 March 2023 at approximately 4:16 p.m. Central time, the crew reported seeing what they described as a \"jet pack man\" roughly 500 feet above their aircraft. At the time, the plane was heading southbound on short final approach to Runway 18R at DFW. The Dallas-Fort Worth Air Traffic Control Tower was advised of the report.\n\nThe crew took no evasive action, and the FAA noted no impact to airport operations. Notably, no other aircraft or ground observers reported seeing the object. The report records the object's altitude as unknown — the 500-foot figure describes the object's position relative to the aircraft, not its altitude above the ground.\n\nThis is a preliminary report only. No follow-up investigation results are included in the document, and the term \"jet pack man\" reflects the crew's own description rather than a confirmed identification by the FAA or any other authority. Redaction levels in the document are low.",
+  "public_caveats": [
+    "This is a single-source observation from one flight crew — no other aircraft, radar data, or ground observers corroborated the sighting.",
+    "\"Jet pack man\" is the crew's characterisation, not a confirmed identification by the FAA or any investigative body.",
+    "This is a preliminary report only; no follow-up investigation findings are included in the released document.",
+    "The object's actual altitude is explicitly noted as unknown in the report.",
+    "The document has low redaction, but the absence of a follow-up means key questions — what the object was, whether it was investigated further — remain unanswered."
+  ]
+}

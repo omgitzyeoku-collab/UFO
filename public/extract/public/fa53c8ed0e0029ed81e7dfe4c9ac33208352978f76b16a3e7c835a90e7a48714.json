@@ -1,0 +1,592 @@
+{
+  "sha256": "fa53c8ed0e0029ed81e7dfe4c9ac33208352978f76b16a3e7c835a90e7a48714",
+  "title": "OSD UAP record 07_2024_Annual_Report",
+  "agency": "OSD",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "Annual consolidated report from the Department of Defense's All-domain Anomaly Resolution Office (AARO) on unidentified anomalous phenomena (UAP) for fiscal year 2024.",
+  "core_summary": "AARO received 757 UAP reports covering May 2023 to June 2024, of which 485 occurred during the reporting period and 272 were older cases from 2021-2022 not previously reported. All 292 resolved cases were identified as prosaic objects such as balloons, birds, UAS, satellites, and aircraft, and AARO states it has found no evidence of extraterrestrial beings, activity, or technology. The report highlights ongoing challenges with insufficient sensor data, describes the new GREMLIN sensor prototype, and notes 18 UAS incidents near U.S. nuclear infrastructure.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is an official U.S. government report representing AARO's institutional position; it is not an independent scientific assessment.",
+    "444 of 757 cases (59%) were placed in Active Archive due to insufficient data — the high proportion of unresolved cases limits the strength of conclusions about what UAP are or are not.",
+    "All 49 space domain reports came from pilots or ground observers estimating altitude, not from space-based sensors, making altitude classification unreliable.",
+    "The report states AARO received no reports through national GEOINT, SIGINT, or MASINT platforms, meaning the most capable U.S. sensor systems did not contribute data to this analysis.",
+    "The 392 FAA reports represent a bulk historical transfer of all FAA UAP reports since 2021, which inflates the period's numbers and may skew trend analysis.",
+    "The document is unclassified; a classified version may contain additional findings not present here.",
+    "170 reports (22.4%) lacked sufficient information for even basic morphological characterization, indicating low reporting quality in a significant share of cases.",
+    "The KONA BLUE reference describes claims made by interviewees, not verified facts — the program was never approved."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "total_reports_received",
+      "value": "757",
+      "source_quote": "AARO received 757 UAP reports during this period",
+      "citation_offset": {
+        "offset": 4435,
+        "len": 43,
+        "exact": false,
+        "matched": "received 757 UAP reports during this period"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "reports_during_period",
+      "value": "485",
+      "source_quote": "485 of these reports featured UAP incidents that occurred during the reporting period",
+      "citation_offset": {
+        "offset": 4480,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "older_reports",
+      "value": "272",
+      "source_quote": "The remaining 272 reports featured UAP incidents that occurred between 2021 and 2022",
+      "citation_offset": {
+        "offset": 4567,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_reports_in_database",
+      "value": "1652",
+      "source_quote": "As of October 24, 2024, there are 1652 reports in total",
+      "citation_offset": {
+        "offset": 11328,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "cases_resolved_during_period",
+      "value": "118 (plus 174 pending closure, all prosaic)",
+      "source_quote": "AARO resolved 118 cases during the reporting period, all of which resolved to prosaic objects",
+      "citation_offset": {
+        "offset": 4777,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "resolved_object_types",
+      "value": "balloons, birds, UAS, satellites, aircraft",
+      "source_quote": "resolved to prosaic objects such as various types of balloons, birds, and unmanned aerial systems (UAS)",
+      "citation_offset": {
+        "offset": 4843,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "air_domain_reports",
+      "value": "708",
+      "source_quote": "708 occurred in the air domain",
+      "citation_offset": {
+        "offset": 11893,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "space_domain_reports",
+      "value": "49",
+      "source_quote": "49 occurred in the space domain",
+      "citation_offset": {
+        "offset": 11925,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "maritime_or_transmedium_reports",
+      "value": "0",
+      "source_quote": "none occurred in the maritime or transmedium domains",
+      "citation_offset": {
+        "offset": 11962,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "faa_reports",
+      "value": "392",
+      "source_quote": "Of the 757 reports 392 were from the FAA",
+      "citation_offset": {
+        "offset": 12540,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "cases_meriting_further_analysis",
+      "value": "21",
+      "source_quote": "AARO determined 21 cases merit further analysis by its IC and science and technology (S&T) partners",
+      "citation_offset": {
+        "offset": 13112,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "cases_in_active_archive",
+      "value": "444",
+      "source_quote": "The remaining 444 cases lacked sufficient data to facilitate analysis and were placed in the Active Archive",
+      "citation_offset": {
+        "offset": 13286,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "east_asian_seas_reports",
+      "value": "100",
+      "source_quote": "U.S. military assets operating over the East Asian Seas provided 100 reports",
+      "citation_offset": {
+        "offset": 17931,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "middle_east_reports",
+      "value": "57",
+      "source_quote": "U.S. military assets deployed to the Middle East provided 57 reports",
+      "citation_offset": {
+        "offset": 18327,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "nuclear_infrastructure_reports",
+      "value": "18",
+      "source_quote": "AARO received a total of 18 reports from the Administrator for Nuclear Security and Chairman of the Nuclear Regulatory Commission",
+      "citation_offset": {
+        "offset": 20884,
+        "len": 129,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pilots_trailed_by_uap",
+      "value": "3 reports",
+      "source_quote": "three reports described pilots being trailed or shadowed by UAP",
+      "citation_offset": {
+        "offset": 5677,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "health_effects",
+      "value": "none reported",
+      "source_quote": "AARO received no reports suggesting any observers of UAP suffered any physiological impacts or adverse health effects",
+      "citation_offset": {
+        "offset": 22554,
+        "len": 117,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "extraterrestrial_evidence",
+      "value": "none",
+      "source_quote": "AARO has discovered no evidence of extraterrestrial beings, activity, or technology",
+      "citation_offset": {
+        "offset": 5380,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_period",
+      "value": "May 1, 2023 to June 1, 2024",
+      "source_quote": "This report covers unidentified anomalous phenomena (UAP) reports from May 1, 2023 to June 1, 2024",
+      "citation_offset": {
+        "offset": 4192,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "information_cutoff",
+      "value": "June 1, 2024",
+      "source_quote": "Information Cut Off: June 1, 2024",
+      "citation_offset": {
+        "offset": 159,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "publication_clearance_date",
+      "value": "November 7, 2024",
+      "source_quote": "CLEARED For Open Publication Nov 07, 2024",
+      "citation_offset": {
+        "offset": 193,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "release_date",
+      "value": "February 5, 2025",
+      "source_quote": "Date: 02/05/2025",
+      "citation_offset": {
+        "offset": 413,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sensor_prototype",
+      "value": "GREMLIN",
+      "source_quote": "AARO has begun collections using a prototype sensor system, GREMLIN, for detecting, tracking, and characterizing UAP",
+      "citation_offset": {
+        "offset": 27975,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "gremlin_test_date",
+      "value": "March 2024",
+      "source_quote": "GREMLIN demonstrated functionality and successfully collected data during a test event in March of 2024",
+      "citation_offset": {
+        "offset": 28093,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "gremlin_developer",
+      "value": "Georgia Tech Research Institute (GTRI)",
+      "source_quote": "Georgia Tech Research Institute (GTRI) developed the GREMLIN sensor architecture",
+      "citation_offset": {
+        "offset": 24747,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "morphology_insufficient_data",
+      "value": "170 reports (22.4%)",
+      "source_quote": "170 reports during the reporting period (22.4% of total) which contained insufficient or no information to enable a morphological characterization",
+      "citation_offset": {
+        "offset": 16783,
+        "len": 146,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aaro_website_launch",
+      "value": "October 31, 2023",
+      "source_quote": "On October 31, 2023, AARO launched the www.aaro.mil website",
+      "citation_offset": {
+        "offset": 25450,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "d_c_cook_crashed_uas",
+      "value": "UAS crashed and recovered August 3, 2023",
+      "source_quote": "On August 3, 2023, the D.C. Cook Nuclear Power Plant security recovered a crashed UAS that was given to Berrien County, Michigan, local law enforcement",
+      "citation_offset": {
+        "offset": 21724,
+        "len": 151,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "lynchburg_uas_flyovers",
+      "value": "6 consecutive nights, October 10-15, 2023",
+      "source_quote": "During October 10-15, 2023, USPER BWXT...Fuel Cycle Facility in Lynchburg, Virginia, observed UAS flyovers for six consecutive nights",
+      "citation_offset": {
+        "offset": 22043,
+        "len": 85,
+        "exact": false,
+        "matched": " Cycle Facility in Lynchburg, Virginia, observed UAS flyovers for six consecutive nig"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "East Asian Seas",
+    "Middle East",
+    "Atlantic Ocean off the coast of New York",
+    "Cape Canaveral, Florida",
+    "D.C. Cook Nuclear Power Plant",
+    "Berrien County, Michigan",
+    "Lynchburg, Virginia"
+  ],
+  "dated_events": [
+    "May 1, 2023 – June 1, 2024 (reporting period)",
+    "2024-10-24 (total report count date)",
+    "2024-11-07 (cleared for open publication)",
+    "2025-02-05 (release date)",
+    "2023-05 (Joint Staff GENADMIN message issued)",
+    "2023-08-03 (D.C. Cook Nuclear Power Plant UAS crash recovery)",
+    "2023-10-10 to 2023-10-15 (BWXT Lynchburg UAS flyovers)",
+    "2023-10-31 (aaro.mil website launch)",
+    "2024-03 (GREMLIN test event)",
+    "2024-03 (Historical Record Report Volume I released)",
+    "2024-04 (AARO reengaged X/Twitter account)"
+  ],
+  "objects_described": [
+    "balloons (various types)",
+    "birds",
+    "unmanned aerial systems (UAS)",
+    "satellites (including Starlink constellation)",
+    "aircraft",
+    "lights (unidentified)",
+    "round/spherical/orb-shaped objects",
+    "cylindrical object (near miss incident)",
+    "green fire ball",
+    "jelly fish with multicolored flashing lights",
+    "silver rocket approximately six feet long",
+    "GREMLIN sensor suite (prototype detection system)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AARO received 757 UAP reports between May 2023 and June 2024, with 485 occurring during the period and 272 from 2021-2022.",
+      "source_quote": "AARO received 757 UAP reports during this period; 485 of these reports featured UAP incidents that occurred during the reporting period",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4435,
+        "len": 100,
+        "exact": false,
+        "matched": "received 757 UAP reports during this period; 485 of these reports featured UAP incidents that occurr"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "All 292 resolved cases (118 during period plus 174 pending closure) were identified as prosaic objects.",
+      "source_quote": "AARO resolved 118 cases during the reporting period, all of which resolved to prosaic objects",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4777,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO has found no evidence of extraterrestrial beings, activity, or technology.",
+      "source_quote": "AARO has discovered no evidence of extraterrestrial beings, activity, or technology",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5380,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No resolved cases indicated advanced foreign adversarial capabilities or breakthrough aerospace technologies.",
+      "source_quote": "None of these resolved cases substantiated advanced foreign adversarial capabilities or breakthrough aerospace technologies",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 13611,
+        "len": 123,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "392 of the 757 reports came from the FAA, representing all FAA UAP reports since 2021.",
+      "source_quote": "Of the 757 reports 392 were from the FAA, which consisted of all of the FAA's UAP reports since 2021",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12540,
+        "len": 75,
+        "exact": false,
+        "matched": "Of the 757 reports 392 were from the FAA, which consisted of all of the FAA"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO did not receive any UAP reports collected through national GEOINT, SIGINT, or MASINT platforms during the reporting period.",
+      "source_quote": "During the reporting period, AARO did not receive any UAP reports collected through national GEOINT, SIGINT, or MASINT platforms",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 15172,
+        "len": 128,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A commercial aircrew reported a near miss with a cylindrical object over the Atlantic Ocean off the coast of New York.",
+      "source_quote": "a commercial aircrew reported a near miss with a \"cylindrical object\" while over the Atlantic Ocean off the coast of New York",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20570,
+        "len": 55,
+        "exact": false,
+        "matched": "while over the Atlantic Ocean off the coast of New York"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Three reports described pilots being trailed or shadowed by UAP, with no confirmation these are attributable to foreign adversaries.",
+      "source_quote": "three reports described pilots being trailed or shadowed by UAP. To date, AARO has no indication or confirmation that these activities are attributable to foreign adversaries",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5677,
+        "len": 174,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "18 UAS incidents were reported near U.S. nuclear infrastructure, all categorized as UAS by the reporting authorities.",
+      "source_quote": "AARO received a total of 18 reports...regarding incidents near U.S. nuclear infrastructure, weapons, and launch sites. The Administrator...categorized all of these incidents as UAS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 21016,
+        "len": 95,
+        "exact": false,
+        "matched": "garding incidents near U.S. nuclear infrastructure, weapons, and launch sites. The Administrato"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Security at D.C. Cook Nuclear Power Plant recovered a crashed UAS on August 3, 2023, which was given to local law enforcement.",
+      "source_quote": "On August 3, 2023, the D.C. Cook Nuclear Power Plant security recovered a crashed UAS that was given to Berrien County, Michigan, local law enforcement",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 21724,
+        "len": 151,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The BWXT Fuel Cycle Facility in Lynchburg, Virginia observed UAS flyovers for six consecutive nights in October 2023.",
+      "source_quote": "During October 10-15, 2023, USPER BWXT...Fuel Cycle Facility in Lynchburg, Virginia, observed UAS flyovers for six consecutive nights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 22043,
+        "len": 85,
+        "exact": false,
+        "matched": " Cycle Facility in Lynchburg, Virginia, observed UAS flyovers for six consecutive nig"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Oak Ridge National Laboratory analysed material claimed to be from a UAP and the results were posted on AARO's website.",
+      "source_quote": "AARO S&T, in coordination with ORNL, wrote a report from the materials analysis of an alleged UAP and posted the analysis on AARO's website",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 28619,
+        "len": 100,
+        "exact": false,
+        "matched": "AARO S&T, in coordination with ORNL, wrote a report from the materials analysis of an alleged UAP an"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "GREMLIN sensor prototype successfully collected data during a test in March 2024 and was planned for 90-day deployment at a national security site.",
+      "source_quote": "GREMLIN demonstrated functionality and successfully collected data during a test event in March of 2024. The next step for GREMLIN is a 90-day pattern of life collection at a site of national security",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 28093,
+        "len": 200,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO possesses no data indicating the capture or exploitation of any UAP.",
+      "source_quote": "AARO Possesses No Data to Indicate the Capture or Exploitation of UAP",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2332,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "444 cases were placed in Active Archive due to insufficient data for analysis.",
+      "source_quote": "The remaining 444 cases lacked sufficient data to facilitate analysis and were placed in the Active Archive",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 13286,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO released historical documents relating to KONA BLUE, a prospective but unapproved Special Access Program alleged to cover retrieval of non-human biologics.",
+      "source_quote": "AARO also posted historical documents relating to KONA BLUE, a Prospective and not approved Special Access Program that was brought to AARO's attention by interviewees who claimed that it was a sensitive Department of Homeland Security compartment to cover up the retrieval and exploitation of \"non-human biologics\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 30568,
+        "len": 100,
+        "exact": false,
+        "matched": "AARO also posted historical documents relating to KONA BLUE, a Prospective and not approved Special "
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 9,
+    "amber": 7,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:22:31.846Z",
+  "qa_completed_at": "2026-06-14T02:24:35.157Z",
+  "timing": {
+    "A": "70.8s",
+    "B": "52.5s",
+    "E": "31.1s"
+  },
+  "public_headline": "Pentagon UAP Office Reports 757 Sightings, Finds No Alien Evidence",
+  "public_tldr": "The Department of Defense's All-domain Anomaly Resolution Office (AARO) released its fiscal year 2024 annual report covering May 2023 to June 2024. Of 757 reports received, every resolved case turned out to be ordinary objects like balloons, birds, or drones, and AARO states it has found no evidence of extraterrestrial technology — though nearly 60% of cases remain unresolved due to insufficient data.",
+  "public_narrative": "This is the annual report from AARO, the Pentagon office established to investigate unidentified anomalous phenomena (UAP). It covers reports received between May 2023 and June 2024 and was cleared for public release on 7 November 2024, with a formal release date of 5 February 2025. AARO received 757 UAP reports during this period: 485 from incidents within the reporting window, and 272 older cases from 2021–2022 that had not previously been submitted. Of those 757 reports, 392 came from a bulk transfer of all Federal Aviation Administration UAP reports since 2021.\n\nOf the cases AARO was able to resolve — 118 during the reporting period, plus 174 pending formal closure — all were identified as ordinary objects: balloons, birds, unmanned aerial systems (drones), satellites including the Starlink constellation, and conventional aircraft. None indicated advanced foreign technology or aerospace breakthroughs. AARO states explicitly that it has discovered no evidence of extraterrestrial beings, activity, or technology.\n\nHowever, 444 cases — 59% of the total — were placed in an \"Active Archive\" because they lacked sufficient data for analysis, and 170 reports (22.4%) contained too little information to even describe the shape of what was observed. Only 21 cases were flagged as meriting deeper analysis by intelligence community and science partners. Notably, AARO received no data from the United States' most capable sensor systems — its national signals intelligence (SIGINT), geospatial intelligence (GEOINT), and measurement and signature intelligence (MASINT) platforms contributed zero reports.\n\nThe report highlights several specific incidents. Three reports described pilots being trailed or shadowed by UAP, though AARO has no confirmation these are linked to foreign adversaries. A commercial aircrew reported a near miss with a cylindrical object over the Atlantic Ocean off the coast of New York. Eighteen incidents involved drones near U.S. nuclear infrastructure, including a crashed drone recovered at the D.C. Cook Nuclear Power Plant in Michigan on 3 August 2023 and six consecutive nights of drone flyovers at a nuclear fuel facility in Lynchburg, Virginia, in October 2023. No adverse health effects were reported by any observers.\n\nOn the technology front, AARO introduced GREMLIN, a prototype sensor system developed by the Georgia Tech Research Institute, which successfully collected data during a test in March 2024. The office also launched its public website, aaro.mil, on 31 October 2023, and coordinated with Oak Ridge National Laboratory on a materials analysis of an alleged UAP sample, with results posted publicly.",
+  "public_caveats": [
+    "This is an official U.S. government report representing AARO's institutional position — it is not an independent scientific assessment, and a classified version may contain additional findings.",
+    "59% of cases (444 of 757) were shelved in an Active Archive due to insufficient data, meaning the majority of sightings could not be analysed at all, which limits the strength of any conclusions about what UAP are or are not.",
+    "The 392 FAA reports were a bulk historical transfer of all FAA UAP data since 2021, which inflates the period's numbers and may distort trend analysis.",
+    "None of the United States' most capable intelligence sensor systems (GEOINT, SIGINT, MASINT) contributed any data to this analysis, meaning the report draws on less sophisticated sources.",
+    "All 49 reports classified as occurring in the space domain came from pilots or ground observers estimating altitude, not from space-based sensors, making those altitude classifications unreliable."
+  ]
+}

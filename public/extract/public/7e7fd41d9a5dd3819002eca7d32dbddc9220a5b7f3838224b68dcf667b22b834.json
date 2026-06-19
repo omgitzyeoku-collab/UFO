@@ -1,0 +1,178 @@
+{
+  "sha256": "7e7fd41d9a5dd3819002eca7d32dbddc9220a5b7f3838224b68dcf667b22b834",
+  "title": "FAA UAP record 237UAP00499",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An FAA Washington Operations Center incident report documenting a UAP sighting by a commercial airline crew.",
+  "core_summary": "On 10 April 2023, the crew of Air Transat flight 611 (an Airbus A321 registered in Canada) observed red and white lights orbiting at flight level 370 (approximately 37,000 feet) while their aircraft was flying northeast at flight level 350, roughly 46 nautical miles southeast of the Hampton VORTAC navigational aid near East Hampton, New York. The sighting was reported through the New York Air Route Traffic Control Center to FAA Operations.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness reports included in this document.",
+    "The document is labelled as preliminary information only.",
+    "No follow-up investigation or resolution is included; the outcome of this report is unknown.",
+    "The coordinates place the sighting over the Atlantic Ocean south of Long Island, New York."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "Air Transat flight 611 (TSC611), Airbus A321, Canada-registered",
+      "source_quote": "CANADA REGISTERED AIR TRANSAT 611, A321",
+      "citation_offset": {
+        "offset": 268,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Punta Cana, Dominican Republic (MDPC) to Quebec City, Canada (CYQB)",
+      "source_quote": "PUNTA CANA, DOMINICAN REPUBLIC (MDPC) - QUEBEC CITY, CANADA (CYQB)",
+      "citation_offset": {
+        "offset": 309,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Red and white lights orbiting at FL370 (approx. 37,000 ft)",
+      "source_quote": "OBSERVED RED AND WHITE LIGHTS ORBITING AT FL370",
+      "citation_offset": {
+        "offset": 377,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_altitude",
+      "value": "FL350 (approx. 35,000 ft), northeast-bound",
+      "source_quote": "ACFT WAS NE BOUND AT FL350",
+      "citation_offset": {
+        "offset": 431,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "46 nautical miles southeast of Hampton VORTAC, near East Hampton, NY",
+      "source_quote": "46 SE HAMPTON VORTAC",
+      "citation_offset": {
+        "offset": 458,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "time_of_report",
+      "value": "0223 Eastern, 10 April 2023",
+      "source_quote": "0223E",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "New York ARTCC via FAA Washington Operations Center",
+      "source_quote": "NEW YORK ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 245,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "40.578833, -71.468572",
+      "source_quote": "Latitude: 40.578832990000002",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "East Hampton, NY",
+    "Punta Cana, Dominican Republic",
+    "Quebec City, Canada",
+    "Hampton VORTAC"
+  ],
+  "dated_events": [
+    "4/10/2023"
+  ],
+  "objects_described": [
+    "Red and white lights orbiting at FL370",
+    "Airbus A321 (Air Transat 611)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Air Transat flight 611 was operating from Punta Cana to Quebec City on 10 April 2023",
+      "source_quote": "AIR TRANSAT 611, A321, PUNTA CANA, DOMINICAN REPUBLIC (MDPC) - QUEBEC CITY, CANADA (CYQB)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 286,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed red and white lights orbiting approximately 2,000 feet above their altitude",
+      "source_quote": "OBSERVED RED AND WHITE LIGHTS ORBITING AT FL370 WHILE ACFT WAS NE BOUND AT FL350",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 377,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 46 nautical miles southeast of the Hampton VORTAC",
+      "source_quote": "46 SE HAMPTON VORTAC",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 458,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:43:05.488Z",
+  "qa_completed_at": "2026-06-13T23:43:37.159Z",
+  "timing": {
+    "A": "19.7s",
+    "B": "12.0s",
+    "E": "16.4s"
+  },
+  "public_headline": "Airline Crew Reports Orbiting Lights Over Atlantic Near New York",
+  "public_tldr": "This FAA incident report documents a sighting by the crew of Air Transat flight 611, who observed red and white lights orbiting at approximately 37,000 feet over the Atlantic Ocean southeast of Long Island, New York, on 10 April 2023. The report is preliminary and includes no follow-up investigation or explanation.",
+  "public_narrative": "On 10 April 2023, the crew of Air Transat flight 611 — an Airbus A321 flying from Punta Cana, Dominican Republic, to Quebec City, Canada — reported an unidentified aerial phenomenon to air traffic control. The sighting was logged by the FAA's Washington Operations Center as a UAP incident.\n\nThe crew reported seeing red and white lights orbiting at flight level 370 (approximately 37,000 feet), roughly 2,000 feet above their own cruising altitude of 35,000 feet. The aircraft was flying northeast at the time. The location was approximately 46 nautical miles southeast of the Hampton VORTAC navigational aid, placing it over the Atlantic Ocean south of Long Island, New York. The report was relayed through the New York Air Route Traffic Control Center (ARTCC).\n\nThe document is labelled as preliminary information only. It contains no radar data, no additional witness accounts, and no follow-up investigation or resolution. The FAA did not reach a conclusion about what the lights were.\n\nThere is little evidence of redaction in this document. The report is brief — essentially a single-page operational log entry recording what the crew observed and where they observed it. No personnel are named.",
+  "public_caveats": [
+    "This is a single-source pilot observation with no corroborating radar data or independent witness reports included in the document.",
+    "The document is marked as preliminary information only — not a completed investigation.",
+    "No follow-up, analysis, or resolution is included; the FAA did not state what the lights were.",
+    "The coordinates place the sighting over open ocean south of Long Island, which limits the likelihood of ground-based corroboration.",
+    "The report time of 0223 Eastern suggests this occurred in darkness, which may affect visual reliability."
+  ]
+}

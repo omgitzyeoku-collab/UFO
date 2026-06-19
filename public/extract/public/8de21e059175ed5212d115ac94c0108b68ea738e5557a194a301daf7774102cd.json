@@ -1,0 +1,202 @@
+{
+  "sha256": "8de21e059175ed5212d115ac94c0108b68ea738e5557a194a301daf7774102cd",
+  "title": "FAA UAP record 237UAP00500",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UAP sighting reported by a commercial aircraft crew.",
+  "core_summary": "On April 10, 2023, the crew of Sunwing Airlines flight 383, a Boeing 737-800 flying from Holguin, Cuba to Halifax, Canada, reported observing red and white lights orbiting at flight level 370 (approximately 37,000 feet). The aircraft was northeast-bound at flight level 350, located 46 nautical miles southeast of the Hampton VORTAC navigational aid near East Hampton, New York.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary notification only, not a full investigation report",
+    "The observation is single-source, based solely on the flight crew's visual report",
+    "No radar data, imagery, or corroborating sensor information is included",
+    "The second coordinate field is labelled 'Latitude' but the negative value indicates it is actually longitude",
+    "No follow-up investigation or resolution is documented in this record"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "Sunwing Airlines flight 383 (SWG383), Boeing 737-800, Canadian-registered",
+      "source_quote": "CANADA REGISTERED SUNWING 383, B738",
+      "citation_offset": {
+        "offset": 268,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Holguin, Cuba (MUHG) to Halifax, Canada (CYHZ)",
+      "source_quote": "HOLGUIN, CUBA (MUHG) - HALIFAX, CANADA (CYHZ)",
+      "citation_offset": {
+        "offset": 305,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Red and white lights orbiting at FL370 (approx. 37,000 ft)",
+      "source_quote": "OBSERVED RED AND WHITE LIGHTS ORBITING AT FL370",
+      "citation_offset": {
+        "offset": 352,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 350 (approx. 35,000 ft)",
+      "source_quote": "ACFT WAS NE BOUND AT FL350",
+      "citation_offset": {
+        "offset": 406,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "46 nautical miles southeast of Hampton VORTAC, near East Hampton, NY",
+      "source_quote": "46 SE HAMPTON VORTAC",
+      "citation_offset": {
+        "offset": 433,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date and time",
+      "value": "April 10, 2023 at 0225 Eastern",
+      "source_quote": "04-10-2023 Latitude: 40.578832990000002",
+      "citation_offset": {
+        "offset": 97,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "40.578833, -71.468572",
+      "source_quote": "Latitude: 40.578832990000002 Latitude: -71.468571740000002",
+      "citation_offset": {
+        "offset": 108,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility involved",
+      "value": "New York ARTCC (Air Route Traffic Control Center)",
+      "source_quote": "NEW YORK ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 245,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Time of observation",
+      "value": "0225 Eastern",
+      "source_quote": "0225E",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "East Hampton, NY",
+    "Hampton VORTAC",
+    "Holguin, Cuba",
+    "Halifax, Canada"
+  ],
+  "dated_events": [
+    "4/10/2023",
+    "04-10-2023"
+  ],
+  "objects_described": [
+    "Red and white lights orbiting at FL370 (UAP)",
+    "Boeing 737-800 (Sunwing 383)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Sunwing flight 383 was a Boeing 737-800 registered in Canada flying from Holguin, Cuba to Halifax, Canada",
+      "source_quote": "CANADA REGISTERED SUNWING 383, B738, HOLGUIN, CUBA (MUHG) - HALIFAX, CANADA (CYHZ)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 268,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed red and white lights orbiting at an altitude of FL370, 2,000 feet above their own aircraft",
+      "source_quote": "OBSERVED RED AND WHITE LIGHTS ORBITING AT FL370 WHILE ACFT WAS NE BOUND AT FL350",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 352,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 46 nautical miles southeast of Hampton VORTAC",
+      "source_quote": "46 SE HAMPTON VORTAC",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 433,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "New York ARTCC was the air traffic control facility that relayed the report",
+      "source_quote": "NEW YORK ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 245,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:43:53.524Z",
+  "qa_completed_at": "2026-06-13T23:44:30.206Z",
+  "timing": {
+    "A": "19.0s",
+    "B": "17.7s",
+    "E": "18.0s"
+  },
+  "public_headline": "Airline Crew Reports Red and White Lights Over Atlantic Near New York",
+  "public_tldr": "An FAA incident notification records that the crew of a Canadian Sunwing Airlines Boeing 737 reported seeing red and white lights orbiting at roughly 37,000 feet over the Atlantic southeast of East Hampton, New York on 10 April 2023. The document is a preliminary notification only — no investigation findings or explanation are included.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident notification — essentially a short internal alert that something unusual was reported. It is not an investigation report, and it contains no conclusions about what the lights were.\n\nOn 10 April 2023, at approximately 2:25 a.m. Eastern time, the crew of Sunwing Airlines flight 383 — a Boeing 737-800 flying from Holguin, Cuba to Halifax, Canada — reported observing red and white lights orbiting at flight level 370, or roughly 37,000 feet. Their own aircraft was cruising at flight level 350 (about 35,000 feet), meaning the lights appeared roughly 2,000 feet above them. The sighting occurred 46 nautical miles southeast of the Hampton VORTAC navigational aid, placing it over the Atlantic near East Hampton, New York.\n\nNew York ARTCC (Air Route Traffic Control Center), the air traffic control facility handling that airspace, relayed the report to the FAA. The coordinates recorded in the document — approximately 40.58°N, 71.47°W — are consistent with that location over the Atlantic south of Long Island.\n\nThe record ends there. No radar data, photographs, or corroborating sensor information appears in the document. No follow-up investigation or resolution is documented. The observation rests entirely on the flight crew's visual report.",
+  "public_caveats": [
+    "This is a preliminary FAA notification, not a completed investigation — it records that a report was made, nothing more.",
+    "The observation is single-source: only the flight crew reported it. No radar data, imagery, or independent corroboration is included.",
+    "No explanation or identification of the lights is offered anywhere in the document.",
+    "No follow-up investigation or resolution is documented in this record.",
+    "The document has low evidence of redaction, but its brevity means very little detail was captured in the first place."
+  ]
+}

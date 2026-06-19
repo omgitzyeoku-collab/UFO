@@ -1,0 +1,228 @@
+{
+  "sha256": "6e733180ccab3d616d1c853702dab88cdb2c3c6529a8edfdebd15cbd228bdf5c",
+  "title": "FAA UAP record 237UAP00600",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification report documenting a pilot's UAP sighting.",
+  "core_summary": "On 21 January 2024, the crew of Xcel Jet flight 411, a Learjet LJ40 flying from Van Nuys to Tucson, reported an unidentified aerial phenomenon while southeast-bound at flight level 410 (approximately 41,000 feet), about 10 nautical miles northwest of Palm Springs, California. The phenomenon was described as a bright light, stationary and turning, positioned significantly higher than the aircraft at the 12 o'clock position. No evasive action was taken and no law enforcement was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The document is a preliminary operations center notification, not a full investigation report.",
+    "The coordinates place the sighting near Palm Springs, California, consistent with the textual description."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of report",
+      "value": "1/21/2024 5:18:00 AM PST",
+      "source_quote": "Date: 1/21/2024 5:18:00 AM (-08 PST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft",
+      "value": "Xcel Jet 411, Learjet LJ40",
+      "source_quote": "XCEL JET 411, LEARJET LJ40",
+      "citation_offset": {
+        "offset": 256,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Van Nuys (VNY) to Tucson (TUS)",
+      "source_quote": "VNY - TUS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location of sighting",
+      "value": "10 nautical miles northwest of Palm Springs, CA",
+      "source_quote": "10 NW PSP",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 410 (approximately 41,000 feet)",
+      "source_quote": "SE BOUND AT FL410",
+      "citation_offset": {
+        "offset": 436,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Bright light, stationary and turning, significantly higher than aircraft at 12 o'clock position",
+      "source_quote": "BRIGHT LIGHT STATIONARY AND TURNING SIGNIFICANTLY HIGHER THAN ACFT 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 343,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Los Angeles ARTCC",
+      "source_quote": "LOS ANGELES ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 230,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 465,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None",
+      "source_quote": "NO LEO NOTIFICATION",
+      "citation_offset": {
+        "offset": 490,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Latitude",
+      "value": "33.93219972",
+      "source_quote": "Latitude: 33.93219972",
+      "citation_offset": {
+        "offset": 108,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Longitude",
+      "value": "-116.629775",
+      "source_quote": "-116.629775",
+      "citation_offset": {
+        "offset": 140,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Palm Springs, CA",
+    "Van Nuys (VNY)",
+    "Tucson (TUS)"
+  ],
+  "dated_events": [
+    "1/21/2024",
+    "01-21-2024"
+  ],
+  "objects_described": [
+    "Learjet LJ40 (reporting aircraft)",
+    "Bright stationary and turning light (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Xcel Jet flight 411 reported a UAP sighting to Los Angeles ARTCC on 21 January 2024.",
+      "source_quote": "LOS ANGELES ARTCC ADVISED XCEL JET 411, LEARJET LJ40, VNY - TUS, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 230,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was described as a bright light that was stationary and turning at a position significantly higher than the aircraft.",
+      "source_quote": "BRIGHT LIGHT STATIONARY AND TURNING SIGNIFICANTLY HIGHER THAN ACFT 12 O'CLOCK POSITION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 343,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was at flight level 410, approximately 41,000 feet, when the sighting occurred.",
+      "source_quote": "SE BOUND AT FL410",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 436,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 465,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement was notified of the incident.",
+      "source_quote": "NO LEO NOTIFICATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 490,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:10:52.147Z",
+  "qa_completed_at": "2026-06-14T01:11:26.100Z",
+  "timing": {
+    "A": "18.9s",
+    "B": "15.0s",
+    "E": "17.9s"
+  },
+  "public_headline": "Learjet Crew Reports Bright Stationary Light Above 41,000 Feet Near Palm Springs",
+  "public_tldr": "An FAA operations center notification documents a January 2024 UAP sighting by the crew of a Learjet flying from Van Nuys to Tucson. The crew described a bright light, stationary and turning, positioned well above their cruising altitude of 41,000 feet near Palm Springs, California. No evasive action was taken and no further investigation is documented here.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident notification — essentially a standardised intake form the FAA uses to log reports from pilots and air traffic control. It is not an investigation report or a final conclusion; it records what was reported and by whom.\n\nOn 21 January 2024 at approximately 5:18 AM Pacific time, the crew of Xcel Jet flight 411, a Learjet LJ40 flying southeast-bound from Van Nuys (VNY) to Tucson (TUS), reported an unidentified aerial phenomenon to Los Angeles Air Route Traffic Control Center (ARTCC). The aircraft was at flight level 410 — roughly 41,000 feet — about 10 nautical miles northwest of Palm Springs, California.\n\nThe crew described what they saw as a bright light at their 12 o'clock position (directly ahead), stationary and turning, positioned significantly higher than the aircraft. Given the Learjet was already at 41,000 feet, the object was well above typical commercial aviation altitudes.\n\nNo evasive action was taken by the crew, and no law enforcement was notified. The document contains coordinates (33.93°N, 116.63°W) consistent with the area northwest of Palm Springs. Beyond logging the report, the document does not record any follow-up investigation, radar corroboration, or agency conclusion about what the light was.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data, photos, or additional witness accounts are included in this document.",
+    "The document is a preliminary operations center notification — an intake log — not a full investigation or conclusion.",
+    "The FAA recorded what was reported but did not, in this document, offer any explanation or identification of the phenomenon.",
+    "There is minimal redaction in this record, but the absence of follow-up material means we cannot know whether further investigation occurred elsewhere.",
+    "The reported coordinates are consistent with the textual description of a location northwest of Palm Springs, which lends internal consistency but does not independently verify the sighting itself."
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "sha256": "d3bca18834077eeac737f6c3cce898edb5d674eb629aff6ef0e64ab8b1a8b904",
+  "title": "FAA UAP record 237UAP00601",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UAP sighting reported by a commercial airline crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness statements included.",
+    "The document is a preliminary FAA operations center notification, not a completed investigation.",
+    "Coordinates place the sighting over southern Wyoming, consistent with the Denver ARTCC jurisdiction and CKW reference."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "reporting_flight",
+      "value": "Alaska Airlines flight 440 (ASA440)",
+      "source_quote": "ASA440 UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 73,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Boeing 737-800 (B738)",
+      "source_quote": "ALASKA 440, B738",
+      "citation_offset": {
+        "offset": 243,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Miami (MIA) to Portland (PDX)",
+      "source_quote": "MIA - PDX",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "date_time",
+      "value": "24 January 2024, 2347E (23:47 Eastern)",
+      "source_quote": "UFO-UAP ACTIVITY/2347E",
+      "citation_offset": {
+        "offset": 199,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight level 380 (approximately 38,000 feet)",
+      "source_quote": "W BOUND AT FL380",
+      "citation_offset": {
+        "offset": 368,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "Unidentified aerial phenomenon with white lights at 12 o'clock position",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH WHITE LIGHTS FROM THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 272,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "41.7557°N, 107.5820°W",
+      "source_quote": "Latitude: 41.755709439999997",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 395,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None provided",
+      "source_quote": "NO LEOS NOTIFICATION PROVIDED",
+      "citation_offset": {
+        "offset": 420,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Denver ARTCC via FAA Washington Operations Center",
+      "source_quote": "DENVER ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 222,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "woc_reference",
+      "value": "WOC 7-3333 TB/JF",
+      "source_quote": "WOC 7-3333 TB/JF",
+      "citation_offset": {
+        "offset": 451,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Miami",
+    "Portland",
+    "Denver ARTCC"
+  ],
+  "dated_events": [
+    "01-24-2024",
+    "1/24/2024 9:10:00 PM"
+  ],
+  "objects_described": [
+    "Boeing 737-800 (B738)",
+    "Unidentified aerial phenomenon with white lights"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Alaska Airlines flight 440 was a Boeing 737-800 operating the Miami to Portland route on 24 January 2024.",
+      "source_quote": "ALASKA 440, B738, MIA - PDX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 243,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed a UAP with white lights directly ahead of the aircraft at 38,000 feet.",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH WHITE LIGHTS FROM THE 12 O'CLOCK POSITION WHILE W BOUND AT FL380",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 272,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred 26 nautical miles east of the Colby VOR in Denver ARTCC airspace.",
+      "source_quote": "DENVER ARTCC ADVISED... 26 E CKW",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 395,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement agencies were notified.",
+      "source_quote": "NO LEOS NOTIFICATION PROVIDED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 420,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:11:44.027Z",
+  "qa_completed_at": "2026-06-14T01:12:21.662Z",
+  "timing": {
+    "A": "18.8s",
+    "B": "18.8s",
+    "E": "16.9s"
+  },
+  "public_headline": "Alaska Airlines crew reported white lights ahead at 38,000 feet over Wyoming",
+  "public_tldr": "This FAA Washington Operations Center notification documents a UAP sighting by the crew of Alaska Airlines flight 440 on 24 January 2024. Flying a Boeing 737-800 from Miami to Portland at 38,000 feet, the crew reported an unidentified aerial phenomenon with white lights directly ahead of the aircraft over southern Wyoming. No evasive action was taken and no law enforcement was notified.",
+  "public_narrative": "This document is an incident notification from the FAA Washington Operations Center — essentially a short internal alert that a UAP sighting was reported through official channels. It is not a completed investigation or a final conclusion about what the crew saw.\n\nOn 24 January 2024 at 23:47 Eastern time, the crew of Alaska Airlines flight 440 — a Boeing 737-800 flying from Miami to Portland — reported an unidentified aerial phenomenon with white lights at their 12 o'clock position (directly ahead). The aircraft was westbound at flight level 380, approximately 38,000 feet. The coordinates place the sighting over southern Wyoming, within Denver Air Route Traffic Control Center (ARTCC) airspace.\n\nThe crew took no evasive action in response to the sighting. No law enforcement agencies were notified. The notification was logged under FAA reference WOC 7-3333 TB/JF.\n\nThe document contains no analysis of what the object might have been, no radar data, and no follow-up investigation findings. It is a preliminary operations center record — a formal note that the report was received and logged, nothing more.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data or additional witness statements are included in the document.",
+    "The document is a preliminary FAA operations center notification, not a completed investigation or final determination.",
+    "There is minimal redaction, but equally minimal detail — the record captures the report itself without any analysis or explanation.",
+    "The FAA logged the event but the document does not indicate whether any follow-up investigation was conducted.",
+    "The route detail (Miami to Portland) carries slightly lower confidence than other facts, as the source formatting is less explicit."
+  ]
+}

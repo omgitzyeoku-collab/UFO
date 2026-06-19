@@ -1,0 +1,228 @@
+{
+  "sha256": "5adbdddd9ce7ad7add745b88262df4777152b194e86f53f07a0b84e0cf2d3699",
+  "title": "FAA UAP record 237UAP00611",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting by two aircraft near Lamar, Colorado.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Preliminary report only — labelled PRELIM INFO, so details may have been revised in subsequent reporting",
+    "Pilot visual observations of altitude (FL510+) are estimates and difficult to verify at night",
+    "No information provided about weather conditions or astronomical events that might explain the lights",
+    "Single-source document from FAA Operations Center; no follow-up investigation results included"
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "February 18, 2024 at 0320 MST",
+      "source_quote": "Date: 2/18/2024 3:20:00 AM (-07 MST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft 1",
+      "value": "N151SD, Gulfstream GLF4, routing Las Vegas to Teterboro",
+      "source_quote": "N151SD, GULFSTREAM GLF4, LAS - TEB",
+      "citation_offset": {
+        "offset": 252,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting aircraft 2",
+      "value": "American Airlines flight 2514, Airbus A321neo, routing San Francisco to Charlotte",
+      "source_quote": "AMERICAN 2514 , A21N, SFO-CLT, REPORTED SEEING THE SAME LIGHTS WHILE AT FL350",
+      "citation_offset": {
+        "offset": 476,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Three bright lights moving very fast with dramatic vertical and horizontal movements",
+      "source_quote": "REPORTED SEEING 3 BRIGHT LIGHTS MOVING VERY FAST WITH DRAMATIC MOVEMENTS BOTH VERTICALLY AND HORIZONTALLY",
+      "citation_offset": {
+        "offset": 288,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude",
+      "value": "FL510 or higher (approximately 51,000+ feet)",
+      "source_quote": "AT FL510 OR HIGHER",
+      "citation_offset": {
+        "offset": 394,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "TCAS detection",
+      "value": "Not observed on TCAS",
+      "source_quote": "UAP NOT OBSERVED ON TCAS",
+      "citation_offset": {
+        "offset": 555,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Observed on ATC facility radar",
+      "source_quote": "UAP WAS OBSERVED ON ATC FACILITY RADAR",
+      "citation_offset": {
+        "offset": 590,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Duration of observation",
+      "value": "20 minutes",
+      "source_quote": "N151SD REPORTED SEEING THE LIGHTS FOR 20 MINUTES",
+      "citation_offset": {
+        "offset": 630,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility involved",
+      "value": "Denver ARTCC",
+      "source_quote": "DENVER ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 231,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "37.927239520000001, -101.9780492",
+      "source_quote": "Latitude: 37.927239520000001",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Lamar, Colorado",
+    "Denver"
+  ],
+  "dated_events": [
+    "02-18-2024",
+    "2/18/2024 3:20:00 AM"
+  ],
+  "objects_described": [
+    "Three bright lights (UAP) at FL510+",
+    "Gulfstream GLF4 (N151SD)",
+    "Airbus A321neo (American 2514)",
+    "TCAS",
+    "ATC facility radar"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Two separate aircraft independently observed the same UAP lights",
+      "source_quote": "AMERICAN 2514 , A21N, SFO-CLT, REPORTED SEEING THE SAME LIGHTS WHILE AT FL350",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 476,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was detected on ATC radar but not on aircraft TCAS",
+      "source_quote": "UAP NOT OBSERVED ON TCAS. HOWEVER, UAP WAS OBSERVED ON ATC FACILITY RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 555,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights were at or above FL510, which is above the service ceiling of most commercial and military aircraft",
+      "source_quote": "AT FL510 OR HIGHER",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 394,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting lasted 20 minutes",
+      "source_quote": "N151SD REPORTED SEEING THE LIGHTS FOR 20 MINUTES",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 630,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects displayed dramatic movements in both vertical and horizontal axes",
+      "source_quote": "DRAMATIC MOVEMENTS BOTH VERTICALLY AND HORIZONTALLY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 342,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:20:54.087Z",
+  "qa_completed_at": "2026-06-14T01:21:33.853Z",
+  "timing": {
+    "A": "20.6s",
+    "B": "19.2s",
+    "E": "20.5s"
+  },
+  "public_headline": "Two Aircraft and Radar Tracked Fast-Moving Lights Over Colorado",
+  "public_tldr": "An FAA Washington Operations Center report documents a February 2024 incident near Lamar, Colorado, in which two separate aircraft — a private Gulfstream and an American Airlines flight — independently observed three bright, fast-moving lights at approximately 51,000 feet or higher. The objects were detected on air traffic control radar but not on either aircraft's collision-avoidance system.",
+  "public_narrative": "On 18 February 2024 at 3:20 AM Mountain Standard Time, the crew of a Gulfstream GLF4 (registration N151SD), flying from Las Vegas to Teterboro, New Jersey, reported seeing three bright lights near Lamar, Colorado. The lights were moving very fast and making dramatic vertical and horizontal manoeuvres at an altitude the crew estimated at FL510 or higher — roughly 51,000 feet, well above the ceiling of most commercial and military aircraft. The crew observed the lights for approximately 20 minutes.\n\nDenver ARTCC (Air Route Traffic Control Center) was advised. A second aircraft, American Airlines flight 2514 — an Airbus A321neo en route from San Francisco to Charlotte — independently reported seeing the same lights while cruising at FL350 (about 35,000 feet). The two sightings corroborating each other is notable because multi-witness reports from separate aircraft reduce the likelihood of a single crew's misperception.\n\nThe objects did not appear on either aircraft's TCAS (Traffic Collision Avoidance System), which detects transponder-equipped aircraft nearby. However, the objects were observed on the ATC facility's ground-based radar. This distinction matters: TCAS relies on transponder signals, while ground radar can detect objects that lack transponders.\n\nThe FAA report is labelled as preliminary information. No follow-up investigation results, weather data, or conclusions about the identity of the objects are included in this document. The incident is catalogued under FAA reference 237UAP00611.",
+  "public_caveats": [
+    "This is a preliminary FAA Operations Center report, not a completed investigation. Details may have been revised in subsequent reporting that is not included here.",
+    "Pilot estimates of altitude — especially at night — are inherently imprecise. The FL510+ figure is an estimate, not an instrument reading from the UAP itself.",
+    "No weather conditions or astronomical data are provided, so common explanations (satellites, atmospheric phenomena) can be neither confirmed nor ruled out from this document alone.",
+    "The report is a single-source FAA document. No DoD, NASA, or independent investigation results accompany it.",
+    "The document shows low evidence of redaction, but its brevity means many details — such as radar track data or follow-up interviews — are simply absent rather than redacted."
+  ]
+}

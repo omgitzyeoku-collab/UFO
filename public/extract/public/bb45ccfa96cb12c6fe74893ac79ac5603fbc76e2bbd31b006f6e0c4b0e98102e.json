@@ -1,0 +1,226 @@
+{
+  "sha256": "bb45ccfa96cb12c6fe74893ac79ac5603fbc76e2bbd31b006f6e0c4b0e98102e",
+  "title": "FAA UAP record 237UAP00572",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification reporting a UFO/UAP sighting by a commercial aircraft crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot observation with no corroborating radar data or additional witness accounts included in this document.",
+    "The document is a preliminary operations center notification, not a full investigation report.",
+    "The coordinates place the sighting over the Pacific Ocean off the Southern California coast, consistent with the stated 110 SW LAX position.",
+    "The second latitude field appears to actually be a longitude value (negative indicating west)."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "Omni Air flight 1169 (OAE1169), Boeing 767-200",
+      "source_quote": "OMNI AIR 1169, B762",
+      "citation_offset": {
+        "offset": 265,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Honolulu (HNL) to Fort Worth (AFW)",
+      "source_quote": "HNL - AFW",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP description",
+      "value": "Bright white unidentified aerial phenomenon",
+      "source_quote": "REPORTED A BRIGHT WHITE UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 297,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation direction",
+      "value": "Right side of aircraft",
+      "source_quote": "FROM THE RIGHT SIDE",
+      "citation_offset": {
+        "offset": 352,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 390 (approximately 39,000 feet)",
+      "source_quote": "AT FL390",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "110 nautical miles southwest of Los Angeles",
+      "source_quote": "110 SW LAX",
+      "citation_offset": {
+        "offset": 395,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft heading",
+      "value": "Eastbound",
+      "source_quote": "WHILE E BOUND",
+      "citation_offset": {
+        "offset": 372,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 407,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 432,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting facility",
+      "value": "Los Angeles ARTCC (Air Route Traffic Control Center)",
+      "source_quote": "LOS ANGELES ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 239,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "32.4657°N, 119.1286°W",
+      "source_quote": "Latitude: 32.465710690000002... -119.1285793",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Los Angeles, CA",
+    "Los Angeles ARTCC",
+    "LAX",
+    "Honolulu (HNL)",
+    "Fort Worth (AFW)"
+  ],
+  "dated_events": [
+    "11/18/2023",
+    "11-18-2023"
+  ],
+  "objects_described": [
+    "Bright white unidentified aerial phenomenon"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Omni Air flight 1169 was operating a Boeing 767-200 on a route from Honolulu to Fort Worth on November 18, 2023.",
+      "source_quote": "OMNI AIR 1169, B762, HNL - AFW",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 265,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew observed a bright white UAP from the right side of the aircraft while eastbound at 39,000 feet, 110 nautical miles southwest of LAX.",
+      "source_quote": "REPORTED A BRIGHT WHITE UNIDENTIFIED AERIAL PHENOMENON FROM THE RIGHT SIDE WHILE E BOUND AT FL390 110 SW LAX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 297,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft crew.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 407,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was reported in connection with the sighting.",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 432,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was relayed through Los Angeles Air Route Traffic Control Center.",
+      "source_quote": "LOS ANGELES ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 239,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:47:36.648Z",
+  "qa_completed_at": "2026-06-14T00:48:21.165Z",
+  "timing": {
+    "A": "20.4s",
+    "B": "24.1s",
+    "E": "19.3s"
+  },
+  "public_headline": "Airline Crew Reports Bright White UAP Over Pacific Ocean Near LA",
+  "public_tldr": "This FAA incident notification records a sighting by the crew of Omni Air flight 1169, a Boeing 767-200 flying from Honolulu to Fort Worth on 18 November 2023. The crew reported a bright white unidentified aerial phenomenon to their right while cruising at roughly 39,000 feet, about 110 nautical miles southwest of Los Angeles. No evasive action was taken.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident notification — essentially a short, standardised form used to log unusual events reported by aircraft. It is not a full investigation report and contains no analysis or conclusions about what the object was.\n\nOn 18 November 2023, the crew of Omni Air flight 1169, a Boeing 767-200 en route from Honolulu to Fort Worth, reported seeing a bright white unidentified aerial phenomenon off the right side of their aircraft. They were flying eastbound at flight level 390 (approximately 39,000 feet), about 110 nautical miles southwest of Los Angeles International Airport — placing them over the Pacific Ocean off the Southern California coast. The sighting was relayed through Los Angeles Air Route Traffic Control Center (ARTCC), the facility responsible for managing high-altitude air traffic in that region.\n\nThe crew took no evasive action in response to the sighting, and no law enforcement notification was reported. The coordinates recorded in the document (approximately 32.47°N, 119.13°W) are consistent with the stated position southwest of LAX.\n\nThe FAA notification contains no follow-up investigation, no radar data, and no additional witness accounts. It is a preliminary record — a logged report of what the crew said they saw, with no determination of what the object was.",
+  "public_caveats": [
+    "This is a preliminary operations center notification, not a completed investigation. The FAA logged the report but drew no conclusions about the object's identity.",
+    "The sighting rests on a single crew observation. No corroborating radar data or independent witness accounts are included in the document.",
+    "There is minimal redaction in this record, but very little detail was captured in the first place — the format is a brief standardised form, not a narrative report.",
+    "No evasive action was taken and no law enforcement was notified, which may indicate the crew did not perceive an immediate safety threat.",
+    "The route and flight details (Omni Air 1169, Boeing 767-200, Honolulu to Fort Worth) have been partially verified, but independent confirmation of the specific flight operating on that date is not included in the document itself."
+  ]
+}

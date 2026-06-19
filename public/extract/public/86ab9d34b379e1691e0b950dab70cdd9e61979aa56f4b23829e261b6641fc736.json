@@ -1,0 +1,256 @@
+{
+  "sha256": "86ab9d34b379e1691e0b950dab70cdd9e61979aa56f4b23829e261b6641fc736",
+  "title": "FAA UAP record 237UAP00479",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": "On February 18, 2023, the pilot of a Gulfstream GLF4 (registration N926TT) flying from Van Nuys to Vieux Fort, St Lucia, reported an unidentified aerial phenomenon with white lights at their 12 o'clock position while southeastbound at flight level 410, approximately 30 nautical miles south of the AMNDA fix over the Atlantic Ocean. No evasive action was taken and no law enforcement notification was reported. The report was logged by the FAA Washington Operations Center.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or other witness accounts included.",
+    "The longitude field is mislabelled as 'Latitude' in the original document, suggesting a formatting error.",
+    "No details on the size, shape, movement, or duration of the observed phenomenon beyond 'white lights'.",
+    "Preliminary information only — no follow-up investigation or resolution is included in this document."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Aircraft registration",
+      "value": "N926TT",
+      "source_quote": "N926TT, GULFSTREAM GLF4",
+      "citation_offset": {
+        "offset": 256,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Gulfstream GLF4",
+      "source_quote": "N926TT, GULFSTREAM GLF4",
+      "citation_offset": {
+        "offset": 256,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Van Nuys (VNY) to Vieux Fort, St Lucia (TLPL)",
+      "source_quote": "VNY - VIEUX FORT, ST LUCIA (TLPL)",
+      "citation_offset": {
+        "offset": 281,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "White lights at 12 o'clock position",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH WHITE LIGHTS FROM THEIR 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 316,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "FL410 (41,000 feet)",
+      "source_quote": "SE BOUND AT FL410",
+      "citation_offset": {
+        "offset": 414,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "General location",
+      "value": "Atlantic Ocean",
+      "source_quote": "ATLANTIC OCEAN/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 191,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Jacksonville ARTCC",
+      "source_quote": "JACKSONVILLE ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 229,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 448,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 473,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report date/time",
+      "value": "2/18/2023 4:38:00 AM UTC",
+      "source_quote": "Date: 2/18/2023 4:38:00 AM (-00 Local)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Latitude",
+      "value": "38.35",
+      "source_quote": "Latitude: 38.350000000000001",
+      "citation_offset": {
+        "offset": 110,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Longitude",
+      "value": "-67",
+      "source_quote": "Latitude: -67",
+      "citation_offset": {
+        "offset": 139,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Atlantic Ocean",
+    "Van Nuys",
+    "Vieux Fort, St Lucia",
+    "AMNDA fix"
+  ],
+  "dated_events": [
+    "2/18/2023",
+    "02-18-2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon with white lights",
+    "Gulfstream GLF4 (N926TT)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Gulfstream GLF4 registered N926TT was flying from Van Nuys to Vieux Fort, St Lucia on February 18, 2023.",
+      "source_quote": "N926TT, GULFSTREAM GLF4, VNY - VIEUX FORT, ST LUCIA (TLPL)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 256,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot reported an unidentified aerial phenomenon with white lights directly ahead at 41,000 feet.",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WITH WHITE LIGHTS FROM THEIR 12 O'CLOCK POSITION WHILE SE BOUND AT FL410",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 316,
+        "len": 115,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 30 nautical miles south of the AMNDA fix over the Atlantic Ocean.",
+      "source_quote": "ATLANTIC OCEAN/UFO-UAP ACTIVITY... 30 S AMNDA FIX",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "No evasive action was taken by the pilot.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 448,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was reported.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 473,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Jacksonville ARTCC was the controlling air traffic facility.",
+      "source_quote": "JACKSONVILLE ARTCC ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 229,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:25:03.977Z",
+  "qa_completed_at": "2026-06-13T23:25:42.400Z",
+  "timing": {
+    "A": "20.7s",
+    "B": "17.7s",
+    "E": "19.4s"
+  },
+  "public_headline": "Gulfstream Pilot Reports White Lights Over Atlantic at 41,000 Feet",
+  "public_tldr": "This is an FAA incident report from February 2023 documenting a private jet pilot's sighting of unidentified white lights directly ahead while flying at 41,000 feet over the Atlantic Ocean. The report contains no follow-up investigation, no radar data, and no explanation of what was observed.",
+  "public_narrative": "On February 18, 2023, the pilot of a Gulfstream GLF4 business jet (registration N926TT) reported seeing an unidentified aerial phenomenon while flying from Van Nuys, California, to Vieux Fort, St Lucia. The aircraft was heading southeast at flight level 410 — roughly 41,000 feet — over the Atlantic Ocean, approximately 30 nautical miles south of a navigational point called the AMNDA fix.\n\nThe pilot described white lights at their 12 o'clock position, meaning directly ahead of the aircraft. Jacksonville Air Route Traffic Control Center (ARTCC) was the controlling air traffic facility at the time. No evasive action was taken, and no law enforcement was notified.\n\nThe sighting was logged by the FAA's Washington Operations Center as part of its standard incident reporting process. The document is a short, structured form — not a detailed investigation. It records the basic facts of the report and nothing more.\n\nNotably, the document contains no radar data, no corroborating witness accounts, no description of the object's size, shape, or movement beyond \"white lights,\" and no follow-up investigation or resolution. A formatting error in the original document mislabels the longitude field as \"Latitude.\"",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or independent witness accounts included in the document.",
+    "The report contains no details on the size, shape, movement, speed, or duration of the observed phenomenon — only that it had 'white lights.'",
+    "No follow-up investigation or resolution is included; this is preliminary information only.",
+    "The original document contains a formatting error where the longitude coordinate is mislabelled as 'Latitude,' suggesting limited quality control on the form.",
+    "The approximate location (30 nautical miles south of the AMNDA fix) carries slightly lower confidence than other facts in the report."
+  ]
+}

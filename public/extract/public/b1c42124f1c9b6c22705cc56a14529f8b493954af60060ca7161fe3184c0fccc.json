@@ -1,0 +1,75 @@
+{
+  "sha256": "b1c42124f1c9b6c22705cc56a14529f8b493954af60060ca7161fe3184c0fccc",
+  "title": "NASA-UAP-D017, Preliminary Gemini 4 Crew Debriefing, Part II, 1965",
+  "agency": "NASA",
+  "type": "IMG",
+  "incident_date": "6/9/65",
+  "incident_location": "North Atlantic Ocean",
+  "what_is_it": "A scanned image of a preliminary crew debriefing transcript from the Gemini 4 spaceflight, specifically the 'Visual Sightings' section.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No extracted text available — the document is a scanned image with poor or no OCR, so all facts are derived from metadata only.",
+    "The actual content of the astronauts' visual sighting descriptions is not accessible from this extraction.",
+    "Without the body text, it is unknown what specific objects or phenomena the astronauts reported observing.",
+    "Single-source document: a crew debriefing transcript reflects the crew's subjective observations at the time."
+  ],
+  "fabrication_score": 3,
+  "key_facts": [
+    {
+      "field": "Mission",
+      "value": "Gemini 4",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Debriefing date",
+      "value": "June 9, 1965",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Originating agency",
+      "value": "NASA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident location",
+      "value": "North Atlantic Ocean",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The Gemini 4 crew debriefing was conducted aboard the USS Wasp on June 9, 1965",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:30:48.991Z",
+  "qa_completed_at": "2026-06-14T03:31:17.690Z",
+  "timing": {
+    "A": "14.3s",
+    "B": "14.4s"
+  }
+}

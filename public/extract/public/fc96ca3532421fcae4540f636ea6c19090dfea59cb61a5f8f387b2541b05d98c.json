@@ -1,0 +1,282 @@
+{
+  "sha256": "fc96ca3532421fcae4540f636ea6c19090dfea59cb61a5f8f387b2541b05d98c",
+  "title": "OSD UAP record 015_2023_UAP_Mission_Backgrounder_Paper",
+  "agency": "OSD",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An unclassified backgrounder document from the All-domain Anomaly Resolution Office (AARO) explaining its mission, organization, and position on UAP.",
+  "core_summary": "This July 2023 AARO backgrounder defines UAP as anomalous detections across air, sea, space, and transmedium domains that are not yet attributable to known actors and may exceed known performance envelopes. It describes AARO's four functional groups (operations, analysis, science & technology, and strategic communications) and states that interviews with over two dozen individuals have produced no verifiable information substantiating claims of programs to reverse-engineer extraterrestrial materials.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a public affairs backgrounder, not an investigative report — it presents AARO's institutional position rather than raw case data.",
+    "The claim of no verifiable evidence for reverse-engineering programs is AARO's own assessment as of mid-2023; the historical review was still ongoing at publication.",
+    "The document mentions 'recovered UAP objects and material' without elaborating on what has been recovered or its nature.",
+    "No specific UAP incidents, case numbers, or observational data are included in this document."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "AARO mission backgrounder paper",
+      "source_quote": "ALL‐DOMAIN ANOMALY RESOLUTION OFFICE BACKGROUNDER",
+      "citation_offset": {
+        "offset": 126,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification",
+      "value": "Unclassified, cleared for open publication",
+      "source_quote": "CLEARED For Open Publication Jul 17, 2023",
+      "citation_offset": {
+        "offset": 14,
+        "len": 31,
+        "exact": false,
+        "matched": "r Open Publication Jul 17, 2023"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP_definition",
+      "value": "Sources of anomalous detections in one or more domain not yet attributable to known actors, demonstrating behaviors not readily understood by sensors or observers",
+      "source_quote": "UAP are sources of anomalous detections in one or more domain...that are not yet attributable to known actors",
+      "citation_offset": {
+        "offset": 1109,
+        "len": 55,
+        "exact": false,
+        "matched": "re sources of anomalous detections in one or more domai"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP_domains",
+      "value": "Airborne, seaborne, spaceborne, and/or transmedium",
+      "source_quote": "airborne, seaborne, spaceborne, and/or transmedium",
+      "citation_offset": {
+        "offset": 1173,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AARO_organization",
+      "value": "Four functional groups: Operations, Analytic, Science & Technology, Strategic Communications",
+      "source_quote": "task organized around four key functions...operations, analyses, science and technology, and strategic communications",
+      "citation_offset": {
+        "offset": 3610,
+        "len": 70,
+        "exact": false,
+        "matched": "erations, analyses, science and technology, and strategic communicatio"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "reverse_engineering_claims_status",
+      "value": "No verifiable information found to substantiate claims of extraterrestrial reverse-engineering programs",
+      "source_quote": "AARO's review of testimony from over two dozen individuals has not led to any verifiable information to substantiate claims that any programs to reverse‐engineer extraterrestrial materials have existed",
+      "citation_offset": {
+        "offset": 6697,
+        "len": 100,
+        "exact": false,
+        "matched": "s review of testimony from over two dozen individuals has not led to any verifiable information to s"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "historical_review_deadline",
+      "value": "Due to Congress by June 2024",
+      "source_quote": "AARO's historical review of records and testimonies is ongoing and due to Congress by June 2024",
+      "citation_offset": {
+        "offset": 6931,
+        "len": 90,
+        "exact": false,
+        "matched": "s historical review of records and testimonies is ongoing and due to Congress by June 2024"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "witnesses_interviewed",
+      "value": "Over two dozen individuals",
+      "source_quote": "AARO's review of testimony from over two dozen individuals",
+      "citation_offset": {
+        "offset": 6697,
+        "len": 53,
+        "exact": false,
+        "matched": "s review of testimony from over two dozen individuals"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "national_security_significance",
+      "value": "Operational hazards, technological/intelligence surprise, and adversaries' strategic miscalculations",
+      "source_quote": "range from operational hazards and threats to technological and intelligence surprise to adversaries' strategic miscalculations",
+      "citation_offset": {
+        "offset": 2951,
+        "len": 100,
+        "exact": false,
+        "matched": "range from operational hazards and threats to technological and intelligence surprise to adversaries"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "key_partner",
+      "value": "National Air and Space Intelligence Center (NASIC)",
+      "source_quote": "AARO also works directly with service‐managed centers (e.g., the National Air and Space Intelligence Center)",
+      "citation_offset": {
+        "offset": 4543,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP_distinguishing_criteria",
+      "value": "Characteristics (size, shape, color), performance (velocity, maneuverability), signatures (light, sound, radioactive), and behavior (reactions to observation, scanning)",
+      "source_quote": "characteristics (e.g., size, shape, color); performance (e.g., velocity, maneuverability); signatures (e.g., light, sound, radioactive); and behavior (e.g., reactions to observation, scanning)",
+      "citation_offset": {
+        "offset": 5560,
+        "len": 50,
+        "exact": false,
+        "matched": " signatures (e.g., light, sound, radioactive); and"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "extraterrestrial_position",
+      "value": "Neither rejects possibility nor presumes unexplained phenomena are evidence of extraterrestrial intelligence",
+      "source_quote": "AARO neither rejects the possibility of extraterrestrial intelligence nor presumes phenomena not immediately understood are evidence of such",
+      "citation_offset": {
+        "offset": 6030,
+        "len": 140,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassification_review_date",
+      "value": "2025-03-20",
+      "source_quote": "Date: 3/20/2025",
+      "citation_offset": {
+        "offset": 2630,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "United States"
+  ],
+  "dated_events": [
+    "Jul 17, 2023",
+    "191452ZMAY23",
+    "March 2023",
+    "3/20/2025",
+    "June 2024"
+  ],
+  "objects_described": [
+    "unidentified anomalous phenomena (UAP)",
+    "transmedium objects",
+    "recovered UAP objects and material"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AARO reviewed testimony from over two dozen individuals regarding alleged extraterrestrial reverse-engineering programs and found no verifiable information to substantiate those claims.",
+      "source_quote": "AARO's review of testimony from over two dozen individuals has not led to any verifiable information to substantiate claims that any programs to reverse‐engineer extraterrestrial materials have existed in the past or exist currently",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6697,
+        "len": 100,
+        "exact": false,
+        "matched": "s review of testimony from over two dozen individuals has not led to any verifiable information to s"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO has established a process for individuals to provide potentially classified information to support a congressionally-mandated historical review.",
+      "source_quote": "AARO has established a safe and secure process for individuals to come forth with information—even that which is potentially classified—to aid AARO in its congressionally‐mandated historical review",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6457,
+        "len": 197,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The historical review of records and testimonies was due to Congress by June 2024.",
+      "source_quote": "AARO's historical review of records and testimonies is ongoing and due to Congress by June 2024",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6931,
+        "len": 90,
+        "exact": false,
+        "matched": "s historical review of records and testimonies is ongoing and due to Congress by June 2024"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "UAP have been observed in or near US territory, allied territory, and adversary territory.",
+      "source_quote": "The US Government has observed UAP in or near the territory and/or operating areas of the United States, of its allies, and of its adversaries",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2233,
+        "len": 142,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO works with the Joint Staff to develop and implement UAP reporting requirements for military services and commands.",
+      "source_quote": "AARO works closely with the Joint Staff to develop, publish, and implement UAP reporting requirements for the services and commands",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4304,
+        "len": 131,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO works directly with the National Air and Space Intelligence Center on analytic methods and exploitation of recovered UAP objects and material.",
+      "source_quote": "AARO also works directly with service‐managed centers (e.g., the National Air and Space Intelligence Center), in the development of analytic methods and tools and in the exploitation and analysis of recovered UAP objects and material",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4543,
+        "len": 233,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:54:43.774Z",
+  "qa_completed_at": "2026-06-14T01:55:40.367Z",
+  "timing": {
+    "A": "34.0s",
+    "B": "22.6s",
+    "E": "21.5s"
+  },
+  "public_headline": "Pentagon UFO Office Outlined Its Mission and Found No Evidence of Alien Reverse-Engineering",
+  "public_tldr": "This July 2023 backgrounder from the All-domain Anomaly Resolution Office (AARO) explains how the Pentagon's UFO investigation unit is organised and what it does. After interviewing over two dozen people, AARO stated it found no verifiable evidence that any programme to reverse-engineer extraterrestrial materials has ever existed.",
+  "public_narrative": "In July 2023, the Pentagon's All-domain Anomaly Resolution Office — known as AARO — published an unclassified backgrounder explaining its purpose and structure. AARO is the US government body responsible for investigating unidentified anomalous phenomena, or UAP, across air, sea, space, and so-called transmedium domains (objects that move between these environments). The document was cleared for open publication on 17 July 2023.\n\nAARO defines UAP as detections that cannot yet be attributed to any known actor and that may show behaviour beyond what current sensors or observers can readily explain. The office is organised into four groups: operations, analysis, science and technology, and strategic communications. It works with the Joint Staff on military reporting requirements and collaborates with the National Air and Space Intelligence Center (NASIC) on analysing recovered UAP objects and material — though the document does not describe what, if anything, has been recovered.\n\nThe backgrounder states that AARO interviewed over two dozen individuals and found no verifiable information to support claims that programmes to reverse-engineer extraterrestrial materials have existed or currently exist. At the same time, the office stated it \"neither rejects the possibility of extraterrestrial intelligence nor presumes phenomena not immediately understood are evidence of such.\" A broader historical review of records and testimonies was still underway at the time and was due to Congress by June 2024.\n\nThe document frames UAP as a national security concern for three reasons: operational hazards to military personnel, the risk of technological or intelligence surprise, and the possibility that adversaries could make strategic miscalculations based on unexplained phenomena. UAP have been observed in or near US, allied, and adversary territory.",
+  "public_caveats": [
+    "This is a public affairs backgrounder presenting AARO's institutional position — it is not an investigative report and contains no specific case data, incident details, or sensor readings.",
+    "The finding of 'no verifiable evidence' for reverse-engineering programmes reflects AARO's own assessment as of mid-2023, while its historical review was still incomplete.",
+    "The document mentions 'recovered UAP objects and material' in passing but does not describe what has been recovered or its nature.",
+    "No specific UAP incidents, case numbers, or observational evidence are included — this document is purely organisational and positional.",
+    "Redaction levels are low, but the absence of detail on recovered materials and specific cases means key questions go unanswered by design, not by censorship."
+  ]
+}

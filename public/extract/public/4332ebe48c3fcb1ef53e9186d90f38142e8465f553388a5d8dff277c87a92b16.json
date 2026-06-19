@@ -1,0 +1,73 @@
+{
+  "sha256": "4332ebe48c3fcb1ef53e9186d90f38142e8465f553388a5d8dff277c87a92b16",
+  "title": "CIA-UAP-017, Placement on High Alert Due to Perceived Aggressive Foreign Posturing",
+  "agency": "CIA",
+  "type": "PDF",
+  "incident_date": "July, 2008",
+  "incident_location": "Harare, Zimbabwe",
+  "what_is_it": "A CIA report documenting a UFO sighting at Harare International Airport and the subsequent debate over whether it was a foreign reconnaissance device or extraterrestrial in origin.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "No extracted body text available — all facts derived from document metadata and the war.gov CSV description only.",
+    "The PDF appears to be scanned with poor OCR quality, so the full content of the report is not accessible for verification.",
+    "Single-source document with no corroborating reports referenced.",
+    "Redaction level assessed as heavy based on the absence of extractable text, though this may partly reflect OCR limitations rather than intentional redaction."
+  ],
+  "fabrication_score": 6,
+  "key_facts": [
+    {
+      "field": "document_id",
+      "value": "CIA-UAP-017",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "originating_agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "incident_date",
+      "value": "July 2008",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Harare",
+    "Zimbabwe"
+  ],
+  "dated_events": [
+    "July 2008"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The sighting led to placement on high alert due to perceived aggressive foreign posturing",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:40:37.764Z",
+  "qa_completed_at": "2026-06-14T02:41:08.608Z",
+  "timing": {
+    "A": "14.3s",
+    "B": "16.6s"
+  }
+}

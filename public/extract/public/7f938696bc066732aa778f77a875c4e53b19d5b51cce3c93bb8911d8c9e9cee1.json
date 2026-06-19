@@ -1,0 +1,213 @@
+{
+  "sha256": "7f938696bc066732aa778f77a875c4e53b19d5b51cce3c93bb8911d8c9e9cee1",
+  "title": "FAA UAP record 237UAP00505",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot's observation of an unidentified aerial phenomenon.",
+  "core_summary": "On April 17, 2023, the crew of Frontier Airlines flight 1164 (an Airbus A321 flying from Orlando to Philadelphia) reported an unidentified aerial phenomenon off the left side of their aircraft while flying northeast at 35,000 feet, approximately 14 nautical miles south of Sandhills VOR (SDZ) near Southern Pines, North Carolina. The phenomenon was described as two intermittent flashing lights traveling southeast at the same altitude. No law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The description of 'two intermittent flashing lights' is consistent with conventional aircraft anti-collision lighting, though no identification was made.",
+    "This is a preliminary operations center report, not a completed investigation."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_flight",
+      "value": "Frontier 1164 (FFT1164), Airbus A321, route MCO (Orlando) to PHL (Philadelphia)",
+      "source_quote": "FRONTIER 1164, A321, MCO - PHL",
+      "citation_offset": {
+        "offset": 266,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "April 17, 2023, 00:30 Eastern",
+      "source_quote": "Date: 4/17/2023 1:06:00 AM (-04 EDT)... /0030E/",
+      "citation_offset": {
+        "offset": 29,
+        "len": 32,
+        "exact": false,
+        "matched": "Date: 4/17/2023 1:06:00 AM (-04 "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "location",
+      "value": "14 nautical miles south of Sandhills VOR (SDZ), near Southern Pines, NC",
+      "source_quote": "SOUTHERN PINES, NC/UFO-UAP ACTIVITY/... 14 S SANDHILLS VOR (SDZ)",
+      "citation_offset": {
+        "offset": 199,
+        "len": 34,
+        "exact": false,
+        "matched": "SOUTHERN PINES, NC/UFO-UAP ACTIVIT"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "altitude",
+      "value": "FL350 (35,000 feet)",
+      "source_quote": "NE BOUND AT FL350",
+      "citation_offset": {
+        "offset": 365,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "description_of_phenomenon",
+      "value": "Two intermittent flashing lights traveling southeast at FL350",
+      "source_quote": "TWO INTERMITTENT FLASHING LIGHTS TRAVELING SE BOUND AT FL350",
+      "citation_offset": {
+        "offset": 424,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "position_relative_to_aircraft",
+      "value": "Off the left side of the aircraft",
+      "source_quote": "OFF THE LEFT SIDE",
+      "citation_offset": {
+        "offset": 341,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_heading",
+      "value": "Northeast bound",
+      "source_quote": "NE BOUND AT FL350",
+      "citation_offset": {
+        "offset": 365,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC_facility",
+      "value": "Washington ARTCC",
+      "source_quote": "WASHINGTON ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 241,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates",
+      "value": "34.974°N, 79.349°W",
+      "source_quote": "Latitude: 34.97403791... -79.349409359999996",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 486,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Southern Pines, NC",
+    "Sandhills VOR (SDZ)",
+    "MCO (Orlando)",
+    "PHL (Philadelphia)"
+  ],
+  "dated_events": [
+    "4/17/2023",
+    "04-17-2023"
+  ],
+  "objects_described": [
+    "Airbus A321 (Frontier 1164)",
+    "Two intermittent flashing lights (UAP)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Frontier flight 1164 was an Airbus A321 operating the Orlando to Philadelphia route on April 17, 2023.",
+      "source_quote": "FRONTIER 1164, A321, MCO - PHL",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 266,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon consisted of two intermittent flashing lights traveling in the opposite direction (southeast) at the same altitude as the aircraft (FL350).",
+      "source_quote": "TWO INTERMITTENT FLASHING LIGHTS TRAVELING SE BOUND AT FL350",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 424,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Washington ARTCC was the controlling ATC facility that received the report.",
+      "source_quote": "WASHINGTON ARTCC ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 241,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement agency was notified about the incident.",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 486,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:48:17.439Z",
+  "qa_completed_at": "2026-06-13T23:48:50.282Z",
+  "timing": {
+    "A": "18.3s",
+    "B": "14.5s",
+    "E": "16.3s"
+  },
+  "public_headline": "Frontier Airlines Crew Reports Flashing Lights at 35,000 Feet Over North Carolina",
+  "public_tldr": "An FAA operations center report documents the crew of Frontier Airlines flight 1164 observing two intermittent flashing lights off the left side of their aircraft while flying at 35,000 feet near Southern Pines, North Carolina on April 17, 2023. The lights were traveling in the opposite direction at the same altitude, and no identification was made.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report filed on April 17, 2023. It records a pilot observation of an unidentified aerial phenomenon — meaning the crew saw something they could not identify.\n\nThe crew of Frontier Airlines flight 1164, an Airbus A321 flying from Orlando to Philadelphia, reported seeing two intermittent flashing lights off the left side of their aircraft. The sighting occurred while the plane was flying northeast at 35,000 feet, approximately 14 nautical miles south of the Sandhills navigational point (known as SDZ) near Southern Pines, North Carolina. The lights were traveling southeast — the opposite direction — at the same altitude.\n\nWashington Air Route Traffic Control Center (ARTCC), the controlling air traffic facility, was advised of the report. No law enforcement agency was notified.\n\nThe FAA report does not reach a conclusion about what the lights were. This is a preliminary operations center log, not a completed investigation. No radar data, photographs, or additional witness accounts are included in the document.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data or additional witness accounts are included in the document.",
+    "The description of two intermittent flashing lights is consistent with conventional aircraft anti-collision lighting, though no identification was made.",
+    "This is a preliminary FAA operations center report, not a completed investigation or formal finding.",
+    "The document shows minimal redaction, but also contains minimal detail — it is a brief operational log, not an in-depth case file.",
+    "The coordinates place the sighting near Southern Pines, NC, but the exact location carries moderate confidence due to how the position was recorded."
+  ]
+}

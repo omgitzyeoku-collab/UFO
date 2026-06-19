@@ -1,0 +1,199 @@
+{
+  "sha256": "a0168fb3a8c0ff8e45cfd68899ac3f2c9e5c490dba7f82e693b31bf0748cd639",
+  "title": "FAA UAP record 237UAP00615",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary information report documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data.",
+    "Preliminary information only — no follow-up investigation or resolution is included in this document.",
+    "The reported UAP altitude of FL490 (49,000 feet) is above the operational ceiling of most conventional aircraft, but visual altitude estimation at night can be unreliable.",
+    "Coordinates in metadata place the sighting over open ocean off the coast of the Carolinas."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "Spirit Airlines flight 1777 (NKS1777), Airbus A321",
+      "source_quote": "SPIRIT 1777, A321, FLL - EWR",
+      "citation_offset": {
+        "offset": 271,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Fort Lauderdale (FLL) to Newark (EWR)",
+      "source_quote": "FLL - EWR",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 350 (approximately 35,000 feet)",
+      "source_quote": "N BOUND AT FL350",
+      "citation_offset": {
+        "offset": 377,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Two white lights appearing stationary",
+      "source_quote": "2 WHITE LIGHTS THAT APPEARED STATIONARY AT FL490",
+      "citation_offset": {
+        "offset": 430,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP reported altitude",
+      "value": "Flight level 490 (approximately 49,000 feet)",
+      "source_quote": "APPEARED STATIONARY AT FL490",
+      "citation_offset": {
+        "offset": 450,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "AT THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 344,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on radar",
+      "source_quote": "UAP WAS NOT OBSERVED ON RADAR",
+      "citation_offset": {
+        "offset": 480,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Jacksonville ARTCC",
+      "source_quote": "JACKSONVILLE ARTCC",
+      "citation_offset": {
+        "offset": 244,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "32.2397°N, 77.9029°W",
+      "source_quote": "Latitude: 32.239667359999999",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Wilmington, NC",
+    "Fort Lauderdale (FLL)",
+    "Newark (EWR)"
+  ],
+  "dated_events": [
+    "02-23-2024"
+  ],
+  "objects_described": [
+    "Airbus A321 commercial aircraft",
+    "UAP described as two white stationary lights at FL490"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Spirit Airlines flight 1777 reported a UAP on February 23, 2024 while flying from Fort Lauderdale to Newark.",
+      "source_quote": "SPIRIT 1777, A321, FLL - EWR, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 271,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of two white lights that appeared stationary at approximately 49,000 feet.",
+      "source_quote": "2 WHITE LIGHTS THAT APPEARED STATIONARY AT FL490",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 430,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected by radar.",
+      "source_quote": "UAP WAS NOT OBSERVED ON RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 480,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 140 nautical miles south of Wilmington, NC at 35,000 feet.",
+      "source_quote": "N BOUND AT FL350 140 S ILM",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 377,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:24:28.612Z",
+  "qa_completed_at": "2026-06-14T01:25:08.202Z",
+  "timing": {
+    "A": "19.4s",
+    "B": "20.2s",
+    "E": "17.0s"
+  },
+  "public_headline": "Spirit Airlines Crew Reports Two White Lights at 49,000 Feet",
+  "public_tldr": "An FAA preliminary report documents a UAP sighting by the crew of Spirit Airlines flight 1777 on February 23, 2024, while flying from Fort Lauderdale to Newark. The crew observed two white lights that appeared stationary at approximately 49,000 feet directly ahead of their aircraft; the objects were not detected on radar.",
+  "public_narrative": "This document is a preliminary information report from the FAA's Washington Operations Center. It records a UAP (unidentified aerial phenomenon) sighting reported by the crew of Spirit Airlines flight 1777, an Airbus A321 flying from Fort Lauderdale, Florida, to Newark, New Jersey.\n\nOn February 23, 2024, while flying northbound at 35,000 feet and approximately 140 nautical miles south of Wilmington, North Carolina — over open ocean off the coast of the Carolinas — the crew reported two white lights at the 12 o'clock position (directly ahead). The lights appeared stationary at flight level 490, or roughly 49,000 feet. That altitude is above the operational ceiling of most conventional aircraft.\n\nJacksonville ARTCC (Air Route Traffic Control Center), the air traffic control facility handling the flight, confirmed the UAP was not observed on radar. The document's metadata places the sighting at coordinates 32.24°N, 77.90°W.\n\nThis is a preliminary report only. It contains no follow-up investigation, no resolution, and no conclusion about what the lights were. The FAA recorded the crew's account but the document ends there.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar data or independent witness confirmation.",
+    "The document is a preliminary information report — no follow-up investigation or resolution is included.",
+    "Visual altitude estimation at night is unreliable; the reported UAP altitude of 49,000 feet is the crew's estimate, not a measured value.",
+    "There is minimal redaction in this document, but the lack of detail reflects its preliminary nature rather than deliberate withholding.",
+    "The coordinates place the sighting over open ocean, making independent ground-based corroboration unlikely."
+  ]
+}

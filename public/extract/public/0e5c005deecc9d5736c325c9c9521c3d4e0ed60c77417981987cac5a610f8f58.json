@@ -1,0 +1,211 @@
+{
+  "sha256": "0e5c005deecc9d5736c325c9c9521c3d4e0ed60c77417981987cac5a610f8f58",
+  "title": "OSD UAP record 24_UAP_Reporting_Trends",
+  "agency": "OSD",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An analytical briefing document summarizing UAP reporting trends, including altitude data, morphology classifications, characteristics, and geographic hotspots, compiled by the All-Domain Anomaly Resolution Office (AARO).",
+  "core_summary": "This document presents AARO's analysis of UAP reporting trends from 1996 through November 20, 2023. It covers four categories of trend data: reported UAP altitudes, typically-reported UAP characteristics, reported UAP morphology (shape classifications), and reported UAP hotspots (geographic concentrations). The document was cleared for open publication on November 21, 2023, and released in full on February 6, 2025.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The extracted text contains only section headings (altitudes, characteristics, morphology, hotspots) without the underlying data, charts, or figures — the actual trend data is likely in visual/graphical format not captured by text extraction.",
+    "Without the visual content, the specific altitude ranges, morphology types, characteristic details, and hotspot locations referenced in the document cannot be verified from this text alone.",
+    "The document is an analytical summary by AARO, not raw incident reports — it represents AARO's interpretation and categorisation of underlying reports."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "producing_office",
+      "value": "All-Domain Anomaly Resolution Office (AARO)",
+      "source_quote": "ALL-DOMAIN ANOMALY RESOLUTION OFFICE",
+      "citation_offset": {
+        "offset": 132,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "data_coverage_period",
+      "value": "1996 through November 20, 2023",
+      "source_quote": "UAP Reporting Trends 1996- November 20, 2023",
+      "citation_offset": {
+        "offset": 169,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "clearance_date",
+      "value": "November 21, 2023",
+      "source_quote": "CLEARED For Open Publication Nov 21, 2023",
+      "citation_offset": {
+        "offset": 0,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "release_date",
+      "value": "February 6, 2025",
+      "source_quote": "Date: 02/06/2025",
+      "citation_offset": {
+        "offset": 470,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "release_authority",
+      "value": "FY24 NDAA, codified at 44 U.S.C. 2107",
+      "source_quote": "Authority: FY24 NDAA, now codified at 44 U.S.C. 2107",
+      "citation_offset": {
+        "offset": 507,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "release_extent",
+      "value": "Released in full",
+      "source_quote": "Released in Full: X",
+      "citation_offset": {
+        "offset": 487,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_number",
+      "value": "330UAP000024",
+      "source_quote": "Case Number: 330UAP000024",
+      "citation_offset": {
+        "offset": 560,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification",
+      "value": "Unclassified",
+      "source_quote": "Page determined to be Unclassified",
+      "citation_offset": {
+        "offset": 586,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "review_authority",
+      "value": "FY24 NDAA, Section 1841(a)(1)(C)",
+      "source_quote": "IAW FY24 NDAA, Section 1841 (a)(1)(C)",
+      "citation_offset": {
+        "offset": 654,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "topics_covered",
+      "value": "UAP altitudes, characteristics, morphology, and hotspots",
+      "source_quote": "REPORTED-UAP ALTITUDES ... TYPICALLY-REPORTED UAP CHARACTERISTICS ... REPORTED UAP-MORPHOLOGY ... REPORTED-UAP HOTSPOTS",
+      "citation_offset": {
+        "offset": 217,
+        "len": 35,
+        "exact": false,
+        "matched": "ICALLY-REPORTED UAP CHARACTERISTICS"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "1996 through November 20, 2023",
+    "Nov 21, 2023",
+    "02/06/2025"
+  ],
+  "objects_described": [
+    "UAP (unidentified anomalous phenomena)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "AARO compiled UAP reporting trend data spanning from 1996 to November 20, 2023",
+      "source_quote": "UAP Reporting Trends 1996- November 20, 2023",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 169,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was released in full with no redactions under FY24 NDAA authority",
+      "source_quote": "Released in Full: X Authority: FY24 NDAA, now codified at 44 U.S.C. 2107",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 487,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was reviewed and determined to be unclassified by the AARO Chief of Staff",
+      "source_quote": "Page determined to be Unclassified Reviewed by Chief of Staff, AARO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 586,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Department of Defense Office of Prepublication and Security Review cleared the document for open publication",
+      "source_quote": "CLEARED FOR OPEN PUBLICATION NOV 21, 2023 Department of Defense Office of Prepublication and Security Review",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 257,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:36:36.077Z",
+  "qa_completed_at": "2026-06-14T02:37:09.527Z",
+  "timing": {
+    "A": "20.3s",
+    "B": "13.2s",
+    "E": "19.5s"
+  },
+  "public_headline": "Pentagon Office Released 27 Years of UAP Reporting Trend Data",
+  "public_tldr": "The All-Domain Anomaly Resolution Office (AARO) compiled an analytical briefing covering UAP reporting trends from 1996 through November 2023, organised into four categories: altitudes, characteristics, morphology (shapes), and geographic hotspots. The document was cleared for publication in November 2023 and released in full in February 2025 under congressional mandate.",
+  "public_narrative": "In February 2025, the Pentagon's All-Domain Anomaly Resolution Office — known as AARO — publicly released a briefing document cataloguing trends in reports of unidentified anomalous phenomena (UAP) spanning nearly three decades, from 1996 through 20 November 2023. The release was mandated by the FY24 National Defense Authorization Act, codified at 44 U.S.C. 2107, and the document was released in full with no redactions.\n\nThe briefing organises its analysis into four categories: the altitudes at which UAP were reported, the characteristics typically described by observers, the morphology (meaning the shapes or forms reported), and geographic hotspots where sightings clustered. The underlying data — likely presented as charts and figures in the original PDF — is not captured in the text extraction, so the specific numbers, shapes, and locations are not available in text form.\n\nThe document was reviewed by the AARO Chief of Staff and determined to be unclassified. It had been cleared for open publication on 21 November 2023 by the Department of Defense Office of Prepublication and Security Review, though the actual public release did not occur until February 2025. The case number assigned is 330UAP000024.\n\nThis is an analytical summary produced by AARO, not a collection of raw incident reports. It represents AARO's own interpretation and categorisation of the underlying reporting data.",
+  "public_caveats": [
+    "This is AARO's analytical summary, not raw data — it reflects the office's interpretation and categorisation of underlying reports.",
+    "The actual trend data (altitude ranges, shape breakdowns, hotspot locations, characteristic details) appears to be in charts or figures not captured by text extraction, so the specifics cannot be independently verified from the text alone.",
+    "The document was released in full with no redactions, which is unusual for UAP-related records and increases its transparency value.",
+    "Section headings confirm the four topic areas covered, but without the visual content, readers should seek the original PDF for the substantive data.",
+    "No specific incidents, named individuals, or particular locations are identified in the extracted text — this is a high-level trend overview, not a case file."
+  ]
+}

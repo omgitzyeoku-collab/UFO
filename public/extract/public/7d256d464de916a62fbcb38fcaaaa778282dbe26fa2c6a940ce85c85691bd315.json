@@ -1,0 +1,225 @@
+{
+  "sha256": "7d256d464de916a62fbcb38fcaaaa778282dbe26fa2c6a940ce85c85691bd315",
+  "title": "FAA UAP record 237UAP00488",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting by a commercial airline crew.",
+  "core_summary": "On 1 March 2023, the crew of Royal Jordanian Airlines flight 264, a Boeing 787-8 flying from Chicago O'Hare to Amman, Jordan, reported observing two bright white lights while northbound at flight level 180 (approximately 18,000 feet), 25 nautical miles north of O'Hare. No evasive action was taken and no law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report from one flight crew with no corroborating radar data or additional witness accounts included.",
+    "The report is a preliminary operations center log entry, not a full investigation or analysis.",
+    "No description of object behaviour, movement, size, or duration of sighting is provided beyond 'bright white lights'.",
+    "The coordinates place the incident near the Chicago O'Hare area, consistent with the textual description."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_aircraft",
+      "value": "Royal Jordanian Airlines flight 264 (RJA264), Boeing 787-8",
+      "source_quote": "JORDANIAN 264, B788, ORD - AMMAN, JORDAN (OJAI)",
+      "citation_offset": {
+        "offset": 261,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Chicago O'Hare (ORD) to Amman, Jordan (OJAI)",
+      "source_quote": "ORD - AMMAN, JORDAN (OJAI)",
+      "citation_offset": {
+        "offset": 282,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date_time",
+      "value": "1 March 2023, 1930 Central time",
+      "source_quote": "Date: 3/1/2023 7:30:00 PM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation",
+      "value": "Two bright white lights",
+      "source_quote": "REPORTED 2 BRIGHT WHITE LIGHTS",
+      "citation_offset": {
+        "offset": 310,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_position",
+      "value": "Northbound at FL180, 25 nautical miles north of ORD",
+      "source_quote": "N BOUND AT FL180 25 N ORD",
+      "citation_offset": {
+        "offset": 347,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "latitude",
+      "value": "42.339156680000002",
+      "source_quote": "Latitude: 42.339156680000002",
+      "citation_offset": {
+        "offset": 107,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "longitude",
+      "value": "-87.908149719999997",
+      "source_quote": "-87.908149719999997",
+      "citation_offset": {
+        "offset": 146,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evasive_action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 374,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "law_enforcement_notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 399,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Chicago ARTCC",
+      "source_quote": "CHICAGO ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 239,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location_description",
+      "value": "Chicago, IL area",
+      "source_quote": "CHICAGO, IL/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 204,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Chicago, IL",
+    "ORD (O'Hare International Airport)",
+    "Amman, Jordan"
+  ],
+  "dated_events": [
+    "3/1/2023"
+  ],
+  "objects_described": [
+    "Two bright white lights (UAP)",
+    "Boeing 787-8 (reporting aircraft)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Royal Jordanian flight 264 was operating a Boeing 787-8 from ORD to Amman on 1 March 2023",
+      "source_quote": "JORDANIAN 264, B788, ORD - AMMAN, JORDAN (OJAI)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 261,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The crew reported two bright white lights while at FL180, 25 NM north of O'Hare",
+      "source_quote": "REPORTED 2 BRIGHT WHITE LIGHTS WHILE N BOUND AT FL180 25 N ORD",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 310,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 374,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was made",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 399,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:33:37.585Z",
+  "qa_completed_at": "2026-06-13T23:34:15.242Z",
+  "timing": {
+    "A": "20.2s",
+    "B": "17.4s",
+    "E": "16.7s"
+  },
+  "public_headline": "Jordanian Airline Crew Reported Two Bright White Lights Near Chicago",
+  "public_tldr": "This FAA operations center report documents a UAP sighting by the crew of Royal Jordanian Airlines flight 264 on 1 March 2023. While flying a Boeing 787-8 from Chicago O'Hare to Amman, Jordan, the crew reported two bright white lights at approximately 18,000 feet, 25 nautical miles north of O'Hare. No evasive action was taken.",
+  "public_narrative": "This document is a log entry from the FAA's Washington Operations Center recording a UAP (unidentified anomalous phenomena) sighting reported by a commercial airline crew on 1 March 2023 at 7:30 PM Central time.\n\nThe crew of Royal Jordanian Airlines flight 264, operating a Boeing 787-8 on a route from Chicago O'Hare to Amman, Jordan, reported observing two bright white lights. The aircraft was heading northbound at flight level 180 (roughly 18,000 feet altitude), approximately 25 nautical miles north of O'Hare International Airport. The recorded coordinates place the sighting in the Chicago, Illinois area.\n\nChicago Air Route Traffic Control Center (ARTCC) was advised of the report. The crew took no evasive action, and no law enforcement notification was made.\n\nThe document is a preliminary operations center log entry — not a full investigation or analytical report. It contains no description of the lights' behaviour, movement, size, or how long they were visible. There is no indication that radar data or additional witnesses corroborated the sighting.",
+  "public_caveats": [
+    "This is a single-source report from one flight crew. No corroborating radar data or independent witness accounts are included in the document.",
+    "The record is a preliminary log entry from the FAA's operations center, not a completed investigation or analysis.",
+    "No details about the objects' behaviour, movement, size, or duration of the sighting are provided beyond the description 'two bright white lights'.",
+    "No law enforcement was notified and no evasive action was taken, suggesting the crew did not consider it an immediate safety threat.",
+    "The document shows minimal redaction, but its brevity means limited information is available regardless."
+  ]
+}

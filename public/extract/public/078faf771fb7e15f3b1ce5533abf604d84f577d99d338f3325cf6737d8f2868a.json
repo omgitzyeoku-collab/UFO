@@ -1,0 +1,245 @@
+{
+  "sha256": "078faf771fb7e15f3b1ce5533abf604d84f577d99d338f3325cf6737d8f2868a",
+  "title": "FAA UAP record 237UAP00589",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary incident report documenting a pilot-reported unidentified aerial phenomenon (UAP) sighting.",
+  "core_summary": "On 22 December 2023, the crew of Southwest Airlines Flight 111, a Boeing 737 MAX 8 flying from Denver to Portland, reported an unidentified aerial phenomenon at their 12 o'clock position while northeast-bound at flight level 340 (approximately 34,000 feet), located 41 nautical miles south-southwest of Pocatello, Idaho. No evasive action was taken and no law enforcement was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report only, not a completed investigation",
+    "Single-source account from the flight crew with no corroborating radar data or additional witness statements included",
+    "No description of the UAP's appearance, behaviour, size, or duration of observation is provided",
+    "PIH is the FAA identifier for Pocatello Regional Airport; '41 SSW PIH' means 41 nautical miles south-southwest of that airport"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "22 December 2023 at 2115 MST (9:15 PM)",
+      "source_quote": "Date: 12/22/2023 9:15:00 PM (-07 MST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight",
+      "value": "Southwest Airlines Flight 111 (SWA111)",
+      "source_quote": "SWA111 UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 74,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737 MAX 8 (B38M)",
+      "source_quote": "SOUTHWEST 111, B38M",
+      "citation_offset": {
+        "offset": 272,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Denver (DEN) to Portland (PDX)",
+      "source_quote": "DEN - PDX",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 340 (approximately 34,000 feet)",
+      "source_quote": "NE BOUND AT FL340",
+      "citation_offset": {
+        "offset": 382,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "12 o'clock (directly ahead)",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON FROM THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 304,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "41 nautical miles south-southwest of Pocatello, Idaho",
+      "source_quote": "41 SSW PIH",
+      "citation_offset": {
+        "offset": 400,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "42.3513°N, 112.8698°W",
+      "source_quote": "Latitude: 42.351299009999998",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Salt Lake City ARTCC",
+      "source_quote": "SALT LAKE CITY ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 243,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 412,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None",
+      "source_quote": "NO LEO NOTIFICATION",
+      "citation_offset": {
+        "offset": 437,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report reference",
+      "value": "WOC 73333",
+      "source_quote": "WOC 73333 JE/JW",
+      "citation_offset": {
+        "offset": 458,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Pocatello, Idaho",
+    "Denver",
+    "Portland",
+    "Salt Lake City"
+  ],
+  "dated_events": [
+    "12/22/2023",
+    "12-22-2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon (UAP)",
+    "Boeing 737 MAX 8 (B38M)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Southwest Airlines Flight 111 was operating a Denver to Portland route on 22 December 2023",
+      "source_quote": "SOUTHWEST 111, B38M, DEN - PDX",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 272,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot reported a UAP directly ahead of the aircraft at 34,000 feet",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON FROM THE 12 O'CLOCK POSITION WHILE NE BOUND AT FL340",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 304,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was approximately 41 nautical miles south-southwest of Pocatello, Idaho at the time of the sighting",
+      "source_quote": "41 SSW PIH",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 400,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 412,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified",
+      "source_quote": "NO LEO NOTIFICATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 437,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:00:59.686Z",
+  "qa_completed_at": "2026-06-14T01:01:35.089Z",
+  "timing": {
+    "A": "20.9s",
+    "B": "14.5s",
+    "E": "19.8s"
+  },
+  "public_headline": "Southwest Airlines crew reported unidentified object ahead at 34,000 feet over Idaho",
+  "public_tldr": "An FAA preliminary incident report documents the crew of Southwest Airlines Flight 111, a Boeing 737 MAX 8 flying from Denver to Portland, reporting an unidentified aerial phenomenon directly ahead of their aircraft at 34,000 feet over southern Idaho on the night of 22 December 2023. No evasive action was taken and no law enforcement was notified.",
+  "public_narrative": "This document is a preliminary incident report from the FAA's Washington Operations Center (reference WOC 73333). It records a pilot-reported sighting of an unidentified aerial phenomenon — the FAA's formal term for something in the sky that the crew could not identify.\n\nOn the evening of 22 December 2023, at 9:15 PM Mountain Standard Time, the crew of Southwest Airlines Flight 111 reported an object at their 12 o'clock position — meaning directly ahead of the aircraft. The Boeing 737 MAX 8 was flying northeast-bound at flight level 340 (approximately 34,000 feet) on a scheduled route from Denver to Portland. The sighting occurred roughly 41 nautical miles south-southwest of Pocatello, Idaho, at coordinates 42.35°N, 112.87°W. Salt Lake City Air Route Traffic Control Center was advised.\n\nThe report states that no evasive action was taken by the flight crew and no law enforcement was notified. The document does not describe the object's appearance, size, behaviour, or how long the crew observed it.\n\nThis is a preliminary report only. It records that something was reported, not what it was. No investigation conclusions, radar data, or corroborating witness accounts are included in the document.",
+  "public_caveats": [
+    "This is a preliminary FAA incident report, not a completed investigation or finding. It documents that a report was made, nothing more.",
+    "The account comes from a single source — the flight crew. No corroborating radar data, photographs, or independent witness statements are included.",
+    "The document provides no description of what the crew saw — no shape, colour, size, speed, or duration of observation is recorded.",
+    "No evasive action was taken, which may indicate the object was not perceived as an immediate collision threat, but the report does not explain the crew's reasoning.",
+    "The abbreviation 'PIH' refers to Pocatello Regional Airport; '41 SSW PIH' is aviation shorthand for 41 nautical miles south-southwest of that airport."
+  ]
+}

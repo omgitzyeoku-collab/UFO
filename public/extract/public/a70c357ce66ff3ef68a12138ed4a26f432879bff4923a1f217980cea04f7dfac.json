@@ -1,0 +1,213 @@
+{
+  "sha256": "a70c357ce66ff3ef68a12138ed4a26f432879bff4923a1f217980cea04f7dfac",
+  "title": "FAA UAP record 237UAP00480",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary incident report documenting a UAP sighting by a commercial aircraft crew.",
+  "core_summary": "On February 20, 2023, Ravn Alaska Flight 140, a De Havilland DH8A flying from Anchorage to Kenai, Alaska, reported a UAP while southwestbound at 6,000 feet, approximately 52 nautical miles northwest of Kenai. The crew described the UAP as a round black object that was stationary at approximately 16,000 feet. No evasive action was taken and Alaska NORAD Region was notified.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on aircrew visual observation",
+    "No radar or sensor corroboration mentioned in this document",
+    "Preliminary report only — no follow-up investigation or resolution documented",
+    "Altitude of UAP is approximate as stated by the crew"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Reporting aircraft",
+      "value": "Ravn Alaska Flight 140, De Havilland DH8A",
+      "source_quote": "RAVN ALASKA 140, DE HAVILLAND DH8A, ANC - ENA",
+      "citation_offset": {
+        "offset": 256,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Anchorage (ANC) to Kenai (ENA)",
+      "source_quote": "ANC - ENA",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "6,000 feet",
+      "source_quote": "SW BOUND AT 6,000 FEET",
+      "citation_offset": {
+        "offset": 324,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft position",
+      "value": "52 nautical miles northwest of Kenai",
+      "source_quote": "52 NW ENA",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP description",
+      "value": "Round black object, stationary at approximately 16,000 feet",
+      "source_quote": "A ROUND BLACK OBJECT THAT WAS STATIONARY AT APPROXIMATELY 16,000 FEET",
+      "citation_offset": {
+        "offset": 370,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 441,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Military notification",
+      "value": "Alaska NORAD Region notified",
+      "source_quote": "ALASKA NORAD REGION NOTIFIED",
+      "citation_offset": {
+        "offset": 466,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Anchorage ARTCC",
+      "source_quote": "ANCHORAGE ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 232,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location coordinates",
+      "value": "61.070929730000003, -152.3968424",
+      "source_quote": "Latitude: 61.070929730000003",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident time",
+      "value": "1855 local time",
+      "source_quote": "1855L",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Report date/time",
+      "value": "2/20/2023 6:59:00 PM (-09 AKST)",
+      "source_quote": "Date: 2/20/2023 6:59:00 PM (-09 AKST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Kenai, AK",
+    "Anchorage",
+    "Alaska"
+  ],
+  "dated_events": [
+    "2/20/2023"
+  ],
+  "objects_described": [
+    "Round black stationary object at approximately 16,000 feet",
+    "De Havilland DH8A (reporting aircraft)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Ravn Alaska Flight 140 reported a UAP while flying at 6,000 feet, 52 NM northwest of Kenai",
+      "source_quote": "RAVN ALASKA 140, DE HAVILLAND DH8A, ANC - ENA, REPORTED A UAP WHILE SW BOUND AT 6,000 FEET 52 NW ENA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 256,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was described as a round black object stationary at approximately 16,000 feet",
+      "source_quote": "THE UAP WAS A ROUND BLACK OBJECT THAT WAS STATIONARY AT APPROXIMATELY 16,000 FEET",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 358,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 441,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Alaska NORAD Region was notified of the incident",
+      "source_quote": "ALASKA NORAD REGION NOTIFIED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 466,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:26:01.753Z",
+  "qa_completed_at": "2026-06-13T23:26:31.021Z",
+  "timing": {
+    "A": "16.6s",
+    "B": "12.7s",
+    "E": "18.6s"
+  },
+  "public_headline": "Alaska Airline Crew Reported Stationary Black Object at 16,000 Feet",
+  "public_tldr": "This FAA preliminary incident report documents a UAP sighting by the crew of Ravn Alaska Flight 140 on 20 February 2023. While flying at 6,000 feet near Kenai, Alaska, the crew observed a round black object hovering at approximately 16,000 feet; no evasive action was taken and Alaska NORAD Region was notified.",
+  "public_narrative": "This document is a preliminary incident report from the FAA Washington Operations Center, filed on 20 February 2023 at 6:59 PM Alaska Standard Time. It records a UAP (unidentified anomalous phenomena) sighting reported by a commercial flight crew in Alaskan airspace.\n\nRavn Alaska Flight 140, a De Havilland DH8A turboprop flying from Anchorage to Kenai, was heading southwest at 6,000 feet, approximately 52 nautical miles northwest of Kenai. The crew reported observing a round black object that appeared stationary at roughly 16,000 feet — about 10,000 feet above their own altitude. No evasive action was taken.\n\nAnchorage ARTCC (Air Route Traffic Control Center) was advised, and the Alaska NORAD Region — the military command responsible for North American aerospace defence in that area — was notified. The report does not mention any radar contact or sensor data corroborating the visual sighting.\n\nThis is a preliminary report only. No follow-up investigation, identification, or resolution is documented in this record. The object remains unidentified based on the information available here.",
+  "public_caveats": [
+    "This is a single-source report based entirely on the flight crew's visual observation — no radar or sensor corroboration is mentioned.",
+    "It is a preliminary report only; no follow-up investigation or final determination is documented.",
+    "The altitude of the object (approximately 16,000 feet) is the crew's estimate, not an instrument-verified measurement.",
+    "The document shows low evidence of redaction, but the absence of further detail may simply reflect the preliminary nature of the report.",
+    "The report documents what was observed and reported — it does not identify the object or draw any conclusions about what it was."
+  ]
+}

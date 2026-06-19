@@ -1,0 +1,225 @@
+{
+  "sha256": "531132bfbb4f03f842cfebdc0f77dc32395a0e2b4bcbd2a757e5b0d4913f9175",
+  "title": "FAA UAP record 237UAP00581",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification reporting a civilian UFO/UAP sighting.",
+  "core_summary": "On November 25, 2023, the FAA Washington Operations Center logged a report from Atlantic City Air Traffic Control Tower that a civilian on the ground in Rio Grande, New Jersey observed a cylindrical shaped UFO at low level near the intersection of Route 9 and Route 47. The FAA noted no impacts to aviation and no additional information was provided.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single civilian ground observer with no corroborating radar, pilot, or sensor data mentioned.",
+    "Report is preliminary only; the FAA explicitly states no additional information was provided.",
+    "No description of object behaviour, speed, duration of sighting, or direction of travel is included."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "date_of_incident",
+      "value": "2023-11-25",
+      "source_quote": "Date: 11/25/2023 12:42:00 PM (-05 EST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "Rio Grande, NJ",
+      "source_quote": "RIO GRANDE, NJ/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 215,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "specific_location",
+      "value": "Intersection of Route 9 and Route 47",
+      "source_quote": "AT THE INTERSECTION OF RTE 9 AND RTE 47",
+      "citation_offset": {
+        "offset": 368,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_shape",
+      "value": "Cylindrical",
+      "source_quote": "CYLINDRICAL SHAPED UFO",
+      "citation_offset": {
+        "offset": 300,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "altitude",
+      "value": "Low level",
+      "source_quote": "CYLINDRICAL SHAPED UFO AT A LOW LEVEL",
+      "citation_offset": {
+        "offset": 300,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observer_type",
+      "value": "Civilian on the ground",
+      "source_quote": "FROM A CIVILIAN ON THE GROUND",
+      "citation_offset": {
+        "offset": 338,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reporting_facility",
+      "value": "Atlantic City Air Traffic Control Tower",
+      "source_quote": "ATLANTIC CITY ATCT ADVISED",
+      "citation_offset": {
+        "offset": 253,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aviation_impact",
+      "value": "None",
+      "source_quote": "NO IMPACTS TO AVIATION",
+      "citation_offset": {
+        "offset": 409,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates_latitude",
+      "value": "39.017090320000001",
+      "source_quote": "Latitude: 39.017090320000001",
+      "citation_offset": {
+        "offset": 118,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "coordinates_longitude",
+      "value": "-74.836321990000002",
+      "source_quote": "-74.836321990000002",
+      "citation_offset": {
+        "offset": 157,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "time_local",
+      "value": "12:42 PM EST",
+      "source_quote": "12:42:00 PM (-05 EST)",
+      "citation_offset": {
+        "offset": 46,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_reference",
+      "value": "WOC 7-3333",
+      "source_quote": "WOC 7-3333 MK/JG",
+      "citation_offset": {
+        "offset": 462,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Rio Grande, NJ",
+    "Route 9",
+    "Route 47",
+    "Atlantic City"
+  ],
+  "dated_events": [
+    "11/25/2023",
+    "11-25-2023"
+  ],
+  "objects_described": [
+    "Cylindrical shaped UFO at low level"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Atlantic City ATCT relayed a civilian ground-observer report of a cylindrical UFO to the FAA Operations Center.",
+      "source_quote": "ATLANTIC CITY ATCT ADVISED A CIVILIAN REPORTED CYLINDRICAL SHAPED UFO AT A LOW LEVEL FROM A CIVILIAN ON THE GROUND",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 253,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting had no impact on aviation operations.",
+      "source_quote": "NO IMPACTS TO AVIATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 409,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No additional information was provided beyond the preliminary report.",
+      "source_quote": "NO ADDITIONAL INFO PROVIDED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 433,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:54:13.778Z",
+  "qa_completed_at": "2026-06-14T00:54:42.322Z",
+  "timing": {
+    "A": "15.0s",
+    "B": "13.5s",
+    "E": "15.1s"
+  },
+  "public_headline": "FAA Logged Civilian Report of Cylindrical UFO Over New Jersey",
+  "public_tldr": "This is an FAA Washington Operations Center incident notification from November 25, 2023. A civilian on the ground in Rio Grande, New Jersey reported seeing a cylindrical shaped UFO at low altitude near the intersection of Route 9 and Route 47. The FAA noted no impact to aviation and no further information was provided.",
+  "public_narrative": "On November 25, 2023, at 12:42 PM Eastern time, the FAA (Federal Aviation Administration) Washington Operations Center recorded an incident notification about a UFO sighting in southern New Jersey. The report was relayed through the Atlantic City Air Traffic Control Tower.\n\nA civilian standing on the ground in Rio Grande, New Jersey reported observing a cylindrical shaped object at low altitude near the intersection of Route 9 and Route 47. The document does not describe the object's speed, direction of travel, colour, size, or how long it was visible.\n\nThe FAA's notation is brief and preliminary. It states there were no impacts to aviation operations and that no additional information was provided beyond the initial report. The document is catalogued under reference WOC 7-3333.\n\nThere is no indication in the record that radar data, pilot observations, or any sensor readings corroborated the sighting. The report rests entirely on a single civilian ground observer's account. The FAA did not offer any explanation or identification of the object.",
+  "public_caveats": [
+    "This report comes from a single civilian ground observer. No radar data, pilot sighting, or sensor evidence is mentioned as corroboration.",
+    "The FAA document is a preliminary incident notification, not an investigation or conclusion. It explicitly states no additional information was provided.",
+    "No details about the object's behaviour, speed, size, duration of observation, or direction of travel appear in the record.",
+    "The document shows low evidence of redaction — it appears to be a complete but very brief operational log entry rather than a censored investigative report.",
+    "The FAA recorded the sighting but drew no conclusions about what the object was."
+  ]
+}

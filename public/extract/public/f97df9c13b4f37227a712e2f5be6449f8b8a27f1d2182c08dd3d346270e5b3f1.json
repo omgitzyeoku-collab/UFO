@@ -1,0 +1,227 @@
+{
+  "sha256": "f97df9c13b4f37227a712e2f5be6449f8b8a27f1d2182c08dd3d346270e5b3f1",
+  "title": "FAA UAP record 237UAP00576",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On November 19, 2023, the crew of Alaska Airlines Flight 516 (a Boeing 737 MAX, operating Seattle to Fort Lauderdale) reported a large unidentified aerial phenomenon described as the size of an airliner, hovering at Flight Level 250 (approximately 25,000 feet), located 40 nautical miles northwest of Tampa, Florida. No evasive action was taken and no law enforcement notification was reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witness accounts included in this document.",
+    "The document is a preliminary notification, not a completed investigation or case resolution.",
+    "Coordinates provided place the incident in the Gulf of Mexico off the coast of Florida, consistent with the 40 NM northwest of Tampa description."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Reporting flight",
+      "value": "Alaska Airlines Flight 516 (ASA516)",
+      "source_quote": "ALASKA 516, B39M, SEA - FLL",
+      "citation_offset": {
+        "offset": 246,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737 MAX (B39M)",
+      "source_quote": "B39M",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "Seattle (SEA) to Fort Lauderdale (FLL)",
+      "source_quote": "SEA - FLL",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP size description",
+      "value": "Size of an airliner",
+      "source_quote": "A LARGE UNIDENTIFIED AERIAL PHENOMENON THE \"SIZE OF AN AIRLINER\"",
+      "citation_offset": {
+        "offset": 284,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP behaviour",
+      "value": "Hovering",
+      "source_quote": "HOVERING AT FL250",
+      "citation_offset": {
+        "offset": 349,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP altitude",
+      "value": "Flight Level 250 (approximately 25,000 feet)",
+      "source_quote": "HOVERING AT FL250",
+      "citation_offset": {
+        "offset": 349,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP location",
+      "value": "40 nautical miles northwest of Tampa, FL",
+      "source_quote": "40 NW OF TPA",
+      "citation_offset": {
+        "offset": 367,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date and time",
+      "value": "November 19, 2023, 5:40 PM EST (1740E local)",
+      "source_quote": "11/19/2023 5:40:00 PM (-05 EST)",
+      "citation_offset": {
+        "offset": 35,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 381,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 406,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Latitude",
+      "value": "28.38542807",
+      "source_quote": "Latitude: 28.38542807",
+      "citation_offset": {
+        "offset": 109,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Longitude",
+      "value": "-82.997683120000005",
+      "source_quote": "-82.997683120000005",
+      "citation_offset": {
+        "offset": 141,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Tampa, FL area",
+      "source_quote": "TAMPA, FL/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 199,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Tampa, FL",
+    "Seattle (SEA)",
+    "Fort Lauderdale (FLL)"
+  ],
+  "dated_events": [
+    "11/19/2023",
+    "11-19-2023"
+  ],
+  "objects_described": [
+    "Large unidentified aerial phenomenon described as the size of an airliner, hovering at FL250"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Alaska Airlines Flight 516 crew reported a UAP the size of an airliner hovering at 25,000 feet, 40 NM northwest of Tampa on November 19, 2023.",
+      "source_quote": "ALASKA 516, B39M, SEA - FLL, REPORTED A LARGE UNIDENTIFIED AERIAL PHENOMENON THE \"SIZE OF AN AIRLINER\" HOVERING AT FL250 40 NW OF TPA",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 246,
+        "len": 133,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the aircraft.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 381,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No law enforcement notification was reported.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 406,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:51:33.232Z",
+  "qa_completed_at": "2026-06-14T00:52:04.983Z",
+  "timing": {
+    "A": "18.5s",
+    "B": "13.2s",
+    "E": "18.5s"
+  },
+  "public_headline": "Alaska Airlines Crew Reported Airliner-Sized Object Hovering Near Tampa",
+  "public_tldr": "An FAA incident notification records that the crew of Alaska Airlines Flight 516 reported seeing a large unidentified aerial phenomenon — described as the size of an airliner — hovering at roughly 25,000 feet about 40 nautical miles northwest of Tampa, Florida, on November 19, 2023. The crew took no evasive action, and no law enforcement was notified.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident notification — essentially a standardised internal alert the FAA generates when something unusual is reported in controlled airspace. It is not an investigation report or a case conclusion; it is a preliminary record of what was reported.\n\nOn November 19, 2023, at approximately 5:40 PM Eastern time, the crew of Alaska Airlines Flight 516 — a Boeing 737 MAX flying from Seattle to Fort Lauderdale — reported a large unidentified aerial phenomenon while over the Gulf of Mexico. The crew described the object as being the size of an airliner and said it was hovering at Flight Level 250, which corresponds to roughly 25,000 feet. The reported position was 40 nautical miles northwest of Tampa, Florida, placing it over the Gulf of Mexico off the Florida coast.\n\nThe crew did not take evasive action, and the notification states that no law enforcement agency was contacted. The coordinates logged in the report (approximately 28.39°N, 83.00°W) are consistent with the stated location northwest of Tampa.\n\nThe document contains no follow-up analysis, no radar data, no photographs, and no additional witness accounts. There is no indication that the FAA reached a conclusion about what the object was. Redaction levels in this particular record appear low — the text is largely intact — but the document is brief by nature, containing only the initial crew report and standard administrative fields.",
+  "public_caveats": [
+    "This is a single-source pilot report. No corroborating radar data, photographs, or independent witness accounts are included in the document.",
+    "The document is a preliminary notification, not a completed investigation. The FAA did not reach or publish a conclusion about what the object was.",
+    "\"Hovering at 25,000 feet\" and \"size of an airliner\" are subjective crew estimates made visually from a moving aircraft; no instrument measurements are recorded.",
+    "No law enforcement notification was reported, which may mean no further investigation was triggered through that channel.",
+    "The coordinates place the sighting over the Gulf of Mexico, consistent with the crew's description of 40 nautical miles northwest of Tampa."
+  ]
+}

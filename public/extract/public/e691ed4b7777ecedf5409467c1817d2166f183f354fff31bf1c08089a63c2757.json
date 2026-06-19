@@ -1,0 +1,349 @@
+{
+  "sha256": "e691ed4b7777ecedf5409467c1817d2166f183f354fff31bf1c08089a63c2757",
+  "title": "OSD UAP record 027_Satellite_Flaring_Paper",
+  "agency": "OSD",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "An AARO information paper explaining how Starlink satellite flaring can be misidentified as UAP, with methods for observers to predict and identify satellite flares.",
+  "core_summary": "AARO published this paper in December 2024 to explain how sunlight reflecting off satellites — particularly SpaceX Starlink — creates bright flashes (satellite flares) and satellite trains that are frequently misreported as UAP. The paper provides mathematical methods and step-by-step processes for ground-based and airborne observers to predict when and where satellite flares will appear, and includes a worked example resolving an FAA pilot UAP report near Gallup, NM as likely Starlink flares.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is an explanatory/educational paper, not a case file — it describes a class of prosaic explanations for UAP sightings rather than investigating specific anomalous incidents.",
+    "The FAA pilot case study relies on estimated sighting parameters since the pilot did not provide precise azimuth and elevation measurements.",
+    "The mathematical model uses approximations (e.g., up to 2° off-axis reflection) and is described as 'a guideline good to within a few degrees' rather than precise.",
+    "The paper focuses exclusively on Starlink satellites but notes the principles apply to any analogous satellite constellation.",
+    "AARO states this analysis will help improve report quality, implying some portion of current UAP reports are attributable to satellite flares."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_number",
+      "value": "027",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "authoring_office",
+      "value": "All-domain Anomaly Resolution Office (AARO)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "publication_date",
+      "value": "December 2024",
+      "source_quote": "An AARO Information Paper ... December 2024",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "classification",
+      "value": "Unclassified, released in full",
+      "source_quote": "Released in Full: X Case Number: 330UAP000027",
+      "citation_offset": {
+        "offset": 3187,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "prepublication_clearance_date",
+      "value": "January 23, 2025",
+      "source_quote": "CLEARED For Open Publication Jan 23, 2025",
+      "citation_offset": {
+        "offset": 0,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "starlink_satellites_in_orbit",
+      "value": "Over 6,700 as of end of November 2024",
+      "source_quote": "As of the end of November 2024, there were over 6,700 Starlink satellites in orbit.",
+      "citation_offset": {
+        "offset": 1561,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_LEO_satellites",
+      "value": "Nearly 10,000 with several-fold growth expected",
+      "source_quote": "there are nearly 10,000 artificial satellites in LEO and this number is expected to grow several-fold over the next decade",
+      "citation_offset": {
+        "offset": 1308,
+        "len": 122,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "starlink_operational_altitude",
+      "value": "Nominally 550km",
+      "source_quote": "their final orbital altitude, which is nominally 550km for the current generation of Starlink satellites",
+      "citation_offset": {
+        "offset": 8109,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flare_visibility_sun_altitude",
+      "value": "Sun altitude between -38° and -46° below horizon",
+      "source_quote": "Starlink flares are then generally visible when the Sun's altitude is roughly between -38° and -46°",
+      "citation_offset": {
+        "offset": 15522,
+        "len": 54,
+        "exact": false,
+        "matched": "Starlink flares are then generally visible when the Su"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "flare_look_angle",
+      "value": "Up to about 10° above the horizon",
+      "source_quote": "flares are visible somewhere between the horizon and about 10° above the horizon for up to 2° off axis reflection",
+      "citation_offset": {
+        "offset": 15716,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AARO_field_observation_location",
+      "value": "Sidney, Nebraska",
+      "source_quote": "AARO personnel photographed Starlink flaring on March 11, 2024, near Sidney, Nebraska",
+      "citation_offset": {
+        "offset": 9593,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AARO_field_observation_dates",
+      "value": "March 8-12, 2024",
+      "source_quote": "AARO personnel travel from March 8-12, 2024",
+      "citation_offset": {
+        "offset": 18854,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_study_pilot_location",
+      "value": "Near Gallup, NM at 35,000 feet",
+      "source_quote": "the pilot was traveling eastbound near Gallup, NM (35.5224°N, 108.7235°W) on October 9, 2022, at approximately 3:50AM local time",
+      "citation_offset": {
+        "offset": 26563,
+        "len": 128,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_study_pilot_report",
+      "value": "Multiple unidentified lights moving in different directions, left of constellation Leo",
+      "source_quote": "multiple lights moving in different directions, left of the constellation Leo",
+      "citation_offset": {
+        "offset": 26835,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_study_conclusion",
+      "value": "Very likely Starlink and other satellite flares",
+      "source_quote": "the anomalous lights reported by the pilot are very likely Starlink and other satellite flares",
+      "citation_offset": {
+        "offset": 30340,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "multiple_flare_appearance",
+      "value": "Can appear as spinning lights, glowing orbs, or geometric shapes like triangles",
+      "source_quote": "simultaneous flares might appear to be spinning lights, small glowing orbs that disappear and reappear, or tracing out geometric shapes such as triangles",
+      "citation_offset": {
+        "offset": 9291,
+        "len": 153,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "camera_used",
+      "value": "Canon EOS Rebel T7, f/1.8, 10 sec exposure, ISO-800, 18mm focal length",
+      "source_quote": "Canon EOS Rebel T7 f/1.8 10.0 sec exposure, ISO-800, 18mm focal length",
+      "citation_offset": {
+        "offset": 33071,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Sidney, Nebraska",
+    "Gallup, New Mexico",
+    "Cimarron, New Mexico"
+  ],
+  "dated_events": [
+    "March 8-12, 2024 — AARO field observation trip to Sidney, NE",
+    "March 10, 2024 — AARO photographed Starlink flares after sunset near Sidney, NE",
+    "March 11, 2024 — AARO photographed Starlink flares before sunrise near Sidney, NE",
+    "October 9, 2022 — FAA pilot UAP report of multiple lights near Gallup, NM",
+    "August 29, 2022 — Starlink train photograph referenced",
+    "December 2, 2024 — Starlink satellite orbital position reference date",
+    "January 23, 2025 — Cleared for open publication",
+    "February 14, 2025 — Reviewed and released by Chief of Staff, AARO"
+  ],
+  "objects_described": [
+    "Starlink satellites",
+    "Starlink satellite trains",
+    "satellite flares/glint",
+    "Iridium satellites",
+    "Eutelsat OneWeb constellation",
+    "Amazon Kuiper constellation",
+    "Chinese G60 constellation"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "As of end of November 2024, over 6,700 Starlink satellites were in orbit.",
+      "source_quote": "As of the end of November 2024, there were over 6,700 Starlink satellites in orbit.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1561,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Nearly 10,000 artificial satellites are currently in Low Earth Orbit.",
+      "source_quote": "there are nearly 10,000 artificial satellites in LEO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1308,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Satellite flaring from Iridium satellites was well documented in the late 1990s and early 2000s.",
+      "source_quote": "This was well documented in the late 1990s and early 2000s after the launch of the Iridium satellite constellation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6055,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Simultaneous satellite flares from multiple orbits can appear as spinning lights, glowing orbs, or geometric shapes like triangles to ground observers.",
+      "source_quote": "simultaneous flares might appear to be spinning lights, small glowing orbs that disappear and reappear, or tracing out geometric shapes such as triangles",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9291,
+        "len": 153,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Starlink flares are generally visible when the Sun's altitude is between -38° and -46° below the horizon.",
+      "source_quote": "Starlink flares are then generally visible when the Sun's altitude is roughly between -38° and -46°",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 15522,
+        "len": 54,
+        "exact": false,
+        "matched": "Starlink flares are then generally visible when the Su"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "An FAA pilot report of multiple lights moving in different directions near Gallup, NM on October 9, 2022 was assessed as very likely caused by Starlink satellite flares.",
+      "source_quote": "the anomalous lights reported by the pilot are very likely Starlink and other satellite flares",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 30340,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Airborne observers flying toward the sun's position after sunset or before sunrise can stay in the flare light cone longer than ground observers.",
+      "source_quote": "the opportunity to see flares can persist longer when flying East to West after sunset in the direction of the Sun or West to East before sunrise",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20078,
+        "len": 145,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO's predicted flare azimuth and elevation matched the measured values during their March 2024 Sidney, NE observation.",
+      "source_quote": "Table 2 shows that the measured azimuths and altitudes of the exemplified flares fall within the predicted values.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 19372,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Both diffuse and specular reflection of sunlight from satellites can explain some UAP reports received by AARO.",
+      "source_quote": "Both diffuse and specular reflection of sunlight from satellites can explain some of the UAP reports received by AARO.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 30731,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 8,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:08:32.505Z",
+  "qa_completed_at": "2026-06-14T02:09:48.469Z",
+  "timing": {
+    "A": "48.9s",
+    "B": "27.0s",
+    "E": "29.6s"
+  },
+  "public_headline": "Pentagon Office Explains How Starlink Satellites Get Mistaken for UFOs",
+  "public_tldr": "This unclassified paper from the All-domain Anomaly Resolution Office (AARO) explains how sunlight reflecting off satellites — especially SpaceX's Starlink constellation — creates bright flashes that are frequently misreported as UAP (unidentified anomalous phenomena). It includes mathematical methods for predicting satellite flares and walks through a real FAA pilot report near Gallup, New Mexico, concluding the sighting was very likely caused by satellite flares.",
+  "public_narrative": "In December 2024, AARO — the Pentagon office responsible for investigating unidentified anomalous phenomena — published an information paper tackling a specific, recurring source of UAP reports: satellite flaring. The paper was cleared for public release on 23 January 2025 and released in full with no redactions.\n\nThe core problem is straightforward. As of late November 2024, over 6,700 Starlink satellites were orbiting Earth, part of nearly 10,000 total satellites in low Earth orbit — a number expected to grow several-fold in the coming decade. When sunlight reflects off these satellites at the right angle, it produces bright flashes visible from the ground. Multiple satellites flaring simultaneously can appear as spinning lights, glowing orbs that blink in and out, or even geometric shapes like triangles. AARO notes this phenomenon was already well documented with Iridium satellites in the late 1990s and early 2000s, but the sheer scale of Starlink has made it far more common.\n\nThe paper provides step-by-step methods for observers — both on the ground and in aircraft — to predict when and where satellite flares will appear. Starlink flares are generally visible when the sun is between 38° and 46° below the horizon, appearing up to about 10° above the horizon. Pilots are particularly susceptible because flying toward the sun's position after sunset or before sunrise keeps them in the flare's light cone longer than a ground observer. AARO personnel tested their prediction methods during a field trip to Sidney, Nebraska, in March 2024, and their predicted flare positions matched what they observed and photographed.\n\nThe paper includes a worked case study: on 9 October 2022, an FAA pilot flying eastbound near Gallup, New Mexico at 35,000 feet reported multiple unidentified lights moving in different directions, positioned left of the constellation Leo. AARO's analysis concluded the lights were \"very likely Starlink and other satellite flares.\" The paper notes this assessment relied on estimated sighting parameters, since the pilot did not provide precise azimuth and elevation measurements.\n\nAARO states that both diffuse and specular sunlight reflection from satellites can explain some of the UAP reports it receives, and that this analysis should help improve the quality of future reporting.",
+  "public_caveats": [
+    "This is an educational paper explaining a class of prosaic explanations for UAP sightings — it is not a case file investigating an unexplained incident, and it does not claim all UAP reports are satellite flares.",
+    "The Gallup, NM pilot case study uses estimated sighting parameters because the pilot did not record precise azimuth and elevation, so the conclusion rests on approximation rather than exact measurement.",
+    "The mathematical model described is explicitly characterised as 'a guideline good to within a few degrees' rather than a precise prediction tool.",
+    "The document was released in full with no redactions, which is unusual for UAP-related records and means there is no hidden information being withheld in this case.",
+    "The paper focuses on Starlink but notes the same principles apply to any satellite constellation — including Eutelsat OneWeb, Amazon Kuiper, and China's G60."
+  ]
+}

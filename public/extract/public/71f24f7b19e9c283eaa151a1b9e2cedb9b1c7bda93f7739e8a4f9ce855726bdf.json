@@ -1,0 +1,221 @@
+{
+  "sha256": "71f24f7b19e9c283eaa151a1b9e2cedb9b1c7bda93f7739e8a4f9ce855726bdf",
+  "title": "FAA UAP record 237UAP00503",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On April 15, 2023, Sunwing flight 615, a Canadian-registered Boeing 737 MAX 8 flying from Cuba to Quebec at flight level 370, reported an unidentified aerial phenomenon approximately 10-15 miles ahead of the aircraft while 40 nautical miles east of Savannah, Georgia. The phenomenon was described as 3 lights flashing on and off, moving above a thunderstorm. No evasive action was taken.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar or sensor data mentioned",
+    "Preliminary information only — no follow-up investigation or resolution documented",
+    "Lights above a thunderstorm could have natural explanations (e.g. sprites, ball lightning, or other atmospheric electrical phenomena) but no determination is made in this document",
+    "The coordinates place the sighting over the Atlantic Ocean off the coast of Georgia, consistent with the stated 40 miles east of Savannah"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of report",
+      "value": "April 15, 2023, 12:05 AM EDT",
+      "source_quote": "Date: 4/15/2023 12:05:00 AM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight",
+      "value": "Sunwing 615 (SWG615), Canada-registered",
+      "source_quote": "CANADA REGISTERED SUNWING 615",
+      "citation_offset": {
+        "offset": 262,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Boeing 737 MAX 8 (B38M)",
+      "source_quote": "B38M",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Route",
+      "value": "Cayo Largo del Sur, Cuba (MUCL) to Quebec, Canada (CYUL)",
+      "source_quote": "CAYO LARGO DEL SUR, CUBA (MUCL) - QUEBEC, CANADA (CYUL)",
+      "citation_offset": {
+        "offset": 299,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altitude",
+      "value": "Flight level 370 (approximately 37,000 feet)",
+      "source_quote": "NNE BOUND AT FL370",
+      "citation_offset": {
+        "offset": 446,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "32.1257°N, 80.5199°W",
+      "source_quote": "Latitude: 32.12574541",
+      "citation_offset": {
+        "offset": 109,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP relative position",
+      "value": "10-15 miles from 12 o'clock position (directly ahead)",
+      "source_quote": "10-15 MILES FROM THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 399,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "3 lights flashing on and off, moving above a thunderstorm",
+      "source_quote": "PHENOMENON WAS 3 LIGHTS FLASHING ON AND OFF AND MOVING ABOVE A THUNDERSTORM",
+      "citation_offset": {
+        "offset": 533,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None reported",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "citation_offset": {
+        "offset": 475,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None reported",
+      "source_quote": "NO LEO NOTIFICATION REPORTED",
+      "citation_offset": {
+        "offset": 503,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Jacksonville ARTCC",
+      "source_quote": "JACKSONVILLE ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 235,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Savannah, GA",
+    "Cayo Largo del Sur, Cuba",
+    "Quebec, Canada"
+  ],
+  "dated_events": [
+    "4/15/2023"
+  ],
+  "objects_described": [
+    "Boeing 737 MAX 8 (B38M) commercial aircraft",
+    "3 flashing lights (UAP) moving above a thunderstorm"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Jacksonville ARTCC was the air traffic control facility that received the report",
+      "source_quote": "JACKSONVILLE ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 235,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircraft was heading north-northeast at the time of the sighting",
+      "source_quote": "NNE BOUND AT FL370",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 446,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon was observed above a thunderstorm",
+      "source_quote": "MOVING ABOVE A THUNDERSTORM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 581,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the flight crew",
+      "source_quote": "NO EVASIVE ACTION REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 475,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:46:35.956Z",
+  "qa_completed_at": "2026-06-13T23:47:11.462Z",
+  "timing": {
+    "A": "20.2s",
+    "B": "15.3s",
+    "E": "17.3s"
+  },
+  "public_headline": "Canadian Airline Crew Reports Three Flashing Lights Over Atlantic",
+  "public_tldr": "An FAA incident report from April 2023 documents the crew of Sunwing flight 615, a Canadian Boeing 737 MAX 8 flying from Cuba to Quebec, spotting three flashing lights moving above a thunderstorm roughly 40 miles east of Savannah, Georgia. No evasive action was taken, no follow-up investigation is recorded, and the lights remain unidentified.",
+  "public_narrative": "On 15 April 2023 at roughly midnight Eastern time, the crew of Sunwing flight 615 reported an unidentified aerial phenomenon to Jacksonville Air Route Traffic Control Center (ARTCC). The aircraft, a Canada-registered Boeing 737 MAX 8, was flying north-northeast at flight level 370 — approximately 37,000 feet — on a route from Cayo Largo del Sur, Cuba to Quebec, Canada.\n\nThe crew described three lights flashing on and off, positioned about 10 to 15 miles directly ahead of the aircraft and moving above a thunderstorm. The sighting occurred over the Atlantic Ocean, roughly 40 nautical miles east of Savannah, Georgia, at coordinates 32.13°N, 80.52°W. No evasive action was taken and no law enforcement was notified.\n\nThe document is an FAA Washington Operations Center incident report — essentially a standardised log entry recording the crew's call. It contains no radar data, no sensor readings, and no follow-up investigation or determination of what the lights were. The report is a single-source pilot account with no corroboration from other aircraft or ground systems.\n\nThe FAA did not classify or explain the phenomenon. The record stands as a filed report with no resolution.",
+  "public_caveats": [
+    "This is a single-source pilot report with no corroborating radar, sensor, or photographic evidence mentioned in the document.",
+    "The FAA filed the report but documented no follow-up investigation or attempt to identify the phenomenon.",
+    "Three flashing lights above a thunderstorm could have natural explanations — upper-atmospheric electrical phenomena such as sprites or ball lightning — but the document makes no determination either way.",
+    "The record is preliminary information only, not an investigative conclusion.",
+    "There is minimal redaction in this document; the limitation is not hidden information but rather the narrow scope of what was recorded."
+  ]
+}

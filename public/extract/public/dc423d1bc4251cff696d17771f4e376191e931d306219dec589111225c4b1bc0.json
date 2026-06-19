@@ -1,0 +1,392 @@
+{
+  "sha256": "dc423d1bc4251cff696d17771f4e376191e931d306219dec589111225c4b1bc0",
+  "title": "OSD UAP record 12_ORNL_Analysis_Metallic_Specimen",
+  "agency": "OSD",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "Scientific analysis report summarizing Oak Ridge National Laboratory's characterization of a metallic specimen claimed to be recovered from a 1947 UAP crash.",
+  "core_summary": "AARO commissioned Oak Ridge National Laboratory (ORNL) to independently analyze a layered magnesium-zinc specimen with bismuth and lead bands, claimed to originate from a 1947 UAP crash and allegedly capable of 'inertial mass reduction' via terahertz waveguide properties. ORNL conducted extensive microscopy, spectroscopy, and isotope analyses, concluding with high confidence that the material is terrestrial in origin and that its bismuth layers could not have functioned as a terahertz waveguide. The specimen's magnesium and lead isotopic signatures fall squarely within known terrestrial compositions, and the bismuth is nanocrystalline/amorphous rather than the pure single-crystalline form required for waveguide functionality.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The specimen's chain of custody since 1947 cannot be verified, meaning the claimed UAP crash origin is unsubstantiated.",
+    "The specimen had previously been handled by multiple parties (TTSA, DEVCOM) before ORNL received it, with potential for contamination or alteration.",
+    "Heat and mechanical damage to the specimen may have altered its original structure, meaning ORNL cannot make definitive statements about its original crystalline state.",
+    "The document describes the specimen as having an 'uncommon mixture of elements by today's standards' but does not identify what it was actually manufactured for.",
+    "Some older comparison data points in the magnesium isotope analysis could not be directly verified for precision by ORNL.",
+    "The intended or actual past use of the material remains undetermined despite the analysis."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Specimen composition (primary)",
+      "value": "Approximately 97.5% magnesium, 2% zinc",
+      "source_quote": "magnesium and zinc are the primary elements present in the specimen, comprising approximately 97.5% and 2% of the material, respectively",
+      "citation_offset": {
+        "offset": 6405,
+        "len": 136,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Specimen composition (trace)",
+      "value": "Bismuth, lead, thallium, iron, cadmium, manganese, gold, molybdenum, tin, barium",
+      "source_quote": "Minor elements detected were lead (Pb) and bismuth (Bi), with lesser trace amounts of iron (Fe) and manganese",
+      "citation_offset": {
+        "offset": 6619,
+        "len": 50,
+        "exact": false,
+        "matched": ", with lesser trace amounts of iron (Fe) and manga"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Lead-to-bismuth ratio",
+      "value": "Approximately 1:1 in bands",
+      "source_quote": "layered colocation of lead and bismuth (in an approximate 1:1 ratio) in the bands",
+      "citation_offset": {
+        "offset": 8272,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Claimed origin",
+      "value": "Recovered from a UAP crash in or around 1947",
+      "source_quote": "claimed to be recovered from an unidentified anomalous phenomenon (UAP) crash in or around 1947",
+      "citation_offset": {
+        "offset": 800,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Claimed capability",
+      "value": "Inertial mass reduction (levitation or antigravity)",
+      "source_quote": "claimed to make the material capable of \"inertial mass reduction\" (i.e., levitation or antigravity functionality)",
+      "citation_offset": {
+        "offset": 1020,
+        "len": 45,
+        "exact": false,
+        "matched": " (i.e., levitation or antigravity functionali"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Waveguide claim mechanism",
+      "value": "Bismuth and magnesium layers acting as terahertz waveguide",
+      "source_quote": "possibly attributable to the material's bismuth and magnesium layers acting as a terahertz waveguide",
+      "citation_offset": {
+        "offset": 1110,
+        "len": 60,
+        "exact": false,
+        "matched": "bismuth and magnesium layers acting as a terahertz waveguide"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Analyzing laboratory",
+      "value": "Oak Ridge National Laboratory (ORNL)",
+      "source_quote": "AARO secured science and technology partner Oak Ridge National Laboratory (ORNL), one of 17 US Department of Energy national laboratories",
+      "citation_offset": {
+        "offset": 1830,
+        "len": 137,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Prior analysis partner",
+      "value": "US Army DEVCOM via CRADA with To the Stars Academy (TTSA)",
+      "source_quote": "DEVCOM established a Cooperative Research and Development Agreement (CRADA) with To the Stars Academy (TTSA)",
+      "citation_offset": {
+        "offset": 1244,
+        "len": 95,
+        "exact": false,
+        "matched": "ablished a Cooperative Research and Development Agreement (CRADA) with To the Stars Academy (TT"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Specimen access date",
+      "value": "February 2023",
+      "source_quote": "DEVCOM Ground Vehicle System Center provided ORNL access to the metallic specimen...beginning in February 2023",
+      "citation_offset": {
+        "offset": 2790,
+        "len": 80,
+        "exact": false,
+        "matched": "DEVCOM Ground Vehicle System Center provided ORNL access to the metallic specime"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Bismuth structure finding",
+      "value": "Nanocrystalline pockets in an amorphous matrix, not pure single-crystalline",
+      "source_quote": "appearing to consist of highly nanocrystalline pockets in an otherwise amorphous matrix",
+      "citation_offset": {
+        "offset": 8443,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Waveguide conclusion",
+      "value": "Material is highly unlikely to have ever functioned as a bismuth-based terahertz waveguide",
+      "source_quote": "ORNL determined that this material is highly unlikely to have ever functioned as a bismuth-based terahertz waveguide",
+      "citation_offset": {
+        "offset": 10119,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Origin conclusion",
+      "value": "All data strongly support terrestrial origin",
+      "source_quote": "all data strongly support that the material is terrestrial in origin",
+      "citation_offset": {
+        "offset": 3374,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Magnesium isotope finding",
+      "value": "Falls within normal terrestrial compositions on expected fractionation trendlines",
+      "source_quote": "falls within normal terrestrial compositions and precisely within the expected trendlines of fractionation",
+      "citation_offset": {
+        "offset": 12542,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Lead isotope finding",
+      "value": "Consistent with terrestrial 'common lead', distinct from even lunar materials",
+      "source_quote": "the lead isotopic signature of this specimen is fully consistent with \"common lead\" compositions that exist naturally on Earth",
+      "citation_offset": {
+        "offset": 13828,
+        "len": 70,
+        "exact": false,
+        "matched": "the lead isotopic signature of this specimen is fully consistent with "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Specimen damage evidence",
+      "value": "Heat exposure and mechanical stress damage observed",
+      "source_quote": "consistent with a material that was originally whole but was strained by heat exposure and mechanical forces, possibly for extended periods",
+      "citation_offset": {
+        "offset": 5422,
+        "len": 139,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Manufacturing assessment",
+      "value": "Manufactured terrestrially using an uncommon mixture of elements",
+      "source_quote": "the material was manufactured terrestrially—albeit using an uncommon mixture of elements by today's standards",
+      "citation_offset": {
+        "offset": 18281,
+        "len": 95,
+        "exact": false,
+        "matched": "the material was manufactured terrestrially—albeit using an uncommon mixture of elements by tod"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of samples analyzed",
+      "value": "One parent sample and three subsamples",
+      "source_quote": "a single parent sample and three previously derived subsamples, all from the same material",
+      "citation_offset": {
+        "offset": 2872,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Publication clearance date",
+      "value": "July 1, 2024",
+      "source_quote": "CLEARED For Open Publication Jul 01, 2024",
+      "citation_offset": {
+        "offset": 46,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Release date",
+      "value": "February 6, 2025",
+      "source_quote": "Date: 02/06/2025 Released in Full",
+      "citation_offset": {
+        "offset": 266,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Oak Ridge National Laboratory (ORNL)",
+    "Earth"
+  ],
+  "dated_events": [
+    "in or around 1947 — claimed UAP crash recovery date",
+    "2022 — AARO founded",
+    "February 2023 — ORNL received specimen",
+    "Jul 01, 2024 — cleared for open publication",
+    "02/06/2025 — released by AARO"
+  ],
+  "objects_described": [
+    "Layered magnesium-zinc metallic specimen with bismuth and lead bands, claimed UAP crash material"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The specimen is approximately 97.5% magnesium and 2% zinc by composition",
+      "source_quote": "magnesium and zinc are the primary elements present in the specimen, comprising approximately 97.5% and 2% of the material, respectively",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6405,
+        "len": 136,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The specimen's magnesium isotopic signature falls within normal terrestrial compositions and on expected fractionation trendlines",
+      "source_quote": "falls within normal terrestrial compositions and precisely within the expected trendlines of fractionation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12542,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lead isotopic signature is consistent with terrestrial common lead and distinct from lunar materials",
+      "source_quote": "the lead isotopic signature of this specimen is fully consistent with \"common lead\" compositions that exist naturally on Earth and within terrestrial materials, distinctly separate from even lunar materials",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 13828,
+        "len": 70,
+        "exact": false,
+        "matched": "the lead isotopic signature of this specimen is fully consistent with "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The bismuth in the specimen is nanocrystalline and amorphous, not the pure single-crystalline form needed for a waveguide",
+      "source_quote": "the amorphous and nanocrystalline appearance of the bismuth in the examined layers of the current specimen likely indicates that a pure crystalline layer of bismuth was never present",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8964,
+        "len": 182,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Multiple bismuth layers would interfere with rather than improve waveguide functionality",
+      "source_quote": "multiple layers could instead interfere with such functionality",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9506,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The bismuth is co-located and mixed with lead, which would disrupt dielectric properties needed for waveguide function",
+      "source_quote": "the dielectric properties necessary for bismuth to function as a waveguide would have been disrupted in this material because the bismuth in the specimen is colocated and mixed with lead",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9889,
+        "len": 186,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "ORNL's results align with previous DEVCOM analyses",
+      "source_quote": "Results align with previous DEVCOM analyses, indicating that the structure and composition of the bismuth layers do not meet the requirements necessary to serve as a terahertz waveguide",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3174,
+        "len": 185,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The specimen shows evidence of heat and mechanical damage",
+      "source_quote": "consistent with a material that was originally whole but was strained by heat exposure and mechanical forces, possibly for extended periods",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5422,
+        "len": 139,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The long chain of custody for this specimen cannot be verified",
+      "source_quote": "the long chain of custody for this specimen cannot be verified",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1610,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "ORNL has high confidence the material was manufactured terrestrially using an uncommon element mixture",
+      "source_quote": "ORNL has a high level of confidence that all data indicate the material was manufactured terrestrially—albeit using an uncommon mixture of elements by today's standards",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 18222,
+        "len": 100,
+        "exact": false,
+        "matched": "ORNL has a high level of confidence that all data indicate the material was manufactured terrestrial"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 8,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:31:46.412Z",
+  "qa_completed_at": "2026-06-14T02:33:05.635Z",
+  "timing": {
+    "A": "50.5s",
+    "B": "28.7s",
+    "E": "26.1s"
+  },
+  "public_headline": "Oak Ridge Lab Finds Alleged 1947 UAP Crash Metal Is Terrestrial",
+  "public_tldr": "The Pentagon's UAP office (AARO) sent a metallic specimen — claimed to come from a 1947 UAP crash — to Oak Ridge National Laboratory for independent analysis. ORNL concluded with high confidence that the material is terrestrial in origin and could not have functioned as the alleged antigravity device.",
+  "public_narrative": "In February 2023, the All-domain Anomaly Resolution Office (AARO) arranged for Oak Ridge National Laboratory (ORNL), a U.S. Department of Energy facility, to examine a metallic specimen that had been circulating in UAP research circles for years. The material — a layered slab roughly 97.5% magnesium and 2% zinc, with thin bands containing bismuth and lead in an approximate 1:1 ratio — was claimed to have been recovered from a UAP crash in or around 1947. Supporters of the claim argued that the bismuth and magnesium layers could act as a terahertz waveguide, enabling \"inertial mass reduction\" — essentially levitation or antigravity.\n\nORNL ran extensive microscopy, spectroscopy, and isotope analyses on one parent sample and three subsamples. The laboratory found that the specimen's magnesium isotopic signature falls squarely within normal terrestrial compositions and on expected fractionation trendlines. Its lead isotopic signature is consistent with ordinary terrestrial \"common lead\" and is distinct from even lunar materials. Both findings point firmly to an earthly origin.\n\nThe terahertz waveguide claim fared no better. ORNL found that the bismuth in the specimen consists of nanocrystalline pockets in an amorphous matrix — not the pure single-crystalline structure a waveguide would require. The bismuth is also co-located and mixed with lead, which would disrupt the dielectric properties needed for waveguide function. Multiple bismuth layers would interfere with rather than improve any such capability. ORNL concluded the material is \"highly unlikely to have ever functioned as a bismuth-based terahertz waveguide.\" These results aligned with earlier analyses performed by the U.S. Army's DEVCOM.\n\nThe specimen had previously passed through several hands, including To the Stars Academy (TTSA) and DEVCOM, before reaching ORNL, and it shows signs of heat exposure and mechanical damage. ORNL noted the material was manufactured using an uncommon mixture of elements by today's standards but could not determine what it was originally made for. The document was cleared for open publication on 1 July 2024 and released in full on 6 February 2025.",
+  "public_caveats": [
+    "The specimen's chain of custody since 1947 cannot be verified — the claimed UAP crash origin is unsubstantiated and rests on assertion alone.",
+    "The material passed through multiple organisations (TTSA, DEVCOM) before ORNL received it, raising the possibility of contamination or alteration over decades.",
+    "Heat and mechanical damage to the specimen may have changed its original structure, meaning ORNL cannot make definitive statements about what its crystalline state looked like when first produced.",
+    "Despite thorough analysis, ORNL could not determine what the material was originally manufactured for — only that it is terrestrial.",
+    "Some older comparison data points used in the magnesium isotope analysis could not be independently verified for precision by ORNL."
+  ]
+}

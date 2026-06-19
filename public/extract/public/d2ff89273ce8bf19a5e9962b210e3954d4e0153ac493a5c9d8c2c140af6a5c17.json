@@ -1,0 +1,81 @@
+{
+  "sha256": "d2ff89273ce8bf19a5e9962b210e3954d4e0153ac493a5c9d8c2c140af6a5c17",
+  "title": "CIA-UAP-009, Unknown Flying Objects Observed Over Budapest",
+  "agency": "CIA",
+  "type": "PDF",
+  "incident_date": "1957",
+  "incident_location": "Budapest, Hungary",
+  "what_is_it": "A CIA Information Report documenting UFO sightings observed over Budapest, Hungary in 1957.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "No body text could be extracted from the PDF — the document is likely a scanned image with poor OCR quality.",
+    "All facts are derived from metadata and the CSV catalogue description only; no primary source quotes are available.",
+    "A prior, more heavily redacted version existed publicly, suggesting sensitive content was previously withheld.",
+    "Single-source intelligence report with no corroborating documents identified."
+  ],
+  "fabrication_score": 3,
+  "key_facts": [
+    {
+      "field": "Originating agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Document identifier",
+      "value": "CIA-UAP-009",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident year",
+      "value": "1957",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident location",
+      "value": "Budapest, Hungary",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Budapest"
+  ],
+  "dated_events": [
+    "1957"
+  ],
+  "objects_described": [
+    "Unknown flying objects"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "UFO sightings were reported over Budapest in 1957",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T02:56:47.245Z",
+  "qa_completed_at": "2026-06-14T02:57:16.765Z",
+  "timing": {
+    "A": "12.7s",
+    "B": "16.8s"
+  }
+}

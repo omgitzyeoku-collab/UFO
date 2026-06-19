@@ -1,0 +1,412 @@
+{
+  "sha256": "839c8ba6d5d9686bf1051ad26870450653a8d46528bc6c1789597abbf92c435a",
+  "title": "ODNI UAP record 576UAP0007",
+  "agency": "ODNI",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "Official annual report from the Office of the Director of National Intelligence (ODNI) to Congress on Unidentified Aerial Phenomena (UAP) covering fiscal year 2022.",
+  "core_summary": "This is the ODNI's 2022 annual report on UAP, mandated by the FY 2022 National Defense Authorization Act. It documents a total of 510 UAP reports catalogued as of 30 August 2022, up from the 144 covered in the June 2021 preliminary assessment, and details the establishment of the All-Domain Anomaly Resolution Office (AARO) as the successor to the UAP Task Force. Of 366 newly identified reports, initial analysis characterized 163 as balloon-like, 26 as drone-like, and 6 as clutter, leaving 171 uncharacterized, some of which appeared to demonstrate unusual flight characteristics.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is the unclassified version; additional information is stated to exist in a classified version",
+    "Many reports lack enough detailed data to enable attribution with high certainty",
+    "Initial characterization does not mean positively resolved — many cases remain open",
+    "The increase in reporting may reflect collection bias from concentrated sensor coverage in military areas rather than an actual increase in UAP activity",
+    "The 171 uncharacterized reports include some with unusual characteristics but no specific details are provided in this unclassified version",
+    "No specific incident details, locations, or dates of individual UAP events are disclosed"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Total UAP reports catalogued",
+      "value": "510 as of 30 August 2022",
+      "source_quote": "This totals 510 UAP reports as of 30 August 2022.",
+      "citation_offset": {
+        "offset": 2654,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "New UAP reports since preliminary assessment",
+      "value": "247",
+      "source_quote": "there have been 247 new reports",
+      "citation_offset": {
+        "offset": 2512,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reports discovered or reported late from original period",
+      "value": "119",
+      "source_quote": "another 119 that were either since discovered or reported after the preliminary assessment's time period",
+      "citation_offset": {
+        "offset": 2548,
+        "len": 90,
+        "exact": false,
+        "matched": "another 119 that were either since discovered or reported after the preliminary assessment"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Original preliminary assessment reports",
+      "value": "144 over 17 years",
+      "source_quote": "144 UAP reports covered during the 17 years of UAP reporting included in the ODNI preliminary assessment",
+      "citation_offset": {
+        "offset": 13667,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Balloon or balloon-like entities",
+      "value": "163",
+      "source_quote": "163 characterized as balloon or balloon-like entities",
+      "citation_offset": {
+        "offset": 10490,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAS or UAS-like entities",
+      "value": "26",
+      "source_quote": "26 characterized as Unmanned Aircraft System (UAS) or UAS-like entities",
+      "citation_offset": {
+        "offset": 10415,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Clutter",
+      "value": "6",
+      "source_quote": "6 attributed to clutter",
+      "citation_offset": {
+        "offset": 10551,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Uncharacterized reports",
+      "value": "171",
+      "source_quote": "the remaining 171 uncharacterized and unattributed UAP reports",
+      "citation_offset": {
+        "offset": 10770,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AARO established",
+      "value": "20 July 2022",
+      "source_quote": "AARO was established as the UAPTF's successor entity on 20 July 2022",
+      "citation_offset": {
+        "offset": 7682,
+        "len": 33,
+        "exact": false,
+        "matched": "AARO was established as the UAPTF"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Preliminary assessment published",
+      "value": "25 June 2021",
+      "source_quote": "ODNI's preliminary assessment on UAP, published 25 June 2021",
+      "citation_offset": {
+        "offset": 5506,
+        "len": 55,
+        "exact": false,
+        "matched": "s preliminary assessment on UAP, published 25 June 2021"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Preliminary assessment cut-off date",
+      "value": "05 March 2021",
+      "source_quote": "information cut-off date of 05 March 2021",
+      "citation_offset": {
+        "offset": 9505,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Collisions with US aircraft",
+      "value": "None reported",
+      "source_quote": "there have been no reported collisions between U.S. aircraft and UAP",
+      "citation_offset": {
+        "offset": 12788,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Health effects",
+      "value": "None confirmed",
+      "source_quote": "no encounters with UAP confirmed to contribute directly to adverse health-related effects",
+      "citation_offset": {
+        "offset": 12906,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Primary reporting sources",
+      "value": "US Navy and US Air Force aviators",
+      "source_quote": "The majority of new UAP reporting originates from U.S. Navy and U.S. Air Force aviators and operators",
+      "citation_offset": {
+        "offset": 10986,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Unusual flight characteristics noted",
+      "value": "Some uncharacterized UAP showed unusual capabilities",
+      "source_quote": "Some of these uncharacterized UAP appear to have demonstrated unusual flight characteristics or performance capabilities",
+      "citation_offset": {
+        "offset": 10834,
+        "len": 120,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP in restricted airspace",
+      "value": "Events continue to occur in restricted or sensitive airspace",
+      "source_quote": "UAP events continue to occur in restricted or sensitive airspace",
+      "citation_offset": {
+        "offset": 4102,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporting increase cause",
+      "value": "Better threat understanding and reduced stigma",
+      "source_quote": "partially due to a better understanding of the possible threats that UAP may represent...and partially due to reduced stigma surrounding UAP reporting",
+      "citation_offset": {
+        "offset": 2858,
+        "len": 85,
+        "exact": false,
+        "matched": "partially due to a better understanding of the possible threats that UAP may represen"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Authorizing legislation",
+      "value": "Section 1683, FY 2022 NDAA (Public Law 117-81)",
+      "source_quote": "Section 1683 of the National Defense Authorization Act (NDAA) for Fiscal Year (FY) 2022",
+      "citation_offset": {
+        "offset": 4726,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AARO authority scope",
+      "value": "DoD, IC, and other government agencies",
+      "source_quote": "AARO has the authority to coordinate UAP efforts beyond DoD",
+      "citation_offset": {
+        "offset": 7769,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP definition expanded",
+      "value": "Includes air, sea, and transmedium objects",
+      "source_quote": "The FY 2022 NDAA expands the definition of UAP to include air, sea, and transmedium objects",
+      "citation_offset": {
+        "offset": 7150,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "United States"
+  ],
+  "dated_events": [
+    "05 March 2021",
+    "25 June 2021",
+    "20 July 2022",
+    "30 August 2022",
+    "31 October 2022"
+  ],
+  "objects_described": [
+    "Unmanned Aircraft System (UAS) or UAS-like entities",
+    "balloon or balloon-like entities",
+    "transmedium objects or devices",
+    "UAP exhibiting unusual flight characteristics or performance capabilities"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "510 total UAP reports were catalogued as of 30 August 2022",
+      "source_quote": "This totals 510 UAP reports as of 30 August 2022.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2654,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO was established on 20 July 2022 as the successor to UAPTF",
+      "source_quote": "AARO was established as the UAPTF's successor entity on 20 July 2022.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7717,
+        "len": 34,
+        "exact": false,
+        "matched": " successor entity on 20 July 2022."
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "More than half of 366 newly identified reports exhibited unremarkable characteristics",
+      "source_quote": "judged more than half as exhibiting unremarkable characteristics",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10347,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "163 of the new reports were characterized as balloon or balloon-like",
+      "source_quote": "163 characterized as balloon or balloon-like entities",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10490,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No collisions between US aircraft and UAP have been reported",
+      "source_quote": "there have been no reported collisions between U.S. aircraft and UAP",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12788,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No UAP encounters have been confirmed to cause adverse health effects",
+      "source_quote": "no encounters with UAP confirmed to contribute directly to adverse health-related effects to the observer(s)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12906,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Some uncharacterized UAP appeared to demonstrate unusual flight characteristics or performance capabilities",
+      "source_quote": "Some of these uncharacterized UAP appear to have demonstrated unusual flight characteristics or performance capabilities, and require further analysis.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10834,
+        "len": 151,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The increase in UAP reporting is partially attributed to reduced stigma",
+      "source_quote": "partially due to reduced stigma surrounding UAP reporting",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3033,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The report was drafted by NIM-Aviation in conjunction with AARO with input from 16 agencies",
+      "source_quote": "This report was drafted by ODNI's NIM-Aviation in conjunction with AARO. It includes input from the Under Secretary of Defense for Intelligence and Security",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 5710,
+        "len": 156,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Annual UAP reports are mandated through 31 October 2026",
+      "source_quote": "Not later than 31 October 2022, and annually thereafter until 31 October 2026",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 16028,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "247 new UAP reports were received in the 17 months following the preliminary assessment",
+      "source_quote": "there have been 247 more UAP reports during the 17 months since",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 13780,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 10,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:49:16.143Z",
+  "qa_completed_at": "2026-06-14T01:50:18.787Z",
+  "timing": {
+    "A": "40.6s",
+    "B": "22.0s",
+    "E": "24.6s"
+  },
+  "public_headline": "US Intelligence Logged 510 UAP Reports by August 2022",
+  "public_tldr": "This is the Office of the Director of National Intelligence's annual report to Congress on Unidentified Aerial Phenomena, covering fiscal year 2022. It documents 510 total UAP reports as of 30 August 2022 — a sharp increase from the 144 in the original 2021 preliminary assessment — and describes the creation of a new office to investigate them, though 171 reports remained unexplained.",
+  "public_narrative": "In January 2023, the Office of the Director of National Intelligence (ODNI) delivered its congressionally mandated annual report on Unidentified Aerial Phenomena (UAP) — the government's term for what most people call UFOs. The report was required by Section 1683 of the Fiscal Year 2022 National Defense Authorization Act and covers activity through 30 August 2022.\n\nThe headline number: 510 total UAP reports had been catalogued by that date. That is a dramatic jump from the 144 reports that covered 17 years of data in the ODNI's preliminary assessment published on 25 June 2021. Of the 366 newly identified reports, 247 came in during the 17 months after the preliminary assessment, with another 119 discovered or reported late from the earlier period. The ODNI attributed the surge partly to reduced stigma around UAP reporting and a better understanding of the potential threats these objects may pose. Most reports came from US Navy and US Air Force aviators.\n\nAnalysts managed to categorise some of the new reports: 163 were identified as balloon or balloon-like objects, 26 as unmanned aircraft systems (drones) or drone-like objects, and 6 as clutter. That left 171 reports uncharacterised and unattributed. The report notes that some of these uncharacterised UAP appeared to demonstrate unusual flight characteristics or performance capabilities, but provides no specific details in this unclassified version.\n\nThe report also documents the establishment of the All-Domain Anomaly Resolution Office (AARO) on 20 July 2022, replacing the earlier UAP Task Force. AARO has broader authority, coordinating UAP efforts across the Department of Defense, intelligence community, and other government agencies. Notably, the definition of UAP was expanded to include objects in the air, sea, and those that move between mediums. No collisions between US aircraft and UAP were reported, and no UAP encounters were confirmed to have caused adverse health effects. UAP events continued to occur in restricted or sensitive airspace.",
+  "public_caveats": [
+    "This is the unclassified version of the report; the ODNI states that additional information exists in a classified version not available to the public.",
+    "Many of the 510 reports lack sufficient data to enable attribution with high certainty — initial categorisation does not mean a case is resolved.",
+    "The increase in reporting may reflect concentrated sensor coverage in military areas rather than an actual increase in UAP activity.",
+    "No specific incident details, locations, or dates of individual UAP events are disclosed in this document.",
+    "The 171 uncharacterised reports include some described as showing unusual capabilities, but no further detail is given in the unclassified text."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "sha256": "bff95f2cb5a1fc8dad50d90acd28482d272fa02222e7403fe33c57b9f4f7af48",
+  "title": "CIA-UAP-014, British activity in the Field of \"Unidentified Flying Objects\"",
+  "agency": "CIA",
+  "type": "IMG",
+  "incident_date": "December, 1952",
+  "what_is_it": "A CIA memo documenting British government activities in investigating unidentified flying objects, including a notable sighting at an RAF airfield.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No extracted body text is available — all facts are derived from metadata and the CSV description provided by war.gov.",
+    "The document is an image file (JPG), likely a scan of the original memo, with no OCR text extracted.",
+    "Witness identities and specific RAF airfield location are not specified in available metadata.",
+    "The existence of a prior, more redacted version suggests some content was previously withheld and may now be visible in this release."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "document_id",
+      "value": "CIA-UAP-014",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "originating_agency",
+      "value": "CIA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "date",
+      "value": "December 1952",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "subject",
+      "value": "British activities to identify UFOs",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "December 1952"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The British government was actively working to identify UFOs as of December 1952",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T03:02:19.875Z",
+  "qa_completed_at": "2026-06-14T03:02:49.264Z",
+  "timing": {
+    "A": "14.9s",
+    "B": "14.5s"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "sha256": "c96730d2957cc574f8c92066723592522249748dc3c6406070108ea694f06990",
+  "title": "FAA UAP record 237UAP00562",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center situational awareness report documenting multiple pilot sightings of an unidentified aerial phenomenon near Cape Canaveral, FL.",
+  "core_summary": "On 12 October 2023, multiple aircraft reported seeing bright lights shining through a smoke ring or a possible rocket climbing to between FL300 and FL340 near Cape Canaveral, Florida. The phenomenon resembled a potential SpaceX mission failure. HQ Space Operations confirmed the SpaceX mission was successful and that rocket body recovery was in progress.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The phenomenon was resolved as a confirmed successful SpaceX launch, not a true UAP — this record documents the initial misidentification by pilots",
+    "This is a preliminary FAA operations center report, not a formal investigation",
+    "The coordinates place the incident at Cape Canaveral Space Force Station, consistent with a SpaceX launch"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date of report",
+      "value": "10/13/2023 9:47:00 PM EDT",
+      "source_quote": "Date: 10/13/2023 9:47:00 PM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date of incident",
+      "value": "10/12/2023",
+      "source_quote": "CONUS UFO-UAP ACTIVITY 10-12-2023",
+      "citation_offset": {
+        "offset": 74,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Cape Canaveral, FL",
+      "source_quote": "CAPE CANAVERAL, FL/UFO-UAP ACTIVITY",
+      "citation_offset": {
+        "offset": 205,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Latitude",
+      "value": "28.392218",
+      "source_quote": "Latitude: 28.392218199999999",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Longitude",
+      "value": "-80.607713",
+      "source_quote": "-80.607713200000006",
+      "citation_offset": {
+        "offset": 147,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Local time of incident",
+      "value": "2101L (9:01 PM local)",
+      "source_quote": "2101L",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Description of phenomenon",
+      "value": "Bright lights shining through smoke ring or possible rocket climbing to FL300-FL340",
+      "source_quote": "BRIGHT LIGHTS SHINING THROUGH SMOKE RING OR A POSSIBLE ROCKET CLIMBING AS HIGH AS FL300-FL340",
+      "citation_offset": {
+        "offset": 378,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Appearance",
+      "value": "Resembled a potential SpaceX mission failure",
+      "source_quote": "PHENOMENON HAD THE APPEARANCE OF A POTENTIAL SPACEX MISSION FAILURE",
+      "citation_offset": {
+        "offset": 473,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Resolution",
+      "value": "SpaceX mission confirmed successful; rocket body recovery in progress",
+      "source_quote": "HQ SPACE OPS CONFIRMED SUCCESSFUL MISSION AND ROCKET BODY RECOVERY IN PROGRESS",
+      "citation_offset": {
+        "offset": 542,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of witnesses",
+      "value": "Multiple aircraft crews",
+      "source_quote": "MULTIPLE ACFT REPORTED SIMILAR SIGHTING",
+      "citation_offset": {
+        "offset": 287,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Cape Canaveral, FL"
+  ],
+  "dated_events": [
+    "10/12/2023",
+    "10/13/2023"
+  ],
+  "objects_described": [
+    "Unidentified aerial phenomenon consisting of bright lights through smoke ring",
+    "Possible rocket climbing to FL300-FL340",
+    "SpaceX rocket (confirmed successful mission)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Multiple aircraft reported the same phenomenon near Cape Canaveral on the evening of 12 October 2023",
+      "source_quote": "MULTIPLE ACFT REPORTED SIMILAR SIGHTING OF AN UNIDENTIFIED AERIAL PHENOMENON",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 287,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The phenomenon appeared as bright lights shining through a smoke ring, climbing as high as FL300-FL340 (30,000-34,000 feet)",
+      "source_quote": "BRIGHT LIGHTS SHINING THROUGH SMOKE RING OR A POSSIBLE ROCKET CLIMBING AS HIGH AS FL300-FL340",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 378,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "HQ Space Operations confirmed the SpaceX mission was successful and rocket body recovery was underway",
+      "source_quote": "HQ SPACE OPS CONFIRMED SUCCESSFUL MISSION AND ROCKET BODY RECOVERY IN PROGRESS",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 542,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Eight FAA Air Route Traffic Control Centers were notified",
+      "source_quote": "ZSU-ZJX-ZKC-ZTL-ZME-ZHU-ZFW-ZDV ADVISED",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:38:56.530Z",
+  "qa_completed_at": "2026-06-14T00:39:35.189Z",
+  "timing": {
+    "A": "18.1s",
+    "B": "20.6s",
+    "E": "16.6s"
+  },
+  "public_headline": "Pilots reported mystery lights near Cape Canaveral — SpaceX launch confirmed",
+  "public_tldr": "This FAA Washington Operations Center report documents multiple pilot sightings of bright lights and a smoke ring near Cape Canaveral, Florida on 12 October 2023. The phenomenon was initially reported as unidentified but was resolved when HQ Space Operations confirmed it was a successful SpaceX mission with rocket body recovery underway.",
+  "public_narrative": "On the evening of 12 October 2023, multiple aircraft crews flying near Cape Canaveral, Florida reported seeing an unidentified aerial phenomenon. Pilots described bright lights shining through a smoke ring, or what appeared to be a possible rocket climbing to between 30,000 and 34,000 feet. The sighting was unusual enough that crews believed it resembled a potential SpaceX mission failure.\n\nThe FAA's Washington Operations Center logged the report the following day (13 October 2023) as a situational awareness notice. Multiple FAA Air Route Traffic Control Centers were notified of the sighting.\n\nThe mystery was resolved quickly. HQ Space Operations confirmed that the SpaceX mission in question was successful and that rocket body recovery was already in progress. The bright lights and smoke ring observed by pilots were consistent with normal launch and recovery operations.\n\nThis record is notable not as evidence of an unexplained phenomenon, but as documentation of how routine space launch activity can initially be misidentified by trained observers. The coordinates in the report (28.39°N, 80.61°W) place the incident squarely at Cape Canaveral Space Force Station.",
+  "public_caveats": [
+    "This is not an unexplained case — the FAA resolved it as a confirmed SpaceX launch and rocket body recovery",
+    "The document is a preliminary situational awareness report from the FAA Operations Center, not a formal investigation",
+    "Multiple pilot witnesses reported the same phenomenon, lending credibility to the visual description even though the cause was identified",
+    "Redaction levels are low in this document — the key facts are readable and verifiable",
+    "The record illustrates how even experienced pilots can initially misidentify known aerospace activity as anomalous"
+  ]
+}

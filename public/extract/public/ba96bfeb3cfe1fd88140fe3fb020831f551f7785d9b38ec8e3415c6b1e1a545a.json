@@ -1,0 +1,236 @@
+{
+  "sha256": "ba96bfeb3cfe1fd88140fe3fb020831f551f7785d9b38ec8e3415c6b1e1a545a",
+  "title": "FAA UAP record 237UAP00585",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary information report documenting a pilot's sighting of unidentified aerial phenomena.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot visual observation with no corroborating radar data or additional witnesses mentioned.",
+    "Preliminary information only — this is an initial operations center log entry, not a completed investigation.",
+    "Object altitudes (FL480 and FL580) are pilot estimates, not instrumentally measured.",
+    "Side-to-side movement description is subjective and could be influenced by atmospheric or perceptual factors."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "14 December 2023 at 1653 CST",
+      "source_quote": "Date: 12/14/2023 4:53:00 PM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft callsign",
+      "value": "N90CW",
+      "source_quote": "N90CW, HONDA HDJT",
+      "citation_offset": {
+        "offset": 268,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft type",
+      "value": "Honda HondaJet (HDJT)",
+      "source_quote": "N90CW, HONDA HDJT",
+      "citation_offset": {
+        "offset": 268,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Nashville, TN (JWN) to Mobile, AL (MOB)",
+      "source_quote": "NASHVILLE, TN (JWN) - MOBILE, AL (MOB)",
+      "citation_offset": {
+        "offset": 287,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 380 (approximately 38,000 feet)",
+      "source_quote": "S BOUND AT FL380",
+      "citation_offset": {
+        "offset": 458,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of objects",
+      "value": "2",
+      "source_quote": "2 OBJECTS APPEARING AS LIGHTS",
+      "citation_offset": {
+        "offset": 373,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object appearance",
+      "value": "Lights moving side to side at 12 o'clock position",
+      "source_quote": "2 OBJECTS APPEARING AS LIGHTS MOVING SIDE TO SIDE FROM THE 12 O'CLOCK POSITION",
+      "citation_offset": {
+        "offset": 373,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Estimated object altitudes",
+      "value": "FL480 and FL580 (approximately 48,000 and 58,000 feet)",
+      "source_quote": "PIC REPORTED OBJECTS AT FL480 AND FL580",
+      "citation_offset": {
+        "offset": 485,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 526,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "None",
+      "source_quote": "NO LEO NOTIFICATION",
+      "citation_offset": {
+        "offset": 551,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility involved",
+      "value": "Memphis ARTCC",
+      "source_quote": "MEMPHIS ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 246,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Latitude",
+      "value": "34.744811",
+      "source_quote": "Latitude: 34.744811200000001",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Longitude",
+      "value": "-87.667529",
+      "source_quote": "-87.667529200000004",
+      "citation_offset": {
+        "offset": 147,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Muscle Shoals, AL",
+    "Nashville, TN",
+    "Mobile, AL"
+  ],
+  "dated_events": [
+    "12/14/2023"
+  ],
+  "objects_described": [
+    "2 unidentified objects appearing as lights",
+    "Honda HondaJet (N90CW)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The pilot-in-command reported two luminous objects at estimated altitudes of 48,000 and 58,000 feet, well above the aircraft's own altitude of 38,000 feet.",
+      "source_quote": "PIC REPORTED OBJECTS AT FL480 AND FL580",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 485,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects exhibited lateral movement (side to side) from the pilot's perspective at the 12 o'clock position.",
+      "source_quote": "2 OBJECTS APPEARING AS LIGHTS MOVING SIDE TO SIDE FROM THE 12 O'CLOCK POSITION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 373,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the pilot and no law enforcement was notified.",
+      "source_quote": "NO EVASIVE ACTION TAKEN. NO LEO NOTIFICATION",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 526,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:57:29.031Z",
+  "qa_completed_at": "2026-06-14T00:58:09.172Z",
+  "timing": {
+    "A": "19.5s",
+    "B": "20.7s",
+    "E": "17.9s"
+  },
+  "public_headline": "HondaJet Pilot Reports Two Unidentified Lights Above 38,000 Feet",
+  "public_tldr": "This FAA preliminary report documents a December 2023 incident in which a HondaJet pilot flying from Nashville to Mobile observed two unidentified luminous objects at estimated altitudes of 48,000 and 58,000 feet, well above commercial traffic. The objects appeared as lights moving side to side ahead of the aircraft. No evasive action was taken and no investigation outcome is recorded.",
+  "public_narrative": "On 14 December 2023 at 4:53 PM Central time, the pilot of a Honda HondaJet (registration N90CW) filed a report with the FAA Washington Operations Center about two unidentified objects encountered during a flight from Nashville, Tennessee to Mobile, Alabama. The aircraft was flying southbound at approximately 38,000 feet near Muscle Shoals, Alabama (coordinates 34.74°N, 87.67°W) when the sighting occurred.\n\nThe pilot reported two objects appearing as lights at the 12 o'clock position — directly ahead — moving side to side. The pilot-in-command estimated the objects were at flight level 480 and flight level 580, corresponding to roughly 48,000 and 58,000 feet. Both altitudes are well above standard commercial aviation ceilings. Memphis Air Route Traffic Control Center (ARTCC) was advised of the sighting.\n\nThe pilot took no evasive action and no law enforcement was notified. The document is a preliminary operations center log entry, not a completed investigation. There is no indication the FAA reached any conclusion about what the objects were.\n\nThe record shows low evidence of redaction, and the full text is brief — essentially a structured incident log rather than a detailed analytical report. No radar data, additional witnesses, or follow-up findings are mentioned in the document.",
+  "public_caveats": [
+    "This is a single-source report based entirely on one pilot's visual observation. No corroborating radar data or additional witnesses are mentioned.",
+    "The object altitudes (48,000 and 58,000 feet) are pilot estimates, not instrument measurements. Judging altitude of lights in open sky is inherently imprecise.",
+    "The description of side-to-side movement is subjective and could be influenced by atmospheric conditions or perceptual factors such as autokinesis.",
+    "This is a preliminary operations center log entry, not a completed investigation — no conclusions were reached about what the objects were.",
+    "No physical evidence, photographs, or sensor data accompany this report."
+  ]
+}

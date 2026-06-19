@@ -1,0 +1,196 @@
+{
+  "sha256": "badff8c4bc8bb72bd43b1c81c2bf234e5532a39bd6a229fe62f11eae164b1abe",
+  "title": "FAA UAP record 237UAP00508",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident notification regarding a UFO/UAP sighting reported by a civilian pilot.",
+  "core_summary": "On April 22, 2023, the pilot of N781CW, a Cirrus SR22 aircraft flying westbound at 14,000 feet, reported observing a white unidentified aerial phenomenon approximately 24 nautical miles northwest of Fort Stockton, Texas. No evasive action was taken by the pilot. The report was relayed by Albuquerque Air Route Traffic Control Center (ARTCC) to FAA Operations.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source pilot report with no corroborating radar data or additional witnesses mentioned.",
+    "The report is a preliminary notification, not a full investigation.",
+    "No description of UAP behavior, size, speed, or duration of observation is provided.",
+    "The coordinates place the event in remote West Texas desert terrain."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Date/time of incident",
+      "value": "April 22, 2023, 1820 CDT (6:20 PM Central)",
+      "source_quote": "Date: 4/22/2023 5:59:00 PM (-05 CDT)... /1820C/",
+      "citation_offset": {
+        "offset": 29,
+        "len": 32,
+        "exact": false,
+        "matched": "Date: 4/22/2023 5:59:00 PM (-05 "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Reporting aircraft",
+      "value": "N781CW, Cirrus SR22",
+      "source_quote": "N781CW, CIRRUS SR22, GTU - DNA",
+      "citation_offset": {
+        "offset": 258,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "White unidentified aerial phenomenon",
+      "source_quote": "REPORTED A WHITE UNIDENTIFIED AERIAL PHENOMENON",
+      "citation_offset": {
+        "offset": 290,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "14,000 feet",
+      "source_quote": "W BOUND AT 14,000 FEET",
+      "citation_offset": {
+        "offset": 344,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "24 nautical miles northwest of Fort Stockton, TX",
+      "source_quote": "24 NW FST",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Coordinates",
+      "value": "31.16127088, -103.1992322",
+      "source_quote": "Latitude: 31.16127088... -103.1992322",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Evasive action",
+      "value": "None taken",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "citation_offset": {
+        "offset": 378,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Law enforcement notification",
+      "value": "Not reported",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "citation_offset": {
+        "offset": 403,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Albuquerque ARTCC",
+      "source_quote": "ALBUQUERQUE ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 232,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Fort Stockton, TX",
+    "Albuquerque"
+  ],
+  "dated_events": [
+    "04-22-2023",
+    "4/22/2023"
+  ],
+  "objects_described": [
+    "White unidentified aerial phenomenon",
+    "Cirrus SR22 (reporting aircraft)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Aircraft N781CW is a Cirrus SR22 that was flying from Georgetown to Dona Ana.",
+      "source_quote": "N781CW, CIRRUS SR22, GTU - DNA",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 258,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot reported a white UAP while westbound at 14,000 feet, 24 NM northwest of Fort Stockton.",
+      "source_quote": "REPORTED A WHITE UNIDENTIFIED AERIAL PHENOMENON WHILE W BOUND AT 14,000 FEET 24 NW FST",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 290,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No evasive action was taken by the pilot.",
+      "source_quote": "NO EVASIVE ACTION TAKEN",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 378,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Law enforcement was not notified.",
+      "source_quote": "LEO NOTIFICATION NOT REPORTED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 403,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-13T23:50:47.753Z",
+  "qa_completed_at": "2026-06-13T23:51:23.096Z",
+  "timing": {
+    "A": "17.1s",
+    "B": "18.2s",
+    "E": "19.5s"
+  },
+  "public_headline": "Civilian Pilot Reports White UAP Over West Texas at 14,000 Feet",
+  "public_tldr": "This FAA incident notification records a civilian pilot's sighting of a white unidentified aerial phenomenon near Fort Stockton, Texas, on 22 April 2023. The pilot took no evasive action, and the report was relayed through air traffic control to FAA Operations as a preliminary notification — no investigation or conclusion is included.",
+  "public_narrative": "On 22 April 2023 at approximately 6:20 PM Central time, the pilot of a Cirrus SR22 light aircraft (registration N781CW) reported seeing a white unidentified aerial phenomenon while flying westbound at 14,000 feet. The sighting occurred roughly 24 nautical miles northwest of Fort Stockton, Texas — remote desert terrain in the western part of the state.\n\nThe pilot did not take evasive action, suggesting the object was not perceived as an immediate collision threat. Albuquerque Air Route Traffic Control Center (ARTCC), which manages high-altitude airspace in that region, relayed the report to FAA Operations in Washington. Law enforcement was not notified.\n\nThe document itself is a Washington Operations Center incident notification — essentially a short-form intake record. It is not an investigation report. It contains no analysis, no radar data, no photographs, and no conclusion about what the pilot saw. The UAP is described only as \"white\"; no size, speed, shape, altitude, or behaviour of the object is recorded.\n\nThis is a single-source pilot report with no mentioned corroboration from other aircraft, ground observers, or radar returns. The FAA filed it as a preliminary notification, and there is no indication in the document that any follow-up investigation was conducted.",
+  "public_caveats": [
+    "This is a preliminary notification, not an investigation report — the FAA recorded what the pilot said but drew no conclusions.",
+    "The sighting comes from a single pilot with no corroborating radar data or additional witnesses mentioned in the document.",
+    "The UAP is described only as 'white' — no size, speed, shape, altitude of the object, or duration of the observation is provided.",
+    "There is minimal redaction in this document, but the sparse detail means there is very little to analyse beyond the basic facts of the report.",
+    "The coordinates place the event over remote West Texas desert, an area with limited ground-based observation."
+  ]
+}

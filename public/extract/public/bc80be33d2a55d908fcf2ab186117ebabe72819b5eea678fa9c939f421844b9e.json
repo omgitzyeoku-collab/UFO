@@ -1,0 +1,213 @@
+{
+  "sha256": "bc80be33d2a55d908fcf2ab186117ebabe72819b5eea678fa9c939f421844b9e",
+  "title": "FAA UAP record 237UAP00569",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot's observation of unidentified aerial phenomenon.",
+  "core_summary": "On November 3, 2023, the pilot of a Pilatus PC-12 (registration N822NG) flying from Farmingdale to Atlanta reported an unidentified aerial phenomenon approximately 1,200 feet above the aircraft while southwestbound at flight level 190, about 3 nautical miles northwest of Yardley VOR (ARD) in Pennsylvania. The pilot reported lights suggesting the UAP was an aircraft. Air traffic control observed the object on primary radar only, with no communications from the object.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based on one pilot's observation relayed through ATC",
+    "The pilot themselves noted the UAP had lights consistent with an aircraft, suggesting it may have been a conventional aircraft without transponder or radio contact",
+    "Primary-only radar return means no transponder was detected, but this is also consistent with non-cooperative conventional aircraft",
+    "No follow-up investigation or resolution is documented in this report"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Date and time",
+      "value": "November 3, 2023, 8:10 PM EDT",
+      "source_quote": "Date: 11/3/2023 8:10:00 PM (-04 EDT)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft involved",
+      "value": "N822NG, Pilatus PC-12",
+      "source_quote": "N822NG, PILATUS PC12",
+      "citation_offset": {
+        "offset": 263,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flight route",
+      "value": "Farmingdale (FRG) to DeKalb-Peachtree (PDK)",
+      "source_quote": "FRG - PDK",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "1,200 feet above the aircraft",
+      "source_quote": "1,200 FEET ABOVE ACFT",
+      "citation_offset": {
+        "offset": 339,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "Flight level 190 (approximately 19,000 feet)",
+      "source_quote": "SW BOUND AT FL190",
+      "citation_offset": {
+        "offset": 367,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "3 nautical miles northwest of Yardley VOR (ARD), Yardley, PA",
+      "source_quote": "3 NW YARDLEY VOR (ARD)",
+      "citation_offset": {
+        "offset": 385,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP appearance",
+      "value": "Had lights indicating it was an aircraft",
+      "source_quote": "PIC REPORTED LIGHTS INDICATING THE UAP WAS AN ACFT",
+      "citation_offset": {
+        "offset": 409,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar status",
+      "value": "Primary radar return only, no transponder or ATC communication",
+      "source_quote": "OBSERVED BY FACILITY AS PRIMARY ONLY AND NOT IN COMMUNICATION WITH ATC",
+      "citation_offset": {
+        "offset": 473,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "New York ARTCC",
+      "source_quote": "NEW YORK ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 240,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coordinates",
+      "value": "40.2764°N, 74.8861°W",
+      "source_quote": "Latitude: 40.276402279999999",
+      "citation_offset": {
+        "offset": 108,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Yardley, PA",
+    "Yardley VOR (ARD)",
+    "New York ARTCC",
+    "FRG (Farmingdale)",
+    "PDK (DeKalb-Peachtree)"
+  ],
+  "dated_events": [
+    "11/3/2023",
+    "11-03-2023"
+  ],
+  "objects_described": [
+    "Pilatus PC-12 (N822NG)",
+    "Unidentified aerial phenomenon with lights, observed on primary radar only"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Aircraft N822NG is a Pilatus PC-12 that was flying from Farmingdale to DeKalb-Peachtree on November 3, 2023",
+      "source_quote": "N822NG, PILATUS PC12, FRG - PDK",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 263,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was observed 1,200 feet above the aircraft at flight level 190 near Yardley VOR",
+      "source_quote": "REPORTED AN UNIDENTIFIED AERIAL PHENOMENON 1,200 FEET ABOVE ACFT WHILE SW BOUND AT FL190 3 NW YARDLEY VOR (ARD)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 296,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot reported the UAP had lights suggesting it was an aircraft",
+      "source_quote": "PIC REPORTED LIGHTS INDICATING THE UAP WAS AN ACFT",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 409,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP appeared on primary radar only and was not communicating with air traffic control",
+      "source_quote": "THE UAP WAS OBSERVED BY FACILITY AS PRIMARY ONLY AND NOT IN COMMUNICATION WITH ATC",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 461,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T00:44:51.993Z",
+  "qa_completed_at": "2026-06-14T00:45:26.063Z",
+  "timing": {
+    "A": "19.3s",
+    "B": "14.8s",
+    "E": "18.6s"
+  },
+  "public_headline": "Pilot Reports Unidentified Object Above Aircraft Near Yardley, Pennsylvania",
+  "public_tldr": "This FAA incident report documents a November 2023 sighting by a pilot flying a Pilatus PC-12 near Yardley, Pennsylvania. The pilot observed an unidentified object with lights approximately 1,200 feet above the aircraft at around 19,000 feet altitude; air traffic control saw it on radar but received no transponder signal or radio contact from the object.",
+  "public_narrative": "On the evening of November 3, 2023, at approximately 8:10 PM Eastern time, a pilot flying a Pilatus PC-12 (a single-engine turboprop, registration N822NG) reported an unidentified aerial phenomenon to air traffic control. The aircraft was en route from Farmingdale, New York to DeKalb-Peachtree Airport near Atlanta, travelling southwest at flight level 190 — roughly 19,000 feet.\n\nThe pilot observed the object about 1,200 feet above the aircraft, approximately 3 nautical miles northwest of Yardley VOR (a navigation reference point near Yardley, Pennsylvania, at coordinates 40.28°N, 74.89°W). The pilot reported that the object had lights suggesting it was an aircraft. New York ARTCC (Air Route Traffic Control Center) was advised of the sighting.\n\nAir traffic control confirmed that the object appeared on primary radar only — meaning it showed up as a radar return but was not transmitting a transponder signal and was not in radio communication with controllers. No transponder signal and no radio contact are unusual for conventional aircraft operating at that altitude in controlled airspace.\n\nThe report does not document any follow-up investigation or resolution. There is no conclusion from the FAA about what the object was. The document shows low evidence of redaction — the information appears to be presented largely as recorded.",
+  "public_caveats": [
+    "This is a single-source report based on one pilot's observation relayed through air traffic control. There is no independent corroboration from other pilots or sensors described in this document.",
+    "The pilot themselves noted the object had lights consistent with an aircraft, meaning it may have been a conventional aircraft flying without an active transponder or radio contact — unusual but not impossible.",
+    "A primary-only radar return (no transponder) is consistent with both an unidentified object and a non-cooperative conventional aircraft.",
+    "No follow-up investigation or resolution is documented in this report — the FAA did not reach a conclusion about what the object was.",
+    "This is an operational incident report, not an investigation finding. It records what was reported, not what was determined."
+  ]
+}

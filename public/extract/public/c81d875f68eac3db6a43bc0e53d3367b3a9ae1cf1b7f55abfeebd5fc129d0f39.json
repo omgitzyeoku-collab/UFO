@@ -1,0 +1,240 @@
+{
+  "sha256": "c81d875f68eac3db6a43bc0e53d3367b3a9ae1cf1b7f55abfeebd5fc129d0f39",
+  "title": "FAA UAP record 237UAP00610",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center preliminary information report documenting a UAP sighting reported by a commercial airline crew.",
+  "core_summary": "On February 17, 2024, United Airlines flight 2484 (a Boeing 737 MAX 8) flying from Phoenix to Newark reported an unidentified aerial phenomenon while eastbound at 37,000 feet, approximately 20 nautical miles north of Ardmore, Oklahoma. The UAP was described as 1-5 white lights of varying brightness that moved vertically and horizontally, appearing and quickly disappearing. Other eastbound aircraft between 35,000 and 37,000 feet reported the same phenomenon.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a preliminary report (PRELIM INFO) and may not reflect final findings or additional investigation",
+    "No specific number or identification of the corroborating aircraft is provided",
+    "The report contains no technical sensor data — all observations are visual from cockpit crews",
+    "The coordinates place the event near Ardmore, Oklahoma, consistent with the text description"
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "reporting_flight",
+      "value": "United Airlines flight 2484 (UAL2484)",
+      "source_quote": "UNITED 2484, B38M, PHX - EWR",
+      "citation_offset": {
+        "offset": 266,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "aircraft_type",
+      "value": "Boeing 737 MAX 8 (B38M)",
+      "source_quote": "UNITED 2484, B38M, PHX - EWR",
+      "citation_offset": {
+        "offset": 266,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "route",
+      "value": "Phoenix (PHX) to Newark (EWR)",
+      "source_quote": "PHX - EWR",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "altitude",
+      "value": "Flight Level 370 (37,000 feet)",
+      "source_quote": "ENE BOUND AT FL370",
+      "citation_offset": {
+        "offset": 345,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "location",
+      "value": "20 nautical miles north of Ardmore, Oklahoma",
+      "source_quote": "20 N ADM",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "atc_facility",
+      "value": "Fort Worth ARTCC",
+      "source_quote": "FORT WORTH ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 241,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "uap_description",
+      "value": "1-5 white lights with differing brightness, moving vertically and horizontally, appearing and quickly disappearing",
+      "source_quote": "1-5 WHITE LIGHTS WITH DIFFERENTIATING BRIGHTNESS, MOVING VERTICALLY AND HORIZONTALLY. THE LIGHTS WOULD APPEAR AND QUICKLY DISAPPEAR",
+      "citation_offset": {
+        "offset": 399,
+        "len": 131,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_witnesses",
+      "value": "Other eastbound aircraft between FL350-FL370 reported the same UAP",
+      "source_quote": "OTHER ACFT TRAVELING E BOUND BETWEEN FL350-FL370 REPORTED THE SAME UAP",
+      "citation_offset": {
+        "offset": 532,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_datetime",
+      "value": "2/17/2024 3:54:00 AM CST",
+      "source_quote": "Date: 2/17/2024 3:54:00 AM (-06 CST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "latitude",
+      "value": "34.594027500000003",
+      "source_quote": "Latitude: 34.594027500000003",
+      "citation_offset": {
+        "offset": 109,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "longitude",
+      "value": "-97.020597379999998",
+      "source_quote": "-97.020597379999998",
+      "citation_offset": {
+        "offset": 148,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_reference",
+      "value": "WOC 7-3333 HM/JE",
+      "source_quote": "WOC 7-3333 HM/JE",
+      "citation_offset": {
+        "offset": 604,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Ardmore, Oklahoma",
+    "Phoenix (PHX)",
+    "Newark (EWR)"
+  ],
+  "dated_events": [
+    "2/17/2024 3:54:00 AM CST",
+    "02-17-2024"
+  ],
+  "objects_described": [
+    "UAP described as 1-5 white lights with varying brightness",
+    "Boeing 737 MAX 8 (B38M)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "United Airlines flight 2484 reported a UAP while flying at 37,000 feet near Ardmore, Oklahoma",
+      "source_quote": "UNITED 2484, B38M, PHX - EWR, REPORTED AN UNIDENTIFIED AERIAL PHENOMENON WHILE ENE BOUND AT FL370 20 N ADM",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 266,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP consisted of 1-5 white lights of varying brightness that moved both vertically and horizontally",
+      "source_quote": "1-5 WHITE LIGHTS WITH DIFFERENTIATING BRIGHTNESS, MOVING VERTICALLY AND HORIZONTALLY",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 399,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights appeared and quickly disappeared",
+      "source_quote": "THE LIGHTS WOULD APPEAR AND QUICKLY DISAPPEAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 485,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Multiple other eastbound aircraft at similar altitudes independently reported the same UAP",
+      "source_quote": "OTHER ACFT TRAVELING E BOUND BETWEEN FL350-FL370 REPORTED THE SAME UAP",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 532,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Fort Worth ARTCC was the air traffic control facility involved",
+      "source_quote": "FORT WORTH ARTCC ADVISED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 241,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:19:56.427Z",
+  "qa_completed_at": "2026-06-14T01:20:36.077Z",
+  "timing": {
+    "A": "19.3s",
+    "B": "20.4s",
+    "E": "18.0s"
+  },
+  "public_headline": "Airline Crew and Other Pilots Reported White Lights Over Oklahoma",
+  "public_tldr": "This FAA preliminary report documents a sighting by the crew of United Airlines flight 2484 on 17 February 2024, in which 1–5 white lights of varying brightness were observed moving vertically and horizontally at 37,000 feet near Ardmore, Oklahoma. Other eastbound aircraft at similar altitudes independently reported the same phenomenon.",
+  "public_narrative": "On 17 February 2024 at approximately 3:54 AM Central time, the crew of United Airlines flight 2484 — a Boeing 737 MAX 8 flying from Phoenix to Newark — reported an unidentified aerial phenomenon to Fort Worth Air Route Traffic Control Center (ARTCC). The aircraft was eastbound at 37,000 feet, roughly 20 nautical miles north of Ardmore, Oklahoma.\n\nThe crew described the UAP as between one and five white lights of differing brightness. The lights moved both vertically and horizontally and would appear and then quickly disappear. No onboard sensor data is referenced in the report; the observations are entirely visual from the cockpit.\n\nOther eastbound aircraft flying between 35,000 and 37,000 feet also reported seeing the same phenomenon, though the report does not name or count those corroborating aircraft.\n\nThe document is a preliminary information report from the FAA's Washington Operations Center, filed under reference WOC 7-3333. It records the initial sighting details but does not contain any conclusions, identification of the lights, or evidence of further investigation. There is little sign of redaction in the document.",
+  "public_caveats": [
+    "This is a preliminary report, not a final investigation or finding. It records what was reported, not what was concluded.",
+    "All observations are visual from cockpit crews. The report contains no radar data, infrared imagery, or other sensor evidence.",
+    "The corroborating aircraft are not named or counted — the report says only that other eastbound traffic reported the same thing.",
+    "The document offers no explanation or identification of the lights. It neither rules in nor rules out any specific cause.",
+    "The incident date in the metadata says 2023, but the report itself is dated 17 February 2024 — readers should note this discrepancy."
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "sha256": "e649ec47d4609b69607c64c2872945ae30648d511bda448200d815cde3a5ce17",
+  "title": "FAA UAP record 237UAP00614",
+  "agency": "FAA",
+  "type": "PDF",
+  "incident_date": "2023",
+  "incident_location": null,
+  "what_is_it": "FAA Washington Operations Center incident report documenting a pilot's sighting of an unidentified aerial phenomenon.",
+  "core_summary": "On 23 February 2024, the pilot of a Gulfstream G550 (registration N5430G) flying northbound at 45,000 feet reported two stationary white lights at the 12 o'clock position at 49,000 feet, approximately 140 nautical miles south of Wilmington, NC. Jacksonville ARTCC was notified, and the object was not observed on radar.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source report based solely on pilot visual observation with no radar corroboration.",
+    "No follow-up investigation or resolution is documented in this report.",
+    "The coordinates place the sighting over the Atlantic Ocean off the coast of the Carolinas, consistent with the described location."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Aircraft registration",
+      "value": "N5430G",
+      "source_quote": "N5430G, GULFSTREAM GLF5",
+      "citation_offset": {
+        "offset": 270,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Route",
+      "value": "Providenciales, Turks and Caicos (MBPV) to Newark (EWR)",
+      "source_quote": "PROVIDENCIALES, TURKS AND CAICOS (MBPV) - EWR",
+      "citation_offset": {
+        "offset": 295,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aircraft altitude",
+      "value": "FL450 (45,000 ft)",
+      "source_quote": "N BOUND AT FL450",
+      "citation_offset": {
+        "offset": 418,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP position relative to aircraft",
+      "value": "12 o'clock, stationary at FL490 (49,000 ft)",
+      "source_quote": "AT THE 12 O'CLOCK POSITION... AT FL490",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP description",
+      "value": "Two white lights, appeared stationary",
+      "source_quote": "2 WHITE LIGHTS THAT APPEARED STATIONARY AT FL490",
+      "citation_offset": {
+        "offset": 471,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radar detection",
+      "value": "Not observed on radar",
+      "source_quote": "UAP WAS NOT OBSERVED ON RADAR",
+      "citation_offset": {
+        "offset": 521,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATC facility",
+      "value": "Jacksonville ARTCC",
+      "source_quote": "JACKSONVILLE ARTCC ADVISED",
+      "citation_offset": {
+        "offset": 243,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Approximately 140 nautical miles south of Wilmington, NC",
+      "source_quote": "140 S ILM",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Coordinates",
+      "value": "32.2397°N, 77.9029°W",
+      "source_quote": "Latitude: 32.239667359999999... -77.902888880000006",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Time of event",
+      "value": "2143 Eastern",
+      "source_quote": "2143E",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Report date",
+      "value": "2/23/2024",
+      "source_quote": "Date: 2/23/2024 9:30:00 PM (-05 EST)",
+      "citation_offset": {
+        "offset": 29,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Wilmington, NC",
+    "Providenciales, Turks and Caicos",
+    "Newark (EWR)"
+  ],
+  "dated_events": [
+    "02-23-2024"
+  ],
+  "objects_described": [
+    "Gulfstream G550 (GLF5) N5430G",
+    "UAP described as two stationary white lights at FL490"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Gulfstream G550 registered N5430G was flying from Providenciales to Newark on 23 February 2024.",
+      "source_quote": "N5430G, GULFSTREAM GLF5, PROVIDENCIALES, TURKS AND CAICOS (MBPV) - EWR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 270,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The pilot reported two white lights appearing stationary at 49,000 feet while flying at 45,000 feet.",
+      "source_quote": "2 WHITE LIGHTS THAT APPEARED STATIONARY AT FL490",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 471,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The UAP was not detected on radar.",
+      "source_quote": "UAP WAS NOT OBSERVED ON RADAR",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 521,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The sighting occurred approximately 140 nautical miles south of Wilmington, NC.",
+      "source_quote": "140 S ILM",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-14T01:23:38.765Z",
+  "qa_completed_at": "2026-06-14T01:24:11.609Z",
+  "timing": {
+    "A": "18.2s",
+    "B": "14.6s",
+    "E": "17.0s"
+  },
+  "public_headline": "Pilot Reports Two White Lights at 49,000 Feet Over Atlantic",
+  "public_tldr": "An FAA incident report from 23 February 2024 documents a Gulfstream G550 pilot spotting two stationary white lights above their cruising altitude while flying over the Atlantic Ocean off the Carolinas. The lights were not detected on radar, and no follow-up investigation is recorded in the report.",
+  "public_narrative": "This document is an FAA Washington Operations Center incident report filed on 23 February 2024. It records a pilot sighting of an unidentified aerial phenomenon during a northbound flight from Providenciales, Turks and Caicos, to Newark.\n\nThe pilot of a Gulfstream G550 (registration N5430G), cruising at 45,000 feet, reported seeing two white lights at the 12 o'clock position — directly ahead — that appeared stationary at 49,000 feet. The sighting occurred at approximately 9:43 PM Eastern, roughly 140 nautical miles south of Wilmington, North Carolina, over the Atlantic Ocean.\n\nJacksonville Air Route Traffic Control Center (ARTCC) was notified. Controllers checked their instruments but the object was not observed on radar.\n\nThe report contains no further investigation, no identification of the lights, and no conclusion about what the pilot saw. It is a single-page operational log entry, not an analytical assessment. There is minimal redaction in the document.",
+  "public_caveats": [
+    "This is a single-source report based entirely on one pilot's visual observation. No passengers or crew are quoted, and no other aircraft confirmed the sighting.",
+    "The object was not detected on radar, which means there is no independent instrument data to corroborate the pilot's account.",
+    "No follow-up investigation or resolution is documented. The FAA recorded the report but did not assign a cause or explanation.",
+    "The coordinates place the sighting over open ocean, where visual reference points are limited, especially at night.",
+    "This is an operational incident log, not a formal investigation report — it documents what was reported, not what was concluded."
+  ]
+}
