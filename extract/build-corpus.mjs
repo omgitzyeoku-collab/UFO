@@ -45,6 +45,10 @@ const dedup = new Map();
 for (const r of records) if (r.sha256 && !dedup.has(r.sha256)) dedup.set(r.sha256, r);
 const docs = [...dedup.values()];
 
+// Committed, environment-independent type corrections (blob-sniffed offline).
+let typeOverrides = {};
+try { typeOverrides = JSON.parse(await fs.readFile(path.join(ROOT, 'extract', 'type-overrides.json'), 'utf8')); } catch {}
+
 let qaCount = 0, thumbCount = 0, transcriptCount = 0, typeCorrected = 0;
 const out = [];
 
@@ -77,6 +81,11 @@ for (const d of docs) {
     if (sniffed && (type === 'VID' || type === 'AUD') && (sniffed === 'PDF' || sniffed === 'IMG')) {
       type = sniffed; typeCorrected++;
     }
+  }
+  // Committed override wins over everything (handles e.g. JPEG served at a
+  // .pdf URL, where the extension lies and the blob isn't on the build host).
+  if (typeOverrides[d.sha256] && typeOverrides[d.sha256] !== type) {
+    type = typeOverrides[d.sha256]; typeCorrected++;
   }
 
   // Inline QA summary
