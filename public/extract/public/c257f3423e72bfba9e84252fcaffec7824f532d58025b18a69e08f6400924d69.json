@@ -4,48 +4,34 @@
   "agency": "U.S. Government",
   "type": "IMG",
   "incident_date": "1998",
-  "what_is_it": "A collection of draft and final correspondence from the White House and Congressional offices responding to constituent inquiries about UFOs, dated primarily from 1998.",
+  "what_is_it": "A collection of correspondence from the White House and Congressional offices responding to constituent inquiries about UFOs, dated 1998.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted body text available — all facts derived from metadata and the CSV description only.",
-    "The source is a scanned image (IMG type) with no successful OCR, so no verbatim quotes from the document itself are possible.",
-    "Named individuals within the correspondence are unknown due to lack of extracted text.",
-    "The CSV description appears truncated, so some context may be missing."
+    "The source is an image file (IMG type) and OCR extraction yielded almost no readable text — only fragmentary words.",
+    "Nearly all substantive information comes from the CSV metadata description rather than the extracted source text itself.",
+    "The document collection references materials of both confirmed and unconfirmed authenticity as provided by constituents.",
+    "Claims about government positions on UFOs are drawn from metadata, not directly verifiable from the extracted text."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 7,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "USG-UAP-D001",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "originating_offices",
-      "value": "White House and offices of members of Congress",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "primary_date",
-      "value": "1998",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "subject_reference",
+      "value": "Aeronautics",
+      "source_quote": "eronsutics",
+      "citation_offset": {
+        "offset": 11,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [],
-  "dated_events": [
-    "1998"
-  ],
-  "objects_described": [
-    "UFOs"
-  ],
+  "dated_events": [],
+  "objects_described": [],
   "verifiable_claims": [],
   "tier": "red",
   "confidence_breakdown": {
@@ -54,10 +40,10 @@
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:38:25.142Z",
-  "qa_completed_at": "2026-06-14T03:39:02.300Z",
+  "qa_started_at": "2026-06-19T22:55:16.182Z",
+  "qa_completed_at": "2026-06-19T22:55:43.993Z",
   "timing": {
-    "A": "16.3s",
-    "B": "20.9s"
+    "A": "16.0s",
+    "B": "11.8s"
   }
 }

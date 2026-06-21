@@ -5,84 +5,54 @@
   "type": "IMG",
   "incident_date": "1957",
   "incident_location": "Budapest, Hungary",
-  "what_is_it": "A CIA information report documenting UFO sightings observed over Budapest, Hungary in 1957.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "A 1957 CIA Information Report in image format regarding UFO sightings over Budapest, Hungary — the OCR extraction yielded no intelligible text.",
+  "core_summary": "This is a CIA information report from 1957 documenting UFO sightings observed over Budapest. The document is an image file (.jpg) from which no meaningful text could be extracted; the OCR output consists entirely of garbled characters, indicating the source image is either too degraded, too heavily redacted, or too low-resolution to read.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No machine-readable text could be extracted from this scanned image; all facts are derived from metadata and the CSV description only.",
-    "The full content of the report is not available for analysis without manual reading of the image.",
-    "The document's redaction level is assessed as moderate based on the note that a more redacted version existed previously, but the actual redaction extent in this version cannot be confirmed without reading the image.",
-    "Single-source intelligence report — claims within have not been independently verified."
+    "The source is an image file (.jpg) from which OCR extracted no legible text — all 'extracted' content is garbled noise.",
+    "No facts from the document body can be verified because the text is unreadable.",
+    "All key_facts are derived solely from the filename and the war.gov CSV metadata, not from the document content itself.",
+    "The war.gov description notes a more redacted version was previously on CIA's website, implying this version may contain additional content — but it cannot be confirmed from the OCR output.",
+    "A manual review of the original image file is required to extract any substantive information."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "Originating agency",
-      "value": "CIA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Document identifier",
-      "value": "CIA-UAP-009",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Subject",
-      "value": "Unknown flying objects observed over Budapest",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Incident year",
-      "value": "1957",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Incident location",
-      "value": "Budapest, Hungary",
+      "field": "document_type",
+      "value": "IMG (image file, not machine-readable PDF)",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Budapest, Hungary"
-  ],
-  "dated_events": [
-    "1957"
-  ],
-  "objects_described": [
-    "Unknown flying objects"
-  ],
-  "verifiable_claims": [
-    {
-      "claim": "UFO sightings were reported over Budapest in 1957 and documented by the CIA",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
-    }
-  ],
-  "tier": "red",
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [],
+  "tier": "amber",
   "confidence_breakdown": {
     "green": 0,
     "amber": 0,
-    "red": 1
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:57:16.766Z",
-  "qa_completed_at": "2026-06-14T02:57:42.918Z",
+  "qa_started_at": "2026-06-19T21:08:22.698Z",
+  "qa_completed_at": "2026-06-19T21:08:55.921Z",
   "timing": {
-    "A": "13.6s",
-    "B": "12.5s"
-  }
+    "A": "23.4s",
+    "B": "9.9s",
+    "E": "21.1s"
+  },
+  "public_headline": "CIA Report on 1957 Budapest UFO Sightings Is Unreadable",
+  "public_tldr": "A 1957 CIA information report documents unknown flying objects observed over Budapest, Hungary. The document exists only as an image file so degraded or redacted that no meaningful text can be read from it, leaving its actual findings unknown.",
+  "public_narrative": "In 1957, the Central Intelligence Agency (CIA) produced an information report on unidentified flying objects seen over Budapest, Hungary. The report is catalogued as CIA-UAP-009 in the US Department of War's public release archive.\n\nUnlike most documents in the archive, this one exists only as an image file rather than a searchable PDF. When optical character recognition (OCR) was applied to extract the text, the result was entirely garbled — no intelligible words could be recovered. This means the image is either too degraded, too low-resolution, or too heavily redacted to read by any automated method.\n\nBecause the document text is unreadable, nothing is known about what the CIA actually reported — who witnessed the objects, what they looked like, how the agency assessed the sightings, or what conclusions were drawn. Every fact available comes solely from the file's title and the catalogue metadata, not from the document's contents.\n\nThe war.gov release notes indicate that a more redacted version of this document was previously available on the CIA's own website, suggesting this version may contain additional material. However, that cannot be confirmed without a manual review of the original image file. The document is classified as having extreme redaction evidence.",
+  "public_caveats": [
+    "No text from the actual document body is readable — all available information comes from the filename and catalogue metadata alone.",
+    "The redaction level is rated as extreme, meaning significant content may have been deliberately obscured.",
+    "No witness names, object descriptions, agency conclusions, or specific dates beyond the year 1957 can be verified from this file.",
+    "A previous, more redacted version reportedly existed on the CIA's website, but whether this version contains additional useful content is unknown without manual image review.",
+    "This document cannot corroborate or contradict any UFO claim on its own — it is, in its current form, essentially a placeholder confirming only that such a report once existed."
+  ]
 }

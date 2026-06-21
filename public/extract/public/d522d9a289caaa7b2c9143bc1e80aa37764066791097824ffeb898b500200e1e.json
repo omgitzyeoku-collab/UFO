@@ -5,70 +5,475 @@
   "type": "PDF",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "First-hand witness narrative statement provided to the All-domain Anomaly Resolution Office (AARO) describing a UAP sighting by a federal law enforcement special agent.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "First-hand witness narrative memorandum submitted to the All-domain Anomaly Resolution Office (AARO) describing UAP observations over multiple days in the western United States.",
+  "core_summary": "A U.S. federal law enforcement special agent (Witness 4) reports observing numerous unidentified anomalous phenomena over several days in October 2023 in the western United States. The witness describes bright orange lights that appeared, disappeared, formed geometric patterns (lines, diamonds, hexagons, triangles), and in some cases appeared to eject smaller lights. On a later occasion, the witness observed a static, hovering object at approximately 400 meters distance that appeared to use terrain to stay hidden, with a faint red light and no sound or emissions despite heavy winds.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF (likely scanned/OCR-poor), so all facts are derived from metadata and the CSV description only.",
-    "Single-source witness account (Witness 4); corroboration from other witnesses' statements (Narratives 1-3 and any others) would be needed for verification.",
-    "The actual content of the witness narrative is unavailable, so the nature, behaviour, and characteristics of the observed UAP are unknown from this extraction.",
-    "Redaction level is estimated as moderate based on the document being a witness statement in a government UAP programme, but cannot be confirmed without readable text."
+    "Single-witness narrative: this is one person's account with no corroborating sensor data or physical evidence presented in this document.",
+    "The witness mentions 'several' other federal law enforcement agents observed the same phenomena, but their accounts are not included in this document.",
+    "Some observations may have conventional explanations: the witness themselves noted a Starlink-like string of lights and acknowledged uncertainty about some light sources ('I wasn't sure if it was manmade or not').",
+    "Distances and altitudes are witness estimates (e.g., '1-2k above ground level', 'approx. 400 meters'), not instrument-measured values.",
+    "The witness-provided sketch is referenced but its content is not clearly reproduced in the extracted text.",
+    "The term 'chemtrails' is used by the witness colloquially and does not imply any official characterisation of the trails observed.",
+    "Events span multiple days with some occurring 'some months thereafter', introducing potential memory degradation for later observations.",
+    "The document is unclassified and contains no redactions, but also provides no corroborating evidence beyond the witness statement."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D082",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_date",
+      "value": "02 June 2026",
+      "source_quote": "02 June 2026",
+      "citation_offset": {
+        "offset": 148,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "narrative_number",
-      "value": "Narrative Statement 4 (Witness 4)",
-      "source_quote": "",
+      "field": "witness_designation",
+      "value": "Witness 4",
+      "source_quote": "Narrative from Witness 4 - Western U.S. Event",
+      "citation_offset": {
+        "offset": 175,
+        "len": 30,
+        "exact": false,
+        "matched": "tive from Witness 4 - Western "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "witness_occupation",
+      "value": "U.S. federal law enforcement special agent",
+      "source_quote": "one of several United States (U.S.) federal law enforcement special agents who reported observing unidentified anomalous phenomena",
+      "citation_offset": {
+        "offset": 517,
+        "len": 95,
+        "exact": false,
+        "matched": " federal law enforcement special agents who reported observing unidentified anomalous phenomena"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "incident_timeframe",
+      "value": "October 2023, spanning multiple days",
+      "source_quote": "Sometime in October 2023, just after sunset (7PM)",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
       "field": "incident_location",
-      "value": "Western United States",
-      "source_quote": "",
+      "value": "Western United States (desert terrain)",
+      "source_quote": "in the western United States",
+      "citation_offset": {
+        "offset": 661,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "initial_observation",
+      "value": "Bright ball of light 1-2k above ground level, orange/yellow and white, visible for 1-2 seconds",
+      "source_quote": "I saw a bright ball of light like a shooting star beam across and over a hillside. The light was approximately 1-2k above ground level",
+      "citation_offset": {
+        "offset": 978,
+        "len": 80,
+        "exact": false,
+        "matched": "beam across and over a hillside. The light was approximately 1-2k above ground l"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "color_sequence",
+      "value": "Amber to orange, slightly yellow and white",
+      "source_quote": "The colors of the light went from amber to orange, slightly yellow and white in that order",
+      "citation_offset": {
+        "offset": 1344,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "equipment_used",
+      "value": "Night vision goggles (NVGs)",
+      "source_quote": "Using my night vision goggles (NVGs) I saw the same lights in addition to multiple other lights",
+      "citation_offset": {
+        "offset": 1696,
+        "len": 45,
+        "exact": false,
+        "matched": "Using my night vision goggles (NVGs) I saw th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "light_behavior_hatching",
+      "value": "Larger bright orange lights appeared to eject smaller orange lights",
+      "source_quote": "very bright orange lights that appeared to shoot out smaller orange lights as if being hatched from the larger very bright orange light",
+      "citation_offset": {
+        "offset": 2102,
+        "len": 65,
+        "exact": false,
+        "matched": "to shoot out smaller orange lights as if being hatched from the l"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "hatching_count",
+      "value": "More than five occurrences",
+      "source_quote": "The hatching occurred multiple times, I lost track after five occurrences",
+      "citation_offset": {
+        "offset": 2219,
+        "len": 43,
+        "exact": false,
+        "matched": "d multiple times, I lost track after five o"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "nine_light_formation",
+      "value": "Nine lights in a static horizontal line above a ridgeline, visible 30+ seconds",
+      "source_quote": "I saw nine lights formed a horizontal line just above a ridgeline. The lights were static, not moving, evenly spaced apart and were visible for 30+ seconds",
+      "citation_offset": {
+        "offset": 2383,
+        "len": 95,
+        "exact": false,
+        "matched": "a horizontal line just above a ridgeline. The lights were static, not moving, evenly spaced apa"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "geometric_patterns",
+      "value": "Diamonds, hexagons, triangles",
+      "source_quote": "moved towards another cluster to form a shape, I remember seeing diamonds or hexagons",
+      "citation_offset": {
+        "offset": 6029,
+        "len": 80,
+        "exact": false,
+        "matched": " towards another cluster to form a shape, I remember seeing diamonds or hexagons"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "day2_chemtrails",
+      "value": "White trails observed moving upward toward atmosphere with no visible aircraft",
+      "source_quote": "I also saw what appeared to be chemtrails approx. 10 finger lengths from the highest ridge point",
+      "citation_offset": {
+        "offset": 2919,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "day2_chemtrail_maneuver",
+      "value": "One trail disappeared, another made a U-turn toward ground",
+      "source_quote": "I saw 1 chemtrail disappear and the chemtrail below it made a U turn and headed toward/falling towards the ground very quickly",
+      "citation_offset": {
+        "offset": 3248,
+        "len": 126,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "starlink_resemblance",
+      "value": "String of lights resembling a Starlink deployment observed in same direction",
+      "source_quote": "I saw a string of lights that resembled a Starlink deployment",
+      "citation_offset": {
+        "offset": 3467,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mountain_light_movement",
+      "value": "Light darted between top and bottom of mountain within seconds, no dust cloud",
+      "source_quote": "the light darted between the top and bottom of the mountain within seconds, which would not be feasible for a standard vehicle to do",
+      "citation_offset": {
+        "offset": 4277,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mountain_light_duration",
+      "value": "Approximately 30 minutes",
+      "source_quote": "I watched this light traverse between mountain to mountain for approx. 30 minutes",
+      "citation_offset": {
+        "offset": 4525,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "close_object_distance",
+      "value": "Approximately 400 meters",
+      "source_quote": "At approx. 400 meters away I saw an object that was slightly darker than the sky at dusk",
+      "citation_offset": {
+        "offset": 6719,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "close_object_description",
+      "value": "Static hovering object with faint red light, between two mountain ridges, no sound or emissions",
+      "source_quote": "There was a faint red light on the object which was static and hovering in between two mountain ridges",
+      "citation_offset": {
+        "offset": 6851,
+        "len": 50,
+        "exact": false,
+        "matched": "There was a faint red light on the object which wa"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "close_object_concealment",
+      "value": "Appeared to use terrain to stay hidden",
+      "source_quote": "from my vantage point it seemed to be using the terrain to stay hidden",
+      "citation_offset": {
+        "offset": 7021,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "no_sound_or_emissions",
+      "value": "No sounds or emissions observed despite heavy winds",
+      "source_quote": "No sounds, emissions observed and no movements despite heavy winds at that altitude",
+      "citation_offset": {
+        "offset": 7154,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "later_sighting_months_after",
+      "value": "Yellow light at midnight, moved north to south, observed ~10 minutes, estimated 16 miles away",
+      "source_quote": "Some months thereafter at around midnight I saw a yellow light appear at my eyeline",
+      "citation_offset": {
+        "offset": 7366,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_span_day1",
+      "value": "2-3 hours nonstop",
+      "source_quote": "All these observations occurred within a 2-3 hour span, nonstop",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "signing_official",
+      "value": "Jon T. Kosloski, Director, AARO",
+      "source_quote": "Jon T. Kosloski Director, AARO",
+      "citation_offset": {
+        "offset": 7946,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sketch_provided",
+      "value": "Yes, witness provided a sketch",
+      "source_quote": "Sketch provided by Witness 4",
+      "citation_offset": {
+        "offset": 7908,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "Jon T. Kosloski"
+  ],
   "named_places": [
-    "Western United States"
+    "Western United States",
+    "Washington, DC"
   ],
   "dated_events": [
-    "October 2023"
+    "October 2023",
+    "02 June 2026",
+    "08-MAY 2026"
   ],
   "objects_described": [
-    "Unidentified anomalous phenomena (UAP)"
+    "Bright ball of light (orange/yellow/white, shooting-star-like)",
+    "Multiple singular bright orange lights/orbs of various brightness and size",
+    "Lines of three evenly-spaced lights visible through NVGs",
+    "Nine static lights in horizontal formation above ridgeline",
+    "Clusters of three smaller lights",
+    "Diamond and hexagon formations of lights",
+    "Triangle formations of lights",
+    "White chemtrail-like trails with no visible aircraft",
+    "String of lights resembling Starlink deployment",
+    "Light source producing four smaller lights",
+    "Rapidly traversing mountain light (no dust cloud)",
+    "Very bright white stationary light below ridgeline",
+    "Yellow light moving north to south at approximately 16 miles distance"
   ],
   "verifiable_claims": [
     {
-      "claim": "Witness 4 provided a first-hand narrative statement to AARO about the sighting.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Witness 4 was a U.S. federal law enforcement special agent",
+      "source_quote": "one of several United States (U.S.) federal law enforcement special agents who reported observing unidentified anomalous phenomena",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 517,
+        "len": 95,
+        "exact": false,
+        "matched": " federal law enforcement special agents who reported observing unidentified anomalous phenomena"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Multiple federal law enforcement agents reported the same event",
+      "source_quote": "one of several United States (U.S.) federal law enforcement special agents who reported observing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 517,
+        "len": 62,
+        "exact": false,
+        "matched": " federal law enforcement special agents who reported observing"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The witness used night vision goggles and saw additional lights not visible to the naked eye",
+      "source_quote": "Using my night vision goggles (NVGs) I saw the same lights in addition to multiple other lights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1696,
+        "len": 45,
+        "exact": false,
+        "matched": "Using my night vision goggles (NVGs) I saw th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A light moved between the top and bottom of a mountain within seconds, which the witness stated would be infeasible for a standard vehicle",
+      "source_quote": "the light darted between the top and bottom of the mountain within seconds, which would not be feasible for a standard vehicle to do",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4277,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The rapidly moving light produced no dust cloud on desert terrain with rough dirt roads",
+      "source_quote": "this was desert terrain and very rough dirt roads; the light produced no dust cloud and moved steadily",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4421,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "An object was observed hovering silently at approximately 400 meters distance despite heavy winds",
+      "source_quote": "No sounds, emissions observed and no movements despite heavy winds at that altitude on that evening",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7154,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The hovering object appeared to use terrain to conceal itself between two mountain ridges",
+      "source_quote": "from my vantage point it seemed to be using the terrain to stay hidden",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7021,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The memorandum was signed by Jon T. Kosloski, Director of AARO",
+      "source_quote": "Jon T. Kosloski Director, AARO",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7946,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness provided a sketch of the observations",
+      "source_quote": "Sketch provided by Witness 4",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7908,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Larger bright orange lights appeared to eject or hatch smaller orange lights on multiple occasions",
+      "source_quote": "very bright orange lights that appeared to shoot out smaller orange lights as if being hatched from the larger very bright orange light",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2102,
+        "len": 65,
+        "exact": false,
+        "matched": "to shoot out smaller orange lights as if being hatched from the l"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Lights formed geometric patterns including diamonds, hexagons, and triangles",
+      "source_quote": "I remember seeing diamonds or hexagons",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6071,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 7,
+    "amber": 4,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:12:50.338Z",
-  "qa_completed_at": "2026-06-14T03:13:25.123Z",
+  "qa_started_at": "2026-06-19T21:47:25.799Z",
+  "qa_completed_at": "2026-06-19T21:49:05.035Z",
   "timing": {
-    "A": "14.8s",
-    "B": "20.0s"
-  }
+    "A": "54.4s",
+    "B": "44.8s",
+    "E": "27.1s"
+  },
+  "public_headline": "Federal Agent Reports Unexplained Lights Over Western US Desert",
+  "public_tldr": "A U.S. federal law enforcement agent submitted a first-hand account to the Pentagon's UAP office describing bright orange lights that formed geometric patterns, appeared to eject smaller lights, and a silent hovering object observed at close range over several days in October 2023. The document is a single-witness narrative with no accompanying sensor data or corroborating evidence.",
+  "public_narrative": "This document is a witness statement submitted to the All-domain Anomaly Resolution Office (AARO), the Pentagon's office responsible for investigating unidentified anomalous phenomena (UAP). It was signed by AARO Director Jon T. Kosloski and dated 2 June 2026. The witness, identified only as \"Witness 4,\" is described as a U.S. federal law enforcement special agent — one of several agents who reported observing the same phenomena.\n\nThe account describes events spanning multiple days in October 2023 in desert terrain in the western United States. On the first evening, just after sunset, the witness observed a bright ball of light streaking across the sky at an estimated 1,000–2,000 feet above ground level, changing colour from amber to orange to yellow-white. Using night vision goggles, the witness saw additional lights not visible to the naked eye, including bright orange lights that appeared to eject smaller orange lights — something the witness described as \"hatching.\" This occurred more than five times. Nine lights were also seen arranged in a static horizontal line above a ridgeline for over 30 seconds. The witness reports these observations continued nonstop for two to three hours, with lights forming geometric shapes including diamonds, hexagons, and triangles.\n\nOn a subsequent occasion, the witness observed a light rapidly traversing up and down a mountain within seconds — a movement the witness stated would be impossible for a standard vehicle — producing no dust cloud on the rough desert roads. A separate observation at roughly 400 metres distance revealed an object hovering silently between two mountain ridges with a faint red light, making no sound and showing no movement despite heavy winds. The witness noted it appeared to be using the terrain to stay hidden. Months later, the witness saw a yellow light at midnight moving north to south, estimated at about 16 miles away, which was visible for roughly 10 minutes.\n\nThe document is unclassified and contains minimal redaction. AARO has not included any analysis, conclusions, or assessment of what the witness observed. It is presented solely as a narrative statement. The witness provided a sketch, though its content is not clearly reproduced in the text extraction.",
+  "public_caveats": [
+    "This is a single-witness account with no corroborating sensor data, photographs, video, or physical evidence included in the document.",
+    "The witness mentions that several other federal agents observed the same phenomena, but none of their accounts are included here.",
+    "All distances and altitudes are the witness's own estimates, not instrument measurements — for example, '400 metres' and '1–2,000 feet above ground level.'",
+    "The witness acknowledged uncertainty about some observations, noting a string of lights that resembled a Starlink satellite deployment and stating 'I wasn't sure if it was manmade or not.'",
+    "Some observations occurred months after the initial October 2023 events, introducing potential memory degradation."
+  ]
 }

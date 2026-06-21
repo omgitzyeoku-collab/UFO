@@ -5,70 +5,350 @@
   "type": "IMG",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "First-hand witness narrative statement (Witness 3) describing observations of unidentified anomalous phenomena (UAP) by a federal law enforcement special agent.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "First-hand witness narrative memorandum from a U.S. federal law enforcement special agent describing UAP sightings over two days in October 2023 in the western United States.",
+  "core_summary": "Witness 3, a federal law enforcement special agent, observed a large orange orb in the sky at dusk that alternated between clear and orange coloring, then expelled three smaller red orbs that moved south in a straight line before disappearing. A second sighting occurred the same or following night at a different location, where the witness used night vision goggles to scan the sky. No sound or exhaust trails were associated with either observation.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No extracted body text is available — all facts are derived from metadata and the CSV description only.",
-    "The document is an image file (likely a scanned memorandum) with no successful OCR extraction, so the full witness account is not represented here.",
-    "Single-source witness narrative; observations are unverified by this document alone.",
-    "The exact location within the western United States is not specified in available metadata."
+    "Document is a single-witness narrative account; subjective and based on memory recall.",
+    "The source text appears to be OCR-extracted from an image (JPG), introducing transcription errors throughout.",
+    "The document is truncated — the second sighting narrative is cut off mid-sentence and the full account is not available.",
+    "No sensor data, photographs, or instrument readings accompany this narrative.",
+    "Distance, size, and altitude of the objects could not be determined by the witness.",
+    "Angular speed and elevation estimates are rough approximations by the witness.",
+    "Multiple witnesses are referenced but only Witness 3's account is presented here."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D081",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_date",
+      "value": "02 June 2026",
+      "source_quote": "02 une 2026",
+      "citation_offset": {
+        "offset": 107,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "narrative_number",
-      "value": "Narrative Statement 3 (Witness 3)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "witness_designation",
+      "value": "Witness 3",
+      "source_quote": "Namative from Witness 3 - Westem U.S. Event",
+      "citation_offset": {
+        "offset": 150,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
-      "value": "Western United States",
-      "source_quote": "",
+      "field": "witness_role",
+      "value": "U.S. federal law enforcement special agent",
+      "source_quote": "several Unifed Stes (US) federal Law enforcement special agents",
+      "citation_offset": {
+        "offset": 458,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_period",
+      "value": "Mid-October 2023, over two days",
+      "source_quote": "over a period of two days in October 2023 in the western United States",
+      "citation_offset": {
+        "offset": 582,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "first_sighting_time",
+      "value": "Approximately 1900 (dusk)",
+      "source_quote": "at approsimately 1900, roughly dusk with a clear sky",
+      "citation_offset": {
+        "offset": 1009,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "first_sighting_direction",
+      "value": "Looking east",
+      "source_quote": "was looking east when saw a large orange orb",
+      "citation_offset": {
+        "offset": 1064,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_object_description",
+      "value": "Large orange orb alternating between clear and orange every 2-3 seconds",
+      "source_quote": "ltemating between clear and orange with maybe two or hree seconds in each colored cycle",
+      "citation_offset": {
+        "offset": 1309,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "orb_outline_when_clear",
+      "value": "Vaguely visible outline even when clear/transparent",
+      "source_quote": "vaguely recall till being able o see am outline of the orb although i was clear",
+      "citation_offset": {
+        "offset": 1503,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "estimated_angular_speed",
+      "value": "Approximately 20 degrees in 3-5 seconds",
+      "source_quote": "the orb moved approximately 20 degrees in he sky in about three fo five seconds",
+      "citation_offset": {
+        "offset": 1613,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "expulsion_event",
+      "value": "At ~45 degrees elevation, the orange orb expelled three smaller red orbs",
+      "source_quote": "it expelled three smaller red orbs. The expulsion appeared fo be mechanical",
+      "citation_offset": {
+        "offset": 1792,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "red_orbs_movement",
+      "value": "Moved south in a straight line, spaced about one second apart",
+      "source_quote": "red orbs then moved fo the south in a straight line spaced about one second apart",
+      "citation_offset": {
+        "offset": 1873,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "relative_size_comparison",
+      "value": "Red orbs compared to grapes expelled from a basketball",
+      "source_quote": "the ed orbs were like grapes being expelled from a basketball",
+      "citation_offset": {
+        "offset": 2436,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sound",
+      "value": "None observed",
+      "source_quote": "Tdo no recal any sound associated with what I saw",
+      "citation_offset": {
+        "offset": 2175,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "exhaust_trails",
+      "value": "None observed",
+      "source_quote": "there were no exhaust trails coming from either the orange or the red orbs",
+      "citation_offset": {
+        "offset": 2232,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "first_event_duration",
+      "value": "Approximately 30-45 seconds",
+      "source_quote": "The time frame for this explanation was maybe 30-45 seconds",
+      "citation_offset": {
+        "offset": 2499,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_sighting_time",
+      "value": "Approximately 2000-2030, nearing full darkness",
+      "source_quote": "the time was probably ~2000-2030 and the sky was clear",
+      "citation_offset": {
+        "offset": 2748,
+        "len": 49,
+        "exact": false,
+        "matched": "ime was probably ~2000-2030 and the sky was clear"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "second_sighting_equipment",
+      "value": "Night vision goggles (NVG)",
+      "source_quote": "I was using NVG fo scan the sky",
+      "citation_offset": {
+        "offset": 2799,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroborating_witness",
+      "value": "Partner agent also observed the first sighting",
+      "source_quote": "I recall my partner asking, \"are you seeing his?\"",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "sky_conditions",
+      "value": "Clear sky for both sightings",
+      "source_quote": "clear sky",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "classification",
+      "value": "UNCLASSIFIED",
+      "source_quote": "UNCLASSIFIED",
+      "citation_offset": {
+        "offset": 0,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "receiving_office",
+      "value": "All-domain Anomaly Resolution Office (AARO)",
+      "source_quote": "provided to the All-domain Anomaly Resolution Office (AARO)",
+      "citation_offset": {
+        "offset": 396,
+        "len": 39,
+        "exact": false,
+        "matched": "domain Anomaly Resolution Office (AARO)"
+      },
+      "confidence": "amber"
     }
   ],
   "named_people": [],
   "named_places": [
-    "Western United States"
+    "Western United States",
+    "Washington, DC",
+    "Defense Pentagon"
   ],
   "dated_events": [
-    "October 2023"
+    "mid-Oct 2023",
+    "02 June 2026",
+    "08 MAY 2026"
   ],
   "objects_described": [
-    "Unidentified anomalous phenomena (UAP)"
+    "Large orange orb alternating clear/orange",
+    "Three smaller red orbs expelled from orange orb",
+    "Night vision goggles (NVG)"
   ],
   "verifiable_claims": [
     {
-      "claim": "Multiple U.S. federal law enforcement special agents observed UAP over two days in October 2023 in the western United States.",
-      "source_quote": "",
+      "claim": "Multiple federal law enforcement special agents independently reported observing UAP over two days in October 2023 in the western United States.",
+      "source_quote": "one of several Unifed Stes (US) federal Law enforcement special agents who reported observing identified anomalous phenomena (UAP)",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 451,
+        "len": 100,
+        "exact": false,
+        "matched": "one of several Unifed Stes (US) federal Law enforcement special agents who reported observing identi"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The large orange orb expelled three smaller red orbs in what appeared to be a mechanical action at approximately 45 degrees elevation.",
+      "source_quote": "it expelled three smaller red orbs. The expulsion appeared fo be mechanical",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1792,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Neither the orange orb nor the red orbs produced any sound or exhaust trails.",
+      "source_quote": "there were no exhaust trails coming from either the orange or the red orbs",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2232,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The orange orb appeared to alternate between an orange and a clear/transparent state on a 2-3 second cycle.",
+      "source_quote": "ltemating between clear and orange with maybe two or hree seconds in each colored cycle",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1309,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness's partner also observed the first event and verbally confirmed the sighting.",
+      "source_quote": "I recall my partner asking, \"are you seeing his?\"",
       "verifier_verdict": "partial",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "A second sighting occurred the same or following night at a different location using night vision goggles.",
+      "source_quote": "also in mid-Oet 2023, either the same night or the next night, was out with my partner again but a a different locaton",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2584,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 4,
+    "amber": 2,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:12:22.015Z",
-  "qa_completed_at": "2026-06-14T03:12:50.336Z",
+  "qa_started_at": "2026-06-19T21:46:02.544Z",
+  "qa_completed_at": "2026-06-19T21:47:02.758Z",
   "timing": {
-    "A": "14.7s",
-    "B": "13.6s"
-  }
+    "A": "35.5s",
+    "B": "24.7s",
+    "E": "23.0s"
+  },
+  "public_headline": "Federal Agent Describes Orange Orb Expelling Red Objects Over Western U.S.",
+  "public_tldr": "This unclassified Department of War document is a first-hand narrative from a U.S. federal law enforcement special agent (designated Witness 3) who observed unidentified anomalous phenomena over two days in October 2023 in the western United States. The agent describes a large orange orb that expelled three smaller red orbs, all silent and without exhaust trails, and a second sighting the same or following night using night vision goggles.",
+  "public_narrative": "This document, catalogued as DOW-UAP-D081, is a witness statement provided to the All-domain Anomaly Resolution Office (AARO). It records the account of Witness 3, one of several U.S. federal law enforcement special agents who reported observing unidentified anomalous phenomena (UAP) during mid-October 2023 in the western United States. The document is marked UNCLASSIFIED and dated 02 June 2026.\n\nDuring the first sighting, at roughly 7:00 p.m. under clear skies, the witness was looking east when a large orange orb appeared. The orb alternated between an orange and a clear or transparent state every two to three seconds, and the witness recalls being able to faintly see its outline even during the clear phase. It moved approximately 20 degrees across the sky in three to five seconds. At about 45 degrees elevation, the orb expelled three smaller red orbs in what the witness described as a mechanical action. The red orbs moved south in a straight line, spaced about one second apart, before disappearing. The witness compared the red orbs to grapes being expelled from a basketball. The entire event lasted roughly 30 to 45 seconds. No sound or exhaust trails were observed from any of the objects. The witness's partner agent also observed the event, asking aloud whether the witness was seeing it too.\n\nA second sighting occurred the same or following night at a different location, at approximately 8:00 to 8:30 p.m. as full darkness approached. The witness used night vision goggles to scan the sky. However, the document is truncated — the narrative of the second sighting is cut off mid-sentence, and the full account is not available.\n\nThe Department of War has not offered any conclusion or identification of what was observed. The document is purely a witness narrative with no accompanying sensor data, photographs, or instrument readings.",
+  "public_caveats": [
+    "This is a single-witness narrative based on memory recall. No sensor data, photographs, or instrument readings accompany the account.",
+    "The witness's partner is referenced as also observing the first event, but only Witness 3's account is presented in this document.",
+    "The document appears to have been OCR-extracted from a scanned image, introducing transcription errors throughout the source text.",
+    "The narrative is truncated — the second sighting account is cut off mid-sentence, so the full story is unavailable.",
+    "The witness could not determine the distance, size, or altitude of any of the objects. Angular speed and elevation estimates are rough approximations."
+  ]
 }

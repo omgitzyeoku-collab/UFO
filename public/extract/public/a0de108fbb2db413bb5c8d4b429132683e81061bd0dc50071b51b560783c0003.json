@@ -5,75 +5,200 @@
   "type": "IMG",
   "incident_date": "October, 2024",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI investigative activity form (FD-1057) documenting an interview with a US person about potential UAP incidents in the northeastern United States.",
+  "what_is_it": "An FBI FD-1057 form documenting an investigative interview with a US person regarding multiple UAP sightings in the northeastern United States.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "redaction_evidence": "extreme — nearly all personally identifying information is redacted including names, locations, employer, specific dates, case ID, and approving/drafting personnel, rendering most specific details unrecoverable",
   "interpretation_warnings": [
-    "No body text was extractable from the scanned image; all facts are derived from metadata and the CSV description provided by war.gov.",
-    "The document is a scanned JPG with poor OCR results, so redacted or obscured content cannot be assessed in detail beyond the heavy redaction rating inferred from the lack of readable text.",
-    "The interviewee's identity is not disclosed; they are described only as a 'US person'.",
-    "The specific nature of the UAP incidents is not described in the available metadata."
+    "Extreme redaction: virtually all identifying details (names, employer, exact dates, locations, case ID) are obscured, making independent verification impossible.",
+    "The source text is OCR-extracted from an image and contains numerous artefacts and garbled characters, reducing confidence in exact quotes.",
+    "Single-source account: the document records one person's testimony with no independent corroboration documented in the visible text.",
+    "Only the first page or portion of the document is visible; the full interview content is not available in this extract.",
+    "This document is part of a linked series (D004–D008, PR001–PR003) covering the same area — context from companion files may alter interpretation."
   ],
-  "fabrication_score": 5,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "document_form_type",
-      "value": "FBI FD-1057 (investigative activity record)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "FBI FD-1057 Electronic Communication",
+      "source_quote": "FEDERAL BUREAU OF INVESTIGATION Eleirenie Communication",
+      "citation_offset": {
+        "offset": 10,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "agency",
-      "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Case classification",
+      "value": "Unidentified Aerial Phenomenon / Unidentified Anomalous Phenomenon (UAP)",
+      "source_quote": "Uoioontified Aerial Phenomenon (ore) ... Unidentified Anomalous #henomenon (var)",
+      "citation_offset": {
+        "offset": 238,
+        "len": 40,
+        "exact": false,
+        "matched": " Unidentified Anomalous #henomenon (var)"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "interview_date",
+      "field": "Interview date",
       "value": "October 2024",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "pate: 10/[f/2024",
+      "citation_offset": {
+        "offset": 96,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_region",
-      "value": "Northeastern United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Interview location",
+      "value": "FBI facility (specific location redacted)",
+      "source_quote": "interviewed at the FBT",
+      "citation_offset": {
+        "offset": 352,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "First UAP sighting date",
+      "value": "November 2021",
+      "source_quote": "first UAR sighting was on 11/ff2021",
+      "citation_offset": {
+        "offset": 687,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "What was observed",
+      "value": "Lights noticed during early morning exercise",
+      "source_quote": "noticed some lights",
+      "citation_offset": {
+        "offset": 775,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Prior evidence provided",
+      "value": "Presentation and videos previously given to FBI",
+      "source_quote": "spoke to a presentation and videos that were previously provided to the enl",
+      "citation_offset": {
+        "offset": 463,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Corroborating witnesses",
+      "value": "Fellow and former employees also aware of sightings",
+      "source_quote": "spoken with fellow and forme: [NNN cvplovec: ... about. the sightings observed tron (property",
+      "citation_offset": {
+        "offset": 549,
+        "len": 43,
+        "exact": false,
+        "matched": "spoken with fellow and forme: [NNN cvplovec"
+      },
+      "confidence": "amber"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Northeastern United States"
-  ],
+  "named_places": [],
   "dated_events": [
-    "October 2024"
+    "10/[redacted]/2024",
+    "11/[redacted]/2021"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "Unidentified lights observed from a property"
+  ],
   "verifiable_claims": [
     {
-      "claim": "The FBI conducted an interview in October 2024 with a US person about potential UAP incidents in the northeastern US.",
-      "source_quote": "",
+      "claim": "The FBI conducted an interview in October 2024 regarding UAP sightings in the northeastern US",
+      "source_quote": "pate: 10/[f/2024 ... Uoioontified Aerial Phenomenon",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 194,
+        "len": 31,
+        "exact": false,
+        "matched": " Uoioontified Aerial Phenomenon"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The interviewee's first UAP sighting occurred in November 2021",
+      "source_quote": "first UAR sighting was on 11/ff2021",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 687,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The interviewee observed lights while exercising at approximately 5am",
+      "source_quote": "was exercising in ME house azound Som when [Jf noticed some lights",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 728,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The interviewee had previously provided a presentation and videos to the FBI",
+      "source_quote": "spoke to a presentation and videos that were previously provided to the enl",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 463,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Multiple current and former colleagues were aware of the sightings from the same property",
+      "source_quote": "spoken with fellow and forme: [NNN cvplovec: ... about. the sightings observed tron (property",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 549,
+        "len": 43,
+        "exact": false,
+        "matched": "spoken with fellow and forme: [NNN cvplovec"
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 3,
+    "amber": 2,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:22:06.399Z",
-  "qa_completed_at": "2026-06-14T03:22:42.566Z",
+  "qa_started_at": "2026-06-19T22:13:46.774Z",
+  "qa_completed_at": "2026-06-19T22:14:31.235Z",
   "timing": {
-    "A": "16.7s",
-    "B": "19.5s"
-  }
+    "A": "24.7s",
+    "B": "19.8s",
+    "E": "20.6s"
+  },
+  "public_headline": "FBI Interviewed a Witness About Repeated UAP Sightings in the Northeast",
+  "public_tldr": "This is an FBI interview form from October 2024 documenting a conversation with a US person who reported multiple sightings of unidentified lights in the northeastern United States, the first occurring in November 2021. The document is so heavily redacted that almost no specific details — names, exact locations, dates, or the FBI's own conclusions — are recoverable.",
+  "public_narrative": "This document is an FBI FD-1057 Electronic Communication — a standard form the Bureau uses to record investigative interviews. It was created in October 2024 and concerns sightings classified under Unidentified Aerial Phenomenon (UAP) in the northeastern United States.\n\nThe person interviewed described their first UAP sighting as occurring in November 2021. They reported noticing unexplained lights while exercising at around 5 a.m. The sightings were observed from a property, though the specific location is redacted. Before this interview, the witness had already provided the FBI with a presentation and videos related to the sightings.\n\nThe document also notes that current and former colleagues of the witness were aware of sightings from the same property, suggesting multiple people may have observed the phenomena. However, no independent corroboration is documented in the visible portion of the text.\n\nThe redaction level is extreme. Names, the witness's employer, specific dates, exact locations, the FBI case ID, and the names of FBI personnel who drafted or approved the document are all obscured. Only the first page or a portion of the full interview is visible in this release, so whatever the FBI concluded — if anything — is not available here.\n\nThis document is part of a linked series (referenced as D004 through D008 and PR001 through PR003) covering the same area, meaning companion files may provide additional context not visible in this single page.",
+  "public_caveats": [
+    "Nearly all identifying details are redacted — names, locations, employer, exact dates, and the FBI case ID — making independent verification impossible.",
+    "This records a single person's testimony. No independent corroboration of the sightings appears in the visible text.",
+    "Only the first page or a portion of the interview is available; the full content and any FBI assessment are not included.",
+    "The source text was extracted via OCR from an image and contains garbled characters, so exact wording carries some uncertainty.",
+    "This is one document in a linked series (D004–D008, PR001–PR003) — reading it in isolation may give an incomplete picture."
+  ]
 }

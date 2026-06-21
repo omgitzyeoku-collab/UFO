@@ -5,69 +5,355 @@
   "type": "PDF",
   "incident_date": "October, 2024",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI investigative activity form (FD-1057) documenting agents' contact with a U.S. person to collect video footage related to UAP incidents in the northeastern United States.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "extreme",
+  "what_is_it": "An FBI investigative activity record (FD-1057 form) documenting the Bureau's contact with a U.S. person who provided video footage and information about repeated UAP sightings near their residence in the northeastern United States.",
+  "core_summary": "In October 2024, FBI special agents met with a U.S. person who provided multiple video clips of unknown objects appearing as plasma orbs near their residence in the northeastern United States. The witness had been privately documenting anomalous lights since November 2021, observing orb-like objects hovering, moving near trees and water, and as close as 200 yards from their home, with correlated spikes in gamma radiation and unusual effects on electronics and GPS devices. The witness, a self-described former skeptic, was referred to the FBI by a liaison contact in August 2024 and wished to keep observations private.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts derive solely from the war.gov CSV metadata description, not from the document itself.",
-    "The document is likely heavily redacted, as is typical for FBI FD-1057 forms released in this collection.",
-    "The specific location, identity of the U.S. person, and content of the video footage are not disclosed in available metadata.",
-    "This is one document in a cluster (D004–D008, PR001–PR003) covering the same general area; context from related files may be needed for fuller understanding.",
-    "Without the source text, it is impossible to verify what the FBI agents actually observed or concluded."
+    "Heavy redaction throughout: witness identity, exact location, dates, case IDs, and agent names are all redacted, preventing independent verification.",
+    "Single primary source: all observations come from one witness, though one neighbour reportedly corroborated seeing strange lights.",
+    "Gamma radiation and electronic effects are self-reported by the witness; no independent scientific measurement or calibration details are provided in the document.",
+    "The document is part of a cluster (FBI-UAP-D004 through D008, PR001-PR003) from the same general area — context from companion documents may alter interpretation.",
+    "OCR artefacts in the source text (e.g. 'UxS', '11111', 'llll') may represent redactions or scanning errors, potentially obscuring additional details.",
+    "The term 'UxS' likely refers to 'Unmanned Systems' (UAS/UUV) but its exact intended meaning in this context is unclear."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "agency",
-      "value": "FBI",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "FBI FD-1057 (investigative activity record)",
+      "source_quote": "FD-10S7 (Rev. S-8-10) F■D■RAL BUREAU OF INVIISTIGATION",
+      "citation_offset": {
+        "offset": 0,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_date",
+      "field": "Case classification",
+      "value": "Unidentified Aerial Phenomenon (UAP) / Unidentified Anomalous Phenomenon (UAP)",
+      "source_quote": "Unidentified Aerial Phenomenon (UAP) - -Unidentified Anomalous Phenomenon (UAP)",
+      "citation_offset": {
+        "offset": 238,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Contact date",
       "value": "October 2024",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "�n October 2024, - - .i provided multiple video clips",
+      "citation_offset": {
+        "offset": 669,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
-      "value": "Northeastern United States (general area, specific location not disclosed)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Object description",
+      "value": "Plasma orbs / anomalous lights",
+      "source_quote": "repeated observations of UxS or UAP appearing as plasma orbs near - residence",
+      "citation_offset": {
+        "offset": 406,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "First observation date",
+      "value": "Early morning hours of November 2021",
+      "source_quote": "anomalous lights appearing to be orbs dating back to llll first observation in the early morning hours of November ■ 2021",
+      "citation_offset": {
+        "offset": 1381,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Proximity to witness",
+      "value": "As close as 200 yards from residence",
+      "source_quote": "sometimes as close as 200 yards from i . residence",
+      "citation_offset": {
+        "offset": 1557,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object behaviours observed",
+      "value": "Hovering statically, moving, above horizon, close to ground, within trees, in or near water",
+      "source_quote": "These objects have been observed hovering in a static position, and moving. They are sometimes observed above the horizon, as well as close to the ground, within the trees, and in or near the water",
+      "citation_offset": {
+        "offset": 1609,
+        "len": 197,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radiation anomaly",
+      "value": "Spikes in gamma radiation correlated with sightings",
+      "source_quote": "reported - - seen spikes in Gamma radiation that correlate with times . has observed the objects",
+      "citation_offset": {
+        "offset": 1967,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Electronic effects",
+      "value": "Unusual effects on electronics and GPS data",
+      "source_quote": "additional unusual effects on electronics and GPS data from devices",
+      "citation_offset": {
+        "offset": 2069,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Data collection methods",
+      "value": "Trail cameras and other sensors deployed on property",
+      "source_quote": "has set up trail cameras and other sensors to collect data from llll property",
+      "citation_offset": {
+        "offset": 1886,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FBI referral date",
+      "value": "August 2024",
+      "source_quote": "previously been referred to the FBI by a FBI liaison contact Title: • Re: Contact with - - 10/- 2024 in August 2024",
+      "citation_offset": {
+        "offset": 796,
+        "len": 115,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Residence tenure",
+      "value": "Since 2006, no anomalous activity until November 2021",
+      "source_quote": "has lived at - residence since 2006 and had not seen any anomalous lights or activity behind - property prior to first observation in November 2021",
+      "citation_offset": {
+        "offset": 2416,
+        "len": 147,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Neighbour corroboration",
+      "value": "One neighbour to the south also reported seeing strange lights in tree line",
+      "source_quote": "neighbor to the south who stated that they had also seen strange lights in the tree line behind their house",
+      "citation_offset": {
+        "offset": 2781,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evidence provided to FBI",
+      "value": "Multiple video clips across at least four sets of enclosures",
+      "source_quote": "1. - Videoa provided by 11111 - 2. - Videos provided by 11111 - 3. - Videos provided by 11111 - • Videos provided by",
+      "citation_offset": {
+        "offset": 541,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Witness prior stance",
+      "value": "Self-described skeptic with no prior interest in UAP topic",
+      "source_quote": "stated . was never interested in the UAP topic prior to 1111 initial observations in November 2021, and stated • would have described - as a skeptic",
+      "citation_offset": {
+        "offset": 2141,
+        "len": 148,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Privacy request",
+      "value": "Witness requested observations not become public",
+      "source_quote": "does not want this information regarding -observations to become public",
+      "citation_offset": {
+        "offset": 3117,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Northeastern United States"
-  ],
+  "named_places": [],
   "dated_events": [
-    "October 2024"
+    "Early morning hours of November 2021 — first observation of anomalous lights",
+    "August 2024 — witness referred to FBI by liaison contact",
+    "October 2024 — FBI contact and video collection",
+    "Evening of October 2024 — renewed activity captured on video"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "Plasma orbs / anomalous lights (hovering, moving, near trees, water, and ground level)",
+    "Unknown UxS or UAP"
+  ],
   "verifiable_claims": [
     {
-      "claim": "The subject matter corresponds to reports originating from the same general area in the northeastern United States",
-      "source_quote": "",
+      "claim": "The witness provided multiple video clips to the FBI showing unknown objects near their residence.",
+      "source_quote": "provided multiple video clips showing objects appearing to be unknown UxS or UAP near residence",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 693,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness was referred to the FBI by a liaison contact in August 2024.",
+      "source_quote": "previously been referred to the FBI by a FBI liaison contact...in August 2024",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 796,
+        "len": 57,
+        "exact": false,
+        "matched": "previously been referred to the FBI by a FBI liaison cont"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The witness first observed anomalous lights in the early morning hours of November 2021.",
+      "source_quote": "anomalous lights appearing to be orbs dating back to llll first observation in the early morning hours of November ■ 2021",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1381,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Objects were observed as close as 200 yards from the witness's residence.",
+      "source_quote": "sometimes as close as 200 yards from i . residence",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1557,
+        "len": 50,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness reported spikes in gamma radiation that correlated with times the objects were observed.",
+      "source_quote": "seen spikes in Gamma radiation that correlate with times . has observed the objects",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1980,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Unusual effects on electronics and GPS data were reported alongside sightings.",
+      "source_quote": "additional unusual effects on electronics and GPS data from devices",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2069,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness deployed trail cameras and other sensors on their property to collect data.",
+      "source_quote": "has set up trail cameras and other sensors to collect data from llll property",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1886,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A neighbour to the south independently reported seeing strange lights in the tree line behind their house.",
+      "source_quote": "neighbor to the south who stated that they had also seen strange lights in the tree line behind their house",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 2781,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness had lived at the residence since 2006 with no anomalous activity prior to November 2021.",
+      "source_quote": "has lived at - residence since 2006 and had not seen any anomalous lights or activity behind - property prior to first observation in November 2021",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2416,
+        "len": 147,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness stated they had no interest in UAP prior to their first observation and would have described themselves as a skeptic.",
+      "source_quote": "was never interested in the UAP topic prior to 1111 initial observations in November 2021, and stated • would have described - as a skeptic",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2150,
+        "len": 139,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness rarely observed human activity in the nature area that could explain the sightings.",
+      "source_quote": "rarely witnessed any human activity in the nature area, and no activity that would explain what. is seeing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2911,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 10,
+    "amber": 1,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:20:17.941Z",
-  "qa_completed_at": "2026-06-14T03:20:53.775Z",
+  "qa_started_at": "2026-06-19T22:09:50.339Z",
+  "qa_completed_at": "2026-06-19T22:10:58.191Z",
   "timing": {
-    "A": "18.1s",
-    "B": "17.7s"
-  }
+    "A": "40.0s",
+    "B": "27.8s",
+    "E": "21.0s"
+  },
+  "public_headline": "FBI Record Documents Witness Reports of Plasma Orbs in Northeastern US",
+  "public_tldr": "This FBI investigative record from October 2024 documents agents meeting with a civilian who provided video footage of recurring unidentified orb-like objects near their home in the northeastern United States. The witness reported sightings dating back to November 2021, along with correlated gamma radiation spikes and electronic interference, though the document is heavily redacted.",
+  "public_narrative": "This document is an FBI FD-1057 form — a standard investigative activity record — classified under Unidentified Aerial Phenomenon (UAP). It records a meeting in October 2024 between FBI special agents and a U.S. person who had been privately documenting strange lights near their home in the northeastern United States since November 2021.\n\nThe witness provided multiple sets of video clips showing objects described as plasma orbs. According to the record, these objects were observed hovering, moving, appearing near trees and water, and approaching as close as 200 yards from the witness's residence. The witness had lived at the property since 2006 and reported no anomalous activity before November 2021. They described themselves as a former sceptic with no prior interest in the UAP topic.\n\nThe witness deployed trail cameras and other sensors on their property and reported spikes in gamma radiation that correlated with sighting times, as well as unusual effects on electronics and GPS devices. A neighbour to the south reportedly also saw strange lights in the tree line behind their house. The witness was referred to the FBI by a liaison contact in August 2024 and requested that their observations not become public.\n\nThe document is heavily redacted throughout: the witness's identity, exact location, specific dates, case identifiers, and agent names are all blacked out. The FBI does not state any conclusion about what the objects are. The record simply documents the contact and the evidence provided.",
+  "public_caveats": [
+    "Heavy redaction throughout the document prevents independent verification of the witness's identity, exact location, and many specific details.",
+    "All observations come from a single primary witness. One neighbour reportedly corroborated seeing strange lights, but no further independent confirmation is documented.",
+    "The gamma radiation spikes and electronic effects are self-reported by the witness; no independent scientific measurement or instrument calibration details appear in the document.",
+    "The FBI record does not offer any conclusion or assessment of what the objects are — it documents the contact only.",
+    "This document is part of a cluster of related FBI records (FBI-UAP-D004 through D008) from the same general area; companion documents may provide additional context."
+  ]
 }

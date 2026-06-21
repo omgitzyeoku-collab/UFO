@@ -4,108 +4,180 @@
   "agency": "CIA",
   "type": "IMG",
   "incident_date": "1972",
-  "what_is_it": "A CIA Intelligence Information Report summarizing observations from a US attendee at a scientific conference in Armenia regarding a speculative paper by Soviet scientists.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "CIA Intelligence Information Report summarizing a US attendee's observations at a Soviet scientific conference.",
+  "core_summary": "A US citizen who attended a conference on the Origins of Life in Yerevan, Armenia in September 1971 reported on a speculative paper by Soviet scientists N. Kardashev and A. Sakharov. The paper concerned the behavior of charged mass collapsing past gravitational singularity, theorizing that if the mass were charged it could bounce back rather than collapse forever, reappearing in a different part of space-time. The US attendee considered the speculation somewhat fantastic but believed the paper was well-grounded in principle.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No extracted body text is available — all facts are derived from metadata and the CSV description only.",
-    "The document is a scanned image (IMG type) with no successful OCR extraction, so the full content remains unreviewed.",
-    "Source quotes are empty throughout because no body text was available for extraction.",
-    "The paper's subject (charged mass in space) is speculative by the document's own description and should not be treated as established science.",
-    "This is a single-source intelligence report based on one US attendee's observations.",
-    "A more redacted version existed publicly, implying this version contains additional sensitive material."
+    "The source text is an OCR extraction from an image document with significant character recognition errors, making some passages ambiguous",
+    "Single-source report based on one US attendee's account of the conference",
+    "The document describes theoretical physics speculation, not a UAP sighting or encounter",
+    "The connection to the UAP/PURSUE collection appears to be the theoretical discussion of mass behavior in space rather than any direct UAP observation",
+    "Some redactions are present in the original document"
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "CIA-UAP-008",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "CIA Intelligence Information Report",
+      "source_quote": "Intelligence Information Report",
+      "citation_offset": {
+        "offset": 5,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "originating_agency",
-      "value": "CIA",
-      "source_quote": "",
+      "field": "Authors of paper",
+      "value": "N. Kardashev (Institute for Space Research, Moscow) and A. Sakharov",
+      "source_quote": "Kardashev, Institute for Space Research, Moscow... His coauthor was the internationally famous... Sakharov",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "year",
-      "value": "1972",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Conference name",
+      "value": "Conference on Origins of Life, Yerevan, Armenia",
+      "source_quote": "Yerevan Conference",
+      "citation_offset": {
+        "offset": 505,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "conference_name",
-      "value": "Conference on Origins of Life",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "conference_location",
-      "value": "Armenia",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "conference_dates",
+      "field": "Conference dates",
       "value": "6-8 September 1971",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "DATE OF INFO. 6-8 September 1971",
+      "citation_offset": {
+        "offset": 314,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "paper_subject",
-      "value": "Charged mass behavior in space",
-      "source_quote": "",
+      "field": "Report date",
+      "value": "1972",
+      "source_quote": "DATED ST. 10 APR 72",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "assessment_of_other_papers",
-      "value": "Low scientific level of other Soviet papers noted",
-      "source_quote": "",
+      "field": "Source of report",
+      "value": "US citizen who attended the Yerevan Conference",
+      "source_quote": "US citizen... attended the Yerevan Conference",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Paper topic",
+      "value": "General relativity and the possibility of charged mass collapsing into a singularity in space",
+      "source_quote": "general relativity and the possibility of a... collapsing into a... hole in space",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Key finding - uncharged mass",
+      "value": "Uncharged mass would either collapse past the point of gravitational singularity forever or close in on itself with no contact with outside world",
+      "source_quote": "mass would just collapse past the point of gravitational singularity and be gone forever... the mass would close in on itself and have no more contact with the outside world",
+      "citation_offset": {
+        "offset": 1211,
+        "len": 50,
+        "exact": false,
+        "matched": " would close in on itself and have no more contact"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Key finding - charged mass",
+      "value": "Charged mass could bounce back and reappear in a different part of space-time",
+      "source_quote": "if the mass were charged... the mass would be able to bounce... bounce back... the mass will come back into a different part of space time",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sakharov's interest",
+      "value": "Sakharov believed the structure of space may be much more complicated than presently thought",
+      "source_quote": "the structure of space may be much more complicated than presently thought",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Kardashev's interest",
+      "value": "Interested in implications for astrophysics",
+      "source_quote": "Kardashev was interested... what implications it has for astrophysics",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "US attendee assessment",
+      "value": "Speculation was somewhat fantastic but paper was well-grounded",
+      "source_quote": "speculation was a bit fantastic and they had taken off in rather wild way. However, he believed the paper was grounded in principle",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
+  "named_people": [
+    "N. Kardashev",
+    "A. Sakharov"
+  ],
+  "named_places": [
+    "Yerevan",
+    "Armenia",
+    "Moscow"
+  ],
+  "dated_events": [
+    "6-8 September 1971",
+    "10 APR 72"
+  ],
   "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "N.S. Kardashev and A. Sakharov presented a speculative paper on charged mass behavior in space at a conference in Armenia in September 1971",
-      "source_quote": "",
-      "verifier_verdict": "partial",
+      "claim": "Kardashev was affiliated with the Institute for Space Research in Moscow",
+      "source_quote": "Kardashev, Institute for Space Research, Moscow",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
     },
     {
-      "claim": "The CIA assessed other Soviet papers at the conference as being of low scientific level",
-      "source_quote": "",
-      "verifier_verdict": "partial",
+      "claim": "Sakharov was internationally famous and a former researcher at an institute",
+      "source_quote": "the internationally famous... the former researcher at the Institute",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Kardashev-Sakharov paper proposed that charged mass collapsing past gravitational singularity would bounce back into a different part of space-time",
+      "source_quote": "if the mass were charged... the mass would be able to bounce... come back into a different part of space time",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
-    "red": 2
+    "amber": 3,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:56:11.747Z",
-  "qa_completed_at": "2026-06-14T02:56:47.244Z",
+  "qa_started_at": "2026-06-19T21:06:33.629Z",
+  "qa_completed_at": "2026-06-19T21:07:22.345Z",
   "timing": {
-    "A": "17.4s",
-    "B": "18.1s"
-  }
+    "A": "31.4s",
+    "B": "17.4s",
+    "E": "21.7s"
+  },
+  "public_headline": "CIA Report Covered Soviet Scientists' Theory on Charged Mass in Space",
+  "public_tldr": "This CIA Intelligence Information Report summarises a US attendee's account of a speculative physics paper presented by Soviet scientists N. Kardashev and A. Sakharov at a 1971 conference in Armenia. The paper theorised that electrically charged mass collapsing into a gravitational singularity could bounce back and reappear elsewhere in space-time, rather than disappearing forever.",
+  "public_narrative": "In September 1971, a conference on the Origins of Life took place in Yerevan, Armenia. Among the papers presented was one by N. Kardashev, of the Institute for Space Research in Moscow, and the internationally recognised physicist A. Sakharov. Their paper dealt with general relativity and what happens when mass collapses into a gravitational singularity — what we would now call a black hole.\n\nThe core idea was this: if the collapsing mass carries no electrical charge, it either falls past the singularity forever or closes in on itself, cut off from the outside universe. But if the mass is electrically charged, the paper argued, it could bounce back and re-emerge in a different part of space-time. Sakharov believed the structure of space might be far more complicated than was generally assumed, while Kardashev was interested in what this meant for astrophysics.\n\nA US citizen who attended the conference reported back to the CIA, and the agency compiled this Intelligence Information Report, dated April 1972. The American source considered the speculation \"somewhat fantastic\" and felt the authors had \"taken off in a rather wild way,\" but acknowledged the paper was well-grounded in principle.\n\nThis document is part of the PURSUE collection released by the US Department of War. Notably, it describes theoretical physics, not a UAP sighting or encounter. Its inclusion in the collection appears to relate to the theoretical discussion of mass behaviour in space rather than any direct observation of unidentified phenomena. Some redactions are present in the original document.",
+  "public_caveats": [
+    "This document describes a theoretical physics discussion, not a UAP sighting or encounter. Its connection to the UAP/PURSUE collection appears indirect.",
+    "The report is based on a single US attendee's account of the conference — a single-source intelligence report, not an independently verified scientific record.",
+    "The original document is an image with significant OCR errors, making some passages ambiguous or difficult to read with certainty.",
+    "Some redactions are present in the original document, though the core scientific content appears largely intact.",
+    "The speculation described — charged mass bouncing back from a singularity — was characterised by the source as 'somewhat fantastic' but 'grounded in principle.' It reflects early 1970s theoretical physics, not established fact."
+  ]
 }

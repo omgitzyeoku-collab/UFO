@@ -7,57 +7,43 @@
   "what_is_it": "A transmittal document forwarding the CIA's 1953 Scientific Advisory Panel report on unidentified flying objects to the Secretary of Defense.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No text was extractable from the scanned image; all facts are derived from file metadata and the war.gov CSV description only.",
-    "The actual content, findings, and recommendations of the Scientific Advisory Panel report cannot be verified from this source alone.",
-    "This is likely related to the Robertson Panel (CIA-convened, January 1953), but that identification cannot be confirmed from the available metadata."
+    "The OCR extraction captured almost no readable text from this image-based document, rendering the source text nearly useless for fact extraction.",
+    "All substantive information is derived from the filename and CSV metadata description, not from the document body itself.",
+    "The document appears to be a scanned image of very poor quality or heavily degraded original, resulting in extreme information loss.",
+    "The referenced CIA Scientific Advisory Panel report is historically known as the Robertson Panel report (January 1953); this document is the transmittal cover, not the report itself."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 4,
   "key_facts": [
     {
-      "field": "subject",
-      "value": "Report of the Scientific Panel on Unidentified Flying Objects",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "year",
-      "value": "1953",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "partial_reference_marking",
+      "value": "CD ses.q2 153",
+      "source_quote": "CD ses.q2 153",
+      "citation_offset": {
+        "offset": 0,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [],
-  "dated_events": [
-    "1953"
-  ],
-  "objects_described": [
-    "unidentified flying objects"
-  ],
-  "verifiable_claims": [
-    {
-      "claim": "The CIA produced a 'Report of the Scientific Panel on Unidentified Flying Objects' in 1953.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
-    }
-  ],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [],
   "tier": "red",
   "confidence_breakdown": {
     "green": 0,
     "amber": 0,
-    "red": 1
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:15:23.614Z",
-  "qa_completed_at": "2026-06-14T03:15:49.572Z",
+  "qa_started_at": "2026-06-19T21:55:45.536Z",
+  "qa_completed_at": "2026-06-19T21:56:08.943Z",
   "timing": {
-    "A": "12.9s",
-    "B": "13.1s"
+    "A": "13.0s",
+    "B": "10.4s"
   }
 }

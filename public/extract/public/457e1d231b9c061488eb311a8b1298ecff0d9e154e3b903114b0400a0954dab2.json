@@ -5,34 +5,81 @@
   "type": "IMG",
   "incident_date": "June 3-6, 1966",
   "incident_location": "Low Earth Orbit",
-  "what_is_it": "Transcript of a NASA debriefing of Gemini IX-A astronauts regarding their observations during the June 1966 mission, including accounts of anomalous visual phenomena.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "what_is_it": "A NASA internal routing slip, used to circulate documents between offices and personnel within the agency.",
+  "core_summary": "This is a NASA routing slip (Form 26, Rev Jan 1963) that was used to direct an attached document through various NASA offices. The form itself contains routing checkboxes and a remarks section, but the text is heavily degraded and largely illegible due to poor image quality. The substantive debriefing content described in the collection metadata (astronaut accounts of flashing lights and sparkles) is not legible in this extracted text.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No body text was extractable from this image-format document; all facts are derived from catalogue metadata only.",
-    "Source quotes are unavailable — the original document text could not be OCR-processed.",
-    "Flashing lights and sparkles in orbit have multiple prosaic explanations (particle debris, retinal effects from cosmic rays, thruster residue) that cannot be evaluated without the full transcript.",
-    "Without the actual transcript text, the specific details, duration, and context of the observations are unknown."
+    "The OCR extraction is extremely degraded — most text is garbled and illegible, making substantive analysis impossible from this source alone.",
+    "The document metadata describes astronaut accounts of 'flashing lights' and 'sparkles' on pages 2-5, but this extracted text appears to cover only the routing slip cover page.",
+    "The described debriefing content (Stafford and Cernan observations) cannot be verified from the available extracted text.",
+    "This is an IMG-type document (photograph of a document), which typically yields poor OCR results compared to native PDFs.",
+    "Single-page routing slip — the substantive multi-page debriefing transcript referenced in the collection description is not present in this extraction."
   ],
-  "fabrication_score": 4,
-  "key_facts": [],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "NASA Routing Slip",
+      "source_quote": "NASA ROUTING SLIP",
+      "citation_offset": {
+        "offset": 0,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "form_number",
+      "value": "NASA Form 26 (Rev Jan 1963)",
+      "source_quote": "NASA Form 26 (Rev Jan 1963)",
+      "citation_offset": {
+        "offset": 291,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
   "named_people": [],
   "named_places": [],
   "dated_events": [],
   "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "verifiable_claims": [
+    {
+      "claim": "This is an official NASA routing slip used for internal document circulation.",
+      "source_quote": "NASA ROUTING SLIP",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 0,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
+    "green": 1,
     "amber": 0,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:37:13.725Z",
-  "qa_completed_at": "2026-06-14T03:37:48.884Z",
+  "qa_started_at": "2026-06-19T22:52:05.510Z",
+  "qa_completed_at": "2026-06-19T22:52:30.019Z",
   "timing": {
-    "A": "16.4s",
-    "B": "18.8s"
-  }
+    "A": "15.8s",
+    "B": "8.7s",
+    "E": "19.1s"
+  },
+  "public_headline": "NASA Routing Slip from 1966 Gemini 9 Debriefing Is Nearly Illegible",
+  "public_tldr": "This document is a NASA internal routing slip (Form 26) associated with the Gemini 9 mission debriefing from June 1966. The image quality is so degraded that almost no substantive content is readable — the multi-page debriefing transcript referenced in the collection description is not present in this extraction.",
+  "public_narrative": "This record, catalogued as NASA-UAP-D022, is a photograph of a NASA routing slip — a standard internal form (Form 26, revised January 1963) used to circulate documents between offices and personnel within the agency. It is associated with the Gemini 9 mission, which took place from 3 to 6 June 1966 in low Earth orbit.\n\nThe routing slip itself is a cover page. It contains checkboxes for directing an attached document through various NASA offices and a remarks section. However, the image quality is extremely poor, and the vast majority of the text is garbled and illegible.\n\nThe collection metadata describes the attached debriefing as containing astronaut accounts of \"flashing lights\" and \"sparkles\" observed during the mission, reportedly discussed on pages 2 through 5. None of that content is present in this extraction, which covers only the single-page routing slip.\n\nBecause the substantive debriefing transcript is missing from the available material, no claims about what the astronauts reported can be verified from this source alone. What can be confirmed is limited to two facts: this is an official NASA routing slip, and it uses Form 26 (revised January 1963).\n\nThe document is classified as having \"extreme\" evidence of redaction or degradation, and the OCR extraction — the process of converting a photographed page into readable text — produced almost nothing usable.",
+  "public_caveats": [
+    "This extraction contains only the routing slip cover page, not the multi-page debriefing transcript described in the collection metadata.",
+    "The image quality is so degraded that OCR produced almost entirely garbled text — substantive analysis from this source alone is impossible.",
+    "Claims about astronaut observations of flashing lights or sparkles cannot be verified from the available extracted text.",
+    "This is a photograph of a document (IMG type), which typically yields far worse text extraction than a native digital PDF.",
+    "Only two facts could be confirmed with high confidence: that it is a NASA routing slip, and the form number (Form 26, Rev Jan 1963)."
+  ]
 }

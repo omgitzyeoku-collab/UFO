@@ -5,69 +5,53 @@
   "type": "IMG",
   "incident_date": "July 1952-1960",
   "incident_location": "Washington State, United States",
-  "what_is_it": "A collection of memoranda and correspondence between the FBI and the U.S. Air Force regarding UFO sightings investigated in Washington State from 1952 to 1960.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "what_is_it": "A heavily degraded cover page or routing sheet from an FBI investigation file related to UFO sightings in Washington State.",
+  "core_summary": "This is a nearly illegible document page from the FBI's files, appearing to be a cover sheet or routing page for correspondence related to UFO investigations. The visible text confirms it originates from the Federal Bureau of Investigation within the U.S. Department of Justice, but the body content is too degraded to extract meaningful information.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No extracted body text is available — the document is a scanned image with no OCR output, so all facts are derived from metadata only.",
-    "Without readable text, the extent of redactions within the document cannot be assessed.",
-    "Details of specific sightings, witness identities, and investigation conclusions are unknown from metadata alone."
+    "The source text is extremely degraded — OCR captured only fragmentary words from what appears to be a cover page or routing slip.",
+    "No substantive content about UFO sightings is recoverable from this particular page; all narrative details come from the CSV metadata description, not the document body.",
+    "The document is an image file (IMG type), not a multi-page PDF, so this single degraded page may be the entirety of what was released under this identifier.",
+    "Readers should not confuse the metadata description (memoranda and correspondence between FBI and USAF) with what is actually legible in the source text."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 2,
   "key_facts": [
     {
       "field": "originating_agency",
-      "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
+      "value": "Federal Bureau of Investigation, U.S. Department of Justice",
+      "source_quote": "Department of Justice... FEDERAL BUREAU of INVESTIGATION",
       "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "investigation_location",
-      "value": "Washington State, United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "subject_matter",
-      "value": "Investigation of various UFO sightings",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Washington State"
-  ],
-  "dated_events": [
-    "July 1952"
-  ],
-  "objects_described": [
-    "Unidentified Flying Objects (UFOs)"
-  ],
-  "verifiable_claims": [
-    {
-      "claim": "The FBI investigated various UFO sightings in Washington State between July 1952 and August 1960.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
-    }
-  ],
-  "tier": "red",
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [],
+  "tier": "amber",
   "confidence_breakdown": {
     "green": 0,
     "amber": 0,
-    "red": 1
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:27:37.762Z",
-  "qa_completed_at": "2026-06-14T03:28:09.302Z",
+  "qa_started_at": "2026-06-19T22:28:14.923Z",
+  "qa_completed_at": "2026-06-19T22:28:41.635Z",
   "timing": {
-    "A": "13.2s",
-    "B": "18.4s"
-  }
+    "A": "16.2s",
+    "B": "10.5s",
+    "E": "20.3s"
+  },
+  "public_headline": "FBI Washington State UFO File Is Nearly Unreadable",
+  "public_tldr": "This document is a severely degraded cover page from an FBI investigation file related to UFO sightings in Washington State between 1952 and 1960. The page confirms it originated from the FBI within the U.S. Department of Justice, but the body text is too damaged to yield any meaningful content about the sightings themselves.",
+  "public_narrative": "This record, catalogued as FBI-UAP-D013, is a single image file from the FBI's archives relating to UFO investigations in Washington State. The time period covered spans from July 1952 through 1960, but the document itself reveals almost nothing about what those investigations found.\n\nWhat survives is a cover page or routing sheet — the kind of administrative slip attached to the front of correspondence as it moved between offices. The only legible text confirms the document came from the Federal Bureau of Investigation, part of the U.S. Department of Justice. Beyond that header, the page is too degraded for any substantive content to be recovered.\n\nBecause this is an image file rather than a multi-page PDF, this single deteriorated page may be the entirety of what was released under this identifier. No names of witnesses, investigators, or military personnel are readable. No descriptions of objects, no dates of specific sightings, and no conclusions can be extracted from the document itself.\n\nThe extreme degradation raises a practical question: whether the poor condition is a result of age and storage, or whether the document was already in this state when it was selected for release. Either way, the result is the same — the public receives a file that confirms an FBI UFO investigation existed in Washington State during the 1950s, but offers no window into what that investigation contained.",
+  "public_caveats": [
+    "The document is nearly illegible — only fragmentary words were captured by optical character recognition, and no substantive content about UFO sightings is recoverable from this page.",
+    "This is a single image file, not a multi-page document, so what you see may be all that was released under this identifier.",
+    "The metadata description references memoranda and correspondence between the FBI and the U.S. Air Force, but none of that content is visible in the actual document text — readers should not confuse the catalogue description with what the source material shows.",
+    "The document's evidence tier is rated 'amber,' meaning confidence in its contents is limited and no individual fact extracted from it reached 'green' (high confidence) status.",
+    "No witnesses, specific sighting dates, object descriptions, or agency conclusions can be confirmed from this document alone."
+  ]
 }

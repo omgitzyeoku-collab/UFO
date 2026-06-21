@@ -4,75 +4,279 @@
   "agency": "CIA",
   "type": "PDF",
   "incident_date": "December, 1952",
-  "what_is_it": "A CIA internal memo summarizing British government activities and investigations into unidentified flying objects.",
+  "what_is_it": "An internal CIA memorandum for record summarising British government activity regarding unidentified flying objects, including a specific RAF sighting incident.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No extracted body text was available — all facts are derived from document metadata and the CSV description only.",
-    "The document is likely a scanned image with poor or no OCR, so the full contents could not be analysed.",
-    "A prior, more heavily redacted version existed publicly, suggesting this release contains additional material, but without readable text the differences cannot be assessed.",
-    "Single-agency source (CIA); no corroboration from British records is included in this document."
+    "The source text has moderate redactions — the messenger's name and some contextual details are obscured.",
+    "The Yorkshire incident description is second-hand, relayed through a messenger rather than directly witnessed by the memo author.",
+    "The second page discussing defence concerns may be from an attached or related document rather than the same memo — its relationship to the main memo is not explicitly stated.",
+    "The reference to Chladni's paper is historically anachronistic — Chladni's work on meteorites was published around 1794, not between 1760–1780 as stated, suggesting possible confusion or OCR error.",
+    "Single-source intelligence: the entire memo relies on one messenger's account of conversations with R.V. Jones."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "CIA-UAP-014",
-      "source_quote": "",
+      "field": "document_date",
+      "value": "18 December 1952",
+      "source_quote": "18 December 1952",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "originating_agency",
-      "value": "CIA",
-      "source_quote": "",
+      "field": "document_type",
+      "value": "Memorandum for Record",
+      "source_quote": "MEMORANDUM FOR RECORD",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "date",
-      "value": "December 1952",
-      "source_quote": "",
+      "field": "author",
+      "value": "H. Marshall Chadwell, Assistant Director Scientific Intelligence",
+      "source_quote": "H. MARSHALL CHADWELL Assistant Director Scientific Intelligence",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
       "field": "subject",
-      "value": "British activity in the field of unidentified flying objects",
-      "source_quote": "",
+      "value": "British Activity in the field of Unidentified Flying Objects",
+      "source_quote": "British Activity in the field of \"Unidentified Flying Objects\"",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "british_committee",
+      "value": "Standing committee on flying saucers created approximately 16 months prior (mid-1951)",
+      "source_quote": "The British have had a standing committee created about sixteen months ago on flying saucers",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "committee_conclusion",
+      "value": "Observations are not enemy aircraft and none have been over Britain",
+      "source_quote": "The group has concluded that the observations are not enemy aircraft and that none have been over Britain.",
+      "citation_offset": {
+        "offset": 629,
+        "len": 30,
+        "exact": false,
+        "matched": "hat the observations are not e"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "yorkshire_incident_timing",
+      "value": "Approximately 10–12 days before 18 December 1952",
+      "source_quote": "The activity has been quiet and normal up to about ten to twelve days ago, at which time the Yorkshire incident took place.",
+      "citation_offset": {
+        "offset": 715,
+        "len": 50,
+        "exact": false,
+        "matched": "The activity has been quiet and normal up to about"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "public_press_coverage",
+      "value": "So many people saw it that articles appeared in the public press",
+      "source_quote": "So many people saw it that articles appeared in the public press.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "jones_concern",
+      "value": "Jones disturbed because correction of public opinion is part of his responsibilities",
+      "source_quote": "This is disturbing to Jones because he realizes that the creation of the correction of public opinion is a part of his responsibilities.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "swedish_reference",
+      "value": "Jones referenced a Swedish incident, presumably 1946 ghost rockets",
+      "source_quote": "Jones reminded us of the Swedish incident (presumably he refers to the one in 1946)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "tremonton_film",
+      "value": "US shared information about a film taken by a Naval NCO (Tremonton incident)",
+      "source_quote": "the film which had been taken by the Naval non-commissioned officer (Tremonton incident)",
+      "citation_offset": {
+        "offset": 1609,
+        "len": 58,
+        "exact": false,
+        "matched": "hich had been taken by the Naval non-commissioned officer "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "defence_concern_1",
+      "value": "Difficulty in positive identification could weaken early warning system",
+      "source_quote": "The difficulty and delay in positive identification which could weaken the early warning system",
+      "citation_offset": {
+        "offset": 2199,
+        "len": 55,
+        "exact": false,
+        "matched": "ntification which could weaken the early warning system"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "defence_concern_2",
+      "value": "Possibility of enemy-induced mass hysteria via faked reports",
+      "source_quote": "The possibility of mass hysteria which might be purposely induced by an enemy at a critical time by faked reports.",
+      "citation_offset": {
+        "offset": 2380,
+        "len": 55,
+        "exact": false,
+        "matched": "ly induced by an enemy at a critical time by faked repo"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "defence_concern_3",
+      "value": "Emergency communications could be overloaded by UFO reports",
+      "source_quote": "The possibility that the emergency communications systems to command headquarters might be seriously overloaded",
+      "citation_offset": {
+        "offset": 2488,
+        "len": 65,
+        "exact": false,
+        "matched": "ions systems to command headquarters might be seriously overloade"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "classification",
+      "value": "SECRET",
+      "source_quote": "SECRET",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [],
+  "named_people": [
+    "R. V. Jones",
+    "H. Marshall Chadwell",
+    "Chladni"
+  ],
+  "named_places": [
+    "Britain",
+    "Yorkshire",
+    "London",
+    "Sweden"
+  ],
   "dated_events": [
-    "December 1952"
+    "18 December 1952",
+    "15 December",
+    "1946",
+    "between 1760 and 1780"
   ],
   "objects_described": [
-    "unidentified flying objects"
+    "perfect flying saucer"
   ],
   "verifiable_claims": [
     {
-      "claim": "The British government was actively investigating UFO sightings as of December 1952",
-      "source_quote": "",
+      "claim": "Britain had a standing committee on flying saucers created approximately mid-1951, under R.V. Jones.",
+      "source_quote": "The British have had a standing committee created about sixteen months ago on flying saucers. Presumably this is now under Dr. Jones through inheritance.",
       "verifier_verdict": "partial",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "The British committee concluded that UFO observations were not enemy aircraft and none had been over Britain.",
+      "source_quote": "The group has concluded that the observations are not enemy aircraft and that none have been over Britain.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 629,
+        "len": 30,
+        "exact": false,
+        "matched": "hat the observations are not e"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "High-ranking RAF officials and pilots witnessed a 'perfect flying saucer' at a Yorkshire RAF field in early December 1952.",
+      "source_quote": "a \"perfect flying saucer\" was seen by these officials as well as RAF pilots",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 1008,
+        "len": 30,
+        "exact": false,
+        "matched": "seen by these officials as wel"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Yorkshire sighting received public press coverage due to the number of witnesses.",
+      "source_quote": "So many people saw it that articles appeared in the public press.",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Jones referenced a paper on the origin of meteorites published in the French Academy of Sciences between 1760 and 1780 by Chladni.",
+      "source_quote": "a paper on the origin of meteorites published in the French Academy of Sciences between 1760 and 1780 by Chladni",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The US informed Jones about a film from the Tremonton incident taken by a Naval NCO.",
+      "source_quote": "the film which had been taken by the Naval non-commissioned officer (Tremonton incident)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1609,
+        "len": 58,
+        "exact": false,
+        "matched": "hich had been taken by the Naval non-commissioned officer "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The CIA planned to bring mass hysteria concerns to the Federal Civil Defense Administration and the Interdepartmental Committee on Internal Security.",
+      "source_quote": "it is planned to bring this to the attention of the FCDA and ICIS through established channels",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3087,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Communications overload concerns were to be raised at a meeting of the Joint Communications and Electronics Committee.",
+      "source_quote": "we intend to introduce the subject at a meeting of the Joint Communications and Electronics Committee",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3344,
+        "len": 90,
+        "exact": false,
+        "matched": "we intend to introduce the subject at a meeting of the Joint Communications and Electronic"
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 1,
+    "amber": 7,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:01:51.815Z",
-  "qa_completed_at": "2026-06-14T03:02:19.873Z",
+  "qa_started_at": "2026-06-19T21:18:42.931Z",
+  "qa_completed_at": "2026-06-19T21:19:51.706Z",
   "timing": {
-    "A": "14.5s",
-    "B": "13.5s"
-  }
+    "A": "38.2s",
+    "B": "30.5s",
+    "E": "26.9s"
+  },
+  "public_headline": "CIA Memo Detailed British Government's UFO Committee and Yorkshire Sighting",
+  "public_tldr": "A secret CIA memo from December 1952, written by the Assistant Director of Scientific Intelligence, summarised British government efforts to investigate UFO reports — including a standing committee that had been running since mid-1951 and a recent sighting at a Yorkshire RAF base witnessed by officials and pilots. The memo also outlined defence concerns: that UFO reports could weaken early-warning systems, enable enemy-induced mass hysteria, or overload emergency communications.",
+  "public_narrative": "On 18 December 1952, H. Marshall Chadwell, the CIA's Assistant Director of Scientific Intelligence, wrote a secret internal memo titled \"British Activity in the field of Unidentified Flying Objects.\" The memo recorded what a messenger — whose name is redacted — had learned from conversations with R.V. Jones, a senior British scientific intelligence figure.\n\nAccording to the memo, Britain had created a standing committee on flying saucers roughly sixteen months earlier (around mid-1951), which Jones had apparently inherited responsibility for. The committee's conclusion at that point was straightforward: the observations were not enemy aircraft, and none had been over Britain. Activity had been \"quiet and normal\" — until about ten to twelve days before the memo was written.\n\nAround that time, a sighting at a Yorkshire RAF base changed the tone. High-ranking RAF officials and pilots reportedly witnessed what was described as a \"perfect flying saucer.\" So many people saw it that the story reached the public press, which troubled Jones because managing public perception fell within his responsibilities. The memo also notes that Jones referenced the 1946 Swedish ghost-rocket incidents and that the US had shared information with him about the Tremonton film — footage taken by a Naval non-commissioned officer in the United States.\n\nThe memo's second section — which may be from an attached or related document — laid out three specific defence concerns: that difficulty identifying unknown objects could weaken early-warning systems, that an enemy could deliberately trigger mass hysteria through faked UFO reports at a critical moment, and that a flood of sighting reports could overload emergency communications. The CIA planned to raise these concerns with the Federal Civil Defense Administration and the Joint Communications and Electronics Committee.\n\nThe document is classified SECRET and contains moderate redactions, primarily obscuring the messenger's identity and some contextual details.",
+  "public_caveats": [
+    "The entire memo is single-source intelligence: it relies on one unnamed messenger's account of conversations with R.V. Jones, not on direct observation or multiple independent reports.",
+    "The messenger's name and some contextual details are redacted, making it impossible to assess the source's reliability or position.",
+    "The Yorkshire sighting description is second-hand — the memo author was not present and is relaying what the messenger reported.",
+    "The second section discussing defence concerns may come from an attached or related document rather than the same memo; its relationship to the main text is not explicitly stated.",
+    "Key facts carry 'amber' confidence ratings, meaning they are supported by the document text but not independently corroborated outside it."
+  ]
 }

@@ -5,34 +5,479 @@
   "type": "PDF",
   "incident_date": "June 3-7, 1965",
   "incident_location": "Low Earth Orbit",
-  "what_is_it": "Transcription of a post-mission experiment debriefing in which Gemini IV astronauts recount observations of bright particles outside their spacecraft.",
+  "what_is_it": "NASA Mission Operation Report and pre-flight memoranda for Gemini IV (GT-4), the second crewed Gemini mission, detailing mission objectives, flight plan, experiments, crew biographies, and additional flight activities including the first American spacewalk.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF (likely scanned with poor OCR); all facts are derived from metadata and the war.gov CSV description only.",
-    "Without the actual transcript text, the nature, behaviour, and context of the 'bright particles' cannot be assessed.",
-    "Bright particles observed during orbital missions are frequently attributed to mundane causes such as ice crystals, paint flakes, or thruster residue — no determination of origin is possible from metadata alone.",
-    "The debriefing occurred roughly two years after the mission (1967 vs 1965), which may affect the precision of the astronauts' recollections."
+    "The pages specifically cited as containing astronaut observations of bright particles (pages 78-81 and 101) are NOT present in the extracted text provided — the UAP-relevant content is missing from this extraction.",
+    "This is a pre-flight planning document (dated May-June 1965) and a post-mission debriefing reference (circa June 1967); it describes intended activities, not necessarily what occurred.",
+    "The document was marked 'FOR INTERNAL USE ONLY' — not classified, but restricted distribution within NASA.",
+    "The 'bright particles' observation referenced in the CSV description could have mundane explanations (spacecraft debris, ice crystals, thruster exhaust) but without the relevant pages no assessment is possible.",
+    "OCR quality is degraded in places, particularly for figure captions and table data, introducing minor transcription errors."
   ],
-  "fabrication_score": 3,
-  "key_facts": [],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "mission_designation",
+      "value": "Gemini Flight Number Four (GT-4)",
+      "source_quote": "Gemini Flight Number Four (GT-4)",
+      "citation_offset": {
+        "offset": 596,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "report_number",
+      "value": "M-913-65-04",
+      "source_quote": "Mission Operation Report No. M-913-65-04",
+      "citation_offset": {
+        "offset": 448,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "launch_date",
+      "value": "On or after June 3, 1965",
+      "source_quote": "scheduled to be launched from Complex 19 at the John F. Kennedy Space Center on or after 3 June 1965",
+      "citation_offset": {
+        "offset": 9371,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mission_duration",
+      "value": "Approximately 97 hours 50 minutes (4 days), 62 revolutions",
+      "source_quote": "The 62 revolution mission will have a duration of approximately 97 hours and 50 minutes",
+      "citation_offset": {
+        "offset": 9902,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "command_pilot",
+      "value": "James A. McDivitt",
+      "source_quote": "James A. McDivitt will be the command pilot",
+      "citation_offset": {
+        "offset": 10107,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "pilot",
+      "value": "Edward H. White, II",
+      "source_quote": "Edward H. White, II will be the pilot",
+      "citation_offset": {
+        "offset": 10155,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "backup_command_pilot",
+      "value": "Frank Borman",
+      "source_quote": "Frank Borman as Command Pilot",
+      "citation_offset": {
+        "offset": 29784,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "backup_pilot",
+      "value": "James A. Lovell, Jr.",
+      "source_quote": "James A. Lovell, Jr., as Pilot",
+      "citation_offset": {
+        "offset": 29818,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "eva_duration",
+      "value": "Approximately 10 minutes",
+      "source_quote": "The total time separated from the spacecraft will be approximately 10 minutes",
+      "citation_offset": {
+        "offset": 3609,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "eva_propulsion",
+      "value": "Hand-held Zero-g Integral Propulsion (ZIP) Unit",
+      "source_quote": "extravehicular maneuvering will be accomplished using a zero g Integral Propulsion (ZIP) Unit",
+      "citation_offset": {
+        "offset": 8737,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "orbit_parameters",
+      "value": "87-161 nautical miles, 32.5 degrees inclination",
+      "source_quote": "inserted into an initial orbit of 87-161 N.M. at an orbital inclination of 32.5 degrees",
+      "citation_offset": {
+        "offset": 9813,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "launch_azimuth",
+      "value": "72 degrees",
+      "source_quote": "launched on an azimuth of 72 degrees",
+      "citation_offset": {
+        "offset": 9748,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "launch_vehicle",
+      "value": "Gemini Launch Vehicle (man-rated Titan II)",
+      "source_quote": "The Gemini Launch Vehicle (GLV) has been modified by man-roting an Air Force Titan II missile",
+      "citation_offset": {
+        "offset": 16686,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "spacecraft_weight",
+      "value": "7,799 lbs fully loaded with crew",
+      "source_quote": "will weigh 7799 lbs. fully loaded with the astronauts onboard",
+      "citation_offset": {
+        "offset": 18714,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_experiments",
+      "value": "13",
+      "source_quote": "Execute the following experiments",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "eva_suit",
+      "value": "G4C suit replacing G3C",
+      "source_quote": "The EVA suit is the new G4C suit which replaces the G3C suit",
+      "citation_offset": {
+        "offset": 5690,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "eva_camera",
+      "value": "35mm Zeiss-Contarex mounted on maneuvering unit",
+      "source_quote": "A 35-mm still camera (Zeiss-Contarex) mounted on the maneuvering unit",
+      "citation_offset": {
+        "offset": 3318,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "recovery_ship",
+      "value": "USS WASP",
+      "source_quote": "including at least 24 hours aboard the recovery aircraft carrier, the USS WASP",
+      "citation_offset": {
+        "offset": 10389,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "landing_area",
+      "value": "Approximately 400 miles southwest of Bermuda",
+      "source_quote": "touchdown approximately 400 miles southwest of Bermuda for a water landing",
+      "citation_offset": {
+        "offset": 10603,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "rendezvous_target",
+      "value": "Booster second stage with flashing lights",
+      "source_quote": "Flashing lights identical to those designed for the Gemini/Agena Vehicle have been installed on the booster second stage",
+      "citation_offset": {
+        "offset": 1981,
+        "len": 85,
+        "exact": false,
+        "matched": "Flashing lights identical to those designed for the Gemini/Agena Vehicle have been in"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "classification",
+      "value": "For Internal Use Only",
+      "source_quote": "FOR INTERNAL USE ONLY",
+      "citation_offset": {
+        "offset": 1233,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mission_control",
+      "value": "First mission controlled from MCC Houston",
+      "source_quote": "control of the mission for the first time will be from the Mission Control Center (MCC) Houston",
+      "citation_offset": {
+        "offset": 14518,
+        "len": 45,
+        "exact": false,
+        "matched": "control of the mission for the first time wil"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "total_program_cost",
+      "value": "$1,353.9 million across FY62-FY67",
+      "source_quote": "Total RD & O",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "depressurization_training",
+      "value": "40 minutes at simulated 150,000 feet at McDonnell, St. Louis",
+      "source_quote": "40 minutes cabin depressurization with the hatches open at a simulated altitude of 150,000 feet in the chambers at McDonnell, St. Louis",
+      "citation_offset": {
+        "offset": 8463,
+        "len": 135,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "James A. McDivitt",
+    "Edward H. White, II",
+    "Frank Borman",
+    "James A. Lovell, Jr.",
+    "Gordon Cooper",
+    "G. E. Mueller",
+    "W. C. Schneider",
+    "C. W. Mathews",
+    "C. C. Kraft",
+    "Patricia A. Hass",
+    "Patricia E. Finegan",
+    "Susan Bugbee",
+    "Merilyn Gerlach"
+  ],
+  "named_places": [
+    "Complex 19, John F. Kennedy Space Center",
+    "Cape Kennedy",
+    "Houston",
+    "Bermuda",
+    "Edwards Air Force Base, California",
+    "Wright-Patterson Air Force Base, Ohio",
+    "McDonnell, St. Louis",
+    "Ascension Island",
+    "Hawaii",
+    "Grand Turk",
+    "Antigua",
+    "Canary Island",
+    "Kano, Nigeria",
+    "Tananarive",
+    "Carnarvon",
+    "Canton Island",
+    "Guaymas, Mexico",
+    "Corpus Christi, Texas",
+    "White Sands, New Mexico",
+    "Eglin AFB",
+    "Patuxent River, Maryland",
+    "Chicago, Illinois",
+    "Cleveland, Ohio",
+    "San Antonio, Texas",
+    "Gary, Indiana",
+    "University of Michigan",
+    "United States Military Academy",
+    "California Institute of Technology",
+    "University of Southern California",
+    "Goddard Space Flight Center",
+    "Merritt Island",
+    "Patrick AFB",
+    "Eleuthera Island",
+    "Guam",
+    "Pago Pago",
+    "Northeast coast of South America",
+    "Williams Air Force Base, California"
+  ],
+  "dated_events": [
+    "June 1, 1965",
+    "May 24, 1965",
+    "June 3, 1965"
+  ],
+  "objects_described": [
+    "Gemini IV spacecraft (GT-4)",
+    "Gemini Launch Vehicle (man-rated Titan II)",
+    "Booster second stage with flashing lights (rendezvous target)",
+    "Zero-g Integral Propulsion (ZIP) Unit (handheld maneuvering device)",
+    "G4C extravehicular spacesuit",
+    "35mm Zeiss-Contarex camera",
+    "Hand-held space sextant",
+    "Proton electron spectrometer",
+    "Tri-axis fluxgate magnetometer",
+    "Electrostatic-potential meter",
+    "Tissue-equivalent ionization chambers (radiation measurement)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "GT-4 was the second manned Gemini mission and fourth overall Gemini flight",
+      "source_quote": "the fourth in a series of twelve planned Gemini flights... This will be the second manned Gemini mission",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9312,
+        "len": 55,
+        "exact": false,
+        "matched": "the fourth in a series of twelve planned Gemini flights"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The mission was intended to last four days, the longest two-man spaceflight ever attempted at the time",
+      "source_quote": "the longest ever attempted by a two-man crew",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9524,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Ed White performed the first American extravehicular activity using a 25-foot umbilical tether",
+      "source_quote": "Demonstration of extravehicular activities (EVA) using a 25 foot umbilical",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 1436,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Mission control was operated from MCC Houston for the first time on this mission",
+      "source_quote": "control of the mission for the first time will be from the Mission Control Center (MCC) Houston",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 14518,
+        "len": 45,
+        "exact": false,
+        "matched": "control of the mission for the first time wil"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The spacecraft was to rendezvous with its own booster second stage, which had flashing lights installed",
+      "source_quote": "Flashing lights identical to those designed for the Gemini/Agena Vehicle have been installed on the booster second stage",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1981,
+        "len": 85,
+        "exact": false,
+        "matched": "Flashing lights identical to those designed for the Gemini/Agena Vehicle have been in"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "McDivitt graduated first in his class from the University of Michigan with a B.S. in aeronautical engineering",
+      "source_quote": "He graduated first in his class from the University of Michigan with a B. S. in aeronautical engineering",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 29967,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Both primary and backup crews practiced EVA procedures during 40 minutes of cabin depressurization at simulated 150,000 feet altitude",
+      "source_quote": "both the primary and backup flight crews have undergone 40 minutes cabin depressurization with the hatches open at a simulated altitude of 150,000 feet",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8407,
+        "len": 151,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The total Gemini program cost across FY62-FY67 was approximately $1,353.9 million",
+      "source_quote": "Total RD & O",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The G4C EVA suit incorporated seven layers of aluminized Mylar separated by seven layers of unwoven Dacron spacers for thermal and micrometeoroid protection",
+      "source_quote": "7 LAYERS ALUMINIZED MYLAR SEPARATED BY 7 LAYERS UNWOVEN DACRON SPACERS",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The ZIP maneuvering unit propelled the astronaut by jetting oxygen through forward and aft firing nozzles",
+      "source_quote": "accomplishes propulsion by jetting oxygen out through a single forward firing nozzle and two aft firing nozzles",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8881,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 5,
+    "amber": 5,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:31:17.691Z",
-  "qa_completed_at": "2026-06-14T03:31:55.293Z",
+  "qa_started_at": "2026-06-19T22:37:37.281Z",
+  "qa_completed_at": "2026-06-19T22:39:23.631Z",
   "timing": {
-    "A": "18.2s",
-    "B": "19.5s"
-  }
+    "A": "62.3s",
+    "B": "43.9s",
+    "E": "27.7s"
+  },
+  "public_headline": "NASA Internal Report Details Gemini IV Mission and First American Spacewalk",
+  "public_tldr": "This 1967 NASA internal document is a mission operations report and pre-flight planning package for Gemini IV (GT-4), the June 1965 mission in which astronaut Edward White became the first American to walk in space. While the document was flagged in the UAP release because certain pages reportedly describe astronaut observations of \"bright particles\" in orbit, those specific pages are missing from the extracted text.",
+  "public_narrative": "In June 1965, NASA launched Gemini IV — the second crewed mission in the Gemini programme and the fourth Gemini flight overall. Command pilot James A. McDivitt and pilot Edward H. White II spent roughly 97 hours and 50 minutes in low Earth orbit across 62 revolutions, making it the longest two-person spaceflight attempted at that time. The spacecraft launched from Complex 19 at the Kennedy Space Center and splashed down approximately 400 miles southwest of Bermuda, where the crew was recovered by the USS Wasp.\n\nThe mission's signature achievement was the first American extravehicular activity — a spacewalk. White exited the capsule wearing the new G4C spacesuit, tethered by a 25-foot umbilical, and manoeuvred using a handheld device called the Zero-g Integral Propulsion (ZIP) Unit, which jetted oxygen through forward and aft nozzles. The EVA was planned to last approximately 10 minutes. White carried a 35mm Zeiss-Contarex camera mounted on the manoeuvring unit. Both the primary and backup crews — the backups being Frank Borman and James A. Lovell Jr. — had trained for 40 minutes of cabin depressurisation at a simulated altitude of 150,000 feet.\n\nThe document also covered 13 onboard experiments, station-keeping exercises with the booster's spent second stage (which had flashing lights installed), and the fact that this was the first mission controlled from the new Mission Control Center in Houston. The total Gemini programme cost across fiscal years 1962–1967 was listed at approximately $1,353.9 million.\n\nThis report was marked \"For Internal Use Only\" — a restricted-distribution label within NASA, not a classified designation. It appears in the US Department of War's UAP public release because certain pages (reportedly pages 78–81 and 101) contain astronaut observations of bright particles during the mission. However, those pages are not present in the text extraction available here, so no assessment of those observations can be made from this document alone.",
+  "public_caveats": [
+    "The pages reportedly describing astronaut observations of bright particles (pages 78–81 and 101) are missing from the extracted text — the UAP-relevant content cannot be evaluated from what is available.",
+    "This is primarily a pre-flight planning document (dated May–June 1965) with post-mission debriefing references; it describes intended activities, not necessarily exactly what occurred during the flight.",
+    "\"Bright particles\" observed in orbit have well-known mundane explanations — spacecraft debris, ice crystals, and thruster exhaust — but without the missing pages, no determination either way is possible.",
+    "The document was marked \"For Internal Use Only,\" meaning restricted distribution within NASA. It was not classified in the national-security sense.",
+    "Some OCR quality is degraded, particularly for figure captions and tables, introducing minor transcription errors in the extracted text."
+  ]
 }

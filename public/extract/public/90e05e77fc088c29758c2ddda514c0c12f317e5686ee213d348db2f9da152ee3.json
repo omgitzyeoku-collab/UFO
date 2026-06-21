@@ -3,34 +3,451 @@
   "title": "CIA-UAP-015, Project Blue Book Special Report No. 14 (Analysis of Reports of Unidentified Aerial Objects)",
   "agency": "CIA",
   "type": "PDF",
-  "what_is_it": "A USAF analytical report (Project Blue Book Special Report No. 14) examining reports of unidentified aerial objects, bearing a CIA cover sheet marking it as an 'Official Record Copy.'",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "A comprehensive statistical analysis report (Project Blue Book Special Report No. 14) evaluating approximately 4,000 reports of unidentified aerial objects received by the U.S. Air Force between 1947 and 1952, with a CIA cover sheet marking it as an Official Record Copy.",
+  "core_summary": "This 1955 Air Force report used IBM punched-card statistical methods to analyze roughly 4,000 UFO sighting reports collected from 1947–1952. The study categorized sightings into known explanations (balloons, aircraft, astronomical objects, etc.) and unknowns, concluding that it was 'highly improbable' that any reports represented technological developments outside present-day scientific knowledge. By early 1955, improved investigation procedures had reduced unexplained cases to just 3% of reports.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No OCR text was successfully extracted from the PDF; all facts are derived from metadata and the CSV description only.",
-    "The document body — a lengthy statistical analysis — could not be parsed, so key findings, figures, and methodology details are absent from this summary.",
-    "The handwritten note on the first page, described as unique to this release, could not be read from the scan.",
-    "Project Blue Book Special Report No. 14 is a well-known historical document; readers can cross-reference the publicly available version for full content."
+    "The report explicitly acknowledges that its data is subjective — based on observer impressions and estimates, not scientific measurements: 'any conclusions contained in this report are based NOT on facts, but on what many observers thought and estimated the true facts to be'",
+    "The 'Unknown' category does not mean extraterrestrial; it means the description could not be fitted to any known object or phenomenon pattern",
+    "Approximately 800 reports were excluded before analysis, which could introduce selection bias",
+    "The study was conducted by the Air Force itself (ATIC), which had institutional reasons to minimize the significance of unknowns",
+    "The CIA cover sheet indicates this copy was retained by the CIA as an official record; the report content itself was produced by the USAF Air Technical Intelligence Center",
+    "The declining percentage of 'Unknown' cases over time is attributed by the authors to improved investigation procedures, but could also reflect changing evaluation standards",
+    "The source text is an OCR extraction with significant noise from the original document scanning, so some quoted text may contain minor transcription artifacts"
   ],
-  "fabrication_score": 3,
-  "key_facts": [],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_title",
+      "value": "Project Blue Book Special Report No. 14 (Analysis of Reports of Unidentified Aerial Objects)",
+      "source_quote": "SPECIAL REPORT NO. 14 (ANALYSIS OF REPORTS OF UNIDENTIFIED AERIAL OBJECTS)",
+      "citation_offset": {
+        "offset": 1389,
+        "len": 49,
+        "exact": false,
+        "matched": "ALYSIS OF REPORTS OF UNIDENTIFIED AERIAL OBJECTS)"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "project_number",
+      "value": "10073",
+      "source_quote": "PROJECT NO. 10073",
+      "citation_offset": {
+        "offset": 1189,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date",
+      "value": "5 May 1955",
+      "source_quote": "5 MAY 1955",
+      "citation_offset": {
+        "offset": 1211,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "originating_unit",
+      "value": "Air Technical Intelligence Center, Wright-Patterson Air Force Base, Ohio",
+      "source_quote": "AIR TECHNICAL INTELLIGENCE CENTER WRIGHT-PATTERSON AIR FORCE BASE OHIO",
+      "citation_offset": {
+        "offset": 1575,
+        "len": 35,
+        "exact": false,
+        "matched": "TER WRIGHT-PATTERSON AIR FORCE BASE"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "copy_number",
+      "value": "35",
+      "source_quote": "Copy No. --35--",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "total_reports_in_study",
+      "value": "3,201 cases used in charts/tables (approximately 4,000 total reports)",
+      "source_quote": "In these charts, 3201 cases have been used",
+      "citation_offset": {
+        "offset": 11514,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "total_reports_through_1954",
+      "value": "4,834",
+      "source_quote": "Official reports on hand at the end of 1954 totaled 4834",
+      "citation_offset": {
+        "offset": 12290,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reports_rejected",
+      "value": "approximately 800",
+      "source_quote": "About 800 reports of sightings were eliminated or rejected in this manner",
+      "citation_offset": {
+        "offset": 42241,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "unknown_percentage_1953_1954",
+      "value": "9%",
+      "source_quote": "Unknown - 9%",
+      "citation_offset": {
+        "offset": 12664,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "unknown_percentage_jan_may_1955",
+      "value": "3%",
+      "source_quote": "Unknown - 3%",
+      "citation_offset": {
+        "offset": 14167,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "insufficient_info_jan_may_1955",
+      "value": "7%",
+      "source_quote": "Insufficient Info - 7%",
+      "citation_offset": {
+        "offset": 14139,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "reports_jan_may_1955",
+      "value": "131",
+      "source_quote": "The period 1 January 1955 to 5 May 1955 accounted for 131 unidentified aerial object reports received",
+      "citation_offset": {
+        "offset": 13914,
+        "len": 85,
+        "exact": false,
+        "matched": "nuary 1955 to 5 May 1955 accounted for 131 unidentified aerial object reports receive"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "first_famous_sighting",
+      "value": "Kenneth Arnold sighting near Mount Rainier, Washington, June 1947",
+      "source_quote": "In June, 1947, Kenneth Arnold, a Boise, Idaho, businessman and private pilot, publicly reported the now-famous sighting of a chainlike formation of disc-shaped objects near Mount Rainier, Washington",
+      "citation_offset": {
+        "offset": 15426,
+        "len": 198,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "data_collection_period",
+      "value": "June 1947 to December 1952",
+      "source_quote": "Sightings made between June, 1947, and December, 1952, were considered for this study",
+      "citation_offset": {
+        "offset": 24668,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "study_start",
+      "value": "1953",
+      "source_quote": "The special study which resulted in this report... started in 1953",
+      "citation_offset": {
+        "offset": 11117,
+        "len": 46,
+        "exact": false,
+        "matched": "The special study which resulted in this repor"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "investigation_unit",
+      "value": "4602d Air Intelligence Service Squadron (Air Defense Command)",
+      "source_quote": "the 4602d Air Intelligence Service Squadron (Air Defense Command) would carry out all field investigations",
+      "citation_offset": {
+        "offset": 13387,
+        "len": 70,
+        "exact": false,
+        "matched": "Squadron (Air Defense Command) would carry out all field investigation"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "governing_regulation",
+      "value": "AF Reg. 200-2 'Unidentified Flying Objects Reporting' (UFOB), dated 12 August 1954",
+      "source_quote": "a revised program was established by AF Reg. 200-2 Subject: \"Unidentified Flying Objects Reporting\" (Short Title: UFOB) dated 12 August 1954",
+      "citation_offset": {
+        "offset": 13103,
+        "len": 100,
+        "exact": false,
+        "matched": "a revised program was established by AF Reg. 200-2 Subject: \"Unidentified Flying Objects Reporting\" "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "primary_conclusion",
+      "value": "Highly improbable that reports represent observations of technological developments outside present-day scientific knowledge",
+      "source_quote": "it is considered to be highly improbable that reports of unidentified aerial objects examined in this study represent observations of technological developments outside of the range of present-day scientific knowledge",
+      "citation_offset": {
+        "offset": 15053,
+        "len": 100,
+        "exact": false,
+        "matched": "examined in this study represent observations of technological developments outside of the range of "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "physical_evidence",
+      "value": "None",
+      "source_quote": "there has been a complete lack of any valid evidence of physical matter in any case of a reported unidentified aerial object",
+      "citation_offset": {
+        "offset": 15211,
+        "len": 65,
+        "exact": false,
+        "matched": "there has been a complete lack of any valid evidence of physical "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "classification_marking",
+      "value": "FOR OFFICIAL USE ONLY (AFR 190-16)",
+      "source_quote": "FOR OFFICIAL USE ONLY (AFR 190-16)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "cia_status",
+      "value": "Official Record Copy held by CIA Archives and Records Center",
+      "source_quote": "OFFICIAL RECORD COPY WARNING The attached document(s) must be safeguarded",
+      "citation_offset": {
+        "offset": 420,
+        "len": 38,
+        "exact": false,
+        "matched": "ECORD COPY WARNING The attached docume"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "questionnaires_analyzed",
+      "value": "approximately 1,000 responses received",
+      "source_quote": "Approximately 1,000 responses were received by ATIC",
+      "citation_offset": {
+        "offset": 23239,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "certainty_threshold",
+      "value": "Certain identification = better than 95% probability correct",
+      "source_quote": "the probability of the identification being correct was better than 95 per cent",
+      "citation_offset": {
+        "offset": 46931,
+        "len": 69,
+        "exact": false,
+        "matched": "ility of the identification being correct was better than 95 per cent"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Kenneth Arnold",
+    "J. Allen Hynek"
+  ],
+  "named_places": [
+    "Boise, Idaho",
+    "Mount Rainier, Washington",
+    "Wright-Patterson Air Force Base, Ohio",
+    "The Ohio State University"
+  ],
+  "dated_events": [
+    "June 1947 — Kenneth Arnold sighting near Mount Rainier",
+    "29 April 1952 — Air Force Letter 200-5 issued",
+    "1952 — peak frequency of sighting reports",
+    "1953 — special study began",
+    "12 August 1954 — AF Reg. 200-2 (UFOB) issued",
+    "5 May 1955 — report completed",
+    "1 January 1955 — 4602d AISS field investigation program showing results"
+  ],
+  "objects_described": [
+    "Unidentified aerial objects (flying saucers/flying discs)",
+    "Balloons",
+    "Aircraft",
+    "Astronomical bodies (meteors)",
+    "Birds",
+    "Clouds/dust",
+    "Light phenomena (mirages, sun dogs, inversion-layer images)",
+    "Kites, fireworks, flares, rockets, contrails"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The first widely publicized UFO sighting was by Kenneth Arnold near Mount Rainier in June 1947, describing disc-shaped objects in chain formation",
+      "source_quote": "Kenneth Arnold, a Boise, Idaho, businessman and private pilot, publicly reported the now-famous sighting of a chainlike formation of disc-shaped objects near Mount Rainier, Washington",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 15441,
+        "len": 183,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "By the end of 1954, 4,834 official UFO reports were on file with the Air Force",
+      "source_quote": "Official reports on hand at the end of 1954 totaled 4834",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12290,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The percentage of unexplained cases dropped from 9% (1953-1954) to 3% (Jan-May 1955) after improved investigation procedures",
+      "source_quote": "reducing the insufficient information cases to 7% and the unknown cases to 3%, of the totals",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 13801,
+        "len": 47,
+        "exact": false,
+        "matched": "reducing the insufficient information cases to "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Statistical chi-square tests were applied to compare characteristics of known versus unknown sightings",
+      "source_quote": "Statistical methods of testing when applied indicated a low probability that these apparent similarities were significant",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10671,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Approximately 800 reports were rejected from the study due to being extremely nebulous or containing highly conflicting statements",
+      "source_quote": "About 800 reports of sightings were eliminated or rejected in this manner. Most of these reports were rejected because they were extremely nebulous",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 42241,
+        "len": 147,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No physical evidence was recovered in any reported case",
+      "source_quote": "there has been a complete lack of any valid evidence of physical matter in any case of a reported unidentified aerial object",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 15211,
+        "len": 65,
+        "exact": false,
+        "matched": "there has been a complete lack of any valid evidence of physical "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Dr. J. Allen Hynek of Ohio State University provided a scientific definition of flying saucers and consulted on the project from 1949",
+      "source_quote": "Dr. J. Allen Hynek, Director of the Emerson McMillin Observatory of The Ohio State University, who has taken a scientific interest in the problem of unidentified aerial objects since 1949",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 16158,
+        "len": 100,
+        "exact": false,
+        "matched": "Dr. J. Allen Hynek, Director of the Emerson McMillin Observatory of The Ohio State University, who h"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The 1953-1954 evaluation breakdown was: Astronomical 25%, Aircraft 20%, Balloons 16%, Other 13%, Insufficient Info 17%, Unknown 9%",
+      "source_quote": "Balloons - 16% Aircraft - 20% Astronomical - 25% Other - 13% Insufficient Info 17% Unknown - 9%",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The study used IBM punched-card systems for mechanical data processing",
+      "source_quote": "One of International Business Machine Corporation's systems was chosen as the best available mechanical equipment",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20521,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A panel of scientists both in and out of the Air Force prepared the study",
+      "source_quote": "All available data were included in this study which was prepared by a panel of scientists both in and out of the Air Force",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 14180,
+        "len": 65,
+        "exact": false,
+        "matched": "All available data were included in this study which was prepared"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The CIA maintained this document as an Official Historical Record per the Federal Records Act of 1950",
+      "source_quote": "It is the Agency's Official Historical Record and must be preserved in accordance with the Federal Records Act of 1950",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 486,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 6,
+    "amber": 5,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:02:49.265Z",
-  "qa_completed_at": "2026-06-14T03:03:22.195Z",
+  "qa_started_at": "2026-06-19T21:21:19.090Z",
+  "qa_completed_at": "2026-06-19T21:23:05.836Z",
   "timing": {
-    "A": "15.1s",
-    "B": "17.8s"
-  }
+    "A": "59.8s",
+    "B": "46.5s",
+    "E": "29.1s"
+  },
+  "public_headline": "Air Force Statistical Study Found No Evidence UFOs Were Advanced Technology",
+  "public_tldr": "Project Blue Book Special Report No. 14, completed in May 1955, was a large-scale statistical analysis of roughly 4,000 UFO sighting reports collected by the U.S. Air Force between 1947 and 1952. Using IBM punched-card methods, the study concluded it was \"highly improbable\" that any sightings represented technology beyond known science, and noted a complete lack of physical evidence in every case.",
+  "public_narrative": "In 1953, the Air Technical Intelligence Center at Wright-Patterson Air Force Base in Ohio began a systematic review of UFO reports that had been accumulating since the famous Kenneth Arnold sighting near Mount Rainier, Washington, in June 1947. Arnold, a businessman and private pilot from Boise, Idaho, had described a chain-like formation of disc-shaped objects — and his account triggered a wave of public reports that the Air Force had been collecting ever since. By the end of 1954, 4,834 official reports were on file.\n\nThe resulting study, designated Special Report No. 14 under Project No. 10073, used IBM punched-card equipment to process the data mechanically. A panel of scientists both inside and outside the Air Force categorised each sighting as a balloon, aircraft, astronomical object, or other known phenomenon. Roughly 800 reports were excluded before analysis for being too vague or containing highly conflicting statements. Of the 3,201 cases charted, a portion remained labelled \"Unknown\" — meaning the description could not be matched to any known object or phenomenon, not that it was extraterrestrial.\n\nThe study's primary conclusion was blunt: it was \"highly improbable\" that any of the reports represented technological developments outside present-day scientific knowledge. The authors also stated there had been \"a complete lack of any valid evidence of physical matter\" in any case. Statistical chi-square tests comparing the characteristics of known sightings against unknowns found a low probability that apparent similarities were meaningful.\n\nBy early 1955, a revised investigation programme — carried out by the 4602d Air Intelligence Service Squadron under Air Force Regulation 200-2 — had driven the percentage of unexplained cases down from 9% in 1953–1954 to just 3% of the 131 reports received between January and May 1955. Dr J. Allen Hynek of The Ohio State University, who had consulted on the project since 1949, contributed to the scientific framework.\n\nThis copy, number 35, was retained by the CIA Archives and Records Center as an Official Historical Record under the Federal Records Act of 1950. The document was marked \"For Official Use Only\" rather than classified at a higher level.",
+  "public_caveats": [
+    "The report's own authors acknowledged its data was subjective — based on observer impressions and estimates, not scientific measurements. They wrote that conclusions were based 'NOT on facts, but on what many observers thought and estimated the true facts to be.'",
+    "The 'Unknown' category means the sighting could not be matched to a known explanation. It does not imply an extraterrestrial origin.",
+    "Approximately 800 reports were excluded before analysis, which could introduce selection bias into the results.",
+    "The study was conducted by the Air Force itself (the Air Technical Intelligence Center), which had institutional reasons to minimise the significance of unexplained cases.",
+    "The declining percentage of unknowns over time is attributed by the authors to improved investigation procedures, but could also reflect changing evaluation standards rather than genuinely better explanations."
+  ]
 }

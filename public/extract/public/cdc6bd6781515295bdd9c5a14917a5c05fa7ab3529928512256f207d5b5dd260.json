@@ -5,61 +5,89 @@
   "type": "IMG",
   "incident_date": "December, 2024",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI investigative activity form (FD-1057) documenting a site survey of a location where unidentified anomalous phenomena were previously observed by FBI special agents.",
+  "what_is_it": "An FBI investigative activity form (FD-1057) documenting a site survey of a location where unidentified anomalous phenomena had previously been observed.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted text available — all facts derived from metadata and the official CSV description only.",
-    "The document is an image file (JPG), likely a scanned form, so full content is not machine-readable.",
-    "Heavy redaction assumed given the image-only format and lack of extractable text.",
-    "Details about what the agents observed, the specific location, and the survey findings are not available from metadata alone.",
-    "This is part of a cluster of related reports; context from the other documents (D004-D007, PR001-PR003) may be needed for fuller understanding."
+    "Heavy redaction obscures the specific date, location, agent names, and details of the survey area throughout the document.",
+    "The source text was extracted via OCR from an image file, resulting in some garbled characters and uncertain readings.",
+    "No description of the actual UAP observations is visible in the surviving text — the document focuses on the follow-up site survey rather than the original sighting.",
+    "Agent names and all geographic specifics are fully redacted, making independent verification impossible."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 3,
   "key_facts": [
     {
-      "field": "agency",
-      "value": "Federal Bureau of Investigation (FBI)",
+      "field": "document_type",
+      "value": "FBI FD-1057 investigative activity form",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     },
     {
-      "field": "incident_date",
+      "field": "date",
       "value": "December 2024",
-      "source_quote": "",
+      "source_quote": "Date: 12/[REDACTED]/2024",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "incident_location",
-      "value": "Northeastern United States",
-      "source_quote": "",
+      "field": "case_classification",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "Unidentified Aerial Phenomenon",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "evidence_collected",
+      "value": "At least six sets of photographs taken on FBI-issued phones",
+      "source_quote": "Photos around [REDACTED] photos taken on SA FBI issued phone",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Northeastern United States"
-  ],
+  "named_places": [],
   "dated_events": [
-    "December 2024"
+    "12/[REDACTED]/2024"
   ],
-  "objects_described": [],
-  "verifiable_claims": [],
+  "objects_described": [
+    "Unidentified Aerial Phenomenon"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "FBI Special Agents conducted a site survey in December 2024 at a location where UAP had previously been observed",
+      "source_quote": "on 12/[REDACTED]/2024, special Agents (SA) [REDACTED] surveilled the area around [REDACTED]",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "At least six sets of photographs were taken during the survey using FBI-issued phones",
+      "source_quote": "Photos around [REDACTED] photos taken on SA FBI issued phone",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The case is classified under Unidentified Aerial Phenomenon",
+      "source_quote": "Unidentified Aerial Phenomenon",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
   "tier": "red",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
+    "amber": 3,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:25:25.674Z",
-  "qa_completed_at": "2026-06-14T03:25:58.240Z",
+  "qa_started_at": "2026-06-19T22:21:03.289Z",
+  "qa_completed_at": "2026-06-19T22:21:41.817Z",
   "timing": {
-    "A": "16.8s",
-    "B": "15.7s"
+    "A": "19.8s",
+    "B": "18.7s"
   }
 }

@@ -5,85 +5,384 @@
   "type": "PDF",
   "incident_date": "6/9/65",
   "incident_location": "North Atlantic Ocean",
-  "what_is_it": "Preliminary crew debriefing transcript from the Gemini 4 spaceflight, recorded aboard the recovery ship USS Wasp on June 9, 1965.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "Preliminary transcript (Part I) of the Gemini 4 (GT-4) flight crew debriefing, conducted aboard the USS Wasp on June 9, 1965, covering operational aspects of the mission from countdown through insertion into orbit.",
+  "core_summary": "This is a declassified transcript of astronauts James McDivitt and Ed White debriefing their Gemini 4 spaceflight aboard the recovery ship USS Wasp. Part I covers countdown, powered flight, staging, orbital insertion, and early orbital activities including separation from the booster. The document was originally classified CONFIDENTIAL under espionage laws and later declassified; it does not contain the sections on visual sightings or experiments — those were deferred to Part II.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No extracted body text was available — all facts are derived from document metadata and the CSV description only.",
-    "The document appears to be a scanned PDF with poor or no OCR, so the full content of the debriefing transcript could not be analysed.",
-    "The term \"sparkles\" is vague and could refer to various phenomena (debris, ice particles, optical effects); without the full transcript, context for this observation is unavailable.",
-    "Single-source crew observation with no corroborating sensor data referenced in available metadata."
+    "This is Part I only — the UAP-relevant 'visual sightings' section (including Ed White's 'sparkles' observation referenced in the CSV description) is in Part II, not included here.",
+    "The transcript is a preliminary version made under time pressure; the preface notes it contains errors not yet corrected.",
+    "The document covers standard mission operations (countdown, launch, insertion) and does not contain anomalous aerial phenomena discussion.",
+    "Named individuals 'Gus' and 'John' refer to Gus Grissom and John Young of Gemini 3 based on context but are not given full names in the text."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "Document ID",
-      "value": "NASA-UAP-D016",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document title",
+      "value": "Preliminary GT-4 Flight Crew Debriefing Transcript, Part I",
+      "source_quote": "PRELIMINARY GT-4 FLIGHT CREW DEBRIEFING TRANSCRIPT PART I",
+      "citation_offset": {
+        "offset": 177,
+        "len": 32,
+        "exact": false,
+        "matched": "4 FLIGHT CREW DEBRIEFING TRANSCR"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "Originating agency",
-      "value": "NASA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Prepared by",
+      "value": "Spacecraft Operations Branch, Flight Crew Support Division",
+      "source_quote": "Prepared By Spacecraft Operations Branch Flight Crew Support Division",
+      "citation_offset": {
+        "offset": 272,
+        "len": 39,
+        "exact": false,
+        "matched": "ons Branch Flight Crew Support Division"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "Mission",
-      "value": "Gemini 4",
-      "source_quote": "",
+      "field": "Preparation date",
+      "value": "June 16, 1965",
+      "source_quote": "June 16, 1965",
       "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Document type",
-      "value": "Preliminary crew debriefing transcript (Part I)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
       "field": "Debriefing date",
       "value": "June 9, 1965",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "debriefing conducted aboard the recovery ship, the USS Wasp, on June 9, 1965",
+      "citation_offset": {
+        "offset": 1049,
+        "len": 56,
+        "exact": false,
+        "matched": "debriefing conducted aboard the recovery ship, the USS W"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "Incident location",
-      "value": "North Atlantic Ocean",
-      "source_quote": "",
+      "field": "Recovery ship",
+      "value": "USS Wasp",
+      "source_quote": "the USS Wasp, on June 9, 1965",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Original classification",
+      "value": "CONFIDENTIAL — Group 4, downgraded at 3-year intervals, declassified after 12 years",
+      "source_quote": "Group 4: Downgrade at 3 year intervals ... Declassified after 12 years",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Declassification authority",
+      "value": "NW 91526, declassified in 1973",
+      "source_quote": "Authority: NW 91526 ... Date 1973",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Part I scope",
+      "value": "Mission from operational viewpoint — countdown through orbital insertion",
+      "source_quote": "the crew described the mission generally from an operational viewpoint",
+      "citation_offset": {
+        "offset": 1554,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Part II scope (deferred)",
+      "value": "Systems operations, operational checks, visual sightings, experiments, pre-mission planning, mission control, training",
+      "source_quote": "will cover systems operations, operational checks, visual sightings, experiments, pre-mission planning, mission control, and training",
+      "citation_offset": {
+        "offset": 1728,
+        "len": 80,
+        "exact": false,
+        "matched": "will cover systems operations, operational checks, visual sightings, experiments"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Orbit achieved",
+      "value": "153 by 57 nautical miles",
+      "source_quote": "they called up and told us we had a 153 by 57 orbit",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Maximum acceleration",
+      "value": "7.5 g",
+      "source_quote": "we got up to 7 1/2 g's",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "CAP COM at Cape",
+      "value": "Al Shepard",
+      "source_quote": "superimposed on all of this was Al Shephard, the Cape CAP COM",
+      "citation_offset": {
+        "offset": 7675,
+        "len": 36,
+        "exact": false,
+        "matched": "imposed on all of this was Al Shepha"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Debris at separation",
+      "value": "Large amount of debris visible at booster separation, described as a snowstorm",
+      "source_quote": "we were already in just a mass of debris up there ... it looked like we were going through a snow storm",
+      "citation_offset": {
+        "offset": 44008,
+        "len": 45,
+        "exact": false,
+        "matched": "t looked like we were going through a snow st"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Booster nozzle skirt condition",
+      "value": "No visible damage observed",
+      "source_quote": "I looked as closely as I could at the nozzle skirt and the aft end of the booster, and I saw no damage whatsoever",
+      "citation_offset": {
+        "offset": 46536,
+        "len": 80,
+        "exact": false,
+        "matched": "I looked as closely as I could at the nozzle skirt and the aft end of the booste"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Separation anomaly",
+      "value": "Spacecraft appeared to separate at an angle rather than straight ahead",
+      "source_quote": "We didn't separate fore and aft; we separated with a lot of rotation to this side",
+      "citation_offset": {
+        "offset": 42033,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Communications issue at launch",
+      "value": "Brief loss of communications around T+10 seconds during roll program",
+      "source_quote": "I called the 'Roll Program', and nobody answered me",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "ECS water management dispute",
+      "value": "Crew and ground disagreed on valve positions; every checklist version differed",
+      "source_quote": "Every check list we got was different ... Everyone of them disagreed",
+      "citation_offset": {
+        "offset": 15756,
+        "len": 38,
+        "exact": false,
+        "matched": "Every check list we got was different "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Max q vibrations",
+      "value": "Louder and more vibratory than expected, compared to F-80/T-33 at Mach 0.8",
+      "source_quote": "Almost like a F-80 or a T-33 at about 0.8 Mach",
+      "citation_offset": {
+        "offset": 25658,
+        "len": 31,
+        "exact": false,
+        "matched": "Almost like a F-80 or a T-33 at"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "UAP-relevant content in this part",
+      "value": "None — visual sightings section deferred to Part II",
+      "source_quote": "visual sightings, experiments, pre-mission planning, mission control, and training",
+      "citation_offset": {
+        "offset": 1810,
+        "len": 52,
+        "exact": false,
+        "matched": " pre-mission planning, mission control, and training"
+      },
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
+  "named_people": [
+    "McDivitt",
+    "White",
+    "Al Shepard",
+    "Gus",
+    "John",
+    "George Roe"
+  ],
+  "named_places": [
+    "USS Wasp",
+    "Cape"
+  ],
+  "dated_events": [
+    "June 9, 1965",
+    "June 16, 1965",
+    "June 23, 1965",
+    "1973"
+  ],
+  "objects_described": [
+    "Gemini 4 (GT-4) spacecraft",
+    "OAMS thrusters",
+    "horizon scanner"
+  ],
   "verifiable_claims": [
     {
       "claim": "The Gemini 4 crew debriefing was conducted aboard the USS Wasp on June 9, 1965",
-      "source_quote": "",
+      "source_quote": "debriefing conducted aboard the recovery ship, the USS Wasp, on June 9, 1965",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1049,
+        "len": 56,
+        "exact": false,
+        "matched": "debriefing conducted aboard the recovery ship, the USS W"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The spacecraft achieved a 153 by 57 nautical mile orbit",
+      "source_quote": "they called up and told us we had a 153 by 57 orbit",
       "verifier_verdict": "partial",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "Maximum acceleration during powered flight reached 7.5 g",
+      "source_quote": "we got up to 7 1/2 g's",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Al Shepard served as Cape CAP COM for the Gemini 4 launch",
+      "source_quote": "Al Shephard, the Cape CAP COM, calling out events",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The spacecraft separated from the booster at an angle rather than straight ahead",
+      "source_quote": "We didn't separate fore and aft; we separated with a lot of rotation to this side",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 42033,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Large amounts of debris were visible during booster separation, described as a snowstorm",
+      "source_quote": "it looked like we were going through a snow storm. There was stuff all over",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 44007,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Ed White observed no damage to the booster nozzle skirt after separation",
+      "source_quote": "I looked as closely as I could at the nozzle skirt and the aft end of the booster, and I saw no damage whatsoever",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 46536,
+        "len": 80,
+        "exact": false,
+        "matched": "I looked as closely as I could at the nozzle skirt and the aft end of the booste"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was originally classified CONFIDENTIAL under espionage laws, Title 18 USC Sections 793 and 794",
+      "source_quote": "information affecting the national defense of the United States within the meaning of the Espionage Laws, Title 18. U.S.C Section 793 and 794",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 350,
+        "len": 100,
+        "exact": false,
+        "matched": "information affecting the national defense of the United States within the meaning of the Espionage "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Communications were briefly lost around T+10 seconds when McDivitt called the roll program",
+      "source_quote": "I called the 'Roll Program', and nobody answered me",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew experienced pogo oscillations from approximately T+2:05 to T+2:30 during first stage burn",
+      "source_quote": "I felt the pogo just prior to staging, from about 2:15 on to 2:30",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 28535,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Visual sightings discussion was deferred to Part II of the debriefing transcript",
+      "source_quote": "will cover systems operations, operational checks, visual sightings, experiments",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1728,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The GT-3 crew (Gus Grissom and John Young) had complained about insufficient booster information during their launch",
+      "source_quote": "as a result of GT-3, (Gus and John said they didn't get enough information about the boosters)",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "ECS water management system valve positions were disputed among ground teams; every checklist version differed",
+      "source_quote": "Every check list we got was different ... Everyone of them disagreed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 15756,
+        "len": 38,
+        "exact": false,
+        "matched": "Every check list we got was different "
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 4,
+    "amber": 9,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:29:12.466Z",
-  "qa_completed_at": "2026-06-14T03:29:45.086Z",
+  "qa_started_at": "2026-06-19T22:31:42.716Z",
+  "qa_completed_at": "2026-06-19T22:33:05.108Z",
   "timing": {
-    "A": "15.4s",
-    "B": "17.2s"
-  }
+    "A": "49.6s",
+    "B": "32.5s",
+    "E": "28.0s"
+  },
+  "public_headline": "NASA Gemini 4 Crew Debriefing Transcript Covers Launch, Not UFO Sightings",
+  "public_tldr": "This is Part I of a formerly classified transcript from the Gemini 4 crew debriefing, conducted aboard the USS Wasp on June 9, 1965. It covers the countdown, launch, and orbital insertion — standard mission operations — and explicitly defers the \"visual sightings\" section to Part II, which is not included in this document.",
+  "public_narrative": "On June 9, 1965, astronauts James McDivitt and Ed White sat down aboard the recovery ship USS Wasp in the North Atlantic to debrief their Gemini 4 spaceflight. The transcript was prepared a week later, on June 16, by NASA's Spacecraft Operations Branch. It was originally stamped CONFIDENTIAL under US espionage laws and later declassified in 1973.\n\nPart I is purely operational. The crew walked through the countdown, powered flight, staging, and orbital insertion. They reported reaching 7.5 g during ascent and achieving a 153-by-57-nautical-mile orbit. McDivitt noted a brief communications dropout around ten seconds after liftoff when no one acknowledged his \"Roll Program\" call. The crew also described pogo oscillations — a known vibration issue — during the final seconds of first-stage burn, and compared the noise at maximum aerodynamic pressure to flying an F-80 jet at Mach 0.8.\n\nAt booster separation, the spacecraft rotated unexpectedly to one side rather than separating cleanly fore and aft. McDivitt described a blizzard of debris — \"like going through a snowstorm.\" White inspected the booster's nozzle skirt visually and reported no damage. A recurring frustration in the transcript is the environmental control system's water management valves: every version of the checklist the crew received listed different valve positions, and no one on the ground agreed.\n\nCritically for anyone interested in UAP content, this document contains none. The transcript's preface states that Part II will cover \"visual sightings, experiments, pre-mission planning, mission control, and training.\" Ed White's reported observation of unexplained \"sparkles\" during the mission — the reason this document appears in UAP archives — would be in that second part, which is not included here.",
+  "public_caveats": [
+    "This is Part I only. The UAP-relevant \"visual sightings\" section was deferred to Part II, which is a separate document not included here.",
+    "The transcript is a preliminary version made under time pressure; NASA's own preface warns it contains uncorrected errors.",
+    "The document was originally classified CONFIDENTIAL, but the classification concerned national defence operations, not anomalous sightings.",
+    "Some individuals are referred to only by first name (\"Gus\", \"John\") — these are contextually Gus Grissom and John Young of Gemini 3, but the transcript does not give their full names.",
+    "Nothing in this document describes, discusses, or implies unidentified aerial phenomena. Its inclusion in UAP collections is based on the mission's association with sightings reported elsewhere."
+  ]
 }

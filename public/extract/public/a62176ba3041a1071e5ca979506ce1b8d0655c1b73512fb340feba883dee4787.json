@@ -4,57 +4,35 @@
   "agency": "NASA",
   "type": "IMG",
   "incident_date": "1962-1963",
-  "what_is_it": "A collection of memoranda, correspondence, reports, and interview transcripts relating to luminous phenomena observed by astronauts during early NASA spaceflights.",
+  "what_is_it": "A collection of NASA memoranda, correspondence, reports, and interview transcripts related to luminous phenomena observed by astronauts during spaceflight in 1962-1963.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No extracted body text available — all facts derived solely from metadata and the CSV description provided by war.gov.",
-    "The document is a scanned image (IMG type) with no successful OCR extraction, so detailed content analysis is not possible.",
-    "Redaction level assessed as low based on metadata alone; actual redaction within the scanned pages cannot be determined without viewing the images.",
-    "The PURSUE-relevant page ranges suggest only portions of the full document are considered UAP-related."
+    "The source text extracted from this image file is effectively empty — only bracket and pipe characters were captured, meaning OCR failed or the image content was not machine-readable.",
+    "All substantive information in this record comes from the CSV metadata description provided by war.gov, not from the document body itself.",
+    "No body text could be verified independently; all key facts are metadata-derived only.",
+    "The document is an IMG type (image scan), which may require manual review or specialised OCR to extract actual content.",
+    "Without readable source text, no factual claims from the document body can be quoted or verified."
   ],
-  "fabrication_score": 4,
-  "key_facts": [
-    {
-      "field": "agency",
-      "value": "NASA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "time_period",
-      "value": "1962-1963",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    }
-  ],
+  "fabrication_score": 3,
+  "key_facts": [],
   "named_people": [],
   "named_places": [],
   "dated_events": [],
   "objects_described": [],
-  "verifiable_claims": [
-    {
-      "claim": "NASA conducted scientific debriefings and interviews with both astronauts regarding these observations",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
-    }
-  ],
+  "verifiable_claims": [],
   "tier": "red",
   "confidence_breakdown": {
     "green": 0,
     "amber": 0,
-    "red": 1
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:28:41.940Z",
-  "qa_completed_at": "2026-06-14T03:29:12.465Z",
+  "qa_started_at": "2026-06-19T22:31:14.635Z",
+  "qa_completed_at": "2026-06-19T22:31:42.712Z",
   "timing": {
-    "A": "16.0s",
-    "B": "14.6s"
+    "A": "17.4s",
+    "B": "10.6s"
   }
 }

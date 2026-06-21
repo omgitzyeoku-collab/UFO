@@ -5,64 +5,353 @@
   "type": "PDF",
   "incident_date": "1968",
   "incident_location": "Ladakh, Nepal | Skkim, India | Bhutam",
-  "what_is_it": "A CIA intelligence report cataloguing seven UFO sightings observed across the Himalayan border regions of Ladakh, Nepal, Sikkim, and Bhutan in early 1968.",
+  "what_is_it": "CIA information report cataloguing seven UFO sightings across the India-Nepal-Bhutan-China border region in early 1968.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived from metadata and the war.gov catalogue description only.",
-    "The document is likely a scanned image with poor OCR quality, meaning potentially significant details in the body remain unread.",
-    "A prior, more redacted version existed on the CIA website; differences between versions are unknown without readable text.",
-    "Single-source intelligence report — observer reliability and corroboration status are unknown."
+    "OCR quality is poor throughout, with many garbled characters — some details may be misread or missing",
+    "The document is moderately redacted: source identifiers, distribution details, and some text blocks are obscured",
+    "Direction-of-flight data for the 19 February Sikkim sighting is explicitly flagged as 'rather confusing' by the report's own authors",
+    "The claim of a metallic disc found in a crater is extraordinary and presented without independent verification in this document",
+    "Observer identities and qualifications are redacted, making it impossible to assess witness reliability",
+    "The report compiles second-hand accounts from multiple sources across a large geographic area with no indication of follow-up investigation"
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "originating_agency",
-      "value": "CIA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Reporting agency",
+      "value": "Central Intelligence Agency (CIA)",
+      "source_quote": "CENTRAL INTELLIGENCE AGENCY",
+      "citation_offset": {
+        "offset": 1434,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "regions_covered",
-      "value": "Ladakh, Nepal, Sikkim, Bhutan",
-      "source_quote": "",
+      "field": "Classification",
+      "value": "CONFIDENTIAL, NO FOREIGN DISSEM, CONTROLLED DISSEM",
+      "source_quote": "CONFIOENTIAL XGDS ... NO FOREIGN DISSEM/CONTOOLLED DISSEM",
+      "citation_offset": {
+        "offset": 2602,
+        "len": 32,
+        "exact": false,
+        "matched": "FOREIGN DISSEM/CONTOOLLED DISSEM"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Countries covered",
+      "value": "India, Nepal, Bhutan, China",
+      "source_quote": "COUNTRY India/Nepal/Bhutan/China",
+      "citation_offset": {
+        "offset": 1819,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date of incidents",
+      "value": "19 February – 25 March 1968",
+      "source_quote": "February - March 1968",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Subject",
+      "value": "Sightings of unidentified flying objects in Ladakh, Nepal, Sikkim and Bhutan",
+      "source_quote": "SIGHTINGS OF UNIDENTIFIED FLYING OBJECTS IN LADAKH, NEPAL, SIKKIM AND BHUTAN",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 1 date and location",
+      "value": "4 March 1968, 1300 hours, Ladakh (Chang La, Fukche, Koyul)",
+      "source_quote": "4 March 1968 1300 hours Ladakh Chang La, Fukche and Koyul",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 1 description",
+      "value": "One white light with two blasting sounds, followed by reddish light and white smoke, moving east to west",
+      "source_quote": "One white light and simultaneously two blasting sounds were heard. Also, one reddish light followed by white smoke.",
+      "citation_offset": {
+        "offset": 2468,
+        "len": 60,
+        "exact": false,
+        "matched": "taneously two blasting sounds were heard. Also, one reddish "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 2 description",
+      "value": "Fast-moving object with red and green lights bright enough to cause daylight, thunder sound heard after seconds",
+      "source_quote": "A fast-moving object, long and thin ... red and green bright ... as bright as to cause daylight. Thunder sound heard after few seconds of sighting of object.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 3 date and location",
+      "value": "19 February 1968, 2100 hours, Sikkim (Lachung, Lachen, Thangu, Muguthang, Chholhamo)",
+      "source_quote": "19 February 1968 ... Lachung, Lachen, Thangu, Muguthang and Chholhamo",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 3 description",
+      "value": "Object giving light from tail, bright enough to light the entire area, thunder sound heard simultaneously",
+      "source_quote": "object giving light from tail. It was bright enough to brighten the entire area. Thunder sound was heard simultaneously after sighting the object.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 3 direction confusion",
+      "value": "Conflicting direction reports; south-east to north-west over some areas, north-east to south-west over others",
+      "source_quote": "This information is rather confusing. Direction was reported as being from South-east to North-west over Thangkarla, Lachung",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 4 date and location",
+      "value": "21 February 1968, 2130 hours, Thimpu (Bhutan)",
+      "source_quote": "21 February 1968 21.30 Thimpu",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 4 description",
+      "value": "Bluish coloured object at high speed without noise, bright enough to brighten the area",
+      "source_quote": "A bluish colored object moving at high speed without any noise. It was bright enough to brighten the area.",
+      "citation_offset": {
+        "offset": 4411,
+        "len": 45,
+        "exact": false,
+        "matched": "A bluish colored object moving at high speed "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 4 possible direction from Tibet",
+      "value": "Direction possibly from north-east (Tibet) to south-west",
+      "source_quote": "the direction of flight could well be from North-east to South-west, that is, from the direction of Tibet.",
+      "citation_offset": {
+        "offset": 4343,
+        "len": 30,
+        "exact": false,
+        "matched": "rth-east to South-west, that i"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 5 date and location",
+      "value": "4 March 1968, 1300 hours, Ladakh (Ane La area)",
+      "source_quote": "4 March 1968 1300 ... Ladakh Ane La area",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 5 description",
+      "value": "Object following a circular path leaving a trail of smoke behind it",
+      "source_quote": "Object was following a circular path. Left a trail of smoke behind it.",
+      "citation_offset": {
+        "offset": 4532,
+        "len": 40,
+        "exact": false,
+        "matched": " following a circular path. Left a trail"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 6 date and location",
+      "value": "25 March 1968, 2150 hours, Fukche, Koyul, Demchok",
+      "source_quote": "25 March 1968 2150 Fukche, Koyul, Demchok",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 6 description",
+      "value": "Rocket-like object leaving white-yellowish trail about 20 yards long at 20,000-25,000 feet altitude, moving north to south from Chang La toward Demchok",
+      "source_quote": "Rocket-like object leaving white-yellowish trail about 20 y long at a height of 20-25,000 feet.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 7 location",
+      "value": "Kulci region in NW Nepal",
+      "source_quote": "Kulci region in NW Nepal",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Sighting 7 description",
+      "value": "Blazing object flashing intermittently with thunder sound that disintegrated; a metallic disc-shaped object found in a crater",
+      "source_quote": "A blazing object, flashing intermittently, accompanied by thunder sound disintegrated over Kulci region.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Metallic disc found",
+      "value": "A huge metallic disc-shaped object with a six-foot base and four feet in height found in a crater at Baltichaur, five miles NE of Pokhara",
+      "source_quote": "A huge metallic disc-shaped object with a six-foot base and four feet in height was found in a crater at Baltichaur, five miles NE of Pokhara.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Related investigation",
+      "value": "Dr. Edward Condon and University of Colorado Air Force-sponsored civilian UFO investigation referenced",
+      "source_quote": "Dr. Edward Condon, former head of the National Bureau of Standards and recently named director of the Air Force-sponsored civilian investigation of UFO's with headquarters at the University of Colorado in Boulder.",
+      "citation_offset": {
+        "offset": 145,
+        "len": 85,
+        "exact": false,
+        "matched": "nsored civilian investigation of UFO's with headquarters at the University of Colorad"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Topic tags",
+      "value": "Unidentified flying object, aircraft accident",
+      "source_quote": "UNIDENTIFIED FLYING OBJECT, AIRCRAFT ACCIDENT",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "Dr. Edward Condon"
+  ],
   "named_places": [
     "Ladakh",
     "Nepal",
     "Sikkim",
-    "Bhutan"
+    "Bhutan",
+    "India",
+    "China",
+    "Tibet",
+    "Chang La",
+    "Fukche",
+    "Koyul",
+    "Walungchung",
+    "Dhurisa",
+    "Lachung",
+    "Lachen",
+    "Thangu",
+    "Muguthang",
+    "Chholhamo",
+    "Thangkarla",
+    "Thimpu",
+    "Ane La",
+    "Demchok",
+    "Kulci",
+    "Baltichaur",
+    "Pokhara",
+    "Boulder",
+    "University of Colorado",
+    "Wright-Patterson AFB, Ohio"
   ],
-  "dated_events": [],
+  "dated_events": [
+    "19 February 1968",
+    "21 February 1968",
+    "4 March 1968",
+    "25 March 1968",
+    "July 19, 1974"
+  ],
   "objects_described": [
-    "unidentified flying objects"
+    "White light with reddish follow-on light and white smoke",
+    "Fast-moving object with red and green lights",
+    "Bright object giving light from tail",
+    "Bluish coloured high-speed silent object",
+    "Object following circular path with smoke trail",
+    "Rocket-like object with white-yellowish trail at 20,000-25,000 feet",
+    "Blazing intermittently flashing object",
+    "Metallic disc-shaped object (six-foot base, four feet high)"
   ],
   "verifiable_claims": [
     {
-      "claim": "Seven UFO sightings were recorded in the Ladakh-Nepal-Sikkim-Bhutan region between 19 Feb and 25 Mar 1968",
-      "source_quote": "",
+      "claim": "Seven UFO sightings occurred across the India-Nepal-Bhutan border region between 19 February and 25 March 1968",
+      "source_quote": "sightings of unidentified flying objects in Ladakh, Nepal, Sikkim and Bhutan during the period 19 February - 25 March 1968",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 2079,
+        "len": 70,
+        "exact": false,
+        "matched": "jects in Ladakh, Nepal, Sikkim and Bhutan during the period 19 Februar"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A metallic disc-shaped object six feet wide and four feet tall was found in a crater at Baltichaur, five miles northeast of Pokhara, Nepal",
+      "source_quote": "A huge metallic disc-shaped object with a six-foot base and four feet in height was found in a crater at Baltichaur, five miles NE of Pokhara.",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Portions of a similar object were found at a second location called Dhajakotanda",
+      "source_quote": "Portions of a similar object were found at Dhajakotanda",
       "verifier_verdict": "partial",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Bhutan sighting on 21 February was assessed as possibly originating from the direction of Tibet",
+      "source_quote": "the direction of flight could well be from North-east to South-west, that is, from the direction of Tibet.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4343,
+        "len": 30,
+        "exact": false,
+        "matched": "rth-east to South-west, that i"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The rocket-like object on 25 March was estimated at 20,000-25,000 feet altitude",
+      "source_quote": "Rocket-like object leaving white-yellowish trail about 20 y long at a height of 20-25,000 feet.",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Dr. Edward Condon was leading the Air Force-sponsored civilian UFO investigation at the University of Colorado",
+      "source_quote": "Dr. Edward Condon, former head of the National Bureau of Standards and recently named director of the Air Force-sponsored civilian investigation of UFO's with headquarters at the University of Colorado in Boulder.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 145,
+        "len": 85,
+        "exact": false,
+        "matched": "nsored civilian investigation of UFO's with headquarters at the University of Colorad"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Multiple sightings were accompanied by thunder or blasting sounds",
+      "source_quote": "Thunder sound heard after few seconds of sighting of object.",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The 19 February Sikkim sighting had conflicting directional reports from different observation points",
+      "source_quote": "This information is rather confusing. Direction was reported as being from South-east to North-west over Thangkarla, Lachung",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
   "tier": "red",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
-    "red": 1
+    "amber": 8,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:04:01.919Z",
-  "qa_completed_at": "2026-06-14T03:04:35.539Z",
+  "qa_started_at": "2026-06-19T21:24:15.295Z",
+  "qa_completed_at": "2026-06-19T21:25:53.136Z",
   "timing": {
-    "A": "15.8s",
-    "B": "17.8s"
+    "A": "52.2s",
+    "B": "45.6s"
   }
 }

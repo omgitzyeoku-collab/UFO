@@ -3,65 +3,69 @@
   "title": "CIA-UAP-015, Project Blue Book Special Report No. 14 (Analysis of Reports of Unidentified Aerial Objects)",
   "agency": "CIA",
   "type": "IMG",
-  "what_is_it": "A scanned image of the USAF Project Blue Book Special Report No. 14, which is a statistical analysis of reports of unidentified aerial objects, bearing a CIA cover sheet marking it as an 'Official Record Copy.'",
+  "what_is_it": "A CIA cover sheet for the USAF Project Blue Book Special Report No. 14, an analysis of reports of unidentified aerial objects.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No OCR text was extractable from this scanned image, so all facts are derived from metadata and the CSV description only.",
-    "The handwritten note on the first page — the only previously unreleased element — cannot be read or analysed from available data.",
-    "Project Blue Book Special Report No. 14 is a well-known, widely studied document; this release primarily confirms CIA custody rather than adding new content."
+    "The source text is extremely degraded — the OCR output from this image is mostly fragmentary and unreadable, so very little substantive content can be extracted.",
+    "This appears to be only the cover/routing page, not the full Project Blue Book Special Report No. 14 itself.",
+    "The CSV description notes a handwritten note on the first page whose content is not captured in the OCR output.",
+    "The actual analytical content of Special Report No. 14 is not present in this extracted text."
   ],
-  "fabrication_score": 2,
+  "fabrication_score": 4,
   "key_facts": [
     {
-      "field": "document_title",
-      "value": "Project Blue Book Special Report No. 14 (Analysis of Reports of Unidentified Aerial Objects)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "originating_agency",
-      "value": "CIA (cover sheet), USAF (underlying report)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "subject_matter",
-      "value": "Statistical analysis of UFO/UAP sighting reports collected by the US Air Force",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "custodian",
+      "value": "CIA Archives and Records Center",
+      "source_quote": "RETURN IMMEDIATELY AFTER USE TO THE CIA ARCHIVES AND RECORDS CENTER",
+      "citation_offset": {
+        "offset": 133,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [],
   "dated_events": [],
-  "objects_described": [
-    "unidentified aerial objects"
-  ],
+  "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "The document contains a handwritten note on the first page that was not previously available on the CIA's public website.",
-      "source_quote": "With the exception of the handwritten note on the first page, the content of this document has been available on CIA's public website.",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "amber"
+      "claim": "The document was held by the CIA Archives and Records Center and marked for immediate return after use.",
+      "source_quote": "RETURN IMMEDIATELY AFTER USE TO THE CIA ARCHIVES AND RECORDS CENTER",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 133,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 1,
+    "green": 1,
+    "amber": 0,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:03:22.196Z",
-  "qa_completed_at": "2026-06-14T03:04:01.918Z",
+  "qa_started_at": "2026-06-19T21:23:34.971Z",
+  "qa_completed_at": "2026-06-19T21:24:00.916Z",
   "timing": {
-    "A": "16.8s",
-    "B": "23.0s"
-  }
+    "A": "14.0s",
+    "B": "11.9s",
+    "E": "14.4s"
+  },
+  "public_headline": "CIA Cover Sheet References Air Force UFO Analysis Report",
+  "public_tldr": "This document is a CIA cover sheet for the US Air Force's Project Blue Book Special Report No. 14, which analysed reports of unidentified aerial objects. The released image contains only the routing page — not the actual analysis — and was held by the CIA Archives and Records Center.",
+  "public_narrative": "This record is a CIA cover sheet referencing Project Blue Book Special Report No. 14, a US Air Force study that analysed reports of unidentified aerial objects. The document itself is an image-format page rather than a full text report.\n\nThe page carries a clear instruction: \"RETURN IMMEDIATELY AFTER USE TO THE CIA ARCHIVES AND RECORDS CENTER,\" confirming the CIA held a copy of the Air Force report in its own archives. A handwritten note is reported on the first page, but its content was not captured in the available text.\n\nCritically, this release contains only the cover or routing page — not the substantive analytical content of Special Report No. 14 itself. The original image is heavily degraded, and the text extracted by optical character recognition is mostly fragmentary and unreadable. Very little information beyond the title and the archival routing instruction can be reliably drawn from this document.",
+  "public_caveats": [
+    "This is only a cover/routing page, not the full Project Blue Book Special Report No. 14. The actual analysis is not present in this release.",
+    "The source image is extremely degraded — OCR output is mostly fragmentary and unreadable, so very little substantive content can be extracted.",
+    "A handwritten note on the first page is mentioned in the catalogue description but its content is not captured in the extracted text.",
+    "This document confirms the CIA held a copy of the Air Force report but does not itself contain any UFO sighting data or analytical conclusions.",
+    "No people, places, dates, or specific incidents are identifiable from the available text."
+  ]
 }

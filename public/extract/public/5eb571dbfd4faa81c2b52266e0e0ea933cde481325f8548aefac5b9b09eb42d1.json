@@ -5,84 +5,372 @@
   "type": "PDF",
   "incident_date": "2023",
   "incident_location": "Western United States",
-  "what_is_it": "An unresolved case analysis update memorandum from the All-domain Anomaly Resolution Office (AARO) regarding a UAP incident near a sensitive national security site in the western United States.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "Unresolved UAP case analysis memorandum from the All-domain Anomaly Resolution Office (AARO) summarizing an ongoing investigation into an incident near a sensitive national security site in the western United States.",
+  "core_summary": "Over two days in October 2023, six federal law enforcement agents observed luminous orange 'mother orbs' that appeared to produce smaller red 'orbs' near a sensitive national security site in the western United States. AARO ruled out several explanations and determined that approximately 60 percent of the activity is plausibly attributable to military aircraft dispensing infrared countermeasure flares, but 40 percent of the reported phenomena remain unresolved. As of June 2026, the case remains open and AARO intends to integrate scientific modeling and multispectral data exploitation to continue the investigation.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No extracted body text was available — all facts are derived solely from document metadata and the CSV description provided by war.gov.",
-    "The document is likely scanned with poor OCR, so additional details within the PDF could not be verified.",
-    "The specific national security site is not named, limiting independent verification.",
-    "Single-source government memorandum with no corroborating external evidence available in this extract."
+    "The entire assessment is based solely on narrative testimony from six witnesses — no instrument data, video, or photographic evidence was collected.",
+    "AARO's preliminary hypothesis of 'unrecognized technology' for the unresolved 40 percent is explicitly described as unsubstantiated by technical data or physical evidence.",
+    "The exact location is withheld (described only as 'near a sensitive national security site in the western United States').",
+    "Human perception limitations in low-light conditions are acknowledged by AARO as a factor, though they assess contextual factors supersede those limitations in this case.",
+    "The number of distinct 'mother orbs' is unclear — AARO finds both single and multiple mother orb interpretations plausible.",
+    "The witnesses — federal law enforcement agents — stated the phenomena did not look like military flares, but AARO notes the specific flare types used differ from standard illumination flares the agents may be familiar with."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "Document ID",
-      "value": "DOW-UAP-D077",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "incident_date",
+      "value": "Two days in October 2023",
+      "source_quote": "over a period of two days in October 2023",
+      "citation_offset": {
+        "offset": 687,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Incident year",
-      "value": "2023",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Incident location",
+      "field": "incident_location",
       "value": "Near a sensitive national security site in the western United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "near a sensitive national security site in the western United States",
+      "citation_offset": {
+        "offset": 569,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Issuing agency",
-      "value": "Department of War",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "number_of_witnesses",
+      "value": "Six federal law enforcement special agents in three teams of two",
+      "source_quote": "six federal law enforcement special agents reported observing \"orbs launching other orbs\"",
+      "citation_offset": {
+        "offset": 841,
+        "len": 59,
+        "exact": false,
+        "matched": "six federal law enforcement special agents reported observi"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "phenomenon_description",
+      "value": "Luminous orange 'mother orbs' appearing to produce smaller red 'orbs'",
+      "source_quote": "a luminous orange \"mother orb\" appeared to produce smaller red \"orbs,\" one after another",
+      "citation_offset": {
+        "offset": 1319,
+        "len": 33,
+        "exact": false,
+        "matched": " appeared to produce smaller red "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "mother_orb_duration",
+      "value": "One to two seconds before disappearing",
+      "source_quote": "the orange \"mother orbs\" as appearing for one to two seconds, releasing a cluster of two to four red \"orbs,\" and subsequently disappearing",
+      "citation_offset": {
+        "offset": 1471,
+        "len": 75,
+        "exact": false,
+        "matched": "as appearing for one to two seconds, releasing a cluster of two to four red"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "red_orbs_per_launch",
+      "value": "Two to four per event",
+      "source_quote": "releasing a cluster of two to four red \"orbs\"",
+      "citation_offset": {
+        "offset": 1508,
+        "len": 35,
+        "exact": false,
+        "matched": "releasing a cluster of two to four "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "red_orb_loitering",
+      "value": "At least one red orb remained stationary above a ridgeline for several hours",
+      "source_quote": "a red \"orb\" as remaining stationary above a ridgeline for several hours",
+      "citation_offset": {
+        "offset": 1928,
+        "len": 56,
+        "exact": false,
+        "matched": "remaining stationary above a ridgeline for several hours"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "sound",
+      "value": "Silent",
+      "source_quote": "The reporters also described the phenomena as \"silent.\"",
+      "citation_offset": {
+        "offset": 1986,
+        "len": 45,
+        "exact": false,
+        "matched": "The reporters also described the phenomena as"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "time_of_day",
+      "value": "Approximately dusk",
+      "source_quote": "near a sensitive national security site in the western United States at approximately dusk",
+      "citation_offset": {
+        "offset": 932,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "percent_unresolved",
+      "value": "Approximately 40 percent",
+      "source_quote": "Approximately 40 percent of the reported phenomena lack a plausible explanation after first stage analysis and thus remain unresolved",
+      "citation_offset": {
+        "offset": 4150,
+        "len": 133,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "percent_attributable_to_flares",
+      "value": "Approximately 60 percent",
+      "source_quote": "approximately 60 percent of the reported activity is plausibly attributable to military aircraft",
+      "citation_offset": {
+        "offset": 5974,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "technical_data_collected",
+      "value": "None — no video, photos, or instrument data were captured by the witnesses",
+      "source_quote": "The reporting agents did not collect video footage, photographic imagery, or other technical data during the incident",
+      "citation_offset": {
+        "offset": 2433,
+        "len": 117,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "military_aircraft_presence",
+      "value": "U.S. military aircraft were present in the airspace and actively deployed infrared countermeasure flares during a standard exercise",
+      "source_quote": "U.S. military aircraft operating in the area were equipped with, and actively deployed, infrared countermeasure flares as a component of a standard exercise",
+      "citation_offset": {
+        "offset": 5514,
+        "len": 156,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "case_status",
+      "value": "Unresolved as of June 2026",
+      "source_quote": "As of June 2026, the case remains unresolved",
+      "citation_offset": {
+        "offset": 730,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "document_date",
+      "value": "05 June 2026",
+      "source_quote": "05 JUNE 2026",
+      "citation_offset": {
+        "offset": 124,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "document_classification",
+      "value": "UNCLASSIFIED",
+      "source_quote": "UNCLASSIFIED",
+      "citation_offset": {
+        "offset": 26,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "document_reference",
+      "value": "VIRIN: 260508D-D0360-1052, 08-MAY 2026",
+      "source_quote": "VIRIN: 260508D-D0360-1052, 08-MAY 2026",
+      "citation_offset": {
+        "offset": 390,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "Jon T. Kosloski"
+  ],
   "named_places": [
-    "Western United States"
+    "Western United States",
+    "Washington, DC",
+    "5000 Defense Pentagon"
   ],
   "dated_events": [
-    "2023"
+    "October 2023 (two-day incident)",
+    "05 JUNE 2026 (memorandum date)",
+    "08-MAY 2026 (reference publication date)"
   ],
   "objects_described": [
-    "Unidentified anomalous phenomena (UAP)"
+    "Orange luminous 'mother orbs'",
+    "Smaller red 'orbs' launched from mother orbs",
+    "U.S. military aircraft (unspecified type)",
+    "Infrared countermeasure flares",
+    "Multi-rotor UAV systems (considered and deemed unlikely)"
   ],
   "verifiable_claims": [
     {
-      "claim": "AARO is conducting ongoing analysis of a UAP incident near a sensitive national security site in the western United States",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Six federal law enforcement agents in teams of two observed the phenomena from multiple viewing angles over two days in October 2023.",
+      "source_quote": "six federal law enforcement special agents reported observing \"orbs launching other orbs,\" near a sensitive national security site",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 841,
+        "len": 60,
+        "exact": false,
+        "matched": "six federal law enforcement special agents reported observin"
+      },
+      "confidence": "amber"
     },
     {
-      "claim": "The case remains unresolved as of June 2026",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "The witnesses did not capture any video, photographic, or technical data during the incident.",
+      "source_quote": "The reporting agents did not collect video footage, photographic imagery, or other technical data during the incident",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2433,
+        "len": 117,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "U.S. military aircraft in the area were equipped with and actively deployed infrared countermeasure flares during a standard exercise.",
+      "source_quote": "U.S. military aircraft operating in the area were equipped with, and actively deployed, infrared countermeasure flares as a component of a standard exercise",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5514,
+        "len": 156,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Approximately 60 percent of reported activity is plausibly attributable to military aircraft dispensing flares.",
+      "source_quote": "approximately 60 percent of the reported activity is plausibly attributable to military aircraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5974,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "For 40 percent of observations, radar and ADS-B data showed no known aircraft within the observers' estimated line of sight.",
+      "source_quote": "radar and ADS-B data indicate that no known aircraft were active within the observers' estimated line-of-sight from the ground",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6504,
+        "len": 85,
+        "exact": false,
+        "matched": "radar and ADS-B data indicate that no known aircraft were active within the observers"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "At least one red orb was reported stationary for several hours, which is physically incompatible with any known military flare.",
+      "source_quote": "a red \"orb\" remaining stationary for several hours is physically incompatible with the burn-time and descent rate of any known military flare",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6691,
+        "len": 100,
+        "exact": false,
+        "matched": "aining stationary for several hours is physically incompatible with the burn-time and descent rate o"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "AARO assessed foreign intelligence activity as highly unlikely because the reported kinematic profiles diverge significantly from known adversary systems.",
+      "source_quote": "the reported kinematic profiles diverge significantly enough from those of known adversary systems that AARO assesses this hypothesis as highly unlikely",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8007,
+        "len": 152,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO conducted a comprehensive Blue Force deconfliction review and found that while characteristics align with certain U.S. military technologies, historical records are inconclusive on whether those technologies were present at the time and place.",
+      "source_quote": "historical records are inconclusive regarding whether those technologies were present at the time and place of the reported incident",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7341,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Weather conditions were generally clear with seasonable temperatures, making atmospheric anomalies an unlikely explanation.",
+      "source_quote": "Weather conditions were generally clear, with seasonable temperatures and typical levels of light pollution for the area",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8669,
+        "len": 120,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The misidentified military aircraft exhaust hypothesis was ruled out because aircraft altitudes were too high for exhaust to appear as orange orbs.",
+      "source_quote": "their altitudes were too high for standard exhaust to appear as orange \"orbs.\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4798,
+        "len": 68,
+        "exact": false,
+        "matched": "their altitudes were too high for standard exhaust to appear as oran"
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 2
+    "green": 6,
+    "amber": 4,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:07:04.493Z",
-  "qa_completed_at": "2026-06-14T03:07:34.728Z",
+  "qa_started_at": "2026-06-19T21:33:14.353Z",
+  "qa_completed_at": "2026-06-19T21:34:28.976Z",
   "timing": {
-    "A": "14.8s",
-    "B": "15.5s"
-  }
+    "A": "43.7s",
+    "B": "30.9s",
+    "E": "27.6s"
+  },
+  "public_headline": "Pentagon Office Cannot Explain 40 Percent of Orb Sightings Near Security Site",
+  "public_tldr": "A June 2026 memorandum from the All-domain Anomaly Resolution Office (AARO) summarises its ongoing investigation into orange and red \"orbs\" observed by federal agents near a sensitive site in the western United States in October 2023. AARO attributes roughly 60 percent of the activity to military flares but says 40 percent remains unexplained, with no instrument data collected during the incident.",
+  "public_narrative": "In October 2023, over two days at approximately dusk, six federal law enforcement agents working in three teams of two observed unusual aerial phenomena near a sensitive national security site in the western United States. They described luminous orange \"mother orbs\" that appeared for one to two seconds before releasing clusters of two to four smaller red \"orbs\" and then vanishing. The phenomena were silent. At least one red orb reportedly remained stationary above a ridgeline for several hours.\n\nThe agents did not capture any video, photographs, or instrument data during the incident. The entire case rests on their spoken and written testimony. AARO confirmed that U.S. military aircraft were operating in the area and actively deploying infrared countermeasure flares as part of a standard exercise. The agency concluded that roughly 60 percent of the reported activity is plausibly explained by those flares. The witnesses stated the phenomena did not resemble military flares, but AARO notes the specific flare types used differ from the standard illumination flares the agents may have been familiar with.\n\nFor the remaining 40 percent of observations, radar and ADS-B tracking data showed no known aircraft within the observers' estimated line of sight. AARO also noted that a red orb hovering for several hours is physically incompatible with the burn time and descent rate of any known military flare. The agency ruled out foreign intelligence activity, saying the reported behaviour diverges significantly from known adversary systems. It also ruled out misidentified aircraft exhaust, since the aircraft were flying too high for exhaust to appear as orange orbs. Weather was clear, making atmospheric anomalies unlikely.\n\nAARO conducted what it calls a Blue Force deconfliction review — checking whether classified U.S. military technology could account for the sightings. It found that while certain characteristics align with some U.S. technologies, historical records are inconclusive on whether those technologies were present at the time and place. As of June 2026, the case remains open. AARO says it intends to apply scientific modelling and multispectral data analysis to continue the investigation. The document, dated 5 June 2026, is unclassified and shows low signs of redaction.",
+  "public_caveats": [
+    "The entire case is built on testimony from six witnesses. No video, photographs, or instrument data were collected during the incident — there is nothing to independently verify what was seen.",
+    "AARO's preliminary hypothesis of \"unrecognised technology\" for the unexplained 40 percent is explicitly described as unsubstantiated by any technical data or physical evidence.",
+    "The exact location is withheld; the document says only \"near a sensitive national security site in the western United States.\"",
+    "AARO acknowledges that human perception is unreliable in low-light conditions, though it judges contextual factors (multiple trained observers, consistent accounts) outweigh that limitation in this case.",
+    "Whether there was one \"mother orb\" or several is unclear — AARO finds both interpretations plausible based on the witness accounts."
+  ]
 }

@@ -5,68 +5,383 @@
   "type": "IMG",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "A first-hand narrative statement (witness testimony) from a federal law enforcement agent describing observations of unidentified anomalous phenomena (UAP) over two days in October 2023 in the western United States.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "First-hand witness narrative memorandum documenting a federal law enforcement agent's observation of unidentified anomalous phenomena (UAP) in the western United States.",
+  "core_summary": "Witness 2, a U.S. federal law enforcement special agent, reported observing bright orb-like lights that expelled smaller red lights over two days in October 2023 while surveying an area for drone activity in the western United States. The bright orb-like lights appeared on the northern/northeastern horizon, expelled three or four red lights that moved in coordinated horizontal formations, and the red lights hovered above the southern horizon for several hours. Multiple teams positioned throughout the area confirmed observing the same objects.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "Source text could not be extracted from the image file (likely scanned document with poor OCR); all facts are derived from metadata and the CSV description only.",
-    "Single-witness account (Witness 2 of several); corroboration from other witnesses is referenced but not included in this document.",
-    "No detail on what the UAP looked like, how it behaved, or what sensors were used — that information may be in the unreadable image content.",
-    "Redaction level is estimated as moderate based on the document being an image (potentially to preserve redactions that would be lost in text extraction)."
+    "This is a single-witness narrative (Witness 2) though corroboration from other teams is claimed but not independently documented here.",
+    "The source text is an OCR extraction from an image file (JPG), resulting in numerous typographical errors that may affect accuracy of specific details.",
+    "The document is truncated — it ends mid-sentence at 'Al' on page 1, indicating additional content exists but was not captured.",
+    "No sensor data, photographs, or instrument readings accompany this narrative — it is purely observational testimony.",
+    "The witness was surveying for drone activity, which may have primed expectations for aerial observations.",
+    "Distance, altitude, and size of the objects are not estimated in absolute terms, only relative angles and proportions."
   ],
-  "fabrication_score": 5,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D080",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_date",
+      "value": "02 June 2026",
+      "source_quote": "02 une 2026",
+      "citation_offset": {
+        "offset": 105,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "document_type",
-      "value": "Narrative Statement (Witness 2)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "witness_designation",
+      "value": "Witness 2",
+      "source_quote": "Narrative from Witness 2 - Wester U.S. Event",
+      "citation_offset": {
+        "offset": 152,
+        "len": 39,
+        "exact": false,
+        "matched": "tive from Witness 2 - Wester U.S. Event"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "incident_location",
-      "value": "Western United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "witness_role",
+      "value": "U.S. federal law enforcement special agent",
+      "source_quote": "one of several Unied Stes (US) federal Law enforcement special agents",
+      "citation_offset": {
+        "offset": 450,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_date",
+      "value": "October 2023",
+      "source_quote": "In October 2023, my partner and T were tasked to survey an area",
+      "citation_offset": {
+        "offset": 840,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "mission_purpose",
+      "value": "Surveying area for individuals launching drones",
+      "source_quote": "tasked to survey an area for individuals launching drones",
+      "citation_offset": {
+        "offset": 879,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "terrain",
+      "value": "Valley with mountain ranges to the west and east, more distant ranges to the north",
+      "source_quote": "positioned in valley, with mountain ranges o the west and east and mor distant ranges to the north",
+      "citation_offset": {
+        "offset": 960,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "weather",
+      "value": "Clear",
+      "source_quote": "The weather was clear",
+      "citation_offset": {
+        "offset": 1112,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "initial_observation_time",
+      "value": "Approximately 1900 hours",
+      "source_quote": "At approimately 1900 hours, I observed a bright circular orb-like light",
+      "citation_offset": {
+        "offset": 1201,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_position",
+      "value": "35-45 degrees above northern/northeastern horizon",
+      "source_quote": "approximately 35-45 degrees above the northern/northenster horizon",
+      "citation_offset": {
+        "offset": 1273,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "primary_object_description",
+      "value": "Bright circular orb-like light with a smaller red orb-like light within it",
+      "source_quote": "a bright circular orb-like light... had a smaller red orb-like light within it",
+      "citation_offset": {
+        "offset": 1489,
+        "len": 43,
+        "exact": false,
+        "matched": " had a smaller red orb-like light within it"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "light_quality",
+      "value": "Bright aural light with slight halo effect, not artificial neon glow",
+      "source_quote": "a bright aural light with a slight halo effec",
+      "citation_offset": {
+        "offset": 1886,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "expelled_objects_count",
+      "value": "Three or four red lights per expulsion",
+      "source_quote": "expelled three or four red lights rom it",
+      "citation_offset": {
+        "offset": 1577,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "expelled_objects_size_ratio",
+      "value": "Approximately 1/15 the size of the orb-like light",
+      "source_quote": "approximately 1/15 the size of the rb-like light",
+      "citation_offset": {
+        "offset": 1753,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "expelled_objects_movement",
+      "value": "Accelerated instantly with smooth coordinated movement into horizontal formation",
+      "source_quote": "The red lights accelerated instantly and maneuvered with perfect, smooth coordination ito a horizontal formation",
+      "citation_offset": {
+        "offset": 1619,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "red_light_appearance",
+      "value": "Less luminescent, appeared more like artificial lights (e.g., taillights)",
+      "source_quote": "appeared to be more like artificial lights (e.., taillights)",
+      "citation_offset": {
+        "offset": 1974,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "repetition_count",
+      "value": "Process repeated approximately five times",
+      "source_quote": "the process repeat approimately five times",
+      "citation_offset": {
+        "offset": 2210,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "repetition_duration",
+      "value": "1900 to approximately 1930 hours",
+      "source_quote": "From approimately 1900 hours o approximately 1930 hours",
+      "citation_offset": {
+        "offset": 2141,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "observation_directions",
+      "value": "Northern, northeastern, and eastern horizon",
+      "source_quote": "across the northern, northeastern, and eastern horizon",
+      "citation_offset": {
+        "offset": 2253,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "corroboration",
+      "value": "Other teams confirmed observing the same objects",
+      "source_quote": "Our eas confirmed they observed the same objects",
+      "citation_offset": {
+        "offset": 2309,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "hovering_duration",
+      "value": "Approximately 1930 to 2300 hours above southern horizon",
+      "source_quote": "From approximately 1930 hours until approximately 2300 hours, the red lights hovered above fhe southern horizon",
+      "citation_offset": {
+        "offset": 2555,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "red_lights_spacing",
+      "value": "Aligned and equally spaced",
+      "source_quote": "The three red lights were all aligned and remained equally spaced",
+      "citation_offset": {
+        "offset": 2513,
+        "len": 40,
+        "exact": false,
+        "matched": " all aligned and remained equally spaced"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "red_lights_movement_pattern",
+      "value": "Sometimes dipped below horizon then rose back up",
+      "source_quote": "Sometime dipped below he horizon, out of sight but consistently rose back up",
+      "citation_offset": {
+        "offset": 2684,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "investigating_office",
+      "value": "All-domain Anomaly Resolution Office (AARO)",
+      "source_quote": "provided to the All-domain Anomaly Resolution Office (AARO)",
+      "citation_offset": {
+        "offset": 395,
+        "len": 39,
+        "exact": false,
+        "matched": "domain Anomaly Resolution Office (AARO)"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "classification",
+      "value": "UNCLASSIFIED",
+      "source_quote": "UNCLASSIFIED",
+      "citation_offset": {
+        "offset": 0,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [
-    "Western United States"
+    "Western United States",
+    "Washington, DC"
   ],
   "dated_events": [
-    "October 2023"
+    "October 2023",
+    "02 June 2026",
+    "08-MAY 2026"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "Bright circular orb-like light with smaller red orb-like light within it",
+    "Expelled red lights (three or four per expulsion) moving in coordinated horizontal formations"
+  ],
   "verifiable_claims": [
     {
-      "claim": "This is the account of Witness 2, indicating at least two witnesses provided separate statements.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Multiple federal law enforcement teams were positioned in the area and independently confirmed observing the same objects.",
+      "source_quote": "we had teams positioned throughout the area as wel... Our eas confirmed they observed the same objects",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1060,
+        "len": 50,
+        "exact": false,
+        "matched": "we had teams positioned throughout the area as wel"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The bright orb-like light expelled smaller red lights approximately five times between 1900 and 1930 hours.",
+      "source_quote": "the process repeat approimately five times across the northern, northeastern, and eastern horizon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2210,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The red lights hovered above the southern horizon for approximately 3.5 hours (1930-2300).",
+      "source_quote": "From approximately 1930 hours until approximately 2300 hours, the red lights hovered above fhe southern horizon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2555,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The red lights accelerated instantly and maneuvered with perfect smooth coordination.",
+      "source_quote": "The red lights accelerated instantly and maneuvered with perfect, smooth coordination ito a horizontal formation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1619,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness and their partner were originally tasked with surveying for drone activity when the UAP was observed.",
+      "source_quote": "tasked to survey an area for individuals launching drones",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 879,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 4,
+    "amber": 1,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:11:02.650Z",
-  "qa_completed_at": "2026-06-14T03:11:44.682Z",
+  "qa_started_at": "2026-06-19T21:42:50.043Z",
+  "qa_completed_at": "2026-06-19T21:43:49.771Z",
   "timing": {
-    "A": "18.8s",
-    "B": "23.2s"
-  }
+    "A": "34.2s",
+    "B": "25.5s",
+    "E": "22.9s"
+  },
+  "public_headline": "Federal Agent Reports Bright Orbs Expelling Red Lights Over Western US",
+  "public_tldr": "This unclassified Department of War document is a first-hand witness statement from a U.S. federal law enforcement agent who observed bright orb-like lights expelling smaller red lights over two evenings in October 2023. The agent was originally surveying for drone activity in a valley in the western United States when the sighting occurred, and multiple teams in the area confirmed seeing the same objects.",
+  "public_narrative": "This document, designated DOW-UAP-D080, is a narrative statement provided to the All-domain Anomaly Resolution Office (AARO) by a federal law enforcement special agent identified only as \"Witness 2.\" The statement describes events the witness observed in October 2023 while on assignment in a valley in the western United States, where the agent and their partner had been tasked with surveying for individuals launching drones.\n\nAt approximately 7:00 PM on a clear evening, the witness observed a bright circular orb-like light positioned roughly 35 to 45 degrees above the northern/northeastern horizon. The light had a smaller red orb-like light within it and emitted what the witness described as a bright \"aural\" glow with a slight halo effect — distinct from an artificial neon light. Over the next 30 minutes, the orb expelled groups of three or four smaller red lights approximately five times. Each group of red lights was roughly one-fifteenth the size of the main orb and accelerated instantly into coordinated horizontal formations.\n\nAfter the expulsion phase ended around 7:30 PM, the red lights hovered above the southern horizon in an aligned, equally spaced formation until approximately 11:00 PM — a span of about three and a half hours. The red lights occasionally dipped below the horizon before rising back up. Other law enforcement teams positioned throughout the area independently confirmed observing the same objects.\n\nThe document is marked UNCLASSIFIED and dated 2 June 2026. It contains no photographs, sensor data, or instrument readings — it is purely observational testimony. Notably, the document appears to be truncated, ending mid-sentence, which means additional details from the witness may exist but were not captured in this release.",
+  "public_caveats": [
+    "This is a single witness's account. While the statement claims other teams confirmed the sighting, their independent statements are not included in this document.",
+    "No photographs, video, radar data, or instrument readings accompany the narrative — it rests entirely on one person's observational testimony.",
+    "The document was extracted via OCR from an image file, introducing typographical errors that may affect the accuracy of specific details.",
+    "The document is truncated and ends mid-sentence, meaning readers are seeing an incomplete account.",
+    "The witness was specifically surveying for drone activity at the time, which may have influenced how aerial observations were perceived and reported."
+  ]
 }

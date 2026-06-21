@@ -5,77 +5,463 @@
   "type": "PDF",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "First-hand witness narrative statement provided to the All-domain Anomaly Resolution Office (AARO) by a U.S. federal law enforcement special agent regarding UAP observations.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "First-hand witness narrative memorandum submitted to the All-domain Anomaly Resolution Office (AARO) documenting UAP observations by a federal law enforcement special agent.",
+  "core_summary": "Witness 5, a U.S. federal law enforcement special agent, reported observing multiple UAP events over two days in October 2023 in the western United States. On the first evening, the witness observed a large orange light hovering over a ridge, followed by a large red orb that released smaller red orbs, accompanied by white flashes. The following morning, the witness encountered a red-and-white light pair near ground level that moved laterally at 15-20 mph with zero resistance, and later observed a formation of faint lights that appeared to evade detection, along with unexplained symmetrical ground markings near the sighting location.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived solely from metadata and the CSV description provided by war.gov.",
-    "Single-witness narrative (Witness 5); corroboration from the other agents' statements would need to be reviewed separately.",
-    "The document is one of multiple narrative statements from the same incident; this is not a standalone investigation conclusion.",
-    "Redaction level is estimated as moderate based on the inability to extract text, which may indicate heavy redaction or poor scan quality rather than content-level redaction."
+    "Heavy redaction throughout: specific dates, names, locations, coordinates, license plates, and institutional identifiers are systematically redacted, preventing independent verification of the location and participants.",
+    "Single-source narrative: this is one witness's account among several agents present, and no corroborating witness statements are included in this document.",
+    "Observations occurred in low-light and nighttime conditions, which can affect visual perception and identification of objects.",
+    "The witness acknowledges uncertainty in several places (e.g., 'I think', 'may have', 'I could not judge how far away'), indicating honest but imprecise recollection.",
+    "No sensor data, photographs, or video are included despite a camera being deployed; only hand-drawn sketches accompany the narrative.",
+    "The radio anomaly (one-way communication) is reported secondhand based on post-event debriefing, not confirmed by technical analysis.",
+    "The ground markings were observed hours after the sighting and their connection to the UAP events is implied but not established."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D083",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document date",
+      "value": "02 June 2026",
+      "source_quote": "02 JUNE2026",
+      "citation_offset": {
+        "offset": 126,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "narrative_number",
-      "value": "Narrative 5",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Witness designation",
+      "value": "Witness 5",
+      "source_quote": "Narrative from Witness 5 - Western U.S. Event",
+      "citation_offset": {
+        "offset": 174,
+        "len": 30,
+        "exact": false,
+        "matched": "tive from Witness 5 - Western "
+      },
+      "confidence": "amber"
     },
     {
-      "field": "incident_location",
+      "field": "Witness role",
+      "value": "U.S. federal law enforcement special agent",
+      "source_quote": "several United States (U.S.) federal law enforcement special agents",
+      "citation_offset": {
+        "offset": 517,
+        "len": 37,
+        "exact": false,
+        "matched": "ederal law enforcement special agents"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Observation period",
+      "value": "Two days in October 2023",
+      "source_quote": "over a period of two days in October 2023",
+      "citation_offset": {
+        "offset": 617,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
       "value": "Western United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "in the western United States",
+      "citation_offset": {
+        "offset": 659,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "issuing_agency",
-      "value": "Department of War",
-      "source_quote": "",
+      "field": "First sighting time (orange light)",
+      "value": "1858",
+      "source_quote": "at 1858, we noticed a large orange light",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Orange light description",
+      "value": "Large, hovering over a ridge peak with zero resistance or movement",
+      "source_quote": "the orange light appeared to be placed on something, although nothing could be identified to be holding it up. It seemed to be hovering with zero resistance or movement",
+      "citation_offset": {
+        "offset": 1803,
+        "len": 168,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Orange light duration",
+      "value": "Less than or about a minute",
+      "source_quote": "I think the light lasted less than or about a minute",
+      "citation_offset": {
+        "offset": 2040,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Red orb sighting time",
+      "value": "1918",
+      "source_quote": "Around 1918 we saw a large red orb",
+      "citation_offset": {
+        "offset": 2389,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Red orb behaviour",
+      "value": "Large red orb released two smaller red orbs moving horizontally and upward",
+      "source_quote": "I am certain I saw two red, smaller orbs release from the larger one going west",
+      "citation_offset": {
+        "offset": 2498,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Red orb duration",
+      "value": "About 10 seconds",
+      "source_quote": "all lights were gone from every orb in about 10 seconds",
+      "citation_offset": {
+        "offset": 2890,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Second red orb sighting time",
+      "value": "1937",
+      "source_quote": "saw the large orb again, at 1937",
+      "citation_offset": {
+        "offset": 3120,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "White flash",
+      "value": "White flash of light in the sky to the west after orb sightings",
+      "source_quote": "we saw a white flash of light in the sky to the West",
+      "citation_offset": {
+        "offset": 3021,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radio anomaly",
+      "value": "Other teams could not hear witness transmissions",
+      "source_quote": "other teams could not hear us when we were responding",
+      "citation_offset": {
+        "offset": 3624,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Road light pair sighting time",
+      "value": "Approximately 0430",
+      "source_quote": "Around 0430, I notice two lights in the distance about 2-3ft above the ground",
+      "citation_offset": {
+        "offset": 4066,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Road light pair description",
+      "value": "One white square light, one round red light, 2-3 ft above ground",
+      "source_quote": "One was white and square, the second was round and red. The red light was diagonally to the left above the white lite",
+      "citation_offset": {
+        "offset": 4224,
+        "len": 117,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Road light pair movement speed",
+      "value": "15-20 mph lateral movement with zero resistance",
+      "source_quote": "the red and white light pair hovered, with zero resistance, or change in height, over the bushes to the right at about 15-20 mph",
+      "citation_offset": {
+        "offset": 5059,
+        "len": 128,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object shape via NVGs",
+      "value": "Very thin horizontal line approximately 4 ft wide after lights turned off",
+      "source_quote": "I saw a very thin line remain, maybe 4 ft wide, horizontal to the earth",
+      "citation_offset": {
+        "offset": 5393,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Equipment used",
+      "value": "Night Vision Goggles (NVGs) and thermal binoculars",
+      "source_quote": "I pulled out the Night Vision Goggles (NVGs) to take a look",
+      "citation_offset": {
+        "offset": 5247,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Faint light formation",
+      "value": "Formation of faint lights in a perfect pattern that moved together, appeared to evade detection",
+      "source_quote": "faint lights in a perfect formation that moved together",
+      "citation_offset": {
+        "offset": 6636,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Formation evasive behaviour",
+      "value": "Moving up and side to side as if trying to blend into stars",
+      "source_quote": "This gave the perception of trying to evade being noticed, or blend into the stars",
+      "citation_offset": {
+        "offset": 6845,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Ground markings",
+      "value": "Symmetrical round scrapes in dirt near a plant, fresh and sharp",
+      "source_quote": "The sharp cut in the dirt was symmetrical and round, but did not always make a full circle",
+      "citation_offset": {
+        "offset": 8399,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Ground markings context",
+      "value": "No wind the previous night to explain the markings",
+      "source_quote": "it was not windy the night before and the dirt movement looked very sharp and very fresh",
+      "citation_offset": {
+        "offset": 8309,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Cobweb anomaly",
+      "value": "Floating cobweb moving upward unnaturally",
+      "source_quote": "The second was moving up, but not with a natural flow",
+      "citation_offset": {
+        "offset": 6520,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AARO Director",
+      "value": "Jon T. Kosloski",
+      "source_quote": "Jon T. Kosloski Director, AARO",
+      "citation_offset": {
+        "offset": 8718,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of witnesses",
+      "value": "Multiple federal law enforcement special agents",
+      "source_quote": "one of several United States (U.S.) federal law enforcement special agents",
+      "citation_offset": {
+        "offset": 515,
+        "len": 39,
+        "exact": false,
+        "matched": " federal law enforcement special agents"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Camera deployed",
+      "value": "Camera set up approximately 3 miles from parked vehicle",
+      "source_quote": "Approximately 3 miles from where we parked the vehicle, we set up a camera in hopes to catch photos",
+      "citation_offset": {
+        "offset": 3355,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "Jon T. Kosloski"
+  ],
   "named_places": [
-    "Western United States"
+    "Western United States",
+    "Washington, DC",
+    "Defense Pentagon"
   ],
   "dated_events": [
-    "October 2023"
+    "October 2023",
+    "02 June 2026",
+    "08-MAY 2026"
   ],
   "objects_described": [
-    "Unidentified anomalous phenomena (UAP)"
+    "Large orange hovering light over ridge peak",
+    "Large red orb that released smaller red orbs",
+    "White flash of light in sky",
+    "Red and white light pair (square white, round red) hovering 2-3 ft above ground",
+    "Thin horizontal line approximately 4 ft wide (seen via NVGs after lights extinguished)",
+    "Formation of faint lights moving in exact pattern",
+    "Anomalous floating cobweb moving upward unnaturally"
   ],
   "verifiable_claims": [
     {
-      "claim": "The UAP observations occurred over a period of two days in October 2023",
-      "source_quote": "",
-      "verifier_verdict": "partial",
+      "claim": "Multiple federal law enforcement special agents observed UAP over two days in October 2023 in the western U.S.",
+      "source_quote": "several United States (U.S.) federal law enforcement special agents who reported observing unidentified anomalous phenomena (UAP) over a period of two days in October 2023",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 517,
+        "len": 100,
+        "exact": false,
+        "matched": "ederal law enforcement special agents who reported observing unidentified anomalous phenomena (UAP) "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A large orange light appeared to hover with zero resistance over a ridge peak at 1858",
+      "source_quote": "the orange light appeared to be placed on something, although nothing could be identified to be holding it up. It seemed to be hovering with zero resistance or movement",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1803,
+        "len": 168,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A large red orb released two smaller red orbs at 1918, all disappearing within about 10 seconds",
+      "source_quote": "I am certain I saw two red, smaller orbs release from the larger one going west... all lights were gone from every orb in about 10 seconds",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2498,
+        "len": 75,
+        "exact": false,
+        "matched": "I am certain I saw two red, smaller orbs release from the larger one going "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Radio communications were one-directional; other teams could not hear witness transmissions",
+      "source_quote": "other teams could not hear us when we were responding",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3624,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A red-and-white light pair moved laterally at 15-20 mph with zero resistance or height change at approximately 0430",
+      "source_quote": "the red and white light pair hovered, with zero resistance, or change in height, over the bushes to the right at about 15-20 mph",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5059,
+        "len": 128,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "After the lights turned off, NVGs revealed a thin horizontal line approximately 4 ft wide",
+      "source_quote": "the lights turned off and I saw a very thin line remain, maybe 4 ft wide, horizontal to the earth",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5367,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A formation of faint lights was observed moving in exact formation, appearing to evade detection",
+      "source_quote": "faint lights in a perfect formation that moved together... This gave the perception of trying to evade being noticed, or blend into the stars",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6846,
+        "len": 80,
+        "exact": false,
+        "matched": "his gave the perception of trying to evade being noticed, or blend into the star"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Symmetrical round scrapes were found in the ground near the sighting location despite no wind the previous night",
+      "source_quote": "The sharp cut in the dirt was symmetrical and round, but did not always make a full circle... it was not windy the night before",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8399,
+        "len": 90,
+        "exact": false,
+        "matched": "The sharp cut in the dirt was symmetrical and round, but did not always make a full circle"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The witness document includes three hand-drawn images depicting the observed phenomena",
+      "source_quote": "See Image 1... See Image 2... See Image 3",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 4,
+    "amber": 5,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:13:57.821Z",
-  "qa_completed_at": "2026-06-14T03:14:27.555Z",
+  "qa_started_at": "2026-06-19T21:51:00.906Z",
+  "qa_completed_at": "2026-06-19T21:52:29.832Z",
   "timing": {
-    "A": "14.6s",
-    "B": "15.2s"
-  }
+    "A": "52.3s",
+    "B": "36.7s",
+    "E": "27.7s"
+  },
+  "public_headline": "Federal Agent Reports Multiple Unexplained Lights Over Western US in 2023",
+  "public_tldr": "This Department of War document is a first-hand witness statement submitted to the All-domain Anomaly Resolution Office (AARO) by a federal law enforcement agent who observed multiple unexplained aerial phenomena over two days in October 2023 in the western United States. The witness describes hovering lights, a red orb that released smaller orbs, a low-altitude light pair that moved laterally without resistance, and unexplained ground markings — but the document is heavily redacted and includes no sensor data or corroborating witness accounts.",
+  "public_narrative": "This document, dated 2 June 2026 and signed by AARO Director Jon T. Kosloski, contains the narrative statement of \"Witness 5,\" one of several U.S. federal law enforcement special agents who reported observing unidentified anomalous phenomena (UAP) over two days in October 2023 in the western United States. It was submitted to the All-domain Anomaly Resolution Office, the Pentagon body responsible for investigating UAP reports.\n\nOn the first evening, the witness reported seeing a large orange light hovering over a ridge at 6:58 PM with zero resistance or movement, lasting about a minute. Twenty minutes later, at 7:18 PM, a large red orb appeared and released two smaller red orbs that moved westward; all lights vanished within roughly ten seconds. The red orb reappeared at 7:37 PM, and a white flash of light was observed in the western sky. The witness also reported a radio anomaly during this period: other teams could not hear transmissions from the witness's group.\n\nThe following morning, around 4:30 AM, the witness observed a pair of lights — one white and square, one round and red — hovering two to three feet above the ground. The light pair moved laterally at an estimated 15–20 mph with zero resistance or change in height. After the lights switched off, night vision goggles revealed a thin horizontal line roughly four feet wide. Later, the witness observed a formation of faint lights moving together in a precise pattern that appeared to shift position as if trying to blend into the stars. Near the sighting location, symmetrical round scrapes were found in the dirt, described as fresh and sharp despite calm conditions the previous night.\n\nThe document is heavily redacted throughout: specific dates, names, locations, coordinates, and institutional identifiers have been removed, making independent verification impossible. No photographs, video, or sensor data accompany the narrative — only hand-drawn sketches. The statement is a single witness's account; no corroborating statements from the other agents present are included in this document. The witness openly acknowledges uncertainty in several observations. AARO has not published any analytical conclusion about these events within this document.",
+  "public_caveats": [
+    "This is a single witness's account. Other agents were present but their statements are not included in this document, so there is no corroboration within it.",
+    "The document is heavily redacted — dates, names, locations, coordinates, and institutional details are blacked out, preventing independent verification of where and when these events occurred.",
+    "No sensor data, photographs, or video are included despite a camera being deployed at the scene. The only visual aids are hand-drawn sketches.",
+    "Observations took place in low-light and nighttime conditions, which can significantly affect visual perception and object identification.",
+    "The witness acknowledges uncertainty in several places (using phrases like 'I think' and 'I could not judge how far away'), indicating honest but imprecise recollection rather than definitive claims."
+  ]
 }

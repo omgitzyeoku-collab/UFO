@@ -5,78 +5,143 @@
   "type": "IMG",
   "incident_date": "6/9/65",
   "incident_location": "North Atlantic Ocean",
-  "what_is_it": "A preliminary crew debriefing transcript from the Gemini 4 spaceflight, recorded aboard the recovery ship USS Wasp on June 9, 1965.",
+  "what_is_it": "A preliminary crew debriefing transcript from the Gemini 4 spaceflight, originally classified and later downgraded to unclassified.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted body text is available — all facts are derived from metadata and the CSV description only.",
-    "The document is a scanned image (IMG type) with no successful OCR extraction, so details beyond the metadata summary cannot be verified.",
-    "The term \"sparkles\" is ambiguous and could refer to known spaceflight phenomena (e.g. debris, ice particles, urine dumps) rather than anomalous objects.",
-    "This is a single-source account from one crew member's debriefing."
+    "The OCR extraction captured only the cover/classification page — the substantive debriefing content (including Ed White's 'sparkles' observation) is not present in the extracted text.",
+    "Key details about the 'sparkles' sighting come from the CSV metadata description, not from the extracted source text itself.",
+    "The document is an image file (IMG type) and the OCR quality is poor, with many garbled characters, suggesting significant content may be unreadable.",
+    "This is Part I only; additional parts of the debriefing may contain further relevant details."
   ],
   "fabrication_score": 4,
   "key_facts": [
     {
-      "field": "Document ID",
-      "value": "NASA-UAP-D016",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_date",
+      "value": "June 16, 1965",
+      "source_quote": "June 16, 1965",
+      "citation_offset": {
+        "offset": 161,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Originating agency",
-      "value": "NASA",
-      "source_quote": "",
+      "field": "classification_status",
+      "value": "Declassified (originally classified, downgraded to UNCLASSIFIED)",
+      "source_quote": "CLASSIFICAT:ON CHANGE UNCLASSIFIED",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Mission",
-      "value": "Gemini 4",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "declassification_date",
+      "value": "November 20, 1973",
+      "source_quote": "Date _NOV 20] 1973",
+      "citation_offset": {
+        "offset": 104,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Debriefing date",
-      "value": "June 9, 1965",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "declassification_authority",
+      "value": "Z. Zeman",
+      "source_quote": "hanged by_(Z Zeman",
+      "citation_offset": {
+        "offset": 85,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Incident location",
-      "value": "North Atlantic Ocean",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "downgrade_schedule",
+      "value": "Group 4: Downgrade at 3-year intervals",
+      "source_quote": "Group 4: Downgrade at 3 year intervals",
+      "citation_offset": {
+        "offset": 207,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "Z Zeman"
+  ],
   "named_places": [],
-  "dated_events": [],
+  "dated_events": [
+    "June 16, 1965",
+    "NOV 20 1973"
+  ],
   "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "The Gemini 4 crew debriefing was conducted aboard USS Wasp on June 9, 1965",
-      "source_quote": "",
-      "verifier_verdict": "partial",
+      "claim": "The document was originally classified and later changed to UNCLASSIFIED",
+      "source_quote": "CLASSIFICAT:ON CHANGE UNCLASSIFIED",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "The declassification was carried out by Z. Zeman in November 1973",
+      "source_quote": "hanged by_(Z Zeman Date _NOV 20] 1973",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 85,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was subject to Group 4 downgrade rules with 3-year intervals",
+      "source_quote": "Group 4: Downgrade at 3 year intervals",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 207,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Unauthorized disclosure of the document was prohibited by law",
+      "source_quote": "person is prohibited by law",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 178,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 3,
+    "amber": 1,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:29:45.088Z",
-  "qa_completed_at": "2026-06-14T03:30:11.483Z",
+  "qa_started_at": "2026-06-19T22:33:33.126Z",
+  "qa_completed_at": "2026-06-19T22:34:07.287Z",
   "timing": {
-    "A": "14.2s",
-    "B": "12.2s"
-  }
+    "A": "18.7s",
+    "B": "15.4s",
+    "E": "17.1s"
+  },
+  "public_headline": "NASA Released a Once-Classified Gemini 4 Crew Debriefing From 1965",
+  "public_tldr": "This document is the cover page of a preliminary crew debriefing from the Gemini 4 spaceflight, dated June 16, 1965. It was originally classified, then downgraded to unclassified by Z. Zeman on November 20, 1973. The actual debriefing content is not readable in this release — only the classification cover page was captured.",
+  "public_narrative": "This record is Part I of a preliminary crew debriefing from NASA's Gemini 4 mission, dated June 16, 1965. The incident location is listed as the North Atlantic Ocean. The document was originally classified, with unauthorized disclosure prohibited by law, and fell under Group 4 downgrade rules requiring declassification at three-year intervals.\n\nOn November 20, 1973, an official identified as Z. Zeman changed the document's status to unclassified. That declassification stamp is the clearest information available on the cover page.\n\nThe document is an image file, and the text extracted by optical character recognition (OCR) is heavily garbled. What survives in readable form is limited to the classification cover page — the substantive content of the crew debriefing itself is not present in the extracted text.\n\nBecause the actual debriefing transcript is unreadable in this release, nothing can be confirmed about what the crew reported during the mission. This is Part I only; additional parts of the debriefing may exist and could contain further details.",
+  "public_caveats": [
+    "Only the classification cover page is readable — the actual crew debriefing content was not successfully extracted from this image file.",
+    "The document shows heavy redaction evidence, meaning significant portions may have been obscured before release.",
+    "OCR quality is poor, with many garbled characters, so even the cover page text is partially reconstructed.",
+    "This is Part I of a multi-part debriefing; other parts are not included here and may contain additional information.",
+    "Key details sometimes cited about this mission's observations come from external metadata descriptions, not from the extracted document text itself."
+  ]
 }

@@ -5,71 +5,169 @@
   "type": "IMG",
   "incident_date": "6/9/65",
   "incident_location": "North Atlantic Ocean",
-  "what_is_it": "A scanned image of a preliminary crew debriefing transcript from the Gemini 4 spaceflight, specifically the 'Visual Sightings' section.",
+  "what_is_it": "A declassified preliminary flight crew debriefing transcript from the Gemini 4 mission, prepared from voice recordings taken aboard the recovery ship.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No extracted text available — the document is a scanned image with poor or no OCR, so all facts are derived from metadata only.",
-    "The actual content of the astronauts' visual sighting descriptions is not accessible from this extraction.",
-    "Without the body text, it is unknown what specific objects or phenomena the astronauts reported observing.",
-    "Single-source document: a crew debriefing transcript reflects the crew's subjective observations at the time."
+    "This is only the cover/title page — the actual debriefing content (Visual Sightings section, pages 196-224) is not present in this extracted text.",
+    "The OCR quality is poor due to the source being a photograph of an aged document, resulting in many garbled words.",
+    "The metadata indicates astronauts McDivitt and White described visual observations, but no such descriptions appear in this page of the source text.",
+    "The document was originally classified under espionage statutes, which is unusually high security for a spaceflight debriefing."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "Mission",
-      "value": "Gemini 4",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "Flight crew debriefing transcript",
+      "source_quote": "7-4. FLIGHT CRE DRERIEVING TRANSCRIPT",
+      "citation_offset": {
+        "offset": 127,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Debriefing date",
-      "value": "June 9, 1965",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Preparing office",
+      "value": "Spacecraft Operations Branch, Flight Crew Support Division",
+      "source_quote": "Prepared By Spacecraft Operations Branch Flight Crew Support Division",
+      "citation_offset": {
+        "offset": 171,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Originating agency",
-      "value": "NASA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Declassification authority",
+      "value": "Declassified November 20, 1973",
+      "source_quote": "engzd by ele NOV 20 | 73",
+      "citation_offset": {
+        "offset": 94,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Incident location",
-      "value": "North Atlantic Ocean",
-      "source_quote": "",
+      "field": "Downgrade schedule",
+      "value": "Downgraded at 3-year intervals, declassified after 12 years",
+      "source_quote": "Grown 4 Domgmads st 3 year intervals DeclassiTied ttes 12 youre",
+      "citation_offset": {
+        "offset": 508,
+        "len": 33,
+        "exact": false,
+        "matched": "Grown 4 Domgmads st 3 year interv"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Legal basis for classification",
+      "value": "Espionage Laws, Title 18, U.S.C., Sections 793 and 794",
+      "source_quote": "Eopionago Lave, Title 18. T, S. Cu Section 755 sna 194",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "FOIA exemption noted",
+      "value": "Document may be exempt from public disclosure under FOIA (5 U.S.C. 552)",
+      "source_quote": "Tris document ray be exempt from public iscosure under he Freedom of Infoc Paton Act (5 U.S. 552)",
+      "citation_offset": {
+        "offset": 619,
+        "len": 37,
+        "exact": false,
+        "matched": "blic iscosure under he Freedom of Inf"
+      },
+      "confidence": "amber"
     }
   ],
   "named_people": [],
   "named_places": [],
-  "dated_events": [],
+  "dated_events": [
+    "November 20, 1973"
+  ],
   "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "The Gemini 4 crew debriefing was conducted aboard the USS Wasp on June 9, 1965",
-      "source_quote": "",
+      "claim": "The transcript was prepared by NASA's Spacecraft Operations Branch, Flight Crew Support Division",
+      "source_quote": "Prepared By Spacecraft Operations Branch Flight Crew Support Division",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 171,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was originally classified as containing national defense information under the Espionage Laws",
+      "source_quote": "mfuria cota dfmtion ifectingith national defense of the rise States vithin the Beaning of the Eopionago Lave",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 296,
+        "len": 70,
+        "exact": false,
+        "matched": "ional defense of the rise States vithin the Beaning of the Eopionago L"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Transmission or revelation of the document's contents to unauthorized persons was prohibited by law",
+      "source_quote": "the transmission oF revels tion of which in ny sams to an masorised Poreon ia pronibited by lav",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 411,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document was declassified on November 20, 1973",
+      "source_quote": "engzd by ele NOV 20 | 73",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 94,
+        "len": 24,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Access was restricted to persons within the U.S. Government",
+      "source_quote": "Requests fo 5 o [235 to persons autice the U.S. Government",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 683,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 4,
+    "amber": 1,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:30:48.991Z",
-  "qa_completed_at": "2026-06-14T03:31:17.690Z",
+  "qa_started_at": "2026-06-19T22:36:35.762Z",
+  "qa_completed_at": "2026-06-19T22:37:18.343Z",
   "timing": {
-    "A": "14.3s",
-    "B": "14.4s"
-  }
+    "A": "21.3s",
+    "B": "21.3s",
+    "E": "18.9s"
+  },
+  "public_headline": "NASA Gemini 4 Debriefing Was Classified Under Espionage Laws",
+  "public_tldr": "This is the cover page of a 1965 flight crew debriefing transcript from NASA's Gemini 4 mission, prepared from voice recordings taken aboard the recovery ship. The document was originally classified as national defence information under U.S. espionage statutes — an unusually high security level for a spaceflight debriefing — and was declassified on 20 November 1973.",
+  "public_narrative": "This document is the title page of a preliminary debriefing transcript from the Gemini 4 mission, dated 9 June 1965. It was prepared by NASA's Spacecraft Operations Branch, Flight Crew Support Division, from voice recordings made aboard the recovery ship in the North Atlantic Ocean.\n\nWhat makes this cover page notable is the classification markings. The document was designated as containing national defence information under the Espionage Laws (Title 18, U.S.C., Sections 793 and 794). Transmission of its contents to unauthorised persons was explicitly prohibited by law, and access was restricted to persons within the U.S. Government. This level of security classification is unusually high for a routine spaceflight debriefing.\n\nThe document was scheduled for downgrade at three-year intervals and full declassification after twelve years. It was declassified on 20 November 1973. A note on the cover page states that it may be exempt from public disclosure under the Freedom of Information Act (5 U.S.C. 552).\n\nIt is important to note that only the cover page is present in this release. The actual debriefing content — including a \"Visual Sightings\" section reportedly spanning pages 196 to 224 — is not included. The text that is available was extracted via OCR from a photograph of an aged document, and many words are garbled as a result.",
+  "public_caveats": [
+    "Only the cover/title page is present — the actual debriefing transcript, including any descriptions of visual sightings, is not included in this release.",
+    "The OCR quality is poor because the source is a photograph of a degraded document; many words are garbled, and some details rely on partial text matching.",
+    "The classification under espionage statutes is unusual for a spaceflight debriefing, but this page alone does not explain why that level was applied.",
+    "No descriptions of unidentified objects or phenomena appear in the available text — any such content would be in the missing pages.",
+    "This is a single-source document with no corroborating records included in the release."
+  ]
 }

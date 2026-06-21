@@ -5,60 +5,238 @@
   "type": "PDF",
   "incident_date": "December, 2024",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI investigative activity form (FD-1057) documenting a site survey of a location where UAP had previously been observed by FBI special agents.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "An FBI investigative activity report (FD-1057 form) documenting a site survey of a location where two FBI special agents had previously observed unidentified anomalous phenomena (UAP).",
+  "core_summary": "In December 2024, FBI Special Agents conducted a site survey of a location in the northeastern United States where they had previously observed UAP activity in November 2024. The agents walked a two-mile loop trail, departed from it to examine areas to the west and north, and found nothing unusual on the ground or at treetop level. They assessed that flying a drone or other craft at night in the area would be unrealistic due to the risk of crashing into tree limbs.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted body text was available — all facts are derived from document metadata and the official CSV description only.",
-    "The document appears to be scanned with poor OCR quality, so details from the actual form content are unavailable.",
-    "Redaction level is assessed as heavy based on the absence of readable text and the pattern of heavy redaction across related FBI FD-1057 forms in this series.",
-    "Single-source reporting: observations attributed to two FBI special agents with no independent corroboration noted in available metadata."
+    "Heavy redaction throughout: agent names, specific location names, property names, addresses, water body names, and exact dates are all redacted.",
+    "This is a follow-up survey only — no UAP was observed during this site visit; the document describes the physical environment of a prior sighting.",
+    "The assessment that drone flight would be unrealistic due to tree cover is a subjective judgment by the surveying agents, not a technical analysis.",
+    "Part of a series (FBI-UAP-D004 through D008) from the same general area; context from companion documents and video files (PR001-PR003) is not included here.",
+    "The original UAP observation referenced in this document is described in separate companion files, not in this document itself."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "agency",
-      "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "FBI FD-1057 (investigative activity form)",
+      "source_quote": "FD-1057 (Rev. 5-8-10)",
+      "citation_offset": {
+        "offset": 0,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_date",
-      "value": "December 2024",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Date of site survey",
+      "value": "December 2024 (exact day redacted)",
+      "source_quote": "12.2024, Special Agents (SA)",
+      "citation_offset": {
+        "offset": 688,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
-      "value": "Northeastern United States",
-      "source_quote": "",
+      "field": "Date of original UAP observation",
+      "value": "November 2024 (exact day redacted)",
+      "source_quote": "observed Unidentified Aerial Phenomenon (UAP) activity on 11- 2024",
+      "citation_offset": {
+        "offset": 891,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Survey start time",
+      "value": "Approximately 10:30am",
+      "source_quote": "Agents walked the perimeter of ■ in a clockwise direction at approximately 10:30am",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Trail length",
+      "value": "Approximately two miles",
+      "source_quote": "a marked trail which was approximately a two mile loop",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Areas examined off-trail",
+      "value": "West and North of the location",
+      "source_quote": "departed from the trail in areas to the West and North",
+      "citation_offset": {
+        "offset": 1132,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Northwest side observation time",
+      "value": "Approximately 11:00am",
+      "source_quote": "at approximately 11:00am, Agents departed from the marked trail and descended to the water's edge",
+      "citation_offset": {
+        "offset": 1235,
+        "len": 82,
+        "exact": false,
+        "matched": "y 11:00am, Agents departed from the marked trail and descended to the water's edge"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Line of sight from northwest",
+      "value": "Unobstructed view facing south to a property",
+      "source_quote": "Facing South, Agents were able to see ■ property at ■ without any obstruction and full line of sight",
+      "citation_offset": {
+        "offset": 1371,
+        "len": 45,
+        "exact": false,
+        "matched": "ithout any obstruction and full line of sight"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Findings at UAP activity site",
+      "value": "Nothing unusual on ground or at treetop level",
+      "source_quote": "there did not appear to be anything unusual present on the ground or at treetop level",
+      "citation_offset": {
+        "offset": 1481,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Fire pit found",
+      "value": "Old fire pit with no evidence of recent use",
+      "source_quote": "an area that appeared to be a once used as a fire pit, but there did not appear to be any evidence of recent burns as the ground was blanketed with leaves",
+      "citation_offset": {
+        "offset": 1850,
+        "len": 50,
+        "exact": false,
+        "matched": "ot appear to be any evidence of recent burns as th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Tree cover assessment",
+      "value": "Moderate, assessed as unrealistic for nighttime drone flight",
+      "source_quote": "tree cover throughout the area around ■ was moderate and Agents assessed that it would be unrealistic for someone to fly a drone or other craft at night without the risk of crashing into tree limbs",
+      "citation_offset": {
+        "offset": 2111,
+        "len": 100,
+        "exact": false,
+        "matched": "was moderate and Agents assessed that it would be unrealistic for someone to fly a drone or other cr"
+      },
+      "confidence": "amber"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Northeastern United States"
-  ],
+  "named_places": [],
   "dated_events": [
-    "December 2024"
+    "12/1/2024",
+    "12.2024",
+    "11- 2024",
+    "11/. 2024"
   ],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "objects_described": [
+    "Unidentified Aerial Phenomenon (UAP)",
+    "drone or other craft (hypothetical, discussed in tree-cover assessment)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "FBI special agents conducted a site survey of a location where they had previously observed UAP activity.",
+      "source_quote": "The purpose of the surveillance was to take photographs and survey the locations where SA ■ and SA ■ observed Unidentified Aerial Phenomenon (UAP) activity on 11- 2024",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 790,
+        "len": 90,
+        "exact": false,
+        "matched": "The purpose of the surveillance was to take photographs and survey the locations where SA "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Nothing unusual was found on the ground or at treetop level at the sites of prior UAP observation.",
+      "source_quote": "there did not appear to be anything unusual present on the ground or at treetop level",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1481,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Agents had unobstructed line of sight from the northwest side of the location to a property to the south.",
+      "source_quote": "Agents were able to see ■ property at ■ without any obstruction and full line of sight",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1370,
+        "len": 46,
+        "exact": false,
+        "matched": "without any obstruction and full line of sight"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The tree cover was assessed as making nighttime drone or craft operation unrealistic due to crash risk.",
+      "source_quote": "Agents assessed that it would be unrealistic for someone to fly a drone or other craft at night without the risk of crashing into tree limbs",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2128,
+        "len": 140,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "An old fire pit was found but showed no evidence of recent use.",
+      "source_quote": "an area that appeared to be a once used as a fire pit, but there did not appear to be any evidence of recent burns as the ground was blanketed with leaves",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1850,
+        "len": 50,
+        "exact": false,
+        "matched": "ot appear to be any evidence of recent burns as th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Agents had line of sight to multiple homes to the east from the north side water's edge.",
+      "source_quote": "Agents had line of sight to multiple homes on ■ to the East",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 2,
+    "amber": 4,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:24:55.506Z",
-  "qa_completed_at": "2026-06-14T03:25:25.670Z",
+  "qa_started_at": "2026-06-19T22:19:40.678Z",
+  "qa_completed_at": "2026-06-19T22:20:39.965Z",
   "timing": {
-    "A": "15.4s",
-    "B": "14.7s"
-  }
+    "A": "31.1s",
+    "B": "28.2s",
+    "E": "23.3s"
+  },
+  "public_headline": "FBI Agents Surveyed a Prior UAP Sighting Site and Found Nothing Unusual",
+  "public_tldr": "This FBI investigative report documents a December 2024 site survey of a location in the northeastern United States where two special agents had previously observed unidentified anomalous phenomena (UAP) in November 2024. The agents walked the area, found nothing unusual on the ground or in the trees, and judged that flying a drone there at night would be unrealistic due to tree cover.",
+  "public_narrative": "This document is an FBI investigative activity report — specifically an FD-1057 form — describing a daytime site survey conducted in December 2024. Two FBI Special Agents returned to a location in the northeastern United States where they had observed UAP activity the previous month, in November 2024. The purpose of the visit was to photograph and survey the area.\n\nThe agents walked a roughly two-mile loop trail starting at approximately 10:30am, then left the trail to examine areas to the west and north. By about 11:00am they had descended to a water's edge on the northwest side, where they had an unobstructed line of sight south toward a property. They also had line of sight to multiple homes to the east. At the sites of the prior UAP observation, they found nothing unusual on the ground or at treetop level. They did find an old fire pit, but it showed no sign of recent use — the ground was covered in leaves.\n\nThe agents assessed that the tree cover throughout the area was moderate and concluded it would be unrealistic for someone to fly a drone or other craft at night without risking a crash into tree limbs. This assessment is the agents' subjective judgment, not a formal technical analysis.\n\nThe document is heavily redacted. Agent names, the specific location, property names, addresses, a nearby water body, and exact dates are all blacked out. No UAP was observed during this visit — the report describes only the physical environment of a prior sighting. The original UAP observation itself is described in separate companion documents, not in this one.",
+  "public_caveats": [
+    "This is a follow-up site survey only — no UAP was observed during this visit. The document describes terrain, not a sighting.",
+    "The report is heavily redacted: agent names, exact dates, location names, addresses, and a water body name are all withheld.",
+    "The conclusion that drone flight would be unrealistic in the area is a subjective field judgment by the surveying agents, not a technical or engineering analysis.",
+    "This document is part of a series (FBI-UAP-D004 through D008) from the same general area; companion documents and associated video files are not included here, so the full picture is incomplete.",
+    "The original UAP observation referenced in this report is described in separate files — this document alone does not tell you what the agents saw in November 2024."
+  ]
 }

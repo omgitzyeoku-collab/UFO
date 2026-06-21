@@ -5,63 +5,440 @@
   "type": "PDF",
   "incident_date": "6/9/65",
   "incident_location": "North Atlantic Ocean",
-  "what_is_it": "Preliminary crew debriefing transcript (Part II) from the Gemini 4 spaceflight, focusing on visual sightings reported by the astronauts.",
+  "what_is_it": "Preliminary flight crew debriefing transcript (Part II) from the Gemini 4 (GT-4) mission, covering systems operation, operational checks, visual sightings, experiments, and training discussions between astronauts James McDivitt and Edward White.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived from metadata and the CSV description only.",
-    "The document is likely a scanned image with poor or no OCR, so the actual content of the astronauts' visual sighting descriptions is unavailable for analysis.",
-    "Without the body text, it is unknown what specific objects or phenomena the astronauts described.",
-    "James McDivitt's Gemini 4 sighting is one of the most well-known astronaut UAP reports, but no details from this specific transcript can be confirmed without readable text."
+    "The extracted text is predominantly the systems operation section (Section 8); the Visual Sightings section (Section 10, pages 188-213) referenced in the CSV description is listed in the table of contents but its content does not appear in this extracted text.",
+    "This is a preliminary transcript explicitly noted as not thoroughly reviewed — errors were expected and an official version was to follow.",
+    "OCR quality is imperfect — some words and classification markings are garbled, suggesting the source PDF is a scan of a typewritten document.",
+    "The document was originally classified; the classification markings visible throughout suggest some sensitivity around spacecraft systems details at the time, though the content has since been declassified.",
+    "Despite the CSV description highlighting the Visual Sightings section as UAP-relevant, the actual UAP-related observations by McDivitt and White are not present in this extracted portion of the document."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "Document ID",
-      "value": "NASA-UAP-D017",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_type",
+      "value": "Preliminary GT-4 Flight Crew Debriefing Transcript, Part II",
+      "source_quote": "PRELIMINARY GT-4 FLIGHT CREW DEBRIEFING TRANSCRIPT PART II",
+      "citation_offset": {
+        "offset": 184,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Agency",
-      "value": "NASA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "prepared_by",
+      "value": "Spacecraft Operations Branch, Flight Crew Support Division",
+      "source_quote": "Prepared By Spacecraft Operations Branch Flight Crew Support Division",
+      "citation_offset": {
+        "offset": 243,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Mission",
-      "value": "Gemini 4",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "preparation_date",
+      "value": "June 18, 1965",
+      "source_quote": "June 18 , 1965",
+      "citation_offset": {
+        "offset": 313,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Incident location",
-      "value": "North Atlantic Ocean",
-      "source_quote": "",
+      "field": "classification",
+      "value": "Group 4: Downgrade at 3-year intervals, Declassified after 12 years",
+      "source_quote": "Group 4: Downgrade at 3 year intervals Declassified after 12 years",
+      "citation_offset": {
+        "offset": 605,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "part_1_published",
+      "value": "June 16, 1965",
+      "source_quote": "A preliminary transcript of the first part was published on June 16 , 1965",
+      "citation_offset": {
+        "offset": 1588,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "OAMS_initial_temperature",
+      "value": "75 degrees",
+      "source_quote": "The temperature of our OAMS was 75 degrees all the way down the line",
+      "citation_offset": {
+        "offset": 12068,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "OAMS_initial_source_pressure",
+      "value": "~2800 psi source, 320 psi regulated",
+      "source_quote": "approximately 2800 psi for the source and 320 psi for the regulated pressure",
+      "citation_offset": {
+        "offset": 12199,
+        "len": 66,
+        "exact": false,
+        "matched": "ely 2800 psi for the source and 320 psi for the regulated pressure"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "OAMS_quantity_after_booster_chase",
+      "value": "70 percent indicated after first hour",
+      "source_quote": "When we ended the chasing-around at the end of the first hour, we were down to 70 percent indicated",
+      "citation_offset": {
+        "offset": 12961,
+        "len": 74,
+        "exact": false,
+        "matched": "-around at the end of the first hour, we were down to 70 percent indicated"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "OAMS_retrofire_delta_v",
+      "value": "127 feet/second over 2 minutes 40 seconds",
+      "source_quote": "Our OAMS retro was 127 feet/second which, incidently, happened to come out exactly 2 minutes and 40 seconds",
+      "citation_offset": {
+        "offset": 24270,
+        "len": 90,
+        "exact": false,
+        "matched": "was 127 feet/second which, incidently, happened to come out exactly 2 minutes and 40 secon"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "RCS_initial_conditions",
+      "value": "75 degrees and 3000 psi",
+      "source_quote": "The temperature started out at 75 degrees and 3000 pounds",
+      "citation_offset": {
+        "offset": 26024,
+        "len": 42,
+        "exact": false,
+        "matched": " started out at 75 degrees and 3000 pounds"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "RCS_heater_lights_onset",
+      "value": "Around 64th-65th elapsed time hour",
+      "source_quote": "It started at about the 64th or 65th elapsed time hour",
+      "citation_offset": {
+        "offset": 29683,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "RCS_lowest_temperature",
+      "value": "63-64 degrees",
+      "source_quote": "The lowest temperatures I noted were in the neighborhood of about 63 to 64 degrees",
+      "citation_offset": {
+        "offset": 27529,
+        "len": 47,
+        "exact": false,
+        "matched": "The lowest temperatures I noted were in the nei"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "cabin_temperature_peak",
+      "value": "Up to 100 degrees on first orbit",
+      "source_quote": "It got up to about 90. 100, it was.",
+      "citation_offset": {
+        "offset": 31110,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "cabin_steady_temperature",
+      "value": "82-83 degrees",
+      "source_quote": "It stayed in the area of 82 to 83 degrees the whole flight",
+      "citation_offset": {
+        "offset": 31252,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "suit_temperature_range",
+      "value": "50-55 degrees normally, under 60 even during hard work",
+      "source_quote": "It ran between about 50 and 55 degrees during the entire flight except when we really worked hard",
+      "citation_offset": {
+        "offset": 30737,
+        "len": 52,
+        "exact": false,
+        "matched": " the entire flight except when we really worked hard"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "cabin_pressure_during_mission",
+      "value": "4.8-4.9 psi after initial relief at 5.5",
+      "source_quote": "It went back down to 4.9 or 4.8 and this is where it stayed for the remainder of the mission",
+      "citation_offset": {
+        "offset": 49046,
+        "len": 67,
+        "exact": false,
+        "matched": "It went back down to 4.9 or 4.8 and this is where it stayed for the"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "reentry_rate_command_deadband",
+      "value": "4 degrees",
+      "source_quote": "It had a 4 degree deadband, and handled the spacecraft very well during reentry",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "White_EVA_bottle_pressure",
+      "value": "3400 pounds (full scale)",
+      "source_quote": "before I went out the reading on the EVA bottles was full-scale, 3400 pounds",
+      "citation_offset": {
+        "offset": 42280,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "White_suit_hours",
+      "value": "Over 50 hours on flight suit",
+      "source_quote": "I had over 50 hours on my flight suit",
+      "citation_offset": {
+        "offset": 43049,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "document_contains_visual_sightings_section",
+      "value": "Yes, pages 188-213 for orbital flight sightings",
+      "source_quote": "10.0 VISUAL SIGHTINGS... 10.3 Orbital Flight...191",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "named_people": [
+    "James McDivitt",
+    "Edward White",
+    "Joe Schmitt"
+  ],
+  "named_places": [
+    "USS Wasp",
+    "Manned Spacecraft Center"
+  ],
+  "dated_events": [
+    "June 12, 1965",
+    "June 16, 1965",
+    "June 18, 1965"
+  ],
+  "objects_described": [
+    "Gemini 4 (GT-4) spacecraft",
+    "OAMS (Orbital Attitude and Maneuvering System)",
+    "RCS (Reaction Control System)",
+    "Horizon Scanner",
+    "Platform (inertial guidance)",
+    "EVA suit and equipment",
+    "Translation thrusters",
+    "Attitude thrusters",
+    "Sextant (D-9 experiment)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The debriefing was conducted aboard USS Wasp on June 9, 1965 and concluded at the Manned Spacecraft Center on June 12, 1965",
+      "source_quote": "debriefing conducted aboard the recovery ship, the USS Wasp, on June 9, 1965, and concluded at the Manned Spacecraft Center on June 12, 1965",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 1027,
+        "len": 65,
+        "exact": false,
+        "matched": "debriefing conducted aboard the recovery ship, the USS Wasp, on J"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was originally classified under espionage laws (Title 18 U.S.C. Sections 793 and 794)",
+      "source_quote": "This material contains information affecting the national defense of the United States within the meaning of the Espionage Laws, Title 18. U. S. c. Section 793 and 794",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 328,
+        "len": 100,
+        "exact": false,
+        "matched": "This material contains information affecting the national defense of the United States within the me"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "OAMS fuel quantity never dropped below 50 percent in four days of flight",
+      "source_quote": "we never got below 50 percent in four days",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 13040,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Platform alignment accuracy was estimated at plus or minus 3-4 degrees in daytime",
+      "source_quote": "I could cage the platform to a reference with an error plus or minus about 3 or 4 degrees in all axes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6299,
+        "len": 75,
+        "exact": false,
+        "matched": " to a reference with an error plus or minus about 3 or 4 degrees in all axe"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Pure star reference for yaw orientation was nearly impossible at night",
+      "source_quote": "Pure star reference for yaw was almost impossible to use",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7942,
+        "len": 46,
+        "exact": false,
+        "matched": "reference for yaw was almost impossible to use"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Horizon Scan Mode worked for approximately 24 hours without problems",
+      "source_quote": "The Horizon Scan Mode worked essentially for 24 hours without any problem",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20314,
+        "len": 63,
+        "exact": false,
+        "matched": "n Scan Mode worked essentially for 24 hours without any problem"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Retrofire attitude control held within about 1 degree of target attitude",
+      "source_quote": "We didn't deviate more than about a degree from the attitude we were supposed to hold",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 29019,
+        "len": 75,
+        "exact": false,
+        "matched": "deviate more than about a degree from the attitude we were supposed to hold"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Water boiler venting caused a slow yaw drift to the left",
+      "source_quote": "We kept yawing around to the left. I believe it was left. I did notice the fact that we were yawing, but not very much",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 21413,
+        "len": 60,
+        "exact": false,
+        "matched": "I believe it was left. I did notice the fact that we were ya"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "White had no blood pressure plug in his suit, which he considered a safety concern for EVA",
+      "source_quote": "I launched without the plug that goes in the blood pressure port in the suit. I don't feel we should launch these things with no plug",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 32479,
+        "len": 75,
+        "exact": false,
+        "matched": "I launched without the plug that goes in the blood pressure port in the sui"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "RCS heater lights began cycling at about the 64th-65th elapsed hour, alternating between A-ring and B-ring at roughly 15-minute intervals",
+      "source_quote": "It started at about the 64th or 65th elapsed time hour. At 06:47, the first light, in the A-ring, came on",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 29683,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The OAMS fuel quantity gauge wandered 2-4 percent, reading inconsistently",
+      "source_quote": "the thing seemed to wander up and down somewhere between 2 and 4 percent",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12343,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "White found the inner suit liner was a wise decision that prevented pressure points",
+      "source_quote": "I think one reason why neither Jim nor I got any particular pressure points from the suit was that we had worn these suits a heck of a lot of time",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 42900,
+        "len": 146,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document contains a Visual Sightings section covering countdown, powered flight, orbital flight, and reentry observations",
+      "source_quote": "10.0 VISUAL SIGHTINGS 10.1 Countdown...10.2 Powered Flight...10.3 Orbital Flight...10.4 Reentry",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 210647,
+        "len": 35,
+        "exact": false,
+        "matched": "10.0 VISUAL SIGHTINGS 10.1 Countdow"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 4,
+    "amber": 9,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:30:11.485Z",
-  "qa_completed_at": "2026-06-14T03:30:48.989Z",
+  "qa_started_at": "2026-06-19T22:34:24.398Z",
+  "qa_completed_at": "2026-06-19T22:36:09.639Z",
   "timing": {
-    "A": "16.0s",
-    "B": "21.5s"
-  }
+    "A": "60.5s",
+    "B": "44.6s",
+    "E": "26.1s"
+  },
+  "public_headline": "NASA's Gemini 4 Crew Debriefing Covers Spacecraft Systems but Omits Visual Sightings",
+  "public_tldr": "This 1965 NASA document is the second part of a preliminary debriefing transcript from the Gemini 4 mission, featuring astronauts James McDivitt and Edward White discussing spacecraft systems performance. Although the table of contents lists a Visual Sightings section — the portion most relevant to UAP research — that section's content does not appear in the extracted text.",
+  "public_narrative": "In June 1965, NASA conducted a debriefing of astronauts James McDivitt and Edward White following the Gemini 4 mission. The session began aboard the recovery ship USS Wasp on 9 June 1965 and concluded at the Manned Spacecraft Center on 12 June. The Spacecraft Operations Branch published this preliminary transcript — Part II — on 18 June 1965, nine days after splashdown in the North Atlantic Ocean.\n\nThe bulk of what survives in this extracted text covers spacecraft engineering: the Orbital Attitude and Maneuvering System (OAMS) started at 75 degrees and roughly 2,800 psi, and fuel never dropped below 50 percent across four days of flight. The Reaction Control System (RCS) heater lights began cycling around the 64th–65th hour. Cabin temperature peaked near 100 degrees on the first orbit before settling at 82–83 degrees for the rest of the mission. White reported his EVA suit bottles were full at 3,400 pounds and that he logged over 50 hours in his flight suit. He also flagged a missing blood-pressure plug as a safety concern for extravehicular activity.\n\nThe document was originally classified under espionage laws (Title 18 U.S.C. Sections 793 and 794), with a downgrade schedule of three-year intervals and full declassification after twelve years. The table of contents lists a Visual Sightings section spanning pages 188–213, covering observations during countdown, powered flight, orbital flight, and re-entry. However, the actual content of that section does not appear in this extracted portion of the document — meaning the observations most relevant to UAP research are absent from what is currently available.\n\nThe transcript is explicitly labelled preliminary. NASA noted at the time that it had not been thoroughly reviewed and that an official version would follow. OCR artefacts in the digitised scan further reduce the reliability of individual word-level details.",
+  "public_caveats": [
+    "The Visual Sightings section (pages 188–213) is listed in the table of contents but its content is missing from this extracted text — the UAP-relevant observations by McDivitt and White are not actually readable here.",
+    "This is a preliminary transcript that NASA itself flagged as unreviewed; an official corrected version was to follow.",
+    "The source PDF is a scan of a typewritten document with imperfect OCR, meaning some words and classification markings are garbled.",
+    "The document was originally classified, but under a scheduled declassification regime — it was not released as part of a special disclosure; it simply aged past its classification window.",
+    "Most of the available content concerns routine spacecraft systems data, not anomalous sightings or unidentified objects."
+  ]
 }

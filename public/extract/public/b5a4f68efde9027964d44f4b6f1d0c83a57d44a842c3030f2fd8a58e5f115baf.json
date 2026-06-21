@@ -5,76 +5,215 @@
   "type": "PDF",
   "incident_date": "December, 1973",
   "incident_location": "USSR",
-  "what_is_it": "A CIA Intelligence Information Report detailing the Soviet Sary Shagan Weapons Testing Range, including its facilities, weapons systems, and unidentified aerial phenomena observed at the site.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "CIA Intelligence Information Report providing information on the Soviet Sary Shagan weapons testing range, including facilities, weapons systems, and an unidentified aerial phenomenon observed at the site.",
+  "core_summary": "This December 1973 CIA intelligence report, sourced from a former Soviet citizen, provides limited information on the Sary Shagan weapons testing range in the USSR. It covers facilities, work areas, security fencing, regional headquarters (V/Ch 03080), a warhead checkout unit (V/Ch 03142), System-75 (SA-2) and System-300/Aldan (ABM-1 GALOSH) warheads, rumored laser research, and an unidentified aerial phenomenon observed at the site.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted body text was available — all facts derive from metadata and the CSV description provided by war.gov.",
-    "The document is likely a scanned image with poor or no OCR, so body-text claims and source quotes cannot be verified.",
-    "Heavy redaction is inferred from the note that a 'more redacted version' was previously public, implying even this release retains significant redactions.",
-    "Laser weapon research is described as 'rumored' in the metadata — it may not be a confirmed claim within the document.",
-    "Single-source intelligence report; corroboration from other sources is not indicated."
+    "The document is heavily redacted with significant portions of text obscured or missing.",
+    "The report is explicitly marked as 'not finally evaluated intelligence' — it is raw reporting, not an analytical assessment.",
+    "Information comes from a single source (a former Soviet citizen), making independent verification difficult.",
+    "The laser research is described as 'rumored', not confirmed.",
+    "The extracted text is largely limited to the summary section; the full body of the report is not available in this extraction.",
+    "The source's identity, role, and period of service at the facility are redacted."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "Originating agency",
-      "value": "CIA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_type",
+      "value": "CIA Intelligence Information Report",
+      "source_quote": "THIS IS AN INFORMATION REPORT, NOT FINALLY EVALUATED INTELLIGENCE",
+      "citation_offset": {
+        "offset": 378,
+        "len": 35,
+        "exact": false,
+        "matched": "THIS IS AN INFORMATION REPORT, NOT "
+      },
+      "confidence": "amber"
     },
     {
-      "field": "Date",
-      "value": "December 1973",
-      "source_quote": "",
+      "field": "subject",
+      "value": "The Sary Shagan Weapons Testing Range",
+      "source_quote": "SUBJECT The Sary Shagan weapons Testing Range",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Subject facility",
-      "value": "Sary Shagan Weapons Testing Range",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Location",
+      "field": "country",
       "value": "USSR",
-      "source_quote": "",
+      "source_quote": "COUNTRY USSR",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "distribution_date",
+      "value": "December 1973",
+      "source_quote": "DATE DISTR. Dec ember 1973",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "date_of_information",
+      "value": "November 1972 – November 1973",
+      "source_quote": "November 1972 - November 1973",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "source_description",
+      "value": "Former Soviet citizen",
+      "source_quote": "former Soviet citizen who serv",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "acquisition_location",
+      "value": "Germany",
+      "source_quote": "ACQ Germany",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "regional_headquarters_unit",
+      "value": "V/Ch 03080",
+      "source_quote": "the regional headquarters (V/Ch 03080)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "warhead_checkout_unit",
+      "value": "V/Ch 03142",
+      "source_quote": "a warhead checkout unit (V/Ch 03142)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "weapons_system_1",
+      "value": "System-75 (SA-2)",
+      "source_quote": "System-75 [SA-2]",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "weapons_system_2",
+      "value": "System-300/Aldan (ABM-1 GALOSH)",
+      "source_quote": "System-300/Aldan (ABM-1 GALOSH) warheads",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "rumored_research",
+      "value": "Laser research",
+      "source_quote": "rumored laser research",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "classification",
+      "value": "CONFIDENTIAL",
+      "source_quote": "CONFIDENTIAL",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
   "named_people": [],
   "named_places": [
-    "Sary Shagan"
+    "Sary Shagan",
+    "USSR",
+    "Germany"
   ],
   "dated_events": [
-    "December 1973"
+    "December 1973",
+    "November 1972 - November 1973"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "unidentified aerial phenomenon",
+    "System-75 (SA-2)",
+    "System-300/Aldan (ABM-1 GALOSH)"
+  ],
   "verifiable_claims": [
     {
-      "claim": "The Soviet Sary Shagan facility was used as a weapons testing range",
-      "source_quote": "",
+      "claim": "The Sary Shagan site served as a weapons testing range in the USSR",
+      "source_quote": "The Sary Shagan weapons Testing Range",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The report is based on information from a former Soviet citizen",
+      "source_quote": "former Soviet citizen who serv",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The range included security fencing, a regional headquarters (V/Ch 03080), and a warhead checkout unit (V/Ch 03142)",
+      "source_quote": "facilities, work areas, security fencing, the regional headquarters (V/Ch 03080), and a warhead checkout unit (V/Ch 03142)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 885,
+        "len": 30,
+        "exact": false,
+        "matched": "ty fencing, the regional headq"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "System-75 (SA-2) and System-300/Aldan (ABM-1 GALOSH) warheads were associated with the site",
+      "source_quote": "System-75 [SA-2] and System-300/Aldan (ABM-1 GALOSH) warheads",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "There were rumors of laser weapon research at the facility",
+      "source_quote": "rumored laser research",
       "verifier_verdict": "partial",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "An unidentified aerial phenomenon was observed at the site",
+      "source_quote": "an unidentified aerial phenomenon",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The report was explicitly marked as not finally evaluated intelligence",
+      "source_quote": "THIS IS AN INFORMATION REPORT, NOT FINALLY EVALUATED INTELLIGENCE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 378,
+        "len": 35,
+        "exact": false,
+        "matched": "THIS IS AN INFORMATION REPORT, NOT "
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
-    "red": 1
+    "amber": 7,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:58:36.599Z",
-  "qa_completed_at": "2026-06-14T02:59:08.570Z",
+  "qa_started_at": "2026-06-19T21:11:38.187Z",
+  "qa_completed_at": "2026-06-19T21:12:30.127Z",
   "timing": {
-    "A": "16.3s",
-    "B": "15.7s"
-  }
+    "A": "24.3s",
+    "B": "27.6s",
+    "E": "20.8s"
+  },
+  "public_headline": "CIA Report Describes Soviet Weapons Range and Unidentified Aerial Phenomenon",
+  "public_tldr": "A December 1973 CIA intelligence report, based on a single former Soviet citizen's account, describes the Sary Shagan weapons testing range in the USSR — including its facilities, missile systems, and rumoured laser research. The report also notes an unidentified aerial phenomenon observed at the site, though heavy redactions obscure most details.",
+  "public_narrative": "In December 1973, the CIA circulated an intelligence report about the Sary Shagan weapons testing range in the Soviet Union. The information came from a former Soviet citizen who had served at the facility, and the report was acquired in Germany. The CIA explicitly marked it as raw reporting — \"not finally evaluated intelligence\" — meaning it had not been independently verified or analytically assessed.\n\nThe report covers the physical layout and operations of the Sary Shagan range. It describes facilities including security fencing, a regional headquarters (military unit V/Ch 03080), and a warhead checkout unit (V/Ch 03142). Two weapons systems are named: System-75, the NATO-designated SA-2 surface-to-air missile, and System-300/Aldan, the ABM-1 GALOSH anti-ballistic missile system. The report also references rumoured laser research at the facility — noted as unconfirmed.\n\nAmong the topics covered is an unidentified aerial phenomenon observed at the site. However, due to heavy redactions throughout the document, almost no detail survives about what was seen, when exactly it occurred, or what anyone at the facility made of it.\n\nThe document is heavily redacted, with significant portions of text missing or obscured. The source's identity, specific role, and period of service are all blacked out. Only the summary section of the report is available in the extracted text; the full body remains inaccessible. The information covers events from November 1972 to November 1973.\n\nThe report was classified CONFIDENTIAL at the time of distribution. It provides a narrow window into Cold War-era intelligence gathering on Soviet military facilities, but its evidentiary value is limited by the single-source basis and extensive redactions.",
+  "public_caveats": [
+    "The report relies on a single source — a former Soviet citizen — with no independent corroboration mentioned.",
+    "Heavy redactions obscure much of the document, including the source's identity, role, and the details of the unidentified aerial phenomenon.",
+    "The CIA explicitly labelled this as raw reporting, not an analytical conclusion or confirmed intelligence.",
+    "The laser research is described only as rumoured, not verified.",
+    "Only the summary section of the report is available; the full body text was not extracted or is redacted."
+  ]
 }

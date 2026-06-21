@@ -5,33 +5,516 @@
   "type": "PDF",
   "incident_date": "1971",
   "incident_location": "Australia",
-  "what_is_it": "A review document by the Australian Department of Defence examining the scientific and intelligence aspects of the UFO problem, referencing the USAF Project Blue Book.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "An Australian Department of Defence review analysing the scientific and intelligence aspects of the UFO problem, tracing the history of US government UFO investigations from 1947 to 1969 and recommending Australia adopt an independent programme.",
+  "core_summary": "This 1971 Australian government document provides a detailed chronological account of US UFO investigation programmes (Projects Sign, Grudge, and Blue Book), CIA involvement, and the statistical evidence from Project Blue Book Special Report No. 14 showing that higher-reliability sightings produced a higher percentage of 'unknowns'. It argues Australia should not remain ignorant of the situation and recommends an independent, scientifically honest investigation programme rather than following the public USAF policy of dismissal.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No extracted body text available — all facts are derived from metadata and the CSV description only",
-    "The document is likely a scanned PDF with poor or no OCR, so substantive content could not be analysed",
-    "Without body text, the depth of the Australian review and any specific findings or conclusions are unknown"
+    "The document is an Australian government assessment of US UFO programmes, not a primary US source — it reflects Australian analysts' interpretation of US events.",
+    "OCR quality is poor throughout, with many garbled characters and words, which may cause minor inaccuracies in transcription.",
+    "The document openly advocates for an extraterrestrial explanation and is critical of official US debunking efforts, reflecting a particular analytical stance rather than neutral reporting.",
+    "Claims about retired officials' public statements (e.g. Hillenkoetter saying the government knew UFOs were extraterrestrial) are reported second-hand without primary source citations.",
+    "The anti-gravity research section conflates government funding of speculative physics with evidence of UFO reality, which is an inferential leap by the document's author.",
+    "The document was written in 1971 but covers events from 1947-1969, meaning some accounts may reflect retrospective interpretation rather than contemporaneous knowledge."
   ],
-  "fabrication_score": 4,
-  "key_facts": [],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_origin",
+      "value": "Australian Department of Defence, released by National Archives of Australia",
+      "source_quote": "National Archives of Australia NAA: A13693, 3092/2/000",
+      "citation_offset": {
+        "offset": 38871,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "subject",
+      "value": "Review of US UFO investigation history and recommendation for Australian independent programme",
+      "source_quote": "it would seem that a strong case exists for the acceptance of the RAAF suggestion that another government department assume responsibility",
+      "citation_offset": {
+        "offset": 787,
+        "len": 55,
+        "exact": false,
+        "matched": "n that another government department assume responsibil"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "project_sign_start",
+      "value": "Project Sign authorised late 1947 with high priority",
+      "source_quote": "officially authorised to investigate under the project code name of SIGN and with a high priority",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "interplanetary_estimate_1948",
+      "value": "ATIC sent a Top Secret estimate to the Pentagon in September 1948 concluding UFOs were interplanetary",
+      "source_quote": "opinions were crystallized into a written estimate that was sent to the Pentagon in September 1948",
+      "citation_offset": {
+        "offset": 1607,
+        "len": 38,
+        "exact": false,
+        "matched": "sent to the Pentagon in September 1948"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "estimate_rejected",
+      "value": "Interplanetary conclusions rejected by Air Force Chief of Staff General Vandenberg for insufficient hard evidence",
+      "source_quote": "the interplanetary conclusions were rejected on the grounds of insufficient hard evidence",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "project_grudge_purpose",
+      "value": "Project Grudge (Feb 1949) was a definite attempt to destroy public acceptance of UFOs",
+      "source_quote": "A definite attempt was made during 1949 to use Project GRUDGE to destroy any acceptance of UFO's",
+      "citation_offset": {
+        "offset": 1990,
+        "len": 36,
+        "exact": false,
+        "matched": "to use Project GRUDGE to destroy any"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "unknown_agency_1948",
+      "value": "An unnamed government agency (almost certainly CIA) studied UFO reports during 1948-49 to derive design data on interplanetary spaceships",
+      "source_quote": "their purpose was to study UFO reports in an effort to answer design data on interplanetary spaceships",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "blue_book_data_volume",
+      "value": "Project Blue Book processed 3,200 reports using IBM card-sorting machines",
+      "source_quote": "process the data from 3,200 reports into a form suitable for their consultants to be able to use IBM card-sorting machines",
+      "citation_offset": {
+        "offset": 3592,
+        "len": 30,
+        "exact": false,
+        "matched": " a form suitable for their con"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "1952_reporting_surge",
+      "value": "Summer 1952 saw more than a twenty-fold rise in the normal reporting rate",
+      "source_quote": "The summer of 1952 saw a more than twenty-fold rise in the normal rate of reporting",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "robertson_panel",
+      "value": "CIA convened Robertson Panel of six scientists 14-17 January 1953",
+      "source_quote": "A scientific panel chaired by H.P. Robertson was convened by the Office of Scientific Intelligence of CIA during mid-January 1953",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "cia_preference_1953",
+      "value": "CIA preferred to publicly abandon investigation while intensifying covert data collection",
+      "source_quote": "the CIA in a report dated 16 February 1953 showed a preference to publicly abandon the investigation whilst intensifying the collection of data",
+      "citation_offset": {
+        "offset": 5394,
+        "len": 45,
+        "exact": false,
+        "matched": "a preference to publicly abandon the investig"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "blue_book_reduction",
+      "value": "By September 1953 Blue Book was reduced from 10 qualified Top Secret staff to one airman",
+      "source_quote": "Project BLUE BOOK reduced from a staff of ten qualified personnel operating at a top secret level to a virtually inactive project involving one airman",
+      "citation_offset": {
+        "offset": 5620,
+        "len": 90,
+        "exact": false,
+        "matched": "onnel operating at a top secret level to a virtually inactive project involving one airman"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "janap_146_penalties",
+      "value": "JANAP 146 (1953) prohibited service personnel from discussing UFOs under threat of 10 years gaol and $10,000 fine",
+      "source_quote": "prohibited service personnel from discussing UFO's by threatening defaulters with up to 10 years gaol and up to a $10,000 fine",
+      "citation_offset": {
+        "offset": 6897,
+        "len": 45,
+        "exact": false,
+        "matched": "h up to 10 years gaol and up to a $10,000 fin"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "janap_146e_espionage",
+      "value": "Revised JANAP 146E (1960) made UFO data disclosure an offence under the Espionage Act",
+      "source_quote": "the revised JANAP 146E, passed in 1960, made it an offence under the Espionage Act if data on UFO's were revealed",
+      "citation_offset": {
+        "offset": 8244,
+        "len": 70,
+        "exact": false,
+        "matched": "the revised JANAP 146E, passed in 1960, made it an offence under the E"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "statistical_odds",
+      "value": "Blue Book consultants found odds of unknowns being same population as knowns were less than 1 in 10^28",
+      "source_quote": "found that the probability was less than one in 10^28",
+      "citation_offset": {
+        "offset": 10934,
+        "len": 38,
+        "exact": false,
+        "matched": " the probability was less than one in "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "unknowns_vs_reliability",
+      "value": "Percentage of unknowns increased with sighting reliability: Poor 16.6%, Doubtful 13.0%, Good 24.8%, Excellent 33.3%",
+      "source_quote": "Poor 16.6 Doubtful 13.0 Good 24.8 Excellent 33.3",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "gravity_research",
+      "value": "US government funded six universities and agencies for anti-gravity research; by 1966, 46 projects were financially supported, 33 under USAF",
+      "source_quote": "the U.S. chose to support six universities and government agencies in an all-out drive to conquer the problem",
+      "citation_offset": {
+        "offset": 15166,
+        "len": 60,
+        "exact": false,
+        "matched": "d government agencies in an all-out drive to conquer the pro"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "avro_saucer",
+      "value": "US took over Canadian Avro flying saucer project, a circular aerofoil powered by jets designed for vertical takeoff at 1500 mph",
+      "source_quote": "a circular aerofoil powered by jets designed to take-off and land vertically, hover, travel at 1500 mph and change direction rapidly",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "condon_bias",
+      "value": "Dr Condon publicly stated his negative conclusion before completing research",
+      "source_quote": "my attitude right now is that there's nothing to it, but I'm not supposed to reach a conclusion for another year",
+      "citation_offset": {
+        "offset": 19482,
+        "len": 50,
+        "exact": false,
+        "matched": "there's nothing to it, but I'm not supposed to rea"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "retired_officials_statement",
+      "value": "Multiple retired officials including Admiral Hillenkoetter (CIA director) publicly stated the US government knew UFOs were extraterrestrial",
+      "source_quote": "all publicly stated that the U.S. Government knew UFO's were extra-terrestial but was withholding this fact from the public",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "australian_recommendation",
+      "value": "Document recommends Australia act independently and initiate a scientifically sound programme",
+      "source_quote": "it may be preferable to act independently of the U.S. and initiate a programme that is scientifically sound and intellectually honest",
+      "citation_offset": {
+        "offset": 21601,
+        "len": 35,
+        "exact": false,
+        "matched": "hat is scientifically sound and int"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "H.P. Robertson",
+    "Luis Alvarez",
+    "Lloyd Berkner",
+    "Samuel A. Goudsmit",
+    "Thornton Page",
+    "J. Allen Hynek",
+    "Edward U. Condon",
+    "D. Fournet",
+    "E. Ruppelt",
+    "Hillenkoetter",
+    "D.S. Fahrney",
+    "H.B. Knowles",
+    "A. Wedemeyer",
+    "J.J. Bryan",
+    "Nathan Twining",
+    "Vandenberg",
+    "LeBailly",
+    "O'Brian",
+    "McDonald",
+    "Teller",
+    "Oppenheimer",
+    "F.J. Dyson",
+    "J.A. Wheeler",
+    "Vaclav Hlavaty",
+    "Stanley Deser",
+    "B. Heim",
+    "P. Jordan",
+    "William P. Lear",
+    "J.E. Lipp",
+    "George M. Rideout",
+    "McLaughlin",
+    "J. Weber",
+    "Einstein"
+  ],
+  "named_places": [
+    "Australia",
+    "Dayton, Ohio",
+    "Wright-Patterson Air Force Base",
+    "Pentagon",
+    "Washington D.C.",
+    "Washington National Airport",
+    "Colorado University",
+    "White Sands",
+    "Princeton",
+    "University of Indiana",
+    "Purdue University",
+    "University of North Carolina",
+    "Massachusetts Institute of Technology",
+    "New Boston, N.H.",
+    "University of California",
+    "San Diego",
+    "Buffalo",
+    "Santa Monica",
+    "Palm Springs, California",
+    "Great Neck, Long Island, N.Y.",
+    "Goettingen University",
+    "Hamburg University",
+    "Prague",
+    "Michigan",
+    "Boston",
+    "Canada",
+    "Roosevelt Hotel, Hollywood",
+    "AERE Harwell, U.K."
+  ],
+  "dated_events": [
+    "24.6.47 — Arnold sighting of nine saucers",
+    "26.7.47 — ATIC investigations initiated",
+    "23.9.47 — National Security Act creates USAF and CIA",
+    "30.12.47 — Lt Gen Twining requests authority and code name for investigation",
+    "15.1.48 — Project Sign starts officially",
+    "22.1.48 — Near-collision between DC-3 and UFO prompts ATIC estimate",
+    "9.48 — Top Secret interplanetary estimate forwarded to Pentagon",
+    "13.12.48 — Lipp/Rand Corporation reply on interplanetary hypothesis",
+    "1.49 — USAF orders Project Sign to become Project Grudge",
+    "11.2.49 — Project Sign officially becomes Project Grudge",
+    "8.49 — Secret Technical Report No. 102 on Project Grudge issued",
+    "27.12.49 — DoD announces Air Force flying saucer project terminated",
+    "3.50 — Publication of UFO tracking at White Sands by Cmdr McLaughlin",
+    "14.9.51 — USAF Director of Intelligence orders Grudge revitalised",
+    "27.10.51 — Project Grudge headed by Capt Ruppelt",
+    "3.52 — Project Grudge renamed Project Blue Book with 10 Top Secret staff",
+    "29.4.52 — Air Force Letter 200-5 orders all USAF units to wire UFO reports to ATIC",
+    "June-August 1952 — UFO reporting surge averaging 337/month",
+    "19/26.7.52 — Radar-visual sightings over Washington National Airport",
+    "21.8.52 — USAF started releasing ATIC reports to Major Keyhoe for publication",
+    "21.11.52 — CIA arranged four government scientists to review ATIC for three days",
+    "14/17.1.53 — Robertson Panel convened by CIA Office of Scientific Intelligence",
+    "16.2.53 — CIA issued larger secret report on the Robertson Panel meeting",
+    "1953 — JANAP 146 issued prohibiting UFO discussion by service personnel",
+    "26.8.53 — AFR 200-2 transfers investigation authority to 4602nd AISS",
+    "9.53 — Blue Book staff reduced to one airman first-class",
+    "15.5.54 — Distribution of 275 diffraction-grating cameras completed",
+    "10.6.54 — Airline pilots coerced at Roosevelt Hotel Hollywood using JANAP 146",
+    "2.2.55 — General Nathan Twining states best brains working on UFO problem",
+    "21.8.55 — Colonel O'Brian states more than a thousand people working on UFO problem",
+    "24.12.59 — Inspector General circular to stimulate and improve UFO reporting",
+    "1960 — JANAP 146E invokes espionage laws for UFO data",
+    "28.9.65 — Maj Gen LeBailly requests review of Project Blue Book",
+    "3.2.66 — USAF Scientific Advisory Board Ad Hoc Committee reviews Blue Book",
+    "5.4.66 — House Armed Services Committee recommends university investigation",
+    "6.6.66 — Dr McDonald finds complete Robertson report declassified",
+    "20.6.66 — Robertson report reclassified; second sanitised version issued",
+    "19.9.66 — AFR 80-17 replaces AFR 200-2, transfers responsibility to R&D",
+    "6.10.66 — Contract signed with Colorado University",
+    "25.1.67 — Dr Condon publicly states negative conclusion prematurely",
+    "29.7.68 — House Committee on Science and Astronautics UFO symposium",
+    "8.1.69 — Condon report published",
+    "17.12.69 — Project Blue Book closed down",
+    "26/31.12.69 — AAAS met at Boston to discuss UFOs"
+  ],
+  "objects_described": [
+    "Flying saucers/discs (general UFO reports)",
+    "Canadian Avro saucer (circular aerofoil, jet-powered, vertical takeoff, 1500 mph capability)",
+    "Diffraction-grating cameras (275 distributed for UFO evidence collection)",
+    "IBM card-sorting machines (used for Blue Book data analysis)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Project Blue Book processed data from 3,200 UFO reports using IBM card-sorting machines",
+      "source_quote": "process the data from 3,200 reports into a form suitable for their consultants to be able to use IBM card-sorting machines",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3592,
+        "len": 30,
+        "exact": false,
+        "matched": " a form suitable for their con"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Robertson Panel was a group of six scientists convened by the CIA's Office of Scientific Intelligence in January 1953",
+      "source_quote": "The Office of Scientific Intelligence, CIA, convened in Washington D.C., a panel of six scientists",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Statistical testing showed the probability of unknown objects being the same population as identified objects was less than 1 in 10^28",
+      "source_quote": "the probability was less than one in 10^28",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10935,
+        "len": 37,
+        "exact": false,
+        "matched": "the probability was less than one in "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "With astronomical identifications removed, the odds were still a trillion trillion to one against unknowns being the same as knowns",
+      "source_quote": "The odds were reduced to a trillion trillion to one",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The CIA preferred to publicly abandon UFO investigation while intensifying covert data collection",
+      "source_quote": "a preference to publicly abandon the investigation whilst intensifying the collection of data",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5394,
+        "len": 43,
+        "exact": false,
+        "matched": "a preference to publicly abandon the invest"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "JANAP 146 threatened service personnel discussing UFOs with up to 10 years imprisonment and $10,000 fine",
+      "source_quote": "threatening defaulters with up to 10 years gaol and up to a $10,000 fine",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6896,
+        "len": 47,
+        "exact": false,
+        "matched": "th up to 10 years gaol and up to a $10,000 fine"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "By 1966, 46 separate anti-gravity projects were financially supported, 33 under USAF supervision",
+      "source_quote": "46 separate projects of this nature were being financially supported, 33 of which were under the supervision of the U.S. Air Force",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 17788,
+        "len": 70,
+        "exact": false,
+        "matched": "e projects of this nature were being financially supported, 33 of whic"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Six US universities and the Gravity Research Institute were established as gravity research centres",
+      "source_quote": "the U.S. chose to support six universities and government agencies in an all-out drive to conquer the problem",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 15166,
+        "len": 60,
+        "exact": false,
+        "matched": "d government agencies in an all-out drive to conquer the pro"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Admiral Hillenkoetter, Major Fournet, and Captain Ruppelt all publicly stated the US government knew UFOs were extraterrestrial",
+      "source_quote": "all publicly stated that the U.S. Government knew UFO's were extra-terrestial but was withholding this fact from the public",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Condon Committee received $525,000 in funding from an initial $313,000 allocation",
+      "source_quote": "an initial allocation of $313,000 later raised to $525,000",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Reports of excellent reliability showed 33.3% unknowns versus 16.6% for poor reliability reports",
+      "source_quote": "Poor 16.6 ... Excellent 33.3",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Australian document recommends initiating an independent programme rather than following the US public position",
+      "source_quote": "it may be preferable to act independently of the U.S. and initiate a programme that is scientifically sound and intellectually honest",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 21601,
+        "len": 35,
+        "exact": false,
+        "matched": "hat is scientifically sound and int"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Dr Condon publicly prejudged the outcome of his investigation a year before completing it",
+      "source_quote": "my attitude right now is that there's nothing to it, but I'm not supposed to reach a conclusion for another year",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 19482,
+        "len": 50,
+        "exact": false,
+        "matched": "there's nothing to it, but I'm not supposed to rea"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The US government funded intensive anti-gravity research which was irrational from conventional science and could only be rationalised by belief that UFOs were real",
+      "source_quote": "entirely irrational from the standpoint of conventional science, and can only be rationalized within the context of a firm belief that UFO's were real",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 17376,
+        "len": 100,
+        "exact": false,
+        "matched": "entirely irrational from the standpoint of conventional science, and can only be rationalized within"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
+    "amber": 14,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:06:12.513Z",
-  "qa_completed_at": "2026-06-14T03:06:37.784Z",
+  "qa_started_at": "2026-06-19T21:28:45.422Z",
+  "qa_completed_at": "2026-06-19T21:31:54.641Z",
   "timing": {
-    "A": "13.1s",
-    "B": "12.2s"
-  }
+    "A": "100.4s",
+    "B": "88.8s",
+    "E": "28.4s"
+  },
+  "public_headline": "Australia Urged Its Own UFO Programme After Reviewing US Failures",
+  "public_tldr": "This 1971 Australian Department of Defence document traces the full history of US government UFO investigations from 1947 to 1969 — Projects Sign, Grudge, and Blue Book — and concludes that Australia should launch its own independent, scientifically honest investigation rather than follow the US Air Force's policy of public dismissal.",
+  "public_narrative": "In 1971, the Australian Department of Defence produced a detailed review of how the United States had handled UFO reports over the previous two decades. The document, released through the National Archives of Australia, walks through the progression of US programmes: Project Sign (authorised late 1947), which in September 1948 sent a Top Secret estimate to the Pentagon concluding UFOs were interplanetary — only for Air Force Chief of Staff General Vandenberg to reject those conclusions for insufficient hard evidence. Sign was then replaced by Project Grudge in February 1949, which the document describes as 'a definite attempt to destroy public acceptance of UFOs.'\n\nThe review details how Project Blue Book processed 3,200 reports using IBM card-sorting machines, and highlights a striking statistical finding: when sightings were graded by reliability, the percentage classified as 'unknown' rose with quality — from 16.6% for poor-quality reports to 33.3% for excellent ones. Blue Book's own consultants calculated the odds of these unknowns being the same type of objects as identified ones at less than 1 in 10^28. Despite this, the CIA — after convening the Robertson Panel of six scientists in January 1953 — preferred to publicly abandon investigation while intensifying covert data collection. By September 1953, Blue Book's staff had been cut from ten qualified Top Secret personnel to a single airman.\n\nThe document also describes a climate of enforced secrecy. JANAP 146 (1953) prohibited military personnel from discussing UFOs under threat of up to 10 years' imprisonment and a $10,000 fine. The revised JANAP 146E (1960) went further, making UFO data disclosure an offence under the Espionage Act. The review notes that Dr Edward Condon, who led the university study that ultimately recommended closing Blue Book, publicly stated his negative conclusion before completing his research.\n\nThe Australian authors' recommendation is direct: rather than following the US approach, Australia should 'act independently and initiate a programme that is scientifically sound and intellectually honest.' The document openly criticises the US pattern of public dismissal and argues Australia should not remain ignorant of the situation.",
+  "public_caveats": [
+    "This is an Australian government assessment of US programmes, not a primary US source — it reflects Australian analysts' interpretation of US events, sometimes based on second-hand accounts.",
+    "The document openly advocates for an extraterrestrial explanation and is critical of US debunking efforts, so it represents a particular analytical stance rather than neutral reporting.",
+    "Claims about retired officials' statements (e.g. former CIA Director Hillenkoetter saying the government knew UFOs were extraterrestrial) are reported second-hand without primary source citations.",
+    "OCR quality of the original document is poor, with many garbled characters, which may cause minor inaccuracies in the transcription used for this summary.",
+    "The document was written in 1971 covering events from 1947–1969, meaning some accounts may reflect retrospective interpretation rather than what was known at the time."
+  ]
 }

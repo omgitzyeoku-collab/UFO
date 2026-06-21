@@ -4,51 +4,258 @@
   "agency": "CIA",
   "type": "PDF",
   "incident_date": "November, 1976",
-  "what_is_it": "A CIA Foreign Intelligence Information Report summarizing Soviet aerospace medical research, crew fatigue countermeasures, and a discussion about UFO phenomena with a Soviet scientist.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "what_is_it": "CIA Foreign Intelligence Information Report summarizing Soviet aerospace medical research, crew fatigue countermeasures, and a mention of UFO phenomena discussions.",
+  "core_summary": "This November 1976 CIA report details how Soviet airline Aeroflot combats crew fatigue through physical conditioning programs, pre-flight medical testing (being automated to take only 1-3 minutes), and rest facilities called prophylactoria at major airports. The report also references Dr. Inal Georgiyevich Akoyev, a radiation biologist, who explained that cosmic ray particles (phosphenes) cause pilots to 'see' flashes of light during night flying.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts derive from the metadata description provided by war.gov, not from the document itself.",
-    "The document is a more complete version of a previously released, more heavily redacted copy, suggesting sensitive content.",
-    "Single-source intelligence report: the underlying information may reflect one collection channel and should not be treated as confirmed fact.",
-    "The connection between crew fatigue research and UFO phenomena is unclear from metadata alone — the two topics may be incidental to the same report rather than related."
+    "The document is marked 'THIS IS UNEVALUATED INFORMATION' — the CIA did not verify the claims before filing.",
+    "Moderate redaction is present, particularly around source identification and some contextual details.",
+    "The UFO phenomena discussion mentioned in the subject line appears to refer to the phosphenes explanation (cosmic rays causing light flashes), not an unidentified craft sighting.",
+    "A more redacted version of this report was previously available on the CIA public website, meaning this version may contain additional details not previously public."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 0,
   "key_facts": [
     {
       "field": "Originating agency",
-      "value": "CIA",
-      "source_quote": "",
+      "value": "CIA Domestic Collection Division",
+      "source_quote": "Domestic Collection Division Foreign Intelligence Information Report",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Date",
-      "value": "November 1976",
-      "source_quote": "",
+      "field": "Report number",
+      "value": "00-B-321/33474-76",
+      "source_quote": "OC0 REPOU NO. 00- B-321 /33474-76",
+      "citation_offset": {
+        "offset": 125,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Country",
+      "value": "USSR",
+      "source_quote": "COUNTRY USSR",
+      "citation_offset": {
+        "offset": 112,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date of information",
+      "value": "10 November 1976",
+      "source_quote": "lo November l.976",
+      "citation_offset": {
+        "offset": 398,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Fatigue countermeasure 1",
+      "value": "Physical conditioning with exercise facilities at all major airports",
+      "source_quote": "Aeroflot provides exercise facilities at all major airports, and these facilities are supervised by a well known athlete",
+      "citation_offset": {
+        "offset": 1670,
+        "len": 50,
+        "exact": false,
+        "matched": "Aeroflot provides exercise facilities at all major"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Fatigue countermeasure 2",
+      "value": "Pre-flight medical and psychological testing of crewmembers",
+      "source_quote": "thoroughly test each crewmember prior to flying to insure his physical fitness and mental alertness",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Automated testing duration",
+      "value": "1-3 minutes",
+      "source_quote": "These tests are now being automated and will take only l-3 minutes when the prototype equipment becomes operational",
+      "citation_offset": {
+        "offset": 2183,
+        "len": 40,
+        "exact": false,
+        "matched": " prototype equipment becomes operational"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Prototype equipment measures",
+      "value": "Blood pressure, pulse rate, cardiovascular function, and motor ability",
+      "source_quote": "equipment which measures blood pressure, pulse rate, cardiovascular function and motor ability",
+      "citation_offset": {
+        "offset": 1264,
+        "len": 54,
+        "exact": false,
+        "matched": "blood pressure, pulse rate, cardiovascular function an"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Fatigue countermeasure 3",
+      "value": "Prophylactoria (rest facilities) at major airports, 3-4 story buildings",
+      "source_quote": "a prophylactorium. Each major airport has one, a 3 to 4 story building set off from the main airport buildings",
+      "citation_offset": {
+        "offset": 2313,
+        "len": 55,
+        "exact": false,
+        "matched": "airport has one, a 3 to 4 story building set off from t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Phosphenes explanation",
+      "value": "Cosmic ray particles cause pilots to see flashes of light during night flying",
+      "source_quote": "cosmic ray particles (phosphenes) which are causing Aeroflot pilots to \"see\" flashes of light during night flying",
+      "citation_offset": {
+        "offset": 965,
+        "len": 85,
+        "exact": false,
+        "matched": "cosmic ray particles (phosphenes) which are causing Aeroflot pilots to \"see\" flashes "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Pre-flight exam conducted by",
+      "value": "Medical team headed by a doctor, usually a woman",
+      "source_quote": "these tests are conducted by a medical team headed by a doctor, usually a woman",
+      "citation_offset": {
+        "offset": 1983,
+        "len": 44,
+        "exact": false,
+        "matched": " by a medical team headed by a doctor, usual"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Testing location",
+      "value": "Civil Aviation Institute of Leningrad",
+      "source_quote": "the Civil Aviation Institute of Leningrad",
+      "citation_offset": {
+        "offset": 1124,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [
-    "November 1976"
+  "named_people": [
+    "Inal Georgiyevich Akoyev",
+    "Akutin"
   ],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "named_places": [
+    "USSR",
+    "Leningrad"
+  ],
+  "dated_events": [
+    "10 November 1976"
+  ],
+  "objects_described": [
+    "Prototype pilot biological psychomotor testing equipment"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Aeroflot provided exercise facilities supervised by a well-known athlete at all major airports",
+      "source_quote": "Aeroflot provides exercise facilities at all major airports, and these facilities are supervised by a well known athlete",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1670,
+        "len": 50,
+        "exact": false,
+        "matched": "Aeroflot provides exercise facilities at all major"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Crewmembers were not allowed to fly if they failed a pre-flight medical examination",
+      "source_quote": "A crewmember is not allowed to fly if he fails the examination",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2064,
+        "len": 32,
+        "exact": false,
+        "matched": "ed to fly if he fails the examin"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Prototype automated biological testing equipment could complete tests in approximately three minutes",
+      "source_quote": "The equipment is automatic and testing is completed in approximately three minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1385,
+        "len": 37,
+        "exact": false,
+        "matched": "pleted in approximately three minutes"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Dr. Akoyev attributed pilots seeing flashes of light during night flying to cosmic ray particles (phosphenes)",
+      "source_quote": "cosmic ray particles (phosphenes) which are causing Aeroflot pilots to \"see\" flashes of light during night flying",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 965,
+        "len": 85,
+        "exact": false,
+        "matched": "cosmic ray particles (phosphenes) which are causing Aeroflot pilots to \"see\" flashes "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Each major Soviet airport had a prophylactorium, a 3-4 story rest facility for transient crewmembers",
+      "source_quote": "a prophylactorium. Each major airport has one, a 3 to 4 story building set off from the main airport buildings",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2313,
+        "len": 55,
+        "exact": false,
+        "matched": "airport has one, a 3 to 4 story building set off from t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Dr. Akutin was a scientist at the Civil Aviation Institute of Leningrad",
+      "source_quote": "the Civil Aviation Institute of Leningrad",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 1124,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 1,
+    "amber": 5,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:59:38.861Z",
-  "qa_completed_at": "2026-06-14T03:00:10.670Z",
+  "qa_started_at": "2026-06-19T21:13:51.595Z",
+  "qa_completed_at": "2026-06-19T21:14:41.245Z",
   "timing": {
-    "A": "15.1s",
-    "B": "16.7s"
-  }
+    "A": "28.4s",
+    "B": "21.2s",
+    "E": "24.5s"
+  },
+  "public_headline": "CIA Report Details How Soviet Airline Aeroflot Fought Pilot Fatigue",
+  "public_tldr": "This November 1976 CIA intelligence report describes how the Soviet airline Aeroflot combated crew fatigue through exercise programmes, pre-flight medical testing, and dedicated rest facilities at major airports. It also notes a Soviet scientist's explanation that cosmic ray particles — not unidentified craft — caused pilots to 'see' flashes of light during night flights.",
+  "public_narrative": "In November 1976, the CIA's Domestic Collection Division filed a foreign intelligence report (number 00-B-321/33474-76) on how the Soviet Union's state airline, Aeroflot, managed crew fatigue. The report is marked 'unevaluated information', meaning the CIA recorded but did not independently verify the claims before filing them.\n\nThe document describes three main countermeasures. First, Aeroflot provided exercise facilities at all major airports, supervised by a well-known athlete. Second, every crewmember underwent a pre-flight medical and psychological examination — conducted by a medical team headed by a doctor, usually a woman — and was grounded if they failed. These tests were being automated using prototype equipment developed at the Civil Aviation Institute of Leningrad, which measured blood pressure, pulse rate, cardiovascular function, and motor ability in roughly one to three minutes. Third, major Soviet airports each had a 'prophylactorium' — a three- to four-storey rest building set apart from the main terminal, where transient crews could recover between flights.\n\nThe document also references Dr Inal Georgiyevich Akoyev, a radiation biologist, who explained that cosmic ray particles cause a visual phenomenon called phosphenes — flashes of light that Aeroflot pilots reported seeing during night flying. Despite the report's subject line mentioning 'UFO phenomena', the actual content attributes these sightings to a known physical effect, not unidentified craft.\n\nModerate redaction is present throughout the document, particularly around source identification and some contextual details. A more heavily redacted version of this report was previously available on the CIA's public website, meaning this version may contain details not previously seen by the public.",
+  "public_caveats": [
+    "The CIA explicitly marked this report as 'unevaluated information' — the claims were recorded but not verified by the agency.",
+    "Despite the subject line referencing 'UFO phenomena', the document's actual content attributes pilots' light flashes to cosmic ray particles (phosphenes), not unidentified craft.",
+    "Moderate redaction is present, especially around source identification, so the full context of how this information was obtained is not visible.",
+    "A less-redacted version of this report existed before, meaning some details here may be newly visible but their significance is unclear without the full unredacted original.",
+    "The report relies on a single intelligence source — there is no indication of independent corroboration from other channels."
+  ]
 }

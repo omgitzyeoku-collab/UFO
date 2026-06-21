@@ -5,73 +5,466 @@
   "type": "PDF",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "First-hand witness narrative statement (Witness 3) submitted to the All-domain Anomaly Resolution Office (AARO) regarding a UAP sighting by federal law enforcement agents.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "First-hand witness narrative memorandum submitted to the All-domain Anomaly Resolution Office (AARO) describing UAP sightings by a federal law enforcement special agent.",
+  "core_summary": "Witness 3, a U.S. federal law enforcement special agent, describes two UAP encounters over two consecutive nights in mid-October 2023 in the western United States. The first event involved a large orange orb that alternated between orange and clear, moved rapidly across the sky, and expelled three smaller red orbs in what appeared to be a mechanical action. The second event involved four red lights that hovered in a square formation over an airfield, orange orbs near a ridgeline, and a mysterious vehicle on the ground that flashed its headlights methodically and evaded pursuit by apparently floating off-road across rough terrain without leaving tire tracks.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF (likely scanned or OCR-poor); all facts are derived from metadata and the official CSV description only.",
-    "This is a single-witness account (Witness 3 of several); corroboration from other witness narratives would be needed for a fuller picture.",
-    "The location is described only broadly as 'western United States' with no specific site named.",
-    "The document's actual content could not be verified due to extraction failure; the redaction level estimate is based on the absence of readable text rather than visible redaction markers."
+    "Single-source witness account: this is one person's recollection; no corroborating sensor data, photographs, or radar tracks are included in this document.",
+    "Witness 3 was one of several agents who reported sightings, but no other witness statements are included here for cross-reference.",
+    "Distances, sizes, and speeds are all subjective estimates — the witness explicitly noted inability to determine how far away or how large the objects were.",
+    "Observations were made at dusk and near-darkness; the second event relied on night vision goggles, which can affect perception of colour, size, and distance.",
+    "The narrative was provided as a free-form recollection to AARO, not a structured debrief, and the witness notes uncertainty on several details (e.g., 'I don't recall if the orange orbs released red orbs').",
+    "The document is dated June 2026, roughly 2.5 years after the October 2023 events, introducing potential memory degradation.",
+    "The specific location within the western United States is not disclosed, nor is the airfield identified."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D081",
+      "field": "document_date",
+      "value": "02 June 2026",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     },
     {
-      "field": "narrative_number",
-      "value": "Witness 3 (Narrative Statement 3)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "witness_designation",
+      "value": "Witness 3",
+      "source_quote": "This memorandum presents the first-hand narrative from Witness 3 provided to the All-domain Anomaly Resolution Office (AARO).",
+      "citation_offset": {
+        "offset": 341,
+        "len": 40,
+        "exact": false,
+        "matched": "This memorandum presents the first-hand "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "witness_role",
+      "value": "U.S. federal law enforcement special agent",
+      "source_quote": "Witness 3 was one of several United States (U.S.) federal law enforcement special agents who reported observing unidentified anomalous phenomena",
+      "citation_offset": {
+        "offset": 468,
+        "len": 144,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_witnesses",
+      "value": "Multiple (several special agents); Witness 3 was accompanied by a partner",
+      "source_quote": "one of several United States (U.S.) federal law enforcement special agents",
+      "citation_offset": {
+        "offset": 482,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "incident_period",
+      "value": "Mid-October 2023, over two days",
+      "source_quote": "over a period of two days in October 2023 in the western United States",
+      "citation_offset": {
+        "offset": 619,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
       "field": "incident_location",
       "value": "Western United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "in the western United States",
+      "citation_offset": {
+        "offset": 661,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "issuing_agency",
-      "value": "Department of War",
+      "field": "event_1_time",
+      "value": "Approximately 1900 (dusk)",
+      "source_quote": "at approximately 1900, roughly dusk with a clear sky",
+      "citation_offset": {
+        "offset": 1056,
+        "len": 47,
+        "exact": false,
+        "matched": "at approximately 1900, roughly dusk with a clea"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "event_1_object",
+      "value": "Large orange orb alternating between orange and clear every 2-3 seconds",
+      "source_quote": "it was alternating between clear and orange with maybe two or three seconds in each colored cycle",
+      "citation_offset": {
+        "offset": 1395,
+        "len": 62,
+        "exact": false,
+        "matched": "d orange with maybe two or three seconds in each colored cycle"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "event_1_orb_outline_when_clear",
+      "value": "Outline still vaguely visible when orb was in clear phase",
+      "source_quote": "when it was clear, it did not seem to disappear as I vaguely recall still being able to see an outline of the orb",
+      "citation_offset": {
+        "offset": 1564,
+        "len": 60,
+        "exact": false,
+        "matched": " I vaguely recall still being able to see an outline of the "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "event_1_angular_speed",
+      "value": "Approximately 20 degrees in 3-5 seconds",
+      "source_quote": "the orb moved approximately 20 degrees in the sky in about three to five seconds",
+      "citation_offset": {
+        "offset": 1686,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_expulsion",
+      "value": "At ~45 degrees elevation, orange orb expelled three smaller red orbs",
+      "source_quote": "it expelled three smaller red orbs. The expulsion appeared to be mechanical.",
+      "citation_offset": {
+        "offset": 1866,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_red_orb_movement",
+      "value": "Red orbs moved south in a straight line, spaced ~1 second apart",
+      "source_quote": "The red orbs then moved to the south in a straight line spaced about one second apart",
+      "citation_offset": {
+        "offset": 1943,
+        "len": 85,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_size_comparison",
+      "value": "Red orbs compared to grapes expelled from a basketball",
+      "source_quote": "the red orbs were like grapes being expelled from a basketball",
+      "citation_offset": {
+        "offset": 2531,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_sound",
+      "value": "No sound observed",
+      "source_quote": "I do not recall any sound associated with what I saw",
+      "citation_offset": {
+        "offset": 2260,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_exhaust",
+      "value": "No exhaust trails from any orbs",
+      "source_quote": "there were no exhaust trails coming from either the orange or the red orbs",
+      "citation_offset": {
+        "offset": 2320,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_1_duration",
+      "value": "Approximately 30-45 seconds",
+      "source_quote": "The time frame for this explanation was maybe 30-45 seconds",
+      "citation_offset": {
+        "offset": 2611,
+        "len": 44,
+        "exact": false,
+        "matched": "for this explanation was maybe 30-45 seconds"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "event_2_time",
+      "value": "Approximately 2000-2030 (near full darkness)",
+      "source_quote": "I'd say the time was probably ~2000-2030 and the sky was clear",
+      "citation_offset": {
+        "offset": 2839,
+        "len": 57,
+        "exact": false,
+        "matched": "I'd say the time was probably ~2000-2030 and the sky was "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "event_2_timing",
+      "value": "Same night or next night as Event 1",
+      "source_quote": "either the same night or the next night",
+      "citation_offset": {
+        "offset": 2704,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_nvg_use",
+      "value": "Witness was using night vision goggles",
+      "source_quote": "I was using NVGs to scan the sky",
+      "citation_offset": {
+        "offset": 2904,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_red_lights",
+      "value": "Four red lights moved from north to south, covering ~90 degrees in 5-10 seconds",
+      "source_quote": "they moved from right to left in my vision in about five to ten seconds covering roughly 90 degrees across the sky",
+      "citation_offset": {
+        "offset": 3072,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_red_lights_formation",
+      "value": "Four red lights stopped and hovered in a square formation over an airfield",
+      "source_quote": "four red lights stopped above an airfield and hovered in what appeared to be a square over each corner of the airfield",
+      "citation_offset": {
+        "offset": 3194,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_orange_orbs",
+      "value": "Possibly two orange orbs hovering near a west-facing ridgeline slope",
+      "source_quote": "I also observed orange orbs (possibly two) coming from the same direction (east)",
+      "citation_offset": {
+        "offset": 3353,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_ground_vehicle",
+      "value": "Vehicle on ground flashing headlights at methodical tempo (2-3 seconds between on/off)",
+      "source_quote": "the vehicle was flashing its headlights at a slow, methodical tempo, possibly two-three seconds between switching off and on",
+      "citation_offset": {
+        "offset": 3933,
+        "len": 80,
+        "exact": false,
+        "matched": "the vehicle was flashing its headlights at a slow, methodical tempo, possibly tw"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "event_2_vehicle_pursuit",
+      "value": "Witnesses attempted to approach vehicle; it maintained ~100 yard distance and floated off-road",
+      "source_quote": "it seemed like the vehicle was responding to our approach. As we thought we would overtake the vehicle, it managed to keep its distance from us",
+      "citation_offset": {
+        "offset": 4674,
+        "len": 143,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_vehicle_anomaly",
+      "value": "Vehicle appeared to float off road across rough terrain with no tire tracks found",
+      "source_quote": "the vehicle then seemingly floated off the road to the south, across rough terrain. There were no roads and later we searched for tire tracks but didn't find anything",
+      "citation_offset": {
+        "offset": 4868,
+        "len": 100,
+        "exact": false,
+        "matched": "the vehicle then seemingly floated off the road to the south, across rough terrain. There were no ro"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "event_2_vehicle_disappearance",
+      "value": "Vehicle's single light faded out in the brush",
+      "source_quote": "saw it out in the brush in the rough terrain with a single light on. The light then faded out and we didn't see it anymore",
+      "citation_offset": {
+        "offset": 5100,
+        "len": 100,
+        "exact": false,
+        "matched": "saw it out in the brush in the rough terrain with a single light on. The light then faded out and we"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "event_2_duration",
+      "value": "Approximately 2-3 minutes",
+      "source_quote": "The time frame for this occurrence was about 2-3 minutes",
+      "citation_offset": {
+        "offset": 5425,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "event_2_sound",
+      "value": "No sound recalled",
+      "source_quote": "I don't recall there being any sound associated with any of this",
+      "citation_offset": {
+        "offset": 4075,
+        "len": 54,
+        "exact": false,
+        "matched": "call there being any sound associated with any of this"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "signatory",
+      "value": "Jon T. Kosloski, Director, AARO",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     }
   ],
-  "named_people": [],
-  "named_places": [
-    "Western United States"
+  "named_people": [
+    "Jon T. Kosloski"
   ],
-  "dated_events": [],
-  "objects_described": [],
+  "named_places": [
+    "Western United States",
+    "Washington, DC"
+  ],
+  "dated_events": [
+    "mid-Oct 2023",
+    "02 June 2026",
+    "08-MAY 2026"
+  ],
+  "objects_described": [
+    "Large orange orb (alternating orange/clear)",
+    "Three smaller red orbs expelled from orange orb",
+    "Four red lights hovering in square formation",
+    "Orange orbs (possibly two) near ridgeline",
+    "Unidentified ground vehicle with flashing headlights",
+    "Night vision goggles (NVGs)"
+  ],
   "verifiable_claims": [
     {
-      "claim": "Witness 3 provided a first-hand narrative statement to AARO about the incident.",
-      "source_quote": "",
+      "claim": "Multiple U.S. federal law enforcement special agents reported UAP sightings over two days in October 2023 in the western United States.",
+      "source_quote": "Witness 3 was one of several United States (U.S.) federal law enforcement special agents who reported observing unidentified anomalous phenomena (UAP) over a period of two days in October 2023",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 468,
+        "len": 192,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The orange orb produced no sound and no exhaust trails.",
+      "source_quote": "I do not recall any sound associated with what I saw. Also, there were no exhaust trails coming from either the orange or the red orbs.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2260,
+        "len": 135,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The expulsion of three red orbs from the orange orb appeared mechanical rather than natural.",
+      "source_quote": "it expelled three smaller red orbs. The expulsion appeared to be mechanical.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1866,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Four red lights hovered in a square formation over the four corners of an airfield.",
+      "source_quote": "four red lights stopped above an airfield and hovered in what appeared to be a square over each corner of the airfield",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3194,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A ground vehicle appeared to coordinate with the aerial phenomena by flashing its headlights at a regular tempo.",
+      "source_quote": "the vehicle was flashing its headlights at a slow, methodical tempo, possibly two-three seconds between switching off and on",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 3933,
+        "len": 80,
+        "exact": false,
+        "matched": "the vehicle was flashing its headlights at a slow, methodical tempo, possibly tw"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The ground vehicle evaded the witnesses' pursuit and appeared to float off the road across rough terrain, leaving no tire tracks.",
+      "source_quote": "the vehicle then seemingly floated off the road to the south, across rough terrain. There were no roads and later we searched for tire tracks but didn't find anything",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4868,
+        "len": 100,
+        "exact": false,
+        "matched": "the vehicle then seemingly floated off the road to the south, across rough terrain. There were no ro"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "When the ground vehicle disappeared, the aerial orbs were also gone.",
+      "source_quote": "When the vehicle was gone, so were the orbs.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5380,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 5,
+    "amber": 2,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:11:44.684Z",
-  "qa_completed_at": "2026-06-14T03:12:22.013Z",
+  "qa_started_at": "2026-06-19T21:44:12.674Z",
+  "qa_completed_at": "2026-06-19T21:45:39.168Z",
   "timing": {
-    "A": "14.6s",
-    "B": "22.7s"
-  }
+    "A": "49.9s",
+    "B": "36.6s",
+    "E": "23.4s"
+  },
+  "public_headline": "Federal Agent Reports Orange Orbs and Evasive Vehicle in Western US",
+  "public_tldr": "A U.S. federal law enforcement special agent submitted a first-hand account to the All-domain Anomaly Resolution Office (AARO) describing two UAP encounters over consecutive nights in October 2023 in the western United States. The sightings included a colour-shifting orange orb that expelled smaller red orbs, red lights hovering in formation over an airfield, and a ground vehicle that evaded pursuit by apparently floating off-road without leaving tracks.",
+  "public_narrative": "This document is a witness narrative memorandum submitted to the All-domain Anomaly Resolution Office (AARO), the Pentagon body responsible for investigating unidentified anomalous phenomena (UAP). It was signed by AARO Director Jon T. Kosloski and dated 02 June 2026, roughly two and a half years after the events it describes.\n\nThe witness, identified only as \"Witness 3,\" is a U.S. federal law enforcement special agent who was one of several agents reporting UAP sightings over two days in mid-October 2023 in the western United States. The specific location is not disclosed.\n\nDuring the first event, at approximately 7 p.m. at dusk, the witness observed a large orange orb that alternated between orange and clear every two to three seconds. It moved roughly 20 degrees across the sky in three to five seconds, then expelled three smaller red orbs in what the witness described as a mechanical action. The red orbs moved south in a straight line. No sound or exhaust trails were observed. The entire event lasted about 30 to 45 seconds.\n\nThe second event occurred either the same night or the following night, between 8 and 8:30 p.m. Using night vision goggles, the witness saw four red lights travel from north to south, covering about 90 degrees in five to ten seconds, then stop and hover in a square formation over the four corners of an airfield. Orange orbs were also seen near a ridgeline. On the ground, an unidentified vehicle flashed its headlights at a regular tempo. When the witnesses attempted to approach, the vehicle maintained a distance of roughly 100 yards and then appeared to float off-road across rough terrain. A later search found no tire tracks. When the vehicle disappeared, the aerial objects were gone as well. This event lasted about two to three minutes.\n\nThe document does not include any agency conclusion about what was observed. No sensor data, photographs, or radar tracks accompany the narrative. AARO has not attributed the sightings to any specific origin in this document.",
+  "public_caveats": [
+    "This is a single-source witness account with no corroborating sensor data, photographs, or radar tracks included in the document.",
+    "All distances, sizes, and speeds are the witness's subjective estimates — the witness explicitly noted an inability to judge how far away or how large the objects were.",
+    "The account was written roughly 2.5 years after the events (document dated June 2026, events in October 2023), which introduces potential memory degradation.",
+    "Observations during the second event were made in near-darkness using night vision goggles, which can distort colour, size, and distance perception.",
+    "Other agents also reported sightings, but their statements are not included here for cross-reference, and no agency conclusions or explanations are provided."
+  ]
 }

@@ -5,42 +5,98 @@
   "type": "IMG",
   "incident_date": "June 3-7, 1965",
   "incident_location": "Low Earth Orbit",
-  "what_is_it": "Scanned image of a NASA experiment debriefing transcript from the Gemini IV mission, in which astronauts recount observations of bright particles outside the spacecraft.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "what_is_it": "NASA internal routing slip (Form 26), used to forward documents between offices within the agency.",
+  "core_summary": "This is a standard NASA routing slip (Form 26, revised 1967) with heavily degraded or illegible text. The form appears to have been used to route a document internally, with checkboxes for actions such as 'Per Telephone Conversation', 'See me', and forwarding instructions. The actual content is largely unreadable due to poor image quality and OCR failure.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No machine-readable text was extracted from this scanned image; all facts are derived from catalogue metadata only.",
-    "The debriefing was recorded roughly two years after the mission, which may affect recall accuracy.",
-    "Without the actual transcript text, the nature and context of the 'bright particles' observation cannot be independently assessed.",
-    "The term 'bright particles' in the metadata is ambiguous — it could refer to debris, ice crystals, or other phenomena, and the document itself may clarify this but the text is not available."
+    "The OCR extraction is extremely degraded — most text on this routing slip is garbled and unreadable, making substantive analysis impossible from the extracted text alone.",
+    "The document is an administrative routing slip, not a substantive report; any UAP-relevant content (the Gemini 4 astronaut observations of bright particles) would be in the documents this slip was attached to, not on the slip itself.",
+    "Key facts about the Gemini IV mission and astronaut observations come from the CSV metadata description, not from the source text of this particular page.",
+    "The metadata references pages 78-81 and 101 of a larger debriefing collection; this routing slip is likely a cover page, not the observation transcript itself."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "Document format",
-      "value": "Scanned image (IMG), no machine-readable text extracted",
-      "source_quote": "",
+      "field": "Document type",
+      "value": "NASA Routing Slip (Form 26)",
+      "source_quote": "NASA FORM 26 Am 07",
+      "citation_offset": {
+        "offset": 368,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Issuing agency",
+      "value": "NASA (National Aeronautics and Space Administration)",
+      "source_quote": "TATONAL AERONAUTICS AND SPACE ADWNTIATION ROUTING SLIP",
+      "citation_offset": {
+        "offset": 0,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Form action: telephone conversation",
+      "value": "Checkbox present",
+      "source_quote": "Per Telephone Convenation",
+      "citation_offset": {
+        "offset": 155,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Form action: see me",
+      "value": "Checkbox present",
+      "source_quote": "See me",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     }
   ],
   "named_people": [],
   "named_places": [],
   "dated_events": [],
   "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "verifiable_claims": [
+    {
+      "claim": "This is a NASA Form 26 routing slip, a standard internal document-forwarding form.",
+      "source_quote": "NASA FORM 26 Am 07",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 368,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
+    "green": 1,
     "amber": 0,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:31:55.294Z",
-  "qa_completed_at": "2026-06-14T03:32:32.019Z",
+  "qa_started_at": "2026-06-19T22:39:51.318Z",
+  "qa_completed_at": "2026-06-19T22:40:18.598Z",
   "timing": {
-    "A": "16.4s",
-    "B": "20.4s"
-  }
+    "A": "17.2s",
+    "B": "10.1s",
+    "E": "19.0s"
+  },
+  "public_headline": "NASA Routing Slip from Gemini 4 Debriefing Is Largely Unreadable",
+  "public_tldr": "This document is a NASA internal routing slip (Form 26) that was used to forward paperwork between offices. The text is heavily degraded and mostly illegible, so the slip itself contains no readable substantive information about UAP observations during the Gemini 4 mission.",
+  "public_narrative": "This record, catalogued as NASA-UAP-D018, is not a report or testimony — it is a NASA Form 26, a standard internal routing slip used to forward documents between offices within the agency. The form includes checkboxes for administrative actions like \"Per Telephone Conversation\" and \"See me,\" typical of interoffice paperwork from the 1960s.\n\nThe routing slip is linked to the Gemini 4 mission, which flew in low Earth orbit from June 3 to 7, 1965. However, the slip itself is a cover page, not the debriefing transcript. Any substantive content about what the astronauts observed during the mission would be found in the documents this slip was attached to — reportedly pages 78–81 and 101 of a larger debriefing collection — not on the slip itself.\n\nThe image quality is extremely poor. Most of the text is garbled and unreadable due to degradation and OCR failure. What can be confirmed is limited to the form type (NASA Form 26, revised 1967) and the issuing agency (National Aeronautics and Space Administration).\n\nThere is heavy evidence of redaction or degradation across the document. Whether this reflects deliberate redaction, poor scanning, or simple age-related decay cannot be determined from the image alone. The result is that this particular page offers no readable facts about any unidentified aerial phenomena.",
+  "public_caveats": [
+    "This is an administrative cover page, not a substantive report — it contains no testimony, analysis, or conclusions about UAP.",
+    "The text is almost entirely illegible due to heavy degradation, so no meaningful content can be extracted from this page alone.",
+    "Key context about the Gemini 4 mission comes from catalogue metadata, not from anything readable on this document.",
+    "The actual astronaut debriefing content would be in the attached pages (reportedly pages 78–81 and 101), which are separate records.",
+    "It is unclear whether the illegibility is due to deliberate redaction, poor scanning quality, or physical deterioration of the original form."
+  ]
 }

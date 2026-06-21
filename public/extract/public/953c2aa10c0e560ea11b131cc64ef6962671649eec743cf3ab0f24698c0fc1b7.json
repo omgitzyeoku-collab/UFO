@@ -5,71 +5,240 @@
   "type": "PDF",
   "incident_date": "November, 2024",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI investigative activity form (FD-1057) documenting a site survey related to repeated UAP sightings reported by a U.S. person.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "An FBI FD-1057 electronic communication documenting a site survey of a location where a U.S. person reported recurring UAP sightings over three years.",
+  "core_summary": "In November 2024, FBI agents conducted a site survey at a private property in the northeastern United States where a resident reported observing unidentified aerial phenomena multiple times over the previous three years. The resident gave agents a tour of the property, showed them a trail camera that had captured UAP activity in a wooded area approximately 200 yards from the home, and provided video footage. The resident offered to allow FBI equipment to be set up on the property and to coordinate evening visits when UAP activity is often observed.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted body text was available from the PDF — all facts are derived from metadata and the official CSV description only.",
-    "The document is likely heavily redacted, as the specific location, witness identity, and investigative details are not disclosed.",
-    "Single-source reporting: the observations come from one U.S. person.",
-    "The site survey documents where observations occurred, not independent FBI confirmation of UAP.",
-    "Without the full document text, the level of detail about what was observed, sensor data collected, or conclusions reached is unknown."
+    "Heavy redaction throughout: all personal names, specific addresses, case IDs, and geographic identifiers are blacked out.",
+    "Single-source account: all UAP claims originate from one civilian witness; no independent corroboration is documented in this report.",
+    "The document records what the witness told FBI agents, not what the agents independently verified.",
+    "The 24 photo enclosures referenced are not included in the released text, limiting independent assessment.",
+    "OCR artefacts from the PDF scan may cause minor text corruption in some passages.",
+    "This document is part of a related series (FBI-UAP-D004 through D008, PR001 through PR003) covering the same general area; context from those documents is not included here."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "agency",
-      "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_type",
+      "value": "FBI FD-1057 Electronic Communication",
+      "source_quote": "FD-1057(.Rev. S-8-10) FEDERAL BUREAU OF INVESTIGATION Electronlc Co111111unlcatlon",
+      "citation_offset": {
+        "offset": 0,
+        "len": 82,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_date",
-      "value": "November 2024",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "subject",
+      "value": "Unidentified Aerial Phenomenon (UAP) site survey",
+      "source_quote": "Unidentified Aerial Phenomenon (UAP) - Site survey of",
+      "citation_offset": {
+        "offset": 278,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "location",
-      "value": "Northeastern United States (specific location not disclosed)",
-      "source_quote": "",
+      "field": "sighting_duration",
+      "value": "UAP observed over the last three years",
+      "source_quote": "seen Unidentified Aerial Phenomenon (UAP) over the last three years",
+      "citation_offset": {
+        "offset": 278,
+        "len": 37,
+        "exact": false,
+        "matched": "Unidentified Aerial Phenomenon (UAP) "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "trail_camera_location",
+      "value": "Wooded area approximately 200 yards from home, facing west",
+      "source_quote": "took agents down into a wooded area approximately 200 yards from - home, where - has has a trail camera affixed",
+      "citation_offset": {
+        "offset": 1549,
+        "len": 35,
+        "exact": false,
+        "matched": " approximately 200 yards from - hom"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "trail_camera_orientation",
+      "value": "Facing west of the home",
+      "source_quote": "This camera has captured UAP activity facing West of - home",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "area_features",
+      "value": "Restricted hunting/fishing signs and a stone wall running south to north",
+      "source_quote": "there were signs to indicate the area was restricted from hunting or fishing as well as a stone wall running south to north",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "nearby_trail",
+      "value": "A trail goes around the area but does not run through the UAP activity zone",
+      "source_quote": "trail that goes around but the trail does not run through the area where - has seen UAP activity",
+      "citation_offset": {
+        "offset": 1961,
+        "len": 76,
+        "exact": false,
+        "matched": "trail that goes around but the trail does not run through the area where - h"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "line_of_sight",
+      "value": "Multiple homes to the east would have line of sight to the UAP activity area",
+      "source_quote": "multiple homes along, which is to the east of - would have line of sight to the area where - has observed UAP activity",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "evidence_provided",
+      "value": "Video footage and trail camera photos provided to agents",
+      "source_quote": "showed a video of... gave agents a copy of",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "witness_cooperation",
+      "value": "Witness offered property for FBI equipment setup and evening coordination",
+      "source_quote": "would be open to equipment being set up on roperty in order to or time lapse video",
+      "citation_offset": {
+        "offset": 2442,
+        "len": 77,
+        "exact": false,
+        "matched": " be open to equipment being set up on roperty in order to or time lapse video"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "uap_timing",
+      "value": "UAP activity often observed in the evening",
+      "source_quote": "coordinate with agents to have them come out to - property during an evening, when the UAP activity is often observed",
+      "citation_offset": {
+        "offset": 2580,
+        "len": 30,
+        "exact": false,
+        "matched": " them come out to - property d"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "enclosures_count",
+      "value": "24 items including treeline photos, trail camera photos, area photos, and a photo log",
+      "source_quote": "Enclosure(s): Enclosed are the following items",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Northeastern United States"
-  ],
+  "named_places": [],
   "dated_events": [
     "November 2024"
   ],
   "objects_described": [
-    "Unidentified anomalous phenomena (UAP)"
+    "Unidentified Aerial Phenomenon (UAP)",
+    "trail camera"
   ],
   "verifiable_claims": [
     {
-      "claim": "The FBI conducted a site survey in November 2024 at a location where UAP had been repeatedly observed.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
+      "claim": "FBI agents conducted a site survey at a property where a resident reported UAP sightings over three years",
+      "source_quote": "survey areas where - has seen Unidentified Aerial Phenomenon (UAP) over the last three years",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 278,
+        "len": 37,
+        "exact": false,
+        "matched": "Unidentified Aerial Phenomenon (UAP) "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A trail camera approximately 200 yards from the home captured UAP activity facing west",
+      "source_quote": "took agents down into a wooded area approximately 200 yards from - home, where - has has a trail camera affixed. This camera has captured UAP activity facing West",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1549,
+        "len": 35,
+        "exact": false,
+        "matched": " approximately 200 yards from - hom"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The wooded area contained signs restricting hunting or fishing and a stone wall running south to north",
+      "source_quote": "there were signs to indicate the area was restricted from hunting or fishing as well as a stone wall running south to north",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "Multiple neighbouring homes to the east would have line of sight to the UAP activity area",
+      "source_quote": "multiple homes along, which is to the east of - would have line of sight to the area where - has observed UAP activity",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The witness provided video footage and offered to allow FBI surveillance equipment on the property",
+      "source_quote": "would be open to equipment being set up on roperty in order to or time lapse video",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2442,
+        "len": 77,
+        "exact": false,
+        "matched": " be open to equipment being set up on roperty in order to or time lapse video"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "UAP activity at this location is most often observed during evening hours",
+      "source_quote": "coordinate with agents to have them come out to - property during an evening, when the UAP activity is often observed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2580,
+        "len": 30,
+        "exact": false,
+        "matched": " them come out to - property d"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "24 enclosures were attached including treeline photos, trail camera photos, survey area photos, and a photo log",
+      "source_quote": "Enclosure(s): Enclosed are the following items",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
-    "red": 1
+    "amber": 7,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:22:42.568Z",
-  "qa_completed_at": "2026-06-14T03:23:15.942Z",
+  "qa_started_at": "2026-06-19T22:14:51.808Z",
+  "qa_completed_at": "2026-06-19T22:15:51.757Z",
   "timing": {
-    "A": "19.4s",
-    "B": "13.9s"
-  }
+    "A": "35.0s",
+    "B": "24.9s",
+    "E": "15.8s"
+  },
+  "public_headline": "FBI Agents Surveyed a Property Where a Resident Reported Three Years of UAP Sightings",
+  "public_tldr": "This is an FBI internal communication from November 2024 documenting a site visit to a private property in the northeastern United States where a resident claimed to have observed unidentified aerial phenomena repeatedly over three years. The resident showed agents a trail camera that allegedly captured UAP activity and offered the property for FBI surveillance equipment.",
+  "public_narrative": "In November 2024, FBI agents visited a private property in the northeastern United States to conduct a site survey. The property's resident had reported seeing unidentified aerial phenomena (UAP) multiple times over the previous three years, and the Bureau sent agents to examine the location firsthand.\n\nDuring the visit, the resident gave agents a tour of the property and led them to a wooded area approximately 200 yards from the home. A trail camera had been set up there, facing west, which the resident said had captured UAP activity. The surrounding area featured signs restricting hunting and fishing, a stone wall running south to north, and a trail that passes around but not through the zone where UAP was reportedly seen. Agents noted that multiple homes to the east would have a line of sight to the activity area.\n\nThe resident provided video footage and trail camera photos to the agents. They also offered to let the FBI set up equipment on the property and to coordinate evening visits, since the UAP activity was most often observed during evening hours. The report references 24 photo enclosures — including treeline shots, trail camera images, and a photo log — but these images were not included in the released document.\n\nThe document is heavily redacted: all personal names, specific addresses, case identifiers, and geographic details have been blacked out. The report records what the witness told agents; it does not document any independent verification or conclusions by the FBI about what was observed.",
+  "public_caveats": [
+    "This is a single-source account: all UAP claims come from one civilian witness, with no independent corroboration documented in the report.",
+    "The document records what the resident told FBI agents, not what the agents independently verified or concluded.",
+    "Heavy redaction throughout removes all names, addresses, and specific location identifiers.",
+    "The 24 referenced photo enclosures are not included in the public release, so readers cannot assess the visual evidence.",
+    "This report is part of a related series (FBI-UAP-D004 through D008) covering the same general area; this document alone does not provide full context."
+  ]
 }

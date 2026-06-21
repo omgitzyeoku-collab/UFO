@@ -3,67 +3,46 @@
   "title": "DOW-UAP-D088, U.S. Air Force Analysis of Flying Objects in the United States, 101-172",
   "agency": "Department of War",
   "type": "IMG",
-  "what_is_it": "A scanned checklist document from the U.S. Air Force's analysis of flying objects, containing details about an unidentified flying object incident.",
+  "what_is_it": "A heavily degraded image document from a U.S. Air Force analysis of flying objects, appearing to be a declassified page with mostly illegible content.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No text could be extracted from this scanned image — all facts are derived from metadata only.",
-    "The actual content of the checklist, witness statements, and narrative reports cannot be verified without OCR or manual reading of the image.",
-    "Page range 101-172 suggests this is one image from a much larger document set."
+    "The OCR extraction is almost entirely garbled — the source image is either severely degraded, low-resolution, or the text is handwritten/typewritten in a way that defeated automated recognition.",
+    "No substantive content could be reliably extracted from the body text; nearly all characters are nonsensical fragments.",
+    "The CSV metadata describes a checklist with witness statements and narrative reports, but none of this content is readable in the extracted text.",
+    "Any analysis of this document requires direct visual inspection of the original image file rather than reliance on the OCR output."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "originating_agency",
-      "value": "Department of War",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "document_series",
-      "value": "DOW-UAP-D088",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "page_range",
-      "value": "Pages 101-172",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "classification_status",
+      "value": "Declassified",
+      "source_quote": "DECLASSIFIED",
+      "citation_offset": {
+        "offset": 155,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "United States"
-  ],
+  "named_places": [],
   "dated_events": [],
-  "objects_described": [
-    "unidentified flying objects"
-  ],
-  "verifiable_claims": [
-    {
-      "claim": "The U.S. Air Force conducted an analysis of flying objects observed in the United States.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
-    }
-  ],
+  "objects_described": [],
+  "verifiable_claims": [],
   "tier": "red",
   "confidence_breakdown": {
     "green": 0,
     "amber": 0,
-    "red": 1
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:18:18.594Z",
-  "qa_completed_at": "2026-06-14T03:18:45.122Z",
+  "qa_started_at": "2026-06-19T22:06:47.587Z",
+  "qa_completed_at": "2026-06-19T22:07:12.201Z",
   "timing": {
-    "A": "12.4s",
-    "B": "14.1s"
+    "A": "13.8s",
+    "B": "10.9s"
   }
 }

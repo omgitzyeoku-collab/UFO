@@ -5,67 +5,371 @@
   "type": "PDF",
   "incident_date": "December 19-21, 1965",
   "incident_location": "Cape Kennedy, Florida",
-  "what_is_it": "Preliminary transcript of the Gemini 7 flight crew technical debriefing, derived from voice recordings.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "Preliminary transcript of the Gemini 7 flight crew technical debriefing, derived from voice tape recordings of astronauts Frank Borman and Jim Lovell conducted after their 14-day spaceflight.",
+  "core_summary": "This is the full technical debriefing of the Gemini 7 mission, covering countdown through recovery. Astronauts Borman and Lovell discuss spacecraft systems, powered flight, orbital operations, station-keeping with the spent booster stage, retrofire, reentry, and visual sightings. The document includes a dedicated 'Visual Sightings' section (Section 10) covering observations during countdown, powered flight, orbital flight, and reentry, and the crew discuss sighting a satellite, celestial objects, meteors, aurora, lightning, and debris.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived from the catalogue metadata description only.",
-    "The described sightings (lights, flashes, meteors, aurora, lightning) appear to be conventional celestial and atmospheric phenomena, not unexplained objects.",
-    "Borman and Lovell are named only in the metadata description, not confirmed from the document body.",
-    "Without the full transcript text, the context and detail of each observation cannot be assessed."
+    "The extracted text is from OCR of a 1965 document and contains numerous scanning artefacts and garbled characters, so some details may be misread.",
+    "Section 10.0 (Visual Sightings) — the section most relevant to UAP research — is referenced in the table of contents but its body text was not included in the extracted source provided here; only the table of contents entry is visible.",
+    "The document is a preliminary rough-edited transcript, not a final reviewed report; crew statements are informal and sometimes ambiguous.",
+    "The satellite sighting at 16:40 GET is described matter-of-factly as a satellite reflection, not as an unidentified object.",
+    "The CSV description mentions discussion of Mercury, meteors, aurora, lightning, and stars vs. sunlight, but those specific passages from Section 10.3 (Orbital Flight visual sightings) are not present in the extracted text provided."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "mission",
-      "value": "Gemini 7",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document title",
+      "value": "Gemini VII Technical Debriefing",
+      "source_quote": "GEMINI VII TECHNICAL DEBRIEFING December 23, 1965",
+      "citation_offset": {
+        "offset": 24,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "debriefing_dates",
-      "value": "December 19-21, 1965",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Debriefing date",
+      "value": "December 19-21, 1965 (published December 23, 1965)",
+      "source_quote": "debriefing conducted December 19 through December 21, 1965",
+      "citation_offset": {
+        "offset": 427,
+        "len": 48,
+        "exact": false,
+        "matched": "debriefing conducted December 19 through Decembe"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "debriefing_location",
+      "field": "Debriefing location",
       "value": "Crew Quarters, Cape Kennedy, Florida",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "at the Crew Quarters, Cape Kennedy, Florida",
+      "citation_offset": {
+        "offset": 487,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "originating_agency",
-      "value": "NASA",
-      "source_quote": "",
+      "field": "FOIA exemption notice",
+      "value": "Document marked as potentially exempt from public disclosure under FOIA",
+      "source_quote": "This document may be exempt from public disclosure under the Freedom of Information Act (5 U.S.C. 552)",
+      "citation_offset": {
+        "offset": 82,
+        "len": 70,
+        "exact": false,
+        "matched": "This document may be exempt from public disclosure under the Freedom o"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Visual Sightings section",
+      "value": "Dedicated Section 10.0 covers Visual Sightings during countdown, powered flight, orbital flight, and reentry",
+      "source_quote": "VISUAL SIGHTINGS 10.1 Countdown 10.2 Powered Flight 10.3 Orbital Flight 10.4 Reentry",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Satellite sighting",
+      "value": "At 16:40 GET, crew sighted a satellite on a slightly higher inclination path passing underneath them",
+      "source_quote": "At 16,40 we sighted a satellite much lower and on a slightly higher inclination path than we were. It passed underneath us.",
+      "citation_offset": {
+        "offset": 38882,
+        "len": 85,
+        "exact": false,
+        "matched": "h lower and on a slightly higher inclination path than we were. It passed underneath "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Experiments section",
+      "value": "Section 11.0 includes celestial/space/terrestrial radiometry, star occultation, simple navigation, visual acuity tests",
+      "source_quote": "Celestial, Space, and Terrestrial Radiometry (D-4/D-7)",
+      "citation_offset": {
+        "offset": 178343,
+        "len": 49,
+        "exact": false,
+        "matched": "Celestial, Space, and Terrestrial Radiometry (D-4"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Red flame at BECO",
+      "value": "Spacecraft was engulfed in red flame at booster engine cutoff",
+      "source_quote": "At BECO, the whole spacecraft was engulfed in a red flame. I noticed that out of the corner of my eyes.",
+      "citation_offset": {
+        "offset": 16795,
+        "len": 55,
+        "exact": false,
+        "matched": "At BECO, the whole spacecraft was engulfed in a red fla"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Booster venting illumination",
+      "value": "During perigee adjust burn, booster venting lit up and looked like debris/foreign objects",
+      "source_quote": "the booster venting that was still occurring suddenly lit up, became lit up. It looked like we were flying through a lot of foreign objects or debris.",
+      "citation_offset": {
+        "offset": 33413,
+        "len": 150,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Docking light assessment",
+      "value": "Docking light was not helpful for distance judgment; crew stated illumination of the vehicle is needed, not flashing lights",
+      "source_quote": "You have to have something that illuminates the vehicle, not a light that flashes because you cannot tell from a flashing light.",
+      "citation_offset": {
+        "offset": 30869,
+        "len": 95,
+        "exact": false,
+        "matched": "t illuminates the vehicle, not a light that flashes because you cannot tell from a flashing lig"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Mission duration",
+      "value": "14 days",
+      "source_quote": "Forty per cent of the hydrogen bottle was still left at the end of 14 days.",
+      "citation_offset": {
+        "offset": 43512,
+        "len": 50,
+        "exact": false,
+        "matched": "rogen bottle was still left at the end of 14 days."
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Suit removal timeline",
+      "value": "Suits removed starting at 45 hours into flight; both crewmen suitless by 191:48 GET",
+      "source_quote": "At 45 hours Jim started taking off his suit",
+      "citation_offset": {
+        "offset": 40157,
+        "len": 33,
+        "exact": false,
+        "matched": "s Jim started taking off his suit"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Insertion velocity accuracy",
+      "value": "Address 72 read exactly nominal 25,804 ft/s",
+      "source_quote": "Nominal was 25 804 and address 72 read 25 804. Can you imagine that? Right to the foot!",
+      "citation_offset": {
+        "offset": 23350,
+        "len": 72,
+        "exact": false,
+        "matched": "Nominal was 25 804 and address 72 read 25 804. Can you imagine that? Rig"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Water boiler freeze event",
+      "value": "At 266:16 GET suit inlet temperature dropped below 40 degrees; water boiler had frozen",
+      "source_quote": "At 266,16 we really got cold; the suit inlet temperature dropped below 40 degrees and we started squirting water out of the suit inlet hoses.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Drift rate cause",
+      "value": "Left yaw drift rate caused by water boiler venting, reaching ~7 degrees per second overnight",
+      "source_quote": "we noted our drift rate picking up and we finally determined this was from the water boiler venting. It resulted in a left yaw rate",
+      "citation_offset": {
+        "offset": 41939,
+        "len": 131,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Gemini 6 tracking",
+      "value": "Crew tracked Gemini 6 launch from orbit using IR after it rose above cloud level",
+      "source_quote": "we were able to pick it up and we tracked it using IR until we couldn't see anymore",
+      "citation_offset": {
+        "offset": 44561,
+        "len": 33,
+        "exact": false,
+        "matched": " we tracked it using IR until we "
+      },
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "Borman",
+    "Lovell",
+    "Slayton",
+    "McDivitt",
+    "Brentnall",
+    "Chris"
+  ],
   "named_places": [
-    "Cape Kennedy, Florida"
+    "Cape Kennedy, Florida",
+    "Houston",
+    "Bermuda",
+    "Antigua",
+    "Carnarvon",
+    "St. Louis",
+    "Northwest Africa"
   ],
   "dated_events": [
-    "December 19-21, 1965"
+    "December 19, 1965",
+    "December 20, 1965",
+    "December 21, 1965",
+    "December 23, 1965"
   ],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "objects_described": [
+    "Gemini 7 spacecraft",
+    "Titan II booster (stage 1 and stage 2)",
+    "docking light",
+    "D-4/D-7 radiometry instruments",
+    "MSC-2/MSC-3 spectrometer and magnetometer",
+    "bungee exercise device",
+    "fuel cells",
+    "RCS thrusters",
+    "250mm camera lens",
+    "HF/DF communications equipment"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The Gemini 7 insertion velocity matched the nominal value of 25,804 ft/s exactly.",
+      "source_quote": "Nominal was 25 804 and address 72 read 25 804. Can you imagine that? Right to the foot!",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 23350,
+        "len": 72,
+        "exact": false,
+        "matched": "Nominal was 25 804 and address 72 read 25 804. Can you imagine that? Rig"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew sighted a satellite at 16 hours 40 minutes GET on a higher inclination orbit passing below them.",
+      "source_quote": "At 16,40 we sighted a satellite much lower and on a slightly higher inclination path than we were.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 38882,
+        "len": 63,
+        "exact": false,
+        "matched": "h lower and on a slightly higher inclination path than we were."
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The spacecraft was engulfed in red flame at first-stage engine cutoff (BECO).",
+      "source_quote": "At BECO, the whole spacecraft was engulfed in a red flame.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 16795,
+        "len": 53,
+        "exact": false,
+        "matched": "At BECO, the whole spacecraft was engulfed in a red f"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The digital clock did not lose a single second during the entire 14-day flight.",
+      "source_quote": "The digital clock never lost a second during the entire flight.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 47774,
+        "len": 58,
+        "exact": false,
+        "matched": "The digital clock never lost a second during the entire fl"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "During booster station-keeping, the booster's venting caused it to translate and rotate uncontrollably.",
+      "source_quote": "the booster, being without attitude control, translating also with this impulse it was picking up from the venting, is definitely an order of magnitude more difficult than station keeping with a stable vehicle",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 26134,
+        "len": 100,
+        "exact": false,
+        "matched": "it was picking up from the venting, is definitely an order of magnitude more difficult than station "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew tracked the Gemini 6 launch from orbit using infrared instruments.",
+      "source_quote": "we were able to pick it up and we tracked it using IR until we couldn't see anymore. Even above the con level I think we were tracking the exhaust from the stage two engines",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 44638,
+        "len": 60,
+        "exact": false,
+        "matched": "evel I think we were tracking the exhaust from the stage two"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The water boiler froze at approximately 266 hours GET, dropping suit inlet temperature below 40 degrees.",
+      "source_quote": "At 266,16 we really got cold; the suit inlet temperature dropped below 40 degrees and we started squirting water out of the suit inlet hoses.",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Overnight drift rates reached approximately 7 degrees per second due to water boiler venting.",
+      "source_quote": "when we woke up they were about 7 degrees per second. I timed them around the horizon and came up with 7 degrees per second.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 42318,
+        "len": 124,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Both crewmen were out of their suits by 191 hours 48 minutes GET, which Borman called the best decision of the flight.",
+      "source_quote": "at 191,48 we got both crewmen suitless. That was the best decision in the whole flight.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 43256,
+        "len": 77,
+        "exact": false,
+        "matched": "we got both crewmen suitless. That was the best decision in the whole flight."
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "40% of the hydrogen bottle remained after 14 days.",
+      "source_quote": "Forty per cent of the hydrogen bottle was still left at the end of 14 days.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 43512,
+        "len": 50,
+        "exact": false,
+        "matched": "rogen bottle was still left at the end of 14 days."
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 1,
+    "amber": 9,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:35:25.305Z",
-  "qa_completed_at": "2026-06-14T03:35:58.356Z",
+  "qa_started_at": "2026-06-19T22:46:36.982Z",
+  "qa_completed_at": "2026-06-19T22:48:06.896Z",
   "timing": {
-    "A": "15.5s",
-    "B": "17.6s"
-  }
+    "A": "56.8s",
+    "B": "32.9s",
+    "E": "27.4s"
+  },
+  "public_headline": "NASA's Gemini 7 Crew Debriefing Covers Visual Sightings From 14-Day Spaceflight",
+  "public_tldr": "This is the full technical debriefing of astronauts Frank Borman and Jim Lovell after their 14-day Gemini 7 mission in December 1965. The transcript covers spacecraft systems, orbital operations, and a dedicated section on visual sightings — including a satellite, meteors, aurora, lightning, and debris — though the crew described these observations matter-of-factly, not as unidentified phenomena.",
+  "public_narrative": "In December 1965, astronauts Frank Borman and Jim Lovell completed a 14-day spaceflight aboard Gemini 7, at the time one of the longest crewed missions ever flown. Between 19 and 21 December, they sat down at the Crew Quarters at Cape Kennedy, Florida, for a detailed technical debriefing recorded on voice tape. The resulting transcript, published 23 December 1965, runs through every phase of the mission from countdown to recovery.\n\nThe document includes a dedicated Section 10 on Visual Sightings, broken into observations during countdown, powered flight, orbital flight, and reentry. The crew reported seeing a satellite at about 16 hours and 40 minutes into the flight, describing it as being on a slightly higher inclination orbit and passing below them. They also noted that during a perigee adjustment burn, the spent booster's venting suddenly lit up and \"looked like we were flying through a lot of foreign objects or debris.\" At first-stage engine cutoff, the entire spacecraft was engulfed in a red flame. None of these observations were described by the crew as unexplained — the satellite was identified as a satellite, the debris was attributed to booster venting, and the flame was a known effect of engine cutoff.\n\nBeyond visual sightings, the debriefing captures notable engineering details: the insertion velocity matched its target of 25,804 feet per second exactly, the digital clock did not lose a single second over 14 days, and the crew tracked the launch of Gemini 6 from orbit using infrared instruments. The mission was not without difficulties — the water boiler froze at about 266 hours, dropping suit temperatures below 40 degrees, and overnight drift rates reached roughly 7 degrees per second caused by water boiler venting.\n\nThe document was marked as potentially exempt from public disclosure under the Freedom of Information Act. However, there is low evidence of redactions in the released version. It is worth noting that while the table of contents lists the full Visual Sightings section, the body text of that section was not fully present in the extracted source material available for review.",
+  "public_caveats": [
+    "The text was produced by OCR of a 1965 document and contains scanning artefacts; some details may be garbled or misread.",
+    "Section 10 (Visual Sightings) — the section most relevant to UAP research — appears in the table of contents but its full body text was not included in the extracted source reviewed here, so its complete contents remain unverified.",
+    "This is a preliminary rough-edited transcript, not a final reviewed report; crew statements are informal and sometimes ambiguous.",
+    "The satellite sighting at 16:40 GET was described by the crew as a satellite, not as an unidentified object. The 'debris' sighting was attributed to booster venting. No observation in the available text is presented as unexplained.",
+    "The document carries a FOIA exemption notice, but the released version shows low evidence of material redaction."
+  ]
 }

@@ -5,70 +5,237 @@
   "type": "PDF",
   "incident_date": "1956",
   "incident_location": "Budapest, Hungary",
-  "what_is_it": "A CIA Information Report documenting unusual flying object sightings reported by a sub-source in Budapest, Hungary, including a sketch of the objects' suspected formation and flight path.",
+  "what_is_it": "CIA Information Report relaying a secondhand account of unusual flying object sightings over Budapest, Hungary, including a sketch of the objects' formation and suspected flight path.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No extracted text available from the PDF — all facts are derived from metadata and the CSV description only.",
-    "The document appears to be scanned with poor OCR quality, preventing direct text extraction.",
-    "Single sub-source reporting with no corroboration noted.",
-    "The document is described as having heavy redaction, with a prior public version being even more redacted.",
-    "Cold War context (1956 Budapest, flight path to Moscow) suggests potential geopolitical framing of the sightings."
+    "This is explicitly marked as 'UNEVALUATED INFORMATION' by the CIA.",
+    "The report is entirely based on a single secondhand source — a personal letter from a relative in Communist Hungary.",
+    "The original source (the niece) is unnamed and unverified; her observations are informal, not scientific.",
+    "OCR quality is poor due to the age and condition of the document, introducing potential transcription errors.",
+    "The 12,000 km/h speed estimate has no stated methodology and may be a rough guess or rumour.",
+    "Moderate redaction is present, particularly around source identifying details.",
+    "A more redacted version of this report was previously available on the CIA's public website, meaning this release contains additional previously withheld content."
   ],
-  "fabrication_score": 5,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "Originating agency",
-      "value": "CIA",
-      "source_quote": "",
+      "field": "report_number",
+      "value": "OO-B-93674",
+      "source_quote": "REPORT NO, 00-B-93674",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Year of incident",
-      "value": "1956",
-      "source_quote": "",
+      "field": "originating_agency",
+      "value": "Central Intelligence Agency (CIA)",
+      "source_quote": "PREPARED AND DISSEMINATED BY CENTRAL INTELLIGENCE AGENCY",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Location of sightings",
-      "value": "Budapest, Hungary",
-      "source_quote": "",
+      "field": "country",
+      "value": "Hungary",
+      "source_quote": "COUNTRY Jl\\:m.sal'Y",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "source_description",
+      "value": "Naturalized US citizen reporting letter from niece in Budapest",
+      "source_quote": "Naturalized UB· ci.tisen ot an extraction. He corre",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "letter_received",
+      "value": "November 1955",
+      "source_quote": "In Boi7elDl.1er' 19.55 I received ~ letter 1\".rom '!!!,I niece",
+      "citation_offset": {
+        "offset": 1049,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "duration_of_sightings",
+      "value": "Several weeks",
+      "source_quote": "for seY\"eral wee~ kept the people 1n a nen-ous state",
+      "citation_offset": {
+        "offset": 1252,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "scientific_interest",
+      "value": "Sightings kept scientific community busy",
+      "source_quote": "acienti:Uc: QOUJ?l}- Ve'Z'Y bus,r",
+      "citation_offset": {
+        "offset": 1343,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "suspected_flight_path",
+      "value": "Budapest to Moscow",
+      "source_quote": "formation and suspected course of tlte QC>Ve obJeets: Bu&tpest· Moscow",
+      "citation_offset": {
+        "offset": 1562,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "evaluation_status",
+      "value": "Unevaluated information",
+      "source_quote": "THIS IS UNEVALUATED INFORMATION",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "classification",
+      "value": "Dissemination limited to full-time employees of CIA, AEC, FBI, and intelligence components of State and Defense",
+      "source_quote": "Dissemination ,li,njled to lv.ll•tim.e employees ClJI.• .II.EC· a-nd FBI",
+      "citation_offset": {
+        "offset": 2163,
+        "len": 67,
+        "exact": false,
+        "matched": "mination ,li,njled to lv.ll•tim.e employees ClJI.• .II.EC· a-nd FBI"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "original_letter_on_file",
+      "value": "Photostatic copy of original letter held in CIA Library",
+      "source_quote": ".ffi.~le on loan f'rOlli CIA Li.brt:l.'ey is a ·i,b.otoatatic co_py at or1giml· letter",
+      "citation_offset": {
+        "offset": 1722,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [
     "Budapest",
+    "Moscow",
     "Hungary"
   ],
   "dated_events": [
-    "1956"
+    "Mar 55",
+    "November 1955"
   ],
   "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "Flying object sightings were reported by a Budapest-based sub-source in 1956",
-      "source_quote": "",
+      "claim": "A naturalized US citizen received a letter from a niece in Budapest in November 1955 describing unusual flying object sightings.",
+      "source_quote": "In Boi7elDl.1er' 19.55 I received ~ letter 1\".rom '!!!,I niece",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1049,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The flying objects were observed for several weeks and kept the local population in a nervous state.",
+      "source_quote": "for seY\"eral wee~ kept the people 1n a nen-ous state",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1252,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The objects' speed was estimated at 12,000 km per hour.",
+      "source_quote": "12 'tllowlawi km per hour was estimated on these !.eyers",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 1431,
+        "len": 51,
+        "exact": false,
+        "matched": "llowlawi km per hour was estimated on these !.eyers"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The sightings generated significant scientific interest and activity.",
+      "source_quote": "acienti:Uc: QOUJ?l}- Ve'Z'Y bus,r",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1343,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A sketch was included with the letter showing the objects' formation and suspected flight path between Budapest and Moscow.",
+      "source_quote": "sketch 1ndieatillg the :formation and suspected course of tlte QC>Ve obJeets: Bu&tpest· Moscow",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1538,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "This was the first time the niece had mentioned such objects in her letters.",
+      "source_quote": "~s .i..s the first t:lme IIV .niece bas mentio1ted such obJects 1ll her l.e1;ters",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1636,
+        "len": 81,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A photostatic copy of the original letter and English translation was on loan from the CIA Library.",
+      "source_quote": ".ffi.~le on loan f'rOlli CIA Li.brt:l.'ey is a ·i,b.otoatatic co_py at or1giml· letter",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1722,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 6,
+    "amber": 1,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:00:39.136Z",
-  "qa_completed_at": "2026-06-14T03:01:18.922Z",
+  "qa_started_at": "2026-06-19T21:16:19.503Z",
+  "qa_completed_at": "2026-06-19T21:17:25.809Z",
   "timing": {
-    "A": "22.5s",
-    "B": "17.3s"
-  }
+    "A": "38.3s",
+    "B": "28.0s",
+    "E": "23.0s"
+  },
+  "public_headline": "CIA Report Relays Secondhand Account of Flying Objects Over Budapest in 1955",
+  "public_tldr": "This CIA information report passes along a secondhand account from a naturalized US citizen whose niece in Budapest wrote to him in November 1955 describing unusual flying objects seen over the city for several weeks. The CIA explicitly marked the report as unevaluated information, and moderate redactions obscure source-identifying details.",
+  "public_narrative": "This document is a CIA information report (number OO-B-93674) that records a secondhand account of unusual flying object sightings over Budapest, Hungary. The report was prepared and distributed by the Central Intelligence Agency, with circulation restricted to full-time employees of the CIA, the Atomic Energy Commission (AEC), the FBI, and the intelligence branches of the State and Defense departments.\n\nThe source was a naturalized US citizen who received a letter from his niece in Budapest in November 1955. The niece described flying objects that had been observed over the city for several weeks, keeping the local population in a nervous state and generating significant interest from the scientific community. A speed of 12,000 kilometres per hour was attributed to the objects, though no methodology for that estimate is stated in the report. The niece included a sketch showing the objects' formation and their suspected flight path from Budapest toward Moscow. The letter writer noted this was the first time his niece had ever mentioned such objects in her correspondence.\n\nThe CIA retained a photostatic copy of the original letter along with an English translation in its library. The agency stamped the report as unevaluated information — meaning the CIA passed it along without vouching for its accuracy or drawing any conclusion about what the objects were.\n\nModerate redactions are present in the document, particularly around details that could identify the source. A more heavily redacted version of this same report was previously available on the CIA's public website, meaning this release contains material that was previously withheld.",
+  "public_caveats": [
+    "The CIA explicitly labelled this 'unevaluated information' — it drew no conclusions about the sightings and did not verify the account.",
+    "The entire report rests on a single secondhand source: a personal letter from an unnamed niece in Communist Hungary, relayed by her uncle in the United States. There is no independent corroboration.",
+    "The 12,000 km/h speed estimate has no stated methodology and may be a rough guess or rumour circulating in Budapest at the time.",
+    "Moderate redaction is present, especially around source-identifying details, so parts of the original context are missing.",
+    "The document's poor physical condition has introduced OCR errors in the digital text, meaning some quoted phrases may contain minor transcription inaccuracies."
+  ]
 }

@@ -5,66 +5,380 @@
   "type": "PDF",
   "incident_date": "July 1952-1960",
   "incident_location": "Washington State, United States",
-  "what_is_it": "A collection of memoranda and correspondence between the FBI and the U.S. Air Force regarding UFO sightings investigated in Washington State over an eight-year period.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "A compilation of FBI memoranda, complaint forms, and correspondence between the FBI Seattle field office and U.S. Air Force (OSI) regarding multiple UFO sighting reports in Washington State from 1952 to 1960.",
+  "core_summary": "This file contains multiple UFO sighting reports investigated by the FBI Seattle office in coordination with Air Force Office of Special Investigations (OSI) at McChord Air Force Base. Reports include civilian and military observations of unidentified objects over Pasco, Kennewick, Seattle, and Neah Bay, Washington, with one incident involving radar tracking and fighter interceptor scrambles. The documents span from July 1952 through early 1960 and include newspaper clippings, formal complaint forms, and inter-agency correspondence.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted text was available from the PDF — likely a scanned document with poor OCR quality. All facts are derived from metadata and the official CSV description only.",
-    "Without the full document text, named individuals, specific sighting details, and exact dates of individual incidents cannot be identified.",
-    "The actual content and conclusions of the FBI-Air Force correspondence are unknown from metadata alone."
+    "Heavy redaction throughout the document — many pages are almost entirely illegible due to poor scan quality and redactions, meaning significant context is missing.",
+    "The OCR quality is extremely poor, with substantial character corruption making many passages only partially readable.",
+    "Most sightings are single-witness accounts with no independent corroboration noted in the surviving text.",
+    "The Richland observer's claim of being a 'CIA 512 R design supervisor' is unverified within this document and the full context of that letter is partially illegible.",
+    "The intelligence evaluation of the radar intercept incident as 'atmospheric targets' is described as tentative, not conclusive.",
+    "At least one set of reported UFOs (Cape Disappointment) was positively identified as military flares, suggesting not all reports in this file represent unexplained phenomena.",
+    "Sgt. Richardson's account was self-admittedly never shared with colleagues and was provided approximately one year after the alleged event.",
+    "FOIA exemption b(3) for intelligence sources and methods indicates some material was withheld from this release."
   ],
-  "fabrication_score": 2,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "originating_agency",
-      "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Originating office",
+      "value": "FBI Seattle field office",
+      "source_quote": "FBI• SEATT",
+      "citation_offset": {
+        "offset": 1043,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "location",
-      "value": "Washington State, United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Military liaison",
+      "value": "20th District Office of Special Investigations, McChord Air Force Base",
+      "source_quote": "20th DISTRICT OFFICE OF SPECIAL INVESTIGATIONS McCHORD AIR FORCE BASE, McCHORD FIELD, WASHINGTON",
+      "citation_offset": {
+        "offset": 21836,
+        "len": 41,
+        "exact": false,
+        "matched": "S McCHORD AIR FORCE BASE, McCHORD FIELD, "
+      },
+      "confidence": "amber"
     },
     {
-      "field": "subject_matter",
-      "value": "Multiple UFO sightings",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Pasco sighting date",
+      "value": "June 6, 1954",
+      "source_quote": "SIGHTING OF UNIDENTIFIED OBJECTS OVER PASCO, WASH. 6/6/54, 11:35",
+      "citation_offset": {
+        "offset": 14471,
+        "len": 59,
+        "exact": false,
+        "matched": "SIGHTING OF UNIDENTIFIED OBJECTS OVER PASCO, WASH. 6/6/54, "
+      },
+      "confidence": "amber"
     },
     {
-      "field": "document_id",
-      "value": "FBI-UAP-D013",
-      "source_quote": "",
+      "field": "Pasco sighting witness",
+      "value": "Gail Plock, ground observer group supervisor",
+      "source_quote": "GAIL PJOCK, Pasco, Wash., Phone Pasco 6054, supervisor of a local ground observer group at pasco",
+      "citation_offset": {
+        "offset": 14648,
+        "len": 66,
+        "exact": false,
+        "matched": "e Pasco 6054, supervisor of a local ground observer group at pasco"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Pasco objects description",
+      "value": "Two half-moon shaped objects about six times as large as a half moon, one forming into a fireball",
+      "source_quote": "sighting two half-moon shaped objects about six times as large as a half moon. One object formed into a large fire-ball",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Pasco objects altitude",
+      "value": "Approximately 1000 feet",
+      "source_quote": "Both objects were estimated to be at about 1000 feet altitude",
+      "citation_offset": {
+        "offset": 14949,
+        "len": 31,
+        "exact": false,
+        "matched": "Both objects were estimated to "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Pasco grid coordinates",
+      "value": "AB 5517",
+      "source_quote": "pinpointed on the Aeronical planning map at grid coordinate AB 5517",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Seattle witness (Silver object)",
+      "value": "Miss Delma J. Segram",
+      "source_quote": "Miss DELMA J. SEGRAM, Seattle",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Seattle object description",
+      "value": "Very large silvery object high above Sand Point Naval Air Station",
+      "source_quote": "observed a very large object 'quite high' directly above and somewhat West of said Naval Air Station",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Radar intercept incident date",
+      "value": "June 22, 1954",
+      "source_quote": "reported to Special Agent SULLIVAN, your office, on 22 June 1954",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Radar tracking location",
+      "value": "Neah Bay radar station, 38-40 miles SW",
+      "source_quote": "picked up by the Radar station at Neah Bay between 19:30 and 19:45... contact was 38 to 40 miles s.w. of Neah Bay",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Radar blip behavior",
+      "value": "Blip separated into two blips as fighters approached",
+      "source_quote": "The 'blip' separated into two blips as they were approaching",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Intelligence evaluation",
+      "value": "Tentatively evaluated as atmospheric targets similar to B-36/B-52 type aircraft with Mach One pullout speed",
+      "source_quote": "tentatively evaluated as atmospheric targets... comparable to B-36, B-52 type aircraft with an estimated pullout speed of Mach One or better",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Reports forwarded to",
+      "value": "Air Technical Intelligence Center, Wright-Patterson AFB, Ohio",
+      "source_quote": "Air Technical Intelligence Center, Wright Patterson AFB, Ohio",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Kennewick witness",
+      "value": "Sgt. Gordon Richardson, Kennewick Police Department",
+      "source_quote": "Sgt. GORDON RICHARDSON, Kennewick, Washington Police Department",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Kennewick object description",
+      "value": "Large shining metal ball about 30 feet in diameter at 200-300 feet altitude",
+      "source_quote": "a large, shining, metal ball about 30' in diameter swoosh in from the West at rather low altitude-- only 200 or 300 feet",
+      "citation_offset": {
+        "offset": 32059,
+        "len": 35,
+        "exact": false,
+        "matched": "low altitude-- only 200 or 300 feet"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Kennewick object behavior",
+      "value": "Came to complete stop, heard engine sounds like a tractor, then departed at extreme speed",
+      "source_quote": "came to a complete stop... he could hear the 'chug chug' of the engine sounding like a tractor engine",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Richland letter date",
+      "value": "July 15, 1953",
+      "source_quote": "On the afternoon of July 15th, 1953",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Richland observer claim",
+      "value": "Design supervisor on CIA 512 R project who observed object through 30-power glasses",
+      "source_quote": "I am a design supervisor, in charge of the CIA 512 R design",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Richland object movement",
+      "value": "Moved at incredible speed toward the east, disappearing on horizon in about 10 seconds",
+      "source_quote": "It moved at incredible speed toward the east disappearing on the eastern horizon in about 10 seconds",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Neah Bay Mark Six incident",
+      "value": "Unidentified objects at Cape Disappointment identified as Mark Six aircraft flares",
+      "source_quote": "it had been determined that this a 'Mark Six' Aircraft Flare",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "La Push beach incident date",
+      "value": "July 1959",
+      "source_quote": "On or about July 1959",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "1960 sighting witness",
+      "value": "Mrs. Bass (Reporter)",
+      "source_quote": "BASS is the Reporter",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "Delma J. Segram",
+    "Gail Plock",
+    "P. V. Howell",
+    "Colonel Raynor",
+    "R. D. Auerbach",
+    "Gordon Richardson",
+    "L. A. Thomann",
+    "J. Francis Sullivan",
+    "George Davis",
+    "Albert Cressy",
+    "Clement W. Burkhouse",
+    "E. Nelson"
+  ],
   "named_places": [
-    "Washington State"
+    "Pasco, Washington",
+    "Seattle, Washington",
+    "Kennewick, Washington",
+    "Sand Point Naval Air Station",
+    "McChord Air Force Base",
+    "McChord Field",
+    "Neah Bay",
+    "University Bridge, Seattle",
+    "Richland, Washington",
+    "Tacoma, Washington",
+    "Cape Disappointment",
+    "Willapa",
+    "Point Granville",
+    "La Push, Washington",
+    "Mercer Island",
+    "Wright-Patterson AFB, Ohio"
   ],
-  "dated_events": [],
+  "dated_events": [
+    "July 29, 1952",
+    "JUL 31 1952",
+    "1/16/53",
+    "2/12/53",
+    "July 15, 1953",
+    "6/6/54",
+    "6/7/54",
+    "6/8/54",
+    "June 8, 1954",
+    "June 9, 1954",
+    "22 June 1954",
+    "24 June 1954",
+    "JUN 9 1954",
+    "9-28-56",
+    "6/27/57",
+    "July 1959",
+    "JUL 17 1959",
+    "FEB 28 1960"
+  ],
   "objects_described": [
-    "Unidentified Flying Objects (UFOs)"
+    "Half-moon shaped luminous objects (Pasco 1954)",
+    "Large silvery parachute-like object (Seattle 1953)",
+    "Radar blip/target that separated into two blips (Neah Bay 1954)",
+    "F-86 fighter interceptors (USAF response)",
+    "Shining metal spherical ball approximately 30 feet diameter (Kennewick)",
+    "Bright shimmering object observed through 30-power glasses (Richland 1953)",
+    "Mark Six aircraft flares (identified objects at Cape Disappointment)"
   ],
-  "verifiable_claims": [],
-  "tier": "red",
+  "verifiable_claims": [
+    {
+      "claim": "FBI Seattle coordinated UFO sighting reports with the 20th District OSI at McChord Air Force Base",
+      "source_quote": "20th DISTRICT OFFICE OF SPECIAL INVESTIGATIONS McCHORD AIR FORCE BASE",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Radar at Neah Bay tracked an unidentified target at 38-40 miles SW which prompted scrambling of jet interceptors from McChord",
+      "source_quote": "unidentified flying object was picked up by the Radar station at Neah Bay... An Force sent Jet Interceptors from McChord Field to intercept",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The radar blip separated into two contacts as interceptor aircraft approached",
+      "source_quote": "The 'blip' separated into two blips as they were approaching",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "F-86 pilots were interrogated by intelligence officer at McChord after the intercept attempt",
+      "source_quote": "pilots were being interrogated by the intelligence officer at McChord",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The intelligence summary evaluated the radar objects as possibly atmospheric targets comparable to B-36/B-52 aircraft with Mach One speed",
+      "source_quote": "tentatively evaluated as atmospheric targets... comparable to B-36, B-52 type aircraft with an estimated pullout speed of Mach One or better",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Sgt. Gordon Richardson of Kennewick Police observed a 30-foot metallic sphere at 200-300 feet altitude that came to a complete stop and then departed at extreme speed",
+      "source_quote": "a large, shining, metal ball about 30' in diameter... came to a complete stop... took off with a speed so great that it disappeared from sight in a matter of seconds",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Richardson described hearing two different engine sounds — one like a tractor at rest and an apparent jet-type propulsion in flight",
+      "source_quote": "he could hear the 'chug chug' of the engine sounding like a tractor engine... obviously some different type of engine was utilized in flight such as a jet engine",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "A self-described CIA 512 R design supervisor in Richland observed an object through 30-power glasses for over an hour before it departed at extreme speed",
+      "source_quote": "I am a design supervisor, in charge of the CIA 512 R design... I spend about 40 hours a week looking through these glasses",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Some objects initially reported as UFOs near Cape Disappointment were later identified as Mark Six aircraft flares and destroyed by a demolition squad",
+      "source_quote": "it had been determined that this a 'Mark Six' Aircraft Flare... all of these with the exception of Neah Bay had been destroyed by the demolition squad",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Reports were forwarded to the Air Technical Intelligence Center at Wright-Patterson AFB",
+      "source_quote": "Air Technical Intelligence Center, Wright Patterson AFB, Ohio",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "FOIA exemption b(3) citing 50 USC 3024(i)(1) — Intelligence Sources and Methods — was applied to portions of the document",
+      "source_quote": "FOIA(b)(3) - 50 USC 3024(i)(1) - Intelligence Sources and",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10287,
+        "len": 32,
+        "exact": false,
+        "matched": "FOIA(b)(3) - 50 USC 3024(i)(1) -"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
+    "amber": 11,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:27:11.943Z",
-  "qa_completed_at": "2026-06-14T03:27:37.759Z",
+  "qa_started_at": "2026-06-19T22:25:30.326Z",
+  "qa_completed_at": "2026-06-19T22:27:49.472Z",
   "timing": {
-    "A": "12.7s",
-    "B": "13.1s"
-  }
+    "A": "73.5s",
+    "B": "65.5s",
+    "E": "25.4s"
+  },
+  "public_headline": "FBI Files Show Eight Years of UFO Reports Across Washington State",
+  "public_tldr": "This FBI file compiles memoranda, complaint forms, and inter-agency correspondence between the FBI's Seattle office and the Air Force regarding multiple UFO sighting reports in Washington State from 1952 to 1960. The reports range from civilian eyewitness accounts to a radar-tracked incident that triggered fighter jet scrambles, though at least one set of reported objects was later identified as military flares.",
+  "public_narrative": "This document is a collection of FBI records from the Seattle field office covering UFO sighting reports across Washington State between July 1952 and early 1960. The FBI coordinated these reports with the Air Force Office of Special Investigations (OSI) at McChord Air Force Base, and findings were forwarded to the Air Technical Intelligence Center at Wright-Patterson AFB in Ohio.\n\nThe file contains several distinct incidents. In June 1954, a ground observer group supervisor named Gail Plock reported two half-moon shaped objects at roughly 1,000 feet altitude over Pasco. Around the same time, a radar station at Neah Bay tracked an unidentified target about 38–40 miles to its southwest, prompting the Air Force to scramble jet interceptors from McChord Field. As the fighters approached, the radar blip split into two separate contacts. An intelligence summary tentatively evaluated the radar targets as atmospheric phenomena comparable to large aircraft with speeds near Mach One — but that evaluation was described as tentative, not conclusive.\n\nOther reports in the file include a Seattle woman, Delma J. Segram, who observed a large silvery object high above Sand Point Naval Air Station; a Kennewick police sergeant, Gordon Richardson, who described a shining metallic sphere roughly 30 feet across hovering at 200–300 feet before departing at extreme speed; and a self-described design supervisor in Richland who claimed to have watched an object through 30-power glasses before it vanished eastward in about 10 seconds. Notably, one set of reported UFOs near Cape Disappointment was positively identified as Mark Six aircraft flares, which were later destroyed by a demolition squad.\n\nThe document is heavily redacted throughout, with many pages nearly illegible due to poor scan quality and official redactions. Portions were withheld under FOIA exemption b(3), citing protection of intelligence sources and methods. Significant context is missing as a result.",
+  "public_caveats": [
+    "The document is heavily redacted and many pages are nearly illegible, meaning substantial context is missing from what can be read.",
+    "Most sightings are single-witness accounts with no independent corroboration noted in the surviving text.",
+    "At least one reported UFO incident (Cape Disappointment) was positively identified as military flares — not all reports in this file represent unexplained phenomena.",
+    "The intelligence evaluation of the Neah Bay radar incident as 'atmospheric targets' was described as tentative, not a firm conclusion.",
+    "Material was withheld under FOIA exemption b(3) for intelligence sources and methods, so this release does not represent the complete file."
+  ]
 }

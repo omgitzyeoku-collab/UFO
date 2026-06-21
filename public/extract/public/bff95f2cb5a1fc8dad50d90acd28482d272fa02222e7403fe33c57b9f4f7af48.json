@@ -4,73 +4,189 @@
   "agency": "CIA",
   "type": "IMG",
   "incident_date": "December, 1952",
-  "what_is_it": "A CIA memo documenting British government activities in investigating unidentified flying objects, including a notable sighting at an RAF airfield.",
+  "what_is_it": "A classified CIA memo for the record summarizing British government activity in investigating unidentified flying objects, based on a briefing from a British messenger.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No extracted body text is available — all facts are derived from metadata and the CSV description provided by war.gov.",
-    "The document is an image file (JPG), likely a scan of the original memo, with no OCR text extracted.",
-    "Witness identities and specific RAF airfield location are not specified in available metadata.",
-    "The existence of a prior, more redacted version suggests some content was previously withheld and may now be visible in this release."
+    "The source text is an OCR extraction from an image of a typewritten document, resulting in numerous character-recognition errors that may affect accuracy of specific names and terms.",
+    "The document is a secondhand report — the CIA officer is recording what a British messenger told him, making this a single-source account.",
+    "Moderate redaction is present, with some names and details obscured or illegible.",
+    "The reference to a 'perfect flying saucer' at the Yorkshire RAF field is ambiguous — it is unclear whether this describes an unidentified aerial object or a deliberate demonstration/test of some kind.",
+    "The name 'Guladss' for the French Academy author is likely an OCR error and may refer to a different historical figure.",
+    "A more redacted version was previously public; this release under Section 1842 of the NDAA contains additional previously classified content."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "CIA-UAP-014",
-      "source_quote": "",
+      "field": "document_type",
+      "value": "CIA Memo for Record",
+      "source_quote": "MEMO FOR RECORD",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "originating_agency",
-      "value": "CIA",
-      "source_quote": "",
+      "field": "subject",
+      "value": "British activity in the field of Unidentified Flying Objects",
+      "source_quote": "SUBJECT: British Activity in the field of \"Unidentified Flying Objects\"",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
       "field": "date",
       "value": "December 1952",
-      "source_quote": "",
+      "source_quote": "December 1952",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "subject",
-      "value": "British activities to identify UFOs",
-      "source_quote": "",
+      "field": "classification",
+      "value": "SECRET / Security Information",
+      "source_quote": "SECRET Security Information",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "british_committee_age",
+      "value": "Standing committee created approximately sixteen months prior",
+      "source_quote": "The British have had a standing committee created about sixteen months ago on Flying saucers",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "committee_leader",
+      "value": "Dr. Jones (inherited role)",
+      "source_quote": "this is now under Dr. Jones through inheritance",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "committee_conclusion",
+      "value": "Observations not considered dangerous, none seen over Britain",
+      "source_quote": "the observations are not considered dangerous and that none have been seen over Britain",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "yorkshire_incident",
+      "value": "A 'perfect flying saucer' was seen at a Yorkshire RAF field with high RAF officials present",
+      "source_quote": "the Yorkshire incident took place. In some RAF field, where some sort of demonstration to which high officials of the RAF in London had been invited. During the show, a 'perfect flying saucer' was seen",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "yorkshire_timing",
+      "value": "Ten to twelve days before the memo date",
+      "source_quote": "activity has been quiet and normal up to about ten to twelve days ago",
+      "citation_offset": {
+        "offset": 690,
+        "len": 59,
+        "exact": false,
+        "matched": "as been quiet and normal up to about ten to twelve days ago"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "swedish_reference",
+      "value": "Jones referenced the Swedish incident of 1946",
+      "source_quote": "Jones reminded us of the Swedish incident (presumably he refers to the one in 1946)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "film_evidence",
+      "value": "A film taken by a Naval non-commissioned officer at the Tremonton incident",
+      "source_quote": "the film which had been taken by the Naval non-commissioned officer (Tremonton incident)",
+      "citation_offset": {
+        "offset": 1444,
+        "len": 58,
+        "exact": false,
+        "matched": "hich had been taken by the Naval non-commissioned officer "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "author",
+      "value": "H. Marshall Chadwell, Assistant Director, Scientific Intelligence",
+      "source_quote": "H. MARSHALL CHADWELL Assistant Director Scientific Intelligence",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [
-    "December 1952"
+  "named_people": [
+    "Dr. Jones"
   ],
-  "objects_described": [],
+  "named_places": [
+    "Britain",
+    "Yorkshire",
+    "Sweden"
+  ],
+  "dated_events": [
+    "December 1952",
+    "1946",
+    "between 1760 and 1780"
+  ],
+  "objects_described": [
+    "perfect flying saucer"
+  ],
   "verifiable_claims": [
     {
-      "claim": "The British government was actively working to identify UFOs as of December 1952",
-      "source_quote": "",
+      "claim": "The British had a standing committee on flying saucers that had been operating for approximately sixteen months by December 1952.",
+      "source_quote": "The British have had a standing committee created about sixteen months ago on Flying saucers",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The committee concluded that UFO observations were not considered dangerous and none had been seen over Britain.",
+      "source_quote": "the observations are not considered dangerous and that none have been seen over Britain",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "A 'perfect flying saucer' was observed at a Yorkshire RAF field during a demonstration attended by high-ranking RAF officials from London.",
+      "source_quote": "In some RAF field, where some sort of demonstration to which high officials of the RAF in London had been invited. During the show, a 'perfect flying saucer' was seen",
       "verifier_verdict": "partial",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Yorkshire incident prompted press articles and was considered disturbing because it affected public opinion, which was part of Jones's responsibilities.",
+      "source_quote": "articles appeared in the public press. This is disturbing to Jones because British control of the correction of public opinion is a part of his responsibilities",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1077,
+        "len": 30,
+        "exact": false,
+        "matched": "he correction of public opinio"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A film from the Tremonton incident taken by a Naval non-commissioned officer was discussed, and Jones may request a copy.",
+      "source_quote": "the film which had been taken by the Naval non-commissioned officer (Tremonton incident). It is possible that Jones will write asking for a copy of the film",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1444,
+        "len": 55,
+        "exact": false,
+        "matched": "hich had been taken by the Naval non-commissioned offic"
+      },
+      "confidence": "amber"
     }
   ],
   "tier": "red",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
-    "red": 1
+    "amber": 5,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:02:19.875Z",
-  "qa_completed_at": "2026-06-14T03:02:49.264Z",
+  "qa_started_at": "2026-06-19T21:20:18.560Z",
+  "qa_completed_at": "2026-06-19T21:21:19.088Z",
   "timing": {
-    "A": "14.9s",
-    "B": "14.5s"
+    "A": "34.1s",
+    "B": "26.4s"
   }
 }

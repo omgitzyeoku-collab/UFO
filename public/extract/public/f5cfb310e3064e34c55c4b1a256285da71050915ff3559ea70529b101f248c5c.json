@@ -5,67 +5,302 @@
   "type": "PDF",
   "incident_date": "November, 2024",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI investigative activity form (FD-1057) documenting first-hand observations by two FBI special agents during an ongoing investigation in November 2024.",
+  "what_is_it": "An FBI FD-1057 electronic communication form documenting first-hand UAP observations made by two FBI special agents during a field visit in November 2024.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "redaction_evidence": "heavy — all agent names, witness names, specific dates within November, location details (pond name, address, town), case ID, and approving/drafting personnel are redacted throughout the document",
   "interpretation_warnings": [
-    "No text could be extracted from the PDF — the document is likely heavily redacted or scanned at low quality, so all facts are derived from metadata only.",
-    "The specific nature of what the agents observed is unknown from available information.",
-    "This is one of a series of related documents (D004–D008) covering the same general area, suggesting a sustained investigation rather than a single incident.",
-    "Without the document body text, the actual redaction level within the PDF cannot be precisely assessed, but the inability to extract any text suggests heavy redaction or poor scan quality."
+    "Heavy redaction obscures all identifying details — agent names, witness identity, specific location, exact dates, and case ID are all removed, making independent verification impossible.",
+    "The observations are from two FBI agents and one civilian witness — a small number of observers for the described phenomena.",
+    "The photographic evidence captured was described as 'mostly blurry' and providing little context, so there is minimal corroborating visual documentation from this visit.",
+    "The lights were observed at or below treetop level in a wooded/pond area, which could be consistent with various conventional explanations not explored in the document.",
+    "The document is part of a cluster (FBI-UAP-D004 through D008) suggesting an ongoing investigation in one area; this single report should be read in that broader context.",
+    "The witness had been reporting UAP activity for three years, which could indicate either a persistent phenomenon or observer bias — the document does not evaluate this."
   ],
-  "fabrication_score": 5,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "agency",
-      "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "FBI FD-1057 electronic communication",
+      "source_quote": "FD-1057 (Rev. 5-8-10) FEDERAL BUREAU OF INVESTIGATION",
+      "citation_offset": {
+        "offset": 0,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_date",
-      "value": "November 2024",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Subject",
+      "value": "Unidentified Aerial Phenomenon (UAP) observations",
+      "source_quote": "Unidentified Aerial Phenomenon (UAP)",
+      "citation_offset": {
+        "offset": 260,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
-      "value": "Northeastern United States",
-      "source_quote": "",
+      "field": "Number of observing agents",
+      "value": "Two FBI Special Agents",
+      "source_quote": "Special Agents (SA) — and SA —",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "document_id",
-      "value": "FBI-UAP-D007, FD-1057-06",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Purpose of visit",
+      "value": "To confirm UAP reports and video previously provided by witness over three years",
+      "source_quote": "The purpose of the visit was confirm reports and video that — had previously provided of Unidentified Aerial Phenomenon (UAP) over the last three years",
+      "citation_offset": {
+        "offset": 674,
+        "len": 60,
+        "exact": false,
+        "matched": "The purpose of the visit was confirm reports and video that "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Weather conditions",
+      "value": "Approximately 48 degrees, overcast, no precipitation",
+      "source_quote": "the weather was approximately 48 degrees, with overcast conditions and no precipitation",
+      "citation_offset": {
+        "offset": 904,
+        "len": 47,
+        "exact": false,
+        "matched": ", with overcast conditions and no precipitation"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "First UAP sighting (by one agent)",
+      "value": "White pulsating light appearing at the northern edge of a pond, moving horizontally with erratic movements, lasting less than ten seconds",
+      "source_quote": "SA — saw a white pulsation of light appear. The light appeared to be at the northern edge of — and began to move horizontally with somewhat erratic movements",
+      "citation_offset": {
+        "offset": 1522,
+        "len": 40,
+        "exact": false,
+        "matched": "rizontally with somewhat erratic movemen"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Light altitude",
+      "value": "At or below the tree line",
+      "source_quote": "The light appeared to an altitude at or below the tree line",
+      "citation_offset": {
+        "offset": 1800,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Light did not illuminate surroundings",
+      "value": "No reflection on water, no illumination of area below",
+      "source_quote": "The light did not appear to reflect off the water of — giving the possibility that the light source was over the wooded area",
+      "citation_offset": {
+        "offset": 1623,
+        "len": 65,
+        "exact": false,
+        "matched": "giving the possibility that the light source was over the wooded "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Additional lights in tree line",
+      "value": "White lights pulsing at treetop level with white/blue hue, plus plumes of broad light followed by red or white flashes with erratic movement",
+      "source_quote": "SA — observed white lights appear at the top of the tree line. These lights would pulse and flash it white/blue hue and then disappear",
+      "citation_offset": {
+        "offset": 2161,
+        "len": 45,
+        "exact": false,
+        "matched": "se and flash it white/blue hue and then disap"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Dual-agent UAP sighting time",
+      "value": "Approximately 5:30pm",
+      "source_quote": "At approximately 5:30pm, SA — and SA — observed what they believed to be a UAP",
+      "citation_offset": {
+        "offset": 3027,
+        "len": 38,
+        "exact": false,
+        "matched": "bserved what they believed to be a UAP"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Dual-agent UAP description",
+      "value": "Bright white light above bright red light, hovering at treetop height, moved quickly right to left, disappeared, reappeared at origin, repeated movement, then disappeared again",
+      "source_quote": "a bright white light above a bright red light at the far end of the pond hovered at a approximately tree-top height, moved quickly from right to left, disappeared, then re­appeared simultaneously where it had first appeared",
+      "citation_offset": {
+        "offset": 3147,
+        "len": 100,
+        "exact": false,
+        "matched": "a bright white light above a bright red light at the far end of the pond hovered at a approximately "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Photos taken",
+      "value": "Five photos, mostly blurry due to long exposure without tripod",
+      "source_quote": "Five photos were taken, however the photos were mostly blurry and do not provide much context",
+      "citation_offset": {
+        "offset": 2571,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Surveillance end time",
+      "value": "Approximately 6:10pm observation ended, departed at approximately 6:15pm",
+      "source_quote": "observing activity until approximately 6:10pm before going back inside",
+      "citation_offset": {
+        "offset": 3520,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Witness had prior UAP documentation",
+      "value": "Witness had photos and videos of activity behind their residence",
+      "source_quote": "download the most recent photos and videos — had taken of activity behind — residence",
+      "citation_offset": {
+        "offset": 3601,
+        "len": 40,
+        "exact": false,
+        "matched": "download the most recent photos and vide"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Witness distance claim",
+      "value": "Witness pointed to lights claimed to be eight miles away but could not identify them",
+      "source_quote": "pointed to lights which — claimed to be eight miles away and could not be certain what those light sources were",
+      "citation_offset": {
+        "offset": 1228,
+        "len": 55,
+        "exact": false,
+        "matched": "o be eight miles away and could not be certain what tho"
+      },
+      "confidence": "amber"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Northeastern United States"
-  ],
+  "named_places": [],
   "dated_events": [
-    "November 2024"
+    "11/[redacted]/2024",
+    "approximately 4:45pm on 11/[redacted]/2024",
+    "approximately 5:15pm",
+    "approximately 5:30pm",
+    "approximately 6:10pm",
+    "approximately 6:15pm"
   ],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "objects_described": [
+    "White pulsating light moving horizontally with erratic movements near a pond",
+    "Stationary white/blue pulsing lights at treetop level in tree line",
+    "Plumes of broad light followed by red or white erratic flashes",
+    "Bright white light above bright red light hovering at treetop height that moved, disappeared, and reappeared"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Two FBI special agents personally observed anomalous light phenomena during a planned field visit to a witness's home",
+      "source_quote": "SA — and SA — observed what they believed to be a UAP",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3027,
+        "len": 38,
+        "exact": false,
+        "matched": "bserved what they believed to be a UAP"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The witness had been providing UAP reports and video to the FBI over a three-year period prior to this visit",
+      "source_quote": "reports and video that — had previously provided of Unidentified Aerial Phenomenon (UAP) over the last three years",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 752,
+        "len": 55,
+        "exact": false,
+        "matched": "provided of Unidentified Aerial Phenomenon (UAP) over t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The observed lights did not reflect off nearby water or illuminate the ground below them",
+      "source_quote": "The light did not appear to reflect off the water of — giving the possibility that the light source was over the wooded area to the north side",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1623,
+        "len": 65,
+        "exact": false,
+        "matched": "giving the possibility that the light source was over the wooded "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A UAP observed by both agents simultaneously appeared to disappear and instantaneously reappear at its original position",
+      "source_quote": "disappeared, then re­appeared simultaneously where it had first appeared, moved quickly from right to left and disappeared again",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3327,
+        "len": 75,
+        "exact": false,
+        "matched": "ared simultaneously where it had first appeared, moved quickly from right t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Photographic evidence captured by an agent was largely unusable due to equipment limitations",
+      "source_quote": "the photos were mostly blurry and do not provide much context. It was later determined that a tripod or other stable platform would be required",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2695,
+        "len": 75,
+        "exact": false,
+        "matched": " was later determined that a tripod or other stable platform would be requi"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The observed lights appeared at or below treetop altitude, not high in the sky",
+      "source_quote": "The light appeared to an altitude at or below the tree line",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1800,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 1,
+    "amber": 5,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:23:48.995Z",
-  "qa_completed_at": "2026-06-14T03:24:22.952Z",
+  "qa_started_at": "2026-06-19T22:17:05.000Z",
+  "qa_completed_at": "2026-06-19T22:18:19.667Z",
   "timing": {
-    "A": "16.6s",
-    "B": "17.3s"
-  }
+    "A": "44.9s",
+    "B": "29.8s",
+    "E": "25.2s"
+  },
+  "public_headline": "FBI Agents Report Unexplained Lights Near a Pond in Late 2024",
+  "public_tldr": "An FBI internal report documents two special agents who personally observed unexplained pulsating and moving lights at treetop level during a planned field visit to a witness's property in the northeastern United States in November 2024. The document is heavily redacted, with all names, specific locations, and exact dates removed.",
+  "public_narrative": "This document is an FBI FD-1057 electronic communication — a standard internal reporting form — filed after two FBI special agents visited a civilian witness's property somewhere in the northeastern United States in November 2024. The purpose of the visit was to follow up on UAP (Unidentified Aerial Phenomenon) reports and video the witness had been submitting to the FBI over the previous three years.\n\nThe agents arrived at approximately 4:45pm in overcast, 48-degree weather with no rain. Shortly after, one agent observed a white pulsating light appear near the northern edge of a pond. It moved horizontally with erratic movements and lasted less than ten seconds. The light appeared at or below treetop level and did not reflect off the water or illuminate the area beneath it. Additional white and blue pulsing lights were later seen at treetop height in the tree line, along with plumes of broad light followed by red or white flashes.\n\nAt approximately 5:30pm, both agents simultaneously observed what they described as a bright white light above a bright red light hovering at treetop height at the far end of the pond. The paired lights moved quickly from right to left, disappeared, then reappeared at their original position before repeating the movement and vanishing again. The agents ended their observation at roughly 6:10pm and departed by 6:15pm. Five photos were taken, but they were mostly blurry due to long exposure times without a tripod, providing little useful documentation.\n\nThe document does not offer any conclusions about what the lights were. It records the observations without attempting to explain or classify them. The FBI has not publicly stated what, if anything, resulted from this visit or the broader investigation suggested by related documents in the same series (FBI-UAP-D004 through D008).",
+  "public_caveats": [
+    "The document is heavily redacted: all agent names, the witness's identity, the specific location (including town and pond name), exact dates, and the case ID are all blacked out, making independent verification impossible.",
+    "The observations come from only two FBI agents and one civilian witness — a small number of observers for the described events.",
+    "The photographic evidence was described as 'mostly blurry' and providing little context, so there is minimal visual corroboration.",
+    "The lights were seen at or below treetop level near a wooded pond area, which could be consistent with various conventional explanations that the document does not explore or rule out.",
+    "The witness had been reporting UAP activity for three years prior; the document does not evaluate whether this reflects a persistent phenomenon or possible observer bias."
+  ]
 }

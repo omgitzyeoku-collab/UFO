@@ -5,83 +5,339 @@
   "type": "PDF",
   "incident_date": "February, 2022",
   "incident_location": "Colorado Springs, Colorado, U.S.",
-  "what_is_it": "An FBI FD-302 interview summary documenting a U.S. military service member's account of an unresolved UAP sighting near Colorado Springs in February 2022.",
+  "what_is_it": "FBI FD-302 interview summary documenting a witness account of an unresolved UAP sighting near a military installation.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted body text available — all facts derived from the CSV metadata description provided by war.gov",
-    "Single-witness account recorded approximately three years after the incident",
-    "Witness identity is not disclosed; military affiliation and rank unknown",
-    "Case remains unresolved per the document title",
-    "The interview was conducted by the FBI but AARO is leading analysis — unclear jurisdictional relationship"
+    "All witness names, ranks, and unit identifiers are redacted, making independent verification difficult.",
+    "The FBI interview occurred three years after the sighting, raising potential memory reliability concerns.",
+    "This is a single-source interview record; the four other witnesses' accounts are not included in this document.",
+    "No photographic, video, or sensor evidence exists for the sighting.",
+    "The witness was never formally interviewed by AARO despite being contacted in 2024, suggesting incomplete prior investigation.",
+    "The document notes AARO has since conducted subsequent interviews, but those results are not included here."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "document_type",
+      "field": "Document type",
       "value": "FBI FD-302 (interview record form)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "FD-302 (Rev. 5-8-10)",
+      "citation_offset": {
+        "offset": 0,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "agency",
-      "value": "FBI",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Interview date",
+      "value": "March 2025",
+      "source_quote": "On March ■ 2025, - was interviewed via Microsoft Teams",
+      "citation_offset": {
+        "offset": 177,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_date",
-      "value": "February 2022",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Interview method",
+      "value": "Microsoft Teams video call",
+      "source_quote": "was interviewed via Microsoft Teams",
+      "citation_offset": {
+        "offset": 196,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
-      "value": "Colorado Springs, Colorado",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Sighting date",
+      "value": "Early February 2022, workday, approximately 1:00-2:00 PM",
+      "source_quote": "a workday in early February 2022, at approximately 1:00 or 2:00PM",
+      "citation_offset": {
+        "offset": 538,
+        "len": 30,
+        "exact": false,
+        "matched": "t approximately 1:00 or 2:00PM"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "case_status",
-      "value": "Unresolved",
-      "source_quote": "",
+      "field": "Sighting location",
+      "value": "Fort Carson, near Cheyenne Mountain, Colorado Springs",
+      "source_quote": "Fort Carson",
+      "citation_offset": {
+        "offset": 576,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Number of witnesses",
+      "value": "Five military service members",
+      "source_quote": "He and four other persons from his unit",
+      "citation_offset": {
+        "offset": 590,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object shape",
+      "value": "Bean-shaped / oval with curved indentation on bottom",
+      "source_quote": "described the object as being \"bean-shaped\"",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Object color",
+      "value": "Matte white or off-white, non-metallic appearance",
+      "source_quote": "matte white, or off-white in color and appearing non-metallic",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Object surface",
+      "value": "Covered in intersecting lines or ridges forming abstract polygon pattern",
+      "source_quote": "covered in intersecting lines or ridges which formed an abstract polygon pattern which covered the entire object",
+      "citation_offset": {
+        "offset": 2140,
+        "len": 85,
+        "exact": false,
+        "matched": "ines or ridges which formed an abstract polygon pattern which covered the entire obje"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object motion",
+      "value": "Completely motionless, no sound",
+      "source_quote": "The object was completely motionless and no sound could be heard coming from it",
+      "citation_offset": {
+        "offset": 1387,
+        "len": 34,
+        "exact": false,
+        "matched": "s and no sound could be heard comi"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object position",
+      "value": "Hovering over a saddle point on Cheyenne Mountain",
+      "source_quote": "hovering just over Cheyanne mountain, in a low point or \"saddle\" in the mountain",
+      "citation_offset": {
+        "offset": 1007,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observation duration",
+      "value": "Approximately 3-5 minutes",
+      "source_quote": "observed the object for approximately 3-5 minutes",
+      "citation_offset": {
+        "offset": 1954,
+        "len": 49,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Apparent size",
+      "value": "About 10% of the mountain saddle, or pool cue at arm's length",
+      "source_quote": "about the size of 10% of the saddle of the mountains, or about the size of a pool cue at arms-length",
+      "citation_offset": {
+        "offset": 2289,
+        "len": 45,
+        "exact": false,
+        "matched": " of the mountains, or about the size of a poo"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Weather conditions",
+      "value": "Pleasant with clear blue skies",
+      "source_quote": "it was pleasant with clear blue skies",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Disappearance",
+      "value": "Vanished when witnesses looked away momentarily",
+      "source_quote": "When they looked back the object had vanished",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "No photos taken",
+      "value": "None of the five had a phone on them",
+      "source_quote": "None of the five men had a phone on them",
+      "citation_offset": {
+        "offset": 2358,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Corroborating drawings",
+      "value": "All five independently drew the object; drawings were consistent",
+      "source_quote": "Each of them independently drew what they remembered the object to look like, and then they compared their drawings afterwards. All of the drawings were consistent",
+      "citation_offset": {
+        "offset": 2904,
+        "len": 85,
+        "exact": false,
+        "matched": "Each of them independently drew what they remembered the object to look like, and the"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Prior AARO contact",
+      "value": "Witness contacted by AARO in early 2024 but never formally interviewed",
+      "source_quote": "he was contacted by AARO in early 2024 about their observation. He stated he provided a response, but that he was never interviewed by AARO",
+      "citation_offset": {
+        "offset": 3248,
+        "len": 139,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Wind ruled out",
+      "value": "Object did not drift; position remained fixed relative to mountain",
+      "source_quote": "did not believe the object was drifting in the wind because they observed the object for approximately 3-5 minutes, and it did not change its position relative to the saddle",
+      "citation_offset": {
+        "offset": 1889,
+        "len": 100,
+        "exact": false,
+        "matched": "did not believe the object was drifting in the wind because they observed the object for approximate"
+      },
+      "confidence": "amber"
     }
   ],
   "named_people": [],
   "named_places": [
-    "Colorado Springs, Colorado"
+    "Fort Carson",
+    "Cheyenne Mountain"
   ],
   "dated_events": [
-    "February 2022"
+    "early February 2022",
+    "March 2025",
+    "early 2024",
+    "04/2025"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "Bean-shaped, matte white, non-metallic UAP with abstract polygon surface pattern"
+  ],
   "verifiable_claims": [
     {
-      "claim": "The FBI interviewed a U.S. military service member in March 2025 about a February 2022 UAP incident",
-      "source_quote": "",
+      "claim": "Five soldiers from the same unit simultaneously observed the object at Fort Carson.",
+      "source_quote": "He and four other persons from his unit",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 590,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object remained stationary relative to the mountain saddle for 3-5 minutes, ruling out wind drift.",
+      "source_quote": "it did not change its position relative to the saddle of the mountains during that time",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2009,
+        "len": 32,
+        "exact": false,
+        "matched": "it did not change its position r"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "All five witnesses independently produced consistent drawings of the object.",
+      "source_quote": "All of the drawings were consistent in showing a horizontal, white, \"bean-shaped\" object with abstract lines crossing on it",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3102,
+        "len": 55,
+        "exact": false,
+        "matched": "e, \"bean-shaped\" object with abstract lines crossing on"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object vanished in the brief moment all five witnesses looked away simultaneously.",
+      "source_quote": "They all simultaneously looked away momentarily to decide to have one of them go back to the vehicle to get a phone to take a video. When they looked back the object had vanished",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2399,
+        "len": 100,
+        "exact": false,
+        "matched": "They all simultaneously looked away momentarily to decide to have one of them go back to the vehicle"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "An official report was made to the Army about the observation.",
+      "source_quote": "believed that made an official report to the army about their observation",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 3164,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AARO contacted the witness in early 2024 but never conducted a formal interview.",
+      "source_quote": "he was contacted by AARO in early 2024 about their observation. He stated he provided a response, but that he was never interviewed by AARO or anyone else",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3248,
+        "len": 100,
+        "exact": false,
+        "matched": "he was contacted by AARO in early 2024 about their observation. He stated he provided a response, bu"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "No photographic or video evidence was captured because none of the witnesses had a phone.",
+      "source_quote": "None of the five men had a phone on them",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2358,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 3,
+    "amber": 4,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:18:45.124Z",
-  "qa_completed_at": "2026-06-14T03:19:33.909Z",
+  "qa_started_at": "2026-06-19T22:07:12.202Z",
+  "qa_completed_at": "2026-06-19T22:08:19.132Z",
   "timing": {
-    "A": "18.8s",
-    "B": "30.0s"
-  }
+    "A": "32.7s",
+    "B": "34.3s",
+    "E": "24.1s"
+  },
+  "public_headline": "FBI Interview Records Unresolved UAP Sighting Near Cheyenne Mountain in 2022",
+  "public_tldr": "This FBI FD-302 interview record documents a March 2025 interview with a military witness who, along with four fellow service members, observed an unidentified object hovering motionless over Cheyenne Mountain near Fort Carson, Colorado, on a clear afternoon in early February 2022. The sighting remains unresolved, no photographic evidence exists, and the document is heavily redacted.",
+  "public_narrative": "This document is an FBI FD-302 — a standard interview summary form — recording a conversation conducted via Microsoft Teams in March 2025. The FBI interviewed a military service member about something that happened three years earlier: a daytime UAP sighting near Fort Carson, Colorado, close to Cheyenne Mountain.\n\nAccording to the witness, on a workday in early February 2022, at roughly 1:00 or 2:00 PM under clear blue skies, five members of the same military unit observed an unusual object hovering over a saddle point on Cheyenne Mountain. The witness described it as bean-shaped, matte white or off-white, non-metallic in appearance, and covered in intersecting lines or ridges forming an abstract polygon pattern across its entire surface. The object was completely motionless and silent. The group watched it for approximately three to five minutes, and it did not drift or change position relative to the mountain — the witness said this ruled out wind as an explanation.\n\nWhen all five looked away briefly to decide who should retrieve a phone from their vehicle, the object vanished. None of them had a phone on them at the time, so no photographs or video were captured. Afterwards, each witness independently drew what they remembered, and the drawings were consistent with one another — all showing a horizontal, white, bean-shaped object with abstract crossing lines. The witness believed an official report was made to the Army. The Pentagon's All-domain Anomaly Resolution Office (AARO) contacted the witness in early 2024 but never conducted a formal interview.\n\nThe document is heavily redacted: all names, ranks, and unit identifiers have been removed. The FBI drew no stated conclusion about what the object was. The sighting remains officially unresolved.",
+  "public_caveats": [
+    "This is a single-source interview record. The accounts of the four other witnesses are not included in this document.",
+    "All witness names, ranks, and unit identifiers are redacted, making independent verification difficult.",
+    "The FBI interview took place three years after the sighting, which raises standard concerns about memory reliability.",
+    "No photographic, video, or sensor evidence exists for this sighting — the corroboration rests on five witnesses' consistent but independent drawings.",
+    "AARO contacted the witness in 2024 but never formally interviewed him, suggesting the incident may not have been fully investigated before the FBI's 2025 interview."
+  ]
 }

@@ -5,62 +5,437 @@
   "type": "PDF",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "First-hand witness narrative statement provided to the All-domain Anomaly Resolution Office (AARO) describing a UAP sighting by a federal law enforcement special agent.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "what_is_it": "First-hand witness narrative memorandum submitted to the All-domain Anomaly Resolution Office (AARO) describing three UAP encounters by a federal law enforcement special agent.",
+  "core_summary": "Witness 2, a U.S. federal law enforcement special agent, describes three separate UAP encounters over two days in October 2023 in the western United States. The witness observed bright orb-like lights that expelled smaller red lights in coordinated formations, objects that mimicked vehicles (cars and trucks) while hovering smoothly over rugged terrain, and lights that appeared highly reactive to the witness's movements. No acoustic, interference, or physiological effects were reported during any of the incidents.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived solely from metadata and the CSV description provided by war.gov.",
-    "The document is likely scanned with poor OCR quality, meaning substantive details from the witness narrative are unavailable.",
-    "This is a single-witness account (Witness 2 of several); corroborating statements from other witnesses are in separate documents.",
-    "The heavy redaction assessment is inferred from the inability to extract text, which may indicate redaction, poor scan quality, or both.",
-    "No specific details about the UAP characteristics, behaviour, or appearance are available from this extraction."
+    "Single-witness narrative account written approximately two and a half years after the events occurred",
+    "Witness acknowledges AI-generated images are not to exact scale and contain only generic landscape features",
+    "No technical sensor data or instrument readings accompany this narrative — it is entirely based on human visual observation",
+    "Specific location is withheld (described only as 'western United States')",
+    "Witness explicitly states some descriptions (e.g., 'portal') are offered as analogies, not literal claims",
+    "The witness's partner is referenced but their separate account is not included in this document",
+    "Distance, speed, and size estimates are approximations made at night under field conditions"
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D080",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document date",
+      "value": "02 June 2026",
+      "source_quote": "02 June 2026",
+      "citation_offset": {
+        "offset": 148,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
-      "value": "Western United States",
-      "source_quote": "",
+      "field": "Witness designation",
+      "value": "Witness 2",
+      "source_quote": "Narrative from Witness 2 - Western U.S. Event",
+      "citation_offset": {
+        "offset": 175,
+        "len": 40,
+        "exact": false,
+        "matched": "tive from Witness 2 - Western U.S. Event"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Witness role",
+      "value": "U.S. federal law enforcement special agent",
+      "source_quote": "one of several United States (U.S.) federal law enforcement special agents who reported observing unidentified anomalous phenomena",
+      "citation_offset": {
+        "offset": 481,
+        "len": 130,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident period",
+      "value": "Two days in October 2023",
+      "source_quote": "over a period of two days in October 2023 in the western United States",
+      "citation_offset": {
+        "offset": 618,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 1 start time",
+      "value": "Approximately 1900 hours",
+      "source_quote": "At approximately 1900 hours, I observed a bright circular orb-like light approximately 35-45 degrees above the northern/northeastern horizon",
+      "citation_offset": {
+        "offset": 1319,
+        "len": 50,
+        "exact": false,
+        "matched": "b-like light approximately 35-45 degrees above the"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 1 duration",
+      "value": "Approximately 1900 to 2300 hours",
+      "source_quote": "From approximately 1930 hours until approximately 2300 hours, the red lights hovered above the southern horizon",
+      "citation_offset": {
+        "offset": 2634,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 1 orb repetitions",
+      "value": "Approximately five times",
+      "source_quote": "I witnessed the process repeat approximately five times across the northern, northeastern, and eastern horizon",
+      "citation_offset": {
+        "offset": 2274,
+        "len": 65,
+        "exact": false,
+        "matched": "I witnessed the process repeat approximately five times across th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Red light size relative to orb",
+      "value": "Approximately 1/15 the size",
+      "source_quote": "The red lights were approximately 1/15 the size of the orb-like light",
+      "citation_offset": {
+        "offset": 1800,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 1 team corroboration",
+      "value": "Other teams confirmed same observations",
+      "source_quote": "Our teams confirmed they observed the same objects",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 2 start time",
+      "value": "Approximately 1845 hours",
+      "source_quote": "At approximately 1845 hours, I observed two circular orb-like lights appearing to be headlights of a vehicle",
+      "citation_offset": {
+        "offset": 4251,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 2 red lights formation",
+      "value": "Triangular formation covering area of a football field",
+      "source_quote": "appeared to be arranged in a triangular formation or attached to unobservable vehicle of some sort; they appeared to cover the area of a football field",
+      "citation_offset": {
+        "offset": 4742,
+        "len": 151,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 2 object acceleration",
+      "value": "Travelled at least one mile south in less than a minute",
+      "source_quote": "The object then accelerated instantly to the south, traveling at least one mile south in less than a minute",
+      "citation_offset": {
+        "offset": 6354,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 2 box-shaped lights",
+      "value": "Orange and purple lights in box shape resembling semi-truck",
+      "source_quote": "the light transformed into a group of orange and purple lights in the shape of a box (not dissimilar to a semi-truck in shape and opaqueness)",
+      "citation_offset": {
+        "offset": 7212,
+        "len": 141,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 2 terrain traversal speed",
+      "value": "Approximately four miles of rugged terrain in one minute",
+      "source_quote": "The object covered approximately four miles of rugged terrain within approximately one minute",
+      "citation_offset": {
+        "offset": 7633,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 2 proximity to witness",
+      "value": "Approximately 50 yards",
+      "source_quote": "at approximately 50 yards away we thought were going to encounter it",
+      "citation_offset": {
+        "offset": 6284,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 3 chase speed",
+      "value": "Approximately 80 mph without gaining on object",
+      "source_quote": "We travelled approximately 80 miles an hour and could not catch up to it",
+      "citation_offset": {
+        "offset": 10667,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 3 object height",
+      "value": "Hovered at approximately vehicle height above right lane",
+      "source_quote": "It hovered above the right lane at approximately the height of a vehicle",
+      "citation_offset": {
+        "offset": 9988,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 3 chase distance",
+      "value": "10-15 miles",
+      "source_quote": "The object maintained this behavior for approximately 10 to 15 miles",
+      "citation_offset": {
+        "offset": 10597,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Night vision equipment used",
+      "value": "Yes",
+      "source_quote": "We drove with our headlights off only utilizing night vision equipment",
+      "citation_offset": {
+        "offset": 5915,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Video footage exists",
+      "value": "Yes, referenced by witness",
+      "source_quote": "In the video footage, I believe we say something about thinking it was going to hit us",
+      "citation_offset": {
+        "offset": 11319,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Physiological effects",
+      "value": "None reported in any incident",
+      "source_quote": "There were no acoustics, interreference or physiological effects experienced during the incident",
+      "citation_offset": {
+        "offset": 2919,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Original task",
+      "value": "Surveying for individuals launching drones",
+      "source_quote": "my partner and I were tasked to survey an area for individuals launching drones",
+      "citation_offset": {
+        "offset": 3839,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AARO Director",
+      "value": "Jon T. Kosloski",
+      "source_quote": "Jon T. Kosloski Director, AARO",
+      "citation_offset": {
+        "offset": 13332,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AI-generated images included",
+      "value": "Yes, created by witness two and a half years after events",
+      "source_quote": "The following are AI-generated images of the three incidents based on prompts and descriptions I provided",
+      "citation_offset": {
+        "offset": 12794,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "Jon T. Kosloski"
+  ],
   "named_places": [
-    "Western United States"
+    "Western United States",
+    "Washington, DC"
   ],
   "dated_events": [
-    "October 2023"
+    "October 2023",
+    "02 June 2026",
+    "08-MAY 2026"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "Bright circular orb-like light with slight halo effect",
+    "Smaller red orb-like lights (approximately 1/15 size of main orb)",
+    "Orange and purple box-shaped lights resembling a semi-truck",
+    "Single bright white/orange orb-like light with halo glow",
+    "Orange orb-like-disc with halo glow",
+    "Row of red lights in triangular formation covering football-field-sized area",
+    "Apparent vehicle headlights that flashed white pulses"
+  ],
   "verifiable_claims": [
     {
-      "claim": "Witness 2 provided a first-hand narrative statement to AARO regarding the incident.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
+      "claim": "Multiple federal law enforcement teams independently observed the same objects during Incident 1",
+      "source_quote": "Our teams confirmed they observed the same objects",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "Objects in the valley stayed within 20 feet of the ground",
+      "source_quote": "The objects in the valley appeared to stay within 20 feet of the ground and did not extend beyond that",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8129,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Witness could not close distance on object while driving 80 mph for 10-15 miles",
+      "source_quote": "We travelled approximately 80 miles an hour and could not catch up to it",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 10667,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Object accelerated from approximately 50 yards away to at least one mile south in less than a minute",
+      "source_quote": "at approximately 50 yards away we thought were going to encounter it. The object then accelerated instantly to the south, traveling at least one mile south in less than a minute",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6284,
+        "len": 177,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Video footage of at least one incident exists",
+      "source_quote": "The video footage captures some of it, but more valuable is the audio of our reactions",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12657,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Object traversed approximately four miles of rugged terrain in approximately one minute while gliding smoothly",
+      "source_quote": "The object covered approximately four miles of rugged terrain within approximately one minute",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7633,
+        "len": 93,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Bright orb-like light expelled three or four red lights that accelerated instantly into horizontal formation",
+      "source_quote": "it expelled three or four red lights from it. The red lights accelerated instantly and maneuvered with perfect, smooth coordination into a horizontal formation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1639,
+        "len": 100,
+        "exact": false,
+        "matched": "it expelled three or four red lights from it. The red lights accelerated instantly and maneuvered wi"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Other vehicles passing on the road did not appear to react to the object the witness was observing",
+      "source_quote": "Other vehicles passed heading east and no one appeared to react to the object we were seeing",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12086,
+        "len": 92,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Objects appeared to mimic conventional vehicles including cars and semi-trucks",
+      "source_quote": "The objects initially appeared to mimic vehicles (my best example is the flying car from the Harry Potter book series)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8300,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Witness compared the red lights over the horizon to the Phoenix lights event of the 1990s",
+      "source_quote": "The triangle/red lights over the horizon were reminiscent of the Phoenix lights event/incident in the 1990s",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8971,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 8,
+    "amber": 2,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:10:27.776Z",
-  "qa_completed_at": "2026-06-14T03:11:02.648Z",
+  "qa_started_at": "2026-06-19T21:41:04.345Z",
+  "qa_completed_at": "2026-06-19T21:42:22.107Z",
   "timing": {
-    "A": "15.8s",
-    "B": "19.1s"
-  }
+    "A": "46.5s",
+    "B": "31.3s",
+    "E": "27.9s"
+  },
+  "public_headline": "Federal Agent Reports Three UAP Encounters Over Two Nights in Western US",
+  "public_tldr": "A U.S. federal law enforcement special agent submitted a first-hand narrative to the All-domain Anomaly Resolution Office (AARO) describing three separate encounters with unidentified anomalous phenomena over two days in October 2023 in the western United States. The witness observed bright orb-like lights that expelled smaller red lights in coordinated formations, objects that appeared to mimic conventional vehicles while gliding over rugged terrain, and a light that outpaced a vehicle travelling at 80 mph.",
+  "public_narrative": "This document, dated 2 June 2026 and signed by AARO Director Jon T. Kosloski, is a narrative memorandum from a witness designated \"Witness 2\" — one of several U.S. federal law enforcement special agents who reported observing unidentified anomalous phenomena. The witness and their partner were originally tasked with surveying an area for individuals launching drones when the encounters occurred over two days in October 2023 in the western United States.\n\nIn the first incident, beginning around 1900 hours, the witness observed a bright circular orb-like light above the northern horizon that expelled three or four smaller red lights, each roughly 1/15 its size. These red lights accelerated instantly into a horizontal formation. The process repeated approximately five times across different parts of the horizon, and the red lights hovered above the southern horizon until roughly 2300 hours. Other law enforcement teams in the area confirmed they observed the same objects. No sound, interference, or physiological effects were reported.\n\nThe second incident began the following evening around 1845 hours. The witness initially saw what appeared to be vehicle headlights, but the lights transformed into a row of red lights arranged in a triangular formation covering an area the size of a football field. The objects stayed within 20 feet of the ground and appeared to mimic conventional vehicles — the witness compared them to a flying car from the Harry Potter series. At one point, the object came within approximately 50 yards before accelerating instantly, covering at least one mile in under a minute. It later traversed approximately four miles of rugged terrain in about one minute while gliding smoothly. Using night vision equipment, the witness also observed orange and purple lights in a box shape resembling a semi-truck.\n\nDuring the third incident, the witness pursued an orange orb-like disc hovering at vehicle height above a road. Driving at approximately 80 mph, the witness could not close the distance over 10 to 15 miles. Other vehicles passing on the road did not appear to react to the object. The witness references video footage of at least one incident and notes that AI-generated images included in the document were created roughly two and a half years after the events and are not to exact scale.",
+  "public_caveats": [
+    "This is a single-witness narrative account written approximately two and a half years after the events occurred. A partner's separate account is referenced but not included in this document.",
+    "No technical sensor data or instrument readings accompany the report — all observations are based on unaided human vision or night vision equipment, with distance, speed, and size estimates approximated under nighttime field conditions.",
+    "The specific location is withheld, described only as the 'western United States', limiting independent verification.",
+    "The witness explicitly states that some descriptions (such as the word 'portal') are offered as analogies, not literal claims. The AI-generated images included were created by the witness long after the events and contain only generic landscape features.",
+    "Video footage is referenced by the witness but is not included in or verified by this document."
+  ]
 }

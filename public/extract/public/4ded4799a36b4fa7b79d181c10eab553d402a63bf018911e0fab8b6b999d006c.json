@@ -5,33 +5,82 @@
   "type": "IMG",
   "incident_date": "1971",
   "incident_location": "Australia",
-  "what_is_it": "A review document produced by the Australian Department of Defence examining the scientific and intelligence aspects of the UFO problem, referencing the USAF Project Blue Book.",
+  "what_is_it": "A declassification cover sheet for a CIA-held document originally produced by the Australian Department of Defence reviewing the USAF Project Blue Book.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No extracted text is available; all facts are derived from metadata and the CSV description only.",
-    "The original document is a scanned image with poor or no OCR, so the full content of the review cannot be assessed.",
-    "Single-source metadata: claims about the document's content and provenance have not been cross-verified against the body text."
+    "Only the declassification cover sheet text was extractable; the substantive body of the document is not present in the source text provided.",
+    "The extracted text contains OCR artefacts ('Sithorizacion', 'Yesr'), indicating poor image quality or heavy degradation.",
+    "The document is categorised as IMG (image), meaning the full content may be embedded in a photograph rather than machine-readable text.",
+    "All subject-matter details (Australian review of Project Blue Book) come from the CSV metadata, not from the extracted body text itself."
   ],
-  "fabrication_score": 3,
-  "key_facts": [],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "release_authority",
+      "value": "Section 1842 of the National Defense Authorization Act for Fiscal Year 2024",
+      "source_quote": "Approved for Release 2026 Under Section 1842 of the National Defense Sithorizacion Act for Fiscal Yesr 2024",
+      "citation_offset": {
+        "offset": 0,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "release_year",
+      "value": "2026",
+      "source_quote": "Approved for Release 2026",
+      "citation_offset": {
+        "offset": 0,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
   "named_people": [],
   "named_places": [],
-  "dated_events": [],
+  "dated_events": [
+    "2026"
+  ],
   "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "verifiable_claims": [
+    {
+      "claim": "The document was approved for public release in 2026 under Section 1842 of the NDAA FY2024.",
+      "source_quote": "Approved for Release 2026 Under Section 1842 of the National Defense Sithorizacion Act for Fiscal Yesr 2024",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 0,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
+    "green": 1,
     "amber": 0,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:06:37.785Z",
-  "qa_completed_at": "2026-06-14T03:07:04.491Z",
+  "qa_started_at": "2026-06-19T21:32:23.055Z",
+  "qa_completed_at": "2026-06-19T21:32:54.196Z",
   "timing": {
-    "A": "13.5s",
-    "B": "13.2s"
-  }
+    "A": "17.1s",
+    "B": "14.0s",
+    "E": "20.2s"
+  },
+  "public_headline": "CIA Releases Cover Sheet for Australian UFO Review Document",
+  "public_tldr": "This record is a CIA-held declassification cover sheet for a 1971 Australian Department of Defence document that reviewed the US Air Force's Project Blue Book UFO investigation programme. Only the cover sheet text is available — the substantive body of the document is not readable.",
+  "public_narrative": "In 2026, the CIA released this record under Section 1842 of the National Defense Authorization Act for Fiscal Year 2024. It is catalogued as an Australian Department of Defence document from 1971 that reviewed the scientific and intelligence aspects of the UFO problem, specifically examining the US Air Force's Project Blue Book — the American military's long-running programme to investigate UFO reports.\n\nHowever, what is actually available here is extremely limited. The record is classified as an image file (IMG), and only the declassification cover sheet text could be extracted. The cover sheet confirms the document was approved for public release in 2026 under the NDAA provision. The substantive body — whatever the Australian Defence review actually found or concluded about Project Blue Book — is not present in the extractable text.\n\nThe extracted cover sheet text itself shows signs of poor image quality, with OCR errors such as 'Sithorizacion' (Authorization) and 'Yesr' (Year), suggesting the source material is heavily degraded.\n\nThe level of redaction is assessed as extreme. No named individuals, specific places, described objects, or conclusions from the Australian review are available from this release. All subject-matter details about the document's contents come from catalogue metadata rather than from the document body itself.",
+  "public_caveats": [
+    "Only the declassification cover sheet is readable — the actual findings and analysis from the Australian Defence review are not available in this release.",
+    "All details about the document's subject matter (Australian review of Project Blue Book) come from catalogue metadata, not from the document text itself.",
+    "The source image is heavily degraded, producing OCR errors, which means even the cover sheet text may contain inaccuracies.",
+    "Redaction is assessed as extreme — no conclusions, personnel names, or specific findings can be confirmed from this record.",
+    "This is a single document with no corroborating records released alongside it; it cannot be independently verified against other sources at this time."
+  ]
 }

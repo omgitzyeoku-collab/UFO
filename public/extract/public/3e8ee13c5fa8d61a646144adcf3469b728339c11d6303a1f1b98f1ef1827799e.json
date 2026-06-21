@@ -4,87 +4,255 @@
   "agency": "CIA",
   "type": "PDF",
   "incident_date": "1972",
-  "what_is_it": "A CIA Intelligence Information Report summarizing a US attendee's observations of a speculative scientific paper presented by Soviet scientists at a conference in Armenia.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "what_is_it": "CIA Intelligence Information Report summarizing a US attendee's observations of a speculative scientific paper presented by Soviet scientists at a conference in Armenia.",
+  "core_summary": "This 1972 CIA report describes a paper by Soviet scientists N.S. Kardashev and Andrei Sakharov, presented at the Conference on the Origins of Life in Yerevan, Armenia in September 1971, which speculated on what happens when a charged mass collapses in space (black hole physics). The authors proposed that unlike an uncharged mass which collapses past gravitational singularity permanently, a charged mass could 'bounce' back out into a different part of space-time, suggesting the structure of space may be more complicated than presently understood.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No extracted text available from the PDF — all facts are derived from metadata and the CSV description only.",
-    "The document is likely a scanned image with poor OCR results, meaning the full content has not been reviewed.",
-    "All source quotes are empty because no body text was extractable.",
-    "A more redacted version existed previously, suggesting this release may contain additional information, but without readable text this cannot be confirmed.",
-    "Single-source reporting from one US conference attendee.",
-    "The paper discussed is described as 'speculative' even in the title — it represents theoretical work, not empirical findings."
+    "This is a single-source report based on a letter from one US attendee at the conference, not a direct transcript of the paper.",
+    "The source text contains significant OCR artifacts making some words difficult to parse with certainty.",
+    "The document title references 'Low Scientific Level of Other Soviet Papers' but the extracted text does not contain that section, suggesting content may be missing or on redacted pages.",
+    "This is not a UAP sighting report — it is a Cold War-era intelligence report on Soviet theoretical physics research on black holes and charged mass behavior.",
+    "The report is marked 'THIS IS UNEVALUATED INFORMATION' by the CIA."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "Conference name",
-      "value": "Conference on Origins of Life",
-      "source_quote": "",
+      "field": "Report number",
+      "value": "00-B-321/07709-72",
+      "source_quote": "REPORTNO. 00-B-'321/0770')-72",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Conference location",
-      "value": "Armenia",
-      "source_quote": "",
+      "field": "Distribution date",
+      "value": "10 April 1972",
+      "source_quote": "DATE OISTLT. 10Apr72",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Conference name",
+      "value": "Conference on the Origins of Life",
+      "source_quote": "At the Conference on the Origins of Lite in Yerevo.n, Armenia",
+      "citation_offset": {
+        "offset": 752,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
       "field": "Conference dates",
       "value": "6-8 September 1971",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "6-8 Septemher 1971",
+      "citation_offset": {
+        "offset": 820,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Paper subject",
-      "value": "Charged mass behavior in space",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Conference location",
+      "value": "Yerevan, Armenia, USSR",
+      "source_quote": "Yerevo.n, Armenia, $SR",
+      "citation_offset": {
+        "offset": 796,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Assessment of other Soviet papers",
-      "value": "Low scientific level noted by US attendee",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Kardashev affiliation",
+      "value": "Institute for Space Research, Moscow",
+      "source_quote": "NS ~.ardashev, Ins titute for Sp~c~ Research, Moscov",
+      "citation_offset": {
+        "offset": 840,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Kardashev's mentor",
+      "value": "I.S. Shklovskiy at the Institute",
+      "source_quote": "his superior and former teacher at the Institute, IS Shklovskiy",
+      "citation_offset": {
+        "offset": 1177,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Paper topic",
+      "value": "General relativity and the possibility of a body collapsing into a black hole in space",
+      "source_quote": "r ead an interesting but highly Dpeculative paper he had prepared on r.enera.l relativity and the possibility of a bod;f collap3inc into a black hole",
+      "citation_offset": {
+        "offset": 894,
+        "len": 149,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Key finding on charged mass",
+      "value": "A charged mass collapsing in space would bounce back out into a different part of space-time",
+      "source_quote": "if the mass were charged... the mnse vould be o.ble to boW1ce. It would collapse but boW1ce back out... into n different part of space time",
+      "citation_offset": {
+        "offset": 1824,
+        "len": 70,
+        "exact": false,
+        "matched": "e mnse vould be o.ble to boW1ce. It would collapse but boW1ce back out"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Sakharov's interest",
+      "value": "The structure of space may be much more complicated than presently thought",
+      "source_quote": "Sakharov vo.s mo~tly interested in this charced mass phenomenon study becaus e it in­ d.i.catcs that the structure of space may be much more complicated",
+      "citation_offset": {
+        "offset": 2027,
+        "len": 152,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Source type",
+      "value": "US citizen, reliable colleague who attended the conference",
+      "source_quote": "edited abstracts trom a 1 etter recelved from a reliable colleague who attended the Yerevan Conference",
+      "citation_offset": {
+        "offset": 645,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "US attendee assessment",
+      "value": "Speculation was fantastic and wild but grounded in good and sound physics",
+      "source_quote": "their paper vas grounded in e ood and sound physica",
+      "citation_offset": {
+        "offset": 2521,
+        "len": 51,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
+  "named_people": [
+    "N.S. Kardashev",
+    "Andrei D. Sakharov",
+    "I.S. Shklovskiy"
+  ],
+  "named_places": [
+    "Yerevan",
+    "Armenia",
+    "USSR",
+    "Moscow"
+  ],
+  "dated_events": [
+    "6-8 September 1971",
+    "10 April 1972"
+  ],
   "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "N.S. Kardashev and A. Sakharov presented a speculative paper on charged mass behavior in space at the September 1971 Armenia conference",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Kardashev and Sakharov co-authored a paper on charged mass collapse in space presented at the 1971 Yerevan conference on Origins of Life",
+      "source_quote": "NS ~.ardashev... r ead an interesting but highly Dpeculative paper... His co-author vas tbe internationally f81110us theoretica.l. physicist, Andrei D Su.harov",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1054,
+        "len": 85,
+        "exact": false,
+        "matched": "His co-author vas tbe internationally f81110us theoretica.l. physicist, Andrei D Su.h"
+      },
+      "confidence": "amber"
     },
     {
-      "claim": "The US attendee assessed other Soviet papers at the conference as being of low scientific level",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "An uncharged mass collapsing in space would pass the point of gravitational singularity and be gone forever with no contact with the outside world",
+      "source_quote": "if it were not charged, the mass would Just collapse past the point of gravitational singularity and be gone forever",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1581,
+        "len": 40,
+        "exact": false,
+        "matched": "itational singularity and be gone foreve"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A charged mass would collapse but bounce back out into a different part of space-time",
+      "source_quote": "if the mass were charged... the mnse vould be o.ble to boW1ce. It would collapse but boW1ce back out... into n different part of space time",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1824,
+        "len": 70,
+        "exact": false,
+        "matched": "e mnse vould be o.ble to boW1ce. It would collapse but boW1ce back out"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Kardashev worked at the Institute for Space Research in Moscow under I.S. Shklovskiy",
+      "source_quote": "his superior and former teacher at the Institute, IS Shklovskiy",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1177,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Sakharov's primary interest was that the phenomenon indicates the structure of space may be more complicated than currently understood",
+      "source_quote": "Sakharov vo.s mo~tly interested... becaus e it in­ d.i.catcs that the structure of space may be much more complicated than is preae ntly thought",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2097,
+        "len": 85,
+        "exact": false,
+        "matched": "becaus e it in­ d.i.catcs that the structure of space may be much more complicated th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Kardashev was interested from the viewpoint of astrophysics implications",
+      "source_quote": "Kardashev vas interested i n the s t udy from t he vi evpoint or what implications it has for o.strophysi c~",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2209,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 2
+    "green": 2,
+    "amber": 4,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:55:36.448Z",
-  "qa_completed_at": "2026-06-14T02:56:11.745Z",
+  "qa_started_at": "2026-06-19T21:05:13.586Z",
+  "qa_completed_at": "2026-06-19T21:06:08.639Z",
   "timing": {
-    "A": "16.5s",
-    "B": "18.8s"
-  }
+    "A": "33.0s",
+    "B": "22.0s",
+    "E": "25.0s"
+  },
+  "public_headline": "CIA Report Tracked Soviet Scientists' Speculative Paper on Black Hole Physics",
+  "public_tldr": "A 1972 CIA intelligence report summarises observations from a US attendee at a 1971 conference in Armenia, where Soviet scientists Kardashev and Sakharov presented a speculative paper proposing that a charged mass collapsing into a black hole could 'bounce' back out into a different part of space-time. The document is not a UAP sighting report — it is a Cold War-era record of US intelligence interest in Soviet theoretical physics.",
+  "public_narrative": "In September 1971, the Conference on the Origins of Life took place in Yerevan, Armenia, then part of the USSR. Among the presentations was a paper by N.S. Kardashev of the Institute for Space Research in Moscow and his co-author, the internationally known theoretical physicist Andrei Sakharov. Their paper dealt with general relativity and the possibility of a body collapsing into a black hole in space.\n\nThe paper's central idea was this: an uncharged mass collapsing in space would pass the point of gravitational singularity and be gone forever, with no further contact with the outside world. But if the mass carried an electrical charge, it could behave differently — it would collapse but then bounce back out into a different part of space-time. Sakharov was drawn to this finding because it suggested the structure of space might be far more complicated than scientists then understood. Kardashev was interested in its implications for astrophysics.\n\nThe CIA learned about the paper through a letter from a US citizen described as a reliable colleague who had attended the conference. That source assessed the speculation as fantastic and wild but grounded in good and sound physics. The CIA distributed its report on 10 April 1972, marked as unevaluated information.\n\nDespite appearing in the US government's UAP document release, the report has nothing to do with unidentified aerial phenomena. It is a product of Cold War intelligence-gathering on Soviet scientific research. The document's title also references the 'low scientific level of other Soviet papers' at the conference, but the extracted text does not contain that section, suggesting pages may be missing or redacted.",
+  "public_caveats": [
+    "This is not a UAP sighting report. It is a Cold War intelligence report on Soviet theoretical physics that was included in the government's UAP document release.",
+    "The report is based on a single source — a letter from one US conference attendee — not a direct transcript of the Kardashev-Sakharov paper.",
+    "The CIA itself labelled the report 'unevaluated information,' meaning it had not been independently verified or assessed.",
+    "The document shows moderate evidence of redaction, and the section referenced in the title about other Soviet papers appears to be missing from the available text.",
+    "The source text contains significant OCR artefacts, making some words difficult to read with certainty."
+  ]
 }

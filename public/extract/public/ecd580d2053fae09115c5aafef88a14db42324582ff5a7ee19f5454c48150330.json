@@ -5,59 +5,157 @@
   "type": "IMG",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "A notional (illustrative) overhead map depicting four UAP incidents reported in the western United States.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "Notional (illustrative) map depicting four UAP incidents reported by U.S. federal law enforcement agents in the western United States.",
+  "core_summary": "This document is an artificially generated illustration showing four separate UAP incidents reported by U.S. federal law enforcement special agents over several days in October 2023 in the western United States. The incidents involved objects described as orbs and kite-shaped phenomena observed at various ranges. All locations and distances in the image are notional and not to scale.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "This is a notional (illustrative) map, not an actual photograph or sensor image — positions and depictions may be approximate or stylised.",
-    "No body text was extractable from the image; all facts are derived from metadata and the CSV description only.",
-    "The incidents are described as 'reportedly' involving UAP, indicating they are unverified reports.",
-    "No detail is provided about what the phenomena looked like, how they behaved, or what sensors detected them.",
-    "Law enforcement special agents are the sole source; no corroborating military or civilian reports are referenced."
+    "The map and all depicted imagery are notional (illustrative) and artificially generated — they do not represent actual photographs or sensor data",
+    "All locations shown are notional and do not accurately represent the relative position of observers or phenomena",
+    "Distances and object sizes are not to scale",
+    "The document relies entirely on verbal reports from law enforcement agents — no sensor data, photographs, or corroborating evidence is presented",
+    "The term 'notional' indicates this is a conceptual representation, not a factual reconstruction"
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D078",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "document_type",
-      "value": "Notional map / illustration",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "location",
-      "value": "Western United States",
-      "source_quote": "unidentified anomalous phenomena in the western United States",
-      "citation_offset": null,
+      "field": "Number of incidents",
+      "value": "4",
+      "source_quote": "a notional representation of four incidents reportedly involving unidentified anomalous phenomena",
+      "citation_offset": {
+        "offset": 95,
+        "len": 52,
+        "exact": false,
+        "matched": "eportedly involving unidentified anomalous phenomena"
+      },
       "confidence": "amber"
     },
     {
-      "field": "timeframe",
+      "field": "Observers",
+      "value": "U.S. federal law enforcement special agents",
+      "source_quote": "multiple incidents reported by U.S. federal law enforcement special agents",
+      "citation_offset": {
+        "offset": 335,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Time period",
       "value": "Several days in October 2023",
       "source_quote": "over a period of several days in October 2023",
+      "citation_offset": {
+        "offset": 410,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Western United States",
+      "source_quote": "unidentified anomalous phenomena (UAP) in the western United States",
+      "citation_offset": {
+        "offset": 115,
+        "len": 32,
+        "exact": false,
+        "matched": "unidentified anomalous phenomena"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 1 description",
+      "value": "Orange 'mother orb' launching smaller red orbs",
+      "source_quote": "Agents reported observing multiple instances of an orange \"mother orb\" \"launching\" smaller red \"orbs.\"",
+      "citation_offset": {
+        "offset": 148,
+        "len": 50,
+        "exact": false,
+        "matched": "Agents reported observing multiple instances of an"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 1 name",
+      "value": "Orbs Launching Orbs",
+      "source_quote": "Incident 1: \"Orbs Launching Orbs\"",
       "citation_offset": null,
       "confidence": "amber"
     },
     {
-      "field": "issuing_agency",
-      "value": "Department of War",
-      "source_quote": "",
+      "field": "Incident 2 name",
+      "value": "Fiery Orb",
+      "source_quote": "Incident 2: \"Fiery Orb\"",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "representation_type",
-      "value": "Notional (not a real photograph or sensor capture)",
-      "source_quote": "This image is a notional representation",
+      "field": "Incident 2 description",
+      "value": "Large fiery orb projected against a ridgeline at approximately 1,000 yards",
+      "source_quote": "a large \"fiery orb\" projected against a ridgeline at an approximate distance of 1,000 yards",
+      "citation_offset": {
+        "offset": 579,
+        "len": 36,
+        "exact": false,
+        "matched": " approximate distance of 1,000 yards"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 3 name",
+      "value": "Dark Kite",
+      "source_quote": "Incident 3: \"Dark Kite\"",
       "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 3 description",
+      "value": "Thin or dark kite-shaped object with one red light and one white light at close range",
+      "source_quote": "a \"thin or dark kite-shaped object\" featuring one red light and one white light at a close estimated range",
+      "citation_offset": {
+        "offset": 726,
+        "len": 70,
+        "exact": false,
+        "matched": " featuring one red light and one white light at a close estimated rang"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 4 name",
+      "value": "Translucent Kite",
+      "source_quote": "Incident 4: \"Translucent Kite\"",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 4 description",
+      "value": "Translucent kite-shaped object at close range",
+      "source_quote": "a \"translucent kite-shaped object\" at a close estimated range",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Image generation",
+      "value": "Artificially generated using genai.mil",
+      "source_quote": "All images were artificially generated using https://genai.mil/",
+      "citation_offset": {
+        "offset": 860,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Scale disclaimer",
+      "value": "Phenomena enlarged, distances and locations not to scale or accurate",
+      "source_quote": "Phenomena are enlarged for illustrative purposes and are not to relative scale. Distances are not to scale. All locations are notional",
+      "citation_offset": {
+        "offset": 1052,
+        "len": 65,
+        "exact": false,
+        "matched": "elative scale. Distances are not to scale. All locations are noti"
+      },
       "confidence": "amber"
     }
   ],
@@ -68,34 +166,102 @@
   "dated_events": [
     "October 2023"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "Orange 'mother orb'",
+    "Smaller red 'orbs'",
+    "Large 'fiery orb'",
+    "Thin or dark kite-shaped object with one red and one white light",
+    "Translucent kite-shaped object"
+  ],
   "verifiable_claims": [
     {
-      "claim": "Four separate UAP incidents occurred in the western United States over several days in October 2023.",
-      "source_quote": "four incidents reportedly involving unidentified anomalous phenomena in the western United States",
-      "verifier_verdict": "partial",
+      "claim": "Four separate UAP incidents were reported by federal law enforcement special agents in the western U.S. over several days in October 2023",
+      "source_quote": "multiple incidents reported by U.S. federal law enforcement special agents over a period of several days in October 2023",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 335,
+        "len": 120,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Agents observed an orange mother orb launching smaller red orbs on multiple occasions",
+      "source_quote": "Agents reported observing multiple instances of an orange \"mother orb\" \"launching\" smaller red \"orbs.\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 148,
+        "len": 50,
+        "exact": false,
+        "matched": "Agents reported observing multiple instances of an"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A large fiery orb was observed projected against a ridgeline at approximately 1,000 yards distance",
+      "source_quote": "a large \"fiery orb\" projected against a ridgeline at an approximate distance of 1,000 yards",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 579,
+        "len": 36,
+        "exact": false,
+        "matched": " approximate distance of 1,000 yards"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A dark kite-shaped object was observed with one red light and one white light at close range",
+      "source_quote": "a \"thin or dark kite-shaped object\" featuring one red light and one white light at a close estimated range",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 726,
+        "len": 70,
+        "exact": false,
+        "matched": " featuring one red light and one white light at a close estimated rang"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A translucent kite-shaped object was observed at close range",
+      "source_quote": "a \"translucent kite-shaped object\" at a close estimated range",
+      "verifier_verdict": "supported",
       "citation_offset": null,
       "confidence": "amber"
     },
     {
-      "claim": "The image is an illustration, not an actual photograph or sensor capture.",
-      "source_quote": "This image is a notional representation",
+      "claim": "All images in the document were artificially generated using genai.mil",
+      "source_quote": "All images were artificially generated using https://genai.mil/",
       "verifier_verdict": "supported",
-      "citation_offset": null,
-      "confidence": "amber"
+      "citation_offset": {
+        "offset": 860,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 2,
+    "green": 2,
+    "amber": 4,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:08:47.970Z",
-  "qa_completed_at": "2026-06-14T03:09:21.468Z",
+  "qa_started_at": "2026-06-19T21:37:09.778Z",
+  "qa_completed_at": "2026-06-19T21:37:47.450Z",
   "timing": {
-    "A": "16.8s",
-    "B": "16.7s"
-  }
+    "A": "21.6s",
+    "B": "16.0s",
+    "E": "19.5s"
+  },
+  "public_headline": "Federal Agents Reported Four UAP Sightings in Western US, October 2023",
+  "public_tldr": "This Department of War document is an illustrative map depicting four unidentified anomalous phenomena (UAP) incidents reported by U.S. federal law enforcement agents over several days in October 2023 in the western United States. The objects described include orbs and kite-shaped phenomena, but all imagery in the document is artificially generated — no photographs or sensor data are included.",
+  "public_narrative": "The Department of War released this document (DOW-UAP-D078) as a notional — meaning illustrative, not photographic — map showing four separate UAP incidents in the western United States. The sightings were reported by U.S. federal law enforcement special agents over several days in October 2023.\n\nThe four incidents each involved distinct phenomena. In the first, dubbed \"Orbs Launching Orbs,\" agents reported seeing an orange \"mother orb\" that appeared to launch smaller red orbs. The second, \"Fiery Orb,\" involved a large fiery orb seen against a ridgeline at roughly 1,000 yards. The third and fourth incidents involved kite-shaped objects: a dark one with one red and one white light observed at close range (\"Dark Kite\"), and a translucent version also at close range (\"Translucent Kite\").\n\nCritically, this document contains no photographs, sensor readings, or physical evidence. Every image in it was artificially generated using the military's genai.mil platform. All locations, distances, and object sizes shown on the map are explicitly labelled as notional and not to scale.\n\nThe document is based entirely on verbal reports from the law enforcement agents involved. The Department of War did not include any conclusions about what the objects were, nor any corroborating evidence from radar, video, or other sensors.",
+  "public_caveats": [
+    "All imagery in this document is AI-generated illustration, not actual photographs or sensor captures.",
+    "Locations, distances, and object sizes shown on the map are explicitly stated as notional and not to scale — they should not be treated as geographically accurate.",
+    "The document relies entirely on verbal reports from law enforcement agents. No sensor data, photographs, or independent corroboration is presented.",
+    "The Department of War drew no conclusions about the identity or origin of the reported phenomena.",
+    "The term 'notional' is used repeatedly — this is a conceptual representation of reported events, not a factual reconstruction."
+  ]
 }

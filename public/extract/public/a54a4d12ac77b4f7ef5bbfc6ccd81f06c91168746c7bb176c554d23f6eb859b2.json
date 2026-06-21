@@ -5,134 +5,359 @@
   "type": "PDF",
   "incident_date": "August 30 - September 2, 1965",
   "incident_location": "Cape Kennedy, Florida",
-  "what_is_it": "Preliminary transcript (Part II) of the Gemini 5 flight crew technical debriefing, derived from voice recordings of astronauts describing their observations during the mission.",
-  "core_summary": "This is the second part of NASA's technical debriefing of the Gemini 5 crew, conducted between August 30 and September 2, 1965, at Cape Kennedy, Florida. Astronauts L. Gordon Cooper and Charles 'Pete' Conrad described observing debris, 'snow,' and 'all sorts of glittering pieces' during the flight, as documented in the 'Visual Sightings' section spanning pages 157–220.",
+  "what_is_it": "A formerly classified preliminary transcript (Part II) of the Gemini 5 spaceflight crew technical debriefing, covering systems operations, visual sightings, experiments, and training.",
+  "core_summary": "This is the second part of the Gemini 5 (GT-5) flight crew debriefing transcript, recorded between August 30 and September 2, 1965, at Cape Kennedy, Florida. Astronauts L. Gordon Cooper and Charles 'Pete' Conrad discuss spacecraft systems performance in detail, including significant degradation of the OAMS (Orbital Attitude and Maneuvering System) thrusters over the mission's duration, which they attributed to a decision to turn off the OAMS heater. The crew also describes observing debris including 'gold balls' and 'great big balls of liquid' expelled from malfunctioning thrusters, as well as silver balls of vented hydrogen or oxygen floating past the spacecraft.",
   "core_summary_revised_by_verifier": false,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No extracted body text is available — all facts are derived from document metadata and the war.gov CSV description only.",
-    "The original PDF appears to be scanned with poor OCR quality, so the full content of the 'Visual Sightings' section (pages 157–220) has not been reviewed.",
-    "The described observations (debris, snow, glittering pieces) could have mundane explanations such as spacecraft outgassing, insulation fragments, or ice crystals — the document metadata does not characterise them as anomalous.",
-    "Source quotes are empty throughout because no body text was successfully extracted from the PDF."
+    "The document is a preliminary, unfinished transcript from voice recordings — the preface notes errors may exist and a thorough editorial review was not completed before publication.",
+    "The text provided is heavily degraded by OCR artefacts, making some passages difficult to parse accurately.",
+    "The 'Visual Sightings' section (pages 152-172) referenced in the CSV description is mostly not included in this extracted text; the provided extract covers primarily systems operations (Section 8).",
+    "The 'gold balls' and 'silver balls' described by the crew are explicitly identified by them as spacecraft-origin materials (fuel, oxidiser, vented hydrogen/oxygen), not as unidentified external objects.",
+    "The document was originally classified CONFIDENTIAL under espionage laws; classification markings appear throughout but content appears fully declassified with no visible redactions.",
+    "References to 'Jim and Ed' likely refer to Gemini 4 crew (James McDivitt and Edward White) but are not fully identified in the extracted text."
   ],
   "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "Document ID",
-      "value": "NASA-UAP-D020",
-      "source_quote": "",
+      "field": "Document classification",
+      "value": "Originally classified CONFIDENTIAL, Group 4, downgraded at 3-year intervals, declassified after 12 years",
+      "source_quote": "GROUP 4 DOWNGRADED AT 3 YEAR INTERVALS DECLASSIFIED AFTER 12 YEARS",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Mission",
-      "value": "Gemini 5",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Document type",
-      "value": "Preliminary transcript from voice recordings of crew technical debriefing (Part II)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Debriefing dates",
-      "value": "August 30 – September 2, 1965",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Declassification date",
+      "value": "November 20, 1973",
+      "source_quote": "Date NOV 2 0 973",
+      "citation_offset": {
+        "offset": 234,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
       "field": "Debriefing location",
       "value": "Crew Quarters, Cape Kennedy, Florida",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "GT-5 flight crew debriefing conducted August 30, 1965 thru September 2, 1965 at the Crew Quarters, Cape Kennedy, Florida",
+      "citation_offset": {
+        "offset": 1498,
+        "len": 100,
+        "exact": false,
+        "matched": "flight crew debriefing conducted August 30, 1965 thru September 2, 1965 at the Crew Quarters, Cape K"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "Crew members debriefed",
-      "value": "L. Gordon Cooper and Charles 'Pete' Conrad",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Preparing unit",
+      "value": "Spacecraft Operations Branch, Flight Crew Support Division",
+      "source_quote": "Prepared By Spacecraft Operations Branch Flight Crew Support Division",
+      "citation_offset": {
+        "offset": 966,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Visual sightings section",
-      "value": "Pages 157–220",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "OAMS thruster failure timeline",
+      "value": "Thruster degradation began around day 3, with thrusters 7 and 8 failing on day 5 within one orbit of each other",
+      "source_quote": "the fifth day is when we found the two thrusters that were not operating correctly",
+      "citation_offset": {
+        "offset": 22054,
+        "len": 67,
+        "exact": false,
+        "matched": "s when we found the two thrusters that were not operating correctly"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "Objects observed",
-      "value": "Debris, 'snow,' and 'all sorts of glittering pieces of this, that and the other thing'",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Suspected cause of thruster failure",
+      "value": "Decision to turn off the OAMS heater, leading to fuel system freeze-up",
+      "source_quote": "I'm still convinced until somebody convinces me otherwise, that the thing that shot the OAMS system down, was the decision to turn off the OAMS heater",
+      "citation_offset": {
+        "offset": 22944,
+        "len": 100,
+        "exact": false,
+        "matched": "nces me otherwise, that the thing that shot the OAMS system down, was the decision to turn off the O"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "Originating agency",
-      "value": "NASA",
-      "source_quote": "",
+      "field": "Debris observed from thruster malfunction",
+      "value": "Gold balls and large balls of liquid expelled when thrusters fired",
+      "source_quote": "All kinds of garbage came by the spacecraft. It looked like we blew a whole bunch of junk out of it. I remember distinctly seeing gold balls.",
+      "citation_offset": {
+        "offset": 27463,
+        "len": 100,
+        "exact": false,
+        "matched": "All kinds of garbage came by the spacecraft. It looked like we blew a whole bunch of junk out of it."
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Ongoing visual phenomena during flight",
+      "value": "Silver balls of vented hydrogen or oxygen floating past the spacecraft throughout the mission",
+      "source_quote": "We were continually floating around in these old silver balls of either hydrogen or oxygen",
+      "citation_offset": {
+        "offset": 28838,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "OAMS fuel loading discrepancy",
+      "value": "Fuel gauge read 87% at lift-off instead of expected 100%, approximately 50 pounds short",
+      "source_quote": "It was 87 percent at lift-off, I thought we were supposed to be 100 percent on the gage at lift-off",
+      "citation_offset": {
+        "offset": 32481,
+        "len": 64,
+        "exact": false,
+        "matched": " I thought we were supposed to be 100 percent on the gage at lif"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "OAMS source temperature",
+      "value": "Too cold, running around 48 degrees",
+      "source_quote": "Source temperature we could monitor and it was too cold... It ran down in the 48 degree area",
+      "citation_offset": {
+        "offset": 30079,
+        "len": 32,
+        "exact": false,
+        "matched": "ure we could monitor and it was "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Platform drift in free flight",
+      "value": "Platform stayed within 5-10 degrees for about 20 hours without alignment",
+      "source_quote": "it didn't get off five or ten degrees in any of the three axis... For about 20 hours",
+      "citation_offset": {
+        "offset": 15217,
+        "len": 59,
+        "exact": false,
+        "matched": "it didn't get off five or ten degrees in any of the three a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "REP deployment",
+      "value": "Deployed 15 seconds late at 90 degrees right yaw due to horizon scanner failure",
+      "source_quote": "We kicked it out at 02 07 + 15, or 15 seconds late",
+      "citation_offset": {
+        "offset": 42136,
+        "len": 45,
+        "exact": false,
+        "matched": "We kicked it out at 02 07 + 15, or 15 seconds"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "REP tumble rate",
+      "value": "Approximately 0.5 to 1 degree per second",
+      "source_quote": "I would say maybe a half to 1 degree per second",
+      "citation_offset": {
+        "offset": 44524,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Horizon scanner failure",
+      "value": "Primary scanner inoperative; secondary worked but had dropout issues near sunlight transitions",
+      "source_quote": "the primary Scanner was inoperative as was stated earlier. The Secondary Scanner worked fine",
+      "citation_offset": {
+        "offset": 35688,
+        "len": 47,
+        "exact": false,
+        "matched": "the primary Scanner was inoperative as was stat"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Overnight fuel usage in Horizon Scan mode",
+      "value": "Approximately 2 pounds per night",
+      "source_quote": "They said 'You're using about 2 pounds a night.'",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
+  "named_people": [
+    "L. Gordon Cooper",
+    "Charles 'Pete' Conrad",
+    "Jim",
+    "Ed"
+  ],
+  "named_places": [
+    "Cape Kennedy, Florida",
+    "Houston"
+  ],
+  "dated_events": [
+    "August 30, 1965 thru September 2, 1965",
+    "September 2, 1965",
+    "September 1, 1965",
+    "NOV 20 1973"
+  ],
   "objects_described": [
-    "debris",
-    "snow-like particles"
+    "Gemini V (GT-5) spacecraft",
+    "OAMS (Orbital Attitude and Maneuvering System) thrusters",
+    "REP (Radar Evaluation Pod)",
+    "Horizon Scanner (primary and secondary)",
+    "8-ball (attitude indicator)",
+    "FDI (Flight Director Indicator)",
+    "IVI (Incremental Velocity Indicator)",
+    "Platform (inertial guidance platform)",
+    "Gold balls and silver balls of vented liquid (hydrogen/oxygen/fuel)"
   ],
   "verifiable_claims": [
     {
-      "claim": "NASA conducted a technical debriefing of the Gemini 5 crew between August 30 and September 2, 1965, at Cape Kennedy.",
-      "source_quote": "",
-      "verifier_verdict": "supported",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "The OAMS thruster system degraded progressively over the 8-day mission, with less than half the thrusters operational by the end",
+      "source_quote": "finally at the end we had less than half the thrusters left and they were pretty bad",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 22739,
+        "len": 79,
+        "exact": false,
+        "matched": "ly at the end we had less than half the thrusters left and they were pretty bad"
+      },
+      "confidence": "amber"
     },
     {
-      "claim": "Astronauts Cooper and Conrad reported observing debris, 'snow,' and glittering pieces during the Gemini 5 flight.",
-      "source_quote": "",
-      "verifier_verdict": "supported",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Cooper believed turning off the OAMS heater caused the thrusters to freeze up and fail",
+      "source_quote": "the thing that shot the OAMS system down, was the decision to turn off the OAMS heater",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 22968,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "claim": "Visual sightings are documented in pages 157–220 of the transcript.",
-      "source_quote": "",
+      "claim": "When malfunctioning thrusters fired, large gold-coloured balls of liquid were expelled from the spacecraft",
+      "source_quote": "I remember distinctly seeing gold balls... Great big balls of liquid",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 27564,
+        "len": 38,
+        "exact": false,
+        "matched": "I remember distinctly seeing gold ball"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The crew continuously observed silver balls of vented hydrogen or oxygen floating past the spacecraft at low sun angles",
+      "source_quote": "We were continually floating around in these old silver balls of either hydrogen or oxygen",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 28838,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The spacecraft launched with approximately 50 pounds less OAMS fuel than planned",
+      "source_quote": "they said we had about 50 pounds less fuel than we were supposed to have",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 32667,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Rate Command mode was much more responsive in the actual spacecraft than in the simulator",
+      "source_quote": "RATE COMMAND just flat snaps you in. In the simulator, when you come around in RATE COMMAND and you let off it will go through 5 to 10 degrees",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 17347,
+        "len": 142,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Pulse mode had less authority in the actual spacecraft than the simulator indicated",
+      "source_quote": "I felt that in the simulator you had a little more authority than you actually did in the spacecraft",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 35341,
+        "len": 70,
+        "exact": false,
+        "matched": "ou had a little more authority than you actually did in the spacecraft"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Platform mode control was far less precise than its design specification of plus or minus 0.5 degrees",
+      "source_quote": "The platform mode is supposed to be plus or minus 5/loth of a degree. If it was plus or minus 10 degrees I'll eat my hat",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 36337,
+        "len": 65,
+        "exact": false,
+        "matched": "The platform mode is supposed to be plus or minus 5/loth of a deg"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Cooper criticised the practice of assigning complicated tasks too early in the flight before crews could familiarise themselves with the spacecraft",
+      "source_quote": "If you continually shove things in on people very early in the flight, the quality of it is going to be degraded",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 46417,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Jim and Ed (GT-4 crew) reported they never aligned BEF, only SEF",
+      "source_quote": "Jim and Ed made the comment that they never alined BEF, that they always alined SEF",
       "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "The REP continued moving away instead of slowing down as expected after deployment",
+      "source_quote": "The REP went out and it continued going out instead of slowing down as it should",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 48254,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "amber",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 3
+    "green": 6,
+    "amber": 5,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:33:28.272Z",
-  "qa_completed_at": "2026-06-14T03:34:26.713Z",
+  "qa_started_at": "2026-06-19T22:43:33.245Z",
+  "qa_completed_at": "2026-06-19T22:45:13.225Z",
   "timing": {
-    "A": "16.7s",
-    "B": "41.8s",
-    "E": "21.3s"
+    "A": "58.2s",
+    "B": "41.6s",
+    "E": "28.3s"
   },
-  "public_headline": "Gemini 5 Crew Reported Debris and Glittering Objects in Orbit",
-  "public_tldr": "This 1965 NASA transcript records astronauts Gordon Cooper and Pete Conrad describing debris, 'snow,' and 'glittering pieces' observed during the Gemini 5 mission. The document's visual sightings section spans over 60 pages, but poor scan quality means the full detail of what the crew reported has not been reviewed.",
-  "public_narrative": "In late August 1965, NASA conducted the Gemini 5 mission — the fifth crewed flight in its Gemini programme. After the mission, astronauts L. Gordon Cooper and Charles 'Pete' Conrad sat down for a technical debriefing at Crew Quarters, Cape Kennedy, Florida, between August 30 and September 2, 1965. This document is Part II of the preliminary transcript from that debriefing, derived from voice recordings of the crew.\n\nThe transcript includes a section on 'Visual Sightings' spanning pages 157 to 220 — a substantial portion of the document. According to the metadata description, Cooper and Conrad described observing debris, 'snow,' and 'all sorts of glittering pieces of this, that and the other thing' during the flight.\n\nIt is worth noting that such observations are not unusual in spaceflight. Spacecraft outgassing, insulation fragments, and ice crystals are common sources of visible particles outside a capsule window. The document metadata does not characterise these sightings as anomalous or unexplained.\n\nThe original PDF is a scan of a 1965 document, and the text quality is too poor for reliable automated extraction. This means the full content of the 64-page visual sightings section has not been reviewed in detail. All facts in this summary come from the document's metadata and the official war.gov catalogue description, not from the body text itself.",
+  "public_headline": "Gemini 5 Crew Debriefing Details Thruster Failures and Floating Debris in Orbit",
+  "public_tldr": "This formerly classified 1965 NASA transcript records astronauts Gordon Cooper and Pete Conrad debriefing after the Gemini 5 mission. They describe progressive thruster failures they blamed on a heater being switched off, and report seeing gold and silver balls of expelled spacecraft fuel and vented gas floating past their window — all identified by the crew as coming from their own spacecraft, not from external sources.",
+  "public_narrative": "This document is Part II of the Gemini 5 (GT-5) crew debriefing transcript, recorded between 30 August and 2 September 1965 at the Crew Quarters, Cape Kennedy, Florida. It was prepared by NASA's Spacecraft Operations Branch, Flight Crew Support Division. Originally stamped CONFIDENTIAL, it was declassified on 20 November 1973 under a standard 12-year downgrade schedule.\n\nAstronauts L. Gordon Cooper and Charles \"Pete\" Conrad walk engineers through the performance of the spacecraft's Orbital Attitude and Maneuvering System (OAMS) — the thrusters used to control the capsule's position and movement in orbit. They describe a progressive failure that began around day three of the eight-day mission. By day five, thrusters 7 and 8 had stopped working within one orbit of each other, and by mission's end fewer than half the thrusters were still operational. Cooper was emphatic about the cause: he believed the decision to turn off the OAMS heater led the fuel system to freeze up, with source temperatures dropping to around 48 degrees. The spacecraft also launched with roughly 50 pounds less OAMS fuel than planned, reading 87% on the gauge at lift-off instead of the expected 100%.\n\nWhen the malfunctioning thrusters did fire, the crew reported striking visual effects. Cooper recalled seeing \"gold balls\" and \"great big balls of liquid\" expelled from the spacecraft. Throughout the mission, the crew also observed silver balls of vented hydrogen or oxygen drifting past at low sun angles. The crew identified all of these objects as material originating from their own spacecraft — leaked fuel, oxidiser, or vented gas — not as unidentified external objects.\n\nThe transcript also covers other systems issues: the primary horizon scanner was inoperative, the Radar Evaluation Pod (REP) was deployed 15 seconds late due to that scanner failure and drifted away instead of slowing as expected, and the platform attitude-control mode performed far worse than its design specification. Cooper criticised the practice of scheduling complex tasks too early in a flight, before crews had time to settle into the spacecraft.",
   "public_caveats": [
-    "The full body text of this document could not be extracted due to poor scan quality — all facts here come from metadata and the war.gov catalogue description only.",
-    "The 64-page 'Visual Sightings' section (pages 157–220) has not been reviewed in detail, so the crew's full observations are unknown from this summary alone.",
-    "The described objects — debris, snow-like particles, glittering pieces — have common mundane explanations in spaceflight, such as ice crystals or insulation fragments. The metadata does not label them as anomalous.",
-    "All three verifiable claims in this document carry 'red' confidence ratings, meaning they lack direct source-quote verification from the document text.",
-    "There is low evidence of redaction in the document, but the poor scan quality limits what can be confirmed."
+    "This is a preliminary, unfinished transcript made from voice recordings. NASA's own preface notes that errors may exist and a thorough editorial review was never completed before publication.",
+    "The extracted text is heavily degraded by OCR artefacts, making some passages difficult to parse with certainty.",
+    "The \"Visual Sightings\" section (pages 152–172) referenced in the document's table of contents is mostly absent from the available extracted text; the bulk of what survives covers systems operations.",
+    "The gold and silver \"balls\" described by the crew are explicitly identified by them as spacecraft-origin materials — fuel, oxidiser, and vented hydrogen or oxygen — not as unidentified aerial phenomena.",
+    "No visible redactions appear in the released text, though the document was originally classified CONFIDENTIAL under espionage-related laws."
   ]
 }

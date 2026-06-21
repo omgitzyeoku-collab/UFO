@@ -1,0 +1,52 @@
+{
+  "sha256": "471d6b6d1284c80b187985ff782f0af69703f6ed94c774c44ce80c15425a35de",
+  "title": "DOW-UAP-D084, US Army-Flying-Saucer-Study_1949",
+  "agency": "Department of War",
+  "type": "IMG",
+  "what_is_it": "A classified US Army evaluation study image examining whether flying saucers could be attributed to natural phenomena or foreign power activity.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "extreme",
+  "interpretation_warnings": [
+    "The source is an image file (IMG type) with near-total OCR failure — only the classification marking 'SECRET' and a few fragments were extracted.",
+    "Almost all factual context comes from the CSV metadata description rather than the document body itself.",
+    "The actual findings and conclusions of the study are not available from the extracted text.",
+    "Without readable body text, no specific claims, people, places, or dates from the study content can be verified."
+  ],
+  "fabrication_score": 4,
+  "key_facts": [
+    {
+      "field": "classification",
+      "value": "SECRET",
+      "source_quote": "SECRET",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The document was classified SECRET",
+      "source_quote": "SECRET",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-06-19T22:55:43.995Z",
+  "qa_completed_at": "2026-06-19T22:56:12.139Z",
+  "timing": {
+    "A": "14.6s",
+    "B": "13.5s"
+  }
+}

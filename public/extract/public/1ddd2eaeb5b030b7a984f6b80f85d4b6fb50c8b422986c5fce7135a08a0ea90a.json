@@ -5,76 +5,242 @@
   "type": "IMG",
   "incident_date": "February, 2022",
   "incident_location": "Colorado Springs, Colorado, U.S.",
-  "what_is_it": "An FBI FD-302 interview summary form documenting an interview with a U.S. military service member about a UAP sighting.",
+  "what_is_it": "FBI FD-302 interview summary documenting a military service member's account of an unresolved UAP sighting near Fort Carson, Colorado Springs, in February 2022.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "Source text could not be extracted from the image; all facts are derived from the CSV metadata description provided by war.gov.",
-    "Single-witness account from a military service member — no corroborating sensor data or additional witnesses mentioned.",
-    "The interview occurred approximately three years after the incident, raising potential recall reliability concerns.",
-    "The witness's identity is not disclosed; the document likely contains redactions of personally identifiable information.",
-    "The case is described as 'unresolved' — no identification or explanation of the object has been provided."
+    "Heavy redactions throughout: all witness names, unit designations, and specific building names are redacted.",
+    "Source text is OCR from a scanned image, introducing transcription artifacts (e.g. 'basn-Shaped' for 'bean-shaped', 'Cheyanne' for 'Cheyenne').",
+    "The document only captures one side of the story — the interviewee's recollection three years after the event.",
+    "The surface pattern description ('intersecting lines or ridges forming an abstract polygon pattern') comes from the CSV metadata description and is not visible in the extracted source text portion, suggesting the full document contains additional text not captured here.",
+    "No corroborating sensor data, photographs, or official military reports are referenced in the visible text.",
+    "AARO follow-up interviews are noted in the metadata but their findings are not included."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 3,
   "key_facts": [
     {
       "field": "document_type",
       "value": "FBI FD-302 (interview record form)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "FEDERAL BUREAU OF INVESTIGATION",
+      "citation_offset": {
+        "offset": 35,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "agency",
-      "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "interview_date",
+      "value": "March 2025",
+      "source_quote": "on verch [ll 2025",
+      "citation_offset": {
+        "offset": 87,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "interview_method",
+      "value": "Microsoft Teams",
+      "source_quote": "interviewed via Microsoft Teams",
+      "citation_offset": {
+        "offset": 113,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
       "field": "incident_date",
-      "value": "February 2022",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "value": "Early February 2022, workday, approximately 1:00-2:00 PM",
+      "source_quote": "the UP sighting occurred on a workday in early February 2022, at approximately 1:00 or 2:00 in the afternoon",
+      "citation_offset": {
+        "offset": 395,
+        "len": 108,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
       "field": "incident_location",
-      "value": "Colorado Springs, Colorado",
-      "source_quote": "",
+      "value": "Fort Carson, near Cheyenne Mountain, Colorado Springs",
+      "source_quote": "Fort Carson",
+      "citation_offset": {
+        "offset": 504,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_witnesses",
+      "value": "5 (the interviewee and four other soldiers from his unit)",
+      "source_quote": "he and four other persons from his Unit",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "weather_conditions",
+      "value": "Pleasant with clear blue skies",
+      "source_quote": "it was pleasant with clear blue skies",
+      "citation_offset": {
+        "offset": 625,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_color",
+      "value": "Matte white or off-white, non-metallic",
+      "source_quote": "matte white, or off-white in color and appearing non-metallic",
+      "citation_offset": {
+        "offset": 1051,
+        "len": 51,
+        "exact": false,
+        "matched": "matte white, or off-white in color and appearing no"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "object_movement",
+      "value": "Completely motionless",
+      "source_quote": "The object was completely motionless",
+      "citation_offset": {
+        "offset": 1263,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_sound",
+      "value": "No sound",
+      "source_quote": "no sound could be heard coming from it",
+      "citation_offset": {
+        "offset": 1304,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_position",
+      "value": "Hovering over Cheyenne Mountain in a low point or saddle",
+      "source_quote": "hovering just over Cheyanne mountain, in a low point or \"saddle\" in the mountain",
+      "citation_offset": {
+        "offset": 935,
+        "len": 55,
+        "exact": false,
+        "matched": "hovering just over Cheyanne mountain, in a low point or"
+      },
+      "confidence": "amber"
     }
   ],
   "named_people": [],
   "named_places": [
-    "Colorado Springs, Colorado"
+    "Fort Carson",
+    "Cheyenne Mountain"
   ],
   "dated_events": [
-    "February 2022"
+    "early February 2022",
+    "March 2025"
   ],
   "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "The FBI conducted an interview in March 2025 with a U.S. military service member about a February 2022 UAP incident in Colorado Springs.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Five soldiers from the same unit simultaneously observed the object near Cheyenne Mountain.",
+      "source_quote": "ALL five of the men saw the object and were pointing it out",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1344,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object appeared to hover motionless over a saddle point on Cheyenne Mountain.",
+      "source_quote": "hovering just over Cheyanne mountain, in a low point or \"saddle\" in the mountain",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 935,
+        "len": 55,
+        "exact": false,
+        "matched": "hovering just over Cheyanne mountain, in a low point or"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object produced no audible sound.",
+      "source_quote": "no sound could be heard coming from it",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1304,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object appeared non-metallic with a matte white or off-white surface.",
+      "source_quote": "matte white, or off-white in color and appearing non-metallic",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1051,
+        "len": 51,
+        "exact": false,
+        "matched": "matte white, or off-white in color and appearing no"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The sighting occurred on a clear-sky workday at approximately 1:00-2:00 PM.",
+      "source_quote": "it was pleasant with clear blue skies",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 625,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The interview was conducted via Microsoft Teams by an FBI Special Agent and Supervisory Special Agent.",
+      "source_quote": "interviewed via Microsoft Teams by Special agent (sh) [EN. od Supervisory Special Agent",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 113,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 4,
+    "amber": 2,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:19:33.911Z",
-  "qa_completed_at": "2026-06-14T03:20:17.939Z",
+  "qa_started_at": "2026-06-19T22:08:43.247Z",
+  "qa_completed_at": "2026-06-19T22:09:30.196Z",
   "timing": {
-    "A": "18.5s",
-    "B": "25.5s"
-  }
+    "A": "25.1s",
+    "B": "21.9s",
+    "E": "20.1s"
+  },
+  "public_headline": "FBI Interview Records Unresolved UAP Sighting Near Cheyenne Mountain",
+  "public_tldr": "This FBI interview record documents a military service member's account of an unidentified anomalous phenomenon (UAP) spotted near Fort Carson and Cheyenne Mountain, Colorado Springs, on a clear afternoon in early February 2022. Five soldiers reportedly observed a motionless, matte white, non-metallic object hovering silently over a saddle point on the mountain, and the sighting remains officially unresolved.",
+  "public_narrative": "This document is an FBI FD-302 — a standard FBI form used to summarise witness interviews. It records a conversation conducted via Microsoft Teams in March 2025 between FBI agents (a Special Agent and a Supervisory Special Agent) and a military service member stationed at Fort Carson, Colorado Springs. The interview took place roughly three years after the reported sighting.\n\nAccording to the interviewee, on a workday in early February 2022, at approximately 1:00 to 2:00 in the afternoon, he and four other soldiers from his unit observed an unusual object in clear blue skies near Cheyenne Mountain. The object appeared matte white or off-white, non-metallic in appearance, and was hovering motionless over a low point or \"saddle\" in the mountain. It produced no audible sound. All five soldiers saw and pointed out the object.\n\nThe document is heavily redacted throughout. All witness names, military unit designations, and specific building names have been removed. The source text was produced by optical character recognition (OCR) from a scanned image, which introduces minor transcription errors in places.\n\nNo corroborating evidence is referenced in the visible portion of the document — no sensor data, photographs, or official military reports. The FBI does not offer a conclusion or explanation for what the object was. The sighting is classified as unresolved.",
+  "public_caveats": [
+    "Heavy redactions obscure all witness identities, unit designations, and specific locations within Fort Carson.",
+    "This is a single-source account — one person's recollection, recorded three years after the event, with no corroborating sensor data, photographs, or military reports referenced.",
+    "The document text was produced by OCR from a scanned image, meaning some words may be garbled or misread.",
+    "The FBI records the witness's account but does not offer any conclusion or explanation for the sighting.",
+    "Some details cited in the metadata (such as a surface pattern description) do not appear in the visible extracted text, suggesting portions of the full document were not captured."
+  ]
 }

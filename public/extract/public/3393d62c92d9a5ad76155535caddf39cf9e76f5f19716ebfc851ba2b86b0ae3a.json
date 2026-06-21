@@ -4,53 +4,400 @@
   "agency": "U.S. Government",
   "type": "PDF",
   "incident_date": "1998",
-  "what_is_it": "A collection of draft and final correspondence from the White House and Congressional offices responding to constituent inquiries about UFOs, dating primarily from 1998.",
+  "what_is_it": "Collection of congressional and White House correspondence from 1998 responding to constituent inquiries about UFOs, including an enclosed 1976 SEARCH magazine article by James Oberg debunking alleged astronaut UFO sightings.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No extracted body text available — all facts derived from document metadata and CSV description only.",
-    "The PDF appears to be scanned with poor or no OCR, so specific names, dates, and verbatim quotes from the letters themselves could not be captured.",
-    "Source quotes are empty throughout because no body text was extractable.",
-    "The document reflects the official U.S. Government position as of 1998, which has since evolved significantly with the establishment of AARO and congressional UAP hearings."
+    "Constituent names are redacted under FOIA exemptions (b)(5) and (b)(6), preventing verification of the original inquiries.",
+    "The enclosed Oberg article from 1976 represents one researcher's analysis; while detailed, it is a single-source investigation published in a popular magazine, not a peer-reviewed study.",
+    "The NASA responses are official institutional positions, which may reflect institutional interests in downplaying unexplained sightings.",
+    "OCR quality of the scanned 1976 magazine article is poor in places, with some passages partially illegible, meaning minor details may be missed or misread.",
+    "The document's own abstract notes it includes 'references to materials of both confirmed and unconfirmed authenticity, as provided by constituents'.",
+    "Soviet cosmonaut UFO claims discussed in the article are explicitly noted as unverifiable due to Soviet secrecy — they are neither confirmed nor debunked."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "USG-UAP-D001",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "HATS Action ID (Snowe letter)",
+      "value": "L11998-00407",
+      "source_quote": "INCOMING CORRESPONDENCE ACTION ID Number: L11998-00407",
+      "citation_offset": {
+        "offset": 67,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "primary_date",
-      "value": "1998",
-      "source_quote": "",
+      "field": "HATS Action ID (Grassley letter)",
+      "value": "L/1998-00729",
+      "source_quote": "INCOMING CORRESPONDENCE ACTION ID Number: L/1998-00729",
+      "citation_offset": {
+        "offset": 911,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Senator forwarding Mars/UFO inquiry",
+      "value": "Senator Snowe (Maine)",
+      "source_quote": "SEN SNOWE FWDS LTR FROM (b) (6) OF STOCKINGTON, MAINE",
+      "citation_offset": {
+        "offset": 588,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Senator forwarding astronaut sightings inquiry",
+      "value": "Senator Grassley",
+      "source_quote": "Senator Grassley forwards letter from (ts) (S) who is requesting information on UFO sightings by Astronauts",
+      "citation_offset": {
+        "offset": 1393,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NASA official position on UFOs (1998)",
+      "value": "NASA has no UFO investigation program and has not withheld information",
+      "source_quote": "NASA has no program for investigating UFOs and has not withheld information on sightings",
+      "citation_offset": {
+        "offset": 2434,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Most astronaut sightings explained as",
+      "value": "Launch vehicle material, spacecraft debris, or water droplets",
+      "source_quote": "Most of these items were later identified by photographs or NORAD records as material from launch vehicles or spacecraft or were such items as water droplets",
+      "citation_offset": {
+        "offset": 2072,
+        "len": 157,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Lunar mission UFO sightings",
+      "value": "None reported",
+      "source_quote": "No unidentified materials were seen on missions to the moon",
+      "citation_offset": {
+        "offset": 2231,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "McDivitt Gemini-4 UFO identity (Oberg conclusion)",
+      "value": "Gemini-4's own booster rocket stage",
+      "source_quote": "I have no doubt that McDivitt was seeing his own Titan booster stage",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Why NORAD missed the booster",
+      "value": "NASA queried NORAD for other satellites near Gemini-4 but never asked about Gemini-4's own associated debris",
+      "source_quote": "the computer was given a 'query' which told it to compare Gemini-4 with the other satellites. The computer never knew where the Gemini booster was relative to the spacecraft, since it had not been asked",
+      "citation_offset": {
+        "offset": 18579,
+        "len": 80,
+        "exact": false,
+        "matched": "h the other satellites. The computer never knew where the Gemini booster was rel"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "McDivitt's eye condition during sighting",
+      "value": "Red and teary eyes from cabin atmosphere reaction and urine spill",
+      "source_quote": "His eyes were red and teary due to a reaction with the cabin atmosphere and an accidental massive urine spill",
+      "citation_offset": {
+        "offset": 20649,
+        "len": 100,
+        "exact": false,
+        "matched": "yes were red and teary due to a reaction with the cabin atmosphere and an accidental massive urine s"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Gemini-7 'UFO force field' photo",
+      "value": "Forgery — retouched photo of roll control rocket thrusters on spacecraft nose",
+      "source_quote": "The photograph is a forgery. It is a hoax.",
+      "citation_offset": {
+        "offset": 26686,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Gemini-11 UFO identity (Oberg conclusion)",
+      "value": "Soviet satellite Proton-3 in orbital decay",
+      "source_quote": "The object was indeed Proton-3",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Apollo-12 UFO identity",
+      "value": "S-IVB booster and SLA panels — crew was joking with ground control",
+      "source_quote": "Conrad claims that it was just a joke about the large panels which enclose the lunar module during launch",
+      "citation_offset": {
+        "offset": 39067,
+        "len": 105,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NASA photo availability policy",
+      "value": "All astronaut photos are public domain, available to anyone willing to pay reproduction costs",
+      "source_quote": "Every photograph ever taken by American astronauts for NASA is on file with Bara Studios and can be obtained by anyone willing to pay for them",
+      "citation_offset": {
+        "offset": 12877,
+        "len": 45,
+        "exact": false,
+        "matched": " Bara Studios and can be obtained by anyone w"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "NASA respondent",
+      "value": "Edward Heffernan, Associate Administrator for Legislative Affairs",
+      "source_quote": "Edward Heffernan Associate Administrator for Legislative Affairs",
+      "citation_offset": {
+        "offset": 2921,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Oberg article original publication",
+      "value": "SEARCH magazine, 1976",
+      "source_quote": "In 1976, James Oberg thoroughly researched the UFO/astronaut allegations and published an article about it in SEARCH magazine",
+      "citation_offset": {
+        "offset": 2524,
+        "len": 125,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "File Plan classification",
+      "value": "1320.4 Aeronautics:UFO",
+      "source_quote": "1320 .4 Aeronautics:UFO",
+      "citation_offset": {
+        "offset": 0,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "named_people": [],
-  "named_places": [],
+  "named_people": [
+    "Edward Heffernan",
+    "Charles E. Grassley",
+    "Snowe",
+    "James E. Oberg",
+    "Jim McDivitt",
+    "Ed White",
+    "Richard Underwood",
+    "Charles 'Pete' Conrad",
+    "Richard Gordon",
+    "Alan Bean",
+    "Scott Carpenter",
+    "James Harder",
+    "Robert Emeneggar",
+    "J. Allen Hynek",
+    "Jack Acuff",
+    "Dale Myers",
+    "Donald Ratsch",
+    "D.W. Kindschi",
+    "Roger Launius",
+    "Bob Barry"
+  ],
+  "named_places": [
+    "Stockington, Maine",
+    "Washington, DC",
+    "Cape Kennedy",
+    "Cape Canaveral",
+    "Houston",
+    "Cheyenne Mountain, Colorado",
+    "NASA Johnson Space Center",
+    "NASA Goddard Space Center, Greenbelt, Maryland",
+    "Denver",
+    "University of California at Santa Cruz",
+    "Bladensburg, MD",
+    "Hollywood"
+  ],
   "dated_events": [
-    "1998"
+    "05/18/1998",
+    "06/24/1998",
+    "08/03/1998",
+    "09/04/1998",
+    "09/10/1998",
+    "June 3, 1965",
+    "December 4, 1965",
+    "November 14, 1969",
+    "July 1, 1965",
+    "February 23, 1976",
+    "March 5, 1976",
+    "April 12, 1976",
+    "November 8, 1975",
+    "February 5, 1973"
   ],
   "objects_described": [
-    "UFOs"
+    "Gemini-4 booster rocket (cylindrical with arm/straps)",
+    "Pegasus-2 meteor satellite",
+    "Gemini roll control rocket thrusters (hexagonal glowing objects in forged photo)",
+    "Proton-3 Soviet satellite (stubby cylinder with four triangular canted solar panels)",
+    "S-IVB Saturn booster stage",
+    "SLA panels (Spacecraft Lunar Adapter panels)",
+    "Frozen fuel droplets and spacecraft debris",
+    "Agena rendezvous target vehicle"
   ],
-  "verifiable_claims": [],
-  "tier": "red",
+  "verifiable_claims": [
+    {
+      "claim": "NASA had no program for investigating UFOs as of 1998",
+      "source_quote": "NASA has no program for investigating UFOs and has not withheld information on sightings",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2434,
+        "len": 88,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Air Force discontinued its UFO investigation activity after receiving and investigating reports for many years",
+      "source_quote": "The Air Force, in the interest of national security, received and investigated all reports for many years but has discontinued this activity",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2292,
+        "len": 140,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "NORAD was never queried about Gemini-4's own booster, only about other satellites, leaving the identification incomplete",
+      "source_quote": "NASA had not asked about Gemini-4 and its own associated debris- it had asked about Gemini-4 and any other earlier satellites",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 18262,
+        "len": 90,
+        "exact": false,
+        "matched": "NASA had not asked about Gemini-4 and its own associated debris- it had asked about Gemini"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "McDivitt had already misidentified his own booster earlier in the same flight when it was near the sun's glare",
+      "source_quote": "on at least one occasion on the first day, McDivitt had at first been unable to recognize the booster when he saw it because it was close to the glare of the sun",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20230,
+        "len": 100,
+        "exact": false,
+        "matched": "on at least one occasion on the first day, McDivitt had at first been unable to recognize the booste"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The famous Gemini-7 'UFO with force field' photograph was a deliberate forgery made by retouching a photo of spacecraft thrusters",
+      "source_quote": "The photograph is a forgery. It is a hoax. What the anonymous counterfeiter did was take an ordinary photograph of Earth made from the Gemini-7 spaceship",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 26686,
+        "len": 65,
+        "exact": false,
+        "matched": "The photograph is a forgery. It is a hoax. What the anonymous cou"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "NORAD does not continuously track all objects in space but instead calculates and extrapolates orbits from periodic radar observations",
+      "source_quote": "NORAD does not 'track everything in space' like the radar screens of some air traffic control center",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Every photograph taken by American astronauts for NASA is publicly available",
+      "source_quote": "Every photograph ever taken by American astronauts for NASA is on file with Bara Studios and can be obtained by anyone willing to pay for them",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12877,
+        "len": 45,
+        "exact": false,
+        "matched": " Bara Studios and can be obtained by anyone w"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Astronaut Conrad confirmed in writing that the Apollo-12 sighting was a joke about SLA panels, not a real UFO encounter",
+      "source_quote": "Conrad confirmed these quotations in a letter to me dated April 12, 1976. 'I hope your paper is widely printed'",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 40709,
+        "len": 70,
+        "exact": false,
+        "matched": "Conrad confirmed these quotations in a letter to me dated April 12, 19"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "No unidentified materials were observed during any Apollo lunar missions",
+      "source_quote": "No unidentified materials were seen on missions to the moon",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 2231,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Dale Myers stated all Apollo crew sightings were determined to be S-IVB boosters, SLA panels, or mylar foil particles",
+      "source_quote": "the flight controllers determined the observations were probably either the S-IVB booster, the spacecraft lunar adapter (SLA) panels, or smaller objects such as mylar foil particles",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 47468,
+        "len": 181,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 4,
+    "amber": 6,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:37:48.885Z",
-  "qa_completed_at": "2026-06-14T03:38:25.141Z",
+  "qa_started_at": "2026-06-19T22:52:49.163Z",
+  "qa_completed_at": "2026-06-19T22:54:44.754Z",
   "timing": {
-    "A": "16.2s",
-    "B": "20.0s"
-  }
+    "A": "65.3s",
+    "B": "50.2s",
+    "E": "31.4s"
+  },
+  "public_headline": "1998 Letters Show How Congress and NASA Handled UFO Inquiries",
+  "public_tldr": "This document is a collection of 1998 correspondence between U.S. senators, the White House, and NASA responding to constituents who asked about UFOs and astronaut sightings. NASA's official position was that it had no UFO investigation program and had not withheld information, and it enclosed a 1976 magazine article by researcher James Oberg that offered mundane explanations for famous astronaut sighting claims.",
+  "public_narrative": "In 1998, Senator Snowe of Maine and Senator Grassley each forwarded constituent letters to the White House and NASA asking about UFOs — one about Mars-related claims, the other requesting information on UFO sightings by astronauts. The correspondence was processed through the White House's tracking system under action IDs L11998-00407 and L/1998-00729, and filed under the classification \"1320.4 Aeronautics:UFO.\"\n\nNASA's response, signed by Edward Heffernan, Associate Administrator for Legislative Affairs, stated plainly that NASA had no program for investigating UFOs and had not withheld information on sightings. The agency noted that the Air Force had previously received and investigated UFO reports for many years but had discontinued that activity. According to NASA, most objects seen by astronauts during orbital missions were later identified through photographs or NORAD records as launch vehicle material, spacecraft debris, or water droplets. NASA also stated that no unidentified materials were observed during any Apollo lunar missions.\n\nEnclosed with the response was a 1976 article from SEARCH magazine by space researcher James Oberg, which examined several famous astronaut UFO claims case by case. Oberg concluded that astronaut Jim McDivitt's sighting during the June 1965 Gemini-4 mission was likely the spacecraft's own Titan booster rocket — an identification missed at the time because NASA had asked NORAD to check for other satellites nearby but never asked about Gemini-4's own associated debris. Oberg also noted that McDivitt's eyes were red and teary during the sighting due to a cabin atmosphere reaction and a urine spill. A widely circulated photograph from Gemini-7 supposedly showing a UFO with a \"force field\" was identified in the article as a deliberate forgery — a retouched image of the spacecraft's own roll control thrusters. The Apollo-12 \"sighting\" was explained as a joke by astronaut Pete Conrad about the large SLA panels visible after launch, which Conrad himself confirmed in a 1976 letter to Oberg.\n\nThe constituent names throughout the correspondence are redacted under FOIA exemptions (b)(5) and (b)(6), so the original inquiries cannot be verified. The document is moderate in its level of redaction — the government responses and the enclosed article are largely readable, but the identities of the people who prompted them are blacked out.",
+  "public_caveats": [
+    "The Oberg article enclosed by NASA is a single researcher's analysis published in a popular magazine in 1976, not a peer-reviewed scientific study. It is detailed but represents one investigator's conclusions.",
+    "Constituent names are redacted under FOIA privacy exemptions, so the original questions that prompted these responses cannot be independently verified.",
+    "NASA's responses are official institutional positions, which may reflect the agency's institutional interest in providing conventional explanations for sightings.",
+    "Some passages in the scanned 1976 article are partially illegible due to poor OCR quality, meaning minor details may have been missed or misread.",
+    "Soviet cosmonaut UFO claims discussed in the Oberg article are noted as unverifiable due to Soviet-era secrecy — they are neither confirmed nor debunked by the document."
+  ]
 }

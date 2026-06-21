@@ -3,33 +3,223 @@
   "title": "DOW-UAP-D086, USNavy-Report-of-Flying-Discs_1948",
   "agency": "Department of War",
   "type": "PDF",
-  "what_is_it": "A memorandum from the Commandant of the 5th Naval District regarding reporting procedures for 'flying disc' sightings, referencing guidance from the Chief of Naval Operations.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "A classified memorandum from the Commandant of the Fifth Naval District forwarding a directive from the Chief of Naval Operations regarding the reporting of 'Flying Disc' sightings.",
+  "core_summary": "This December 1948 memorandum relays a directive from the Chief of Naval Operations instructing all naval stations to report sightings of 'Flying Discs' or other unidentified aerial objects to the nearest Air Force command and Naval District Intelligence Office. The directive states that US Air Force intelligence had determined a new cycle of 'Flying Disc' reappearances was imminent and requested prompt reporting and investigation, including photographic evidence where possible.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived from the CSV metadata description only.",
-    "The document may contain additional detail not captured here due to OCR failure or scan quality.",
-    "Single-source metadata: the CSV description is the sole basis for these facts."
+    "The OCR quality is poor with numerous character substitutions, making some text ambiguous.",
+    "The document is a forwarded directive — the original CNO letter is quoted rather than attached, so context may be incomplete.",
+    "The classification marking 'CONFIDENTIAL' indicates this was restricted at the time; the current declassification status should be verified.",
+    "The reference to a 'cycle of reappearance' suggests a pattern analysis by USAF intelligence, but no supporting data or methodology is provided in this document.",
+    "Pages 1 and 3 contain fragmentary text that appears to be filing or routing metadata, largely unreadable due to poor scan quality."
   ],
-  "fabrication_score": 5,
-  "key_facts": [],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "Confidential memorandum",
+      "source_quote": "CONFI­DENTIAL",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "originating_office",
+      "value": "Headquarters, Fifth Naval District, Norfolk 11, Virginia",
+      "source_quote": "HEADQUARTERS FIFTH NAVAL DISTRICT Norfolk 11, Virginia",
+      "citation_offset": {
+        "offset": 124,
+        "len": 34,
+        "exact": false,
+        "matched": "HEADQUARTERS FIFTH NAVAL DISTRICT "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "author",
+      "value": "Commandant, Fifth Naval District",
+      "source_quote": "From: Commandant, Fifth Naval Disteict",
+      "citation_offset": {
+        "offset": 338,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "recipients",
+      "value": "Activities listed in Distribution List",
+      "source_quote": "To: Activities Indicated in Distribution List",
+      "citation_offset": {
+        "offset": 382,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date",
+      "value": "13 December 1948",
+      "source_quote": "13 Deo 1948",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "subject",
+      "value": "Flying Discs - Report of",
+      "source_quote": "Subj: \"Flying Discs\" - Report of",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "USAF_intelligence_assessment",
+      "value": "A cycle of reappearance of Flying Discs was becoming apparent, with a new interval imminent",
+      "source_quote": "a cycle of reappearance of \"Flying Discs\" is becoming epparent, end that the beginning of a new interval is imminent",
+      "citation_offset": {
+        "offset": 877,
+        "len": 65,
+        "exact": false,
+        "matched": "ing epparent, end that the beginning of a new interval is imminen"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "reporting_instruction",
+      "value": "All stations directed to report sightings to nearest Air Force command and Naval District Intelligence Office",
+      "source_quote": "all stations be dirsoted to report to the nearest Air Force command and to the Naval District Intelligence Office",
+      "citation_offset": {
+        "offset": 1145,
+        "len": 65,
+        "exact": false,
+        "matched": "to report to the nearest Air Force command and to the Naval Distr"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "evidence_request",
+      "value": "Photographic evidence to be obtained whenever possible",
+      "source_quote": "photographic evidence of the phenomena be obtained whenever possible",
+      "citation_offset": {
+        "offset": 1361,
+        "len": 53,
+        "exact": false,
+        "matched": "idence of the phenomena be obtained whenever possible"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "intelligence_routing",
+      "value": "DIOs forward information to Chief of Naval Intelligence, who passes it to USAF Director of Intelligence by fastest means",
+      "source_quote": "DIO's will forwerd such information to tho Chief of Navel Intelligence who will pess the information to the Dircotor of Intelligence U.S. Air Force by the festest moans",
+      "citation_offset": {
+        "offset": 1489,
+        "len": 70,
+        "exact": false,
+        "matched": "telligence who will pess the information to the Dircotor of Intelligen"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "signatory_CNO_letter",
+      "value": "Thos. B. Inglis",
+      "source_quote": "s/ Thos. B. Inplis THOS. B. INGLIS",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "chief_of_staff",
+      "value": "R. C. Hudson",
+      "source_quote": "s/ R. C. Budson R. C. HUDSON CHIEF OF STAFF",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Thos. B. Inglis",
+    "R. C. Hudson"
+  ],
+  "named_places": [
+    "Norfolk, Virginia"
+  ],
+  "dated_events": [
+    "13 December 1948"
+  ],
+  "objects_described": [
+    "Flying Discs",
+    "unidentified aerial objects"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The US Air Force Director of Intelligence informed the Navy Department that a cyclical reappearance of Flying Discs was becoming apparent and a new interval was imminent.",
+      "source_quote": "The Director of Intelligence, U.S. Air Force has informed the Navy Department that a cycle of reappearance of \"Flying Discs\" is becoming epparent, end that the beginning of a new interval is imminent",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 740,
+        "len": 100,
+        "exact": false,
+        "matched": "The Director of Intelligence, U.S. Air Force has informed the Navy Department that a cycle of reappe"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Air Force requested that sightings be reported as quickly as possible and that the phenomena be investigated.",
+      "source_quote": "They have requested that sny such sightings be reported as quickly as possible, and that these phenomens be investigated",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 947,
+        "len": 70,
+        "exact": false,
+        "matched": "They have requested that sny such sightings be reported as quickly as "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Naval stations were directed to report sightings of Flying Discs or other unidentified aerial objects to the nearest Air Force command and Naval District Intelligence Office.",
+      "source_quote": "all stations be dirsoted to report to the nearest Air Force command and to the Naval District Intelligence Office eny reported sighting of \"Flying Discs\" or other unidentified serial objects",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1145,
+        "len": 65,
+        "exact": false,
+        "matched": "to report to the nearest Air Force command and to the Naval Distr"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "District Intelligence Officers were to forward information to the Chief of Naval Intelligence, who would relay it to the USAF Director of Intelligence by the fastest means available.",
+      "source_quote": "DIO's will forwerd such information to tho Chief of Navel Intelligence who will pess the information to the Dircotor of Intelligence U.S. Air Force by the festest moans",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1489,
+        "len": 70,
+        "exact": false,
+        "matched": "telligence who will pess the information to the Dircotor of Intelligen"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
+    "amber": 4,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:15:49.575Z",
-  "qa_completed_at": "2026-06-14T03:16:16.021Z",
+  "qa_started_at": "2026-06-19T21:56:08.944Z",
+  "qa_completed_at": "2026-06-19T21:57:05.785Z",
   "timing": {
-    "A": "13.8s",
-    "B": "12.6s"
-  }
+    "A": "30.5s",
+    "B": "26.4s",
+    "E": "16.9s"
+  },
+  "public_headline": "US Navy Ordered Stations to Report Flying Disc Sightings in 1948",
+  "public_tldr": "This December 1948 confidential memorandum from the Fifth Naval District relays a directive from the Chief of Naval Operations ordering all naval stations to report sightings of 'Flying Discs' to the nearest Air Force command and Naval District Intelligence Office. The directive states that US Air Force intelligence believed a cyclical reappearance of Flying Discs was imminent.",
+  "public_narrative": "This is a confidential memorandum dated 13 December 1948, issued from the headquarters of the Fifth Naval District in Norfolk, Virginia. It was sent by the Commandant of the Fifth Naval District to activities listed in a distribution list. The memo forwards a directive originating from the Chief of Naval Operations regarding the reporting of 'Flying Disc' sightings.\n\nThe core instruction is straightforward: the US Air Force Director of Intelligence had informed the Navy Department that a cyclical pattern of 'Flying Disc' reappearances was becoming apparent and that a new interval was imminent. Based on this assessment, the Air Force requested that sightings be reported as quickly as possible and investigated.\n\nThe directive ordered all naval stations to report any sighting of Flying Discs or other unidentified aerial objects to the nearest Air Force command and to the Naval District Intelligence Office. Personnel were also instructed to obtain photographic evidence whenever possible.\n\nThe intelligence chain was clearly defined: District Intelligence Officers would forward information to the Chief of Naval Intelligence, who would then relay it to the USAF Director of Intelligence by the fastest means available. The original directive was signed by Thos. B. Inglis, and the forwarding memo by R. C. Hudson, identified as Chief of Staff.\n\nThe document does not describe any specific sighting, nor does it provide the data or methodology behind the Air Force's assessment of a cyclical pattern. It is an administrative directive establishing reporting procedures.",
+  "public_caveats": [
+    "The document was originally classified CONFIDENTIAL. Its current declassification status should be independently verified.",
+    "The reference to a 'cycle of reappearance' implies the Air Force had conducted pattern analysis, but no supporting data or methodology is provided in this document.",
+    "OCR quality is poor with numerous character substitutions, making some text ambiguous — confidence on several facts is rated amber rather than green.",
+    "This is a forwarded directive, not a first-hand report of any sighting. The original Chief of Naval Operations letter is quoted, not attached, so context may be incomplete.",
+    "Pages 1 and 3 contain fragmentary, largely unreadable text that appears to be filing or routing metadata."
+  ]
 }

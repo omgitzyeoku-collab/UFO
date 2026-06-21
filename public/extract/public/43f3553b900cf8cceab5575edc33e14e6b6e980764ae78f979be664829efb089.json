@@ -4,34 +4,241 @@
   "agency": "Department of War",
   "type": "PDF",
   "incident_date": "1953",
-  "what_is_it": "A transmittal document forwarding the CIA's 1953 Scientific Advisory Panel report on unidentified flying objects to the Secretary of Defense.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "Cover letter and routing slip transmitting the CIA's 1953 Scientific Advisory Panel report on Unidentified Flying Objects (the Robertson Panel report) to the Secretary of Defense.",
+  "core_summary": "This document is a classified CIA transmittal dated 17 March 1953 forwarding the report of a scientific panel convened to evaluate Unidentified Flying Objects. The cover letter, signed by Richard D. Drain of the Intelligence Advisory Committee, states the panel was convened at the direction of General Smith and notes that its conclusions point out potential dangers to national security related to the UFO subject. The panel concluded that UFOs posed no direct physical threat to national security but warned of indirect dangers such as the clogging of communication channels.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No text was extractable from the PDF — the document is likely a scanned image with poor OCR quality.",
-    "All facts are derived solely from the file metadata and CSV description provided by war.gov, not from the document body itself.",
-    "The actual findings and recommendations of the Scientific Panel cannot be confirmed from this source alone.",
-    "This is likely related to the Robertson Panel (officially the Scientific Advisory Panel on UFOs), a well-known 1953 CIA-convened review."
+    "OCR quality is extremely poor throughout — most of the attached panel report (pages 3, 5, 6, 7) is nearly illegible, with only scattered words recoverable.",
+    "The bulk of the scientific panel's actual findings, evidence review, and detailed recommendations are unreadable due to degraded source quality, not formal redaction.",
+    "Only the cover letter (page 4) and routing slip (page 2) are substantially legible.",
+    "This is the transmittal copy, not the full Robertson Panel report itself; the attached report pages are too degraded to extract substantive content.",
+    "The document was classified under US espionage laws at time of creation."
   ],
-  "fabrication_score": 4,
-  "key_facts": [],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "Secretary of Defense routing slip and CIA cover letter with attached scientific panel report",
+      "source_quote": "SECRETARY OF DEFENSE ROUTING SLIP (Classified)",
+      "citation_offset": {
+        "offset": 212,
+        "len": 46,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "date",
+      "value": "17 March 1953",
+      "source_quote": "17.Maren 1953",
+      "citation_offset": {
+        "offset": 2088,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "subject",
+      "value": "Report of the Scientific Panel on Unidentified Flying Objects",
+      "source_quote": "Report of the Scientific Pagel on Unidentified Viyimg Ubjecta",
+      "citation_offset": {
+        "offset": 2442,
+        "len": 31,
+        "exact": false,
+        "matched": "Report of the Scientific Pagel "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "alternate_subject_name",
+      "value": "Flying Saucers",
+      "source_quote": "(Flying Saucers)",
+      "citation_offset": {
+        "offset": 2482,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "convening_authority",
+      "value": "Panel convened at direction of General Smith per Intelligence Advisory Committee recommendation",
+      "source_quote": "This panel was convened at the direction of General Smith, following the recommendation of the Intelligence Advisory Committee",
+      "citation_offset": {
+        "offset": 7683,
+        "len": 65,
+        "exact": false,
+        "matched": "panel was convened at the direction of General Smith, following t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "purpose_of_transmittal",
+      "value": "CIA furnishing copy of panel report to Secretary of Defense",
+      "source_quote": "The Director of Central Intelligence has asked that you be furnished a copy of the attached report prepared by a psnel of scientists",
+      "citation_offset": {
+        "offset": 7546,
+        "len": 60,
+        "exact": false,
+        "matched": "urnished a copy of the attached report prepared by a psnel o"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "national_security_relevance",
+      "value": "Conclusions point out potential dangers to national security and suggest ways of elimination",
+      "source_quote": "they point out certain potential dangers to nstionsl security which are related to the subject and suggest ways of their elimination",
+      "citation_offset": {
+        "offset": 7960,
+        "len": 65,
+        "exact": false,
+        "matched": "ch are related to the subject and suggest ways of their eliminati"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "cia_position",
+      "value": "CIA did not consider flying saucer sightings primarily its concern but offered to assist",
+      "source_quote": "this Agency does not consider problems erising from signtings of 'flying saucers' primarily its concern, we shallbe pleased to assist",
+      "citation_offset": {
+        "offset": 8046,
+        "len": 50,
+        "exact": false,
+        "matched": "this Agency does not consider problems erising fro"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "copies_also_sent_to",
+      "value": "Chairman, National Security Resources Board",
+      "source_quote": "Chairmen, National Security Resources Board",
+      "citation_offset": {
+        "offset": 8328,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification",
+      "value": "Classified under espionage laws, Title 18 USC Sections 793 and 794",
+      "source_quote": "tho United States with the msaning of fhe espionage laws, Title 18, USS, Sees, 793 and 194",
+      "citation_offset": {
+        "offset": 8631,
+        "len": 35,
+        "exact": false,
+        "matched": "tho United States with the msaning "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "signatory",
+      "value": "Richard D. Drain, Intelligence Advisory Committee",
+      "source_quote": "RICHARD D. DRAIN Intelligence Advisory Committee",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Richard D. Drain",
+    "General Smith"
+  ],
+  "named_places": [
+    "Washington 25, D.C."
+  ],
+  "dated_events": [
+    "17 March 1953"
+  ],
+  "objects_described": [
+    "Unidentified Flying Objects (Flying Saucers)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The CIA convened a scientific panel on UFOs at the direction of General Smith, following the Intelligence Advisory Committee's recommendation.",
+      "source_quote": "This panel was convened at the direction of General Smith, following the recommendation of the Intelligence Advisory Committee",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7683,
+        "len": 65,
+        "exact": false,
+        "matched": "panel was convened at the direction of General Smith, following t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The panel's conclusions identified potential dangers to national security related to UFO reports and suggested ways to eliminate them.",
+      "source_quote": "they point out certain potential dangers to nstionsl security which are related to the subject and suggest ways of their elimination",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7960,
+        "len": 65,
+        "exact": false,
+        "matched": "ch are related to the subject and suggest ways of their eliminati"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The CIA stated it did not consider UFO sightings primarily its concern.",
+      "source_quote": "this Agency does not consider problems erising from signtings of 'flying saucers' primarily its concern",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8046,
+        "len": 50,
+        "exact": false,
+        "matched": "this Agency does not consider problems erising fro"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The panel concluded that UFOs posed no direct physical threat to national security.",
+      "source_quote": "no direct phywicel threat",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The panel identified the clogging of communication channels by UFO reports as an indirect national security concern.",
+      "source_quote": "the elogsin of channe annels of commnteation",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Copies of the report were also sent to the Chairman of the National Security Resources Board.",
+      "source_quote": "Chairmen, National Security Resources Board",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8328,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 1,
+    "amber": 5,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:14:57.347Z",
-  "qa_completed_at": "2026-06-14T03:15:23.612Z",
+  "qa_started_at": "2026-06-19T21:54:16.209Z",
+  "qa_completed_at": "2026-06-19T21:55:25.109Z",
   "timing": {
-    "A": "12.7s",
-    "B": "13.5s"
-  }
+    "A": "41.3s",
+    "B": "27.6s",
+    "E": "20.4s"
+  },
+  "public_headline": "CIA Sent Its 1953 UFO Panel Report to the Secretary of Defense",
+  "public_tldr": "This 1953 document is a CIA cover letter forwarding the Robertson Panel's scientific report on Unidentified Flying Objects to the Secretary of Defense. The panel found UFOs posed no direct physical threat but warned that UFO reports could clog military communication channels — an indirect national security risk.",
+  "public_narrative": "On 17 March 1953, the CIA transmitted a scientific panel's report on Unidentified Flying Objects — also referred to as \"Flying Saucers\" — to the Secretary of Defense. The cover letter was signed by Richard D. Drain of the Intelligence Advisory Committee. According to the letter, the panel had been convened at the direction of General Smith, following a recommendation by the Intelligence Advisory Committee.\n\nThe panel's key conclusion, as described in the cover letter, was that UFOs did not pose a direct physical threat to national security. However, the panel warned of indirect dangers — specifically, that a flood of UFO sighting reports could clog communication channels, potentially interfering with military operations. The panel suggested ways to eliminate these indirect risks.\n\nThe CIA's cover letter also made clear that the agency did not consider UFO sightings to be primarily its concern, though it offered to assist. Copies of the report were also sent to the Chairman of the National Security Resources Board.\n\nThe document was classified under US espionage laws (Title 18, Sections 793 and 794) at the time of its creation. What survives today is the transmittal copy — a routing slip and cover letter — rather than the full panel report itself. The attached pages of the actual scientific panel report are nearly illegible due to severe degradation of the source material.\n\nThis is an important distinction: most of the panel's detailed findings, evidence review, and specific recommendations cannot be read from this copy. The illegibility stems from poor document quality rather than formal redaction, though the document also shows evidence of heavy redaction throughout.",
+  "public_caveats": [
+    "This is the transmittal copy (cover letter and routing slip), not the full Robertson Panel report — the actual panel findings attached are nearly illegible due to source degradation.",
+    "OCR quality is extremely poor on most pages; only the cover letter and routing slip are substantially readable.",
+    "Heavy redaction is present throughout the document, separate from the degradation issues.",
+    "The panel's conclusion that UFOs posed 'no direct physical threat' and the concern about 'clogging communication channels' are only partially legible in the source text and should be treated with moderate confidence.",
+    "The document was classified under espionage laws when created; its current availability does not mean all contents are recoverable or complete."
+  ]
 }

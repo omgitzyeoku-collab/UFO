@@ -4,57 +4,368 @@
   "agency": "NASA",
   "type": "PDF",
   "incident_date": "1962-1963",
-  "what_is_it": "A collection of memoranda, correspondence, reports, and interview transcripts relating to NASA's scientific investigation of luminous phenomena observed by astronauts during spaceflight in 1962-1963.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "what_is_it": "Collection of NASA memoranda, scientific debriefings, and correspondence from 1962-1963 regarding luminous phenomena observed by astronauts during Mercury orbital flights.",
+  "core_summary": "This document compiles NASA internal memoranda and scientific debriefings concerning luminous particles observed by astronauts John Glenn (MA-6) and Scott Carpenter (MA-7) during Mercury orbital flights in 1962. Scientists concluded the particles were not extraterrestrial but were associated with the spacecraft itself, most likely snowflakes formed by condensation of steam from the life-support system. The collection also includes analysis of an atmospheric haze layer observed at the horizon and a Los Alamos scientist's hypothesis that nitrogen peroxide (NO2) could explain the absorbing layer Glenn reported.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No extracted body text was available; all facts are derived solely from document metadata and the CSV description.",
-    "The document appears to be scanned with poor OCR quality, so the full content could not be analysed.",
-    "Only specific page ranges (34-35, 55-56, 57-63, 64-113, 122-127) are flagged as PURSUE-relevant; the remainder may cover unrelated NASA topics.",
-    "Without the source text, redaction levels and specific claims cannot be independently verified."
+    "The source PDF has heavy OCR degradation with numerous garbled characters, making some passages partially illegible",
+    "The document contains handwritten annotations and edits on typed drafts that are only partially recoverable",
+    "This is a collection of internal NASA working documents including rough drafts, not final published findings",
+    "The luminous particle phenomenon was conclusively explained as spacecraft-origin material (primarily condensation snowflakes), not anomalous aerial phenomena",
+    "The haze/airglow observations were identified as known atmospheric phenomena (5577 Angstrom airglow, possible NO2 absorption), not unexplained",
+    "Walter Schirra is mentioned in the CSV description but does not appear prominently in the extracted source text portions",
+    "Multiple scientists are quoted giving preliminary hypotheses in memoranda, not peer-reviewed conclusions"
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "Agency",
-      "value": "NASA",
+      "field": "Document type",
+      "value": "NASA memoranda, scientific debriefings, and correspondence",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     },
     {
-      "field": "Time period",
-      "value": "1962-1963",
-      "source_quote": "",
+      "field": "Particle origin conclusion",
+      "value": "Luminous particles were not extraterrestrial but associated with the spacecraft",
+      "source_quote": "it may be stated that the luminous particles observed by Col. Glenn were not extraterrestial particles but were particles associated with the spacecraft",
+      "citation_offset": {
+        "offset": 1988,
+        "len": 45,
+        "exact": false,
+        "matched": "particles observed by Col. Glenn were not ext"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Particle velocity consistency",
+      "value": "Particles moved at same speed and direction across all three orbits",
+      "source_quote": "the particles moved at precisely the same speed and moved at precisely the same direction except for particles coming very close to the spacecraft. This occurred similarly on all three orbits",
+      "citation_offset": {
+        "offset": 1730,
+        "len": 65,
+        "exact": false,
+        "matched": " precisely the same direction except for particles coming very cl"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Particle color",
+      "value": "Yellow-green coloring that became fluorescent in sunlight",
+      "source_quote": "The fact that the coloring was a yellow-green and the particles became fluorescent in sunlight",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Carpenter decisive experiment",
+      "value": "Hitting capsule walls produced large numbers of particles, confirming capsule origin",
+      "source_quote": "Carpenter performed the decisive experiment of hitting the capsule walls with his hand. The blows promptly resulted in the liberation of large numbers of particles",
+      "citation_offset": {
+        "offset": 34242,
+        "len": 40,
+        "exact": false,
+        "matched": "ent of hitting the capsule walls with hi"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Most likely particle source",
+      "value": "Snowflakes formed inside the capsule from life-support system steam exhaust",
+      "source_quote": "the particles of the Glenn effect are snowflakes formed in the capsule, between the cabin bulkhead and the heat shield by the steam exhaust from the life-support system",
+      "citation_offset": {
+        "offset": 38394,
+        "len": 55,
+        "exact": false,
+        "matched": "he capsule, between the cabin bulkhead and the heat shi"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Particle size estimate",
+      "value": "Between 1 mm and 1 cm, resembling snowflakes",
+      "source_quote": "The particles were verbally described by Carpenter as between 1 mm and 1 cm in size, and having a strong visual resemblance to snowflakes",
+      "citation_offset": {
+        "offset": 34023,
+        "len": 50,
+        "exact": false,
+        "matched": "les were verbally described by Carpenter as betwee"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Particle brightness",
+      "value": "Some considerably brighter than the moon, estimated between -12.5 and -15 magnitude",
+      "source_quote": "Some of them were very considerably brighter than the moon... the particles may have been between -12.5 magnitude (10 x brighter than the moon) and -15 magnitude (100 x brighter than the moon)",
+      "citation_offset": {
+        "offset": 33534,
+        "len": 40,
+        "exact": false,
+        "matched": "re very considerably brighter than the m"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Haze layer angular height illusion",
+      "value": "Eye estimates of 8-10 degrees were actually only 2-3 degrees; strong illusion exaggerating angles near horizon",
+      "source_quote": "there is a strong illusion which exaggerates angles near the horizon",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Airglow layer identification",
+      "value": "Luminous band identified as 5577 Angstrom airglow layer using filter",
+      "source_quote": "The filter cut out all other light, but passed the light of the luminous band, which is thus identified as the 5577 layer",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Airglow densest layer altitude",
+      "value": "89 kilometers above sea level",
+      "source_quote": "the densest part of the 5577 layer is at a height of 89 kilometers, which is in good agreement with rocket measures",
+      "citation_offset": {
+        "offset": 30136,
+        "len": 30,
+        "exact": false,
+        "matched": "the densest part of the 5577 l"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "NO2 hypothesis author",
+      "value": "Bob E. Watt of Los Alamos Scientific Laboratory proposed nitrogen peroxide as explanation for absorbing layer",
+      "source_quote": "it seems to me more likely that N02 would be responsible for an absorbing layer",
+      "citation_offset": {
+        "offset": 16681,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "NO2 color match",
+      "value": "Glenn's reported color matched NO2 vapor",
+      "source_quote": "The color suggested by Glenn fits very well, as may be quickly verified by looking thru the vapor space above concentrated nitric acid",
+      "citation_offset": {
+        "offset": 16921,
+        "len": 40,
+        "exact": false,
+        "matched": "as may be quickly verified by looking th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Cooper flashing light experiment",
+      "value": "Cooper attempted to observe a beacon light during night passes with mixed results",
+      "source_quote": "If I had no previous experience on the light, I don't believe I would have had any possibility of telling how far it was",
+      "citation_offset": {
+        "offset": 40768,
+        "len": 65,
+        "exact": false,
+        "matched": "elieve I would have had any possibility of telling how far it was"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Lightning observation",
+      "value": "Glenn observed striking lightning discharges from orbit suggesting satellite monitoring potential",
+      "source_quote": "The striking observations of lightning discharges as observed by Glenn point the way to consideration of an observation system for monitoring lightning storms over the earth",
+      "citation_offset": {
+        "offset": 5099,
+        "len": 55,
+        "exact": false,
+        "matched": "rges as observed by Glenn point the way to consideratio"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Memorandum date",
+      "value": "Rough draft dated January 13, 1962; Dubin memo dated February 21, 1962",
+      "source_quote": "ROUGH DRAFT: 1/13/62",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Carpenter observation date",
+      "value": "May 24, 1962",
+      "source_quote": "between 16 hr and 47 min (UT) and 17 hr and 03 min (UT), 24 May 1962",
+      "citation_offset": {
+        "offset": 26904,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Capsule exterior temperatures",
+      "value": "Fell to -35°C before sunrise, rose to +10°C after sunrise",
+      "source_quote": "The temperature was always lowest at night, falling to temperatures of -35°C just before sunrise, and rising to plus 10°c just after sunrise",
+      "citation_offset": {
+        "offset": 36574,
+        "len": 80,
+        "exact": false,
+        "matched": "The temperature was always lowest at night, falling to temperatures of -35°C jus"
+      },
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
+  "named_people": [
+    "John H. Glenn",
+    "Scott Carpenter",
+    "Gordon Cooper",
+    "Maurice Dubin",
+    "Jocelyn Gill",
+    "J. A. O'Keefe",
+    "Bob E. Watt",
+    "Robert Sherman",
+    "Arthur Cox",
+    "Ieston Miller",
+    "Lawrence Dunkelman",
+    "Frank M. Crichton",
+    "V. I. Grissom",
+    "Titov",
+    "John McKee",
+    "Bill Armstrong",
+    "Alan Shepard",
+    "Minnaert",
+    "Towsey",
+    "Sekera",
+    "Bates",
+    "Nicolet"
+  ],
+  "named_places": [
+    "Los Alamos Scientific Laboratory",
+    "University of California",
+    "NASA Headquarters",
+    "Goddard Space Flight Center",
+    "Woomera"
+  ],
+  "dated_events": [
+    "1/13/62",
+    "21 February 1962",
+    "February 27",
+    "24 May 1962",
+    "July 13, 1962",
+    "June 1, 1963"
+  ],
+  "objects_described": [
+    "Mercury capsule (Friendship-7, MA-6)",
+    "Mercury capsule (MA-7)",
+    "Luminous particles (Glenn effect)",
+    "5577 Angstrom airglow layer",
+    "Atmospheric haze band",
+    "Airglow filter (5577 Angstrom narrow-band)",
+    "Flashing light beacon"
+  ],
   "verifiable_claims": [
     {
-      "claim": "NASA conducted scientific debriefings and interviews with both astronauts regarding these observations",
-      "source_quote": "",
-      "verifier_verdict": "partial",
+      "claim": "Luminous particles observed by Glenn were associated with the spacecraft, not extraterrestrial in origin, based on consistent behavior across all three orbits",
+      "source_quote": "The consistency in the observations on the three separate orbits would require that the particles were associated with the spacecraft itself",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2145,
+        "len": 140,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Carpenter confirmed particles came from the capsule by striking the walls and observing particle release",
+      "source_quote": "Carpenter performed the decisive experiment of hitting the capsule walls with his hand. The blows promptly resulted in the liberation of large numbers of particles",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 34242,
+        "len": 40,
+        "exact": false,
+        "matched": "ent of hitting the capsule walls with hi"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The particles were most likely snowflakes formed from life-support system steam condensation inside the capsule",
+      "source_quote": "the particles of the Glenn effect are snowflakes formed in the capsule, between the cabin bulkhead and the heat shield by the steam exhaust from the life-support system",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 38394,
+        "len": 55,
+        "exact": false,
+        "matched": "he capsule, between the cabin bulkhead and the heat shi"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The densest part of the 5577 airglow layer was measured at 89 km altitude, consistent with rocket measurements",
+      "source_quote": "the densest part of the 5577 layer is at a height of 89 kilometers, which is in good agreement with rocket measures",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 30136,
+        "len": 30,
+        "exact": false,
+        "matched": "the densest part of the 5577 l"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Astronauts experienced a strong optical illusion that exaggerated angular heights near the horizon by a factor of roughly 3-4x",
+      "source_quote": "there is a strong illusion which exaggerates angles near the horizon, and which was evidently also present in MA-6",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "Neither dye marker nor shark repellant were the source of the particles, as tested by NASA capsule inspector",
+      "source_quote": "Crichton had tests made which demonstrated that neither material tended to escape from the package in a vacuum",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 34715,
+        "len": 30,
+        "exact": false,
+        "matched": "ade which demonstrated that ne"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A Los Alamos scientist proposed that nitrogen peroxide (NO2) concentration could explain the haze layer Glenn observed",
+      "source_quote": "it seemed possible that the layer he described could be accounted for as a region of relatively large nitrogen peroxide (N02) concentration",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9593,
+        "len": 100,
+        "exact": false,
+        "matched": "emed possible that the layer he described could be accounted for as a region of relatively large nit"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Cooper observed extensive lightning from orbit and could see moonlight illuminating ground features, clouds, and land",
+      "source_quote": "I could see the glow on the ground, on the clouds and on the land, from the moon",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 1,
+    "amber": 7,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:28:09.304Z",
-  "qa_completed_at": "2026-06-14T03:28:41.938Z",
+  "qa_started_at": "2026-06-19T22:29:01.894Z",
+  "qa_completed_at": "2026-06-19T22:30:45.947Z",
   "timing": {
-    "A": "15.3s",
-    "B": "17.3s"
-  }
+    "A": "61.3s",
+    "B": "42.3s",
+    "E": "28.7s"
+  },
+  "public_headline": "NASA Scientists Traced Astronaut Glenn's Glowing Particles to Spacecraft Condensation",
+  "public_tldr": "This collection of NASA internal memoranda and scientific debriefings from 1962–1963 documents the investigation into luminous particles observed by astronauts John Glenn and Scott Carpenter during Mercury orbital flights. Scientists concluded the particles were not extraterrestrial but were most likely snowflakes formed from the spacecraft's life-support system steam exhaust.",
+  "public_narrative": "During the first American orbital spaceflight in early 1962, astronaut John Glenn reported seeing mysterious glowing particles drifting past his Mercury capsule window. The particles appeared yellow-green, became fluorescent in sunlight, and some were estimated to be extraordinarily bright — between 10 and 100 times brighter than the moon. They moved at a consistent speed and direction across all three of Glenn's orbits, which immediately suggested to investigators that they were tied to the spacecraft rather than coming from the surrounding environment.\n\nAstronaut Scott Carpenter, flying the next Mercury mission (MA-7) on 24 May 1962, performed what NASA scientists called the \"decisive experiment.\" He struck the capsule walls with his hand, and the blows promptly produced large numbers of the same particles. Carpenter described them as between 1 mm and 1 cm in size, with a strong visual resemblance to snowflakes. NASA inspector Frank Crichton ran tests ruling out dye marker and shark repellent packs as the source, since neither material escaped its packaging in a vacuum.\n\nThe leading conclusion, documented across multiple internal memoranda, was that the particles were snowflakes. They formed between the cabin bulkhead and the heat shield from steam vented by the capsule's life-support system. Capsule exterior temperatures dropped to −35°C before sunrise and rose to +10°C after, creating conditions suitable for ice crystal formation.\n\nThe same document collection also covers a haze layer Glenn reported at the horizon. A Los Alamos scientist named Bob E. Watt proposed that nitrogen peroxide (NO₂) could account for the absorbing layer, noting that Glenn's colour description matched NO₂ vapour. Separately, Carpenter used a narrow-band filter during his flight to identify a luminous band as the 5577 Ångström airglow layer, with its densest point measured at 89 kilometres altitude — consistent with existing rocket data. Glenn's lightning observations from orbit were also noted as pointing toward potential satellite-based storm monitoring.\n\nThese are internal NASA working documents — rough drafts, memoranda, and correspondence — not final peer-reviewed publications. The source PDF suffers from heavy OCR degradation, leaving some passages partially illegible.",
+  "public_caveats": [
+    "The luminous particle phenomenon was conclusively explained by NASA scientists as spacecraft-origin material (condensation snowflakes), not anomalous or unexplained aerial phenomena.",
+    "The source PDF has significant OCR degradation with garbled characters, making some passages only partially readable.",
+    "These are internal NASA working documents including rough drafts and memoranda, not final published scientific findings. Multiple scientists are quoted giving preliminary hypotheses, not peer-reviewed conclusions.",
+    "The document has moderate redaction evidence, and handwritten annotations on typed drafts are only partially recoverable.",
+    "Walter Schirra is referenced in catalogue descriptions of this document but does not appear prominently in the extracted text itself."
+  ]
 }

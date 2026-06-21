@@ -5,35 +5,372 @@
   "type": "PDF",
   "incident_date": "October, 2024",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI investigative activity form (FD-1057) documenting an interview with a US person about unidentified anomalous phenomena incidents.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "An FBI FD-1057 electronic communication form documenting an investigative interview with a US person about multiple UAP sightings in the northeastern United States.",
+  "core_summary": "In October 2024, the FBI interviewed an individual about UAP sightings observed from their property in the northeastern US since 2021. The witness described seeing lights that formed triangular patterns, morphed, and moved laterally, with sightings occurring typically at dusk or night over a three-year period numbering in the hundreds. The witness also recounted a 1996 incident in New Mexico where a vehicle shut down and a large light shone on the occupants.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No text could be extracted from the PDF — all facts are derived from metadata and the official CSV description only.",
-    "The document is likely heavily redacted given the absence of extractable text and the sensitive nature of FBI investigative records.",
-    "The identity of the interviewed person is not disclosed.",
-    "Without the actual document text, the specific nature, descriptions, and details of the UAP incidents are unknown.",
-    "This is a single-source interview record; the claims of the interviewee are not independently verified by this document alone."
+    "All witness names, specific locations, and identifying details are heavily redacted throughout the document",
+    "This is a single-source account from one witness — no independent corroboration is documented in the extracted text",
+    "The 1996 New Mexico vehicle-shutdown incident is an uncorroborated personal anecdote from nearly 30 years prior",
+    "The claim of 'hundreds' of sightings is the witness's own estimate with no independent verification noted",
+    "The contact who warned about people being hurt is also redacted and their credentials cannot be assessed",
+    "Video corruption claims could have mundane technical explanations unrelated to the phenomena",
+    "The document notes the witness acknowledged having no prior interest in UAPs and that their account 'may seem weird or crazy'",
+    "This document corresponds to the same general area as FBI-UAP-D004 through D008 and videos FBI-UAP-PR001 through PR003"
   ],
-  "fabrication_score": 4,
-  "key_facts": [],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "document_type",
+      "value": "FBI FD-1057 electronic communication",
+      "source_quote": "FD-1057 (Rev. 5-8-10) FEDERAL BUREAU OF INVESTIGATION electronic communication",
+      "citation_offset": {
+        "offset": 0,
+        "len": 53,
+        "exact": false,
+        "matched": "FD-1057 (Rev. 5-8-10) FEDERAL BUREAU OF INVESTIGATION"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "interview_date",
+      "value": "October 2024",
+      "source_quote": "On 10, . ,2024, - was interviewed at the FBI",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "first_sighting_date",
+      "value": "2021",
+      "source_quote": "first UAP sighting was on 111 111111! 2021",
+      "citation_offset": {
+        "offset": 697,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "first_sighting_time",
+      "value": "Around 5am",
+      "source_quote": "was exercising in - house around 5am when noticed some lights outside of back window",
+      "citation_offset": {
+        "offset": 792,
+        "len": 39,
+        "exact": false,
+        "matched": "iced some lights outside of back window"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "first_sighting_description",
+      "value": "Singular light that split into two or three lights forming a triangular pattern with a center light, lasting approximately ten minutes",
+      "source_quote": "observed a singular light that eventually split into two or three lights. This formed a triangular pattern with a light in the center and remained for approximately ten minutes",
+      "citation_offset": {
+        "offset": 975,
+        "len": 100,
+        "exact": false,
+        "matched": "y split into two or three lights. This formed a triangular pattern with a light in the center and re"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "light_reaction_to_flash",
+      "value": "Lights immediately disappeared when a flash photo was accidentally taken",
+      "source_quote": "while filming on smartphone, accidently took a flash photo and the lights immediately disappeared",
+      "citation_offset": {
+        "offset": 1186,
+        "len": 77,
+        "exact": false,
+        "matched": "rtphone, accidently took a flash photo and the lights immediately disappeared"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "second_sighting_date",
+      "value": "03/2022",
+      "source_quote": "Speaking to a sighting on 03/a'2022",
+      "citation_offset": {
+        "offset": 1267,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "sighting_location_variation",
+      "value": "The March 2022 sighting was not in the same location as the first",
+      "source_quote": "the location of this sighting was not in the same location",
+      "citation_offset": {
+        "offset": 1381,
+        "len": 58,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "typical_sighting_conditions",
+      "value": "Dusk or night, light appears to morph and move laterally",
+      "source_quote": "the UAP sightings that observes are typically at dusk or at night and the light observed appears to morph and move laterally",
+      "citation_offset": {
+        "offset": 1482,
+        "len": 95,
+        "exact": false,
+        "matched": "serves are typically at dusk or at night and the light observed appears to morph and move later"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "total_sightings_claimed",
+      "value": "Hundreds",
+      "source_quote": "stated that has seen hundreds of these lights from property",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "1996_incident_location",
+      "value": "New Mexico, between Fort Bliss TX and Fort Carson CO",
+      "source_quote": "was driving with Army officer from Fort Bliss, TX to Fort Carson, CO. While in New Mexico",
+      "citation_offset": {
+        "offset": 2003,
+        "len": 44,
+        "exact": false,
+        "matched": "y officer from Fort Bliss, TX to Fort Carson"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "1996_incident_description",
+      "value": "Vehicle shut down, large light shone on occupants for about two minutes, then electronics restored",
+      "source_quote": "the vehicle was driving shut down and a large light shined on and passenger. After about two minutes the light went away and the vehicle's electronics turned back on",
+      "citation_offset": {
+        "offset": 2165,
+        "len": 70,
+        "exact": false,
+        "matched": " passenger. After about two minutes the light went away and the vehicl"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "witness_residence_since",
+      "value": "2021",
+      "source_quote": "has lived at current property, in since 2021",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "prior_residence",
+      "value": "About five miles from current home",
+      "source_quote": "previously lived about five miles from current home",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "increased_activity",
+      "value": "More activity observed since September",
+      "source_quote": "stated that has seen more activity since September",
+      "citation_offset": {
+        "offset": 2657,
+        "len": 35,
+        "exact": false,
+        "matched": " seen more activity since September"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "video_corruption",
+      "value": "Common to have corrupted video when trying to record sightings",
+      "source_quote": "it is common to have corrupted video when trying to record these sightings",
+      "citation_offset": {
+        "offset": 2805,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "adsb_cross_referencing",
+      "value": "Witness used ADSB data to try to disprove sightings as aircraft",
+      "source_quote": "explained how used ADSB data to try a disprove what was seeing as aircraft flying overhead",
+      "citation_offset": {
+        "offset": 2942,
+        "len": 35,
+        "exact": false,
+        "matched": "sed ADSB data to try a disprove wha"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "azimuth_checking",
+      "value": "Witness determined azimuth of lights and checked against ADSB data",
+      "source_quote": "would then determine the azimuth of the lights and check the ADSB data",
+      "citation_offset": {
+        "offset": 3146,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "warning_from_contact",
+      "value": "A contact warned that 'people have been hurt by these things'",
+      "source_quote": "was told that what was observing was legitimate and that \"people have been hurt by these things\" and to be careful",
+      "citation_offset": {
+        "offset": 1749,
+        "len": 90,
+        "exact": false,
+        "matched": "as observing was legitimate and that \"people have been hurt by these things\" and to be car"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "other_witnesses",
+      "value": "Others have also seen the lights from the property",
+      "source_quote": "has seen these lights as well and others who have visited his property as well",
+      "citation_offset": {
+        "offset": 2556,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
   "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "named_places": [
+    "Northeastern United States",
+    "Fort Bliss, TX",
+    "Fort Carson, CO",
+    "New Mexico"
+  ],
+  "dated_events": [
+    "2021 (first UAP sighting)",
+    "03/2022 (second documented sighting)",
+    "1996 (New Mexico vehicle incident)",
+    "10/2024 (FBI interview date)"
+  ],
+  "objects_described": [
+    "Singular light splitting into two or three lights in triangular pattern with center light",
+    "Morphing laterally-moving light observed at dusk/night",
+    "Large light that allegedly caused vehicle electronics to shut down (1996 incident)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The witness used ADSB (Automatic Dependent Surveillance-Broadcast) flight tracking data to cross-reference sightings against known aircraft traffic",
+      "source_quote": "explained how used ADSB data to try a disprove what was seeing as aircraft flying overhead. cross referenced date and time stamps with ADSB records",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3046,
+        "len": 50,
+        "exact": false,
+        "matched": "ss referenced date and time stamps with ADSB recor"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The witness provided videos and a presentation to the FBI prior to this interview",
+      "source_quote": "spoke to a presentation and videos that were previously provided to the FBI",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 505,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights disappeared immediately when a camera flash was accidentally triggered",
+      "source_quote": "accidently took a flash photo and the lights immediately disappeared",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1195,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A contact told the witness that the phenomena were legitimate and warned that people have been hurt",
+      "source_quote": "was told that what was observing was legitimate and that \"people have been hurt by these things\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1749,
+        "len": 76,
+        "exact": false,
+        "matched": "as observing was legitimate and that \"people have been hurt by these things\""
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "In 1996, a vehicle's electronics completely shut down during an encounter with a large light in New Mexico",
+      "source_quote": "the vehicle was driving shut down and a large light shined on and passenger. After about two minutes the light went away and the vehicle's electronics turned back on",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2165,
+        "len": 70,
+        "exact": false,
+        "matched": " passenger. After about two minutes the light went away and the vehicl"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Video recordings of the sightings frequently suffer corruption",
+      "source_quote": "it is common to have corrupted video when trying to record these sightings",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2805,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness has observed hundreds of these lights from their property since 2021",
+      "source_quote": "stated that has seen hundreds of these lights from property and has numerous videos and photos",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2459,
+        "len": 44,
+        "exact": false,
+        "matched": " property and has numerous videos and photos"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Activity increased since September of the interview year",
+      "source_quote": "stated that has seen more activity since September",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 2657,
+        "len": 35,
+        "exact": false,
+        "matched": " seen more activity since September"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 3,
+    "amber": 5,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:21:28.677Z",
-  "qa_completed_at": "2026-06-14T03:22:06.396Z",
+  "qa_started_at": "2026-06-19T22:12:09.988Z",
+  "qa_completed_at": "2026-06-19T22:13:22.964Z",
   "timing": {
-    "A": "18.7s",
-    "B": "19.1s"
-  }
+    "A": "42.2s",
+    "B": "30.8s",
+    "E": "23.8s"
+  },
+  "public_headline": "FBI Interviewed Witness Who Reported Hundreds of Light Sightings Since 2021",
+  "public_tldr": "This FBI interview record documents a witness in the northeastern United States who reported seeing anomalous lights from their property hundreds of times since 2021, describing lights that formed triangular patterns and moved laterally. The witness also recounted a separate 1996 incident in New Mexico where a vehicle's electronics shut down during an encounter with a large light.",
+  "public_narrative": "In October 2024, the FBI conducted a formal interview with an individual about unidentified anomalous phenomena (UAP) sightings observed from their property in the northeastern United States. The interview was recorded on an FD-1057, the Bureau's standard electronic communication form. The witness had previously provided videos and a presentation to the FBI before the sit-down interview took place.\n\nThe witness described their first sighting in 2021 at around 5am: a singular light that split into two or three lights, forming a triangular pattern with a light in the centre. It lasted roughly ten minutes. While filming on a smartphone, the witness accidentally triggered the camera flash and the lights immediately vanished. A second sighting occurred in March 2022 at a different location. The witness said sightings typically happen at dusk or night, with the lights appearing to morph and move laterally. They claimed to have seen hundreds of these lights from their property and noted that others who visited had seen them too. The witness also said video recordings of the sightings frequently suffer corruption.\n\nNotably, the witness tried to rule out conventional aircraft by cross-referencing sighting times and azimuths against ADSB (Automatic Dependent Surveillance-Broadcast) flight tracking data — a publicly available system that logs aircraft positions. The witness also described a separate incident from 1996 in New Mexico, while travelling between Fort Bliss, Texas and Fort Carson, Colorado with an Army officer: the vehicle shut down, a large light shone on the occupants for about two minutes, and then the electronics came back on.\n\nThe document is heavily redacted throughout — all witness names, specific locations, and identifying details have been removed. A redacted contact reportedly told the witness that the phenomena were \"legitimate\" and warned that \"people have been hurt by these things.\" The witness acknowledged having no prior interest in UAPs and said their account \"may seem weird or crazy.\" The FBI document does not record any conclusions or assessments about the sightings.",
+  "public_caveats": [
+    "This is a single-source account from one witness — no independent corroboration of any sighting is documented in the record.",
+    "The document is heavily redacted: all names, precise locations, and identifying details are blacked out, making independent verification impossible.",
+    "The claim of 'hundreds' of sightings is the witness's own estimate with no independent count or verification noted by the FBI.",
+    "The 1996 New Mexico vehicle-shutdown incident is an uncorroborated personal anecdote from nearly 30 years before the interview.",
+    "The FBI recorded what the witness said but the document contains no Bureau analysis, conclusions, or assessment of the claims."
+  ]
 }

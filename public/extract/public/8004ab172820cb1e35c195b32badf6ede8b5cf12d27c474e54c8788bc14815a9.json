@@ -4,66 +4,391 @@
   "agency": "Department of War",
   "type": "PDF",
   "incident_location": "United States",
-  "what_is_it": "A U.S. Air Force analytical report compiling case files of unidentified flying object sightings across the United States, numbered 1 through 100, each accompanied by a standardized 'Check-List — Unidentified Flying Objects' form.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "A collection of U.S. Air Force 'Check-List — Unidentified Flying Objects' incident summary forms documenting multiple UFO sighting reports across the United States, numbered approximately 1 through 100.",
+  "core_summary": "This document compiles dozens of standardized USAF incident checklists for unidentified flying object sightings, primarily from 1947-1948. Incidents are reported from locations including Muroc Army Air Field (California), Portland (Oregon), Lockbourne (Ohio), Godman Field, and other sites, with witnesses including military test pilots, control tower operators, police, and civilians. Objects are variously described as spherical, disc-shaped, round, or metallic, observed at altitudes from 1,200 to 32,000 feet and speeds from 300 to over 500 MPH.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No text could be extracted from the PDF — the document is likely a scanned image with poor OCR readability. All facts here derive from metadata only.",
-    "Without readable source text, no specific incident details, witness names, dates, or object descriptions can be confirmed.",
-    "The case numbering (1–100) suggests this is part of a larger systematic cataloguing effort, but the full scope and total case count are unknown from this document alone."
+    "The OCR quality is extremely poor throughout, with extensive character-level corruption making many details ambiguous or illegible.",
+    "This document compiles many separate incident reports — each checklist is a distinct sighting with different witnesses and locations.",
+    "Many checklist fields are marked N/S (not stated), meaning significant information was unavailable even at the time of filing.",
+    "Witness identifications and observer qualifications vary widely, from trained military test pilots to unnamed civilians.",
+    "The Godman Field / P-51 pursuit incident appears to reference the well-known Mantell UFO incident of January 1948, though the pilot's name is partially obscured in this copy.",
+    "Several incidents have single-source witnesses with no independent corroboration noted.",
+    "Some altitude, speed, and distance estimates are acknowledged as approximate by the observers themselves.",
+    "The document references the XF-92 'Flying Flapjack' which was actually the Vought XF5U — the observer may have been using informal terminology."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "Document ID",
-      "value": "DOW-UAP-D087",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document authority",
+      "value": "NND 917033",
+      "source_quote": "Authority: NND 917033",
+      "citation_offset": {
+        "offset": 4,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Originating agency",
-      "value": "Department of War / U.S. Air Force",
-      "source_quote": "",
+      "field": "Incident location (multiple)",
+      "value": "Muroc Army Air Field, Muroc, California",
+      "source_quote": "Muroc Army Air Field, Muroc, Calif",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Scope",
-      "value": "Analysis of flying objects in the United States, cases 1–100",
-      "source_quote": "",
+      "field": "Incident location",
+      "value": "Portland, Oregon",
+      "source_quote": "Portland, Oregon",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Geographic scope",
-      "value": "United States",
-      "source_quote": "",
+      "field": "Incident location",
+      "value": "Lockbourne, Columbus, Ohio",
+      "source_quote": "Lockbourne, Columbus, Ohio",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident location",
+      "value": "Godman Field",
+      "source_quote": "Godman Fld",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Muroc witness - test pilot",
+      "value": "Major J.C. Wise observed object while warming up XP-84",
+      "source_quote": "by Major J. C. Wise, Test Pilot, Muroc Army Air Field, 7 July 1947, at approximately 10:10",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "XP-84 pilot observation",
+      "value": "Object yellowish-white, spherical, 5-10 feet diameter, travelling 200-225 MPH westward",
+      "source_quote": "object was yellowish white in color and appeared to be a sphere about 5 to 10 feet in diameter",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Muroc sighting altitude",
+      "value": "10,000 to 15,000 feet",
+      "source_quote": "10,000 to 15,000 feet altitude",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Muroc multiple objects",
+      "value": "3 objects observed - 2 initially, 1 later performing tight circles",
+      "source_quote": "3 objects - 2 at first, 1 later",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Muroc object speed",
+      "value": "300 to 400 MPH",
+      "source_quote": "300 to 400 MPH",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Muroc witness assessment",
+      "value": "Witnesses stated objects were not weather balloons based on speed and direction",
+      "source_quote": "the speed at which they traversed the horizontal direction indicated that they were not weather balloons",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Third object behavior at Muroc",
+      "value": "Disc-shaped object at 8000 ft performing circles over north end of airfield",
+      "source_quote": "a third object of a differ spherical or disc-like shape at about 8000 ft travelling in circles over the North end of the airfield",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Portland sighting",
+      "value": "20 to 30 objects seen over Portland, disc-shaped, very fast, low sound",
+      "source_quote": "20 to 30 objects over Portland, disc shaped, very fast",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Lockbourne incident date",
+      "value": "7 January 1948",
+      "source_quote": "7 January 1948",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Lockbourne tower observation time",
+      "value": "Between 1930 and 1930 GMT, later 1935 to 1940",
+      "source_quote": "Between 1930 and 1930 GMT Later 1935 to 1940",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Lockbourne object description",
+      "value": "Glowing object with cone-shaped streamer to right, changed from amber to red",
+      "source_quote": "Glowing object with a cone shaped streamer to the right. It glowed from amber to red",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Lockbourne object speed",
+      "value": "500 MPH",
+      "source_quote": "500 MPH",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Lockbourne object altitude",
+      "value": "5,000 feet",
+      "source_quote": "5,000 ft",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Lockbourne object behavior",
+      "value": "Performed elliptical counter-clockwise course, descended to horizon, rose to original position",
+      "source_quote": "performed elliptical counter-clockwise course",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Lockbourne object size estimate",
+      "value": "About one-eighth full moon from 500 ft",
+      "source_quote": "About one eighth full moon from 500 ft",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Godman Field object",
+      "value": "Round with red top, ice-cream cone shaped",
+      "source_quote": "round with red top, ice-cream cone shaped topped with red",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Godman Field altitude",
+      "value": "Approximately 15,000 feet",
+      "source_quote": "approx 15,000 ft",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "P-51 pursuit incident",
+      "value": "Four P-51s scrambled from Godman to intercept object, flight leader climbed to 33,000 feet",
+      "source_quote": "four P-51s from Godman",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "P-51 flight leader report",
+      "value": "Object directly ahead, half speed, appeared metallic",
+      "source_quote": "object directly ahead and above, about half speed, appeared metallic",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Bakersfield sighting objects",
+      "value": "10 first time, 7 second time, flying in formation with one trailing",
+      "source_quote": "10 first time 7 second time",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Bakersfield observer",
+      "value": "Richard Rankin, 1535 South B Street, Bakersfield, California",
+      "source_quote": "Richard Rankin, 1535 South B Street, Bakersfield, California",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Bakersfield flight direction",
+      "value": "First group South to North, second group North to South",
+      "source_quote": "first group South to North, second group North to South",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Rockbourne observer",
+      "value": "Albert R. Pickerini, USAF Operator (CAF-7), 332d Fighter Wing",
+      "source_quote": "Albert R. Pickerini, 332d Fighter Wing, Lockbourne",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Newfoundland sighting",
+      "value": "Object at 8000-10,000 ft with bluish exhaust trail 15-20 miles long",
+      "source_quote": "8000 to 10,000 ft... bluish approx. 15 to 20 miles long",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Cloud-cutting object",
+      "value": "Station mechanic on train saw object break through clouds leaving sharp-edged trail",
+      "source_quote": "cut path through the cloud, you could see the trail right through the cloud, it left sharp edges on the clouds",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "Major J.C. Wise",
+    "Joseph Riffon",
+    "Marie Sanots",
+    "Colonel Hix",
+    "Lt Col Wood",
+    "Richard Rankin",
+    "Albert R. Pickerini",
+    "Sergeant Clarke",
+    "D.I. Mills",
+    "Captain Carter",
+    "T/Sgt Quintan A. Blackwell",
+    "PFC Walter Oliver"
+  ],
   "named_places": [
-    "United States"
+    "Muroc Army Air Field, Muroc, California",
+    "Portland, Oregon",
+    "Lockbourne, Columbus, Ohio",
+    "Godman Field",
+    "Bakersfield, California",
+    "Commercial Point",
+    "Clinton County Airport",
+    "Standiford Field",
+    "Newfoundland",
+    "Stephenville Crossing, Newfoundland",
+    "Dayton, Ohio",
+    "Washington",
+    "District 8, Milwaukee, Oregon",
+    "Seattle"
   ],
-  "dated_events": [],
+  "dated_events": [
+    "7 July 1947",
+    "4 July 1947",
+    "4 July 47",
+    "7 January 1948",
+    "12 June (year unclear)"
+  ],
   "objects_described": [
-    "Unidentified flying objects"
+    "Spherical or disc-shaped objects, 300-400 MPH, altitude ~8000 ft, performing circles (Muroc)",
+    "Yellowish-white sphere, 5-10 feet diameter, 200-225 MPH (Muroc, XP-84 pilot observation)",
+    "20-30 disc-shaped objects flying in formation (Portland)",
+    "Glowing object with cone-shaped streamer, amber to red color change, 500 MPH (Lockbourne)",
+    "Round ice-cream-cone shaped object with red top (Godman Field)",
+    "Metallic object pursued by P-51s to 33,000 feet (Godman/Lockbourne area)",
+    "10 then 7 objects in formation resembling XF-92 Flying Flapjack (Bakersfield)",
+    "Object with bluish exhaust trail 15-20 miles long at 8,000-10,000 ft (Newfoundland)",
+    "Cloud-cutting disc that left sharp-edged trails through clouds (train observation)",
+    "Circular object approximately 50-100 ft diameter (state police report)",
+    "Vapor-emitting object too high to determine size, glinting in sun (civilian observation)",
+    "Semi-circular object hovering below horizon with apparent rotation (ground observation)",
+    "P-51 Mustang (pursuit aircraft)",
+    "XP-84 (aircraft being warmed up during Muroc sighting)"
   ],
-  "verifiable_claims": [],
-  "tier": "red",
+  "verifiable_claims": [
+    {
+      "claim": "Major J.C. Wise, a test pilot at Muroc Army Air Field, observed a yellowish-white spherical object approximately 5-10 feet in diameter while warming up an XP-84 on 7 July 1947 at approximately 10:10",
+      "source_quote": "by Major J. C. Wise, Test Pilot, Muroc Army Air Field, 7 July 1947, at approximately 10:10, while warming up the XP-84",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Multiple witnesses at Muroc confirmed the objects could not have been weather balloons based on speed, altitude, and direction of travel",
+      "source_quote": "the speed at which they traversed the horizontal direction indicated that they were not weather balloons",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "At Lockbourne, four P-51 aircraft were scrambled to intercept an unidentified object, with the flight leader reporting the object appeared metallic and was at approximately half their speed",
+      "source_quote": "four P-51s from Godman... object directly ahead and above, about half speed, appeared metallic",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The lead P-51 pilot climbed to 33,000 feet pursuing the object but apparently blacked out or lost sight at approximately 30,000 feet",
+      "source_quote": "blacked out at 30,000 ft",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Richard Rankin of Bakersfield observed objects flying in formation that resembled the XF-92 'Flying Flapjack'",
+      "source_quote": "resembled the XF-92, the so called Flying Flapjack",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Albert R. Pickerini of the 332d Fighter Wing observed an object over Commercial Point that moved faster than 500 MPH in level flight and performed vertical climbs and descents",
+      "source_quote": "Greater than 500 MPH in level flight... Climbed and descended vertically",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "An observer on a train saw an object cut a visible path through clouds, leaving sharp edges on the cloud formations",
+      "source_quote": "cut path through the cloud, you could see the trail right through the cloud, it left sharp edges on the clouds",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Godman Field object was observed for 3 to 4 minutes before the Operations Officer called Colonel Hix's office",
+      "source_quote": "3 to 4 minutes, he called to Col Hix's office",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "A civilian witness stated she had approximately 20-20 vision and had been flying since the 1930s, recognizing all types of aircraft",
+      "source_quote": "20-20 vision, had been flying and had been familiar with all types of aircraft since 1930",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "At Lockbourne, the object changed color from amber to red as it moved southwestward",
+      "source_quote": "it changed from amber to red",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "An astronomer later attempted to account for the Godman sighting as either Venus or a comet",
+      "source_quote": "an astronomer was contacted to account for the sighting as either Venus or a comet",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
+    "amber": 11,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:16:46.374Z",
-  "qa_completed_at": "2026-06-14T03:17:16.805Z",
+  "qa_started_at": "2026-06-19T21:57:54.291Z",
+  "qa_completed_at": "2026-06-19T22:01:45.492Z",
   "timing": {
-    "A": "15.7s",
-    "B": "14.8s"
-  }
+    "A": "80.5s",
+    "B": "150.5s",
+    "E": "33.8s"
+  },
+  "public_headline": "Air Force Compiled 100 UFO Sighting Reports from 1947-1948",
+  "public_tldr": "This document is a collection of roughly 100 standardised U.S. Air Force incident checklists recording unidentified flying object sightings across the United States, primarily from 1947 and 1948. Witnesses include military test pilots, control tower operators, police, and civilians who described spherical, disc-shaped, and metallic objects travelling at speeds between 200 and 500+ MPH at various altitudes.",
+  "public_narrative": "This document, catalogued as DOW-UAP-D087 under authority NND 917033, is a compilation of standardised USAF 'Check-List — Unidentified Flying Objects' forms covering approximately 100 separate sighting incidents. Most date from mid-1947 through early 1948, spanning locations including Muroc Army Air Field in California, Portland in Oregon, Lockbourne in Columbus, Ohio, Godman Field, Bakersfield in California, and as far as Newfoundland.\n\nThe witnesses range from highly trained military personnel to ordinary civilians. At Muroc on 7 July 1947, test pilot Major J.C. Wise reported a yellowish-white sphere roughly 5 to 10 feet across while warming up an XP-84 aircraft. Other Muroc observers saw three objects — two initially, then a third disc-shaped object circling the north end of the airfield at about 8,000 feet and speeds of 300 to 400 MPH. Witnesses stated the objects could not have been weather balloons based on their speed and direction. Over Portland, between 20 and 30 disc-shaped objects were reported flying at high speed. A civilian observer in Bakersfield, Richard Rankin, saw groups of 10 then 7 objects flying in formation.\n\nOne of the most significant incidents in the collection took place at Godman Field. Observers described a round, ice-cream-cone-shaped object with a red top at roughly 15,000 feet. Four P-51 Mustang fighters scrambled to intercept. The flight leader climbed to 33,000 feet, reported the object appeared metallic and was moving at about half his speed, but apparently blacked out at around 30,000 feet. This appears to reference the well-known Mantell incident of January 1948, though the pilot's name is partially obscured. An astronomer was later contacted to try to account for the sighting as Venus or a comet.\n\nAt Lockbourne on 7 January 1948, observers including USAF operator Albert R. Pickerini of the 332nd Fighter Wing reported a glowing object with a cone-shaped streamer that changed colour from amber to red. It flew at an estimated 500 MPH at about 5,000 feet and performed elliptical counter-clockwise manoeuvres, descending to the horizon before rising again. Over Newfoundland, a separate observer reported an object at 8,000 to 10,000 feet trailing a bluish exhaust 15 to 20 miles long. A station mechanic on a train described an object cutting a visible path through clouds, leaving sharp edges in the cloud formations.\n\nThe document does not present conclusions about what these objects were. Many checklist fields are marked 'N/S' (not stated), meaning significant details were unavailable even when the reports were filed. The document shows moderate evidence of redaction throughout, and the OCR quality of this copy is extremely poor, leaving many specific details ambiguous or illegible.",
+  "public_caveats": [
+    "The OCR quality is extremely poor throughout the document, with extensive character-level corruption making many details ambiguous or illegible — specific numbers, names, and descriptions may be approximate.",
+    "Each checklist is a separate incident with different witnesses and locations; this is not one continuous event but a compiled set of roughly 100 distinct reports.",
+    "Many fields on the standardised forms are marked 'N/S' (not stated), meaning key information was missing even at the time of filing. Several incidents rely on single-source witnesses with no independent corroboration noted.",
+    "Altitude, speed, and distance estimates were acknowledged as approximate by the observers themselves. These are human visual estimates, not instrument readings.",
+    "The document shows moderate evidence of redaction. It records what witnesses reported but does not contain Air Force conclusions about what the objects were."
+  ]
 }

@@ -5,62 +5,132 @@
   "type": "IMG",
   "incident_date": "November, 2024",
   "incident_location": "Northeastern United States",
-  "what_is_it": "FBI investigative activity form (FD-1057) documenting a site survey related to repeated UAP sightings by a U.S. person.",
+  "what_is_it": "An FBI Electronic Communication (FD-1057 form) documenting an investigative site survey related to unidentified aerial phenomena observations.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No body text was extractable from this document; all facts derive from war.gov metadata and the CSV description only.",
-    "The document is an image of a scanned form, so specific details within the form are unavailable for verification.",
-    "Single-source reporting from one U.S. person; no corroboration details available from metadata alone.",
-    "The exact location and identity of the observer are not disclosed."
+    "Heavy redaction obscures the approving and drafting officials, case ID number, synopsis details, and the witness's identity and exact location.",
+    "The source text appears to be OCR output from a low-quality image, resulting in garbled text (e.g., 'Eectrenic' for 'Electronic', 'U-icontifiod' for 'Unidentified', 'ice curve' likely for 'site survey').",
+    "The document catalogues evidence items (photos) but does not describe what the photos depict or any conclusions about the phenomena.",
+    "Several key facts (incident date, location, observation duration, related files) come from the CSV metadata description rather than the body text itself.",
+    "Single-source witness account with no corroboration described in the visible portions of the document."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 3,
   "key_facts": [
     {
-      "field": "incident_date",
-      "value": "November 2024",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_type",
+      "value": "FBI Electronic Communication (FD-1057)",
+      "source_quote": "FEDERAL BUREAU OF INVESTIGATION Eectrenic Communication",
+      "citation_offset": {
+        "offset": 17,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
-      "value": "Northeastern United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "case_subject",
+      "value": "Unidentified Aerial Phenomenon",
+      "source_quote": "U-icontifiod Aerial Phenomenon",
+      "citation_offset": {
+        "offset": 142,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "agency",
-      "value": "FBI",
-      "source_quote": "",
+      "field": "evidence_collected",
+      "value": "Multiple treeline photos taken west of witness's home",
+      "source_quote": "Treeline photos located west of [redacted] home",
+      "citation_offset": {
+        "offset": 202,
+        "len": 32,
+        "exact": false,
+        "matched": "Treeline photos located west of "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "evidence_collected_2",
+      "value": "Trail camera photos from witness's property",
+      "source_quote": "Photos from trail camera on [redacted] property",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Northeastern United States"
-  ],
-  "dated_events": [
-    "November 2024"
-  ],
+  "named_places": [],
+  "dated_events": [],
   "objects_described": [
-    "Unidentified anomalous phenomena"
+    "Unidentified Aerial Phenomenon"
   ],
-  "verifiable_claims": [],
-  "tier": "red",
+  "verifiable_claims": [
+    {
+      "claim": "The FBI conducted a site survey at a location where UAP had been repeatedly observed",
+      "source_quote": "ice curve of",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 187,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Treeline photographs were taken west of the witness's home as part of the survey",
+      "source_quote": "Treeline photos located west of [redacted] home",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 202,
+        "len": 32,
+        "exact": false,
+        "matched": "Treeline photos located west of "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Trail camera photographs from the witness's property were documented",
+      "source_quote": "Photos from trail camera on [redacted] property",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The case was classified under Unidentified Aerial Phenomenon",
+      "source_quote": "U-icontifiod Aerial Phenomenon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 142,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 2,
+    "amber": 2,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:23:15.945Z",
-  "qa_completed_at": "2026-06-14T03:23:48.992Z",
+  "qa_started_at": "2026-06-19T22:16:07.574Z",
+  "qa_completed_at": "2026-06-19T22:16:44.135Z",
   "timing": {
-    "A": "16.9s",
-    "B": "16.2s"
-  }
+    "A": "19.7s",
+    "B": "16.9s",
+    "E": "20.9s"
+  },
+  "public_headline": "FBI Surveyed a Northeastern US Site After Repeated UAP Sightings",
+  "public_tldr": "This FBI document records an investigative site survey at a property in the northeastern United States where unidentified aerial phenomena had been repeatedly observed in November 2024. The bureau catalogued photographic evidence — treeline photos and trail camera images — but the document is heavily redacted, hiding the witness's identity, exact location, and any conclusions.",
+  "public_narrative": "This document is an FBI Electronic Communication (an internal form known as FD-1057) related to an unidentified aerial phenomenon case. It records that FBI personnel conducted a site survey at a location in the northeastern United States where UAP had been repeatedly observed.\n\nDuring the survey, agents documented photographic evidence from the scene. This included treeline photographs taken to the west of the witness's home and photos captured by a trail camera on the witness's property. The document catalogues these evidence items but does not describe what the photographs actually depict or offer any conclusions about the phenomena.\n\nThe witness's identity, exact location, case ID number, and the names of the approving and drafting officials are all redacted. The redaction is heavy throughout the document, leaving significant gaps in what can be understood from the visible text alone.\n\nThe original document appears to be a low-quality scan, and the text contains OCR errors — for instance, 'Electronic' is rendered as 'Eectrenic' and 'Unidentified' as 'U-icontifiod'. Despite these artefacts, the document's purpose and basic facts are legible.\n\nNotably, the FBI's involvement indicates the bureau took the reported sightings seriously enough to send personnel to the location and formally document evidence. However, no analysis, explanation, or conclusion about the aerial phenomena is visible in the released material.",
+  "public_caveats": [
+    "The document is heavily redacted: the witness's identity, exact location, case number, and officials involved are all blacked out.",
+    "This is a single-source witness account with no corroboration described in the visible portions of the document.",
+    "The document catalogues photographic evidence but does not describe what the photos show or draw any conclusions about the phenomena.",
+    "Several key details (incident date, general location) come from the release metadata rather than the body text itself.",
+    "The source text contains OCR errors from a low-quality scan, which means some words are garbled and minor details may be misread."
+  ]
 }

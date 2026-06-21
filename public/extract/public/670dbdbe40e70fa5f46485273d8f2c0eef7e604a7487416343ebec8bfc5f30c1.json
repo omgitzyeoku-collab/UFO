@@ -5,76 +5,407 @@
   "type": "PDF",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "A first-hand narrative statement from a federal law enforcement witness describing observations of unidentified anomalous phenomena (UAP) over two days in October 2023 in the western United States.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "what_is_it": "First-hand witness narrative memorandum submitted to the All-domain Anomaly Resolution Office (AARO) describing UAP sightings over two nights in the western United States.",
+  "core_summary": "A U.S. federal law enforcement special agent (Witness 1) reported observing multiple unidentified anomalous phenomena over two consecutive nights in October 2023 in the western United States. The sightings included a large glowing circular object near a hillside, orange lights that released red lights, and a semi-transparent object that initially mimicked a car's taillights before hovering off-road and flying away silently. The witness also observed spider-web-like material floating in the air alongside what appeared to be the same object in a semi-transparent, vertically oriented state.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts derive solely from metadata and the CSV description provided by war.gov.",
-    "The document appears to be scanned or OCR-poor, meaning the full witness narrative is unavailable for analysis.",
-    "This is a single-source witness statement; no corroborating evidence or sensor data is referenced in the available metadata.",
-    "Witness identities are anonymised (designated as 'Witness 1'), preventing independent verification.",
-    "The heavy redaction rating reflects the complete absence of readable body text rather than visible redaction markers."
+    "Single-source account: entire narrative comes from one witness's recollection submitted to AARO in free-form text",
+    "Distance and size estimates are approximate and partially self-corrected by the witness (500-600m initial guess vs 1100m rangefinder measurement later)",
+    "Time references are uncertain ('just before 7 pm I think', 'an hour or two later')",
+    "The witness acknowledges difficulty defining object shapes and borders ('hard to identify the exact shape', 'still hard to define its shape and borders visually')",
+    "Other team members and agents are referenced but their corroborating accounts are not included in this document",
+    "The 'car mimicry' interpretation is the witness's subjective framing — the object may not have been intentionally mimicking a vehicle",
+    "No photographic, video, or sensor evidence is referenced or included",
+    "The narrative was submitted some time after the events and relies on memory"
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D079",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "witness_role",
+      "value": "U.S. federal law enforcement special agent",
+      "source_quote": "Witness 1 was one of several United States (U.S.) federal law enforcement special agents",
+      "citation_offset": {
+        "offset": 467,
+        "len": 43,
+        "exact": false,
+        "matched": "Witness 1 was one of several United States "
+      },
+      "confidence": "amber"
     },
     {
-      "field": "incident_date",
-      "value": "October 2023, over a two-day period",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "observation_period",
+      "value": "Two consecutive nights in October 2023",
+      "source_quote": "observing unidentified anomalous phenomena (UAP) over a period of two days in October 2023",
+      "citation_offset": {
+        "offset": 570,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
+      "field": "location",
       "value": "Western United States",
+      "source_quote": "in the western United States",
+      "citation_offset": {
+        "offset": 661,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "first_object_description",
+      "value": "Large glowing circular ball with swirly bright lava-like pattern, estimated 20+ feet diameter",
+      "source_quote": "a large glowing ball...a circle of light that looked like a swirly pattern of bright lava",
+      "citation_offset": {
+        "offset": 1627,
+        "len": 64,
+        "exact": false,
+        "matched": "circle of light that looked like a swirly pattern of bright lava"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "first_object_distance",
+      "value": "Initially estimated 500-600 meters, later range-finder measured hillside at ~1100 meters",
+      "source_quote": "initially I guessed it was 500 to 600 meters away, though another later day I was able to use a range finder to put the distance to the hillside at about 1100 meters",
+      "citation_offset": {
+        "offset": 1404,
+        "len": 165,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "first_object_time",
+      "value": "Just before 7 PM, dusk",
+      "source_quote": "It was bright in the dusk light, the time was just before 7 pm I think",
+      "citation_offset": {
+        "offset": 1693,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "first_object_duration",
+      "value": "Observed for one to two minutes",
+      "source_quote": "It was only observed for a minute or two before we could no longer see it",
+      "citation_offset": {
+        "offset": 2345,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "possible_spindle",
+      "value": "Through binoculars, appeared to have a line or spindle below, possibly touching the hillside",
+      "source_quote": "through binoculars it almost appeared to have a line or spindle below possibly touching the hillside below",
+      "citation_offset": {
+        "offset": 2092,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_sighting",
+      "value": "Orange ball lit up over a hillside several miles away for a second or two, three red lights flew out of it",
+      "source_quote": "another object that looked similar lit up in the sky over the top of another hillside...three red lights flew out of and away from it",
+      "citation_offset": {
+        "offset": 2770,
+        "len": 85,
+        "exact": false,
+        "matched": "another object that looked similar lit up in the sky over the top of another hillside"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "red_lights_behavior",
+      "value": "Evenly spaced, moved fast, disappeared quickly; second event showed vertical alignment pattern",
+      "source_quote": "They seemed evenly spaced apart and moved pretty fast, quickly disappearing from sight",
+      "citation_offset": {
+        "offset": 3092,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "flash_observed",
+      "value": "Flash from over the horizon accompanied the orange light events",
+      "source_quote": "there appeared to be a flash from over the horizon to the left. The flash lit up the sky pretty well, though very briefly",
+      "citation_offset": {
+        "offset": 3222,
+        "len": 121,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "car_mimicry_object",
+      "value": "Object initially appeared to be a car with one round red and one square white taillight, then hovered off-road silently",
+      "source_quote": "I noticed it appeared one taillight cover was broken because one taillight was red and one was white. They were also different because one was round and one was square",
+      "citation_offset": {
+        "offset": 4136,
+        "len": 167,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "car_object_hover",
+      "value": "Did not bounce with terrain, did not kick up dust, hovered",
+      "source_quote": "It did not bounce or move with the terrain, but seemed to hover. It did not kick up any dust either",
+      "citation_offset": {
+        "offset": 4608,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "car_object_departure",
+      "value": "Lights turned off, darker object moved up and flew away silently",
+      "source_quote": "the lights turned off and I could see a darker object moving up and toward behind us as it flew away",
+      "citation_offset": {
+        "offset": 4875,
+        "len": 100,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "prius_comparison",
+      "value": "Witness compared object to a Toyota Prius in some quality",
+      "source_quote": "It reminded me of a Toyota Prius for some reason",
+      "citation_offset": {
+        "offset": 5077,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "semi_transparency",
+      "value": "Object seen floating vertically, partially transparent — a star and hillside vegetation visible through it",
+      "source_quote": "I could see a star through the object, as well as the crest of the hill and some vegetation. It was almost like looking at something through water",
+      "citation_offset": {
+        "offset": 5867,
+        "len": 146,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "spider_web_material",
+      "value": "Dust and thick spider-web-looking material observed floating in front of witnesses",
+      "source_quote": "we observed some dust and thick spider web looking material floating in-front of us",
+      "citation_offset": {
+        "offset": 5382,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "floating_object_altitude",
+      "value": "15-20 feet in the air",
+      "source_quote": "It was in the air about 15-20 feet up",
+      "citation_offset": {
+        "offset": 5806,
+        "len": 37,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "hillside_distance_car_event",
+      "value": "About 200 meters away",
+      "source_quote": "The hillside was about 200 meters away",
+      "citation_offset": {
+        "offset": 5175,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "memorandum_date",
+      "value": "02 June 2026",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     },
     {
-      "field": "originating_agency",
-      "value": "Department of War",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "signed_by",
+      "value": "Jon T. Kosloski, Director, AARO",
+      "source_quote": "Jon T. Kosloski Director, AARO",
+      "citation_offset": {
+        "offset": 6206,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "multiple_witnesses",
+      "value": "Multiple teams and agents reported sightings over both nights",
+      "source_quote": "other teams reporting weird lights moving along in groups miles away",
+      "citation_offset": {
+        "offset": 928,
+        "len": 48,
+        "exact": false,
+        "matched": "g weird lights moving along in groups miles away"
+      },
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "Jon T. Kosloski"
+  ],
   "named_places": [
-    "Western United States"
+    "Western United States",
+    "Washington, DC"
   ],
   "dated_events": [
-    "October 2023"
+    "October 2023",
+    "02 June 2026",
+    "08-MAY 2026"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "Large glowing circular ball with swirly lava-like pattern, estimated 20+ feet diameter, possible spindle below",
+    "Orange ball of light that released three red lights which flew away at speed",
+    "Semi-transparent object that mimicked car taillights (one round red, one square white), hovered silently, then flew away",
+    "Same object seen floating vertically at 15-20 feet altitude, partially transparent with visible light positions"
+  ],
   "verifiable_claims": [
     {
-      "claim": "Multiple U.S. federal law enforcement special agents observed UAP over two days in October 2023 in the western United States.",
-      "source_quote": "",
+      "claim": "Multiple U.S. federal law enforcement special agents observed UAP over two days in October 2023 in the western United States",
+      "source_quote": "Witness 1 was one of several United States (U.S.) federal law enforcement special agents who reported observing unidentified anomalous phenomena (UAP) over a period of two days in October 2023",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 518,
+        "len": 100,
+        "exact": false,
+        "matched": "federal law enforcement special agents who reported observing unidentified anomalous phenomena (UAP)"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The witness used a range finder on a later day to measure the hillside distance at approximately 1100 meters",
+      "source_quote": "another later day I was able to use a range finder to put the distance to the hillside at about 1100 meters",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1462,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The glowing circular object produced no illumination on the hillside or ground behind or below it",
+      "source_quote": "There was no observed glow behind or below the object on the hillside or ground",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2264,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object that appeared to be a car did not interact with terrain normally — no bouncing, no dust, and it hovered",
+      "source_quote": "It did not bounce or move with the terrain, but seemed to hover. It did not kick up any dust either",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4608,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "An oncoming vehicle appeared not to react to the object moving off the road",
+      "source_quote": "The oncoming vehicle continued driving and passed us, almost like it did not even see the vehicle move of the road as it passed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4479,
+        "len": 127,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object's lights maintained the same orientation toward the witnesses even after changing direction",
+      "source_quote": "the lights appeared to be in the same position facing us even though we were in a different direction from it",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4748,
+        "len": 109,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A star and hillside vegetation were visible through the floating object, indicating partial transparency",
+      "source_quote": "I could see a star through the object, as well as the crest of the hill and some vegetation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5867,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Spider-web-like material was observed floating in the air near the semi-transparent object",
+      "source_quote": "we observed some dust and thick spider web looking material floating in-front of us",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5382,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "No sound was heard from any of the observed objects at any point",
+      "source_quote": "I did not notice any sound at any point",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 5036,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 8,
+    "amber": 1,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:09:21.470Z",
-  "qa_completed_at": "2026-06-14T03:09:54.218Z",
+  "qa_started_at": "2026-06-19T21:38:06.994Z",
+  "qa_completed_at": "2026-06-19T21:39:24.320Z",
   "timing": {
-    "A": "15.2s",
-    "B": "17.5s"
-  }
+    "A": "50.3s",
+    "B": "27.0s",
+    "E": "32.5s"
+  },
+  "public_headline": "Federal Agent Reports Silent, Semi-Transparent Objects Over Western U.S.",
+  "public_tldr": "A U.S. federal law enforcement agent submitted a first-hand account to the All-domain Anomaly Resolution Office (AARO) describing multiple unidentified anomalous phenomena observed over two nights in October 2023 in the western United States. The objects included a large glowing sphere, orange lights that released red lights, and a partially transparent object that appeared to mimic a car before hovering silently and flying away.",
+  "public_narrative": "This document, dated 2 June 2026 and signed by AARO Director Jon T. Kosloski, is a narrative memorandum submitted by a U.S. federal law enforcement special agent describing UAP sightings over two consecutive nights in October 2023 in the western United States. It is a single-witness account written in free-form text, with no photographs, video, or sensor data included.\n\nOn the first evening, just before 7 PM at dusk, the witness observed a large glowing circular object near a hillside. The object had a swirly, lava-like pattern and was estimated at over 20 feet in diameter. Through binoculars, it appeared to have a line or spindle extending below it, possibly touching the hillside. The witness initially estimated the distance at 500–600 metres but later measured the hillside at roughly 1,100 metres using a range finder. Despite its brightness, the object cast no visible light on the ground or hillside behind it. It was visible for one to two minutes. Later that night, an orange light appeared over a different hillside several miles away, and three evenly spaced red lights flew out of it at speed before disappearing. A brief flash lit up the sky from beyond the horizon around the same time.\n\nOn the second night, the witness encountered what initially looked like a car with mismatched taillights — one round and red, one square and white. As it moved off the road, it did not bounce with the terrain and kicked up no dust. An oncoming vehicle passed without reacting. The object's lights appeared to remain oriented toward the witness even after changing direction. It then turned off its lights and flew away silently. The witness compared its general shape to a Toyota Prius. Shortly after, the witness observed dust and thick spider-web-like material floating in the air, alongside what appeared to be the same object hovering vertically at 15–20 feet, roughly 200 metres away. It was semi-transparent — a star and hillside vegetation were visible through it.\n\nThe document does not include any agency analysis, conclusions, or classification of what the objects were. It is a witness statement only. Other agents and teams are mentioned as having observed unusual lights, but their accounts are not included in this release.",
+  "public_caveats": [
+    "This is a single-witness account based on memory, submitted some time after the events. No corroborating statements from the other agents mentioned are included in the document.",
+    "No photographic, video, or sensor evidence is referenced or attached. All observations are unaided or through binoculars.",
+    "Distance and size estimates are approximate — the witness self-corrected an initial 500–600 metre guess to about 1,100 metres after using a range finder on a later day.",
+    "Time references are uncertain (the witness says 'just before 7 pm I think' and 'an hour or two later'), and the narrative was written from memory after the fact.",
+    "The 'car mimicry' framing is the witness's own interpretation — the document does not establish that the object was intentionally imitating a vehicle."
+  ]
 }

@@ -5,77 +5,45 @@
   "type": "PDF",
   "incident_date": "1957",
   "incident_location": "Budapest, Hungary",
-  "what_is_it": "A CIA Information Report documenting UFO sightings observed over Budapest, Hungary in 1957.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "what_is_it": "A 1957 CIA Information Report regarding UFO sightings over Budapest, Hungary — the extracted text is almost entirely illegible due to extreme redaction or degraded scan quality.",
+  "core_summary": "This document is a CIA information report about unknown flying objects observed over Budapest in 1957. The source text extraction yielded virtually no readable content — only fragments of formatting artifacts and partial characters are visible, making it impossible to extract any substantive facts from the body text.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No body text could be extracted from the PDF — the document is likely a scanned image with poor OCR quality.",
-    "All facts are derived from metadata and the CSV catalogue description only; no primary source quotes are available.",
-    "A prior, more heavily redacted version existed publicly, suggesting sensitive content was previously withheld.",
-    "Single-source intelligence report with no corroborating documents identified."
+    "The extracted text is almost entirely illegible — only OCR artifacts and formatting noise were recovered, yielding no readable sentences or data points.",
+    "All facts listed are derived solely from the document's metadata and CSV description, not from the body text.",
+    "The CSV description notes a more redacted version was previously on CIA's public site, implying this release may contain additional content, but the text extraction failed to capture it.",
+    "The document may require manual review of the original PDF or re-OCR with different settings to recover any substantive content."
   ],
-  "fabrication_score": 3,
-  "key_facts": [
-    {
-      "field": "Originating agency",
-      "value": "CIA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Document identifier",
-      "value": "CIA-UAP-009",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Incident year",
-      "value": "1957",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Incident location",
-      "value": "Budapest, Hungary",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    }
-  ],
+  "fabrication_score": 1,
+  "key_facts": [],
   "named_people": [],
-  "named_places": [
-    "Budapest"
-  ],
-  "dated_events": [
-    "1957"
-  ],
-  "objects_described": [
-    "Unknown flying objects"
-  ],
-  "verifiable_claims": [
-    {
-      "claim": "UFO sightings were reported over Budapest in 1957",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
-    }
-  ],
-  "tier": "red",
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [],
+  "tier": "amber",
   "confidence_breakdown": {
     "green": 0,
     "amber": 0,
-    "red": 1
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:56:47.245Z",
-  "qa_completed_at": "2026-06-14T02:57:16.765Z",
+  "qa_started_at": "2026-06-19T21:07:44.061Z",
+  "qa_completed_at": "2026-06-19T21:08:06.014Z",
   "timing": {
-    "A": "12.7s",
-    "B": "16.8s"
-  }
+    "A": "13.4s",
+    "B": "8.6s",
+    "E": "16.7s"
+  },
+  "public_headline": "CIA Report on 1957 Budapest UFO Sightings Is Almost Entirely Illegible",
+  "public_tldr": "This is a 1957 CIA information report about unknown flying objects observed over Budapest, Hungary. The document's text is almost entirely unreadable due to extreme redaction or degraded scan quality, leaving only the title and metadata as usable information.",
+  "public_narrative": "In 1957, the CIA (Central Intelligence Agency) produced an information report titled \"Unknown Flying Objects Observed Over Budapest.\" The report concerns UFO sightings over Budapest, Hungary, though the details of what was seen, by whom, and what the agency made of it are unknown — not because they were never recorded, but because the document is effectively unreadable.\n\nThe extracted text yields virtually no legible content. Only fragments of formatting artifacts and partial characters survived, meaning no sentences, data points, witness names, object descriptions, or conclusions can be recovered from the body of the document. The redaction or degradation is classified as extreme.\n\nEverything known about this report comes from its metadata and catalogue description rather than from the document itself. The catalogue notes that a more heavily redacted version was previously available on the CIA's public website, implying this release may contain additional material — but the text extraction failed to capture any of it.\n\nThe document may need manual review of the original PDF or a fresh attempt at optical character recognition with different settings to recover whatever content exists beneath the damage. As it stands, the report confirms that the CIA documented UFO activity over Budapest in 1957, but tells us nothing about what was observed or what the agency concluded.",
+  "public_caveats": [
+    "The body text is almost entirely illegible — every fact in this summary comes from the document's title and catalogue metadata, not from the report itself.",
+    "No witness names, object descriptions, or agency conclusions can be extracted from the available text.",
+    "A more redacted version was previously on the CIA's public site, suggesting this copy may hold additional content that current text extraction cannot recover.",
+    "This document has not been independently corroborated against other sources because there is no substantive content to corroborate.",
+    "The original PDF may yield more information under manual review or improved OCR processing."
+  ]
 }

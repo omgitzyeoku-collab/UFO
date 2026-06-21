@@ -5,70 +5,274 @@
   "type": "IMG",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "A first-hand narrative statement (witness testimony) from a U.S. federal law enforcement special agent describing observations of unidentified anomalous phenomena (UAP) over two days in October 2023 in the western United States.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "First-hand witness narrative statement (memorandum for record) from a U.S. federal law enforcement special agent describing UAP observations in the western United States.",
+  "core_summary": "Witness 5, a U.S. federal law enforcement special agent, provided a first-hand account to AARO of UAP observed over two days in October 2023 in the western United States. On the first evening, while driving on an unpaved road near a Wildlife National Park, the witness and a colleague observed a large orange light at 1858 that appeared to hover with zero resistance over a distinctive peak in a ridge line, lasting less than or about a minute.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No body text could be extracted from this image file; all facts are derived solely from metadata and the CSV description provided by war.gov.",
-    "This is a single-source witness narrative — one person's account among several collected.",
-    "The exact location within the western United States is not specified.",
-    "Without the full text, the level of redaction in the document body cannot be precisely assessed; 'moderate' is estimated based on the image format and lack of extractable text.",
-    "The witness identity is anonymised (referred to only as 'Witness 5')."
+    "Document is OCR-extracted from an image (JPG), resulting in numerous transcription errors and garbled text throughout.",
+    "Heavy redaction: specific location names, gate names, road names, and witness identifiers are redacted or obscured.",
+    "Single-source narrative: this is one witness's subjective recollection provided in free-form text to AARO.",
+    "The document appears to be only the first page; the full narrative likely continues on subsequent pages not included here.",
+    "The observation of the orange light is described subjectively with no instrument or sensor corroboration mentioned.",
+    "The Wildlife National Park name is redacted, preventing independent verification of the location."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D083",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "Memorandum for Record",
+      "source_quote": "MEMORANDUM FOR RECORD",
+      "citation_offset": {
+        "offset": 118,
+        "len": 21,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "narrative_number",
-      "value": "Narrative Statement 5 (Witness 5)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Issuing office",
+      "value": "Office of the Under Secretary of War",
+      "source_quote": "OFFICE OF THE UNDER SECRETARY OF WAR",
+      "citation_offset": {
+        "offset": 15,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_date",
-      "value": "October 2023, over a two-day period",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document date",
+      "value": "02 June 2026",
+      "source_quote": "02 JUNE 2026",
+      "citation_offset": {
+        "offset": 105,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
-      "value": "Western United States",
-      "source_quote": "",
+      "field": "Witness designation",
+      "value": "Witness 5",
+      "source_quote": "Numtive from Witaess  - Westem US. Event",
+      "citation_offset": {
+        "offset": 149,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Witness occupation",
+      "value": "U.S. federal law enforcement special agent",
+      "source_quote": "feral law enforcement special agents who eported observing unidentified anomalous phenomena",
+      "citation_offset": {
+        "offset": 487,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident period",
+      "value": "Two days in October 2023",
+      "source_quote": "over a period of two days in October 2023",
+      "citation_offset": {
+        "offset": 585,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident location",
+      "value": "Western United States, near a Wildlife National Park on an unpaved road",
+      "source_quote": "just before the sign' Wildlife National park",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Departure time",
+      "value": "Around 1630",
+      "source_quote": "headed for the-Gate around 1630",
+      "citation_offset": {
+        "offset": 862,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP observation time",
+      "value": "1858",
+      "source_quote": "af 1858, we noliced a large orange light",
+      "citation_offset": {
+        "offset": 1664,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP description",
+      "value": "Large orange light appearing to hover with zero resistance over a ridge peak",
+      "source_quote": "orange light appeared to be placed on something. although nothing could be identified to be Holding it up. seemed tobe hovering with zero resistance",
+      "citation_offset": {
+        "offset": 1728,
+        "len": 148,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "UAP duration",
+      "value": "Less than or about one minute",
+      "source_quote": "th light lasted less than or about a minute, but it was longer than just a flash of light",
+      "citation_offset": {
+        "offset": 1962,
+        "len": 49,
+        "exact": false,
+        "matched": "th light lasted less than or about a minute, but "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Classification",
+      "value": "Unclassified",
+      "source_quote": "UNCLASSIFIED",
+      "citation_offset": {
+        "offset": 2,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Receiving office",
+      "value": "All-domain Anomaly Resolution Office (AARO)",
+      "source_quote": "provided to the All domain Anomaly Resolution Office (AARO)",
+      "citation_offset": {
+        "offset": 376,
+        "len": 59,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [
-    "Western United States"
+    "Western United States",
+    "Washington, DC",
+    "Defense Pentagon"
   ],
   "dated_events": [
-    "October 2023"
+    "October 2023",
+    "02 JUNE 2026",
+    "08 MAY 2026"
   ],
   "objects_described": [
-    "Unidentified anomalous phenomena (UAP)"
+    "Large orange hovering light over ridge line"
   ],
-  "verifiable_claims": [],
-  "tier": "red",
+  "verifiable_claims": [
+    {
+      "claim": "Witness 5 was a U.S. federal law enforcement special agent",
+      "source_quote": "feral law enforcement special agents who eported observing unidentified anomalous phenomena",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 487,
+        "len": 91,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Multiple special agents observed UAP over two days in October 2023",
+      "source_quote": "one of several United States (U.S.) feral law enforcement special agents who eported observing unidentified anomalous phenomena (UAP) over a period of two days in October 2023",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 451,
+        "len": 175,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A large orange light was observed at 1858 hovering over a ridge peak with no visible support",
+      "source_quote": "orange light appeared to be placed on something. although nothing could be identified to be Holding it up. seemed tobe hovering with zero resistance or movement",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1728,
+        "len": 160,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The light lasted less than or about one minute",
+      "source_quote": "th light lasted less than or about a minute, but it was longer than just a flash of light",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1962,
+        "len": 49,
+        "exact": false,
+        "matched": "th light lasted less than or about a minute, but "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The sighting occurred near a Wildlife National Park on an unpaved road",
+      "source_quote": "just before the sign' Wildlife National park",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Two males were encountered on the road who said they were taking pictures",
+      "source_quote": "They responded with something Hike \"Thank you or your concern, but we are just faking a ew pictures.\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1065,
+        "len": 60,
+        "exact": false,
+        "matched": "k you or your concern, but we are just faking a ew pictures."
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A trailer, white minivan, white Jeep Wrangler, and red Volkswagen van were present on the road",
+      "source_quote": "a Triler and white minivan to the left of the oad shortly after",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 1140,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 4,
+    "amber": 3,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:14:27.558Z",
-  "qa_completed_at": "2026-06-14T03:14:57.344Z",
+  "qa_started_at": "2026-06-19T21:52:57.580Z",
+  "qa_completed_at": "2026-06-19T21:53:54.308Z",
   "timing": {
-    "A": "15.2s",
-    "B": "14.6s"
-  }
+    "A": "27.1s",
+    "B": "29.6s",
+    "E": "21.9s"
+  },
+  "public_headline": "Federal Agent Reports Orange Hovering Light Near Western US Park",
+  "public_tldr": "A U.S. federal law enforcement special agent provided a first-hand written statement to the All-domain Anomaly Resolution Office (AARO) describing a large orange light that appeared to hover motionless over a ridge line near a Wildlife National Park in the western United States in October 2023. The document is heavily redacted, covers only the first page of what appears to be a longer narrative, and contains no instrument or sensor data to corroborate the observation.",
+  "public_narrative": "This unclassified memorandum, dated 02 June 2026 and issued by the Office of the Under Secretary of War, records the fifth witness narrative from a series of UAP (unidentified anomalous phenomena) sightings in the western United States. The witness, designated Witness 5, was one of several U.S. federal law enforcement special agents who reported observing UAP over two days in October 2023.\n\nAccording to the statement, Witness 5 and a colleague departed around 1630 and were driving on an unpaved road near a Wildlife National Park. At 1858, they noticed a large orange light over a distinctive peak in a ridge line. The light appeared to hover with zero resistance or movement, with nothing visible holding it up. It lasted less than or about one minute — longer than a brief flash, but not a sustained presence.\n\nBefore the sighting, the agents encountered two men on the road who said they were taking pictures, along with several vehicles including a trailer, a white minivan, a white Jeep Wrangler, and a red Volkswagen van. The relationship of these individuals to the sighting, if any, is not established in the available text.\n\nThe document is heavily redacted: the specific national park, gate names, road names, and witness identifiers are all obscured. The released page appears to be only the first page of a longer narrative, meaning the full account — including any second-day observations — is not available here. No conclusions or analysis from AARO are included in this portion of the document.",
+  "public_caveats": [
+    "This is a single witness's subjective recollection written in free-form text — no instrument readings, photographs, or sensor data are mentioned to corroborate the observation.",
+    "The document is heavily redacted: the specific park name, road names, and witness identity are all blacked out, preventing independent verification of the location or the witness's credentials.",
+    "Only the first page of the narrative appears to have been released; the full account, including any second-day observations, is missing.",
+    "The text was extracted via OCR from a scanned image, resulting in numerous transcription errors throughout — some quoted details may be garbled.",
+    "AARO's own analysis or conclusions about this sighting are not included in the released material."
+  ]
 }

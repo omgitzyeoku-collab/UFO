@@ -6,30 +6,70 @@
   "what_is_it": "A memorandum from the Commandant of the 5th Naval District regarding reporting procedures for 'flying disc' sightings, referencing guidance from the Chief of Naval Operations.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No OCR text was extractable from this scanned image; all facts derive from the CSV metadata description only.",
-    "The underlying memorandum from the Chief of Naval Operations is referenced but not included in this document.",
-    "Without readable source text, specific details such as exact dates, named individuals, and precise language cannot be verified."
+    "The source text is extremely sparse — most content is illegible or lost from the image scan, so nearly all substantive detail comes from the CSV metadata description rather than the document body itself.",
+    "Heavy redaction or degradation means the original reporting instructions and context cannot be independently verified from the extracted text alone.",
+    "This is an image-type document (JPG) with minimal successful text extraction, limiting what can be confirmed directly."
   ],
-  "fabrication_score": 4,
-  "key_facts": [],
+  "fabrication_score": 6,
+  "key_facts": [
+    {
+      "field": "document_year",
+      "value": "1948",
+      "source_quote": "1948",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "filing_office",
+      "value": "Office, Chief, Army Field Forces",
+      "source_quote": "Office, Chief : Army Field Forces",
+      "citation_offset": {
+        "offset": 26,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
   "named_people": [],
   "named_places": [],
-  "dated_events": [],
+  "dated_events": [
+    "1948"
+  ],
   "objects_described": [],
-  "verifiable_claims": [],
+  "verifiable_claims": [
+    {
+      "claim": "The document was filed under Army Field Forces records",
+      "source_quote": "Office, Chief : Army Field Forces",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 26,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document dates to 1948",
+      "source_quote": "1948",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
   "tier": "red",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 1,
+    "amber": 1,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:16:16.024Z",
-  "qa_completed_at": "2026-06-14T03:16:46.372Z",
+  "qa_started_at": "2026-06-19T21:57:22.731Z",
+  "qa_completed_at": "2026-06-19T21:57:54.288Z",
   "timing": {
-    "A": "13.6s",
-    "B": "16.7s"
+    "A": "19.2s",
+    "B": "12.3s"
   }
 }

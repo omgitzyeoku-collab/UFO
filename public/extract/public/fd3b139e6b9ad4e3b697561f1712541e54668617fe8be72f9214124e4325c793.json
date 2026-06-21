@@ -5,43 +5,403 @@
   "type": "PDF",
   "incident_date": "August 2 - September 2, 1965",
   "incident_location": "Cape Kennedy, Florida",
-  "what_is_it": "A preliminary transcript of the Gemini 5 flight crew technical debriefing, derived from voice recordings conducted by NASA.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "Preliminary transcript (Part I) of the Gemini 5 (GT-5) flight crew technical debriefing, covering countdown through orbital flight operations.",
+  "core_summary": "This is a declassified transcript of NASA astronauts Gordon Cooper and Pete Conrad debriefing their Gemini 5 mission, covering countdown, powered flight, insertion, and early orbital operations. The crew reported issues including severe window fogging, unexpectedly strong POGO vibrations during first-stage flight, debris from fairing jettison, loss of the primary radio, fuel cell delta-P warning lights, and a malfunctioning platform alignment mode that incorrectly drove the spacecraft nose-down. The crew praised the Rate Command control system and the onboard computer's accuracy.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — the document is likely a scanned image with poor OCR results, so all facts here come solely from metadata.",
-    "Without the full transcript text, it is unknown whether the debriefing contains any UAP-related observations or is purely a standard mission debrief.",
-    "This is Part I only; additional parts may contain further relevant content."
+    "This is Part I only; Part II covering visual sightings, experiments, and systems operations was published separately and is not included here.",
+    "The transcript is preliminary and unedited — NASA noted errors would be corrected in a later official version.",
+    "OCR quality is poor in places due to the age and condition of the original document, causing some passages to be fragmentary.",
+    "This is a standard spaceflight technical debriefing, not a UAP incident report; its inclusion in the PURSUE collection does not imply UAP content in this portion.",
+    "Crew references to prior flights ('John and Gus', 'Jim and Ed') refer to Gemini 3 (Grissom/Young) and Gemini 4 (McDivitt/White) crews."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "Originating agency",
-      "value": "NASA",
-      "source_quote": "",
+      "field": "Document classification",
+      "value": "Originally classified CONFIDENTIAL, Group 4, downgraded at 3-year intervals, declassified after 12 years",
+      "source_quote": "GROUP 4 DOWNGRADED AT 3 YEAR INTERVALS, DECLASSIFIED AFTER 12 YEARS",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Debriefing dates",
+      "value": "August 30, 1965 through September 1, 1965",
+      "source_quote": "GT-5 flight crew debriefing conducted August 30, 1965 thru September 1, 1965",
+      "citation_offset": {
+        "offset": 1330,
+        "len": 76,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Debriefing location",
+      "value": "Crew Quarters, Cape Kennedy, Florida",
+      "source_quote": "at the Crew Quarters, Cape Kennedy, Florida",
+      "citation_offset": {
+        "offset": 1407,
+        "len": 33,
+        "exact": false,
+        "matched": "at the Crew Quarters, Cape Kenned"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Preparing organization",
+      "value": "Spacecraft Operations Branch, Flight Crew Support Division",
+      "source_quote": "Prepared By Spacecraft Operations Branch Flight Crew Support Division",
+      "citation_offset": {
+        "offset": 817,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POGO onset time",
+      "value": "2 minutes 5 seconds into flight",
+      "source_quote": "At 2 minutes and 5 seconds we started picking up POGO",
+      "citation_offset": {
+        "offset": 14232,
+        "len": 43,
+        "exact": false,
+        "matched": "es and 5 seconds we started picking up POGO"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "POGO severity",
+      "value": "Crew could barely talk or read displays; estimated half to three-quarters g amplitude",
+      "source_quote": "neither one of us could talk hardly; we were really vibrating with it and I was hard pressed to read the displays",
+      "citation_offset": {
+        "offset": 14719,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "POGO frequency",
+      "value": "11 cycles per second",
+      "source_quote": "11 cps frequency",
+      "citation_offset": {
+        "offset": 15081,
+        "len": 16,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Window condition",
+      "value": "Both windows fogged on inside of outer pane before liftoff; insects and debris trapped between panes",
+      "source_quote": "Each window was filthy. Just fogged completely over, and it was on the inside of the outer pane of glass",
+      "citation_offset": {
+        "offset": 7073,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Window contamination details",
+      "value": "A bee, a fly, and flecks of debris trapped between window panes on Conrad's side",
+      "source_quote": "I had a small bee, and I had a fly, and I had several flecks of things",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Fairing jettison time",
+      "value": "3 minutes 25 seconds",
+      "source_quote": "We jettisoned fairings at 3:25",
+      "citation_offset": {
+        "offset": 20135,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Fairing jettison debris",
+      "value": "Nose fairing broke into many pieces creating extensive debris field",
+      "source_quote": "the whole darn thing exploded. It looked like it just flew into a jillion pieces",
+      "citation_offset": {
+        "offset": 23894,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Radio failure",
+      "value": "Lost number 1 radio at approximately 4 minutes into flight",
+      "source_quote": "we lost our number 1 radio in about 4 minutes",
+      "citation_offset": {
+        "offset": 24342,
+        "len": 45,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Fuel cell warning lights",
+      "value": "Number 1 and number 2 fuel cell delta-P lights illuminated during boost, went out after insertion",
+      "source_quote": "Shortly after liftoff I got the number 1 fuel cell delta P light... then the number 2 fuel cell delta P light came on",
+      "citation_offset": {
+        "offset": 25322,
+        "len": 55,
+        "exact": false,
+        "matched": "Shortly after liftoff I got the number 1 fuel cell delt"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "SECO acceleration",
+      "value": "7.25 g's at engine cutoff",
+      "source_quote": "I think we burned out at, Gordo, 7 and 1/4 g's",
+      "citation_offset": {
+        "offset": 26312,
+        "len": 36,
+        "exact": false,
+        "matched": "I think we burned out at, Gordo, 7 a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Inertial velocity at insertion",
+      "value": "25,808 ft/s vs nominal 25,807 ft/s",
+      "source_quote": "beautiful 25,808 and nominal was supposed to be 25,807",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "IVI reading at SECO",
+      "value": "Plus 002 aft",
+      "source_quote": "IVI's read 002 AFT. Almost perfect",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Platform mode malfunction",
+      "value": "Platform alignment mode failed to zero out properly; drove spacecraft to ~15-40 degrees nose-down",
+      "source_quote": "it continued to try to aline the platform at about fifteen degrees. It tried to put the nose on the horizon",
+      "citation_offset": {
+        "offset": 46692,
+        "len": 35,
+        "exact": false,
+        "matched": "he platform at about fifteen degree"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Rate Command system assessment",
+      "value": "Crew praised Rate Command as excellent alternative to malfunctioning platform mode",
+      "source_quote": "Rate Command system is just beautiful. It holds that spacecraft so tight that it can't vary",
+      "citation_offset": {
+        "offset": 44959,
+        "len": 36,
+        "exact": false,
+        "matched": "Rate Command system is just beautifu"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Thruster sound description",
+      "value": "Thrusters sounded like high-speed water jets; pulse mode sounded like knocking",
+      "source_quote": "Have you ever heard a high speed hose or high speed water jet. Shhh... That's the impression that I had",
+      "citation_offset": {
+        "offset": 31679,
+        "len": 55,
+        "exact": false,
+        "matched": "Have you ever heard a high speed hose or high speed wat"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Out-of-plane velocity error from platform burn",
+      "value": "1 foot per second out-of-plane during coelliptic burn using platform mode",
+      "source_quote": "we got one foot per second in and out of plane there",
+      "citation_offset": {
+        "offset": 44766,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "DCS update times",
+      "value": "1+45 and 2+25",
+      "source_quote": "1 plus 45, 2 plus 25",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Cabin pressure",
+      "value": "Sealed at approximately 5.8-5.9 psi, settled to 4.9 on gauge (actual ~5.11)",
+      "source_quote": "It was about 5.8... by the time I looked at it again after insertion everything it bled down on our gage to 4.9",
+      "citation_offset": {
+        "offset": 13322,
+        "len": 90,
+        "exact": false,
+        "matched": "by the time I looked at it again after insertion everything it bled down on our gage to 4."
+      },
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [
-    "Cape Kennedy, Florida"
+  "named_people": [
+    "Cooper",
+    "Conrad",
+    "Stoney",
+    "John",
+    "Gus",
+    "Jim",
+    "Ed",
+    "Gordo",
+    "Pete"
   ],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "named_places": [
+    "Cape Kennedy, Florida",
+    "Bermuda",
+    "Ames"
+  ],
+  "dated_events": [
+    "August 30, 1965",
+    "September 1, 1965",
+    "September 3, 1965"
+  ],
+  "objects_described": [
+    "Gemini V (GT-5) spacecraft",
+    "Primary scanners",
+    "IGS (Inertial Guidance System)",
+    "RGS (Reference Guidance System)",
+    "16mm camera",
+    "Hasselblad camera",
+    "Fuel cells (number 1 and 2)",
+    "UHF radio (number 1 and 2)",
+    "HF radio",
+    "Maneuver controller"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "POGO vibrations at 11 cps were strong enough to make displays unreadable, contradicting prior Gemini crews who reported minimal POGO",
+      "source_quote": "both John and Gus's and Jim and Ed's flight that they were hardly even aware of POGO and boy when it came in on us it was loud and clear",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 14592,
+        "len": 40,
+        "exact": false,
+        "matched": "ght that they were hardly even aware of "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The onboard computer's ascent routine was accurate to within 1 ft/s of nominal insertion velocity",
+      "source_quote": "beautiful 25,808 and nominal was supposed to be 25,807. You can't ask for a better calculation from a computer than that",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 28316,
+        "len": 85,
+        "exact": false,
+        "matched": "pposed to be 25,807. You can't ask for a better calculation from a computer than that"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The primary scanners malfunctioned by driving the spacecraft approximately 15 to 40 degrees nose-down while still indicating within scanner limits",
+      "source_quote": "one time it alined us at about 40 degrees nose down and it still was indicating in scanner limits",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 46927,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Window fogging occurred inside the sealed outer pane unit before liftoff, and attempts to fix it with hot air made it worse",
+      "source_quote": "the guys heated it with hot air to make it go away and that just made things worse",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7445,
+        "len": 47,
+        "exact": false,
+        "matched": "ot air to make it go away and that just made th"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The nose fairing jettison produced extensive debris and may have damaged the R&R canister",
+      "source_quote": "the R and R can was ripped up in the front",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20566,
+        "len": 32,
+        "exact": false,
+        "matched": "R can was ripped up in the front"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Cooper argued the crew had better onboard data than ground controllers credited, making ground-based burn corrections less critical",
+      "source_quote": "I think we had better immediate data available on board than people have been giving it credit for",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 29824,
+        "len": 53,
+        "exact": false,
+        "matched": "e on board than people have been giving it credit for"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The life vests were considered obstructive by the crew and interfered with operations throughout the flight",
+      "source_quote": "they are really in the way. They're in the way of everything you do. They bump into your arms",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Wind shear during launch was negligible",
+      "source_quote": "we had almost negible wind shear",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 13810,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Fairing debris left 5-6 gray spots on the windshield that did not burn off during reentry",
+      "source_quote": "I saw them hit, 5 or 6 gray splots... They didn't burn off during reentry",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 2,
+    "amber": 7,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:32:32.021Z",
-  "qa_completed_at": "2026-06-14T03:33:01.853Z",
+  "qa_started_at": "2026-06-19T22:40:37.559Z",
+  "qa_completed_at": "2026-06-19T22:42:15.735Z",
   "timing": {
-    "A": "14.7s",
-    "B": "15.2s"
-  }
+    "A": "62.3s",
+    "B": "35.7s",
+    "E": "27.0s"
+  },
+  "public_headline": "NASA Astronauts Reported Severe Vibrations and Equipment Failures on Gemini 5",
+  "public_tldr": "This is a formerly classified transcript of NASA astronauts Gordon Cooper and Pete Conrad debriefing after the Gemini 5 mission in August 1965. The crew described intense vibrations that made instruments unreadable, fogged windows with insects trapped inside, a failed radio, fuel cell warnings, and a malfunctioning guidance system that pitched the spacecraft nose-down — none of which are UAP-related.",
+  "public_narrative": "In late August 1965, astronauts Gordon Cooper and Pete Conrad sat down at the Crew Quarters in Cape Kennedy, Florida, to debrief their eight-day Gemini 5 mission. The transcript — originally stamped CONFIDENTIAL and declassified after twelve years — captures the crew walking engineers through everything that went right and wrong during countdown, launch, and orbital operations.\n\nSeveral problems stood out. Both cockpit windows fogged over before liftoff, with Conrad noting a bee, a fly, and debris trapped between the panes. At two minutes and five seconds into flight, violent longitudinal vibrations known as POGO kicked in at 11 cycles per second — strong enough that neither astronaut could talk or read their displays. Previous Gemini crews had barely noticed POGO; Cooper and Conrad estimated it hit half to three-quarters of a g. When the nose fairing separated at three minutes and twenty-five seconds, it shattered into what Conrad described as \"a jillion pieces,\" leaving grey marks on the windshield that never burned off, even during reentry.\n\nThe crew also lost their primary radio about four minutes in, fuel cell warning lights lit up during the climb to orbit, and the platform alignment mode malfunctioned — driving the spacecraft fifteen to forty degrees nose-down while still showing normal readings. On the positive side, both astronauts praised the Rate Command backup control system and the onboard computer, which nailed their insertion velocity to within one foot per second of the target (25,808 ft/s versus a nominal 25,807 ft/s).\n\nThis document is Part I of the debriefing only. Part II — covering visual sightings, experiments, and systems operations — was published separately and is not included here. The transcript's presence in the government's PURSUE UAP release collection does not mean this portion contains any UAP-related content; it is a standard spaceflight engineering debrief.",
+  "public_caveats": [
+    "This is Part I only — the section covering visual sightings and experiments (Part II) is a separate document not included here.",
+    "The transcript is preliminary and unedited; NASA noted that errors would be corrected in a later official version.",
+    "Its inclusion in the PURSUE UAP collection does not indicate UAP content in this portion — it is a routine spaceflight technical debriefing.",
+    "OCR quality is poor in places due to the age of the original document, making some passages fragmentary or uncertain.",
+    "References to 'John and Gus' and 'Jim and Ed' are the Gemini 3 (Grissom/Young) and Gemini 4 (McDivitt/White) crews, not unnamed witnesses."
+  ]
 }

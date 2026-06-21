@@ -5,69 +5,92 @@
   "type": "IMG",
   "incident_date": "1956",
   "incident_location": "Budapest, Hungary",
-  "what_is_it": "A CIA Information Report documenting unusual flying object sightings reported by a sub-source in Budapest, Hungary, including a sketch of the objects' suspected formation and flight path.",
+  "what_is_it": "A CIA Information Report regarding unusual flying object sightings and related scientific activity, based on a sub-source in Budapest.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No OCR text could be extracted from this scanned image; all facts derive from metadata and the war.gov CSV description only.",
-    "The report relies on a single sub-source in Budapest; no corroborating sources are mentioned.",
-    "A more redacted version was previously public, meaning this release contains additional content, but the extent of new material is unclear without readable text.",
-    "Cold War-era intelligence reports from behind the Iron Curtain should be evaluated with awareness of the geopolitical context and potential for disinformation."
+    "Extreme redaction: the vast majority of the document text is obscured or illegible, making meaningful analysis impossible from the source text alone.",
+    "The source text is heavily degraded — likely a poor-quality OCR extraction from a scanned image (IMG type), rendering most content as garbled fragments.",
+    "Marked UNEVALUATED by the CIA, meaning the agency did not assess the reliability of the information at time of filing.",
+    "Most factual context (Budapest, Moscow, formation flight path, 1956 date) comes from the CSV metadata description rather than legible source text.",
+    "Single sub-source reporting with no corroboration indicated in the visible text."
   ],
   "fabrication_score": 4,
   "key_facts": [
     {
-      "field": "Originating agency",
-      "value": "CIA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_type",
+      "value": "CIA Information Report",
+      "source_quote": "INFORMATION REPORT",
+      "citation_offset": {
+        "offset": 13,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Date of incident",
-      "value": "1956",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Location of sightings",
-      "value": "Budapest, Hungary",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "evaluation_status",
+      "value": "Unevaluated",
+      "source_quote": "UNCYALUATED",
+      "citation_offset": {
+        "offset": 128,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Budapest",
-    "Hungary"
-  ],
-  "dated_events": [
-    "1956"
-  ],
+  "named_places": [],
+  "dated_events": [],
   "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "Flying object sightings were reported by a Budapest-based sub-source to the CIA in 1956.",
-      "source_quote": "",
+      "claim": "The report was marked as unevaluated intelligence",
+      "source_quote": "UNCYALUATED",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 128,
+        "len": 11,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document is a photostatic copy of an original letter held by the CIA Library",
+      "source_quote": "fAmtisvie on loan foes CIA Library Se a pctostatic copy of origi) letter",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 274,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
+    "green": 2,
     "amber": 0,
-    "red": 1
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:01:18.924Z",
-  "qa_completed_at": "2026-06-14T03:01:51.813Z",
+  "qa_started_at": "2026-06-19T21:17:48.766Z",
+  "qa_completed_at": "2026-06-19T21:18:20.760Z",
   "timing": {
-    "A": "18.3s",
-    "B": "14.6s"
-  }
+    "A": "18.1s",
+    "B": "13.9s",
+    "E": "22.2s"
+  },
+  "public_headline": "CIA Filed Unevaluated Report on Flying Objects Seen Over Budapest",
+  "public_tldr": "This 1956 CIA information report documents unusual flying object sightings and related scientific activity reported by a sub-source in Budapest, Hungary. The document is almost entirely illegible due to extreme redaction and degradation, and the CIA marked it as unevaluated — meaning it never assessed whether the information was reliable.",
+  "public_narrative": "In 1956, the CIA produced an information report titled \"Report of Unusual Flying Object Sightings and Attendant Scientific Activity,\" based on reporting from a sub-source in Budapest, Hungary. The document is classified as an image-type record — a photostatic copy of an original letter held by the CIA Library.\n\nThe substance of the report is almost entirely unreadable. The document suffers from extreme redaction and severe degradation, likely the result of poor-quality scanning and optical character recognition. What little text survives is garbled fragments that do not form coherent sentences. The contextual details — Budapest as the location, 1956 as the date, and references to flying object sightings — come primarily from the catalogue metadata rather than legible text within the document itself.\n\nThe CIA stamped the report as \"unevaluated,\" a designation visible in the surviving text (rendered in the degraded scan as \"UNCYALUATED\"). This means the agency filed the information but never made a judgement about whether the source or the claims were credible.\n\nNo named witnesses, specific object descriptions, or agency conclusions can be extracted from the visible portions of the document. The report stands as a record that the CIA received and catalogued a sighting report from Cold War-era Hungary, but the actual content of that report remains effectively inaccessible.",
+  "public_caveats": [
+    "Extreme redaction and document degradation make the vast majority of the text illegible — meaningful analysis of the original content is not possible from what survives.",
+    "The CIA marked this report as unevaluated, meaning the agency never assessed the reliability of the source or the accuracy of the claims.",
+    "Most factual context (Budapest location, 1956 date, subject matter) comes from catalogue metadata, not from legible text within the document itself.",
+    "The report relies on a single sub-source with no corroboration indicated in any visible portion of the text.",
+    "The document is a photostatic copy, not an original — further limiting what can be reliably read or verified."
+  ]
 }

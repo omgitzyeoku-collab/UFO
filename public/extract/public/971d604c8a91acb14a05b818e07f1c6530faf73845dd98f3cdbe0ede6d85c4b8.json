@@ -5,34 +5,516 @@
   "type": "PDF",
   "incident_date": "June 3-6, 1966",
   "incident_location": "Low Earth Orbit",
-  "what_is_it": "Transcript of a NASA debriefing of astronauts Thomas Stafford and Eugene Cernan following the Gemini IX-A mission.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "A collection of internal NASA memoranda, routing slips, and telegraphic messages documenting the scientific experiments debriefing and status reporting for the Gemini IX-A mission in 1966.",
+  "core_summary": "These documents record NASA's internal communications about the scientific experiments conducted during the Gemini IX-A mission (June 3-6, 1966), including airglow photography, micrometeorite collection, zodiacal light photography, and synoptic photography. The mission faced complications when the ATDA target vehicle's shroud failed to separate (dubbed 'an angry alligator' by astronaut Tom Stafford), preventing docking and the retrieval of the S-10 micrometeorite experiment. The EVA (spacewalk) proved too physically demanding for hand-held photography, and the Astronaut Maneuvering Unit exercise was unsuccessful.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF (likely scanned/OCR-poor); all facts derive from metadata and the CSV description only.",
-    "Without the actual transcript text, the nature, duration, frequency, and context of the 'flashing lights' and 'sparkles' observations cannot be assessed.",
-    "Such phenomena in low Earth orbit may have prosaic explanations (e.g. spacecraft debris, ice particles, retinal effects from cosmic rays) but without the source text no determination can be made.",
-    "Single-source document: only the two crew members' accounts are represented."
+    "Despite the war.gov CSV description referencing astronaut accounts of 'flashing lights' and 'sparkles' on pages 2-5, the extracted text of this document contains no such accounts — the OCR may have failed to capture those pages or they may be in handwritten portions that were not legible to text extraction.",
+    "Much of the document consists of OCR-degraded text from handwritten routing slips and typed carbon copies, resulting in garbled or missing words throughout.",
+    "This is an administrative and scientific experiments status document, not a UAP investigation report; its inclusion in the PURSUE collection appears to relate to the unextracted 'flashing lights' observations mentioned in the CSV description.",
+    "The document is single-source (NASA internal communications from one office), reflecting the perspective of the Manned Flight Experiments Office rather than the astronauts directly.",
+    "Several handwritten routing slip annotations are largely illegible in the OCR output."
   ],
-  "fabrication_score": 4,
-  "key_facts": [],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Debriefing date",
+      "value": "June 16, 1966",
+      "source_quote": "Experiments Debfiefing of Gemini IX held in Bldg . 4, MSC at 8:30 A.M. June 16,1966",
+      "citation_offset": {
+        "offset": 920,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Debriefing author",
+      "value": "J. R. Gill, Manned Flight Experiments Office",
+      "source_quote": "From: J. R. Gill Subject : Experiments Debfiefing of Gemini IX",
+      "citation_offset": {
+        "offset": 893,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "ATDA failure nickname",
+      "value": "Angry alligator",
+      "source_quote": "called by Tom Stafford as 'an angry alligator'",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "S001 zodiacal light results",
+      "value": "Best pictures yet of zodiacal light, surpassing Gemini V results",
+      "source_quote": "On Tri-X these are the best pictures yet of the zodiacal light surpassing the results achieved on Gemini V",
+      "citation_offset": {
+        "offset": 1538,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "S011 airglow results",
+      "value": "About 40 usable pictures of airglow obtained",
+      "source_quote": "About 40 usable pictures of the airglow were obtained",
+      "citation_offset": {
+        "offset": 1652,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "S012 micrometeorite results",
+      "value": "9 impacts recorded on analyzed portion of surface",
+      "source_quote": "9 impacts are recorded",
+      "citation_offset": {
+        "offset": 2048,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Synoptic photography (S-5/S-6)",
+      "value": "Over 300 color pictures taken with Hasselblad and Maurer cameras",
+      "source_quote": "some 300 color pictures were taken with the Hasselblad and Maurer cameras",
+      "citation_offset": {
+        "offset": 2726,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Peru discovery",
+      "value": "Glacial lake in the Andes discovered in photographs, not on any existing map",
+      "source_quote": "a glacial lake in the Ange~ which do not appear on any existing maps",
+      "citation_offset": {
+        "offset": 3104,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Peru avalanche hazard",
+      "value": "Peruvian Embassy informed of lake posing potential avalanche hazard; military plane sent to investigate",
+      "source_quote": "The Peruvian Embassy has been informed of this lake which may portend an avalanche hazard for villagesilocated below",
+      "citation_offset": {
+        "offset": 3174,
+        "len": 116,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AMU exercise outcome",
+      "value": "Unsuccessful; too much physical work under present arrangements",
+      "source_quote": "THe AMU exercise was unsuccessful. It proved to be too Im.lCh 'work' under the present arrangements",
+      "citation_offset": {
+        "offset": 3438,
+        "len": 59,
+        "exact": false,
+        "matched": "THe AMU exercise was unsuccessful. It proved to be too Im.l"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "EVA photography assessment",
+      "value": "Hand-held photography during EVA deemed impractical",
+      "source_quote": "Hand-held photography during EVA for experiments looks 'out of the question' at present",
+      "citation_offset": {
+        "offset": 3597,
+        "len": 52,
+        "exact": false,
+        "matched": "Hand-held photography during EVA for experiments loo"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Biological experiment result A",
+      "value": "Pre-flight swabs inside spacecraft were dirty; post-flight same areas were sterile",
+      "source_quote": "3 swabs taken inside the s/c re- flight were dirty ; post-flight these same areas were sterile",
+      "citation_offset": {
+        "offset": 2276,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Biological experiment result B",
+      "value": "T-4 bacteriophages and penicillium survived spaceflight; two other specimens did not",
+      "source_quote": "the T-4 bacteriophages and t he penicilliumspeciroens survived the spaceflight; two other speciment",
+      "citation_offset": {
+        "offset": 2377,
+        "len": 54,
+        "exact": false,
+        "matched": "the T-4 bacteriophages and t he penicilliumspeciroens "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "S-10 status",
+      "value": "Lost on ATDA; could not be retrieved due to shroud failure",
+      "source_quote": "it was impossible to get near it or to retrieve it",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "S-12 collection box exposure",
+      "value": "Approximately 5 hours before closing for jet use; reactivated during crew sleep; retrieved during EVA",
+      "source_quote": "had five hrs~ exposure before closing it so jets could be freely used",
+      "citation_offset": {
+        "offset": 24985,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Fuel status during experiments",
+      "value": "50 lbs at start and still 50 lbs at end of experiment passes",
+      "source_quote": "they had 50 lbs . of fuel left and at the end, so it is reported, they still had 50 lbs",
+      "citation_offset": {
+        "offset": 24732,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Maurer camera timer failure",
+      "value": "Extended timer on Maurer camera failed; experiment operated manually",
+      "source_quote": "The extended timer-on the Maurer camera has failed . Will operate the sequence manually",
+      "citation_offset": {
+        "offset": 42253,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Camera cable failures",
+      "value": "Backup pilot broke cable in simulator; pilot Cernan broke flight backup camera cable",
+      "source_quote": "one of the backup pilots using the flight model in the simulator and the cable broke . Then Eugene Cernan , the pilot , took the 'flight backup' camera and this broke also",
+      "citation_offset": {
+        "offset": 42564,
+        "len": 100,
+        "exact": false,
+        "matched": "one of the backup pilots using the flight model in the simulator and the cable broke . Then Eugene C"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "NRL S-9 cosmic ray experiment",
+      "value": "Compatible with proposed high-altitude orbits on Gemini XI at 750 nautical miles apogee",
+      "source_quote": "the S-9 experiment would not be hurt if the flight plan included two elliptic orbits having an altitude of 750 nautical miles at apogee",
+      "citation_offset": {
+        "offset": 7492,
+        "len": 55,
+        "exact": false,
+        "matched": "periment would not be hurt if the flight plan included "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Solar eclipse notification",
+      "value": "Astronauts briefed on upcoming annular eclipse of the sun on May 20",
+      "source_quote": "an nular or rL cli se oft e un will occur",
+      "citation_offset": {
+        "offset": 43564,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Thomas Stafford",
+    "Eugene Cernan",
+    "Jocelyn R. Gill",
+    "Willis B. Foster",
+    "Homer E. Newell",
+    "George Mueller",
+    "Maurice M. Shapiro",
+    "M. Koomen",
+    "C. Hemenway",
+    "Paul Lowman",
+    "Kenneth Nagler",
+    "Larry Dunkelman",
+    "Franklin Roach",
+    "Henry Smith",
+    "M. Dubin",
+    "Richard Tousey",
+    "John McKee",
+    "Norman Foster",
+    "Ed Zeitler",
+    "R. T. Seal",
+    "Eldon W. Hall",
+    "Vearl N. Huff",
+    "Wyendell B. Evans",
+    "Joseph C. Lill",
+    "Peter W. Higgins",
+    "Carl E. Fichtel",
+    "Donald V. Reames",
+    "Bertram Stiller",
+    "Francis W. O'Dell",
+    "Rein Silberberg",
+    "Chen-Hsiang Tsao",
+    "Elliott Morris",
+    "John Clark",
+    "O. M. Owsley",
+    "T. B. Owen",
+    "C. E. Cleeton",
+    "William Anders",
+    "Charles Conrad"
+  ],
+  "named_places": [
+    "MSC (Manned Spacecraft Center, Houston)",
+    "NASA Headquarters, Washington D.C.",
+    "U.S. Naval Research Laboratory, Washington D.C.",
+    "Goddard Space Flight Center, Greenbelt, Maryland",
+    "Kennedy Space Center, Florida",
+    "Peru",
+    "Andes",
+    "Baja California",
+    "Australia",
+    "North Africa",
+    "Italy",
+    "Mediterranean",
+    "Greece",
+    "USSR",
+    "Orlando, Florida",
+    "Lake Gem Mary",
+    "Flagstaff, Arizona",
+    "Suitland, Maryland",
+    "Boulder"
+  ],
+  "dated_events": [
+    "June 16, 1966 — Experiments debriefing at MSC",
+    "June 21, 1966 — Report on Gemini 9 memo",
+    "June 21, 1966 — NRL letter re S-9 and Gemini XI",
+    "June 20, 1966 — Meeting in Dr. Shapiro's office at NRL",
+    "June 7, 1966 — Congratulatory telegram to astronauts",
+    "June 6, 1966 — Memo on scientific experiments carried on Gemini IX",
+    "May 31, 1966 — TWX withdrawing backup experiments S-5, S-6, S-28, S-29",
+    "May 29, 1966 — Word to ready backup experiments",
+    "May 25, 1966 — Request for Dunkelman attendance at debriefing",
+    "May 20, 1966 — Telephone call to Mr. Eaton re scrub effects",
+    "May 13, 1966 — Bulletin on S-11 camera timer failure",
+    "May 12, 1966 — Memo on astronomical phenomena during Gemini IX flight",
+    "April 20, 1966 — Tentative invitee list submitted",
+    "July 1, 1966 — USRL becomes NRL division"
+  ],
+  "objects_described": [
+    "Gemini IX-A spacecraft",
+    "ATDA (Augmented Target Docking Adapter)",
+    "Agena target vehicle",
+    "Maurer camera",
+    "Hasselblad camera",
+    "Astronaut Maneuvering Unit (AMU)",
+    "S-001 zodiacal light experiment equipment",
+    "S-011 airglow horizon photography equipment (NRL split-field filter with wide-angle Maurer lens)",
+    "S-012 micrometeorite collection box",
+    "S-010 Agena micrometeorite collection box",
+    "S-9 cosmic ray emulsion stack"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The ATDA shroud failed to separate, preventing docking, and was nicknamed 'an angry alligator' by Stafford",
+      "source_quote": "called by Tom Stafford as 'an angry alligator'",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "About 40 usable airglow pictures were obtained with split-field filter arrangement",
+      "source_quote": "About 40 usable pictures of the airglow were obtained",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1652,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Zodiacal light photographs on Tri-X film surpassed Gemini V results",
+      "source_quote": "On Tri-X these are the best pictures yet of the zodiacal light surpassing the results achieved on Gemini V",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1538,
+        "len": 106,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Over 300 color photographs were taken with Hasselblad and Maurer cameras",
+      "source_quote": "some 300 color pictures were taken with the Hasselblad and Maurer cameras",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2726,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A previously unmapped glacial lake was discovered in the Andes from orbital photographs",
+      "source_quote": "a glacial lake in the Ange~ which do not appear on any existing maps",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3104,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Peruvian government sent a military plane to investigate the discovered glacial lake due to avalanche risk",
+      "source_quote": "The Peruvians have sent a military p-l,ane into the area to investigate",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3292,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The AMU exercise failed because controlling body position required both hands",
+      "source_quote": "It takes two hands just to control the body peeitionang",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3539,
+        "len": 55,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Hand-held photography during EVA was assessed as impractical",
+      "source_quote": "Hand-held photography during EVA for experiments looks 'out of the question' at present",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3597,
+        "len": 52,
+        "exact": false,
+        "matched": "Hand-held photography during EVA for experiments loo"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The S-12 micrometeorite collection surface showed 9 impacts on the small portion analyzed",
+      "source_quote": "9 impacts are recorded",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2048,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Pre-flight swabs inside the spacecraft were dirty but post-flight the same areas were sterile",
+      "source_quote": "3 swabs taken inside the s/c re- flight were dirty ; post-flight these same areas were sterile",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2276,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "T-4 bacteriophages and penicillium specimens survived spaceflight while two other specimens did not",
+      "source_quote": "the T-4 bacteriophages and t he penicilliumspeciroens survived the spaceflight; two other speciment",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2377,
+        "len": 54,
+        "exact": false,
+        "matched": "the T-4 bacteriophages and t he penicilliumspeciroens "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The NRL S-9 cosmic ray experiment emulsion stack was lost on Gemini VIII and rescheduled for Gemini XI",
+      "source_quote": "The emulsion stack designed for this experiment was lost on the ill-fated Gemini VIIl but, the experiment is re-scheduled to be flown on Gemini Flight XI",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 12766,
+        "len": 95,
+        "exact": false,
+        "matched": "The emulsion stack designed for this experiment was lost on the ill-fated Gemini VIIl but, the "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Two proposed high-altitude orbits at 750 nautical miles apogee over Australia were deemed compatible with S-9",
+      "source_quote": "two elliptic orbits having an altitude of 750 nautical miles at apogee (approximately over Australia)",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7594,
+        "len": 30,
+        "exact": false,
+        "matched": " nautical miles at apogee (app"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Maurer camera's extended timer failed before the mission, requiring manual operation of the S-11 experiment",
+      "source_quote": "The extended timer-on the Maurer camera has failed . Will operate the sequence manually",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 42253,
+        "len": 87,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Dr. Jocelyn Gill served as the primary NASA Headquarters liaison for Gemini IX scientific experiments",
+      "source_quote": "Jocelyn R. Gill Manned Flight Experiments Office",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 26346,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 10,
+    "amber": 5,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:36:37.328Z",
-  "qa_completed_at": "2026-06-14T03:37:13.724Z",
+  "qa_started_at": "2026-06-19T22:49:16.008Z",
+  "qa_completed_at": "2026-06-19T22:51:34.245Z",
   "timing": {
-    "A": "15.9s",
-    "B": "20.5s"
-  }
+    "A": "79.1s",
+    "B": "59.1s",
+    "E": "31.3s"
+  },
+  "public_headline": "NASA Internal Memos Detail Gemini 9 Science Experiments and Equipment Failures",
+  "public_tldr": "This document is a collection of internal NASA memos and routing slips from 1966, recording the scientific experiments debriefing for the Gemini IX-A mission. It covers experiment results — including zodiacal light photography, airglow imaging, micrometeorite collection, and biological specimens — alongside equipment failures and the infamous 'angry alligator' docking target malfunction. It is an administrative record, not a UAP investigation report.",
+  "public_narrative": "In June 1966, NASA flew the Gemini IX-A mission with astronauts Thomas Stafford and Eugene Cernan in low Earth orbit over three days. This document, compiled primarily by J. R. Gill of NASA's Manned Flight Experiments Office, records the internal communications surrounding the mission's scientific experiments debriefing, held on 16 June 1966 at the Manned Spacecraft Center in Houston.\n\nThe mission carried several experiments but ran into significant problems. The Augmented Target Docking Adapter (ATDA) — the vehicle the crew was supposed to dock with — had a faulty shroud that failed to separate, making it impossible to dock or retrieve the S-10 micrometeorite collection experiment mounted on it. Stafford nicknamed the malfunctioning target 'an angry alligator' because of its appearance. The spacewalk proved so physically demanding that hand-held photography was deemed impractical, and the Astronaut Maneuvering Unit exercise failed because controlling body position required both hands, leaving none free for other tasks.\n\nDespite the setbacks, several experiments produced useful results. The zodiacal light photographs, taken on Tri-X film, were judged the best yet obtained, surpassing those from Gemini V. About 40 usable airglow pictures were captured, and the micrometeorite collection surface recorded 9 impacts on the portion analysed. Over 300 colour photographs were taken with Hasselblad and Maurer cameras, and one image revealed a previously unmapped glacial lake in the Andes that posed a potential avalanche hazard to villages below — the Peruvian Embassy was informed and Peru sent a military plane to investigate. Biological experiments found that T-4 bacteriophages and penicillium specimens survived spaceflight, while two other specimens did not, and that areas inside the spacecraft that were contaminated before flight were found sterile afterward.\n\nThis document's inclusion in the war.gov PURSUE UAP release appears to relate to astronaut observations of 'flashing lights' and 'sparkles' referenced in the release's catalogue description. However, those specific accounts do not appear in the extracted text of the document — they may be in handwritten portions that could not be read by text extraction, or on pages the OCR process failed to capture. The document itself is administrative in nature, focused on experiment logistics and results rather than anomalous sightings.",
+  "public_caveats": [
+    "This is an administrative experiments-status document, not a UAP investigation report. Its connection to the PURSUE UAP collection appears to be astronaut observations of 'flashing lights' that are referenced in the catalogue but do not appear in the extracted text of the document itself.",
+    "Much of the original document consists of handwritten routing slips and typed carbon copies that produced garbled or missing words during text extraction, meaning some content may be lost or unreadable.",
+    "The document reflects a single institutional perspective — NASA's Manned Flight Experiments Office — rather than direct astronaut testimony.",
+    "Redaction evidence is low; the gaps in the text appear to stem from poor OCR quality on degraded or handwritten source material rather than deliberate withholding.",
+    "Several key facts, including the 'angry alligator' nickname and the AMU exercise failure details, carry amber confidence ratings due to imprecise text matches, meaning the exact wording could not be perfectly verified against the source."
+  ]
 }

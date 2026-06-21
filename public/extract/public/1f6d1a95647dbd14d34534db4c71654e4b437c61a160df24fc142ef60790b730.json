@@ -5,85 +5,231 @@
   "type": "PDF",
   "incident_date": "1955",
   "incident_location": "Hungary",
-  "what_is_it": "A CIA intelligence report documenting unusual flying object sightings in Hungary and related scientific activity, based on intercepted correspondence between Hungarian relatives.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "what_is_it": "A CIA information report relaying a secondhand account of unusual flying object sightings in Hungary, sourced from personal correspondence between relatives.",
+  "core_summary": "In November 1955, a naturalised US citizen received a letter from his niece in Budapest, Hungary, describing widespread public excitement over so-called 'flying saucers' that had been observed for several weeks. The letter reported that the objects moved at an estimated speed of 12,000 kilometres per hour and that scores of scientists were actively studying the phenomena. The CIA disseminated the report as unevaluated information.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No body text was extractable from the PDF — all facts are derived from metadata and the war.gov catalogue description only.",
-    "The document is likely a scanned image with poor OCR quality, meaning key details from the original report are unavailable.",
-    "Intelligence is single-source, based on private family correspondence rather than direct observation or official channels.",
-    "A prior, more heavily redacted version existed publicly, suggesting sensitive content was withheld even in earlier releases.",
-    "Without the body text, the nature of the 'attendant scientific activity' referenced in the title cannot be determined."
+    "Single-source report based entirely on a private family letter — no independent corroboration provided",
+    "The CIA explicitly marked this as 'unevaluated information'",
+    "The letter writer was a civilian in Budapest, not a trained observer or scientist",
+    "The 12,000 km/h speed estimate has no stated measurement methodology — it may be hearsay or press-derived",
+    "Moderate redactions obscure the identities of the source, the niece, and other family members",
+    "The suspected flight path sketch (Budapest to Moscow) reflects the letter writer's speculation, not verified tracking data",
+    "Cold War context: reports from behind the Iron Curtain were subject to limited verification opportunities"
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "Originating agency",
-      "value": "CIA",
-      "source_quote": "",
+      "field": "Reporting agency",
+      "value": "Central Intelligence Agency (CIA)",
+      "source_quote": "PREPARED AND DISSEMINATED BY CENTRAL INTELLIGENCE AGENCY",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Document identifier",
-      "value": "CIA-UAP-018",
-      "source_quote": "",
+      "field": "Report number",
+      "value": "00-B-93674",
+      "source_quote": "REPORT NO. 00-B-93674",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Year of incident",
-      "value": "1955",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "Location",
+      "field": "Country",
       "value": "Hungary",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     },
     {
-      "field": "Subject matter",
-      "value": "Unusual flying object sightings and attendant scientific activity",
-      "source_quote": "",
+      "field": "Date of information report",
+      "value": "17 April (year partially obscured)",
+      "source_quote": "DATE OF STATED 17 Apr",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Source type",
+      "value": "Naturalised US citizen of Hungarian extraction corresponding with nieces in Budapest",
+      "source_quote": "Naturalized US citizen of extraction. He corresponds regularly with two nieces living in",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Date letter received",
+      "value": "November 1955",
+      "source_quote": "In November 1955 I received a letter from niece in Budapest",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Objects described as",
+      "value": "Flying saucers / rockets",
+      "source_quote": "flying saucers (rockets)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Duration of sightings",
+      "value": "Several weeks",
+      "source_quote": "for several weeks kept the people in a nervous state",
+      "citation_offset": {
+        "offset": 1522,
+        "len": 32,
+        "exact": false,
+        "matched": "pt the people in a nervous state"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Estimated speed",
+      "value": "12,000 kilometres per hour",
+      "source_quote": "these amazing fliers moved at a speed of 12,000 kilometers per hour",
+      "citation_offset": {
+        "offset": 4102,
+        "len": 52,
+        "exact": false,
+        "matched": "liers moved at a speed of 12,000 kilometers per hour"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Scientific interest",
+      "value": "Scores of scientists were engaged in studying the phenomena",
+      "source_quote": "These fast-rushing heavenly phenomena have been and still are keeping scores of scientists busy",
+      "citation_offset": {
+        "offset": 3972,
+        "len": 60,
+        "exact": false,
+        "matched": "na have been and still are keeping scores of scientists busy"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Suspected flight path",
+      "value": "Sketch indicating formation and course from Budapest toward Moscow",
+      "source_quote": "sketch indicating the formation and suspected course of the above objects: Budapest ... Moscow",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Evaluation status",
+      "value": "Unevaluated information",
+      "source_quote": "THIS IS UNEVALUATED INFORMATION",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Supporting material",
+      "value": "Photostatic copy of original letter in Hungarian with English translation held at CIA Library",
+      "source_quote": "Available on loan from CIA Library is a photostatic copy of original letter in Hungarian and an English translation",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Classification",
+      "value": "Limited dissemination — CIA, AEC, FBI, State and Defense intelligence components only; no foreign dissemination",
+      "source_quote": "LIMITED: Dissemination limited to full-time employees of CIA, AEC and FBI",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
   "named_people": [],
   "named_places": [
-    "Hungary"
+    "Hungary",
+    "Budapest",
+    "Moscow"
   ],
   "dated_events": [
-    "1955"
+    "November 1955",
+    "17 April (year unclear)",
+    "20 December through 17 January (school vacation)",
+    "24th (return date mentioned in letter)"
   ],
   "objects_described": [
-    "Unusual flying object"
+    "Flying saucers (also referred to as rockets) — fast-moving aerial phenomena estimated at 12,000 km/h"
   ],
   "verifiable_claims": [
     {
-      "claim": "UFO sightings occurred in Hungary in 1955",
-      "source_quote": "",
+      "claim": "Flying objects were observed over Hungary for several weeks, causing public nervousness",
+      "source_quote": "flying saucers (rockets) for several weeks kept the people in a nervous state",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1522,
+        "len": 32,
+        "exact": false,
+        "matched": "pt the people in a nervous state"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The objects were estimated to travel at 12,000 kilometres per hour",
+      "source_quote": "these amazing fliers moved at a speed of 12,000 kilometers per hour",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4102,
+        "len": 52,
+        "exact": false,
+        "matched": "liers moved at a speed of 12,000 kilometers per hour"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Scores of scientists were actively studying the phenomena",
+      "source_quote": "These fast-rushing heavenly phenomena have been and still are keeping scores of scientists busy",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3972,
+        "len": 60,
+        "exact": false,
+        "matched": "na have been and still are keeping scores of scientists busy"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A sketch included with the letter showed a suspected flight course from Budapest toward Moscow",
+      "source_quote": "sketch indicating the formation and suspected course of the above objects: Budapest ... Moscow",
       "verifier_verdict": "partial",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "This was the first time the source's niece had mentioned such objects in her correspondence",
+      "source_quote": "This is the first time my niece has mentioned such objects in her letters",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The original Hungarian letter and English translation were available on loan from the CIA Library",
+      "source_quote": "Available on loan from CIA Library is a photostatic copy of original letter in Hungarian and an English translation",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
-    "red": 1
+    "amber": 6,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:05:06.061Z",
-  "qa_completed_at": "2026-06-14T03:05:42.318Z",
+  "qa_started_at": "2026-06-19T21:26:53.182Z",
+  "qa_completed_at": "2026-06-19T21:27:46.487Z",
   "timing": {
-    "A": "15.0s",
-    "B": "21.3s"
-  }
+    "A": "30.9s",
+    "B": "22.4s",
+    "E": "26.0s"
+  },
+  "public_headline": "CIA Relayed 1955 Hungarian Letter Describing Fast-Moving Aerial Objects",
+  "public_tldr": "A CIA information report passed along a secondhand account from a private letter written by a woman in Budapest, describing 'flying saucers' that had been observed over Hungary for several weeks in 1955 and were estimated to travel at 12,000 km/h. The CIA filed the report as unevaluated information with no independent verification.",
+  "public_narrative": "In November 1955, a naturalised US citizen of Hungarian origin received a letter from his niece in Budapest. She described widespread public anxiety over fast-moving aerial objects — referred to as 'flying saucers' or 'rockets' — that had been seen over Hungary for several weeks. According to the letter, the objects were estimated to travel at 12,000 kilometres per hour, and scores of scientists were said to be actively studying the phenomena. The letter also included a sketch suggesting a flight path from Budapest toward Moscow.\n\nThe CIA prepared and disseminated the report (number 00-B-93674) based entirely on this single piece of personal correspondence. The agency explicitly stamped it as 'unevaluated information' — meaning it had not been verified or analysed. A photostatic copy of the original Hungarian letter, along with an English translation, was held at the CIA Library.\n\nThe report was classified for limited distribution only — restricted to full-time employees of the CIA, the Atomic Energy Commission (AEC), the FBI, and State and Defence intelligence components. No foreign dissemination was permitted. The document carries moderate redactions, which obscure the identities of the source, his niece, and other family members mentioned in the correspondence.\n\nThis was the first time the niece had mentioned such objects in her letters, according to the source. The report offers no analysis, no corroboration from other intelligence channels, and no conclusion about what the objects were.",
+  "public_caveats": [
+    "This is a single-source report based entirely on a private family letter — no independent corroboration was provided or cited by the CIA.",
+    "The CIA explicitly marked the report as 'unevaluated information', meaning the agency made no judgement about its accuracy or significance.",
+    "The letter writer was a civilian in Budapest, not a trained observer or scientist. The 12,000 km/h speed estimate has no stated measurement methodology and may be hearsay or drawn from press reports.",
+    "Moderate redactions obscure the identities of the people involved, limiting any independent verification.",
+    "Cold War context matters: reports from behind the Iron Curtain were inherently difficult to verify, and the suspected Budapest-to-Moscow flight path reflects the letter writer's personal speculation, not tracked radar data."
+  ]
 }

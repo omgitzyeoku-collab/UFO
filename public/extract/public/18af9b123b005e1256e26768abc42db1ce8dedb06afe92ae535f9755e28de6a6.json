@@ -4,66 +4,57 @@
   "agency": "Department of War",
   "type": "IMG",
   "incident_location": "United States",
-  "what_is_it": "A scanned image of a U.S. Air Force checklist document used for cataloguing and analysing reports of unidentified flying objects across the United States.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "what_is_it": "A heavily degraded or poorly scanned image document from a U.S. Air Force analysis of flying objects, with a visible declassification stamp but no legible substantive content.",
+  "core_summary": "This document is labeled as part of a U.S. Air Force analysis of flying objects in the United States (items 1-100). The scan or image quality is extremely poor, rendering the source text almost entirely illegible. A 'DECLASSIFIED' stamp is visible, but no meaningful narrative or data can be extracted from the available text.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No text was extracted from this scanned image; all facts are derived from metadata and the CSV description only.",
-    "The actual content of the checklist, witness statements, and narrative reports is unknown without successful OCR or manual review of the image.",
-    "Single image file covering pages 1-100 — resolution and legibility are unverified."
+    "The OCR-extracted text is almost entirely garbled, indicating either a very low-quality scan, a heavily degraded original, or an image that resists text extraction.",
+    "No substantive facts, witness names, incident details, or UAP descriptions can be reliably extracted from the available source text.",
+    "The document metadata references a 'Check-List - Unidentified Flying Objects' but this content is not legible in the extracted text.",
+    "Any analysis of this document would require access to the original image file or a higher-quality scan."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D087",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "originating_agency",
-      "value": "Department of War / U.S. Air Force",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "geographic_scope",
-      "value": "United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "document_series",
-      "value": "Pages 1-100 of a larger analysis",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "classification_status",
+      "value": "Declassified",
+      "source_quote": "DECLASSIFIED",
+      "citation_offset": {
+        "offset": 27,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "United States"
-  ],
+  "named_places": [],
   "dated_events": [],
-  "objects_described": [
-    "unidentified flying objects"
-  ],
+  "objects_described": [],
   "verifiable_claims": [],
-  "tier": "red",
+  "tier": "amber",
   "confidence_breakdown": {
     "green": 0,
     "amber": 0,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:17:16.807Z",
-  "qa_completed_at": "2026-06-14T03:17:44.483Z",
+  "qa_started_at": "2026-06-19T22:02:19.272Z",
+  "qa_completed_at": "2026-06-19T22:02:45.672Z",
   "timing": {
-    "A": "13.7s",
-    "B": "14.0s"
-  }
+    "A": "15.5s",
+    "B": "10.9s",
+    "E": "17.0s"
+  },
+  "public_headline": "Air Force Flying Objects Report Is Nearly Entirely Illegible",
+  "public_tldr": "This declassified document is labeled as a U.S. Air Force analysis of flying objects in the United States, covering items 1 through 100. However, the scan quality is so poor that virtually no substantive content can be read from it.",
+  "public_narrative": "This document, catalogued as DOW-UAP-D087, is titled \"U.S. Air Force Analysis of Flying Objects in the United States, 1-100\" and was released by the Department of War. The title suggests it once contained an analysis covering at least 100 reported flying object incidents across the United States.\n\nThe document bears a visible \"DECLASSIFIED\" stamp, confirming it was once classified material that has since been cleared for public access. Its metadata also references a \"Check-List — Unidentified Flying Objects,\" suggesting it may have been part of a structured tracking or evaluation system.\n\nUnfortunately, the scan or image quality is extremely poor. The text is almost entirely garbled and illegible, meaning no witness names, incident details, dates, locations, or descriptions of reported objects can be reliably extracted. Whether this is due to a degraded original, a low-quality scan, or some other factor is unclear.\n\nAs a result, while the document's existence and title confirm that the Air Force conducted some form of systematic analysis of flying object reports, the actual substance of that analysis remains inaccessible from this copy. A higher-quality scan or access to the original would be needed to learn what the report contained.",
+  "public_caveats": [
+    "The document is nearly entirely illegible — no facts about specific incidents, witnesses, or conclusions can be extracted from this scan.",
+    "The only confirmed detail beyond the title is the presence of a \"DECLASSIFIED\" stamp.",
+    "The metadata references a checklist for unidentified flying objects, but this content is not readable in the available image.",
+    "Any claims about what this document says beyond its title and classification status would be speculation, not evidence.",
+    "A higher-quality scan or the original document would be required to evaluate its actual contents."
+  ]
 }

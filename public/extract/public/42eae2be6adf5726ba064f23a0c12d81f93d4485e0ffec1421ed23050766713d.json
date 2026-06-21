@@ -5,38 +5,211 @@
   "type": "IMG",
   "incident_date": "2023",
   "incident_location": "Western United States",
-  "what_is_it": "A memorandum summarizing AARO's ongoing analysis of an unresolved UAP incident near a sensitive national security site in the western United States.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "Memorandum for record summarizing AARO's ongoing unresolved case analysis of a UAP incident near a sensitive national security site in the western United States.",
+  "core_summary": "Over two days in October 2023, six federal law enforcement special agents observed luminous orange 'mother orbs' that appeared to produce smaller red 'orbs' near a sensitive national security site in the western United States. The phenomena were silent, repeated over several hours, and displayed anomalous kinematic behavior including coordinated horizontal motion and altitude changes. As of June 2026, the case remains unresolved by AARO.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No extracted body text is available — all facts derive solely from metadata and the CSV description provided by war.gov.",
-    "The document is an image file (IMG), so detailed textual content could not be extracted via OCR.",
-    "The specific national security site is not named, limiting independent verification.",
-    "Single-source document from the issuing agency with no corroborating material available."
+    "The document is partially cut off at Section 3 (Analytic Factors), meaning the full analytical assessment is not available in this extract.",
+    "The location is deliberately vague ('western United States' near a 'sensitive national security site') — the specific site is not named.",
+    "All observations are eyewitness testimony from law enforcement agents; no sensor or instrument data is mentioned in the available text.",
+    "OCR quality is imperfect in several places, particularly in Section 3, which appears garbled and may contain important analytical caveats.",
+    "The document is classified as UNCLASSIFIED, suggesting redaction or omission of sensitive details before release."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "Issuing agency",
-      "value": "Department of War",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Issuing office",
+      "value": "Office of the Under Secretary of War",
+      "source_quote": "OFFICE OF THE UNDER SECRETARY OF WAR",
+      "citation_offset": {
+        "offset": 19,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Document ID",
-      "value": "DOW-UAP-D077",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Date of memorandum",
+      "value": "05 June 2026",
+      "source_quote": "05 JUNE 2026",
+      "citation_offset": {
+        "offset": 56,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Incident year",
-      "value": "2023",
-      "source_quote": "",
+      "field": "Investigating body",
+      "value": "All-domain Anomaly Resolution Office (AARO)",
+      "source_quote": "All-domain Anomaly Resolution Office's (AARO) ongoing analysis",
+      "citation_offset": {
+        "offset": 414,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident timeframe",
+      "value": "Two days in October 2023",
+      "source_quote": "Over a period of two days in October 2023",
+      "citation_offset": {
+        "offset": 726,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident location",
+      "value": "Near a sensitive national security site in the western United States",
+      "source_quote": "near a sensitive national security site in the western United States",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of witnesses",
+      "value": "Six federal law enforcement special agents",
+      "source_quote": "six federal law enforcement special agents reported observing",
+      "citation_offset": {
+        "offset": 769,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Witness configuration",
+      "value": "Three teams of two agents at multiple viewing angles",
+      "source_quote": "Each team of two agents reported observing phenomena with similar morphological features and performance characteristics from multiple viewing angles",
+      "citation_offset": {
+        "offset": 993,
+        "len": 85,
+        "exact": false,
+        "matched": "enomena with similar morphological features and performance characteristics from mult"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Time of day",
+      "value": "Approximately dusk",
+      "source_quote": "at approximately dusk",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Primary phenomenon",
+      "value": "Luminous orange 'mother orb' producing smaller red 'orbs'",
+      "source_quote": "a luminous orange \"mother orb\" appeared to produce smaller red \"orbs,\" one after another",
+      "citation_offset": {
+        "offset": 1243,
+        "len": 33,
+        "exact": false,
+        "matched": " appeared to produce smaller red "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Mother orb duration",
+      "value": "One to two seconds per appearance",
+      "source_quote": "the orange \"mother orbs\" as appearing for one to two seconds",
+      "citation_offset": {
+        "offset": 1389,
+        "len": 35,
+        "exact": false,
+        "matched": "as appearing for one to two seconds"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Red orbs per release",
+      "value": "Cluster of two to four",
+      "source_quote": "releasing a cluster of two to four red \"orbs\"",
+      "citation_offset": {
+        "offset": 1426,
+        "len": 35,
+        "exact": false,
+        "matched": "releasing a cluster of two to four "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Repetition",
+      "value": "Multiple times over several hours",
+      "source_quote": "multiple times over a period of several hours",
+      "citation_offset": {
+        "offset": 1307,
+        "len": 35,
+        "exact": false,
+        "matched": "imes over a period of several hours"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Red orb behavior",
+      "value": "Coordinated horizontal motion and apparent altitude changes",
+      "source_quote": "seemingly coordinated horizontal motion and apparent changes in altitude",
+      "citation_offset": {
+        "offset": 1624,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Red orb persistence",
+      "value": "Several seconds typically; one instance stationary above ridgeline for several hours",
+      "source_quote": "a red \"orb\" as remaining stationary above a ridgeline for several hours",
+      "citation_offset": {
+        "offset": 1844,
+        "len": 56,
+        "exact": false,
+        "matched": "remaining stationary above a ridgeline for several hours"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Sound",
+      "value": "Silent",
+      "source_quote": "the reporters also described the phenomena as \"silent\"",
+      "citation_offset": {
+        "offset": 1907,
+        "len": 39,
+        "exact": false,
+        "matched": "eporters also described the phenomena a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Case status",
+      "value": "Unresolved as of June 2026",
+      "source_quote": "As of June 2026, the case remains unresolved",
+      "citation_offset": {
+        "offset": 657,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Case nickname",
+      "value": "Orbs Launching Orbs",
+      "source_quote": "Western US Event \"Orbs Launching Orbs\"",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Classification",
+      "value": "UNCLASSIFIED",
+      "source_quote": "UNCLASSIFIED",
+      "citation_offset": {
+        "offset": 4,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
@@ -44,45 +217,128 @@
     "Western United States"
   ],
   "dated_events": [
-    "2023"
+    "October 2023",
+    "05 JUNE 2026",
+    "08 MAY 2026"
   ],
   "objects_described": [
-    "Unidentified anomalous phenomena (UAP)"
+    "Luminous orange 'mother orb'",
+    "Smaller red 'orbs'"
   ],
   "verifiable_claims": [
     {
-      "claim": "AARO conducted ongoing analysis of a UAP incident near a sensitive national security site in the western United States",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Six federal law enforcement special agents observed the phenomena across two days",
+      "source_quote": "six federal law enforcement special agents reported observing \"orbs launching other orbs\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 769,
+        "len": 59,
+        "exact": false,
+        "matched": "six federal law enforcement special agents reported observi"
+      },
+      "confidence": "amber"
     },
     {
-      "claim": "The incident occurred over a period of two days in 2023",
-      "source_quote": "",
-      "verifier_verdict": "partial",
+      "claim": "Witnesses were organized in teams of two observing from multiple angles",
+      "source_quote": "Each team of two agents reported observing phenomena with similar morphological features and performance characteristics from multiple viewing angles",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 993,
+        "len": 85,
+        "exact": false,
+        "matched": "enomena with similar morphological features and performance characteristics from mult"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Orange mother orbs appeared to release clusters of two to four smaller red orbs repeatedly over several hours",
+      "source_quote": "a luminous orange \"mother orb\" appeared to produce smaller red \"orbs,\" one after another, multiple times over a period of several hours",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1307,
+        "len": 35,
+        "exact": false,
+        "matched": "imes over a period of several hours"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "At least one red orb remained stationary above a ridgeline for several hours",
+      "source_quote": "a red \"orb\" as remaining stationary above a ridgeline for several hours",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1844,
+        "len": 56,
+        "exact": false,
+        "matched": "remaining stationary above a ridgeline for several hours"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The phenomena were described as silent",
+      "source_quote": "the reporters also described the phenomena as \"silent\"",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1907,
+        "len": 39,
+        "exact": false,
+        "matched": "eporters also described the phenomena a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "All agents provided consistent accounts using similar language",
+      "source_quote": "The agents provided consistent accounts using similar language to characterize their experiences",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1957,
+        "len": 36,
+        "exact": false,
+        "matched": "The agents provided consistent accou"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The incident occurred near a sensitive national security site",
+      "source_quote": "near a sensitive national security site in the western United States",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
     },
     {
       "claim": "The case remains unresolved as of June 2026",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "source_quote": "As of June 2026, the case remains unresolved",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 657,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 3
+    "green": 1,
+    "amber": 7,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:07:34.730Z",
-  "qa_completed_at": "2026-06-14T03:08:14.071Z",
+  "qa_started_at": "2026-06-19T21:34:56.584Z",
+  "qa_completed_at": "2026-06-19T21:35:46.338Z",
   "timing": {
-    "A": "13.6s",
-    "B": "25.7s"
-  }
+    "A": "28.4s",
+    "B": "21.4s",
+    "E": "22.3s"
+  },
+  "public_headline": "Six Federal Agents Reported Silent Glowing Orbs Near Security Site",
+  "public_tldr": "A June 2026 memorandum from the Office of the Under Secretary of War summarises an unresolved investigation by AARO (the All-domain Anomaly Resolution Office) into a UAP incident in October 2023. Six federal law enforcement agents, working in three teams of two, observed silent luminous orange orbs that appeared to release smaller red orbs near a sensitive national security site in the western United States. The case remains unresolved.",
+  "public_narrative": "This document is an unclassified memorandum dated 5 June 2026, issued by the Office of the Under Secretary of War. It provides an update on an ongoing case analysis by AARO — the All-domain Anomaly Resolution Office, the Pentagon body responsible for investigating unidentified anomalous phenomena.\n\nThe incident took place over two days in October 2023, near a sensitive national security site somewhere in the western United States. The specific location is not named. Six federal law enforcement special agents, organised into three teams of two and positioned at multiple viewing angles, reported observing what they described as luminous orange \"mother orbs\" that appeared to produce smaller red \"orbs.\" The agents reported that the orange orbs appeared for one to two seconds at a time, each releasing a cluster of two to four red orbs. This pattern repeated multiple times over several hours, beginning at approximately dusk. The red orbs displayed seemingly coordinated horizontal motion and apparent changes in altitude. In one instance, a red orb was reported as remaining stationary above a ridgeline for several hours. All agents described the phenomena as silent.\n\nThe witnesses provided consistent accounts using similar language. However, all observations described in the available text are eyewitness testimony — no sensor or instrument data is mentioned.\n\nAs of June 2026, AARO has not resolved the case. The document's third section, which appears to contain the analytical assessment, is partially cut off in the available extract, meaning the full reasoning behind AARO's conclusions is not available. The document is classified as UNCLASSIFIED, which suggests sensitive details may have been omitted or redacted before release.",
+  "public_caveats": [
+    "All observations are eyewitness testimony from law enforcement agents. No sensor data, radar tracks, photographs, or instrument readings are mentioned in the available text.",
+    "The document is partially cut off at the analytical assessment section, so the full reasoning and any caveats from AARO's analysts are not available in this extract.",
+    "The location is deliberately vague — described only as near a 'sensitive national security site in the western United States.' The specific site is not named.",
+    "The document is marked UNCLASSIFIED, which typically means sensitive operational details have been removed before release. The low redaction evidence suggests omission rather than heavy black-bar redaction.",
+    "Parts of the text, particularly in the cut-off analytical section, show imperfect OCR quality, meaning some details may be garbled or missing from the digital extract."
+  ]
 }

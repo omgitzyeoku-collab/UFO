@@ -3,62 +3,618 @@
   "title": "DOW-UAP-D088, U.S. Air Force Analysis of Flying Objects in the United States, 101-172",
   "agency": "Department of War",
   "type": "PDF",
-  "what_is_it": "A collection of U.S. Air Force checklist forms and supporting documents used to record and analyze reports of unidentified flying objects, covering cases numbered approximately 101 through 172.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "A compilation of US Air Force checklist reports, witness statements, and correspondence regarding multiple unidentified flying object sightings from February–April 1948, including the Norcatur, Kansas fireball explosion and several other incidents.",
+  "core_summary": "This document contains checklist reports and supplementary correspondence covering incidents 101–111, spanning February to April 1948. Key events include a major aerial explosion over Norcatur, Kansas on 18 February 1948 (later identified as a probable meteorite fall), speculative letters from citizen Norman Markham proposing the objects were space-craft from the Moon, a rebuttal from Dr. Lincoln LaPaz of the Institute of Meteoritics, sightings of burning/falling objects near Bakersfield, California in March 1948, unidentified aerial sounds over Baltimore, Maryland, and a silver half-moon-shaped flying wing sighted by a P-47 pilot in the Philippine Islands on 1 April 1948.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No extracted text was available from this PDF — it is likely a scanned document with poor OCR results, so all facts are derived from metadata only.",
-    "Without readable body text, named witnesses, specific incident details, dates, and locations that are almost certainly present in the original document cannot be reported.",
-    "The actual content of the 70+ case checklists (cases 101-172) is inaccessible in this extraction, meaning significant factual detail is missing from this summary."
+    "OCR quality is poor throughout the document, resulting in many garbled characters and potentially missed or misread words",
+    "Norman Markham's two speculative letters proposing Moon-based spacecraft are included in the file but were explicitly rejected by Dr. LaPaz as fantastic — they represent citizen speculation, not official assessment",
+    "Dr. LaPaz's letter notes contradictions in witness testimony (e.g., Glenn changed his account about the battery case temperature when challenged)",
+    "The Sammons testimony about an object landing in his yard, producing sparks, and taking off is extraordinary and unverified — LaPaz himself initiated efforts to check Sammons' veracity",
+    "The Philippine Islands flying wing sighting (Incident 111) relies on a single observer; his three wingmen did not see the object",
+    "FEAF's evaluation that the Philippine Islands object was 'probably a bird' directly contradicts the pilot's description of a 30-foot silver craft with rapid acceleration",
+    "Several incidents (Bakersfield series) were assessed by Fourth Air Force as probable rocket flares without definitive evidence",
+    "Markham's letters chain together unrelated incidents across months and locations to support a pre-existing Moon-spacecraft hypothesis — this is speculative pattern-matching, not analysis"
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D088",
-      "source_quote": "",
+      "field": "Incident 101 date",
+      "value": "18 February 1948",
+      "source_quote": "18 February 1948",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "originating_agency",
-      "value": "U.S. Air Force / Department of War",
-      "source_quote": "",
+      "field": "Incident 101 location",
+      "value": "Norcatur, Kansas",
+      "source_quote": "Place of observation Norcatur, Kansas",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "case_range",
-      "value": "Cases 101 through 172",
-      "source_quote": "",
+      "field": "Incident 101 observer occupation",
+      "value": "Editor",
+      "source_quote": "Occupation of observer Editor",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "geographic_scope",
-      "value": "United States",
-      "source_quote": "",
+      "field": "Incident 101 altitude",
+      "value": "30-35 miles above earth",
+      "source_quote": "Altitude 30 - 35 miles above earth",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 101 color",
+      "value": "Bluish-white smoke smudge",
+      "source_quote": "Color Bluish-white smoke smudge",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 101 apparent construction",
+      "value": "Meteor",
+      "source_quote": "Apparent construction Meteor",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Meteorite recovery",
+      "value": "Fragments recovered starting April 24, largest piece approximately 109 pounds, an achondrite stony meteorite",
+      "source_quote": "several small fragments up to one of 4 1/2 pounds. Then a disturbed spot in a clover field led to the digging up of a piece of some 109 pounds embedded about two feet in the soil",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "States where meteor was seen",
+      "value": "Oklahoma, New Mexico, Colorado, Kansas, and Nebraska",
+      "source_quote": "a meteor which was seen in Oklahoma, New Mexico, Colorado, Kansas, and Nebraska",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Markham letter date",
+      "value": "20 February 1948",
+      "source_quote": "Pueblo, Colorado February 20, 1948",
+      "citation_offset": {
+        "offset": 2095,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Markham speculation",
+      "value": "Suggested the Norcatur object could be a rocket headed for the Moon, citing rocketry travel time of ~100 hours",
+      "source_quote": "If this thing is a rocket of some kind headed for the moon, it might first have been seen as a streak of smoke",
+      "citation_offset": {
+        "offset": 4784,
+        "len": 40,
+        "exact": false,
+        "matched": "ght first have been seen as a streak of "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "LaPaz assessment",
+      "value": "Convinced the Norcatur incident was a genuine meteorite fall of exceptional size, but noted curious aspects",
+      "source_quote": "I remain convinced that, like the Four Corners incident, it was a genuine meteorite fall, although one of exceptional size",
+      "citation_offset": {
+        "offset": 16725,
+        "len": 100,
+        "exact": false,
+        "matched": "hat, like the Four Corners incident, it was a genuine meteorite fall, although one of exceptional si"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "LaPaz concern about witness Sammons",
+      "value": "Witness Sammons gave extraordinary testimony; efforts underway to verify his veracity and sanity",
+      "source_quote": "A determined effort is under way to check up on Sammons' veracity (and sanity!)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "McCook Field witnesses describe object as rocket",
+      "value": "Tower men at McCook Field, Nebraska described it as a black object with a bright jet of flame from the rear, not a fireball",
+      "source_quote": "All three denied the Norcatur object was a fireball and described it as a black object with an extremely bright jet of flame pouring out of the rear",
+      "citation_offset": {
+        "offset": 18194,
+        "len": 70,
+        "exact": false,
+        "matched": "All three denied the Norcatur object was a fireball and described it a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Battery case anomaly",
+      "value": "A burned flashlight battery fell in the street of Norton after the explosion, too hot to pick up",
+      "source_quote": "a burned flashlight battery which fell in the street of Norton just after the explosion. It was too hot to be picked up for several minutes",
+      "citation_offset": {
+        "offset": 24265,
+        "len": 100,
+        "exact": false,
+        "matched": "ry which fell in the street of Norton just after the explosion. It was too hot to be picked up for s"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 102/103 date",
+      "value": "18 February 1948 at approximately 1500 MST",
+      "source_quote": "multi-colored ball of fire trailing a dense cloud of smoke was sighted at approx 1500 hours MST 18 Feb 48",
+      "citation_offset": {
+        "offset": 25526,
+        "len": 45,
+        "exact": false,
+        "matched": "-colored ball of fire trailing a dense cloud "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 102/103 location",
+      "value": "Near Green River, Utah, 39°N 100°W",
+      "source_quote": "39° N - 100° W - near Green River, Utah",
+      "citation_offset": {
+        "offset": 24985,
+        "len": 34,
+        "exact": false,
+        "matched": " - 100° W - near Green River, Utah"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 102/103 observers",
+      "value": "B-29 crews from 28th Bombardment Group, Weaver AFB, South Dakota",
+      "source_quote": "two B-29 aircraft of the 28th Bombardment Group (VH)",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 102/103 description",
+      "value": "Multi-colored ball of fire with dense smoke cloud at approximately 20,000 feet, very high speed, heading southeast of Limon, Colorado",
+      "source_quote": "multi-colored ball of fire and dense cloud of smoke",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 104 date",
+      "value": "7 March 1948 at 2055 CST",
+      "source_quote": "7 Mar 48 2055 C",
+      "citation_offset": {
+        "offset": 27583,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident 104 location",
+      "value": "Smyrna, Tennessee",
+      "source_quote": "Smyrna Tenn.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 104 description",
+      "value": "Yellow-orange flare-like object visible for 45 minutes, moving slowly away, fading into horizon",
+      "source_quote": "A yellow-orange object which had the appearance of a flare was observed some six miles from Smyrna AAF",
+      "citation_offset": {
+        "offset": 28436,
+        "len": 40,
+        "exact": false,
+        "matched": "ad the appearance of a flare was observe"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 105 date",
+      "value": "8 March 1948 at 1100",
+      "source_quote": "8 Mar 48",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 105 location",
+      "value": "Belmont, North Carolina",
+      "source_quote": "Belmont, N. C.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 105 description",
+      "value": "Round metallic-appearing silver object, estimated 600 MPH, visible ~10 seconds, moving easterly in a straight line",
+      "source_quote": "A round metallic-appearing object moving very rapidly at an estimated speed of 600 MPH",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 105 observer credibility",
+      "value": "Superintendent of Meter Department, Duke Power Co., 30 years' experience, assessed as conservative and sound",
+      "source_quote": "a man of excellent character and reputation, a first-grade engineer and employee of Duke Power Co for some 30 years",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incidents 106-109 location",
+      "value": "Bakersfield, California",
+      "source_quote": "Bakersfield, California",
+      "citation_offset": {
+        "offset": 35980,
+        "len": 23,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incidents 106-109 dates",
+      "value": "5 March, 8 March, and 9 March 1948",
+      "source_quote": "on 5 March 1948 between 1610 and 1655 hours",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incidents 106-109 description",
+      "value": "Multiple sightings of burning/falling objects with smoke trails, resembling falling aircraft; parachutes observed after some events",
+      "source_quote": "two objects falling to Earth from unknown source... Description of objects similar to falling aircraft with smoke and debris trailing",
+      "citation_offset": {
+        "offset": 33351,
+        "len": 30,
+        "exact": false,
+        "matched": "ar to falling aircraft with sm"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Bakersfield HQ assessment",
+      "value": "Attributed to rocket flares, no evidence found by searching parties",
+      "source_quote": "it is the opinion of this headquarters that this activity could be attributed to rocket flares",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 110 location",
+      "value": "Hamilton, Baltimore, Maryland",
+      "source_quote": "Hamilton, Baltimore, Maryland",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 110 description",
+      "value": "Unidentified woman heard peculiar aircraft sounds between 3:00-5:00 AM over 6-8 weeks, believed to be foreign-type aircraft engines",
+      "source_quote": "the sound is not the type of airplane motor drone which is generally heard from American planes... more like that of a foreign type airplane",
+      "citation_offset": {
+        "offset": 42073,
+        "len": 35,
+        "exact": false,
+        "matched": "ore like that of a foreign type air"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 111 date",
+      "value": "1 April 1948 at 0955",
+      "source_quote": "At 1630 hours on 1 April 1948",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 111 location",
+      "value": "Philippine Islands, 124°3'E, 12°52'N",
+      "source_quote": "124 degrees 3 minutes East and 12 degrees 52 minutes North",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 111 observer",
+      "value": "1st Lt. Robert W. Meyers, P-47 pilot, 67th Fighter Squadron, 18th Fighter Group",
+      "source_quote": "1st Lt. Robert W. Meyers... P-47 Pilot",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 111 object description",
+      "value": "Silver half-moon shaped flying wing type, estimated 30-foot wingspan, 20-foot length, with indistinct dorsal fin",
+      "source_quote": "A half moon closely resembling a flying wing type acft; turtle back and an indistinct dorsal fin",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 111 object behavior",
+      "value": "Made a 90-degree left turn, leveled out heading 270°, accelerated rapidly and disappeared in ~5 seconds",
+      "source_quote": "leveled out on a heading of 270 degrees, accelerated rapidly and disappeared from sight in approximately five seconds",
+      "citation_offset": {
+        "offset": 45689,
+        "len": 50,
+        "exact": false,
+        "matched": "of 270 degrees, accelerated rapidly and disappeare"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Incident 111 FEAF evaluation",
+      "value": "Probably a bird",
+      "source_quote": "the object was probably a bird",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "named_people": [
+    "Oscar Monnig",
+    "Norman Garrett Markham",
+    "Willy Ley",
+    "Lincoln LaPaz",
+    "D. M. Gragg",
+    "Victor Regener",
+    "K. Hays",
+    "Leland Sammons",
+    "Alfred Glenn",
+    "Earl Holle",
+    "Ben Dobus",
+    "A. J. Goldman",
+    "Lt. Mantell",
+    "Richard C. Pettingill",
+    "Frank C. Johnston",
+    "A. C. Morrison",
+    "George L. Buchner",
+    "H. B. Nix",
+    "Callie R. Wason",
+    "J. E. Johnson",
+    "Donald L. Springer",
+    "A. M. Larsen",
+    "Robert W. Meyers",
+    "Robert F. DeLong",
+    "C. N. Stewart",
+    "Howard H. Berodt",
+    "Maurice T. Ritenour",
+    "Leonard P. Marchese",
+    "Carl W. Stucki",
+    "Kenneth Hays",
+    "Floyd Hays",
+    "Ralph Dew",
+    "Edgar Young",
+    "G. V. Jordan",
+    "Alan Marceau",
+    "Dr. Rocht"
+  ],
+  "named_places": [
+    "Norcatur, Kansas",
+    "Norton, Kansas",
+    "Pueblo, Colorado",
+    "Denver, Colorado",
+    "Limon, Colorado",
+    "Green River, Utah",
+    "Smyrna, Tennessee",
+    "Belmont, North Carolina",
+    "Charlotte, North Carolina",
+    "Bakersfield, California",
+    "Buena Vista Lake, California",
+    "Hamilton, Baltimore, Maryland",
+    "Philippine Islands",
+    "Boise, Idaho",
+    "Sonoma County, California",
+    "Fort Ross, California",
+    "Cape Mendocino, California",
+    "Oakland, California",
+    "San Francisco, California",
+    "Oberlin, Kansas",
+    "McCook Field, Nebraska",
+    "Fort Knox, Kentucky",
+    "Franklin, Kentucky",
+    "Nashville, Tennessee",
+    "Maury Island, Puget Sound",
+    "Iola, Kansas",
+    "Prairie View, Kansas",
+    "Phillipsburg, Kansas",
+    "Regar, Kansas",
+    "Toronto, Canada",
+    "Hamilton Field, California",
+    "Clark Air Force Base",
+    "Weaver AFB, South Dakota",
+    "Albuquerque, New Mexico",
+    "Andrews Field, Washington D.C.",
+    "Chamberlin Observatory, Denver"
+  ],
+  "dated_events": [
+    "18 February 1948",
+    "20 February 1948",
+    "14 March 1948",
+    "24 June 1947",
+    "3 July 1947",
+    "14 July 1947",
+    "13 October 1947",
+    "12 November 1947",
+    "24 November 1947",
+    "7 January 1948",
+    "7 March 1948",
+    "8 March 1948",
+    "5 March 1948",
+    "9 March 1948",
+    "13 March 1948",
+    "23 March 1948",
+    "29 March 1948",
+    "1 April 1948",
+    "8 April 1948",
+    "15 April 1948",
+    "9 February 1913",
+    "24 April 1913",
+    "29 November 1945"
+  ],
+  "objects_described": [
+    "Meteor/fireball over Norcatur, Kansas — bluish-white smoke, altitude 30-35 miles, achondrite meteorite fragments recovered",
+    "Multi-colored ball of fire with dense smoke cloud seen by B-29 crews near Green River, Utah",
+    "Yellow-orange flare-like object over Smyrna, Tennessee — visible 45 minutes",
+    "Round metallic silver object at estimated 600 MPH over Belmont, North Carolina",
+    "Burning falling objects with smoke trails over Bakersfield, California — resembling falling aircraft",
+    "Orange-red ball of fire over Bakersfield — split into burning halves, parachute observed",
+    "Unidentified foreign-type aircraft engine sounds over Baltimore, Maryland",
+    "Silver half-moon / flying wing type object in Philippine Islands — 30-foot wingspan, rapid acceleration, dorsal fin",
+    "P-47 fighter aircraft (observer platform)",
+    "B-29 bomber aircraft (observer platform)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Meteorite fragments were recovered near Norcatur, Kansas, beginning April 24, including one piece weighing approximately 109 pounds embedded two feet in the soil",
+      "source_quote": "several small fragments up to one of 4 1/2 pounds. Then a disturbed spot in a clover field led to the digging up of a piece of some 109 pounds embedded about two feet in the soil",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The meteorite was classified as an achondrite, an unusual type of stony meteorite that deteriorates rapidly",
+      "source_quote": "The stone is what is termed as an 'achondrite', a technical name for an unusual type of stony meteorite. It is reported to be of a type which will deteriorate rapidly",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Norcatur fireball was visible across five US states: Oklahoma, New Mexico, Colorado, Kansas, and Nebraska",
+      "source_quote": "a meteor which was seen in Oklahoma, New Mexico, Colorado, Kansas, and Nebraska",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Three McCook Field, Nebraska air base personnel described the Norcatur object as a black object with a bright jet of flame from the rear, not a fireball",
+      "source_quote": "All three denied the Norcatur object was a fireball and described it as a black object with an extremely bright jet of flame pouring out of the rear",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 18194,
+        "len": 70,
+        "exact": false,
+        "matched": "All three denied the Norcatur object was a fireball and described it a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A burned flashlight battery case fell in the street of Norton, Kansas immediately after the Norcatur explosion and was too hot to pick up",
+      "source_quote": "a burned flashlight battery which fell in the street of Norton just after the explosion. It was too hot to be picked up for several minutes",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 24265,
+        "len": 100,
+        "exact": false,
+        "matched": "ry which fell in the street of Norton just after the explosion. It was too hot to be picked up for s"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Dr. Victor Regener of the University of New Mexico identified the battery case as identical to small portable radio batteries",
+      "source_quote": "Dr. Victor Regener, Department of Physics, University of New Mexico, who states that it appears to be identical with the small batteries used in portable radios",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 17824,
+        "len": 50,
+        "exact": false,
+        "matched": "ictor Regener, Department of Physics, University o"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Dr. Lincoln LaPaz noted that despite intensive searches, no meteoritic material had been found from the Four Corners or Norcatur incidents at the time of writing",
+      "source_quote": "in spite of intensive searches (admittedly under bad terrain and weather conditions), not a trace of meteoritic material has so far been found",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 17088,
+        "len": 45,
+        "exact": false,
+        "matched": "ce of meteoritic material has so far been fou"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A 14-year-old schoolgirl in Oberlin, Kansas independently described the Norcatur object similarly to the McCook Field personnel — as having a jet of flame",
+      "source_quote": "a 14-year old, and presumably unbiased, schoolgirl in Oberlin, Kansas wrote me a similar description of the 'Fireball'",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 18365,
+        "len": 100,
+        "exact": false,
+        "matched": "year old, and presumably unbiased, schoolgirl in Oberlin, Kansas wrote me a similar description of t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Witness Leland Sammons reported an object landed in his yard, sat for about a minute, produced sparks and fire, then took off in a northwesterly direction gaining altitude, leaving a trail of smoke",
+      "source_quote": "it sat there about a minute... a lot of sparks showered from it, and the fire increased as if a fuse might have lighted, and it took off in a northwesterly direction very fast, gaining altitude as it went",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Kenneth Hays, riding a horse east of Norton, described the Norcatur object as looking like a rocket similar to those he saw during the war in Europe",
+      "source_quote": "he saw what appeared to him to be a rocket, just like he had seen during the war in Europe",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The silver flying wing object in the Philippine Islands was estimated to have a wingspan of 30 feet and length of 20 feet",
+      "source_quote": "the span of the object estimated to be thirty feet, length twenty feet and silver in color",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Far East Air Forces headquarters evaluated the Philippine Islands flying wing sighting as probably a bird",
+      "source_quote": "the object was probably a bird",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Fourth Air Force headquarters attributed the Bakersfield sightings to rocket flares",
+      "source_quote": "it is the opinion of this headquarters that this activity could be attributed to rocket flares",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The Belmont, NC observer A. C. Morrison was a 30-year employee of Duke Power Company assessed by investigators as conservative and sound",
+      "source_quote": "a man of excellent character and reputation, a first-grade engineer and employee of Duke Power Co for some 30 years",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Searching parties, aircraft, and rescue units made numerous attempts to locate the Bakersfield falling objects without success",
+      "source_quote": "searching parties, aircraft and rescue units have made numerous attempts to locate these reported objects without success",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "Strategic Air Command took no action on the Baltimore foreign aircraft sounds report",
+      "source_quote": "No action is contemplated by this headquarters",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
+    "amber": 16,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:17:44.486Z",
-  "qa_completed_at": "2026-06-14T03:18:18.592Z",
+  "qa_started_at": "2026-06-19T22:03:02.648Z",
+  "qa_completed_at": "2026-06-19T22:06:14.061Z",
   "timing": {
-    "A": "18.3s",
-    "B": "15.8s"
-  }
+    "A": "108.7s",
+    "B": "82.4s",
+    "E": "33.5s"
+  },
+  "public_headline": "Air Force Files on 1948 Sightings Include Kansas Meteorite and Philippine Flying Wing",
+  "public_tldr": "This document compiles US Air Force checklist reports, witness statements, and correspondence covering eleven unidentified flying object incidents from February to April 1948. The most significant case — a massive fireball over Norcatur, Kansas — was resolved as a genuine meteorite fall, while other sightings including a silver flying wing in the Philippines remained unexplained or were attributed to mundane causes like rocket flares or birds.",
+  "public_narrative": "This file, designated DOW-UAP-D088, is a batch of US Air Force investigation records covering incidents numbered 101 through 111, all from early 1948. Each incident follows a standardised checklist format — date, location, observer, description — supplemented by correspondence and follow-up analysis. The document originates from the Department of War and covers sightings across the United States and the Philippine Islands.\n\nThe centrepiece is Incident 101: on 18 February 1948, a bluish-white fireball exploded over Norcatur, Kansas, visible across five states — Oklahoma, New Mexico, Colorado, Kansas, and Nebraska. The observer, a local newspaper editor, estimated it at 30–35 miles altitude. Dr Lincoln LaPaz of the Institute of Meteoritics concluded it was a genuine meteorite fall of exceptional size. Recovery efforts beginning 24 April turned up fragments including one piece weighing roughly 109 pounds, buried two feet in a clover field. The meteorite was classified as an achondrite, an unusual type of stony meteorite. Despite this resolution, some witnesses complicated the picture: three tower personnel at McCook Field, Nebraska described the object not as a fireball but as a black object with a bright jet of flame from the rear. A citizen named Norman Markham wrote speculative letters proposing the objects were spacecraft from the Moon — a theory Dr LaPaz explicitly rejected.\n\nOther incidents in the file are briefer. Near Green River, Utah, B-29 bomber crews from the 28th Bombardment Group saw a multi-coloured ball of fire with a dense smoke cloud on the same date as the Norcatur event. Over Smyrna, Tennessee on 7 March 1948, a yellow-orange flare-like object was watched for 45 minutes. At Belmont, North Carolina on 8 March, a credible observer — a Duke Power Company engineer with 30 years' experience — reported a round metallic silver object moving at an estimated 600 miles per hour. Multiple sightings of burning, falling objects over Bakersfield, California in early March were assessed by Fourth Air Force headquarters as probable rocket flares, though no physical evidence was recovered. In Baltimore, Maryland, an unidentified woman reported hearing unusual aircraft engine sounds she described as foreign-sounding, occurring between 3:00 and 5:00 AM over six to eight weeks.\n\nThe final incident stands out. On 1 April 1948, 1st Lt Robert W. Meyers, a P-47 fighter pilot with the 67th Fighter Squadron, reported seeing a silver half-moon-shaped flying wing over the Philippine Islands. He described it as roughly 30 feet across with an indistinct dorsal fin. It made a 90-degree left turn, levelled out heading west, accelerated rapidly, and vanished in about five seconds. His three wingmen did not see it. The Far East Air Forces evaluation concluded the object was probably a bird — an assessment that sits uneasily with the pilot's description of a 30-foot silver craft with rapid acceleration.",
+  "public_caveats": [
+    "The document suffers from poor OCR quality throughout, meaning some words and details may be garbled or missing from the digital text.",
+    "Norman Markham's letters proposing Moon-based spacecraft are citizen speculation explicitly rejected by the investigating scientist — they do not represent any official Air Force position.",
+    "The Philippine Islands flying wing sighting (Incident 111) rests on a single observer; his three wingmen did not see the object, and the official evaluation ('probably a bird') directly contradicts the pilot's detailed description.",
+    "Dr LaPaz flagged concerns about at least one key witness (Leland Sammons, who claimed an object landed in his yard), initiating efforts to verify his 'veracity and sanity' — his extraordinary testimony is unverified.",
+    "Several Bakersfield incidents were attributed to rocket flares without definitive evidence; searching parties found nothing on the ground."
+  ]
 }

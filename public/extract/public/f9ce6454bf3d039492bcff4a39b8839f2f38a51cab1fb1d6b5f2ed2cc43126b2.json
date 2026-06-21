@@ -5,60 +5,144 @@
   "type": "IMG",
   "incident_date": "November, 2024",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI investigative activity form (FD-1057) recording first-hand observations by two FBI special agents during a UAP-related investigation.",
+  "what_is_it": "An FBI Electronic Communication (FD-1057 form) documenting investigative activity and first-hand observations by FBI special agents regarding an Unidentified Aerial Phenomenon.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No text was extractable from the scanned image; all facts derive from the war.gov CSV metadata description only.",
-    "The actual content of the FD-1057 form is unavailable for independent review.",
-    "Without the document body, the nature of the observations, what was seen, and investigative conclusions remain unknown.",
-    "Cross-referenced documents (D004-D008, PR001-PR003) would be needed for fuller context."
+    "Extreme redaction: agent names, specific dates, case numbers, contact information, synopsis details, and approval authority are all redacted.",
+    "The source text is OCR-extracted from an image document, resulting in garbled characters that may obscure additional content.",
+    "No substantive observational details survive the redactions — the nature, appearance, and behavior of the phenomenon are entirely obscured.",
+    "This document is part of a cluster (FBI-UAP-D004 through D008, plus video FBI-UAP-PR001 through PR003) from the same general area, per the CSV description, but the source text itself does not establish this linkage."
   ],
-  "fabrication_score": 5,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "agency",
-      "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_type",
+      "value": "FBI Electronic Communication (FD-1057 form)",
+      "source_quote": "FEDERAL BUREAU OF INVESTIGATION Electronic Communication",
+      "citation_offset": {
+        "offset": 26,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_date",
-      "value": "November 2024",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "case_classification",
+      "value": "Unidentified Aerial Phenomenon / Unidentified Anomalous",
+      "source_quote": "Unidentified Aerial Phenomenon",
+      "citation_offset": {
+        "offset": 169,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "incident_location",
-      "value": "Northeastern United States",
-      "source_quote": "",
+      "field": "enclosure_1",
+      "value": "Photos taken by a Special Agent on a date in November 2024",
+      "source_quote": "Photos taken by sa [EN on 11/]202¢",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "enclosure_3",
+      "value": "Additional photos taken by Special Agents on dates in November 2024",
+      "source_quote": "Photos taken by sh [EN on 11/2024",
+      "citation_offset": {
+        "offset": 395,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "synopsis_content",
+      "value": "Contains observations, though details are redacted",
+      "source_quote": "synopsis: [EE ore cvservarions o",
+      "citation_offset": {
+        "offset": 229,
+        "len": 32,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "approval_status",
+      "value": "Document was approved, approver name redacted",
+      "source_quote": "soproved 3v:",
+      "citation_offset": {
+        "offset": 130,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "Northeastern United States"
-  ],
+  "named_places": [],
   "dated_events": [
-    "November 2024"
+    "11/2024"
   ],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "objects_described": [
+    "Unidentified Aerial Phenomenon",
+    "Unidentified Anomalous"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "FBI special agents took photographs on multiple occasions in November 2024 as part of this investigation",
+      "source_quote": "Photos taken by sa [EN on 11/]202¢",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The case was classified under Unidentified Aerial Phenomenon",
+      "source_quote": "case 4: SEEEENEENEEN WEEN Unidentified Aerial Phenomenon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 143,
+        "len": 56,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document includes enclosed photographic evidence from at least two different agents across multiple dates",
+      "source_quote": "Photos taken by sa [EN on 11/]202¢ 2; Photos taken by sh [EN on 11/]202¢",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 349,
+        "len": 37,
+        "exact": false,
+        "matched": "202¢ 2; Photos taken by sh [EN on 11/"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 1,
+    "amber": 2,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:24:22.954Z",
-  "qa_completed_at": "2026-06-14T03:24:55.504Z",
+  "qa_started_at": "2026-06-19T22:18:44.865Z",
+  "qa_completed_at": "2026-06-19T22:19:20.758Z",
   "timing": {
-    "A": "15.4s",
-    "B": "17.1s"
-  }
+    "A": "18.9s",
+    "B": "17.0s",
+    "E": "19.9s"
+  },
+  "public_headline": "FBI Agents Photographed Unidentified Aerial Phenomenon in Northeast US",
+  "public_tldr": "This heavily redacted FBI internal communication documents an investigation into an unidentified aerial phenomenon in the northeastern United States in November 2024. Special agents took photographs on multiple occasions, but nearly all substantive details — including what was observed, agent names, and specific dates — have been blacked out.",
+  "public_narrative": "This document is an FBI Electronic Communication, a standard internal reporting form (FD-1057) used to record investigative activity. It was filed under the classification \"Unidentified Aerial Phenomenon\" and relates to events in the northeastern United States during November 2024.\n\nThe filing confirms that FBI special agents were directly involved in observing and documenting something. The document references enclosed photographs taken by at least two different agents on separate dates in November 2024, indicating the Bureau conducted active fieldwork over multiple occasions rather than simply receiving a report.\n\nThe document was formally approved through FBI channels, though the approving official's name is redacted. A synopsis section exists and references \"observations,\" but the details of what the agents actually saw are entirely blacked out.\n\nThe redaction level is extreme. Agent names, specific dates, case numbers, contact information, and — critically — every substantive detail about the phenomenon itself have been removed. The original text was also captured via image scanning rather than digital text, introducing additional garbled characters that further obscure whatever survives the redactions. As a result, this document confirms an FBI investigation occurred and that agents gathered photographic evidence, but reveals nothing about what they encountered.",
+  "public_caveats": [
+    "Extreme redaction means no details about the phenomenon's appearance, behaviour, or size survive — readers cannot draw any conclusions about what was observed.",
+    "The text was extracted via OCR from an image scan, so some portions are garbled and may contain errors beyond what redaction removed.",
+    "While the document references photos taken by agents, none of the photographs are included in this release — only the cover communication is present.",
+    "This is a single internal FBI communication, not an analytical assessment or conclusion. It documents that an investigation took place, not what the Bureau determined.",
+    "The verified facts note this document may be part of a cluster of related FBI releases from the same area, but the document itself does not establish that connection."
+  ]
 }

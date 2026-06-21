@@ -5,70 +5,183 @@
   "type": "IMG",
   "incident_date": "December, 1973",
   "incident_location": "USSR",
-  "what_is_it": "A CIA Intelligence Information Report documenting Soviet weapons testing facilities and an unidentified aerial phenomenon observed at the Sary Shagan Weapons Testing Range.",
+  "what_is_it": "CIA Intelligence Information Report providing details on a Soviet weapons testing facility and associated unidentified aerial phenomena.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted body text available — all facts derived from metadata and the CSV description only.",
-    "Source is a scanned image with no OCR text, so verbatim quotes cannot be provided.",
-    "Laser weapon research is described as 'rumored' even in the metadata, indicating it was unconfirmed intelligence.",
-    "A more redacted version existed publicly, suggesting this release contains additional previously withheld information.",
-    "Single-source intelligence report; claims about the site may reflect incomplete or unverified intelligence from 1973."
+    "The OCR quality is very poor due to the document being an image file, making many passages illegible or garbled.",
+    "Heavy redaction is evident throughout the document, with multiple fields and passages obscured.",
+    "Single human source: the report is based on information from one former Soviet citizen, not corroborated by other intelligence.",
+    "The laser weapon research is explicitly described as 'rumored' — not confirmed by the source or the CIA.",
+    "The nature and details of the unidentified aerial phenomena are not elaborated in the visible text.",
+    "The coverage period spans November 1971 to November 1973, but the source's access period and reliability are redacted."
   ],
   "fabrication_score": 4,
   "key_facts": [
     {
-      "field": "Originating agency",
-      "value": "CIA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "CIA Intelligence Information Report",
+      "source_quote": "Intelligence Informacion Lepore",
+      "citation_offset": {
+        "offset": 33,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Document date",
+      "field": "Date of report",
       "value": "December 1973",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "7 Decenher 15",
+      "citation_offset": {
+        "offset": 185,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Location",
-      "value": "Sary Shagan Weapons Testing Range, USSR",
-      "source_quote": "",
+      "field": "Subject",
+      "value": "The Sary Shagan Weapons Testing Range",
+      "source_quote": "The Sery Shayan Weapons Testing",
+      "citation_offset": {
+        "offset": 249,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Coverage period",
+      "value": "November 1971 – November 1973",
+      "source_quote": "November 1371-Novesner 1973",
+      "citation_offset": {
+        "offset": 213,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Source origin",
+      "value": "Germany, from a former Soviet citizen",
+      "source_quote": "Germany",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "Source description",
+      "value": "Former Soviet citizen",
+      "source_quote": "former Soviet citizen who sever",
+      "citation_offset": {
+        "offset": 312,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Warhead checkout",
+      "value": "Warhead checkout units present at the facility",
+      "source_quote": "LShead checkout uals",
+      "citation_offset": {
+        "offset": 487,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Laser research",
+      "value": "Rumored laser weapon research at the site",
+      "source_quote": "rumored laser Tesefreh",
+      "citation_offset": {
+        "offset": 616,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [
-    "Sary Shagan Weapons Testing Range",
-    "USSR"
+    "Sary Shagan",
+    "USSR",
+    "Germany"
   ],
   "dated_events": [
-    "December 1973"
+    "December 1973",
+    "November 1971-November 1973"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "Rumored laser weapon"
+  ],
   "verifiable_claims": [
     {
-      "claim": "An unidentified aerial phenomenon was observed at the Sary Shagan range",
-      "source_quote": "",
+      "claim": "The Sary Shagan facility housed System-75 (SA-2) and System-300/Aldan warhead systems",
+      "source_quote": "Gates Te (BX 2) sag brscenSo0s... CALM Yarheate",
       "verifier_verdict": "partial",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "The facility included warhead checkout units",
+      "source_quote": "LShead checkout uals",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 487,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Laser weapon research was rumored to be conducted at the site",
+      "source_quote": "rumored laser Tesefreh",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 616,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The source was a former Soviet citizen debriefed in Germany",
+      "source_quote": "Germany... former Soviet citizen who sever",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 311,
+        "len": 32,
+        "exact": false,
+        "matched": " former Soviet citizen who sever"
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 2,
+    "amber": 2,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:59:08.572Z",
-  "qa_completed_at": "2026-06-14T02:59:38.859Z",
+  "qa_started_at": "2026-06-19T21:12:50.890Z",
+  "qa_completed_at": "2026-06-19T21:13:34.266Z",
   "timing": {
-    "A": "14.7s",
-    "B": "15.5s"
-  }
+    "A": "21.2s",
+    "B": "22.2s",
+    "E": "17.3s"
+  },
+  "public_headline": "CIA Report Details Soviet Weapons Site and Unidentified Aerial Phenomena",
+  "public_tldr": "This December 1973 CIA intelligence report describes the Sary Shagan weapons testing range in the USSR, based on information from a single former Soviet citizen debriefed in Germany. The document references warhead checkout units, rumored laser weapon research, and associated unidentified aerial phenomena, but is heavily redacted and largely illegible.",
+  "public_narrative": "This document is a CIA Intelligence Information Report dated December 1973, covering the period from November 1971 to November 1973. Its subject is the Sary Shagan weapons testing range, a Soviet military facility in the USSR.\n\nThe report is based on information from a single source: a former Soviet citizen who was debriefed in Germany. According to the source, the Sary Shagan facility housed warhead checkout units and was the subject of rumours about laser weapon research. The laser research is explicitly described as rumoured — neither the source nor the CIA confirmed it as fact.\n\nThe document is also associated with unidentified aerial phenomena, though the visible text does not elaborate on the nature or details of these phenomena.\n\nThe report is heavily redacted throughout. Multiple fields and passages are obscured, including the source's access period and reliability assessment. The original document is an image file, and the OCR (optical character recognition) quality is very poor, leaving many passages illegible or garbled. This makes independent verification of its full contents difficult.\n\nNo conclusions about the unidentified aerial phenomena are visible in the surviving text. The document stands as a narrow intelligence report from a single, uncorroborated human source, with significant gaps due to redaction and poor legibility.",
+  "public_caveats": [
+    "The entire report relies on a single former Soviet citizen — no corroborating intelligence sources are cited.",
+    "The document is heavily redacted: the source's reliability rating, access period, and multiple passages are obscured.",
+    "The laser weapon research is explicitly described as 'rumored,' not confirmed by the source or the CIA.",
+    "The original is an image file with very poor OCR quality, making large portions illegible or garbled.",
+    "The nature and details of the unidentified aerial phenomena mentioned are not elaborated in the visible text."
+  ]
 }

@@ -5,65 +5,104 @@
   "type": "IMG",
   "incident_date": "December 19-21, 1965",
   "incident_location": "Cape Kennedy, Florida",
-  "what_is_it": "Preliminary transcript of the Gemini 7 flight crew technical debriefing, derived from voice recordings.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "what_is_it": "Cover page of a declassified technical debriefing transcript from the Gemini VII spaceflight mission.",
+  "core_summary": "This is the cover page of the Gemini VII Technical Debriefing document dated December 23, 1965. The page shows declassification markings and a classification change notation. The extracted text contains only the cover page and no substantive debriefing content.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No extracted body text available — all facts derived solely from metadata and the CSV description provided by war.gov.",
-    "The document is an image file (IMG type), likely a scanned page, so OCR was not successful and the full transcript content is unknown.",
-    "The observational anomalies described (lights, flashes, meteors, aurora, lightning) appear to be conventional phenomena, not unexplained aerial objects.",
-    "Only a portion of the full Gemini 7 debriefing may be represented by this single image file.",
-    "Source quotes are unavailable for all facts since no body text was extracted."
+    "The extracted text is from a single cover page only — no substantive debriefing content is present in this source text.",
+    "OCR quality is poor, with garbled characters and missing words, likely due to the image-based source format.",
+    "The CSV metadata describes discussion of lights, flashes, celestial observations, and sightings of Mercury, meteors, aurora, and lightning, but none of this content appears in the extracted text.",
+    "Named crew members (Borman and Lovell) appear only in the CSV metadata, not in the extracted source text itself."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "mission",
-      "value": "Gemini 7",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document title",
+      "value": "Gemini VII Technical Debriefing",
+      "source_quote": "GEMINI VII TECHNICAL DEBRIEFING",
+      "citation_offset": {
+        "offset": 95,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "debriefing_date",
-      "value": "December 19-21, 1965",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document date",
+      "value": "December 23, 1965",
+      "source_quote": "December 23, 1965",
+      "citation_offset": {
+        "offset": 127,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "originating_agency",
-      "value": "NASA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Classification status",
+      "value": "Declassified",
+      "source_quote": "DECLASSIFIED",
+      "citation_offset": {
+        "offset": 4,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [],
-  "dated_events": [],
+  "dated_events": [
+    "December 23, 1965"
+  ],
   "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "The Gemini 7 crew debriefing was conducted December 19-21, 1965, at Crew Quarters, Cape Kennedy, Florida",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "The Gemini VII Technical Debriefing document was declassified and had its classification changed.",
+      "source_quote": "DECLASSIFIED CATION CHANGE",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The debriefing document is dated December 23, 1965.",
+      "source_quote": "December 23, 1965",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 127,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
+    "green": 2,
     "amber": 0,
-    "red": 1
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:35:58.358Z",
-  "qa_completed_at": "2026-06-14T03:36:37.327Z",
+  "qa_started_at": "2026-06-19T22:48:34.264Z",
+  "qa_completed_at": "2026-06-19T22:48:58.478Z",
   "timing": {
-    "A": "16.6s",
-    "B": "22.4s"
-  }
+    "A": "14.2s",
+    "B": "10.0s",
+    "E": "17.5s"
+  },
+  "public_headline": "NASA Gemini VII Debriefing Cover Page Released With Declassification Markings",
+  "public_tldr": "This document is the cover page of a declassified technical debriefing from NASA's Gemini VII spaceflight mission, dated December 23, 1965. Only the cover page is present in the released material — no substantive debriefing content is included in this particular file.",
+  "public_narrative": "This record is a single cover page from the technical debriefing of NASA's Gemini VII mission. The debriefing document is dated December 23, 1965, just days after the mission ended. The page carries visible declassification markings, indicating the document was originally classified and later had its classification status changed.\n\nThe Gemini VII mission launched from Cape Kennedy, Florida and ran from December 19 to 21, 1965. Technical debriefings were standard practice after each mission, where crew and ground personnel would review what happened during the flight in detail.\n\nCritically, this released file contains only the cover page. No substantive debriefing content — no crew observations, no technical findings, no discussion of any sightings or incidents — appears in the extracted text. The broader catalogue metadata references discussion of lights, flashes, and celestial observations during the mission, but none of that content is present in this particular source file.\n\nThe text quality is poor due to the image-based format, with garbled characters and missing words from the optical character recognition process. This limits what can be confirmed directly from the document itself.",
+  "public_caveats": [
+    "This file contains only a cover page — no debriefing testimony or findings are included in the released material.",
+    "The OCR (optical character recognition) quality is poor, meaning some text on the page could not be reliably read.",
+    "Catalogue metadata references crew observations of lights and celestial phenomena, but this content does not appear anywhere in the actual extracted text.",
+    "Named crew members (Borman and Lovell) appear only in external metadata, not in this document itself, so their involvement cannot be confirmed from this source alone.",
+    "The document has moderate evidence of redaction, meaning some information may have been removed before release."
+  ]
 }

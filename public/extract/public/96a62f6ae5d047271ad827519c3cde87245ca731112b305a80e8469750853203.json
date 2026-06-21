@@ -5,77 +5,64 @@
   "type": "IMG",
   "incident_date": "August 1952-1967",
   "incident_location": "New Jersey, United States",
-  "what_is_it": "A collection of FBI memoranda and correspondence documenting UFO sighting investigations conducted by the Newark Field Office over a fifteen-year period.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "what_is_it": "A cover page or file folder sheet from the FBI's Federal Bureau of Investigation, marking a file copied for EQIP (Electronic Questionnaires for Investigations Processing) purposes.",
+  "core_summary": "This is a heavily degraded or redacted cover page from the FBI's files. The only legible elements identify it as a Department of Justice / Federal Bureau of Investigation document that was copied for EQIP purposes. No substantive content about UFO sightings is discernible from the extracted text.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "extreme",
   "interpretation_warnings": [
-    "No extracted body text is available — all facts are derived solely from the file metadata and CSV description provided by war.gov.",
-    "The source file is a scanned image (IMG format) with no successful OCR extraction, so document content beyond the catalogue description is unknown.",
-    "Without the actual document text, redaction level cannot be accurately assessed; the 'low' rating reflects only the metadata layer.",
-    "Single-source provenance: all claims originate from the war.gov catalogue description and have not been cross-referenced against the document contents."
+    "The source text is almost entirely illegible — this appears to be a cover page from a scanned image (IMG type) with extreme OCR degradation, yielding virtually no readable content.",
+    "The CSV metadata describes extensive UFO sighting records from New Jersey (1952–1967), but none of that content is present in the extracted text.",
+    "No substantive facts about UAP sightings, memoranda, or Air Force correspondence can be verified from this extraction alone.",
+    "Single-page cover sheet only; the underlying multi-page file content was not successfully extracted."
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "originating_agency",
-      "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
+      "field": "Originating agency",
+      "value": "Federal Bureau of Investigation, Department of Justice",
+      "source_quote": "Department of Justice FEDERAL BUREAU of INVESTIGATION",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "field_office",
-      "value": "Newark Field Office",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "date_range",
-      "value": "August 1952 to January 1967",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
-      "field": "geographic_focus",
-      "value": "New Jersey and surrounding areas",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Copy purpose",
+      "value": "EQIP (Electronic Questionnaires for Investigations Processing)",
+      "source_quote": "COPIED FOR - EQIP",
+      "citation_offset": {
+        "offset": 89,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
-  "named_places": [
-    "New Jersey, United States"
-  ],
-  "dated_events": [
-    "August 1952"
-  ],
-  "objects_described": [
-    "unidentified flying objects (UFOs)"
-  ],
-  "verifiable_claims": [
-    {
-      "claim": "The FBI Newark Field Office conducted a special inquiry into UFO sightings reported in and near New Jersey between August 1952 and January 1967.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
-    }
-  ],
-  "tier": "red",
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [],
+  "tier": "amber",
   "confidence_breakdown": {
     "green": 0,
     "amber": 0,
-    "red": 1
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:26:32.084Z",
-  "qa_completed_at": "2026-06-14T03:27:11.940Z",
+  "qa_started_at": "2026-06-19T22:24:36.662Z",
+  "qa_completed_at": "2026-06-19T22:25:11.225Z",
   "timing": {
-    "A": "15.7s",
-    "B": "24.1s"
-  }
+    "A": "20.3s",
+    "B": "14.3s",
+    "E": "19.1s"
+  },
+  "public_headline": "FBI Cover Page From Newark Office Reveals Almost Nothing",
+  "public_tldr": "This document is a single cover page from an FBI file associated with the Newark Field Office, spanning 1952 to 1967. The page is so heavily degraded or redacted that no substantive information about UFO sightings can be read from it — only the FBI letterhead and a note that it was copied for background-check processing are legible.",
+  "public_narrative": "This record, catalogued as FBI-UAP-D012, is a cover page or file folder sheet from the Federal Bureau of Investigation's Newark Field Office. According to the metadata, the underlying file relates to events in New Jersey between August 1952 and 1967, but the extracted content tells a far thinner story.\n\nThe document is classified as an image (IMG type), meaning it was scanned rather than born-digital. The scan quality is extremely poor. The only text that can be reliably read identifies it as a \"Department of Justice, Federal Bureau of Investigation\" document and notes that it was \"COPIED FOR — EQIP,\" referring to the Electronic Questionnaires for Investigations Processing system, a government platform used for background checks.\n\nNo names, no places, no descriptions of sightings, and no agency conclusions appear in the extracted text. The metadata catalogue describes extensive UFO sighting records from New Jersey across a fifteen-year span, but none of that content survived the extraction process. Whether that gap is due to extreme redaction, image degradation, or the fact that only the cover sheet was captured is not clear from the document alone.\n\nIn short, this release puts a file on the public record without making its contents accessible. The cover page confirms the file exists within FBI holdings, but everything behind it remains unreadable.",
+  "public_caveats": [
+    "This is a single cover page, not the full file. The multi-page content behind it was not successfully extracted or made available.",
+    "The document shows signs of extreme degradation or redaction — virtually no substantive text is legible beyond the FBI letterhead and the EQIP copy notation.",
+    "The metadata describes UFO sighting records from New Jersey (1952–1967), but none of that information appears in the actual extracted document text.",
+    "No witness names, sighting descriptions, or agency conclusions can be verified from this document alone.",
+    "The EQIP notation indicates the file was copied for background-check purposes, not necessarily released as part of a UAP disclosure effort."
+  ]
 }

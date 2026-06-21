@@ -5,64 +5,107 @@
   "type": "IMG",
   "incident_date": "August 30 - September 2, 1965",
   "incident_location": "Cape Kennedy, Florida",
-  "what_is_it": "A preliminary transcript (Part II) of the Gemini 5 flight crew technical debriefing, derived from voice recordings of astronauts describing their observations during the mission.",
+  "what_is_it": "A declassification cover page for Part II of the Gemini 5 flight crew technical debriefing transcript, originally classified CONFIDENTIAL.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No OCR text was extractable from the scanned image; all facts are derived from catalogue metadata only, not from the document body itself.",
-    "The described 'debris' and 'glittering pieces' could have mundane explanations such as spacecraft outgassing, insulation fragments, or ice particles — common phenomena reported on many space missions.",
-    "Without the full transcript text, the context and crew interpretation of these visual sightings cannot be assessed.",
-    "This is Part II only; Part I may contain additional relevant context not captured here."
+    "This is only the cover/title page; the substantive debriefing content (including visual sightings of debris and glittering objects on pages 157-220) is not present in this extracted text.",
+    "OCR quality is poor — the declassification authority reference is garbled and the exact year of declassification is unreadable.",
+    "The document type is IMG (image), meaning the OCR extraction captured very little usable text from what is likely a scanned photograph of the original page.",
+    "Key details about the astronauts' visual sightings of debris, 'snow', and 'glittering pieces' come from the CSV metadata description, not from the extracted source text itself."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 3,
   "key_facts": [
     {
-      "field": "Mission",
-      "value": "Gemini 5",
-      "source_quote": "",
+      "field": "document_part",
+      "value": "Part II",
+      "source_quote": "Part II",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "Debriefing dates",
-      "value": "August 30 – September 2, 1965",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "original_classification",
+      "value": "CONFIDENTIAL",
+      "source_quote": "CONFIDENTIAL",
+      "citation_offset": {
+        "offset": 17,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Originating agency",
-      "value": "NASA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "current_classification",
+      "value": "UNCLASSIFIED / DECLASSIFIED",
+      "source_quote": "DECLASSIFIED",
+      "citation_offset": {
+        "offset": 33,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "declassification_date",
+      "value": "November 20 (year unclear from OCR)",
+      "source_quote": "Dale. NOV 20",
+      "citation_offset": {
+        "offset": 149,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [],
-  "dated_events": [],
+  "dated_events": [
+    "NOV 20"
+  ],
   "objects_described": [],
   "verifiable_claims": [
     {
-      "claim": "NASA conducted a technical debriefing of the Gemini 5 crew between August 30 and September 2, 1965, at Cape Kennedy",
-      "source_quote": "",
-      "verifier_verdict": "partial",
+      "claim": "The document was originally classified CONFIDENTIAL and later declassified",
+      "source_quote": "CONFIDENTIAL ... DECLASSIFIED ... UNCLASSIFIED",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "Declassification was performed under the authority of Executive Order 11652",
+      "source_quote": "By authority of €.0//165\"2",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 91,
+        "len": 26,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 1,
+    "amber": 1,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:34:48.061Z",
-  "qa_completed_at": "2026-06-14T03:35:25.303Z",
+  "qa_started_at": "2026-06-19T22:45:41.503Z",
+  "qa_completed_at": "2026-06-19T22:46:16.994Z",
   "timing": {
-    "A": "16.0s",
-    "B": "21.3s"
-  }
+    "A": "18.7s",
+    "B": "16.8s",
+    "E": "20.0s"
+  },
+  "public_headline": "NASA Gemini 5 Debriefing Cover Page Declassified From Confidential",
+  "public_tldr": "This document is the declassification cover page for Part II of the Gemini 5 technical debriefing transcript, originally classified CONFIDENTIAL. The page itself contains no substantive content — the actual debriefing discussions, including reported visual sightings by the crew, are not present in this extracted material.",
+  "public_narrative": "This record is a single cover page from Part II of the Gemini 5 flight crew technical debriefing. Gemini 5 flew from August 30 to September 2, 1965, launching from Cape Kennedy, Florida. The debriefing transcript was originally stamped CONFIDENTIAL and was later declassified, with a declassification date of November 20 (the year is unreadable due to poor scan quality). The declassification appears to have been carried out under the authority of Executive Order 11652, though the OCR rendering of that reference is garbled.\n\nBecause this is an image-type document — a scanned photograph of the original page — very little usable text was captured during extraction. What survives is limited to classification markings and the declassification stamp. The substantive content of the debriefing, which according to the archive's metadata covers pages 157 through 220 and includes crew reports of visual sightings of debris, 'snow,' and 'glittering pieces,' is not present in this extracted material.\n\nNo conclusions, analysis, or agency assessments appear on this page. It functions solely as an administrative cover sheet recording the document's classification history.",
+  "public_caveats": [
+    "This is only a cover page — none of the actual debriefing content is included in the extracted text.",
+    "The document type is IMG (a scanned photograph), so OCR captured very little readable text. Key details like the declassification year are unreadable.",
+    "References to crew sightings of debris and 'glittering pieces' come from the archive's metadata description, not from the extracted source text itself.",
+    "The declassification authority reference (likely Executive Order 11652) is partially garbled in the scan, so that attribution is only partially confirmed.",
+    "No named individuals, agency conclusions, or substantive findings are present in this material."
+  ]
 }

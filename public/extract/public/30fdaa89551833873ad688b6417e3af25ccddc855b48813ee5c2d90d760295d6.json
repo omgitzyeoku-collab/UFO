@@ -5,75 +5,405 @@
   "type": "IMG",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "A first-hand witness narrative statement (image format) provided to the All-domain Anomaly Resolution Office (AARO) by a federal law enforcement special agent regarding a UAP sighting.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "First-hand witness narrative memorandum submitted to the All-domain Anomaly Resolution Office (AARO) describing a UAP sighting by a federal law enforcement special agent.",
+  "core_summary": "Witness 4, a U.S. federal law enforcement special agent, reported observing multiple unidentified anomalous phenomena over a 2-3 hour span one evening in October 2023 in the western United States. The witness described a bright ball of light crossing a hillside, followed by numerous orange lights/orbs of varying brightness and size, some of which appeared to eject smaller lights. Nine lights were observed forming a stationary horizontal line above a ridgeline, with smaller lights clustering below them.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from this image-format document; all facts are derived solely from metadata and the CSV description provided by war.gov.",
-    "The document is a single-witness narrative (Witness 4 of several), meaning it reflects one individual's account.",
-    "The exact location within the western United States is not specified in available metadata.",
-    "Without the actual narrative text, the specific details of what was observed, duration, appearance, and behaviour of the UAP are unknown."
+    "Single-source first-person narrative — no corroborating sensor data, photographs, or video included in this document",
+    "Although multiple agents reportedly observed UAP during this event, this document contains only Witness 4's account",
+    "The altitude '1-2k above ground level' does not specify units (feet or meters), introducing ambiguity",
+    "The document is an OCR extraction from an image file (JPG), so some text may contain transcription errors",
+    "No independent verification of the witness's account is presented in this memorandum",
+    "The witness was driving during the initial observation, which may affect accuracy of distance and altitude estimates",
+    "The exact date within October 2023 is not specified"
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 0,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D082",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "document_date",
+      "value": "02 June 2026",
+      "source_quote": "02 June 2026",
+      "citation_offset": {
+        "offset": 112,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "narrative_number",
-      "value": "Narrative Statement 4 (Witness 4)",
-      "source_quote": "",
+      "field": "witness_designation",
+      "value": "Witness 4",
+      "source_quote": "Narrative from Witness 4 - Western U.S. Event",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "witness_role",
+      "value": "U.S. federal law enforcement special agent",
+      "source_quote": "one of several United States (U.S.) federal law enforcement special agents who reported observing unidentified anomalous phenomena",
+      "citation_offset": {
+        "offset": 505,
+        "len": 80,
+        "exact": false,
+        "matched": "forcement special agents who reported observing unidentified anomalous phenomena"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "incident_date",
+      "value": "October 2023, just after sunset (~7PM)",
+      "source_quote": "Sometime in October 2023, just after sunset (7PM)",
+      "citation_offset": null,
+      "confidence": "amber"
     },
     {
       "field": "incident_location",
       "value": "Western United States",
-      "source_quote": "",
+      "source_quote": "in the western United States",
+      "citation_offset": {
+        "offset": 634,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "initial_observation",
+      "value": "Bright ball of light like a shooting star beaming across and over a hillside",
+      "source_quote": "I saw a bright ball of light like a shooting star beam across and over a hillside",
+      "citation_offset": {
+        "offset": 916,
+        "len": 51,
+        "exact": false,
+        "matched": "ike a shooting star beam across and over a hillside"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "initial_object_colors",
+      "value": "Orange/yellow and white, transitioning from amber to orange to slightly yellow to white",
+      "source_quote": "The colors of the light went from amber to orange, slightly yellow and white in that order",
+      "citation_offset": {
+        "offset": 1295,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "initial_object_duration",
+      "value": "About 1-2 seconds",
+      "source_quote": "appeared for about a second or two",
+      "citation_offset": {
+        "offset": 1064,
+        "len": 34,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "witness_distance",
+      "value": "Less than a quarter mile from the hillside",
+      "source_quote": "less than a quarter of a mile from the hillside",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
+    },
+    {
+      "field": "sound",
+      "value": "No mechanical buzzing or aircraft noise heard",
+      "source_quote": "No other lights were seen, nor did I hear any mechanical buzzing or anything like an aircraft",
+      "citation_offset": {
+        "offset": 1408,
+        "len": 73,
+        "exact": false,
+        "matched": " seen, nor did I hear any mechanical buzzing or anything like an aircraft"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "equipment_used",
+      "value": "Night vision goggles (NVGs)",
+      "source_quote": "Using my night vision goggles (NVGs) I saw the same lights in addition to multiple other lights",
+      "citation_offset": {
+        "offset": 1687,
+        "len": 55,
+        "exact": false,
+        "matched": "aw the same lights in addition to multiple other lights"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "NVG_observation",
+      "value": "Additional lights visible through NVGs organized in lines of three, evenly spaced at various altitudes",
+      "source_quote": "Some of the lights seen with NVG's were organized in line of three, evenly spaced and at various altitudes, horizontally just above the skyline",
+      "citation_offset": {
+        "offset": 1744,
+        "len": 55,
+        "exact": false,
+        "matched": "Some of the lights seen with NVG's were organized in li"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "hatching_behavior",
+      "value": "Bright orange lights appeared to eject smaller orange lights, occurring at least five times",
+      "source_quote": "very bright orange lights that appeared to shoot out smaller orange lights as if being hatched from the larger very bright orange light. The hatching occurred multiple times, lost track after five occurrences",
+      "citation_offset": {
+        "offset": 2000,
+        "len": 100,
+        "exact": false,
+        "matched": "very bright orange lights that appeared to shoot out smaller orange lights as if being hatched from "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "smaller_lights_behavior",
+      "value": "Smaller ejected lights traveled downward like falling stars",
+      "source_quote": "The smaller lights seemed to travel downwards like falling star",
+      "citation_offset": {
+        "offset": 2206,
+        "len": 38,
+        "exact": false,
+        "matched": "The smaller lights seemed to travel do"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "nine_light_formation",
+      "value": "Nine lights formed a stationary horizontal line above a ridgeline, evenly spaced, visible for 30+ seconds",
+      "source_quote": "nine lights formed a horizontal line just above ridgeline. The lights were static, not moving, evenly spaced apart and were visible for 30+ seconds",
+      "citation_offset": {
+        "offset": 2290,
+        "len": 80,
+        "exact": false,
+        "matched": "nine lights formed a horizontal line just above ridgeline. The lights were stati"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "clustering_behavior",
+      "value": "Smaller lights appeared below and to the sides of the nine-light formation, clustering in groups of three",
+      "source_quote": "Smaller lights then appeared below and to the left and right of the line of nine lights. These smaller lights seemed to cluster almost touching in a combination of three",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "reappearance",
+      "value": "Lights disappeared then reappeared directly behind the witness",
+      "source_quote": "The lights soon disappeared only to appear again directly behind me",
+      "citation_offset": {
+        "offset": 2598,
+        "len": 37,
+        "exact": false,
+        "matched": "The lights soon disappeared only to a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "total_observation_duration",
+      "value": "2-3 hours, nonstop",
+      "source_quote": "All these observations occurred within a 2-3 hour span, nonstop",
+      "citation_offset": {
+        "offset": 2666,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "multiple_witnesses",
+      "value": "Witness 4 was one of several agents who reported observing UAP",
+      "source_quote": "one of several United States (U.S.) federal law enforcement special agents who reported observing",
+      "citation_offset": {
+        "offset": 505,
+        "len": 47,
+        "exact": false,
+        "matched": "forcement special agents who reported observing"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "observation_period",
+      "value": "Two days",
+      "source_quote": "over a period of two days in October 2023",
+      "citation_offset": {
+        "offset": 592,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "issuing_office",
+      "value": "Office of the Under Secretary of War",
+      "source_quote": "OFFICE OF THE UNDER SECRETARY OF WAR",
+      "citation_offset": {
+        "offset": 15,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "classification",
+      "value": "UNCLASSIFIED",
+      "source_quote": "UNCLASSIFIED",
+      "citation_offset": {
+        "offset": 2,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
   "named_places": [
+    "Washington, DC",
     "Western United States"
   ],
   "dated_events": [
-    "October 2023"
+    "October 2023",
+    "02 June 2026",
+    "08 MAY 2026"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "Bright ball of light (shooting-star-like)",
+    "Multiple singular bright orange lights/orbs",
+    "Lights organized in lines of three (visible via NVGs)",
+    "Larger bright orange lights that ejected smaller orange lights",
+    "Nine stationary lights in horizontal formation above ridgeline",
+    "Smaller clustering lights in groups of three"
+  ],
   "verifiable_claims": [
     {
-      "claim": "Multiple U.S. federal law enforcement special agents observed UAP over two days in October 2023 in the western United States",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Witness 4 was a U.S. federal law enforcement special agent",
+      "source_quote": "one of several United States (U.S.) federal law enforcement special agents",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 456,
+        "len": 44,
+        "exact": false,
+        "matched": "one of several United States (U.S.) federal "
+      },
+      "confidence": "amber"
     },
     {
-      "claim": "Witness 4 provided a first-hand narrative to AARO",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Multiple federal law enforcement agents reported observing UAP during this event",
+      "source_quote": "one of several United States (U.S.) federal law enforcement special agents who reported observing unidentified anomalous phenomena",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 505,
+        "len": 80,
+        "exact": false,
+        "matched": "forcement special agents who reported observing unidentified anomalous phenomena"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The sighting occurred over a period of two days in October 2023",
+      "source_quote": "over a period of two days in October 2023 in the western United States",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 592,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness used night vision goggles and observed additional lights not visible to the naked eye",
+      "source_quote": "Using my night vision goggles (NVGs) I saw the same lights in addition to multiple other lights",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1687,
+        "len": 55,
+        "exact": false,
+        "matched": "aw the same lights in addition to multiple other lights"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Larger bright orange lights appeared to eject smaller orange lights at least five times",
+      "source_quote": "very bright orange lights that appeared to shoot out smaller orange lights as if being hatched from the larger very bright orange light. The hatching occurred multiple times, lost track after five occurrences",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2000,
+        "len": 100,
+        "exact": false,
+        "matched": "very bright orange lights that appeared to shoot out smaller orange lights as if being hatched from "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Nine lights formed a stationary horizontal line above a ridgeline for over 30 seconds",
+      "source_quote": "nine lights formed a horizontal line just above ridgeline. The lights were static, not moving, evenly spaced apart and were visible for 30+ seconds",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2290,
+        "len": 80,
+        "exact": false,
+        "matched": "nine lights formed a horizontal line just above ridgeline. The lights were stati"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "No mechanical sounds or aircraft noise were heard during the initial observation",
+      "source_quote": "nor did I hear any mechanical buzzing or anything like an aircraft at this time",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1415,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The lights disappeared and reappeared directly behind the witness",
+      "source_quote": "The lights soon disappeared only to appear again directly behind me",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2598,
+        "len": 37,
+        "exact": false,
+        "matched": "The lights soon disappeared only to a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "All observations occurred within a continuous 2-3 hour span",
+      "source_quote": "All these observations occurred within a 2-3 hour span, nonstop",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2666,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 2
+    "green": 3,
+    "amber": 6,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:13:25.126Z",
-  "qa_completed_at": "2026-06-14T03:13:57.820Z",
+  "qa_started_at": "2026-06-19T21:49:32.158Z",
+  "qa_completed_at": "2026-06-19T21:50:36.830Z",
   "timing": {
-    "A": "18.2s",
-    "B": "14.5s"
-  }
+    "A": "36.5s",
+    "B": "28.2s",
+    "E": "24.1s"
+  },
+  "public_headline": "Federal Agent Reports Hours of Orange Lights Over Western US",
+  "public_tldr": "This unclassified memorandum from the Office of the Under Secretary of War contains a first-person account from a U.S. federal law enforcement special agent (designated Witness 4) who reported observing multiple unidentified lights and orbs over a 2–3 hour period one evening in October 2023 in the western United States. The document is a single-witness narrative with no accompanying sensor data, photographs, or video.",
+  "public_narrative": "This document, dated 2 June 2026 and issued by the Office of the Under Secretary of War, is a witness narrative submitted to the All-domain Anomaly Resolution Office (AARO). It recounts a sighting by a federal law enforcement special agent — one of several agents who reported observing unidentified anomalous phenomena over a two-day period in October 2023 in the western United States. This particular account covers only Witness 4's experience.\n\nJust after sunset, around 7 PM, the witness reported seeing a bright ball of light streak across a hillside less than a quarter mile away, lasting one to two seconds. The light shifted in colour from amber to orange to yellow to white. No mechanical sounds or aircraft noise were heard. Using night vision goggles, the witness then observed additional lights not visible to the naked eye, some organised in evenly spaced lines of three at various altitudes above the skyline.\n\nOver the following hours, the witness described very bright orange lights that appeared to eject smaller orange lights — a behaviour the witness likened to \"hatching\" — occurring at least five times. The smaller ejected lights travelled downward like falling stars. At one point, nine lights formed a stationary horizontal line above a ridgeline, evenly spaced and visible for more than 30 seconds, with smaller lights clustering below them in groups of three. The lights eventually disappeared and then reappeared directly behind the witness. All observations occurred within a continuous 2–3 hour span.\n\nThe document does not present any conclusions, identifications, or analysis of what the lights were. It is strictly the witness's first-person account. No corroborating evidence — sensor data, photographs, or video — is included. The document is marked UNCLASSIFIED and shows low evidence of redaction.",
+  "public_caveats": [
+    "This is a single-source, first-person narrative. No corroborating sensor data, photographs, or video are included in the document.",
+    "Although multiple federal agents reportedly observed phenomena during this event, this document contains only Witness 4's account — the others' statements are not included here.",
+    "The witness was driving during the initial observation, which may affect the accuracy of distance and altitude estimates.",
+    "The altitude described as '1–2k above ground level' does not specify whether the units are feet or metres, introducing ambiguity.",
+    "The document presents no analysis or conclusions about what the observed phenomena were — it is a raw witness statement, not an investigation finding."
+  ]
 }

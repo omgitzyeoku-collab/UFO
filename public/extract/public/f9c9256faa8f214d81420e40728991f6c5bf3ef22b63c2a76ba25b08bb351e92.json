@@ -4,34 +4,214 @@
   "agency": "CIA",
   "type": "IMG",
   "incident_date": "November, 1976",
-  "what_is_it": "A CIA Foreign Intelligence Information Report summarizing Soviet aerospace medical research and a discussion about UFO phenomena with a Soviet scientist.",
+  "what_is_it": "CIA Foreign Intelligence Information Report summarizing Soviet aerospace medical research and crew fatigue countermeasures.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No OCR text was extractable from this scanned image; all facts are derived from the CSV metadata description provided by war.gov, not from the document body itself.",
-    "The document is an image file (JPG), limiting independent verification of its full contents.",
-    "A more redacted version existed previously, suggesting this release contains additional information not formerly public.",
-    "The nature and substance of the UFO discussion with the Soviet radiation biologist is not detailed in the available metadata."
+    "Source text is from an OCR scan of a degraded image document, resulting in numerous garbled words and uncertain readings",
+    "Heavy redaction throughout the document obscures significant portions of the content",
+    "The UFO phenomena discussion mentioned in the CSV description is not clearly legible in the extracted source text due to OCR quality",
+    "Single-source intelligence report — claims about Soviet programs are not independently verified in this document",
+    "Named person 'Dr Akstin' may be a garbled OCR rendering of a different transliterated Russian name"
   ],
-  "fabrication_score": 4,
-  "key_facts": [],
-  "named_people": [],
-  "named_places": [],
-  "dated_events": [],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "Originating agency",
+      "value": "CIA, Domestic Collection Division",
+      "source_quote": "Domestic Collection Division",
+      "citation_offset": {
+        "offset": 45,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Document type",
+      "value": "Foreign Intelligence Information Report",
+      "source_quote": "Foreign Intelligence Information Report",
+      "citation_offset": {
+        "offset": 76,
+        "len": 39,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Date",
+      "value": "November 1976",
+      "source_quote": "Novesber 1976",
+      "citation_offset": {
+        "offset": 185,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Phosphenes research",
+      "value": "Soviet research into particles (phosphenes) causing pilots to see flashes of light during night flying",
+      "source_quote": "particles (pvesphenes) which sve. cavsire Mevotime pilocs To \"sec® Flashes of light during night flying",
+      "citation_offset": {
+        "offset": 591,
+        "len": 60,
+        "exact": false,
+        "matched": "particles (pvesphenes) which sve. cavsire Mevotime pilocs To"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Researcher named",
+      "value": "Dr Akstin at the Civil Aviation Institute of Leningrad studied pilot physiological performance",
+      "source_quote": "Dr (fnul  Akstin, Cehcencrintr at the ClrAL Miatioe, inst Louce of Lonigrad",
+      "citation_offset": {
+        "offset": 698,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Aeroflot exercise facilities",
+      "value": "Aeroflot provides exercise facilities at all major airports supervised by aviation athletes",
+      "source_quote": "AatoFiot provides ssereies Feitities se all sefor sic",
+      "citation_offset": {
+        "offset": 1085,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Crewmember fitness requirement",
+      "value": "A crewmember is not allowed to fly if they fail the fitness condition",
+      "source_quote": "A sreumaniat 18 pot allowed to F17 11 ha aide the ssiant Con",
+      "citation_offset": {
+        "offset": 1356,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Testing timeline",
+      "value": "Tests are being automated and will take only 1-3 minutes once prototype equipment is operational",
+      "source_quote": "WiLL cake exky 103 abbr soe the prototype equipment becomes operational",
+      "citation_offset": {
+        "offset": 1492,
+        "len": 36,
+        "exact": false,
+        "matched": "totype equipment becomes operational"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Dr Akstin"
+  ],
+  "named_places": [
+    "Leningrad"
+  ],
+  "dated_events": [
+    "November 1976"
+  ],
+  "objects_described": [
+    "Automated biological testing equipment",
+    "Phosphenes (light flashes perceived by pilots)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Soviet Aeroflot was conducting aerospace medical research into crew fatigue and its effects on long-distance flight performance",
+      "source_quote": "soocemed with the sesisal sopates",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 418,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Soviet researchers were studying phosphenes — particles causing pilots to perceive flashes of light during night flying",
+      "source_quote": "particles (pvesphenes) which sve. cavsire Mevotime pilocs To \"sec® Flashes of light during night flying",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 591,
+        "len": 60,
+        "exact": false,
+        "matched": "particles (pvesphenes) which sve. cavsire Mevotime pilocs To"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Dr Akstin at the Civil Aviation Institute of Leningrad studied pilot physiological performance under stress",
+      "source_quote": "Dr (fnul  Akstin, Cehcencrintr at the ClrAL Miatioe, inst Louce of Lonigrad",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 698,
+        "len": 74,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The automated biological test equipment measures function and motor ability and is automatic in operation",
+      "source_quote": "Tie uapeest Is buiomacic sud test",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 882,
+        "len": 33,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Aeroflot provided exercise facilities at all major airports, supervised by aviation athletes",
+      "source_quote": "AatoFiot provides ssereies Feitities se all sefor sic",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 1085,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A crewmember was not permitted to fly if they failed the fitness assessment",
+      "source_quote": "A sreumaniat 18 pot allowed to F17 11 ha aide the ssiant Con",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1356,
+        "len": 60,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 5,
+    "amber": 1,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:00:10.672Z",
-  "qa_completed_at": "2026-06-14T03:00:39.134Z",
+  "qa_started_at": "2026-06-19T21:15:05.736Z",
+  "qa_completed_at": "2026-06-19T21:16:00.502Z",
   "timing": {
-    "A": "14.5s",
-    "B": "13.9s"
-  }
+    "A": "26.3s",
+    "B": "28.5s",
+    "E": "19.0s"
+  },
+  "public_headline": "CIA Report Detailed Soviet Research on Pilot Fatigue and Fitness",
+  "public_tldr": "This November 1976 CIA intelligence report summarises Soviet aerospace medical research into crew fatigue, including studies on phosphenes (flashes of light seen by pilots during night flying) and mandatory fitness testing for Aeroflot crewmembers. The document is heavily redacted and was produced from a degraded image scan, leaving significant portions unreadable.",
+  "public_narrative": "This document is a CIA Foreign Intelligence Information Report from November 1976, produced by the agency's Domestic Collection Division. It focuses on Soviet aerospace medical research — specifically, how the USSR was studying and countering fatigue in flight crews.\n\nAmong the topics covered, Soviet researchers were investigating phosphenes — a phenomenon where pilots perceive flashes of light during night flying, attributed to particles interacting with the eye. A researcher identified as Dr Akstin, based at the Civil Aviation Institute of Leningrad, studied pilot physiological performance. The report also describes automated biological testing equipment designed to measure crewmembers' motor ability and function, with plans to reduce test time to just one to three minutes once prototype equipment became operational.\n\nThe document notes that Aeroflot, the Soviet state airline, provided exercise facilities at all major airports, supervised by aviation athletes. The fitness regime was mandatory: a crewmember who failed the fitness assessment was not permitted to fly.\n\nHeavy redaction throughout the document obscures significant portions of the content. The source material is an OCR scan of a degraded image, meaning many words are garbled or uncertain. As a result, the full scope of what this report originally covered cannot be determined from the surviving text alone.",
+  "public_caveats": [
+    "The document is heavily redacted — large sections of the original content are blacked out and unrecoverable.",
+    "The source text comes from an OCR scan of a degraded image, producing numerous garbled words. Some details (including the researcher's name 'Dr Akstin') may be imprecise transliterations.",
+    "This is a single-source intelligence report. The claims about Soviet programmes are not independently verified within the document itself.",
+    "The UFO-related discussion referenced in the document's catalogue description is not clearly legible in the extracted text due to poor OCR quality.",
+    "All claims about Soviet research programmes reflect what a CIA source reported in 1976 and should not be read as confirmed fact."
+  ]
 }

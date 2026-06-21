@@ -5,46 +5,178 @@
   "type": "IMG",
   "incident_date": "October, 2023",
   "incident_location": "Westen United States",
-  "what_is_it": "A first-hand narrative statement (memorandum) from a federal law enforcement witness describing UAP observations reported to AARO.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "moderate",
+  "what_is_it": "First-hand narrative statement (witness memorandum) from a U.S. federal law enforcement special agent describing a UAP sighting, submitted to the All-domain Anomaly Resolution Office (AARO).",
+  "core_summary": "A U.S. federal law enforcement special agent (Witness 1) reported observing unidentified anomalous phenomena over two nights in October 2023 in the western United States. On the second night, the witness and another agent observed a large glowing ball approximately 1,100 meters away near a hillside, described as a circle of light with a swirly pattern resembling bright lava. A second similar object was later observed lit up in the sky over the top of another hillside.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No body text could be extracted from this image file — all facts are derived from metadata and the CSV description only.",
-    "The actual narrative content of the witness statement is unavailable for analysis.",
-    "Witness identities are anonymised (designated as 'Witness 1'), limiting independent verification.",
-    "Single-source witness narrative without corroborating sensor data in this document.",
-    "The redaction level is estimated as moderate based on the anonymisation of witness identities and location generalisation, but the actual document content could not be assessed."
+    "Document is an image (JPG) with heavy OCR degradation — large portions of text are garbled or unreadable, meaning significant content is missing from this extraction",
+    "Heavy redaction is evident throughout the document with multiple redacted lines and sections",
+    "Single witness narrative (Witness 1) — subjective first-person account without corroborating sensor data in this document",
+    "Distance estimate of 1,100 meters was measured on a later day using a range finder to the hillside, not directly to the object",
+    "Witness identities are fully redacted; described only as federal law enforcement special agents",
+    "The document references multiple witnesses but only presents Witness 1's account"
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "document_id",
-      "value": "DOW-UAP-D079",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "witness_role",
+      "value": "U.S. federal law enforcement special agent",
+      "source_quote": "Witness 1 was one of several United States (U.S) federal law enforcement special agents",
+      "citation_offset": {
+        "offset": 212,
+        "len": 47,
+        "exact": false,
+        "matched": "Witness 1 was one of several United States (U.S"
+      },
+      "confidence": "amber"
     },
     {
-      "field": "incident_location",
-      "value": "Western United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "reporting_office",
+      "value": "All-domain Anomaly Resolution Office (AARO)",
+      "source_quote": "narrative from Witness 1 provided to the All-domain Anomaly Resolution Office (AARO)",
+      "citation_offset": {
+        "offset": 171,
+        "len": 39,
+        "exact": false,
+        "matched": "domain Anomaly Resolution Office (AARO)"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "duration",
+      "value": "Two days of observations",
+      "source_quote": "over a period of two days in October 2023",
+      "citation_offset": {
+        "offset": 304,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
       "field": "incident_date",
       "value": "October 2023",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "two days in October 2023 in the western United States",
+      "citation_offset": {
+        "offset": 321,
+        "len": 53,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "issuing_agency",
-      "value": "Department of War",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "incident_location",
+      "value": "Western United States",
+      "source_quote": "in the western United States",
+      "citation_offset": {
+        "offset": 346,
+        "len": 28,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "first_night_observation",
+      "value": "Witness saw nothing specific due to their location",
+      "source_quote": "Because of my location I did not see anything specific the first night",
+      "citation_offset": {
+        "offset": 467,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_description",
+      "value": "Large glowing ball, circle of light with swirly pattern of bright lava",
+      "source_quote": "we suddenly noticed a large glowing ball to our right 90 degrees",
+      "citation_offset": {
+        "offset": 601,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "object_appearance",
+      "value": "Circle of light resembling swirly bright lava",
+      "source_quote": "It was just a circle of light that looked like a swirly pattern of bright lava",
+      "citation_offset": {
+        "offset": 871,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "estimated_distance",
+      "value": "Approximately 1,100 meters from hillside",
+      "source_quote": "I was able to use a range finder to put the distance to the hillside at about 1100 meters",
+      "citation_offset": {
+        "offset": 743,
+        "len": 44,
+        "exact": false,
+        "matched": " able to use a range finder to put the dista"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "distance_measurement_method",
+      "value": "Range finder used on a later day",
+      "source_quote": "another later day I was able to use a range finder to put the distance to the hillside at about 1100 meters",
+      "citation_offset": {
+        "offset": 740,
+        "len": 50,
+        "exact": false,
+        "matched": "was able to use a range finder to put the distance"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "object_position",
+      "value": "Close to the hill face",
+      "source_quote": "The ball appeared close to the hill face",
+      "citation_offset": {
+        "offset": 829,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "time_of_day",
+      "value": "Dusk",
+      "source_quote": "It was bright in the dusk light",
+      "citation_offset": {
+        "offset": 951,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "second_object",
+      "value": "Similar object seen lit up in the sky over another hillside",
+      "source_quote": "looked similar lit up in the sky over the top of another hillside slightly to the right of front",
+      "citation_offset": {
+        "offset": 1318,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "number_of_witnesses",
+      "value": "Multiple federal law enforcement special agents",
+      "source_quote": "one of several United States (U.S) federal law enforcement special agents who reported observing",
+      "citation_offset": {
+        "offset": 226,
+        "len": 31,
+        "exact": false,
+        "matched": "one of several United States (U"
+      },
+      "confidence": "amber"
     }
   ],
   "named_people": [],
@@ -54,27 +186,91 @@
   "dated_events": [
     "October 2023"
   ],
-  "objects_described": [],
+  "objects_described": [
+    "Large glowing ball / circle of light with swirly lava-like pattern",
+    "Second similar luminous object over a hillside"
+  ],
   "verifiable_claims": [
     {
-      "claim": "Multiple U.S. federal law enforcement special agents observed UAP over a two-day period in October 2023 in the western United States.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "claim": "Multiple U.S. federal law enforcement special agents reported observing UAP over two days in October 2023 in the western United States",
+      "source_quote": "Witness 1 was one of several United States (U.S) federal law enforcement special agents who reported observing unidentified anomalous phenomena (UAP) over a period of two days in October 2023",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 289,
+        "len": 55,
+        "exact": false,
+        "matched": "henomena (UAP) over a period of two days in October 202"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The glowing ball was estimated at approximately 1,100 meters distance based on a range finder measurement taken on a later day",
+      "source_quote": "another later day I was able to use a range finder to put the distance to the hillside at about 1100 meters",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 740,
+        "len": 50,
+        "exact": false,
+        "matched": "was able to use a range finder to put the distance"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The object appeared as a circle of light with a swirly pattern resembling bright lava and was visible at dusk",
+      "source_quote": "It was just a circle of light that looked like a swirly pattern of bright lava. It was bright in the dusk light",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 871,
+        "len": 111,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A second similar object was observed over the top of another hillside",
+      "source_quote": "looked similar lit up in the sky over the top of another hillside slightly to the right of front",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1318,
+        "len": 96,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The witness did not observe anything specific on the first night due to their location",
+      "source_quote": "Because of my location I did not see anything specific the first night",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 467,
+        "len": 70,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 1
+    "green": 3,
+    "amber": 2,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:09:54.220Z",
-  "qa_completed_at": "2026-06-14T03:10:27.774Z",
+  "qa_started_at": "2026-06-19T21:39:56.843Z",
+  "qa_completed_at": "2026-06-19T21:40:45.247Z",
   "timing": {
-    "A": "16.2s",
-    "B": "17.3s"
-  }
+    "A": "28.5s",
+    "B": "19.9s",
+    "E": "19.1s"
+  },
+  "public_headline": "Federal Agent Reports Glowing Objects Near Hillside in Western U.S.",
+  "public_tldr": "A U.S. federal law enforcement agent submitted a first-hand witness statement to the Pentagon's UAP office describing two glowing, lava-like balls of light observed near hillsides over two nights in October 2023. The document is heavily redacted, and this is a single witness account without accompanying sensor data.",
+  "public_narrative": "This document is a witness statement from a U.S. federal law enforcement special agent, submitted to the All-domain Anomaly Resolution Office (AARO) — the Pentagon body responsible for investigating unidentified anomalous phenomena (UAP). It describes events observed over two nights in October 2023 somewhere in the western United States.\n\nOn the first night, the witness reported seeing nothing specific due to their position. On the second night, the agent and at least one other colleague noticed a large glowing ball roughly 90 degrees to their right, near a hillside. The witness later returned to the area and used a range finder to estimate the hillside was about 1,100 metres away. The object appeared close to the hill face and was described as a circle of light with a swirly pattern resembling bright lava, visible at dusk.\n\nA second similar luminous object was then observed in the sky above a different hillside, slightly to the right of the witnesses' forward position. The document references multiple federal agents who observed the phenomena, but only presents this one agent's account.\n\nThe document is heavily redacted throughout. Witness identities are fully removed, and large sections of text are blacked out or unreadable. No conclusions or explanations from the agency are included in the available text. The document type is an image file (JPG), which has resulted in significant OCR degradation — meaning portions of the original content could not be reliably extracted.",
+  "public_caveats": [
+    "This is a single witness's subjective account. No radar data, photographs, or other sensor evidence is included in this document.",
+    "The document is heavily redacted — witness identities, specific locations, and other details are removed, limiting independent verification.",
+    "The 1,100-metre distance estimate was measured to the hillside on a later day using a range finder, not directly to the object itself.",
+    "The document references multiple witnesses but only contains one agent's narrative. The other accounts are not presented here.",
+    "The source is a JPG image with significant OCR degradation, meaning portions of the original text are garbled or missing from the extraction."
+  ]
 }

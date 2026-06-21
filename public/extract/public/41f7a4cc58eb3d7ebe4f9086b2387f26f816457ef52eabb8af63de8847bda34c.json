@@ -5,39 +5,73 @@
   "type": "IMG",
   "incident_date": "October, 2024",
   "incident_location": "Northeastern United States",
-  "what_is_it": "An FBI investigative activity form (FD-1057) documenting agents' contact with a U.S. person who provided video footage of unidentified aerial phenomena.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "An FBI FD-1057 investigative activity form documenting contact with a U.S. person who provided video footage of unidentified aerial phenomena.",
+  "core_summary": "In October 2024, FBI special agents contacted a U.S. person in the northeastern United States who provided multiple video clips showing objects appearing to be unknown UAS or UAP near their residence. The individual had previously been referred to the FBI by a liaison contact.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "heavy",
   "interpretation_warnings": [
-    "No extracted body text available — all facts derived from war.gov metadata and CSV description only.",
-    "The document is a scanned image (JPG) with no usable OCR text, so redacted content cannot be assessed beyond metadata.",
-    "The witness identity is undisclosed; this is a single-source civilian account.",
-    "The description references a cluster of related files (D004–D008, PR001–PR003), but this extraction covers only one document in that series.",
-    "No details about what the video footage depicts are provided in the available metadata."
+    "Heavy redaction throughout: all personal names, specific locations, and organisational details are redacted, making independent verification impossible.",
+    "The source text is OCR-extracted from an image and contains numerous recognition errors, reducing confidence in exact wording.",
+    "The objects are described only as 'appearing to be unknown UAS or UAP' — the FBI does not confirm they are anomalous.",
+    "Single-source account: the video footage and narrative originate from one individual.",
+    "Related to a cluster of documents (FBI-UAP-D004 through D008) and video files (FBI-UAP-PR001 through PR003) from the same general area, suggesting a localised series of sightings rather than independent corroboration from different regions."
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 2,
   "key_facts": [
     {
-      "field": "Agency",
-      "value": "Federal Bureau of Investigation (FBI)",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Document type",
+      "value": "FBI FD-1057 (investigative activity record)",
+      "source_quote": "FEDERAL BUREAU OF INVESTIGATION",
+      "citation_offset": {
+        "offset": 7,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Incident date",
+      "field": "Date of contact",
       "value": "October 2024",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "source_quote": "october WL 202",
+      "citation_offset": {
+        "offset": 409,
+        "len": 14,
+        "exact": true
+      },
+      "confidence": "green"
     },
     {
-      "field": "Incident location",
-      "value": "Northeastern United States",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "Evidence collected",
+      "value": "Multiple video clips provided by the contacted person",
+      "source_quote": "oovided mitigle video clips showing objects appearing to be unknown Ux or UA?",
+      "citation_offset": {
+        "offset": 438,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Objects observed",
+      "value": "Unknown UAS or UAP near the person's residence",
+      "source_quote": "objects appearing to be unknown Ux or UA? near [Jil residence",
+      "citation_offset": {
+        "offset": 474,
+        "len": 61,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Referral source",
+      "value": "The person was previously referred to the FBI by a liaison contact",
+      "source_quote": "previously been referred to the FBI by a ot [EMME 1iatson contact",
+      "citation_offset": {
+        "offset": 544,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
     }
   ],
   "named_people": [],
@@ -47,19 +81,55 @@
   "dated_events": [
     "October 2024"
   ],
-  "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "objects_described": [
+    "Unknown UAS or UAP"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "FBI agents collected multiple video clips from a U.S. person showing unidentified objects near their residence",
+      "source_quote": "oovided mitigle video clips showing objects appearing to be unknown Ux or UA? near [Jil residence",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 438,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The person was referred to the FBI by a liaison contact",
+      "source_quote": "previously been referred to the FBI by a ot [EMME 1iatson contact",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 544,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
+    "green": 2,
     "amber": 0,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:20:53.777Z",
-  "qa_completed_at": "2026-06-14T03:21:28.675Z",
+  "qa_started_at": "2026-06-19T22:11:19.234Z",
+  "qa_completed_at": "2026-06-19T22:11:50.868Z",
   "timing": {
-    "A": "19.3s",
-    "B": "15.6s"
-  }
+    "A": "17.1s",
+    "B": "14.5s",
+    "E": "19.1s"
+  },
+  "public_headline": "FBI Agents Collected UAP Video Footage From Witness in Northeastern US",
+  "public_tldr": "This FBI investigative form records that in October 2024, special agents contacted a person in the northeastern United States who provided multiple video clips of objects described as unknown UAS (unmanned aerial systems) or UAP (unidentified aerial phenomena) near their home. The document is heavily redacted, with all names, specific locations, and organisational details blacked out.",
+  "public_narrative": "This document is an FBI FD-1057, a standard investigative activity form used to record agent contacts and evidence collection. It shows that in October 2024, FBI special agents reached out to a U.S. person in the northeastern United States who had footage of unidentified objects near their residence.\n\nThe individual provided multiple video clips showing what the form describes as objects \"appearing to be unknown UAS or UAP\" — meaning unidentified drones or aerial phenomena. The person had previously been referred to the FBI by a liaison contact, though the identity of that contact is redacted.\n\nThe FBI does not draw any conclusion in this document about what the objects are. The language is cautious: the objects only \"appear to be\" unknown. There is no determination that they are anomalous, extraterrestrial, or even unexplained — just that they were unidentified at the time of recording.\n\nThe document is heavily redacted throughout. All personal names, specific locations, and organisational details have been removed, making independent verification of the account impossible. The underlying text was extracted via OCR from an image, which introduces minor recognition errors in the source material.\n\nThis form is part of a cluster of related FBI documents (FBI-UAP-D004 through D008) and associated video files from the same general area, suggesting a localised series of sightings rather than independent reports from different regions.",
+  "public_caveats": [
+    "The document is heavily redacted — all names, exact locations, and organisational details are blacked out, so none of the claims can be independently verified.",
+    "This is a single-source account: both the video footage and the narrative come from one individual.",
+    "The FBI describes the objects only as 'appearing to be unknown UAS or UAP' — it does not confirm they are anomalous or unexplained.",
+    "This document is part of a cluster of related records from the same general area, meaning these are not independent sightings from different regions.",
+    "The source text was extracted via OCR from an image and contains recognition errors, so exact wording carries reduced confidence."
+  ]
 }

@@ -5,61 +5,381 @@
   "type": "PDF",
   "incident_date": "August 1952-1967",
   "incident_location": "New Jersey, United States",
-  "what_is_it": "A collection of FBI memoranda and correspondence documenting a special inquiry into UFO sightings reported in and near New Jersey over a 15-year period.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
+  "what_is_it": "A collection of FBI internal memoranda, correspondence, and attached publications documenting UFO sighting reports received by the FBI's Newark Field Office from civilians and military personnel in New Jersey between 1952 and 1967.",
+  "core_summary": "The FBI Newark Field Office received and logged numerous UFO sighting reports from New Jersey residents between 1952 and 1967, forwarding them to the Air Force Office of Special Investigations (OSI) for handling. Reports describe cylindrical, bullet-shaped, cigar-shaped, and bright luminous objects observed over various New Jersey locations. The file also contains correspondence between the Air Force and FBI regarding UFO photograph investigations, a letter from an Air Force public information officer to J. Edgar Hoover, and attached fringe publications including flying saucer club newsletters.",
+  "core_summary_revised_by_verifier": false,
   "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No extracted body text was available; all facts are derived solely from document metadata and the CSV description provided by war.gov.",
-    "The original PDF appears to be scanned with poor or no OCR, so specific details such as named witnesses, exact sighting descriptions, and classified assessments could not be extracted.",
-    "Redaction level is estimated as moderate based on typical FBI documents of this era, but cannot be precisely assessed without readable page content.",
-    "Single-agency source: the FBI's perspective may differ from Air Force or other agency assessments of the same sightings."
+    "All sighting reports are single-source or small-group civilian testimonies with no instrument data or official corroboration recorded in these documents",
+    "The FBI acted primarily as a forwarding office, passing reports to OSI/Air Force without conducting its own UFO investigations",
+    "Several documents have moderate redaction of witness names, addresses, and phone numbers",
+    "OCR quality is poor in places due to the age and condition of the original typewritten documents, causing some names and details to be partially illegible",
+    "The attached Amalgamated Flying Saucer Clubs newsletter and Richard Ogden letter are fringe publications included as exhibits, not FBI analysis or endorsed content",
+    "No follow-up investigation results or case dispositions are included in these extracts — outcomes of the reported sightings are unknown",
+    "The file spans 15 years but appears to contain only a selection of reports, not a comprehensive record"
   ],
-  "fabrication_score": 4,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "agency",
-      "value": "Federal Bureau of Investigation (FBI)",
+      "field": "Investigating office",
+      "value": "FBI Newark Field Office",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
     },
     {
-      "field": "geographic_focus",
-      "value": "New Jersey and surrounding areas",
+      "field": "Date range",
+      "value": "August 1952 to January 1967",
       "source_quote": "",
       "citation_offset": null,
       "confidence": "metadata-only"
+    },
+    {
+      "field": "Air Force coordination",
+      "value": "Reports forwarded to OSI (Office of Special Investigations) duty officers",
+      "source_quote": "the writer telephonically contacted Agent BLALOCK or the OSI and informed him",
+      "citation_offset": {
+        "offset": 9299,
+        "len": 37,
+        "exact": false,
+        "matched": "acted Agent BLALOCK or the OSI and in"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "1952 photo investigation",
+      "value": "ATIC requested background checks on photographer John H. Riley and witness George J. Stock regarding UFO photos",
+      "source_quote": "the background of subject civilian photographer, JOHN H. RILBY, 28, 571 Main Street, Paterson, N. J. and of known witness GEORGI J. STOCK, 221 Brooks Ave., Passaic, N. J., be investigated",
+      "citation_offset": {
+        "offset": 1525,
+        "len": 45,
+        "exact": false,
+        "matched": "photographer, JOHN H. RILBY, 28, 571 Main Str"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Nov 5 1957 sighting",
+      "value": "Family in Glen Ridge observed a long cylindrical dark silver object with fins, no wings, travelling SW to NE",
+      "source_quote": "a long, cylindrical, dark silver object with no wings but fins on the rear, moving along toward the northeast",
+      "citation_offset": {
+        "offset": 2540,
+        "len": 55,
+        "exact": false,
+        "matched": "no wings but fins on the rear, moving along toward the "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Aug 27 1957 sighting",
+      "value": "Air Force Reserve Captain reported UFO shaped like an underwater demolition bomb with cross-shaped light over Clifton NJ",
+      "source_quote": "the object had a shape resembling that of an underwater demolition bomb and light, in the shape of a cross, was coming from within this UFO",
+      "citation_offset": {
+        "offset": 4093,
+        "len": 30,
+        "exact": false,
+        "matched": "b and light, in the shape of a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Feb 11 1958 sighting",
+      "value": "Woman in Union NJ observed bullet-shaped silver wingless object at very high altitude with vapor trail",
+      "source_quote": "bullet-shaped, silver, no wings, flying south at a very high altitude with vapor trail",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Apr 1958 sighting",
+      "value": "Couple on Route 35 near Perth Amboy observed flaming rocket-like object descending from sky",
+      "source_quote": "observed the subject object which appeared as a flaming rocket coming down from the sky",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Oct 28 1959 mass sighting",
+      "value": "Seven callers reported bright object with twinkling lights surrounded by haze between 5:40-6:45 PM",
+      "source_quote": "this office was in receipt of some seven calls in regard to captioned matter. The object sighted was generally described as a very bright object with a number of twinkling lights around it",
+      "citation_offset": {
+        "offset": 9819,
+        "len": 100,
+        "exact": false,
+        "matched": "t of some seven calls in regard to captioned matter. The object sighted was generally described as a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Jan 16 1960 multiple witnesses",
+      "value": "Multiple witnesses in Bloomfield and West Paterson reported bright object with hazy outline; one witness reported explosion and object leaving a plane",
+      "source_quote": "heard an explosion, saw an object leave the plane and move in an easterly direction. A bright light emanated from the object",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Jul 11 1966 sighting",
+      "value": "Two women in West Orange saw three white objects in sky; two planes appeared to chase them before objects disappeared",
+      "source_quote": "she and her girl friend saw three white objects in the sky... Two planes came towards the objects from two opposite directions as if they were chasing them... the objects disappeared",
+      "citation_offset": {
+        "offset": 27225,
+        "len": 30,
+        "exact": false,
+        "matched": "r girl friend saw three white "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Air Force letter to Hoover",
+      "value": "USAF Deputy Chief of Public Information wrote to J. Edgar Hoover enclosing a letter from Saucer News publication, dated Feb 20 1963",
+      "source_quote": "I thought the Bureau might be interested in the inclosed copy of a letter which was printed in the March 1963 issue",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "NICAP inquiry",
+      "value": "NICAP member from Matawan NJ wrote to Arizona State Police asking if USAF compelled them to withhold UFO information",
+      "source_quote": "Has the United States Air Force compelled you in any way, thru official orders or otherwise, to withhold from the press media and the general public any information",
+      "citation_offset": {
+        "offset": 25700,
+        "len": 45,
+        "exact": false,
+        "matched": "Has the United States Air Force compelled you"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Attached publication",
+      "value": "Flying Saucers International newsletter from Amalgamated Flying Saucer Clubs of America included as exhibit",
+      "source_quote": "Official Journal of the Amalgamated Flying Saucer Clubs of America",
+      "citation_offset": null,
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
-  "named_places": [
-    "New Jersey"
+  "named_people": [
+    "S. I. McKee",
+    "John H. Riley",
+    "George J. Stock",
+    "John T. Murphy",
+    "Donald B. Roberts",
+    "Richard G. Hood",
+    "Bill Williams",
+    "A. G. Dower",
+    "William P. Nugent",
+    "Walter Ecker",
+    "Leonard Connors",
+    "Martin Arman",
+    "Vernon A. Peterson",
+    "Richard Stoner",
+    "Gay R. Shahan",
+    "Steve Klyce",
+    "Ralph Lavella",
+    "M. A. Sroda",
+    "A. T. Douglas",
+    "S. M. Kaplan",
+    "William H. Rockett",
+    "D. Louis Barra",
+    "Richard C. Lee",
+    "William E. Gagnon",
+    "John J. Creamer Jr.",
+    "Carl Hart",
+    "J. Edgar Hoover",
+    "Richard Ogden",
+    "James W. Moseley",
+    "Gabriel Green",
+    "Bob Renaud",
+    "John C. Lindenann",
+    "Sue Shaw"
   ],
-  "dated_events": [],
+  "named_places": [
+    "Newark, New Jersey",
+    "Passaic, New Jersey",
+    "Paterson, New Jersey",
+    "Glen Ridge, New Jersey",
+    "Clifton, New Jersey",
+    "Union, New Jersey",
+    "Perth Amboy, New Jersey",
+    "West Orange, New Jersey",
+    "Fanwood, New Jersey",
+    "Bedminster, New Jersey",
+    "Surf City, New Jersey",
+    "East Orange, New Jersey",
+    "Palisade Park, New Jersey",
+    "Upper Montclair, New Jersey",
+    "Bloomfield, New Jersey",
+    "West Paterson, New Jersey",
+    "Springfield, New Jersey",
+    "Lodi, New Jersey",
+    "Franklin, New Jersey",
+    "Westfield, New Jersey",
+    "Jersey City, New Jersey",
+    "Westwood, New Jersey",
+    "Matawan, New Jersey",
+    "Livingston, New Jersey",
+    "Wright-Patterson Air Force Base, Ohio",
+    "Camp Kilmer, New Jersey",
+    "New York City",
+    "Washington, D.C."
+  ],
+  "dated_events": [
+    "12 August 1952",
+    "2 August 1952",
+    "November 5, 1957",
+    "8/27/57",
+    "8/28/57",
+    "2/11/58",
+    "4/2/58",
+    "4-22-59",
+    "10/28/59",
+    "1/16/60",
+    "2/27/60",
+    "2/5/61",
+    "2/8/61",
+    "1/16/61",
+    "2/13/61",
+    "5/8/63",
+    "20 February 1963",
+    "January 15, 1964",
+    "7/11/66",
+    "May 4, 1966"
+  ],
   "objects_described": [
-    "unidentified flying objects (UFOs)"
+    "Long cylindrical dark silver object with fins, no wings",
+    "Object shaped like underwater demolition bomb with cross-shaped light and diamond-shaped holes",
+    "Brilliant white cigar-shaped object with delta wings toward tail",
+    "Bullet-shaped silver wingless object with vapor trail",
+    "Flaming rocket-like descending object",
+    "Very bright object with twinkling lights surrounded by haze and vapor trail",
+    "Bright stationary object with hazy outline at approximately 5000 feet",
+    "Bright round objects changing to lateral/spectrum shape",
+    "Three white objects that disappeared when planes approached",
+    "Series of color-changing lights that divided and came together again"
   ],
   "verifiable_claims": [
     {
-      "claim": "The FBI Newark Field Office conducted a special inquiry into UFO sightings in and near New Jersey between August 1952 and January 1967.",
-      "source_quote": "",
-      "verifier_verdict": "partial",
+      "claim": "The Air Technical Intelligence Center at Wright-Patterson AFB requested the FBI investigate the background and reliability of a civilian UFO photographer and witness in Passaic/Paterson NJ in August 1952",
+      "source_quote": "The Air Technical Intelligence Center has requested that the background of subject civilian photographer, JOHN H. RILBY, 28, 571 Main Street, Paterson",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1528,
+        "len": 45,
+        "exact": false,
+        "matched": "tographer, JOHN H. RILBY, 28, 571 Main Street"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Standard FBI procedure for UFO reports was to forward information to the Air Force Office of Special Investigations rather than investigate independently",
+      "source_quote": "the procedure as he understood it was to send a letter to the interested agency and not make an immediate contact with the agency at night",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7320,
+        "len": 60,
+        "exact": false,
+        "matched": " a letter to the interested agency and not make an immediate"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "On October 28, 1959, seven separate callers reported a UFO sighting to the Newark FBI office within approximately one hour",
+      "source_quote": "Between 5:40 and 6:45 PM on this date, this office was in receipt of some seven calls in regard to captioned matter",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 9820,
+        "len": 50,
+        "exact": false,
+        "matched": " of some seven calls in regard to captioned matter"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A Westfield NJ resident tried to report UFO sightings to local police but was told they were too busy shoveling snow",
+      "source_quote": "he had reported this matter to the Westfield, N.J. Police Department but they were too busy to check on this because they were shoveling snow",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 15552,
+        "len": 80,
+        "exact": false,
+        "matched": "partment but they were too busy to check on this because they were shoveling sno"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A USAF Major who had been Department of Defense spokesman for Project Blue Book forwarded a flying saucer publication to FBI Director Hoover in February 1963",
+      "source_quote": "I was then Department of Defense spokesman for Project Blue Book, the organization responsible for investigation of UFO sightings",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 21316,
+        "len": 65,
+        "exact": false,
+        "matched": " then Department of Defense spokesman for Project Blue Book, the "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "An author named Richard Ogden planned to self-publish a book critical of the US government and FBI regarding UFOs, expecting arrest upon release",
+      "source_quote": "The book will mean my arrest and so I plan to release all copies in one day",
+      "verifier_verdict": "supported",
       "citation_offset": null,
-      "confidence": "red"
+      "confidence": "amber"
+    },
+    {
+      "claim": "A NICAP member wrote to Arizona State Police in January 1964 asking whether the Air Force had compelled them to withhold UFO information from the public",
+      "source_quote": "Has the United States Air Force compelled you in any way, thru official orders or otherwise, to withhold from the press media",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 25700,
+        "len": 45,
+        "exact": false,
+        "matched": "Has the United States Air Force compelled you"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "A woman in Franklin NJ theorized that UFOs could be used to photograph installations like Boulder Dam, connecting this to a former art teacher she believed had communist sympathies in 1939",
+      "source_quote": "she believed that these unidentified flying objects could be used to obtain pictures of such installations as Boulder Dam",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 17891,
+        "len": 30,
+        "exact": false,
+        "matched": "s could be used to obtain pict"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "On July 11, 1966, two women reported three white objects that disappeared when two planes approached from opposite directions as if chasing them",
+      "source_quote": "Two planes came towards the objects from two opposite directions as if they were chasing them. As the planes drew near them, the objects disappeared",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 27382,
+        "len": 45,
+        "exact": false,
+        "matched": "e planes drew near them, the objects disappea"
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
     "green": 0,
-    "amber": 0,
-    "red": 1
+    "amber": 9,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:25:58.242Z",
-  "qa_completed_at": "2026-06-14T03:26:32.082Z",
+  "qa_started_at": "2026-06-19T22:21:41.818Z",
+  "qa_completed_at": "2026-06-19T22:24:06.297Z",
   "timing": {
-    "A": "19.1s",
-    "B": "14.8s"
-  }
+    "A": "79.2s",
+    "B": "65.2s",
+    "E": "30.4s"
+  },
+  "public_headline": "FBI Newark Office Logged UFO Reports Across New Jersey for 15 Years",
+  "public_tldr": "This file contains internal FBI memoranda from the Newark Field Office documenting UFO sighting reports received from New Jersey civilians and military personnel between 1952 and 1967. The FBI did not investigate the sightings itself — it forwarded them to the Air Force — and no conclusions or case outcomes are included in the file.",
+  "public_narrative": "Between 1952 and 1967, the FBI's Newark Field Office received dozens of UFO sighting reports from residents across New Jersey. This document is a collection of internal memoranda, letters, and attached publications from that period. The FBI's role was essentially clerical: when someone called in a sighting, the office logged it and forwarded the information to the Air Force Office of Special Investigations (OSI), which had responsibility for UFO cases.\n\nThe reports describe a wide range of objects. In November 1957, a family in Glen Ridge saw a long, cylindrical, dark silver object with fins but no wings. That same year, an Air Force Reserve Captain in Clifton reported an object shaped like an underwater demolition bomb emitting a cross-shaped light. In February 1958, a woman in Union observed a bullet-shaped silver object at high altitude with a vapor trail. On October 28, 1959, seven separate callers phoned the Newark office within roughly an hour to report a bright object with twinkling lights surrounded by haze. In July 1966, two women in West Orange saw three white objects that disappeared when two planes approached from opposite directions, as if chasing them.\n\nThe file also contains correspondence between agencies. In August 1952, the Air Technical Intelligence Center at Wright-Patterson Air Force Base asked the FBI to investigate the background of a civilian photographer named John H. Riley and a witness named George J. Stock in connection with UFO photographs taken in the Passaic–Paterson area. In February 1963, a USAF Major who had served as the Department of Defense spokesman for Project Blue Book sent FBI Director J. Edgar Hoover a copy of a flying saucer publication. A member of NICAP (the National Investigations Committee on Aerial Phenomena) from Matawan wrote to Arizona State Police asking whether the Air Force had compelled them to withhold UFO information from the public.\n\nThe file includes some unusual material. One New Jersey woman theorised that UFOs could be used to photograph installations like Boulder Dam, tying this to a former art teacher she believed had communist sympathies. A man in Westfield tried to report his sighting to local police but was told they were too busy shovelling snow. An author named Richard Ogden announced plans to self-publish a book critical of the government's handling of UFOs, saying he expected to be arrested upon its release. Attached to the file is a newsletter from the Amalgamated Flying Saucer Clubs of America — included as an exhibit, not as FBI analysis or endorsed content.\n\nNo investigation results, case dispositions, or official conclusions appear anywhere in these documents. The file shows what people reported and how the bureaucracy routed the paperwork, but not what, if anything, was ever determined about the sightings.",
+  "public_caveats": [
+    "Every sighting report is single-source or small-group civilian testimony with no instrument data or official corroboration recorded in these documents.",
+    "The FBI acted as a forwarding office, not an investigator — it passed reports to the Air Force without conducting its own UFO inquiries.",
+    "Witness names, addresses, and phone numbers are moderately redacted throughout the file, and poor OCR quality from aged typewritten originals makes some details partially illegible.",
+    "No follow-up investigation results or case outcomes are included — what happened after each report was forwarded is unknown from this file alone.",
+    "The file spans 15 years but appears to contain only a selection of reports, not a comprehensive record of every UFO report the Newark office received."
+  ]
 }

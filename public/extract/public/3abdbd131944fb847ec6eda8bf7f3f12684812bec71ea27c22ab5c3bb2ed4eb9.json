@@ -5,84 +5,263 @@
   "type": "PDF",
   "incident_date": "August, 1967",
   "incident_location": "USSR",
-  "what_is_it": "A CIA intelligence report documenting conversations between a US astrophysicist and Soviet scientists regarding UFO sightings in the USSR.",
-  "core_summary": null,
-  "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "heavy",
+  "what_is_it": "CIA intelligence report summarizing conversations a US astrophysicist had with Soviet scientists about UFO sightings in the USSR during a one-month trip in spring 1967.",
+  "core_summary": "A US astrophysicist visited several Soviet astronomical observatories in spring 1967 and informally asked scientists about UFO observations in the USSR. Most Soviet astronomers were aware of UFO phenomena but had no official research program; several had read Menzel's debunking book but found it unconvincing. Notable astronomer N.A. Kozyrev readily accepted the reality of UFOs and personally believed they might originate on Venus.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
   "interpretation_warnings": [
-    "No body text was extractable from this PDF — all facts are derived from metadata and the CSV description only.",
-    "The document is likely a scanned image with poor OCR quality, so the full content remains unreviewed.",
-    "Without the body text, the identities of the US astrophysicist and Soviet scientists, specific sighting details, and any conclusions drawn are unknown.",
-    "Single-source intelligence report from the Cold War era; Soviet scientists' statements may have been guarded or influenced by political context."
+    "Single-source report: all information comes from one unnamed US astrophysicist's memorandum to superiors",
+    "Document header states 'THIS IS UNEVALUATED INFORMATION'",
+    "UFO inquiries were described as 'a minor aspect of the trip' — not a systematic survey",
+    "Only astronomers were contacted; no military or government officials were interviewed",
+    "OCR quality is poor in places, some names and details may be slightly garbled"
   ],
-  "fabrication_score": 3,
+  "fabrication_score": 1,
   "key_facts": [
     {
-      "field": "originating_agency",
-      "value": "CIA",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
-    },
-    {
       "field": "document_id",
-      "value": "CIA-UAP-010",
-      "source_quote": "",
+      "value": "00-B-321/23490-67",
+      "source_quote": "00-B-321/23490-67",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "date",
-      "value": "August 1967",
-      "source_quote": "",
+      "field": "classification",
+      "value": "CONTROLLED DISSEM / NO DISSEM ABROAD",
+      "source_quote": "CONTROLLED DISSEM ... NO DISSEM ABROAD",
       "citation_offset": null,
-      "confidence": "metadata-only"
+      "confidence": "amber"
     },
     {
-      "field": "subject",
-      "value": "Conversations with Soviet scientists on UFO sightings in the USSR",
-      "source_quote": "",
-      "citation_offset": null,
-      "confidence": "metadata-only"
+      "field": "date_of_info",
+      "value": "May 1967",
+      "source_quote": "DATE OF INFO. May 1967",
+      "citation_offset": {
+        "offset": 520,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "distribution_date",
+      "value": "18 Aug 67",
+      "source_quote": "DATE DISTR. 18 Aug",
+      "citation_offset": {
+        "offset": 335,
+        "len": 18,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "source_description",
+      "value": "US citizen astrophysicist on staff of a large research institute",
+      "source_quote": "US citizen; an astrophysicist on the staff of a large research institute",
+      "citation_offset": {
+        "offset": 594,
+        "len": 62,
+        "exact": false,
+        "matched": "US citizen; an astrophysicist on the staff of a large research"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "trip_purpose",
+      "value": "One-month trip visiting Soviet astronomical observatories for planetary research",
+      "source_quote": "one-month trip of a US scientist through the USSR in the spring of 1967, for the purpose of visiting several astronomical observatories having staff members engaged in planetary research",
+      "citation_offset": {
+        "offset": 1056,
+        "len": 70,
+        "exact": false,
+        "matched": " the USSR in the spring of 1967, for the purpose of visiting several a"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "report_developer",
+      "value": "Air Force (AFNIN) representative",
+      "source_quote": "This report was developed by an Air Force (AFNIN) representative",
+      "citation_offset": {
+        "offset": 779,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "kozyrev_ufo_belief",
+      "value": "Kozyrev accepted UFO reality and believed they may originate on Venus",
+      "source_quote": "Kozyrev has been interested in US reports of UFO's and readily accepts their reality. In fact, it is his personal opinion that the UFO's may originate on Venus",
+      "citation_offset": {
+        "offset": 2920,
+        "len": 65,
+        "exact": false,
+        "matched": "s of UFO's and readily accepts their reality. In fact, it is his "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "soviet_press_suppression",
+      "value": "Reports of UFO sightings not printed in Soviet newspapers",
+      "source_quote": "reports of such sightings are not printed in Soviet newspapers because they are not regarded as scientific observations",
+      "citation_offset": {
+        "offset": 2468,
+        "len": 55,
+        "exact": false,
+        "matched": "ts of such sightings are not printed in Soviet newspape"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "kazakhstan_ball_lightning",
+      "value": "Repeated sightings in northern Kazakhstan turned out to be car headlight reflections off an inversion layer",
+      "source_quote": "in the northern part of Kazakhstan there had been repeated sightings of ball lightning... discovered that what was being seen were reflections of automobile headlights from an inversion layer",
+      "citation_offset": {
+        "offset": 5835,
+        "len": 75,
+        "exact": false,
+        "matched": "thern part of Kazakhstan there had been repeated sightings of ball lightnin"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "overall_assessment",
+      "value": "No official Soviet UFO research program existed; scientists referred to US work (Menzel) to dismiss the topic",
+      "source_quote": "no official treatment of the UFO problem has been given in the USSR. Instead people refer to the US work, principally Menzel's book, to demonstrate the absence of real scientific problems",
+      "citation_offset": {
+        "offset": 6655,
+        "len": 65,
+        "exact": false,
+        "matched": "no official treatment of the UFO problem has been given in the US"
+      },
+      "confidence": "amber"
     }
   ],
-  "named_people": [],
+  "named_people": [
+    "N.A. Kozyrev",
+    "I.K. Koval",
+    "L.I. Galkin",
+    "G.S. Lifschitz",
+    "G.M. Idlis",
+    "Menzel",
+    "McDonald"
+  ],
   "named_places": [
-    "USSR"
+    "USSR",
+    "Moscow",
+    "Sternberg Institute",
+    "Pulkovo Observatory, Leningrad",
+    "Caucasus",
+    "Main Astronomical Observatory, Kiev",
+    "Crimean Astrophysical Observatory, Crimea",
+    "Astrophysical Institute, Alma Ata",
+    "Kazakhstan",
+    "Venus"
   ],
   "dated_events": [
-    "August 1967"
+    "May 1967",
+    "18 Aug 67"
   ],
   "objects_described": [
-    "Unidentified Flying Objects"
+    "curious reddish object flashing through the sky",
+    "unidentified objects near the Caucasus",
+    "ball lightning (later explained as headlight reflections)"
   ],
   "verifiable_claims": [
     {
-      "claim": "A US astrophysicist travelled to the USSR and held conversations with Soviet scientists about UFO sightings",
-      "source_quote": "",
+      "claim": "Menzel's debunking book on UFOs was translated into Russian and widely read by Soviet astronomers",
+      "source_quote": "He had read Menzel's book (which has been translated into Russian) but did not accept his conclusions",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 2321,
+        "len": 50,
+        "exact": false,
+        "matched": "ed into Russian) but did not accept his conclusion"
+      },
+      "confidence": "amber"
     },
     {
-      "claim": "Soviet scientists had knowledge of or interest in UFO sightings occurring within the USSR",
-      "source_quote": "",
+      "claim": "UFO sighting reports were suppressed in Soviet newspapers because they were not considered scientific",
+      "source_quote": "reports of such sightings are not printed in Soviet newspapers because they are not regarded as scientific observations",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2468,
+        "len": 55,
+        "exact": false,
+        "matched": "ts of such sightings are not printed in Soviet newspape"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Kozyrev's observation of activity in lunar crater Alphonsus, initially controversial, was later supported by further research",
+      "source_quote": "one of his questionable observations (the activity of the central peak in the lunar crater Alphonsus) has turned out to be correct",
       "verifier_verdict": "partial",
-      "citation_offset": null,
-      "confidence": "red"
+      "citation_offset": {
+        "offset": 3695,
+        "len": 130,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Astronomer Koval and colleagues saw a reddish object they could not identify as a satellite or meteorite",
+      "source_quote": "had seen a curious, reddish object flashing through the sky that they were convinced was neither a satellite nor a meteorite",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4265,
+        "len": 124,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Idlis initially considered the UFO question closed based on Menzel's book but conceded it was still open after hearing about McDonald's research",
+      "source_quote": "when the US scientist proceeded to indicate the results of McDonald's critical study of the problem, Idlis readily conceded that there might be more to it and concluded by stating that it was 'clearly still an open question'",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5560,
+        "len": 100,
+        "exact": false,
+        "matched": "when the US scientist proceeded to indicate the results of McDonald's critical study of the problem,"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The report assessed that Soviet astronomers might become enthusiastic about UFO research more quickly than US counterparts due to less official ridicule",
+      "source_quote": "a demonstration of the inadequacy of US Official explanations coupled with some proof of the reality of the observations might excite enthusiasm more rapidly among Soviet astronomers than among their US counterparts who are more strongly influenced by the official ridicule associated with UFO's in the US",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7049,
+        "len": 70,
+        "exact": false,
+        "matched": " of the inadequacy of US Official explanations coupled with some proof"
+      },
+      "confidence": "amber"
     }
   ],
-  "tier": "red",
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
-    "red": 2
+    "green": 2,
+    "amber": 4,
+    "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T02:57:42.920Z",
-  "qa_completed_at": "2026-06-14T02:58:09.119Z",
+  "qa_started_at": "2026-06-19T21:09:16.984Z",
+  "qa_completed_at": "2026-06-19T21:10:21.064Z",
   "timing": {
-    "A": "13.3s",
-    "B": "12.9s"
-  }
+    "A": "36.0s",
+    "B": "28.1s",
+    "E": "25.0s"
+  },
+  "public_headline": "CIA Report: US Scientist Asked Soviet Astronomers About UFOs in 1967",
+  "public_tldr": "This 1967 CIA intelligence report summarizes what a US astrophysicist learned about UFO awareness among Soviet scientists during a spring 1967 visit to Soviet observatories. Most Soviet astronomers knew about UFO reports but had no official research program, and one prominent astronomer, N.A. Kozyrev, openly believed UFOs were real and possibly from Venus.",
+  "public_narrative": "In the spring of 1967, a US astrophysicist spent a month visiting Soviet astronomical observatories on a planetary research trip. During informal conversations, the scientist asked Soviet colleagues what they knew about unidentified flying objects. The CIA compiled the scientist's findings into an intelligence report, distributed on 18 August 1967 and marked \"Controlled Dissem / No Dissem Abroad.\" The report was developed by an Air Force (AFNIN) representative and carries a header stating \"This is unevaluated information.\"\n\nThe scientist found that most Soviet astronomers were aware of UFO phenomena but that no official Soviet research program existed on the subject. Several had read a Russian translation of Donald Menzel's book debunking UFOs, but not all found it convincing. Astronomer I.K. Koval and colleagues at the Main Astronomical Observatory in Kiev reported seeing a curious reddish object flashing through the sky that they were convinced was neither a satellite nor a meteorite. At the Astrophysical Institute in Alma Ata, astronomer G.M. Idlis initially considered the UFO question settled based on Menzel's book, but after hearing about James McDonald's critical research, conceded it was \"clearly still an open question.\"\n\nThe most striking individual view came from N.A. Kozyrev at Pulkovo Observatory near Leningrad, who readily accepted the reality of UFOs and personally believed they might originate on Venus. The report also noted that UFO sighting reports were not printed in Soviet newspapers because they were not regarded as scientific observations. In one case, repeated sightings of apparent ball lightning in northern Kazakhstan turned out to be reflections of car headlights off an atmospheric inversion layer.\n\nThe report's overall assessment was that no official Soviet treatment of the UFO problem existed, and that Soviet scientists generally referred to American work — principally Menzel's book — to dismiss the topic. However, it suggested that Soviet astronomers might become enthusiastic about UFO research more quickly than their US counterparts, because they faced less official ridicule on the subject.",
+  "public_caveats": [
+    "This is a single-source report: all information comes from one unnamed US astrophysicist's memorandum. No independent corroboration is provided.",
+    "The document header explicitly states 'This is unevaluated information,' meaning the CIA did not verify or endorse the claims within it.",
+    "UFO inquiries were described as 'a minor aspect of the trip' — this was not a systematic survey of Soviet UFO knowledge.",
+    "Only astronomers were contacted; no Soviet military or government officials were interviewed, so the picture of Soviet UFO awareness is narrow.",
+    "OCR quality on the original document is poor in places, so some names and details may be slightly garbled in the source text."
+  ]
 }

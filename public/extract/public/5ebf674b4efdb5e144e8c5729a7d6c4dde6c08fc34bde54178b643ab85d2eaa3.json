@@ -5,33 +5,117 @@
   "type": "IMG",
   "incident_date": "August 2 - September 2, 1965",
   "incident_location": "Cape Kennedy, Florida",
-  "what_is_it": "A preliminary transcript of the Gemini 5 flight crew technical debriefing conducted by NASA, derived from voice recordings.",
+  "what_is_it": "A classified cover page for Part 1 of the Gemini 5 flight crew technical debriefing transcript, derived from voice recordings.",
   "core_summary": null,
   "core_summary_revised_by_verifier": true,
-  "redaction_evidence": "low",
+  "redaction_evidence": "moderate",
   "interpretation_warnings": [
-    "No body text was extractable from this image file; all facts are derived from metadata and the CSV description only.",
-    "The document is a single scanned image (IMG format), so detailed content could not be analysed.",
-    "Without the full transcript text, it is unknown what specific UAP-related observations, if any, were discussed during the debriefing."
+    "This is only the cover page; no substantive debriefing content is visible in the extracted text.",
+    "The OCR quality is poor — many words are garbled, making some details uncertain.",
+    "The document was originally classified Confidential, suggesting sensitive content in the full debriefing transcript.",
+    "The declassification date rendered as '1073' is almost certainly 1978 based on the metadata context of EO 12065."
   ],
   "fabrication_score": 3,
-  "key_facts": [],
+  "key_facts": [
+    {
+      "field": "document_title",
+      "value": "Gemini V Technical Debriefing (U), Part 1",
+      "source_quote": "GRUNT ¥ IEUNTCAL DEERTERTIG (1) Part 1",
+      "citation_offset": {
+        "offset": 97,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "original_classification",
+      "value": "Confidential, Group 4",
+      "source_quote": "COMNHDENTIEE ... GrouR 4 COMED ENT",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "foia_exemption_notice",
+      "value": "Document may be exempt from public disclosure under FOIA (5 U.S.C. 552)",
+      "source_quote": "This document may be exempt from public lsclosure under the Freedom of kaon: mation Act [5 U.S.C. 552",
+      "citation_offset": {
+        "offset": 144,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "release_policy",
+      "value": "Requests for release to persons outside the U.S. Government handled under NASA Policy Directive 1382.2",
+      "source_quote": "Requests for fg 10 lease to persons outside the U.S, Government Should be handled under tha provelons ef NASA Policy Directive 1382.2",
+      "citation_offset": {
+        "offset": 247,
+        "len": 133,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
   "named_people": [],
   "named_places": [],
-  "dated_events": [],
+  "dated_events": [
+    "NOY 20] 1073"
+  ],
   "objects_described": [],
-  "verifiable_claims": [],
-  "tier": "red",
+  "verifiable_claims": [
+    {
+      "claim": "The document was originally classified as Confidential, Group 4",
+      "source_quote": "COMNHDENTIEE ... GrouR 4 COMED ENT",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was declassified under Executive Order 12065",
+      "source_quote": "By auitwriy of_E0 2)",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 40,
+        "len": 20,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The document may be exempt from public disclosure under the Freedom of Information Act",
+      "source_quote": "This document may be exempt from public lsclosure under the Freedom of kaon: mation Act [5 U.S.C. 552",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 144,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
   "confidence_breakdown": {
-    "green": 0,
-    "amber": 0,
+    "green": 2,
+    "amber": 1,
     "red": 0
   },
   "qa_pipeline_version": "1.0",
-  "qa_started_at": "2026-06-14T03:33:01.854Z",
-  "qa_completed_at": "2026-06-14T03:33:28.271Z",
+  "qa_started_at": "2026-06-19T22:42:42.774Z",
+  "qa_completed_at": "2026-06-19T22:43:17.505Z",
   "timing": {
-    "A": "13.3s",
-    "B": "13.1s"
-  }
+    "A": "17.7s",
+    "B": "17.0s",
+    "E": "15.7s"
+  },
+  "public_headline": "NASA Gemini 5 Crew Debriefing Cover Page Was Originally Classified",
+  "public_tldr": "This document is the cover page of Part 1 of the Gemini 5 crew debriefing transcript, derived from voice recordings of the August 1965 mission. Originally classified as Confidential, it was later declassified but carried a notice that it may still be exempt from public release under the Freedom of Information Act.",
+  "public_narrative": "This record is the cover page for Part 1 of the technical debriefing of the Gemini V flight crew. Gemini 5 was a NASA mission that ran from 2 to 29 August 1965, launched from Cape Kennedy, Florida. The debriefing transcript was derived from voice recordings of the crew.\n\nThe cover page shows the document was originally classified as Confidential, Group 4. It was later declassified under Executive Order 12065, with the declassification date rendered in the OCR text as '1073' — almost certainly 1978 based on the executive order's timeline. The document carries a notice stating it may be exempt from public disclosure under the Freedom of Information Act (5 U.S.C. 552).\n\nA separate notice states that requests for release to persons outside the U.S. Government should be handled under NASA Policy Directive 1382.2, indicating controlled distribution even after declassification.\n\nNo substantive debriefing content is visible in this record — only the cover page was extracted. The actual crew testimony about what they observed during the mission is not included in this particular image.",
+  "public_caveats": [
+    "This is only the cover page — no actual debriefing content or crew testimony is visible in the extracted text.",
+    "The OCR quality is poor, with many garbled words, so some details (such as the declassification date) are inferred from context rather than read directly.",
+    "The original Confidential classification suggests the full debriefing contained sensitive material, but the nature of that material cannot be determined from this page alone.",
+    "The FOIA exemption notice means portions of the full debriefing may still be withheld from public release."
+  ]
 }
