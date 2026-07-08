@@ -71,10 +71,21 @@ await page.waitForTimeout(500);
 const gridVisible = await page.evaluate(() => document.getElementById('vb-grid').style.display !== 'none');
 expect(`grid view restores`, gridVisible);
 
+// 9. Full-text (document body) search: focus loads the index, "roswell" must
+//    surface docs that match only in the body (with an "in document text" badge).
+await page.focus('#q');
+await page.fill('#q', 'roswell');
+await page.waitForTimeout(2500);  // debounce + lazy index fetch + re-render
+const bodyHits = await page.evaluate(() =>
+  [...document.querySelectorAll('.card')].filter(c => c.textContent.includes('in document text')).length);
+const roswellCards = await page.evaluate(() => document.querySelectorAll('.card').length);
+expect(`full-text "roswell" returns results`, roswellCards >= 1, `got ${roswellCards} cards`);
+expect(`full-text body-match badge present`, bodyHits >= 1, `got ${bodyHits} body-badged cards`);
+
 await browser.close();
 
 if (failures.length) {
   console.error(`\n${failures.length} FAILED: ${failures.join(', ')}`);
   process.exit(1);
 }
-console.log(`\nall ${8} checks passed`);
+console.log(`\nall ${10} checks passed`);
