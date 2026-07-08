@@ -71,16 +71,21 @@ await page.waitForTimeout(500);
 const gridVisible = await page.evaluate(() => document.getElementById('vb-grid').style.display !== 'none');
 expect(`grid view restores`, gridVisible);
 
-// 9. Full-text (document body) search: focus loads the index, "roswell" must
-//    surface docs that match only in the body (with an "in document text" badge).
+// 9. Full-text (document body) search: focus loads the index (up to a few MB),
+//    then "roswell" must surface docs that match only in the body (badge).
 await page.focus('#q');
 await page.fill('#q', 'roswell');
-await page.waitForTimeout(2500);  // debounce + lazy index fetch + re-render
-const bodyHits = await page.evaluate(() =>
-  [...document.querySelectorAll('.card')].filter(c => c.textContent.includes('in document text')).length);
+// Poll up to 15s for the lazy index fetch + re-render to produce a body badge.
+let bodyHits = 0;
+for (let t = 0; t < 30; t++) {
+  bodyHits = await page.evaluate(() =>
+    [...document.querySelectorAll('.card')].filter(c => c.textContent.includes('in document text')).length);
+  if (bodyHits >= 1) break;
+  await page.waitForTimeout(500);
+}
 const roswellCards = await page.evaluate(() => document.querySelectorAll('.card').length);
 expect(`full-text "roswell" returns results`, roswellCards >= 1, `got ${roswellCards} cards`);
-expect(`full-text body-match badge present`, bodyHits >= 1, `got ${bodyHits} body-badged cards`);
+expect(`full-text body-match badge present`, bodyHits >= 1, `got ${bodyHits} body-badged cards (waited 15s)`);
 
 await browser.close();
 
