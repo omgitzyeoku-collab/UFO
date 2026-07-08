@@ -15,6 +15,12 @@ if [ -f "extract/build-corpus.mjs" ]; then
 fi
 if [ -f "extract/corpus.json" ]; then cp extract/corpus.json public/extract/corpus.json; fi
 
+# fulltext-index.json — inverted index over document bodies (lazy-loaded on search)
+if [ -f "extract/build-fulltext-index.mjs" ]; then
+  node extract/build-fulltext-index.mjs || echo "build-fulltext failed (non-fatal)"
+fi
+if [ -f "extract/fulltext-index.json" ]; then cp extract/fulltext-index.json public/extract/fulltext-index.json; fi
+
 # qa-index.json + thumbs-index.json (legacy fallback path)
 if [ -f "extract/build-qa-index.mjs" ]; then
   node extract/build-qa-index.mjs || true

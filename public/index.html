@@ -196,6 +196,23 @@
     border-radius: 2px; box-shadow: 0 0 0 1px rgba(217,119,87,0.3);
   }
 
+  /* === DOCUMENT TEXT VIEWER (detail panel) === */
+  .doctext-wrap { margin: 0.6rem 0; }
+  .doctext > summary {
+    cursor: pointer; font-size: 0.82rem; font-weight: 600; color: var(--text-soft);
+    padding: 0.5rem 0; list-style: none; user-select: none;
+  }
+  .doctext > summary::-webkit-details-marker { display: none; }
+  .doctext > summary::before { content: '▸ '; color: var(--text-dim); }
+  .doctext[open] > summary::before { content: '▾ '; }
+  .doctext .dt-meta { font-weight: 400; color: var(--text-dim); font-size: 0.72rem; font-family: var(--ff-mono); }
+  .doctext-body {
+    max-height: 340px; overflow: auto; margin: 0.3rem 0 0;
+    background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius-sm);
+    padding: 0.7rem 0.85rem; font-family: var(--ff-mono); font-size: 0.72rem;
+    line-height: 1.55; color: var(--text-soft); white-space: pre-wrap; word-break: break-word;
+  }
+
   /* === GRID "SHOW MORE" === */
   .grid-more { grid-column: 1 / -1; display: flex; justify-content: center; padding: 1.5rem 0 0.5rem; }
   .grid-more button {
@@ -433,7 +450,7 @@
   </div>
   <div class="search">
     <span class="icon">🔍</span>
-    <input id="q" type="text" placeholder="Search title, body, location, agency, project, person…" autocomplete="off" />
+    <input id="q" type="text" placeholder="Search inside every document — names, places, dates, phrases…" autocomplete="off" />
     <kbd>/</kbd>
   </div>
   <nav>
@@ -819,8 +836,50 @@ function writeUrlState() {
 }
 
 // ===================================================================== filtering
+// ---- Full-text (document body) search: lazy-loaded inverted index ----
+let fulltextIndex = null;        // { v, docs:[sha], idx:{word:[docIdx]} }
+let fulltextLoading = false;
+const bodyMatchCache = new Map(); // q -> Set<sha>
+async function loadFulltextIndex() {
+  if (fulltextIndex || fulltextLoading) return;
+  fulltextLoading = true;
+  try {
+    const r = await fetch('extract/fulltext-index.json');
+    if (r.ok) {
+      fulltextIndex = await r.json();
+      bodyMatchCache.clear();
+      // Re-render so results that match only in document bodies appear.
+      if (activeFilters.q) renderCurrentView();
+    }
+  } catch {}
+  fulltextLoading = false;
+}
+// Set of shas whose body text contains ALL indexable words in q. null = n/a.
+function bodyMatchSet(q) {
+  if (!fulltextIndex || !q) return null;
+  if (bodyMatchCache.has(q)) return bodyMatchCache.get(q);
+  const words = (q.match(/[a-z]{3,20}/g) || []);
+  if (!words.length) { bodyMatchCache.set(q, null); return null; }
+  let acc = null;
+  for (const w of words) {
+    const postings = fulltextIndex.idx[w];
+    if (!postings) { acc = new Set(); break; }  // a word absent everywhere → no match
+    const s = new Set(postings);
+    acc = acc ? new Set([...acc].filter(x => s.has(x))) : s;
+    if (!acc.size) break;
+  }
+  const shas = new Set([...(acc || [])].map(i => fulltextIndex.docs[i]));
+  bodyMatchCache.set(q, shas);
+  return shas;
+}
+function isBodyHit(sha, q) {
+  const s = bodyMatchSet((q || '').toLowerCase().trim());
+  return !!(s && s.has(sha));
+}
+
 function getFiltered() {
   const q = (activeFilters.q || '').toLowerCase().trim();
+  const bodyShas = bodyMatchSet(q);  // computed once per query
   return corpus.filter(d => {
     if (activeFilters.source) {
       const src = d.source || 'war.gov';
@@ -841,9 +900,11 @@ function getFiltered() {
       const tldr = qa?.public_tldr || '';
       const headline = qa?.public_headline || '';
       const hay = [d.title, d.agency, d.incident_location, d.description, headline, tldr, d.name].filter(Boolean).join(' ').toLowerCase();
-      // Also search inside audio/video transcripts (e.g. Apollo "streaks of light").
+      // Also search transcripts (Apollo "streaks of light") and document bodies
+      // (the OCR'd / extracted text of every historical file, via the index).
       const transcript = transcriptSearch[d.sha256];
-      if (!hay.includes(q) && !(transcript && transcript.includes(q))) return false;
+      const inBody = bodyShas && bodyShas.has(d.sha256);
+      if (!hay.includes(q) && !(transcript && transcript.includes(q)) && !inBody) return false;
     }
     return true;
   });
@@ -1046,6 +1107,7 @@ function renderGrid() {
           ${d.type === 'AUD' ? '<span class="tag-pill">audio</span>' : ''}
           ${d.type === 'IMG' ? '<span class="tag-pill">image</span>' : ''}
           ${q && isTranscriptHit(d.sha256, q) ? '<span class="tag-pill" style="background:var(--accent-soft);color:var(--accent);border-color:rgba(217,119,87,0.3);">🔊 in transcript</span>' : ''}
+          ${q && isBodyHit(d.sha256, q) ? '<span class="tag-pill" style="background:var(--accent-soft);color:var(--accent);border-color:rgba(217,119,87,0.3);">📄 in document text</span>' : ''}
         </div>
         <h3>${hl(escapeHtml(headline), q)}</h3>
         ${slug ? `<div class="card-slug">${escapeHtml(slug)}</div>` : ''}
@@ -1346,6 +1408,29 @@ function renderCurrentView() {
   else if (currentView === 'timeline') renderTimeline();
 }
 
+// Mounts a collapsible "Document text (OCR / extracted)" viewer in the detail
+// panel. Lazy-fetches extract/text/<sha>.txt. If the current query hits the
+// body, auto-expands and highlights + scrolls to the first match.
+async function mountDocText(sha, query) {
+  const wrap = document.querySelector(`[data-doctext-sha="${sha}"]`);
+  if (!wrap) return;
+  let txt;
+  try { const r = await fetch(`extract/text/${sha}.txt`); if (!r.ok) return; txt = await r.text(); } catch { return; }
+  if (!txt || txt.trim().length < 40) return;
+  const q = (query || '').trim();
+  const isHit = q && txt.toLowerCase().includes(q.toLowerCase());
+  const clean = txt.replace(/\n{3,}/g, '\n\n').trim();
+  wrap.innerHTML = `
+    <details class="doctext" ${isHit ? 'open' : ''}>
+      <summary>Document text <span class="dt-meta">${(clean.length/1000).toFixed(0)}k chars · machine OCR/extract, may contain errors${isHit ? ' · <span style="color:var(--accent)">match found ↓</span>' : ''}</span></summary>
+      <pre class="doctext-body">${hl(escapeHtml(clean), q)}</pre>
+    </details>`;
+  if (isHit) {
+    const mark = wrap.querySelector('mark.q-hit');
+    if (mark) setTimeout(() => mark.scrollIntoView({ block: 'center', behavior: 'smooth' }), 60);
+  }
+}
+
 // Fetches /extract/transcripts/<sha>.json and renders click-to-seek segments
 // into the detail panel's transcript block. Safe to call multiple times.
 async function loadTranscript(sha) {
@@ -1452,6 +1537,8 @@ async function openDetail(idx) {
         </div>`).join('')}
       </div>` : ''}
 
+    <div data-doctext-sha="${d.sha256}" class="doctext-wrap"></div>
+
     <div class="src-row">
       ${d.source === 'nara'
         ? `<a class="primary" href="${escapeAttr(d.release_url)}" target="_blank" rel="noopener">↗ View at National Archives</a>`
@@ -1490,6 +1577,9 @@ async function openDetail(idx) {
   if (transcriptsAvailable.has(d.sha256)) {
     loadTranscript(d.sha256);
   }
+  // Lazy-load the document body text (OCR/extract) — expands + highlights if
+  // the current query matched inside it.
+  mountDocText(d.sha256, activeFilters.q);
 
   // Wire share + cite + close cite popover
   const popover = document.getElementById('cite-popover');
@@ -1669,6 +1759,9 @@ const onSearch = debounce(() => {
   writeUrlState(); renderActiveFilters(); renderCurrentView();
 }, 220);
 document.getElementById('q').addEventListener('input', onSearch);
+// Lazy-load the full-text (document-body) index the first time the user
+// engages the search box — keeps the initial page load lean.
+document.getElementById('q').addEventListener('focus', loadFulltextIndex, { once: true });
 document.getElementById('f-source').addEventListener('change', (e) => {
   activeFilters.source = e.target.value; writeUrlState(); renderActiveFilters(); renderCurrentView();
 });
