@@ -1,0 +1,485 @@
+{
+  "sha256": "4e191615a53faf81a49721ec594aee5f8c909026348a830025329d847a857e60",
+  "title": "DOW-UAP-D097, Project Sign Progress Report, 1948",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "1948",
+  "incident_location": "Various",
+  "what_is_it": "A 1948 US Air Force initial intelligence report on Project Sign (originally cited as 'Project SIGN'/'MX-304'), tabulating 100 UFO sightings, plus an attached aviation-magazine article on flying-saucer aerodynamics.",
+  "core_summary": "This is the initial report of Project Sign, activated 26 January 1948 at Air Materiel Command, Wright-Patterson Air Force Base, in response to a 30 December 1947 USAF directive to investigate unidentified flying objects. It tabulates and analyses 100 UFO incident reports from 1947-1948, noting recurring characteristics such as high climb rates, disc or saucer shapes, and speeds from hovering to supersonic. It includes an evaluation of photographs from one incident and reprints an article, 'The Biology of the Flying Saucer,' from the magazine The Aeroplane arguing that low-aspect-ratio aircraft could reproduce the reported behaviour.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Source text is OCR of a 1948 typewritten document with heavy character errors; names, numbers and dates may contain transcription mistakes (e.g. 'HT-304' is the project designation MX-304, 'BIOi'/'s10~' is 'SIGN').",
+    "The document was originally classified CONFIDENTIAL; declassification authority NND 927545 appears throughout.",
+    "Reports are eyewitness accounts of varying reliability; the report itself flags at least one observer (Incident 8a) as an excitable, exaggerating individual and one case (Incident 18) as a deliberate hoax.",
+    "Many tabulated fields are recorded as 'Not stated', so the dataset is incomplete.",
+    "The AMC's low-aspect-ratio-aircraft explanation is a hypothesis, not a confirmed identification of the objects.",
+    "The attached article 'The Biology of the Flying Saucer' is a third-party magazine opinion piece, not an official Air Force finding."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Report type",
+      "value": "Initial report on unidentified flying objects",
+      "source_quote": "This is an initial report on unidentified flying objects as directed by Hq, USAF letter dated 30 December 1947",
+      "citation_offset": {
+        "offset": 263,
+        "len": 45,
+        "exact": false,
+        "matched": " initial report on unidentified flying object"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Directive origin",
+      "value": "USAF letter dated 30 December 1947, signed by General L. C. Craigie",
+      "source_quote": "Rq, USAY letter dated SO Deoember 1947, signed by General L. C. Craigie",
+      "citation_offset": {
+        "offset": 325,
+        "len": 71,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Project activation date",
+      "value": "Project MX-304 activated 26 January 1948",
+      "source_quote": "Pro~ot HT-304 was a.otiTated on 26 January 1948",
+      "citation_offset": {
+        "offset": 513,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Technical Instruction",
+      "value": "Technical Instruction 2185, dated 11 February 1948",
+      "source_quote": "Technical Inatruotion 2185, dated 11 Pebruaiy 1948, wns published",
+      "citation_offset": {
+        "offset": 565,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Issuing headquarters",
+      "value": "Air Materiel Command, Wright-Patterson Air Force Base",
+      "source_quote": "HEADQUARTERS AIR KATERI BL COWAND ... Wright-Patterson Air Force Base",
+      "citation_offset": {
+        "offset": 33,
+        "len": 34,
+        "exact": false,
+        "matched": "HEADQUARTERS AIR KATERI BL COWAND "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of incidents tabulated",
+      "value": "100 incidents (numbered 1-100, with sub-lettered entries)",
+      "source_quote": "Inoloaure l represents a tabulation am breakdoWll of all available reports through l February 1948.",
+      "citation_offset": {
+        "offset": 984,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reported shape",
+      "value": "Described as oval, disc or saucer-shaped 51 times",
+      "source_quote": "The objeot was described aa being oval, d1ac or 1auoer-... ehaped ~l times.",
+      "citation_offset": {
+        "offset": 1323,
+        "len": 55,
+        "exact": false,
+        "matched": "The objeot was described aa being oval, d1ac or 1auoer-"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Reported size range",
+      "value": "From that of a 25-cent piece to 250 feet in diameter; from a pursuit plane to the bulk of six B-29 aircraft",
+      "source_quote": "Reported sizes have varied from that of a 26-oent pitoe to 260 feet in diameter, and from the aise or a purauit plane to tht ePulk of six B-29 airpl.&nea.",
+      "citation_offset": {
+        "offset": 1445,
+        "len": 154,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Objects per sighting",
+      "value": "77 sightings of 1 object; 21 of 2-5; 8 of 6-10; 9 of over 10",
+      "source_quote": "Objects per sighting l 2-6 6-10 over 10 Number of eightioga 77 21 8 9",
+      "citation_offset": {
+        "offset": 1693,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Exhaust trails",
+      "value": "Reported 23 times",
+      "source_quote": "Exhaust traile were reported 23 times.",
+      "citation_offset": {
+        "offset": 1766,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Associated sound",
+      "value": "Present 11 times",
+      "source_quote": "Assooiated sound was preae?It ll tim.H",
+      "citation_offset": {
+        "offset": 1401,
+        "len": 38,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Scientist consulted",
+      "value": "Dr. Irving Langmuir, General Electric Research Laboratories, Schenectady, N.Y.",
+      "source_quote": "visited Dr. Ining Langmuir of the P~sea.rch Laboratories. General Electric Comp&ny. Schenectady, N. Y.",
+      "citation_offset": {
+        "offset": 2277,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Langmuir's view",
+      "value": "Reluctant to consider 'flying discs' a reality; said available data insufficient for positive identification",
+      "source_quote": "Dr. :.a.n&muir was relucts.nt to consider the so-called \"flying discsM as a reality.",
+      "citation_offset": {
+        "offset": 2572,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "AMC conclusion",
+      "value": "Believed possible to construct a low-aspect-ratio aircraft duplicating many reported characteristics via boundary layer control",
+      "source_quote": "it is possible to oonstruot a low aspeot ratio airoraft that would d~pli-oate many of the appearance and performance oharaoteriatics",
+      "citation_offset": {
+        "offset": 2708,
+        "len": 70,
+        "exact": false,
+        "matched": "it is possible to oonstruot a low aspeot ratio airoraft that would d~p"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Attached article",
+      "value": "'The Biology of the Flying Saucer' by A. R. Weyl, The Aeroplane, 13 February 1948",
+      "source_quote": "THE AEROPLAtlE ... of the Flying Saf cer ... By A. R. Weyl, A.F.R.Ae.S.",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Photograph evaluation",
+      "value": "Enlargements of photographs from Incident 40 (Rhoades) evaluated at AMC",
+      "source_quote": "the £11&1 tann b7 llr. Rhoad•• (In.oident f,40) which ••re tonrarded tor exuination",
+      "citation_offset": {
+        "offset": 36806,
+        "len": 78,
+        "exact": false,
+        "matched": "11&1 tann b7 llr. Rhoad•• (In.oident f,40) which ••re tonrarded tor exuination"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Signatory",
+      "value": "H. M. McCoy, Colonel, USAF, Chief of Intelligence",
+      "source_quote": "H. M. ticC~!1. Co lone1. US&F ... Chief ot Intelli gence",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "General L. C. Craigie",
+    "Dr. Irving Langmuir",
+    "H. M. McCoy",
+    "Mr. Rhoades",
+    "A. R. Weyl",
+    "F. W. Lanchester",
+    "Sir Frederick Handley Page",
+    "Isaac Newton"
+  ],
+  "named_places": [
+    "Wright-Patterson Air Force Base",
+    "Washington 26, D.C.",
+    "Schenectady, New York",
+    "Muroc Air Field, California",
+    "Rogers Dry Lake, California",
+    "Portland, Oregon",
+    "Milwaukee, Oregon",
+    "Boise, Idaho",
+    "Seattle, Washington",
+    "Vancouver, Washington",
+    "Mount Jefferson near Redmond, Oregon",
+    "Mount Rainier, Washington",
+    "Toronto, Canada",
+    "Dayton, Ohio",
+    "Xenia, Ohio",
+    "Des Moines, Iowa",
+    "Spokane, Washington",
+    "Weiser, Idaho",
+    "West Trenton, New Jersey",
+    "Harmon Field, Newfoundland",
+    "Bakersfield, California",
+    "Lockbourne AB, Columbus, Ohio",
+    "Northern Arizona",
+    "Godman Field, Kentucky",
+    "Madisonville, Kentucky",
+    "Dauphin, Manitoba, Canada",
+    "Cape Blanco, Oregon",
+    "Globe, Arizona",
+    "Cave Creek, Arizona",
+    "Budapest, Hungary",
+    "Grand Falls, Newfoundland",
+    "Phoenix, Arizona",
+    "Blendorf/Elmendorf Field, Alaska",
+    "Clinton, Iowa",
+    "Rockford, Wisconsin",
+    "Illinois",
+    "Fairfield-Suisun Air Base, California",
+    "Wilmington, Ohio",
+    "Danville, Kentucky",
+    "Wildwood, New Jersey",
+    "Ontario, Oregon",
+    "Hamilton Field, California",
+    "Lake Mead, Oregon",
+    "North Sea (off the Dutch coast)",
+    "Sydney, Australia",
+    "Bethel, Alaska",
+    "Easter Island",
+    "Salt Lake City, Utah",
+    "Canyon Ferry, Montana",
+    "Twin Falls, Idaho",
+    "Rehoboth Beach, Delaware",
+    "Silver Springs, Ohio",
+    "Placerville, California",
+    "Cascade Mountains near Portland, Oregon",
+    "Philadelphia, Pennsylvania",
+    "Las Vegas, Nevada",
+    "Port Richardson, Alaska",
+    "Boston, Massachusetts",
+    "Salmon River Canyon, Idaho",
+    "South Brooksville, Maine",
+    "Grand Canyon, Arizona",
+    "Richmond, Virginia",
+    "Hickam Field, Hawaii",
+    "Oklahoma City, Oklahoma",
+    "Meridian, Idaho",
+    "Lakeland, Florida",
+    "Hollywood, California",
+    "Germany",
+    "Hackensack, New Jersey",
+    "Kansas City, Kansas",
+    "Las Cruces, New Mexico",
+    "Maxwell Field, Alabama",
+    "Colorado Springs, Colorado",
+    "Hartford, Connecticut",
+    "Great Falls, Montana",
+    "Rosedale, California",
+    "Lovelock, Nevada",
+    "Medford, Oregon",
+    "Mount Shasta, California",
+    "Houston, Texas",
+    "Vaasa, Finland",
+    "Pietarsaari, Finland"
+  ],
+  "dated_events": [
+    "1947-06-02",
+    "1947-06-10",
+    "1947-06-18",
+    "1947-06-21",
+    "1947-06-24",
+    "1947-06-28",
+    "1947-06-29",
+    "1947-06-30",
+    "1947-07-04",
+    "1947-07-06",
+    "1947-07-07",
+    "1947-07-08",
+    "1947-07-10",
+    "1947-07-12",
+    "1947-07-17",
+    "1947-07-20",
+    "1947-07-23",
+    "1947-07-29",
+    "1947-08-04",
+    "1947-08-06",
+    "1947-08-10",
+    "1947-08-14",
+    "1947-08-19",
+    "1947-09-08",
+    "1947-09-14",
+    "1947-10-12",
+    "1947-10-13",
+    "1947-10-20",
+    "1947-11-12",
+    "1947-12-20",
+    "1947-12-27",
+    "1947-12-30",
+    "1948-01-05",
+    "1948-01-07",
+    "1948-01-09",
+    "1948-01-10",
+    "1948-01-11",
+    "1948-01-26",
+    "1948-02-01",
+    "1948-02-11",
+    "1948-02-13",
+    "1948-02-19",
+    "1948-04-23"
+  ],
+  "objects_described": [
+    "Oval, disc or saucer-shaped objects",
+    "Silvery / aluminium-coloured discs",
+    "Spherical and round objects",
+    "Cone-shaped objects (blunt on top, tapering)",
+    "Cigar-shaped / elongated objects",
+    "Balloon-like objects with a disc below",
+    "Objects with exhaust trails",
+    "Objects the size and bulk of six B-29 aircraft",
+    "Low-aspect-ratio aircraft (annular / circular / square-planform wings) discussed as possible explanation",
+    "Horten parabola (referenced inclosure)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Project Sign (MX-304) was activated on 26 January 1948 at Air Materiel Command in response to a USAF directive of 30 December 1947.",
+      "source_quote": "Pro~ot HT-304 was a.otiTated on 26 January 1948 ... as direoted by Rq, USAY letter dated SO Deoember 1947",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 313,
+        "len": 50,
+        "exact": false,
+        "matched": "direoted by Rq, USAY letter dated SO Deoember 1947"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The report tabulated all available UFO reports received through 1 February 1948.",
+      "source_quote": "Inoloaure l represents a tabulation am breakdoWll of all available reports through l February 1948.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 984,
+        "len": 99,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Objects were described as oval, disc or saucer-shaped in 51 of the cases.",
+      "source_quote": "The objeot was described aa being oval, d1ac or 1auoer-... ehaped ~l times.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1323,
+        "len": 55,
+        "exact": false,
+        "matched": "The objeot was described aa being oval, d1ac or 1auoer-"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Reported sizes ranged from that of a 25-cent piece to 250 feet in diameter.",
+      "source_quote": "Reported sizes have varied from that of a 26-oent pitoe to 260 feet in diameter",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1445,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Estimated speeds ranged from very slow or hovering to supersonic.",
+      "source_quote": "Speed has been eetime.ted throughout the entire range from very alow or hovering to supersonio.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1808,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Dr. Irving Langmuir of General Electric was reluctant to consider flying discs a reality and said the data was insufficient for a positive identification.",
+      "source_quote": "Dr. :.a.n&muir was relucts.nt to consider the so-called \"flying discsM as a reality.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2572,
+        "len": 84,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "AMC believed a low-aspect-ratio aircraft could be built to duplicate many reported flying-disc characteristics through boundary layer control.",
+      "source_quote": "possible through the intelligent application of boun:lary layer control.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2909,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Incident 18 (Toronto) was determined to be a hoax perpetrated for publicity and money.",
+      "source_quote": "It has now been d•tinit•ly determined that both tho photograph and story were t. hou:, perpetrated tor publioity e.nd aooey.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 35994,
+        "len": 124,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Schedules of lighted night-flying advertising blimps were checked as a possible source of incident reports.",
+      "source_quote": "Schedules of activities of lighted night-flying adTertising blimps have been secured a.nd crosa-oheoked",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 797,
+        "len": 103,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 7,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T08:57:15.630Z",
+  "qa_completed_at": "2026-07-13T09:01:35.490Z",
+  "timing": {
+    "A": "68.9s",
+    "B": "190.9s",
+    "E": "33.3s"
+  },
+  "public_headline": "1948 Air Force Report Catalogues 100 Early UFO Sightings",
+  "public_tldr": "This is the initial progress report of Project Sign, the US Air Force's first official investigation into unidentified flying objects, activated on 26 January 1948 at Wright-Patterson Air Force Base. It tabulates and analyses 100 UFO sighting reports from 1947 and 1948, noting recurring features such as disc or saucer shapes, high climb rates and speeds ranging from hovering to supersonic. Notably, the report reaches no firm conclusion about what the objects were, and includes a reprinted magazine article suggesting the sightings could be explained by unconventional aircraft.",
+  "public_narrative": "This document is the first progress report of Project Sign, an early US Air Force effort to investigate reports of unidentified flying objects (UFOs). The project — originally designated MX-304 — was activated on 26 January 1948 at Air Materiel Command (AMC), Wright-Patterson Air Force Base, in response to a US Air Force letter dated 30 December 1947 signed by General L. C. Craigie. A related Technical Instruction, numbered 2185 and dated 11 February 1948, was also published. The report was signed by Colonel H. M. McCoy, Chief of Intelligence.\n\nThe core of the report is a tabulation and analysis of 100 UFO incidents reported through 1 February 1948, drawn from sightings across the United States and abroad during 1947 and 1948. It records recurring characteristics: objects were described as oval, disc or saucer-shaped in 51 of the cases; reported sizes ranged from that of a 25-cent coin to 250 feet in diameter, or from the size of a pursuit plane to the bulk of six B-29 aircraft. Most sightings (77) involved a single object. Exhaust trails were reported 23 times and an associated sound was noted 11 times. Estimated speeds spanned the full range from very slow or hovering to supersonic.\n\nThe investigators sought outside expertise, consulting Dr. Irving Langmuir of the General Electric Research Laboratories in Schenectady, New York. Langmuir was reluctant to treat the so-called 'flying discs' as a reality and said the available data was insufficient for a positive identification. Investigators also cross-checked mundane explanations, such as the schedules of lighted night-flying advertising blimps.\n\nRather than reaching a conclusion about the objects' origin, AMC advanced a hypothesis: it believed it possible to construct a 'low-aspect-ratio' aircraft — one with unusually short, wide wings — that could duplicate many of the reported appearances and behaviours through careful aerodynamic design. This is presented as a possible explanation, not a confirmed identification. The report also handles individual cases with scrutiny: photographs from one incident (Incident 40, reported by a Mr. Rhoades) were enlarged and evaluated at AMC, while another case (Incident 18, in Toronto) was determined to be a deliberate hoax staged for publicity and money.\n\nAttached to the report is a third-party magazine article, 'The Biology of the Flying Saucer' by A. R. Weyl, published in The Aeroplane on 13 February 1948, which argues along similar aerodynamic lines. The document was originally classified CONFIDENTIAL and later declassified under authority NND 927545. The version available is a scan of a 1948 typewritten original, and the underlying text has been read by optical character recognition with heavy transcription errors, so some names, numbers and dates in the source are garbled.",
+  "public_caveats": [
+    "The report does not identify what the objects were. Its low-aspect-ratio-aircraft explanation is an explicit hypothesis, and the outside expert consulted (Dr. Langmuir) said the data was insufficient for any positive identification.",
+    "The 100 incidents are eyewitness accounts of varying reliability. The report itself flags one observer as prone to exaggeration and confirms one case as a deliberate hoax staged for publicity and money.",
+    "The dataset is incomplete: many fields in the tabulation are recorded as 'Not stated'.",
+    "The attached article, 'The Biology of the Flying Saucer', is an opinion piece from an aviation magazine, not an official Air Force finding.",
+    "The document is a scan of a 1948 typewritten original read by imperfect OCR, so specific names, figures and dates may contain transcription errors; redaction of content appears minimal beyond standard classification markings."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "sha256": "d4ac14572d8140bdc4f10b766a3ac8e7e4c5f3c70c61e9d977d57322861565a8",
+  "title": "DOW-UAP-PR024, Unresolved UAP Report, Middle East, 2023",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2023",
+  "incident_location": "Middle East",
+  "what_is_it": "A US government video case file: 18 seconds of infrared sensor footage of an unidentified anomalous phenomenon, submitted for resolution and released with a written description.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The case is classified 'Unresolved' — no explanation of what the objects were is offered.",
+    "No underlying PDF text was extractable; facts rely on war.gov metadata and the official video description only.",
+    "The 'bright' and 'dark' shapes are described only as areas of contrast on an infrared sensor, not confirmed physical objects; IR footage is prone to sensor artefacts, parallax and focus effects.",
+    "The white flash at 00:17 is attributed to a sensor setting change, not to the object itself.",
+    "Exact date, platform type and precise location within the Middle East are not disclosed.",
+    "The official note states the description is 'for informational purposes only' and appears truncated in the source."
+  ],
+  "fabrication_score": 7,
+  "key_facts": [
+    {
+      "field": "Case ID",
+      "value": "DOW-UAP-PR024",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Resolution status",
+      "value": "Unresolved",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Year",
+      "value": "2023",
+      "source_quote": "aboard a U.S. military platform in 2023",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "Middle East",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Middle East"
+  ],
+  "dated_events": [
+    "2023"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The footage is 18 seconds long and came from an infrared sensor on a US military platform in 2023.",
+      "source_quote": "consisting of 18 seconds of video footage from an infrared sensor aboard a U.S. military platform in 2023",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T08:34:15.744Z",
+  "qa_completed_at": "2026-07-13T08:35:16.264Z",
+  "timing": {
+    "A": "26.7s",
+    "B": "33.8s"
+  }
+}

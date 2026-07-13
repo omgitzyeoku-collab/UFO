@@ -26,7 +26,7 @@ for (const r of records) if (r.sha256 && !dedup.has(r.sha256)) dedup.set(r.sha25
 const docs = [...dedup.values()];
 
 function escapeHtml(s) {
-  return (s || '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+  return String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
 }
 function escapeAttr(s) { return escapeHtml(s).replace(/`/g, '&#96;'); }
 

@@ -1,0 +1,291 @@
+{
+  "sha256": "e91344aaa3cae8760bb695db30416048d94d333d3cf8e616dfd878ef60731379",
+  "title": "FBI-UAP-D014, Correspondence Relating to UFO Sightings, 1967, 1974",
+  "agency": "FBI",
+  "type": "PDF",
+  "incident_date": "10/10/74",
+  "incident_location": "Various",
+  "what_is_it": "A collection of FBI correspondence: an internal 1967 field memorandum reporting a child's UFO sighting, plus a 1974 exchange of letters between a member of the public and the FBI about an alleged 1954 UFO sighting.",
+  "core_summary": "The file contains two items. The first is a 22 September 1967 FBI memorandum recording that an eleven-year-old boy, Tom Mitchell of Chicago, telephoned to report hearing a 'weird' noise and seeing a 'flash of light going north in the sky' on 16 September 1967, which he claimed was a UFO. The second is a September–October 1974 exchange in which Larry W. Bryant asked the FBI for records of an alleged 8 April 1954 sighting of an occupied UFO, and the FBI replied that it held no information on the event and does not collect information on UFO sightings.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "The 1967 UFO report is single-source and comes from an unverified eleven-year-old witness; the FBI took no investigative action beyond passing it to a radar squadron.",
+    "The alleged 1954 occupied-UFO sighting is described only in the inquirer's own letter; the FBI confirmed it held no records corroborating it.",
+    "OCR quality is poor and some names, addresses and figures are garbled in the extracted text.",
+    "The document is FBI internal/public correspondence, not evidence that any UFO event occurred; the FBI explicitly disclaimed collecting UFO information."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "1967 memo date",
+      "value": "9/22/67",
+      "source_quote": "DATE: 9/22/67",
+      "citation_offset": {
+        "offset": 623,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "1967 reporting office",
+      "value": "FBI Chicago",
+      "source_quote": "TO ~CHICAGO(~",
+      "citation_offset": {
+        "offset": 609,
+        "len": 13,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "1967 memo author",
+      "value": "SA Leonard Treviranus",
+      "source_quote": "FROM SA Co LEONARD TREVIRANUS",
+      "citation_offset": {
+        "offset": 637,
+        "len": 29,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Child witness",
+      "value": "Tom Mitchell, age 11, 7825 South Colfax, Chicago",
+      "source_quote": "'!'OM MITCu(LL, 7825 South Colfax, Chicago (375-9258) ... He is eleven years of age.",
+      "citation_offset": {
+        "offset": 712,
+        "len": 54,
+        "exact": false,
+        "matched": "'!'OM MITCu(LL, 7825 South Colfax, Chicago (375-9258) "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "1967 sighting time",
+      "value": "approximately 8:30 PM, September 16, 1967",
+      "source_quote": "at 9:110 PM on September 16, 1_967 ... Al approximately 8:30 PM he heard a \"weird\" noise",
+      "citation_offset": {
+        "offset": 876,
+        "len": 48,
+        "exact": false,
+        "matched": "l approximately 8:30 PM he heard a \"weird\" noise"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "1967 sighting description",
+      "value": "a 'weird' noise and a 'flash of light going north in the sky'",
+      "source_quote": "he heard a \"weird\" noise and looked out the window ... and saw a \"flash of light going north in the skyo\"",
+      "citation_offset": {
+        "offset": 900,
+        "len": 50,
+        "exact": false,
+        "matched": "he heard a \"weird\" noise and looked out the window"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "1967 information referred to",
+      "value": "Sergeant Eugene Ripka, Army-Air Force 755th Radar Squadron, Arlington Heights, Illinois",
+      "source_quote": "furnished to Sergeant EUGENE RIPKA, Army-Air Force 755th Radar Squadron, Arlington, Heights, Illinois",
+      "citation_offset": {
+        "offset": 1119,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "1974 inquirer",
+      "value": "Larry W. Bryant, 2904 South 13th Road, Apt 2, Arlington, Virginia 22204",
+      "source_quote": "Larr W. Bryant ... 2904 South 13th Road - Apt 2 Arlington, Virgin~~",
+      "citation_offset": {
+        "offset": 1349,
+        "len": 47,
+        "exact": false,
+        "matched": "904 South 13th Road - Apt 2 Arlington, Virgin~~"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Alleged 1954 sighting",
+      "value": "8 April 1954 sighting of an occupied UFO pursued by US Coast Guard personnel",
+      "source_quote": "an alleged April 8, 1954 sigJhting of an : cupied Un-identified Flying Object (UFO) which was pursued by W- S. Coast Gu d personnel",
+      "citation_offset": {
+        "offset": 2698,
+        "len": 75,
+        "exact": false,
+        "matched": "entified Flying Object (UFO) which was pursued by W- S. Coast Gu d personne"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "1954 principal observer named",
+      "value": "Mrs. Lelah H. Stoker, a Chicago resident",
+      "source_quote": "the principal observer, Chicago resident Mrs. Lelah H.",
+      "citation_offset": {
+        "offset": 3493,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FBI reply date",
+      "value": "October 10, 1974",
+      "source_quote": "Chicago, Illinois 60604 ·October 10, 1974",
+      "citation_offset": {
+        "offset": 3810,
+        "len": 41,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FBI reply author",
+      "value": "Richard G. Held, Special Agent in Charge, Chicago",
+      "source_quote": "RICHA· D G. HELD Special Agent in Charge",
+      "citation_offset": {
+        "offset": 4825,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "FBI position on UFOs",
+      "value": "FBI holds no information on the sighting and does not collect UFO-sighting information in general",
+      "source_quote": "the FBI does. not collect informa­t1Qn regarding UFO sightings in general",
+      "citation_offset": {
+        "offset": 4275,
+        "len": 38,
+        "exact": false,
+        "matched": "1Qn regarding UFO sightings in general"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Leonard Treviranus",
+    "Tom Mitchell",
+    "Eugene Ripka",
+    "Larry W. Bryant",
+    "Lelah H. Stoker",
+    "Richard G. Held"
+  ],
+  "named_places": [
+    "Chicago, Illinois",
+    "7825 South Colfax, Chicago",
+    "Arlington Heights, Illinois",
+    "Arlington, Virginia",
+    "219 South Dearborn Street, Chicago"
+  ],
+  "dated_events": [
+    "1967-09-16",
+    "1967-09-22",
+    "1954-04-08",
+    "1974-09-30",
+    "1974-10-10"
+  ],
+  "objects_described": [
+    "'flash of light' claimed to be a UFO",
+    "alleged occupied unidentified flying object (UFO)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "An eleven-year-old boy telephoned the FBI to report a weird noise and a flash of light he claimed was a UFO on 16 September 1967.",
+      "source_quote": "He is eleven years of age. Al approximately 8:30 PM he heard a \"weird\" noise ... claimed this to be a UFO.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 848,
+        "len": 75,
+        "exact": false,
+        "matched": "He is eleven years of age. Al approximately 8:30 PM he heard a \"weird\" nois"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The 1967 report was passed to a US Army-Air Force radar squadron sergeant.",
+      "source_quote": "The ab~ve information was furnished to Sergeant EUGENE RIPKA, Army-Air Force 755th Radar Squadron",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1093,
+        "len": 97,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Larry Bryant said he had obtained, via the Department of the Air Force, a US Army report of an alleged 8 April 1954 sighting of an occupied UFO pursued by Coast Guard personnel and seen by at least three civilian observers.",
+      "source_quote": "I 1ve obta· ed a copy of a U.S. Army report of an alleged April 8, 1954 sigJhting of an : cupied Un-identified Flying Object (UFO) ... seen by at /east three civi ian observers",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2616,
+        "len": 75,
+        "exact": false,
+        "matched": "a U.S. Army report of an alleged April 8, 1954 sigJhting of an : cupied Un-"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The FBI stated it had no information on the described UFO sighting and does not collect information on UFO sightings.",
+      "source_quote": "the Federal Bureau. of Investigation (FBI) has ·no information regarding the UFO sighting you describe ... the FBI does. not collect informa­t1Qn regarding UFO sightings in general",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4099,
+        "len": 50,
+        "exact": false,
+        "matched": "the Federal Bureau. of Investigation (FBI) has ·no"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The FBI stated it is authorised to investigate only matters delegated by Congress, and UFO sightings are not among them.",
+      "source_quote": "is authorized to .ilnvestigate only those matters .specifically delegated to tt.~y Congress. UFO sightings are not such matters.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4426,
+        "len": 128,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The FBI said its files contained no information on the current residence or telephone number of Mrs. Lelah H. Stoker.",
+      "source_quote": "our files contai.o no information regii.rding the current residence or telepho~e number of 'Mrs·...Lelah H.. Stoker",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4569,
+        "len": 115,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 3,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T09:28:43.263Z",
+  "qa_completed_at": "2026-07-13T09:30:10.447Z",
+  "timing": {
+    "A": "41.7s",
+    "B": "45.5s",
+    "E": "25.6s"
+  },
+  "public_headline": "FBI Files Record 1967 Child's UFO Report and 1974 Records Request",
+  "public_tldr": "This is a small collection of FBI correspondence covering two unrelated matters. The first is a 22 September 1967 internal FBI memo noting that an eleven-year-old Chicago boy, Tom Mitchell, telephoned to report a 'weird' noise and a 'flash of light' he called a UFO on 16 September 1967. The second is a September–October 1974 letter exchange in which a member of the public, Larry W. Bryant, asked the FBI for records of an alleged 1954 UFO sighting, and the FBI replied that it held no such records and does not collect information on UFO sightings.",
+  "public_narrative": "This file, released as FBI-UAP-D014, is not a report of an investigation. It is a set of two pieces of FBI correspondence about unidentified flying object (UFO) claims, held together in one document. Neither item shows the FBI investigating or confirming that anything unusual took place.\n\nThe first item is an internal FBI memorandum dated 22 September 1967, written by Special Agent Leonard Treviranus of the FBI's Chicago office. It records that Tom Mitchell, an eleven-year-old boy living at 7825 South Colfax in Chicago, telephoned to say that at about 8:30 PM on 16 September 1967 he heard a 'weird' noise, looked out of the window, and saw a 'flash of light going north in the sky', which he claimed was a UFO. The FBI took no investigative action beyond passing the information to Sergeant Eugene Ripka of the Army-Air Force 755th Radar Squadron in Arlington Heights, Illinois.\n\nThe second item is a 1974 exchange of letters. Larry W. Bryant, of Arlington, Virginia, wrote to the FBI saying he had obtained, through the Department of the Air Force, a US Army report describing an alleged 8 April 1954 sighting of an occupied UFO said to have been pursued by US Coast Guard personnel and seen by at least three civilian observers. He named the principal observer as Mrs. Lelah H. Stoker, a Chicago resident, and asked the FBI for its records.\n\nThe FBI's reply, dated 10 October 1974 and signed by Richard G. Held, Special Agent in Charge in Chicago, stated plainly that the Bureau had no information about the sighting Bryant described and that the FBI does not collect information on UFO sightings in general. It added that the FBI is authorised to investigate only matters specifically delegated to it by Congress, and that UFO sightings are not among them, and that its files contained no information on the current address or telephone number of Mrs. Stoker.\n\nThe document carries some redaction, and the scanned text is of poor quality, so some names, addresses and figures are garbled. Nothing in the file corroborates that any UFO event actually occurred; both claims rest on the accounts of the people who reported them.",
+  "public_caveats": [
+    "The 1967 report is single-source, coming from an unverified eleven-year-old witness, and the FBI took no action beyond forwarding it to a radar squadron.",
+    "The alleged 1954 occupied-UFO sighting is described only in the inquirer's own letter; the FBI confirmed it held no records corroborating it.",
+    "The FBI explicitly stated it does not collect information on UFO sightings and is not authorised by Congress to investigate them — so this correspondence is administrative, not evidence that any UFO event occurred.",
+    "The document shows moderate redaction, and the scanned text is poor quality, leaving some names, addresses and figures garbled.",
+    "Read this as a record of what people reported and how the FBI responded, not as confirmation of any sighting."
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "sha256": "59a30983288868000d7c82bf863a2af475834ad14b984fbe9e4b8bd521aaa1cb",
+  "title": "DOW-UAP-D094, Analysis of Flying Object Incidents in the United States, 1949",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "4/28/49",
+  "incident_location": "Virginia",
+  "what_is_it": "A 1948 U.S. Air Force Air Intelligence Division analytical study (a classified intelligence report) assessing reported 'flying saucer' / unidentified flying object sightings across the United States.",
+  "core_summary": "The study reviews approximately 210 reported flying-object incidents and concludes that some type of object has genuinely been observed, but that its identification and origin cannot be determined from available reports. It proposes two 'reasonable' possibilities — that the objects are domestic devices (weather balloons, rockets, or experimental flying-wing aircraft) or that they are foreign, most logically of Soviet origin exploiting captured German flying-wing designs. It urges that if a domestic explanation cannot be firmly established, the objects should be treated as a potential threat warranting active identification and interception.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "This is a 1948 intelligence assessment, not a confirmation of extraterrestrial or exotic craft — the report explicitly states origin is 'not ascertainable'.",
+    "The Soviet-origin hypothesis is speculative Cold War threat assessment based on captured German designs, not established fact.",
+    "Many incident accounts are single-observer or from sources the report itself flags as 'possibly less reliable'.",
+    "The document notes about 9% of cases were positively explained as mundane phenomena (Venus, balloons, cosmic-ray equipment), indicating substantial misidentification in the dataset.",
+    "OCR of the scanned original is imperfect; some names, figures, and dates (e.g. 'Rollman'/Holloman, 'Gedman'/Godman) are garbled and should be verified against the original PDF.",
+    "The metadata 'incident date 4/28/49' conflicts with the study's own stated date of 10 December 1948; the 4/28/49 date appears to derive from a later report cover, not the study itself."
+  ],
+  "fabrication_score": 0,
+  "key_facts": [
+    {
+      "field": "Report number",
+      "value": "Air Intelligence Report No. 100-203-79 / Air Intelligence Division Study No. 203",
+      "source_quote": "Air Intelligence Report No. 100-203-79. ... Air Intelligence Division Study No. 203 10 December 1948.",
+      "citation_offset": {
+        "offset": 574,
+        "len": 55,
+        "exact": false,
+        "matched": "ir Intelligence Division Study No. 203 10 December 1948"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Date of study",
+      "value": "10 December 1948",
+      "source_quote": "Air Intelligence Division Study No. 203 10 December 1948.",
+      "citation_offset": {
+        "offset": 573,
+        "len": 57,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Issuing bodies",
+      "value": "Directorate of Intelligence, Headquarters United States Air Force, and Office of Naval Intelligence, Navy Department",
+      "source_quote": "Directorate of Intelligence Headquarters United States Air Force ... Office of Naval Intelligence Navy Department",
+      "citation_offset": {
+        "offset": 1182,
+        "len": 65,
+        "exact": false,
+        "matched": "Directorate of Intelligence Headquarters United States Air Force "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Number of incidents reported",
+      "value": "Approximately 210",
+      "source_quote": "Approximately 210 incidents have been reported.",
+      "citation_offset": {
+        "offset": 2825,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incidents positively explained",
+      "value": "18 of approximately 210 (about nine per cent), including 3 hoaxes and 2 from unreliable witnesses",
+      "source_quote": "have definitely established the identification of 18 of approximately 210 so-called flying saucers ... three were hoaxes, two were from unreliable witnesses.",
+      "citation_offset": {
+        "offset": 35675,
+        "len": 95,
+        "exact": false,
+        "matched": "have definitely established the identification of 18 of approximately 210 so-called flying sauc"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Configuration categories",
+      "value": "(1) disk-shaped, (2) rough cigar-shaped, (3) balls of fire",
+      "source_quote": "the flying objects fall lnto three configurat1on categories: (1) disk-shaped (2) rough cigar-shaped {3) balls of fire.",
+      "citation_offset": {
+        "offset": 4170,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Central conclusion",
+      "value": "Some object has been seen, but its identification cannot be readily accomplished",
+      "source_quote": "it appears that some object has been seen; however, the identification of that object cannot be readily; accomplished",
+      "citation_offset": {
+        "offset": 4701,
+        "len": 100,
+        "exact": false,
+        "matched": "pears that some object has been seen; however, the identification of that object cannot be readily; "
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Two proposed origins",
+      "value": "Domestic devices, or foreign (most logically Soviet)",
+      "source_quote": "There are two reasonable possibllltles: (1) The objects are domestic devices ... (2) Objects are foreign, and l:f so, it would seem most logical to consider that they are from a Soviet source.",
+      "citation_offset": {
+        "offset": 6406,
+        "len": 100,
+        "exact": false,
+        "matched": " (2) Objects are foreign, and l:f so, it would seem most logical to consider that they are from a So"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Geographic pattern of sightings",
+      "value": "Most intense along the Atlantic and Pacific coasts and the central states of Ohio and Kentucky",
+      "source_quote": "Sightings ~ave been most intense throughout the states bordering the Atlantic and Pacific coast lines, and the central states of Ohio and Kentucky.",
+      "citation_offset": {
+        "offset": 5318,
+        "len": 147,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Classification / authority",
+      "value": "Declassified; original authority NND 857011; originally Top Secret handling",
+      "source_quote": "Authority: NND 857011 ... DECLASSIFIED",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Byron B. Savage",
+    "William Rhoads",
+    "Kenneth Arnold",
+    "Dr. Guenther Bock",
+    "Tscheranowsky",
+    "Marcus L. Lowe",
+    "Major Hammer",
+    "George F. Gorman",
+    "L. D. Jensen",
+    "Manuel E. Johnson",
+    "L. N. Cannon",
+    "Kenwood W. Jackson",
+    "Glen L. Stalker",
+    "Henry G. Combs",
+    "John J. Kushner",
+    "Henry Glover",
+    "Moore",
+    "A. D. Otter",
+    "Woodruff",
+    "Booneville"
+  ],
+  "named_places": [
+    "United States",
+    "Richmond, Virginia",
+    "Oklahoma City, Oklahoma",
+    "Lake Meade, Nevada",
+    "White Sands, New Mexico",
+    "Portland, Oregon",
+    "Phoenix, Arizona",
+    "Harmon Field, Newfoundland",
+    "Tacoma, Washington",
+    "Hamilton Field",
+    "Oakland, California",
+    "Bethel, Alaska",
+    "Oregon coast",
+    "Rollman/Holloman Air Force Base, New Mexico",
+    "Anacostia Naval Air Station, D.C.",
+    "Rapid City Air Base",
+    "Kirtland Air Force Base",
+    "San Acacia, New Mexico",
+    "Midway",
+    "Honolulu",
+    "Miles City, Montana",
+    "Fargo, North Dakota",
+    "Andrews Field, Maryland",
+    "Washington, D.C.",
+    "Hokkaido, Japan",
+    "Fukuoka, Japan",
+    "Van Nuys, California",
+    "Godman Air Force Base, Kentucky",
+    "Standiford Air Force Base, Kentucky",
+    "Louisville, Kentucky",
+    "Oak Ridge, Tennessee",
+    "Las Cruces, New Mexico",
+    "Hanford Works, Oregon",
+    "Scandinavia",
+    "Irkutsk",
+    "Kuzmikha",
+    "Moscow",
+    "Arnhem, Netherlands",
+    "South Bend, Indiana",
+    "Germany",
+    "Great Britain",
+    "U.S.S.R."
+  ],
+  "dated_events": [
+    "April 1947",
+    "1947-06-28",
+    "1947-06-29",
+    "1947-07-07",
+    "1947-07-10",
+    "1947-07-20",
+    "1947-08-04",
+    "1947-09-12",
+    "1947-11-15",
+    "1948-01-07",
+    "1948-04-06",
+    "1948-04-30",
+    "1948-06-15",
+    "1948-07-01",
+    "1948-07-17",
+    "1948-07-22",
+    "1948-07-26",
+    "1948-08-03",
+    "1948-08-19",
+    "1948-10-01",
+    "1948-11-18",
+    "1947-07-01",
+    "1947-09-16"
+  ],
+  "objects_described": [
+    "Disk-shaped objects (silver metallic disks)",
+    "Rough cigar / pencil-shaped objects resembling V-2 rockets",
+    "Balls of fire / balls of light of various colours",
+    "Flying-wing / tailless aircraft (Horten 229, Horten XIII, Gotha P60A, Junkers EF 130, Arado night fighter, Heinkel P 1080, Me 329)",
+    "US flying-wing aircraft (Northrop B-35, Northrop YB-49, Chance-Vought XF5U-1 'Flying Flapjack', Arup tailless monoplane)",
+    "British flying-wing aircraft (Armstrong Whitworth AW 52, AW 68)",
+    "Weather balloons and cosmic-ray experimental balloons",
+    "The planet Venus (identified as cause of some sightings)",
+    "Radar targets tracked at speeds exceeding 500 mph"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Approximately 210 flying-object incidents had been reported in the United States.",
+      "source_quote": "Approximately 210 incidents have been reported.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2825,
+        "len": 47,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Trained U.S. Weather Bureau observers at Richmond, Virginia sighted strange metallic disks through a theodolite on four occasions during weather-balloon observations in April 1947.",
+      "source_quote": "During observations of weather balloons at the Richmond Bureau, one well trained observer has sighted strange metallic disks on three occasions and another observer has sighted a similar object on one occasion.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3630,
+        "len": 210,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Of about 210 incidents, 18 were positively identified — three hoaxes, two from unreliable witnesses, and thirteen shown to be celestial bodies, meteorological/carnival balloons, or cosmic-ray equipment.",
+      "source_quote": "the identification of 18 of approximately 210 so-called flying saucers ... three were hoaxes, two were from unreliable witnesses. In the remaining 13 eliminated incidents ... they were celestial bodies or phenomena, meteoro­ logical and carnival balloons, and airborne cosmic ray experimental equipment.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 36127,
+        "len": 100,
+        "exact": false,
+        "matched": "they were celestial bodies or phenomena, meteoro­ logical and carnival balloons, and airborne cosmic"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The 19 August 1948 object seen at Godman Air Force Base, Kentucky was determined to be the planet Venus.",
+      "source_quote": "The object was determined to be the planet Venus by Mr. Moore, the head astronomer at the University of Louisville",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 38192,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "It was reported that the U.S.S.R. was planning to build a fleet of 1,800 Horten flying-wing aircraft.",
+      "source_quote": "Recently 1t has been reported that the U.S.S.R. 1s planning to build a fleet of 1,800 Horten flying-wing aircraft.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 7654,
+        "len": 114,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The U.S.S.R. had, since 1945, enlisted German scientist Dr. Guenther Bock, who had led flying-wing development in Germany.",
+      "source_quote": "the U.S.S.R. has since 1945 enlisted the services of Dr. Guenther Bock, a German who headed all development of low aspect ratio (flying wing) type aircraft in Germany.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 16685,
+        "len": 167,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "On 7 January 1948 a National Guard pilot was killed while attempting to chase an unidentified object up to 30,000 feet.",
+      "source_quote": "On 7 January 1948, a National Guard pilot was killed while attempting to chase an unidentified object up to 30,000 feet.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 28690,
+        "len": 120,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "If no domestic explanation is firmly established, the objects constitute a threat warranting active identification and interception.",
+      "source_quote": "if it is firmly indicated that there 1s no domestic explanation, the objects are a threat and warrant more active efforts of 1dent1fication and inter­ ception.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 8836,
+        "len": 159,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 7,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T08:54:45.030Z",
+  "qa_completed_at": "2026-07-13T08:56:42.260Z",
+  "timing": {
+    "A": "52.4s",
+    "B": "64.8s",
+    "E": "33.4s"
+  },
+  "public_headline": "1948 U.S. intelligence study weighs the origin of reported flying objects",
+  "public_tldr": "This is a 1948 U.S. Air Force Air Intelligence Division study (Air Intelligence Division Study No. 203, dated 10 December 1948) reviewing about 210 reported 'flying saucer' or unidentified flying object sightings across the United States. It concludes that some kind of object has genuinely been seen, but that its identity and origin cannot be determined from the available reports. It offers two possible explanations — that the objects are domestic devices, or that they are foreign, most logically Soviet — and urges that they be treated as a potential threat if no domestic explanation can be established.",
+  "public_narrative": "This document is a classified analytical study produced in 1948 by the Air Intelligence Division of the U.S. Air Force, issued through the Directorate of Intelligence at Headquarters United States Air Force together with the Office of Naval Intelligence at the Navy Department. It is catalogued as Air Intelligence Report No. 100-203-79 / Air Intelligence Division Study No. 203 and is dated 10 December 1948. It reviews roughly 210 reported incidents of unidentified flying objects across the United States and sorts the reported objects into three shapes: disk-shaped, rough cigar-shaped, and balls of fire.\n\nThe study's central finding is cautious: it states that some object has been seen, but that its identification cannot be readily accomplished from the reports available. Sightings were most concentrated in the states along the Atlantic and Pacific coasts and in the central states of Ohio and Kentucky. Some accounts came from trained observers — for example, U.S. Weather Bureau staff at Richmond, Virginia, reported seeing strange metallic disks through a theodolite (a surveying instrument) on four occasions during weather-balloon observations in April 1947.\n\nRather than confirm any single explanation, the report lays out two possibilities it calls reasonable. One is that the objects are domestic devices such as weather balloons, rockets, or experimental flying-wing aircraft. The other is that they are foreign, in which case it argues the most logical source would be the Soviet Union, potentially exploiting captured German flying-wing designs. The report notes it had been claimed that the U.S.S.R. was planning to build a fleet of 1,800 Horten flying-wing aircraft, and that since 1945 the Soviets had enlisted a German scientist, Dr. Guenther Bock, who had led flying-wing development in Germany. The study recommends that if no domestic explanation can be firmly established, the objects should be treated as a threat warranting active identification and interception.\n\nThe report is also frank about the limits of its own data. It records that 18 of the roughly 210 incidents — about nine per cent — were positively identified: three were hoaxes, two came from unreliable witnesses, and the remaining thirteen turned out to be celestial bodies, meteorological or carnival balloons, or airborne cosmic-ray experimental equipment. One specific case, an object seen on 19 August 1948 at Godman Air Force Base, Kentucky, was determined to be the planet Venus by the head astronomer at the University of Louisville. The document also records that on 7 January 1948 a National Guard pilot was killed while trying to chase an unidentified object up to 30,000 feet.\n\nThe copy in this archive has since been declassified (original declassification authority NND 857011, from originally Top Secret handling) and shows little sign of redaction. Because it is a scan of a 1948 typed original, its optical character recognition is imperfect: some names, figures and place names are garbled (for example 'Rollman' for Holloman and 'Gedman' for Godman) and should be checked against the original PDF.",
+  "public_caveats": [
+    "This is a 1948 intelligence assessment, not a confirmation of extraterrestrial or exotic craft — the report itself says the objects' origin is not ascertainable.",
+    "The Soviet-origin theory is speculative Cold War threat assessment based on captured German designs, not established fact.",
+    "The report flags that many accounts are single-observer or come from sources it itself rates as possibly less reliable.",
+    "By the study's own count, about nine per cent of cases (18 of roughly 210) were positively explained as ordinary phenomena such as Venus, balloons and cosmic-ray equipment, indicating substantial misidentification in the dataset.",
+    "The metadata incident date of 28 April 1949 conflicts with the study's own stated date of 10 December 1948 and appears to come from a later report cover; the scan's imperfect OCR also means some names, figures and dates should be verified against the original PDF."
+  ]
+}

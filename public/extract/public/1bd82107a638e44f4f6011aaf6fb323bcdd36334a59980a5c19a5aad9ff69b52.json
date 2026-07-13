@@ -1,0 +1,220 @@
+{
+  "sha256": "1bd82107a638e44f4f6011aaf6fb323bcdd36334a59980a5c19a5aad9ff69b52",
+  "title": "DOW-UAP-D090, Range Fouler Debrief, Eastern United States, 2019",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "2019",
+  "incident_location": "Eastern United States",
+  "what_is_it": "A U.S. Navy Range Fouler Reporting Form (debrief) in which an aircrew member describes an unidentified object observed during flight operations.",
+  "core_summary": "Between mission sorties, an observer with 28 years of USAF and Navy service noticed a small object below their aircraft travelling in a straight line opposite their direction at high speed. They tracked it for roughly 10-15 seconds and recorded video, but the object's speed carried it out of the field of view and it could not be reacquired even at lower zoom. On post-flight analysis the object appeared rectangular, and others with equal or more experience were also unsure what it was.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "Single-source eyewitness account; descriptions are the observer's subjective interpretation at the time.",
+    "The form's structured fields (date, time, location, altitude, shape checkboxes) are blank or not captured in the extracted text, so few hard data points are recorded.",
+    "OCR of the form is garbled in places, and identifying information for aircrew and squadron is deliberately removed per the form's own policy.",
+    "Metadata describes the object as 'small' while the narrative's post-flight assessment calls it 'rectangular' — shape was not clearly resolved.",
+    "The referenced video (DOW-UAP-PR112) is not part of this text and cannot be verified from the report alone."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "Range Fouler Reporting Form",
+      "source_quote": "Range Fouler Reporting Form",
+      "citation_offset": {
+        "offset": 32,
+        "len": 27,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer experience",
+      "value": "28 years serving with the USAF and U.S. Navy",
+      "source_quote": "flight\ncharacteristics unlike anything I had seen in my 28 years of performing\nfor the USAF and",
+      "citation_offset": {
+        "offset": 2338,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object size",
+      "value": "Small",
+      "source_quote": "A small object was below us and appeared to be traveling in a straight line opposite our direction",
+      "citation_offset": {
+        "offset": 2440,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object motion",
+      "value": "Travelling in a straight line opposite the aircraft's direction at high speed",
+      "source_quote": "appeared to be traveling in a straight line opposite our direction\nat high speed",
+      "citation_offset": {
+        "offset": 2472,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Tracking duration",
+      "value": "~10-15 seconds before recording",
+      "source_quote": "I tracked it for ~10-15 seconds before we turned on the recorder to provide the attached\nvideo",
+      "citation_offset": {
+        "offset": 2555,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object shape (post-flight analysis)",
+      "value": "Rectangular",
+      "source_quote": "Upon analysis after the flight, the object appeared to\nbe rectangular",
+      "citation_offset": {
+        "offset": 2796,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Loss of contact",
+      "value": "Object's speed took it out of field of view; unable to reacquire",
+      "source_quote": "the object's speed took out of my FOV and\nI was unable to reacquire, even at a lower zoom",
+      "citation_offset": {
+        "offset": 2704,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Corroboration",
+      "value": "Others with equal or more experience were also unsure what the object was",
+      "source_quote": "Others with equal or more experience were also unsure as to what this object might be.",
+      "citation_offset": {
+        "offset": 2867,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Associated video",
+      "value": "Recorded video attached to the report",
+      "source_quote": "before we turned on the recorder to provide the attached\nvideo",
+      "citation_offset": {
+        "offset": 2587,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [
+    "Small unidentified object, later assessed as rectangular"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The observer had 28 years of flying experience with the USAF and U.S. Navy.",
+      "source_quote": "unlike anything I had seen in my 28 years of performing\nfor the USAF and",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 2361,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object travelled in a straight line opposite the aircraft's direction at high speed.",
+      "source_quote": "appeared to be traveling in a straight line opposite our direction\nat high speed",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2472,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observer tracked the object for about 10-15 seconds before recording video.",
+      "source_quote": "I tracked it for ~10-15 seconds before we turned on the recorder",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2555,
+        "len": 64,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object's speed carried it out of the field of view and it could not be reacquired.",
+      "source_quote": "the object's speed took out of my FOV and\nI was unable to reacquire, even at a lower zoom",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2704,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "On post-flight analysis the object appeared rectangular.",
+      "source_quote": "Upon analysis after the flight, the object appeared to\nbe rectangular",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2796,
+        "len": 69,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Other experienced personnel were also unsure what the object was.",
+      "source_quote": "Others with equal or more experience were also unsure as to what this object might be.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2867,
+        "len": 86,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 6,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T09:13:07.213Z",
+  "qa_completed_at": "2026-07-13T09:14:17.610Z",
+  "timing": {
+    "A": "26.0s",
+    "B": "44.4s",
+    "E": "23.4s"
+  },
+  "public_headline": "Navy aircrew reports unidentified rectangular object over eastern US in 2019",
+  "public_tldr": "This is a U.S. Navy Range Fouler Reporting Form — a debrief filed when an aircrew member reports something interfering with a flight range — from the Eastern United States in 2019, released by the Department of War. In it, an observer with 28 years of USAF (U.S. Air Force) and U.S. Navy service describes a small object seen below their aircraft, moving in a straight line opposite their direction at high speed, which they tracked for about 10-15 seconds and recorded on video before it left view. On later analysis the object appeared rectangular, and others with equal or more experience were also unsure what it was.",
+  "public_narrative": "The document is a U.S. Navy Range Fouler Reporting Form, a type of debrief a crew files when an object or activity interferes with military flight operations on a range. This one was filed for an incident in the Eastern United States in 2019 and released by the U.S. Department of War. It is a first-person account by a single aircrew member.\n\nAccording to the form, the observer — who reports 28 years of flying experience with the U.S. Air Force (USAF) and U.S. Navy — noticed a small object below their aircraft between mission sorties. The object appeared to travel in a straight line, opposite the aircraft's own direction, at high speed. The observer tracked it for roughly 10-15 seconds and then switched on the recorder to capture video.\n\nThe object's speed carried it out of the observer's field of view, and they were unable to reacquire it even after zooming out. When the recorded footage was examined after the flight, the object appeared to be rectangular. The account notes that others with equal or more experience were also unsure what the object was.\n\nThe form does not offer an identification or a conclusion about what the object was — it records an observation, not a finding. Identifying details for the aircrew and squadron are deliberately removed under the form's own policy, and the structured fields on the form (such as date, time, altitude, and shape checkboxes) are blank or missing from the extracted text, so few hard data points are captured. The optical character recognition (OCR) used to read the form is garbled in places.\n\nA video is referenced as attached to the report (catalogued separately as DOW-UAP-PR112), but that footage is not part of this text and cannot be verified from the report alone.",
+  "public_caveats": [
+    "This is a single-source eyewitness account. The descriptions are one observer's subjective interpretation at the time, not a confirmed measurement or identification.",
+    "The form's structured data fields (date, time, location, altitude, shape) are blank or not captured in the extracted text, so there are very few hard data points on record.",
+    "The account describes the object as 'small' at the time but 'rectangular' on post-flight analysis — its shape was never clearly resolved.",
+    "Identifying information for the aircrew and squadron has been deliberately removed per the form's own policy, and the OCR of the form is garbled in places.",
+    "A supporting video is referenced but is not included in this document and cannot be verified from the report alone.",
+    "The Department of War released the report but records no conclusion about what the object was; other experienced personnel were also unsure."
+  ]
+}

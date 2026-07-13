@@ -1,0 +1,171 @@
+{
+  "sha256": "d13ab718a436af2d13d1e3060e49239528b174829ba4ea89003f27da3ea3d7be",
+  "title": "DOW-UAP-D091, Range Fouler Debrief, Atlantic Ocean, 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "2020",
+  "incident_location": "Atlantic Ocean",
+  "what_is_it": "A completed U.S. Navy Range Fouler Debrief form — a standardised report filed by an aircrew member documenting an unauthorised object intruding into controlled airspace during operations.",
+  "core_summary": "A Navy aircrew member (a Weapons Systems Officer, rank O-3) filed a Range Fouler Debrief describing an object seen while operating in controlled airspace over the Atlantic Ocean in 2020. The object was reported as a darker, maroonish colour, roughly 12-15 feet tall, and structurally resembling a large, somewhat deformed balloon. After the observation the aircrew proceeded back to the ship and landed without incident.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Single-source, subjective observer account; descriptions reflect the reporter's interpretation at the time, not a verified determination of the object's nature.",
+    "The form is heavily redacted — identifying information (aircrew, squadron) is deliberately sanitised, and much of the narrative, coordinates, date, time and repository details are obscured or garbled by OCR.",
+    "Key fields (exact date, latitude/longitude, altitude, movement, wind data) are blank or unreadable in the extracted text, so the incident cannot be independently located or timed from this document alone.",
+    "Incident location (Atlantic Ocean) and year (2020) come from the war.gov metadata, not from legible body text.",
+    "The observation is consistent with a balloon per the observer's own description, but the report itself draws no conclusion about what the object was."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "Range Fouler Debrief Form",
+      "source_quote": "Range Fouler Debrief Form",
+      "citation_offset": {
+        "offset": 21,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporter rank",
+      "value": "O-3",
+      "source_quote": "Rank\n0-3",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Reporter crew position",
+      "value": "WSO (Weapons Systems Officer)",
+      "source_quote": "Crew Position\nwso",
+      "citation_offset": {
+        "offset": 504,
+        "len": 17,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object colour",
+      "value": "Darker, maroonish",
+      "source_quote": "he object itself was a darker, maroonish color, approximately 12-lSft in height",
+      "citation_offset": {
+        "offset": 2178,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object size",
+      "value": "Approximately 12-15 feet in height",
+      "source_quote": "approximately 12-lSft in height",
+      "citation_offset": {
+        "offset": 2226,
+        "len": 31,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object appearance",
+      "value": "A large, somewhat deformed balloon",
+      "source_quote": "Structurally, it appeared as a large, somewhat deformed balloon",
+      "citation_offset": {
+        "offset": 2259,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Outcome",
+      "value": "Aircrew returned to the ship and landed uneventfully",
+      "source_quote": "proceeded back to the ship, landing uneventfully",
+      "citation_offset": {
+        "offset": 2331,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Incident location",
+      "value": "Atlantic Ocean (per metadata)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident year",
+      "value": "2020 (per metadata)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [
+    "Balloon-shaped object (maroonish, ~12-15 ft, resembling a large deformed balloon)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The object was a darker, maroonish colour and approximately 12-15 feet in height.",
+      "source_quote": "he object itself was a darker, maroonish color, approximately 12-lSft in height",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2178,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object structurally appeared as a large, somewhat deformed balloon.",
+      "source_quote": "Structurally, it appeared as a large, somewhat deformed balloon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2259,
+        "len": 63,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The aircrew proceeded back to the ship and landed uneventfully.",
+      "source_quote": "proceeded back to the ship, landing uneventfully",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2331,
+        "len": 48,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reporter was an O-3 serving as a WSO (Weapons Systems Officer).",
+      "source_quote": "Rank\n0-3",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "amber",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T09:14:40.974Z",
+  "qa_completed_at": "2026-07-13T09:15:45.802Z",
+  "timing": {
+    "A": "24.0s",
+    "B": "40.8s"
+  },
+  "public_rewrite_failed": true
+}

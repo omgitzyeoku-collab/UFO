@@ -1,0 +1,81 @@
+{
+  "sha256": "eb14f691927f444f6085a105b25fd18554d3154d3e98f10c66a6ae708113fd37",
+  "title": "DOW-UAP-PR115, Unresolved UAP Report, Gulf of America, 2019",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2019",
+  "incident_location": "Gulf of America",
+  "what_is_it": "A US government video case entry — an 8-second infrared (thermal) video clip of an unidentified anomalous phenomenon, released with a short official description.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The case is officially 'Unresolved' — no conclusion has been reached about what the object was.",
+    "AARO expressly states the description is not an analytical judgement or factual determination about the event.",
+    "The footage is extremely short (8 seconds, of which the last 2 have no content) and single-source.",
+    "The object is only an 'area of contrast' partly obscured by the heads-up display; flickering and apparent motion can be sensor or tracking artefacts rather than the object itself.",
+    "Infrared sensors only capture a narrow band of wavelengths; when a target's temperature is close to its surroundings it can be hard to characterise (AARO's own comment, truncated in the source).",
+    "No underlying PDF text was extractable; findings rest on the released metadata and short official description only."
+  ],
+  "fabrication_score": 8,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "DOW-UAP-PR115",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Year",
+      "value": "2019",
+      "source_quote": "aboard a U.S. military platform in 2019",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "Gulf of America",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Resolution status",
+      "value": "Unresolved",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Gulf of America"
+  ],
+  "dated_events": [
+    "2019"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The footage is 8 seconds long and was captured by an infrared sensor on a US military platform in 2019.",
+      "source_quote": "consisting of 8 seconds of video footage from an infrared sensor aboard a U.S. military platform in 2019",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T08:33:02.319Z",
+  "qa_completed_at": "2026-07-13T08:34:15.742Z",
+  "timing": {
+    "A": "29.8s",
+    "B": "43.6s"
+  }
+}

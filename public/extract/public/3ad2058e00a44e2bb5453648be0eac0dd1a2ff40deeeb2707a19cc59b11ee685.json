@@ -1,0 +1,230 @@
+{
+  "sha256": "3ad2058e00a44e2bb5453648be0eac0dd1a2ff40deeeb2707a19cc59b11ee685",
+  "title": "DOW-UAP-D089, Range Fouler Debrief, Eastern United States, 2020",
+  "agency": "Department of War",
+  "type": "PDF",
+  "incident_date": "2020",
+  "incident_location": "Eastern United States",
+  "what_is_it": "A U.S. Navy Range Fouler Debrief form — a standardised report documenting an unauthorised object intruding into controlled military airspace, filed by an aircrew observer.",
+  "core_summary": "A Navy pilot (rank O-4) filed a Range Fouler Debrief describing an object that appeared quite small, moved in a constant direction, and had an indistinguishable shape with a reflective underside. The observer checked boxes indicating the contact was metallic and reflective. The report accompanies a video and was released in part by the Department of the Navy in May 2026.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "Single-source report reflecting one observer's subjective interpretation at the time; not a verified assessment of the object.",
+    "Identifying information for the aircrew and squadron was deliberately sanitised, so the reporter cannot be independently verified.",
+    "Heavily redacted: key data fields (date, time, location, speed, side number, Buno, working area) are blank or withheld, and header/footer classification bars are obscured.",
+    "The narrative is fragmentary and partly OCR-garbled ('refilective'), and multiple form fields were left blank.",
+    "The report accompanies a separate video (DOW-UAP-PR106) not included in this text, so descriptions cannot be cross-checked here.",
+    "Estimative language (size, speed, shape) should not be read as conclusive evidence of any actual object feature or performance."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "Range Fouler Debrief Form",
+      "source_quote": "Range Fouler Debrief Form",
+      "citation_offset": {
+        "offset": 21,
+        "len": 25,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Reporter rank",
+      "value": "O-4",
+      "source_quote": "Rank\n0-4",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Reporter crew position",
+      "value": "Pilot",
+      "source_quote": "Crew Position\nPilot",
+      "citation_offset": {
+        "offset": 504,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object size",
+      "value": "Appeared quite small",
+      "source_quote": "Appeared quite smal l.",
+      "citation_offset": {
+        "offset": 1866,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object movement",
+      "value": "Moving, continued in a constant direction",
+      "source_quote": "and continued in constant direction",
+      "citation_offset": {
+        "offset": 1910,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object shape",
+      "value": "Indiscernible / indistinguishable",
+      "source_quote": "Shape indiscernible",
+      "citation_offset": {
+        "offset": 1948,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object underside",
+      "value": "Reflective bottom",
+      "source_quote": "but the bottom was refilective",
+      "citation_offset": {
+        "offset": 1968,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Appearance characteristics",
+      "value": "Metallic and reflective (checkboxes ticked)",
+      "source_quote": "[Z] Metallic. ... [Z] Reflective:",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Release authority",
+      "value": "Department of the Navy DUSN (M) DRMD, FY24 NDAA / 44 U.S.C. 2107",
+      "source_quote": "Department of the Navy DUSN (M) DRMD Authority: FY 24 NDAA, now codified at 44 U.S.C. 2107",
+      "citation_offset": {
+        "offset": 2387,
+        "len": 90,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Release date",
+      "value": "2026-05-19",
+      "source_quote": "Date: 5/19/2026",
+      "citation_offset": {
+        "offset": 2478,
+        "len": 15,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Release status",
+      "value": "Released in Part",
+      "source_quote": "Released in Part: X",
+      "citation_offset": {
+        "offset": 2494,
+        "len": 19,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "5/19/2026"
+  ],
+  "objects_described": [
+    "Small metallic object with a reflective/reflective underside and indiscernible shape, moving in a constant direction"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The reporting aircrew member held the rank O-4 and was a pilot.",
+      "source_quote": "Rank\n0-4 ... Crew Position\nPilot",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The observer described the object as appearing quite small.",
+      "source_quote": "Appeared quite smal l.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1866,
+        "len": 22,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object continued in a constant direction.",
+      "source_quote": "and continued in constant direction",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1910,
+        "len": 35,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object's shape was indiscernible but its bottom was reflective.",
+      "source_quote": "Shape indiscernible but the bottom was refilective .",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1948,
+        "len": 52,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The observer marked the contact as metallic and reflective.",
+      "source_quote": "[Z] Metallic. ... [Z] Reflective:",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "claim": "The document was released in part by the Department of the Navy on 19 May 2026.",
+      "source_quote": "Released in Part: X ... Date: 5/19/2026",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 3,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T09:11:40.044Z",
+  "qa_completed_at": "2026-07-13T09:12:43.416Z",
+  "timing": {
+    "A": "25.8s",
+    "B": "37.6s",
+    "E": "23.8s"
+  },
+  "public_headline": "Navy pilot's 2020 debrief reports small reflective object over Eastern US",
+  "public_tldr": "This is a U.S. Navy Range Fouler Debrief — a standardised form used to report an unauthorised object intruding into controlled military airspace, filed by an aircrew member. In it, a Navy pilot describes an object that appeared quite small, moved in a constant direction, and had an indistinguishable shape with a reflective, metallic underside. The Department of the Navy released the form in part on 19 May 2026, but heavy redactions leave key details — date, time, exact location, and speed — blank or withheld.",
+  "public_narrative": [
+    "The document is a U.S. Navy 'Range Fouler Debrief' form. A range fouler is an unauthorised object that intrudes into controlled military airspace; the form is a standardised report an aircrew member fills in to document such an intrusion. This one is catalogued as DOW-UAP-D089 and is associated with an incident in the Eastern United States in 2020.",
+    "The person who filed it was a pilot holding the rank O-4 (a mid-level commissioned officer). In the narrative, the pilot describes the object as appearing quite small and continuing to move in a constant direction. The pilot wrote that the object's shape was indiscernible but that its bottom was reflective, and ticked checkboxes indicating the object was metallic and reflective.",
+    "The form accompanies a separate video (catalogued DOW-UAP-PR106), which is not part of this text. That means the written descriptions here cannot be checked against the footage within this document alone.",
+    "The Department of the Navy released the form in part on 19 May 2026, under authority cited on the document as the Department of the Navy DUSN (M) DRMD, drawing on the FY24 National Defense Authorization Act (NDAA), now codified at 44 U.S.C. 2107. 'Released in Part' means portions were withheld.",
+    "The redactions are heavy. Key data fields — including the specific date, time, location, speed, aircraft side number, bureau number (Buno), and working area — are blank or withheld, and header and footer classification markings are obscured. Identifying details for the aircrew and their squadron were deliberately removed. The narrative itself is fragmentary and in places garbled by the scanning/text-conversion process (for example, 'reflective' appears as 'refilective'). The document records no agency conclusion about what the object was."
+  ],
+  "public_caveats": [
+    "This is a single-source report: it reflects one observer's subjective impression at the time, not a verified assessment of what the object actually was.",
+    "The object's size, speed, and shape are estimates from the observer and should not be read as confirmed measurements or evidence of any real capability.",
+    "The form is heavily redacted — date, time, exact location, speed, and aircraft identifiers are blank or withheld, and classification markings are obscured.",
+    "The aircrew and squadron were deliberately anonymised, so the person who filed the report cannot be independently identified or verified.",
+    "The accompanying video (DOW-UAP-PR106) is not included here, and the text is partly garbled by scanning, so descriptions cannot be cross-checked within this document."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "sha256": "04e807f73c5cdd42216748a5ee0d0af93e915f320831202f3c85622560718027",
+  "title": "DOW-UAP-PR100, Unresolved UAP Report, Yellow Sea, 2023",
+  "agency": "Department of War",
+  "type": "VID",
+  "incident_date": "2023",
+  "incident_location": "Yellow Sea",
+  "what_is_it": "A US military video record: 4 minutes 57 seconds of electro-optical and infrared sensor footage of an unidentified anomalous phenomenon, submitted to AARO as an unresolved case.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No extractable PDF text; extraction relies on metadata and the war.gov CSV/video description only.",
+    "The object is described only as an 'area of contrast' or 'dark object' — no identification, size, speed, or distance is given.",
+    "Case is classified as unresolved; 'unidentified' does not imply anything anomalous in origin.",
+    "Single-source military sensor footage with no corroborating observer detail in the source.",
+    "Video quality is stated to degrade over its runtime, limiting analytical value.",
+    "The provided video description is truncated at 01:13; later footage is not summarised in the source."
+  ],
+  "fabrication_score": 7,
+  "key_facts": [
+    {
+      "field": "Reference ID",
+      "value": "DOW-UAP-PR100",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident year",
+      "value": "2023",
+      "source_quote": "aboard a U.S. military platform in 2023",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "Yellow Sea",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Resolution status",
+      "value": "Unresolved",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Yellow Sea"
+  ],
+  "dated_events": [
+    "2023"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The footage came from an EO/IR sensor aboard a US military platform in 2023.",
+      "source_quote": "from an electro-optical and infrared sensor system aboard a U.S. military platform in 2023",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T08:36:10.505Z",
+  "qa_completed_at": "2026-07-13T08:37:09.733Z",
+  "timing": {
+    "A": "25.6s",
+    "B": "33.7s"
+  }
+}

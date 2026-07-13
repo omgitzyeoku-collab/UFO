@@ -1,0 +1,63 @@
+{
+  "sha256": "ce516248f7256442dead32720b80481d0a39c2c167a95b0643295bcb7c5803e7",
+  "title": "NASA-UAP-D032, STS-80 Unidentified Object Image 3, 1996",
+  "agency": "NASA",
+  "type": "IMG",
+  "incident_date": "1996",
+  "incident_location": "Low-Earth Orbit",
+  "what_is_it": "A photograph (NASA astronaut still image) of an unidentified object taken from orbit during a Space Shuttle mission.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No source text was extracted from the document (likely a scanned or image-only file); all facts derive from war.gov catalogue metadata, not from the document body.",
+    "The 'unidentified object' characterisation and its apparent trajectory are descriptive claims from the catalogue, not confirmed physical analysis; orbital debris, ice particles, or nearby space hardware are common conventional explanations for such shuttle-camera objects.",
+    "This is a single still frame from a three-image set; interpretation depends on the full sequence and camera/orbital context not present here.",
+    "Apparent position and motion in a photograph can be affected by camera focus, lighting, and parallax, and do not by themselves establish distance, size, or origin."
+  ],
+  "fabrication_score": 7,
+  "key_facts": [
+    {
+      "field": "Agency",
+      "value": "NASA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Catalogue ID",
+      "value": "NASA-UAP-D032",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [
+    "1996"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "Astronauts captured a series of three images of an unidentified object in low-Earth orbit.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T09:03:18.067Z",
+  "qa_completed_at": "2026-07-13T09:04:12.165Z",
+  "timing": {
+    "A": "19.9s",
+    "B": "34.2s"
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "sha256": "249cd9f5b85c4a92dc819d65e1dad180744479d1c8a68ebbc202ade66facbcbb",
+  "title": "DOE-UAP-D005, Pantex Unidentified Object Incident Report, 2015",
+  "agency": "Department of Energy",
+  "type": "PDF",
+  "incident_date": "9/1/15",
+  "incident_location": "Texas",
+  "what_is_it": "An official incident report (with cover letter) from the Pantex nuclear weapons plant documenting an unidentified object that intruded plant airspace.",
+  "core_summary": "On 1 September 2015 at around 0710, ground surveillance radar at the Pantex Plant near Amarillo, Texas detected an unknown, slow-moving object flying north near the site. Protective Force officers tracked and followed the object visually and via camera for several miles until it left the area heading northeast; observers described a small, diamond/round-topped, silent object of disputed colour with no visible propulsion. Video and other evidence were sent to Sandia National Labs for study and turned over to the FBI.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "heavy",
+  "interpretation_warnings": [
+    "The report gives conflicting incident dates: the body states 1 September 2015 for the sighting, but the cover letter and title pages repeatedly say 2 September 2015.",
+    "Observers disagreed on the object's colour (black vs silver/red/blue) and gave varying size and shape descriptions — eyewitness accounts are inconsistent.",
+    "All descriptions are single-site observer accounts from plant security personnel; no independent confirmation is in the document.",
+    "Names of individuals (officers, FBI agent, letter signatories) and portions of the narrative are redacted; the report is marked Unclassified Controlled Nuclear Information and 'Not For Public Release'.",
+    "The key imagery (radar tracks, tower image, Sandia enhanced images) is referenced but the extracted text contains no analysis of it — conclusions about the object are not stated.",
+    "Pages 5 and 6 were originally released in more redacted form (per war.gov metadata); this is a partially de-redacted re-release."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Incident date",
+      "value": "September 1, 2015",
+      "source_quote": "On September 1, 2015 at approximately 0710 hours, the Pantex Ground Surveillance Radar (GSR) detection system identified an unknown object",
+      "citation_offset": {
+        "offset": 1542,
+        "len": 138,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Location",
+      "value": "Pantex Plant, Amarillo, Texas",
+      "source_quote": "Pantex Plant Amarillo, TX 79120-0020",
+      "citation_offset": {
+        "offset": 1074,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "First radar detection time",
+      "value": "Approximately 0708 hours",
+      "source_quote": "At approximately 0708 hours, the ... an object approximately 1.75 miles SW of Z-12 South traveling at 10-15 mph",
+      "citation_offset": {
+        "offset": 2937,
+        "len": 70,
+        "exact": false,
+        "matched": "object approximately 1.75 miles SW of Z-12 South traveling at 10-15 mp"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Object speed",
+      "value": "10-15 mph",
+      "source_quote": "was traveling in a northerly trajectory approximately 10-lSmph",
+      "citation_offset": {
+        "offset": 1971,
+        "len": 62,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object altitude",
+      "value": "100-200 ft above ground",
+      "source_quote": "The SPOs stated that it was 100-200 ft. above the ground and they were able to track the object for 3-5 minutes.",
+      "citation_offset": {
+        "offset": 5092,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object shape",
+      "value": "Diamond-type shape, more round at the top, thinner at top",
+      "source_quote": "it was a \"diamond\" type shape with it being more round at the top",
+      "citation_offset": {
+        "offset": 4838,
+        "len": 65,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object size",
+      "value": "Approximately 4 ft tall and 2 ft wide at the bottom",
+      "source_quote": "described it as being approximately 4 ft. tall and 2 ft. wide at the bottom",
+      "citation_offset": {
+        "offset": 5380,
+        "len": 75,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Object colour",
+      "value": "Disputed — black, or silver/red/blue",
+      "source_quote": "Some personnel stated that it was black in color while others noted that it appeared to be silver, red and blue.",
+      "citation_offset": {
+        "offset": 5583,
+        "len": 112,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "No propulsion or sound observed",
+      "value": "No propulsion system identified; object made no sound",
+      "source_quote": "they were unable to identify any type of propulsion system on the object ... they noted that the object did not make any sound",
+      "citation_offset": {
+        "offset": 3658,
+        "len": 70,
+        "exact": false,
+        "matched": "they were unable to identify any type of propulsion system on the obje"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Last seen location",
+      "value": "Near County Road G and F.M. 1342, heading ENE",
+      "source_quote": "The location where the object was last seen was near County Road G and F.M. 1342",
+      "citation_offset": {
+        "offset": 3985,
+        "len": 80,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Evidence disposition",
+      "value": "Video sent to Sandia National Labs; all evidence turned over to FBI",
+      "source_quote": "subsequently sent to Sandia National labs for further study ... were turned over to FBI agent",
+      "citation_offset": {
+        "offset": 5769,
+        "len": 58,
+        "exact": false,
+        "matched": "subsequently sent to Sandia National labs for further stud"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Classification",
+      "value": "Unclassified Controlled Nuclear Information (UCNI)",
+      "source_quote": "Unclassified Controlled Nuclear Information",
+      "citation_offset": {
+        "offset": 954,
+        "len": 43,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Report length",
+      "value": "6 pages",
+      "source_quote": "Page6 of 6",
+      "citation_offset": {
+        "offset": 6829,
+        "len": 10,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Pantex Plant",
+    "Amarillo, Texas",
+    "Highway 60",
+    "Pantex Drive",
+    "County Road G",
+    "F.M. 1342",
+    "Carson County",
+    "Sandia National Labs",
+    "Oak Ridge, Tennessee",
+    "Z-12 South"
+  ],
+  "dated_events": [
+    "2015-09-01",
+    "2015-09-02",
+    "2015-09-08"
+  ],
+  "objects_described": [
+    "Unidentified object — small (approx 4 ft x 2 ft), diamond/round-topped, silent, no visible propulsion, disputed colour",
+    "Ground Surveillance Radar (GSR) detection system",
+    "Bearcat vehicle with Common Remotely Operated Weapon System (CROWS) camera unit"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Ground Surveillance Radar detected an unknown object northerly-bound west of Pantex facilities on 1 Sept 2015 at ~0710.",
+      "source_quote": "On September 1, 2015 at approximately 0710 hours, the Pantex Ground Surveillance Radar (GSR) detection system identified an unknown object flying in a non-threatening manner west of Pantex facilities in a northerly trajectory.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1542,
+        "len": 226,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Protective Force personnel followed the object for several miles until it was no longer visible.",
+      "source_quote": "PF personnel followed the object for several miles north of the plant until it was no longer visible.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2297,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Officers using binoculars could not identify any propulsion system and the object made no sound.",
+      "source_quote": "unable to identify any type of propulsion system on the object while using binocuJars ... the object did not make any sound",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3668,
+        "len": 85,
+        "exact": false,
+        "matched": "unable to identify any type of propulsion system on the object while using binocuJars"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "SPOs in a Bearcat tracked the object via CROWS camera at 100-200 ft altitude for 3-5 minutes from 75-100 metres away.",
+      "source_quote": "it was 100-200 ft. above the ground and they were able to track the object for 3-5 minutes. The SPOs location was approximately 75-100 meters from the object.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5113,
+        "len": 158,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The Carson County Sheriff's office was notified and a Deputy responded but did not see the object.",
+      "source_quote": "The Deputy stated that he did not see the object but would perform a search in the area for anything unusual.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4318,
+        "len": 109,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "GSR tower video was sent to Sandia National Labs for study.",
+      "source_quote": "Video was obtained from the GSR tower that was closest to the object and subsequently sent to Sandia National labs for further study",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 5696,
+        "len": 132,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "All evidence of the incident was turned over to an FBI agent.",
+      "source_quote": "All evidence of the incident {i.e. statements, video, etc.) were turned over to FBI agent",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 6241,
+        "len": 89,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The object seemed to increase in speed and change direction as it was being followed.",
+      "source_quote": "It was noted that the object seemed to increase in speed and changed direction as it was being followed.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4428,
+        "len": 104,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 7,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T09:09:46.974Z",
+  "qa_completed_at": "2026-07-13T09:11:07.603Z",
+  "timing": {
+    "A": "35.8s",
+    "B": "44.9s",
+    "E": "32.4s"
+  },
+  "public_headline": "Energy Department report details unidentified object over Texas nuclear plant",
+  "public_tldr": "This is an official Department of Energy incident report, with a cover letter, from the Pantex nuclear weapons plant near Amarillo, Texas. It documents an unidentified, slow-moving object that entered plant airspace on the morning of 1 September 2015 and was tracked by security personnel before it left the area. The document is marked as controlled nuclear information and 'Not For Public Release', is heavily redacted, and reaches no stated conclusion about what the object was.",
+  "public_narrative": "The document is an incident report produced by the Pantex Plant, a Department of Energy nuclear weapons facility near Amarillo, Texas. It records that at about 0710 on 1 September 2015, the plant's Ground Surveillance Radar (GSR) — an automated detection system — picked up an unknown object moving slowly and in a non-threatening manner, heading north to the west of the site. First radar contact was logged at roughly 0708, about 1.75 miles from a plant area, with the object travelling at only 10-15 mph.\n\nProtective Force security officers responded and followed the object by eye, through binoculars, and via a camera mounted on an armoured Bearcat vehicle. They tracked it at an estimated 100-200 feet above the ground for three to five minutes, from about 75-100 metres away, and continued to follow it for several miles north of the plant until it was no longer visible, last seen near County Road G and F.M. 1342 heading east-northeast. Officers reported they could not identify any propulsion system and that the object made no sound. It was noted to seem to speed up and change direction as it was being followed.\n\nEyewitness descriptions were inconsistent. Personnel described a small object — roughly 4 feet tall and 2 feet wide at the bottom — of a diamond-type shape that was more rounded at the top. Its colour was disputed: some said it was black, while others said it appeared silver, red and blue. The Carson County Sheriff's office was notified and a deputy responded, but the deputy did not see the object.\n\nAccording to the report, video from the nearest radar tower was sent to Sandia National Labs for further study, and all evidence from the incident — statements, video and other material — was turned over to an FBI agent. The extracted text references radar tracks and enhanced imagery but contains no analysis of them, and the report states no conclusion about what the object was.\n\nThe six-page document is marked Unclassified Controlled Nuclear Information (UCNI) and 'Not For Public Release', and is heavily redacted: the names of officers, the FBI agent and the letter's signatories, along with portions of the narrative, are blacked out. The report also carries conflicting dates — the body gives 1 September 2015 for the sighting, while the cover letter and title pages repeatedly say 2 September 2015. Two of its pages were originally released in a more redacted form, making this a partially de-redacted re-release.",
+  "public_caveats": [
+    "Every description of the object comes from plant security personnel at a single site; the document contains no independent confirmation from other locations or sources.",
+    "Eyewitnesses disagreed on basic details — the object's colour was reported as black by some and silver, red and blue by others, and size and shape accounts varied.",
+    "The report is heavily redacted, with names of individuals and parts of the narrative removed, and is marked as controlled nuclear information not intended for public release.",
+    "The document reaches no stated conclusion: imagery and radar data are mentioned as having been sent to Sandia National Labs and the FBI, but no analysis or finding about the object's nature appears in the released text.",
+    "The report is internally inconsistent on the date, giving 1 September 2015 in the body but 2 September 2015 on the cover letter and title pages; two pages are a partially de-redacted re-release of more heavily redacted originals."
+  ]
+}

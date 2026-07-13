@@ -1,0 +1,222 @@
+{
+  "sha256": "e2640e79f3733d5ed3e8aebd510f130f5601555f306eefee5e1c08a24d002ad0",
+  "title": "CIA-UAP-D021, Analysis of Unconventional Aircraft Sightings, 1955",
+  "agency": "CIA",
+  "type": "PDF",
+  "incident_date": "1955",
+  "what_is_it": "A 1955 CIA Top Secret memorandum analysing reports of 'flying saucers' or unconventional aircraft, assessing an observer debriefing and reviewing contemporary research into saucer-like aircraft.",
+  "core_summary": "The memo evaluates a dispatch from Frankfurt reporting a sighting of two lights that rose vertically and passed above observers on or near a train at high altitude (around 9,000 feet). The author casts doubt on the reliability of the observations, noting the witness could not confirm the object's shape or reality and that a single testimony could not establish the presence of an unconventional aircraft. It references Dr. Robertson's earlier finding that almost all such sightings posed no threat to US security, and discusses ongoing Canadian-based Project 'Y' work at Avro Aircraft Ltd. to develop saucer-like aircraft.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "The OCR extraction is heavily degraded, so specific figures (speeds, dates, names) may be misread and should be checked against the original scan.",
+    "The sighting rests on a single observer whose reliability the memo itself questions (could not confirm the object's shape or whether it was real).",
+    "The document explicitly caveats that a single testimony could not establish the presence of an unconventional aircraft.",
+    "Names such as 'Robertson' and 'Samford' are partly reconstructed from garbled text and CSV metadata.",
+    "This is Sections 1-4 of a memorandum that references a separate debriefing document (CIA-UAP-D020); full context is not contained here."
+  ],
+  "fabrication_score": 2,
+  "key_facts": [
+    {
+      "field": "Originating dispatch",
+      "value": "A dispatch from Frankfurt, reference C-103, dated October 1955, forwarded the report on flying saucers / unconventional aircraft",
+      "source_quote": "A diapatch fJra fnaUlt, c..103, . . _ lJ octobe:r 195,",
+      "citation_offset": {
+        "offset": 1939,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sighting described",
+      "value": "Two lights that initially appeared, then rose vertically and passed above the observers/train",
+      "source_quote": "sitfl\\iag tvo lit)lta ... It roae WA1-ti-U",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Observer altitude",
+      "value": "Observer was at a high altitude, around 9,000 feet",
+      "source_quote": "the ~ quite 1l1gll (9000 teet)",
+      "citation_offset": {
+        "offset": 2672,
+        "len": 30,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Observer reliability doubts",
+      "value": "The witness failed to observe the shape of the object and could not say whether it was real, an illusion or otherwise",
+      "source_quote": "Be taile4 to obH.,,_ the bofl' f/l ta obJect ... to -.ther it _. real,. tJae-1.U. or .,_",
+      "citation_offset": {
+        "offset": 2346,
+        "len": 43,
+        "exact": false,
+        "matched": "Be taile4 to obH.,,_ the bofl' f/l ta obJec"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Single-testimony caveat",
+      "value": "The author believed one testimony alone could not confirm the existence of any unconventional aircraft",
+      "source_quote": "- - • • teat.1.o::in::, alone cou.14 not contira t.bll aistace ot an:, VDI J ,_tioa&l a.1rantt",
+      "citation_offset": {
+        "offset": 3076,
+        "len": 94,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Robertson finding (Section 3)",
+      "value": "A group that investigated US sightings concluded the phenomena represented no threat to the security of the US",
+      "source_quote": "_ . phe1Kin11• ftlP1'8NlltA4 no tlaNat to the eecurt.t.y ot tllllt U-.8.",
+      "citation_offset": {
+        "offset": 3541,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Projected performance",
+      "value": "Estimated very high ceiling around 120,000 feet, speeds cited around 1,500 to 1,800 miles per hour, with vertical take-off capability",
+      "source_quote": "a ftllll1P ~ TOO au ... u ot 120,000 M' & .m.\\.mtte. A ...Ueal taJlll•oft",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "IAC reporting",
+      "value": "General Samford was to report on the status of the Air Force project at the IAC meeting",
+      "source_quote": "General 3amts:,rd to 1epc:,r\\ GIii 'illl . . . . , _ of tbe Air 1'woe proJ4tet. at. tlll !AC aeat1ag.",
+      "citation_offset": {
+        "offset": 4561,
+        "len": 101,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Classification",
+      "value": "Top Secret",
+      "source_quote": "f6P SEeRE=t=",
+      "citation_offset": {
+        "offset": 106,
+        "len": 12,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "General Samford"
+  ],
+  "named_places": [
+    "Frankfurt",
+    "Canada",
+    "Avro Aircraft Ltd."
+  ],
+  "dated_events": [
+    "1955",
+    "13 October 1955"
+  ],
+  "objects_described": [
+    "two lights",
+    "flying saucers",
+    "unconventional aircraft",
+    "saucer-like aircraft (Project 'Y')"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A Frankfurt dispatch (C-103) of October 1955 forwarded a report on flying saucers / unconventional aircraft.",
+      "source_quote": "A diapatch fJra fnaUlt, c..103, . . _ lJ octobe:r 195,",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1939,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The reported sighting was of two lights that rose vertically and passed above the observers.",
+      "source_quote": "sitfl\\iag tvo lit)lta 'lthieb iaitialq ... It roae WA1-ti-U",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2221,
+        "len": 39,
+        "exact": false,
+        "matched": "sitfl\\iag tvo lit)lta 'lthieb iaitialq "
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The observer was at approximately 9,000 feet and could not confirm the object's shape or nature.",
+      "source_quote": "the ~ quite 1l1gll (9000 teet) ana - - hi& obac'vaticd",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2672,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "An investigating group concluded such phenomena represented no threat to US security.",
+      "source_quote": "phe1Kin11• ftlP1'8NlltA4 no tlaNat to the eecurt.t.y ot tllllt U-.8.",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 3545,
+        "len": 68,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Avro Aircraft Ltd. in Canada was, under Project Y, developing saucer-like aircraft, still at an early stage.",
+      "source_quote": "at- Avro A1J\"anft Ltd. la 0Jllllle ... llM••# tba ~ ill still 1n tile W'l7 111•1m",
+      "verifier_verdict": "partial",
+      "citation_offset": {
+        "offset": 3916,
+        "len": 41,
+        "exact": false,
+        "matched": "lM••# tba ~ ill still 1n tile W'l7 111•1m"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The projected aircraft had an estimated ceiling near 120,000 feet and vertical take-off capability.",
+      "source_quote": "u ot 120,000 M' & .m.\\.mtte. A ...Ueal taJlll•oft",
+      "verifier_verdict": "supported",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 3,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T09:06:43.039Z",
+  "qa_completed_at": "2026-07-13T09:09:18.555Z",
+  "timing": {
+    "A": "52.2s",
+    "B": "103.3s",
+    "E": "28.4s"
+  },
+  "public_headline": "1955 CIA memo questions single-witness saucer sighting over Frankfurt",
+  "public_tldr": "This is a 1955 CIA Top Secret memorandum that reviews reports of 'flying saucers,' or unconventional aircraft. It examines a dispatch from Frankfurt describing a sighting of two lights, casts doubt on the lone witness's account, and notes ongoing Canadian work to build saucer-like aircraft. The document itself concludes that one person's testimony could not establish that any unconventional aircraft was actually present.",
+  "public_narrative": "This document is a 1955 memorandum written inside the US Central Intelligence Agency (CIA) and marked Top Secret. It analyses reports of what were then called 'flying saucers' or unconventional aircraft, and it draws on an observer's debriefing alongside a look at contemporary research into saucer-shaped aircraft. The pages here are Sections 1 to 4 of the memo, and they refer to a separate debriefing document that is not included.\n\nThe core report came in a dispatch from Frankfurt, reference C-103, dated October 1955. According to that report, a witness who was at a high altitude of around 9,000 feet — on or near a train — saw two lights that appeared and then rose vertically, passing above the observers.\n\nThe memo's author is openly sceptical. The document records that the witness failed to make out the shape of the object and could not say whether it was real, an illusion, or something else. On that basis the author states plainly that a single person's testimony, on its own, could not confirm the existence of any unconventional aircraft.\n\nThe memo also places the sighting in a wider context. It cites an earlier finding by an investigating group (attributed in the text to a 'Robertson' review) that such phenomena represented no threat to the security of the United States. It then describes work in Canada at Avro Aircraft Ltd., under a programme known as Project 'Y,' to develop saucer-like aircraft — projected, on paper, to reach a very high ceiling of around 120,000 feet, speeds of roughly 1,500 to 1,800 miles per hour, and vertical take-off, though the project was still at an early stage. The text notes that General Samford was to report on the status of the Air Force project at a meeting of the IAC (Intelligence Advisory Committee).\n\nThe scan of this document is heavily degraded, and some names and figures are partly reconstructed from garbled text. Beyond that, no large blocks of content are described as blacked out; the main limitation is the poor legibility of the original rather than formal redaction.",
+  "public_caveats": [
+    "The entire sighting rests on a single observer, and the memo itself questions that observer's reliability — the witness could not confirm the object's shape or even whether it was real.",
+    "The memo's own conclusion is cautious: one testimony alone could not establish that any unconventional aircraft was present.",
+    "The scanned text is heavily degraded by optical character recognition, so specific figures (altitude, speeds, dates) and names should be checked against the original before being quoted as exact.",
+    "Names such as 'Robertson' and 'Samford' are partly reconstructed from garbled text and accompanying metadata, so they carry some uncertainty.",
+    "These are only Sections 1–4 of a longer memorandum that references a separate debriefing document not contained here, so the full context is incomplete.",
+    "The performance figures for the saucer-like aircraft (about 120,000-foot ceiling, 1,500–1,800 mph, vertical take-off) describe a projected design programme still at an early stage, not a confirmed flying craft."
+  ]
+}

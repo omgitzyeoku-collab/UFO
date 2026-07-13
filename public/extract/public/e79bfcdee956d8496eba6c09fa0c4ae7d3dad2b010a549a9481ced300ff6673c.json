@@ -1,0 +1,86 @@
+{
+  "sha256": "e79bfcdee956d8496eba6c09fa0c4ae7d3dad2b010a549a9481ced300ff6673c",
+  "title": "DOW-UAP-D094, Analysis of Flying Object Incidents in the United States, 1949",
+  "agency": "Department of War",
+  "type": "IMG",
+  "incident_date": "4/28/49",
+  "incident_location": "Virginia",
+  "what_is_it": "A scanned image of a 1949 US Air Force Air Intelligence Division study assessing reported unidentified flying object incidents in the United States.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No text was extracted from the scanned image; all facts derive from the war.gov catalogue metadata rather than the document body, so specific wording cannot be independently verified here.",
+    "The catalogue description quotes and paraphrases the study; direct quotations could not be confirmed against the source image.",
+    "A 1949 intelligence assessment reflects Cold War-era assumptions; its speculation about Soviet origins is a hypothesis of the period, not an established finding."
+  ],
+  "fabrication_score": 5,
+  "key_facts": [
+    {
+      "field": "Study title",
+      "value": "Analysis of Flying Object Incidents in the United States",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Date",
+      "value": "1949-04-28",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Releasing agency",
+      "value": "Department of War",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Document ID",
+      "value": "DOW-UAP-D094",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident location (metadata)",
+      "value": "Virginia",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "United States",
+    "Virginia"
+  ],
+  "dated_events": [
+    "1949-04-28"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "USAF Air Intelligence Division produced Study No. 203, 'Analysis of Flying Object Incidents in the United States,' dated 28 April 1949.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-13T08:28:53.947Z",
+  "qa_completed_at": "2026-07-13T08:29:47.566Z",
+  "timing": {
+    "A": "20.8s",
+    "B": "32.8s"
+  }
+}
