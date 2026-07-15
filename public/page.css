@@ -312,6 +312,10 @@ main.main {
 .tag-pill.agency-AARO { color: var(--AARO); border-color: rgba(108,194,138,0.3); }
 .tag-pill.tier-green { color: var(--tier-green); border-color: rgba(108,194,138,0.3); }
 .tag-pill.tier-amber { color: var(--tier-amber); border-color: rgba(224,176,82,0.3); }
+.tag-pill.tier-red { color: var(--bad); border-color: rgba(229,115,115,0.3); }
+/* Marks text that is the source's own description, not a summary of ours. */
+.src-desc { display:block; font-size:0.66rem; color:var(--text-dim); text-transform:uppercase;
+  letter-spacing:0.04em; margin-bottom:0.15rem; font-weight:600; }
 .tag-pill.faded { opacity: 0.6; }
 
 .card h3 {

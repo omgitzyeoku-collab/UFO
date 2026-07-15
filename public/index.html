@@ -558,6 +558,7 @@
       <option value="">All tiers</option>
       <option value="green">Verified only</option>
       <option value="amber">Partial</option>
+      <option value="red">Unverified</option>
       <option value="awaiting">Awaiting QA</option>
     </select>
   </div>
@@ -979,8 +980,11 @@ function getFiltered() {
       if (rel !== activeFilters.release) return false;
     }
     const qa = qaIndex.get(d.sha256);
+    // An unrecognised tier value used to match no branch and filter nothing, so
+    // ?tier=red silently returned the whole corpus. Handle every tier explicitly.
     if (activeFilters.tier === 'green' && qa?.tier !== 'green') return false;
     if (activeFilters.tier === 'amber' && qa?.tier !== 'amber') return false;
+    if (activeFilters.tier === 'red' && qa?.tier !== 'red') return false;
     if (activeFilters.tier === 'awaiting' && qa) return false;
     if (activeFilters.agency && d.agency !== activeFilters.agency) return false;
     if (activeFilters.type && (d.type || 'PDF') !== activeFilters.type) return false;
@@ -1249,11 +1253,22 @@ function renderGrid() {
     const qa = qaIndex.get(d.sha256);
     const tier = qa?.tier;
     const { slug, headline } = splitHeadline(d, qa);
-    const tldr = qa?.public_tldr || (d.description || '').slice(0, 220);
+    // Only a green/amber run produces a summary of ours. For every other doc the
+    // text below is the source's own description — label it, so it is never read
+    // as a summary we verified.
+    const ownSummary = qa?.public_tldr || '';
+    const tldr = ownSummary || (d.description || '').slice(0, 220);
+    const tldrIsSource = !ownSummary && !!tldr;
+    // Red must never fall through to "queued". "Queued" means not yet processed;
+    // red means we processed it and could NOT substantiate our summary against
+    // the source. Labelling the second as the first tells the reader the opposite
+    // of the truth about the one tier where honesty matters most.
     const tierBadge = tier === 'green'
       ? '<span class="tag-pill tier-green"><span class="swatch"></span>verified</span>'
       : tier === 'amber'
       ? '<span class="tag-pill tier-amber"><span class="swatch"></span>partial</span>'
+      : tier === 'red'
+      ? '<span class="tag-pill tier-red" title="We could not verify a summary against this document. The text below is the source\'s own description."><span class="swatch"></span>unverified</span>'
       : '<span class="tag-pill faded">queued</span>';
     return `<article class="card${d.release === 'release_2' ? ' release-2' : ''}" data-i="${i}" data-sha="${d.sha256}">
       ${thumbHtml(d.sha256, d.type)}
@@ -1270,7 +1285,7 @@ function renderGrid() {
         </div>
         <h3>${hl(escapeHtml(headline), q)}</h3>
         ${slug ? `<div class="card-slug">${escapeHtml(slug)}</div>` : ''}
-        <p class="tldr">${hl(escapeHtml(tldr.slice(0, 240)), q)}</p>
+        <p class="tldr">${tldrIsSource ? '<span class="src-desc">source’s own description</span>' : ''}${hl(escapeHtml(tldr.slice(0, 240)), q)}</p>
         <div class="card-foot">
           ${displayDate(d) ? `<span>${escapeHtml(displayDate(d))}</span>` : '<span>—</span>'}
           ${d.incident_location && d.incident_location !== 'N/A' ? `<span class="dot">·</span><span>${hl(escapeHtml(d.incident_location), q)}</span>` : ''}
@@ -1660,6 +1675,7 @@ async function openDetail(idx) {
     <span class="tag-pill agency-${agencyShort(d.agency)}"><span class="swatch"></span>${escapeHtml(agencyShort(d.agency))}</span>
     ${qa?.tier === 'green' ? '<span class="tag-pill tier-green"><span class="swatch"></span>verified</span>' : ''}
     ${qa?.tier === 'amber' ? '<span class="tag-pill tier-amber"><span class="swatch"></span>partial</span>' : ''}
+    ${qa?.tier === 'red' ? '<span class="tag-pill tier-red"><span class="swatch"></span>unverified</span>' : ''}
     ${!qa ? '<span class="tag-pill faded">awaiting QA</span>' : ''}
     ${d.type === 'VID' ? '<span class="tag-pill">video</span>' : ''}
     ${d.source && d.source !== 'war.gov' ? `<span class="tag-pill">${escapeHtml(d.source)}</span>` : ''}
