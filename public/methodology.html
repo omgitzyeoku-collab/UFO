@@ -89,7 +89,7 @@
 <div class="numbers">
   <div><div class="n">1,033</div><div class="l">documents</div></div>
   <div><div class="n">881</div><div class="l">verified</div></div>
-  <div><div class="n">152k</div><div class="l">searchable words</div></div>
+  <div><div class="n">158k</div><div class="l">searchable words</div></div>
   <div><div class="n">50,542</div><div class="l">connections</div></div>
 </div>
 <table class="src">
@@ -114,7 +114,7 @@
 <div class="inner">
 <p>Acquisition uses Playwright with a stealth profile (war.gov sits behind Akamai bot management). Files are stored content-addressably by SHA-256. Text extraction is <code>pdftotext</code> for born-digital PDFs and Tesseract OCR (via page rasterisation) for scans; audio/video use Whisper.</p>
 <p>The verification chain is five stages: an extractor, an independent verifier in a fresh context with a different prompt, an adjudicator for disagreements, a deterministic citation-linker that string-matches quotes against the source, and a rewriter constrained to only the surviving verified facts. Runtime inference runs through the Claude CLI.</p>
-<p>The connection graph weights shared entities by inverse document frequency. Full-text search is a prebuilt inverted index (152,017 words) loaded on demand. All of it is open source in the <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">project repo</a> — the pipeline is auditable end to end.</p>
+<p>The connection graph weights shared entities by inverse document frequency. Full-text search is a prebuilt inverted index (158,003 words) loaded on demand. All of it is open source in the <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">project repo</a> — the pipeline is auditable end to end.</p>
 </div>
 </details>
 
