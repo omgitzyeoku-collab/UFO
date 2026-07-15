@@ -63,6 +63,30 @@ const r=spawnSync('pdftotext',['-q','-enc','UTF-8',blob,out],{timeout:60000,wind
 console.log('text extracted for',n,'new PDFs');
 `], { PATH: `${process.env.PATH};${path.dirname(POPPLER)}` });
 
+// 3b. Transcribe new audio/video via Whisper, then materialise the transcripts
+// into extract/text/ so the QA pipeline has a text source for them. Without
+// this, every new media file lands red ("no source") — which is exactly what
+// happened to Release 4's 23 clips before this step existed.
+run('transcribe new media (whisper)', 'node', ['extract/transcribe-media.mjs'], {
+  WHISPER_MODEL: process.env.WHISPER_MODEL || 'tiny.en',
+  PYTHONIOENCODING: 'utf-8',
+  PATH: `${process.env.PATH};${process.env.APPDATA || 'C:/Users/Yeoku/AppData/Roaming'}/Python/Python314/Scripts`,
+});
+run('materialise transcripts → text', 'node', ['-e', `
+const fs=require('fs');const path=require('path');
+let n=0;
+try{for(const f of fs.readdirSync('extract/transcripts')){
+  if(!f.endsWith('.json'))continue;
+  const sha=f.replace('.json','');const out=path.join('extract/text',sha+'.txt');
+  if(fs.existsSync(out))continue;
+  try{const tr=JSON.parse(fs.readFileSync(path.join('extract/transcripts',f),'utf8'));
+    const t=(tr.text||(tr.segments||[]).map(s=>s.text).join(' ')||'').trim();
+    if(t.length>30){fs.writeFileSync(out,'[AUTO-TRANSCRIBED AUDIO/VIDEO]\\n\\n'+t);n++;}
+  }catch{}
+}}catch{}
+console.log('materialised',n,'transcripts into extract/text/');
+`]);
+
 // 4. QA pipeline (resumable; processes everything new with a text source)
 run('qa pipeline', 'node', ['extract/qa-pipeline.mjs']);
 
