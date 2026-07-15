@@ -40,6 +40,39 @@ function sniffType(blobPath) {
   } catch { return null; }
 }
 
+/**
+ * The year the incident happened — which is NOT what `incident_date` holds for
+ * every NARA record.
+ *
+ * All 612 NARA records carry the single value "2023": that is the year the
+ * series was accessioned into the National Archives, not the year of the event.
+ * Their own source-verified headlines say otherwise — "Twelve Aircraft Reported
+ * Unidentified Object Over Colorado in 2007" against incident_date "2023". Left
+ * alone, the timeline stacks 2007 sightings on 2023.
+ *
+ * A green-tier headline has been checked against a quote in the source, so a
+ * year stated there is the most trustworthy signal available. Prefer it, and
+ * only for green — amber is hedged and red is unverified.
+ *
+ * war.gov / FBI / CIA / NASA records carry genuine dates ("12/30/47"), so their
+ * incident_date is trusted as the fallback.
+ */
+const YEAR_RE = /\b(19[4-9]\d|20[0-2]\d)\b/;
+function deriveIncidentYear(d, qa) {
+  if (qa?.tier === 'green') {
+    const m = `${qa.public_headline || ''} ${qa.public_tldr || ''}`.match(YEAR_RE);
+    if (m) return parseInt(m[1]);
+  }
+  // NARA's blanket accession year is not an incident date — never fall back to it.
+  if (d.source === 'nara') return null;
+  const v = String(d.incident_date || '');
+  const m = v.match(YEAR_RE);
+  if (m) return parseInt(m[1]);
+  const short = v.match(/\/(\d{2})$/); // "12/30/47" -> 1947
+  if (short) { const y = parseInt(short[1]); return y > 30 ? 1900 + y : 2000 + y; }
+  return null;
+}
+
 const records = (await fs.readFile(RELEASE, 'utf8')).trim().split('\n').filter(Boolean).map(l => JSON.parse(l));
 const dedup = new Map();
 for (const r of records) if (r.sha256 && !dedup.has(r.sha256)) dedup.set(r.sha256, r);
@@ -120,6 +153,7 @@ for (const d of docs) {
     type,
     agency: d.agency || null,
     incident_date: d.incident_date || null,
+    incident_year: deriveIncidentYear(d, qa),
     incident_location: d.incident_location || null,
     release,
     source: d.source || 'war.gov',

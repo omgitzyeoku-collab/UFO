@@ -780,6 +780,22 @@ function agencyShort(a) {
   if (a === 'AARO') return 'AARO';
   return (a + '').replace(/[^a-z0-9]/gi, '').toLowerCase().slice(0, 12) || 'unk';
 }
+// The year an incident actually happened. Prefer `incident_year`, derived at
+// build time from the source-verified headline: every NARA record's
+// incident_date is the series accession year ("2023"), not the event date, so
+// reading incident_date here would stack 2007 sightings on 2023. A doc with no
+// incident_year has no year we can stand behind — treat it as unknown, never
+// fall back to incident_date.
+const docYear = d => d.incident_year ?? null;
+// What to print as the document's date. NARA's incident_date is the series
+// accession year, so printing it would caption a 2007 sighting "2023"; show the
+// year derived from its verified headline instead. Other sources carry genuine
+// dates and are printed as-is.
+const displayDate = d => {
+  if (d.source === 'nara') return d.incident_year ? String(d.incident_year) : null;
+  if (d.incident_date && d.incident_date !== 'N/A') return d.incident_date;
+  return d.incident_year ? String(d.incident_year) : null;
+};
 function dateYear(s) { if (!s||s==='N/A') return null; let m=s.match(/(\d{4})/); if (m) return parseInt(m[1]); m=s.match(/\/(\d{2})$/); if (m) return 2000+parseInt(m[1]); return null; }
 
 // Extract the bureaucratic prefix slug (e.g. "DOW-UAP-PR050") and the
@@ -1201,23 +1217,23 @@ function renderGrid() {
       const ra = (a.release === 'release_2') ? 1 : 0;
       const rb = (b.release === 'release_2') ? 1 : 0;
       if (rb !== ra) return rb - ra;
-      const yA = dateYear(a.incident_date) || 0, yB = dateYear(b.incident_date) || 0;
+      const yA = docYear(a) || 0, yB = docYear(b) || 0;
       if (yB !== yA) return yB - yA;
       return (qaIndex.get(b.sha256)?.tier === 'green' ? 1 : 0) - (qaIndex.get(a.sha256)?.tier === 'green' ? 1 : 0);
     }
     if (currentSort === 'incident-desc') {
-      const yA = dateYear(a.incident_date) || 0, yB = dateYear(b.incident_date) || 0;
+      const yA = docYear(a) || 0, yB = docYear(b) || 0;
       return yB - yA;
     }
     if (currentSort === 'incident-asc') {
-      const yA = dateYear(a.incident_date) || 9999, yB = dateYear(b.incident_date) || 9999;
+      const yA = docYear(a) || 9999, yB = docYear(b) || 9999;
       return yA - yB;
     }
     if (currentSort === 'verified') {
       const ta = qaIndex.get(a.sha256)?.tier === 'green' ? 0 : qaIndex.get(a.sha256)?.tier === 'amber' ? 1 : 2;
       const tb = qaIndex.get(b.sha256)?.tier === 'green' ? 0 : qaIndex.get(b.sha256)?.tier === 'amber' ? 1 : 2;
       if (ta !== tb) return ta - tb;
-      return (dateYear(b.incident_date)||0) - (dateYear(a.incident_date)||0);
+      return (docYear(b)||0) - (docYear(a)||0);
     }
     return 0;
   });
@@ -1256,7 +1272,7 @@ function renderGrid() {
         ${slug ? `<div class="card-slug">${escapeHtml(slug)}</div>` : ''}
         <p class="tldr">${hl(escapeHtml(tldr.slice(0, 240)), q)}</p>
         <div class="card-foot">
-          ${d.incident_date && d.incident_date !== 'N/A' ? `<span>${escapeHtml(d.incident_date)}</span>` : '<span>—</span>'}
+          ${displayDate(d) ? `<span>${escapeHtml(displayDate(d))}</span>` : '<span>—</span>'}
           ${d.incident_location && d.incident_location !== 'N/A' ? `<span class="dot">·</span><span>${hl(escapeHtml(d.incident_location), q)}</span>` : ''}
           <span style="margin-left:auto;">${fmt(d.bytes)}</span>
         </div>
@@ -1453,7 +1469,7 @@ function renderTimeline() {
   // Year buckets
   const buckets = {};
   for (const d of filteredDocs) {
-    const y = dateYear(d.incident_date);
+    const y = docYear(d);
     if (!y || y < 1900 || y > 2030) continue;
     if (!buckets[y]) buckets[y] = [];
     buckets[y].push(d);
@@ -1653,7 +1669,7 @@ async function openDetail(idx) {
     <h2>${escapeHtml(headline)}</h2>
     <div class="meta-line">
       <span><strong>Agency</strong> · ${escapeHtml(d.agency || '—')}</span>
-      ${d.incident_date && d.incident_date !== 'N/A' ? `<span><strong>Date</strong> · ${escapeHtml(d.incident_date)}</span>` : ''}
+      ${displayDate(d) ? `<span><strong>Date</strong> · ${escapeHtml(displayDate(d))}</span>` : ''}
       ${d.incident_location && d.incident_location !== 'N/A' ? `<span><strong>Location</strong> · ${escapeHtml(d.incident_location)}</span>` : ''}
     </div>
     ${tldr ? `<div class="tldr">${escapeHtml(tldr)}</div>` : ''}
@@ -1774,7 +1790,7 @@ document.getElementById('detail-next').addEventListener('click', () => navDetail
 // ===================================================================== citation
 function showCitation(d, qa) {
   const headline = qa?.public_headline || d.title || d.name || 'UAP document';
-  const year = dateYear(d.incident_date) || new Date().getFullYear();
+  const year = docYear(d) || new Date().getFullYear();
   const agency = d.agency || 'US Government';
   const url = `${location.origin}/doc/${d.sha256}.html`;
   const accessed = new Date().toISOString().slice(0, 10);
