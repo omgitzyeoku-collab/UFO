@@ -2,9 +2,46 @@
 <html lang="en" class="dark">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Methodology — UAP Files</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+<title>How this works — UAP Files</title>
+<meta name="description" content="How a declassified government document becomes a plain-English summary on UAP Files — and exactly how to check our work." />
+<link rel="canonical" href="https://ufo-wheat.vercel.app/methodology.html" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
 <link rel="stylesheet" href="page.css">
+<style>
+  .keybox {
+    background: var(--bg-elev); border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-sm); padding: 1.1rem 1.3rem; margin: 1.5rem 0 2rem;
+  }
+  .keybox p { margin: 0 0 0.6rem; }
+  .keybox p:last-child { margin-bottom: 0; }
+  .tierkey { display: grid; gap: 0.5rem; margin: 1rem 0 0; }
+  .tierkey .row {
+    display: grid; grid-template-columns: 108px 1fr; gap: 0.8rem; align-items: baseline;
+    font-size: 0.9rem;
+  }
+  .tierkey .pill {
+    display: inline-block; text-align: center; padding: 0.15rem 0.5rem;
+    border-radius: 3px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  }
+  .pill.green { background: rgba(108,194,138,0.15); color: var(--tier-green); border: 1px solid rgba(108,194,138,0.35); }
+  .pill.amber { background: rgba(224,176,82,0.15); color: var(--tier-amber); border: 1px solid rgba(224,176,82,0.35); }
+  .pill.red   { background: rgba(229,115,115,0.15); color: var(--bad); border: 1px solid rgba(229,115,115,0.35); }
+  .pill.queue { background: var(--bg-elev-2); color: var(--text-dim); border: 1px solid var(--line); }
+  .numbers { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px,1fr)); gap: 0.7rem; margin: 1.2rem 0 2rem; }
+  .numbers div { background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 0.7rem 0.85rem; }
+  .numbers .n { font-size: 1.35rem; font-weight: 700; color: var(--accent); font-feature-settings: 'tnum'; }
+  .numbers .l { font-size: 0.7rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 0.15rem; }
+  details.tech { margin: 0.8rem 0 1.4rem; }
+  details.tech summary { cursor: pointer; font-size: 0.85rem; color: var(--text-soft); font-weight: 600; }
+  details.tech summary:hover { color: var(--accent); }
+  details.tech .inner { padding: 0.8rem 0 0 0.9rem; border-left: 2px solid var(--line); margin-top: 0.6rem; font-size: 0.88rem; }
+  table.src { width: 100%; border-collapse: collapse; margin: 1rem 0 1.8rem; font-size: 0.9rem; }
+  table.src th, table.src td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--line); }
+  table.src th { color: var(--text-dim); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+  table.src td.num { font-family: var(--ff-mono); color: var(--text-soft); }
+</style>
 </head>
 <body>
 <div class="prose-page">
@@ -13,64 +50,87 @@
   <div style="flex:1"></div>
   <nav>
     <a href="index.html">← Corpus</a>
+    <a href="entity/index.html">Entities</a>
     <a href="about.html">About</a>
-    <a href="methodology.html" class="active">Methodology</a>
-    <a href="corrections.html">Corrections</a>
+    <a href="methodology.html" class="active">How it works</a>
+    <a href="press.html">Press</a>
     <a href="donate.html">Support</a>
-    <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">↗ GitHub</a>
   </nav>
 </header>
 <main>
 <article class="prose">
-<h1>Methodology</h1>
-<p>This page describes exactly how a document goes from "PDF on war.gov" to "plain-English summary on UAP Files." The pipeline is auditable — every step is open-source code in the <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">project repo</a>.</p>
+<h1>How this works</h1>
 
-<h2>1. Acquisition</h2>
-<p>A web crawler pulls the document index (a CSV file) from war.gov, then downloads each PDF, video, and image referenced. Every download is hashed (SHA-256) and stored content-addressably. We never alter the source files.</p>
-<p>For verification: download any file from our GitHub Release, run <code>sha256sum</code>, and compare to the SHA-256 in our manifest. They will match byte-for-byte.</p>
+<div class="keybox">
+  <p><strong>The short version.</strong> We mirror every UAP document the US government publishes, byte-for-byte. A computer reads each one and writes a plain-English summary. A second, independent computer pass then tries to <em>disprove</em> every sentence of that summary against the original document. Anything it can't verify is hidden, not published.</p>
+  <p>Every summary is labelled with how confident we are, and every document links to the government's own original so you can check us.</p>
+</div>
 
-<h2>2. Text extraction</h2>
-<p>For born-digital PDFs (modern mission reports, NASA debriefs, State Department cables), we use <code>pdftotext</code>. Output is clean and complete.</p>
-<p>For scanned PDFs (FBI Vault case files, NARA historical scans), we use OCR — pages are rendered to images, then transcribed via Tesseract OCR. OCR quality varies; on heavily-redacted typewriter scans, text recovery is imperfect. Where this affects a summary, we say so explicitly in the "What to know" section.</p>
+<h2>The labels on every document</h2>
+<p>This is the most important thing on the site. Each summary carries one of these:</p>
+<div class="tierkey">
+  <div class="row"><span class="pill green">verified</span><span>Both passes agreed, and we found the supporting sentence in the original document. <strong>881 documents.</strong></span></div>
+  <div class="row"><span class="pill amber">partial</span><span>Both passes agreed, but we couldn't pin the claim to one clean quote. Written with hedged language. <strong>12 documents.</strong></span></div>
+  <div class="row"><span class="pill red">hidden</span><span>We could not substantiate it against the source, so <strong>we don't show a summary at all</strong> — only the original file. <strong>117 documents.</strong></span></div>
+  <div class="row"><span class="pill queue">queued</span><span>In the archive, not yet processed. <strong>23 documents.</strong></span></div>
+</div>
+<p>The "hidden" pile is deliberate and we think it's the most honest number on the site. Most of it is heavily-redacted or badly-scanned material where a confident-sounding summary would be a guess. We'd rather show you nothing than invent something.</p>
 
-<h2>3. The QA pipeline (zero error tolerance)</h2>
-<p>This is the heart of the project. Every public claim passes through a multi-agent verification chain.</p>
+<h2>How to check our work</h2>
+<p>You should not take our word for any of this. Three ways to verify:</p>
+<ol>
+<li><strong>Read the original.</strong> Every document page links to the government's own copy — war.gov, the National Archives, or the FBI Vault. Compare it to what we wrote.</li>
+<li><strong>Read the raw text.</strong> Every document page has a "Document text" panel showing the exact machine-read text our summary was built from, warts and all.</li>
+<li><strong>Check the bytes.</strong> Every file we mirror is fingerprinted (SHA-256). Download it from our archive, run <code>sha256sum</code>, and compare against our manifest — it will match the government's file exactly. We never alter a source file.</li>
+</ol>
+<p>Found something wrong? Every document has a <strong>"report an error"</strong> link. Verified corrections are published in a public, append-only <a href="corrections.html">corrections log</a> — we don't silently edit.</p>
 
-<h3>Agent A — Extractor</h3>
-<p>Reads the source document and produces structured facts: a headline, a summary, key facts with source quotes, named people/places/dates/objects, and verifiable claims. Optimised for completeness — get everything.</p>
+<h2>What's in the archive</h2>
+<div class="numbers">
+  <div><div class="n">1,033</div><div class="l">documents</div></div>
+  <div><div class="n">881</div><div class="l">verified</div></div>
+  <div><div class="n">152k</div><div class="l">searchable words</div></div>
+  <div><div class="n">50,542</div><div class="l">connections</div></div>
+</div>
+<table class="src">
+  <tr><th>Source</th><th>What it is</th><th class="num">Docs</th></tr>
+  <tr><td>war.gov/UFO</td><td>The Pentagon's PURSUE releases — Releases 1–4, May–July 2026</td><td class="num">370</td></tr>
+  <tr><td>National Archives</td><td>Born-digital UAP records: FAA pilot reports, DoD, ODNI, and nuclear-regulator files</td><td class="num">612</td></tr>
+  <tr><td>AARO</td><td>The Pentagon's anomaly-resolution office — reports and case material</td><td class="num">35</td></tr>
+  <tr><td>FBI Vault</td><td>The FBI's historical UFO files, 1940s–70s</td><td class="num">16</td></tr>
+</table>
 
-<h3>Agent B — Verifier</h3>
-<p>Reads the source <em>independently</em>, with no knowledge of what Agent A produced beyond the claims themselves. For each claim Agent A made, Agent B marks it as supported, contradicted, not-in-source, or partial. Optimised for skepticism. Different prompt, fresh context.</p>
+<h2>How a document becomes a summary</h2>
+<p>In plain terms, four things happen:</p>
+<ol>
+<li><strong>We copy it.</strong> A crawler downloads the file from the government site and fingerprints it. The original is never modified.</li>
+<li><strong>We read it.</strong> Modern PDFs give clean text directly. Old scans and photographed pages go through OCR (optical character recognition). Videos and audio are transcribed automatically.</li>
+<li><strong>We summarise it — then attack the summary.</strong> One pass writes the summary. A second, independent pass re-reads the original with no knowledge of the first pass's reasoning and marks every claim as supported, contradicted, or absent. Where they disagree, a third pass re-reads the source and settles it — usually by deleting the claim. Finally we search the source text for a quote backing each surviving claim; no quote, no green label.</li>
+<li><strong>We connect it.</strong> Documents sharing distinctive things — a person, a place, a project name, a sensor — get linked. Rare shared details count for more than common ones, so "USCENTCOM" links weakly and a named individual links strongly.</li>
+</ol>
 
-<h3>Agent C — Adjudicator</h3>
-<p>If Agent A and Agent B disagree on a claim, Agent C reads the source again and adjudicates. Most disagreements are resolved by removing the unsupported claim.</p>
+<details class="tech">
+<summary>Technical detail (for people who want it)</summary>
+<div class="inner">
+<p>Acquisition uses Playwright with a stealth profile (war.gov sits behind Akamai bot management). Files are stored content-addressably by SHA-256. Text extraction is <code>pdftotext</code> for born-digital PDFs and Tesseract OCR (via page rasterisation) for scans; audio/video use Whisper.</p>
+<p>The verification chain is five stages: an extractor, an independent verifier in a fresh context with a different prompt, an adjudicator for disagreements, a deterministic citation-linker that string-matches quotes against the source, and a rewriter constrained to only the surviving verified facts. Runtime inference runs through the Claude CLI.</p>
+<p>The connection graph weights shared entities by inverse document frequency. Full-text search is a prebuilt inverted index (152,017 words) loaded on demand. All of it is open source in the <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">project repo</a> — the pipeline is auditable end to end.</p>
+</div>
+</details>
 
-<h3>Step D — Citation linker (deterministic)</h3>
-<p>For every surviving claim, we deterministically search the source text for the supporting quote. Quotes that match exactly get a "green" tier. Quotes where we can match a substantial substring get "amber" (partial citation). Claims with no recoverable quote get "red" — those are hidden from the public surface and queued for human review.</p>
-
-<h3>Agent E — Plain-English rewriter</h3>
-<p>Takes only the verified, citation-backed facts and writes the headline, summary, and narrative for the public surface. Has a hard rule: every sentence must trace back to one or more verified facts. Cannot introduce new claims.</p>
-
-<h2>4. Connection graph</h2>
-<p>The Network view links documents that share high-signal entities — places, projects, case numbers, sensor platforms, named people, object morphologies, and incident years. Edge weight uses inverse-document-frequency: rare entities (a specific person, a project codename) weigh more than common ones (USCENTCOM, AARO).</p>
-<p>The result: 178 documents form 683 connection edges. Natural clusters emerge — the May 2022 CENTCOM cluster, the 1947–1949 flying-disc cluster, the Apollo crew debrief cluster, etc.</p>
-
-<h2>5. Confidence tiers</h2>
+<h2>What we don't promise</h2>
+<p>Being straight about the limits:</p>
 <ul>
-<li><strong class="tier-green">verified</strong> — Agents A and B agree, citation found in source. Highest confidence.</li>
-<li><strong class="tier-amber">partial</strong> — Agents A and B agree but no clean source quote could be matched. Shown with hedging language.</li>
-<li><strong>queued</strong> — document is in the corpus but the QA pipeline hasn't run on it yet, or fabrication score was high enough to require human review.</li>
+<li><strong>Independent checking reduces errors; it doesn't eliminate them.</strong> Where every pass makes the same mistake, it survives. That's what the "report an error" link and the corrections log are for. We don't publish an accuracy percentage because we have no honest way to measure one.</li>
+<li><strong>OCR on 1940s typewriter scans is imperfect.</strong> Some pages come out partly garbled. We say so in the caveats rather than papering over it — and you can read the raw text yourself.</li>
+<li><strong>We don't interpret.</strong> We report what the documents say. Many cases are unresolved sensor anomalies, ambiguous sightings, and redacted data. Where the government's own investigators reached no conclusion, neither do we. A document saying "unresolved" is not a document saying "aliens".</li>
+<li><strong>Redactions are the government's, not ours.</strong> We show what was released. What's blacked out is blacked out at source.</li>
 </ul>
 
-<h2>6. Honest about what we cannot promise</h2>
-<p>Multi-agent verification catches an estimated 95% of LLM extraction errors. The remaining 5% — where all agents make the same mistake — has to be caught by reader-reported corrections. The "report an error" button on every document creates a GitHub issue. Every report is reviewed; verified errors trigger a correction with a public, append-only log.</p>
-<p>OCR is not a perfect technology. Some scanned pages will have garbled output. We surface this in caveats rather than papering over it.</p>
-<p>We do not interpret the documents. We report what they say. Many UAP cases involve unresolved sensor anomalies, ambiguous observations, and partially-redacted data. Where the documents themselves don't reach a conclusion, neither do we.</p>
+<h2>How often it updates</h2>
+<p>An automated check watches war.gov every four hours and mirrors anything new. A weekly job then does the heavy work — transcribing, summarising, verifying — and publishes it. Release 4 (July 2026) was detected and largely processed without anyone touching it.</p>
 
-<h2>7. Update cadence</h2>
-<p>A daily scheduled task checks war.gov/UFO/ for new content. When a new tranche drops, the pipeline runs on the new documents within 24 hours. Re-redactions of previously-released documents (where a document gets re-released with different redactions) are detected by SHA-256 mismatch on the same filename, and surfaced as a separate "redaction changes" log.</p>
-
-<p style="margin-top:3rem;"><a href="index.html">← Back to corpus</a></p>
+<p style="margin-top:3rem;"><a href="index.html">← Back to the corpus</a> · <a href="about.html">About this project</a> · <a href="corrections.html">Corrections log</a></p>
 </article>
 </main>
 </div>
