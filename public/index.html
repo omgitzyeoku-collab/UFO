@@ -75,6 +75,61 @@
   }
   .hero-banner .dismiss:hover { color: var(--text); background: var(--bg-hover); }
 
+  /* === START HERE === */
+  .hero-scope {
+    color: var(--text-soft); font-size: 0.92rem; line-height: 1.6;
+    max-width: 78ch; margin: 0 0 1.35rem;
+  }
+  .hero-scope strong { color: var(--text); font-feature-settings: 'tnum'; }
+  .hero-scope a { color: var(--accent); text-decoration: none; white-space: nowrap; }
+  .hero-scope a:hover { text-decoration: underline; }
+
+  .start-grid {
+    display: grid; gap: 0.9rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    align-items: start;
+  }
+  .start-card {
+    background: var(--bg); border: 1px solid var(--line);
+    border-radius: var(--radius-sm); padding: 0.9rem 1rem 1rem;
+    min-width: 0;
+  }
+  .start-card h2 {
+    font-size: 0.95rem; font-weight: 650; margin: 0 0 0.25rem; color: var(--text);
+    letter-spacing: -0.01em;
+  }
+  .start-card .start-sub {
+    font-size: 0.8rem; color: var(--text-dim); margin: 0 0 0.7rem; line-height: 1.5;
+  }
+  .start-card .start-note {
+    font-size: 0.72rem; color: var(--text-dim); margin: 0.7rem 0 0;
+    line-height: 1.5; border-top: 1px solid var(--line); padding-top: 0.55rem;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .chips a {
+    display: inline-flex; align-items: baseline; gap: 0.3rem;
+    padding: 0.3rem 0.6rem; border-radius: 999px;
+    background: var(--bg-elev-2); border: 1px solid var(--line);
+    color: var(--text); font-size: 0.8rem; text-decoration: none;
+    transition: border-color 0.12s, background 0.12s;
+  }
+  .chips a:hover { border-color: var(--accent); background: var(--bg-hover); }
+  .chips a .n { font-weight: 700; font-feature-settings: 'tnum'; color: var(--accent); }
+
+  /* honest corpus breakdown — bar length is share of corpus */
+  .bd-row {
+    display: grid; grid-template-columns: 1fr auto; gap: 0.5rem;
+    align-items: center; padding: 0.28rem 0; text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .bd-row:hover .bd-label { color: var(--accent); }
+  .bd-label { font-size: 0.8rem; color: var(--text); min-width: 0; }
+  .bd-count { font-size: 0.75rem; color: var(--text-dim); font-feature-settings: 'tnum'; }
+  .bd-bar { grid-column: 1 / -1; height: 3px; background: var(--bg-elev-2); border-radius: 2px; overflow: hidden; }
+  .bd-bar i { display: block; height: 100%; background: var(--accent); opacity: 0.55; }
+
+  #hero-featured { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem; margin-top: 0.7rem; }
+
   /* === CARD THUMBNAILS === */
   .card { padding: 0; overflow: hidden; }
   .card .thumb {
@@ -528,23 +583,41 @@
     <button class="dismiss-x" id="notify-dismiss" aria-label="Dismiss">×</button>
   </div>
 
-  <!-- HERO (first-visit) -->
+  <!-- HERO / START HERE (first-visit) -->
   <div class="hero-banner" id="hero-banner">
     <button class="dismiss" id="hero-dismiss" aria-label="Dismiss">×</button>
-    <div style="display:flex; gap:1.5rem; align-items:flex-start; flex-wrap:wrap;">
-      <div style="flex:1 1 380px; min-width:0;">
-        <div style="display:inline-block; background:#e74c3c; color:#fff; padding:0.18rem 0.55rem; border-radius:3px; font-size:0.7rem; font-weight:700; letter-spacing:0.05em; margin-bottom:0.7rem;">RELEASE 2 LIVE · 2026-05-22</div>
-        <h1 style="margin-bottom:0.6rem;">Every declassified US government UAP file,<br><span class="accent">translated into plain English.</span></h1>
-        <p style="margin:0 0 0.95rem;"><strong id="hero-stat-total" style="color:var(--text);">— docs</strong> mirrored from war.gov/UFO/ + FBI Vault. Each one read by a 5-agent QA pipeline, source-cited, plotted on a map, connected by shared people / places / sensors.</p>
-        <div class="actions">
-          <a href="?release=release_2" class="primary">▶ Browse Release 2 →</a>
-          <a href="#" id="hero-show-network">⌬ Connection graph</a>
-          <a href="methodology.html">How it works</a>
-        </div>
-      </div>
-      <div id="hero-featured" style="flex:1 1 280px; min-width:0; display:grid; grid-template-columns:1fr 1fr; gap:0.45rem;">
-        <!-- featured cards injected by JS (Iran formation, Apollo 12, Roswell, etc.) -->
-      </div>
+    <h1>Every declassified US government UAP file,<br><span class="accent">translated into plain English.</span></h1>
+    <p class="hero-scope">
+      <strong id="hero-stat-total">—</strong> documents from four US government sources — the
+      Pentagon's PURSUE releases, the US National Archives, AARO, and the FBI.
+      Every summary is checked against a quote in the original document; where we
+      couldn't find one, we show the file and no summary. <a href="methodology.html">How it works →</a>
+    </p>
+
+    <div class="start-grid">
+      <section class="start-card">
+        <h2>Start with the footage</h2>
+        <p class="start-sub">The material you don't have to read.</p>
+        <div class="chips" id="hero-media-chips"></div>
+        <div id="hero-featured"></div>
+      </section>
+
+      <section class="start-card">
+        <h2>What's actually in here</h2>
+        <p class="start-sub">Most of the archive is routine pilot reporting rather than famous cases. The real shape of it:</p>
+        <div id="hero-breakdown"></div>
+      </section>
+
+      <section class="start-card">
+        <h2>Look up a case</h2>
+        <p class="start-sub">Search the full text of every document.</p>
+        <div class="chips" id="hero-cases"></div>
+        <p class="start-note">
+          These are searches, not our picks. Many cases people expect — Nimitz,
+          Phoenix Lights, Majestic 12 — are barely present or absent: the US
+          government hasn't released them here.
+        </p>
+      </section>
     </div>
   </div>
 
@@ -916,6 +989,74 @@ function isTranscriptHit(sha, q) {
   return !!(t && t.includes(q.toLowerCase().trim()));
 }
 
+// ===================================================================== start here
+// Reader-facing labels for the agency codes. The value is the raw agency key so
+// the link drives the existing ?agency= filter unchanged.
+const AGENCY_LABEL = {
+  'FAA': 'FAA pilot reports',
+  'Department of War': 'Pentagon / Dept of War',
+  'FBI': 'FBI historical files',
+  'NASA': 'NASA mission records',
+  'CIA': 'CIA records',
+  'AARO': 'AARO — the Pentagon UAP office',
+  'OSD': 'Office of the Secretary of Defense',
+};
+
+// Case shortcuts. Every one of these was checked against the corpus and the
+// full-text index and returns real documents — a shortcut to an empty result
+// is worse than no shortcut. Deliberately excluded: Nimitz, Majestic 12,
+// Phoenix Lights, Bentwaters — barely present or absent from what was released.
+const CASE_LINKS = [
+  { q: 'roswell', label: 'Roswell' },
+  { q: 'blue book', label: 'Project Blue Book' },
+  { q: 'arnold', label: 'Kenneth Arnold' },
+  { q: 'hynek', label: 'J. Allen Hynek' },
+  { q: 'apollo', label: 'Apollo' },
+  { q: 'gemini', label: 'Gemini' },
+];
+
+function renderStartHere(byAgency, byType) {
+  // --- footage chips ---
+  const mediaChips = [
+    { t: 'VID', n: byType.VID || 0, label: 'videos' },
+    { t: 'IMG', n: byType.IMG || 0, label: 'images' },
+    { t: 'AUD', n: byType.AUD || 0, label: 'audio' },
+  ].filter(m => m.n > 0);
+  const mc = document.getElementById('hero-media-chips');
+  if (mc) {
+    mc.innerHTML = mediaChips.map(m =>
+      `<a href="?type=${m.t}"><span class="n">${m.n}</span> ${m.label}</a>`).join('');
+  }
+
+  // --- honest corpus breakdown: top agencies by share, rest folded into "other" ---
+  const bd = document.getElementById('hero-breakdown');
+  if (bd) {
+    const total = corpus.length;
+    const sorted = Object.entries(byAgency).sort((a, b) => b[1] - a[1]);
+    const top = sorted.slice(0, 6);
+    const restN = sorted.slice(6).reduce((s, [, n]) => s + n, 0);
+    const rows = top.map(([k, n]) => ({ k, n, label: AGENCY_LABEL[k] || k }));
+    if (restN) rows.push({ k: null, n: restN, label: 'Other agencies' });
+    bd.innerHTML = rows.map(r => {
+      const pct = Math.round((r.n / total) * 100);
+      const inner = `
+        <span class="bd-label">${escapeHtml(r.label)}</span>
+        <span class="bd-count">${r.n.toLocaleString()} · ${pct}%</span>
+        <span class="bd-bar"><i style="width:${Math.max(pct, 1)}%"></i></span>`;
+      return r.k
+        ? `<a class="bd-row" href="?agency=${encodeURIComponent(r.k)}">${inner}</a>`
+        : `<div class="bd-row">${inner}</div>`;
+    }).join('');
+  }
+
+  // --- case shortcuts ---
+  const cs = document.getElementById('hero-cases');
+  if (cs) {
+    cs.innerHTML = CASE_LINKS.map(c =>
+      `<a href="?q=${encodeURIComponent(c.q)}">${escapeHtml(c.label)}</a>`).join('');
+  }
+}
+
 // ===================================================================== sidebar render
 function renderSidebar() {
   const verified = [...qaIndex.values()].filter(q => q.tier === 'green').length;
@@ -934,12 +1075,14 @@ function renderSidebar() {
     if (d.release === 'release_2') r2Count++;
   }
   const setHero = (id, txt) => { const el = document.getElementById(id); if (el) el.textContent = txt; };
-  setHero('hero-stat-total', `${corpus.length} docs`);
+  setHero('hero-stat-total', `${corpus.length.toLocaleString()}`);
   setHero('hero-stat-verified', `${verified} verified`);
   setHero('hero-stat-videos', `${byType.VID || 0} videos`);
   setHero('hero-stat-audio', `${byType.AUD || 0} audio`);
   setHero('hero-stat-pdfs', `${byType.PDF || 0} PDFs`);
   setHero('hero-stat-r2', `${r2Count} in Release 2`);
+
+  renderStartHere(byAgency, byType);
 
   function facet(elId, kvs, filterKey, max = 30) {
     const el = document.getElementById(elId);
@@ -1834,7 +1977,10 @@ function renderFeatured() {
   const resolved = FEATURED.map(f => {
     const d = corpus.find(x => x.sha256 === f.sha) || corpus.find(x => x.sha256.startsWith(f.sha.slice(0, 12)));
     return d ? { d, label: f.label, sub: f.sub } : null;
-  }).filter(Boolean);
+  }).filter(Boolean)
+    // This block sits under "Start with the footage", so only footage belongs in it.
+    .filter(({ d }) => d.type && d.type !== 'PDF')
+    .slice(0, 4);
   wrap.innerHTML = resolved.map(({ d, label, sub }) => `
     <a href="#doc/${d.sha256}" class="hero-feat-card" data-sha="${d.sha256}" style="display:block;background:var(--bg-elev-2);border:1px solid var(--line);border-radius:5px;padding:0.55rem 0.7rem;text-decoration:none;color:inherit;transition:border-color 0.15s;">
       <div style="font-size:0.78rem;font-weight:600;color:var(--text);line-height:1.3;margin-bottom:0.15rem;">${escapeHtml(label)}</div>
@@ -1878,10 +2024,6 @@ document.getElementById('hero-dismiss').addEventListener('click', () => {
   document.getElementById('hero-banner').classList.add('hidden');
   localStorage.setItem('uap-hero-dismissed', 'true');
 });
-document.getElementById('hero-show-network').addEventListener('click', (e) => {
-  e.preventDefault();
-  switchView('network');
-});
 
 // ===================================================================== bootstrap
 (async () => {
@@ -1895,6 +2037,10 @@ document.getElementById('hero-show-network').addEventListener('click', (e) => {
   renderSidebar();
   renderActiveFilters();
   renderFeatured();
+  // A ?q= deep link never focuses the search box, so the lazy full-text index
+  // would never load and terms appearing only in document bodies would show
+  // zero results. Kick the load here; it re-renders itself when ready.
+  if (activeFilters.q) loadFulltextIndex();
   // honour ?view=
   if (currentView !== 'grid') switchView(currentView);
   else renderGrid();
