@@ -91,11 +91,51 @@ const dedup = new Map();
 for (const r of records) if (r.sha256 && !dedup.has(r.sha256)) dedup.set(r.sha256, r);
 const docs = [...dedup.values()];
 
+/**
+ * war.gov serves a thumbnail image next to many of its documents. We mirror it
+ * faithfully — it has its own SHA and it is a real artefact — but it is NOT a
+ * separate document. It is a picture of one we already count.
+ *
+ * Counted as documents they: inflate the corpus by ~7% (1,033 vs 966 distinct
+ * records); render duplicate cards whose "Document text" panel 404s, because a
+ * thumbnail has no text; make "72 images" mean "3 photographs and 69 pages of
+ * paperwork rendered as a picture"; and land in the unverified pile (28 of them)
+ * for the trivial reason that an image cannot be checked against a source quote.
+ *
+ * So: flag them, attach them to the parent they depict, and let the site leave
+ * them out of the document count. Every affected parent already carries its own
+ * thumbnail, so nothing loses its visual.
+ */
+const titleIndex = new Map();
+for (const d of docs) {
+  const t = (d.title || '').trim();
+  if (!t) continue;
+  if (!titleIndex.has(t)) titleIndex.set(t, []);
+  titleIndex.get(t).push(d);
+}
+
+// The manifest spells some agencies two ways, which split one bucket into two:
+// clicking "CIA" silently missed the docs filed as "Central Intelligence Agency".
+const AGENCY_CANON = {
+  'Central Intelligence Agency': 'CIA',
+  'Office of the Director of National Intelligence': 'ODNI',
+  'Department of Defense': 'Department of War',
+};
+const canonAgency = a => (a ? (AGENCY_CANON[a.trim()] || a.trim()) : null);
+const DERIVATIVE_PATH = /\/(thumbnails?|Rotator)\//i;
+function derivativeParent(d) {
+  if ((d.type || '') !== 'IMG') return null;
+  if (!DERIVATIVE_PATH.test(d.url || '')) return null;
+  const siblings = titleIndex.get((d.title || '').trim()) || [];
+  const parent = siblings.find(x => x.sha256 !== d.sha256 && (x.type || 'PDF') !== 'IMG');
+  return parent ? parent.sha256 : null;
+}
+
 // Committed, environment-independent type corrections (blob-sniffed offline).
 let typeOverrides = {};
 try { typeOverrides = JSON.parse(await fs.readFile(path.join(ROOT, 'extract', 'type-overrides.json'), 'utf8')); } catch {}
 
-let qaCount = 0, thumbCount = 0, transcriptCount = 0, typeCorrected = 0;
+let qaCount = 0, thumbCount = 0, transcriptCount = 0, typeCorrected = 0, derivativeCount = 0;
 const out = [];
 
 for (const d of docs) {
@@ -161,10 +201,16 @@ for (const d of docs) {
   const relMatch = (d.url || d.release_url || '').match(/release_0?(\d+)/i);
   if (relMatch) release = `release_${parseInt(relMatch[1])}`;
 
+  const parentSha = derivativeParent(d);
+  if (parentSha) derivativeCount++;
+
   out.push({
     sha256: d.sha256,
     type,
-    agency: d.agency || null,
+    // A thumbnail of _parent, not a document in its own right. The site excludes
+    // these from the corpus so they are neither counted nor rendered as cards.
+    ...(parentSha ? { _derivative: true, _parent: parentSha } : {}),
+    agency: canonAgency(d.agency),
     incident_date: d.incident_date || null,
     incident_year: deriveIncidentYear(d, qa),
     incident_location: d.incident_location || null,
@@ -205,3 +251,4 @@ console.log(`  with QA summary: ${qaCount}`);
 console.log(`  with thumbnail:  ${thumbCount}`);
 console.log(`  with transcript: ${transcriptCount}`);
 console.log(`  type-corrected (VID/AUD→PDF/IMG): ${typeCorrected}`);
+console.log(`  derivative thumbnails flagged: ${derivativeCount} (distinct documents: ${out.length - derivativeCount})`);

@@ -576,7 +576,7 @@
 <main class="main">
   <!-- Slim notify strip (above hero, full-width, dismissible) -->
   <div class="notify-strip" id="notify-strip" style="padding:0.45rem 1.25rem;font-size:0.8rem;">
-    <span style="flex:1;">⚡ <strong>Release 3 incoming.</strong> Email me when the next drop lands.</span>
+    <span style="flex:1;">⚡ <strong>Release 4 is live</strong> — 40 new documents, mirrored and summarised. Email me when the next drop lands.</span>
     <form id="notify-form" onsubmit="return saveNotify(event)" style="margin-left:0;">
       <input type="email" id="notify-email" placeholder="your@email" required autocomplete="email" style="width:200px;" />
       <button type="submit">Notify</button>
@@ -589,16 +589,17 @@
     <button class="dismiss" id="hero-dismiss" aria-label="Dismiss">×</button>
     <h1>Every declassified US government UAP file,<br><span class="accent">translated into plain English.</span></h1>
     <p class="hero-scope">
-      <strong id="hero-stat-total">—</strong> documents from four US government sources — the
-      Pentagon's PURSUE releases, the US National Archives, AARO, and the FBI.
-      Every summary is checked against a quote in the original document; where we
-      couldn't find one, we show the file and no summary. <a href="methodology.html">How it works →</a>
+      <strong id="hero-stat-total">—</strong> documents mirrored from four US government
+      archives — the Pentagon's PURSUE releases, the US National Archives (which is
+      where the FAA pilot reports come from), AARO, and the FBI. Every summary is
+      checked against a quote in the original document; where we couldn't find one,
+      we don't publish a summary at all. <a href="methodology.html">How it works →</a>
     </p>
 
     <div class="start-grid">
       <section class="start-card">
         <h2>Start with the footage</h2>
-        <p class="start-sub">The material you don't have to read.</p>
+        <p class="start-sub">The material you don't have to read. Every video is transcribed.</p>
         <div class="chips" id="hero-media-chips"></div>
         <div id="hero-featured"></div>
       </section>
@@ -847,13 +848,20 @@ async function loadAll() {
 
   if (bundle && Array.isArray(bundle)) {
     thumbsAvailable = new Set();
-    corpus = bundle.map(rec => {
-      const { _qa, _thumb, _transcript, ...doc } = rec;
-      if (_qa) qaIndex.set(doc.sha256, { ..._qa, _hasQa: true });
-      if (_thumb) thumbsAvailable.add(doc.sha256);
-      if (_transcript) transcriptsAvailable.add(doc.sha256);
-      return doc;
-    });
+    corpus = bundle
+      // Drop war.gov's own thumbnail images. Each depicts a document already in
+      // the corpus, so counting them inflated the archive by ~7%, produced
+      // duplicate cards whose text panel 404s (a thumbnail has no text), and put
+      // 28 records in the unverified pile purely because an image cannot be
+      // checked against a source quote. Every parent keeps its own thumbnail.
+      .filter(rec => !rec._derivative)
+      .map(rec => {
+        const { _qa, _thumb, _transcript, _derivative, _parent, ...doc } = rec;
+        if (_qa) qaIndex.set(doc.sha256, { ..._qa, _hasQa: true });
+        if (_thumb) thumbsAvailable.add(doc.sha256);
+        if (_transcript) transcriptsAvailable.add(doc.sha256);
+        return doc;
+      });
   } else {
     // Legacy fallback: manifest + per-doc QA fetches.
     const raw = await loadJsonl('extract/release-manifest.jsonl');
@@ -1009,6 +1017,28 @@ function isTranscriptHit(sha, q) {
   return !!(t && t.includes(q.toLowerCase().trim()));
 }
 
+// Releases are release_1..release_N plus the named non-war.gov sets. The old code
+// assumed only release_1/release_2 existed, so R3/R4 sorted last and every
+// non-R2 release was labelled "Release 1".
+const RELEASE_NAMES = { 'nara-electronic': 'National Archives', 'fbi-vault': 'FBI Vault' };
+function releaseRank(r) { const m = /^release_(\d+)$/.exec(r || ''); return m ? +m[1] : 0; }
+function releaseLabel(r) {
+  if (RELEASE_NAMES[r]) return RELEASE_NAMES[r];
+  const m = /^release_(\d+)$/.exec(r || '');
+  return m ? `Release ${m[1]}` : (r || 'unknown');
+}
+// The "NEW" badge was pinned to release_2, so it kept flagging May's drop as new
+// while releases 3 and 4 shipped unbadged. Track whatever the newest release
+// actually is.
+let newestRelease = null;
+function computeNewestRelease() {
+  let best = -1;
+  for (const d of corpus) {
+    const m = /^release_(\d+)$/.exec(d.release || '');
+    if (m && +m[1] > best) { best = +m[1]; newestRelease = d.release; }
+  }
+  return newestRelease;
+}
 // ===================================================================== start here
 // Reader-facing labels for the agency codes. The value is the raw agency key so
 // the link drives the existing ?agency= filter unchanged.
@@ -1102,6 +1132,7 @@ function renderSidebar() {
   setHero('hero-stat-pdfs', `${byType.PDF || 0} PDFs`);
   setHero('hero-stat-r2', `${r2Count} in Release 2`);
 
+  computeNewestRelease();
   renderStartHere(byAgency, byType);
 
   function facet(elId, kvs, filterKey, max = 30) {
@@ -1139,7 +1170,7 @@ function renderSidebar() {
 function renderActiveFilters() {
   const chips = [];
   if (activeFilters.source) chips.push(['source', `source: ${activeFilters.source}`]);
-  if (activeFilters.release) chips.push(['release', `release: ${activeFilters.release === 'release_2' ? 'Release 2' : 'Release 1'}`]);
+  if (activeFilters.release) chips.push(['release', `release: ${releaseLabel(activeFilters.release)}`]);
   if (activeFilters.tier) chips.push(['tier', `tier: ${activeFilters.tier}`]);
   if (activeFilters.agency) chips.push(['agency', `agency: ${activeFilters.agency}`]);
   if (activeFilters.type) chips.push(['type', `type: ${activeFilters.type}`]);
@@ -1217,9 +1248,9 @@ function renderGrid() {
 
   filteredDocs.sort((a,b) => {
     if (currentSort === 'newest-released') {
-      // Release 2 first, then by incident year desc
-      const ra = (a.release === 'release_2') ? 1 : 0;
-      const rb = (b.release === 'release_2') ? 1 : 0;
+      // Highest release number first, then by incident year desc. This was pinned
+      // to release_2, so it kept sorting May's drop above the newer R3 and R4.
+      const ra = releaseRank(a.release), rb = releaseRank(b.release);
       if (rb !== ra) return rb - ra;
       const yA = docYear(a) || 0, yB = docYear(b) || 0;
       if (yB !== yA) return yB - yA;
@@ -1270,13 +1301,13 @@ function renderGrid() {
       : tier === 'red'
       ? '<span class="tag-pill tier-red" title="We could not verify a summary against this document. The text below is the source\'s own description."><span class="swatch"></span>unverified</span>'
       : '<span class="tag-pill faded">queued</span>';
-    return `<article class="card${d.release === 'release_2' ? ' release-2' : ''}" data-i="${i}" data-sha="${d.sha256}">
+    return `<article class="card${newestRelease && d.release === newestRelease ? ' release-2' : ''}" data-i="${i}" data-sha="${d.sha256}">
       ${thumbHtml(d.sha256, d.type)}
       <div class="body">
         <div class="card-meta">
           <span class="tag-pill agency-${agencyShort(d.agency)}"><span class="swatch"></span>${escapeHtml(agencyShort(d.agency))}</span>
           ${tierBadge}
-          ${d.release === 'release_2' ? '<span class="tag-pill release-2-badge">NEW · R2</span>' : ''}
+          ${newestRelease && d.release === newestRelease ? `<span class="tag-pill release-2-badge">NEW · R${newestRelease.split('_')[1]}</span>` : ''}
           ${d.type === 'VID' ? '<span class="tag-pill">video</span>' : ''}
           ${d.type === 'AUD' ? '<span class="tag-pill">audio</span>' : ''}
           ${d.type === 'IMG' ? '<span class="tag-pill">image</span>' : ''}
@@ -1975,10 +2006,10 @@ window.saveNotify = function(e) {
       method: 'POST', mode: 'cors',
       headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, source: 'uapfiles release-notify', registered_at: new Date().toISOString() }),
-    }).then(r => toast(r.ok ? 'Subscribed — we’ll email you when Release 3 lands' : 'Saved locally — submit failed'))
+    }).then(r => toast(r.ok ? 'Subscribed — we’ll email you when the next release lands' : 'Saved locally — submit failed'))
       .catch(() => toast('Saved locally — offline'));
   } else {
-    toast('Saved — signup endpoint will activate before Release 3');
+    toast('Saved — signup endpoint will activate before the next release');
   }
   const list = JSON.parse(localStorage.getItem('uap-notify-list') || '[]');
   if (!list.includes(email)) list.push(email);

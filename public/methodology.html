@@ -62,19 +62,19 @@
 <h1>How this works</h1>
 
 <div class="keybox">
-  <p><strong>The short version.</strong> We mirror every UAP document the US government publishes, byte-for-byte. A computer reads each one and writes a plain-English summary. A second, independent computer pass then tries to <em>disprove</em> every sentence of that summary against the original document. Anything it can't verify is hidden, not published.</p>
+  <p><strong>The short version.</strong> We mirror every UAP document the US government publishes, byte-for-byte. A computer reads each one and writes a plain-English summary. A second, independent computer pass then tries to <em>disprove</em> every sentence of that summary against the original document. Anything it can't verify, we don't publish — you get the original file instead.</p>
   <p>Every summary is labelled with how confident we are, and every document links to the government's own original so you can check us.</p>
 </div>
 
 <h2>The labels on every document</h2>
 <p>This is the most important thing on the site. Each summary carries one of these:</p>
 <div class="tierkey">
-  <div class="row"><span class="pill green">verified</span><span>Both passes agreed, and we found the supporting sentence in the original document. <strong>881 documents.</strong></span></div>
-  <div class="row"><span class="pill amber">partial</span><span>Both passes agreed, but we couldn't pin the claim to one clean quote. Written with hedged language. <strong>12 documents.</strong></span></div>
-  <div class="row"><span class="pill red">unverified</span><span>We could not substantiate our summary against the source, so <strong>we don't publish one</strong>. You get the original file and the document's own official description, labelled as such. <strong>117 documents.</strong></span></div>
+  <div class="row"><span class="pill green">verified</span><span>Both passes agreed, and we found the supporting sentence in the original document. <strong>847 documents.</strong></span></div>
+  <div class="row"><span class="pill amber">partial</span><span>Both passes agreed, but we couldn't pin the claim to one clean quote. Written with hedged language. <strong>7 documents.</strong></span></div>
+  <div class="row"><span class="pill red">unverified</span><span>We could not substantiate our summary against the source, so <strong>we don't publish one</strong>. You get the original file and the document's own official description, labelled as such. <strong>88 documents.</strong></span></div>
   <div class="row"><span class="pill queue">queued</span><span>In the archive, not yet processed. <strong>23 documents.</strong></span></div>
 </div>
-<p>The "unverified" pile is deliberate and we think it's the most honest number on the site. Most of it is heavily-redacted or badly-scanned material where a confident-sounding summary would be a guess. We'd rather give you the original and say nothing than invent something. You can browse those 117 yourself — nothing is withheld from you except <em>our</em> unverified opinion.</p>
+<p>The "unverified" pile is deliberate and we think it's the most honest number on the site. Most of it is heavily-redacted or badly-scanned material where a confident-sounding summary would be a guess. We'd rather give you the original and say nothing than invent something. You can browse those 88 yourself — nothing is withheld from you except <em>our</em> unverified opinion.</p>
 
 <h2>How to check our work</h2>
 <p>You should not take our word for any of this. Three ways to verify:</p>
@@ -87,14 +87,14 @@
 
 <h2>What's in the archive</h2>
 <div class="numbers">
-  <div><div class="n">1,033</div><div class="l">documents</div></div>
-  <div><div class="n">881</div><div class="l">verified</div></div>
+  <div><div class="n">965</div><div class="l">documents</div></div>
+  <div><div class="n">847</div><div class="l">verified</div></div>
   <div><div class="n">158k</div><div class="l">searchable words</div></div>
-  <div><div class="n">50,542</div><div class="l">connections</div></div>
+  <div><div class="n">50,113</div><div class="l">connections</div></div>
 </div>
 <table class="src">
   <tr><th>Source</th><th>What it is</th><th class="num">Docs</th></tr>
-  <tr><td>war.gov/UFO</td><td>The Pentagon's PURSUE releases — Releases 1–4, May–July 2026</td><td class="num">370</td></tr>
+  <tr><td>war.gov/UFO</td><td>The Pentagon's PURSUE releases — Releases 1–4, May–July 2026</td><td class="num">302</td></tr>
   <tr><td>National Archives</td><td>Born-digital UAP records: FAA pilot reports, DoD, ODNI, and nuclear-regulator files</td><td class="num">612</td></tr>
   <tr><td>AARO</td><td>The Pentagon's anomaly-resolution office — reports and case material</td><td class="num">35</td></tr>
   <tr><td>FBI Vault</td><td>The FBI's historical UFO files, 1940s–70s</td><td class="num">16</td></tr>
@@ -104,7 +104,7 @@
 <p>In plain terms, four things happen:</p>
 <ol>
 <li><strong>We copy it.</strong> A crawler downloads the file from the government site and fingerprints it. The original is never modified.</li>
-<li><strong>We read it.</strong> Modern PDFs give clean text directly. Old scans and photographed pages go through OCR (optical character recognition). Videos and audio are transcribed automatically.</li>
+<li><strong>We read it.</strong> Modern PDFs give clean text directly. Old scans and photographed pages go through OCR (optical character recognition). Video is transcribed automatically — all 105 of them. Audio is too, where it will decode: 3 of the 4 recordings.</li>
 <li><strong>We summarise it — then attack the summary.</strong> One pass writes the summary. A second, independent pass re-reads the original with no knowledge of the first pass's reasoning and marks every claim as supported, contradicted, or absent. Where they disagree, a third pass re-reads the source and settles it — usually by deleting the claim. Finally we search the source text for a quote backing each surviving claim; no quote, no green label.</li>
 <li><strong>We connect it.</strong> Documents sharing distinctive things — a person, a place, a project name, a sensor — get linked. Rare shared details count for more than common ones, so "USCENTCOM" links weakly and a named individual links strongly.</li>
 </ol>
@@ -114,7 +114,7 @@
 <div class="inner">
 <p>Acquisition uses Playwright with a stealth profile (war.gov sits behind Akamai bot management). Files are stored content-addressably by SHA-256. Text extraction is <code>pdftotext</code> for born-digital PDFs and Tesseract OCR (via page rasterisation) for scans; audio/video use Whisper.</p>
 <p>The verification chain is five stages: an extractor, an independent verifier in a fresh context with a different prompt, an adjudicator for disagreements, a deterministic citation-linker that string-matches quotes against the source, and a rewriter constrained to only the surviving verified facts. Runtime inference runs through the Claude CLI.</p>
-<p>The connection graph weights shared entities by inverse document frequency. Full-text search is a prebuilt inverted index (158,003 words) loaded on demand. All of it is open source in the <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">project repo</a> — the pipeline is auditable end to end.</p>
+<p>The connection graph (939 nodes, 50,113 edges) weights shared entities by inverse document frequency. Full-text search is a prebuilt inverted index (158,003 words) loaded on demand. All of it is open source in the <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">project repo</a> — the pipeline is auditable end to end.</p>
 </div>
 </details>
 
