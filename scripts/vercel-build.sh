@@ -10,10 +10,17 @@ done
 
 # corpus.json — single bundled fetch (manifest + QA summary + artefact flags).
 # Primary load path; the qa-index/thumbs-index below remain as fallback.
+# Only replace the committed corpus.json if the rebuild actually succeeds. It
+# exits non-zero when it cannot see the QA outputs, and copying that result over
+# the good committed file is what erased every verification badge in production.
+# On failure the committed copy — built locally where the QA data exists — stands.
 if [ -f "extract/build-corpus.mjs" ]; then
-  node extract/build-corpus.mjs || echo "build-corpus failed (non-fatal)"
+  if node extract/build-corpus.mjs; then
+    cp extract/corpus.json public/extract/corpus.json
+  else
+    echo "vercel-build: build-corpus FAILED — keeping committed public/extract/corpus.json"
+  fi
 fi
-if [ -f "extract/corpus.json" ]; then cp extract/corpus.json public/extract/corpus.json; fi
 
 # fulltext-index.json — inverted index over document bodies (lazy-loaded on search)
 if [ -f "extract/build-fulltext-index.mjs" ]; then

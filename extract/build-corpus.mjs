@@ -11,12 +11,25 @@
 // bytes and correct the type so they render as documents, not broken players.
 
 import fs from 'node:fs/promises';
-import { openSync, readSync, closeSync, existsSync } from 'node:fs';
+import { openSync, readSync, closeSync, existsSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 
 const ROOT = path.resolve('.');
 const RELEASE = path.join(ROOT, 'extract', 'release-manifest.jsonl');
-const QA_DIR = path.join(ROOT, 'extract', 'public');
+// The QA outputs live at extract/public/ locally, but that path is gitignored
+// (.gitignore:44). What is committed is the deployed mirror, public/extract/public/.
+// A build environment that only has the git checkout — Vercel — therefore finds
+// nothing at the primary path and silently builds every doc with _qa:null, which
+// erases all 881 verification badges AND publishes the 117 summaries the site
+// promises to withhold. Fall back to the committed mirror.
+const QA_DIR_CANDIDATES = [
+  path.join(ROOT, 'extract', 'public'),
+  path.join(ROOT, 'public', 'extract', 'public'),
+];
+const QA_DIR = QA_DIR_CANDIDATES.find(d => {
+  try { return existsSync(d) && readdirSync(d).some(f => f.endsWith('.json')); }
+  catch { return false; }
+}) || QA_DIR_CANDIDATES[0];
 const THUMBS_DIR = path.join(ROOT, 'extract', 'thumbs');
 const TRANSCRIPTS_DIR = path.join(ROOT, 'extract', 'transcripts');
 const OUT = path.join(ROOT, 'extract', 'corpus.json');
@@ -168,6 +181,20 @@ for (const d of docs) {
     _thumb: thumb,
     _transcript: transcript,
   });
+}
+
+// Refuse to write a corpus stripped of its verification data. When the QA
+// directory is missing, every doc silently builds with _qa:null — which erases
+// all 881 badges and republishes the 117 summaries that failed review as if they
+// were ordinary entries. That shipped to production once, undetected, because
+// this step failed quietly. It must be loud.
+if (qaCount < out.length * 0.5) {
+  console.error(`FATAL: only ${qaCount}/${out.length} docs resolved a QA summary.`);
+  console.error(`  looked in: ${QA_DIR}`);
+  console.error(`  candidates: ${QA_DIR_CANDIDATES.join(', ')}`);
+  console.error('Refusing to write corpus.json — it would erase the verification tiers');
+  console.error('and publish unverified summaries. Fix the QA path, then rebuild.');
+  process.exit(1);
 }
 
 await fs.writeFile(OUT, JSON.stringify(out));
