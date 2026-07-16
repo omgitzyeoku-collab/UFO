@@ -528,7 +528,6 @@
     <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">↗ GitHub</a>
     <button id="kb-help-btn" class="icon-btn" aria-label="Keyboard shortcuts" title="Shortcuts (?)">?</button>
     <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">◐</button>
-    <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Filters">☰</button>
   </nav>
 </header>
 
@@ -1986,10 +1985,7 @@ function openSidebar() {
   document.getElementById('sidebar')?.classList.add('open');
   document.getElementById('sidebar-overlay')?.classList.add('open');
 }
-document.getElementById('mobile-menu-btn').addEventListener('click', () => {
-  const s = document.getElementById('sidebar');
-  if (s.classList.contains('open')) closeSidebar(); else openSidebar();
-});
+
 document.getElementById('sidebar-overlay').addEventListener('click', closeSidebar);
 
 // ===================================================================== theme
@@ -2125,6 +2121,15 @@ const sidebarOpen = sidebarPref === 'open';  // null defaults to collapsed
 if (!sidebarOpen) appEl.classList.add('sidebar-collapsed');
 if (sidebarOpen) filterPill.classList.add('active');
 filterPill.addEventListener('click', () => {
+  // Mobile: the sidebar is an overlay drawer driven by .open, and .sidebar-collapsed
+  // only exists above 901px. Open the drawer and stop — do NOT fall through to the
+  // desktop preference write, or a phone tap silently changes the desktop default.
+  // No close branch: the 320px full-height drawer covers the pill; the overlay and
+  // Escape already close it.
+  if (window.matchMedia('(max-width: 900px)').matches) {
+    openSidebar();
+    return;
+  }
   const nowCollapsed = !appEl.classList.contains('sidebar-collapsed');
   appEl.classList.toggle('sidebar-collapsed', nowCollapsed);
   filterPill.classList.toggle('active', !nowCollapsed);
