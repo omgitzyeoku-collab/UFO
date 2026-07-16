@@ -11,7 +11,7 @@
   --line-strong: #353941;
   --text: #f0f1f3;
   --text-soft: #a8acb4;
-  --text-dim: #6f747d;
+  --text-dim: #9298a3;   /* was #6f747d — failed WCAG AA on every elevated surface */
   --accent: #d97757;
   --accent-soft: rgba(217, 119, 87, 0.12);
   --accent-strong: #f08560;
@@ -22,9 +22,9 @@
 
   --DOW: #f0a040;
   --FBI: #6a9bcc;
-  --NASA: #e57373;
+  --NASA: #ba68c8;   /* was #e57373 — identical to --bad; used in the Network view only */
   --DOS: #c084fc;
-  --AARO: #6cc28a;
+  --AARO: #4db6ac;   /* was #6cc28a — identical to --tier-green; Network view only */
 
   --tier-green: #6cc28a;
   --tier-amber: #e0b052;
@@ -48,14 +48,14 @@
     --line-strong: #c8c8c2;
     --text: #14161a;
     --text-soft: #5a5d63;
-    --text-dim: #8a8d93;
+    --text-dim: #656971;   /* light theme: was #8a8d93, 3.4:1 */
     --accent-soft: rgba(217, 119, 87, 0.10);
   }
 }
 :root.light {
   --bg: #f7f7f5; --bg-elev: #ffffff; --bg-elev-2: #f0f0ed; --bg-hover: #e8e8e4;
   --line: #e0e0dc; --line-strong: #c8c8c2;
-  --text: #14161a; --text-soft: #5a5d63; --text-dim: #8a8d93;
+  --text: #14161a; --text-soft: #5a5d63; --text-dim: #656971;
   --accent-soft: rgba(217, 119, 87, 0.10);
 }
 
@@ -66,7 +66,10 @@ html, body {
   margin: 0; min-height: 100%;
   background: var(--bg); color: var(--text);
   font-family: var(--ff-ui);
-  font-size: 14px; line-height: 1.5;
+  /* 100%, not a hard px: a 14px root rendered the whole site at 87.5% — card
+     summaries at 11.6px, metadata at 10.4px — and silently overrode anyone who
+     had raised their browser default for readability. */
+  font-size: 100%; line-height: 1.5;
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
 }
 a { color: var(--text); text-decoration: none; }
@@ -288,7 +291,9 @@ main.main {
 /* ============ GRID VIEW ============ */
 .grid-view {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
+  /* 320, not 340: at a correct 16px root the wider floor dropped 1440px from four
+     columns to three. No-op at 1280/1536/1920. */
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
   gap: 0.85rem;
   padding: 1rem 1.25rem 2rem;
 }
@@ -329,12 +334,12 @@ main.main {
 .tag-pill.faded { opacity: 0.6; }
 
 .card h3 {
-  font-size: 0.95rem; font-weight: 600; line-height: 1.35;
+  font-size: 1rem; font-weight: 600; line-height: 1.35;
   letter-spacing: -0.005em; color: var(--text);
   margin: 0 0 0.4rem;
 }
 .card .tldr {
-  font-size: 0.83rem; line-height: 1.55; color: var(--text-soft);
+  font-size: 0.9rem; line-height: 1.55; color: var(--text-soft);
   margin: 0 0 0.85rem; flex: 1;
   display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
 }
@@ -342,6 +347,7 @@ main.main {
    four-line hole where a paragraph would have been. */
 .card .tldr-none { flex: 1; min-height: 0.4rem; }
 .card-foot {
+  font-size: 0.8rem;
   display: flex; gap: 0.85rem; flex-wrap: wrap;
   font-size: 0.74rem; color: var(--text-dim);
   font-family: var(--ff-mono); font-feature-settings: 'tnum';
@@ -618,3 +624,15 @@ main.main {
   margin-top: 0.8rem; font-size: 0.85rem; color: var(--text-soft);
 }
 .detail-body .origin-note a { color: var(--accent); }
+
+
+/* ---- Colour carries one meaning: verification ----
+   The agency pill sits directly beside the tier pill and drew from the same
+   palette: --AARO was byte-identical to --tier-green and --NASA to --bad, so a
+   NASA card rendered a red pill next to a green "verified" pill — the signal
+   inverted. Agency is an identifier, not a judgement: render it neutral. The
+   Network view keeps the agency hues, as it has no tier pills to collide with. */
+.tag-pill[class*="agency-"] {
+  color: var(--text-soft);
+  border-color: var(--line);
+}
