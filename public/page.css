@@ -527,6 +527,15 @@ main.main {
   width: 100%; height: 600px; border: 1px solid var(--line);
   border-radius: var(--radius-sm); margin-top: 1.2rem; background: #1a1a1a;
 }
+/* A <video> must NOT inherit the iframe's 600px box: these are 16:9 sensor
+   recordings, so a 172px picture band sat in a 600px frame with ~428px of
+   letterbox — which pushed the honest summary back off the screen. */
+.detail-body .detail-video {
+  width: 100%; height: auto; max-height: 52vh; aspect-ratio: 16 / 9;
+  object-fit: contain; background: #000;
+  border: 1px solid var(--line); border-radius: var(--radius-sm);
+  margin: 0 0 1.2rem; display: block;
+}
 
 /* Related docs */
 .related-list { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.5rem; }
@@ -714,4 +723,68 @@ main.main {
   .row-year { display: none; }
   .row-title { white-space: normal; font-size: 0.9rem; }
   .row-blurb { white-space: normal; -webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; }
+}
+
+
+/* ---- Searching mode ----
+   Once a reader is searching or filtering, the homepage orientation is in the way:
+   it held the first result at y=742 at 1440x900, and at 1366x768 only 26px of it
+   showed. Keep the scope line (it says what the archive IS) and drop the rest. */
+.hero-banner.searching h1,
+.hero-banner.searching .hero-scope,
+.hero-banner.searching .start-grid { display: none; }
+.hero-banner.searching { padding: 0; border-bottom: none; }
+
+.search-note {
+  display: none;
+  margin: 0; padding: 0.6rem 1.25rem;
+  font-size: 0.78rem; line-height: 1.5; color: var(--text-dim);
+  background: var(--bg-elev); border-bottom: 1px solid var(--line);
+}
+.search-note.show { display: block; }
+
+
+/* ---- Detail panel: prose measure ----
+   The panel is pinned at min(880px, 92vw), so its prose ran to 101 characters per
+   line identically at 1280/1440/1536/1920 — and this is the only place a human
+   actually reads this writing. 68ch is the readable measure.
+   Deliberately NOT the <dl>: it is a two-column grid, and constraining it costs
+   +31% height and wraps values. Deliberately NOT line-height: .narrative p is
+   already 1.7; only .caveats ul (1.55) warrants a nudge. */
+.detail-body .narrative p,
+.detail-body .tldr,
+.detail-body .origin-note,
+.detail-body .caveats ul { max-width: 68ch; }
+.detail-body .caveats ul { line-height: 1.65; }
+
+
+/* ---- Mobile tap targets ----
+   Measured: not one control reached the 44px minimum. Header buttons 32px, the two
+   dismiss ×s 23x27 and 26x25, detail nav 32x32, source links 34px. Grow the hit
+   area without growing the visual weight — padding and min-height, not font-size. */
+@media (max-width: 900px) {
+  .appbar nav a,
+  .appbar nav button,
+  .appbar .icon-btn,
+  .filter-pill {
+    min-height: 44px; min-width: 44px;
+  }
+  .appbar .icon-btn { width: 44px; height: 44px; }
+  .hero-banner .dismiss,
+  .notify-strip .dismiss-x {
+    min-width: 44px; min-height: 44px;
+    display: inline-flex; align-items: center; justify-content: center;
+    padding: 0;
+  }
+  .detail-panel .detail-nav button,
+  .detail-panel .detail-close {
+    min-width: 44px; min-height: 44px;
+  }
+  .detail-body .src-row a,
+  .detail-body .detail-actions button,
+  .detail-body .detail-actions a {
+    min-height: 44px; display: inline-flex; align-items: center;
+  }
+  .view-tabs button { min-height: 44px; }
+  /* A row is the primary target on mobile and already exceeds 44px via min-height. */
 }

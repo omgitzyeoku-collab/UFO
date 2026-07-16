@@ -642,6 +642,8 @@
           Phoenix Lights, Majestic 12 — are barely present or absent: the US
           government hasn't released them here.
         </p>
+        <!-- The same note is rendered under the results bar during a search; see
+             #search-note. This copy serves the first-time visitor. -->
       </section>
     </div>
   </div>
@@ -665,6 +667,12 @@
   </div>
 
   <div class="active-filters" id="active-filters"></div>
+
+  <p class="search-note" id="search-note">
+    Searching the full text of every document — these are your words, not our picks.
+    Many cases people expect (Nimitz, Phoenix Lights, Majestic 12) are barely present
+    or absent: the US government hasn't released them here.
+  </p>
 
   <div class="view-body" id="vb-grid">
     <div class="grid-view" id="grid">
@@ -1224,6 +1232,19 @@ function renderSidebar() {
   document.getElementById('f-tier').value = activeFilters.tier || '';
 }
 
+// Collapse the homepage orientation once the reader is searching or filtering:
+// they have already decided what they want, and the panels were holding the first
+// result down at y=742. The honesty note moves OUT of the panel and under the count
+// bar — it matters most during a search that returns little or nothing.
+function syncSearchingMode() {
+  const searching = !!(activeFilters.q || activeFilters.tier || activeFilters.agency ||
+                       activeFilters.type || activeFilters.region || activeFilters.source ||
+                       activeFilters.release);
+  document.getElementById('hero-banner')?.classList.toggle('searching', searching);
+  const note = document.getElementById('search-note');
+  if (note) note.classList.toggle('show', !!activeFilters.q);
+}
+
 function renderActiveFilters() {
   const chips = [];
   if (activeFilters.source) chips.push(['source', `source: ${activeFilters.source}`]);
@@ -1233,6 +1254,7 @@ function renderActiveFilters() {
   if (activeFilters.type) chips.push(['type', `type: ${activeFilters.type}`]);
   if (activeFilters.region) chips.push(['region', `region: ${activeFilters.region}`]);
   if (activeFilters.q) chips.push(['q', `“${activeFilters.q}”`]);
+  syncSearchingMode();
   const el = document.getElementById('active-filters');
   if (!chips.length) { el.classList.remove('show'); el.innerHTML = ''; return; }
   el.classList.add('show');
@@ -1294,10 +1316,27 @@ function renderGrid() {
   const grid = document.getElementById('grid');
   grid.classList.toggle('rows-view', currentView === 'rows');
   if (!filteredDocs.length) {
-    const hasFilters = activeFilters.q || activeFilters.tier || activeFilters.agency || activeFilters.type || activeFilters.region || activeFilters.source;
+    // "Try removing a filter" is false when the query IS the only filter — and that
+    // is the common case: someone searches "Majestic 12", gets nothing, and is told
+    // to remove a filter they never set. Say the honest thing instead: it is not in
+    // what the government released here.
+    const otherFilters = activeFilters.tier || activeFilters.agency || activeFilters.type ||
+                         activeFilters.region || activeFilters.source || activeFilters.release;
+    const q = (activeFilters.q || '').trim();
+    let head, body;
+    if (q && !otherFilters) {
+      head = `Nothing in the archive matches “${escapeHtml(q)}”`;
+      body = `We searched the full text of all ${corpus.length.toLocaleString()} documents. This isn't us hiding it — it means the US government hasn't released a document mentioning it to the sources we mirror. <a href="#" id="empty-clear" style="color:var(--accent);">Clear the search</a>.`;
+    } else if (q || otherFilters) {
+      head = 'No documents match these filters';
+      body = `Try widening them, or <a href="#" id="empty-clear" style="color:var(--accent);">clear all filters</a>.`;
+    } else {
+      head = 'No documents to show';
+      body = `Loading might still be in progress — <a href="#" id="empty-clear" style="color:var(--accent);">clear all filters</a>.`;
+    }
     grid.innerHTML = `<div class="empty">
-      <div style="font-size:1.05rem;margin-bottom:0.4rem;">No documents match these filters</div>
-      <div style="color:var(--text-dim);font-size:0.85rem;">${hasFilters ? 'Try removing a filter, or' : 'Loading might still be in progress —'} <a href="#" id="empty-clear" style="color:var(--accent);">clear all filters</a>.</div>
+      <div style="font-size:1.05rem;margin-bottom:0.4rem;">${head}</div>
+      <div style="color:var(--text-soft);font-size:0.85rem;max-width:52ch;margin:0 auto;line-height:1.6;">${body}</div>
     </div>`;
     const ec = document.getElementById('empty-clear');
     if (ec) ec.addEventListener('click', (e) => { e.preventDefault(); document.getElementById('clear-all')?.click(); });
@@ -1809,6 +1848,7 @@ async function openDetail(idx) {
       ${displayDate(d) ? `<span><strong>Date</strong> · ${escapeHtml(displayDate(d))}</span>` : ''}
       ${d.incident_location && d.incident_location !== 'N/A' ? `<span><strong>Location</strong> · ${escapeHtml(d.incident_location)}</span>` : ''}
     </div>
+    ${isVid ? `<video class="detail-video" data-audio-sha="${d.sha256}" src="${escapeAttr(d.release_url)}" controls preload="metadata" poster="extract/thumbs/${d.sha256}.jpg"></video>` : ''}
     ${tldr ? `<div class="tldr">${escapeHtml(tldr)}</div>` : ''}
     ${narrative ? `<div class="narrative">${narrative.split('\n\n').map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>`
       : `<div class="narrative" style="opacity:0.7;"><p>${escapeHtml(d.description || 'Plain-English summary not yet generated. The QA pipeline is still processing this document.')}</p></div>`}
@@ -1858,7 +1898,6 @@ async function openDetail(idx) {
     ${isPdf && isMirrored(d) ? `<iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(d.release_url)}" loading="lazy" title="${escapeAttr(headline)}"></iframe>` : ''}
     ${isPdf && !isMirrored(d) && d.source !== 'nara' ? `<div class="origin-note">📄 The original is served by ${escapeHtml(originHost(d))}, which blocks embedded viewers. <a href="${escapeAttr(d.release_url || d.url)}" target="_blank" rel="noopener">Open the PDF at ${escapeHtml(originHost(d))} →</a></div>` : ''}
     ${isPdf && !/\.pdf(\?|$)|at_download/i.test(d.release_url || '') && d.source === 'nara' ? `<div style="background:var(--bg-elev);border:1px solid var(--line);border-radius:var(--radius-sm);padding:1rem 1.2rem;margin-top:0.8rem;font-size:0.85rem;color:var(--text-soft);">📄 This is a National Archives record. The full original is hosted at <a href="${escapeAttr(d.release_url)}" target="_blank" rel="noopener">catalog.archives.gov</a>. ${d.nara_series ? 'Series: ' + escapeHtml(d.nara_series) + '.' : ''}</div>` : ''}
-    ${isVid ? `<video class="pdf-frame" data-audio-sha="${d.sha256}" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
     ${d.type === 'AUD' || /\.(mp3|wav|m4a|ogg)$/i.test(d.name || '') ? `
       <div class="audio-player">
         <audio data-audio-sha="${d.sha256}" src="${escapeAttr(d.release_url)}" controls preload="metadata"></audio>
