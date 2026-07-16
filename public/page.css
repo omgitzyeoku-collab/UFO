@@ -788,3 +788,21 @@ main.main {
   .view-tabs button { min-height: 44px; }
   /* A row is the primary target on mobile and already exceeds 44px via min-height. */
 }
+
+
+/* ---- Support page ---- */
+.prose .lede { font-size: 1.05rem; line-height: 1.65; color: var(--text); }
+.support-box {
+  background: var(--bg-elev); border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm); padding: 1.2rem 1.4rem; margin: 1.8rem 0 2.4rem;
+}
+.support-cta {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  background: var(--accent); color: #1a1a1a; font-weight: 600;
+  padding: 0.6rem 1.1rem; border-radius: var(--radius-sm);
+  min-height: 44px; box-sizing: border-box;
+}
+.support-cta:hover { background: var(--accent-strong); color: #1a1a1a; }
+.support-alt { display: block; margin-top: 0.7rem; font-size: 0.85rem; color: var(--text-dim); }
+.support-alt a { color: var(--accent); }

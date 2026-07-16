@@ -23,45 +23,56 @@
 <main>
 <article class="prose">
 <h1>Support UAP Files</h1>
-<p>UAP Files is free for everyone. No paywalls, no ads, no signups, no tracking. It will stay that way.</p>
-<p>If the project is useful to you, donations cover the running costs and let us keep adding sources.</p>
 
-<h2>One-time donation</h2>
+<p class="lede">UAP Files is free for everyone. No paywalls, no ads, no signups, no tracking, no accounts. It will stay that way — that is not a promise we can afford to break, because being trustworthy is the only thing this archive has.</p>
+
+<div class="support-box">
+  <h2 style="margin-top:0;">Sponsor the project</h2>
+  <p>Recurring support through GitHub Sponsors. It funds the running costs and nothing else — there is no tier, no perk, no early access, no supporter-only content. Everything on this site is free to everyone at the same time, and always will be.</p>
+  <p style="margin-bottom:0;">
+    <a class="support-cta" href="https://github.com/sponsors/omgitzyeoku-collab" target="_blank" rel="noopener">♡ Sponsor on GitHub</a>
+    <span class="support-alt">or <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">star the repo</a> — free, and it genuinely helps people find this.</span>
+  </p>
+</div>
+
+<h2>What the money actually pays for</h2>
+<table class="src">
+  <tr><th>Line</th><th>What it is</th></tr>
+  <tr><td><strong>Compute</strong></td><td>The verification pipeline reads every document and checks every claim against an exact quote in the source. This is the largest cost by a distance, and it is the whole point of the project.</td></tr>
+  <tr><td><strong>Transcription + OCR</strong></td><td>Whisper for audio and video; OCR for 1940s typewriter scans that no machine reads cleanly.</td></tr>
+  <tr><td><strong>Hosting + bandwidth</strong></td><td>The site, and mirroring the binary corpus so the files survive independently of any government website.</td></tr>
+  <tr><td><strong>Domain</strong></td><td>Modest, annual, unglamorous.</td></tr>
+</table>
+
+<h2>Money we will not take</h2>
+<p>This matters more than the money. We will not accept funding from:</p>
 <ul>
-<li>Stripe (card / Apple Pay / Google Pay) — coming once Stripe Connect is set up.</li>
-<li>PayPal — coming.</li>
-<li>Crypto (BTC / ETH / SOL) — addresses coming.</li>
+  <li>Governments, defence contractors, or intelligence-adjacent organisations</li>
+  <li>Media outlets with active UAP coverage</li>
+  <li>Anyone seeking influence over what we publish, what we summarise, or how we tier it</li>
+  <li>Anyone expecting the archive to support a conclusion — in either direction</li>
 </ul>
-
-<h2>Recurring support</h2>
-<ul>
-<li>Open Collective — transparent project funding, public ledger. Coming.</li>
-<li>GitHub Sponsors — coming.</li>
-</ul>
-
-<h2>What donations cover</h2>
-<ul>
-<li><strong>Compute</strong> — the QA pipeline runs millions of LLM tokens per tranche; this is the biggest line item.</li>
-<li><strong>Hosting + bandwidth</strong> — Vercel, GitHub Releases, custom domain.</li>
-<li><strong>OCR</strong> — for very large scanned archives (FBI Vault is gigabytes).</li>
-<li><strong>Time</strong> — maintaining the pipeline, adding new sources, responding to error reports.</li>
-</ul>
-
-<h2>For institutions</h2>
-<p>If your institution (university, NGO, research org) wants to sponsor the project, contact us — we offer named-acknowledgement on the about page and priority access to the upcoming API.</p>
-
-<h2>API access</h2>
-<p>Coming soon: a low-cost API tier ($20/month) for bulk access. Free tier covers light use (1,000 calls/day). The data itself stays free in the GitHub Release; the API is for convenience.</p>
+<p>The documents say what they say. Most of them are mundane. A record marked "unresolved" is not a record saying "aliens", and no amount of money will make us write it as one. <strong>Every donation must be refusable</strong>, and any that isn't will be refused.</p>
 
 <h2>What we will never do</h2>
 <ul>
-<li>Run ads.</li>
-<li>Paywall content.</li>
-<li>Sell, share, or track user data.</li>
-<li>Take money from anyone whose involvement would compromise editorial neutrality (governments, defence contractors, media outlets with active UAP coverage).</li>
+  <li><strong>No ads.</strong> Not now, not at scale.</li>
+  <li><strong>No paywall.</strong> Not for documents, summaries, search, or bulk download.</li>
+  <li><strong>No supporter-only tier.</strong> A perk tier is a paywall wearing a hat.</li>
+  <li><strong>No selling your data.</strong> We hold nothing to sell — see the <a href="privacy.html">privacy policy</a>.</li>
 </ul>
 
-<p style="margin-top:3rem;"><a href="index.html">← Back to corpus</a></p>
+<h2>Ways to help that cost nothing</h2>
+<ul>
+  <li><strong>Report an error.</strong> Every document has a "report an error" link. Corrections are published in a public, append-only <a href="corrections.html">log</a> — we don't silently edit. A good correction is worth more to this archive than a donation.</li>
+  <li><strong>Use it and cite it.</strong> Our summaries are CC-BY 4.0; the government records are public domain. Take them.</li>
+  <li><strong>Tell someone who needs it</strong> — a journalist, a researcher, a sceptic.</li>
+</ul>
+
+<h2>Transparency</h2>
+<p>The code is <a href="https://github.com/omgitzyeoku-collab/UFO" target="_blank" rel="noopener">open source</a> and the pipeline is auditable end to end. If this project ever takes meaningful funding, the source and the amount will be published on this page.</p>
+
+<p style="margin-top:3rem;"><a href="index.html">← Back to the corpus</a> · <a href="methodology.html">How it works</a> · <a href="about.html">About</a></p>
 </article>
 </main>
 </div>
