@@ -1056,6 +1056,15 @@ function renderReleaseOptions() {
   ).join('');
   sel.value = activeFilters.release || '';
 }
+// Only a PDF mirrored to our GitHub release can be embedded. war.gov and aaro.mil
+// sit behind Akamai: they answer 403 to the viewer's cross-origin fetch and send
+// no Access-Control-Allow-Origin, so pdf.js threw UnknownErrorException and showed
+// a dead frame on 737 of 852 PDFs. Link out instead — a normal click still works.
+const isMirrored = d => /github\.com\/[^\s"']+\/releases\/download\//.test(d.release_url || '');
+function originHost(d) {
+  try { return new URL(d.release_url || d.url).hostname.replace(/^www\./, ''); }
+  catch { return 'the source site'; }
+}
 // ===================================================================== start here
 // Reader-facing labels for the agency codes. The value is the raw agency key so
 // the link drives the existing ?agency= filter unchanged.
@@ -1788,7 +1797,8 @@ async function openDetail(idx) {
       <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(headline + ' — UAP Files')}&url=${encodeURIComponent('https://ufo-wheat.vercel.app/doc/' + d.sha256 + '.html')}" target="_blank" rel="noopener">✕ Post</a>
     </div>
 
-    ${isPdf && /\.pdf(\?|$)|at_download/i.test(d.release_url || '') ? `<iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(d.release_url)}" loading="lazy" title="${escapeAttr(headline)}"></iframe>` : ''}
+    ${isPdf && isMirrored(d) ? `<iframe class="pdf-frame" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(d.release_url)}" loading="lazy" title="${escapeAttr(headline)}"></iframe>` : ''}
+    ${isPdf && !isMirrored(d) && d.source !== 'nara' ? `<div class="origin-note">📄 The original is served by ${escapeHtml(originHost(d))}, which blocks embedded viewers. <a href="${escapeAttr(d.release_url || d.url)}" target="_blank" rel="noopener">Open the PDF at ${escapeHtml(originHost(d))} →</a></div>` : ''}
     ${isPdf && !/\.pdf(\?|$)|at_download/i.test(d.release_url || '') && d.source === 'nara' ? `<div style="background:var(--bg-elev);border:1px solid var(--line);border-radius:var(--radius-sm);padding:1rem 1.2rem;margin-top:0.8rem;font-size:0.85rem;color:var(--text-soft);">📄 This is a National Archives record. The full original is hosted at <a href="${escapeAttr(d.release_url)}" target="_blank" rel="noopener">catalog.archives.gov</a>. ${d.nara_series ? 'Series: ' + escapeHtml(d.nara_series) + '.' : ''}</div>` : ''}
     ${isVid ? `<video class="pdf-frame" data-audio-sha="${d.sha256}" src="${escapeAttr(d.release_url)}" controls preload="metadata"></video>` : ''}
     ${d.type === 'AUD' || /\.(mp3|wav|m4a|ogg)$/i.test(d.name || '') ? `

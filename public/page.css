@@ -592,3 +592,10 @@ main.main {
   text-decoration: none; transition: background 0.1s;
 }
 .prose .donate-btn:hover { background: var(--accent-strong); text-decoration: none; }
+
+.detail-body .origin-note {
+  background: var(--bg-elev); border: 1px solid var(--line);
+  border-radius: var(--radius-sm); padding: 0.85rem 1.1rem;
+  margin-top: 0.8rem; font-size: 0.85rem; color: var(--text-soft);
+}
+.detail-body .origin-note a { color: var(--accent); }
