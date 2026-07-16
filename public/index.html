@@ -91,7 +91,7 @@
   }
   .start-card {
     background: var(--bg); border: 1px solid var(--line);
-    border-radius: var(--radius-sm); padding: 0.9rem 1rem 1rem;
+    border-radius: var(--radius-sm); padding: 0.75rem 0.9rem 0.85rem;
     min-width: 0;
   }
   .start-card h2 {
@@ -116,19 +116,35 @@
   .chips a:hover { border-color: var(--accent); background: var(--bg-hover); }
   .chips a .n { font-weight: 700; font-feature-settings: 'tnum'; color: var(--accent); }
 
-  /* honest corpus breakdown — bar length is share of corpus */
-  .bd-row {
-    display: grid; grid-template-columns: 1fr auto; gap: 0.5rem;
-    align-items: center; padding: 0.28rem 0; text-decoration: none;
-    border-bottom: 1px solid transparent;
+  /* Honest corpus breakdown. One stacked bar, not seven rows: it shows the SHAPE
+     at a glance — most of the archive is routine FAA reporting — and costs ~70px
+     instead of ~280, which was the single biggest thing pushing documents off the
+     first screen. Segment widths are exact document counts (flex:<n>). */
+  .bd-stack {
+    display: flex; height: 14px; border-radius: 3px; overflow: hidden;
+    background: var(--bg-elev-2); margin: 0.2rem 0 0.7rem;
   }
-  .bd-row:hover .bd-label { color: var(--accent); }
-  .bd-label { font-size: 0.8rem; color: var(--text); min-width: 0; }
-  .bd-count { font-size: 0.75rem; color: var(--text-dim); font-feature-settings: 'tnum'; }
-  .bd-bar { grid-column: 1 / -1; height: 3px; background: var(--bg-elev-2); border-radius: 2px; overflow: hidden; }
-  .bd-bar i { display: block; height: 100%; background: var(--accent); opacity: 0.55; }
+  .bd-seg-link { display: flex; min-width: 2px; }
+  .bd-seg { display: block; width: 100%; height: 100%; transition: opacity 0.12s; }
+  .bd-seg-link:hover .bd-seg { opacity: 0.75; }
+  .bd-legend { display: flex; flex-wrap: wrap; gap: 0.25rem 0.85rem; }
+  .bd-key {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    font-size: 0.76rem; color: var(--text-soft); text-decoration: none;
+  }
+  a.bd-key:hover { color: var(--accent); }
+  .bd-key b { color: var(--text); font-feature-settings: 'tnum'; font-weight: 600; }
+  .bd-dot { width: 8px; height: 8px; border-radius: 2px; flex: 0 0 8px; }
+  /* Sequential ramp of the accent — this encodes share of the archive, an ordered
+     quantity, so it must not reuse the green/amber/red verification palette. */
+  .bd-seg.s0, .bd-dot.s0 { background: #d97757; }
+  .bd-seg.s1, .bd-dot.s1 { background: #b5644c; }
+  .bd-seg.s2, .bd-dot.s2 { background: #8f5240; }
+  .bd-seg.s3, .bd-dot.s3 { background: #6b4034; }
+  .bd-seg.s4, .bd-dot.s4 { background: #4d3129; }
+  .bd-seg.s5, .bd-dot.s5 { background: #35251f; }
 
-  #hero-featured { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem; margin-top: 0.7rem; }
+  #hero-featured { display: grid; grid-template-columns: 1fr 1fr; gap: 0.35rem; margin-top: 0.5rem; }
 
   /* === CARD THUMBNAILS === */
   .card { padding: 0; overflow: hidden; }
@@ -631,7 +647,8 @@
   </div>
 
   <div class="view-tabs">
-    <button data-view="grid" class="active">▦ Grid</button>
+    <button data-view="rows" class="active">▤ Rows</button>
+    <button data-view="grid">▦ Gallery</button>
     <button data-view="map">⊕ Map</button>
     <button data-view="network">⌬ Network</button>
     <button data-view="timeline">◴ Timeline</button>
@@ -750,7 +767,7 @@ let transcriptsAvailable = new Set();  // Set<sha> of docs with a transcript
 let transcriptSearch = {};  // { sha: lowercased transcript text } for search
 let activeFilters = { source: '', release: '', tier: '', agency: null, type: null, region: null, q: '', netFilter: '' };
 let currentSort = 'verified';
-let currentView = 'grid';
+let currentView = (localStorage.getItem('uap-density') === 'grid') ? 'grid' : 'rows';
 const GRID_PAGE = 120;       // cards rendered per page
 let gridLimit = GRID_PAGE;   // current render cap (bumped by "Show more")
 let currentDetailIdx = -1, filteredDocs = [];
@@ -933,7 +950,8 @@ function writeUrlState() {
   for (const [k, v] of Object.entries(activeFilters)) {
     if (v && k !== 'netFilter') p.set(k, v);
   }
-  if (currentView !== 'grid') p.set('view', currentView);
+  // 'rows' is the default density, so it needs no param; 'grid' (Gallery) does.
+  if (currentView !== 'rows') p.set('view', currentView);
   const qs = p.toString();
   const url = location.pathname + (qs ? '?' + qs : '') + location.hash;
   if (url !== location.pathname + location.search + location.hash) {
@@ -1118,20 +1136,23 @@ function renderStartHere(byAgency, byType) {
   if (bd) {
     const total = corpus.length;
     const sorted = Object.entries(byAgency).sort((a, b) => b[1] - a[1]);
-    const top = sorted.slice(0, 6);
-    const restN = sorted.slice(6).reduce((s, [, n]) => s + n, 0);
+    const top = sorted.slice(0, 5);
+    const restN = sorted.slice(5).reduce((s, [, n]) => s + n, 0);
     const rows = top.map(([k, n]) => ({ k, n, label: AGENCY_LABEL[k] || k }));
     if (restN) rows.push({ k: null, n: restN, label: 'Other agencies' });
-    bd.innerHTML = rows.map(r => {
-      const pct = Math.round((r.n / total) * 100);
-      const inner = `
-        <span class="bd-label">${escapeHtml(r.label)}</span>
-        <span class="bd-count">${r.n.toLocaleString()} · ${pct}%</span>
-        <span class="bd-bar"><i style="width:${Math.max(pct, 1)}%"></i></span>`;
-      return r.k
-        ? `<a class="bd-row" href="?agency=${encodeURIComponent(r.k)}">${inner}</a>`
-        : `<div class="bd-row">${inner}</div>`;
+    const seg = rows.map((r, i) => {
+      const pct = (r.n / total) * 100;
+      const title = `${r.label} — ${r.n.toLocaleString()} of ${total.toLocaleString()} (${Math.round(pct)}%)`;
+      const inner = `<span class="bd-seg s${i}" style="flex:${r.n}" title="${escapeAttr(title)}"></span>`;
+      return r.k ? `<a href="?agency=${encodeURIComponent(r.k)}" class="bd-seg-link" style="flex:${r.n}" title="${escapeAttr(title)}"><span class="bd-seg s${i}"></span></a>` : inner;
     }).join('');
+    const key = rows.map((r, i) => {
+      const pct = Math.round((r.n / total) * 100);
+      const label = `<span class="bd-dot s${i}"></span>${escapeHtml(r.label)} <b>${pct}%</b>`;
+      return r.k ? `<a class="bd-key" href="?agency=${encodeURIComponent(r.k)}">${label}</a>`
+                 : `<span class="bd-key">${label}</span>`;
+    }).join('');
+    bd.innerHTML = `<div class="bd-stack">${seg}</div><div class="bd-legend">${key}</div>`;
   }
 
   // --- case shortcuts ---
@@ -1235,7 +1256,7 @@ function renderActiveFilters() {
 }
 
 // ===================================================================== grid view
-function thumbHtml(sha, type) {
+function thumbHtml(sha, type, extraClass = '') {
   const hasReal = !thumbsAvailable || thumbsAvailable.has(sha);
   const url = hasReal ? `extract/thumbs/${sha}.jpg` : '';
   // Default per-type SVG fallback rendered behind the bg-image — if the
@@ -1260,7 +1281,7 @@ function thumbHtml(sha, type) {
       <text x="100" y="100" text-anchor="middle" fill="#8a8f99" font-family="monospace" font-size="9" letter-spacing="2">VIDEO</text>
     </svg>`;
   }
-  return `<div class="thumb" data-sha="${sha}" data-type="${type || ''}">
+  return `<div class="thumb ${extraClass}" data-sha="${sha}" data-type="${type || ''}">
     ${typeFallback}
     <div class="thumb-bg" style="background-image:url('${url}');"></div>
     <div class="thumb-overlay"></div>
@@ -1271,6 +1292,7 @@ function renderGrid() {
   filteredDocs = getFiltered();
   document.getElementById('result-count').textContent = `${filteredDocs.length} documents`;
   const grid = document.getElementById('grid');
+  grid.classList.toggle('rows-view', currentView === 'rows');
   if (!filteredDocs.length) {
     const hasFilters = activeFilters.q || activeFilters.tier || activeFilters.agency || activeFilters.type || activeFilters.region || activeFilters.source;
     grid.innerHTML = `<div class="empty">
@@ -1340,6 +1362,25 @@ function renderGrid() {
       : tier === 'red'
       ? '<span class="tag-pill tier-red" title="We could not verify a summary against this document. The text below is the source\'s own description."><span class="swatch"></span>unverified</span>'
       : '<span class="tag-pill faded">queued</span>';
+    // Compact row: the same record, one line. The card grid put zero complete
+    // documents above the fold at 1440x900; rows put a dozen there.
+    if (currentView === 'rows') {
+      const loc = d.incident_location && d.incident_location !== 'N/A' ? d.incident_location : '';
+      const hit = q && (isTranscriptHit(d.sha256, q) || isBodyHit(d.sha256, q));
+      return `<article class="row" data-i="${i}" data-sha="${d.sha256}">
+        ${thumbHtml(d.sha256, d.type, 'row-thumb')}
+        <div class="row-main">
+          <div class="row-title">${hl(escapeHtml(headline), q)}${hit ? '<span class="row-hit" title="matched inside the document text">📄</span>' : ''}</div>
+          ${tldr ? `<div class="row-blurb">${tldrIsSource ? '<em>source’s own: </em>' : ''}${hl(escapeHtml(tldr.slice(0, 160)), q)}</div>` : ''}
+        </div>
+        <div class="row-agency">${escapeHtml(agencyShort(d.agency))}</div>
+        <div class="row-tier">${tierBadge}</div>
+        <div class="row-year">${displayDate(d) ? escapeHtml(String(displayDate(d)).slice(0, 10)) : '—'}</div>
+        <div class="row-loc">${loc ? hl(escapeHtml(loc), q) : ''}</div>
+        <div class="row-size">${fmt(d.bytes)}</div>
+      </article>`;
+    }
+
     return `<article class="card" data-i="${i}" data-sha="${d.sha256}">
       ${thumbHtml(d.sha256, d.type)}
       <div class="body">
@@ -1389,7 +1430,8 @@ function renderGrid() {
     };
     img.src = `extract/thumbs/${sha}.jpg`;
   }
-  for (const c of grid.querySelectorAll('.card')) {
+  // Rows and cards are the same record at two densities — both open the detail.
+  for (const c of grid.querySelectorAll('.card, .row')) {
     c.addEventListener('click', () => openDetail(parseInt(c.dataset.i)));
   }
 }
@@ -1637,16 +1679,20 @@ function renderTimeline() {
 }
 
 // ===================================================================== view switch
+// 'rows' and 'grid' are two densities of the same document list and share one
+// container; only map/network/timeline are genuinely different views.
+const usesGridContainer = v => v === 'grid' || v === 'rows';
 function switchView(name) {
   currentView = name;
   for (const b of document.querySelectorAll('.view-tabs button[data-view]')) b.classList.toggle('active', b.dataset.view === name);
   for (const id of ['vb-grid','vb-map','vb-network','vb-timeline']) document.getElementById(id).style.display = 'none';
-  document.getElementById('vb-' + name).style.display = '';
+  document.getElementById(usesGridContainer(name) ? 'vb-grid' : 'vb-' + name).style.display = '';
+  localStorage.setItem('uap-density', usesGridContainer(name) ? name : (localStorage.getItem('uap-density') || 'rows'));
   writeUrlState();
   renderCurrentView();
 }
 function renderCurrentView() {
-  if (currentView === 'grid') renderGrid();
+  if (usesGridContainer(currentView)) renderGrid();
   else if (currentView === 'map') renderMap();
   else if (currentView === 'network') renderNetwork();
   else if (currentView === 'timeline') renderTimeline();
@@ -2160,9 +2206,9 @@ document.getElementById('hero-dismiss').addEventListener('click', () => {
   // would never load and terms appearing only in document bodies would show
   // zero results. Kick the load here; it re-renders itself when ready.
   if (activeFilters.q) loadFulltextIndex();
-  // honour ?view=
-  if (currentView !== 'grid') switchView(currentView);
-  else renderGrid();
+  // honour ?view= — switchView also paints the active tab, which the default
+  // density needs too now that "Rows" and "Gallery" are separate buttons.
+  switchView(currentView);
   // honour #doc/<sha>
   const m = location.hash.match(/^#doc\/([a-f0-9]+)/);
   if (m) {

@@ -636,3 +636,82 @@ main.main {
   color: var(--text-soft);
   border-color: var(--line);
 }
+
+
+/* ============ ROWS (compact density) ============
+   The card grid put ZERO complete documents above the fold at 1440x900 — the grid
+   started at y=687 and the visible sliver of row 1 was thumbnail only. Rows put a
+   dozen full records there and cut 100 documents from ~11,300px to ~6,400px.
+   Gallery is still one click away; letterhead and redaction density read well at
+   card size, so it earns its place. */
+.grid-view.rows-view {
+  display: block;
+  padding: 0.5rem 1rem 2rem;
+}
+.row {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) 92px 108px 92px minmax(0, 140px) 72px;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+  min-height: 64px;
+}
+.row:hover { background: var(--bg-elev); }
+.row .thumb.row-thumb {
+  width: 56px; height: 40px; border-radius: 3px; overflow: hidden;
+  position: relative; flex: 0 0 56px; border: 1px solid var(--line);
+}
+/* The thumb internals are styled under `.card .thumb`, so a row inherits none of
+   them and rendered an empty grey box. Same structure, row dimensions. */
+.row .thumb.row-thumb .thumb-bg {
+  position: absolute; inset: 0;
+  background-position: center; background-size: cover; background-repeat: no-repeat;
+}
+.row .thumb.row-thumb .thumb-audio-svg,
+.row .thumb.row-thumb .thumb-video-svg {
+  position: absolute; inset: 0; width: 100%; height: 100%; display: block;
+}
+.row .thumb.row-thumb .thumb-overlay { display: none; }
+.row-main { min-width: 0; }
+.row-title {
+  font-size: 0.94rem; font-weight: 600; color: var(--text); line-height: 1.3;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.row-hit { margin-left: 0.35rem; font-size: 0.8rem; }
+.row-blurb {
+  font-size: 0.8rem; color: var(--text-soft); line-height: 1.35; margin-top: 0.1rem;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.row-blurb em { color: var(--text-dim); font-style: italic; }
+.row-agency, .row-year, .row-loc, .row-size {
+  font-size: 0.8rem; color: var(--text-dim);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.row-agency { font-weight: 500; color: var(--text-soft); }
+.row-size { text-align: right; font-feature-settings: 'tnum'; }
+.row-year { font-feature-settings: 'tnum'; }
+.row-tier .tag-pill { font-size: 0.68rem; }
+
+/* Drop columns as width tightens, cheapest signal first. Location is present on
+   only 213 of 965 records, so it goes before agency or tier. */
+@media (max-width: 1280px) {
+  .row { grid-template-columns: 56px minmax(0, 1fr) 92px 108px 92px 72px; }
+  .row-loc { display: none; }
+}
+@media (max-width: 1024px) {
+  .row { grid-template-columns: 56px minmax(0, 1fr) 108px 92px; }
+  .row-agency, .row-size { display: none; }
+}
+@media (max-width: 900px) {
+  .grid-view.rows-view { padding: 0.35rem 0.6rem 2rem; }
+  .row {
+    grid-template-columns: 48px minmax(0, 1fr) auto;
+    gap: 0.6rem; padding: 0.6rem 0.4rem;
+  }
+  .row .thumb.row-thumb { width: 48px; height: 36px; flex: 0 0 48px; }
+  .row-year { display: none; }
+  .row-title { white-space: normal; font-size: 0.9rem; }
+  .row-blurb { white-space: normal; -webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; }
+}
