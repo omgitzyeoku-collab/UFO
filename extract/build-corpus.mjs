@@ -98,6 +98,24 @@ function hasRealSpeech(p) {
     return uniq >= 8;
   } catch { return false; }
 }
+
+/**
+ * Flag cards whose body text is boilerplate we would be repeating verbatim.
+ *
+ * When we have no verified summary the card falls back to the source's own
+ * description — and the government writes those from a template. The default
+ * "newest first" sort puts the AARO mission reports first, so the landing grid
+ * opened with a dozen cards all reading "The United States X Command submitted a
+ * report of an unidentified anomalous phenomenon to the All-domain Anomaly
+ * Resolution Office...". Identical text, four lines each, zero information.
+ *
+ * Nothing is hidden: the description still shows in full on the document page.
+ * The card just stops repeating the same sentence down the page.
+ */
+function openingPhrase(s) {
+  return String(s || '').toLowerCase().replace(/[^a-z ]/g, ' ').replace(/\s+/g, ' ')
+    .trim().split(' ').slice(0, 14).join(' ');
+}
 const records = (await fs.readFile(RELEASE, 'utf8')).trim().split('\n').filter(Boolean).map(l => JSON.parse(l));
 const dedup = new Map();
 for (const r of records) if (r.sha256 && !dedup.has(r.sha256)) dedup.set(r.sha256, r);
@@ -268,6 +286,22 @@ if (qaCount < out.length * 0.5) {
   console.error('and publish unverified summaries. Fix the QA path, then rebuild.');
   process.exit(1);
 }
+
+// Second pass: a card body is boilerplate only if the same opening phrase appears
+// on more than two other records AND it is the source's text, not a summary of ours.
+const phraseCount = {};
+for (const r of out) {
+  const body = r._qa?.public_tldr || r.description || '';
+  const k = openingPhrase(body);
+  if (k) phraseCount[k] = (phraseCount[k] || 0) + 1;
+}
+let boilerplateFlagged = 0;
+for (const r of out) {
+  if (r._qa?.public_tldr) continue;            // our own summary is never boilerplate
+  const k = openingPhrase(r.description || '');
+  if (k && phraseCount[k] > 2) { r._boilerplate = true; boilerplateFlagged++; }
+}
+console.log(`  boilerplate card bodies flagged: ${boilerplateFlagged}`);
 
 await fs.writeFile(OUT, JSON.stringify(out));
 const kb = (JSON.stringify(out).length / 1024).toFixed(0);

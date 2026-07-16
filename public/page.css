@@ -324,8 +324,8 @@ main.main {
 .tag-pill.tier-amber { color: var(--tier-amber); border-color: rgba(224,176,82,0.3); }
 .tag-pill.tier-red { color: var(--bad); border-color: rgba(229,115,115,0.3); }
 /* Marks text that is the source's own description, not a summary of ours. */
-.src-desc { display:block; font-size:0.66rem; color:var(--text-dim); text-transform:uppercase;
-  letter-spacing:0.04em; margin-bottom:0.15rem; font-weight:600; }
+.src-desc { display:block; font-size:0.68rem; color:var(--text-dim);
+  margin-bottom:0.2rem; font-style: italic; opacity: 0.85; }
 .tag-pill.faded { opacity: 0.6; }
 
 .card h3 {
@@ -338,6 +338,9 @@ main.main {
   margin: 0 0 0.85rem; flex: 1;
   display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
 }
+/* A card with no body text still needs the footer pushed down, but not a
+   four-line hole where a paragraph would have been. */
+.card .tldr-none { flex: 1; min-height: 0.4rem; }
 .card-foot {
   display: flex; gap: 0.85rem; flex-wrap: wrap;
   font-size: 0.74rem; color: var(--text-dim);

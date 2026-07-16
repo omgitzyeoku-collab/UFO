@@ -631,10 +631,10 @@
     <div style="margin-left:auto; display:flex; gap:0.4rem; align-items:center;">
       <label style="font-size:0.78rem; color:var(--text-dim);">Sort</label>
       <select id="f-sort" style="background:var(--bg-elev-2); border:1px solid var(--line); color:var(--text); padding:0.3rem 0.5rem; border-radius:4px; font-size:0.8rem;">
+        <option value="verified">Verified first</option>
         <option value="newest-released">Newly released first</option>
         <option value="incident-desc">Incident date (newest)</option>
         <option value="incident-asc">Incident date (oldest)</option>
-        <option value="verified">Verified first</option>
       </select>
     </div>
   </div>
@@ -741,7 +741,7 @@ let thumbsAvailable = null;  // Set<sha> of docs with a real thumbnail
 let transcriptsAvailable = new Set();  // Set<sha> of docs with a transcript
 let transcriptSearch = {};  // { sha: lowercased transcript text } for search
 let activeFilters = { source: '', release: '', tier: '', agency: null, type: null, region: null, q: '', netFilter: '' };
-let currentSort = 'newest-released';
+let currentSort = 'verified';
 let currentView = 'grid';
 const GRID_PAGE = 120;       // cards rendered per page
 let gridLimit = GRID_PAGE;   // current render cap (bumped by "Show more")
@@ -856,6 +856,7 @@ async function loadAll() {
       .filter(rec => !rec._derivative)
       .map(rec => {
         const { _qa, _thumb, _transcript, _derivative, _parent, ...doc } = rec;
+        // _boilerplate stays on `doc` — the card reads it to suppress repeated source text.
         if (_qa) qaIndex.set(doc.sha256, { ..._qa, _hasQa: true });
         if (_thumb) thumbsAvailable.add(doc.sha256);
         if (_transcript) transcriptsAvailable.add(doc.sha256);
@@ -1313,9 +1314,12 @@ function renderGrid() {
     const { slug, headline } = splitHeadline(d, qa);
     // Only a green/amber run produces a summary of ours. For every other doc the
     // text below is the source's own description — label it, so it is never read
-    // as a summary we verified.
+    // as a summary we verified. If that description is boilerplate the government
+    // repeats across dozens of records, showing it here just prints the same
+    // sentence down the page; the document's own page still carries it in full.
     const ownSummary = qa?.public_tldr || '';
-    const tldr = ownSummary || (d.description || '').slice(0, 220);
+    const sourceText = d._boilerplate ? '' : (d.description || '').slice(0, 220);
+    const tldr = ownSummary || sourceText;
     const tldrIsSource = !ownSummary && !!tldr;
     // Red must never fall through to "queued". "Queued" means not yet processed;
     // red means we processed it and could NOT substantiate our summary against
@@ -1328,14 +1332,14 @@ function renderGrid() {
       : tier === 'red'
       ? '<span class="tag-pill tier-red" title="We could not verify a summary against this document. The text below is the source\'s own description."><span class="swatch"></span>unverified</span>'
       : '<span class="tag-pill faded">queued</span>';
-    return `<article class="card${newestRelease && d.release === newestRelease ? ' release-2' : ''}" data-i="${i}" data-sha="${d.sha256}">
+    return `<article class="card" data-i="${i}" data-sha="${d.sha256}">
       ${thumbHtml(d.sha256, d.type)}
       <div class="body">
         <div class="card-meta">
           <span class="tag-pill agency-${agencyShort(d.agency)}"><span class="swatch"></span>${escapeHtml(agencyShort(d.agency))}</span>
           ${tierBadge}
           ${newestRelease && d.release === newestRelease ? `<span class="tag-pill release-2-badge">NEW · R${newestRelease.split('_')[1]}</span>` : ''}
-          ${d.type === 'VID' ? '<span class="tag-pill">video</span>' : ''}
+
           ${d.type === 'AUD' ? '<span class="tag-pill">audio</span>' : ''}
           ${d.type === 'IMG' ? '<span class="tag-pill">image</span>' : ''}
           ${q && isTranscriptHit(d.sha256, q) ? '<span class="tag-pill" style="background:var(--accent-soft);color:var(--accent);border-color:rgba(217,119,87,0.3);">🔊 in transcript</span>' : ''}
@@ -1343,7 +1347,7 @@ function renderGrid() {
         </div>
         <h3>${hl(escapeHtml(headline), q)}</h3>
         ${slug ? `<div class="card-slug">${escapeHtml(slug)}</div>` : ''}
-        <p class="tldr">${tldrIsSource ? '<span class="src-desc">source’s own description</span>' : ''}${hl(escapeHtml(tldr.slice(0, 240)), q)}</p>
+        ${tldr ? `<p class="tldr">${tldrIsSource ? `<span class="src-desc">the source’s own description — not ours</span>` : ''}${hl(escapeHtml(tldr.slice(0, 240)), q)}</p>` : '<div class="tldr-none"></div>'}
         <div class="card-foot">
           ${displayDate(d) ? `<span>${escapeHtml(displayDate(d))}</span>` : '<span>—</span>'}
           ${d.incident_location && d.incident_location !== 'N/A' ? `<span class="dot">·</span><span>${hl(escapeHtml(d.incident_location), q)}</span>` : ''}
