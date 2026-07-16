@@ -85,9 +85,14 @@ button { font-family: inherit; cursor: pointer; }
   min-height: 100vh;
 }
 /* Sidebar collapsed (default for first-time visitors). The reading-room
-   grid takes the full width; a "Filter" pill in the appbar reopens it. */
-.app.sidebar-collapsed {
-  grid-template-columns: 0 1fr;
+   grid takes the full width; a "Filter" pill in the appbar reopens it.
+   Desktop only: below 901px the grid is a single column and the sidebar is an
+   overlay drawer. Applying a two-column template there put `main` in the 0px
+   column, so every page rendered one word per line on a phone. */
+@media (min-width: 901px) {
+  .app.sidebar-collapsed {
+    grid-template-columns: 0 1fr;
+  }
 }
 /* Desktop only. On mobile the sidebar is an overlay drawer controlled by .open;
    applying display:none at every width meant tapping ☰ painted the dim overlay
