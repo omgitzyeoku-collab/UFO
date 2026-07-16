@@ -93,6 +93,13 @@ run('qa pipeline', 'node', ['extract/qa-pipeline.mjs']);
 // 5. Thumbnails for new PDFs
 run('pdf thumbnails', 'node', ['extract/build-fbi-thumbs.mjs'], { POPPLER_BIN: POPPLER });
 
+// Poster frames for new video. Without this a new release's videos render as
+// generic play-button placeholders — which is how 105 of them shipped. Reads the
+// release manifest (not corpus.json) so it sees videos that landed this run, and
+// applies the same type resolution build-corpus does. Idempotent: existing frames
+// are skipped, so a re-run costs nothing.
+run('video poster frames', 'node', ['extract/build-video-thumbs.mjs']);
+
 // 6. Rebuild corpus + indexes
 run('build corpus', 'node', ['extract/build-corpus.mjs']);
 run('build qa-index', 'node', ['extract/build-qa-index.mjs']);

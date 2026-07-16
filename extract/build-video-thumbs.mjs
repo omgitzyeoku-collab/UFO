@@ -19,8 +19,37 @@ import { spawn } from 'node:child_process';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const OUT_DIR = path.join(ROOT, 'extract', 'thumbs');
-const corpus = JSON.parse(await fs.readFile(path.join(ROOT, 'extract/corpus.json'), 'utf8'));
-const DOCS = (Array.isArray(corpus) ? corpus : Object.values(corpus)[0]).filter(d => !d._derivative);
+
+// Read the release manifest, NOT corpus.json. In the weekly sync this step has to
+// run before build-corpus (which sets _thumb from the files on disk), so reading
+// the corpus would mean working from last week's document list and silently
+// skipping every video in the release that just landed.
+const RELEASE = path.join(ROOT, 'extract', 'release-manifest.jsonl');
+const raw = (await fs.readFile(RELEASE, 'utf8')).trim().split(/\r?\n/).filter(Boolean).map(l => JSON.parse(l));
+const seen = new Set();
+const DOCS = raw.filter(d => d.sha256 && !seen.has(d.sha256) && seen.add(d.sha256));
+
+// Resolve type exactly as build-corpus does, or this disagrees with the site about
+// what a video is. DVIDS serves both real footage and audio-only recordings in .mp4
+// containers: 109 files carry a video extension, but 12 are manifest-typed AUD, and
+// the committed overrides flip 8 of those back to VID (97 + 8 = the 105 the corpus
+// shows). Extension alone produced poster frames for four audio files.
+let typeOverrides = {};
+try { typeOverrides = JSON.parse(await fs.readFile(path.join(ROOT, 'extract', 'type-overrides.json'), 'utf8')); } catch {}
+function resolvedType(d) {
+  // Committed override wins outright — that is build-corpus's last word too.
+  if (typeOverrides[d.sha256]) return typeOverrides[d.sha256];
+  const type = d.type || 'PDF';
+  const name = (d.name || d.url || '').toLowerCase();
+  // A manifest VID whose filename says .pdf/.jpg is mislabelled at source; running
+  // ffmpeg on it would just fail. Same demotion build-corpus applies.
+  if (type === 'VID' || type === 'AUD') {
+    if (/\.pdf$/.test(name)) return 'PDF';
+    if (/\.(jpe?g|png|gif|webp|tiff?)$/.test(name)) return 'IMG';
+  }
+  return type;
+}
+const isVideo = d => resolvedType(d) === 'VID';
 
 const blobPath = sha => path.join(ROOT, 'blobs', sha.slice(0, 2), sha.slice(2, 4), sha);
 
@@ -54,7 +83,7 @@ async function duration(file) {
 
 await fs.mkdir(OUT_DIR, { recursive: true });
 
-const vids = DOCS.filter(d => d.type === 'VID');
+const vids = DOCS.filter(isVideo);
 let built = 0, skipped = 0, failed = 0;
 const failures = [];
 
