@@ -32,16 +32,17 @@ page.on('pageerror', e => consoleErrors.push(`PAGE ERROR: ${e.message}`));
 console.log(`smoke-testing ${TARGET}`);
 await page.goto(TARGET, { waitUntil: 'domcontentloaded', timeout: 60000 });
 // Wait for the app to populate at least one card before sampling
-try { await page.waitForSelector('.card', { timeout: 30000 }); } catch {}
+try { await page.waitForSelector('.card, .row', { timeout: 30000 }); } catch {}
 await page.waitForTimeout(1500);
 
 // 1. The #1 regression: <script> tag count
 const scriptCount = await page.evaluate(() => document.querySelectorAll('script').length);
 expect(`script count is ${EXPECTED_SCRIPTS}`, scriptCount === EXPECTED_SCRIPTS, `got ${scriptCount}`);
 
-// 2. App actually rendered (cards visible)
-const cards = await page.evaluate(() => document.querySelectorAll('.card').length);
-expect(`grid has cards`, cards >= 10, `got ${cards}`);
+// 2. App actually rendered. The list has two densities — Rows (default, .row) and
+// Gallery (.card) — so assert documents rendered, not one particular selector.
+const docsRendered = await page.evaluate(() => document.querySelectorAll('.card, .row').length);
+expect(`document list renders`, docsRendered >= 10, `got ${docsRendered}`);
 
 // 3. Hero stat populated (was stuck on "—" when JS broke)
 const heroStat = await page.evaluate(() => document.getElementById('hero-stat-total')?.textContent || '');
@@ -79,11 +80,11 @@ await page.fill('#q', 'roswell');
 let bodyHits = 0;
 for (let t = 0; t < 30; t++) {
   bodyHits = await page.evaluate(() =>
-    [...document.querySelectorAll('.card')].filter(c => c.textContent.includes('in document text')).length);
+    [...document.querySelectorAll('.card, .row')].filter(c => c.textContent.includes('in document text') || c.querySelector('.row-hit')).length);
   if (bodyHits >= 1) break;
   await page.waitForTimeout(500);
 }
-const roswellCards = await page.evaluate(() => document.querySelectorAll('.card').length);
+const roswellCards = await page.evaluate(() => document.querySelectorAll('.card, .row').length);
 expect(`full-text "roswell" returns results`, roswellCards >= 1, `got ${roswellCards} cards`);
 expect(`full-text body-match badge present`, bodyHits >= 1, `got ${bodyHits} body-badged cards (waited 15s)`);
 
