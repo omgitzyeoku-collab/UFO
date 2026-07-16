@@ -11,7 +11,7 @@
 // bytes and correct the type so they render as documents, not broken players.
 
 import fs from 'node:fs/promises';
-import { openSync, readSync, closeSync, existsSync, readdirSync } from 'node:fs';
+import { openSync, readSync, closeSync, existsSync, readdirSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 
 const ROOT = path.resolve('.');
@@ -86,6 +86,18 @@ function deriveIncidentYear(d, qa) {
   return null;
 }
 
+
+/** True only if a transcript contains real speech, not Whisper filler on silence. */
+function hasRealSpeech(p) {
+  if (!existsSync(p)) return false;
+  try {
+    const t = (JSON.parse(readFileSync(p, 'utf8')).text || '').trim();
+    const words = t.split(/\s+/).filter(Boolean);
+    if (words.length < 12) return false;
+    const uniq = new Set(words.map(w => w.toLowerCase().replace(/[^a-z]/g, ''))).size;
+    return uniq >= 8;
+  } catch { return false; }
+}
 const records = (await fs.readFile(RELEASE, 'utf8')).trim().split('\n').filter(Boolean).map(l => JSON.parse(l));
 const dedup = new Map();
 for (const r of records) if (r.sha256 && !dedup.has(r.sha256)) dedup.set(r.sha256, r);
@@ -135,7 +147,7 @@ function derivativeParent(d) {
 let typeOverrides = {};
 try { typeOverrides = JSON.parse(await fs.readFile(path.join(ROOT, 'extract', 'type-overrides.json'), 'utf8')); } catch {}
 
-let qaCount = 0, thumbCount = 0, transcriptCount = 0, typeCorrected = 0, derivativeCount = 0;
+let qaCount = 0, thumbCount = 0, transcriptCount = 0, typeCorrected = 0, derivativeCount = 0, tierDemoted = 0, transcriptNoise = 0;
 const out = [];
 
 for (const d of docs) {
@@ -180,8 +192,18 @@ for (const d of docs) {
   if (existsSync(qaPath)) {
     try {
       const full = JSON.parse(await fs.readFile(qaPath, 'utf8'));
+      // "No quote, no green label" is the promise the whole site rests on, but
+      // the pipeline was awarding green to documents where no fact ever matched
+      // an exact quote — 33 of them, 21 with no extractable source text at all.
+      // Those were verified against the government's CSV blurb, not the document.
+      // (DOW-UAP-PR050 says so in its own warnings, and was the homepage hero.)
+      // Enforce the promise here: green must be earned by an exact citation.
+      let tier = full.tier || null;
+      const facts = full.key_facts || [];
+      const hasExactQuote = facts.some(f => f.citation_offset && f.citation_offset.exact === true);
+      if (tier === 'green' && !hasExactQuote) { tier = 'amber'; tierDemoted++; }
       qa = {
-        tier: full.tier || null,
+        tier,
         public_headline: full.public_headline || null,
         public_tldr: full.public_tldr || null,
       };
@@ -191,8 +213,12 @@ for (const d of docs) {
 
   const thumb = existsSync(path.join(THUMBS_DIR, d.sha256 + '.jpg'));
   if (thumb) thumbCount++;
-  const transcript = existsSync(path.join(TRANSCRIPTS_DIR, d.sha256 + '.json'));
-  if (transcript) transcriptCount++;
+  // A transcript only counts if there is actually speech in it. Most of the
+  // Pentagon mission videos are silent infrared sensor footage, and Whisper
+  // hallucinates filler on silence — 95 of 105 video "transcripts" were the
+  // single word "You". Publishing that as a transcript is worse than none.
+  const transcript = hasRealSpeech(path.join(TRANSCRIPTS_DIR, d.sha256 + '.json'));
+  if (transcript) transcriptCount++; else if (existsSync(path.join(TRANSCRIPTS_DIR, d.sha256 + '.json'))) transcriptNoise++;
 
   // Derive the release tag from the medialink URL (release_0N → release_N).
   // war.gov's release-watch delta crawler hardcodes 'release_2', so a doc
@@ -252,3 +278,5 @@ console.log(`  with thumbnail:  ${thumbCount}`);
 console.log(`  with transcript: ${transcriptCount}`);
 console.log(`  type-corrected (VID/AUD→PDF/IMG): ${typeCorrected}`);
 console.log(`  derivative thumbnails flagged: ${derivativeCount} (distinct documents: ${out.length - derivativeCount})`);
+console.log(`  green→amber demoted (no exact source quote): ${tierDemoted}`);
+console.log(`  transcripts rejected as silence/filler: ${transcriptNoise}`);

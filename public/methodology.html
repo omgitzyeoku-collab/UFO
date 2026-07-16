@@ -69,8 +69,8 @@
 <h2>The labels on every document</h2>
 <p>This is the most important thing on the site. Each summary carries one of these:</p>
 <div class="tierkey">
-  <div class="row"><span class="pill green">verified</span><span>Both passes agreed, and we found the supporting sentence in the original document. <strong>847 documents.</strong></span></div>
-  <div class="row"><span class="pill amber">partial</span><span>Both passes agreed, but we couldn't pin the claim to one clean quote. Written with hedged language. <strong>7 documents.</strong></span></div>
+  <div class="row"><span class="pill green">verified</span><span>Both passes agreed, and we matched an exact quote in the original document. <strong>814 documents.</strong></span></div>
+  <div class="row"><span class="pill amber">partial</span><span>Both passes agreed, but we couldn't pin the claim to an exact quote in the source. Written with hedged language. <strong>40 documents.</strong></span></div>
   <div class="row"><span class="pill red">unverified</span><span>We could not substantiate our summary against the source, so <strong>we don't publish one</strong>. You get the original file and the document's own official description, labelled as such. <strong>88 documents.</strong></span></div>
   <div class="row"><span class="pill queue">queued</span><span>In the archive, not yet processed. <strong>23 documents.</strong></span></div>
 </div>
@@ -88,7 +88,7 @@
 <h2>What's in the archive</h2>
 <div class="numbers">
   <div><div class="n">965</div><div class="l">documents</div></div>
-  <div><div class="n">847</div><div class="l">verified</div></div>
+  <div><div class="n">814</div><div class="l">verified</div></div>
   <div><div class="n">158k</div><div class="l">searchable words</div></div>
   <div><div class="n">50,113</div><div class="l">connections</div></div>
 </div>
@@ -104,8 +104,8 @@
 <p>In plain terms, four things happen:</p>
 <ol>
 <li><strong>We copy it.</strong> A crawler downloads the file from the government site and fingerprints it. The original is never modified.</li>
-<li><strong>We read it.</strong> Modern PDFs give clean text directly. Old scans and photographed pages go through OCR (optical character recognition). Video is transcribed automatically — all 105 of them. Audio is too, where it will decode: 3 of the 4 recordings.</li>
-<li><strong>We summarise it — then attack the summary.</strong> One pass writes the summary. A second, independent pass re-reads the original with no knowledge of the first pass's reasoning and marks every claim as supported, contradicted, or absent. Where they disagree, a third pass re-reads the source and settles it — usually by deleting the claim. Finally we search the source text for a quote backing each surviving claim; no quote, no green label.</li>
+<li><strong>We read it.</strong> Modern PDFs give clean text directly. Old scans and photographed pages go through OCR (optical character recognition). Audio is transcribed automatically — all 4 recordings. Video too, but most of it is silent infrared sensor footage with nothing to transcribe: only 10 of 105 videos contain speech, and we publish a transcript only for those.</li>
+<li><strong>We summarise it — then attack the summary.</strong> One pass writes the summary. A second, independent pass re-reads the original with no knowledge of the first pass's reasoning and marks every claim as supported, contradicted, or absent. Where they disagree, a third pass re-reads the source and settles it — usually by deleting the claim. Finally we search the source text for a quote backing each surviving claim; no exact quote, no green label.</li>
 <li><strong>We connect it.</strong> Documents sharing distinctive things — a person, a place, a project name, a sensor — get linked. Rare shared details count for more than common ones, so "USCENTCOM" links weakly and a named individual links strongly.</li>
 </ol>
 

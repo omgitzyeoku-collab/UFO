@@ -89,8 +89,13 @@ button { font-family: inherit; cursor: pointer; }
 .app.sidebar-collapsed {
   grid-template-columns: 0 1fr;
 }
-.app.sidebar-collapsed .sidebar {
-  display: none;
+/* Desktop only. On mobile the sidebar is an overlay drawer controlled by .open;
+   applying display:none at every width meant tapping ☰ painted the dim overlay
+   with no drawer behind it — filters were unreachable on every phone. */
+@media (min-width: 901px) {
+  .app.sidebar-collapsed .sidebar {
+    display: none;
+  }
 }
 .filter-pill {
   display: inline-flex; align-items: center; gap: 0.4rem;
@@ -462,9 +467,25 @@ main.main {
 }
 .detail-body dt { color: var(--text-dim); font-family: var(--ff-mono); font-size: 0.78rem; }
 .detail-body dd { margin: 0; color: var(--text); }
-.detail-body .conf-amber dd::after {
+/* The confidence class sits ON the dd, so a descendant selector (.conf-amber dd)
+   matched nothing and every unquoted fact rendered as if it were source-verified. */
+.detail-body dd.conf-green::after {
+  content: ' ✓'; color: var(--tier-green); font-size: 0.85em;
+}
+.detail-body dd.conf-amber::after {
   content: ' ⚠'; color: var(--warn); font-size: 0.85em;
 }
+/* Derived from the record's metadata, not from the document's own text. */
+.detail-body dd.conf-metadata-only::after {
+  content: ' ⚠ from metadata, not the document';
+  color: var(--text-dim); font-size: 0.72em; font-style: italic;
+}
+.detail-body .facts-note {
+  font-size: 0.72rem; color: var(--text-dim); margin: 0.2rem 0 0.7rem;
+}
+.detail-body .conf-key { font-weight: 700; }
+.detail-body .conf-key.green { color: var(--tier-green); }
+.detail-body .conf-key.amber { color: var(--warn); }
 .detail-body .caveats {
   margin-top: 1.2rem; padding: 0.85rem 1.1rem;
   background: var(--bg-elev-2); border-radius: var(--radius-sm);
@@ -516,7 +537,7 @@ main.main {
   }
   aside.sidebar {
     position: fixed; top: var(--header-h); left: 0; bottom: 0;
-    width: 80vw; max-width: 320px; z-index: 40;
+    width: 80vw; max-width: 320px; z-index: 600;
     transform: translateX(-100%); transition: transform 0.2s;
   }
   aside.sidebar.open { transform: translateX(0); }

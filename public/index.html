@@ -463,13 +463,14 @@
     .appbar nav a { font-size: 0.82rem; }
     .search input { font-size: 0.88rem; }
     .mobile-menu-btn { display: inline-flex; }
-    .sidebar {
+    aside.sidebar {
       position: fixed; top: 0; left: 0; height: 100vh; width: min(320px, 85vw);
+      max-height: 100vh;
       transform: translateX(-100%); transition: transform 0.2s;
       z-index: 600; box-shadow: 0 0 24px rgba(0,0,0,0.5);
       overflow-y: auto;
     }
-    .sidebar.open { transform: translateX(0); }
+    aside.sidebar.open { transform: translateX(0); }
     .sidebar-overlay {
       position: fixed; inset: 0; background: rgba(0,0,0,0.5);
       display: none; z-index: 500;
@@ -543,12 +544,10 @@
 
   <h3>Release</h3>
   <div class="filter-group">
+    <!-- Options are generated from the corpus at runtime; hardcoding them left
+         releases 3 and 4 unreachable from the UI. -->
     <select id="f-release">
       <option value="">All releases</option>
-      <option value="release_2">Release 2 (2026-05-22) NEW</option>
-      <option value="release_1">Release 1 (2026-05-08)</option>
-      <option value="nara-electronic">NARA electronic (NRC/FAA/ODNI/OSD)</option>
-      <option value="fbi-vault">FBI Vault (1947-77)</option>
     </select>
   </div>
 
@@ -599,7 +598,7 @@
     <div class="start-grid">
       <section class="start-card">
         <h2>Start with the footage</h2>
-        <p class="start-sub">The material you don't have to read. Every video is transcribed.</p>
+        <p class="start-sub">The material you don't have to read. Most of the video is silent sensor footage; the 14 items with speech carry a transcript.</p>
         <div class="chips" id="hero-media-chips"></div>
         <div id="hero-featured"></div>
       </section>
@@ -1039,6 +1038,24 @@ function computeNewestRelease() {
   }
   return newestRelease;
 }
+// Build the Release dropdown from what is actually in the corpus. It was static
+// markup listing only R1/R2, so the two newest releases had no option at all and
+// ?release=release_4 left the select rendering blank (selectedIndex -1).
+function renderReleaseOptions() {
+  const sel = document.getElementById('f-release');
+  if (!sel) return;
+  const counts = {};
+  for (const d of corpus) if (d.release) counts[d.release] = (counts[d.release] || 0) + 1;
+  const keys = Object.keys(counts).sort((a, b) => {
+    const ra = releaseRank(a), rb = releaseRank(b);
+    if (ra !== rb) return rb - ra;              // newest release first
+    return a.localeCompare(b);                   // then the named sets
+  });
+  sel.innerHTML = '<option value="">All releases</option>' + keys.map(k =>
+    `<option value="${escapeAttr(k)}">${escapeHtml(releaseLabel(k))} (${counts[k]})${k === newestRelease ? ' — newest' : ''}</option>`
+  ).join('');
+  sel.value = activeFilters.release || '';
+}
 // ===================================================================== start here
 // Reader-facing labels for the agency codes. The value is the raw agency key so
 // the link drives the existing ?agency= filter unchanged.
@@ -1133,6 +1150,7 @@ function renderSidebar() {
   setHero('hero-stat-r2', `${r2Count} in Release 2`);
 
   computeNewestRelease();
+  renderReleaseOptions();
   renderStartHere(byAgency, byType);
 
   function facet(elId, kvs, filterKey, max = 30) {
@@ -1687,7 +1705,12 @@ async function openDetail(idx) {
   const isVid = d.type === 'VID' || /\.mp4$/i.test(d.name || '');
   const headline = qa?.public_headline || d.title || d.name;
   const tldr = qa?.public_tldr;
-  const narrative = qa?.public_narrative;
+  // public_narrative is a string in 890 QA files and an array in one, and calling
+  // .split() on the array threw, killing the whole detail panel for that document.
+  // Normalise rather than trusting the pipeline's shape.
+  const rawNarrative = qa?.public_narrative;
+  const narrative = Array.isArray(rawNarrative) ? rawNarrative.join(String.fromCharCode(10, 10))
+    : (typeof rawNarrative === 'string' ? rawNarrative : '');
   const caveats = qa?.public_caveats || [];
   const keyFacts = qa?.key_facts || [];
 
@@ -1723,11 +1746,16 @@ async function openDetail(idx) {
     ${narrative ? `<div class="narrative">${narrative.split('\n\n').map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>`
       : `<div class="narrative" style="opacity:0.7;"><p>${escapeHtml(d.description || 'Plain-English summary not yet generated. The QA pipeline is still processing this document.')}</p></div>`}
 
-    ${keyFacts.length ? `<h4>Verified facts</h4>
+    ${keyFacts.length && qa?.tier !== 'red' ? `<h4>Extracted facts</h4>
+      <p class="facts-note">Marked <span class="conf-key green">✓</span> where we matched an exact quote in the source, <span class="conf-key amber">⚠</span> where we could not.</p>
       <dl>${keyFacts.map(f => `
         <dt class="conf-${f.confidence}">${escapeHtml(f.field)}</dt>
         <dd class="conf-${f.confidence}">${escapeHtml(f.value)}</dd>`).join('')}
       </dl>` : ''}
+    ${keyFacts.length && qa?.tier === 'red' ? `<div class="caveats">
+      <h4>Why there is no summary here</h4>
+      <p style="margin:0;font-size:0.85rem;">We extracted claims from this document but could not match them to an exact quote in the source, so we do not publish them. Read the original — it is linked above — and judge it yourself.</p>
+    </div>` : ''}
 
     ${caveats.length ? `<div class="caveats">
       <h4>What to know</h4>
@@ -2028,7 +2056,7 @@ document.getElementById('notify-dismiss').addEventListener('click', () => {
 // Featured cards (hand-picked headline docs).
 // SHAs of the highest-attention items in the corpus.
 const FEATURED = [
-  { sha: 'b542f90ec7370c64e60bf831bc41e44de8957f4d893538e1ecbb1ccef0e1ef9d', label: 'Iran · 4 UFOs in formation', sub: '2022 IR video' },
+  { sha: 'b542f90ec7370c64e60bf831bc41e44de8957f4d893538e1ecbb1ccef0e1ef9d', label: 'CENTCOM · four objects on IR', sub: '2022 · location uploader-stated' },
   { sha: '084af52858fd2a0fcaae8e0d0bcd92d30e4588b26cc2015e5e543883a1bf6b6d', label: 'Apollo 12 · streaks of light', sub: '1969 audio · transcribed' },
   { sha: 'c813e10e633f440918cb31dfe11ac7caa35113d91c5f6edcea44fd90fc0e71cd', label: 'FBI Vault · UFO Part 01', sub: 'Roswell era · 1947-77' },
   { sha: 'db2a52321cac35dde1b7df8a3cbfa8d1b6c4e1be91e2c93cebec71f6b8da7e8b', label: 'Tyndall · USCG TIC TAC IR', sub: '2024 video' },
