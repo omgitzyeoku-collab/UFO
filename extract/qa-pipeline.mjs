@@ -282,9 +282,17 @@ async function runPipeline(d) {
   const greenCount = verified.verifiable_claims.filter(c => c.confidence === 'green').length;
   const amberCount = verified.verifiable_claims.filter(c => c.confidence === 'amber').length;
   const redCount = verified.verifiable_claims.filter(c => c.confidence === 'red').length;
+  // Green REQUIRES at least one exact-quote claim. The old middle branch,
+  // `(amberCount >= 1 && verified.core_summary) -> green`, awarded green to
+  // documents whose only substantiation was an amber claim — an amber claim is
+  // by definition one with NO exact source quote. That is the exact failure this
+  // project exists to prevent, and it put 33 unquoted documents in the verified
+  // pile (21 with no extractable source text at all, "verified" against a
+  // catalogue blurb). build-corpus already re-gates this; now the pipeline agrees
+  // at source. "No exact quote, no green."
   verified.tier =
     verified.fabrication_score != null && verified.fabrication_score >= 5 ? 'red' :
-    (greenCount >= 1 || (amberCount >= 1 && verified.core_summary)) ? 'green' :
+    greenCount >= 1 ? 'green' :
     verified.core_summary ? 'amber' : 'red';
   verified.confidence_breakdown = { green: greenCount, amber: amberCount, red: redCount };
   verified.qa_pipeline_version = '1.0';

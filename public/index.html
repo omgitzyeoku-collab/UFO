@@ -937,7 +937,11 @@ function hydrateQa(sha) {
   const p = (async () => {
     try {
       const r = await fetch(`extract/public/${sha}.json`);
-      if (r.ok) qaIndex.set(sha, { ...(await r.json()), _hasQa: true, _full: true });
+      // The corpus tier is the authoritative one — build-corpus applies the
+      // exact-quote gate to it. The per-doc file's stored tier can be stale (green
+      // where the gate would demote to amber), so it must NOT overwrite the corpus
+      // tier here, or a doc shows "partial" in the grid and "verified" on open.
+      if (r.ok) qaIndex.set(sha, { ...(await r.json()), tier: summary.tier, _hasQa: true, _full: true });
     } catch {}
   })();
   qaHydrating.set(sha, p);
