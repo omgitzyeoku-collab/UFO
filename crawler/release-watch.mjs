@@ -53,9 +53,13 @@ const csvBytes = csvRes.text.length;
 console.log(`csv sha=${csvSha.slice(0,12)} bytes=${csvBytes}`);
 
 if (csvSha === prevSha) {
-  console.log('CSV unchanged. No new release. Exiting cleanly.');
-  state.last_check = NOW;
-  await fs.writeFile(STATE_FILE, JSON.stringify(state, null, 2));
+  // Deliberately do NOT write the state file here. Writing last_check on every run
+  // dirtied the working tree, so the workflow's `git status --porcelain` check saw a
+  // change and committed "release-watch: new release detected" — 304 times, 6 a day,
+  // every one of them false, each triggering a production deploy. A real release was
+  // indistinguishable from the noise. The run log and the Actions history already
+  // record when the watcher ran; the repo does not need a heartbeat commit.
+  console.log('CSV unchanged. No new release. Exiting cleanly (state file untouched).');
   process.exit(0);
 }
 

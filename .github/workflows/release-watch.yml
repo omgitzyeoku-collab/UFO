@@ -55,11 +55,21 @@ jobs:
       - name: Detect changes
         id: diff
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
+          # Guard against a heartbeat-only change. The watcher used to rewrite
+          # last_check every run, which made this step fire on all 6 daily runs and
+          # commit "new release detected" 304 times without a single real release.
+          # The crawler no longer writes on the no-change path; this is the backstop.
+          CHANGED="$(git status --porcelain)"
+          if [ -z "$CHANGED" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No change — nothing to commit."
+          elif [ "$(git diff --name-only; git ls-files -o --exclude-standard)" = "docs/release-watch-state.json" ]                && [ -z "$(git diff -U0 -- docs/release-watch-state.json | grep -E '^[+-]\s*"' | grep -v last_check)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Only last_check moved — heartbeat, not a release. Discarding."
+            git checkout -- docs/release-watch-state.json
+          else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             git status --short | head -20
-          else
-            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Commit and push
