@@ -32,6 +32,7 @@ const QA_DIR = QA_DIR_CANDIDATES.find(d => {
 }) || QA_DIR_CANDIDATES[0];
 const THUMBS_DIR = path.join(ROOT, 'extract', 'thumbs');
 const TRANSCRIPTS_DIR = path.join(ROOT, 'extract', 'transcripts');
+const TEXT_DIR = path.join(ROOT, 'extract', 'text');
 const OUT = path.join(ROOT, 'extract', 'corpus.json');
 
 // Detect real file type from the blob's first bytes.
@@ -229,6 +230,14 @@ for (const d of docs) {
     } catch {}
   }
 
+  // Does this record have ANY readable text — an extracted text layer, or a
+  // transcript with real speech? 97 records have neither: silent infrared sensor
+  // video, and images. They are not "queued" (which promises we will get to them);
+  // there is nothing to get to. A summary cannot be verified against a source that
+  // has no words, and no amount of reprocessing changes that. Flag it so the site
+  // can say so plainly instead of implying a backlog it will never clear.
+  const hasText = existsSync(path.join(TEXT_DIR, d.sha256 + '.txt'));
+
   const thumb = existsSync(path.join(THUMBS_DIR, d.sha256 + '.jpg'));
   if (thumb) thumbCount++;
   // A transcript only counts if there is actually speech in it. Most of the
@@ -254,6 +263,9 @@ for (const d of docs) {
     // A thumbnail of _parent, not a document in its own right. The site excludes
     // these from the corpus so they are neither counted nor rendered as cards.
     ...(parentSha ? { _derivative: true, _parent: parentSha } : {}),
+    // No extracted text and no real-speech transcript: nothing exists to verify a
+    // summary against. Drives the "media only" label instead of "queued".
+    ...((!hasText && !transcript) ? { _notext: true } : {}),
     agency: canonAgency(d.agency),
     incident_date: d.incident_date || null,
     incident_year: deriveIncidentYear(d, qa),

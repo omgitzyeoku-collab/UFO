@@ -582,7 +582,7 @@
       <option value="green">Verified only</option>
       <option value="amber">Partial</option>
       <option value="red">Unverified</option>
-      <option value="awaiting">Awaiting QA</option>
+      <option value="awaiting">Media only (no text)</option>
     </select>
   </div>
 
@@ -1253,7 +1253,7 @@ function renderActiveFilters() {
   const chips = [];
   if (activeFilters.source) chips.push(['source', `source: ${activeFilters.source}`]);
   if (activeFilters.release) chips.push(['release', `release: ${releaseLabel(activeFilters.release)}`]);
-  if (activeFilters.tier) chips.push(['tier', `tier: ${activeFilters.tier}`]);
+  if (activeFilters.tier) chips.push(['tier', `tier: ${activeFilters.tier === 'awaiting' ? 'media only' : activeFilters.tier}`]);
   if (activeFilters.agency) chips.push(['agency', `agency: ${activeFilters.agency}`]);
   if (activeFilters.type) chips.push(['type', `type: ${activeFilters.type}`]);
   if (activeFilters.region) chips.push(['region', `region: ${activeFilters.region}`]);
@@ -1404,6 +1404,8 @@ function renderGrid() {
       ? '<span class="tag-pill tier-amber"><span class="swatch"></span>partial</span>'
       : tier === 'red'
       ? '<span class="tag-pill tier-red" title="We could not verify a summary against this document. The text below is the source\'s own description."><span class="swatch"></span>unverified</span>'
+      : d._notext
+      ? '<span class="tag-pill faded" title="Silent or image-only media with no readable text. There is no source text to check a summary against, so we publish none.">media only</span>'
       : '<span class="tag-pill faded">queued</span>';
     // Compact row: the same record, one line. The card grid put zero complete
     // documents above the fold at 1440x900; rows put a dozen there.
@@ -1840,7 +1842,8 @@ async function openDetail(idx) {
     ${qa?.tier === 'green' ? '<span class="tag-pill tier-green"><span class="swatch"></span>verified</span>' : ''}
     ${qa?.tier === 'amber' ? '<span class="tag-pill tier-amber"><span class="swatch"></span>partial</span>' : ''}
     ${qa?.tier === 'red' ? '<span class="tag-pill tier-red"><span class="swatch"></span>unverified</span>' : ''}
-    ${!qa ? '<span class="tag-pill faded">awaiting QA</span>' : ''}
+    ${!qa && d._notext ? '<span class="tag-pill faded" title="No readable text in this file">media only</span>' : ''}
+    ${!qa && !d._notext ? '<span class="tag-pill faded">awaiting QA</span>' : ''}
     ${d.type === 'VID' ? '<span class="tag-pill">video</span>' : ''}
     ${d.source && d.source !== 'war.gov' ? `<span class="tag-pill">${escapeHtml(d.source)}</span>` : ''}
   `;
@@ -1855,7 +1858,9 @@ async function openDetail(idx) {
     ${isVid ? `<video class="detail-video" data-audio-sha="${d.sha256}" src="${escapeAttr(d.release_url)}" controls preload="metadata" poster="extract/thumbs/${d.sha256}.jpg"></video>` : ''}
     ${tldr ? `<div class="tldr">${escapeHtml(tldr)}</div>` : ''}
     ${narrative ? `<div class="narrative">${narrative.split('\n\n').map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>`
-      : `<div class="narrative" style="opacity:0.7;"><p>${escapeHtml(d.description || 'Plain-English summary not yet generated. The QA pipeline is still processing this document.')}</p></div>`}
+      : `<div class="narrative" style="opacity:0.7;"><p>${escapeHtml(d.description || (d._notext
+          ? 'This is silent or image-only media — there is no readable text in the file. We cannot check a summary against a source that has no words, so we publish none and show you the original instead.'
+          : 'Plain-English summary not yet generated. The QA pipeline is still processing this document.'))}</p></div>`}
 
     ${keyFacts.length && qa?.tier !== 'red' ? `<h4>Extracted facts</h4>
       <p class="facts-note">Marked <span class="conf-key green">✓</span> where we matched an exact quote in the source, <span class="conf-key amber">⚠</span> where we could not.</p>
