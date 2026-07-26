@@ -1,0 +1,87 @@
+{
+  "sha256": "92ae47295e427519e9189d241db01823223b6c232125ea8015a603100f80b6c2",
+  "title": "NASA-UAP-VM004, Apollo 12, 1969",
+  "agency": "NASA",
+  "type": "IMG",
+  "incident_date": "1969",
+  "incident_location": "Moon",
+  "what_is_it": "An archival NASA photograph from the Apollo 12 mission (1969), annotated by the releasing agency to highlight an area of interest.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No source text was extractable; all facts derive from war.gov metadata and the CSV blurb only.",
+    "The image has been visually modified by the releasing agency; highlighting marks an area of interest but is explicitly not an analytical conclusion.",
+    "The 'unidentified phenomena' are undescribed — no shape, size, or nature is given.",
+    "Single-source: characterisation rests entirely on NASA's own annotation, with no independent analysis provided.",
+    "Lunar surface photographs commonly show optical artefacts (lens flare, dust, film defects); the annotation does not rule these out."
+  ],
+  "fabrication_score": 5,
+  "key_facts": [
+    {
+      "field": "Mission",
+      "value": "Apollo 12",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Year",
+      "value": "1969",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Location",
+      "value": "Moon (Apollo 12 landing site)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Releasing agency",
+      "value": "NASA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Catalogue reference",
+      "value": "NASA-UAP-VM004",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Moon"
+  ],
+  "dated_events": [
+    "1969"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The image was taken during the Apollo 12 mission in 1969.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-26T06:16:25.046Z",
+  "qa_completed_at": "2026-07-26T06:17:19.689Z",
+  "timing": {
+    "A": "18.4s",
+    "B": "36.2s"
+  }
+}

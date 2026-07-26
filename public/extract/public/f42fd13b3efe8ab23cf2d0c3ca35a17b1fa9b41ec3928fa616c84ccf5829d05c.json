@@ -1,0 +1,158 @@
+{
+  "sha256": "f42fd13b3efe8ab23cf2d0c3ca35a17b1fa9b41ec3928fa616c84ccf5829d05c",
+  "title": "NASA-UAP-D023, Interview Excerpt with Astronaut Gordon Cooper, 1962",
+  "agency": "NASA",
+  "type": "AUD",
+  "incident_date": "November, 1962",
+  "what_is_it": "An auto-transcribed excerpt of a 1962 television interview, in which a journalist questions an astronaut about unidentified flying objects and the possibility of extraterrestrial life.",
+  "core_summary": "In this interview excerpt, the astronaut says a large number of well-qualified people have seen objects with no logical explanation, though he allows each sighting may individually have one. He speculates that among the thousands of possible other planets with a livable atmosphere, some might host human-type life, and that some of these objects could conceivably originate there. He also notes that Mercury flights only reach about a hundred miles up, far too low to make observations on this question, and touches on the 'snowflakes'/'fireflies' seen from capsules.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Auto-transcribed audio — names are garbled (e.g. 'Sharon Carpenter' likely the astronauts Schirra/Carpenter; 'something of this time' may be a mis-transcription).",
+    "The astronaut's remarks are personal opinion and speculation, not evidence or official findings.",
+    "Single-source excerpt of a longer 1962 interview; surrounding context is missing.",
+    "Speaker explicitly allows that each sighting may have a conventional explanation, so this is not a claim of proven extraterrestrial objects."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Speaker's claim about witnesses",
+      "value": "Many exceptionally well-qualified people have seen objects lacking a logical explanation",
+      "source_quote": "a large number of fairly well-qualified, or exceptionally well-qualified people who have seen objects that have not had any really logical explanation",
+      "citation_offset": {
+        "offset": 59,
+        "len": 150,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Caveat",
+      "value": "Each sighting may nonetheless individually have an explanation",
+      "source_quote": "I think that maybe in fact each and every one of them does have an explanation",
+      "citation_offset": {
+        "offset": 227,
+        "len": 78,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Speculation on life",
+      "value": "Thousands of other planets may have a livable atmosphere and some form of human life",
+      "source_quote": "so many thousands of possibilities of other planets out somewhere in the universe that would have a livable atmosphere",
+      "citation_offset": {
+        "offset": 357,
+        "len": 118,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Space reach",
+      "value": "Mercury flights reach only about a hundred miles, too low for meaningful observation",
+      "source_quote": "we're only getting out a hundred miles or so",
+      "citation_offset": {
+        "offset": 1051,
+        "len": 44,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Capsule 'snowflakes'",
+      "value": "Discussion of the snowflake/firefly effect thought to be frost off the capsule",
+      "source_quote": "The snowflakes, the fireflies... it's frost or some nature off of the capsule",
+      "citation_offset": {
+        "offset": 1212,
+        "len": 42,
+        "exact": false,
+        "matched": "'s frost or some nature off of the capsule"
+      },
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [
+    "Carpenter",
+    "Glenn"
+  ],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [
+    "unidentified flying objects",
+    "Mercury spacecraft/capsule",
+    "snowflakes / fireflies (frost particles seen from capsule)"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "A large number of exceptionally well-qualified people have seen objects with no logical explanation",
+      "source_quote": "a large number of fairly well-qualified, or exceptionally well-qualified people who have seen objects that have not had any really logical explanation",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 59,
+        "len": 150,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The speaker would not rule out that some planets with a livable atmosphere host people or some type of human life",
+      "source_quote": "I would hate to rule out. The possibility that maybe there are people or some type of human life on some of these",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 481,
+        "len": 113,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "Mercury flights only reach roughly a hundred miles, a low order of getting into space",
+      "source_quote": "we're still at a fairly low order of getting out into space... we're only getting out a hundred miles or so",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 909,
+        "len": 55,
+        "exact": false,
+        "matched": "we're still at a fairly low order of getting out into s"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "Carpenter regarded the 'snowflakes' as frost off the capsule, but Glenn cast doubt on that theory",
+      "source_quote": "seem to feel that it's frost or some nature off of the capsule, but apparently Glenn still sort of cast doubt on that theory",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1192,
+        "len": 124,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 3,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-26T06:23:51.464Z",
+  "qa_completed_at": "2026-07-26T06:24:47.506Z",
+  "timing": {
+    "A": "27.2s",
+    "B": "28.8s",
+    "E": "16.8s"
+  },
+  "public_headline": "Astronaut Gordon Cooper discusses UFO sightings in 1962 interview",
+  "public_tldr": "This is an auto-transcribed excerpt of a 1962 television interview in which a journalist questions astronaut Gordon Cooper about unidentified flying objects (UFOs) and the possibility of extraterrestrial life. Cooper says many well-qualified people have seen objects with no logical explanation, while allowing that each sighting may individually have one, and speculates that some of the thousands of other planets with a livable atmosphere might host human-type life. The record is one speaker's personal opinion from a single interview, not evidence or an official finding.",
+  "public_narrative": "This document is an audio excerpt, transcribed automatically, from a 1962 television interview held by NASA (the US National Aeronautics and Space Administration). In it, a journalist questions astronaut Gordon Cooper about unidentified flying objects — commonly called UFOs — and whether life might exist elsewhere.",
+  "public_caveats": [
+    "This is one astronaut's personal opinion and speculation from a 1962 interview — not evidence, an investigation, or an official NASA finding.",
+    "The speaker explicitly allows that each individual sighting may have a conventional explanation, so this is not a claim of proven extraterrestrial objects.",
+    "The record is a single-source excerpt of a longer interview; the surrounding context is missing.",
+    "It was transcribed automatically from audio, so some names and words are garbled (for example, references to fellow astronauts Carpenter and Glenn).",
+    "There is little sign of redaction here; the limits are the informal, speculative nature of the remarks, not withheld material."
+  ]
+}

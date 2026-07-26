@@ -1,0 +1,79 @@
+{
+  "sha256": "7f1c6a3220d6c59013fbc04f0011867ee5caf77f439fb6ecc6f7e80b0232ea55",
+  "title": "NASA-UAP-VM001, Apollo 12, 1969",
+  "agency": "NASA",
+  "type": "IMG",
+  "incident_date": "1969",
+  "incident_location": "Moon",
+  "what_is_it": "An archival NASA photograph of the lunar surface from the Apollo 12 mission, modified to highlight an area of interest.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No source text was extractable from the file; this extraction relies entirely on war.gov metadata and the CSV description.",
+    "The image has been visually modified/highlighted by the releasing agency, which can bias a viewer toward seeing a feature as anomalous.",
+    "NASA explicitly disclaims any factual or analytical conclusion about the highlighted 'unidentified phenomena' — the label does not confirm an anomaly.",
+    "Photographic artefacts (lens flare, film defects, reflections, dust) are common explanations for such features and cannot be ruled out from metadata alone.",
+    "Single-source item with no accompanying analysis, chain of custody, or original unmodified image provided."
+  ],
+  "fabrication_score": 6,
+  "key_facts": [
+    {
+      "field": "Document ID",
+      "value": "NASA-UAP-VM001",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Mission",
+      "value": "Apollo 12",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Year",
+      "value": "1969",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Agency",
+      "value": "NASA",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Location",
+      "value": "Moon (lunar surface)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Moon"
+  ],
+  "dated_events": [
+    "1969"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-26T06:14:09.890Z",
+  "qa_completed_at": "2026-07-26T06:14:57.030Z",
+  "timing": {
+    "A": "18.3s",
+    "B": "28.9s"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "sha256": "b6db4902491033aa6ce5c36da367747b16ae4f2344739b27f0b4729f6d090e98",
+  "title": "FBI-UAP-PR001, “Triangle Orbs,” Northeastern United States, 2021",
+  "agency": "FBI",
+  "type": "VID",
+  "incident_date": "November, 2021",
+  "incident_location": "Northeastern United States",
+  "what_is_it": "A metadata record for an FBI-held video (VID) exhibit showing an unidentified aerial phenomenon, released as part of the war.gov/UFO/ PURSUE collection.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Single-source account: all observational detail comes from one eyewitness, not independent sensors or corroborating witnesses.",
+    "The FBI's 'highly credible' label is an assessment of the witness, not verification that the object was anomalous.",
+    "Estimates of distance (2,000 feet) and altitude are witness approximations, not instrument measurements.",
+    "Hand-held iPhone recording introduced 'unintended camera movement', which can distort perceived motion of lights.",
+    "The PDF itself yielded no extractable text; this summary rests almost entirely on the war.gov CSV description and metadata.",
+    "A low-light 0500 observation of point-like lights is prone to misidentification of conventional aircraft, drones, or astronomical sources."
+  ],
+  "fabrication_score": 6,
+  "key_facts": [
+    {
+      "field": "Agency",
+      "value": "FBI (Federal Bureau of Investigation)",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Exhibit ID",
+      "value": "FBI-UAP-PR001",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident date",
+      "value": "November 2021",
+      "source_quote": "In November 2021, at approximately 0500 local time in the northeastern United States",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Northeastern United States"
+  ],
+  "dated_events": [
+    "November 2021"
+  ],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The event occurred in November 2021 at approximately 0500 local time in the northeastern United States.",
+      "source_quote": "In November 2021, at approximately 0500 local time in the northeastern United States",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "amber"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 1,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-26T06:18:57.360Z",
+  "qa_completed_at": "2026-07-26T06:20:05.591Z",
+  "timing": {
+    "A": "26.8s",
+    "B": "41.4s"
+  }
+}

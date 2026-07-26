@@ -1,0 +1,220 @@
+{
+  "sha256": "d8a387fc4350ad6e9a14aae784b011f5e5bbd24799e6d3b079a0901ab6478a5c",
+  "title": "NASA-UAP-D025, “Apollo 16 Scientific Debriefing”",
+  "agency": "NASA",
+  "type": "AUD",
+  "incident_location": "Houston, Texas",
+  "what_is_it": "An auto-transcribed audio recording of a NASA post-mission scientific debriefing for the Apollo 16 lunar mission, covering the orbital science experiments.",
+  "core_summary": "Scientists debrief the crew on results from Apollo 16's orbital instruments — mapping/panoramic cameras, laser altimeter, a magnetometer sub-satellite, particles-and-fields detectors, and gravity tracking. The transcript covers data losses from a shortened mission, hardware problems (a bent stellar-camera glare shield, film shavings, altimeter dropouts), and lunar magnetic and gravity anomalies. The single 'alien star base' remark is an off-hand joke by a scientist while noting that a magnetic dip and a gravity hole over the Van de Graff crater coincide with no clear physical explanation.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The 'alien star base' line is an off-hand joke by a scientist about an unexplained correlation between magnetic and gravity data over a lunar crater — it describes no observed object and asserts nothing factual.",
+    "This is a machine transcription of audio: many proper names and lunar-feature names are garbled (e.g. 'landing graph' for Van de Graff, 'corollove' for Korolev), so specifics should be treated cautiously.",
+    "The document contains no UAP or unidentified-object observation; the CSV description overstates the significance of a single humorous aside.",
+    "Full names of participants are largely absent from the transcript; most speakers are identified only by first name or not at all."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Mission",
+      "value": "Apollo 16 orbital science debriefing",
+      "source_quote": "This is a plan coverage for the 16 mission",
+      "citation_offset": {
+        "offset": 1238,
+        "len": 42,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Photographic coverage achieved",
+      "value": "About 90% of pre-mission plan",
+      "source_quote": "the effectiveness of the pen of the coverage was about 90% of what we had hoped for pre-mission",
+      "citation_offset": {
+        "offset": 605,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Laser altimeter operating time",
+      "value": "14.5 hours of a planned ~20 hours (down ~25%)",
+      "source_quote": "We had planned a total of 20 hours and a few minutes of operating time. We got 14 hours and a half",
+      "citation_offset": {
+        "offset": 3785,
+        "len": 98,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Altimeter firings",
+      "value": "2,106 recorded of 3,283 planned (down ~30%)",
+      "source_quote": "A total number of firings, 3283 and 2106 is the actual number that was recorded",
+      "citation_offset": {
+        "offset": 4109,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Positional accuracy from photography",
+      "value": "10 to 12 metres in position and elevation",
+      "source_quote": "positional coordinates of features on the lunar surface with the... accuracy of 10 to 12 meters in position and in elevation",
+      "citation_offset": {
+        "offset": 6206,
+        "len": 60,
+        "exact": false,
+        "matched": "positional coordinates of features on the lunar surface with"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Van de Graff magnetic anomaly",
+      "value": "Large magnetic dip over/near the Van de Graff crater",
+      "source_quote": "the big result is this really huge magnetic dip going over the landing graph crater",
+      "citation_offset": {
+        "offset": 21502,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "'Alien star base' remark context",
+      "value": "Off-hand joke about a coinciding magnetic dip and gravity hole with no explanation",
+      "source_quote": "I don't know what it means. It could be an alien star base or something.",
+      "citation_offset": {
+        "offset": 24852,
+        "len": 72,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Sub-satellite lifetime",
+      "value": "Predicted to crash into the Moon within about four days",
+      "source_quote": "if you can extrapolate by eye, it looks like we have about four days left",
+      "citation_offset": {
+        "offset": 20051,
+        "len": 73,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Ken",
+    "Bill Sogren",
+    "Larry Sharp",
+    "Fred"
+  ],
+  "named_places": [
+    "Van de Graff crater",
+    "Korolev crater",
+    "Hertzsprung",
+    "Pavlov",
+    "Mendeleev",
+    "Stein crater",
+    "St. Louis",
+    "Berkeley",
+    "Ptolemaeus",
+    "Mare Nubium",
+    "Mare Tranquillitatis",
+    "Mare Fecunditatis"
+  ],
+  "dated_events": [],
+  "objects_described": [
+    "Mapping (stellar) camera",
+    "Panoramic (pan) camera",
+    "Laser altimeter",
+    "Magnetometer sub-satellite",
+    "Electrostatic analyzers",
+    "Solid-state telescopes",
+    "Gravity/tracking (CSM) instrument"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "Photographic coverage of Apollo 16 was about 90% of the pre-mission plan.",
+      "source_quote": "the effectiveness of the pen of the coverage was about 90% of what we had hoped for pre-mission",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 605,
+        "len": 95,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The laser altimeter recorded 2,106 firings against 3,283 planned.",
+      "source_quote": "A total number of firings, 3283 and 2106 is the actual number that was recorded",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 4109,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "A large magnetic dip and a gravity low both occur over/near the Van de Graff crater on the lunar farside.",
+      "source_quote": "The correlate is pretty well with the laser data, which shows great big hole here in the backside of the moon around the landing graph",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 24515,
+        "len": 134,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The magnetometer sub-satellite was predicted to crash into the Moon within roughly four days.",
+      "source_quote": "it looks like we have about four days left. I guess Bill Sogren's taking 50-50 odds that it will crash",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20082,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The stellar-camera glare shield was reported hung up on a handrail during the film-recovery EVA.",
+      "source_quote": "during the film recovery EVA, you reported that the stellar camera glare shield was hung up on the handrail",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 1593,
+        "len": 107,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 5,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-26T06:26:59.333Z",
+  "qa_completed_at": "2026-07-26T06:28:19.141Z",
+  "timing": {
+    "A": "39.9s",
+    "B": "39.9s",
+    "E": "25.2s"
+  },
+  "public_headline": "NASA Apollo 16 Science Debrief: A Scientist's Off-Hand 'Alien Star Base' Joke",
+  "public_tldr": "This is a machine-made transcript of a NASA post-mission scientific debriefing for the Apollo 16 lunar mission, in which scientists review data from the spacecraft's orbital instruments. The discussion covers routine mission science — cameras, a laser altimeter, a sub-satellite, and measurements of the Moon's magnetic and gravity fields. The only reason it appears in a UAP collection is a single joking aside, in which a scientist says an unexplained overlap in the data 'could be an alien star base or something.'",
+  "public_narrative": "This document is an automatically transcribed audio recording (an 'AUD' file) of a NASA post-mission scientific debriefing held in Houston, Texas, for the Apollo 16 Moon mission. In it, NASA scientists go over the results collected by the spacecraft's orbital instruments — the mapping and panoramic cameras, a laser altimeter (a device that bounces a laser off the surface to measure heights), a magnetometer sub-satellite (a small satellite released to measure magnetic fields), particle-and-field detectors, and gravity tracking.\n\nMuch of the transcript is about how the equipment performed and where data was lost, partly because the mission was cut short. Photographic coverage came in at roughly 90% of what was planned. The laser altimeter ran for 14.5 hours against a planned 20, and recorded 2,106 firings out of 3,283 planned — reductions of around a quarter to a third. The transcript also notes hardware problems, including a stellar-camera glare shield that was reported hung up on a handrail during the spacewalk to recover the film. The small sub-satellite was expected to crash into the Moon within about four days.\n\nThe scientists also discuss unusual readings over the Moon's far side, near the Van de Graff crater: a large dip in the magnetic field coinciding with a gravity low, with no clear physical explanation offered. It is in this context that one scientist makes the remark that gives the file its UAP label — saying, in effect, that he doesn't know what the overlap means and that 'it could be an alien star base or something.'\n\nThat line is an off-hand joke about an unexplained data correlation. It describes no object, sighting, or event, and asserts nothing factual. The document contains no report of a UAP or any unidentified object; the debriefing is ordinary lunar science.\n\nBecause this is a machine transcription of audio, many names are garbled — 'landing graph' stands in for Van de Graff, and 'corollove' for the Korolev crater — so specific words should be read with caution. The document shows little evidence of redaction. Participants are mostly identified only by first name or not at all; the few names captured include Ken, Bill Sogren, Larry Sharp, and Fred.",
+  "public_caveats": [
+    "There is no UAP here. The document records a routine Apollo 16 science debriefing, and the 'alien star base' phrase is a scientist's joke about an unexplained magnetic-and-gravity correlation, not a sighting or a factual claim.",
+    "The text was produced by automatic speech-to-text. Proper names and lunar-feature names are frequently garbled (e.g. 'landing graph' for Van de Graff crater, 'corollove' for Korolev), so exact wording is unreliable.",
+    "The file's catalogue description overstates the significance of a single humorous aside; the substance of the recording is instrument performance and mission data.",
+    "Redaction evidence is low — the content does not appear to be withheld or blacked out.",
+    "Speaker attribution is weak: most participants are named only by first name or not at all, so it is hard to confirm who said what."
+  ]
+}

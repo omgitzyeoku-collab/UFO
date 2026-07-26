@@ -1,0 +1,48 @@
+{
+  "sha256": "33fca4826934033f9043827d452bec1b9e3448c04bbcb19ea6d0ce61ee7d1635",
+  "title": "FBI Photo A003",
+  "agency": "FBI",
+  "type": "IMG",
+  "incident_date": "Late 2025",
+  "incident_location": "N/A",
+  "what_is_it": "A single still image (photo) submitted to AARO as a UAP report, with an accompanying government narrative description of the image.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "moderate",
+  "interpretation_warnings": [
+    "No extractable source text — all facts derive from war.gov CSV metadata and the supplied narrative description only.",
+    "Government narrative explicitly states the description is informational and not an analytical judgment, investigative conclusion, or factual determination.",
+    "No date or location was provided, so the event cannot be placed in time or space.",
+    "Imagery was redacted before submission, so the public version is incomplete.",
+    "Single-source report with no mission report; the operator could not identify the object.",
+    "A dark object centred on a crosshair may reflect sensor framing, not the object's true significance."
+  ],
+  "fabrication_score": 8,
+  "key_facts": [
+    {
+      "field": "Submitting agency",
+      "value": "FBI",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-26T06:02:48.817Z",
+  "qa_completed_at": "2026-07-26T06:03:37.832Z",
+  "timing": {
+    "A": "20.7s",
+    "B": "28.4s"
+  }
+}

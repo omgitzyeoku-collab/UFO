@@ -1,0 +1,82 @@
+{
+  "sha256": "fa297d9788cbaab0adca007eb78bcfdf2e8ecd9d9f98c813aa492593e47b1623",
+  "title": "FBI-UAP-PR003, “Orbs Over the Pond,” 2024",
+  "agency": "FBI",
+  "type": "VID",
+  "incident_date": "October, 2024",
+  "incident_location": "Northeastern United States",
+  "what_is_it": "A short video clip (iPhone footage) of an unidentified aerial phenomenon, released by the FBI with an auto-transcribed but effectively empty audio track.",
+  "core_summary": "This is a video document (DOD_111764159.mp4) released as FBI-UAP-PR003, 'Orbs Over the Pond.' The extracted source text contains no usable content — the automated audio/video transcription produced only repeated filler ('You'), so no facts can be drawn from the body itself. All descriptive detail exists only in the war.gov catalogue metadata, not in the transcribed source.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "The extracted source text is empty of meaning: the automated transcription of the video's audio yielded only the repeated word 'You', which is transcription noise, not spoken content.",
+    "No facts in this record derive from the document body. Any narrative about orbs, a pond, or a 45-minute observation comes solely from the war.gov CSV metadata, which was not verifiable against the source text provided here.",
+    "As a video artefact, meaningful analysis requires viewing the footage itself; a text-extraction pass cannot capture visual content.",
+    "Single-source, single-eyewitness account (per metadata); the footage was cropped for privacy per the catalogue description."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Releasing agency",
+      "value": "FBI",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident date",
+      "value": "October 2024",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Incident location",
+      "value": "Northeastern United States",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    },
+    {
+      "field": "Source text content",
+      "value": "No usable content — auto-transcription produced only repeated filler",
+      "source_quote": "[AUTO-TRANSCRIBED AUDIO/VIDEO]\n\nYou You You You You You You You You",
+      "citation_offset": {
+        "offset": 0,
+        "len": 66,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [],
+  "named_places": [],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [],
+  "tier": "amber",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-26T06:20:53.521Z",
+  "qa_completed_at": "2026-07-26T06:21:31.421Z",
+  "timing": {
+    "A": "20.0s",
+    "B": "17.9s",
+    "E": "18.5s"
+  },
+  "public_headline": "FBI releases short UAP video from Northeastern US, October 2024",
+  "public_tldr": "This record is a short iPhone video clip released by the FBI (Federal Bureau of Investigation) as FBI-UAP-PR003, titled \"Orbs Over the Pond,\" concerning an unidentified aerial phenomenon (UAP) reported in the Northeastern United States in October 2024. The FBI's automated system transcribed the video's audio, but that transcription is effectively empty — it produced only the repeated filler word \"You\" — so no facts can be drawn from the document's own text. Everything descriptive about the clip comes from a separate catalogue listing, not from the video's transcribed content.",
+  "public_narrative": "The document is a video file (DOD_111764159.mp4) that the FBI (Federal Bureau of Investigation) released under the reference FBI-UAP-PR003 with the title \"Orbs Over the Pond.\" It relates to an unidentified aerial phenomenon (UAP) — the current official term for what used to be called a UFO — recorded in October 2024 somewhere in the Northeastern United States.\n\nThe footage itself was shot on an iPhone. When the material was processed, an automated system attempted to transcribe the audio track, but the result contains no usable content: it is just the word \"You\" repeated over and over, which is transcription noise rather than anything actually said on the recording.\n\nBecause of that, none of the descriptive detail in this record comes from the video's own text. What is known about the clip — its title, the reference to orbs and a pond, the date, and the location — comes only from the war.gov catalogue listing that accompanies the file, and that catalogue text could not be checked against the source itself.\n\nThe FBI did not include any written conclusion, analysis, or finding in the transcribed material. Any real assessment of what the video shows would require watching the footage, which a text-based extraction cannot do. Per the catalogue, the clip was cropped for privacy before release.",
+  "public_caveats": [
+    "The video's own text is empty: the automated audio transcription produced only the repeated word \"You,\" which is noise, not spoken content.",
+    "Every descriptive detail — orbs, a pond, the date and location — comes solely from the war.gov catalogue listing, which could not be verified against the source file.",
+    "This is a single-source, single-eyewitness account per the catalogue, with no independent corroboration in the record.",
+    "As a video, it cannot be meaningfully assessed from text alone; viewing the footage is required.",
+    "The FBI included no written conclusion or analysis, and the catalogue notes the clip was cropped for privacy."
+  ]
+}

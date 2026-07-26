@@ -1,0 +1,63 @@
+{
+  "sha256": "ce62e46b3535a4683ef6fd192d858be52dbbd9ca011ae1a9cb43dba947815f54",
+  "title": "NASA-UAP-VM006, Apollo 17, 1972",
+  "agency": "NASA",
+  "type": "IMG",
+  "incident_date": "1972",
+  "incident_location": "Moon",
+  "what_is_it": "A NASA photograph from the Apollo 17 mission that is the subject of an open US Department of War (DOW) investigation into a possible UAP under the PURSUE review.",
+  "core_summary": null,
+  "core_summary_revised_by_verifier": true,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "No source text was extracted from the document; all facts derive from the war.gov CSV description and file metadata, not from the PDF body.",
+    "The investigation is open and unresolved — the 'physical object' assessment is explicitly preliminary, not a conclusion.",
+    "The document itself states there is no consensus about the nature of the anomaly.",
+    "Single-source: claims rest on the government's own case blurb; the underlying NASA/DOW analysis has not been released."
+  ],
+  "fabrication_score": 7,
+  "key_facts": [
+    {
+      "field": "Mission",
+      "value": "Apollo 17",
+      "source_quote": "the accompanying NASA photograph from the Apollo 17 mission",
+      "citation_offset": null,
+      "confidence": "amber"
+    },
+    {
+      "field": "Location",
+      "value": "Moon / lunar sky",
+      "source_quote": "",
+      "citation_offset": null,
+      "confidence": "metadata-only"
+    }
+  ],
+  "named_people": [],
+  "named_places": [
+    "Moon"
+  ],
+  "dated_events": [],
+  "objects_described": [],
+  "verifiable_claims": [
+    {
+      "claim": "The photograph is from the Apollo 17 mission and was taken in December 1972.",
+      "source_quote": "",
+      "verifier_verdict": "partial",
+      "citation_offset": null,
+      "confidence": "red"
+    }
+  ],
+  "tier": "red",
+  "confidence_breakdown": {
+    "green": 0,
+    "amber": 0,
+    "red": 1
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-26T06:18:07.119Z",
+  "qa_completed_at": "2026-07-26T06:18:57.355Z",
+  "timing": {
+    "A": "19.4s",
+    "B": "30.8s"
+  }
+}

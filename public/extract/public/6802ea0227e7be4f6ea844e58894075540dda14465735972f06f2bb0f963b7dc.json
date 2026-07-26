@@ -1,0 +1,286 @@
+{
+  "sha256": "6802ea0227e7be4f6ea844e58894075540dda14465735972f06f2bb0f963b7dc",
+  "title": "NASA-UAP-D024, “Apollo 16 Scientific Debriefing”",
+  "agency": "NASA",
+  "type": "AUD",
+  "incident_location": "Houston, Texas",
+  "what_is_it": "A transcript of an audio/video recording of NASA's post-mission scientific debriefing for Apollo 16, in which principal investigators present preliminary experiment results to the crew.",
+  "core_summary": "This is an auto-transcribed NASA debriefing in which principal investigators of various Apollo 16 experiments (magnetometer, seismic, solar wind, cosmic ray, far-UV camera) describe preliminary results to the crew to help prepare for Apollo 17. During the discussion, an astronaut reports having seen a brief, unexplained 'flash' from lunar orbit — brighter than the brightest star and appearing distinctly below the horizon — described as possibly the first report of a transient event of this kind seen from orbit. Investigators ask the crew to help pin down the time and location of the flash so it can be checked against seismic records.",
+  "core_summary_revised_by_verifier": false,
+  "redaction_evidence": "low",
+  "interpretation_warnings": [
+    "Source is an auto-transcribed audio recording; transcription errors are present throughout (e.g. garbled names, 'as musical' likely 'azimuthal', 'rascal' likely 'rascally'), so quoted figures and terms may be imperfect.",
+    "The 'flash' is a single-observer, unverified visual report with no recorded time or precise location at the time of debriefing.",
+    "Investigators explicitly note the flash time was not written down and must be recovered from a transcript, so its correlation with instrument records is not yet established.",
+    "The debriefing is preliminary — investigators repeatedly caveat that data has not been fully analysed and conclusions are first impressions.",
+    "Despite the collection's UAP framing, the 'flash' is discussed by scientists as a possible natural transient event (compared to cosmic-ray impacts and star-rise), not as an unexplained craft."
+  ],
+  "fabrication_score": 1,
+  "key_facts": [
+    {
+      "field": "Document type",
+      "value": "Apollo 16 scientific debriefing (audio transcript)",
+      "source_quote": "let me say thank you from SNAD for the scientific help on Apollo 16",
+      "citation_offset": {
+        "offset": 51,
+        "len": 67,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Purpose",
+      "value": "PIs describe preliminary results and any anomalies to educate the crew and prepare for Apollo 17",
+      "source_quote": "This is to sort of educate the crew on what we obtained so far from Apollo 16 so that they might have information along that line.",
+      "citation_offset": {
+        "offset": 1281,
+        "len": 130,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Anomaly reported",
+      "value": "A brief unexplained 'flash' observed from lunar orbit",
+      "source_quote": "that was the flash that was reported",
+      "citation_offset": {
+        "offset": 19424,
+        "len": 36,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flash brightness",
+      "value": "Brighter than the brightest star in the field of view",
+      "source_quote": "it was brighter than the brightest star that I had in the field of view at the time",
+      "citation_offset": {
+        "offset": 20902,
+        "len": 83,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flash characteristics",
+      "value": "Instantaneous, appeared distinctly below the horizon, not a colour flash (white)",
+      "source_quote": "it had been distinctly below the horizon",
+      "citation_offset": {
+        "offset": 21282,
+        "len": 40,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Flash novelty",
+      "value": "Described as possibly the first report of a transient event seen from orbit",
+      "source_quote": "as far as I know it's the first report of a transient event of some nature that's been seen from orbit",
+      "citation_offset": {
+        "offset": 20056,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Surface magnetometer reading",
+      "value": "230 gamma, downward direction — highest field then measured on lunar surface",
+      "source_quote": "the field that we measured... was 230 gamma and in a downward direction... that was the highest field that we'd ever measured on the... lunar surface",
+      "citation_offset": {
+        "offset": 2700,
+        "len": 55,
+        "exact": false,
+        "matched": "that was the highest field that we'd ever measured on t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Portable magnetometer readings",
+      "value": "Ranged from 120 to 314 gamma at various stations",
+      "source_quote": "the measurements up near north rake crater were pointed downward at 314 gamma",
+      "citation_offset": {
+        "offset": 6204,
+        "len": 77,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Solar wind foil exposure",
+      "value": "45 hours 5 minutes; foil sent to Switzerland",
+      "source_quote": "a total exposure time of 45 hours and five minutes... The foil was transferred to Switzerland at the end of last weekend",
+      "citation_offset": {
+        "offset": 30246,
+        "len": 65,
+        "exact": false,
+        "matched": "he foil was transferred to Switzerland at the end of last weekend"
+      },
+      "confidence": "amber"
+    },
+    {
+      "field": "Seismic regolith thickness",
+      "value": "At least 40 metres at the site",
+      "source_quote": "We can put a thickness bound on the regolith at this site. And it is indeed very thick, at least forty meters.",
+      "citation_offset": {
+        "offset": 26257,
+        "len": 110,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Solar particle event",
+      "value": "A solar particle event occurred early in the mission (approx. Monday to Wednesday after launch)",
+      "source_quote": "Early in the mission, there was a solar particle event that occurred, which will enhance their data very significantly.",
+      "citation_offset": {
+        "offset": 34412,
+        "len": 119,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "field": "Far-UV camera output",
+      "value": "92 Lyman Alpha photographs and 53 spectra, some extending 500–1550 angstroms",
+      "source_quote": "include 92 photographs in the Lyman Alpha imagery and 53 specter, some of them extending from 500 angstroms to 1550 angstroms",
+      "citation_offset": {
+        "offset": 43275,
+        "len": 125,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "named_people": [
+    "Palmer Dial",
+    "Gary Latham",
+    "Bob Kovach",
+    "Bill Mulberger",
+    "Meister",
+    "Bob Fleischer",
+    "George Carruthers",
+    "Meyer",
+    "John"
+  ],
+  "named_places": [
+    "The Moon",
+    "North Ray Crater",
+    "Spook crater",
+    "Palmetto",
+    "Survey Ridge",
+    "Switzerland",
+    "MSC (Manned Spacecraft Center)",
+    "Naval Research Laboratory"
+  ],
+  "dated_events": [
+    "May 12th",
+    "May 23rd"
+  ],
+  "objects_described": [
+    "Unexplained 'flash' transient event observed from lunar orbit",
+    "Lunar Surface Magnetometer",
+    "Portable magnetometer",
+    "Passive seismic experiment",
+    "Active seismic (Thumper) experiment",
+    "Solar wind composition foil",
+    "Cosmic ray detector",
+    "Far ultraviolet camera/spectrograph",
+    "Geocorona",
+    "Equatorial auroral belt"
+  ],
+  "verifiable_claims": [
+    {
+      "claim": "The flash was brighter than the brightest star in the observer's field of view and appeared distinctly below the horizon",
+      "source_quote": "it was brighter than the brightest star that I had in the field of view at the time... it had been distinctly below the horizon",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20902,
+        "len": 80,
+        "exact": false,
+        "matched": "it was brighter than the brightest star that I had in the field of view at the t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The flash may be the first report of a transient event of this nature seen from orbit",
+      "source_quote": "as far as I know it's the first report of a transient event of some nature that's been seen from orbit",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 20056,
+        "len": 102,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The surface magnetometer measured 230 gamma downward, the highest field then measured on the lunar surface",
+      "source_quote": "was 230 gamma and in a downward direction... that was the highest field that we'd ever measured on the... lunar surface",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 2700,
+        "len": 55,
+        "exact": false,
+        "matched": "that was the highest field that we'd ever measured on t"
+      },
+      "confidence": "amber"
+    },
+    {
+      "claim": "The solar wind foil was exposed for 45 hours 5 minutes, about three hours longer than previous missions",
+      "source_quote": "a total exposure time of 45 hours and five minutes. That's some three hours longer than the record of the previous missions",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 30445,
+        "len": 123,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The seismic array now forms a triangular array with a roughly 1000 km baseline",
+      "source_quote": "now we have a thing with a thousand kilometer baseline",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 19051,
+        "len": 54,
+        "exact": true
+      },
+      "confidence": "green"
+    },
+    {
+      "claim": "The far-UV camera captured images showing equatorial auroral belts around the back side of the Earth",
+      "source_quote": "It's called the equatorial auroral belt. And this appears back of the dark side",
+      "verifier_verdict": "supported",
+      "citation_offset": {
+        "offset": 44826,
+        "len": 79,
+        "exact": true
+      },
+      "confidence": "green"
+    }
+  ],
+  "tier": "green",
+  "confidence_breakdown": {
+    "green": 4,
+    "amber": 2,
+    "red": 0
+  },
+  "qa_pipeline_version": "1.0",
+  "qa_started_at": "2026-07-26T06:25:04.264Z",
+  "qa_completed_at": "2026-07-26T06:26:30.908Z",
+  "timing": {
+    "A": "40.3s",
+    "B": "46.3s",
+    "E": "28.4s"
+  },
+  "public_headline": "Apollo 16 debriefing reveals astronaut's unexplained flash seen from lunar orbit",
+  "public_tldr": "This is an auto-transcribed recording of NASA's post-mission scientific debriefing for Apollo 16, held in Houston, Texas, where lead scientists shared early results from Moon experiments with the crew to help prepare for Apollo 17. During the discussion, an astronaut described briefly seeing an unexplained 'flash' from lunar orbit — brighter than the brightest star in view and appearing below the horizon — which investigators described as possibly the first report of a transient event of its kind seen from orbit. Scientists asked the crew to help pin down the flash's exact timing and location so it could be checked against seismic records.",
+  "public_narrative": "This document is a transcript of an audio recording of NASA's scientific debriefing after the Apollo 16 mission, held at the Manned Spacecraft Center in Houston, Texas. In it, the principal investigators (PIs) — the scientists in charge of individual experiments — walked the astronaut crew through their preliminary findings. The stated purpose was to educate the crew on what had been gathered so far from Apollo 16 so they would be better informed for the next mission, Apollo 17.\n\nMost of the discussion covers routine but detailed science: readings from the lunar surface magnetometer (which measures magnetic fields, and recorded 230 gamma pointing downward — the highest field then measured on the Moon's surface), a portable magnetometer (ranging from 120 to 314 gamma at different sites), seismic experiments that placed the local surface soil, or regolith, at least 40 metres thick, a solar-wind collection foil exposed for 45 hours and 5 minutes before being sent to Switzerland for analysis, and a far-ultraviolet camera that produced 92 images and 53 spectra.\n\nThe notable moment is a report from an astronaut who said he saw a brief 'flash' while in orbit around the Moon. He described it as instantaneous, white rather than coloured, brighter than the brightest star in his field of view at the time, and appearing distinctly below the horizon. One investigator noted that, as far as he knew, it was the first report of a transient event of this nature seen from orbit.\n\nCrucially, the flash's exact time was not written down at the moment it happened. Investigators asked the crew to help recover the timing and location from a transcript so it could be cross-checked against seismic records — meaning, at the time of this debriefing, the flash had not been matched to any instrument data. Scientists discussed it as a possible natural transient event (comparing it to things like cosmic-ray impacts and star-rise), not as an unexplained craft.\n\nThere is little to no redaction evident in this document. The main limitation is that it is an automatic transcription of an audio recording, so it contains transcription errors throughout — garbled names and mangled technical terms — which means some quoted figures and words may be imperfect.",
+  "public_caveats": [
+    "The 'flash' is a single-observer, unverified visual report; no exact time or precise location was recorded at the time, so it has not been correlated with any instrument data.",
+    "This is a preliminary debriefing — investigators repeatedly stressed the data had not been fully analysed and their conclusions were first impressions.",
+    "Despite the collection's UAP framing, the flash was discussed by scientists as a possible natural transient event, compared to cosmic-ray impacts and star-rise, not as an unexplained craft.",
+    "The document is an auto-generated transcript of an audio recording and contains transcription errors throughout, so specific figures, names and terms may be imperfect.",
+    "The document shows little to no redaction; the constraints here are about accuracy of transcription and completeness of analysis, not withheld material."
+  ]
+}
