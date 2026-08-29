@@ -17,6 +17,8 @@
 <meta name="twitter:description" content="This file contains Central Intelligence Agency (CIA) memoranda exchanged between the Assistant Director for Special Activities (AD/SA) and the Assistant Director for Scientific Intelligence (AD/SI)…" />
 <meta name="twitter:image" content="https://ufo-wheat.vercel.app/og-default.png" />
 <meta name="robots" content="index, follow" />
+<!-- JSON.stringify does not escape "</script", so a document title containing
+     it would close this block and inject markup. Escape < at the source. -->
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CreativeWork","name":"CIA-UAP-D022, Unidentified Flying Object Reported near Puerto Rico, 1965","description":"This file contains Central Intelligence Agency (CIA) memoranda exchanged between the Assistant Director for Special Activities (AD/SA) and the Assistant Director for Scientific Intelligence (AD/SI) regarding an incident allegedly involving unidentified aircraft in the vicinity of Puerto Rico. The AD/SI was then-responsible for analyzing foreign scientific advancements and technological threats, such as Soviet nuclear, chemical, and ballistic missile capabilities. The AD/SA managed the CIA’s classified overhead reconnaissance operations, including the deployment of advanced aircraft like the U-2 and A-12 OXCART. Together, these offices ensured the United States could both gather critical intelligence over contested territories and accurately evaluate the technical capabilities of foreign adversaries during the Cold War.\n\nThe memoranda refer to an incident on November 19, 1964, in which a U.S. Naval aviator described observing an unidentified object as “delta-shaped, about the size of a jet fighter.” The pilot visually estimated the object’s velocity as Mach 3 (approximately 2,200 mph). A corresponding track from an AN/SPS-49 radar system aboard a U.S. Navy guided missile destroyer in the area, USS Gyatt, measured the object’s speed at 3,800 knots (approximately 4,373 mph). The memoranda indicate that, in the opinion of the AD/SI, the object was conceivably associated with foreign intelligence gathering activities, citing active missile testing within the AFWR, or Atlantic Fleet Weapons Range, as being an attractive reconnaissance target. The AD/SA and AD/SI also ruled out domestic experimental aircraft, such as the YF-12A OXCART, as a potential attribution.","url":"https://ufo-wheat.vercel.app/doc/358b0d2e45ff0320f4e4ad689f0c918362d6c5d36be765d386018d279d835b01.html","image":"https://ufo-wheat.vercel.app/og-default.png","creator":{"@type":"GovernmentOrganization","name":"CIA"},"dateCreated":"2/1/65","locationCreated":{"@type":"Place","name":"Caribbean Sea"},"isAccessibleForFree":true,"license":"https://www.usa.gov/government-works"}</script>
 <style>
   body { font-family: ui-sans-serif, system-ui, sans-serif; background: #0b0c0f; color: #e6e7ea; max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem; line-height: 1.6; }
@@ -27,11 +29,28 @@
   .meta { color: #8a8f99; font-size: 0.88rem; margin: 0.6rem 0 1.2rem; }
   .narr { white-space: pre-wrap; }
   .cta { display: inline-block; background: #d97757; color: #141413; padding: 0.65rem 1.1rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 1rem; }
+  .badge.tier-green { background: #1d2a1f; color: #7fbf8f; }
+  .badge.tier-amber { background: #2b2617; color: #d9b265; }
+  .badge.tier-red   { background: #2b1d1c; color: #df8c84; }
+  .caveats { background: #15171c; border: 1px solid #232830; border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 1.2rem; }
+  .caveats h2 { font-size: 0.9rem; margin: 0 0 0.5rem; color: #b3b6bd; }
+  .caveats ul { margin: 0; padding-left: 1.1rem; font-size: 0.9rem; color: #b3b6bd; }
+  .nosum { background: #15171c; border: 1px solid #232830; border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 1.2rem; font-size: 0.9rem; color: #b3b6bd; }
+  .nosum h2 { font-size: 0.9rem; margin: 0 0 0.4rem; color: #e6e7ea; }
+  .nav { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .actions { display: flex; gap: 0.9rem; flex-wrap: wrap; align-items: center; margin-top: 1.4rem; }
+  .prov { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #232830; font-size: 0.8rem; color: #8a8f99; }
+  .prov code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; word-break: break-all; color: #b3b6bd; }
 </style>
 </head>
 <body>
-<noscript>
-  <p><a href="/">← UAP Files corpus</a></p>
+<nav class="nav">
+  <a href="/">← UAP Files</a>
+  <a href="/about.html">About</a>
+  <a href="/methodology.html">How it works</a>
+</nav>
+
+<main>
   <h1>CIA-UAP-D022, Unidentified Flying Object Reported near Puerto Rico, 1965</h1>
   <div class="meta">
     <span class="badge">CIA</span>
@@ -44,13 +63,22 @@
 
 The memoranda refer to an incident on November 19, 1964, in which a U.S. Naval aviator described observing an unidentified object as “delta-shaped, about the size of a jet fighter.” The pilot visually estimated the object’s velocity as Mach 3 (approximately 2,200 mph). A corresponding track from an AN/SPS-49 radar system aboard a U.S. Navy guided missile destroyer in the area, USS Gyatt, measured the object’s speed at 3,800 knots (approximately 4,373 mph). The memoranda indicate that, in the opinion of the AD/SI, the object was conceivably associated with foreign intelligence gathering activities, citing active missile testing within the AFWR, or Atlantic Fleet Weapons Range, as being an attractive reconnaissance target. The AD/SA and AD/SI also ruled out domestic experimental aircraft, such as the YF-12A OXCART, as a potential attribution.</p>
   
-  <p><a class="cta" href="https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/CIA-UAP-D022_Unidentified-Flying-Object-Reported-near-Puerto-Rico_1965.pdf" rel="noopener">↓ Original document (0.6 MB)</a></p>
-  <p><a href="/">← Browse all 178 declassified UAP documents on UAP Files</a></p>
-</noscript>
-<script>
-  // For JS clients, redirect to the SPA with deep-link fragment so the
-  // full interactive experience loads.
-  location.replace('/#doc/358b0d2e45ff0320f4e4ad689f0c918362d6c5d36be765d386018d279d835b01');
-</script>
+  
+  
+
+  <div class="actions">
+    <a class="cta" href="https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/CIA-UAP-D022_Unidentified-Flying-Object-Reported-near-Puerto-Rico_1965.pdf" rel="noopener">↓ Original document (624 KB)</a>
+    <a href="/#doc/358b0d2e45ff0320f4e4ad689f0c918362d6c5d36be765d386018d279d835b01">Open in the interactive archive →</a>
+  </div>
+  
+
+  <div class="prov">
+    <p>Source of record:
+      <a href="https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/CIA-UAP-D022_Unidentified-Flying-Object-Reported-near-Puerto-Rico_1965.pdf" rel="noopener">https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/CIA-UAP-D022_Unidentified-Flying-Object-Reported-near-Puerto-Rico_1965.pdf</a>
+    </p>
+    <p>SHA-256: <code>358b0d2e45ff0320f4e4ad689f0c918362d6c5d36be765d386018d279d835b01</code></p>
+    <p><a href="/">Browse the full archive</a> · <a href="/corrections.html">Report an error in this summary</a></p>
+  </div>
+</main>
 </body>
 </html>

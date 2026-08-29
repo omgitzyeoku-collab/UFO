@@ -17,6 +17,8 @@
 <meta name="twitter:description" content="This file contains an initial report from the Air Materiel Command regarding Project Sign. Project Sign was a 1948-1949 U.S. Air Force program to investigate the nature and origin of unidentified f…" />
 <meta name="twitter:image" content="https://ufo-wheat.vercel.app/extract/thumbs/2b150ae171f975e8df78ccf202fb16bb7d25bfc948f0ddf705817e12a66946a9.jpg" />
 <meta name="robots" content="index, follow" />
+<!-- JSON.stringify does not escape "</script", so a document title containing
+     it would close this block and inject markup. Escape < at the source. -->
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CreativeWork","name":"DOW-UAP-D097, Project Sign Progress Report, 1948","description":"This file contains an initial report from the Air Materiel Command regarding Project Sign. Project Sign was a 1948-1949 U.S. Air Force program to investigate the nature and origin of unidentified flying objects (UFO). The report details 100 UFO sightings from 1947-1948. The file also contains an article excerpted from “The Aeroplane,” an aviation-focused periodical magazine published between 1911 and 1968, titled “The Biology of the Flying Saucer.”","url":"https://ufo-wheat.vercel.app/doc/2b150ae171f975e8df78ccf202fb16bb7d25bfc948f0ddf705817e12a66946a9.html","image":"https://ufo-wheat.vercel.app/extract/thumbs/2b150ae171f975e8df78ccf202fb16bb7d25bfc948f0ddf705817e12a66946a9.jpg","creator":{"@type":"GovernmentOrganization","name":"Department of War"},"dateCreated":"1948","locationCreated":{"@type":"Place","name":"Various"},"isAccessibleForFree":true,"license":"https://www.usa.gov/government-works"}</script>
 <style>
   body { font-family: ui-sans-serif, system-ui, sans-serif; background: #0b0c0f; color: #e6e7ea; max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem; line-height: 1.6; }
@@ -27,11 +29,28 @@
   .meta { color: #8a8f99; font-size: 0.88rem; margin: 0.6rem 0 1.2rem; }
   .narr { white-space: pre-wrap; }
   .cta { display: inline-block; background: #d97757; color: #141413; padding: 0.65rem 1.1rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 1rem; }
+  .badge.tier-green { background: #1d2a1f; color: #7fbf8f; }
+  .badge.tier-amber { background: #2b2617; color: #d9b265; }
+  .badge.tier-red   { background: #2b1d1c; color: #df8c84; }
+  .caveats { background: #15171c; border: 1px solid #232830; border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 1.2rem; }
+  .caveats h2 { font-size: 0.9rem; margin: 0 0 0.5rem; color: #b3b6bd; }
+  .caveats ul { margin: 0; padding-left: 1.1rem; font-size: 0.9rem; color: #b3b6bd; }
+  .nosum { background: #15171c; border: 1px solid #232830; border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 1.2rem; font-size: 0.9rem; color: #b3b6bd; }
+  .nosum h2 { font-size: 0.9rem; margin: 0 0 0.4rem; color: #e6e7ea; }
+  .nav { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .actions { display: flex; gap: 0.9rem; flex-wrap: wrap; align-items: center; margin-top: 1.4rem; }
+  .prov { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #232830; font-size: 0.8rem; color: #8a8f99; }
+  .prov code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; word-break: break-all; color: #b3b6bd; }
 </style>
 </head>
 <body>
-<noscript>
-  <p><a href="/">← UAP Files corpus</a></p>
+<nav class="nav">
+  <a href="/">← UAP Files</a>
+  <a href="/about.html">About</a>
+  <a href="/methodology.html">How it works</a>
+</nav>
+
+<main>
   <h1>DOW-UAP-D097, Project Sign Progress Report, 1948</h1>
   <div class="meta">
     <span class="badge">Department of War</span>
@@ -39,16 +58,25 @@
     <span class="badge">Various</span>
     
   </div>
-  <img class="thumb" src="/extract/thumbs/2b150ae171f975e8df78ccf202fb16bb7d25bfc948f0ddf705817e12a66946a9.jpg" alt="DOW-UAP-D097, Project Sign Progress Report, 1948 thumbnail" loading="lazy" />
+  <img class="thumb" src="/extract/thumbs/2b150ae171f975e8df78ccf202fb16bb7d25bfc948f0ddf705817e12a66946a9.jpg" alt="DOW-UAP-D097, Project Sign Progress Report, 1948 thumbnail" loading="lazy" width="760" />
   <p>This file contains an initial report from the Air Materiel Command regarding Project Sign. Project Sign was a 1948-1949 U.S. Air Force program to investigate the nature and origin of unidentified flying objects (UFO). The report details 100 UFO sightings from 1947-1948. The file also contains an article excerpted from “The Aeroplane,” an aviation-focused periodical magazine published between 1911 and 1968, titled “The Biology of the Flying Saucer.”</p>
   
-  <p><a class="cta" href="https://www.war.gov/medialink/ufo/071026/release_04/thumbnails/DOW-UAP-D097_Project-Sign-Progress-Report_1948.jpg" rel="noopener">↓ Original document (0.1 MB)</a></p>
-  <p><a href="/">← Browse all 178 declassified UAP documents on UAP Files</a></p>
-</noscript>
-<script>
-  // For JS clients, redirect to the SPA with deep-link fragment so the
-  // full interactive experience loads.
-  location.replace('/#doc/2b150ae171f975e8df78ccf202fb16bb7d25bfc948f0ddf705817e12a66946a9');
-</script>
+  
+  
+
+  <div class="actions">
+    <a class="cta" href="https://www.war.gov/medialink/ufo/071026/release_04/thumbnails/DOW-UAP-D097_Project-Sign-Progress-Report_1948.jpg" rel="noopener">↓ Original image (82 KB)</a>
+    <a href="/#doc/2b150ae171f975e8df78ccf202fb16bb7d25bfc948f0ddf705817e12a66946a9">Open in the interactive archive →</a>
+  </div>
+  
+
+  <div class="prov">
+    <p>Source of record:
+      <a href="https://www.war.gov/medialink/ufo/071026/release_04/thumbnails/DOW-UAP-D097_Project-Sign-Progress-Report_1948.jpg" rel="noopener">https://www.war.gov/medialink/ufo/071026/release_04/thumbnails/DOW-UAP-D097_Project-Sign-Progress-Report_1948.jpg</a>
+    </p>
+    <p>SHA-256: <code>2b150ae171f975e8df78ccf202fb16bb7d25bfc948f0ddf705817e12a66946a9</code></p>
+    <p><a href="/">Browse the full archive</a> · <a href="/corrections.html">Report an error in this summary</a></p>
+  </div>
+</main>
 </body>
 </html>

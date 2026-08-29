@@ -17,6 +17,8 @@
 <meta name="twitter:description" content="This file is a collection of U.S. Government memoranda and correspondence relating to “Project Sign,” a 1948 U.S. Air Force program to investigate reports of high-performance airborne objects. The …" />
 <meta name="twitter:image" content="https://ufo-wheat.vercel.app/extract/thumbs/85c36b7100b71c87c44615eecefcbebb2ef7477a27ceaac8d9941b22dcaa2b70.jpg" />
 <meta name="robots" content="index, follow" />
+<!-- JSON.stringify does not escape "</script", so a document title containing
+     it would close this block and inject markup. Escape < at the source. -->
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CreativeWork","name":"DOW-UAP-D100, Air Materiel Command Report on Unidentified Flying Objects, 1947-1948","description":"This file is a collection of U.S. Government memoranda and correspondence relating to “Project Sign,” a 1948 U.S. Air Force program to investigate reports of high-performance airborne objects. The documents characterize some of these reports as being consistent with “real” objects rather than fabrications or resulting from perceptual errors. The U.S. Air Force cites the reported characteristics of the phenomena, e.g., high speed and maneuverability, as exceeding known performance envelopes of U.S. military aircraft and thereby presenting a potential national security threat, if validated. This potential threat prompted the Air Force to call on the Air Materiel Command (AMC), the Service’s Major Command for logistics and procurement from 1946 to 1961, to gather further evidence to assess the validity of the reports. The Air Force emphasized that there was an “imperative need” for such evidence to enable appropriate countermeasures. The stated urgency of this request reflects the strategic environment of the early Cold War, a period characterized by heightened national defense concerns amid rapid global advancements in aerospace design and development. In framing the call for an investigation, the Air Force noted that sustained public interest and persistent inquiries from the press may eventually require an official statement in response.\n\nAMC’s investigation found that observers were generally not mistaken when reporting that they had seen an airborne object, but that their characterizations of those objects as unusual was likely a reflection of the “limits of their personal experience.” It identified “a great many” of the objects reported with a rounded appearance as “weather or upper air scientific balloons of some type.” It also identified several cases in which the reported objects were most likely celestial phenomena, such as Venus. AMC found that a small number of reports lacked a “reasonable everyday explanation,” but that “so far, no physical evidence of the existence of the unidentified sightings has been obtained.” AMC expressly considered whether the phenomena may have been “vehicles from another planet,” but found no evidence supporting such an origin. Ultimately, AMC found that “there is as yet no conclusive proof that unidentified flying objects, other than those which are known to be balloons, are real aircraft.” In light of these findings, AMC recommended that the Department of War should avoid publicly commenting on the subject of “flying discs.” Responding to the Air Force’s anticipated concerns regarding public interest in the subject, AMC recommended that the Department should reply in terms that minimize the investigation’s inconclusive findings, focusing on positive determinations in cases assessed to be weather balloons and celestial phenomena.","url":"https://ufo-wheat.vercel.app/doc/85c36b7100b71c87c44615eecefcbebb2ef7477a27ceaac8d9941b22dcaa2b70.html","image":"https://ufo-wheat.vercel.app/extract/thumbs/85c36b7100b71c87c44615eecefcbebb2ef7477a27ceaac8d9941b22dcaa2b70.jpg","creator":{"@type":"GovernmentOrganization","name":"Department of War"},"dateCreated":"1947-1948","isAccessibleForFree":true,"license":"https://www.usa.gov/government-works"}</script>
 <style>
   body { font-family: ui-sans-serif, system-ui, sans-serif; background: #0b0c0f; color: #e6e7ea; max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem; line-height: 1.6; }
@@ -27,11 +29,28 @@
   .meta { color: #8a8f99; font-size: 0.88rem; margin: 0.6rem 0 1.2rem; }
   .narr { white-space: pre-wrap; }
   .cta { display: inline-block; background: #d97757; color: #141413; padding: 0.65rem 1.1rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 1rem; }
+  .badge.tier-green { background: #1d2a1f; color: #7fbf8f; }
+  .badge.tier-amber { background: #2b2617; color: #d9b265; }
+  .badge.tier-red   { background: #2b1d1c; color: #df8c84; }
+  .caveats { background: #15171c; border: 1px solid #232830; border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 1.2rem; }
+  .caveats h2 { font-size: 0.9rem; margin: 0 0 0.5rem; color: #b3b6bd; }
+  .caveats ul { margin: 0; padding-left: 1.1rem; font-size: 0.9rem; color: #b3b6bd; }
+  .nosum { background: #15171c; border: 1px solid #232830; border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 1.2rem; font-size: 0.9rem; color: #b3b6bd; }
+  .nosum h2 { font-size: 0.9rem; margin: 0 0 0.4rem; color: #e6e7ea; }
+  .nav { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .actions { display: flex; gap: 0.9rem; flex-wrap: wrap; align-items: center; margin-top: 1.4rem; }
+  .prov { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #232830; font-size: 0.8rem; color: #8a8f99; }
+  .prov code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; word-break: break-all; color: #b3b6bd; }
 </style>
 </head>
 <body>
-<noscript>
-  <p><a href="/">← UAP Files corpus</a></p>
+<nav class="nav">
+  <a href="/">← UAP Files</a>
+  <a href="/about.html">About</a>
+  <a href="/methodology.html">How it works</a>
+</nav>
+
+<main>
   <h1>DOW-UAP-D100, Air Materiel Command Report on Unidentified Flying Objects, 1947-1948</h1>
   <div class="meta">
     <span class="badge">Department of War</span>
@@ -39,18 +58,27 @@
     
     
   </div>
-  <img class="thumb" src="/extract/thumbs/85c36b7100b71c87c44615eecefcbebb2ef7477a27ceaac8d9941b22dcaa2b70.jpg" alt="DOW-UAP-D100, Air Materiel Command Report on Unidentified Flying Objects, 1947-1948 thumbnail" loading="lazy" />
+  <img class="thumb" src="/extract/thumbs/85c36b7100b71c87c44615eecefcbebb2ef7477a27ceaac8d9941b22dcaa2b70.jpg" alt="DOW-UAP-D100, Air Materiel Command Report on Unidentified Flying Objects, 1947-1948 thumbnail" loading="lazy" width="760" />
   <p>This file is a collection of U.S. Government memoranda and correspondence relating to “Project Sign,” a 1948 U.S. Air Force program to investigate reports of high-performance airborne objects. The documents characterize some of these reports as being consistent with “real” objects rather than fabrications or resulting from perceptual errors. The U.S. Air Force cites the reported characteristics of the phenomena, e.g., high speed and maneuverability, as exceeding known performance envelopes of U.S. military aircraft and thereby presenting a potential national security threat, if validated. This potential threat prompted the Air Force to call on the Air Materiel Command (AMC), the Service’s Major Command for logistics and procurement from 1946 to 1961, to gather further evidence to assess the validity of the reports. The Air Force emphasized that there was an “imperative need” for such evidence to enable appropriate countermeasures. The stated urgency of this request reflects the strategic environment of the early Cold War, a period characterized by heightened national defense concerns amid rapid global advancements in aerospace design and development. In framing the call for an investigation, the Air Force noted that sustained public interest and persistent inquiries from the press may eventually require an official statement in response.
 
 AMC’s investigation found that observers were generally not mistaken when reporting that they had seen an airborne object, but that their characterizations of those objects as unusual was likely a reflection of the “limits of their personal experience.” It identified “a great many” of the objects reported with a rounded appearance as “weather or upper air scientific balloons of some type.” It also identified several cases in which the reported objects were most likely celestial phenomena, such as Venus. AMC found that a small number of reports lacked a “reasonable everyday explanation,” but that “so far, no physical evidence of the existence of the unidentified sightings has been obtained.” AMC expressly considered whether the phenomena may have been “vehicles from another planet,” but found no evidence supporting such an origin. Ultimately, AMC found that “there is as yet no conclusive proof that unidentified flying objects, other than those which are known to be balloons, are real aircraft.” In light of these findings, AMC recommended that the Department of War should avoid publicly commenting on the subject of “flying discs.” Responding to the Air Force’s anticipated concerns regarding public interest in the subject, AMC recommended that the Department should reply in terms that minimize the investigation’s inconclusive findings, focusing on positive determinations in cases assessed to be weather balloons and celestial phenomena.</p>
   
-  <p><a class="cta" href="https://www.war.gov/medialink/ufo/release_05/Aug_07/thumbnails/DOW-UAP-D100_Air-Materiel-Command-Report-on-UFOs_1947-1948.jpg" rel="noopener">↓ Original document (0.2 MB)</a></p>
-  <p><a href="/">← Browse all 178 declassified UAP documents on UAP Files</a></p>
-</noscript>
-<script>
-  // For JS clients, redirect to the SPA with deep-link fragment so the
-  // full interactive experience loads.
-  location.replace('/#doc/85c36b7100b71c87c44615eecefcbebb2ef7477a27ceaac8d9941b22dcaa2b70');
-</script>
+  
+  
+
+  <div class="actions">
+    <a class="cta" href="https://www.war.gov/medialink/ufo/release_05/Aug_07/thumbnails/DOW-UAP-D100_Air-Materiel-Command-Report-on-UFOs_1947-1948.jpg" rel="noopener">↓ Original image (173 KB)</a>
+    <a href="/#doc/85c36b7100b71c87c44615eecefcbebb2ef7477a27ceaac8d9941b22dcaa2b70">Open in the interactive archive →</a>
+  </div>
+  
+
+  <div class="prov">
+    <p>Source of record:
+      <a href="https://www.war.gov/medialink/ufo/release_05/Aug_07/thumbnails/DOW-UAP-D100_Air-Materiel-Command-Report-on-UFOs_1947-1948.jpg" rel="noopener">https://www.war.gov/medialink/ufo/release_05/Aug_07/thumbnails/DOW-UAP-D100_Air-Materiel-Command-Report-on-UFOs_1947-1948.jpg</a>
+    </p>
+    <p>SHA-256: <code>85c36b7100b71c87c44615eecefcbebb2ef7477a27ceaac8d9941b22dcaa2b70</code></p>
+    <p><a href="/">Browse the full archive</a> · <a href="/corrections.html">Report an error in this summary</a></p>
+  </div>
+</main>
 </body>
 </html>

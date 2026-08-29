@@ -17,6 +17,8 @@
 <meta name="twitter:description" content="This file contains a memorandum relating to the U.S. Naval Photographic Interpretation Center’s assessment of two films allegedly depicting unidentified airborne objects, captured in Montana and Ut…" />
 <meta name="twitter:image" content="https://ufo-wheat.vercel.app/og-default.png" />
 <meta name="robots" content="index, follow" />
+<!-- JSON.stringify does not escape "</script", so a document title containing
+     it would close this block and inject markup. Escape < at the source. -->
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CreativeWork","name":"DOW-UAP-D098, Film Analysis of Unidentified Objects, 1953","description":"This file contains a memorandum relating to the U.S. Naval Photographic Interpretation Center’s assessment of two films allegedly depicting unidentified airborne objects, captured in Montana and Utah in 1950 and 1952, respectively. The file documents the Center’s analytic process, assumptions that constrained its confidence level, tentative conclusions, and recommendations for future research. The Center assessed, generally, that the objects depicted in the film demonstrated characteristics that were inconsistent with those of natural phenomena or commonly known aerospace technologies. The memorandum documents the Center’s recommendation for a more well-resourced investigation to corroborate its presumptive findings, citing a lack of funding and personnel. The accompanying charts compare the film’s luminosity with the apparent angular size of the phenomena, using contemporary mathematical modeling and photogrammetric analysis techniques.","url":"https://ufo-wheat.vercel.app/doc/a8f271bb7bae396631eb3e35070fab285eb0d3258041b042b1a5a6b3e0d9c4f1.html","image":"https://ufo-wheat.vercel.app/og-default.png","creator":{"@type":"GovernmentOrganization","name":"Department of War"},"dateCreated":"1950, 1952","locationCreated":{"@type":"Place","name":"Montana, Utah"},"isAccessibleForFree":true,"license":"https://www.usa.gov/government-works"}</script>
 <style>
   body { font-family: ui-sans-serif, system-ui, sans-serif; background: #0b0c0f; color: #e6e7ea; max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem; line-height: 1.6; }
@@ -27,11 +29,28 @@
   .meta { color: #8a8f99; font-size: 0.88rem; margin: 0.6rem 0 1.2rem; }
   .narr { white-space: pre-wrap; }
   .cta { display: inline-block; background: #d97757; color: #141413; padding: 0.65rem 1.1rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 1rem; }
+  .badge.tier-green { background: #1d2a1f; color: #7fbf8f; }
+  .badge.tier-amber { background: #2b2617; color: #d9b265; }
+  .badge.tier-red   { background: #2b1d1c; color: #df8c84; }
+  .caveats { background: #15171c; border: 1px solid #232830; border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 1.2rem; }
+  .caveats h2 { font-size: 0.9rem; margin: 0 0 0.5rem; color: #b3b6bd; }
+  .caveats ul { margin: 0; padding-left: 1.1rem; font-size: 0.9rem; color: #b3b6bd; }
+  .nosum { background: #15171c; border: 1px solid #232830; border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 1.2rem; font-size: 0.9rem; color: #b3b6bd; }
+  .nosum h2 { font-size: 0.9rem; margin: 0 0 0.4rem; color: #e6e7ea; }
+  .nav { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .actions { display: flex; gap: 0.9rem; flex-wrap: wrap; align-items: center; margin-top: 1.4rem; }
+  .prov { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #232830; font-size: 0.8rem; color: #8a8f99; }
+  .prov code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; word-break: break-all; color: #b3b6bd; }
 </style>
 </head>
 <body>
-<noscript>
-  <p><a href="/">← UAP Files corpus</a></p>
+<nav class="nav">
+  <a href="/">← UAP Files</a>
+  <a href="/about.html">About</a>
+  <a href="/methodology.html">How it works</a>
+</nav>
+
+<main>
   <h1>DOW-UAP-D098, Film Analysis of Unidentified Objects, 1953</h1>
   <div class="meta">
     <span class="badge">Department of War</span>
@@ -42,13 +61,22 @@
   
   <p>This file contains a memorandum relating to the U.S. Naval Photographic Interpretation Center’s assessment of two films allegedly depicting unidentified airborne objects, captured in Montana and Utah in 1950 and 1952, respectively. The file documents the Center’s analytic process, assumptions that constrained its confidence level, tentative conclusions, and recommendations for future research. The Center assessed, generally, that the objects depicted in the film demonstrated characteristics that were inconsistent with those of natural phenomena or commonly known aerospace technologies. The memorandum documents the Center’s recommendation for a more well-resourced investigation to corroborate its presumptive findings, citing a lack of funding and personnel. The accompanying charts compare the film’s luminosity with the apparent angular size of the phenomena, using contemporary mathematical modeling and photogrammetric analysis techniques.</p>
   
-  <p><a class="cta" href="https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/DOW-UAP-D098_Film-Analysis-of-Unidentified-Objects_1953.pdf" rel="noopener">↓ Original document (62.7 MB)</a></p>
-  <p><a href="/">← Browse all 178 declassified UAP documents on UAP Files</a></p>
-</noscript>
-<script>
-  // For JS clients, redirect to the SPA with deep-link fragment so the
-  // full interactive experience loads.
-  location.replace('/#doc/a8f271bb7bae396631eb3e35070fab285eb0d3258041b042b1a5a6b3e0d9c4f1');
-</script>
+  
+  
+
+  <div class="actions">
+    <a class="cta" href="https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/DOW-UAP-D098_Film-Analysis-of-Unidentified-Objects_1953.pdf" rel="noopener">↓ Original document (62.7 MB)</a>
+    <a href="/#doc/a8f271bb7bae396631eb3e35070fab285eb0d3258041b042b1a5a6b3e0d9c4f1">Open in the interactive archive →</a>
+  </div>
+  
+
+  <div class="prov">
+    <p>Source of record:
+      <a href="https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/DOW-UAP-D098_Film-Analysis-of-Unidentified-Objects_1953.pdf" rel="noopener">https://www.war.gov/medialink/ufo/release_05/Aug_07/documents/DOW-UAP-D098_Film-Analysis-of-Unidentified-Objects_1953.pdf</a>
+    </p>
+    <p>SHA-256: <code>a8f271bb7bae396631eb3e35070fab285eb0d3258041b042b1a5a6b3e0d9c4f1</code></p>
+    <p><a href="/">Browse the full archive</a> · <a href="/corrections.html">Report an error in this summary</a></p>
+  </div>
+</main>
 </body>
 </html>
