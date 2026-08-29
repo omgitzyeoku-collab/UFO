@@ -12,10 +12,10 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { QA_DIR, assertQaCoverage } from './qa-dir.mjs';
 
 const ROOT = path.resolve('.');
 const RELEASE = path.join(ROOT, 'extract', 'release-manifest.jsonl');
-const QADIR = path.join(ROOT, 'extract', 'public');
 const OUT = path.join(ROOT, 'public', 'entity');
 const BASE = process.env.UAP_BASE_URL || 'https://ufo-wheat.vercel.app';
 await fs.mkdir(OUT, { recursive: true });
@@ -80,6 +80,29 @@ const typeSchema = {
   people: 'Person', locations: 'Place', organisations: 'Organization',
   programs: 'Thing', sensor_platforms: 'Thing', case_numbers: 'Thing',
 };
+
+// Load the QA headline for every document we are about to link to. Before this,
+// QADIR was declared and never read: entity cards rendered d.title, which for
+// several hundred records is the raw filename (65_HS1-834228961_62-HQ-83894…).
+// The human headline already existed in the QA output; it just was not wired up.
+const qaHeadline = new Map();
+{
+  const shas = [...new Set(qualifying.flatMap(([, shaSet]) => [...shaSet]))].filter(sha => docs.has(sha));
+  await Promise.all(shas.map(async sha => {
+    try {
+      const j = JSON.parse(await fs.readFile(path.join(QA_DIR, sha + '.json'), 'utf8'));
+      if (j?.public_headline) qaHeadline.set(sha, j.public_headline);
+    } catch {}
+  }));
+  console.log(`qa headlines resolved: ${qaHeadline.size}/${shas.length} (${QA_DIR})`);
+  // Abort before the write loop, not after — a QA-less run would overwrite every
+  // entity page with raw-filename titles, which is what CI has been publishing.
+  assertQaCoverage(qaHeadline.size, shas.length, 'build-entity-pages');
+}
+
+function cardTitle(d) {
+  return (qaHeadline.get(d.sha256) || d.title || d.name || '').slice(0, 90);
+}
 
 const today = new Date().toISOString().slice(0, 10);
 const allEntitySlugs = new Set();
@@ -194,7 +217,7 @@ ${relatedDocs.map(d => `  <a class="doc-card${d.release === 'release_2' ? ' r2' 
       ${d.type === 'VID' ? '<span class="badge">video</span>' : ''}
       ${d.type === 'AUD' ? '<span class="badge">audio</span>' : ''}
     </div>
-    <h3>${esc((d.title || d.name || '').slice(0, 90))}</h3>
+    <h3>${esc(cardTitle(d))}</h3>
     <div class="meta">${esc(d.incident_date || '')}${d.incident_location && d.incident_location !== 'N/A' ? ' · ' + esc(d.incident_location) : ''}</div>
   </a>`).join('\n')}
 </div>

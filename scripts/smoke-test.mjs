@@ -26,7 +26,16 @@ const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage();
 
 const consoleErrors = [];
-page.on('console', msg => { if (msg.type() === 'error') consoleErrors.push(msg.text()); });
+// Capture the URL alongside the message. Chromium's console text for any
+// subresource failure is the same generic "Failed to load resource: the server
+// responded with a status of 404 (Not Found)" — the URL lives only in
+// msg.location(). Without it, no filter can tell an expected 404 from a broken
+// asset, which is why the old filter had to swallow all of them.
+page.on('console', msg => {
+  if (msg.type() !== 'error') return;
+  const url = msg.location()?.url || '';
+  consoleErrors.push(url ? `${msg.text()} ${url}` : msg.text());
+});
 page.on('pageerror', e => consoleErrors.push(`PAGE ERROR: ${e.message}`));
 
 console.log(`smoke-testing ${TARGET}`);
@@ -57,7 +66,12 @@ const featured = await page.evaluate(() => document.querySelectorAll('#hero-feat
 expect(`featured tiles >= 3`, featured >= 3, `got ${featured}`);
 
 // 6. No JS execution errors (pageerror)
-const realErrors = consoleErrors.filter(e => !/(404|favicon)/i.test(e));
+// Two 404 classes are expected by design: the favicon, and the per-card
+// thumbnail probe in index.html, which guesses every doc has a thumbnail and
+// lets <img onerror> swap in a fallback. Every other 404 is a real broken
+// asset and must fail the run.
+const EXPECTED_404 = /favicon|\/extract\/thumbs\//i;
+const realErrors = consoleErrors.filter(e => !EXPECTED_404.test(e));
 expect(`no JS execution errors`, realErrors.length === 0, `${realErrors.length}: ${realErrors.slice(0,2).join(' | ')}`);
 
 // 7. View switching works (network view should render an SVG with nodes)
@@ -88,10 +102,54 @@ const roswellCards = await page.evaluate(() => document.querySelectorAll('.card,
 expect(`full-text "roswell" returns results`, roswellCards >= 1, `got ${roswellCards} cards`);
 expect(`full-text body-match badge present`, bodyHits >= 1, `got ${bodyHits} body-badged cards (waited 15s)`);
 
+// 10. The download links actually resolve. The page never fetches these — they
+//     are <a href> targets — so no console error is ever produced for a dead
+//     one. The whole GitHub mirror went 404 when the repo was flipped private
+//     and nothing here noticed. Sample and probe them directly.
+const sample = await page.evaluate(async () => {
+  const r = await fetch('/extract/corpus.json');
+  const docs = await r.json();
+  const arr = Array.isArray(docs) ? docs : Object.values(docs).find(v => Array.isArray(v));
+  const byHost = new Map();
+  for (const d of arr) {
+    const u = d.release_url;
+    if (!u) continue;
+    let h; try { h = new URL(u).hostname; } catch { continue; }
+    if (!byHost.has(h)) byHost.set(h, []);
+    if (byHost.get(h).length < 3) byHost.get(h).push(u);
+  }
+  return [...byHost.values()].flat();
+});
+
+// 404/410 means the document is gone — always a failure. 401/403/429 means the
+// origin refused an automated client; several government hosts (aaro.mil,
+// war.gov) sit behind bot protection and 403 every non-browser request while
+// serving real visitors fine. That is their policy, not a broken archive, so it
+// is reported but not failed. The mirror we control gets no such latitude.
+const dead = [];
+const blocked = [];
+for (const u of sample) {
+  const isOurMirror = /(^|\/\/)github\.com\//.test(u);
+  try {
+    const res = await page.request.get(u, { headers: { Range: 'bytes=0-511' }, timeout: 30000 });
+    const s = res.status();
+    if (s < 400) continue;
+    if (!isOurMirror && [401, 403, 429].includes(s)) blocked.push(`${s} ${u}`);
+    else dead.push(`${s} ${u}`);
+  } catch (e) {
+    dead.push(`ERR ${u} (${e.message.slice(0, 60)})`);
+  }
+}
+if (blocked.length) {
+  console.log(`  note: ${blocked.length}/${sample.length} origins refused an automated client (bot protection, not a dead link)`);
+}
+expect(`document download links resolve (${sample.length} sampled across hosts)`,
+  dead.length === 0, dead.slice(0, 3).join(' | '));
+
 await browser.close();
 
 if (failures.length) {
   console.error(`\n${failures.length} FAILED: ${failures.join(', ')}`);
   process.exit(1);
 }
-console.log(`\nall ${10} checks passed`);
+console.log(`\nall ${11} checks passed`);

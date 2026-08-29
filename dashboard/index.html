@@ -301,7 +301,7 @@ function entityChips(e) {
   for (const [type, label] of [['people','people'],['places','places'],['organisations','orgs'],['projects','projects'],['case_numbers','case#'],['sensor_platforms','sensors'],['object_types','objects'],['classifications','class']]) {
     const v = e[type];
     if (!v?.length) continue;
-    parts.push(`<div style="margin-top:0.4rem;"><span style="color:var(--dim); font-size:0.7rem;">${label}: </span>${v.map(x => `<span class="chip" onclick="filterByEntity('${escapeHtml((x||'').replace(/'/g,'\\\\\\''))}'); return false;">${escapeHtml(x.slice(0,60))}</span>`).join(' ')}</div>`);
+    parts.push(`<div style="margin-top:0.4rem;"><span style="color:var(--dim); font-size:0.7rem;">${label}: </span>${v.map(x => `<span class="chip" onclick="filterByEntity('${escapeHtml((x||'').replace(/'/g,"\\'"))}'); return false;">${escapeHtml(x.slice(0,60))}</span>`).join(' ')}</div>`);
   }
   if (e.key_claims?.length) parts.push(`<div style="margin-top:0.5rem;"><span style="color:var(--dim); font-size:0.7rem;">key claims:</span><ul style="margin:0.3rem 0 0 1rem; padding:0; font-size:0.78rem;">${e.key_claims.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul></div>`);
   if (e.novelty_signals?.length) parts.push(`<div style="margin-top:0.5rem;"><span style="color:var(--dim); font-size:0.7rem;">novelty:</span><ul style="margin:0.3rem 0 0 1rem; padding:0; font-size:0.78rem;">${e.novelty_signals.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul></div>`);
@@ -376,7 +376,7 @@ function renderEntities() {
     arr.sort((a,b) => b.doc_count - a.doc_count);
     html += `<h3 style="margin-top:1rem;">${t} (${arr.length})</h3>
       <table class="ent-table"><thead><tr><th>name</th><th>docs</th><th>variants</th></tr></thead><tbody>
-      ${arr.slice(0, 50).map(e => `<tr onclick="filterByEntity('${escapeHtml((e.canonical||'').replace(/'/g,'\\\\\\''))}')"><td>${escapeHtml(e.canonical)}</td><td>${e.doc_count}</td><td style="color:var(--dim);">${e.variants.length}</td></tr>`).join('')}
+      ${arr.slice(0, 50).map(e => `<tr onclick="filterByEntity('${escapeHtml((e.canonical||'').replace(/'/g,"\\'"))}')"><td>${escapeHtml(e.canonical)}</td><td>${e.doc_count}</td><td style="color:var(--dim);">${e.variants.length}</td></tr>`).join('')}
       </tbody></table>`;
   }
   c.innerHTML = html;

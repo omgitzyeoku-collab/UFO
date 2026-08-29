@@ -42,3 +42,22 @@ page-*.png
 
 # Generated entity pages (rebuilt on every deploy)
 extract/public/
+
+# Build output copied into public/ by scripts/vercel-build.sh on every deploy.
+# These are duplicates of extract/*; the deploy regenerates them. Listing them
+# keeps the release-watch workflow's `git add -A` from committing ~24 MB of
+# byte-identical data on every release.
+#
+# NOT ignored, and deliberately committed: public/extract/public/ (the QA mirror
+# that extract/qa-dir.mjs falls back to on a bare CI checkout), public/extract/
+# thumbs/, transcripts/, corpus.json, connections.jsonl, geocoded.jsonl and the
+# *-index.json files — the site reads those directly.
+public/extract/captions.jsonl
+public/extract/entities.jsonl
+public/extract/entities-normalised.jsonl
+public/extract/entity-index.jsonl
+public/extract/evidence.jsonl
+public/extract/release-manifest.jsonl
+public/extract/scores.jsonl
+public/extract/text/
+public/docs/

@@ -5,9 +5,9 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { QA_DIR, QA_DIR_CANDIDATES } from './qa-dir.mjs';
 
 const ROOT = path.resolve('.');
-const QA_DIR = path.join(ROOT, 'extract', 'public');
 const THUMBS_DIR = path.join(ROOT, 'extract', 'thumbs');
 const TRANSCRIPTS_DIR = path.join(ROOT, 'extract', 'transcripts');
 
@@ -21,6 +21,19 @@ async function indexDir(dir, suffix) {
 const qaShas = await indexDir(QA_DIR, '.json');
 const thumbShas = await indexDir(THUMBS_DIR, '.jpg');
 const transcriptShas = await indexDir(TRANSCRIPTS_DIR, '.json');
+
+// An empty qa-index is not a valid state — the client reads it to decide which
+// per-document QA files are worth fetching, so {"shas":[],"count":0} silently
+// turns off the entire verification layer on the site. That is exactly what
+// shipped when this script resolved a gitignored path in CI. Fail instead.
+if (qaShas.length === 0) {
+  console.error('FATAL (build-qa-index): resolved 0 QA files.');
+  console.error(`  looked in:  ${QA_DIR}`);
+  console.error(`  candidates: ${QA_DIR_CANDIDATES.join(', ')}`);
+  console.error('Refusing to write an empty qa-index.json — it would disable every');
+  console.error('verification badge on the site. Fix the QA path, then rebuild.');
+  process.exit(1);
+}
 
 const ts = new Date().toISOString();
 await fs.writeFile(path.join(ROOT, 'extract', 'qa-index.json'),

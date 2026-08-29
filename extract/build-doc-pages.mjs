@@ -1,17 +1,21 @@
-// For each doc, generate a static HTML stub at public/doc/<sha>.html.
-// Why: social shares (Twitter/LinkedIn/Discord), Google crawlers, and link
-// previews all read server-rendered <meta> tags. Hash fragments in a SPA
-// don't surface there. These static stubs carry the meta tags + a fallback
-// noscript body, then JS redirects to the main app with #doc/<sha>.
+// For each doc, generate a real static page at public/doc/<sha>.html.
 //
-// Also rebuilds public/sitemap.xml with the production domain.
+// This is the archive's citation URL — it is what the Cite button emits, what
+// every canonical and og:url points at, and what entity pages link to. It used
+// to put its whole body inside <noscript> and then location.replace() to the
+// SPA, which meant the cited URL rendered nothing, and search consolidated all
+// 1,083 of them (77% of the sitemap) into "/". The body is now ordinary HTML;
+// the interactive app is offered as a link rather than forced as a redirect.
+//
+// Also rebuilds public/sitemap.xml and public/robots.txt with the production
+// domain, and prunes doc pages whose sha has left the manifest.
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { QA_DIR, assertQaCoverage } from './qa-dir.mjs';
 
 const ROOT = path.resolve('.');
 const RELEASE = path.join(ROOT, 'extract', 'release-manifest.jsonl');
-const QADIR = path.join(ROOT, 'extract', 'public');
 const OUTDIR = path.join(ROOT, 'public', 'doc');
 const SITEMAP = path.join(ROOT, 'public', 'sitemap.xml');
 const THUMBS = path.join(ROOT, 'extract', 'thumbs');
@@ -32,10 +36,22 @@ function escapeAttr(s) { return escapeHtml(s).replace(/`/g, '&#96;'); }
 
 async function loadQa(sha) {
   try {
-    const j = await fs.readFile(path.join(QADIR, sha + '.json'), 'utf8');
+    const j = await fs.readFile(path.join(QA_DIR, sha + '.json'), 'utf8');
     return JSON.parse(j);
   } catch { return null; }
 }
+
+// Resolve QA for every doc up front so coverage can be checked BEFORE anything
+// is written. Loading it inside the write loop meant a run that resolved zero
+// QA files still overwrote all 1,083 pages with raw-filename titles and no
+// verification badge — which is what CI has been publishing.
+const qaBySha = new Map();
+await Promise.all(docs.map(async d => {
+  const qa = await loadQa(d.sha256);
+  if (qa) qaBySha.set(d.sha256, qa);
+}));
+console.log(`qa resolved: ${qaBySha.size}/${docs.length} (${QA_DIR})`);
+assertQaCoverage(qaBySha.size, docs.length, 'build-doc-pages');
 
 async function thumbExists(sha) {
   try { await fs.access(path.join(THUMBS, sha + '.jpg')); return true; } catch { return false; }
@@ -61,7 +77,7 @@ try {
 
 let wrote = 0;
 for (const d of docs) {
-  const qa = await loadQa(d.sha256);
+  const qa = qaBySha.get(d.sha256) || null;
   const headline = qa?.public_headline || d.title || d.name || `Document ${d.sha256.slice(0,12)}`;
   const tldr = qa?.public_tldr || d.description || `Declassified US government UAP document — ${d.agency || 'unknown agency'}.`;
   const hasThumb = await thumbExists(d.sha256);
@@ -71,6 +87,32 @@ for (const d of docs) {
 
   const truncTldr = tldr.length > 200 ? tldr.slice(0, 197) + '…' : tldr;
   const truncHeadline = headline.length > 100 ? headline.slice(0, 97) + '…' : headline;
+
+  // The qualifications must travel with the summary. The SPA renders these
+  // directly beneath the same narrative (public/index.html:1878); omitting them
+  // here published the AI narrative stripped of its own caveats on the page
+  // that is now canonical and indexable.
+  const caveats = Array.isArray(qa?.public_caveats) ? qa.public_caveats.filter(Boolean) : [];
+
+  // Tier must be explicit. A badge-or-nothing signal makes amber (46 docs)
+  // visually identical to an unreviewed record.
+  const TIER_LABEL = {
+    green: '✓ verified against source',
+    amber: '± partially verified',
+    red: '⚠ unverified — no summary published',
+  };
+  const tierBadge = qa?.tier && TIER_LABEL[qa.tier]
+    ? `<span class="badge tier-${qa.tier}">${TIER_LABEL[qa.tier]}</span>`
+    : '';
+
+  // 612 records are National Archives catalogue entries, and 575 of them share
+  // one URL covering a whole series. Labelling that "↓ Original document (49 KB)"
+  // promises a per-document file that does not exist. The SPA already branches
+  // on this (public/index.html:1893); the static page must match.
+  const isNara = d.source === 'nara' || !/\.[a-z0-9]{2,5}(\?|$)/i.test(d.release_url || '');
+  const assetNoun = d.type === 'VID' ? 'video' : d.type === 'AUD' ? 'audio' : d.type === 'IMG' ? 'image' : 'document';
+  const sizeLabel = d.bytes >= 1048576 ? ` (${(d.bytes / 1048576).toFixed(1)} MB)`
+    : d.bytes >= 1024 ? ` (${Math.round(d.bytes / 1024)} KB)` : '';
 
   // structured data: CreativeWork / Article-style
   const jsonLd = {
@@ -106,7 +148,9 @@ for (const d of docs) {
 <meta name="twitter:description" content="${escapeAttr(truncTldr)}" />
 <meta name="twitter:image" content="${escapeAttr(ogImage)}" />
 <meta name="robots" content="index, follow" />
-<script type="application/ld+json">${JSON.stringify(jsonLd, null, 0)}</script>
+<!-- JSON.stringify does not escape "</script", so a document title containing
+     it would close this block and inject markup. Escape < at the source. -->
+<script type="application/ld+json">${JSON.stringify(jsonLd, null, 0).replace(/</g, '\\u003c')}</script>
 <style>
   body { font-family: ui-sans-serif, system-ui, sans-serif; background: #0b0c0f; color: #e6e7ea; max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem; line-height: 1.6; }
   a { color: #d97757; }
@@ -116,29 +160,66 @@ for (const d of docs) {
   .meta { color: #8a8f99; font-size: 0.88rem; margin: 0.6rem 0 1.2rem; }
   .narr { white-space: pre-wrap; }
   .cta { display: inline-block; background: #d97757; color: #141413; padding: 0.65rem 1.1rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 1rem; }
+  .badge.tier-green { background: #1d2a1f; color: #7fbf8f; }
+  .badge.tier-amber { background: #2b2617; color: #d9b265; }
+  .badge.tier-red   { background: #2b1d1c; color: #df8c84; }
+  .caveats { background: #15171c; border: 1px solid #232830; border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 1.2rem; }
+  .caveats h2 { font-size: 0.9rem; margin: 0 0 0.5rem; color: #b3b6bd; }
+  .caveats ul { margin: 0; padding-left: 1.1rem; font-size: 0.9rem; color: #b3b6bd; }
+  .nosum { background: #15171c; border: 1px solid #232830; border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 1.2rem; font-size: 0.9rem; color: #b3b6bd; }
+  .nosum h2 { font-size: 0.9rem; margin: 0 0 0.4rem; color: #e6e7ea; }
+  .nav { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .actions { display: flex; gap: 0.9rem; flex-wrap: wrap; align-items: center; margin-top: 1.4rem; }
+  .prov { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #232830; font-size: 0.8rem; color: #8a8f99; }
+  .prov code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; word-break: break-all; color: #b3b6bd; }
 </style>
 </head>
 <body>
-<noscript>
-  <p><a href="/">← UAP Files corpus</a></p>
+<nav class="nav">
+  <a href="/">← UAP Files</a>
+  <a href="/about.html">About</a>
+  <a href="/methodology.html">How it works</a>
+</nav>
+
+<main>
   <h1>${escapeHtml(headline)}</h1>
   <div class="meta">
     ${d.agency ? `<span class="badge">${escapeHtml(d.agency)}</span>` : ''}
     ${d.incident_date && d.incident_date !== 'N/A' ? `<span class="badge">${escapeHtml(d.incident_date)}</span>` : ''}
     ${d.incident_location && d.incident_location !== 'N/A' ? `<span class="badge">${escapeHtml(d.incident_location)}</span>` : ''}
-    ${qa?.tier === 'green' ? '<span class="badge">verified</span>' : ''}
+    ${tierBadge}
   </div>
-  ${hasThumb ? `<img class="thumb" src="/extract/thumbs/${d.sha256}.jpg" alt="${escapeAttr(headline)} thumbnail" loading="lazy" />` : ''}
+  ${hasThumb ? `<img class="thumb" src="/extract/thumbs/${d.sha256}.jpg" alt="${escapeAttr(headline)} thumbnail" loading="lazy" width="760" />` : ''}
   <p>${escapeHtml(tldr)}</p>
   ${qa?.public_narrative ? `<div class="narr">${escapeHtml(qa.public_narrative)}</div>` : ''}
-  <p><a class="cta" href="${escapeAttr(d.release_url)}" rel="noopener">↓ Original document (${d.bytes ? (d.bytes/1048576).toFixed(1) + ' MB' : ''})</a></p>
-  <p><a href="/">← Browse all 178 declassified UAP documents on UAP Files</a></p>
-</noscript>
-<script>
-  // For JS clients, redirect to the SPA with deep-link fragment so the
-  // full interactive experience loads.
-  location.replace('/#doc/${d.sha256}');
-</script>
+  ${caveats.length ? `<div class="caveats">
+    <h2>What to know</h2>
+    <ul>${caveats.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul>
+  </div>` : ''}
+  ${qa?.tier === 'red' ? `<div class="nosum">
+    <h2>Why there is no summary here</h2>
+    <p>We extracted claims from this document but could not match them to an exact quote in the source, so we do not publish them. Read the original — it is linked below — and judge it yourself.</p>
+  </div>` : ''}
+
+  <div class="actions">
+    <a class="cta" href="${escapeAttr(d.release_url)}" rel="noopener">${isNara
+      ? '↗ View at the National Archives'
+      : `↓ Original ${assetNoun}${sizeLabel}`}</a>
+    <a href="/#doc/${d.sha256}">Open in the interactive archive →</a>
+  </div>
+  ${isNara ? `<div class="nosum">
+    <h2>This is a National Archives record</h2>
+    <p>The full original is hosted at <a href="${escapeAttr(d.release_url)}" rel="noopener">catalog.archives.gov</a>, which serves a catalogue page covering a series rather than a single file.${d.nara_series ? ` Series: ${escapeHtml(d.nara_series)}.` : ''}</p>
+  </div>` : ''}
+
+  <div class="prov">
+    <p>Source of record:
+      ${d.url ? `<a href="${escapeAttr(d.url)}" rel="noopener">${escapeHtml(d.url)}</a>` : 'US government release'}
+    </p>
+    <p>SHA-256: <code>${escapeHtml(d.sha256)}</code></p>
+    <p><a href="/">Browse the full archive</a> · <a href="/corrections.html">Report an error in this summary</a></p>
+  </div>
+</main>
 </body>
 </html>
 `;
@@ -146,6 +227,33 @@ for (const d of docs) {
   await fs.writeFile(path.join(OUTDIR, d.sha256 + '.html'), html);
   sitemapUrls.push({ loc: canonicalUrl, priority: '0.8', changefreq: 'monthly', image: hasThumb ? ogImage : undefined });
   wrote++;
+}
+
+// Prune doc pages whose sha is no longer in the manifest. Without this they
+// stay on disk, stay in the deploy, and stay indexable — pages for documents
+// the archive no longer claims to hold.
+//
+// These are the archive's citation URLs, so the prune is floored. A truncated
+// or partially-merged manifest must never be able to mass-delete them: the QA
+// coverage guard above cannot catch that case, because it measures a RATIO —
+// shrink the manifest and numerator and denominator shrink together.
+const liveShas = new Set(docs.map(d => d.sha256));
+const onDisk = (await fs.readdir(OUTDIR)).filter(f => /^[0-9a-f]{64}\.html$/.test(f));
+const orphans = onDisk.filter(f => !liveShas.has(f.slice(0, 64)));
+const PRUNE_CEILING = Math.max(25, Math.floor(onDisk.length * 0.05));
+if (orphans.length > PRUNE_CEILING) {
+  console.error(`FATAL (build-doc-pages): ${orphans.length} of ${onDisk.length} doc pages`);
+  console.error(`look orphaned, over the ceiling of ${PRUNE_CEILING}. The manifest has`);
+  console.error(`${docs.length} documents. This is what a truncated or partially-merged`);
+  console.error('manifest looks like, not a real removal. Refusing to prune citation URLs.');
+  console.error('If the removal is genuine, delete the stale files by hand and re-run.');
+  process.exit(1);
+}
+let pruned = 0;
+for (const f of orphans) {
+  console.log(`  prune orphan: ${f}`);
+  await fs.unlink(path.join(OUTDIR, f));
+  pruned++;
 }
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -176,6 +284,6 @@ Crawl-delay: 1
 `;
 await fs.writeFile(path.join(ROOT, 'public', 'robots.txt'), robots);
 
-console.log(`built ${wrote} doc pages → public/doc/`);
+console.log(`built ${wrote} doc pages → public/doc/  (pruned ${pruned} orphans)`);
 console.log(`sitemap → ${sitemapUrls.length} urls`);
 console.log(`robots.txt + sitemap.xml regenerated with base: ${BASE}`);

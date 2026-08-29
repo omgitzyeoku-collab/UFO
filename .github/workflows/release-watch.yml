@@ -39,6 +39,16 @@ jobs:
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
 
+      # pdftotext. Without it extract-pdf-text.mjs fails on every PDF the
+      # automated path touches, and the release ships with no document text,
+      # no full-text index entry and no QA — which is how 22 Release 5 PDFs
+      # went live with "_notext": true.
+      - name: Install poppler-utils
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+          pdftotext -v
+
       - name: Run release watcher
         id: watch
         run: |
@@ -93,3 +103,14 @@ jobs:
           echo "::notice::Release watcher detected new content. Site will update via Vercel."
           # TODO: when notify-list endpoint is wired, fan out emails to
           # subscribers here (curl POST to a webhook with the diff summary).
+
+      # A failed watcher leaves the CSV SHA unadvanced and commits nothing, so
+      # the only trace is a red tick in the Actions tab. Without this the
+      # pipeline can stop ingesting silently — which is how the last one did.
+      - name: Alarm on failure
+        if: failure()
+        run: |
+          echo "::error title=release-watch failed::The mirror did not complete. \
+          Exit code from the watcher step: ${{ steps.watch.outputs.result }}. \
+          docs/release-watch-state.json was NOT advanced if acquisition failed, so the \
+          next scheduled run will retry. If this repeats, the pipeline has stopped ingesting."

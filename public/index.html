@@ -1993,12 +1993,12 @@ function showCitation(d, qa) {
   author = {{${agency}}},
   year = {${year}},
   howpublished = {UAP Files declassified corpus},
-  note = {Original: ${d.release_url || d.url || ''}; accessed ${accessed}},
+  note = {Original: ${d.url || d.release_url || ''}${d.release_url && d.release_url !== d.url ? `; mirror: ${d.release_url}` : ''}; sha256: ${d.sha256}; accessed ${accessed}},
   url = {${url}}
 }`;
 
   // Chicago notes-bibliography
-  const chicago = `${agency}. ${year}. "${headline.replace(/"/g, '\\"')}". UAP Files. Accessed ${accessed}. ${url}.`;
+  const chicago = `${agency}. ${year}. "${headline.replace(/"/g, '\\"')}". UAP Files. SHA-256 ${d.sha256}. Accessed ${accessed}. ${url}.`;
 
   document.getElementById('cite-bibtex').textContent = bibtex;
   document.getElementById('cite-chicago').textContent = chicago;

@@ -42,6 +42,15 @@ for (let i = 0; i < pdfs.length; i++) {
   if (exists) { skipped++; continue; }
   const blobPath = path.join(ROOT, r.blob_path);
   const proc = spawnSync('pdftotext', ['-q', '-layout', blobPath, txtPath], { encoding: 'utf8', timeout: 120_000 });
+  // pdftotext missing entirely is an environment fault, not a bad PDF. Logging
+  // it once per file and exiting 0 is how a CI run published a whole release
+  // with no document text at all. Abort on the first ENOENT.
+  if (proc.error?.code === 'ENOENT') {
+    console.error('FATAL: pdftotext not found on PATH.');
+    console.error('  Install poppler-utils (Debian/Ubuntu: apt-get install -y poppler-utils).');
+    console.error('  Refusing to continue — every document would be published without text.');
+    process.exit(127);
+  }
   if (proc.status !== 0) {
     failed++;
     console.log(`  [${i+1}/${pdfs.length}] FAIL ${r.sha256.slice(0,12)} ${(r.url || '').slice(0, 80)}`);

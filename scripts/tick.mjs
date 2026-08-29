@@ -36,8 +36,19 @@ run('node', ['extract/parse-filenames.mjs']);
 // 3. Sign manifest
 run('node', ['manifest/sign.mjs']);
 
-// 4. Diff (exit code 2 = changes detected; exit code 0 = no changes)
+// 4. Diff. Three-state contract:
+//      0 = no corpus change
+//      2 = corpus change detected
+//      anything else = the diff could not be trusted (incomparable pair, crash)
+// Anything outside {0, 2} must NOT fall through to the no-change branch — that
+// would commit and push a "routine snapshot" off a comparison the differ itself
+// rejected.
 const diffExit = run('node', ['manifest/diff.mjs']);
+if (diffExit !== 0 && diffExit !== 2) {
+  console.error(`manifest/diff.mjs exited ${diffExit} — the comparison is not trustworthy.`);
+  console.error('Refusing to commit a snapshot off a rejected diff.');
+  process.exit(diffExit);
+}
 const changesDetected = diffExit === 2;
 
 // 5. If new assets appeared, describe them too (idempotent — describe-images skips already-captioned sha256s)
